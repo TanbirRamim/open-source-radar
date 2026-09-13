@@ -117,6 +117,34 @@ class MarkdownTests(unittest.TestCase):
         self.assertEqual(radar.format_stars(12345), "12.3k")
 
 
+class ProjectsPageTests(unittest.TestCase):
+    def test_projects_page_groups_by_language_and_counts_beginner_issues(self):
+        import tempfile, pathlib
+        repositories = {
+            "a/one": {"url": "https://github.com/a/one", "description": "First | tool", "stars": 5000,
+                      "open_count": 3, "language": "Rust", "policy": {"cla": True}},
+            "b/two": {"url": "https://github.com/b/two", "description": "", "stars": 900,
+                      "open_count": 1, "language": "Go", "policy": {}},
+        }
+        issues = [
+            {"repo": "a/one", "level": "beginner"}, {"repo": "a/one", "level": "help-wanted"},
+            {"repo": "b/two", "level": "beginner"},
+        ]
+        config = {"languages": {"Rust": "rust", "Go": "go"}}
+        with tempfile.TemporaryDirectory() as tmp:
+            original = radar.ROOT
+            radar.ROOT = pathlib.Path(tmp)
+            try:
+                radar.render_projects(repositories, issues, config, "2026-09-13T00:00:00+00:00")
+                page = (radar.ROOT / "projects" / "README.md").read_text()
+            finally:
+                radar.ROOT = original
+        self.assertIn("## Rust", page)
+        self.assertIn("## Go", page)
+        self.assertIn("| [a/one](https://github.com/a/one/issues) | 5k | 3 | 1 | ✍️ CLA | First \\| tool |", page)
+        self.assertIn("[open issues](../issues/by-language/rust.md)", page)
+
+
 class QueryTests(unittest.TestCase):
     def test_query_quotes_names_and_labels(self):
         query = radar.build_repo_query(['own"er/na"me'], ['good "first"'], 5, include_policy=True)

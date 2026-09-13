@@ -578,6 +578,8 @@ def render(config: dict[str, Any]) -> None:
         f"**{len(issues)}** open, unclaimed issues from **{len(repositories)}** active projects "
         f"({beginner_total} labeled for beginners). Updated {generated_at[:16].replace('T', ' ')} UTC.",
         "",
+        "Looking for a project rather than an issue? See the [projects directory](../projects/README.md).",
+        "",
         "## By language",
         "",
         "| Language | Issues | Beginner | Projects |",
@@ -593,10 +595,63 @@ def render(config: dict[str, Any]) -> None:
     ]
     (ROOT / "issues" / "README.md").write_text("\n".join(index), encoding="utf-8")
 
+    render_projects(repositories, issues, config, generated_at)
     update_readme_stats(len(issues), len(repositories), beginner_total, language_rows, topic_rows, generated_at)
     site_payload = {**payload, "topic_titles": {slug: bucket["title"] for slug, bucket in config["topics"].items()}}
     write_json(SITE_DATA_PATH, site_payload, compact=True)
     log(f"rendered {len(language_rows)} language pages and {len(topic_rows)} topic pages")
+
+
+def render_projects(repositories: dict[str, Any], issues: list[dict[str, Any]], config: dict[str, Any], generated_at: str) -> None:
+    """Write projects/README.md: every tracked project with open newcomer issues, grouped by language."""
+    beginner_counts: dict[str, int] = {}
+    for issue in issues:
+        if issue["level"] == "beginner":
+            beginner_counts[issue["repo"]] = beginner_counts.get(issue["repo"], 0) + 1
+    by_language: dict[str, list[tuple[str, dict[str, Any]]]] = {}
+    for full_name, repo in repositories.items():
+        by_language.setdefault(repo.get("language") or "Other", []).append((full_name, repo))
+    ordered = sorted(by_language.items(), key=lambda entry: len(entry[1]), reverse=True)
+    slugs: dict[str, str] = config["languages"]
+
+    lines = [
+        "# Projects welcoming contributors",
+        "",
+        f"**{len(repositories):,}** active open source projects that currently have open, unclaimed issues labeled for "
+        f"newcomers or help wanted, grouped by language. Updated {generated_at[:16].replace('T', ' ')} UTC.",
+        "",
+        "Use this page to find a project first, then pick an issue in it. Before contributing, check that the project "
+        "merged pull requests from outside contributors recently ([how](../guide/03-choose-a-project.md)).",
+        "",
+        "**Rules column:** ⚠️ AI restricted · 🤖 disclose AI use · 📄 AI policy · ✍️ CLA · 🔏 DCO, detected automatically "
+        "from contribution files. [What these mean](../guide/06-rules-before-you-start.md).",
+        "",
+        "## Languages",
+        "",
+        " · ".join(f"[{language} ({len(entries)})](#{re.sub(r'[^a-z0-9 -]', '', language.lower()).replace(' ', '-')})" for language, entries in ordered),
+        "",
+    ]
+    for language, entries in ordered:
+        entries.sort(key=lambda entry: entry[1]["stars"], reverse=True)
+        issues_link = f" · [open issues](../issues/by-language/{slugs[language]}.md)" if language in slugs else ""
+        lines += [
+            f"## {language}",
+            "",
+            f"{len(entries)} projects{issues_link}",
+            "",
+            "| Project | Stars | Open issues | Beginner | Rules | What it is |",
+            "| --- | ---: | ---: | ---: | --- | --- |",
+        ]
+        for full_name, repo in entries:
+            description = md_escape(repo.get("description") or "")[:120]
+            lines.append(
+                f"| [{full_name}]({repo['url']}/issues) | {format_stars(repo['stars'])} | {repo['open_count']} "
+                f"| {beginner_counts.get(full_name, 0)} | {notes_for(repo)} | {description} |"
+            )
+        lines.append("")
+    target = ROOT / "projects" / "README.md"
+    target.parent.mkdir(parents=True, exist_ok=True)
+    target.write_text("\n".join(lines), encoding="utf-8")
 
 
 def update_readme_stats(

@@ -6,7 +6,7 @@
 
 Open, unclaimed, newcomer-friendly issues from active open source projects, sorted by language and topic and refreshed every 12 hours, plus a complete, practical contribution guide.
 
-[**Browse issues on the website**](https://tanbirramim.github.io/open-source-radar/) &nbsp;|&nbsp; [**Read the guide**](guide/README.md) &nbsp;|&nbsp; [**Issues by language**](issues/README.md#by-language) &nbsp;|&nbsp; [**Issues by topic**](issues/README.md#by-topic)
+[**Browse issues on the website**](https://tanbirramim.github.io/open-source-radar/) &nbsp;|&nbsp; [**Read the guide**](guide/README.md) &nbsp;|&nbsp; [**Issues by language**](issues/README.md#by-language) &nbsp;|&nbsp; [**Issues by topic**](issues/README.md#by-topic) &nbsp;|&nbsp; [**Projects directory**](projects/README.md)
 
 [![Refresh issue data](https://github.com/TanbirRamim/open-source-radar/actions/workflows/refresh.yml/badge.svg)](https://github.com/TanbirRamim/open-source-radar/actions/workflows/refresh.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-0E7C72.svg)](LICENSE)
@@ -17,6 +17,11 @@ Open, unclaimed, newcomer-friendly issues from active open source projects, sort
 ## Right now on the radar
 
 <!-- RADAR:STATS:START -->
+**3,574** open issues · **1,406** labeled for beginners · **1,210** active projects · updated 2026-09-13 01:43 UTC
+
+**Languages:** [C++](issues/by-language/cpp.md) (379) · [Go](issues/by-language/go.md) (363) · [Rust](issues/by-language/rust.md) (328) · [TypeScript](issues/by-language/typescript.md) (317) · [Java](issues/by-language/java.md) (273) · [Python](issues/by-language/python.md) (270) · [C#](issues/by-language/csharp.md) (253) · [JavaScript](issues/by-language/javascript.md) (186) · [PHP](issues/by-language/php.md) (171) · [C](issues/by-language/c.md) (163) · [Kotlin](issues/by-language/kotlin.md) (160) · [Shell](issues/by-language/shell.md) (125) · [all languages](issues/README.md#by-language)
+
+**Topics:** [Mobile and desktop apps](issues/by-topic/mobile.md) (611) · [Cloud, DevOps and infrastructure](issues/by-topic/cloud-devops.md) (536) · [Developer tools](issues/by-topic/devtools.md) (422) · [AI and machine learning](issues/by-topic/ai-ml.md) (421) · [Data and databases](issues/by-topic/data.md) (308) · [Web development](issues/by-topic/web.md) (284) · [Security and privacy](issues/by-topic/security.md) (236) · [Systems and embedded](issues/by-topic/systems.md) (185) · [Games and graphics](issues/by-topic/games-graphics.md) (140) · [Documentation and education](issues/by-topic/docs-education.md) (76) · [Finance and Web3](issues/by-topic/finance-web3.md) (60) · [Science and research](issues/by-topic/science.md) (59)
 <!-- RADAR:STATS:END -->
 
 ## Why this exists
@@ -26,6 +31,7 @@ Finding a first issue is harder than it should be. Popular "good first issue" li
 Open Source Radar fixes the first part with data and the second part with a guide:
 
 - **Only issues you can actually pick up.** Every listed issue is open, has no assignee, has no open or merged pull request linked to it, was updated in the last six months, and belongs to a project with recent commits.
+- **A directory of welcoming projects.** Every active project with open newcomer issues, grouped by language, with stars and rules: [projects directory](projects/README.md).
 - **Organized the way you search.** By [language](issues/README.md#by-language), by [topic](issues/README.md#by-topic) (web, developer tools, AI, data, DevOps, security, mobile, games, systems, docs, science, finance), by label level, and by project rules.
 - **Project rules up front.** Each project is scanned for AI policies, Contributor License Agreements and DCO sign-off requirements, so you know what you are signing up for before you start.
 - **Always fresh.** A GitHub Actions workflow rebuilds everything every 12 hours.
@@ -37,7 +43,7 @@ Open Source Radar fixes the first part with data and the second part with a guid
 | --- | --- |
 | Brand new to open source | [Guide, chapter 1: why contribute and what counts](guide/01-why-contribute.md) |
 | Ready to set up Git and GitHub | [Chapter 2: set up your tools](guide/02-setup.md) |
-| Looking for a project | [Chapter 3: choose a project](guide/03-choose-a-project.md) |
+| Looking for a project | [Projects directory](projects/README.md) and [chapter 3: choose a project](guide/03-choose-a-project.md) |
 | Looking for an issue | [The website](https://tanbirramim.github.io/open-source-radar/) or the [issue index](issues/README.md) |
 | About to open your first pull request | [Chapter 5: your first pull request, step by step](guide/05-first-pull-request.md) |
 | Unsure about CLAs, DCO or AI rules | [Chapter 6: rules to check before you start](guide/06-rules-before-you-start.md) |

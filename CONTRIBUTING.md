@@ -14,6 +14,7 @@ Thanks for helping people find their first open source contribution. Every kind 
 These are rebuilt by the scheduled workflow, and manual edits are overwritten:
 
 - everything in `issues/by-language/` and `issues/by-topic/`, and `issues/README.md`
+- `projects/README.md`
 - `data/*.json` and `site/data/issues.json`
 - the block between `RADAR:STATS:START` and `RADAR:STATS:END` in `README.md`
 
