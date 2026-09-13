@@ -1,0 +1,115 @@
+# Open Source Radar: data pipeline configuration.
+# Edit this file (not the generated output) to change what the radar tracks.
+
+[discovery]
+# A repository qualifies when it is popular, active, and has issues labeled for newcomers.
+min_stars = 500
+pushed_within_days = 60
+# Repositories per language taken from each search (sorted by stars, max 100 per page).
+repos_per_language = 100
+# Search pages per language per label qualifier (each page is up to 100 repositories).
+pages_per_query = 2
+
+[issues]
+# Issues updated longer ago than this are treated as stale and skipped.
+updated_within_days = 180
+# Newcomer-oriented label names to collect (matched case-sensitively by GitHub, so list variants).
+labels = [
+  "good first issue", "good-first-issue", "Good First Issue", "Good first issue",
+  "good first bug", "first-timers-only", "first timers only",
+  "help wanted", "help-wanted", "Help Wanted", "status: help wanted", "E-help-wanted",
+  "beginner", "beginner friendly", "beginner-friendly", "Beginner",
+  "easy", "Easy", "E-easy", "difficulty: easy", "difficulty/easy", "level: easy",
+  "up-for-grabs", "up for grabs", "contributions welcome", "PR welcome", "PRs welcome", "hacktoberfest",
+]
+# Issues fetched per repository per run (most recently updated first).
+per_repo = 30
+# Maximum issues rendered per Markdown page (the website shows everything).
+max_per_page = 200
+
+[policy]
+# Contribution files are re-scanned only when older than this.
+refresh_days = 7
+
+# Languages the radar tracks (GitHub linguist names) and the page slug for each.
+[languages]
+"JavaScript" = "javascript"
+"TypeScript" = "typescript"
+"Python" = "python"
+"Go" = "go"
+"Rust" = "rust"
+"Java" = "java"
+"Kotlin" = "kotlin"
+"C#" = "csharp"
+"C++" = "cpp"
+"C" = "c"
+"PHP" = "php"
+"Ruby" = "ruby"
+"Swift" = "swift"
+"Dart" = "dart"
+"Scala" = "scala"
+"Elixir" = "elixir"
+"Haskell" = "haskell"
+"Lua" = "lua"
+"Shell" = "shell"
+"Zig" = "zig"
+"Julia" = "julia"
+"R" = "r"
+"Vue" = "vue"
+"HTML" = "html"
+"CSS" = "css"
+"Jupyter Notebook" = "jupyter"
+"Nix" = "nix"
+"Clojure" = "clojure"
+"OCaml" = "ocaml"
+"Erlang" = "erlang"
+
+# Topic buckets: a repository joins a bucket when any of its GitHub topics matches a keyword
+# (exact topic match, or the topic contains the keyword when the keyword ends with "*").
+[topics.web]
+title = "Web development"
+keywords = ["web", "frontend", "react", "vue", "svelte", "angular", "nextjs", "css", "html", "web-framework", "http", "fullstack", "tailwindcss", "ui", "component*", "design-system"]
+
+[topics.devtools]
+title = "Developer tools"
+keywords = ["developer-tools", "devtools", "cli", "terminal", "editor", "ide", "linter", "formatter", "compiler", "build-tool", "bundler", "testing", "debugger", "vscode*", "neovim", "vim", "git", "productivity", "command-line", "tui"]
+
+[topics.ai-ml]
+title = "AI and machine learning"
+keywords = ["machine-learning", "deep-learning", "ai", "llm", "artificial-intelligence", "nlp", "computer-vision", "pytorch", "tensorflow", "neural-network", "data-science", "rag", "agents", "openai", "transformers"]
+
+[topics.data]
+title = "Data and databases"
+keywords = ["database", "sql", "postgresql", "mysql", "sqlite", "nosql", "data-engineering", "analytics", "etl", "big-data", "orm", "redis", "data-visualization", "dataframe", "search-engine"]
+
+[topics.cloud-devops]
+title = "Cloud, DevOps and infrastructure"
+keywords = ["devops", "kubernetes", "docker", "cloud", "infrastructure", "terraform", "ci", "cd", "monitoring", "observability", "serverless", "aws", "self-hosted", "homelab", "networking"]
+
+[topics.security]
+title = "Security and privacy"
+keywords = ["security", "privacy", "cryptography", "encryption", "authentication", "oauth", "pentesting", "vulnerability*", "password*", "infosec"]
+
+[topics.mobile]
+title = "Mobile and desktop apps"
+keywords = ["android", "ios", "mobile", "flutter", "react-native", "desktop", "electron", "tauri", "macos", "windows", "linux-desktop", "gtk", "qt"]
+
+[topics.games-graphics]
+title = "Games and graphics"
+keywords = ["game", "game-engine", "gamedev", "graphics", "opengl", "vulkan", "webgl", "3d", "rendering", "emulator", "shader*"]
+
+[topics.systems]
+title = "Systems and embedded"
+keywords = ["operating-system", "embedded", "kernel", "rust-lang", "systems-programming", "wasm", "webassembly", "iot", "microcontroller", "firmware", "runtime", "virtual-machine"]
+
+[topics.docs-education]
+title = "Documentation and education"
+keywords = ["documentation", "education", "learning", "tutorial", "awesome", "awesome-list", "beginner-friendly", "course", "interview*", "roadmap", "books"]
+
+[topics.science]
+title = "Science and research"
+keywords = ["science", "scientific-computing", "bioinformatics", "physics", "astronomy", "chemistry", "mathematics", "statistics", "simulation", "geospatial", "gis", "climate"]
+
+[topics.finance-web3]
+title = "Finance and Web3"
+keywords = ["finance", "fintech", "blockchain", "ethereum", "crypto*", "trading", "bitcoin", "defi", "web3", "payments"]

@@ -1,0 +1,29 @@
+name: Wrong or outdated listing
+description: An issue is listed but is already taken, closed, or not beginner friendly, or a project's rules were detected incorrectly.
+labels: ["data"]
+body:
+  - type: input
+    id: link
+    attributes:
+      label: Link to the issue or project
+      placeholder: https://github.com/owner/repo/issues/123
+    validations:
+      required: true
+  - type: dropdown
+    id: problem
+    attributes:
+      label: What is wrong?
+      options:
+        - The issue is already assigned or has a pull request
+        - The issue is not suitable for newcomers
+        - The AI policy badge is wrong
+        - The CLA or DCO badge is wrong
+        - The project should not be listed
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: For badge problems, link or quote the part of the project's contributing guide that shows the correct rule.
