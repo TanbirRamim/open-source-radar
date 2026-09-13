@@ -1,8 +1,8 @@
 # Finance and Web3 issues
 
-**60** open issues (24 labeled for beginners) across **16** projects tagged with topics like `finance`, `fintech`, `blockchain`, `ethereum`, `crypto`, `trading`.
+**61** open issues (24 labeled for beginners) across **16** projects tagged with topics like `finance`, `fintech`, `blockchain`, `ethereum`, `crypto`, `trading`.
 
-> Updated automatically on **2026-09-13 01:43 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-13 11:14 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,7 +10,7 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [Adding QR-UOV](https://github.com/open-quantum-safe/liboqs/issues/2454) 💬 8 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-09-12 |  |
+| [Adding QR-UOV](https://github.com/open-quantum-safe/liboqs/issues/2454) 💬 15 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-09-13 |  |
 | [Update speed tests to measure GPU performance for cuPQC code](https://github.com/open-quantum-safe/liboqs/issues/2160) 💬 39 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-09-12 |  |
 | [test_quicapi fails on AIX](https://github.com/openssl/openssl/issues/32506) 💬 35 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use · ✍️ CLA |
 | [[Bug]: Custom themes custom CSS leftovers when selecting stock theme](https://github.com/actualbudget/actual/issues/8896) 💬 4 | [actualbudget/actual](https://github.com/actualbudget/actual) | 28.7k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use |
@@ -25,6 +25,7 @@
 | [Add per-field control for ClientHello GREASE](https://github.com/openssl/openssl/issues/32572) 💬 1 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-04 | 🤖 disclose AI use · ✍️ CLA |
 | [Provide Name property for all framework components](https://github.com/QuantConnect/Lean/issues/3839) 💬 3 | [QuantConnect/Lean](https://github.com/QuantConnect/Lean) | 21.6k | 🟢 beginner | 2026-09-01 |  |
 | [Consider bounded CBMC proofs for liboqs-owned code](https://github.com/open-quantum-safe/liboqs/issues/2504) 💬 1 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-08-21 |  |
+| [[Bug]: Rules notes with matches has a bug](https://github.com/actualbudget/actual/issues/6317) 💬 4 | [actualbudget/actual](https://github.com/actualbudget/actual) | 28.7k | 🟡 help wanted | 2026-08-13 | 🤖 disclose AI use |
 | [Syncing archive node from era files](https://github.com/ethereum/go-ethereum/issues/35354) 💬 3 | [ethereum/go-ethereum](https://github.com/ethereum/go-ethereum) | 51.3k | 🟡 help wanted | 2026-08-08 |  |
 | [[Bug]: Account linking process with Gocardless times out before completion](https://github.com/actualbudget/actual/issues/4460) 💬 21 | [actualbudget/actual](https://github.com/actualbudget/actual) | 28.7k | 🟢 beginner | 2026-08-04 | 🤖 disclose AI use |
 | [TypeError: 'NoneType' object is not iterable](https://github.com/saleor/saleor/issues/17891) 💬 3 | [saleor/saleor](https://github.com/saleor/saleor) | 23.3k | 🟡 help wanted | 2026-08-04 |  |

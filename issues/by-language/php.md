@@ -1,8 +1,8 @@
 # PHP issues
 
-**171** open issues (88 labeled for beginners) across **58** active PHP projects.
+**169** open issues (87 labeled for beginners) across **57** active PHP projects.
 
-> Updated automatically on **2026-09-13 01:43 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-13 11:14 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -11,7 +11,6 @@
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
 | [Missing translations for Burmese (my)](https://github.com/symfony/symfony/issues/51897) 💬 2 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-12 |  |
-| [Bug: phpcs is not catching trailing whitespace in PHP files](https://github.com/fossasia/WPFAevent/issues/95) 💬 1 | [fossasia/WPFAevent](https://github.com/fossasia/WPFAevent) | 813 | 🟢 beginner | 2026-09-12 |  |
 | [[Translation] What about putting translations in a cache pool?](https://github.com/symfony/symfony/issues/52305) 💬 12 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟡 help wanted | 2026-09-11 |  |
 | [Check for unused routing requirements](https://github.com/symfony/symfony/issues/50461) 💬 3 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟡 help wanted | 2026-09-11 |  |
 | [[HttpClient] allow upload in form to be transfer-encoded with base64](https://github.com/symfony/symfony/issues/49315) 💬 6 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟡 help wanted | 2026-09-11 |  |
@@ -85,7 +84,7 @@
 | [🚀 \| Version Upgrades](https://github.com/MiczFlor/RPi-Jukebox-RFID/issues/2304) 💬 2 | [MiczFlor/RPi-Jukebox-RFID](https://github.com/MiczFlor/RPi-Jukebox-RFID) | 1.8k | 🟡 help wanted | 2026-08-03 |  |
 | [Feature Request: Add a user pref to control opening messages in new windows](https://github.com/freescout-help-desk/freescout/issues/5086) 💬 5 | [freescout-help-desk/freescout](https://github.com/freescout-help-desk/freescout) | 4.5k | 🟡 help wanted | 2026-08-02 |  |
 | [Duplicate ids on same page](https://github.com/phpmyadmin/phpmyadmin/issues/19108) 💬 5 | [phpmyadmin/phpmyadmin](https://github.com/phpmyadmin/phpmyadmin) | 7.9k | 🟢 beginner | 2026-08-01 | 🔏 DCO |
-| [Make Grading Rubric header and action buttons sticky while scrolling](https://github.com/Submitty/Submitty/issues/13105) 💬 2 | [Submitty/Submitty](https://github.com/Submitty/Submitty) | 790 | 🟢 beginner | 2026-08-01 |  |
+| [Make Grading Rubric header and action buttons sticky while scrolling](https://github.com/Submitty/Submitty/issues/13105) 💬 2 | [Submitty/Submitty](https://github.com/Submitty/Submitty) | 791 | 🟢 beginner | 2026-08-01 |  |
 | [Plain URLs typed/pasted in editor are not auto-linked in outgoing emails](https://github.com/freescout-help-desk/freescout/issues/5280) 💬 2 | [freescout-help-desk/freescout](https://github.com/freescout-help-desk/freescout) | 4.5k | 🟡 help wanted | 2026-07-24 |  |
 | [Bad usability of "file is locked" message in upload](https://github.com/nextcloud/server/issues/20223) 💬 4 | [nextcloud/server](https://github.com/nextcloud/server) | 36.8k | 🟢 beginner | 2026-07-23 | 🤖 disclose AI use · 🔏 DCO |
 | [Problem "CODE" formatting](https://github.com/freescout-help-desk/freescout/issues/5167) 💬 2 | [freescout-help-desk/freescout](https://github.com/freescout-help-desk/freescout) | 4.5k | 🟡 help wanted | 2026-07-23 |  |
@@ -113,7 +112,6 @@
 | [Supervisors create connections with drivers they don't belong to](https://github.com/laravel/horizon/issues/1704) 💬 4 | [laravel/horizon](https://github.com/laravel/horizon) | 4.2k | 🟡 help wanted | 2026-06-23 |  |
 | [Segments \| Improve geographical segmentations: Continent & Regions segment are not clear](https://github.com/matomo-org/matomo/issues/11261) 💬 4 | [matomo-org/matomo](https://github.com/matomo-org/matomo) | 21.9k | 🟡 help wanted | 2026-06-22 |  |
 | [Moving the header to a new line](https://github.com/PrivateBin/PrivateBin/issues/1788) 💬 5 | [PrivateBin/PrivateBin](https://github.com/PrivateBin/PrivateBin) | 8.6k | 🟢 beginner | 2026-06-22 | 🤖 disclose AI use |
-| [[Bug] Postgres as DB results in 500 Server Error](https://github.com/jez500/pricebuddy/issues/48) 💬 5 | [jez500/pricebuddy](https://github.com/jez500/pricebuddy) | 1.1k | 🟡 help wanted | 2026-06-21 |  |
 | [Move all repo calls from controllers to services](https://github.com/Leantime/leantime/issues/1532) 💬 1 | [Leantime/leantime](https://github.com/Leantime/leantime) | 11.6k | 🟢 beginner | 2026-06-20 | ✍️ CLA |
 | [AIO is mounting extra volumes in nextcloud-aio-database container](https://github.com/nextcloud/all-in-one/issues/8155) 💬 4 | [nextcloud/all-in-one](https://github.com/nextcloud/all-in-one) | 10.4k | 🟡 help wanted | 2026-06-17 | 🤖 disclose AI use · 🔏 DCO |
 | [[3.x-migration] ApiController](https://github.com/MISP/MISP/issues/9382) 💬 2 | [MISP/MISP](https://github.com/MISP/MISP) | 6.5k | 🟢 beginner | 2026-06-12 | ✍️ CLA |
@@ -133,7 +131,7 @@
 | [Add support for OpenVPN private key password in .ovpn configurations](https://github.com/RaspAP/raspap-webgui/issues/2109) 💬 1 | [RaspAP/raspap-webgui](https://github.com/RaspAP/raspap-webgui) | 5.2k | 🟢 beginner | 2026-06-05 |  |
 | [[FR] RTL BiDi Support](https://github.com/PrivateBin/PrivateBin/issues/1849) 💬 1 | [PrivateBin/PrivateBin](https://github.com/PrivateBin/PrivateBin) | 8.6k | 🟡 help wanted | 2026-06-04 | 🤖 disclose AI use |
 | [[HLAPI] Need a way to filter ticket actors](https://github.com/glpi-project/glpi/issues/20743) 💬 5 | [glpi-project/glpi](https://github.com/glpi-project/glpi) | 6.3k | 🟡 help wanted | 2026-06-04 | 🤖 disclose AI use |
-| [Editing a post with date-released category](https://github.com/Submitty/Submitty/issues/10989) 💬 4 | [Submitty/Submitty](https://github.com/Submitty/Submitty) | 790 | 🟢 beginner | 2026-06-04 |  |
+| [Editing a post with date-released category](https://github.com/Submitty/Submitty/issues/10989) 💬 4 | [Submitty/Submitty](https://github.com/Submitty/Submitty) | 791 | 🟢 beginner | 2026-06-04 |  |
 | [Add a way to link to individual Featured Artist tracks](https://github.com/ppy/osu-web/issues/9508) 💬 3 | [ppy/osu-web](https://github.com/ppy/osu-web) | 1.2k | 🟢 beginner | 2026-06-02 |  |
 | [Upgrade authentication POST redirects without respecting YOURLS_SITE](https://github.com/YOURLS/YOURLS/issues/3781) 💬 2 | [YOURLS/YOURLS](https://github.com/YOURLS/YOURLS) | 12.2k | 🟡 help wanted | 2026-05-31 |  |
 | [Discrepancies in last 24 hours hit count](https://github.com/YOURLS/YOURLS/issues/3845) 💬 2 | [YOURLS/YOURLS](https://github.com/YOURLS/YOURLS) | 12.2k | 🟡 help wanted | 2026-05-31 |  |
@@ -179,5 +177,5 @@
 | [Move core apps backgroudjobs to OCP](https://github.com/nextcloud/server/issues/13255) 💬 3 | [nextcloud/server](https://github.com/nextcloud/server) | 36.8k | 🟢 beginner | 2026-03-19 | 🤖 disclose AI use · 🔏 DCO |
 | [Feed "Der Spiegel" not shown all in arcticle](https://github.com/nextcloud/news/issues/3080) 💬 2 | [nextcloud/news](https://github.com/nextcloud/news) | 1k | 🟡 help wanted | 2026-03-19 | 🔏 DCO |
 | [Icinga Web Development Guide](https://github.com/Icinga/icingaweb2/issues/4109) 💬 12 | [Icinga/icingaweb2](https://github.com/Icinga/icingaweb2) | 840 | 🟡 help wanted | 2026-03-19 |  |
-| [Manual grading progress bar includes null section](https://github.com/Submitty/Submitty/issues/11450) 💬 6 | [Submitty/Submitty](https://github.com/Submitty/Submitty) | 790 | 🟢 beginner | 2026-03-19 |  |
-| [Debugging additions to add_user.py script](https://github.com/Submitty/Submitty/issues/1411) 💬 3 | [Submitty/Submitty](https://github.com/Submitty/Submitty) | 790 | 🟢 beginner | 2026-03-19 |  |
+| [Manual grading progress bar includes null section](https://github.com/Submitty/Submitty/issues/11450) 💬 6 | [Submitty/Submitty](https://github.com/Submitty/Submitty) | 791 | 🟢 beginner | 2026-03-19 |  |
+| [Debugging additions to add_user.py script](https://github.com/Submitty/Submitty/issues/1411) 💬 3 | [Submitty/Submitty](https://github.com/Submitty/Submitty) | 791 | 🟢 beginner | 2026-03-19 |  |

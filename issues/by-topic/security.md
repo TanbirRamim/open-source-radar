@@ -2,7 +2,7 @@
 
 **236** open issues (116 labeled for beginners) across **60** projects tagged with topics like `security`, `privacy`, `cryptography`, `encryption`, `authentication`, `oauth`.
 
-> Updated automatically on **2026-09-13 01:43 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-13 11:14 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,10 +10,10 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [Adding QR-UOV](https://github.com/open-quantum-safe/liboqs/issues/2454) 💬 15 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-09-13 |  |
 | [💡 Sync Jira Start Date to Planned Date and Due Date to Deadline](https://github.com/super-productivity/super-productivity/issues/10070) 💬 1 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22k | 🟡 help wanted | 2026-09-12 |  |
 | [🚨 Schedule view: blurred background image overflows viewport, pushing nav off-screen](https://github.com/super-productivity/super-productivity/issues/10063) 💬 4 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22k | 🟡 help wanted | 2026-09-12 |  |
 | [Window size/position silently reset by electron-window-state (hidden-window bounds + out-of-bounds wipe)](https://github.com/super-productivity/super-productivity/issues/10058) 💬 1 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22k | 🟡 help wanted | 2026-09-12 |  |
-| [Adding QR-UOV](https://github.com/open-quantum-safe/liboqs/issues/2454) 💬 8 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-09-12 |  |
 | [Update speed tests to measure GPU performance for cuPQC code](https://github.com/open-quantum-safe/liboqs/issues/2160) 💬 39 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-09-12 |  |
 | [test_quicapi fails on AIX](https://github.com/openssl/openssl/issues/32506) 💬 35 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use · ✍️ CLA |
 | [💡 MacOS: menu bar dropdown](https://github.com/super-productivity/super-productivity/issues/5293) 💬 3 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22k | 🟡 help wanted | 2026-09-11 |  |
@@ -193,7 +193,7 @@
 | [CPU profiles: add the '.comment' value as rizin comment near the flag, if defined](https://github.com/rizinorg/rizin/issues/1671) 💬 13 | [rizinorg/rizin](https://github.com/rizinorg/rizin) | 3.9k | 🟢 beginner | 2026-06-07 | 🤖 disclose AI use |
 | [Add rendering man_made=tower](https://github.com/organicmaps/organicmaps/issues/5521) 💬 7 | [organicmaps/organicmaps](https://github.com/organicmaps/organicmaps) | 15.4k | 🟢 beginner | 2026-06-06 | 🔏 DCO |
 | [Publish icon is upside down](https://github.com/MISP/MISP/issues/1179) 💬 3 | [MISP/MISP](https://github.com/MISP/MISP) | 6.5k | 🟢 beginner | 2026-06-05 | ✍️ CLA |
-| [Selenium tests: check console output.](https://github.com/searxng/searxng/issues/338) 💬 1 | [searxng/searxng](https://github.com/searxng/searxng) | 36.8k | 🟢 beginner | 2026-06-04 | 📄 AI policy |
+| [Selenium tests: check console output.](https://github.com/searxng/searxng/issues/338) 💬 1 | [searxng/searxng](https://github.com/searxng/searxng) | 36.9k | 🟢 beginner | 2026-06-04 | 📄 AI policy |
 | [[FR] RTL BiDi Support](https://github.com/PrivateBin/PrivateBin/issues/1849) 💬 1 | [PrivateBin/PrivateBin](https://github.com/PrivateBin/PrivateBin) | 8.6k | 🟡 help wanted | 2026-06-04 | 🤖 disclose AI use |
 | [[Feature request] SQIsign](https://github.com/open-quantum-safe/liboqs/issues/1946) 💬 2 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-06-03 |  |
 | [Request: Form Upload with http server](https://github.com/rclone/rclone/issues/3151) 💬 3 | [rclone/rclone](https://github.com/rclone/rclone) | 59.7k | 🟡 help wanted | 2026-06-02 |  |
@@ -208,7 +208,7 @@
 | [Replace TODO comments in DuplicatesModule with real implementation or remove](https://github.com/iliyami/MacSai/issues/5) | [iliyami/MacSai](https://github.com/iliyami/MacSai) | 1.5k | 🟢 beginner | 2026-05-28 |  |
 | [Cropped button label in "Remove vault" dialog](https://github.com/cryptomator/cryptomator/issues/3338) 💬 5 | [cryptomator/cryptomator](https://github.com/cryptomator/cryptomator) | 16.1k | 🟢 beginner | 2026-05-26 |  |
 | [The thumbnails don't always load](https://github.com/libre-tube/LibreTube/issues/8393) 💬 2 | [libre-tube/LibreTube](https://github.com/libre-tube/LibreTube) | 12.7k | 🟡 help wanted | 2026-05-23 |  |
-| [[Bug] No longer see files/folders within secure folder](https://github.com/leonlatsch/Photok/issues/678) 💬 5 | [leonlatsch/Photok](https://github.com/leonlatsch/Photok) | 962 | 🟢 beginner | 2026-05-21 |  |
+| [[Bug] No longer see files/folders within secure folder](https://github.com/leonlatsch/Photok/issues/678) 💬 5 | [leonlatsch/Photok](https://github.com/leonlatsch/Photok) | 963 | 🟢 beginner | 2026-05-21 |  |
 | [[META] Adding subfeatures to audits](https://github.com/zizmorcore/zizmor/issues/963) 💬 4 | [zizmorcore/zizmor](https://github.com/zizmorcore/zizmor) | 6.5k | 🟢 beginner | 2026-05-15 | 📄 AI policy |
 
 Showing the 200 most recently updated. See all 236 on the website.

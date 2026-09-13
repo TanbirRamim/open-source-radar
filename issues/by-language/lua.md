@@ -2,7 +2,7 @@
 
 **14** open issues (9 labeled for beginners) across **9** active Lua projects.
 
-> Updated automatically on **2026-09-13 01:43 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-13 11:14 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -19,7 +19,7 @@
 | [Standalone build for macos](https://github.com/teal-language/tl/issues/530) 💬 4 | [teal-language/tl](https://github.com/teal-language/tl) | 2.8k | 🟡 help wanted | 2026-07-08 |  |
 | [Home Manager (nix) config is not supported with the lua version](https://github.com/zjeffer/split-monitor-workspaces/issues/293) 💬 6 | [zjeffer/split-monitor-workspaces](https://github.com/zjeffer/split-monitor-workspaces) | 795 | 🟡 help wanted | 2026-07-06 | 📄 AI policy |
 | [Add feeds from TUMI Datahub](https://github.com/public-transport/transitous/issues/584) 💬 2 | [public-transport/transitous](https://github.com/public-transport/transitous) | 712 | 🟢 beginner | 2026-07-02 |  |
-| [[feature] support rockspec](https://github.com/carlos-algms/agentic.nvim/issues/264) 💬 1 | [carlos-algms/agentic.nvim](https://github.com/carlos-algms/agentic.nvim) | 619 | 🟢 beginner | 2026-07-02 |  |
+| [[feature] support rockspec](https://github.com/carlos-algms/agentic.nvim/issues/264) 💬 1 | [carlos-algms/agentic.nvim](https://github.com/carlos-algms/agentic.nvim) | 620 | 🟢 beginner | 2026-07-02 |  |
 | [Add more data for India](https://github.com/public-transport/transitous/issues/2144) 💬 2 | [public-transport/transitous](https://github.com/public-transport/transitous) | 712 | 🟢 beginner | 2026-06-16 |  |
 | [Support hyprland from nixpkgs](https://github.com/zjeffer/split-monitor-workspaces/issues/275) 💬 9 | [zjeffer/split-monitor-workspaces](https://github.com/zjeffer/split-monitor-workspaces) | 795 | 🟡 help wanted | 2026-06-10 | 📄 AI policy |
 | [Epic Stormbgringer can't land on air repair pad most of time](https://github.com/beyond-all-reason/Beyond-All-Reason/issues/1346) 💬 6 | [beyond-all-reason/Beyond-All-Reason](https://github.com/beyond-all-reason/Beyond-All-Reason) | 4.2k | 🟢 beginner | 2026-05-13 | 🤖 disclose AI use |

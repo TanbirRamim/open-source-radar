@@ -1,8 +1,8 @@
 # Data and databases issues
 
-**308** open issues (154 labeled for beginners) across **91** projects tagged with topics like `database`, `sql`, `postgresql`, `mysql`, `sqlite`, `nosql`.
+**306** open issues (152 labeled for beginners) across **91** projects tagged with topics like `database`, `sql`, `postgresql`, `mysql`, `sqlite`, `nosql`.
 
-> Updated automatically on **2026-09-13 01:43 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-13 11:14 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,7 +10,6 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [Classify exceptions while handling caught client http traffic](https://github.com/elastic/elasticsearch/issues/158842) 💬 5 | [elastic/elasticsearch](https://github.com/elastic/elasticsearch) | 77.9k | 🟢 beginner | 2026-09-12 | ✍️ CLA |
 | [Default to listening on ::](https://github.com/dragonflydb/dragonfly/issues/8266) 💬 3 | [dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly) | 31.5k | 🟢 beginner | 2026-09-12 | ✍️ CLA · 🔏 DCO |
 | [Dashboard components: replace explicit 'any' with real types](https://github.com/kestra-io/kestra/issues/19288) 💬 1 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-12 |  |
 | [Docs components: replace explicit 'any' with real types](https://github.com/kestra-io/kestra/issues/19299) 💬 1 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-12 |  |
@@ -31,7 +30,6 @@
 | [Allow LowCardinality for UUID field without allow_suspicious_low_cardinality_types=1](https://github.com/ClickHouse/ClickHouse/issues/56818) 💬 5 | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 49.9k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use · ✍️ CLA |
 | [Respect systemd clickhouse-server.service enable/disable status during update to new version](https://github.com/ClickHouse/ClickHouse/issues/67591) 💬 3 | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 49.9k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use · ✍️ CLA |
 | [MaterializedPostgreSQL pg_publication_tables have equal name in column pubname for two db in one cluster.](https://github.com/ClickHouse/ClickHouse/issues/69388) | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 49.9k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use · ✍️ CLA |
-| [Support query parameters for ALTER TABLE (and other DDL) statements](https://github.com/ClickHouse/ClickHouse/issues/76756) 💬 7 | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 49.9k | 🟢 beginner | 2026-09-11 | 🤖 disclose AI use · ✍️ CLA |
 | [Aggregator will have statistics about aggregated keys(min/max/any 100 values)](https://github.com/ClickHouse/ClickHouse/issues/77740) 💬 3 | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 49.9k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use · ✍️ CLA |
 | [Clickhouse generates logon's with "null" user account when TLS is enabled in LDAPS](https://github.com/ClickHouse/ClickHouse/issues/77991) 💬 1 | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 49.9k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use · ✍️ CLA |
 | [[MaterializedPostgreSQL] PG WAL size keep increasing if there's no change](https://github.com/ClickHouse/ClickHouse/issues/78149) | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 49.9k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use · ✍️ CLA |
@@ -64,7 +62,7 @@
 | [M2A Relation Display Not Showing Properly](https://github.com/directus/directus/issues/25348) 💬 5 | [directus/directus](https://github.com/directus/directus) | 37.9k | 🟡 help wanted | 2026-09-02 |  |
 | [Postgresql : Can't update row with an empty array](https://github.com/sequelize/sequelize/issues/11748) 💬 6 | [sequelize/sequelize](https://github.com/sequelize/sequelize) | 30.4k | 🟢 beginner | 2026-09-02 |  |
 | [Alternative query result format other than []dict](https://github.com/googleapis/mcp-toolbox/issues/1537) 💬 6 | [googleapis/mcp-toolbox](https://github.com/googleapis/mcp-toolbox) | 16.4k | 🟡 help wanted | 2026-09-02 | ✍️ CLA |
-| [GCS needs someone with a real bucket to run its test](https://github.com/deeplethe/utopia/issues/214) | [deeplethe/utopia](https://github.com/deeplethe/utopia) | 7.2k | 🟡 help wanted | 2026-09-02 | ✍️ CLA · 🔏 DCO |
+| [GCS needs someone with a real bucket to run its test](https://github.com/deeplethe/utopia/issues/214) | [deeplethe/utopia](https://github.com/deeplethe/utopia) | 7.3k | 🟡 help wanted | 2026-09-02 | ✍️ CLA · 🔏 DCO |
 | [Improve logging for circuit breakers](https://github.com/elastic/elasticsearch/issues/62452) 💬 11 | [elastic/elasticsearch](https://github.com/elastic/elasticsearch) | 77.9k | 🟡 help wanted | 2026-09-01 | ✍️ CLA |
 | [Add resource ID to 404 response body](https://github.com/elastic/elasticsearch/issues/82675) 💬 17 | [elastic/elasticsearch](https://github.com/elastic/elasticsearch) | 77.9k | 🟡 help wanted | 2026-09-01 | ✍️ CLA |
 | [Replace azure-cosmos by azure-mgmt-cosmosdb](https://github.com/apache/airflow/issues/9742) 💬 7 | [apache/airflow](https://github.com/apache/airflow) | 46.8k | 🟢 beginner | 2026-09-01 | 🤖 disclose AI use · ✍️ CLA |
@@ -210,5 +208,7 @@
 | [NEW DESIGN - We should try to display cards when JavaScript is disabled](https://github.com/openfoodfacts/openfoodfacts-server/issues/7503) 💬 3 | [openfoodfacts/openfoodfacts-server](https://github.com/openfoodfacts/openfoodfacts-server) | 1.2k | 🟢 beginner | 2026-06-28 | 🤖 disclose AI use |
 | [Feature: add sample directory with jupyter notebook](https://github.com/databendlabs/databend/issues/17460) 💬 2 | [databendlabs/databend](https://github.com/databendlabs/databend) | 9.4k | 🟢 beginner | 2026-06-27 | 📄 AI policy · ✍️ CLA |
 | [[BUG] ERROR 1064 .......'MASTER STATUS'](https://github.com/mydumper/mydumper/issues/2288) 💬 6 | [mydumper/mydumper](https://github.com/mydumper/mydumper) | 3.2k | 🟡 help wanted | 2026-06-26 |  |
+| [[FEA] Port the logic at page_data.cu:282 to use 'thread_group's and avoid the magic 32 multiples.](https://github.com/NVIDIA/cudf/issues/16235) | [NVIDIA/cudf](https://github.com/NVIDIA/cudf) | 9.7k | 🟢 beginner | 2026-06-23 |  |
+| [[FEA] Improve readability of thread id based branching](https://github.com/NVIDIA/cudf/issues/6241) 💬 6 | [NVIDIA/cudf](https://github.com/NVIDIA/cudf) | 9.7k | 🟢 beginner | 2026-06-23 |  |
 
-Showing the 200 most recently updated. See all 308 on the website.
+Showing the 200 most recently updated. See all 306 on the website.

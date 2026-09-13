@@ -2,7 +2,7 @@
 
 **91** open issues (45 labeled for beginners) across **57** active Swift projects.
 
-> Updated automatically on **2026-09-13 01:43 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-13 11:14 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -22,11 +22,11 @@
 | [test: fix flaky internal profiling API test](https://github.com/getsentry/sentry-cocoa/issues/8637) 💬 1 | [getsentry/sentry-cocoa](https://github.com/getsentry/sentry-cocoa) | 1.1k | 🟢 beginner | 2026-09-01 |  |
 | [Fix flaky 'testProfilerMutationDuringSlicing'](https://github.com/getsentry/sentry-cocoa/issues/3910) 💬 2 | [getsentry/sentry-cocoa](https://github.com/getsentry/sentry-cocoa) | 1.1k | 🟢 beginner | 2026-09-01 |  |
 | [Fix flaky 'testFlush_WhenNoInternet_BlocksAndFinishes'](https://github.com/getsentry/sentry-cocoa/issues/4704) | [getsentry/sentry-cocoa](https://github.com/getsentry/sentry-cocoa) | 1.1k | 🟢 beginner | 2026-09-01 |  |
-| [Would a version for iPadOS be feasible?](https://github.com/awaseem/foqos/issues/287) 💬 8 | [awaseem/foqos](https://github.com/awaseem/foqos) | 806 | 🟡 help wanted | 2026-09-01 |  |
+| [Would a version for iPadOS be feasible?](https://github.com/awaseem/foqos/issues/287) 💬 8 | [awaseem/foqos](https://github.com/awaseem/foqos) | 807 | 🟡 help wanted | 2026-09-01 |  |
 | [[Bug] Keyboard text input has poor performance, buggy, and unstable](https://github.com/minh-ton/reynard-browser/issues/309) 💬 5 | [minh-ton/reynard-browser](https://github.com/minh-ton/reynard-browser) | 1.7k | 🟡 help wanted | 2026-08-30 |  |
 | [Feature request: Add a Disable option in the Menu](https://github.com/pablopunk/SwiftShift/issues/158) | [pablopunk/SwiftShift](https://github.com/pablopunk/SwiftShift) | 641 | 🟢 beginner | 2026-08-29 |  |
-| [Create a Homebrew cask for Agent!](https://github.com/AgentiLoop/Agent/issues/29) | [AgentiLoop/Agent](https://github.com/AgentiLoop/Agent) | 600 | 🟢 beginner | 2026-08-29 |  |
-| [Add a demo GIF to the top of the README](https://github.com/AgentiLoop/Agent/issues/27) | [AgentiLoop/Agent](https://github.com/AgentiLoop/Agent) | 600 | 🟢 beginner | 2026-08-29 |  |
+| [Create a Homebrew cask for Agent!](https://github.com/AgentiLoop/Agent/issues/29) | [AgentiLoop/Agent](https://github.com/AgentiLoop/Agent) | 601 | 🟢 beginner | 2026-08-29 |  |
+| [Add a demo GIF to the top of the README](https://github.com/AgentiLoop/Agent/issues/27) | [AgentiLoop/Agent](https://github.com/AgentiLoop/Agent) | 601 | 🟢 beginner | 2026-08-29 |  |
 | [If closing a background tab while a new URL is being loaded from a bookmark, the new URL stops loading](https://github.com/mozilla-mobile/firefox-ios/issues/32334) 💬 13 | [mozilla-mobile/firefox-ios](https://github.com/mozilla-mobile/firefox-ios) | 13k | 🟢 beginner | 2026-08-27 |  |
 | [Pointer speed has no effect on trackpad on M2 and later Macs](https://github.com/linearmouse/linearmouse/issues/270) 💬 14 | [linearmouse/linearmouse](https://github.com/linearmouse/linearmouse) | 6.8k | 🟡 help wanted | 2026-08-26 |  |
 | [Reduce redundancy in generated OpenAPI definition names](https://github.com/FeatherCMS/feather/issues/125) | [FeatherCMS/feather](https://github.com/FeatherCMS/feather) | 605 | 🟢 beginner | 2026-08-25 |  |
@@ -48,9 +48,9 @@
 | [[SR-13388] Add Fix-Its to "override" mismatch](https://github.com/swiftlang/swift/issues/55828) 💬 13 | [swiftlang/swift](https://github.com/swiftlang/swift) | 70.3k | 🟢 beginner | 2026-08-03 |  |
 | [[SR-5362] StdlibUnittest allows redeclaration of the same-named test; ignores all but last](https://github.com/swiftlang/swift/issues/47936) 💬 3 | [swiftlang/swift](https://github.com/swiftlang/swift) | 70.3k | 🟢 beginner | 2026-08-01 |  |
 | [Run with all traits in the API checker CI](https://github.com/apple/swift-configuration/issues/95) 💬 2 | [apple/swift-configuration](https://github.com/apple/swift-configuration) | 810 | 🟢 beginner | 2026-07-30 |  |
-| [[Bug] always open with mode failed to open zip file](https://github.com/idawnlight/ShichiZip/issues/50) 💬 3 | [idawnlight/ShichiZip](https://github.com/idawnlight/ShichiZip) | 949 | 🟡 help wanted | 2026-07-28 |  |
-| [Java2Swift: Generalize conformances of Java collection types to Swift sequence protocols](https://github.com/swiftlang/swift-java/issues/96) 💬 1 | [swiftlang/swift-java](https://github.com/swiftlang/swift-java) | 1.2k | 🟢 beginner | 2026-07-27 |  |
-| [Java2Swift: Improve diagnostics when we suppress import due to a missing Java class import](https://github.com/swiftlang/swift-java/issues/112) 💬 2 | [swiftlang/swift-java](https://github.com/swiftlang/swift-java) | 1.2k | 🟢 beginner | 2026-07-27 |  |
+| [[Bug] always open with mode failed to open zip file](https://github.com/idawnlight/ShichiZip/issues/50) 💬 3 | [idawnlight/ShichiZip](https://github.com/idawnlight/ShichiZip) | 950 | 🟡 help wanted | 2026-07-28 |  |
+| [Java2Swift: Generalize conformances of Java collection types to Swift sequence protocols](https://github.com/swiftlang/swift-java/issues/96) 💬 1 | [swiftlang/swift-java](https://github.com/swiftlang/swift-java) | 1.3k | 🟢 beginner | 2026-07-27 |  |
+| [Java2Swift: Improve diagnostics when we suppress import due to a missing Java class import](https://github.com/swiftlang/swift-java/issues/112) 💬 2 | [swiftlang/swift-java](https://github.com/swiftlang/swift-java) | 1.3k | 🟢 beginner | 2026-07-27 |  |
 | [[SR-12930] Add protocol extension to "Result where Success == Void" so that we can use .success()](https://github.com/swiftlang/swift/issues/55376) 💬 3 | [swiftlang/swift](https://github.com/swiftlang/swift) | 70.3k | 🟢 beginner | 2026-07-23 |  |
 | [Play sound when picking up colors](https://github.com/superhighfives/pika/issues/68) 💬 2 | [superhighfives/pika](https://github.com/superhighfives/pika) | 2.6k | 🟡 help wanted | 2026-07-23 |  |
 | [Add Rust/Cargo target directory cleanup (project-level)](https://github.com/bysiber/cleardisk/issues/3) 💬 1 | [bysiber/cleardisk](https://github.com/bysiber/cleardisk) | 691 | 🟢 beginner | 2026-07-22 |  |
@@ -97,7 +97,7 @@
 | [[New Output] Test Suite Passed Output](https://github.com/cpisciotta/xcbeautify/issues/203) 💬 1 | [cpisciotta/xcbeautify](https://github.com/cpisciotta/xcbeautify) | 1.5k | 🟡 help wanted | 2026-04-14 |  |
 | [What is status of 'SQLite-Data' support?](https://github.com/skiptools/skip/issues/639) 💬 6 | [skiptools/skip](https://github.com/skiptools/skip) | 3.2k | 🟡 help wanted | 2026-04-10 |  |
 | [Fix GitRepositoryTests.testRawRepository on Windows](https://github.com/swiftlang/swift-package-manager/issues/8385) 💬 2 | [swiftlang/swift-package-manager](https://github.com/swiftlang/swift-package-manager) | 10.2k | 🟢 beginner | 2026-04-06 |  |
-| [feature request: widget customization](https://github.com/awaseem/foqos/issues/307) 💬 1 | [awaseem/foqos](https://github.com/awaseem/foqos) | 806 | 🟡 help wanted | 2026-04-05 |  |
+| [feature request: widget customization](https://github.com/awaseem/foqos/issues/307) 💬 1 | [awaseem/foqos](https://github.com/awaseem/foqos) | 807 | 🟡 help wanted | 2026-04-05 |  |
 | [Translations welcome](https://github.com/Marginal/QuickLookVideo/issues/174) | [Marginal/QuickLookVideo](https://github.com/Marginal/QuickLookVideo) | 3.6k | 🟡 help wanted | 2026-03-27 |  |
 | [docs: Document how to set up Xcode Cloud](https://github.com/skiptools/skip/issues/353) | [skiptools/skip](https://github.com/skiptools/skip) | 3.2k | 🟡 help wanted | 2026-03-26 |  |
 | [Add a tool to migrate an xcodeproj to Skip](https://github.com/skiptools/skip/issues/638) 💬 1 | [skiptools/skip](https://github.com/skiptools/skip) | 3.2k | 🟡 help wanted | 2026-03-20 |  |

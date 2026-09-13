@@ -1,8 +1,8 @@
 # Documentation and education issues
 
-**76** open issues (38 labeled for beginners) across **23** projects tagged with topics like `documentation`, `education`, `learning`, `tutorial`, `awesome`, `awesome-list`.
+**77** open issues (39 labeled for beginners) across **23** projects tagged with topics like `documentation`, `education`, `learning`, `tutorial`, `awesome`, `awesome-list`.
 
-> Updated automatically on **2026-09-13 01:43 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-13 11:14 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,6 +10,7 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [feat(scan): domain-level aggregator repost list, complementing the SimHash cross-listing warning](https://github.com/career-ops-hq/career-ops/issues/3577) 💬 7 | [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | 71.4k | 🟢 beginner | 2026-09-13 |  |
 | [[FR] remove formatting option](https://github.com/AppFlowy-IO/AppFlowy/issues/3427) 💬 10 | [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) | 76.6k | 🟢 beginner | 2026-09-09 |  |
 | [Query, Discussion & Bug Report](https://github.com/darkprinx/break-the-ice-with-python/issues/3) 💬 224 | [darkprinx/break-the-ice-with-python](https://github.com/darkprinx/break-the-ice-with-python) | 3.1k | 🟡 help wanted | 2026-09-09 |  |
 | [workdayDedupKey: a hyphenated requisition base skips the trailing -N strip (residual of the tenant-site dedup ](https://github.com/career-ops-hq/career-ops/issues/3882) 💬 3 | [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | 71.4k | 🟡 help wanted | 2026-09-08 |  |
@@ -55,7 +56,7 @@
 | [Docs installed as an application : Error 400](https://github.com/suitenumerique/docs/issues/2477) | [suitenumerique/docs](https://github.com/suitenumerique/docs) | 16.8k | 🟢 beginner | 2026-08-19 | 🤖 disclose AI use · 🔏 DCO |
 | [Ability to buffer the output of the RGB Video component](https://github.com/logisim-evolution/logisim-evolution/issues/2523) 💬 3 | [logisim-evolution/logisim-evolution](https://github.com/logisim-evolution/logisim-evolution) | 7.6k | 🟡 help wanted | 2026-08-09 |  |
 | [Markdown export does not preserve original formatting (indentation, list markers, and horizontal rules)](https://github.com/suitenumerique/docs/issues/2312) 💬 1 | [suitenumerique/docs](https://github.com/suitenumerique/docs) | 16.8k | 🟢 beginner | 2026-08-08 | 🤖 disclose AI use · 🔏 DCO |
-| [Make Grading Rubric header and action buttons sticky while scrolling](https://github.com/Submitty/Submitty/issues/13105) 💬 2 | [Submitty/Submitty](https://github.com/Submitty/Submitty) | 790 | 🟢 beginner | 2026-08-01 |  |
+| [Make Grading Rubric header and action buttons sticky while scrolling](https://github.com/Submitty/Submitty/issues/13105) 💬 2 | [Submitty/Submitty](https://github.com/Submitty/Submitty) | 791 | 🟢 beginner | 2026-08-01 |  |
 | [Improve Privacy Policy to explain Google Play Data Sharing](https://github.com/ankidroid/Anki-Android/issues/18413) 💬 23 | [ankidroid/Anki-Android](https://github.com/ankidroid/Anki-Android) | 11.8k | 🟡 help wanted | 2026-07-26 | 🤖 disclose AI use |
 | [[BUG] sockops port error](https://github.com/eunomia-bpf/bpf-developer-tutorial/issues/115) 💬 1 | [eunomia-bpf/bpf-developer-tutorial](https://github.com/eunomia-bpf/bpf-developer-tutorial) | 4.3k | 🟡 help wanted | 2026-07-26 |  |
 | [Microsoft emojis black outline makes it hard to see which emoji is selected](https://github.com/suitenumerique/docs/issues/1220) 💬 5 | [suitenumerique/docs](https://github.com/suitenumerique/docs) | 16.8k | 🟢 beginner | 2026-07-24 | 🤖 disclose AI use · 🔏 DCO |
@@ -64,7 +65,7 @@
 | [Model calculation is not able to read features from stdin](https://github.com/catboost/catboost/issues/200) 💬 4 | [catboost/catboost](https://github.com/catboost/catboost) | 9.1k | 🟢 beginner | 2026-07-13 |  |
 | ['Booster.save_model(format="pmml")' is highly inefficient in size.](https://github.com/catboost/catboost/issues/2387) 💬 5 | [catboost/catboost](https://github.com/catboost/catboost) | 9.1k | 🟢 beginner | 2026-07-13 |  |
 | [Allow favicons in formats other than svg](https://github.com/imfing/hextra/issues/888) 💬 2 | [imfing/hextra](https://github.com/imfing/hextra) | 2.3k | 🟢 beginner | 2026-07-13 |  |
-| [Visual summary of the agent harness architecture](https://github.com/shareAI-lab/learn-claude-code/issues/355) | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | 76.6k | 🟢 beginner | 2026-07-01 | 🤖 disclose AI use |
+| [Visual summary of the agent harness architecture](https://github.com/shareAI-lab/learn-claude-code/issues/355) | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | 76.7k | 🟢 beginner | 2026-07-01 | 🤖 disclose AI use |
 | [macOS app fails Gatekeeper; Homebrew cask deprecated and scheduled for disablement](https://github.com/logisim-evolution/logisim-evolution/issues/2699) 💬 1 | [logisim-evolution/logisim-evolution](https://github.com/logisim-evolution/logisim-evolution) | 7.6k | 🟡 help wanted | 2026-06-29 |  |
 | [[WEB - SDK] - Add Payment Method with Dynamic Field Rendering - Alfamart](https://github.com/juspay/hyperswitch/issues/6035) 💬 8 | [juspay/hyperswitch](https://github.com/juspay/hyperswitch) | 43.6k | 🟢 beginner | 2026-06-24 |  |
 | [setAttributes() invalidates references to earlier canvases](https://github.com/processing/p5.js/issues/5902) 💬 8 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-06-20 | ⚠️ AI restricted |
@@ -73,7 +74,7 @@
 | [Add Gradients for Fill and Strokes](https://github.com/processing/p5.js/issues/7313) 💬 7 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-06-10 | ⚠️ AI restricted |
 | [WebGL Error Triggered by 'noSmooth()' Invocation Between Framebuffer Creation and Drawing on Framebuffer](https://github.com/processing/p5.js/issues/6369) 💬 2 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-06-09 | ⚠️ AI restricted |
 | [difference between inline and inline-block should include discussion about replaced / non-replaced elements](https://github.com/yangshun/front-end-interview-handbook/issues/160) 💬 3 | [yangshun/front-end-interview-handbook](https://github.com/yangshun/front-end-interview-handbook) | 44k | 🟡 help wanted | 2026-06-05 |  |
-| [Editing a post with date-released category](https://github.com/Submitty/Submitty/issues/10989) 💬 4 | [Submitty/Submitty](https://github.com/Submitty/Submitty) | 790 | 🟢 beginner | 2026-06-04 |  |
+| [Editing a post with date-released category](https://github.com/Submitty/Submitty/issues/10989) 💬 4 | [Submitty/Submitty](https://github.com/Submitty/Submitty) | 791 | 🟢 beginner | 2026-06-04 |  |
 | [[p5.js 2.0 Bug Report]: That one font test is flaky](https://github.com/processing/p5.js/issues/8274) 💬 27 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-06-02 | ⚠️ AI restricted |
 | [Support for Top-Level Global Mode](https://github.com/processing/p5.js/issues/7737) 💬 35 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-06-01 | ⚠️ AI restricted |
 | [Feature Request: Integrate Crowdin for community translations](https://github.com/jaywcjlove/awesome-mac/issues/2119) 💬 1 | [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac) | 113.7k | 🟡 help wanted | 2026-05-30 | 📄 AI policy |
@@ -84,5 +85,5 @@
 | [Chef docs are outdated (and never will be updated)](https://github.com/freeCodeCamp/devdocs/issues/927) 💬 2 | [freeCodeCamp/devdocs](https://github.com/freeCodeCamp/devdocs) | 39.4k | 🟡 help wanted | 2026-03-27 |  |
 | [== Highlighter on markdown](https://github.com/gsantner/markor/issues/2638) 💬 3 | [gsantner/markor](https://github.com/gsantner/markor) | 6.1k | 🟢 beginner | 2026-03-26 |  |
 | [Investigate conversion of hard-to-replace PNGs to SVG](https://github.com/ankidroid/Anki-Android/issues/8741) 💬 32 | [ankidroid/Anki-Android](https://github.com/ankidroid/Anki-Android) | 11.8k | 🟢 beginner | 2026-03-20 | 🤖 disclose AI use |
-| [Manual grading progress bar includes null section](https://github.com/Submitty/Submitty/issues/11450) 💬 6 | [Submitty/Submitty](https://github.com/Submitty/Submitty) | 790 | 🟢 beginner | 2026-03-19 |  |
-| [Debugging additions to add_user.py script](https://github.com/Submitty/Submitty/issues/1411) 💬 3 | [Submitty/Submitty](https://github.com/Submitty/Submitty) | 790 | 🟢 beginner | 2026-03-19 |  |
+| [Manual grading progress bar includes null section](https://github.com/Submitty/Submitty/issues/11450) 💬 6 | [Submitty/Submitty](https://github.com/Submitty/Submitty) | 791 | 🟢 beginner | 2026-03-19 |  |
+| [Debugging additions to add_user.py script](https://github.com/Submitty/Submitty/issues/1411) 💬 3 | [Submitty/Submitty](https://github.com/Submitty/Submitty) | 791 | 🟢 beginner | 2026-03-19 |  |

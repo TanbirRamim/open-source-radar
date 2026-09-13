@@ -1,8 +1,8 @@
 # Go issues
 
-**363** open issues (86 labeled for beginners) across **89** active Go projects.
+**361** open issues (86 labeled for beginners) across **88** active Go projects.
 
-> Updated automatically on **2026-09-13 01:43 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-13 11:14 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,13 +10,14 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [x/sys/windows: generated wrappers read undefined upper bits of 32-bit syscall return values](https://github.com/golang/go/issues/81249) 💬 6 | [golang/go](https://github.com/golang/go) | 138.5k | 🟡 help wanted | 2026-09-13 |  |
+| [Regression: Generic function returning union of tuples is not assignable to identical type since v4.2](https://github.com/microsoft/TypeScript/issues/63019) 💬 5 | [microsoft/TypeScript](https://github.com/microsoft/TypeScript) | 111k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use · ✍️ CLA |
 | [cmd/cgo: cgo "//export" usage missing crucial info](https://github.com/golang/go/issues/56853) 💬 2 | [golang/go](https://github.com/golang/go) | 138.5k | 🟡 help wanted | 2026-09-12 |  |
 | [x/pkgsite: align attribute gets stripped from headings in README.md](https://github.com/golang/go/issues/51045) 💬 3 | [golang/go](https://github.com/golang/go) | 138.5k | 🟡 help wanted | 2026-09-12 |  |
 | [all: flaky failures on netbsd/arm](https://github.com/golang/go/issues/73820) 💬 722 | [golang/go](https://github.com/golang/go) | 138.5k | 🟡 help wanted | 2026-09-12 |  |
 | [runtime: flaky failures on NetBSD since CL 526118](https://github.com/golang/go/issues/62524) 💬 140 | [golang/go](https://github.com/golang/go) | 138.5k | 🟡 help wanted | 2026-09-12 |  |
 | [runtime: linux/s390x test timeout](https://github.com/golang/go/issues/60413) 💬 869 | [golang/go](https://github.com/golang/go) | 138.5k | 🟡 help wanted | 2026-09-12 |  |
 | [cmd/compile: eliminate base.Pos and ir.CurFunc](https://github.com/golang/go/issues/19683) 💬 40 | [golang/go](https://github.com/golang/go) | 138.5k | 🟡 help wanted | 2026-09-12 |  |
-| [x/sys/windows: generated wrappers read undefined upper bits of 32-bit syscall return values](https://github.com/golang/go/issues/81249) 💬 5 | [golang/go](https://github.com/golang/go) | 138.5k | 🟡 help wanted | 2026-09-11 |  |
 | [runtime: TestUsingVDSO failures](https://github.com/golang/go/issues/67383) 💬 8 | [golang/go](https://github.com/golang/go) | 138.5k | 🟡 help wanted | 2026-09-11 |  |
 | [proposal: cmd/go: add go test -fuzztimereset option](https://github.com/golang/go/issues/80283) 💬 11 | [golang/go](https://github.com/golang/go) | 138.5k | 🟡 help wanted | 2026-09-11 |  |
 | [Help wanted issues (but NOT 'good first issue')](https://github.com/lima-vm/lima/issues/5286) 💬 2 | [lima-vm/lima](https://github.com/lima-vm/lima) | 21.9k | 🟡 help wanted | 2026-09-11 | 📄 AI policy · 🔏 DCO |
@@ -55,7 +56,7 @@
 | [investigate switch to NRI for product mounts](https://github.com/kubernetes-sigs/kind/issues/3938) 💬 10 | [kubernetes-sigs/kind](https://github.com/kubernetes-sigs/kind) | 15.5k | 🟡 help wanted | 2026-09-07 |  |
 | [e2e: add testcases for the de-graphql wasmplugin](https://github.com/higress-group/higress/issues/374) 💬 1 | [higress-group/higress](https://github.com/higress-group/higress) | 9.4k | 🟡 help wanted | 2026-09-07 | 🤖 disclose AI use |
 | [Emoji causes quote to be stuck on screen when scrolling](https://github.com/micro-editor/micro/issues/3792) 💬 12 | [micro-editor/micro](https://github.com/micro-editor/micro) | 29.6k | 🟡 help wanted | 2026-09-04 |  |
-| [Wanted: Who is using Open Code Review? Please leave a comment!](https://github.com/alibaba/open-code-review/issues/1020) 💬 6 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 22.7k | 🟡 help wanted | 2026-09-04 | 🤖 disclose AI use · ✍️ CLA |
+| [Wanted: Who is using Open Code Review? Please leave a comment!](https://github.com/alibaba/open-code-review/issues/1020) 💬 6 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 22.8k | 🟡 help wanted | 2026-09-04 | 🤖 disclose AI use · ✍️ CLA |
 | [Crazy plugin idea](https://github.com/99designs/gqlgen/issues/3906) 💬 4 | [99designs/gqlgen](https://github.com/99designs/gqlgen) | 10.8k | 🟡 help wanted | 2026-09-04 |  |
 | [Optimize Pod informer memory efficiency used in admission plugins](https://github.com/kubernetes/kubernetes/issues/125469) 💬 20 | [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) | 127.4k | 🟡 help wanted | 2026-09-03 | 🤖 disclose AI use · ✍️ CLA |
 | [Minikube start fails for nvidia gpus in compute only/ headless mode](https://github.com/kubernetes/minikube/issues/20934) 💬 3 | [kubernetes/minikube](https://github.com/kubernetes/minikube) | 32.1k | 🟡 help wanted | 2026-09-03 |  |
@@ -106,9 +107,8 @@
 | [examples: add examples with other client frameworks](https://github.com/dexidp/dex/issues/320) 💬 11 | [dexidp/dex](https://github.com/dexidp/dex) | 11.1k | 🟡 help wanted | 2026-08-27 | 🔏 DCO |
 | [Kubeseal as a krew-plugin](https://github.com/bitnami/sealed-secrets/issues/1791) 💬 1 | [bitnami/sealed-secrets](https://github.com/bitnami/sealed-secrets) | 9.3k | 🟡 help wanted | 2026-08-27 | 🔏 DCO |
 | [Cannot scrape targets specified by mDNS name](https://github.com/prometheus/prometheus/issues/2537) 💬 28 | [prometheus/prometheus](https://github.com/prometheus/prometheus) | 66.1k | 🟡 help wanted | 2026-08-25 | 🔏 DCO |
-| [Narrow subtype-reduction-prone unions to their narrowest constituent](https://github.com/microsoft/TypeScript/issues/47731) 💬 7 | [microsoft/TypeScript](https://github.com/microsoft/TypeScript) | 111k | 🟡 help wanted | 2026-08-24 | 🤖 disclose AI use · ✍️ CLA |
-| [Binaries for management and signal (apt/yum)](https://github.com/netbirdio/netbird/issues/532) 💬 3 | [netbirdio/netbird](https://github.com/netbirdio/netbird) | 29.1k | 🟢 beginner | 2026-08-24 | ✍️ CLA |
-| [Feature Request: remotely (management) initiated debugging/control of clients](https://github.com/netbirdio/netbird/issues/3136) 💬 11 | [netbirdio/netbird](https://github.com/netbirdio/netbird) | 29.1k | 🟢 beginner | 2026-08-24 | ✍️ CLA |
+| [Binaries for management and signal (apt/yum)](https://github.com/netbirdio/netbird/issues/532) 💬 3 | [netbirdio/netbird](https://github.com/netbirdio/netbird) | 29.2k | 🟢 beginner | 2026-08-24 | ✍️ CLA |
+| [Feature Request: remotely (management) initiated debugging/control of clients](https://github.com/netbirdio/netbird/issues/3136) 💬 11 | [netbirdio/netbird](https://github.com/netbirdio/netbird) | 29.2k | 🟢 beginner | 2026-08-24 | ✍️ CLA |
 | [Pushing fails periodically with 'dial tcp: lookup github.com: no such host' error, disrupts network](https://github.com/git-lfs/git-lfs/issues/2887) 💬 21 | [git-lfs/git-lfs](https://github.com/git-lfs/git-lfs) | 14.5k | 🟡 help wanted | 2026-08-24 |  |
 | [运行期间无法上传文件报数据库锁死](https://github.com/cloudreve/cloudreve/issues/2917) 💬 10 | [cloudreve/cloudreve](https://github.com/cloudreve/cloudreve) | 28.7k | 🟡 help wanted | 2026-08-23 | ✍️ CLA |
 | [Discussion: should team knowledge compound across agent runs the way skills do?](https://github.com/multica-ai/multica/issues/1211) 💬 14 | [multica-ai/multica](https://github.com/multica-ai/multica) | 49.7k | 🟢 beginner | 2026-08-21 | 🤖 disclose AI use |
@@ -211,4 +211,4 @@
 | [Gnome/XWayland : Crash on standby/resume](https://github.com/fyne-io/fyne/issues/1603) 💬 10 | [fyne-io/fyne](https://github.com/fyne-io/fyne) | 28.7k | 🟡 help wanted | 2026-07-11 |  |
 | [fyne_demo slow on PowerShell with administrative privileges](https://github.com/fyne-io/fyne/issues/1135) | [fyne-io/fyne](https://github.com/fyne-io/fyne) | 28.7k | 🟡 help wanted | 2026-07-11 |  |
 
-Showing the 200 most recently updated. See all 363 on the website.
+Showing the 200 most recently updated. See all 361 on the website.

@@ -2,7 +2,7 @@
 
 **163** open issues (45 labeled for beginners) across **69** active C projects.
 
-> Updated automatically on **2026-09-13 01:43 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-13 11:14 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,9 +10,9 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [kew roadmap: "Project Joy"](https://github.com/ravachol/kew/issues/575) 💬 23 | [ravachol/kew](https://github.com/ravachol/kew) | 3.1k | 🟡 help wanted | 2026-09-13 |  |
+| [Adding QR-UOV](https://github.com/open-quantum-safe/liboqs/issues/2454) 💬 15 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-09-13 |  |
+| [kew roadmap: "Project Joy"](https://github.com/ravachol/kew/issues/575) 💬 25 | [ravachol/kew](https://github.com/ravachol/kew) | 3.1k | 🟡 help wanted | 2026-09-13 |  |
 | [Suppress Warnings From libpng](https://github.com/php/php-src/issues/23674) 💬 1 | [php/php-src](https://github.com/php/php-src) | 40.4k | 🟢 beginner | 2026-09-12 | 🤖 disclose AI use |
-| [Adding QR-UOV](https://github.com/open-quantum-safe/liboqs/issues/2454) 💬 8 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-09-12 |  |
 | [Update speed tests to measure GPU performance for cuPQC code](https://github.com/open-quantum-safe/liboqs/issues/2160) 💬 39 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-09-12 |  |
 | [test_quicapi fails on AIX](https://github.com/openssl/openssl/issues/32506) 💬 35 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use · ✍️ CLA |
 | [分享一下我解决进不去里站的方法](https://github.com/xiaojieonly/Ehviewer_CN_SXJ/issues/96) 💬 55 | [xiaojieonly/Ehviewer_CN_SXJ](https://github.com/xiaojieonly/Ehviewer_CN_SXJ) | 26.9k | 🟡 help wanted | 2026-09-10 |  |
@@ -29,7 +29,7 @@
 | [Documentation regarding the 'OPENSSL_init_crypto' config handling is confusing](https://github.com/openssl/openssl/issues/32625) 💬 2 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-07 | 🤖 disclose AI use · ✍️ CLA |
 | [CRL scope check skips the IDP/cRLIssuer match for DPs without distributionPoint (RFC 5280 6.3.3 (b)(2)(i))](https://github.com/openssl/openssl/issues/32645) 💬 3 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-07 | 🤖 disclose AI use · ✍️ CLA |
 | [Large test input file distributed with latest 3.0/3.5 releases](https://github.com/openssl/openssl/issues/32603) 💬 4 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-07 | 🤖 disclose AI use · ✍️ CLA |
-| [[Experiment] expert-transition-history placement policy vs gate-momentum — controlled A/B for hypothesis #1](https://github.com/JustVugg/colibri/issues/708) 💬 11 | [JustVugg/colibri](https://github.com/JustVugg/colibri) | 28.6k | 🟡 help wanted | 2026-09-07 |  |
+| [[Experiment] expert-transition-history placement policy vs gate-momentum — controlled A/B for hypothesis #1](https://github.com/JustVugg/colibri/issues/708) 💬 11 | [JustVugg/colibri](https://github.com/JustVugg/colibri) | 28.8k | 🟡 help wanted | 2026-09-07 |  |
 | [FreeSWITCH Not Compliant with RFC3515 - Not Processing REFER - $250 Bounty](https://github.com/signalwire/freeswitch/issues/592) 💬 6 | [signalwire/freeswitch](https://github.com/signalwire/freeswitch) | 5.1k | 🟡 help wanted | 2026-09-07 |  |
 | [[Feature Request] Support configurable additional HID interfaces](https://github.com/qmk/qmk_firmware/issues/26363) 💬 2 | [qmk/qmk_firmware](https://github.com/qmk/qmk_firmware) | 20.7k | 🟡 help wanted | 2026-09-06 |  |
 | [Add per-field control for ClientHello GREASE](https://github.com/openssl/openssl/issues/32572) 💬 1 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-04 | 🤖 disclose AI use · ✍️ CLA |
@@ -161,7 +161,7 @@
 | [导入数据集时遇到了性能问题](https://github.com/taosdata/TDengine/issues/34980) 💬 2 | [taosdata/TDengine](https://github.com/taosdata/TDengine) | 25.1k | 🟡 help wanted | 2026-04-14 |  |
 | [[RFC] Run-time dynamic linking support](https://github.com/wasm-micro-runtime/wasm-micro-runtime/issues/495) | [wasm-micro-runtime/wasm-micro-runtime](https://github.com/wasm-micro-runtime/wasm-micro-runtime) | 6.1k | 🟡 help wanted | 2026-04-13 |  |
 | [blink-common: Is 'caps.keep sys_admin' necessary?](https://github.com/netblue30/firejail/issues/7070) 💬 17 | [netblue30/firejail](https://github.com/netblue30/firejail) | 7.6k | 🟡 help wanted | 2026-04-10 |  |
-| [MacOS Crash when Dualsense controller disconnects](https://github.com/Zelda64Recomp/Zelda64Recomp/issues/599) 💬 9 | [Zelda64Recomp/Zelda64Recomp](https://github.com/Zelda64Recomp/Zelda64Recomp) | 7.2k | 🟡 help wanted | 2026-04-03 |  |
+| [MacOS Crash when Dualsense controller disconnects](https://github.com/Zelda64Recomp/Zelda64Recomp/issues/599) 💬 9 | [Zelda64Recomp/Zelda64Recomp](https://github.com/Zelda64Recomp/Zelda64Recomp) | 7.3k | 🟡 help wanted | 2026-04-03 |  |
 | [Create mascot and new logo graphics](https://github.com/zmkfirmware/zmk/issues/225) 💬 15 | [zmkfirmware/zmk](https://github.com/zmkfirmware/zmk) | 4.3k | 🟡 help wanted | 2026-03-31 |  |
 | [Basic templated JIT?](https://github.com/quickjs-ng/quickjs/issues/659) 💬 9 | [quickjs-ng/quickjs](https://github.com/quickjs-ng/quickjs) | 3.7k | 🟡 help wanted | 2026-03-30 |  |
 | [Themes for HTML export](https://github.com/pawelsalawa/letos/issues/3240) | [pawelsalawa/letos](https://github.com/pawelsalawa/letos) | 6.7k | 🟢 beginner | 2026-03-27 |  |

@@ -1,8 +1,8 @@
 # Web development issues
 
-**284** open issues (129 labeled for beginners) across **110** projects tagged with topics like `web`, `frontend`, `react`, `vue`, `svelte`, `angular`.
+**281** open issues (129 labeled for beginners) across **110** projects tagged with topics like `web`, `frontend`, `react`, `vue`, `svelte`, `angular`.
 
-> Updated automatically on **2026-09-13 01:43 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-13 11:14 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,10 +10,11 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [Single token output / binary classification loss goes to 0](https://github.com/unslothai/unsloth/issues/946) 💬 15 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 76.1k | 🟢 beginner | 2026-09-13 |  |
 | [Numeric Field does not support Percent format](https://github.com/MudBlazor/MudBlazor/issues/11241) 💬 7 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-09-13 |  |
 | [Add CanSelect property to MudTreeViewItem](https://github.com/MudBlazor/MudBlazor/issues/11195) | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-09-13 |  |
 | [Evaluation loss becomes constant](https://github.com/unslothai/unsloth/issues/1067) 💬 8 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 76.1k | 🟢 beginner | 2026-09-12 |  |
-| [Map support](https://github.com/pascalorg/editor/issues/154) 💬 7 | [pascalorg/editor](https://github.com/pascalorg/editor) | 23.8k | 🟡 help wanted | 2026-09-12 |  |
+| [Map support](https://github.com/pascalorg/editor/issues/154) 💬 7 | [pascalorg/editor](https://github.com/pascalorg/editor) | 23.9k | 🟡 help wanted | 2026-09-12 |  |
 | [Default value doesn't work with if-else and array](https://github.com/rjsf-team/react-jsonschema-form/issues/3869) 💬 4 | [rjsf-team/react-jsonschema-form](https://github.com/rjsf-team/react-jsonschema-form) | 15.9k | 🟡 help wanted | 2026-09-12 |  |
 | [Web Components Asynchrony](https://github.com/raquo/Laminar/issues/73) 💬 1 | [raquo/Laminar](https://github.com/raquo/Laminar) | 835 | 🟡 help wanted | 2026-09-12 |  |
 | [io.grpc.StatusRuntimeException: DEADLINE_EXCEEDED: deadline exceeded after 0.981473792s. [buffered_nanos=71961](https://github.com/apache/dubbo/issues/12414) 💬 11 | [apache/dubbo](https://github.com/apache/dubbo) | 41.6k | 🟢 beginner | 2026-09-11 | ✍️ CLA |
@@ -127,7 +128,6 @@
 | [MudMenuItem: Add IsChecked prop](https://github.com/MudBlazor/MudBlazor/issues/6124) 💬 1 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-08-16 |  |
 | [Custom SVG Icon Size Limitation in MudNavLink](https://github.com/MudBlazor/MudBlazor/issues/6491) 💬 1 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-08-15 |  |
 | [Filter tls options](https://github.com/nodejs/undici/issues/236) 💬 7 | [nodejs/undici](https://github.com/nodejs/undici) | 7.7k | 🟢 beginner | 2026-08-14 |  |
-| [Improve testing of InetAddressPattern used in ConditionalHandler](https://github.com/jetty/jetty.project/issues/15589) | [jetty/jetty.project](https://github.com/jetty/jetty.project) | 4.1k | 🟡 help wanted | 2026-08-14 |  |
 | [Extra vertical space in static ColorPicker with small palettes](https://github.com/MudBlazor/MudBlazor/issues/9131) 💬 1 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-08-13 |  |
 | [Replace raw form inputs with shared input components in the dotcom client](https://github.com/tldraw/tldraw/issues/9191) 💬 6 | [tldraw/tldraw](https://github.com/tldraw/tldraw) | 50.3k | 🟢 beginner | 2026-08-11 |  |
 | [Expand text input field on mobile](https://github.com/karakeep-app/karakeep/issues/2364) 💬 5 | [karakeep-app/karakeep](https://github.com/karakeep-app/karakeep) | 29k | 🟢 beginner | 2026-08-11 |  |
@@ -143,7 +143,7 @@
 | [feat: add clipboard history denylist](https://github.com/vicinaehq/vicinae/issues/91) 💬 12 | [vicinaehq/vicinae](https://github.com/vicinaehq/vicinae) | 9.5k | 🟡 help wanted | 2026-08-05 | 📄 AI policy |
 | [Cannot grant SAF access (Android 15)](https://github.com/TeamAmaze/AmazeFileManager/issues/4352) 💬 1 | [TeamAmaze/AmazeFileManager](https://github.com/TeamAmaze/AmazeFileManager) | 6.4k | 🟡 help wanted | 2026-08-05 |  |
 | [Implement case-changing utility methods](https://github.com/oven-sh/bun/issues/15087) 💬 17 | [oven-sh/bun](https://github.com/oven-sh/bun) | 96k | 🟢 beginner | 2026-08-04 |  |
-| [Feature Request: 3D Pipeline/Water Pipe Drawing Tool](https://github.com/pascalorg/editor/issues/227) 💬 4 | [pascalorg/editor](https://github.com/pascalorg/editor) | 23.8k | 🟡 help wanted | 2026-08-04 |  |
+| [Feature Request: 3D Pipeline/Water Pipe Drawing Tool](https://github.com/pascalorg/editor/issues/227) 💬 4 | [pascalorg/editor](https://github.com/pascalorg/editor) | 23.9k | 🟡 help wanted | 2026-08-04 |  |
 | [Add drag and drop functionality to TreeView](https://github.com/MudBlazor/MudBlazor/issues/5987) 💬 16 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟡 help wanted | 2026-08-03 |  |
 | [[Bug]: Microsoft Pinyin Input Method Fails to Complete Input After Enabling the CharacterCount Plugin](https://github.com/ueberdosis/tiptap/issues/5878) 💬 4 | [ueberdosis/tiptap](https://github.com/ueberdosis/tiptap) | 38.4k | 🟢 beginner | 2026-08-02 | 🤖 disclose AI use |
 | [User-agent parser / accessor on Request](https://github.com/sanic-org/sanic/issues/2744) 💬 3 | [sanic-org/sanic](https://github.com/sanic-org/sanic) | 18.6k | 🟡 help wanted | 2026-08-02 |  |
@@ -151,7 +151,7 @@
 | [Feature: negate condition in verify()](https://github.com/wiremock/wiremock/issues/1892) 💬 2 | [wiremock/wiremock](https://github.com/wiremock/wiremock) | 7.4k | 🟡 help wanted | 2026-08-01 |  |
 | [Support returning HTTP 404 when mapping files aren't found.](https://github.com/wiremock/wiremock/issues/2470) 💬 1 | [wiremock/wiremock](https://github.com/wiremock/wiremock) | 7.4k | 🟡 help wanted | 2026-08-01 |  |
 | [Post image in chatroom](https://github.com/m1k1o/neko/issues/422) 💬 4 | [m1k1o/neko](https://github.com/m1k1o/neko) | 22.3k | 🟢 beginner | 2026-07-31 |  |
-| [Ability to search similar images "from" partner assets](https://github.com/immich-app/immich/issues/21855) 💬 6 | [immich-app/immich](https://github.com/immich-app/immich) | 113.9k | 🟢 beginner | 2026-07-30 |  |
+| [Ability to search similar images "from" partner assets](https://github.com/immich-app/immich/issues/21855) 💬 6 | [immich-app/immich](https://github.com/immich-app/immich) | 114k | 🟢 beginner | 2026-07-30 |  |
 | [German characters in html notation will not correctly converted](https://github.com/karakeep-app/karakeep/issues/728) 💬 2 | [karakeep-app/karakeep](https://github.com/karakeep-app/karakeep) | 29k | 🟢 beginner | 2026-07-29 |  |
 | [feat: implement pi-rpc protocol for Pi agent](https://github.com/nexu-io/html-anything/issues/130) 💬 2 | [nexu-io/html-anything](https://github.com/nexu-io/html-anything) | 8.8k | 🟡 help wanted | 2026-07-27 | ✍️ CLA |
 | [Changing FontSize in MudTheme breaks components](https://github.com/MudBlazor/MudBlazor/issues/10394) 💬 3 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-07-26 |  |
@@ -166,7 +166,7 @@
 | [False positive: "more cut" wrongly flagged to change to "cuter"](https://github.com/Automattic/harper/issues/3297) | [Automattic/harper](https://github.com/Automattic/harper) | 15.3k | 🟡 help wanted | 2026-07-19 | 🤖 disclose AI use |
 | [os.setTray crashing app on macOS Catalina 10.15.7](https://github.com/neutralinojs/neutralinojs/issues/615) 💬 25 | [neutralinojs/neutralinojs](https://github.com/neutralinojs/neutralinojs) | 8.6k | 🟡 help wanted | 2026-07-19 |  |
 | [textAscent() and textDescent() broken if textSize &gt; 200](https://github.com/processing/p5.js/issues/8771) 💬 15 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-07-18 | ⚠️ AI restricted |
-| [Test input.type change from text to file to text](https://github.com/web-platform-tests/wpt/issues/2611) 💬 8 | [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt) | 6.1k | 🟢 beginner | 2026-07-18 |  |
+| [Test input.type change from text to file to text](https://github.com/web-platform-tests/wpt/issues/2611) 💬 8 | [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt) | 6.2k | 🟢 beginner | 2026-07-18 |  |
 | [It would be a great help to have a Harper corpus tool for Harper devs to help research new linting rules](https://github.com/Automattic/harper/issues/3841) | [Automattic/harper](https://github.com/Automattic/harper) | 15.3k | 🟢 beginner | 2026-07-17 | 🤖 disclose AI use |
 | [[Documentation]: How do you get the content from the Editor?](https://github.com/ueberdosis/tiptap/issues/6689) 💬 1 | [ueberdosis/tiptap](https://github.com/ueberdosis/tiptap) | 38.4k | 🟢 beginner | 2026-07-16 | 🤖 disclose AI use |
 | [[Documentation]: NodePos method name setAttribute is misspelled as setAttributes](https://github.com/ueberdosis/tiptap/issues/4956) | [ueberdosis/tiptap](https://github.com/ueberdosis/tiptap) | 38.4k | 🟢 beginner | 2026-07-16 | 🤖 disclose AI use |
@@ -190,7 +190,6 @@
 | [📢 NaiveUI Feature Requests & Task Assignment](https://github.com/tusen-ai/naive-ui/issues/6737) 💬 10 | [tusen-ai/naive-ui](https://github.com/tusen-ai/naive-ui) | 18.5k | 🟡 help wanted | 2026-07-05 |  |
 | [Allow admin role to create pre-signed URLs with arbitrary expirations](https://github.com/nhost/nhost/issues/3517) 💬 7 | [nhost/nhost](https://github.com/nhost/nhost) | 9.3k | 🟢 beginner | 2026-07-02 | ⚠️ AI restricted |
 | [Proposal: Turn on GL backend for Femtovg WGPU](https://github.com/slint-ui/slint/issues/12273) 💬 2 | [slint-ui/slint](https://github.com/slint-ui/slint) | 23.8k | 🟢 beginner | 2026-06-30 |  |
-| [HTML format breaks when text contains un-encoded &lt;](https://github.com/beautifier/js-beautify/issues/1646) 💬 6 | [beautifier/js-beautify](https://github.com/beautifier/js-beautify) | 9k | 🟢 beginner | 2026-06-30 |  |
 | [Scripts refuse to load due to unsafe eval](https://github.com/beautifier/js-beautify/issues/1319) 💬 4 | [beautifier/js-beautify](https://github.com/beautifier/js-beautify) | 9k | 🟡 help wanted | 2026-06-30 |  |
 | [Does this currently support babel/es2015/es6?](https://github.com/beautifier/js-beautify/issues/780) 💬 5 | [beautifier/js-beautify](https://github.com/beautifier/js-beautify) | 9k | 🟢 beginner | 2026-06-30 |  |
 | [Table is not interactive on first click in SSR](https://github.com/adobe/react-spectrum/issues/8239) 💬 17 | [adobe/react-spectrum](https://github.com/adobe/react-spectrum) | 15.9k | 🟡 help wanted | 2026-06-29 | 🤖 disclose AI use · ✍️ CLA |
@@ -210,5 +209,6 @@
 | [用户案例 \| Who's using Kratos?](https://github.com/go-kratos/kratos/issues/969) 💬 47 | [go-kratos/kratos](https://github.com/go-kratos/kratos) | 25.9k | 🟡 help wanted | 2026-06-18 |  |
 | [Add additional WebGL filter stress scenarios to visual regression suite](https://github.com/processing/p5.js/issues/8550) 💬 4 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-06-17 | ⚠️ AI restricted |
 | [Restore help menu in bottom-right corner and replace sidebar help menu with user menu](https://github.com/tldraw/tldraw/issues/8880) 💬 3 | [tldraw/tldraw](https://github.com/tldraw/tldraw) | 50.3k | 🟢 beginner | 2026-06-15 |  |
+| [Set SameSite attribute on session cookie created by the frontend](https://github.com/DependencyTrack/dependency-track/issues/2985) 💬 1 | [DependencyTrack/dependency-track](https://github.com/DependencyTrack/dependency-track) | 4.2k | 🟢 beginner | 2026-06-15 | ⚠️ AI restricted · 🔏 DCO |
 
-Showing the 200 most recently updated. See all 284 on the website.
+Showing the 200 most recently updated. See all 281 on the website.

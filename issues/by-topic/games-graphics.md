@@ -1,8 +1,8 @@
 # Games and graphics issues
 
-**140** open issues (77 labeled for beginners) across **48** projects tagged with topics like `game`, `game-engine`, `gamedev`, `graphics`, `opengl`, `vulkan`.
+**141** open issues (77 labeled for beginners) across **48** projects tagged with topics like `game`, `game-engine`, `gamedev`, `graphics`, `opengl`, `vulkan`.
 
-> Updated automatically on **2026-09-13 01:43 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-13 11:14 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,14 +10,16 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [OCC: Sweep using bezier curve bug](https://github.com/FreeCAD/FreeCAD/issues/5651) 💬 5 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.5k | 🟡 help wanted | 2026-09-13 | ⚠️ AI restricted |
 | [window.resize_increments ignores window.padding](https://github.com/alacritty/alacritty/issues/9047) 💬 1 | [alacritty/alacritty](https://github.com/alacritty/alacritty) | 65.7k | 🟢 beginner | 2026-09-12 |  |
 | [VarSet: Drag-n-drop properties between Groups](https://github.com/FreeCAD/FreeCAD/issues/28578) 💬 2 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.5k | 🟢 beginner | 2026-09-12 | ⚠️ AI restricted |
 | [DXF: importing DXF files with large coordinates is problematic](https://github.com/FreeCAD/FreeCAD/issues/19326) 💬 2 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.5k | 🟡 help wanted | 2026-09-12 | ⚠️ AI restricted |
 | [TechDraw: not drawing all lines in view (OCC related: misclassified edges)](https://github.com/FreeCAD/FreeCAD/issues/6203) 💬 7 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.5k | 🟡 help wanted | 2026-09-12 | ⚠️ AI restricted |
 | [macOS: Improper name formatting in About menu: 'freecad' -&gt; 'FreeCAD'](https://github.com/FreeCAD/FreeCAD/issues/21118) 💬 25 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.5k | 🟢 beginner | 2026-09-12 | ⚠️ AI restricted |
 | [PartDesign: Broken (paradoxical/impossible) geometry generated via double rectangular pocket (due to elusive O](https://github.com/FreeCAD/FreeCAD/issues/8176) 💬 27 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.5k | 🟡 help wanted | 2026-09-12 | ⚠️ AI restricted |
+| [UI/UX: Preferences dialog needs some polishing](https://github.com/FreeCAD/FreeCAD/issues/28272) 💬 2 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.5k | 🟢 beginner | 2026-09-12 | ⚠️ AI restricted |
 | [Fillet can not round a face (upstream OCC bug)](https://github.com/FreeCAD/FreeCAD/issues/5561) 💬 17 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.5k | 🟡 help wanted | 2026-09-12 | ⚠️ AI restricted |
-| [Map support](https://github.com/pascalorg/editor/issues/154) 💬 7 | [pascalorg/editor](https://github.com/pascalorg/editor) | 23.8k | 🟡 help wanted | 2026-09-12 |  |
+| [Map support](https://github.com/pascalorg/editor/issues/154) 💬 7 | [pascalorg/editor](https://github.com/pascalorg/editor) | 23.9k | 🟡 help wanted | 2026-09-12 |  |
 | [[BUG]: TOZEROY FILL IS FILLING AREAS OF THE PLOT THAT HAS NO DATA IN IT](https://github.com/plotly/plotly.py/issues/5632) 💬 9 | [plotly/plotly.py](https://github.com/plotly/plotly.py) | 18.8k | 🟢 beginner | 2026-09-12 |  |
 | [all *.json files are interpreted as objects](https://github.com/OpenRCT2/OpenRCT2/issues/16807) 💬 3 | [OpenRCT2/OpenRCT2](https://github.com/OpenRCT2/OpenRCT2) | 16.2k | 🟢 beginner | 2026-09-12 |  |
 | [PartDesign: Thickness Parameters 'Mode', 'Join Type', 'Intersection' could have tooltips](https://github.com/FreeCAD/FreeCAD/issues/23801) 💬 5 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.5k | 🟢 beginner | 2026-09-11 | ⚠️ AI restricted |
@@ -37,7 +39,6 @@
 | [Core: Transform context menu option of datums does not work](https://github.com/FreeCAD/FreeCAD/issues/32385) 💬 2 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.5k | 🟢 beginner | 2026-09-04 | ⚠️ AI restricted |
 | [External reference will ignore multiple coordinate systems](https://github.com/FreeCAD/FreeCAD/issues/23323) 💬 4 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.5k | 🟡 help wanted | 2026-09-04 | ⚠️ AI restricted |
 | [BIM: Arch_Space object doesn't work with non-convex boundaries](https://github.com/FreeCAD/FreeCAD/issues/6091) 💬 15 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.5k | 🟡 help wanted | 2026-09-04 | ⚠️ AI restricted |
-| [Fix IV mode in Sketchfab exporter](https://github.com/FreeCAD/FreeCAD/issues/5744) 💬 10 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.5k | 🟢 beginner | 2026-09-04 | ⚠️ AI restricted |
 | [[p5.js 2.0+ Bug Report]: Floats in strands shaders are always rounded to 4 decimals](https://github.com/processing/p5.js/issues/8884) 💬 15 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-08-31 | ⚠️ AI restricted |
 | [Support serializing NURBS surface classes](https://github.com/panda3d/panda3d/issues/1467) 💬 3 | [panda3d/panda3d](https://github.com/panda3d/panda3d) | 5.2k | 🟢 beginner | 2026-08-31 |  |
 | [Do not offer "free entry to park" or "half-price entry to park" if there is no admission fee](https://github.com/OpenRCT2/OpenRCT2/issues/14778) 💬 3 | [OpenRCT2/OpenRCT2](https://github.com/OpenRCT2/OpenRCT2) | 16.2k | 🟢 beginner | 2026-08-30 |  |
@@ -45,7 +46,7 @@
 | [Saving to clipboard (Ctrl+C) causes a 1s delay on quit due to clip timeout](https://github.com/f3d-app/f3d/issues/3353) 💬 3 | [f3d-app/f3d](https://github.com/f3d-app/f3d) | 4.7k | 🟡 help wanted | 2026-08-29 | 🤖 disclose AI use |
 | [[Feature Request] Support line styles in Scattermapbox](https://github.com/plotly/plotly.js/issues/6791) 💬 12 | [plotly/plotly.js](https://github.com/plotly/plotly.js) | 18.3k | 🟢 beginner | 2026-08-28 | ⚠️ AI restricted |
 | [Add support for GLTF 'KHR_texture_basisu' extension](https://github.com/f3d-app/f3d/issues/1707) 💬 3 | [f3d-app/f3d](https://github.com/f3d-app/f3d) | 4.7k | 🟡 help wanted | 2026-08-27 | 🤖 disclose AI use |
-| [tests-run: TotalTests ignores all filters (counts entire test tree)](https://github.com/IvanMurzak/Unity-MCP/issues/950) 💬 2 | [IvanMurzak/Unity-MCP](https://github.com/IvanMurzak/Unity-MCP) | 4.2k | 🟡 help wanted | 2026-08-27 |  |
+| [tests-run: TotalTests ignores all filters (counts entire test tree)](https://github.com/IvanMurzak/Unity-MCP/issues/950) 💬 2 | [IvanMurzak/Unity-MCP](https://github.com/IvanMurzak/Unity-MCP) | 4.3k | 🟡 help wanted | 2026-08-27 |  |
 | [Add prompt for the delete keybinding controller button in the keybindings menu](https://github.com/Revolutionary-Games/Thrive/issues/4049) 💬 17 | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) | 3.7k | 🟢 beginner | 2026-08-25 |  |
 | [Create a cross platform pty crate](https://github.com/alacritty/alacritty/issues/2079) 💬 10 | [alacritty/alacritty](https://github.com/alacritty/alacritty) | 65.7k | 🟡 help wanted | 2026-08-19 |  |
 | [Irrelevant error message from 'PerInstanceColorAppearance'](https://github.com/CesiumGS/cesium/issues/12107) 💬 6 | [CesiumGS/cesium](https://github.com/CesiumGS/cesium) | 15.7k | 🟢 beginner | 2026-08-19 | ✍️ CLA |
@@ -55,7 +56,7 @@
 | [Disable VK on unsupported systems](https://github.com/xemu-project/xemu/issues/2307) 💬 3 | [xemu-project/xemu](https://github.com/xemu-project/xemu) | 4.1k | 🟢 beginner | 2026-08-12 |  |
 | [Toast widget](https://github.com/iced-rs/iced/issues/485) 💬 4 | [iced-rs/iced](https://github.com/iced-rs/iced) | 31.5k | 🟢 beginner | 2026-08-06 |  |
 | [Improve Java bindings test quality](https://github.com/f3d-app/f3d/issues/3322) 💬 8 | [f3d-app/f3d](https://github.com/f3d-app/f3d) | 4.7k | 🟢 beginner | 2026-08-05 | 🤖 disclose AI use |
-| [Feature Request: 3D Pipeline/Water Pipe Drawing Tool](https://github.com/pascalorg/editor/issues/227) 💬 4 | [pascalorg/editor](https://github.com/pascalorg/editor) | 23.8k | 🟡 help wanted | 2026-08-04 |  |
+| [Feature Request: 3D Pipeline/Water Pipe Drawing Tool](https://github.com/pascalorg/editor/issues/227) 💬 4 | [pascalorg/editor](https://github.com/pascalorg/editor) | 23.9k | 🟡 help wanted | 2026-08-04 |  |
 | [Implement WebcamVideo backend using AVFoundation](https://github.com/panda3d/panda3d/issues/1532) 💬 3 | [panda3d/panda3d](https://github.com/panda3d/panda3d) | 5.2k | 🟢 beginner | 2026-08-04 |  |
 | [Give reason for damage done by tnt](https://github.com/luanti-org/minetest_game/issues/3263) | [luanti-org/minetest_game](https://github.com/luanti-org/minetest_game) | 1.6k | 🟢 beginner | 2026-08-02 |  |
 | [[burn-train] Hot Reloading](https://github.com/tracel-ai/burn/issues/3571) 💬 2 | [tracel-ai/burn](https://github.com/tracel-ai/burn) | 15.9k | 🟡 help wanted | 2026-07-31 |  |
@@ -135,9 +136,9 @@
 | [Use lmdb for shader cache](https://github.com/xemu-project/xemu/issues/2746) 💬 1 | [xemu-project/xemu](https://github.com/xemu-project/xemu) | 4.1k | 🟢 beginner | 2026-05-05 |  |
 | [Large File downloads do not fail if curl error](https://github.com/GameServerManagers/LinuxGSM/issues/2421) 💬 5 | [GameServerManagers/LinuxGSM](https://github.com/GameServerManagers/LinuxGSM) | 4.9k | 🟢 beginner | 2026-05-03 |  |
 | [Improved Workshop support](https://github.com/GameServerManagers/LinuxGSM/issues/2092) 💬 3 | [GameServerManagers/LinuxGSM](https://github.com/GameServerManagers/LinuxGSM) | 4.9k | 🟡 help wanted | 2026-05-03 |  |
-| [Add CI for Unity 6.5](https://github.com/IvanMurzak/Unity-MCP/issues/708) | [IvanMurzak/Unity-MCP](https://github.com/IvanMurzak/Unity-MCP) | 4.2k | 🟡 help wanted | 2026-05-01 |  |
+| [Add CI for Unity 6.5](https://github.com/IvanMurzak/Unity-MCP/issues/708) | [IvanMurzak/Unity-MCP](https://github.com/IvanMurzak/Unity-MCP) | 4.3k | 🟡 help wanted | 2026-05-01 |  |
 | [Port shell scripts to PowerShell, merging w/ Batch scripts where possible](https://github.com/TASEmulators/BizHawk/issues/3013) 💬 3 | [TASEmulators/BizHawk](https://github.com/TASEmulators/BizHawk) | 2.8k | 🟡 help wanted | 2026-04-21 |  |
-| [Add authorization to MCP server if auth is requried](https://github.com/IvanMurzak/Unity-MCP/issues/657) | [IvanMurzak/Unity-MCP](https://github.com/IvanMurzak/Unity-MCP) | 4.2k | 🟡 help wanted | 2026-04-17 |  |
+| [Add authorization to MCP server if auth is requried](https://github.com/IvanMurzak/Unity-MCP/issues/657) | [IvanMurzak/Unity-MCP](https://github.com/IvanMurzak/Unity-MCP) | 4.3k | 🟡 help wanted | 2026-04-17 |  |
 | [Support font-stretch](https://github.com/xtermjs/xterm.js/issues/2946) 💬 4 | [xtermjs/xterm.js](https://github.com/xtermjs/xterm.js) | 21.2k | 🟡 help wanted | 2026-04-13 |  |
 | [Keybinding "/" not starting search in "Vi" mode for Spanish keyboard](https://github.com/alacritty/alacritty/issues/8846) 💬 15 | [alacritty/alacritty](https://github.com/alacritty/alacritty) | 65.7k | 🟢 beginner | 2026-04-12 |  |
 | [AI models for graphics editing](https://github.com/GraphiteEditor/Graphite/issues/1694) 💬 10 | [GraphiteEditor/Graphite](https://github.com/GraphiteEditor/Graphite) | 27.2k | 🟡 help wanted | 2026-04-12 | 📄 AI policy |
@@ -145,8 +146,8 @@
 | [Infinite loop when drawing large ligatures to char atlas](https://github.com/xtermjs/xterm.js/issues/4362) 💬 1 | [xtermjs/xterm.js](https://github.com/xtermjs/xterm.js) | 21.2k | 🟡 help wanted | 2026-04-12 |  |
 | [Pivot Controls](https://github.com/Tresjs/tres/issues/1104) | [Tresjs/tres](https://github.com/Tresjs/tres) | 3.7k | 🟢 beginner | 2026-04-08 |  |
 | [Blind Accessibility](https://github.com/mapeditor/tiled/issues/3948) 💬 6 | [mapeditor/tiled](https://github.com/mapeditor/tiled) | 12.9k | 🟡 help wanted | 2026-04-07 |  |
-| [Add "Open" Button to AI Agent Section](https://github.com/IvanMurzak/Unity-MCP/issues/542) 💬 3 | [IvanMurzak/Unity-MCP](https://github.com/IvanMurzak/Unity-MCP) | 4.2k | 🟡 help wanted | 2026-03-31 |  |
-| [Cursor extension on the extensions market](https://github.com/IvanMurzak/Unity-MCP/issues/614) | [IvanMurzak/Unity-MCP](https://github.com/IvanMurzak/Unity-MCP) | 4.2k | 🟡 help wanted | 2026-03-26 |  |
+| [Add "Open" Button to AI Agent Section](https://github.com/IvanMurzak/Unity-MCP/issues/542) 💬 3 | [IvanMurzak/Unity-MCP](https://github.com/IvanMurzak/Unity-MCP) | 4.3k | 🟡 help wanted | 2026-03-31 |  |
+| [Cursor extension on the extensions market](https://github.com/IvanMurzak/Unity-MCP/issues/614) | [IvanMurzak/Unity-MCP](https://github.com/IvanMurzak/Unity-MCP) | 4.3k | 🟡 help wanted | 2026-03-26 |  |
 | [Cells can fire toxins while they are dead](https://github.com/Revolutionary-Games/Thrive/issues/6837) | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) | 3.7k | 🟢 beginner | 2026-03-26 |  |
 | [Switch the readme build status badge to the new system](https://github.com/Revolutionary-Games/Thrive/issues/2267) 💬 4 | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) | 3.7k | 🟢 beginner | 2026-03-19 |  |
 | [Doubleclick to edit custom property key](https://github.com/mapeditor/tiled/issues/1662) 💬 10 | [mapeditor/tiled](https://github.com/mapeditor/tiled) | 12.9k | 🟢 beginner | 2026-03-18 |  |

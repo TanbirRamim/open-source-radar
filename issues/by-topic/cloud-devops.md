@@ -1,8 +1,8 @@
 # Cloud, DevOps and infrastructure issues
 
-**536** open issues (209 labeled for beginners) across **148** projects tagged with topics like `devops`, `kubernetes`, `docker`, `cloud`, `infrastructure`, `terraform`.
+**533** open issues (208 labeled for beginners) across **147** projects tagged with topics like `devops`, `kubernetes`, `docker`, `cloud`, `infrastructure`, `terraform`.
 
-> Updated automatically on **2026-09-13 01:43 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-13 11:14 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,6 +10,7 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [Single token output / binary classification loss goes to 0](https://github.com/unslothai/unsloth/issues/946) 💬 15 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 76.1k | 🟢 beginner | 2026-09-13 |  |
 | [[Help Wanted]怎么修改telegram的上传大小呢？默认10MB](https://github.com/MarSeventh/CloudFlare-ImgBed/issues/718) 💬 2 | [MarSeventh/CloudFlare-ImgBed](https://github.com/MarSeventh/CloudFlare-ImgBed) | 6.5k | 🟡 help wanted | 2026-09-13 |  |
 | [Evaluation loss becomes constant](https://github.com/unslothai/unsloth/issues/1067) 💬 8 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 76.1k | 🟢 beginner | 2026-09-12 |  |
 | [RU translation mistake](https://github.com/getsentry/sentry/issues/98565) 💬 4 | [getsentry/sentry](https://github.com/getsentry/sentry) | 44.8k | 🟢 beginner | 2026-09-12 |  |
@@ -34,7 +35,6 @@
 | [Allow LowCardinality for UUID field without allow_suspicious_low_cardinality_types=1](https://github.com/ClickHouse/ClickHouse/issues/56818) 💬 5 | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 49.9k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use · ✍️ CLA |
 | [Respect systemd clickhouse-server.service enable/disable status during update to new version](https://github.com/ClickHouse/ClickHouse/issues/67591) 💬 3 | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 49.9k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use · ✍️ CLA |
 | [MaterializedPostgreSQL pg_publication_tables have equal name in column pubname for two db in one cluster.](https://github.com/ClickHouse/ClickHouse/issues/69388) | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 49.9k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use · ✍️ CLA |
-| [Support query parameters for ALTER TABLE (and other DDL) statements](https://github.com/ClickHouse/ClickHouse/issues/76756) 💬 7 | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 49.9k | 🟢 beginner | 2026-09-11 | 🤖 disclose AI use · ✍️ CLA |
 | [Aggregator will have statistics about aggregated keys(min/max/any 100 values)](https://github.com/ClickHouse/ClickHouse/issues/77740) 💬 3 | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 49.9k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use · ✍️ CLA |
 | [Clickhouse generates logon's with "null" user account when TLS is enabled in LDAPS](https://github.com/ClickHouse/ClickHouse/issues/77991) 💬 1 | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 49.9k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use · ✍️ CLA |
 | [[MaterializedPostgreSQL] PG WAL size keep increasing if there's no change](https://github.com/ClickHouse/ClickHouse/issues/78149) | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 49.9k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use · ✍️ CLA |
@@ -71,7 +71,7 @@
 | [[TRIGGER]](https://github.com/PipedreamHQ/pipedream/issues/21956) | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-09-10 |  |
 | [[Initiative]: Scale and performance testing guidance](https://github.com/cncf/toc/issues/2233) 💬 2 | [cncf/toc](https://github.com/cncf/toc) | 1.9k | 🟡 help wanted | 2026-09-10 |  |
 | [[RFE] Use ansible-runner execution environments as a base for embedded ansible execution](https://github.com/ManageIQ/manageiq/issues/21466) 💬 9 | [ManageIQ/manageiq](https://github.com/ManageIQ/manageiq) | 1.4k | 🟡 help wanted | 2026-09-10 |  |
-| [[Feature Request]: Generate a PDF file from a XRechnung XML file](https://github.com/Stirling-Tools/Stirling-PDF/issues/2025) 💬 4 | [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) | 91.8k | 🟡 help wanted | 2026-09-09 |  |
+| [[Feature Request]: Generate a PDF file from a XRechnung XML file](https://github.com/Stirling-Tools/Stirling-PDF/issues/2025) 💬 4 | [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) | 91.9k | 🟡 help wanted | 2026-09-09 |  |
 | [MQTT - based scaler](https://github.com/kedacore/keda/issues/1282) 💬 22 | [kedacore/keda](https://github.com/kedacore/keda) | 10.5k | 🟡 help wanted | 2026-09-09 | 🔏 DCO |
 | [Enhance Security and Self-Service by Allowing Service Account Specification in Target Namespace for Workload I](https://github.com/kedacore/keda/issues/5630) 💬 20 | [kedacore/keda](https://github.com/kedacore/keda) | 10.5k | 🟡 help wanted | 2026-09-09 | 🔏 DCO |
 | [Headscale with reverse proxy Zoraxy not working because allegedly WebSockets are not passing through](https://github.com/tobychui/zoraxy/issues/1012) 💬 9 | [tobychui/zoraxy](https://github.com/tobychui/zoraxy) | 5.4k | 🟡 help wanted | 2026-09-09 |  |
@@ -122,7 +122,7 @@
 | [[Management] Number fields accept invalid input](https://github.com/elastic/kibana/issues/197506) 💬 6 | [elastic/kibana](https://github.com/elastic/kibana) | 21.3k | 🟢 beginner | 2026-09-02 | ⚠️ AI restricted |
 | [[Security Solution] Exception lists are removed during rule import rule import, causing false positives](https://github.com/elastic/kibana/issues/256010) 💬 4 | [elastic/kibana](https://github.com/elastic/kibana) | 21.3k | 🟢 beginner | 2026-09-02 | ⚠️ AI restricted |
 | [Inconsistency in link settings terminology](https://github.com/suitenumerique/docs/issues/2612) 💬 2 | [suitenumerique/docs](https://github.com/suitenumerique/docs) | 16.8k | 🟢 beginner | 2026-09-02 | 🤖 disclose AI use · 🔏 DCO |
-| [GCS needs someone with a real bucket to run its test](https://github.com/deeplethe/utopia/issues/214) | [deeplethe/utopia](https://github.com/deeplethe/utopia) | 7.2k | 🟡 help wanted | 2026-09-02 | ✍️ CLA · 🔏 DCO |
+| [GCS needs someone with a real bucket to run its test](https://github.com/deeplethe/utopia/issues/214) | [deeplethe/utopia](https://github.com/deeplethe/utopia) | 7.3k | 🟡 help wanted | 2026-09-02 | ✍️ CLA · 🔏 DCO |
 | [[Feature] Running Usloth Studion in kaggle](https://github.com/unslothai/unsloth/issues/4944) 💬 2 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 76.1k | 🟡 help wanted | 2026-09-01 |  |
 | [[Bug] Cannot load qwen3-vl series with lora adapter on vllm.](https://github.com/unslothai/unsloth/issues/3560) 💬 8 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 76.1k | 🟢 beginner | 2026-09-01 |  |
 | [[Feature] Add FT support for the Qwen3-TTS model.](https://github.com/unslothai/unsloth/issues/3951) 💬 9 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 76.1k | 🟢 beginner | 2026-09-01 |  |
@@ -211,4 +211,4 @@
 | [Generate performance metric for minikube start/stop/delete speed on different drivers](https://github.com/kubernetes/minikube/issues/4622) 💬 6 | [kubernetes/minikube](https://github.com/kubernetes/minikube) | 32.1k | 🟡 help wanted | 2026-08-13 |  |
 | [Make the VM IP settable](https://github.com/kubernetes/minikube/issues/2938) 💬 9 | [kubernetes/minikube](https://github.com/kubernetes/minikube) | 32.1k | 🟡 help wanted | 2026-08-13 |  |
 
-Showing the 200 most recently updated. See all 536 on the website.
+Showing the 200 most recently updated. See all 533 on the website.

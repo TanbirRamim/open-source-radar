@@ -1,8 +1,8 @@
 # CSS issues
 
-**31** open issues (25 labeled for beginners) across **7** active CSS projects.
+**33** open issues (26 labeled for beginners) across **8** active CSS projects.
 
-> Updated automatically on **2026-09-13 01:43 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-13 11:14 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,6 +10,8 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [Fork, Commit, Merge - Easy Issue (Tailwind CSS)](https://github.com/fork-commit-merge/fork-commit-merge/issues/8084) 💬 2 | [fork-commit-merge/fork-commit-merge](https://github.com/fork-commit-merge/fork-commit-merge) | 512 | 🟢 beginner | 2026-09-13 |  |
+| [Add an OpenType Math version: Source Serif Pro Math](https://github.com/adobe-fonts/source-serif/issues/13) 💬 17 | [adobe-fonts/source-serif](https://github.com/adobe-fonts/source-serif) | 2.4k | 🟡 help wanted | 2026-09-12 |  |
 | [Fork, Commit, Merge - Medium Issue 2 (React.js)](https://github.com/fork-commit-merge/fork-commit-merge/issues/8091) 💬 1 | [fork-commit-merge/fork-commit-merge](https://github.com/fork-commit-merge/fork-commit-merge) | 512 | 🟢 beginner | 2026-09-01 |  |
 | [Fork, Commit, Merge - Easy Issue (TypeScript/Vitest)](https://github.com/fork-commit-merge/fork-commit-merge/issues/8096) | [fork-commit-merge/fork-commit-merge](https://github.com/fork-commit-merge/fork-commit-merge) | 512 | 🟢 beginner | 2026-09-01 |  |
 | [Fork, Commit, Merge - Medium Issue (Docker)](https://github.com/fork-commit-merge/fork-commit-merge/issues/8112) | [fork-commit-merge/fork-commit-merge](https://github.com/fork-commit-merge/fork-commit-merge) | 512 | 🟢 beginner | 2026-09-01 |  |

@@ -1,8 +1,8 @@
 # Systems and embedded issues
 
-**185** open issues (84 labeled for beginners) across **49** projects tagged with topics like `operating-system`, `embedded`, `kernel`, `rust-lang`, `systems-programming`, `wasm`.
+**180** open issues (82 labeled for beginners) across **48** projects tagged with topics like `operating-system`, `embedded`, `kernel`, `rust-lang`, `systems-programming`, `wasm`.
 
-> Updated automatically on **2026-09-13 01:43 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-13 11:14 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -28,7 +28,6 @@
 | [Allow LowCardinality for UUID field without allow_suspicious_low_cardinality_types=1](https://github.com/ClickHouse/ClickHouse/issues/56818) 💬 5 | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 49.9k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use · ✍️ CLA |
 | [Respect systemd clickhouse-server.service enable/disable status during update to new version](https://github.com/ClickHouse/ClickHouse/issues/67591) 💬 3 | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 49.9k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use · ✍️ CLA |
 | [MaterializedPostgreSQL pg_publication_tables have equal name in column pubname for two db in one cluster.](https://github.com/ClickHouse/ClickHouse/issues/69388) | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 49.9k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use · ✍️ CLA |
-| [Support query parameters for ALTER TABLE (and other DDL) statements](https://github.com/ClickHouse/ClickHouse/issues/76756) 💬 7 | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 49.9k | 🟢 beginner | 2026-09-11 | 🤖 disclose AI use · ✍️ CLA |
 | [Aggregator will have statistics about aggregated keys(min/max/any 100 values)](https://github.com/ClickHouse/ClickHouse/issues/77740) 💬 3 | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 49.9k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use · ✍️ CLA |
 | [Clickhouse generates logon's with "null" user account when TLS is enabled in LDAPS](https://github.com/ClickHouse/ClickHouse/issues/77991) 💬 1 | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 49.9k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use · ✍️ CLA |
 | [[MaterializedPostgreSQL] PG WAL size keep increasing if there's no change](https://github.com/ClickHouse/ClickHouse/issues/78149) | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 49.9k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use · ✍️ CLA |
@@ -75,7 +74,6 @@
 | [MudMenuItem: Add IsChecked prop](https://github.com/MudBlazor/MudBlazor/issues/6124) 💬 1 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-08-16 |  |
 | [Custom SVG Icon Size Limitation in MudNavLink](https://github.com/MudBlazor/MudBlazor/issues/6491) 💬 1 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-08-15 |  |
 | [support pass buffer directly between two modules](https://github.com/wasm-micro-runtime/wasm-micro-runtime/issues/295) 💬 5 | [wasm-micro-runtime/wasm-micro-runtime](https://github.com/wasm-micro-runtime/wasm-micro-runtime) | 6.1k | 🟡 help wanted | 2026-08-15 |  |
-| [Improve testing of InetAddressPattern used in ConditionalHandler](https://github.com/jetty/jetty.project/issues/15589) | [jetty/jetty.project](https://github.com/jetty/jetty.project) | 4.1k | 🟡 help wanted | 2026-08-14 |  |
 | [Support for early returns inside loops that can be replaced with breaks](https://github.com/AeneasVerif/aeneas/issues/822) 💬 1 | [AeneasVerif/aeneas](https://github.com/AeneasVerif/aeneas) | 960 | 🟢 beginner | 2026-08-14 |  |
 | [Fuzzer failure in math_expression_fuzz_run_mvcc with trigonometry functions](https://github.com/tursodatabase/turso/issues/5165) 💬 7 | [tursodatabase/turso](https://github.com/tursodatabase/turso) | 24.3k | 🟢 beginner | 2026-08-13 | 🤖 disclose AI use |
 | [Extra vertical space in static ColorPicker with small palettes](https://github.com/MudBlazor/MudBlazor/issues/9131) 💬 1 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-08-13 |  |
@@ -98,7 +96,6 @@
 | [More Linux distros compatible](https://github.com/rustdesk/rustdesk/issues/3565) 💬 8 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | 123.3k | 🟡 help wanted | 2026-08-02 | 🔏 DCO |
 | [Swift bindings](https://github.com/tursodatabase/turso/issues/1950) 💬 3 | [tursodatabase/turso](https://github.com/tursodatabase/turso) | 24.3k | 🟢 beginner | 2026-08-02 | 🤖 disclose AI use |
 | [[burn-train] Hot Reloading](https://github.com/tracel-ai/burn/issues/3571) 💬 2 | [tracel-ai/burn](https://github.com/tracel-ai/burn) | 15.9k | 🟡 help wanted | 2026-07-31 |  |
-| [Add more docstring examples](https://github.com/pyodide/pyodide/issues/1955) 💬 10 | [pyodide/pyodide](https://github.com/pyodide/pyodide) | 14.8k | 🟢 beginner | 2026-07-30 |  |
 | [[RFC] Lack of support for types none, exn and noexn.](https://github.com/wasm-micro-runtime/wasm-micro-runtime/issues/4814) | [wasm-micro-runtime/wasm-micro-runtime](https://github.com/wasm-micro-runtime/wasm-micro-runtime) | 6.1k | 🟡 help wanted | 2026-07-30 |  |
 | [RFC: Use the target_features section to verify compatibility](https://github.com/wasm-micro-runtime/wasm-micro-runtime/issues/4569) 💬 2 | [wasm-micro-runtime/wasm-micro-runtime](https://github.com/wasm-micro-runtime/wasm-micro-runtime) | 6.1k | 🟡 help wanted | 2026-07-30 |  |
 | [Host Function capability to call into Wasm Function](https://github.com/WasmEdge/WasmEdge/issues/1673) 💬 5 | [WasmEdge/WasmEdge](https://github.com/WasmEdge/WasmEdge) | 10.8k | 🟡 help wanted | 2026-07-29 | 🤖 disclose AI use · 🔏 DCO |
@@ -175,11 +172,9 @@
 | [AzureProvisioner output saves connection strings to user secrets even if it did nothing](https://github.com/microsoft/aspire/issues/3298) 💬 4 | [microsoft/aspire](https://github.com/microsoft/aspire) | 6.3k | 🟢 beginner | 2026-05-12 |  |
 | [Support for third_party_licenses files from Google Play Services libraries](https://github.com/mikepenz/AboutLibraries/issues/824) 💬 16 | [mikepenz/AboutLibraries](https://github.com/mikepenz/AboutLibraries) | 4.4k | 🟡 help wanted | 2026-05-10 |  |
 | [Desktop: Logo+Drag on an applet shouldn't open start menu, but it does](https://github.com/SerenityOS/serenity/issues/12823) 💬 8 | [SerenityOS/serenity](https://github.com/SerenityOS/serenity) | 33.8k | 🟡 help wanted | 2026-05-08 |  |
-| [Jetty 12 - Add a WebSocket MessageSink for Flow.Publisher](https://github.com/jetty/jetty.project/issues/9722) 💬 3 | [jetty/jetty.project](https://github.com/jetty/jetty.project) | 4.1k | 🟡 help wanted | 2026-05-05 |  |
 | [feat: Enable profiling + improve available statistics (--enable-all-statistics) in WasmEdge CLI](https://github.com/WasmEdge/WasmEdge/issues/4076) 💬 10 | [WasmEdge/WasmEdge](https://github.com/WasmEdge/WasmEdge) | 10.8k | 🟡 help wanted | 2026-04-29 | 🤖 disclose AI use · 🔏 DCO |
 | [Deterministic simulation testing foundations (madsim) for linera-core](https://github.com/linera-io/linera-protocol/issues/6108) | [linera-io/linera-protocol](https://github.com/linera-io/linera-protocol) | 32.1k | 🟡 help wanted | 2026-04-23 |  |
 | [No sound / audio from remote PC - working after switch default audio device from analog to digital](https://github.com/rustdesk/rustdesk/issues/4280) 💬 27 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | 123.3k | 🟡 help wanted | 2026-04-21 | 🔏 DCO |
-| [Easier access to invalid client certificates](https://github.com/jetty/jetty.project/issues/6067) 💬 5 | [jetty/jetty.project](https://github.com/jetty/jetty.project) | 4.1k | 🟡 help wanted | 2026-04-21 |  |
 | [Tdengine 3.2.0.0.0 集群环境下同步数据慢慢慢慢](https://github.com/taosdata/TDengine/issues/34802) 💬 3 | [taosdata/TDengine](https://github.com/taosdata/TDengine) | 25.1k | 🟡 help wanted | 2026-04-14 |  |
 | [导入数据集时遇到了性能问题](https://github.com/taosdata/TDengine/issues/34980) 💬 2 | [taosdata/TDengine](https://github.com/taosdata/TDengine) | 25.1k | 🟡 help wanted | 2026-04-14 |  |
 | [[RFC] Run-time dynamic linking support](https://github.com/wasm-micro-runtime/wasm-micro-runtime/issues/495) | [wasm-micro-runtime/wasm-micro-runtime](https://github.com/wasm-micro-runtime/wasm-micro-runtime) | 6.1k | 🟡 help wanted | 2026-04-13 |  |

@@ -1,8 +1,8 @@
 # Science and research issues
 
-**59** open issues (38 labeled for beginners) across **17** projects tagged with topics like `science`, `scientific-computing`, `bioinformatics`, `physics`, `astronomy`, `chemistry`.
+**58** open issues (38 labeled for beginners) across **17** projects tagged with topics like `science`, `scientific-computing`, `bioinformatics`, `physics`, `astronomy`, `chemistry`.
 
-> Updated automatically on **2026-09-13 01:43 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-13 11:14 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,7 +10,6 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [Add Accumulated local effects (ALE) to inspection](https://github.com/scikit-learn/scikit-learn/issues/30223) 💬 21 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | 67.2k | 🟡 help wanted | 2026-09-12 | 🤖 disclose AI use |
 | [Mean Standardized Log Loss (MSLL) for uncertainty aware regression models](https://github.com/scikit-learn/scikit-learn/issues/21665) 💬 16 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | 67.2k | 🟡 help wanted | 2026-09-12 | 🤖 disclose AI use |
 | [all *.json files are interpreted as objects](https://github.com/OpenRCT2/OpenRCT2/issues/16807) 💬 3 | [OpenRCT2/OpenRCT2](https://github.com/OpenRCT2/OpenRCT2) | 16.2k | 🟢 beginner | 2026-09-12 |  |
 | [Consensus Index for Clustering Model Selection](https://github.com/scikit-learn/scikit-learn/issues/11778) 💬 7 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | 67.2k | 🟡 help wanted | 2026-09-10 | 🤖 disclose AI use |

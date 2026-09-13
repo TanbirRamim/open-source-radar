@@ -1,8 +1,8 @@
 # JavaScript issues
 
-**186** open issues (74 labeled for beginners) across **67** active JavaScript projects.
+**189** open issues (74 labeled for beginners) across **68** active JavaScript projects.
 
-> Updated automatically on **2026-09-13 01:43 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-13 11:14 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,6 +10,10 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [feat(scan): domain-level aggregator repost list, complementing the SimHash cross-listing warning](https://github.com/career-ops-hq/career-ops/issues/3577) 💬 7 | [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | 71.4k | 🟢 beginner | 2026-09-13 |  |
+| [Change the shortcut keys in tooltip titles to show 'cmd' on Mac instead of 'ctrl'](https://github.com/josdejong/jsoneditor/issues/1628) 💬 12 | [josdejong/jsoneditor](https://github.com/josdejong/jsoneditor) | 12.3k | 🟡 help wanted | 2026-09-13 |  |
+| [Implement an option to enable/disable date tags](https://github.com/josdejong/jsoneditor/issues/1553) 💬 5 | [josdejong/jsoneditor](https://github.com/josdejong/jsoneditor) | 12.3k | 🟡 help wanted | 2026-09-13 |  |
+| [enum dropdown in anyOf \\ oneOf](https://github.com/josdejong/jsoneditor/issues/1653) 💬 2 | [josdejong/jsoneditor](https://github.com/josdejong/jsoneditor) | 12.3k | 🟡 help wanted | 2026-09-13 |  |
 | [[Help Wanted]怎么修改telegram的上传大小呢？默认10MB](https://github.com/MarSeventh/CloudFlare-ImgBed/issues/718) 💬 2 | [MarSeventh/CloudFlare-ImgBed](https://github.com/MarSeventh/CloudFlare-ImgBed) | 6.5k | 🟡 help wanted | 2026-09-13 |  |
 | [Customizeable Axis Title Rendering](https://github.com/chartjs/Chart.js/issues/3214) 💬 5 | [chartjs/Chart.js](https://github.com/chartjs/Chart.js) | 67.7k | 🟡 help wanted | 2026-09-11 |  |
 | [[Bug] Instructions for integrating with Vite don't work](https://github.com/microsoft/monaco-editor/issues/4045) 💬 8 | [microsoft/monaco-editor](https://github.com/microsoft/monaco-editor) | 46.7k | 🟡 help wanted | 2026-09-11 |  |
@@ -109,10 +113,10 @@
 | [[NumberInput]: Disallow invalid & warn when readonly or disabled](https://github.com/carbon-design-system/carbon/issues/20729) 💬 2 | [carbon-design-system/carbon](https://github.com/carbon-design-system/carbon) | 9.5k | 🟢 beginner | 2026-08-06 | 🔏 DCO |
 | [[Bug] Opening popup triggers extension mode flip](https://github.com/openstyles/stylus/issues/1810) 💬 5 | [openstyles/stylus](https://github.com/openstyles/stylus) | 6.9k | 🟡 help wanted | 2026-08-06 |  |
 | [Fix broken Markdown link: https://bugzilla.mozilla.org/show_bug.cgi?id=892671](https://github.com/stdlib-js/stdlib/issues/11248) 💬 6 | [stdlib-js/stdlib](https://github.com/stdlib-js/stdlib) | 6k | 🟢 beginner | 2026-08-04 | 🤖 disclose AI use |
+| [[Help] 希望工具添加MCP的支持](https://github.com/viarotel-org/escrcpy/issues/614) 💬 1 | [viarotel-org/escrcpy](https://github.com/viarotel-org/escrcpy) | 11.7k | 🟡 help wanted | 2026-08-03 |  |
 | [[ACTION] Simplify Notion upload image affordance](https://github.com/PipedreamHQ/pipedream/issues/20537) 💬 2 | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-08-03 |  |
 | [[ACTION] DPD Shipping - Get Tracking Data with Weight (detail=3)](https://github.com/PipedreamHQ/pipedream/issues/21321) 💬 5 | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-08-03 |  |
 | [Sms8 - SMS GATEWAY: OTP & webhook](https://github.com/PipedreamHQ/pipedream/issues/20977) 💬 9 | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-08-03 |  |
-| [[Help] 希望工具添加MCP的支持](https://github.com/viarotel-org/escrcpy/issues/614) 💬 1 | [viarotel-org/escrcpy](https://github.com/viarotel-org/escrcpy) | 11.7k | 🟡 help wanted | 2026-08-03 |  |
 | [Add Reload File button, just call it Reload](https://github.com/Acode-Foundation/Acode/issues/2390) 💬 2 | [Acode-Foundation/Acode](https://github.com/Acode-Foundation/Acode) | 6.9k | 🟢 beginner | 2026-08-02 |  |
 | [Show errors in user friendly way](https://github.com/Acode-Foundation/Acode/issues/1800) 💬 2 | [Acode-Foundation/Acode](https://github.com/Acode-Foundation/Acode) | 6.9k | 🟢 beginner | 2026-07-31 |  |
 | [Open npmjs.com instead of asking for OTP](https://github.com/sindresorhus/np/issues/726) 💬 11 | [sindresorhus/np](https://github.com/sindresorhus/np) | 7.7k | 🟡 help wanted | 2026-07-28 |  |
@@ -129,13 +133,12 @@
 | [SMS Text to Speech/ Calling notification service](https://github.com/louislam/uptime-kuma/issues/3295) 💬 13 | [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) | 91.3k | 🟡 help wanted | 2026-07-12 | ⚠️ AI restricted |
 | [Comma First adds unwanted new lines to arrays](https://github.com/beautifier/js-beautify/issues/2010) 💬 7 | [beautifier/js-beautify](https://github.com/beautifier/js-beautify) | 9k | 🟢 beginner | 2026-07-12 |  |
 | [[ACTION] Contacts+](https://github.com/PipedreamHQ/pipedream/issues/21328) 💬 2 | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-07-11 |  |
-| [Integration: Microsoft Login / MS Graph API](https://github.com/sahat/hackathon-starter/issues/1357) 💬 2 | [sahat/hackathon-starter](https://github.com/sahat/hackathon-starter) | 35.2k | 🟡 help wanted | 2026-07-09 |  |
+| [Integration: Microsoft Login / MS Graph API](https://github.com/sahat/hackathon-starter/issues/1357) 💬 2 | [sahat/hackathon-starter](https://github.com/sahat/hackathon-starter) | 35.3k | 🟡 help wanted | 2026-07-09 |  |
 | [Label double moves on batch movement](https://github.com/bpmn-io/bpmn-js/issues/1766) 💬 3 | [bpmn-io/bpmn-js](https://github.com/bpmn-io/bpmn-js) | 9.7k | 🟢 beginner | 2026-07-08 |  |
 | [[Help] disable the physical touchscreen](https://github.com/viarotel-org/escrcpy/issues/613) 💬 2 | [viarotel-org/escrcpy](https://github.com/viarotel-org/escrcpy) | 11.7k | 🟡 help wanted | 2026-07-05 |  |
 | [Option to drop traffic from unrecognized hostnames](https://github.com/sandstorm-io/sandstorm/issues/3620) 💬 1 | [sandstorm-io/sandstorm](https://github.com/sandstorm-io/sandstorm) | 7.1k | 🟢 beginner | 2026-07-03 |  |
 | ["See who has access" does not show/allow edit of permissions of users added directly](https://github.com/sandstorm-io/sandstorm/issues/3630) 💬 1 | [sandstorm-io/sandstorm](https://github.com/sandstorm-io/sandstorm) | 7.1k | 🟢 beginner | 2026-07-03 |  |
 | [clockTrackedDataSource tracks non-clock dataSources](https://github.com/CesiumGS/cesium/issues/11738) 💬 2 | [CesiumGS/cesium](https://github.com/CesiumGS/cesium) | 15.7k | 🟢 beginner | 2026-07-02 | ✍️ CLA |
-| [HTML format breaks when text contains un-encoded &lt;](https://github.com/beautifier/js-beautify/issues/1646) 💬 6 | [beautifier/js-beautify](https://github.com/beautifier/js-beautify) | 9k | 🟢 beginner | 2026-06-30 |  |
 | [Scripts refuse to load due to unsafe eval](https://github.com/beautifier/js-beautify/issues/1319) 💬 4 | [beautifier/js-beautify](https://github.com/beautifier/js-beautify) | 9k | 🟡 help wanted | 2026-06-30 |  |
 | [Does this currently support babel/es2015/es6?](https://github.com/beautifier/js-beautify/issues/780) 💬 5 | [beautifier/js-beautify](https://github.com/beautifier/js-beautify) | 9k | 🟢 beginner | 2026-06-30 |  |
 | [Fully migrate to GitHub actions](https://github.com/isomorphic-git/isomorphic-git/issues/2266) | [isomorphic-git/isomorphic-git](https://github.com/isomorphic-git/isomorphic-git) | 8.3k | 🟡 help wanted | 2026-06-30 |  |
@@ -194,5 +197,5 @@
 | [Type tests for Meteor packages](https://github.com/meteor/meteor/issues/13676) 💬 11 | [meteor/meteor](https://github.com/meteor/meteor) | 44.8k | 🟢 beginner | 2026-03-20 | ✍️ CLA |
 | ['URLPattern'](https://github.com/zloirock/core-js/issues/1011) 💬 6 | [zloirock/core-js](https://github.com/zloirock/core-js) | 25.5k | 🟡 help wanted | 2026-03-20 |  |
 | [requestAnimationFrame polyfill](https://github.com/zloirock/core-js/issues/1523) 💬 1 | [zloirock/core-js](https://github.com/zloirock/core-js) | 25.5k | 🟡 help wanted | 2026-03-19 |  |
-| [mentionedIds is wrong on Quoted Messages](https://github.com/wwebjs/whatsapp-web.js/issues/3003) 💬 1 | [wwebjs/whatsapp-web.js](https://github.com/wwebjs/whatsapp-web.js) | 22.5k | 🟡 help wanted | 2026-03-17 |  |
+| [mentionedIds is wrong on Quoted Messages](https://github.com/wwebjs/whatsapp-web.js/issues/3003) 💬 1 | [wwebjs/whatsapp-web.js](https://github.com/wwebjs/whatsapp-web.js) | 22.6k | 🟡 help wanted | 2026-03-17 |  |
 | [[Feature Request] Amazon Echo skill for AudiobookShelf](https://github.com/advplyr/audiobookshelf/issues/316) 💬 42 | [advplyr/audiobookshelf](https://github.com/advplyr/audiobookshelf) | 14.3k | 🟡 help wanted | 2026-03-17 |  |

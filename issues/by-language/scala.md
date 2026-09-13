@@ -1,8 +1,8 @@
 # Scala issues
 
-**32** open issues (18 labeled for beginners) across **18** active Scala projects.
+**31** open issues (18 labeled for beginners) across **18** active Scala projects.
 
-> Updated automatically on **2026-09-13 01:43 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-13 11:14 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -41,4 +41,3 @@
 | [Add option to turn off emojis in exceptions](https://github.com/typelevel/skunk/issues/1138) 💬 3 | [typelevel/skunk](https://github.com/typelevel/skunk) | 1.7k | 🟢 beginner | 2026-03-30 |  |
 | [Fix deprecated uses of 'HotSwap'](https://github.com/http4s/http4s/issues/7805) | [http4s/http4s](https://github.com/http4s/http4s) | 2.6k | 🟢 beginner | 2026-03-26 |  |
 | [Support Typst raw blocks](https://github.com/scalameta/scalafmt/issues/5245) 💬 1 | [scalameta/scalafmt](https://github.com/scalameta/scalafmt) | 1.5k | 🟡 help wanted | 2026-03-21 |  |
-| [sbt's API doc is missing link to source](https://github.com/sbt/sbt/issues/2906) 💬 3 | [sbt/sbt](https://github.com/sbt/sbt) | 5k | 🟡 help wanted | 2026-03-17 | 🤖 disclose AI use · ✍️ CLA |
