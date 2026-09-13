@@ -1,8 +1,8 @@
 # Ruby issues
 
-**95** open issues (70 labeled for beginners) across **31** active Ruby projects.
+**94** open issues (70 labeled for beginners) across **31** active Ruby projects.
 
-> Updated automatically on **2026-09-13 11:14 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-13 20:28 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -51,7 +51,7 @@
 | [port ip bans to reaction + ipset](https://github.com/lobsters/lobsters/issues/2149) 💬 3 | [lobsters/lobsters](https://github.com/lobsters/lobsters) | 4.8k | 🟢 beginner | 2026-07-14 |  |
 | [Disallow duplicate comments posted around the same time](https://github.com/lobsters/lobsters/issues/1209) 💬 5 | [lobsters/lobsters](https://github.com/lobsters/lobsters) | 4.8k | 🟢 beginner | 2026-07-14 |  |
 | [improve traffic-counting query](https://github.com/lobsters/lobsters/issues/2139) 💬 2 | [lobsters/lobsters](https://github.com/lobsters/lobsters) | 4.8k | 🟢 beginner | 2026-07-13 |  |
-| [Feature Request to add chatwoot directly install in plesk apps](https://github.com/chatwoot/chatwoot/issues/6911) 💬 6 | [chatwoot/chatwoot](https://github.com/chatwoot/chatwoot) | 36.7k | 🟢 beginner | 2026-07-12 |  |
+| [Feature Request to add chatwoot directly install in plesk apps](https://github.com/chatwoot/chatwoot/issues/6911) 💬 6 | [chatwoot/chatwoot](https://github.com/chatwoot/chatwoot) | 36.8k | 🟢 beginner | 2026-07-12 |  |
 | [Arrays of multiple custom types not validating correctly](https://github.com/dry-rb/dry-validation/issues/750) 💬 1 | [dry-rb/dry-validation](https://github.com/dry-rb/dry-validation) | 1.4k | 🟡 help wanted | 2026-07-12 |  |
 | [Count-Based Windows](https://github.com/bolshakov/stoplight/issues/466) | [bolshakov/stoplight](https://github.com/bolshakov/stoplight) | 629 | 🟢 beginner | 2026-07-12 |  |
 | [Feature tests for admin panel](https://github.com/bolshakov/stoplight/issues/494) | [bolshakov/stoplight](https://github.com/bolshakov/stoplight) | 629 | 🟡 help wanted | 2026-07-11 |  |
@@ -99,7 +99,6 @@
 | [[Hotkeys] Link to relevant user setting on keyboard shortcut page](https://github.com/e621ng/e621ng/issues/1762) 💬 3 | [e621ng/e621ng](https://github.com/e621ng/e621ng) | 568 | 🟢 beginner | 2026-04-06 |  |
 | [Alias metatag names](https://github.com/e621ng/e621ng/issues/1758) | [e621ng/e621ng](https://github.com/e621ng/e621ng) | 568 | 🟢 beginner | 2026-04-06 |  |
 | [Prevent artist pages from being made if the corresponding tag is not in the artist category.](https://github.com/e621ng/e621ng/issues/1755) | [e621ng/e621ng](https://github.com/e621ng/e621ng) | 568 | 🟢 beginner | 2026-04-06 |  |
-| [Coverage options support (2.5)](https://github.com/jruby/jruby/issues/5147) 💬 4 | [jruby/jruby](https://github.com/jruby/jruby) | 3.9k | 🟡 help wanted | 2026-04-05 |  |
 | [Tracing updates for Ruby 2.6](https://github.com/jruby/jruby/issues/6149) 💬 4 | [jruby/jruby](https://github.com/jruby/jruby) | 3.9k | 🟡 help wanted | 2026-04-05 |  |
 | ['source:' metatag is case sensitive / DText search links convert search to lowercase](https://github.com/e621ng/e621ng/issues/553) 💬 1 | [e621ng/e621ng](https://github.com/e621ng/e621ng) | 568 | 🟢 beginner | 2026-04-03 |  |
 | [Excel Formula Language](https://github.com/github-linguist/linguist/issues/7886) | [github-linguist/linguist](https://github.com/github-linguist/linguist) | 13.7k | 🟢 beginner | 2026-03-30 |  |

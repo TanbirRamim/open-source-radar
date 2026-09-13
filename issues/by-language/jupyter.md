@@ -2,7 +2,7 @@
 
 **27** open issues (12 labeled for beginners) across **11** active Jupyter Notebook projects.
 
-> Updated automatically on **2026-09-13 11:14 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-13 20:28 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -36,4 +36,4 @@
 | [Example for running on AWS (Glue, EMR, SageMaker, etc)](https://github.com/awslabs/python-deequ/issues/140) 💬 3 | [awslabs/python-deequ](https://github.com/awslabs/python-deequ) | 826 | 🟢 beginner | 2026-05-18 | ✍️ CLA |
 | [External Json interface to define constraints](https://github.com/awslabs/python-deequ/issues/103) 💬 2 | [awslabs/python-deequ](https://github.com/awslabs/python-deequ) | 826 | 🟡 help wanted | 2026-05-18 | ✍️ CLA |
 | [check with hasSize/hasMin etc fails with below error. Pydeequ version 1.0.0](https://github.com/awslabs/python-deequ/issues/64) 💬 3 | [awslabs/python-deequ](https://github.com/awslabs/python-deequ) | 826 | 🟡 help wanted | 2026-05-18 | ✍️ CLA |
-| [ENH: Support for Liquid Neural Networks](https://github.com/shap/shap/issues/3988) 💬 4 | [shap/shap](https://github.com/shap/shap) | 25.7k | 🟡 help wanted | 2026-04-13 | 🤖 disclose AI use |
+| [ENH: Support for Liquid Neural Networks](https://github.com/shap/shap/issues/3988) 💬 4 | [shap/shap](https://github.com/shap/shap) | 25.8k | 🟡 help wanted | 2026-04-13 | 🤖 disclose AI use |

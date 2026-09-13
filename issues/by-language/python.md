@@ -1,8 +1,8 @@
 # Python issues
 
-**259** open issues (113 labeled for beginners) across **82** active Python projects.
+**258** open issues (110 labeled for beginners) across **82** active Python projects.
 
-> Updated automatically on **2026-09-13 11:14 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-13 20:28 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -11,12 +11,14 @@
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
 | [Single token output / binary classification loss goes to 0](https://github.com/unslothai/unsloth/issues/946) 💬 15 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 76.1k | 🟢 beginner | 2026-09-13 |  |
+| [postgres/sqlalchemy display of timestamptz loses my local timezone](https://github.com/marimo-team/marimo/issues/6250) 💬 10 | [marimo-team/marimo](https://github.com/marimo-team/marimo) | 22.7k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use · ✍️ CLA |
+| [[data_editor] Checkbox and dropdown elements in data_editor columns](https://github.com/marimo-team/marimo/issues/6694) 💬 8 | [marimo-team/marimo](https://github.com/marimo-team/marimo) | 22.7k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use · ✍️ CLA |
+| [The prompt files describe pydantic output models that do not exist in code](https://github.com/The-PR-Agent/pr-agent/issues/3354) 💬 1 | [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent) | 13k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use |
+| ['/review' cannot tell a malformed model response from a valid one until publication](https://github.com/The-PR-Agent/pr-agent/issues/3355) 💬 1 | [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent) | 13k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use |
 | [Evaluation loss becomes constant](https://github.com/unslothai/unsloth/issues/1067) 💬 8 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 76.1k | 🟢 beginner | 2026-09-12 |  |
 | [Mean Standardized Log Loss (MSLL) for uncertainty aware regression models](https://github.com/scikit-learn/scikit-learn/issues/21665) 💬 16 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | 67.2k | 🟡 help wanted | 2026-09-12 | 🤖 disclose AI use |
 | [RU translation mistake](https://github.com/getsentry/sentry/issues/98565) 💬 4 | [getsentry/sentry](https://github.com/getsentry/sentry) | 44.8k | 🟢 beginner | 2026-09-12 |  |
-| [Github: Include Sentry username in issue body created by issue integrations](https://github.com/getsentry/sentry/issues/90806) 💬 7 | [getsentry/sentry](https://github.com/getsentry/sentry) | 44.8k | 🟢 beginner | 2026-09-12 |  |
 | [[BUG]: TOZEROY FILL IS FILLING AREAS OF THE PLOT THAT HAS NO DATA IN IT](https://github.com/plotly/plotly.py/issues/5632) 💬 9 | [plotly/plotly.py](https://github.com/plotly/plotly.py) | 18.8k | 🟢 beginner | 2026-09-12 |  |
-| [Request.from_curl() raises opaque built-in errors on valid curl commands](https://github.com/scrapy/scrapy/issues/8131) | [scrapy/scrapy](https://github.com/scrapy/scrapy) | 64.3k | 🟢 beginner | 2026-09-11 |  |
 | [Hackathon [Feature]: Add Mixpanel data-source connector](https://github.com/topoteretes/cognee/issues/4777) 💬 1 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | 30.7k | 🟢 beginner | 2026-09-11 | 🔏 DCO |
 | [convert's playlist option uses original extensions](https://github.com/beetbox/beets/issues/5786) 💬 2 | [beetbox/beets](https://github.com/beetbox/beets) | 15.7k | 🟢 beginner | 2026-09-11 | 🤖 disclose AI use |
 | [Consensus Index for Clustering Model Selection](https://github.com/scikit-learn/scikit-learn/issues/11778) 💬 7 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | 67.2k | 🟡 help wanted | 2026-09-10 | 🤖 disclose AI use |
@@ -29,10 +31,9 @@
 | [Hackathon [Feature]: Add Klaviyo data-source connector](https://github.com/topoteretes/cognee/issues/4785) 💬 1 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | 30.7k | 🟢 beginner | 2026-09-07 | 🔏 DCO |
 | [Support Unified Push](https://github.com/ungoogled-software/ungoogled-chromium/issues/3675) 💬 20 | [ungoogled-software/ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium) | 27.7k | 🟡 help wanted | 2026-09-07 |  |
 | [Hackathon [Feature]: Add GitBook data-source connector](https://github.com/topoteretes/cognee/issues/4720) 💬 2 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | 30.7k | 🟢 beginner | 2026-09-06 | 🔏 DCO |
-| [Autonomous Agents, Unite!](https://github.com/microsoft/markitdown/issues/2386) 💬 4 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | 183.4k | 🟢 beginner | 2026-09-05 |  |
+| [Autonomous Agents, Unite!](https://github.com/microsoft/markitdown/issues/2386) 💬 4 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | 183.5k | 🟢 beginner | 2026-09-05 |  |
 | [control state of individual taskflow in mapped task-group](https://github.com/apache/airflow/issues/40543) 💬 12 | [apache/airflow](https://github.com/apache/airflow) | 46.8k | 🟢 beginner | 2026-09-05 | 🤖 disclose AI use · ✍️ CLA |
 | ['self.log' raised error when number of dataloader is not consistent](https://github.com/Lightning-AI/pytorch-lightning/issues/16431) 💬 2 | [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | 31.3k | 🟡 help wanted | 2026-09-05 | 📄 AI policy |
-| [accessibility: Entire message history seems to be visible, causing spurious live region activity](https://github.com/zulip/zulip/issues/10888) 💬 7 | [zulip/zulip](https://github.com/zulip/zulip) | 25.9k | 🟡 help wanted | 2026-09-05 | 📄 AI policy |
 | [Add n8n Support](https://github.com/ag-ui-protocol/ag-ui/issues/369) 💬 3 | [ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui) | 15.9k | 🟡 help wanted | 2026-09-05 |  |
 | [skip_archive should actually skip archive in db clean command](https://github.com/apache/airflow/issues/42003) 💬 9 | [apache/airflow](https://github.com/apache/airflow) | 46.8k | 🟢 beginner | 2026-09-04 | 🤖 disclose AI use · ✍️ CLA |
 | [Hackathon [Feature]: Add Customer.io data-source connector](https://github.com/topoteretes/cognee/issues/4786) 💬 1 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | 30.7k | 🟢 beginner | 2026-09-04 | 🔏 DCO |
@@ -49,13 +50,13 @@
 | [NixOS module cannot create volume of directory containing spaces](https://github.com/9001/copyparty/issues/1423) 💬 3 | [9001/copyparty](https://github.com/9001/copyparty) | 46.7k | 🟡 help wanted | 2026-09-03 | 🔏 DCO |
 | [Hackathon [Feature]: Add Stack Overflow data-source connector](https://github.com/topoteretes/cognee/issues/4809) 💬 1 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | 30.7k | 🟢 beginner | 2026-09-03 | 🔏 DCO |
 | [Hackathon [Feature]: Add WordPress data-source connector](https://github.com/topoteretes/cognee/issues/4789) 💬 2 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | 30.7k | 🟢 beginner | 2026-09-03 | 🔏 DCO |
-| [Poor support for single word](https://github.com/LibreTranslate/LibreTranslate/issues/828) 💬 5 | [LibreTranslate/LibreTranslate](https://github.com/LibreTranslate/LibreTranslate) | 16.4k | 🟢 beginner | 2026-09-03 | ⚠️ AI restricted |
+| [Poor support for single word](https://github.com/LibreTranslate/LibreTranslate/issues/828) 💬 5 | [LibreTranslate/LibreTranslate](https://github.com/LibreTranslate/LibreTranslate) | 16.5k | 🟢 beginner | 2026-09-03 | ⚠️ AI restricted |
 | [Store token files with '0600' permissions](https://github.com/beetbox/beets/issues/6984) 💬 1 | [beetbox/beets](https://github.com/beetbox/beets) | 15.7k | 🟢 beginner | 2026-09-03 | 🤖 disclose AI use |
 | [Tool downloads are fetched and executed without integrity verification](https://github.com/Nuitka/Nuitka/issues/3997) 💬 5 | [Nuitka/Nuitka](https://github.com/Nuitka/Nuitka) | 15.1k | 🟡 help wanted | 2026-09-03 | 📄 AI policy · ✍️ CLA |
 | [borg2 b24: benchmarking needed](https://github.com/borgbackup/borg/issues/10315) 💬 7 | [borgbackup/borg](https://github.com/borgbackup/borg) | 13.7k | 🟡 help wanted | 2026-09-03 |  |
 | [train_test_split with stratify causing integer overflow (32bit version)](https://github.com/scikit-learn/scikit-learn/issues/13794) 💬 5 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | 67.2k | 🟡 help wanted | 2026-09-02 | 🤖 disclose AI use |
 | [Scrapy seems to fail to load some sites when using proxy or user agent middleware?](https://github.com/scrapy/scrapy/issues/4937) 💬 16 | [scrapy/scrapy](https://github.com/scrapy/scrapy) | 64.3k | 🟡 help wanted | 2026-09-02 |  |
-| [Using Pydantic state with aliased fields](https://github.com/langchain-ai/langgraph/issues/2555) 💬 9 | [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) | 41.5k | 🟡 help wanted | 2026-09-02 | ⚠️ AI restricted |
+| [Using Pydantic state with aliased fields](https://github.com/langchain-ai/langgraph/issues/2555) 💬 9 | [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) | 41.6k | 🟡 help wanted | 2026-09-02 | ⚠️ AI restricted |
 | [Add individual user filter](https://github.com/PostHog/posthog/issues/1289) 💬 10 | [PostHog/posthog](https://github.com/PostHog/posthog) | 39.8k | 🟢 beginner | 2026-09-02 | ⚠️ AI restricted |
 | [Supplier Quotation Comparison](https://github.com/frappe/erpnext/issues/41973) 💬 4 | [frappe/erpnext](https://github.com/frappe/erpnext) | 39.2k | 🟢 beginner | 2026-09-02 |  |
 | [Hackathon [Feature]: Add Raindrop.io data-source connector](https://github.com/topoteretes/cognee/issues/4813) 💬 1 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | 30.7k | 🟢 beginner | 2026-09-02 | 🔏 DCO |
@@ -72,7 +73,6 @@
 | [Replace azure-cosmos by azure-mgmt-cosmosdb](https://github.com/apache/airflow/issues/9742) 💬 7 | [apache/airflow](https://github.com/apache/airflow) | 46.8k | 🟢 beginner | 2026-09-01 | 🤖 disclose AI use · ✍️ CLA |
 | [Replace azure-batch by azure-mgmt-batch](https://github.com/apache/airflow/issues/9741) 💬 7 | [apache/airflow](https://github.com/apache/airflow) | 46.8k | 🟢 beginner | 2026-09-01 | 🤖 disclose AI use · ✍️ CLA |
 | [Crons: Status Chart X-Axis Makes No Sense for 1H Time Range Filter](https://github.com/getsentry/sentry/issues/72139) 💬 5 | [getsentry/sentry](https://github.com/getsentry/sentry) | 44.8k | 🟢 beginner | 2026-09-01 |  |
-| [Add show/hide feature for password with a eye button at sign-in page](https://github.com/getsentry/sentry/issues/79692) 💬 2 | [getsentry/sentry](https://github.com/getsentry/sentry) | 44.8k | 🟢 beginner | 2026-09-01 |  |
 | [Payment Register](https://github.com/frappe/erpnext/issues/47847) | [frappe/erpnext](https://github.com/frappe/erpnext) | 39.2k | 🟢 beginner | 2026-09-01 |  |
 | [[Looking for community contribution] support Wan 2.2 S2V: an audio-driven cinematic video generation model](https://github.com/huggingface/diffusers/issues/12257) 💬 7 | [huggingface/diffusers](https://github.com/huggingface/diffusers) | 34.5k | 🟡 help wanted | 2026-09-01 |  |
 | [Hackathon [Feature]: Add PubMed data-source connector](https://github.com/topoteretes/cognee/issues/4807) 💬 1 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | 30.7k | 🟢 beginner | 2026-09-01 | 🔏 DCO |
@@ -89,7 +89,6 @@
 | [Hackathon [Feature]: Add Obsidian vault data-source connector](https://github.com/topoteretes/cognee/issues/4725) 💬 2 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | 30.7k | 🟢 beginner | 2026-08-30 | 🔏 DCO |
 | [Hackathon [Feature]: Add Hacker News data-source connector](https://github.com/topoteretes/cognee/issues/4805) 💬 2 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | 30.7k | 🟢 beginner | 2026-08-30 | 🔏 DCO |
 | [Hackathon [Feature]: Add RSS / Atom feeds data-source connector](https://github.com/topoteretes/cognee/issues/4804) 💬 2 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | 30.7k | 🟢 beginner | 2026-08-30 | 🔏 DCO |
-| [[data_editor] Checkbox and dropdown elements in data_editor columns](https://github.com/marimo-team/marimo/issues/6694) 💬 7 | [marimo-team/marimo](https://github.com/marimo-team/marimo) | 22.7k | 🟡 help wanted | 2026-08-30 | 🤖 disclose AI use · ✍️ CLA |
 | [Add diagrams and animations to course website (inspired by makingsoftware.com)](https://github.com/rohitg00/ai-engineering-from-scratch/issues/243) 💬 12 | [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) | 54.4k | 🟢 beginner | 2026-08-28 |  |
 | [Hackathon [Feature]: Add Readwise data-source connector](https://github.com/topoteretes/cognee/issues/4812) | [topoteretes/cognee](https://github.com/topoteretes/cognee) | 30.7k | 🟢 beginner | 2026-08-28 | 🔏 DCO |
 | [Hackathon [Feature]: Add Amplitude data-source connector](https://github.com/topoteretes/cognee/issues/4776) | [topoteretes/cognee](https://github.com/topoteretes/cognee) | 30.7k | 🟢 beginner | 2026-08-28 | 🔏 DCO |
@@ -101,7 +100,7 @@
 | [Training the default perceptron tagger with bigger corpus](https://github.com/nltk/nltk/issues/1317) 💬 4 | [nltk/nltk](https://github.com/nltk/nltk) | 14.7k | 🟢 beginner | 2026-08-27 |  |
 | [I kinda wanna be able to use CMD + W to close tabs](https://github.com/PostHog/posthog/issues/76278) 💬 3 | [PostHog/posthog](https://github.com/PostHog/posthog) | 39.8k | 🟢 beginner | 2026-08-26 | ⚠️ AI restricted |
 | [CSS variables for code cell theming customization](https://github.com/marimo-team/marimo/issues/6526) 💬 6 | [marimo-team/marimo](https://github.com/marimo-team/marimo) | 22.7k | 🟡 help wanted | 2026-08-26 | 🤖 disclose AI use · ✍️ CLA |
-| [Entity extraction is nondeterministic at temperature 0 — same input, same container, different entity sets](https://github.com/666ghj/MiroFish/issues/759) | [666ghj/MiroFish](https://github.com/666ghj/MiroFish) | 72.3k | 🟡 help wanted | 2026-08-25 |  |
+| [Entity extraction is nondeterministic at temperature 0 — same input, same container, different entity sets](https://github.com/666ghj/MiroFish/issues/759) | [666ghj/MiroFish](https://github.com/666ghj/MiroFish) | 72.6k | 🟡 help wanted | 2026-08-25 |  |
 | [Different alpha selection strategies in LinearModelCV](https://github.com/scikit-learn/scikit-learn/issues/6630) 💬 8 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | 67.2k | 🟡 help wanted | 2026-08-25 | 🤖 disclose AI use |
 | [enhancement: sklearn.utils.shuffle consume 2x memory, better do it in-place](https://github.com/scikit-learn/scikit-learn/issues/7754) 💬 11 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | 67.2k | 🟡 help wanted | 2026-08-25 | 🤖 disclose AI use |
 | [[Feature]: 建议添加webhook功能](https://github.com/agentscope-ai/QwenPaw/issues/338) 💬 9 | [agentscope-ai/QwenPaw](https://github.com/agentscope-ai/QwenPaw) | 34.9k | 🟢 beginner | 2026-08-25 |  |
@@ -111,7 +110,7 @@
 | [Error with vllm](https://github.com/microsoft/agent-lightning/issues/352) 💬 11 | [microsoft/agent-lightning](https://github.com/microsoft/agent-lightning) | 18.1k | 🟡 help wanted | 2026-08-25 |  |
 | [ValueError: 'position_ids should be a 3D tensor of shape (4, batch_size, seq_length)' when using agent-lightni](https://github.com/microsoft/agent-lightning/issues/334) 💬 1 | [microsoft/agent-lightning](https://github.com/microsoft/agent-lightning) | 18.1k | 🟡 help wanted | 2026-08-25 |  |
 | [Is is possible to support Google Agent Development Kit (ADK) in the future?](https://github.com/microsoft/agent-lightning/issues/89) 💬 15 | [microsoft/agent-lightning](https://github.com/microsoft/agent-lightning) | 18.1k | 🟡 help wanted | 2026-08-25 |  |
-| [When using [Auto Voice] , for the same model instance, each 'model.generate()' call generates a random voice. ](https://github.com/k2-fsa/OmniVoice/issues/255) 💬 1 | [k2-fsa/OmniVoice](https://github.com/k2-fsa/OmniVoice) | 13k | 🟡 help wanted | 2026-08-25 |  |
+| [When using [Auto Voice] , for the same model instance, each 'model.generate()' call generates a random voice. ](https://github.com/k2-fsa/OmniVoice/issues/255) 💬 1 | [k2-fsa/OmniVoice](https://github.com/k2-fsa/OmniVoice) | 13.1k | 🟡 help wanted | 2026-08-25 |  |
 | [MIN_CAT_SUPPORT in HGBT](https://github.com/scikit-learn/scikit-learn/issues/19008) 💬 3 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | 67.2k | 🟡 help wanted | 2026-08-24 | 🤖 disclose AI use |
 | [Generic benchmarking/profiling tool](https://github.com/scikit-learn/scikit-learn/issues/10289) 💬 33 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | 67.2k | 🟡 help wanted | 2026-08-24 | 🤖 disclose AI use |
 | [[FR] [Roadmap] Support 'OR' filtering in search](https://github.com/mlflow/mlflow/issues/6075) 💬 13 | [mlflow/mlflow](https://github.com/mlflow/mlflow) | 27.9k | 🟡 help wanted | 2026-08-23 | 🔏 DCO |
@@ -198,7 +197,7 @@
 | [RoiAlign with max pool, implementation differs from mmcv, need clarification](https://github.com/onnx/onnx/issues/4764) 💬 1 | [onnx/onnx](https://github.com/onnx/onnx) | 21.5k | 🟡 help wanted | 2026-06-17 | 🤖 disclose AI use · ✍️ CLA · 🔏 DCO |
 | [[Feature] Support bitsandbytes in QWen2 VL](https://github.com/sgl-project/sglang/issues/2729) 💬 4 | [sgl-project/sglang](https://github.com/sgl-project/sglang) | 35.9k | 🟢 beginner | 2026-06-15 |  |
 | [如何让模型学会100内的加减法？](https://github.com/jingyaogong/minimind/issues/620) 💬 20 | [jingyaogong/minimind](https://github.com/jingyaogong/minimind) | 60.9k | 🟡 help wanted | 2026-06-12 |  |
-| [[DB] MemGraph Driver](https://github.com/getzep/graphiti/issues/642) 💬 5 | [getzep/graphiti](https://github.com/getzep/graphiti) | 30.8k | 🟡 help wanted | 2026-06-12 |  |
+| [[DB] MemGraph Driver](https://github.com/getzep/graphiti/issues/642) 💬 5 | [getzep/graphiti](https://github.com/getzep/graphiti) | 30.9k | 🟡 help wanted | 2026-06-12 |  |
 | [feat: expose balance / token-usage to the API (or at least via a UI toggle)](https://github.com/Skyvern-AI/skyvern/issues/6226) 💬 4 | [Skyvern-AI/skyvern](https://github.com/Skyvern-AI/skyvern) | 23k | 🟢 beginner | 2026-06-11 |  |
 | [support to gemini](https://github.com/Significant-Gravitas/AutoGPT/issues/6885) 💬 11 | [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | 187.3k | 🟢 beginner | 2026-06-10 | ✍️ CLA |
 | [[Bug] Qwen 2.5 VL 7B full fine tuning](https://github.com/unslothai/unsloth/issues/2629) 💬 5 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 76.1k | 🟡 help wanted | 2026-06-10 |  |
@@ -210,5 +209,6 @@
 | [Opening config produces Errno 22](https://github.com/beetbox/beets/issues/2847) 💬 16 | [beetbox/beets](https://github.com/beetbox/beets) | 15.7k | 🟢 beginner | 2026-06-09 | 🤖 disclose AI use |
 | [[Feature] MV2 Bypass in Chrome 151.X+](https://github.com/ungoogled-software/ungoogled-chromium/issues/3812) 💬 1 | [ungoogled-software/ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium) | 27.7k | 🟡 help wanted | 2026-06-08 |  |
 | [Mac OS: kitty doesn't restore](https://github.com/kovidgoyal/kitty/issues/1197) 💬 22 | [kovidgoyal/kitty](https://github.com/kovidgoyal/kitty) | 34.9k | 🟡 help wanted | 2026-06-07 |  |
+| [feat(import): import sessions from other agents — Claude Code, Codex, Cursor, Aider](https://github.com/nesquena/hermes-webui/issues/674) 💬 3 | [nesquena/hermes-webui](https://github.com/nesquena/hermes-webui) | 18.3k | 🟡 help wanted | 2026-06-06 | 🤖 disclose AI use |
 
-Showing the 200 most recently updated. See all 259 on the website.
+Showing the 200 most recently updated. See all 258 on the website.

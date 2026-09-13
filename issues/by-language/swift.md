@@ -1,8 +1,8 @@
 # Swift issues
 
-**91** open issues (45 labeled for beginners) across **57** active Swift projects.
+**90** open issues (45 labeled for beginners) across **57** active Swift projects.
 
-> Updated automatically on **2026-09-13 11:14 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-13 20:28 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,10 +10,11 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [Feature request: GPG / SSH sign release tags (kittylitter)](https://github.com/0xSero/litter/issues/146) 💬 3 | [0xSero/litter](https://github.com/0xSero/litter) | 2.5k | 🟡 help wanted | 2026-09-13 |  |
 | [[Feature Request] dns protection](https://github.com/0xCUB3/wBlock/issues/716) 💬 2 | [0xCUB3/wBlock](https://github.com/0xCUB3/wBlock) | 2.9k | 🟡 help wanted | 2026-09-11 |  |
 | [[FR]backup settings](https://github.com/ejbills/DockDoor/issues/688) 💬 7 | [ejbills/DockDoor](https://github.com/ejbills/DockDoor) | 6k | 🟢 beginner | 2026-09-09 | 🤖 disclose AI use |
-| [连接airpods的时候，会奇怪的出现通透模式，降噪模式切换](https://github.com/Ebullioscopic/Atoll/issues/822) 💬 2 | [Ebullioscopic/Atoll](https://github.com/Ebullioscopic/Atoll) | 4.5k | 🟡 help wanted | 2026-09-09 |  |
-| [container compose doesn't support extends](https://github.com/Mcrich23/Container-Compose/issues/7) 💬 2 | [Mcrich23/Container-Compose](https://github.com/Mcrich23/Container-Compose) | 916 | 🟡 help wanted | 2026-09-09 |  |
+| [连接airpods的时候，会奇怪的出现通透模式，降噪模式切换](https://github.com/Ebullioscopic/Atoll/issues/822) 💬 2 | [Ebullioscopic/Atoll](https://github.com/Ebullioscopic/Atoll) | 4.6k | 🟡 help wanted | 2026-09-09 |  |
+| [container compose doesn't support extends](https://github.com/Mcrich23/Container-Compose/issues/7) 💬 2 | [Mcrich23/Container-Compose](https://github.com/Mcrich23/Container-Compose) | 917 | 🟡 help wanted | 2026-09-09 |  |
 | [Visiting a reading list site that has not been previously opened in reader mode never renders content](https://github.com/mozilla-mobile/firefox-ios/issues/27546) 💬 7 | [mozilla-mobile/firefox-ios](https://github.com/mozilla-mobile/firefox-ios) | 13k | 🟢 beginner | 2026-09-04 |  |
 | [Add support for Cygwin](https://github.com/swiftlang/swift-testing/issues/886) 💬 1 | [swiftlang/swift-testing](https://github.com/swiftlang/swift-testing) | 2.2k | 🟡 help wanted | 2026-09-03 |  |
 | [Add 'sentryLabel' property on UIView](https://github.com/getsentry/sentry-cocoa/issues/8103) 💬 1 | [getsentry/sentry-cocoa](https://github.com/getsentry/sentry-cocoa) | 1.1k | 🟢 beginner | 2026-09-01 |  |
@@ -22,11 +23,11 @@
 | [test: fix flaky internal profiling API test](https://github.com/getsentry/sentry-cocoa/issues/8637) 💬 1 | [getsentry/sentry-cocoa](https://github.com/getsentry/sentry-cocoa) | 1.1k | 🟢 beginner | 2026-09-01 |  |
 | [Fix flaky 'testProfilerMutationDuringSlicing'](https://github.com/getsentry/sentry-cocoa/issues/3910) 💬 2 | [getsentry/sentry-cocoa](https://github.com/getsentry/sentry-cocoa) | 1.1k | 🟢 beginner | 2026-09-01 |  |
 | [Fix flaky 'testFlush_WhenNoInternet_BlocksAndFinishes'](https://github.com/getsentry/sentry-cocoa/issues/4704) | [getsentry/sentry-cocoa](https://github.com/getsentry/sentry-cocoa) | 1.1k | 🟢 beginner | 2026-09-01 |  |
-| [Would a version for iPadOS be feasible?](https://github.com/awaseem/foqos/issues/287) 💬 8 | [awaseem/foqos](https://github.com/awaseem/foqos) | 807 | 🟡 help wanted | 2026-09-01 |  |
+| [Would a version for iPadOS be feasible?](https://github.com/awaseem/foqos/issues/287) 💬 8 | [awaseem/foqos](https://github.com/awaseem/foqos) | 808 | 🟡 help wanted | 2026-09-01 |  |
 | [[Bug] Keyboard text input has poor performance, buggy, and unstable](https://github.com/minh-ton/reynard-browser/issues/309) 💬 5 | [minh-ton/reynard-browser](https://github.com/minh-ton/reynard-browser) | 1.7k | 🟡 help wanted | 2026-08-30 |  |
 | [Feature request: Add a Disable option in the Menu](https://github.com/pablopunk/SwiftShift/issues/158) | [pablopunk/SwiftShift](https://github.com/pablopunk/SwiftShift) | 641 | 🟢 beginner | 2026-08-29 |  |
-| [Create a Homebrew cask for Agent!](https://github.com/AgentiLoop/Agent/issues/29) | [AgentiLoop/Agent](https://github.com/AgentiLoop/Agent) | 601 | 🟢 beginner | 2026-08-29 |  |
-| [Add a demo GIF to the top of the README](https://github.com/AgentiLoop/Agent/issues/27) | [AgentiLoop/Agent](https://github.com/AgentiLoop/Agent) | 601 | 🟢 beginner | 2026-08-29 |  |
+| [Create a Homebrew cask for Agent!](https://github.com/AgentiLoop/Agent/issues/29) | [AgentiLoop/Agent](https://github.com/AgentiLoop/Agent) | 602 | 🟢 beginner | 2026-08-29 |  |
+| [Add a demo GIF to the top of the README](https://github.com/AgentiLoop/Agent/issues/27) | [AgentiLoop/Agent](https://github.com/AgentiLoop/Agent) | 602 | 🟢 beginner | 2026-08-29 |  |
 | [If closing a background tab while a new URL is being loaded from a bookmark, the new URL stops loading](https://github.com/mozilla-mobile/firefox-ios/issues/32334) 💬 13 | [mozilla-mobile/firefox-ios](https://github.com/mozilla-mobile/firefox-ios) | 13k | 🟢 beginner | 2026-08-27 |  |
 | [Pointer speed has no effect on trackpad on M2 and later Macs](https://github.com/linearmouse/linearmouse/issues/270) 💬 14 | [linearmouse/linearmouse](https://github.com/linearmouse/linearmouse) | 6.8k | 🟡 help wanted | 2026-08-26 |  |
 | [Reduce redundancy in generated OpenAPI definition names](https://github.com/FeatherCMS/feather/issues/125) | [FeatherCMS/feather](https://github.com/FeatherCMS/feather) | 605 | 🟢 beginner | 2026-08-25 |  |
@@ -43,8 +44,6 @@
 | [Too many coding agent initializations at home directory](https://github.com/erha19/ping-island/issues/249) 💬 5 | [erha19/ping-island](https://github.com/erha19/ping-island) | 1.1k | 🟢 beginner | 2026-08-11 |  |
 | [✨ ⇧⌘T keyboard shortcut to bring back closed editor tabs](https://github.com/CodeEditApp/CodeEdit/issues/1656) 💬 3 | [CodeEditApp/CodeEdit](https://github.com/CodeEditApp/CodeEdit) | 23k | 🟢 beginner | 2026-08-10 |  |
 | [Feature Request: Enterprise Analytics - Add Base Usage Status for OpenAI Business Team Subscription](https://github.com/steipete/CodexBar/issues/1130) 💬 4 | [steipete/CodexBar](https://github.com/steipete/CodexBar) | 21.3k | 🟡 help wanted | 2026-08-05 |  |
-| [Feature request: GPG / SSH sign release tags (kittylitter)](https://github.com/0xSero/litter/issues/146) 💬 2 | [0xSero/litter](https://github.com/0xSero/litter) | 2.5k | 🟡 help wanted | 2026-08-04 |  |
-| [Fish shell support](https://github.com/0xSero/litter/issues/185) 💬 2 | [0xSero/litter](https://github.com/0xSero/litter) | 2.5k | 🟡 help wanted | 2026-08-04 |  |
 | [[SR-13388] Add Fix-Its to "override" mismatch](https://github.com/swiftlang/swift/issues/55828) 💬 13 | [swiftlang/swift](https://github.com/swiftlang/swift) | 70.3k | 🟢 beginner | 2026-08-03 |  |
 | [[SR-5362] StdlibUnittest allows redeclaration of the same-named test; ignores all but last](https://github.com/swiftlang/swift/issues/47936) 💬 3 | [swiftlang/swift](https://github.com/swiftlang/swift) | 70.3k | 🟢 beginner | 2026-08-01 |  |
 | [Run with all traits in the API checker CI](https://github.com/apple/swift-configuration/issues/95) 💬 2 | [apple/swift-configuration](https://github.com/apple/swift-configuration) | 810 | 🟢 beginner | 2026-07-30 |  |
@@ -58,9 +57,9 @@
 | [Remove underbar prefix from _NIOFileSystem](https://github.com/apple/swift-nio/issues/3052) 💬 14 | [apple/swift-nio](https://github.com/apple/swift-nio) | 8.5k | 🟢 beginner | 2026-07-21 |  |
 | [Long lists not lazily loaded](https://github.com/lucaszischka/BottomSheet/issues/121) 💬 3 | [lucaszischka/BottomSheet](https://github.com/lucaszischka/BottomSheet) | 1.2k | 🟡 help wanted | 2026-07-18 |  |
 | [colors are not the correct ones](https://github.com/sw33tLie/macshot/issues/105) 💬 63 | [sw33tLie/macshot](https://github.com/sw33tLie/macshot) | 3.4k | 🟡 help wanted | 2026-07-10 |  |
-| [AirPods Max audio becomes silent while playback continues after Atoll shows Now Playing](https://github.com/Ebullioscopic/Atoll/issues/565) | [Ebullioscopic/Atoll](https://github.com/Ebullioscopic/Atoll) | 4.5k | 🟡 help wanted | 2026-07-09 |  |
+| [AirPods Max audio becomes silent while playback continues after Atoll shows Now Playing](https://github.com/Ebullioscopic/Atoll/issues/565) | [Ebullioscopic/Atoll](https://github.com/Ebullioscopic/Atoll) | 4.6k | 🟡 help wanted | 2026-07-09 |  |
 | [Feature Request: Focus space shortcut](https://github.com/ianyh/Amethyst/issues/911) 💬 10 | [ianyh/Amethyst](https://github.com/ianyh/Amethyst) | 16.3k | 🟢 beginner | 2026-07-08 |  |
-| [Add call animation](https://github.com/Ebullioscopic/Atoll/issues/248) 💬 1 | [Ebullioscopic/Atoll](https://github.com/Ebullioscopic/Atoll) | 4.5k | 🟢 beginner | 2026-07-06 |  |
+| [Add call animation](https://github.com/Ebullioscopic/Atoll/issues/248) 💬 1 | [Ebullioscopic/Atoll](https://github.com/Ebullioscopic/Atoll) | 4.6k | 🟢 beginner | 2026-07-06 |  |
 | ["Go to space X"](https://github.com/ianyh/Amethyst/issues/1318) 💬 4 | [ianyh/Amethyst](https://github.com/ianyh/Amethyst) | 16.3k | 🟡 help wanted | 2026-07-03 |  |
 | [[FEAT] 关于项目 Icon 征集与设计建议 / Call for Project Icon Designs & Ideas](https://github.com/wzh4869/AppPorts/issues/45) 💬 2 | [wzh4869/AppPorts](https://github.com/wzh4869/AppPorts) | 2k | 🟢 beginner | 2026-06-24 |  |
 | [[App Support]: Add NFC (Near Field Communication) support for Feishu/Lark](https://github.com/PlayCover/PlayCover/issues/2149) 💬 7 | [PlayCover/PlayCover](https://github.com/PlayCover/PlayCover) | 11.7k | 🟢 beginner | 2026-06-17 |  |
@@ -76,8 +75,8 @@
 | [Replace TODO comments in DuplicatesModule with real implementation or remove](https://github.com/iliyami/MacSai/issues/5) | [iliyami/MacSai](https://github.com/iliyami/MacSai) | 1.5k | 🟢 beginner | 2026-05-28 |  |
 | [[BUG] Generated EventControllerKey.keyPressed doesn’t support returning Bool](https://github.com/moreSwift/swift-cross-ui/issues/594) 💬 1 | [moreSwift/swift-cross-ui](https://github.com/moreSwift/swift-cross-ui) | 1.7k | 🟡 help wanted | 2026-05-26 | 🤖 disclose AI use |
 | [Configurable Raise Delay With Focus-follows-mouse](https://github.com/ianyh/Amethyst/issues/638) 💬 4 | [ianyh/Amethyst](https://github.com/ianyh/Amethyst) | 16.3k | 🟢 beginner | 2026-05-21 |  |
-| [大佬，可否增加低版本macos的支持](https://github.com/bylinxx/MacCalendar/issues/34) 💬 1 | [bylinxx/MacCalendar](https://github.com/bylinxx/MacCalendar) | 842 | 🟡 help wanted | 2026-05-19 |  |
-| [issue with external monitor DDC control](https://github.com/Ebullioscopic/Atoll/issues/274) 💬 2 | [Ebullioscopic/Atoll](https://github.com/Ebullioscopic/Atoll) | 4.5k | 🟡 help wanted | 2026-05-16 |  |
+| [大佬，可否增加低版本macos的支持](https://github.com/bylinxx/MacCalendar/issues/34) 💬 1 | [bylinxx/MacCalendar](https://github.com/bylinxx/MacCalendar) | 844 | 🟡 help wanted | 2026-05-19 |  |
+| [issue with external monitor DDC control](https://github.com/Ebullioscopic/Atoll/issues/274) 💬 2 | [Ebullioscopic/Atoll](https://github.com/Ebullioscopic/Atoll) | 4.6k | 🟡 help wanted | 2026-05-16 |  |
 | [Change code actions to provide functionality through 'SyntaxRefactoringCodeActionProvider'](https://github.com/swiftlang/sourcekit-lsp/issues/2628) 💬 4 | [swiftlang/sourcekit-lsp](https://github.com/swiftlang/sourcekit-lsp) | 3.9k | 🟢 beginner | 2026-05-12 |  |
 | [When quickly scrolling through a long list of search results, a fuckton of 'ruby' processes get spawned and fr](https://github.com/buresdv/Cork/issues/168) 💬 3 | [buresdv/Cork](https://github.com/buresdv/Cork) | 4.7k | 🟡 help wanted | 2026-05-11 | 📄 AI policy |
 | [Port Microsoft VibeVoice-ASR to Core ML and add as a transcription runtime](https://github.com/Muesli-HQ/muesli/issues/108) | [Muesli-HQ/muesli](https://github.com/Muesli-HQ/muesli) | 1.2k | 🟡 help wanted | 2026-05-11 | 🤖 disclose AI use · 🔏 DCO |
@@ -88,7 +87,7 @@
 | [[Bug] Cannot Add Certificates to Catalyst App](https://github.com/claration/Feather/issues/635) 💬 1 | [claration/Feather](https://github.com/claration/Feather) | 4.7k | 🟡 help wanted | 2026-05-05 |  |
 | [[Feature] Mute OTA update](https://github.com/rooootdev/lara/issues/221) | [rooootdev/lara](https://github.com/rooootdev/lara) | 1.5k | 🟡 help wanted | 2026-05-05 |  |
 | [Access modifiers on imports in generated files](https://github.com/apple/swift-openapi-generator/issues/777) 💬 3 | [apple/swift-openapi-generator](https://github.com/apple/swift-openapi-generator) | 2k | 🟢 beginner | 2026-05-04 |  |
-| [Allow replying to an audio message](https://github.com/element-hq/element-x-ios/issues/5485) | [element-hq/element-x-ios](https://github.com/element-hq/element-x-ios) | 943 | 🟢 beginner | 2026-04-29 | ⚠️ AI restricted |
+| [Allow replying to an audio message](https://github.com/element-hq/element-x-ios/issues/5485) | [element-hq/element-x-ios](https://github.com/element-hq/element-x-ios) | 945 | 🟢 beginner | 2026-04-29 | ⚠️ AI restricted |
 | [Better iCloud sync integration](https://github.com/quoid/userscripts/issues/424) 💬 23 | [quoid/userscripts](https://github.com/quoid/userscripts) | 4.8k | 🟡 help wanted | 2026-04-28 |  |
 | [Jump back in section is hidden when opening a tab via "+" toolbar button](https://github.com/mozilla-mobile/firefox-ios/issues/27802) 💬 4 | [mozilla-mobile/firefox-ios](https://github.com/mozilla-mobile/firefox-ios) | 13k | 🟢 beginner | 2026-04-21 |  |
 | [Restore app state on launch](https://github.com/TortugaPower/BookPlayer/issues/1158) 💬 2 | [TortugaPower/BookPlayer](https://github.com/TortugaPower/BookPlayer) | 2.2k | 🟡 help wanted | 2026-04-16 |  |
@@ -97,7 +96,7 @@
 | [[New Output] Test Suite Passed Output](https://github.com/cpisciotta/xcbeautify/issues/203) 💬 1 | [cpisciotta/xcbeautify](https://github.com/cpisciotta/xcbeautify) | 1.5k | 🟡 help wanted | 2026-04-14 |  |
 | [What is status of 'SQLite-Data' support?](https://github.com/skiptools/skip/issues/639) 💬 6 | [skiptools/skip](https://github.com/skiptools/skip) | 3.2k | 🟡 help wanted | 2026-04-10 |  |
 | [Fix GitRepositoryTests.testRawRepository on Windows](https://github.com/swiftlang/swift-package-manager/issues/8385) 💬 2 | [swiftlang/swift-package-manager](https://github.com/swiftlang/swift-package-manager) | 10.2k | 🟢 beginner | 2026-04-06 |  |
-| [feature request: widget customization](https://github.com/awaseem/foqos/issues/307) 💬 1 | [awaseem/foqos](https://github.com/awaseem/foqos) | 807 | 🟡 help wanted | 2026-04-05 |  |
+| [feature request: widget customization](https://github.com/awaseem/foqos/issues/307) 💬 1 | [awaseem/foqos](https://github.com/awaseem/foqos) | 808 | 🟡 help wanted | 2026-04-05 |  |
 | [Translations welcome](https://github.com/Marginal/QuickLookVideo/issues/174) | [Marginal/QuickLookVideo](https://github.com/Marginal/QuickLookVideo) | 3.6k | 🟡 help wanted | 2026-03-27 |  |
 | [docs: Document how to set up Xcode Cloud](https://github.com/skiptools/skip/issues/353) | [skiptools/skip](https://github.com/skiptools/skip) | 3.2k | 🟡 help wanted | 2026-03-26 |  |
 | [Add a tool to migrate an xcodeproj to Skip](https://github.com/skiptools/skip/issues/638) 💬 1 | [skiptools/skip](https://github.com/skiptools/skip) | 3.2k | 🟡 help wanted | 2026-03-20 |  |
