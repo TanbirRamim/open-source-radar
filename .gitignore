@@ -1,4 +1,7 @@
 __pycache__/
 *.pyc
 .venv/
+.ruff_cache/
 .DS_Store
+# Built from data/issues.json at deploy time
+site/data/

@@ -15,19 +15,19 @@ These are rebuilt by the scheduled workflow, and manual edits are overwritten:
 
 - everything in `issues/by-language/` and `issues/by-topic/`, and `issues/README.md`
 - `projects/README.md`
-- `data/*.json` and `site/data/issues.json`
+- `data/*.json` (and `site/data/`, which is built at deploy time and not committed)
 - the block between `RADAR:STATS:START` and `RADAR:STATS:END` in `README.md`
 
 To change what they contain, change `scripts/config.toml` or `scripts/radar.py`.
 
 ## Suggesting that a project be excluded
 
-Maintainers who would rather not have their project listed can open an issue, and we will add it to an exclusion list.
+Maintainers who would rather not have their project listed can open an issue, and it will be added to `[exclude]` in `scripts/config.toml`. It disappears from the lists on the next refresh.
 
 ## Making a change
 
 1. Fork the repository and create a branch.
-2. For pipeline changes, run the tests: `python3 -m unittest discover scripts` (Python 3.11+).
+2. For pipeline changes, run the tests and linter: `python3 -m unittest discover scripts` (Python 3.11+) and `ruff check scripts && ruff format --check scripts`.
 3. To try the pipeline on a small scale: `GITHUB_TOKEN=$(gh auth token) python3 scripts/radar.py all --languages "Rust"`, then `python3 -m http.server -d site 8000`. Do not commit the generated data from a partial run.
 4. Keep pull requests focused on one change, and describe what changed and why in a few sentences.
 

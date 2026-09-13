@@ -27,8 +27,9 @@ import tomllib
 import urllib.error
 import urllib.parse
 import urllib.request
+from collections.abc import Iterable
 from pathlib import Path
-from typing import Any, Iterable
+from typing import Any
 
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG_PATH = ROOT / "scripts" / "config.toml"
@@ -58,12 +59,13 @@ POLICY_FILES = [
 # Helpers
 # --------------------------------------------------------------------------- #
 
+
 def log(message: str) -> None:
     print(f"[radar] {message}", file=sys.stderr, flush=True)
 
 
 def now_utc() -> dt.datetime:
-    return dt.datetime.now(dt.timezone.utc)
+    return dt.datetime.now(dt.UTC)
 
 
 def iso_to_datetime(value: str) -> dt.datetime:
@@ -101,6 +103,7 @@ def chunked(items: list[Any], size: int) -> Iterable[list[Any]]:
 # GitHub client with rate-limit handling
 # --------------------------------------------------------------------------- #
 
+
 class GitHub:
     def __init__(self, token: str) -> None:
         if not token:
@@ -128,13 +131,13 @@ class GitHub:
                     time.sleep(wait)
                     continue
                 if error.code >= 500 and attempt < 5:
-                    time.sleep(2 ** attempt)
+                    time.sleep(2**attempt)
                     continue
                 detail = error.read().decode(errors="replace")[:300]
                 raise RuntimeError(f"{method} {url} failed: {error.code} {detail}") from error
             except (urllib.error.URLError, TimeoutError) as error:
                 if attempt < 5:
-                    time.sleep(2 ** attempt)
+                    time.sleep(2**attempt)
                     continue
                 raise RuntimeError(f"{method} {url} failed: {error}") from error
         raise RuntimeError(f"{method} {url} failed after retries")
@@ -157,9 +160,7 @@ class GitHub:
         if elapsed < 2.2:
             time.sleep(2.2 - elapsed)
         self.last_search = time.time()
-        params = urllib.parse.urlencode(
-            {"q": query, "sort": "stars", "order": "desc", "per_page": 100, "page": page}
-        )
+        params = urllib.parse.urlencode({"q": query, "sort": "stars", "order": "desc", "per_page": 100, "page": page})
         return self._request("GET", f"{API}/search/repositories?{params}")
 
     def graphql(self, query: str) -> dict[str, Any]:
@@ -168,8 +169,35 @@ class GitHub:
 
 
 # --------------------------------------------------------------------------- #
+# Safety checks
+# --------------------------------------------------------------------------- #
+
+
+def is_excluded(full_name: str, config: dict[str, Any]) -> bool:
+    """Maintainers can ask for their projects to be left out. Entries are `owner/repo` or `owner/*`."""
+    name = full_name.lower()
+    owner = name.split("/", 1)[0]
+    for entry in config.get("exclude", {}).get("repositories", []):
+        entry = entry.strip().lower()
+        if entry == name or entry == f"{owner}/*":
+            return True
+    return False
+
+
+def check_not_shrunk(previous_count: int, new_count: int, min_ratio: float) -> None:
+    """Refuse to replace good data with a result that lost most issues, which usually means API
+    errors or rate limiting rather than a real change."""
+    if previous_count and new_count < previous_count * min_ratio:
+        raise SystemExit(
+            f"Refusing to overwrite data: {new_count} issues collected, previously {previous_count} "
+            f"(below {min_ratio:.0%}). Re-run later, or pass --force if the drop is expected."
+        )
+
+
+# --------------------------------------------------------------------------- #
 # Discovery
 # --------------------------------------------------------------------------- #
+
 
 def discovery_queries(language: str, config: dict[str, Any], today: dt.date) -> list[str]:
     discovery = config["discovery"]
@@ -198,6 +226,8 @@ def discover(github: GitHub, config: dict[str, Any]) -> dict[str, Any]:
                     break
         ranked = sorted(found.items(), key=lambda entry: entry[1]["stars"], reverse=True)[: cap * 2]
         for full_name, info in ranked:
+            if is_excluded(full_name, config):
+                continue
             repos.setdefault(full_name, {"language": language, "stars": info["stars"]})
         log(f"{language}: {len(ranked)} repositories")
     payload = {"discovered_at": now_utc().isoformat(timespec="seconds"), "repos": repos}
@@ -209,6 +239,7 @@ def discover(github: GitHub, config: dict[str, Any]) -> dict[str, Any]:
 # --------------------------------------------------------------------------- #
 # Fetching issues and contribution policies
 # --------------------------------------------------------------------------- #
+
 
 def gql_string(value: str) -> str:
     return json.dumps(value)
@@ -222,7 +253,7 @@ def build_repo_query(repos: list[str], labels: list[str], per_repo: int, include
         policy = ""
         if include_policy:
             policy = "\n".join(
-                f'    p{file_index}: object(expression: {gql_string("HEAD:" + path)}) {{ ... on Blob {{ text }} }}'
+                f"    p{file_index}: object(expression: {gql_string('HEAD:' + path)}) {{ ... on Blob {{ text }} }}"
                 for file_index, path in enumerate(POLICY_FILES)
             )
         parts.append(
@@ -231,7 +262,8 @@ def build_repo_query(repos: list[str], labels: list[str], per_repo: int, include
     primaryLanguage {{ name }}
     licenseInfo {{ spdxId }}
     repositoryTopics(first: 20) {{ nodes {{ topic {{ name }} }} }}
-    issues(states: OPEN, first: {per_repo}, orderBy: {{field: UPDATED_AT, direction: DESC}}, filterBy: {{labels: {label_list}}}) {{
+    issues(states: OPEN, first: {per_repo}, orderBy: {{field: UPDATED_AT, direction: DESC}},
+           filterBy: {{labels: {label_list}}}) {{
       nodes {{
         number title url createdAt updatedAt locked
         comments {{ totalCount }}
@@ -321,7 +353,9 @@ def detect_policy(files: dict[str, str]) -> dict[str, Any]:
             level = "restricted"
         elif AI_DISCLOSE_TERMS.search(text):
             level = "disclose"
-        elif path.endswith("AI_POLICY.md") or re.search(r"\b(ai|llm)s?\b[^.\n]{0,80}\b(policy|guideline|rule)", text, re.IGNORECASE):
+        elif path.endswith("AI_POLICY.md") or re.search(
+            r"\b(ai|llm)s?\b[^.\n]{0,80}\b(policy|guideline|rule)", text, re.IGNORECASE
+        ):
             level = "policy"
         else:
             continue
@@ -354,7 +388,7 @@ def difficulty(labels: list[str]) -> str:
     return "help-wanted"
 
 
-def fetch(github: GitHub, config: dict[str, Any]) -> dict[str, Any]:
+def fetch(github: GitHub, config: dict[str, Any], *, force: bool = False) -> dict[str, Any]:
     repos_payload = read_json(REPOS_PATH, None)
     if not repos_payload:
         raise SystemExit("data/repos.json is missing; run `radar.py discover` first.")
@@ -367,7 +401,7 @@ def fetch(github: GitHub, config: dict[str, Any]) -> dict[str, Any]:
 
     repositories: dict[str, Any] = {}
     issues: list[dict[str, Any]] = []
-    names = sorted(tracked)
+    names = sorted(name for name in tracked if not is_excluded(name, config))
     for batch_index, batch in enumerate(chunked(names, 6)):
         needs_policy = any(
             name not in policies or iso_to_datetime(policies[name]["scanned_at"]) < refresh_before for name in batch
@@ -435,6 +469,9 @@ def fetch(github: GitHub, config: dict[str, Any]) -> dict[str, Any]:
             log(f"batch {batch_index}: {len(issues)} issues so far, graphql remaining {rate.get('remaining')}")
 
     issues.sort(key=lambda item: (item["updated"], repositories[item["repo"]]["stars"]), reverse=True)
+    if not force:
+        previous = read_json(ISSUES_PATH, {}) or {}
+        check_not_shrunk(len(previous.get("issues", [])), len(issues), config["safety"]["min_ratio"])
     payload = {
         "generated_at": now_utc().isoformat(timespec="seconds"),
         "repositories": repositories,
@@ -584,13 +621,19 @@ def render(config: dict[str, Any]) -> None:
         "",
         "| Language | Issues | Beginner | Projects |",
         "| --- | ---: | ---: | ---: |",
-        *[f"| [{name}](by-language/{slug}.md) | {count} | {beg} | {projects} |" for name, slug, count, beg, projects in language_rows],
+        *[
+            f"| [{name}](by-language/{slug}.md) | {count} | {beg} | {projects} |"
+            for name, slug, count, beg, projects in language_rows
+        ],
         "",
         "## By topic",
         "",
         "| Topic | Issues | Beginner | Projects |",
         "| --- | ---: | ---: | ---: |",
-        *[f"| [{name}](by-topic/{slug}.md) | {count} | {beg} | {projects} |" for name, slug, count, beg, projects in topic_rows],
+        *[
+            f"| [{name}](by-topic/{slug}.md) | {count} | {beg} | {projects} |"
+            for name, slug, count, beg, projects in topic_rows
+        ],
         "",
     ]
     (ROOT / "issues" / "README.md").write_text("\n".join(index), encoding="utf-8")
@@ -602,7 +645,9 @@ def render(config: dict[str, Any]) -> None:
     log(f"rendered {len(language_rows)} language pages and {len(topic_rows)} topic pages")
 
 
-def render_projects(repositories: dict[str, Any], issues: list[dict[str, Any]], config: dict[str, Any], generated_at: str) -> None:
+def render_projects(
+    repositories: dict[str, Any], issues: list[dict[str, Any]], config: dict[str, Any], generated_at: str
+) -> None:
     """Write projects/README.md: every tracked project with open newcomer issues, grouped by language."""
     beginner_counts: dict[str, int] = {}
     for issue in issues:
@@ -623,12 +668,16 @@ def render_projects(repositories: dict[str, Any], issues: list[dict[str, Any]], 
         "Use this page to find a project first, then pick an issue in it. Before contributing, check that the project "
         "merged pull requests from outside contributors recently ([how](../guide/03-choose-a-project.md)).",
         "",
-        "**Rules column:** ⚠️ AI restricted · 🤖 disclose AI use · 📄 AI policy · ✍️ CLA · 🔏 DCO, detected automatically "
+        "**Rules column:** ⚠️ AI restricted · 🤖 disclose AI use · 📄 AI policy · ✍️ CLA · 🔏 DCO, "
+        "detected automatically "
         "from contribution files. [What these mean](../guide/06-rules-before-you-start.md).",
         "",
         "## Languages",
         "",
-        " · ".join(f"[{language} ({len(entries)})](#{re.sub(r'[^a-z0-9 -]', '', language.lower()).replace(' ', '-')})" for language, entries in ordered),
+        " · ".join(
+            f"[{language} ({len(entries)})](#{re.sub(r'[^a-z0-9 -]', '', language.lower()).replace(' ', '-')})"
+            for language, entries in ordered
+        ),
         "",
     ]
     for language, entries in ordered:
@@ -668,9 +717,7 @@ def update_readme_stats(
     top_languages = " · ".join(
         f"[{name}](issues/by-language/{slug}.md) ({count})" for name, slug, count, _, _ in language_rows[:12]
     )
-    top_topics = " · ".join(
-        f"[{name}](issues/by-topic/{slug}.md) ({count})" for name, slug, count, _, _ in topic_rows
-    )
+    top_topics = " · ".join(f"[{name}](issues/by-topic/{slug}.md) ({count})" for name, slug, count, _, _ in topic_rows)
     block = (
         "<!-- RADAR:STATS:START -->\n"
         f"**{issue_count:,}** open issues · **{beginner_count:,}** labeled for beginners · "
@@ -688,10 +735,14 @@ def update_readme_stats(
 # Entry point
 # --------------------------------------------------------------------------- #
 
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("command", choices=["discover", "fetch", "render", "all"])
     parser.add_argument("--languages", help="comma-separated subset of configured languages (for local testing)")
+    parser.add_argument(
+        "--force", action="store_true", help="write results even if far fewer issues were found than last time"
+    )
     args = parser.parse_args(argv)
 
     config = load_config()
@@ -703,7 +754,8 @@ def main(argv: list[str] | None = None) -> int:
     if args.command in ("discover", "all"):
         discover(GitHub(token), config)
     if args.command in ("fetch", "all"):
-        fetch(GitHub(token), config)
+        # A language subset is an explicit test run, so a smaller result is expected.
+        fetch(GitHub(token), config, force=args.force or bool(args.languages))
     if args.command in ("render", "all"):
         render(config)
     return 0

@@ -2,6 +2,7 @@
 
 import datetime as dt
 import unittest
+from typing import ClassVar
 
 import radar
 
@@ -19,7 +20,7 @@ def issue(**overrides):
     return base
 
 
-SINCE = dt.datetime(2026, 6, 1, tzinfo=dt.timezone.utc)
+SINCE = dt.datetime(2026, 6, 1, tzinfo=dt.UTC)
 
 
 class AvailabilityTests(unittest.TestCase):
@@ -89,7 +90,7 @@ class PolicyTests(unittest.TestCase):
 
 
 class TopicAndLabelTests(unittest.TestCase):
-    config = {
+    config: ClassVar[dict] = {
         "topics": {
             "web": {"title": "Web", "keywords": ["react", "component*"]},
             "devtools": {"title": "Tools", "keywords": ["cli"]},
@@ -119,15 +120,30 @@ class MarkdownTests(unittest.TestCase):
 
 class ProjectsPageTests(unittest.TestCase):
     def test_projects_page_groups_by_language_and_counts_beginner_issues(self):
-        import tempfile, pathlib
+        import pathlib
+        import tempfile
+
         repositories = {
-            "a/one": {"url": "https://github.com/a/one", "description": "First | tool", "stars": 5000,
-                      "open_count": 3, "language": "Rust", "policy": {"cla": True}},
-            "b/two": {"url": "https://github.com/b/two", "description": "", "stars": 900,
-                      "open_count": 1, "language": "Go", "policy": {}},
+            "a/one": {
+                "url": "https://github.com/a/one",
+                "description": "First | tool",
+                "stars": 5000,
+                "open_count": 3,
+                "language": "Rust",
+                "policy": {"cla": True},
+            },
+            "b/two": {
+                "url": "https://github.com/b/two",
+                "description": "",
+                "stars": 900,
+                "open_count": 1,
+                "language": "Go",
+                "policy": {},
+            },
         }
         issues = [
-            {"repo": "a/one", "level": "beginner"}, {"repo": "a/one", "level": "help-wanted"},
+            {"repo": "a/one", "level": "beginner"},
+            {"repo": "a/one", "level": "help-wanted"},
             {"repo": "b/two", "level": "beginner"},
         ]
         config = {"languages": {"Rust": "rust", "Go": "go"}}
@@ -143,6 +159,23 @@ class ProjectsPageTests(unittest.TestCase):
         self.assertIn("## Go", page)
         self.assertIn("| [a/one](https://github.com/a/one/issues) | 5k | 3 | 1 | ✍️ CLA | First \\| tool |", page)
         self.assertIn("[open issues](../issues/by-language/rust.md)", page)
+
+
+class SafetyTests(unittest.TestCase):
+    config: ClassVar[dict] = {"exclude": {"repositories": ["Some/Repo", "whole-org/*"]}}
+
+    def test_exclusions_match_repo_and_owner_case_insensitively(self):
+        self.assertTrue(radar.is_excluded("some/repo", self.config))
+        self.assertTrue(radar.is_excluded("Whole-Org/anything", self.config))
+        self.assertFalse(radar.is_excluded("some/other", self.config))
+        self.assertFalse(radar.is_excluded("whole-org-fork/x", self.config))
+        self.assertFalse(radar.is_excluded("a/b", {}))
+
+    def test_shrink_guard(self):
+        radar.check_not_shrunk(0, 5, 0.6)  # first run
+        radar.check_not_shrunk(1000, 700, 0.6)  # normal churn
+        with self.assertRaises(SystemExit):
+            radar.check_not_shrunk(1000, 100, 0.6)  # most issues vanished
 
 
 class QueryTests(unittest.TestCase):

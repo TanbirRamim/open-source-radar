@@ -9,6 +9,7 @@ Open, unclaimed, newcomer-friendly issues from active open source projects, sort
 [**Browse issues on the website**](https://tanbirramim.github.io/open-source-radar/) &nbsp;|&nbsp; [**Read the guide**](guide/README.md) &nbsp;|&nbsp; [**Issues by language**](issues/README.md#by-language) &nbsp;|&nbsp; [**Issues by topic**](issues/README.md#by-topic) &nbsp;|&nbsp; [**Projects directory**](projects/README.md)
 
 [![Refresh issue data](https://github.com/TanbirRamim/open-source-radar/actions/workflows/refresh.yml/badge.svg)](https://github.com/TanbirRamim/open-source-radar/actions/workflows/refresh.yml)
+[![CI](https://github.com/TanbirRamim/open-source-radar/actions/workflows/ci.yml/badge.svg)](https://github.com/TanbirRamim/open-source-radar/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-0E7C72.svg)](LICENSE)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-C2710C.svg)](CONTRIBUTING.md)
 
@@ -86,6 +87,16 @@ python3 scripts/radar.py all --languages "Rust,Go"    # Python 3.11+, no package
 python3 -m http.server -d site 8000                   # then open http://localhost:8000
 ```
 
+## Use the data
+
+The full dataset behind the website is one JSON file, refreshed twice a day and free to use in your own bots, newsletters, dashboards or Discord servers:
+
+```bash
+curl -s https://tanbirramim.github.io/open-source-radar/data/issues.json | jq '.issues | length'
+```
+
+The format, with examples, is documented in [docs/data.md](docs/data.md).
+
 ## Contributing
 
 This project is itself a good first contribution. Ideas:
@@ -93,9 +104,10 @@ This project is itself a good first contribution. Ideas:
 - Improve a guide chapter or a [language quickstart](languages/README.md), or add a new one.
 - Add a label variant, language or topic keyword to [`scripts/config.toml`](scripts/config.toml).
 - Report a project whose rules were detected incorrectly.
+- Build something with [the data](docs/data.md) and tell us about it.
 - Improve the [website](site/) or the [pipeline](scripts/radar.py), with a test in [`scripts/test_radar.py`](scripts/test_radar.py).
 
-Read [CONTRIBUTING.md](CONTRIBUTING.md) first, and see the [Code of Conduct](CODE_OF_CONDUCT.md).
+Read [CONTRIBUTING.md](CONTRIBUTING.md) first, and see the [Code of Conduct](CODE_OF_CONDUCT.md). Maintainers who prefer their project not to be listed can [open an issue](https://github.com/TanbirRamim/open-source-radar/issues/new/choose) and it will be excluded.
 
 ## Please, be a good citizen
 

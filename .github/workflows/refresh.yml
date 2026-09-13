@@ -2,18 +2,20 @@ name: Refresh issue data
 
 on:
   schedule:
-    - cron: "17 5,17 * * *"   # twice a day
+    - cron: "17 5,17 * * *"   # twice a day, 05:17 and 17:17 UTC
   workflow_dispatch:
     inputs:
       languages:
-        description: "Optional comma-separated subset of languages (for testing). Leave empty for a full run."
+        description: "Test run on a comma-separated subset of languages. Test runs do not commit or deploy."
         required: false
         default: ""
+      force:
+        description: "Publish even if far fewer issues were found than last time"
+        type: boolean
+        default: false
 
 permissions:
-  contents: write
-  pages: write
-  id-token: write
+  contents: read
 
 concurrency:
   group: refresh
@@ -23,6 +25,10 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     timeout-minutes: 330
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
     steps:
       - uses: actions/checkout@v4
 
@@ -35,23 +41,32 @@ jobs:
 
       - name: Collect issues
         env:
-          # A fine-grained personal access token with public read access (secret RADAR_TOKEN) gives a much
-          # higher API rate limit. Without it, the built-in token works but full runs take longer.
+          # Prefer a fine-grained personal access token with public read access (secret RADAR_TOKEN):
+          # the built-in token has a much lower API rate limit, so full runs take hours.
           GITHUB_TOKEN: ${{ secrets.RADAR_TOKEN || github.token }}
           LANGUAGES: ${{ inputs.languages }}
+          FORCE: ${{ inputs.force && '--force' || '' }}
         run: |
           if [ -n "$LANGUAGES" ]; then
             python scripts/radar.py all --languages "$LANGUAGES"
           else
-            python scripts/radar.py all
+            python scripts/radar.py all $FORCE
           fi
 
+      - name: Summary
+        run: |
+          python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          data = json.load(open("data/issues.json"))
+          print(f"**{len(data['issues'])}** issues from **{len(data['repositories'])}** projects, generated {data['generated_at']}")
+          PY
+
       - name: Commit updated data
-        if: ${{ inputs.languages == '' }}
+        if: ${{ !inputs.languages }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md issues data site/data
+          git add README.md issues projects data
           if git diff --cached --quiet; then
             echo "No changes."
           else
@@ -61,7 +76,10 @@ jobs:
           fi
 
       - uses: actions/configure-pages@v5
+        if: ${{ !inputs.languages }}
       - uses: actions/upload-pages-artifact@v3
+        if: ${{ !inputs.languages }}
         with:
           path: site
       - uses: actions/deploy-pages@v4
+        if: ${{ !inputs.languages }}

@@ -27,6 +27,15 @@ per_repo = 30
 # Maximum issues rendered per Markdown page (the website shows everything).
 max_per_page = 200
 
+[safety]
+# A full run that finds fewer than this share of the previous run's issues is rejected
+# (usually a sign of API errors or rate limits, not a real change).
+min_ratio = 0.6
+
+[exclude]
+# Projects whose maintainers asked not to be listed: "owner/repo" or "owner/*".
+repositories = []
+
 [policy]
 # Contribution files are re-scanned only when older than this.
 refresh_days = 7

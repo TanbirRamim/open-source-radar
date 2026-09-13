@@ -3,13 +3,11 @@ name: Deploy website
 on:
   push:
     branches: [main]
-    paths: ["site/**"]
+    paths: ["site/**", "scripts/radar.py", "scripts/config.toml"]
   workflow_dispatch:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
   group: pages
@@ -18,8 +16,17 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build site data from the committed issue data
+        run: python scripts/radar.py render
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
