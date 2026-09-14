@@ -1,8 +1,8 @@
 # Dart issues
 
-**59** open issues (30 labeled for beginners) across **35** active Dart projects.
+**61** open issues (32 labeled for beginners) across **35** active Dart projects.
 
-> Updated automatically on **2026-09-14 11:33 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-14 21:47 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,10 +10,12 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [Support for older versions of MacOS](https://github.com/localsend/localsend/issues/1200) 💬 8 | [localsend/localsend](https://github.com/localsend/localsend) | 91k | 🟡 help wanted | 2026-09-12 |  |
+| [Stale promotion UI on analysis board](https://github.com/lichess-org/mobile/issues/3610) 💬 1 | [lichess-org/mobile](https://github.com/lichess-org/mobile) | 2.5k | 🟢 beginner | 2026-09-14 | 🤖 disclose AI use |
+| [Crazy house pieces disappear](https://github.com/lichess-org/mobile/issues/3599) 💬 2 | [lichess-org/mobile](https://github.com/lichess-org/mobile) | 2.5k | 🟢 beginner | 2026-09-14 | 🤖 disclose AI use |
+| [Support for older versions of MacOS](https://github.com/localsend/localsend/issues/1200) 💬 8 | [localsend/localsend](https://github.com/localsend/localsend) | 91.2k | 🟡 help wanted | 2026-09-12 |  |
 | [Null check operator used on a null value](https://github.com/amake/orgro/issues/215) 💬 10 | [amake/orgro](https://github.com/amake/orgro) | 730 | 🟡 help wanted | 2026-09-12 |  |
 | [Handle MainActivity destruction on Android (like retrieveLostData of ImagePicker)](https://github.com/vicajilau/flutter_file_picker/issues/1258) 💬 12 | [vicajilau/flutter_file_picker](https://github.com/vicajilau/flutter_file_picker) | 1.6k | 🟡 help wanted | 2026-09-10 |  |
-| [[FR] remove formatting option](https://github.com/AppFlowy-IO/AppFlowy/issues/3427) 💬 10 | [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) | 76.6k | 🟢 beginner | 2026-09-09 |  |
+| [[FR] remove formatting option](https://github.com/AppFlowy-IO/AppFlowy/issues/3427) 💬 10 | [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) | 76.7k | 🟢 beginner | 2026-09-09 |  |
 | [[Feature Request] Support range versions](https://github.com/leoafarias/fvm/issues/751) 💬 1 | [leoafarias/fvm](https://github.com/leoafarias/fvm) | 5.5k | 🟡 help wanted | 2026-09-08 |  |
 | [Migration guide Firebase to Serverpod](https://github.com/serverpod/serverpod/issues/3337) 💬 8 | [serverpod/serverpod](https://github.com/serverpod/serverpod) | 3.3k | 🟢 beginner | 2026-09-07 |  |
 | [ci: enable the use of a dependancy bot](https://github.com/ImranR98/Obtainium/issues/3275) 💬 3 | [ImranR98/Obtainium](https://github.com/ImranR98/Obtainium) | 19.7k | 🟢 beginner | 2026-09-06 | 📄 AI policy |
@@ -46,7 +48,7 @@
 | [[📚]Holistically document all throwed exception codes.](https://github.com/firebase/flutterfire/issues/6326) 💬 10 | [firebase/flutterfire](https://github.com/firebase/flutterfire) | 9.3k | 🟢 beginner | 2026-07-10 | ✍️ CLA |
 | [UnsupportedError: Cannot add to a fixed-length list when selecting or rendering large text in QuillEditor](https://github.com/singerdmx/flutter-quill/issues/2487) 💬 4 | [singerdmx/flutter-quill](https://github.com/singerdmx/flutter-quill) | 2.9k | 🟡 help wanted | 2026-07-03 |  |
 | [[Inspector V2] Widget properties tab highlight extends past its rounded edge](https://github.com/flutter/devtools/issues/8936) 💬 3 | [flutter/devtools](https://github.com/flutter/devtools) | 1.7k | 🟡 help wanted | 2026-07-03 | 📄 AI policy · ✍️ CLA |
-| [Text alignment issue in mobile app – A1 Professional Spanish Certification](https://github.com/freeCodeCamp/mobile/issues/1731) 💬 4 | [freeCodeCamp/mobile](https://github.com/freeCodeCamp/mobile) | 580 | 🟢 beginner | 2026-07-01 |  |
+| [Text alignment issue in mobile app – A1 Professional Spanish Certification](https://github.com/freeCodeCamp/mobile/issues/1731) 💬 4 | [freeCodeCamp/mobile](https://github.com/freeCodeCamp/mobile) | 581 | 🟢 beginner | 2026-07-01 |  |
 | [Can you added TV Version armv7 + 64](https://github.com/ImranR98/Obtainium/issues/2924) 💬 3 | [ImranR98/Obtainium](https://github.com/ImranR98/Obtainium) | 19.7k | 🟡 help wanted | 2026-06-23 | 📄 AI policy |
 | [App Crashes while Scrolling Broadcast Carousel](https://github.com/lichess-org/mobile/issues/1769) 💬 2 | [lichess-org/mobile](https://github.com/lichess-org/mobile) | 2.5k | 🟡 help wanted | 2026-06-14 | 🤖 disclose AI use |
 | [[typed_sql] MariaDB and MySQL support](https://github.com/google/dart-neats/issues/330) | [google/dart-neats](https://github.com/google/dart-neats) | 508 | 🟡 help wanted | 2026-06-09 | ✍️ CLA |

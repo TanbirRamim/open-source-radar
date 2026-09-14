@@ -1,8 +1,8 @@
 # Security and privacy issues
 
-**237** open issues (116 labeled for beginners) across **59** projects tagged with topics like `security`, `privacy`, `cryptography`, `encryption`, `authentication`, `oauth`.
+**234** open issues (116 labeled for beginners) across **59** projects tagged with topics like `security`, `privacy`, `cryptography`, `encryption`, `authentication`, `oauth`.
 
-> Updated automatically on **2026-09-14 11:33 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-14 21:47 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -11,14 +11,14 @@
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
 | [Let a CMP client require EnvelopedData (reject EncryptedValue) for centrally generated keys](https://github.com/openssl/openssl/issues/32797) | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-14 | 🤖 disclose AI use · ✍️ CLA |
+| [💡 in-app updating, auto-updating](https://github.com/super-productivity/super-productivity/issues/8007) 💬 7 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22k | 🟡 help wanted | 2026-09-14 |  |
+| [💡 Sync Jira Start Date to Planned Date and Due Date to Deadline](https://github.com/super-productivity/super-productivity/issues/10070) 💬 3 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22k | 🟡 help wanted | 2026-09-14 |  |
 | [💡 making more intuitive "schedule "(zooming) {ui/ux improvement for phone: 5a/100}](https://github.com/super-productivity/super-productivity/issues/9990) 💬 2 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22k | 🟡 help wanted | 2026-09-14 |  |
 | [🚨 focus mode (reset session counter) {ui/ux improvement for phone: 1b/100}](https://github.com/super-productivity/super-productivity/issues/9893) 💬 5 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22k | 🟡 help wanted | 2026-09-14 |  |
-| [💡 in-app updating, auto-updating](https://github.com/super-productivity/super-productivity/issues/8007) 💬 6 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22k | 🟡 help wanted | 2026-09-14 |  |
 | [RFC 9919: OCSP with SHA-256](https://github.com/openssl/openssl/issues/32813) | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use · ✍️ CLA |
 | [Backport 0c2a196af8 (per-OSSL_LIB_CTX CONF storage) to 3.0-3.6: conf_ssl.c double-free still present in all re](https://github.com/openssl/openssl/issues/32804) 💬 2 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use · ✍️ CLA |
 | [App keeps requesting password / decryption failed](https://github.com/super-productivity/super-productivity/issues/4514) 💬 15 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22k | 🟡 help wanted | 2026-09-13 |  |
 | [💡 Give users the option to treat "Inbox" as a location where all tasks can be seen](https://github.com/super-productivity/super-productivity/issues/6717) 💬 12 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22k | 🟡 help wanted | 2026-09-13 |  |
-| [💡 Sync Jira Start Date to Planned Date and Due Date to Deadline](https://github.com/super-productivity/super-productivity/issues/10070) 💬 2 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22k | 🟡 help wanted | 2026-09-13 |  |
 | [💡 [Android] Feature Request: Customizable Bottom Navigation Bar Layout](https://github.com/super-productivity/super-productivity/issues/7637) 💬 7 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22k | 🟡 help wanted | 2026-09-13 |  |
 | [💡 Make "Overdue" optional](https://github.com/super-productivity/super-productivity/issues/4405) 💬 11 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22k | 🟡 help wanted | 2026-09-13 |  |
 | [💡Reminder alarm](https://github.com/super-productivity/super-productivity/issues/4381) 💬 13 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22k | 🟡 help wanted | 2026-09-13 |  |
@@ -35,8 +35,6 @@
 | [Reusable task with sub tasks structure or template](https://github.com/super-productivity/super-productivity/issues/3952) 💬 6 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22k | 🟡 help wanted | 2026-09-13 |  |
 | [Add update checker and installer for standalone Linux versions (rpm, deb, appimage etc.)](https://github.com/super-productivity/super-productivity/issues/3730) 💬 8 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22k | 🟡 help wanted | 2026-09-13 |  |
 | [Global shortcut registration failed: CTRL+Shift+X in Wayland](https://github.com/super-productivity/super-productivity/issues/3789) 💬 11 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22k | 🟡 help wanted | 2026-09-13 |  |
-| [Two-Week Limit on Planner View](https://github.com/super-productivity/super-productivity/issues/3702) 💬 10 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22k | 🟡 help wanted | 2026-09-13 |  |
-| [Tasks from Calendar Still Appear After Being Archived](https://github.com/super-productivity/super-productivity/issues/3628) 💬 6 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22k | 🟡 help wanted | 2026-09-13 |  |
 | [Empty indices are incorrectly included in the search target](https://github.com/Graylog2/graylog2-server/issues/6016) 💬 7 | [Graylog2/graylog2-server](https://github.com/Graylog2/graylog2-server) | 8.1k | 🟢 beginner | 2026-09-13 |  |
 | [Adding QR-UOV](https://github.com/open-quantum-safe/liboqs/issues/2454) 💬 17 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-09-13 |  |
 | [Update speed tests to measure GPU performance for cuPQC code](https://github.com/open-quantum-safe/liboqs/issues/2160) 💬 41 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-09-13 |  |
@@ -53,7 +51,7 @@
 | [Add RPM/Red Hat ecosystem support](https://github.com/google/osv-scanner/issues/254) 💬 2 | [google/osv-scanner](https://github.com/google/osv-scanner) | 11k | 🟢 beginner | 2026-09-09 | 📄 AI policy · ✍️ CLA |
 | [Adding SDitH](https://github.com/open-quantum-safe/liboqs/issues/2453) 💬 2 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-09-09 |  |
 | [Adding FAEST](https://github.com/open-quantum-safe/liboqs/issues/2101) 💬 11 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-09-09 |  |
-| [Implement '--max-files' flag to limit the number of files transferred](https://github.com/rclone/rclone/issues/4118) 💬 8 | [rclone/rclone](https://github.com/rclone/rclone) | 59.7k | 🟡 help wanted | 2026-09-08 |  |
+| [Implement '--max-files' flag to limit the number of files transferred](https://github.com/rclone/rclone/issues/4118) 💬 8 | [rclone/rclone](https://github.com/rclone/rclone) | 59.8k | 🟡 help wanted | 2026-09-08 |  |
 | [Documentation regarding the 'OPENSSL_init_crypto' config handling is confusing](https://github.com/openssl/openssl/issues/32625) 💬 2 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-07 | 🤖 disclose AI use · ✍️ CLA |
 | [Support Unified Push](https://github.com/ungoogled-software/ungoogled-chromium/issues/3675) 💬 20 | [ungoogled-software/ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium) | 27.7k | 🟡 help wanted | 2026-09-07 |  |
 | [Support Bearer Tokens for authenticating instead of using a token in basic auth](https://github.com/Graylog2/graylog2-server/issues/5167) 💬 2 | [Graylog2/graylog2-server](https://github.com/Graylog2/graylog2-server) | 8.1k | 🟢 beginner | 2026-09-07 |  |
@@ -64,7 +62,7 @@
 | [[Flatpak] Auth: Failed to launch: libsecret_error: Failed to unlock the keyring](https://github.com/ente/ente/issues/6564) 💬 6 | [ente/ente](https://github.com/ente/ente) | 28.9k | 🟡 help wanted | 2026-09-03 |  |
 | [borg2 b24: benchmarking needed](https://github.com/borgbackup/borg/issues/10315) 💬 7 | [borgbackup/borg](https://github.com/borgbackup/borg) | 13.7k | 🟡 help wanted | 2026-09-03 |  |
 | [macbook use Touch ID instead password](https://github.com/GyulyVGC/sniffnet/issues/1300) 💬 1 | [GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet) | 41.1k | 🟢 beginner | 2026-09-01 | 🤖 disclose AI use |
-| [CLI Support for Injecting Envars into Docker-Compose Containers without embedding the CLI in Container Images](https://github.com/Infisical/infisical/issues/425) 💬 8 | [Infisical/infisical](https://github.com/Infisical/infisical) | 29.2k | 🟡 help wanted | 2026-09-01 |  |
+| [CLI Support for Injecting Envars into Docker-Compose Containers without embedding the CLI in Container Images](https://github.com/Infisical/infisical/issues/425) 💬 8 | [Infisical/infisical](https://github.com/Infisical/infisical) | 29.3k | 🟡 help wanted | 2026-09-01 |  |
 | [Don't sort output config fields by optionality](https://github.com/Graylog2/graylog2-server/issues/4761) 💬 4 | [Graylog2/graylog2-server](https://github.com/Graylog2/graylog2-server) | 8.1k | 🟢 beginner | 2026-08-31 |  |
 | [Support header sso (Forward Auth)](https://github.com/lldap/lldap/issues/352) 💬 15 | [lldap/lldap](https://github.com/lldap/lldap) | 6.5k | 🟢 beginner | 2026-08-31 |  |
 | [Docs: add a Wikipedia page about Sniffnet](https://github.com/GyulyVGC/sniffnet/issues/975) 💬 2 | [GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet) | 41.1k | 🟢 beginner | 2026-08-28 | 🤖 disclose AI use |
@@ -161,9 +159,9 @@
 | [Add info to Report Search tooltip](https://github.com/matomo-org/matomo/issues/19042) 💬 3 | [matomo-org/matomo](https://github.com/matomo-org/matomo) | 21.9k | 🟡 help wanted | 2026-07-11 |  |
 | [When autofilling a search term on info page, the wrong background is selected in the form field](https://github.com/matomo-org/matomo/issues/18857) 💬 1 | [matomo-org/matomo](https://github.com/matomo-org/matomo) | 21.9k | 🟡 help wanted | 2026-07-11 |  |
 | [Keyboard shortcuts similar to Vimium](https://github.com/ungoogled-software/ungoogled-chromium/issues/3863) | [ungoogled-software/ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium) | 27.7k | 🟡 help wanted | 2026-07-10 |  |
-| [Rclone support for JioCloud](https://github.com/rclone/rclone/issues/6750) 💬 1 | [rclone/rclone](https://github.com/rclone/rclone) | 59.7k | 🟡 help wanted | 2026-07-08 |  |
+| [Rclone support for JioCloud](https://github.com/rclone/rclone/issues/6750) 💬 1 | [rclone/rclone](https://github.com/rclone/rclone) | 59.8k | 🟡 help wanted | 2026-07-08 |  |
 | [Add SAP BTP as a Cloud Provider](https://github.com/prowler-cloud/prowler/issues/7646) 💬 7 | [prowler-cloud/prowler](https://github.com/prowler-cloud/prowler) | 14.8k | 🟡 help wanted | 2026-07-08 |  |
-| [Implement OneDrive shared with me](https://github.com/rclone/rclone/issues/4062) 💬 46 | [rclone/rclone](https://github.com/rclone/rclone) | 59.7k | 🟡 help wanted | 2026-07-06 |  |
+| [Implement OneDrive shared with me](https://github.com/rclone/rclone/issues/4062) 💬 46 | [rclone/rclone](https://github.com/rclone/rclone) | 59.8k | 🟡 help wanted | 2026-07-06 |  |
 | [Allow admin role to create pre-signed URLs with arbitrary expirations](https://github.com/nhost/nhost/issues/3517) 💬 7 | [nhost/nhost](https://github.com/nhost/nhost) | 9.3k | 🟢 beginner | 2026-07-02 | ⚠️ AI restricted |
 | [New audit: old(er) runs-on](https://github.com/zizmorcore/zizmor/issues/827) 💬 9 | [zizmorcore/zizmor](https://github.com/zizmorcore/zizmor) | 6.5k | 🟢 beginner | 2026-07-01 | 📄 AI policy |
 | [manage: Promise was rejected because the browsing context is going away](https://github.com/openstyles/stylus/issues/2152) 💬 1 | [openstyles/stylus](https://github.com/openstyles/stylus) | 6.9k | 🟡 help wanted | 2026-06-29 |  |
@@ -195,10 +193,10 @@
 | [CPU profiles: add the '.comment' value as rizin comment near the flag, if defined](https://github.com/rizinorg/rizin/issues/1671) 💬 13 | [rizinorg/rizin](https://github.com/rizinorg/rizin) | 3.9k | 🟢 beginner | 2026-06-07 | 🤖 disclose AI use |
 | [Add rendering man_made=tower](https://github.com/organicmaps/organicmaps/issues/5521) 💬 7 | [organicmaps/organicmaps](https://github.com/organicmaps/organicmaps) | 15.4k | 🟢 beginner | 2026-06-06 | 🔏 DCO |
 | [Publish icon is upside down](https://github.com/MISP/MISP/issues/1179) 💬 3 | [MISP/MISP](https://github.com/MISP/MISP) | 6.5k | 🟢 beginner | 2026-06-05 | ✍️ CLA |
-| [Selenium tests: check console output.](https://github.com/searxng/searxng/issues/338) 💬 1 | [searxng/searxng](https://github.com/searxng/searxng) | 37k | 🟢 beginner | 2026-06-04 | 📄 AI policy |
+| [Selenium tests: check console output.](https://github.com/searxng/searxng/issues/338) 💬 1 | [searxng/searxng](https://github.com/searxng/searxng) | 37.1k | 🟢 beginner | 2026-06-04 | 📄 AI policy |
 | [[FR] RTL BiDi Support](https://github.com/PrivateBin/PrivateBin/issues/1849) 💬 1 | [PrivateBin/PrivateBin](https://github.com/PrivateBin/PrivateBin) | 8.6k | 🟡 help wanted | 2026-06-04 | 🤖 disclose AI use |
 | [[Feature request] SQIsign](https://github.com/open-quantum-safe/liboqs/issues/1946) 💬 2 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-06-03 |  |
-| [Request: Form Upload with http server](https://github.com/rclone/rclone/issues/3151) 💬 3 | [rclone/rclone](https://github.com/rclone/rclone) | 59.7k | 🟡 help wanted | 2026-06-02 |  |
+| [Request: Form Upload with http server](https://github.com/rclone/rclone/issues/3151) 💬 3 | [rclone/rclone](https://github.com/rclone/rclone) | 59.8k | 🟡 help wanted | 2026-06-02 |  |
 | [Projects view, versions column should support semantic versioning](https://github.com/DependencyTrack/dependency-track/issues/378) 💬 3 | [DependencyTrack/dependency-track](https://github.com/DependencyTrack/dependency-track) | 4.2k | 🟡 help wanted | 2026-05-30 | ⚠️ AI restricted · 🔏 DCO |
 | [Re-implement fuzzy analysis for internal scanner](https://github.com/DependencyTrack/dependency-track/issues/6195) | [DependencyTrack/dependency-track](https://github.com/DependencyTrack/dependency-track) | 4.2k | 🟡 help wanted | 2026-05-29 | ⚠️ AI restricted · 🔏 DCO |
 | [Rework disassembly API](https://github.com/rizinorg/rizin/issues/3086) 💬 1 | [rizinorg/rizin](https://github.com/rizinorg/rizin) | 3.9k | 🟢 beginner | 2026-05-29 | 🤖 disclose AI use |
@@ -209,6 +207,8 @@
 | [Replace TODO comments in DuplicatesModule with real implementation or remove](https://github.com/iliyami/MacSai/issues/5) | [iliyami/MacSai](https://github.com/iliyami/MacSai) | 1.5k | 🟢 beginner | 2026-05-28 |  |
 | [Cropped button label in "Remove vault" dialog](https://github.com/cryptomator/cryptomator/issues/3338) 💬 5 | [cryptomator/cryptomator](https://github.com/cryptomator/cryptomator) | 16.1k | 🟢 beginner | 2026-05-26 |  |
 | [The thumbnails don't always load](https://github.com/libre-tube/LibreTube/issues/8393) 💬 2 | [libre-tube/LibreTube](https://github.com/libre-tube/LibreTube) | 12.7k | 🟡 help wanted | 2026-05-23 |  |
-| [[Bug] No longer see files/folders within secure folder](https://github.com/leonlatsch/Photok/issues/678) 💬 5 | [leonlatsch/Photok](https://github.com/leonlatsch/Photok) | 964 | 🟢 beginner | 2026-05-21 |  |
+| [[Bug] No longer see files/folders within secure folder](https://github.com/leonlatsch/Photok/issues/678) 💬 5 | [leonlatsch/Photok](https://github.com/leonlatsch/Photok) | 965 | 🟢 beginner | 2026-05-21 |  |
+| [[META] Adding subfeatures to audits](https://github.com/zizmorcore/zizmor/issues/963) 💬 4 | [zizmorcore/zizmor](https://github.com/zizmorcore/zizmor) | 6.5k | 🟢 beginner | 2026-05-15 | 📄 AI policy |
+| [api_version as large unsigned int causes exception instead of clean rejection](https://github.com/XRPLF/rippled/issues/6776) 💬 1 | [XRPLF/rippled](https://github.com/XRPLF/rippled) | 5.2k | 🟢 beginner | 2026-05-15 | 🔏 DCO |
 
-Showing the 200 most recently updated. See all 237 on the website.
+Showing the 200 most recently updated. See all 234 on the website.

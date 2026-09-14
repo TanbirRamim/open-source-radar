@@ -1,8 +1,8 @@
 # Finance and Web3 issues
 
-**60** open issues (23 labeled for beginners) across **16** projects tagged with topics like `finance`, `fintech`, `blockchain`, `ethereum`, `crypto`, `trading`.
+**59** open issues (23 labeled for beginners) across **16** projects tagged with topics like `finance`, `fintech`, `blockchain`, `ethereum`, `crypto`, `trading`.
 
-> Updated automatically on **2026-09-14 11:33 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-14 21:47 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -69,4 +69,3 @@
 | [LogLevel contains dead code due to redundant partition check](https://github.com/XRPLF/rippled/issues/6752) | [XRPLF/rippled](https://github.com/XRPLF/rippled) | 5.2k | 🟢 beginner | 2026-04-07 | 🔏 DCO |
 | [ledger_request asInt() throws for large uint ledger_index values](https://github.com/XRPLF/rippled/issues/6750) | [XRPLF/rippled](https://github.com/XRPLF/rippled) | 5.2k | 🟢 beginner | 2026-04-07 | 🔏 DCO |
 | [Unlock window is hidden after creating a new vault](https://github.com/cryptomator/cryptomator/issues/3302) 💬 9 | [cryptomator/cryptomator](https://github.com/cryptomator/cryptomator) | 16.1k | 🟢 beginner | 2026-03-29 |  |
-| [Common code for s390x / ppc64le, Windows](https://github.com/open-quantum-safe/liboqs/issues/1233) 💬 4 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-03-18 |  |

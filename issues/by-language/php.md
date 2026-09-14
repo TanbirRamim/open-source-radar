@@ -1,8 +1,8 @@
 # PHP issues
 
-**167** open issues (84 labeled for beginners) across **57** active PHP projects.
+**167** open issues (83 labeled for beginners) across **58** active PHP projects.
 
-> Updated automatically on **2026-09-14 11:33 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-14 21:47 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -12,15 +12,17 @@
 | --- | --- | ---: | --- | --- | --- |
 | [S3 external storage created via 'occ files_external:create' does not detect remote file changes](https://github.com/nextcloud/server/issues/53249) 💬 3 | [nextcloud/server](https://github.com/nextcloud/server) | 36.8k | 🟢 beginner | 2026-09-14 | 🤖 disclose AI use · 🔏 DCO |
 | [Reject credential and other unsupported keys in 'files_external:option'](https://github.com/nextcloud/server/issues/58821) 💬 2 | [nextcloud/server](https://github.com/nextcloud/server) | 36.8k | 🟢 beginner | 2026-09-14 | 🤖 disclose AI use · 🔏 DCO |
-| [Missing translations for Burmese (my)](https://github.com/symfony/symfony/issues/51897) 💬 2 | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-09-13 |  |
-| [[Translation] What about putting translations in a cache pool?](https://github.com/symfony/symfony/issues/52305) 💬 12 | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟡 help wanted | 2026-09-11 |  |
-| [Check for unused routing requirements](https://github.com/symfony/symfony/issues/50461) 💬 3 | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟡 help wanted | 2026-09-11 |  |
-| [[HttpClient] allow upload in form to be transfer-encoded with base64](https://github.com/symfony/symfony/issues/49315) 💬 6 | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟡 help wanted | 2026-09-11 |  |
-| [[Messenger] Sanitize message when the receiver is another app](https://github.com/symfony/symfony/issues/49081) 💬 6 | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟡 help wanted | 2026-09-11 |  |
+| [Missing translations for Burmese (my)](https://github.com/symfony/symfony/issues/51897) 💬 2 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-14 |  |
+| [Allow retrieval of current RateLimit without actually consuming](https://github.com/symfony/symfony/issues/60551) 💬 5 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟡 help wanted | 2026-09-14 |  |
+| [[Translation] What about putting translations in a cache pool?](https://github.com/symfony/symfony/issues/52305) 💬 13 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟡 help wanted | 2026-09-14 |  |
+| ['CHECK_MODE_COERCE_TYPES' flag does not coerce quoted ints to corresponding boolean](https://github.com/jsonrainbow/json-schema/issues/955) 💬 1 | [jsonrainbow/json-schema](https://github.com/jsonrainbow/json-schema) | 3.6k | 🟢 beginner | 2026-09-14 |  |
+| [Check for unused routing requirements](https://github.com/symfony/symfony/issues/50461) 💬 3 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟡 help wanted | 2026-09-11 |  |
+| [[HttpClient] allow upload in form to be transfer-encoded with base64](https://github.com/symfony/symfony/issues/49315) 💬 6 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟡 help wanted | 2026-09-11 |  |
+| [[Messenger] Sanitize message when the receiver is another app](https://github.com/symfony/symfony/issues/49081) 💬 6 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟡 help wanted | 2026-09-11 |  |
 | [Write or document a replacement for parseAddresses](https://github.com/PHPMailer/PHPMailer/issues/3359) | [PHPMailer/PHPMailer](https://github.com/PHPMailer/PHPMailer) | 22.3k | 🟢 beginner | 2026-09-10 |  |
 | [InitialTestSuite/SA should only run when mutations found](https://github.com/infection/infection/issues/2555) 💬 3 | [infection/infection](https://github.com/infection/infection) | 2.2k | 🟡 help wanted | 2026-09-10 |  |
 | [[LiveComponent] addCollectionItem don't work when using DTO as source](https://github.com/symfony/ux/issues/1384) 💬 5 | [symfony/ux](https://github.com/symfony/ux) | 1.1k | 🟡 help wanted | 2026-09-10 |  |
-| [Missing translations for Finnish (fi)](https://github.com/symfony/symfony/issues/64494) 💬 3 | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-09-09 |  |
+| [Missing translations for Finnish (fi)](https://github.com/symfony/symfony/issues/64494) 💬 3 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-09 |  |
 | [Add signature rejection policy configuration UI](https://github.com/LibreSign/libresign/issues/8160) | [LibreSign/libresign](https://github.com/LibreSign/libresign) | 811 | 🟢 beginner | 2026-09-09 | 🤖 disclose AI use · 🔏 DCO |
 | [[Bug] Simplepie destroys headers with a JSON value](https://github.com/FreshRSS/FreshRSS/issues/8636) 💬 1 | [FreshRSS/FreshRSS](https://github.com/FreshRSS/FreshRSS) | 16k | 🟡 help wanted | 2026-09-08 |  |
 | [[Feature]Subscribe FreshRSS's logs itself as rss](https://github.com/FreshRSS/FreshRSS/issues/6839) 💬 3 | [FreshRSS/FreshRSS](https://github.com/FreshRSS/FreshRSS) | 16k | 🟡 help wanted | 2026-09-08 |  |
@@ -31,7 +33,7 @@
 | [Private comment not available on REST api (webservice)](https://github.com/PrestaShop/PrestaShop/issues/30731) 💬 6 | [PrestaShop/PrestaShop](https://github.com/PrestaShop/PrestaShop) | 9.2k | 🟡 help wanted | 2026-09-07 |  |
 | [List LibreSign in beginner-friendly open source directories](https://github.com/LibreSign/libresign/issues/8284) 💬 5 | [LibreSign/libresign](https://github.com/LibreSign/libresign) | 811 | 🟢 beginner | 2026-09-07 | 🤖 disclose AI use · 🔏 DCO |
 | [Active and Canceled both return true](https://github.com/laravel/cashier-stripe/issues/1791) 💬 5 | [laravel/cashier-stripe](https://github.com/laravel/cashier-stripe) | 2.5k | 🟡 help wanted | 2026-09-06 |  |
-| [Missing translations for Danish (da)](https://github.com/symfony/symfony/issues/65554) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-09-05 |  |
+| [Missing translations for Danish (da)](https://github.com/symfony/symfony/issues/65554) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-05 |  |
 | [Stack push not always working](https://github.com/laravel/framework/issues/60221) 💬 7 | [laravel/framework](https://github.com/laravel/framework) | 34.9k | 🟡 help wanted | 2026-09-01 |  |
 | [Subscription::currentPeriodStart / currentPeriodEnd causes lazy load error when preventLazyLoad is active](https://github.com/laravel/cashier-stripe/issues/1844) 💬 2 | [laravel/cashier-stripe](https://github.com/laravel/cashier-stripe) | 2.5k | 🟡 help wanted | 2026-09-01 |  |
 | [Add option to exclude certain HTTP statuses from tracing in SDK](https://github.com/getsentry/sentry-php/issues/1913) 💬 1 | [getsentry/sentry-php](https://github.com/getsentry/sentry-php) | 1.9k | 🟢 beginner | 2026-09-01 |  |
@@ -42,30 +44,29 @@
 | [[feature] Allow per-class mutant coverage thresholds](https://github.com/infection/infection/issues/2290) 💬 11 | [infection/infection](https://github.com/infection/infection) | 2.2k | 🟡 help wanted | 2026-08-30 |  |
 | [Alternative Badge SVG File as report for use in Gitlab and private Repositories](https://github.com/infection/infection/issues/1915) 💬 9 | [infection/infection](https://github.com/infection/infection) | 2.2k | 🟡 help wanted | 2026-08-30 |  |
 | [Multiple authors not treated properly](https://github.com/nextcloud/news/issues/3898) | [nextcloud/news](https://github.com/nextcloud/news) | 1k | 🟡 help wanted | 2026-08-29 | 🔏 DCO |
-| [Missing translations for Vietnamese (vi)](https://github.com/symfony/symfony/issues/53309) 💬 4 | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-08-27 |  |
+| [Missing translations for Vietnamese (vi)](https://github.com/symfony/symfony/issues/53309) 💬 4 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-08-27 |  |
 | [Incorrect subscription type due to race condition](https://github.com/laravel/cashier-stripe/issues/1773) 💬 2 | [laravel/cashier-stripe](https://github.com/laravel/cashier-stripe) | 2.5k | 🟡 help wanted | 2026-08-27 |  |
 | [Old thread attachments are re-imported on each new reply](https://github.com/freescout-help-desk/freescout/issues/5311) 💬 9 | [freescout-help-desk/freescout](https://github.com/freescout-help-desk/freescout) | 4.5k | 🟡 help wanted | 2026-08-25 |  |
 | [Support TV shows](https://github.com/leepeuker/movary/issues/186) 💬 24 | [leepeuker/movary](https://github.com/leepeuker/movary) | 776 | 🟡 help wanted | 2026-08-24 |  |
-| [Missing translations for Welsh (cy)](https://github.com/symfony/symfony/issues/51903) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-08-21 |  |
-| [Missing translations for Uzbek (uz)](https://github.com/symfony/symfony/issues/65569) | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-08-21 |  |
-| [Missing translations for Ukrainian (uk)](https://github.com/symfony/symfony/issues/65567) | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-08-21 |  |
-| [Missing translations for Thai (th)](https://github.com/symfony/symfony/issues/53048) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-08-21 |  |
-| [Missing translations for Tagalog (tl)](https://github.com/symfony/symfony/issues/65565) | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-08-21 |  |
-| [Missing translations for Swedish (sv)](https://github.com/symfony/symfony/issues/64518) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-08-21 |  |
-| [Missing translations for Slovenian (sl)](https://github.com/symfony/symfony/issues/64516) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-08-21 |  |
-| [Missing translations for Slovak (sk)](https://github.com/symfony/symfony/issues/65563) | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-08-21 |  |
-| [Missing translations for Portuguese (pt)](https://github.com/symfony/symfony/issues/64510) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-08-21 |  |
-| [Missing translations for Norwegian Bokmål (nb)](https://github.com/symfony/symfony/issues/64507) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-08-21 |  |
-| [Missing translations for Norwegian Nynorsk (nn)](https://github.com/symfony/symfony/issues/45130) 💬 6 | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-08-21 |  |
-| [Missing translations for Norwegian (no)](https://github.com/symfony/symfony/issues/64506) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-08-21 |  |
-| [Missing translations for Mongolian (mn)](https://github.com/symfony/symfony/issues/45127) 💬 5 | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-08-21 |  |
-| [Missing translations for Luxembourgish (lb)](https://github.com/symfony/symfony/issues/64505) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-08-21 |  |
-| [Missing translations for Lithuanian (lt)](https://github.com/symfony/symfony/issues/65558) | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-08-21 |  |
-| [Missing translations for Latvian (lv)](https://github.com/symfony/symfony/issues/64503) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-08-21 |  |
-| [Missing translations for Japanese (ja)](https://github.com/symfony/symfony/issues/64502) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-08-21 |  |
-| [Missing translations for Hebrew (he)](https://github.com/symfony/symfony/issues/64499) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-08-21 |  |
-| [Missing translations for Greek (el)](https://github.com/symfony/symfony/issues/64498) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-08-21 |  |
-| [Missing translations for Galician (gl)](https://github.com/symfony/symfony/issues/64496) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-08-21 |  |
+| [Missing translations for Welsh (cy)](https://github.com/symfony/symfony/issues/51903) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-08-21 |  |
+| [Missing translations for Uzbek (uz)](https://github.com/symfony/symfony/issues/65569) | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-08-21 |  |
+| [Missing translations for Ukrainian (uk)](https://github.com/symfony/symfony/issues/65567) | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-08-21 |  |
+| [Missing translations for Thai (th)](https://github.com/symfony/symfony/issues/53048) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-08-21 |  |
+| [Missing translations for Tagalog (tl)](https://github.com/symfony/symfony/issues/65565) | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-08-21 |  |
+| [Missing translations for Swedish (sv)](https://github.com/symfony/symfony/issues/64518) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-08-21 |  |
+| [Missing translations for Slovenian (sl)](https://github.com/symfony/symfony/issues/64516) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-08-21 |  |
+| [Missing translations for Slovak (sk)](https://github.com/symfony/symfony/issues/65563) | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-08-21 |  |
+| [Missing translations for Portuguese (pt)](https://github.com/symfony/symfony/issues/64510) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-08-21 |  |
+| [Missing translations for Norwegian Bokmål (nb)](https://github.com/symfony/symfony/issues/64507) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-08-21 |  |
+| [Missing translations for Norwegian Nynorsk (nn)](https://github.com/symfony/symfony/issues/45130) 💬 6 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-08-21 |  |
+| [Missing translations for Norwegian (no)](https://github.com/symfony/symfony/issues/64506) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-08-21 |  |
+| [Missing translations for Mongolian (mn)](https://github.com/symfony/symfony/issues/45127) 💬 5 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-08-21 |  |
+| [Missing translations for Luxembourgish (lb)](https://github.com/symfony/symfony/issues/64505) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-08-21 |  |
+| [Missing translations for Lithuanian (lt)](https://github.com/symfony/symfony/issues/65558) | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-08-21 |  |
+| [Missing translations for Latvian (lv)](https://github.com/symfony/symfony/issues/64503) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-08-21 |  |
+| [Missing translations for Japanese (ja)](https://github.com/symfony/symfony/issues/64502) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-08-21 |  |
+| [Missing translations for Hebrew (he)](https://github.com/symfony/symfony/issues/64499) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-08-21 |  |
+| [Missing translations for Greek (el)](https://github.com/symfony/symfony/issues/64498) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-08-21 |  |
 | [Feature-Request: Pop-Out SQL Window](https://github.com/phpmyadmin/phpmyadmin/issues/11983) 💬 24 | [phpmyadmin/phpmyadmin](https://github.com/phpmyadmin/phpmyadmin) | 7.9k | 🟡 help wanted | 2026-08-18 | 🔏 DCO |
 | [Is it possible to adjust the time in a user notification?](https://github.com/freescout-help-desk/freescout/issues/5570) | [freescout-help-desk/freescout](https://github.com/freescout-help-desk/freescout) | 4.5k | 🟡 help wanted | 2026-08-15 |  |
 | [Enhance Blueprint Stubs with PHPDoc to Eliminate PHPStan Warnings](https://github.com/laravel-shift/blueprint/issues/738) 💬 4 | [laravel-shift/blueprint](https://github.com/laravel-shift/blueprint) | 3.1k | 🟢 beginner | 2026-08-15 |  |
@@ -82,7 +83,6 @@
 | [🚀 \| Version Upgrades](https://github.com/MiczFlor/RPi-Jukebox-RFID/issues/2304) 💬 2 | [MiczFlor/RPi-Jukebox-RFID](https://github.com/MiczFlor/RPi-Jukebox-RFID) | 1.8k | 🟡 help wanted | 2026-08-03 |  |
 | [Feature Request: Add a user pref to control opening messages in new windows](https://github.com/freescout-help-desk/freescout/issues/5086) 💬 5 | [freescout-help-desk/freescout](https://github.com/freescout-help-desk/freescout) | 4.5k | 🟡 help wanted | 2026-08-02 |  |
 | [Duplicate ids on same page](https://github.com/phpmyadmin/phpmyadmin/issues/19108) 💬 5 | [phpmyadmin/phpmyadmin](https://github.com/phpmyadmin/phpmyadmin) | 7.9k | 🟢 beginner | 2026-08-01 | 🔏 DCO |
-| [Make Grading Rubric header and action buttons sticky while scrolling](https://github.com/Submitty/Submitty/issues/13105) 💬 2 | [Submitty/Submitty](https://github.com/Submitty/Submitty) | 791 | 🟢 beginner | 2026-08-01 |  |
 | [Plain URLs typed/pasted in editor are not auto-linked in outgoing emails](https://github.com/freescout-help-desk/freescout/issues/5280) 💬 2 | [freescout-help-desk/freescout](https://github.com/freescout-help-desk/freescout) | 4.5k | 🟡 help wanted | 2026-07-24 |  |
 | [Bad usability of "file is locked" message in upload](https://github.com/nextcloud/server/issues/20223) 💬 4 | [nextcloud/server](https://github.com/nextcloud/server) | 36.8k | 🟢 beginner | 2026-07-23 | 🤖 disclose AI use · 🔏 DCO |
 | [Problem "CODE" formatting](https://github.com/freescout-help-desk/freescout/issues/5167) 💬 2 | [freescout-help-desk/freescout](https://github.com/freescout-help-desk/freescout) | 4.5k | 🟡 help wanted | 2026-07-23 |  |
@@ -124,7 +124,7 @@
 | [Cant save panel label in Module Builder](https://github.com/SuiteCRM/SuiteCRM/issues/9605) 💬 1 | [SuiteCRM/SuiteCRM](https://github.com/SuiteCRM/SuiteCRM) | 5.7k | 🟡 help wanted | 2026-06-09 |  |
 | [Org admin can't delete local tags](https://github.com/MISP/MISP/issues/6513) 💬 1 | [MISP/MISP](https://github.com/MISP/MISP) | 6.5k | 🟡 help wanted | 2026-06-08 | ✍️ CLA |
 | [Add warning on the web interface stating the discussions aren't shared.](https://github.com/MISP/MISP/issues/3181) 💬 3 | [MISP/MISP](https://github.com/MISP/MISP) | 6.5k | 🟢 beginner | 2026-06-07 | ✍️ CLA |
-| [Auto-create Required Pages on Plugin Activation](https://github.com/fossasia/WPFAevent/issues/91) | [fossasia/WPFAevent](https://github.com/fossasia/WPFAevent) | 813 | 🟢 beginner | 2026-06-06 |  |
+| [Auto-create Required Pages on Plugin Activation](https://github.com/fossasia/WPFAevent/issues/91) | [fossasia/WPFAevent](https://github.com/fossasia/WPFAevent) | 814 | 🟢 beginner | 2026-06-06 |  |
 | [Publish icon is upside down](https://github.com/MISP/MISP/issues/1179) 💬 3 | [MISP/MISP](https://github.com/MISP/MISP) | 6.5k | 🟢 beginner | 2026-06-05 | ✍️ CLA |
 | [Add support for OpenVPN private key password in .ovpn configurations](https://github.com/RaspAP/raspap-webgui/issues/2109) 💬 1 | [RaspAP/raspap-webgui](https://github.com/RaspAP/raspap-webgui) | 5.2k | 🟢 beginner | 2026-06-05 |  |
 | [[FR] RTL BiDi Support](https://github.com/PrivateBin/PrivateBin/issues/1849) 💬 1 | [PrivateBin/PrivateBin](https://github.com/PrivateBin/PrivateBin) | 8.6k | 🟡 help wanted | 2026-06-04 | 🤖 disclose AI use |
@@ -152,11 +152,11 @@
 | [Ability to set default_phone_region to none / E.164 only](https://github.com/nextcloud/server/issues/49460) 💬 6 | [nextcloud/server](https://github.com/nextcloud/server) | 36.8k | 🟢 beginner | 2026-04-29 | 🤖 disclose AI use · 🔏 DCO |
 | [[Meilisearch v1.37] Backport Network API changes to 'v1.x' branch](https://github.com/meilisearch/meilisearch-php/issues/851) 💬 1 | [meilisearch/meilisearch-php](https://github.com/meilisearch/meilisearch-php) | 757 | 🟢 beginner | 2026-04-28 | 🤖 disclose AI use |
 | [Move API component 'ComponentProvider's into API packages](https://github.com/open-telemetry/opentelemetry-php/issues/1638) 💬 2 | [open-telemetry/opentelemetry-php](https://github.com/open-telemetry/opentelemetry-php) | 912 | 🟡 help wanted | 2026-04-22 |  |
-| [Change the sentence's text color when "License:" is set to "Licensing issue".](https://github.com/Tatoeba/tatoeba2/issues/2996) 💬 4 | [Tatoeba/tatoeba2](https://github.com/Tatoeba/tatoeba2) | 883 | 🟢 beginner | 2026-04-22 |  |
+| [Change the sentence's text color when "License:" is set to "Licensing issue".](https://github.com/Tatoeba/tatoeba2/issues/2996) 💬 4 | [Tatoeba/tatoeba2](https://github.com/Tatoeba/tatoeba2) | 882 | 🟢 beginner | 2026-04-22 |  |
 | [[FR] Auto-subscribe to folders](https://github.com/cypht-org/cypht/issues/460) 💬 1 | [cypht-org/cypht](https://github.com/cypht-org/cypht) | 1.7k | 🟡 help wanted | 2026-04-16 |  |
 | [3.0.0-RC: @package partially not inherited for "classless functions/constants"](https://github.com/phpDocumentor/phpDocumentor/issues/2318) 💬 4 | [phpDocumentor/phpDocumentor](https://github.com/phpDocumentor/phpDocumentor) | 4.3k | 🟡 help wanted | 2026-04-15 |  |
 | [Page Overlay specific date ranges](https://github.com/matomo-org/matomo/issues/20230) 💬 4 | [matomo-org/matomo](https://github.com/matomo-org/matomo) | 21.9k | 🟡 help wanted | 2026-04-14 |  |
-| [Increase icons set](https://github.com/chamilo/chamilo-lms/issues/5776) | [chamilo/chamilo-lms](https://github.com/chamilo/chamilo-lms) | 998 | 🟡 help wanted | 2026-04-13 |  |
+| [Increase icons set](https://github.com/chamilo/chamilo-lms/issues/5776) | [chamilo/chamilo-lms](https://github.com/chamilo/chamilo-lms) | 1k | 🟡 help wanted | 2026-04-13 |  |
 | [Add support property "border-radius" for IMG tag](https://github.com/mpdf/mpdf/issues/428) 💬 8 | [mpdf/mpdf](https://github.com/mpdf/mpdf) | 4.7k | 🟡 help wanted | 2026-04-12 |  |
 | [Broken links at search at main page.](https://github.com/phpDocumentor/phpDocumentor/issues/3500) 💬 5 | [phpDocumentor/phpDocumentor](https://github.com/phpDocumentor/phpDocumentor) | 4.3k | 🟡 help wanted | 2026-04-12 |  |
 | [Embedded links in PDF output do not work when page numbering is enabled](https://github.com/invoiceninja/invoiceninja/issues/7543) 💬 4 | [invoiceninja/invoiceninja](https://github.com/invoiceninja/invoiceninja) | 10.1k | 🟡 help wanted | 2026-04-10 | ✍️ CLA |

@@ -1,8 +1,8 @@
 # C# issues
 
-**250** open issues (80 labeled for beginners) across **81** active C# projects.
+**250** open issues (80 labeled for beginners) across **80** active C# projects.
 
-> Updated automatically on **2026-09-14 11:33 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-14 21:47 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,9 +10,10 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [Console.In.Peek() always returning EOF after the first read line on Windows](https://github.com/dotnet/runtime/issues/40735) 💬 5 | [dotnet/runtime](https://github.com/dotnet/runtime) | 18.3k | 🟡 help wanted | 2026-09-14 | ✍️ CLA |
+| [Add CanSelect property to MudTreeViewItem](https://github.com/MudBlazor/MudBlazor/issues/11195) 💬 1 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-09-14 |  |
+| [Media file three-dot menu items don't show the hand cursor](https://github.com/OrchardCMS/OrchardCore/issues/19875) 💬 2 | [OrchardCMS/OrchardCore](https://github.com/OrchardCMS/OrchardCore) | 8.2k | 🟢 beginner | 2026-09-14 |  |
 | [Numeric Field does not support Percent format](https://github.com/MudBlazor/MudBlazor/issues/11241) 💬 7 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-09-13 |  |
-| [Add CanSelect property to MudTreeViewItem](https://github.com/MudBlazor/MudBlazor/issues/11195) | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-09-13 |  |
-| [Media file three-dot menu items don't show the hand cursor](https://github.com/OrchardCMS/OrchardCore/issues/19875) | [OrchardCMS/OrchardCore](https://github.com/OrchardCMS/OrchardCore) | 8.2k | 🟢 beginner | 2026-09-13 |  |
 | [dotnet build /v:q is not as quiet as msbuild /v:q](https://github.com/dotnet/sdk/issues/10032) 💬 20 | [dotnet/sdk](https://github.com/dotnet/sdk) | 3.2k | 🟢 beginner | 2026-09-13 |  |
 | [ManagementEventWatcher.Start throws an exception when a power plan doesn't have a name](https://github.com/dotnet/runtime/issues/125296) 💬 2 | [dotnet/runtime](https://github.com/dotnet/runtime) | 18.3k | 🟡 help wanted | 2026-09-12 | ✍️ CLA |
 | [The Hebrew translation is a complete mess.](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/issues/1219) 💬 3 | [AutoDarkMode/Windows-Auto-Night-Mode](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode) | 9.7k | 🟡 help wanted | 2026-09-12 |  |
@@ -54,7 +55,6 @@
 | [Possibly too aggressive cleaning](https://github.com/builtbybel/FluentCleaner/issues/51) 💬 11 | [builtbybel/FluentCleaner](https://github.com/builtbybel/FluentCleaner) | 6k | 🟡 help wanted | 2026-09-01 |  |
 | [[Feature]: Cuda 13 support](https://github.com/SciSharp/LLamaSharp/issues/1360) 💬 6 | [SciSharp/LLamaSharp](https://github.com/SciSharp/LLamaSharp) | 3.8k | 🟢 beginner | 2026-09-01 |  |
 | [No presentation mode when reading PDF on ipad](https://github.com/Kareadita/Kavita/issues/3289) 💬 4 | [Kareadita/Kavita](https://github.com/Kareadita/Kavita) | 11.7k | 🟡 help wanted | 2026-08-31 |  |
-| [Windows 11：隐藏图标区的托盘 Tooltip 偶发残留不消失](https://github.com/BililiveRecorder/BililiveRecorder/issues/802) | [BililiveRecorder/BililiveRecorder](https://github.com/BililiveRecorder/BililiveRecorder) | 4.8k | 🟡 help wanted | 2026-08-31 |  |
 | [JXL color management incorrectly applied](https://github.com/Ruben2776/PicView/issues/331) 💬 2 | [Ruben2776/PicView](https://github.com/Ruben2776/PicView) | 3.6k | 🟡 help wanted | 2026-08-31 |  |
 | [Don't copy additional files when ReferenceOutputAssembly=false for exe references](https://github.com/dotnet/sdk/issues/23420) 💬 4 | [dotnet/sdk](https://github.com/dotnet/sdk) | 3.2k | 🟢 beginner | 2026-08-31 |  |
 | [Bug: Files crashing/freezing when accessing WSL folders that use git (Details View)](https://github.com/files-community/Files/issues/14164) 💬 21 | [files-community/Files](https://github.com/files-community/Files) | 45.4k | 🟡 help wanted | 2026-08-30 |  |

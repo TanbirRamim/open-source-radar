@@ -1,8 +1,8 @@
 # Go issues
 
-**366** open issues (86 labeled for beginners) across **89** active Go projects.
+**363** open issues (83 labeled for beginners) across **87** active Go projects.
 
-> Updated automatically on **2026-09-14 11:33 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-14 21:47 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,10 +10,12 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [x/sys/windows: generated wrappers read undefined upper bits of 32-bit syscall return values](https://github.com/golang/go/issues/81249) 💬 7 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-14 |  |
+| [x/sys/windows: generated wrappers read undefined upper bits of 32-bit syscall return values](https://github.com/golang/go/issues/81249) 💬 8 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-14 |  |
+| [The 'options' arg of 'Temporal.ZonedDateTime.prototype.toLocaleString()' currently accepts "illegal" option 't](https://github.com/microsoft/TypeScript/issues/64227) | [microsoft/TypeScript](https://github.com/microsoft/TypeScript) | 111k | 🟡 help wanted | 2026-09-14 | 🤖 disclose AI use · ✍️ CLA |
 | [Add Feature to Set Retention Time per Metric](https://github.com/prometheus/prometheus/issues/15350) 💬 3 | [prometheus/prometheus](https://github.com/prometheus/prometheus) | 66.1k | 🟡 help wanted | 2026-09-14 | 🔏 DCO |
 | [failed to download vulnerability DB](https://github.com/goharbor/harbor/issues/23521) 💬 8 | [goharbor/harbor](https://github.com/goharbor/harbor) | 29.4k | 🟡 help wanted | 2026-09-14 | 🔏 DCO |
-| [fix(cli): provider-directory entries flood the preview and break Will review alignment](https://github.com/alibaba/open-code-review/issues/1236) 💬 1 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 24.2k | 🟢 beginner | 2026-09-14 | 🤖 disclose AI use · ✍️ CLA |
+| [Wanted: Who is using Open Code Review? Please leave a comment!](https://github.com/alibaba/open-code-review/issues/1020) 💬 7 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 25.5k | 🟡 help wanted | 2026-09-14 | 🤖 disclose AI use · ✍️ CLA |
+| [[Feature]: Visualize uninstrumented services in the dependency diagrams](https://github.com/jaegertracing/jaeger/issues/3804) 💬 9 | [jaegertracing/jaeger](https://github.com/jaegertracing/jaeger) | 23.2k | 🟡 help wanted | 2026-09-14 | 📄 AI policy · 🔏 DCO |
 | [cmd/link: test timeouts](https://github.com/golang/go/issues/64535) 💬 16 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-13 |  |
 | [Regression: Generic function returning union of tuples is not assignable to identical type since v4.2](https://github.com/microsoft/TypeScript/issues/63019) 💬 5 | [microsoft/TypeScript](https://github.com/microsoft/TypeScript) | 111k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use · ✍️ CLA |
 | [Application migration across clusters](https://github.com/argoproj/argo-cd/issues/1640) 💬 16 | [argoproj/argo-cd](https://github.com/argoproj/argo-cd) | 24.2k | 🟡 help wanted | 2026-09-13 | 🔏 DCO |
@@ -46,7 +48,6 @@
 | [cmd/cgo/internal/testcarchive: 'TestSignalForwardingGo' failures with SIGABRT instead of the expected SIGSEGV](https://github.com/golang/go/issues/64656) 💬 9 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-10 |  |
 | [cmd/cgo/internal/testtls: 'signal arrived during external code execution' on Windows with clang 14.0.6](https://github.com/golang/go/issues/64400) 💬 4 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-10 |  |
 | [misc/cgo/test: failures with SIGBUS on loong64](https://github.com/golang/go/issues/62252) 💬 2 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-10 |  |
-| [cmd/go: -compiler=gccgo: -buildmode=c-archive can't produce an archive with statically linked libgo](https://github.com/golang/go/issues/61549) 💬 1 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-10 |  |
 | [[feature request] HA Deployments in ipv6 only clusters](https://github.com/argoproj/argo-cd/issues/20084) 💬 2 | [argoproj/argo-cd](https://github.com/argoproj/argo-cd) | 24.2k | 🟡 help wanted | 2026-09-10 | 🔏 DCO |
 | [Bad parsing behaviour for generic arrow type arguments in class heritage / JSX open element](https://github.com/microsoft/TypeScript/issues/47410) 💬 1 | [microsoft/TypeScript](https://github.com/microsoft/TypeScript) | 111k | 🟡 help wanted | 2026-09-09 | 🤖 disclose AI use · ✍️ CLA |
 | [Document the Iterator, Iterable, IterableIterator types](https://github.com/microsoft/TypeScript/issues/49526) 💬 1 | [microsoft/TypeScript](https://github.com/microsoft/TypeScript) | 111k | 🟡 help wanted | 2026-09-09 | 🤖 disclose AI use · ✍️ CLA |
@@ -54,7 +55,7 @@
 | [Add RPM/Red Hat ecosystem support](https://github.com/google/osv-scanner/issues/254) 💬 2 | [google/osv-scanner](https://github.com/google/osv-scanner) | 11k | 🟢 beginner | 2026-09-09 | 📄 AI policy · ✍️ CLA |
 | [MQTT - based scaler](https://github.com/kedacore/keda/issues/1282) 💬 22 | [kedacore/keda](https://github.com/kedacore/keda) | 10.5k | 🟡 help wanted | 2026-09-09 | 🔏 DCO |
 | [Enhance Security and Self-Service by Allowing Service Account Specification in Target Namespace for Workload I](https://github.com/kedacore/keda/issues/5630) 💬 20 | [kedacore/keda](https://github.com/kedacore/keda) | 10.5k | 🟡 help wanted | 2026-09-09 | 🔏 DCO |
-| [Implement '--max-files' flag to limit the number of files transferred](https://github.com/rclone/rclone/issues/4118) 💬 8 | [rclone/rclone](https://github.com/rclone/rclone) | 59.7k | 🟡 help wanted | 2026-09-08 |  |
+| [Implement '--max-files' flag to limit the number of files transferred](https://github.com/rclone/rclone/issues/4118) 💬 8 | [rclone/rclone](https://github.com/rclone/rclone) | 59.8k | 🟡 help wanted | 2026-09-08 |  |
 | ["don't require a load balancer between cluster and control plane and still be HA"](https://github.com/kubernetes/kubernetes/issues/18174) 💬 183 | [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) | 127.7k | 🟡 help wanted | 2026-09-07 | 🤖 disclose AI use · ✍️ CLA |
 | [Old binaries are not available](https://github.com/goharbor/harbor/issues/22168) 💬 15 | [goharbor/harbor](https://github.com/goharbor/harbor) | 29.4k | 🟡 help wanted | 2026-09-07 | 🔏 DCO |
 | [Feature request: Add Avro serialization for Kafka keys and values](https://github.com/influxdata/telegraf/issues/19449) 💬 2 | [influxdata/telegraf](https://github.com/influxdata/telegraf) | 17.8k | 🟡 help wanted | 2026-09-07 | ⚠️ AI restricted · ✍️ CLA |
@@ -62,7 +63,6 @@
 | [investigate switch to NRI for product mounts](https://github.com/kubernetes-sigs/kind/issues/3938) 💬 10 | [kubernetes-sigs/kind](https://github.com/kubernetes-sigs/kind) | 15.5k | 🟡 help wanted | 2026-09-07 |  |
 | [e2e: add testcases for the de-graphql wasmplugin](https://github.com/higress-group/higress/issues/374) 💬 1 | [higress-group/higress](https://github.com/higress-group/higress) | 9.4k | 🟡 help wanted | 2026-09-07 | 🤖 disclose AI use |
 | [Emoji causes quote to be stuck on screen when scrolling](https://github.com/micro-editor/micro/issues/3792) 💬 12 | [micro-editor/micro](https://github.com/micro-editor/micro) | 29.6k | 🟡 help wanted | 2026-09-04 |  |
-| [Wanted: Who is using Open Code Review? Please leave a comment!](https://github.com/alibaba/open-code-review/issues/1020) 💬 6 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 24.2k | 🟡 help wanted | 2026-09-04 | 🤖 disclose AI use · ✍️ CLA |
 | [Crazy plugin idea](https://github.com/99designs/gqlgen/issues/3906) 💬 4 | [99designs/gqlgen](https://github.com/99designs/gqlgen) | 10.8k | 🟡 help wanted | 2026-09-04 |  |
 | [Optimize Pod informer memory efficiency used in admission plugins](https://github.com/kubernetes/kubernetes/issues/125469) 💬 20 | [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) | 127.7k | 🟡 help wanted | 2026-09-03 | 🤖 disclose AI use · ✍️ CLA |
 | [Minikube start fails for nvidia gpus in compute only/ headless mode](https://github.com/kubernetes/minikube/issues/20934) 💬 3 | [kubernetes/minikube](https://github.com/kubernetes/minikube) | 32.1k | 🟡 help wanted | 2026-09-03 |  |
@@ -111,7 +111,6 @@
 | [[Support]: Cookie Refresh Behaviour](https://github.com/oauth2-proxy/oauth2-proxy/issues/3525) 💬 1 | [oauth2-proxy/oauth2-proxy](https://github.com/oauth2-proxy/oauth2-proxy) | 15k | 🟡 help wanted | 2026-08-28 | 🤖 disclose AI use · 🔏 DCO |
 | [globbing/wildcards in "resources" field](https://github.com/kubernetes-sigs/kustomize/issues/119) 💬 60 | [kubernetes-sigs/kustomize](https://github.com/kubernetes-sigs/kustomize) | 12.2k | 🟡 help wanted | 2026-08-27 | ✍️ CLA |
 | [examples: add examples with other client frameworks](https://github.com/dexidp/dex/issues/320) 💬 11 | [dexidp/dex](https://github.com/dexidp/dex) | 11.1k | 🟡 help wanted | 2026-08-27 | 🔏 DCO |
-| [Kubeseal as a krew-plugin](https://github.com/bitnami/sealed-secrets/issues/1791) 💬 1 | [bitnami/sealed-secrets](https://github.com/bitnami/sealed-secrets) | 9.3k | 🟡 help wanted | 2026-08-27 | 🔏 DCO |
 | [Cannot scrape targets specified by mDNS name](https://github.com/prometheus/prometheus/issues/2537) 💬 28 | [prometheus/prometheus](https://github.com/prometheus/prometheus) | 66.1k | 🟡 help wanted | 2026-08-25 | 🔏 DCO |
 | [Binaries for management and signal (apt/yum)](https://github.com/netbirdio/netbird/issues/532) 💬 3 | [netbirdio/netbird](https://github.com/netbirdio/netbird) | 29.2k | 🟢 beginner | 2026-08-24 | ✍️ CLA |
 | [Feature Request: remotely (management) initiated debugging/control of clients](https://github.com/netbirdio/netbird/issues/3136) 💬 11 | [netbirdio/netbird](https://github.com/netbirdio/netbird) | 29.2k | 🟢 beginner | 2026-08-24 | ✍️ CLA |
@@ -204,11 +203,12 @@
 | [PromQL: Need richer label matcher logic (or apply matchers to expressions?)](https://github.com/prometheus/prometheus/issues/14824) 💬 8 | [prometheus/prometheus](https://github.com/prometheus/prometheus) | 66.1k | 🟢 beginner | 2026-07-27 | 🔏 DCO |
 | [TestLoad* failures: unexpected path expansion](https://github.com/ent/ent/issues/3013) 💬 6 | [ent/ent](https://github.com/ent/ent) | 17.2k | 🟢 beginner | 2026-07-23 | ✍️ CLA |
 | [draw.io (diagrams.net) files format (mxGraph) export / import](https://github.com/d2lang/d2/issues/743) 💬 3 | [d2lang/d2](https://github.com/d2lang/d2) | 25.4k | 🟢 beginner | 2026-07-22 |  |
-| [Implement podcast subsonic api](https://github.com/navidrome/navidrome/issues/793) 💬 36 | [navidrome/navidrome](https://github.com/navidrome/navidrome) | 23.5k | 🟡 help wanted | 2026-07-21 | 🔏 DCO |
+| [Implement podcast subsonic api](https://github.com/navidrome/navidrome/issues/793) 💬 36 | [navidrome/navidrome](https://github.com/navidrome/navidrome) | 23.6k | 🟡 help wanted | 2026-07-21 | 🔏 DCO |
 | [[Feature] Support input TAR "streams"](https://github.com/kopia/kopia/issues/708) 💬 2 | [kopia/kopia](https://github.com/kopia/kopia) | 14.1k | 🟢 beginner | 2026-07-19 |  |
 | [New website todo list](https://github.com/owncast/owncast/issues/4720) 💬 8 | [owncast/owncast](https://github.com/owncast/owncast) | 11.5k | 🟡 help wanted | 2026-07-19 |  |
 | [Support for metdata for both sources and tools in tools.yaml and description for sources](https://github.com/googleapis/mcp-toolbox/issues/1896) 💬 30 | [googleapis/mcp-toolbox](https://github.com/googleapis/mcp-toolbox) | 16.4k | 🟡 help wanted | 2026-07-16 | ✍️ CLA |
 | [Code gen: generate constants for validation parameters](https://github.com/go-swagger/go-swagger/issues/717) 💬 1 | [go-swagger/go-swagger](https://github.com/go-swagger/go-swagger) | 10k | 🟡 help wanted | 2026-07-15 | 🔏 DCO |
 | [Animated connections don't honor prefers-reduced-motion](https://github.com/d2lang/d2/issues/1979) 💬 1 | [d2lang/d2](https://github.com/d2lang/d2) | 25.4k | 🟢 beginner | 2026-07-14 |  |
+| [[inputs.whois] Support RDAP lookup](https://github.com/influxdata/telegraf/issues/17243) 💬 3 | [influxdata/telegraf](https://github.com/influxdata/telegraf) | 17.8k | 🟡 help wanted | 2026-07-13 | ⚠️ AI restricted · ✍️ CLA |
 
-Showing the 200 most recently updated. See all 366 on the website.
+Showing the 200 most recently updated. See all 363 on the website.

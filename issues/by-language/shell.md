@@ -1,8 +1,8 @@
 # Shell issues
 
-**125** open issues (62 labeled for beginners) across **58** active Shell projects.
+**126** open issues (62 labeled for beginners) across **58** active Shell projects.
 
-> Updated automatically on **2026-09-14 11:33 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-14 21:47 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,26 +10,27 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [[Bug]: uInitrd CRC mismatch in community images for Orange Pi Zero3 (sun50iw9)](https://github.com/armbian/build/issues/10701) 💬 1 | [armbian/build](https://github.com/armbian/build) | 5.4k | 🟢 beginner | 2026-09-14 |  |
+| [Use ubuntu-snapshots for reproducibility](https://github.com/elementary/os/issues/822) | [elementary/os](https://github.com/elementary/os) | 1.2k | 🟡 help wanted | 2026-09-14 |  |
 | [Reduce spawn count in test-alias-forwarding.sh (slow under contention, ~21s spawn floor)](https://github.com/asklokesh/loki-mode/issues/183) 💬 4 | [asklokesh/loki-mode](https://github.com/asklokesh/loki-mode) | 1.1k | 🟡 help wanted | 2026-09-14 | ✍️ CLA |
 | [Measure the codex approvals axis on a host with the codex CLI installed](https://github.com/asklokesh/loki-mode/issues/199) | [asklokesh/loki-mode](https://github.com/asklokesh/loki-mode) | 1.1k | 🟡 help wanted | 2026-09-14 | ✍️ CLA |
 | [[Rework] MuseScore](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/3343) 💬 2 | [PapirusDevelopmentTeam/papirus-icon-theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) | 8.1k | 🟢 beginner | 2026-09-12 |  |
-| [Ableton dies on being moved to another monitor in Niri](https://github.com/shibco/ableton-linux/issues/312) 💬 1 | [shibco/ableton-linux](https://github.com/shibco/ableton-linux) | 514 | 🟡 help wanted | 2026-09-12 |  |
+| [Ableton dies on being moved to another monitor in Niri](https://github.com/shibco/ableton-linux/issues/312) 💬 1 | [shibco/ableton-linux](https://github.com/shibco/ableton-linux) | 516 | 🟡 help wanted | 2026-09-12 |  |
 | [App Request: Nextcloud Talk](https://github.com/wimpysworld/deb-get/issues/2014) | [wimpysworld/deb-get](https://github.com/wimpysworld/deb-get) | 1.7k | 🟢 beginner | 2026-09-11 |  |
-| [No sound via PipeASIO (Live 11)](https://github.com/shibco/ableton-linux/issues/302) 💬 22 | [shibco/ableton-linux](https://github.com/shibco/ableton-linux) | 514 | 🟡 help wanted | 2026-09-11 |  |
+| [No sound via PipeASIO (Live 11)](https://github.com/shibco/ableton-linux/issues/302) 💬 22 | [shibco/ableton-linux](https://github.com/shibco/ableton-linux) | 516 | 🟡 help wanted | 2026-09-11 |  |
 | [[Feature Request]: Request for Radxa Cubie A7A board](https://github.com/armbian/build/issues/10662) 💬 2 | [armbian/build](https://github.com/armbian/build) | 5.4k | 🟢 beginner | 2026-09-10 |  |
-| [PCIe Gen 3/4 support](https://github.com/amoghmunikote/cmpunlocker/issues/9) 💬 12 | [amoghmunikote/cmpunlocker](https://github.com/amoghmunikote/cmpunlocker) | 623 | 🟡 help wanted | 2026-09-09 |  |
-| [NixOS PipeWire not able to be found via installer](https://github.com/shibco/ableton-linux/issues/307) 💬 42 | [shibco/ableton-linux](https://github.com/shibco/ableton-linux) | 514 | 🟡 help wanted | 2026-09-09 |  |
+| [PCIe Gen 3/4 support](https://github.com/amoghmunikote/cmpunlocker/issues/9) 💬 12 | [amoghmunikote/cmpunlocker](https://github.com/amoghmunikote/cmpunlocker) | 632 | 🟡 help wanted | 2026-09-09 |  |
+| [NixOS PipeWire not able to be found via installer](https://github.com/shibco/ableton-linux/issues/307) 💬 42 | [shibco/ableton-linux](https://github.com/shibco/ableton-linux) | 516 | 🟡 help wanted | 2026-09-09 |  |
 | [[refactor] refactor E2E approach](https://github.com/llm-d/llm-d/issues/1494) 💬 3 | [llm-d/llm-d](https://github.com/llm-d/llm-d) | 4.5k | 🟡 help wanted | 2026-09-08 | 🤖 disclose AI use · 🔏 DCO |
 | [App Request:IPTVnator](https://github.com/wimpysworld/deb-get/issues/2003) 💬 1 | [wimpysworld/deb-get](https://github.com/wimpysworld/deb-get) | 1.7k | 🟢 beginner | 2026-09-08 |  |
-| [Ableton installation on nix through prefix](https://github.com/shibco/ableton-linux/issues/305) 💬 10 | [shibco/ableton-linux](https://github.com/shibco/ableton-linux) | 514 | 🟡 help wanted | 2026-09-08 |  |
-| [Install Windows fonts and support files for live 12](https://github.com/shibco/ableton-linux/issues/304) | [shibco/ableton-linux](https://github.com/shibco/ableton-linux) | 514 | 🟡 help wanted | 2026-09-08 |  |
+| [Ableton installation on nix through prefix](https://github.com/shibco/ableton-linux/issues/305) 💬 10 | [shibco/ableton-linux](https://github.com/shibco/ableton-linux) | 516 | 🟡 help wanted | 2026-09-08 |  |
+| [Install Windows fonts and support files for live 12](https://github.com/shibco/ableton-linux/issues/304) | [shibco/ableton-linux](https://github.com/shibco/ableton-linux) | 516 | 🟡 help wanted | 2026-09-08 |  |
 | [App Request: Biopass](https://github.com/wimpysworld/deb-get/issues/2005) | [wimpysworld/deb-get](https://github.com/wimpysworld/deb-get) | 1.7k | 🟢 beginner | 2026-09-07 |  |
-| [Ableton-Linux Update resulted in Regressions on SteamOS](https://github.com/shibco/ableton-linux/issues/297) 💬 52 | [shibco/ableton-linux](https://github.com/shibco/ableton-linux) | 514 | 🟡 help wanted | 2026-09-07 |  |
+| [Ableton-Linux Update resulted in Regressions on SteamOS](https://github.com/shibco/ableton-linux/issues/297) 💬 52 | [shibco/ableton-linux](https://github.com/shibco/ableton-linux) | 516 | 🟡 help wanted | 2026-09-07 |  |
 | [v4.0 post-release polish: event-count arithmetic + test cleanup trap](https://github.com/sangrokjung/claude-forge/issues/81) 💬 1 | [sangrokjung/claude-forge](https://github.com/sangrokjung/claude-forge) | 836 | 🟢 beginner | 2026-09-06 |  |
 | [[BUG] Deleting backups causes lots of errors if s3 path cleanup is slow](https://github.com/longhorn/longhorn/issues/13646) 💬 3 | [longhorn/longhorn](https://github.com/longhorn/longhorn) | 8k | 🟢 beginner | 2026-09-05 | 🔏 DCO |
-| [Documentation improvements](https://github.com/antonbabenko/pre-commit-terraform/issues/865) | [antonbabenko/pre-commit-terraform](https://github.com/antonbabenko/pre-commit-terraform) | 3.8k | 🟢 beginner | 2026-09-05 | 🤖 disclose AI use |
-| [Aydio crackle while changing UI](https://github.com/shibco/ableton-linux/issues/290) 💬 15 | [shibco/ableton-linux](https://github.com/shibco/ableton-linux) | 514 | 🟡 help wanted | 2026-09-05 |  |
-| [NVLink](https://github.com/amoghmunikote/cmpunlocker/issues/13) 💬 6 | [amoghmunikote/cmpunlocker](https://github.com/amoghmunikote/cmpunlocker) | 623 | 🟡 help wanted | 2026-09-04 |  |
+| [Aydio crackle while changing UI](https://github.com/shibco/ableton-linux/issues/290) 💬 15 | [shibco/ableton-linux](https://github.com/shibco/ableton-linux) | 516 | 🟡 help wanted | 2026-09-05 |  |
+| [NVLink](https://github.com/amoghmunikote/cmpunlocker/issues/13) 💬 6 | [amoghmunikote/cmpunlocker](https://github.com/amoghmunikote/cmpunlocker) | 632 | 🟡 help wanted | 2026-09-04 |  |
 | [Refresh CHYT benchmark results](https://github.com/ClickHouse/ClickBench/issues/1459) | [ClickHouse/ClickBench](https://github.com/ClickHouse/ClickBench) | 1.1k | 🟡 help wanted | 2026-09-03 |  |
 | [Leaks user passwords via parameter expansion of variables in command arguments and command substitution](https://github.com/Macjutsu/super/issues/301) 💬 4 | [Macjutsu/super](https://github.com/Macjutsu/super) | 894 | 🟡 help wanted | 2026-09-03 |  |
 | [Switching Go version when process.env["GOROOT"] is set is unsupported.](https://github.com/go-nv/goenv/issues/367) 💬 5 | [go-nv/goenv](https://github.com/go-nv/goenv) | 2.5k | 🟡 help wanted | 2026-08-31 |  |
@@ -112,7 +113,7 @@
 | [nginx fails if host has ipv6 disabled](https://github.com/ONLYOFFICE/DocumentServer/issues/390) 💬 5 | [ONLYOFFICE/DocumentServer](https://github.com/ONLYOFFICE/DocumentServer) | 6.9k | 🟡 help wanted | 2026-05-22 |  |
 | [Missing documentation: Configure DocumentServer to run on same server as nextcloud](https://github.com/ONLYOFFICE/DocumentServer/issues/369) 💬 4 | [ONLYOFFICE/DocumentServer](https://github.com/ONLYOFFICE/DocumentServer) | 6.9k | 🟡 help wanted | 2026-05-20 |  |
 | [Bug: the English dictionary is prudish](https://github.com/ONLYOFFICE/DocumentServer/issues/2395) 💬 2 | [ONLYOFFICE/DocumentServer](https://github.com/ONLYOFFICE/DocumentServer) | 6.9k | 🟢 beginner | 2026-05-20 |  |
-| [Determine an alternative to 'lshw' for GPU detection](https://github.com/zelikos/davincibox/issues/262) | [zelikos/davincibox](https://github.com/zelikos/davincibox) | 996 | 🟡 help wanted | 2026-05-14 |  |
+| [Determine an alternative to 'lshw' for GPU detection](https://github.com/zelikos/davincibox/issues/262) | [zelikos/davincibox](https://github.com/zelikos/davincibox) | 997 | 🟡 help wanted | 2026-05-14 |  |
 | [Bluetooth integration after Wine 10 release](https://github.com/netbrain/zwift/issues/188) 💬 50 | [netbrain/zwift](https://github.com/netbrain/zwift) | 667 | 🟡 help wanted | 2026-05-14 |  |
 | [Add ZGC Option for MeowIce Flags](https://github.com/itzg/docker-minecraft-server/issues/3954) 💬 5 | [itzg/docker-minecraft-server](https://github.com/itzg/docker-minecraft-server) | 14.3k | 🟡 help wanted | 2026-05-12 |  |
 | [Requesting Espanso](https://github.com/ublue-os/bluefin/issues/454) 💬 19 | [ublue-os/bluefin](https://github.com/ublue-os/bluefin) | 2.6k | 🟡 help wanted | 2026-05-12 | 🤖 disclose AI use |
@@ -128,7 +129,7 @@
 | [Have an official location for system-wide user-installed plugins](https://github.com/fullstaq-ruby/server-edition/issues/24) 💬 4 | [fullstaq-ruby/server-edition](https://github.com/fullstaq-ruby/server-edition) | 630 | 🟢 beginner | 2026-04-25 |  |
 | [Documentation for .ruby-variant](https://github.com/fullstaq-ruby/server-edition/issues/30) 💬 2 | [fullstaq-ruby/server-edition](https://github.com/fullstaq-ruby/server-edition) | 630 | 🟢 beginner | 2026-04-25 |  |
 | [Can you please do for GetX](https://github.com/evanca/flutter-ai-rules/issues/2) | [evanca/flutter-ai-rules](https://github.com/evanca/flutter-ai-rules) | 637 | 🟢 beginner | 2026-04-18 |  |
-| [Bug: setup.sh fails if Resolve's installer path contains space](https://github.com/zelikos/davincibox/issues/253) 💬 3 | [zelikos/davincibox](https://github.com/zelikos/davincibox) | 996 | 🟢 beginner | 2026-04-17 |  |
+| [Bug: setup.sh fails if Resolve's installer path contains space](https://github.com/zelikos/davincibox/issues/253) 💬 3 | [zelikos/davincibox](https://github.com/zelikos/davincibox) | 997 | 🟢 beginner | 2026-04-17 |  |
 | [[建议] 推荐 WeChat Bridge 作为自定义推送后端方案（附完整配置与截图）](https://github.com/tty228/luci-app-wechatpush/issues/389) | [tty228/luci-app-wechatpush](https://github.com/tty228/luci-app-wechatpush) | 1.4k | 🟡 help wanted | 2026-04-14 |  |
 | [Add suffix (timestamp) to the log filename](https://github.com/nestybox/sysbox/issues/143) 💬 1 | [nestybox/sysbox](https://github.com/nestybox/sysbox) | 3.9k | 🟢 beginner | 2026-04-10 | 🔏 DCO |
 | [[Bug]: Podman detection support fails of Fedora](https://github.com/armbian/build/issues/9228) 💬 3 | [armbian/build](https://github.com/armbian/build) | 5.4k | 🟢 beginner | 2026-04-03 |  |

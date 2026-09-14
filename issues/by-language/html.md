@@ -1,8 +1,8 @@
 # HTML issues
 
-**87** open issues (31 labeled for beginners) across **36** active HTML projects.
+**88** open issues (31 labeled for beginners) across **37** active HTML projects.
 
-> Updated automatically on **2026-09-14 11:33 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-14 21:47 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -11,22 +11,24 @@
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
 | [输入 【介绍一下html-anything】，导出html单文件出现错误 1. 第一页只展示一半 2. 左右键不起作用 3. 从第二页开始都是黑底空白页 4. 。。。。。。](https://github.com/nexu-io/html-anything/issues/152) 💬 2 | [nexu-io/html-anything](https://github.com/nexu-io/html-anything) | 8.8k | 🟡 help wanted | 2026-09-14 | ✍️ CLA |
+| [[Initiative]: Cloud Native Business Continuity: whitepaper and best practices](https://github.com/cncf/toc/issues/1779) 💬 7 | [cncf/toc](https://github.com/cncf/toc) | 1.9k | 🟡 help wanted | 2026-09-14 |  |
+| [[Initiative]: Cloud Native Observability Personas](https://github.com/cncf/toc/issues/2037) 💬 9 | [cncf/toc](https://github.com/cncf/toc) | 1.9k | 🟡 help wanted | 2026-09-14 |  |
+| [[Initiative]: Scale and performance testing guidance](https://github.com/cncf/toc/issues/2233) 💬 4 | [cncf/toc](https://github.com/cncf/toc) | 1.9k | 🟡 help wanted | 2026-09-14 |  |
+| [[feat] no new X chat dm sending?](https://github.com/nirholas/XActions/issues/37) 💬 4 | [nirholas/XActions](https://github.com/nirholas/XActions) | 529 | 🟡 help wanted | 2026-09-14 |  |
 | [[🚀 Feature]: Fixing Accessibility Issues On Selenium Website](https://github.com/SeleniumHQ/seleniumhq.github.io/issues/2486) 💬 6 | [SeleniumHQ/seleniumhq.github.io](https://github.com/SeleniumHQ/seleniumhq.github.io) | 1.4k | 🟡 help wanted | 2026-09-11 |  |
 | [switch cutout for back body plate doesn't fit switch](https://github.com/nasa-jpl/open-source-rover/issues/499) 💬 3 | [nasa-jpl/open-source-rover](https://github.com/nasa-jpl/open-source-rover) | 9.6k | 🟡 help wanted | 2026-09-10 |  |
-| [[Initiative]: Scale and performance testing guidance](https://github.com/cncf/toc/issues/2233) 💬 2 | [cncf/toc](https://github.com/cncf/toc) | 1.9k | 🟡 help wanted | 2026-09-10 |  |
-| [Headscale with reverse proxy Zoraxy not working because allegedly WebSockets are not passing through](https://github.com/tobychui/zoraxy/issues/1012) 💬 9 | [tobychui/zoraxy](https://github.com/tobychui/zoraxy) | 5.5k | 🟡 help wanted | 2026-09-09 |  |
+| [Headscale with reverse proxy Zoraxy not working because allegedly WebSockets are not passing through](https://github.com/tobychui/zoraxy/issues/1012) 💬 9 | [tobychui/zoraxy](https://github.com/tobychui/zoraxy) | 5.4k | 🟡 help wanted | 2026-09-09 |  |
 | [Check for obsoletes](https://github.com/mgaudet/CompilerJobs/issues/83) 💬 5 | [mgaudet/CompilerJobs](https://github.com/mgaudet/CompilerJobs) | 780 | 🟢 beginner | 2026-09-08 |  |
 | [Service Worker Offline](https://github.com/TandoorRecipes/recipes/issues/621) 💬 6 | [TandoorRecipes/recipes](https://github.com/TandoorRecipes/recipes) | 8.6k | 🟢 beginner | 2026-09-06 |  |
-| [[Initiative]: Cloud Native Observability Personas](https://github.com/cncf/toc/issues/2037) 💬 8 | [cncf/toc](https://github.com/cncf/toc) | 1.9k | 🟡 help wanted | 2026-09-03 |  |
 | [Translation needed for existing languages](https://github.com/sumn2u/learn-javascript/issues/346) 💬 2 | [sumn2u/learn-javascript](https://github.com/sumn2u/learn-javascript) | 1k | 🟢 beginner | 2026-08-29 |  |
 | [Search - Use the same words for criteria in "Products search" and in the product page (and edition page)](https://github.com/openfoodfacts/openfoodfacts-server/issues/17) | [openfoodfacts/openfoodfacts-server](https://github.com/openfoodfacts/openfoodfacts-server) | 1.2k | 🟢 beginner | 2026-08-21 | 🤖 disclose AI use |
 | [Add play store promo](https://github.com/openfoodfacts/openfoodfacts-server/issues/604) 💬 6 | [openfoodfacts/openfoodfacts-server](https://github.com/openfoodfacts/openfoodfacts-server) | 1.2k | 🟢 beginner | 2026-08-21 | 🤖 disclose AI use |
 | [addTagOnEnter setting](https://github.com/yairEO/tagify/issues/1500) 💬 5 | [yairEO/tagify](https://github.com/yairEO/tagify) | 3.9k | 🟡 help wanted | 2026-08-17 |  |
-| [[HELP] Access control by Cloudflare IPs](https://github.com/tobychui/zoraxy/issues/761) 💬 7 | [tobychui/zoraxy](https://github.com/tobychui/zoraxy) | 5.5k | 🟡 help wanted | 2026-08-16 |  |
+| [[HELP] Access control by Cloudflare IPs](https://github.com/tobychui/zoraxy/issues/761) 💬 7 | [tobychui/zoraxy](https://github.com/tobychui/zoraxy) | 5.4k | 🟡 help wanted | 2026-08-16 |  |
 | [NuGet.VisualStudio.Client throws NullReferenceException for projects without an assets file, preventing other ](https://github.com/NuGet/Home/issues/14758) 💬 3 | [NuGet/Home](https://github.com/NuGet/Home) | 1.6k | 🟡 help wanted | 2026-08-14 |  |
 | [[Initiative]: Reference framework for the levels of Service Reliability Automation](https://github.com/cncf/toc/issues/1984) 💬 31 | [cncf/toc](https://github.com/cncf/toc) | 1.9k | 🟡 help wanted | 2026-08-11 |  |
 | [Better "No product" experience](https://github.com/openfoodfacts/openfoodfacts-server/issues/1505) | [openfoodfacts/openfoodfacts-server](https://github.com/openfoodfacts/openfoodfacts-server) | 1.2k | 🟡 help wanted | 2026-08-11 | 🤖 disclose AI use |
-| [Request for two enhancements: prev/next post, & list of all posts](https://github.com/chipzoller/hugo-clarity/issues/126) 💬 5 | [chipzoller/hugo-clarity](https://github.com/chipzoller/hugo-clarity) | 652 | 🟡 help wanted | 2026-08-10 | 🔏 DCO |
+| [Request for two enhancements: prev/next post, & list of all posts](https://github.com/chipzoller/hugo-clarity/issues/126) 💬 5 | [chipzoller/hugo-clarity](https://github.com/chipzoller/hugo-clarity) | 651 | 🟡 help wanted | 2026-08-10 | 🔏 DCO |
 | [cua-driver installer: print the PATH export command when ~/.local/bin isn't on PATH](https://github.com/trycua/cua/issues/3004) 💬 1 | [trycua/cua](https://github.com/trycua/cua) | 22.6k | 🟢 beginner | 2026-08-09 | 🤖 disclose AI use |
 | [[ja] Translate docs/concepts/services-networking/windows-networking.md into Japanese](https://github.com/kubernetes/website/issues/56047) 💬 4 | [kubernetes/website](https://github.com/kubernetes/website) | 5.4k | 🟡 help wanted | 2026-08-08 |  |
 | [[ja] Translate docs/concepts/security/hardening-guide/dynamic-resource-allocation.md into Japanese](https://github.com/kubernetes/website/issues/56048) 💬 6 | [kubernetes/website](https://github.com/kubernetes/website) | 5.4k | 🟡 help wanted | 2026-08-08 |  |
@@ -77,23 +79,22 @@
 | [Add '--quiet' / '-q' flag (suppress all non-error output)](https://github.com/Manavarya09/design-extract/issues/108) | [Manavarya09/design-extract](https://github.com/Manavarya09/design-extract) | 4.1k | 🟢 beginner | 2026-05-16 |  |
 | [Add Open Props emitter ('&lt;host&gt;-open-props.css')](https://github.com/Manavarya09/design-extract/issues/106) | [Manavarya09/design-extract](https://github.com/Manavarya09/design-extract) | 4.1k | 🟢 beginner | 2026-05-16 |  |
 | [قطعی اینترنت](https://github.com/sinavm/sinavm/issues/8) 💬 175 | [sinavm/sinavm](https://github.com/sinavm/sinavm) | 838 | 🟢 beginner | 2026-05-16 |  |
-| [[Initiative]: Cloud Native Business Continuity: whitepaper and best practices](https://github.com/cncf/toc/issues/1779) 💬 5 | [cncf/toc](https://github.com/cncf/toc) | 1.9k | 🟡 help wanted | 2026-05-13 |  |
 | [Browsing through the source code - possible bug in PackageUtilities?](https://github.com/NuGet/Home/issues/9724) 💬 1 | [NuGet/Home](https://github.com/NuGet/Home) | 1.6k | 🟢 beginner | 2026-05-10 |  |
 | [NullReferenceException during list package in NuGet.CommandLine.XPlat](https://github.com/NuGet/Home/issues/13397) 💬 14 | [NuGet/Home](https://github.com/NuGet/Home) | 1.6k | 🟡 help wanted | 2026-05-06 |  |
 | [zh_cn Translation ambiguity in Chapter "Collections Types" of Scala 3 Book](https://github.com/scala/docs.scala-lang/issues/3257) 💬 3 | [scala/docs.scala-lang](https://github.com/scala/docs.scala-lang) | 575 | 🟡 help wanted | 2026-05-06 |  |
 | [Swipe for pagination of search results](https://github.com/openfoodfacts/openfoodfacts-server/issues/1029) 💬 2 | [openfoodfacts/openfoodfacts-server](https://github.com/openfoodfacts/openfoodfacts-server) | 1.2k | 🟡 help wanted | 2026-05-05 | 🤖 disclose AI use |
 | [OpenMoji Request: Cranberries](https://github.com/hfg-gmuend/openmoji/issues/633) 💬 8 | [hfg-gmuend/openmoji](https://github.com/hfg-gmuend/openmoji) | 4.6k | 🟡 help wanted | 2026-05-03 |  |
 | [chore(report): migrate away from @tremor/react to a React 19-compatible component library](https://github.com/maester365/maester/issues/1709) | [maester365/maester](https://github.com/maester365/maester) | 1.1k | 🟡 help wanted | 2026-04-28 |  |
-| [[HELP] CORS Error with Immich](https://github.com/tobychui/zoraxy/issues/680) 💬 3 | [tobychui/zoraxy](https://github.com/tobychui/zoraxy) | 5.5k | 🟡 help wanted | 2026-04-22 |  |
-| [[HELP] NetBird setup](https://github.com/tobychui/zoraxy/issues/1029) 💬 5 | [tobychui/zoraxy](https://github.com/tobychui/zoraxy) | 5.5k | 🟡 help wanted | 2026-04-19 |  |
+| [[HELP] CORS Error with Immich](https://github.com/tobychui/zoraxy/issues/680) 💬 3 | [tobychui/zoraxy](https://github.com/tobychui/zoraxy) | 5.4k | 🟡 help wanted | 2026-04-22 |  |
+| [[HELP] NetBird setup](https://github.com/tobychui/zoraxy/issues/1029) 💬 5 | [tobychui/zoraxy](https://github.com/tobychui/zoraxy) | 5.4k | 🟡 help wanted | 2026-04-19 |  |
 | [Possible new ideas for challenges](https://github.com/OWASP/wrongsecrets/issues/37) 💬 13 | [OWASP/wrongsecrets](https://github.com/OWASP/wrongsecrets) | 1.5k | 🟡 help wanted | 2026-04-18 |  |
-| [[HELP] Using X-Auth-User header variable with Pocket ID and Navidrome](https://github.com/tobychui/zoraxy/issues/1118) | [tobychui/zoraxy](https://github.com/tobychui/zoraxy) | 5.5k | 🟡 help wanted | 2026-04-15 |  |
+| [[HELP] Using X-Auth-User header variable with Pocket ID and Navidrome](https://github.com/tobychui/zoraxy/issues/1118) | [tobychui/zoraxy](https://github.com/tobychui/zoraxy) | 5.4k | 🟡 help wanted | 2026-04-15 |  |
 | [Polish subdivision flags](https://github.com/hfg-gmuend/openmoji/issues/608) 💬 3 | [hfg-gmuend/openmoji](https://github.com/hfg-gmuend/openmoji) | 4.6k | 🟡 help wanted | 2026-04-14 |  |
 | [emoji request: vegan symbol (Ⓥ) and vegetarian indicator](https://github.com/hfg-gmuend/openmoji/issues/620) | [hfg-gmuend/openmoji](https://github.com/hfg-gmuend/openmoji) | 4.6k | 🟡 help wanted | 2026-04-14 |  |
 | [Openmoji Request: Paragenders Flag](https://github.com/hfg-gmuend/openmoji/issues/629) 💬 7 | [hfg-gmuend/openmoji](https://github.com/hfg-gmuend/openmoji) | 4.6k | 🟡 help wanted | 2026-04-14 |  |
-| [[HELP] Transmission web UI returns 521 when proxied](https://github.com/tobychui/zoraxy/issues/1102) | [tobychui/zoraxy](https://github.com/tobychui/zoraxy) | 5.5k | 🟡 help wanted | 2026-04-03 |  |
-| [emby/jellyfin support](https://github.com/petersem/posterr/issues/49) 💬 26 | [petersem/posterr](https://github.com/petersem/posterr) | 648 | 🟢 beginner | 2026-04-02 |  |
+| [[HELP] Transmission web UI returns 521 when proxied](https://github.com/tobychui/zoraxy/issues/1102) | [tobychui/zoraxy](https://github.com/tobychui/zoraxy) | 5.4k | 🟡 help wanted | 2026-04-03 |  |
+| [emby/jellyfin support](https://github.com/petersem/posterr/issues/49) 💬 26 | [petersem/posterr](https://github.com/petersem/posterr) | 647 | 🟢 beginner | 2026-04-02 |  |
 | [Test target override better](https://github.com/web-platform-tests/wpt/issues/2321) 💬 1 | [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt) | 6.2k | 🟢 beginner | 2026-03-30 |  |
-| [[HELP] Custom Error 521 template , how to set ?](https://github.com/tobychui/zoraxy/issues/1095) 💬 1 | [tobychui/zoraxy](https://github.com/tobychui/zoraxy) | 5.5k | 🟡 help wanted | 2026-03-30 |  |
+| [[HELP] Custom Error 521 template , how to set ?](https://github.com/tobychui/zoraxy/issues/1095) 💬 1 | [tobychui/zoraxy](https://github.com/tobychui/zoraxy) | 5.4k | 🟡 help wanted | 2026-03-30 |  |
 | [Test that innerHTML works in synthetic documents.](https://github.com/web-platform-tests/wpt/issues/1509) 💬 1 | [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt) | 6.2k | 🟢 beginner | 2026-03-24 |  |
 | [FOSSology not setting sticky bit on REPODIR](https://github.com/fossology/fossology/issues/1115) 💬 5 | [fossology/fossology](https://github.com/fossology/fossology) | 1k | 🟢 beginner | 2026-03-22 | 🔏 DCO |
