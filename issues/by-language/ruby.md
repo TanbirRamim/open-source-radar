@@ -1,8 +1,8 @@
 # Ruby issues
 
-**94** open issues (70 labeled for beginners) across **31** active Ruby projects.
+**96** open issues (72 labeled for beginners) across **31** active Ruby projects.
 
-> Updated automatically on **2026-09-13 20:28 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-14 11:33 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,6 +10,7 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| ['match init' assumes a default branch of 'master' when using git storage, which is no longer the Github defaul](https://github.com/fastlane/fastlane/issues/21879) 💬 2 | [fastlane/fastlane](https://github.com/fastlane/fastlane) | 42.1k | 🟡 help wanted | 2026-09-14 |  |
 | [Print via new PrusaLink API](https://github.com/manyfold3d/manyfold/issues/6436) 💬 2 | [manyfold3d/manyfold](https://github.com/manyfold3d/manyfold) | 2.2k | 🟢 beginner | 2026-09-12 | 📄 AI policy · ✍️ CLA |
 | [Soft delete for Initiatives on admin panel](https://github.com/decidim/decidim/issues/6542) 💬 9 | [decidim/decidim](https://github.com/decidim/decidim) | 1.8k | 🟢 beginner | 2026-09-10 |  |
 | [[RFE] Use ansible-runner execution environments as a base for embedded ansible execution](https://github.com/ManageIQ/manageiq/issues/21466) 💬 9 | [ManageIQ/manageiq](https://github.com/ManageIQ/manageiq) | 1.4k | 🟡 help wanted | 2026-09-10 |  |
@@ -23,12 +24,11 @@
 | [Review potentially unused Errbit code identified by static analysis](https://github.com/errbit/errbit/issues/3125) | [errbit/errbit](https://github.com/errbit/errbit) | 4.3k | 🟢 beginner | 2026-09-01 |  |
 | [Support setting cron monitor tolerances](https://github.com/getsentry/sentry-ruby/issues/2668) 💬 1 | [getsentry/sentry-ruby](https://github.com/getsentry/sentry-ruby) | 987 | 🟢 beginner | 2026-09-01 |  |
 | [Oauth2 generated accounts are not added as creators](https://github.com/manyfold3d/manyfold/issues/4768) 💬 3 | [manyfold3d/manyfold](https://github.com/manyfold3d/manyfold) | 2.2k | 🟢 beginner | 2026-08-29 | 📄 AI policy · ✍️ CLA |
-| [Better handling of super large images](https://github.com/AllYourBot/hostedgpt/issues/142) | [AllYourBot/hostedgpt](https://github.com/AllYourBot/hostedgpt) | 510 | 🟢 beginner | 2026-08-29 |  |
-| [Better icon library](https://github.com/AllYourBot/hostedgpt/issues/287) 💬 4 | [AllYourBot/hostedgpt](https://github.com/AllYourBot/hostedgpt) | 510 | 🟢 beginner | 2026-08-29 |  |
-| [Confirm that I can set an authentication deleted_at and it logs out that client](https://github.com/AllYourBot/hostedgpt/issues/434) | [AllYourBot/hostedgpt](https://github.com/AllYourBot/hostedgpt) | 510 | 🟢 beginner | 2026-08-29 |  |
+| [Better handling of super large images](https://github.com/AllYourBot/hostedgpt/issues/142) | [AllYourBot/hostedgpt](https://github.com/AllYourBot/hostedgpt) | 511 | 🟢 beginner | 2026-08-29 |  |
+| [Better icon library](https://github.com/AllYourBot/hostedgpt/issues/287) 💬 4 | [AllYourBot/hostedgpt](https://github.com/AllYourBot/hostedgpt) | 511 | 🟢 beginner | 2026-08-29 |  |
+| [Confirm that I can set an authentication deleted_at and it logs out that client](https://github.com/AllYourBot/hostedgpt/issues/434) | [AllYourBot/hostedgpt](https://github.com/AllYourBot/hostedgpt) | 511 | 🟢 beginner | 2026-08-29 |  |
 | [[Feature Request] Dark Mode](https://github.com/endoflife-date/endoflife.date/issues/1187) 💬 10 | [endoflife-date/endoflife.date](https://github.com/endoflife-date/endoflife.date) | 3.4k | 🟢 beginner | 2026-08-28 |  |
 | [MiqTask marked successful prematurely by check_policy_prevent_callback](https://github.com/ManageIQ/manageiq/issues/23957) | [ManageIQ/manageiq](https://github.com/ManageIQ/manageiq) | 1.4k | 🟡 help wanted | 2026-08-27 |  |
-| ['match init' assumes a default branch of 'master' when using git storage, which is no longer the Github defaul](https://github.com/fastlane/fastlane/issues/21879) 💬 1 | [fastlane/fastlane](https://github.com/fastlane/fastlane) | 42.1k | 🟡 help wanted | 2026-08-15 |  |
 | [[Request] Generate policy file when using scaffolding](https://github.com/varvet/pundit/issues/735) 💬 5 | [varvet/pundit](https://github.com/varvet/pundit) | 8.5k | 🟢 beginner | 2026-08-15 |  |
 | [Normalize and provide automatic metadata for arXiv links](https://github.com/lobsters/lobsters/issues/1165) 💬 4 | [lobsters/lobsters](https://github.com/lobsters/lobsters) | 4.8k | 🟢 beginner | 2026-08-14 |  |
 | [Make a performance comparison between replacing Turbolinks (plus rails-ujs) with Turbo and dropping it entirel](https://github.com/consuldemocracy/consuldemocracy/issues/5485) | [consuldemocracy/consuldemocracy](https://github.com/consuldemocracy/consuldemocracy) | 1.5k | 🟡 help wanted | 2026-08-14 |  |
@@ -78,8 +78,11 @@
 | [Clean up github-based projects in catalog](https://github.com/rubytoolbox/rubytoolbox/issues/75) 💬 2 | [rubytoolbox/rubytoolbox](https://github.com/rubytoolbox/rubytoolbox) | 550 | 🟡 help wanted | 2026-05-26 |  |
 | [Share Button](https://github.com/manyfold3d/manyfold/issues/3856) 💬 4 | [manyfold3d/manyfold](https://github.com/manyfold3d/manyfold) | 2.2k | 🟢 beginner | 2026-05-21 | 📄 AI policy · ✍️ CLA |
 | [Ractor incompatibility: contracts, schemas, types, and results cannot be used from non-main Ractors on Ruby 4.](https://github.com/dry-rb/dry-validation/issues/749) 💬 1 | [dry-rb/dry-validation](https://github.com/dry-rb/dry-validation) | 1.4k | 🟡 help wanted | 2026-05-12 |  |
+| [Comment form visible for moderators in deleted stories](https://github.com/lobsters/lobsters/issues/1981) 💬 1 | [lobsters/lobsters](https://github.com/lobsters/lobsters) | 4.8k | 🟢 beginner | 2026-05-07 |  |
+| [multiple favicon versions, some ugly](https://github.com/lobsters/lobsters/issues/1921) 💬 3 | [lobsters/lobsters](https://github.com/lobsters/lobsters) | 4.8k | 🟢 beginner | 2026-05-07 |  |
 | [Add SNOBOL](https://github.com/github-linguist/linguist/issues/7950) | [github-linguist/linguist](https://github.com/github-linguist/linguist) | 13.7k | 🟢 beginner | 2026-05-06 |  |
 | [Add Uiua](https://github.com/github-linguist/linguist/issues/7949) | [github-linguist/linguist](https://github.com/github-linguist/linguist) | 13.7k | 🟢 beginner | 2026-05-06 |  |
+| [Commenting Double-Posted](https://github.com/lobsters/lobsters/issues/1987) 💬 1 | [lobsters/lobsters](https://github.com/lobsters/lobsters) | 4.8k | 🟢 beginner | 2026-05-04 |  |
 | [[Tooling] Support VSCode breakpoints for Ruby (standard running)](https://github.com/e621ng/e621ng/issues/1940) | [e621ng/e621ng](https://github.com/e621ng/e621ng) | 568 | 🟡 help wanted | 2026-04-29 |  |
 | [[Users] Onboarding process](https://github.com/e621ng/e621ng/issues/1770) 💬 3 | [e621ng/e621ng](https://github.com/e621ng/e621ng) | 568 | 🟡 help wanted | 2026-04-29 |  |
 | [Pools in upload form](https://github.com/e621ng/e621ng/issues/1882) 💬 1 | [e621ng/e621ng](https://github.com/e621ng/e621ng) | 568 | 🟡 help wanted | 2026-04-29 |  |
@@ -103,4 +106,3 @@
 | ['source:' metatag is case sensitive / DText search links convert search to lowercase](https://github.com/e621ng/e621ng/issues/553) 💬 1 | [e621ng/e621ng](https://github.com/e621ng/e621ng) | 568 | 🟢 beginner | 2026-04-03 |  |
 | [Excel Formula Language](https://github.com/github-linguist/linguist/issues/7886) | [github-linguist/linguist](https://github.com/github-linguist/linguist) | 13.7k | 🟢 beginner | 2026-03-30 |  |
 | [Chef docs are outdated (and never will be updated)](https://github.com/freeCodeCamp/devdocs/issues/927) 💬 2 | [freeCodeCamp/devdocs](https://github.com/freeCodeCamp/devdocs) | 39.4k | 🟡 help wanted | 2026-03-27 |  |
-| [Filter model file bulk edit by string](https://github.com/manyfold3d/manyfold/issues/3442) 💬 2 | [manyfold3d/manyfold](https://github.com/manyfold3d/manyfold) | 2.2k | 🟢 beginner | 2026-03-18 | 📄 AI policy · ✍️ CLA |

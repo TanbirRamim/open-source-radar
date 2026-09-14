@@ -1,8 +1,8 @@
 # Finance and Web3 issues
 
-**61** open issues (23 labeled for beginners) across **16** projects tagged with topics like `finance`, `fintech`, `blockchain`, `ethereum`, `crypto`, `trading`.
+**60** open issues (23 labeled for beginners) across **16** projects tagged with topics like `finance`, `fintech`, `blockchain`, `ethereum`, `crypto`, `trading`.
 
-> Updated automatically on **2026-09-13 20:28 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-14 11:33 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,12 +10,13 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [Let a CMP client require EnvelopedData (reject EncryptedValue) for centrally generated keys](https://github.com/openssl/openssl/issues/32797) | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-14 | 🤖 disclose AI use · ✍️ CLA |
 | [RFC 9919: OCSP with SHA-256](https://github.com/openssl/openssl/issues/32813) | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use · ✍️ CLA |
 | [Backport 0c2a196af8 (per-OSSL_LIB_CTX CONF storage) to 3.0-3.6: conf_ssl.c double-free still present in all re](https://github.com/openssl/openssl/issues/32804) 💬 2 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use · ✍️ CLA |
 | [[Bug]: Enable Banking with "imagin / CaixaBank" bank linking fails on desktop but works on mobile browser](https://github.com/actualbudget/actual/issues/8326) 💬 9 | [actualbudget/actual](https://github.com/actualbudget/actual) | 28.8k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use |
 | [[Bug]: All Accounts totals do not match when a closed account has a balance](https://github.com/actualbudget/actual/issues/5413) 💬 6 | [actualbudget/actual](https://github.com/actualbudget/actual) | 28.8k | 🟢 beginner | 2026-09-13 | 🤖 disclose AI use |
-| [Update speed tests to measure GPU performance for cuPQC code](https://github.com/open-quantum-safe/liboqs/issues/2160) 💬 41 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-09-13 |  |
 | [Adding QR-UOV](https://github.com/open-quantum-safe/liboqs/issues/2454) 💬 17 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-09-13 |  |
+| [Update speed tests to measure GPU performance for cuPQC code](https://github.com/open-quantum-safe/liboqs/issues/2160) 💬 41 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-09-13 |  |
 | [test_quicapi fails on AIX](https://github.com/openssl/openssl/issues/32506) 💬 35 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use · ✍️ CLA |
 | [[Bug]: Custom themes custom CSS leftovers when selecting stock theme](https://github.com/actualbudget/actual/issues/8896) 💬 4 | [actualbudget/actual](https://github.com/actualbudget/actual) | 28.8k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use |
 | [Build Error with new configuration BC-64 for Embarcadero-Borland Clang Compiler 64bit](https://github.com/openssl/openssl/issues/26452) 💬 10 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-09 | 🤖 disclose AI use · ✍️ CLA |
@@ -23,8 +24,6 @@
 | [Adding SDitH](https://github.com/open-quantum-safe/liboqs/issues/2453) 💬 2 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-09-09 |  |
 | [Adding FAEST](https://github.com/open-quantum-safe/liboqs/issues/2101) 💬 11 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-09-09 |  |
 | [Documentation regarding the 'OPENSSL_init_crypto' config handling is confusing](https://github.com/openssl/openssl/issues/32625) 💬 2 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-07 | 🤖 disclose AI use · ✍️ CLA |
-| [CRL scope check skips the IDP/cRLIssuer match for DPs without distributionPoint (RFC 5280 6.3.3 (b)(2)(i))](https://github.com/openssl/openssl/issues/32645) 💬 3 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-07 | 🤖 disclose AI use · ✍️ CLA |
-| [Large test input file distributed with latest 3.0/3.5 releases](https://github.com/openssl/openssl/issues/32603) 💬 4 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-07 | 🤖 disclose AI use · ✍️ CLA |
 | [[Bug]: Automatic scheduled transaction posting a day late— Desktop 26.9.0](https://github.com/actualbudget/actual/issues/8865) 💬 3 | [actualbudget/actual](https://github.com/actualbudget/actual) | 28.8k | 🟡 help wanted | 2026-09-05 | 🤖 disclose AI use |
 | [Provide Name property for all framework components](https://github.com/QuantConnect/Lean/issues/3839) 💬 3 | [QuantConnect/Lean](https://github.com/QuantConnect/Lean) | 21.6k | 🟢 beginner | 2026-09-01 |  |
 | [Consider bounded CBMC proofs for liboqs-owned code](https://github.com/open-quantum-safe/liboqs/issues/2504) 💬 1 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-08-21 |  |
@@ -64,7 +63,7 @@
 | [Add benchmarks for compilation](https://github.com/IntersectMBO/plutus/issues/6113) 💬 1 | [IntersectMBO/plutus](https://github.com/IntersectMBO/plutus) | 1.6k | 🟢 beginner | 2026-05-01 |  |
 | [Reduce code duplication between regular and data-backed constitution tests](https://github.com/IntersectMBO/plutus/issues/6787) | [IntersectMBO/plutus](https://github.com/IntersectMBO/plutus) | 1.6k | 🟢 beginner | 2026-05-01 |  |
 | [Add golden tests for the validation benchmarks](https://github.com/IntersectMBO/plutus/issues/6828) | [IntersectMBO/plutus](https://github.com/IntersectMBO/plutus) | 1.6k | 🟢 beginner | 2026-05-01 |  |
-| [Navigator - a minimap for the entire dataset](https://github.com/tradingview/lightweight-charts/issues/2083) 💬 1 | [tradingview/lightweight-charts](https://github.com/tradingview/lightweight-charts) | 17.2k | 🟡 help wanted | 2026-04-28 |  |
+| [Navigator - a minimap for the entire dataset](https://github.com/tradingview/lightweight-charts/issues/2083) 💬 1 | [tradingview/lightweight-charts](https://github.com/tradingview/lightweight-charts) | 17.3k | 🟡 help wanted | 2026-04-28 |  |
 | [Deterministic simulation testing foundations (madsim) for linera-core](https://github.com/linera-io/linera-protocol/issues/6108) | [linera-io/linera-protocol](https://github.com/linera-io/linera-protocol) | 32.1k | 🟡 help wanted | 2026-04-23 |  |
 | [Embedded links in PDF output do not work when page numbering is enabled](https://github.com/invoiceninja/invoiceninja/issues/7543) 💬 4 | [invoiceninja/invoiceninja](https://github.com/invoiceninja/invoiceninja) | 10.1k | 🟡 help wanted | 2026-04-10 | ✍️ CLA |
 | [LogLevel contains dead code due to redundant partition check](https://github.com/XRPLF/rippled/issues/6752) | [XRPLF/rippled](https://github.com/XRPLF/rippled) | 5.2k | 🟢 beginner | 2026-04-07 | 🔏 DCO |

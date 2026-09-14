@@ -1,8 +1,8 @@
 # Games and graphics issues
 
-**142** open issues (79 labeled for beginners) across **48** projects tagged with topics like `game`, `game-engine`, `gamedev`, `graphics`, `opengl`, `vulkan`.
+**140** open issues (77 labeled for beginners) across **48** projects tagged with topics like `game`, `game-engine`, `gamedev`, `graphics`, `opengl`, `vulkan`.
 
-> Updated automatically on **2026-09-13 20:28 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-14 11:33 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,10 +10,9 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [window.resize_increments miscalculates the window size for some values of window.padding](https://github.com/alacritty/alacritty/issues/9047) 💬 2 | [alacritty/alacritty](https://github.com/alacritty/alacritty) | 65.7k | 🟢 beginner | 2026-09-14 |  |
 | [Part: Datum and origin planes shouldn't be hidden after using them with boolean operations](https://github.com/FreeCAD/FreeCAD/issues/32651) | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.5k | 🟢 beginner | 2026-09-13 | ⚠️ AI restricted |
 | [OCC: Sweep using bezier curve bug](https://github.com/FreeCAD/FreeCAD/issues/5651) 💬 5 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.5k | 🟡 help wanted | 2026-09-13 | ⚠️ AI restricted |
-| [[Plugin] Dropdown and spinner are not fully hidden with 'isVisible: false' on creation](https://github.com/OpenRCT2/OpenRCT2/issues/27133) | [OpenRCT2/OpenRCT2](https://github.com/OpenRCT2/OpenRCT2) | 16.2k | 🟢 beginner | 2026-09-13 |  |
-| [window.resize_increments ignores window.padding](https://github.com/alacritty/alacritty/issues/9047) 💬 1 | [alacritty/alacritty](https://github.com/alacritty/alacritty) | 65.7k | 🟢 beginner | 2026-09-12 |  |
 | [VarSet: Drag-n-drop properties between Groups](https://github.com/FreeCAD/FreeCAD/issues/28578) 💬 2 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.5k | 🟢 beginner | 2026-09-12 | ⚠️ AI restricted |
 | [DXF: importing DXF files with large coordinates is problematic](https://github.com/FreeCAD/FreeCAD/issues/19326) 💬 2 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.5k | 🟡 help wanted | 2026-09-12 | ⚠️ AI restricted |
 | [TechDraw: not drawing all lines in view (OCC related: misclassified edges)](https://github.com/FreeCAD/FreeCAD/issues/6203) 💬 7 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.5k | 🟡 help wanted | 2026-09-12 | ⚠️ AI restricted |
@@ -25,7 +24,7 @@
 | [[BUG]: TOZEROY FILL IS FILLING AREAS OF THE PLOT THAT HAS NO DATA IN IT](https://github.com/plotly/plotly.py/issues/5632) 💬 9 | [plotly/plotly.py](https://github.com/plotly/plotly.py) | 18.8k | 🟢 beginner | 2026-09-12 |  |
 | [all *.json files are interpreted as objects](https://github.com/OpenRCT2/OpenRCT2/issues/16807) 💬 3 | [OpenRCT2/OpenRCT2](https://github.com/OpenRCT2/OpenRCT2) | 16.2k | 🟢 beginner | 2026-09-12 |  |
 | [PartDesign: Thickness Parameters 'Mode', 'Join Type', 'Intersection' could have tooltips](https://github.com/FreeCAD/FreeCAD/issues/23801) 💬 5 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.5k | 🟢 beginner | 2026-09-11 | ⚠️ AI restricted |
-| [[Godot] SDFGI broken with Intel Arc GPUs](https://github.com/Redot-Engine/redot-engine/issues/156) 💬 8 | [Redot-Engine/redot-engine](https://github.com/Redot-Engine/redot-engine) | 6k | 🟡 help wanted | 2026-09-11 | ⚠️ AI restricted |
+| [[Godot] SDFGI broken with Intel Arc GPUs](https://github.com/Redot-Engine/redot-engine/issues/156) 💬 8 | [Redot-Engine/redot-engine](https://github.com/Redot-Engine/redot-engine) | 6.1k | 🟡 help wanted | 2026-09-11 | ⚠️ AI restricted |
 | [Sketcher: Scale default shortcut (Z, P, S) conflicts with Rotate / Polar Transform (Z, P)](https://github.com/FreeCAD/FreeCAD/issues/32557) 💬 5 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.5k | 🟢 beginner | 2026-09-10 | ⚠️ AI restricted |
 | [Sketcher: Double-click selection includes wrong object types and impacts performance](https://github.com/FreeCAD/FreeCAD/issues/32248) 💬 2 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.5k | 🟢 beginner | 2026-09-10 | ⚠️ AI restricted |
 | [[2.x] Tracking issue for RID-related binary loading issues on Linux](https://github.com/dotnet/Silk.NET/issues/2610) 💬 2 | [dotnet/Silk.NET](https://github.com/dotnet/Silk.NET) | 5.2k | 🟢 beginner | 2026-09-10 | ✍️ CLA |
@@ -81,7 +80,7 @@
 | [WSL + ConPTY + vim -&gt; paste with blanks lines](https://github.com/alacritty/alacritty/issues/2324) 💬 68 | [alacritty/alacritty](https://github.com/alacritty/alacritty) | 65.7k | 🟡 help wanted | 2026-07-14 |  |
 | [Wine via homebrew on MacOS is being removed on 2026-09-01](https://github.com/MonoGame/MonoGame/issues/9424) 💬 4 | [MonoGame/MonoGame](https://github.com/MonoGame/MonoGame) | 14.4k | 🟡 help wanted | 2026-07-13 | ⚠️ AI restricted |
 | [AxesGris subdivide too much in certain situations](https://github.com/f3d-app/f3d/issues/3352) 💬 1 | [f3d-app/f3d](https://github.com/f3d-app/f3d) | 4.7k | 🟡 help wanted | 2026-07-11 | 🤖 disclose AI use |
-| [Ability to disable HDR rendering](https://github.com/FyroxEngine/Fyrox/issues/703) 💬 1 | [FyroxEngine/Fyrox](https://github.com/FyroxEngine/Fyrox) | 9.6k | 🟢 beginner | 2026-07-10 |  |
+| [Ability to disable HDR rendering](https://github.com/FyroxEngine/Fyrox/issues/703) 💬 1 | [FyroxEngine/Fyrox](https://github.com/FyroxEngine/Fyrox) | 9.5k | 🟢 beginner | 2026-07-10 |  |
 | [Problem with semaphore and validation layer when using multi viewports.](https://github.com/ocornut/imgui/issues/9349) 💬 3 | [ocornut/imgui](https://github.com/ocornut/imgui) | 76.2k | 🟡 help wanted | 2026-07-09 | ✍️ CLA |
 | [How to get the current directory from a session](https://github.com/alacritty/alacritty/issues/8885) 💬 4 | [alacritty/alacritty](https://github.com/alacritty/alacritty) | 65.7k | 🟢 beginner | 2026-07-08 |  |
 | [[PAID BOUNTY][LOCKED] MonoGame 2D advanced series - Networking](https://github.com/MonoGame/MonoGame/issues/8821) 💬 2 | [MonoGame/MonoGame](https://github.com/MonoGame/MonoGame) | 14.4k | 🟡 help wanted | 2026-07-08 | ⚠️ AI restricted |
@@ -98,7 +97,7 @@
 | [Allow UI setting to control max frame-rate](https://github.com/wesnoth/wesnoth/issues/2210) 💬 7 | [wesnoth/wesnoth](https://github.com/wesnoth/wesnoth) | 6.9k | 🟢 beginner | 2026-06-24 |  |
 | [Converging toward a principal Unreal Engine backend/binding for Dear ImGui?](https://github.com/ocornut/imgui/issues/9122) 💬 48 | [ocornut/imgui](https://github.com/ocornut/imgui) | 76.2k | 🟡 help wanted | 2026-06-21 | ✍️ CLA |
 | [Dying in Winterfall Village Cave takes you to Alterac graveyard](https://github.com/azerothcore/azerothcore-wotlk/issues/7014) 💬 7 | [azerothcore/azerothcore-wotlk](https://github.com/azerothcore/azerothcore-wotlk) | 8.9k | 🟢 beginner | 2026-06-21 |  |
-| [Projects cannot be removed from the project list.](https://github.com/Redot-Engine/redot-engine/issues/1240) 💬 3 | [Redot-Engine/redot-engine](https://github.com/Redot-Engine/redot-engine) | 6k | 🟡 help wanted | 2026-06-21 | ⚠️ AI restricted |
+| [Projects cannot be removed from the project list.](https://github.com/Redot-Engine/redot-engine/issues/1240) 💬 3 | [Redot-Engine/redot-engine](https://github.com/Redot-Engine/redot-engine) | 6.1k | 🟡 help wanted | 2026-06-21 | ⚠️ AI restricted |
 | [setAttributes() invalidates references to earlier canvases](https://github.com/processing/p5.js/issues/5902) 💬 8 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-06-20 | ⚠️ AI restricted |
 | [Add additional WebGL filter stress scenarios to visual regression suite](https://github.com/processing/p5.js/issues/8550) 💬 4 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-06-17 | ⚠️ AI restricted |
 | [fit addon resizes irratically moving up and down](https://github.com/xtermjs/xterm.js/issues/3584) 💬 3 | [xtermjs/xterm.js](https://github.com/xtermjs/xterm.js) | 21.2k | 🟡 help wanted | 2026-06-16 |  |
@@ -151,4 +150,3 @@
 | [Cursor extension on the extensions market](https://github.com/IvanMurzak/Unity-MCP/issues/614) | [IvanMurzak/Unity-MCP](https://github.com/IvanMurzak/Unity-MCP) | 4.3k | 🟡 help wanted | 2026-03-26 |  |
 | [Cells can fire toxins while they are dead](https://github.com/Revolutionary-Games/Thrive/issues/6837) | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) | 3.7k | 🟢 beginner | 2026-03-26 |  |
 | [Switch the readme build status badge to the new system](https://github.com/Revolutionary-Games/Thrive/issues/2267) 💬 4 | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) | 3.7k | 🟢 beginner | 2026-03-19 |  |
-| [Doubleclick to edit custom property key](https://github.com/mapeditor/tiled/issues/1662) 💬 10 | [mapeditor/tiled](https://github.com/mapeditor/tiled) | 12.9k | 🟢 beginner | 2026-03-18 |  |

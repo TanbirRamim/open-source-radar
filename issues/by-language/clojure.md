@@ -2,7 +2,7 @@
 
 **14** open issues (11 labeled for beginners) across **9** active Clojure projects.
 
-> Updated automatically on **2026-09-13 20:28 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-14 11:33 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -22,5 +22,5 @@
 | [Support a way to denylist imports/requires](https://github.com/clojure-lsp/clojure-lsp/issues/1997) 💬 9 | [clojure-lsp/clojure-lsp](https://github.com/clojure-lsp/clojure-lsp) | 1.3k | 🟢 beginner | 2026-07-10 |  |
 | [New linter for usage of prefix lists in require](https://github.com/clj-kondo/clj-kondo/issues/1137) 💬 5 | [clj-kondo/clj-kondo](https://github.com/clj-kondo/clj-kondo) | 1.9k | 🟡 help wanted | 2026-06-26 |  |
 | [Metadata: automatically set password fields to sensitive information](https://github.com/metabase/metabase/issues/1694) 💬 7 | [metabase/metabase](https://github.com/metabase/metabase) | 49.2k | 🟢 beginner | 2026-05-15 | ✍️ CLA |
-| [Web Search Tool](https://github.com/editor-code-assistant/eca/issues/70) 💬 6 | [editor-code-assistant/eca](https://github.com/editor-code-assistant/eca) | 991 | 🟢 beginner | 2026-04-22 |  |
+| [Web Search Tool](https://github.com/editor-code-assistant/eca/issues/70) 💬 6 | [editor-code-assistant/eca](https://github.com/editor-code-assistant/eca) | 992 | 🟢 beginner | 2026-04-22 |  |
 | [Exporting files with spaces on Windows machines will break the export](https://github.com/metabase/metabase/issues/38319) | [metabase/metabase](https://github.com/metabase/metabase) | 49.2k | 🟢 beginner | 2026-03-24 | ✍️ CLA |

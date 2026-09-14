@@ -1,8 +1,8 @@
 # C issues
 
-**164** open issues (45 labeled for beginners) across **69** active C projects.
+**162** open issues (45 labeled for beginners) across **68** active C projects.
 
-> Updated automatically on **2026-09-13 20:28 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-14 11:33 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,11 +10,12 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [Let a CMP client require EnvelopedData (reject EncryptedValue) for centrally generated keys](https://github.com/openssl/openssl/issues/32797) | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-14 | 🤖 disclose AI use · ✍️ CLA |
 | [RFC 9919: OCSP with SHA-256](https://github.com/openssl/openssl/issues/32813) | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use · ✍️ CLA |
 | [Backport 0c2a196af8 (per-OSSL_LIB_CTX CONF storage) to 3.0-3.6: conf_ssl.c double-free still present in all re](https://github.com/openssl/openssl/issues/32804) 💬 2 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use · ✍️ CLA |
-| [Update speed tests to measure GPU performance for cuPQC code](https://github.com/open-quantum-safe/liboqs/issues/2160) 💬 41 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-09-13 |  |
-| [Adding QR-UOV](https://github.com/open-quantum-safe/liboqs/issues/2454) 💬 17 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-09-13 |  |
 | [kew roadmap: "Project Joy"](https://github.com/ravachol/kew/issues/575) 💬 25 | [ravachol/kew](https://github.com/ravachol/kew) | 3.1k | 🟡 help wanted | 2026-09-13 |  |
+| [Adding QR-UOV](https://github.com/open-quantum-safe/liboqs/issues/2454) 💬 17 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-09-13 |  |
+| [Update speed tests to measure GPU performance for cuPQC code](https://github.com/open-quantum-safe/liboqs/issues/2160) 💬 41 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-09-13 |  |
 | [Suppress Warnings From libpng](https://github.com/php/php-src/issues/23674) 💬 1 | [php/php-src](https://github.com/php/php-src) | 40.4k | 🟢 beginner | 2026-09-12 | 🤖 disclose AI use |
 | [test_quicapi fails on AIX](https://github.com/openssl/openssl/issues/32506) 💬 35 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use · ✍️ CLA |
 | [分享一下我解决进不去里站的方法](https://github.com/xiaojieonly/Ehviewer_CN_SXJ/issues/96) 💬 55 | [xiaojieonly/Ehviewer_CN_SXJ](https://github.com/xiaojieonly/Ehviewer_CN_SXJ) | 26.9k | 🟡 help wanted | 2026-09-10 |  |
@@ -28,10 +29,8 @@
 | [Request for Guidance on GPL Compliance and Source Code Release – YUNZII Tri-Mode Boards](https://github.com/qmk/qmk_firmware/issues/25737) 💬 24 | [qmk/qmk_firmware](https://github.com/qmk/qmk_firmware) | 20.7k | 🟡 help wanted | 2026-09-08 |  |
 | [Document the SPSel = 0 / SP_EL0 requirement of the ARMv8-A ports](https://github.com/eclipse-threadx/threadx/issues/703) | [eclipse-threadx/threadx](https://github.com/eclipse-threadx/threadx) | 3.5k | 🟡 help wanted | 2026-09-08 | 🔏 DCO |
 | [Support TX_ENABLE_STACK_CHECKING for module threads](https://github.com/eclipse-threadx/threadx/issues/702) | [eclipse-threadx/threadx](https://github.com/eclipse-threadx/threadx) | 3.5k | 🟡 help wanted | 2026-09-08 | 🔏 DCO |
+| [[Experiment] expert-transition-history placement policy vs gate-momentum — controlled A/B for hypothesis #1](https://github.com/JustVugg/colibri/issues/708) 💬 11 | [JustVugg/colibri](https://github.com/JustVugg/colibri) | 30.9k | 🟡 help wanted | 2026-09-07 |  |
 | [Documentation regarding the 'OPENSSL_init_crypto' config handling is confusing](https://github.com/openssl/openssl/issues/32625) 💬 2 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-07 | 🤖 disclose AI use · ✍️ CLA |
-| [CRL scope check skips the IDP/cRLIssuer match for DPs without distributionPoint (RFC 5280 6.3.3 (b)(2)(i))](https://github.com/openssl/openssl/issues/32645) 💬 3 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-07 | 🤖 disclose AI use · ✍️ CLA |
-| [Large test input file distributed with latest 3.0/3.5 releases](https://github.com/openssl/openssl/issues/32603) 💬 4 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-07 | 🤖 disclose AI use · ✍️ CLA |
-| [[Experiment] expert-transition-history placement policy vs gate-momentum — controlled A/B for hypothesis #1](https://github.com/JustVugg/colibri/issues/708) 💬 11 | [JustVugg/colibri](https://github.com/JustVugg/colibri) | 29.5k | 🟡 help wanted | 2026-09-07 |  |
 | [FreeSWITCH Not Compliant with RFC3515 - Not Processing REFER - $250 Bounty](https://github.com/signalwire/freeswitch/issues/592) 💬 6 | [signalwire/freeswitch](https://github.com/signalwire/freeswitch) | 5.1k | 🟡 help wanted | 2026-09-07 |  |
 | [[Feature Request] Support configurable additional HID interfaces](https://github.com/qmk/qmk_firmware/issues/26363) 💬 2 | [qmk/qmk_firmware](https://github.com/qmk/qmk_firmware) | 20.7k | 🟡 help wanted | 2026-09-06 |  |
 | [Will open5gs team produce NEF(Network Exposure Function ) to meet MEC(edge computing) use case ？](https://github.com/open5gs/open5gs/issues/1663) 💬 2 | [open5gs/open5gs](https://github.com/open5gs/open5gs) | 2.7k | 🟡 help wanted | 2026-09-03 |  |
@@ -42,7 +41,7 @@
 | [APRS TX - GPS/Altitute field problem](https://github.com/portapack-mayhem/mayhem-firmware/issues/3300) | [portapack-mayhem/mayhem-firmware](https://github.com/portapack-mayhem/mayhem-firmware) | 5.4k | 🟢 beginner | 2026-08-31 |  |
 | [Implement connect redirect and bind redirect.](https://github.com/microsoft/ebpf-for-windows/issues/848) 💬 1 | [microsoft/ebpf-for-windows](https://github.com/microsoft/ebpf-for-windows) | 3.6k | 🟡 help wanted | 2026-08-31 | ✍️ CLA |
 | [[Bug] PC not waking up from sleep](https://github.com/qmk/qmk_firmware/issues/26429) | [qmk/qmk_firmware](https://github.com/qmk/qmk_firmware) | 20.7k | 🟡 help wanted | 2026-08-30 |  |
-| [Firewall rules for Windows 10 hotspot](https://github.com/henrypp/simplewall/issues/425) 💬 59 | [henrypp/simplewall](https://github.com/henrypp/simplewall) | 8.9k | 🟡 help wanted | 2026-08-30 |  |
+| [Firewall rules for Windows 10 hotspot](https://github.com/henrypp/simplewall/issues/425) 💬 59 | [henrypp/simplewall](https://github.com/henrypp/simplewall) | 9k | 🟡 help wanted | 2026-08-30 |  |
 | [Allow users to hide/remove unwanted apps from Command Palette search results](https://github.com/microsoft/PowerToys/issues/41497) 💬 12 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 138.6k | 🟡 help wanted | 2026-08-28 |  |
 | [Failing to use close-on-exec](https://github.com/microsoft/msquic/issues/4980) 💬 6 | [microsoft/msquic](https://github.com/microsoft/msquic) | 4.8k | 🟢 beginner | 2026-08-28 | ✍️ CLA |
 | [in-line emojis should have a larger font size](https://github.com/TryQuiet/quiet/issues/3416) 💬 2 | [TryQuiet/quiet](https://github.com/TryQuiet/quiet) | 2.6k | 🟢 beginner | 2026-08-28 |  |
@@ -138,7 +137,6 @@
 | [Rosetta Code Examples](https://github.com/janet-lang/janet/issues/227) 💬 10 | [janet-lang/janet](https://github.com/janet-lang/janet) | 4.4k | 🟡 help wanted | 2026-06-01 | 🤖 disclose AI use |
 | [Rework disassembly API](https://github.com/rizinorg/rizin/issues/3086) 💬 1 | [rizinorg/rizin](https://github.com/rizinorg/rizin) | 3.9k | 🟢 beginner | 2026-05-29 | 🤖 disclose AI use |
 | [Add support for Android](https://github.com/AltraMayor/f3/issues/209) 💬 6 | [AltraMayor/f3](https://github.com/AltraMayor/f3) | 3.4k | 🟡 help wanted | 2026-05-29 |  |
-| [Allow creation of NTFS filesystems on macOS (at least with 3rd party drivers)](https://github.com/veracrypt/VeraCrypt/issues/1355) 💬 1 | [veracrypt/VeraCrypt](https://github.com/veracrypt/VeraCrypt) | 11.6k | 🟡 help wanted | 2026-05-28 |  |
 | [Rename blacklist -&gt; blocklist, whitelist -&gt; allowlist](https://github.com/yugabyte/yugabyte-db/issues/4847) 💬 1 | [yugabyte/yugabyte-db](https://github.com/yugabyte/yugabyte-db) | 10.5k | 🟢 beginner | 2026-05-27 |  |
 | [Support in-memory certificate stores](https://github.com/microsoft/msquic/issues/4951) 💬 2 | [microsoft/msquic](https://github.com/microsoft/msquic) | 4.8k | 🟢 beginner | 2026-05-26 | ✍️ CLA |
 | [[YSQL] [Buffering] AbortSubTransaction flushes buffered operations instead of dropping them](https://github.com/yugabyte/yugabyte-db/issues/31655) 💬 1 | [yugabyte/yugabyte-db](https://github.com/yugabyte/yugabyte-db) | 10.5k | 🟢 beginner | 2026-05-21 |  |
@@ -152,7 +150,7 @@
 | [Feature Request: Add libnnzsrv.so (Oracle) TLS master secret extraction support](https://github.com/gojue/ecapture/issues/999) | [gojue/ecapture](https://github.com/gojue/ecapture) | 15.5k | 🟡 help wanted | 2026-05-08 |  |
 | [Use lmdb for shader cache](https://github.com/xemu-project/xemu/issues/2746) 💬 1 | [xemu-project/xemu](https://github.com/xemu-project/xemu) | 4.1k | 🟢 beginner | 2026-05-05 |  |
 | [Plugging in a joystick after the game starts.](https://github.com/chocolate-doom/chocolate-doom/issues/653) 💬 3 | [chocolate-doom/chocolate-doom](https://github.com/chocolate-doom/chocolate-doom) | 2.4k | 🟢 beginner | 2026-05-05 |  |
-| [IBM Linux on z SIMD optimization](https://github.com/facebook/zstd/issues/2679) 💬 8 | [facebook/zstd](https://github.com/facebook/zstd) | 27.8k | 🟡 help wanted | 2026-05-04 | ✍️ CLA |
+| [IBM Linux on z SIMD optimization](https://github.com/facebook/zstd/issues/2679) 💬 8 | [facebook/zstd](https://github.com/facebook/zstd) | 27.9k | 🟡 help wanted | 2026-05-04 | ✍️ CLA |
 | [Bank MSB shouldn't always be ignored in XG mode](https://github.com/FluidSynth/fluidsynth/issues/1378) 💬 25 | [FluidSynth/fluidsynth](https://github.com/FluidSynth/fluidsynth) | 2.5k | 🟡 help wanted | 2026-05-03 |  |
 | [Support file based DB backend (alternative to mongodb)](https://github.com/open5gs/open5gs/issues/1362) 💬 12 | [open5gs/open5gs](https://github.com/open5gs/open5gs) | 2.7k | 🟡 help wanted | 2026-05-01 |  |
 | [arm64 support on Windows](https://github.com/premake/premake-core/issues/2472) 💬 8 | [premake/premake-core](https://github.com/premake/premake-core) | 3.6k | 🟡 help wanted | 2026-04-25 |  |

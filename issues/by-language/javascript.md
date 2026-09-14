@@ -2,7 +2,7 @@
 
 **188** open issues (74 labeled for beginners) across **66** active JavaScript projects.
 
-> Updated automatically on **2026-09-13 20:28 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-14 11:33 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -40,9 +40,9 @@
 | [i18n: add a Swedish (sv) market mode](https://github.com/career-ops-hq/career-ops/issues/3847) | [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | 71.5k | 🟡 help wanted | 2026-09-04 |  |
 | [eBay Creating/Publishing Listings](https://github.com/PipedreamHQ/pipedream/issues/21896) | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-09-04 |  |
 | [Generate PDF/A compliant document](https://github.com/parallax/jsPDF/issues/2882) 💬 6 | [parallax/jsPDF](https://github.com/parallax/jsPDF) | 31.3k | 🟡 help wanted | 2026-09-03 |  |
-| [Backmerging Module Federation v2](https://github.com/webpack/webpack/issues/18809) 💬 20 | [webpack/webpack](https://github.com/webpack/webpack) | 66k | 🟡 help wanted | 2026-09-02 | 🤖 disclose AI use · ✍️ CLA |
-| [Support of asynchronous computation in DefinePlugin.runtimeValue](https://github.com/webpack/webpack/issues/16629) 💬 13 | [webpack/webpack](https://github.com/webpack/webpack) | 66k | 🟡 help wanted | 2026-09-02 | 🤖 disclose AI use · ✍️ CLA |
-| [Module Federation Share should support layers/issuerLayer](https://github.com/webpack/webpack/issues/18988) 💬 9 | [webpack/webpack](https://github.com/webpack/webpack) | 66k | 🟡 help wanted | 2026-09-02 | 🤖 disclose AI use · ✍️ CLA |
+| [Backmerging Module Federation v2](https://github.com/webpack/webpack/issues/18809) 💬 20 | [webpack/webpack](https://github.com/webpack/webpack) | 65.9k | 🟡 help wanted | 2026-09-02 | 🤖 disclose AI use · ✍️ CLA |
+| [Support of asynchronous computation in DefinePlugin.runtimeValue](https://github.com/webpack/webpack/issues/16629) 💬 13 | [webpack/webpack](https://github.com/webpack/webpack) | 65.9k | 🟡 help wanted | 2026-09-02 | 🤖 disclose AI use · ✍️ CLA |
+| [Module Federation Share should support layers/issuerLayer](https://github.com/webpack/webpack/issues/18988) 💬 9 | [webpack/webpack](https://github.com/webpack/webpack) | 65.9k | 🟡 help wanted | 2026-09-02 | 🤖 disclose AI use · ✍️ CLA |
 | [📝 Docs: Give props to non-OpenCollective sponsors, services](https://github.com/mochajs/mocha/issues/3627) 💬 7 | [mochajs/mocha](https://github.com/mochajs/mocha) | 22.9k | 🟢 beginner | 2026-09-02 | ✍️ CLA |
 | [Simplify vm.Module](https://github.com/nodejs/node/issues/43899) 💬 8 | [nodejs/node](https://github.com/nodejs/node) | 121.9k | 🟡 help wanted | 2026-09-01 | 🤖 disclose AI use · 🔏 DCO |
 | [Option to have a shared V8 library?](https://github.com/nodejs/node/issues/53509) 💬 17 | [nodejs/node](https://github.com/nodejs/node) | 121.9k | 🟡 help wanted | 2026-09-01 | 🤖 disclose AI use · 🔏 DCO |
@@ -115,18 +115,18 @@
 | [[NumberInput]: Disallow invalid & warn when readonly or disabled](https://github.com/carbon-design-system/carbon/issues/20729) 💬 2 | [carbon-design-system/carbon](https://github.com/carbon-design-system/carbon) | 9.5k | 🟢 beginner | 2026-08-06 | 🔏 DCO |
 | [[Bug] Opening popup triggers extension mode flip](https://github.com/openstyles/stylus/issues/1810) 💬 5 | [openstyles/stylus](https://github.com/openstyles/stylus) | 6.9k | 🟡 help wanted | 2026-08-06 |  |
 | [Fix broken Markdown link: https://bugzilla.mozilla.org/show_bug.cgi?id=892671](https://github.com/stdlib-js/stdlib/issues/11248) 💬 6 | [stdlib-js/stdlib](https://github.com/stdlib-js/stdlib) | 6k | 🟢 beginner | 2026-08-04 | 🤖 disclose AI use |
-| [[Help] 希望工具添加MCP的支持](https://github.com/viarotel-org/escrcpy/issues/614) 💬 1 | [viarotel-org/escrcpy](https://github.com/viarotel-org/escrcpy) | 11.7k | 🟡 help wanted | 2026-08-03 |  |
+| [[Help] 希望工具添加MCP的支持](https://github.com/viarotel-org/escrcpy/issues/614) 💬 1 | [viarotel-org/escrcpy](https://github.com/viarotel-org/escrcpy) | 11.8k | 🟡 help wanted | 2026-08-03 |  |
 | [[ACTION] Simplify Notion upload image affordance](https://github.com/PipedreamHQ/pipedream/issues/20537) 💬 2 | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-08-03 |  |
 | [[ACTION] DPD Shipping - Get Tracking Data with Weight (detail=3)](https://github.com/PipedreamHQ/pipedream/issues/21321) 💬 5 | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-08-03 |  |
 | [Sms8 - SMS GATEWAY: OTP & webhook](https://github.com/PipedreamHQ/pipedream/issues/20977) 💬 9 | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-08-03 |  |
-| [Add Reload File button, just call it Reload](https://github.com/Acode-Foundation/Acode/issues/2390) 💬 2 | [Acode-Foundation/Acode](https://github.com/Acode-Foundation/Acode) | 6.9k | 🟢 beginner | 2026-08-02 |  |
-| [Show errors in user friendly way](https://github.com/Acode-Foundation/Acode/issues/1800) 💬 2 | [Acode-Foundation/Acode](https://github.com/Acode-Foundation/Acode) | 6.9k | 🟢 beginner | 2026-07-31 |  |
+| [Add Reload File button, just call it Reload](https://github.com/Acode-Foundation/Acode/issues/2390) 💬 2 | [Acode-Foundation/Acode](https://github.com/Acode-Foundation/Acode) | 7k | 🟢 beginner | 2026-08-02 |  |
+| [Show errors in user friendly way](https://github.com/Acode-Foundation/Acode/issues/1800) 💬 2 | [Acode-Foundation/Acode](https://github.com/Acode-Foundation/Acode) | 7k | 🟢 beginner | 2026-07-31 |  |
 | [Open npmjs.com instead of asking for OTP](https://github.com/sindresorhus/np/issues/726) 💬 11 | [sindresorhus/np](https://github.com/sindresorhus/np) | 7.7k | 🟡 help wanted | 2026-07-28 |  |
 | [Request: a getSession method?](https://github.com/expressjs/session/issues/322) 💬 8 | [expressjs/session](https://github.com/expressjs/session) | 6.4k | 🟡 help wanted | 2026-07-25 |  |
 | [HDR support](https://github.com/xanderfrangos/twinkle-tray/issues/97) 💬 90 | [xanderfrangos/twinkle-tray](https://github.com/xanderfrangos/twinkle-tray) | 9k | 🟡 help wanted | 2026-07-23 |  |
 | [Document Http transfer](https://github.com/winstonjs/winston/issues/1118) 💬 4 | [winstonjs/winston](https://github.com/winstonjs/winston) | 24.5k | 🟡 help wanted | 2026-07-22 |  |
 | [Feature request: Automatically scroll down for highlighted matches on large output data](https://github.com/gchq/CyberChef/issues/1386) 💬 2 | [gchq/CyberChef](https://github.com/gchq/CyberChef) | 35.8k | 🟡 help wanted | 2026-07-21 | 🤖 disclose AI use · ✍️ CLA |
-| [[Help] 希望支持检测设备的性能](https://github.com/viarotel-org/escrcpy/issues/619) | [viarotel-org/escrcpy](https://github.com/viarotel-org/escrcpy) | 11.7k | 🟡 help wanted | 2026-07-21 |  |
+| [[Help] 希望支持检测设备的性能](https://github.com/viarotel-org/escrcpy/issues/619) | [viarotel-org/escrcpy](https://github.com/viarotel-org/escrcpy) | 11.8k | 🟡 help wanted | 2026-07-21 |  |
 | [Feature request: If CSS display:none causes failure, pull it into code snip.](https://github.com/dequelabs/axe-core/issues/598) 💬 5 | [dequelabs/axe-core](https://github.com/dequelabs/axe-core) | 7.5k | 🟡 help wanted | 2026-07-21 | ✍️ CLA |
 | [Getting an Electron crash, not sure how to further debug - help needed!](https://github.com/WiseLibs/better-sqlite3/issues/988) 💬 8 | [WiseLibs/better-sqlite3](https://github.com/WiseLibs/better-sqlite3) | 7.5k | 🟡 help wanted | 2026-07-21 |  |
 | [textAscent() and textDescent() broken if textSize &gt; 200](https://github.com/processing/p5.js/issues/8771) 💬 15 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-07-18 | ⚠️ AI restricted |
@@ -137,13 +137,13 @@
 | [[ACTION] Contacts+](https://github.com/PipedreamHQ/pipedream/issues/21328) 💬 2 | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-07-11 |  |
 | [Integration: Microsoft Login / MS Graph API](https://github.com/sahat/hackathon-starter/issues/1357) 💬 2 | [sahat/hackathon-starter](https://github.com/sahat/hackathon-starter) | 35.3k | 🟡 help wanted | 2026-07-09 |  |
 | [Label double moves on batch movement](https://github.com/bpmn-io/bpmn-js/issues/1766) 💬 3 | [bpmn-io/bpmn-js](https://github.com/bpmn-io/bpmn-js) | 9.7k | 🟢 beginner | 2026-07-08 |  |
-| [[Help] disable the physical touchscreen](https://github.com/viarotel-org/escrcpy/issues/613) 💬 2 | [viarotel-org/escrcpy](https://github.com/viarotel-org/escrcpy) | 11.7k | 🟡 help wanted | 2026-07-05 |  |
+| [[Help] disable the physical touchscreen](https://github.com/viarotel-org/escrcpy/issues/613) 💬 2 | [viarotel-org/escrcpy](https://github.com/viarotel-org/escrcpy) | 11.8k | 🟡 help wanted | 2026-07-05 |  |
 | [Option to drop traffic from unrecognized hostnames](https://github.com/sandstorm-io/sandstorm/issues/3620) 💬 1 | [sandstorm-io/sandstorm](https://github.com/sandstorm-io/sandstorm) | 7.1k | 🟢 beginner | 2026-07-03 |  |
 | ["See who has access" does not show/allow edit of permissions of users added directly](https://github.com/sandstorm-io/sandstorm/issues/3630) 💬 1 | [sandstorm-io/sandstorm](https://github.com/sandstorm-io/sandstorm) | 7.1k | 🟢 beginner | 2026-07-03 |  |
 | [clockTrackedDataSource tracks non-clock dataSources](https://github.com/CesiumGS/cesium/issues/11738) 💬 2 | [CesiumGS/cesium](https://github.com/CesiumGS/cesium) | 15.7k | 🟢 beginner | 2026-07-02 | ✍️ CLA |
 | [Scripts refuse to load due to unsafe eval](https://github.com/beautifier/js-beautify/issues/1319) 💬 4 | [beautifier/js-beautify](https://github.com/beautifier/js-beautify) | 9k | 🟡 help wanted | 2026-06-30 |  |
 | [Does this currently support babel/es2015/es6?](https://github.com/beautifier/js-beautify/issues/780) 💬 5 | [beautifier/js-beautify](https://github.com/beautifier/js-beautify) | 9k | 🟢 beginner | 2026-06-30 |  |
-| [Fully migrate to GitHub actions](https://github.com/isomorphic-git/isomorphic-git/issues/2266) | [isomorphic-git/isomorphic-git](https://github.com/isomorphic-git/isomorphic-git) | 8.3k | 🟡 help wanted | 2026-06-30 |  |
+| [Fully migrate to GitHub actions](https://github.com/isomorphic-git/isomorphic-git/issues/2266) | [isomorphic-git/isomorphic-git](https://github.com/isomorphic-git/isomorphic-git) | 8.4k | 🟡 help wanted | 2026-06-30 |  |
 | [Large graph layout performance](https://github.com/lutzroeder/netron/issues/1369) | [lutzroeder/netron](https://github.com/lutzroeder/netron) | 33.5k | 🟡 help wanted | 2026-06-29 |  |
 | [GitHub 提问 (Issue) 高质量操作指南](https://github.com/justlovemaki/AIClient2API/issues/128) 💬 2 | [justlovemaki/AIClient2API](https://github.com/justlovemaki/AIClient2API) | 8.8k | 🟢 beginner | 2026-06-29 |  |
 | [manage: Promise was rejected because the browsing context is going away](https://github.com/openstyles/stylus/issues/2152) 💬 1 | [openstyles/stylus](https://github.com/openstyles/stylus) | 6.9k | 🟡 help wanted | 2026-06-29 |  |
@@ -161,7 +161,7 @@
 | [Pull a whatsapp conversation](https://github.com/PipedreamHQ/pipedream/issues/20799) 💬 2 | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-06-15 |  |
 | [handling impact of isInputPending on long tasks metrics?](https://github.com/GoogleChrome/lighthouse/issues/11747) 💬 5 | [GoogleChrome/lighthouse](https://github.com/GoogleChrome/lighthouse) | 30.8k | 🟢 beginner | 2026-06-11 | ✍️ CLA |
 | [Add Gradients for Fill and Strokes](https://github.com/processing/p5.js/issues/7313) 💬 7 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-06-10 | ⚠️ AI restricted |
-| [improvements to programmatic flows API - addflow/removeflow](https://github.com/node-red/node-red/issues/1372) 💬 4 | [node-red/node-red](https://github.com/node-red/node-red) | 23.6k | 🟢 beginner | 2026-06-10 | ✍️ CLA |
+| [improvements to programmatic flows API - addflow/removeflow](https://github.com/node-red/node-red/issues/1372) 💬 4 | [node-red/node-red](https://github.com/node-red/node-red) | 23.7k | 🟢 beginner | 2026-06-10 | ✍️ CLA |
 | [WebGL Error Triggered by 'noSmooth()' Invocation Between Framebuffer Creation and Drawing on Framebuffer](https://github.com/processing/p5.js/issues/6369) 💬 2 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-06-09 | ⚠️ AI restricted |
 | [difference between inline and inline-block should include discussion about replaced / non-replaced elements](https://github.com/yangshun/front-end-interview-handbook/issues/160) 💬 3 | [yangshun/front-end-interview-handbook](https://github.com/yangshun/front-end-interview-handbook) | 44k | 🟡 help wanted | 2026-06-05 |  |
 | [这是什么情况？](https://github.com/maillab/cloud-mail/issues/430) 💬 1 | [maillab/cloud-mail](https://github.com/maillab/cloud-mail) | 14.2k | 🟡 help wanted | 2026-06-03 |  |
@@ -186,7 +186,7 @@
 | [Documentation Translation (we first need committed translators)](https://github.com/highlightjs/highlight.js/issues/2777) 💬 22 | [highlightjs/highlight.js](https://github.com/highlightjs/highlight.js) | 25k | 🟢 beginner | 2026-04-16 | 🤖 disclose AI use |
 | [Better SEARCH documentation](https://github.com/AlaSQL/alasql/issues/838) 💬 10 | [AlaSQL/alasql](https://github.com/AlaSQL/alasql) | 7.3k | 🟡 help wanted | 2026-04-09 |  |
 | [Exposing menu opening delay as an option](https://github.com/jquery/jquery-ui/issues/2395) 💬 4 | [jquery/jquery-ui](https://github.com/jquery/jquery-ui) | 11.3k | 🟡 help wanted | 2026-04-07 | ✍️ CLA |
-| [[Help] better uninstallation support](https://github.com/viarotel-org/escrcpy/issues/565) 💬 2 | [viarotel-org/escrcpy](https://github.com/viarotel-org/escrcpy) | 11.7k | 🟡 help wanted | 2026-04-04 |  |
+| [[Help] better uninstallation support](https://github.com/viarotel-org/escrcpy/issues/565) 💬 2 | [viarotel-org/escrcpy](https://github.com/viarotel-org/escrcpy) | 11.8k | 🟡 help wanted | 2026-04-04 |  |
 | [Temporal implementation in core-js](https://github.com/zloirock/core-js/issues/365) 💬 19 | [zloirock/core-js](https://github.com/zloirock/core-js) | 25.5k | 🟡 help wanted | 2026-04-02 |  |
 | [Allow a monitor to be dragged on top of the hierarchy](https://github.com/louislam/uptime-kuma/issues/7062) | [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) | 91.3k | 🟡 help wanted | 2026-04-01 | ⚠️ AI restricted |
 | [Tensor visualization](https://github.com/lutzroeder/netron/issues/65) 💬 1 | [lutzroeder/netron](https://github.com/lutzroeder/netron) | 33.5k | 🟡 help wanted | 2026-03-29 |  |

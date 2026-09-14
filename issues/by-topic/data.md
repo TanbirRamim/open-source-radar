@@ -2,7 +2,7 @@
 
 **307** open issues (151 labeled for beginners) across **90** projects tagged with topics like `database`, `sql`, `postgresql`, `mysql`, `sqlite`, `nosql`.
 
-> Updated automatically on **2026-09-13 20:28 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-14 11:33 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,13 +10,13 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [postgres/sqlalchemy display of timestamptz loses my local timezone](https://github.com/marimo-team/marimo/issues/6250) 💬 10 | [marimo-team/marimo](https://github.com/marimo-team/marimo) | 22.7k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use · ✍️ CLA |
-| [[data_editor] Checkbox and dropdown elements in data_editor columns](https://github.com/marimo-team/marimo/issues/6694) 💬 8 | [marimo-team/marimo](https://github.com/marimo-team/marimo) | 22.7k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use · ✍️ CLA |
+| [[UI] Loop tasks inside Gantt should have a link to all loop sub-executions](https://github.com/kestra-io/kestra/issues/18402) | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-14 |  |
+| [Docs components: replace explicit 'any' with real types](https://github.com/kestra-io/kestra/issues/19299) 💬 2 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-14 |  |
+| [postgres/sqlalchemy display of timestamptz loses my local timezone](https://github.com/marimo-team/marimo/issues/6250) 💬 10 | [marimo-team/marimo](https://github.com/marimo-team/marimo) | 22.8k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use · ✍️ CLA |
+| [[data_editor] Checkbox and dropdown elements in data_editor columns](https://github.com/marimo-team/marimo/issues/6694) 💬 8 | [marimo-team/marimo](https://github.com/marimo-team/marimo) | 22.8k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use · ✍️ CLA |
 | [add Notion database MCP server in Gemini CLI extensions](https://github.com/googleapis/mcp-toolbox/issues/1699) 💬 2 | [googleapis/mcp-toolbox](https://github.com/googleapis/mcp-toolbox) | 16.4k | 🟡 help wanted | 2026-09-13 | ✍️ CLA |
 | [Python Interface for IO extensions](https://github.com/Eventual-Inc/Daft/issues/7335) 💬 1 | [Eventual-Inc/Daft](https://github.com/Eventual-Inc/Daft) | 5.8k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use |
 | [Default to listening on ::](https://github.com/dragonflydb/dragonfly/issues/8266) 💬 3 | [dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly) | 31.5k | 🟢 beginner | 2026-09-12 | ✍️ CLA · 🔏 DCO |
-| [Dashboard components: replace explicit 'any' with real types](https://github.com/kestra-io/kestra/issues/19288) 💬 1 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-12 |  |
-| [Docs components: replace explicit 'any' with real types](https://github.com/kestra-io/kestra/issues/19299) 💬 1 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-12 |  |
 | [Feature request: add jitter to refresh interval of individual panels](https://github.com/grafana/grafana/issues/83019) 💬 8 | [grafana/grafana](https://github.com/grafana/grafana) | 76.7k | 🟡 help wanted | 2026-09-11 | ✍️ CLA |
 | [verbose mode partition commands with wrong partition identifier](https://github.com/ClickHouse/ClickHouse/issues/6743) 💬 2 | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 49.9k | 🟢 beginner | 2026-09-11 | 🤖 disclose AI use · ✍️ CLA |
 | [Add function to check if an IPv4/6 is in a list of subnets](https://github.com/ClickHouse/ClickHouse/issues/6808) 💬 4 | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 49.9k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use · ✍️ CLA |
@@ -66,7 +66,7 @@
 | [M2A Relation Display Not Showing Properly](https://github.com/directus/directus/issues/25348) 💬 5 | [directus/directus](https://github.com/directus/directus) | 37.9k | 🟡 help wanted | 2026-09-02 |  |
 | [Postgresql : Can't update row with an empty array](https://github.com/sequelize/sequelize/issues/11748) 💬 6 | [sequelize/sequelize](https://github.com/sequelize/sequelize) | 30.4k | 🟢 beginner | 2026-09-02 |  |
 | [Alternative query result format other than []dict](https://github.com/googleapis/mcp-toolbox/issues/1537) 💬 6 | [googleapis/mcp-toolbox](https://github.com/googleapis/mcp-toolbox) | 16.4k | 🟡 help wanted | 2026-09-02 | ✍️ CLA |
-| [GCS needs someone with a real bucket to run its test](https://github.com/deeplethe/utopia/issues/214) | [deeplethe/utopia](https://github.com/deeplethe/utopia) | 7.3k | 🟡 help wanted | 2026-09-02 | ✍️ CLA · 🔏 DCO |
+| [GCS needs someone with a real bucket to run its test](https://github.com/deeplethe/utopia/issues/214) | [deeplethe/utopia](https://github.com/deeplethe/utopia) | 7.4k | 🟡 help wanted | 2026-09-02 | ✍️ CLA · 🔏 DCO |
 | [Improve logging for circuit breakers](https://github.com/elastic/elasticsearch/issues/62452) 💬 11 | [elastic/elasticsearch](https://github.com/elastic/elasticsearch) | 77.9k | 🟡 help wanted | 2026-09-01 | ✍️ CLA |
 | [Add resource ID to 404 response body](https://github.com/elastic/elasticsearch/issues/82675) 💬 17 | [elastic/elasticsearch](https://github.com/elastic/elasticsearch) | 77.9k | 🟡 help wanted | 2026-09-01 | ✍️ CLA |
 | [Replace azure-cosmos by azure-mgmt-cosmosdb](https://github.com/apache/airflow/issues/9742) 💬 7 | [apache/airflow](https://github.com/apache/airflow) | 46.8k | 🟢 beginner | 2026-09-01 | 🤖 disclose AI use · ✍️ CLA |
@@ -85,7 +85,7 @@
 | [Separate windows for editor and results](https://github.com/dbeaver/dbeaver/issues/34959) 💬 10 | [dbeaver/dbeaver](https://github.com/dbeaver/dbeaver) | 51.7k | 🟡 help wanted | 2026-08-27 | 🤖 disclose AI use |
 | [I kinda wanna be able to use CMD + W to close tabs](https://github.com/PostHog/posthog/issues/76278) 💬 3 | [PostHog/posthog](https://github.com/PostHog/posthog) | 39.8k | 🟢 beginner | 2026-08-26 | ⚠️ AI restricted |
 | [Feature Request: Support multiple SQL statements in single Exec() call](https://github.com/tursodatabase/turso/issues/1440) 💬 3 | [tursodatabase/turso](https://github.com/tursodatabase/turso) | 24.3k | 🟡 help wanted | 2026-08-26 | 🤖 disclose AI use |
-| [CSS variables for code cell theming customization](https://github.com/marimo-team/marimo/issues/6526) 💬 6 | [marimo-team/marimo](https://github.com/marimo-team/marimo) | 22.7k | 🟡 help wanted | 2026-08-26 | 🤖 disclose AI use · ✍️ CLA |
+| [CSS variables for code cell theming customization](https://github.com/marimo-team/marimo/issues/6526) 💬 6 | [marimo-team/marimo](https://github.com/marimo-team/marimo) | 22.8k | 🟡 help wanted | 2026-08-26 | 🤖 disclose AI use · ✍️ CLA |
 | [Make the Document binary serialization format more compact.](https://github.com/quickwit-oss/tantivy/issues/903) 💬 6 | [quickwit-oss/tantivy](https://github.com/quickwit-oss/tantivy) | 16.1k | 🟢 beginner | 2026-08-26 |  |
 | [Deprecate native ltree support in the ParadeDB index in favor of bitmap intersection](https://github.com/paradedb/paradedb/issues/6093) | [paradedb/paradedb](https://github.com/paradedb/paradedb) | 9.3k | 🟢 beginner | 2026-08-26 | ✍️ CLA |
 | [Support ADBC reads and writes from databases](https://github.com/Eventual-Inc/Daft/issues/7347) 💬 3 | [Eventual-Inc/Daft](https://github.com/Eventual-Inc/Daft) | 5.8k | 🟡 help wanted | 2026-08-26 | 🤖 disclose AI use |
@@ -96,7 +96,6 @@
 | [[Ideas Wanted] Generically accepting a &Pool or &mut Connection and allowing the argument to be used more than](https://github.com/transact-rs/sqlx/issues/419) 💬 21 | [transact-rs/sqlx](https://github.com/transact-rs/sqlx) | 17.5k | 🟡 help wanted | 2026-08-24 |  |
 | [[BUG] backup fails with —trx-table](https://github.com/mydumper/mydumper/issues/2301) 💬 13 | [mydumper/mydumper](https://github.com/mydumper/mydumper) | 3.2k | 🟡 help wanted | 2026-08-24 |  |
 | [Preparing a statement is slower than with SQLite](https://github.com/tursodatabase/turso/issues/220) 💬 6 | [tursodatabase/turso](https://github.com/tursodatabase/turso) | 24.3k | 🟢 beginner | 2026-08-23 | 🤖 disclose AI use |
-| [Pyroscope/flamegraph: Move "other" out of the TOP table and explain it better](https://github.com/grafana/grafana/issues/110677) 💬 4 | [grafana/grafana](https://github.com/grafana/grafana) | 76.7k | 🟢 beginner | 2026-08-22 | ✍️ CLA |
 | [Support for greek locale](https://github.com/dbeaver/dbeaver/issues/7932) 💬 4 | [dbeaver/dbeaver](https://github.com/dbeaver/dbeaver) | 51.7k | 🟡 help wanted | 2026-08-21 | 🤖 disclose AI use |
 | [SQL Server CDC: silent data loss when upstream disables CDC on a captured table](https://github.com/risingwavelabs/risingwave/issues/25828) 💬 6 | [risingwavelabs/risingwave](https://github.com/risingwavelabs/risingwave) | 9.3k | 🟢 beginner | 2026-08-21 | ✍️ CLA |
 | [Search - Use the same words for criteria in "Products search" and in the product page (and edition page)](https://github.com/openfoodfacts/openfoodfacts-server/issues/17) | [openfoodfacts/openfoodfacts-server](https://github.com/openfoodfacts/openfoodfacts-server) | 1.2k | 🟢 beginner | 2026-08-21 | 🤖 disclose AI use |
@@ -125,7 +124,7 @@
 | [changefeedccl: make a changefeed setting for sink IO workers](https://github.com/cockroachdb/cockroach/issues/154546) 💬 6 | [cockroachdb/cockroach](https://github.com/cockroachdb/cockroach) | 32.5k | 🟢 beginner | 2026-08-12 | ✍️ CLA |
 | [Better "No product" experience](https://github.com/openfoodfacts/openfoodfacts-server/issues/1505) | [openfoodfacts/openfoodfacts-server](https://github.com/openfoodfacts/openfoodfacts-server) | 1.2k | 🟡 help wanted | 2026-08-11 | 🤖 disclose AI use |
 | [Bundle TypeScript type definitions with the package](https://github.com/WiseLibs/better-sqlite3/issues/423) 💬 11 | [WiseLibs/better-sqlite3](https://github.com/WiseLibs/better-sqlite3) | 7.5k | 🟡 help wanted | 2026-08-10 |  |
-| [Notebooks using 'query_params' do not update on browser navigation changes](https://github.com/marimo-team/marimo/issues/4153) 💬 5 | [marimo-team/marimo](https://github.com/marimo-team/marimo) | 22.7k | 🟡 help wanted | 2026-08-09 | 🤖 disclose AI use · ✍️ CLA |
+| [Notebooks using 'query_params' do not update on browser navigation changes](https://github.com/marimo-team/marimo/issues/4153) 💬 5 | [marimo-team/marimo](https://github.com/marimo-team/marimo) | 22.8k | 🟡 help wanted | 2026-08-09 | 🤖 disclose AI use · ✍️ CLA |
 | [seaorm-cli codegen maps col(big_unsigned(..)) to i64](https://github.com/SeaQL/sea-orm/issues/2494) 💬 3 | [SeaQL/sea-orm](https://github.com/SeaQL/sea-orm) | 9.9k | 🟡 help wanted | 2026-08-09 |  |
 | [Should we use the new 'expectedVisitedNodes' estimator to speed up filtered vector search?](https://github.com/apache/lucene/issues/14845) 💬 8 | [apache/lucene](https://github.com/apache/lucene) | 3.6k | 🟢 beginner | 2026-08-09 | 🤖 disclose AI use · ✍️ CLA |
 | [Confirgurable default branch prefixes/names](https://github.com/PostHog/posthog/issues/76277) 💬 4 | [PostHog/posthog](https://github.com/PostHog/posthog) | 39.8k | 🟢 beginner | 2026-08-08 | ⚠️ AI restricted |
@@ -140,7 +139,7 @@
 | [在Dbeaver中，不能下载、使用最新驱动](https://github.com/taosdata/TDengine/issues/35396) 💬 2 | [taosdata/TDengine](https://github.com/taosdata/TDengine) | 25.1k | 🟡 help wanted | 2026-08-04 |  |
 | [Serverless driver re-prepare support](https://github.com/tursodatabase/turso/issues/2573) | [tursodatabase/turso](https://github.com/tursodatabase/turso) | 24.3k | 🟡 help wanted | 2026-08-04 | 🤖 disclose AI use |
 | [Turso's case-insensitive behaviour for tables and views does not match SQLite](https://github.com/tursodatabase/turso/issues/5730) 💬 2 | [tursodatabase/turso](https://github.com/tursodatabase/turso) | 24.3k | 🟢 beginner | 2026-08-03 | 🤖 disclose AI use |
-| [MessagePack codec (or VRL functions)](https://github.com/vectordotdev/vector/issues/8675) 💬 4 | [vectordotdev/vector](https://github.com/vectordotdev/vector) | 22.5k | 🟢 beginner | 2026-08-03 | 📄 AI policy · ✍️ CLA |
+| [MessagePack codec (or VRL functions)](https://github.com/vectordotdev/vector/issues/8675) 💬 4 | [vectordotdev/vector](https://github.com/vectordotdev/vector) | 22.6k | 🟢 beginner | 2026-08-03 | 📄 AI policy · ✍️ CLA |
 | [Multi-label updates](https://github.com/FalkorDB/FalkorDB/issues/284) 💬 8 | [FalkorDB/FalkorDB](https://github.com/FalkorDB/FalkorDB) | 6.1k | 🟡 help wanted | 2026-08-03 |  |
 | [Consider RDF/SPARQL support](https://github.com/FalkorDB/FalkorDB/issues/173) 💬 2 | [FalkorDB/FalkorDB](https://github.com/FalkorDB/FalkorDB) | 6.1k | 🟡 help wanted | 2026-08-03 |  |
 | ["WHERE NOT (node)-[]-&gt;()" much slower than "OUTDEGREE(node)=0"](https://github.com/FalkorDB/FalkorDB/issues/146) 💬 1 | [FalkorDB/FalkorDB](https://github.com/FalkorDB/FalkorDB) | 6.1k | 🟡 help wanted | 2026-08-03 |  |
@@ -158,8 +157,8 @@
 | [[Feature Request] Support additional generation expressions for automatic data skipping](https://github.com/delta-io/delta/issues/1442) 💬 7 | [delta-io/delta](https://github.com/delta-io/delta) | 9k | 🟢 beginner | 2026-07-29 | 🔏 DCO |
 | [Migrate 'locale' and 'is_qbnewb' columns in 'core_user' table to User-local settings](https://github.com/metabase/metabase/issues/20604) 💬 4 | [metabase/metabase](https://github.com/metabase/metabase) | 49.2k | 🟢 beginner | 2026-07-27 | ✍️ CLA |
 | [Shared page cache support?](https://github.com/tursodatabase/turso/issues/318) 💬 1 | [tursodatabase/turso](https://github.com/tursodatabase/turso) | 24.3k | 🟡 help wanted | 2026-07-27 | 🤖 disclose AI use |
-| [mo.ui.slider with very small step value does not work](https://github.com/marimo-team/marimo/issues/2593) 💬 6 | [marimo-team/marimo](https://github.com/marimo-team/marimo) | 22.7k | 🟢 beginner | 2026-07-26 | 🤖 disclose AI use · ✍️ CLA |
-| [Save markdown heading collapsed states](https://github.com/marimo-team/marimo/issues/3825) 💬 3 | [marimo-team/marimo](https://github.com/marimo-team/marimo) | 22.7k | 🟡 help wanted | 2026-07-25 | 🤖 disclose AI use · ✍️ CLA |
+| [mo.ui.slider with very small step value does not work](https://github.com/marimo-team/marimo/issues/2593) 💬 6 | [marimo-team/marimo](https://github.com/marimo-team/marimo) | 22.8k | 🟢 beginner | 2026-07-26 | 🤖 disclose AI use · ✍️ CLA |
+| [Save markdown heading collapsed states](https://github.com/marimo-team/marimo/issues/3825) 💬 3 | [marimo-team/marimo](https://github.com/marimo-team/marimo) | 22.8k | 🟡 help wanted | 2026-07-25 | 🤖 disclose AI use · ✍️ CLA |
 | [Add a Python client library](https://github.com/cube-js/cube/issues/1744) 💬 13 | [cube-js/cube](https://github.com/cube-js/cube) | 20.8k | 🟡 help wanted | 2026-07-23 | 🔏 DCO |
 | [TestLoad* failures: unexpected path expansion](https://github.com/ent/ent/issues/3013) 💬 6 | [ent/ent](https://github.com/ent/ent) | 17.2k | 🟢 beginner | 2026-07-23 | ✍️ CLA |
 | [delete_many() with 'exec_with_returning' with '.filter()' won't return the deleted entry](https://github.com/SeaQL/sea-orm/issues/3046) 💬 3 | [SeaQL/sea-orm](https://github.com/SeaQL/sea-orm) | 9.9k | 🟡 help wanted | 2026-07-23 |  |
@@ -198,7 +197,7 @@
 | [Add 'cargo-dist' packaging for 'limbo' and 'liblimbo_sqlite3.a'](https://github.com/tursodatabase/turso/issues/162) 💬 3 | [tursodatabase/turso](https://github.com/tursodatabase/turso) | 24.3k | 🟢 beginner | 2026-07-01 | 🤖 disclose AI use |
 | [libuv example](https://github.com/tursodatabase/turso/issues/48) 💬 2 | [tursodatabase/turso](https://github.com/tursodatabase/turso) | 24.3k | 🟡 help wanted | 2026-07-01 | 🤖 disclose AI use |
 | [Subquery support](https://github.com/tursodatabase/turso/issues/34) 💬 2 | [tursodatabase/turso](https://github.com/tursodatabase/turso) | 24.3k | 🟡 help wanted | 2026-07-01 | 🤖 disclose AI use |
-| [Marimo Static HTML Export with dynamic mo.ui.tabs](https://github.com/marimo-team/marimo/issues/6076) | [marimo-team/marimo](https://github.com/marimo-team/marimo) | 22.7k | 🟡 help wanted | 2026-07-01 | 🤖 disclose AI use · ✍️ CLA |
+| [Marimo Static HTML Export with dynamic mo.ui.tabs](https://github.com/marimo-team/marimo/issues/6076) | [marimo-team/marimo](https://github.com/marimo-team/marimo) | 22.8k | 🟡 help wanted | 2026-07-01 | 🤖 disclose AI use · ✍️ CLA |
 | [咨询是否存在文件句柄超限问题](https://github.com/taosdata/TDengine/issues/35377) 💬 1 | [taosdata/TDengine](https://github.com/taosdata/TDengine) | 25.1k | 🟡 help wanted | 2026-06-30 |  |
 | [Optimize GROUP BY with LIMIT but no ORDER BY to keep only k groups](https://github.com/crate/crate/issues/16827) 💬 5 | [crate/crate](https://github.com/crate/crate) | 4.4k | 🟡 help wanted | 2026-06-30 | ⚠️ AI restricted · ✍️ CLA |
 | [Make Limbo core 'no_std'](https://github.com/tursodatabase/turso/issues/442) 💬 2 | [tursodatabase/turso](https://github.com/tursodatabase/turso) | 24.3k | 🟡 help wanted | 2026-06-28 | 🤖 disclose AI use |
@@ -210,5 +209,6 @@
 | [NEW DESIGN - We should try to display cards when JavaScript is disabled](https://github.com/openfoodfacts/openfoodfacts-server/issues/7503) 💬 3 | [openfoodfacts/openfoodfacts-server](https://github.com/openfoodfacts/openfoodfacts-server) | 1.2k | 🟢 beginner | 2026-06-28 | 🤖 disclose AI use |
 | [Feature: add sample directory with jupyter notebook](https://github.com/databendlabs/databend/issues/17460) 💬 2 | [databendlabs/databend](https://github.com/databendlabs/databend) | 9.4k | 🟢 beginner | 2026-06-27 | 📄 AI policy · ✍️ CLA |
 | [[BUG] ERROR 1064 .......'MASTER STATUS'](https://github.com/mydumper/mydumper/issues/2288) 💬 6 | [mydumper/mydumper](https://github.com/mydumper/mydumper) | 3.2k | 🟡 help wanted | 2026-06-26 |  |
+| [[FEA] Port the logic at page_data.cu:282 to use 'thread_group's and avoid the magic 32 multiples.](https://github.com/NVIDIA/cudf/issues/16235) | [NVIDIA/cudf](https://github.com/NVIDIA/cudf) | 9.8k | 🟢 beginner | 2026-06-23 |  |
 
 Showing the 200 most recently updated. See all 307 on the website.

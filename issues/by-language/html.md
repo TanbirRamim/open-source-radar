@@ -1,8 +1,8 @@
 # HTML issues
 
-**88** open issues (31 labeled for beginners) across **36** active HTML projects.
+**87** open issues (31 labeled for beginners) across **36** active HTML projects.
 
-> Updated automatically on **2026-09-13 20:28 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-14 11:33 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,11 +10,11 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [输入 【介绍一下html-anything】，导出html单文件出现错误 1. 第一页只展示一半 2. 左右键不起作用 3. 从第二页开始都是黑底空白页 4. 。。。。。。](https://github.com/nexu-io/html-anything/issues/152) 💬 2 | [nexu-io/html-anything](https://github.com/nexu-io/html-anything) | 8.8k | 🟡 help wanted | 2026-09-14 | ✍️ CLA |
 | [[🚀 Feature]: Fixing Accessibility Issues On Selenium Website](https://github.com/SeleniumHQ/seleniumhq.github.io/issues/2486) 💬 6 | [SeleniumHQ/seleniumhq.github.io](https://github.com/SeleniumHQ/seleniumhq.github.io) | 1.4k | 🟡 help wanted | 2026-09-11 |  |
 | [switch cutout for back body plate doesn't fit switch](https://github.com/nasa-jpl/open-source-rover/issues/499) 💬 3 | [nasa-jpl/open-source-rover](https://github.com/nasa-jpl/open-source-rover) | 9.6k | 🟡 help wanted | 2026-09-10 |  |
 | [[Initiative]: Scale and performance testing guidance](https://github.com/cncf/toc/issues/2233) 💬 2 | [cncf/toc](https://github.com/cncf/toc) | 1.9k | 🟡 help wanted | 2026-09-10 |  |
 | [Headscale with reverse proxy Zoraxy not working because allegedly WebSockets are not passing through](https://github.com/tobychui/zoraxy/issues/1012) 💬 9 | [tobychui/zoraxy](https://github.com/tobychui/zoraxy) | 5.5k | 🟡 help wanted | 2026-09-09 |  |
-| [(1.37) Move resource managers page to new section](https://github.com/kubernetes/website/issues/56615) 💬 4 | [kubernetes/website](https://github.com/kubernetes/website) | 5.4k | 🟡 help wanted | 2026-09-09 |  |
 | [Check for obsoletes](https://github.com/mgaudet/CompilerJobs/issues/83) 💬 5 | [mgaudet/CompilerJobs](https://github.com/mgaudet/CompilerJobs) | 780 | 🟢 beginner | 2026-09-08 |  |
 | [Service Worker Offline](https://github.com/TandoorRecipes/recipes/issues/621) 💬 6 | [TandoorRecipes/recipes](https://github.com/TandoorRecipes/recipes) | 8.6k | 🟢 beginner | 2026-09-06 |  |
 | [[Initiative]: Cloud Native Observability Personas](https://github.com/cncf/toc/issues/2037) 💬 8 | [cncf/toc](https://github.com/cncf/toc) | 1.9k | 🟡 help wanted | 2026-09-03 |  |
@@ -23,7 +23,6 @@
 | [Add play store promo](https://github.com/openfoodfacts/openfoodfacts-server/issues/604) 💬 6 | [openfoodfacts/openfoodfacts-server](https://github.com/openfoodfacts/openfoodfacts-server) | 1.2k | 🟢 beginner | 2026-08-21 | 🤖 disclose AI use |
 | [addTagOnEnter setting](https://github.com/yairEO/tagify/issues/1500) 💬 5 | [yairEO/tagify](https://github.com/yairEO/tagify) | 3.9k | 🟡 help wanted | 2026-08-17 |  |
 | [[HELP] Access control by Cloudflare IPs](https://github.com/tobychui/zoraxy/issues/761) 💬 7 | [tobychui/zoraxy](https://github.com/tobychui/zoraxy) | 5.5k | 🟡 help wanted | 2026-08-16 |  |
-| [Task: redo fix for issue #28690](https://github.com/kubernetes/website/issues/57025) 💬 1 | [kubernetes/website](https://github.com/kubernetes/website) | 5.4k | 🟡 help wanted | 2026-08-16 |  |
 | [NuGet.VisualStudio.Client throws NullReferenceException for projects without an assets file, preventing other ](https://github.com/NuGet/Home/issues/14758) 💬 3 | [NuGet/Home](https://github.com/NuGet/Home) | 1.6k | 🟡 help wanted | 2026-08-14 |  |
 | [[Initiative]: Reference framework for the levels of Service Reliability Automation](https://github.com/cncf/toc/issues/1984) 💬 31 | [cncf/toc](https://github.com/cncf/toc) | 1.9k | 🟡 help wanted | 2026-08-11 |  |
 | [Better "No product" experience](https://github.com/openfoodfacts/openfoodfacts-server/issues/1505) | [openfoodfacts/openfoodfacts-server](https://github.com/openfoodfacts/openfoodfacts-server) | 1.2k | 🟡 help wanted | 2026-08-11 | 🤖 disclose AI use |
@@ -41,10 +40,10 @@
 | [Gateway API: implement session persistence + BackendLBPolicy [experimental]](https://github.com/projectcontour/contour/issues/6427) 💬 3 | [projectcontour/contour](https://github.com/projectcontour/contour) | 3.9k | 🟡 help wanted | 2026-07-21 | 🔏 DCO |
 | [Gateway API: implement client cert verification [experimental]](https://github.com/projectcontour/contour/issues/6428) 💬 3 | [projectcontour/contour](https://github.com/projectcontour/contour) | 3.9k | 🟡 help wanted | 2026-07-21 | 🔏 DCO |
 | [Test input.type change from text to file to text](https://github.com/web-platform-tests/wpt/issues/2611) 💬 8 | [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt) | 6.2k | 🟢 beginner | 2026-07-18 |  |
-| [Navigation Tree View Sets State not in Tree View Pattern](https://github.com/w3c/aria-practices/issues/3371) 💬 2 | [w3c/aria-practices](https://github.com/w3c/aria-practices) | 1.3k | 🟢 beginner | 2026-07-15 |  |
+| [Navigation Tree View Sets State not in Tree View Pattern](https://github.com/w3c/aria-practices/issues/3371) 💬 2 | [w3c/aria-practices](https://github.com/w3c/aria-practices) | 1.4k | 🟢 beginner | 2026-07-15 |  |
 | [Allow favicons in formats other than svg](https://github.com/imfing/hextra/issues/888) 💬 2 | [imfing/hextra](https://github.com/imfing/hextra) | 2.3k | 🟢 beginner | 2026-07-13 |  |
-| [Translate content into Korean](https://github.com/HTTPArchive/almanac.httparchive.org/issues/926) 💬 14 | [HTTPArchive/almanac.httparchive.org](https://github.com/HTTPArchive/almanac.httparchive.org) | 690 | 🟢 beginner | 2026-07-05 |  |
-| [Translate content into Polish](https://github.com/HTTPArchive/almanac.httparchive.org/issues/1043) 💬 8 | [HTTPArchive/almanac.httparchive.org](https://github.com/HTTPArchive/almanac.httparchive.org) | 690 | 🟢 beginner | 2026-07-05 |  |
+| [Translate content into Korean](https://github.com/HTTPArchive/almanac.httparchive.org/issues/926) 💬 14 | [HTTPArchive/almanac.httparchive.org](https://github.com/HTTPArchive/almanac.httparchive.org) | 691 | 🟢 beginner | 2026-07-05 |  |
+| [Translate content into Polish](https://github.com/HTTPArchive/almanac.httparchive.org/issues/1043) 💬 8 | [HTTPArchive/almanac.httparchive.org](https://github.com/HTTPArchive/almanac.httparchive.org) | 691 | 🟢 beginner | 2026-07-05 |  |
 | [solved](https://github.com/PKUFlyingPig/cs-self-learning/issues/423) 💬 2 | [PKUFlyingPig/cs-self-learning](https://github.com/PKUFlyingPig/cs-self-learning) | 75.6k | 🟡 help wanted | 2026-06-28 |  |
 | [NEW DESIGN - The action menu should be on the left of the Open Food Facts logo when scrolling](https://github.com/openfoodfacts/openfoodfacts-server/issues/7497) 💬 6 | [openfoodfacts/openfoodfacts-server](https://github.com/openfoodfacts/openfoodfacts-server) | 1.2k | 🟢 beginner | 2026-06-28 | 🤖 disclose AI use |
 | [NEW DESIGN - We should try to avoid a blank when JavaScript is disabled](https://github.com/openfoodfacts/openfoodfacts-server/issues/7504) 💬 3 | [openfoodfacts/openfoodfacts-server](https://github.com/openfoodfacts/openfoodfacts-server) | 1.2k | 🟢 beginner | 2026-06-28 | 🤖 disclose AI use |
@@ -65,7 +64,7 @@
 | [Limitations of Anki as a learning coding platform](https://github.com/badlydrawnrob/anki/issues/180) | [badlydrawnrob/anki](https://github.com/badlydrawnrob/anki) | 928 | 🟡 help wanted | 2026-06-17 |  |
 | [Moving away from Anki](https://github.com/badlydrawnrob/anki/issues/181) | [badlydrawnrob/anki](https://github.com/badlydrawnrob/anki) | 928 | 🟡 help wanted | 2026-06-12 |  |
 | [Very high CPU usage while the GUI is open since EasyEffects 8.x](https://github.com/wwmm/easyeffects/issues/4652) 💬 69 | [wwmm/easyeffects](https://github.com/wwmm/easyeffects) | 10.2k | 🟡 help wanted | 2026-06-10 |  |
-| [Develop example of a datagrid with advanced, spreadsheet-like features](https://github.com/w3c/aria-practices/issues/155) 💬 19 | [w3c/aria-practices](https://github.com/w3c/aria-practices) | 1.3k | 🟡 help wanted | 2026-06-10 |  |
+| [Develop example of a datagrid with advanced, spreadsheet-like features](https://github.com/w3c/aria-practices/issues/155) 💬 19 | [w3c/aria-practices](https://github.com/w3c/aria-practices) | 1.4k | 🟡 help wanted | 2026-06-10 |  |
 | [[Worlds Without Number] Text is barely readable/showing the wrong color in the roll macro window](https://github.com/Roll20/roll20-character-sheets/issues/13773) 💬 3 | [Roll20/roll20-character-sheets](https://github.com/Roll20/roll20-character-sheets) | 1.2k | 🟢 beginner | 2026-06-10 |  |
 | [Ability to specify custom error page](https://github.com/projectcontour/contour/issues/320) 💬 16 | [projectcontour/contour](https://github.com/projectcontour/contour) | 3.9k | 🟡 help wanted | 2026-06-07 | 🔏 DCO |
 | [Update theme demo site screenshots](https://github.com/hugo-sid/hugo-blog-awesome/issues/226) | [hugo-sid/hugo-blog-awesome](https://github.com/hugo-sid/hugo-blog-awesome) | 810 | 🟢 beginner | 2026-06-07 |  |
