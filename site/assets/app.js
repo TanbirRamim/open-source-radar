@@ -280,6 +280,17 @@
     });
     form.addEventListener("submit", (event) => event.preventDefault());
     form.addEventListener("reset", () => setTimeout(applyFilters, 0));
+
+    document.addEventListener("keydown", (event) => {
+      if (
+        event.key === "/" &&
+        !["INPUT", "SELECT", "TEXTAREA"].includes(document.activeElement?.tagName)
+      ) {
+        event.preventDefault();
+        form.elements.q.focus();
+      }
+    });
+
     document.getElementById("empty-reset").addEventListener("click", () => {
       form.reset();
       applyFilters();
