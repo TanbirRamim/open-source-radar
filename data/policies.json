@@ -4880,7 +4880,7 @@
     "files": [
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-13T01:08:11+00:00"
+    "scanned_at": "2026-09-15T10:14:04+00:00"
   },
   "OWASP/www-community": {
     "ai": "none",
@@ -4888,7 +4888,7 @@
     "cla": false,
     "dco": false,
     "files": [],
-    "scanned_at": "2026-09-13T01:08:11+00:00"
+    "scanned_at": "2026-09-15T10:14:04+00:00"
   },
   "Ombi-app/Ombi": {
     "ai": "none",
@@ -4899,7 +4899,17 @@
       ".github/pull_request_template.md",
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-13T01:08:11+00:00"
+    "scanned_at": "2026-09-15T10:14:04+00:00"
+  },
+  "OmniSharp/omnisharp-roslyn": {
+    "ai": "none",
+    "ai_file": null,
+    "cla": false,
+    "dco": false,
+    "files": [
+      "CONTRIBUTING.md"
+    ],
+    "scanned_at": "2026-09-15T10:14:04+00:00"
   },
   "OneSignal/OneSignal-Android-SDK": {
     "ai": "none",
@@ -4910,7 +4920,7 @@
       ".github/pull_request_template.md",
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-13T01:08:11+00:00"
+    "scanned_at": "2026-09-15T10:14:04+00:00"
   },
   "OpenAPITools/openapi-generator": {
     "ai": "none",
@@ -4921,7 +4931,7 @@
       ".github/PULL_REQUEST_TEMPLATE.md",
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-13T01:08:11+00:00"
+    "scanned_at": "2026-09-15T10:14:04+00:00"
   },
   "OpenBB-finance/OpenBB": {
     "ai": "none",
@@ -6897,7 +6907,7 @@
     "files": [
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-13T01:10:27+00:00"
+    "scanned_at": "2026-09-15T10:16:03+00:00"
   },
   "TheTumultuousUnicornOfDarkness/CPU-X": {
     "ai": "none",
@@ -6907,7 +6917,7 @@
     "files": [
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-13T01:10:27+00:00"
+    "scanned_at": "2026-09-15T10:16:03+00:00"
   },
   "TheWidlarzGroup/react-native-video": {
     "ai": "none",
@@ -6918,7 +6928,7 @@
       ".github/PULL_REQUEST_TEMPLATE.md",
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-13T01:10:27+00:00"
+    "scanned_at": "2026-09-15T10:16:03+00:00"
   },
   "ThibaultJanBeyer/DragSelect": {
     "ai": "none",
@@ -6928,7 +6938,17 @@
     "files": [
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-13T01:10:27+00:00"
+    "scanned_at": "2026-09-15T10:16:03+00:00"
+  },
+  "ThinkR-open/golem": {
+    "ai": "none",
+    "ai_file": null,
+    "cla": false,
+    "dco": false,
+    "files": [
+      "CONTRIBUTING.md"
+    ],
+    "scanned_at": "2026-09-15T10:16:03+00:00"
   },
   "ThreeDotsLabs/watermill": {
     "ai": "none",
@@ -6939,7 +6959,7 @@
       ".github/pull_request_template.md",
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-13T01:10:27+00:00"
+    "scanned_at": "2026-09-15T10:16:03+00:00"
   },
   "ThreeMammals/Ocelot": {
     "ai": "none",
@@ -12958,7 +12978,7 @@
     "files": [
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-13T01:17:09+00:00"
+    "scanned_at": "2026-09-15T10:21:17+00:00"
   },
   "deevus/zed-windows-builds": {
     "ai": "none",
@@ -12966,7 +12986,7 @@
     "cla": false,
     "dco": false,
     "files": [],
-    "scanned_at": "2026-09-13T01:17:13+00:00"
+    "scanned_at": "2026-09-15T10:21:17+00:00"
   },
   "defold/defold": {
     "ai": "none",
@@ -12977,7 +12997,7 @@
       ".github/pull_request_template.md",
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-13T01:17:13+00:00"
+    "scanned_at": "2026-09-15T10:21:17+00:00"
   },
   "deivid-rodriguez/byebug": {
     "ai": "none",
@@ -12987,7 +13007,15 @@
     "files": [
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-13T01:17:13+00:00"
+    "scanned_at": "2026-09-15T10:21:17+00:00"
+  },
+  "dekusms/DekuSMS-Android": {
+    "ai": "none",
+    "ai_file": null,
+    "cla": false,
+    "dco": false,
+    "files": [],
+    "scanned_at": "2026-09-15T10:21:17+00:00"
   },
   "delta-io/delta": {
     "ai": "none",
@@ -12998,7 +13026,7 @@
       ".github/PULL_REQUEST_TEMPLATE.md",
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-13T01:17:13+00:00"
+    "scanned_at": "2026-09-15T10:21:17+00:00"
   },
   "delta-io/delta-sharing": {
     "ai": "none",
@@ -13552,6 +13580,17 @@
     "files": [],
     "scanned_at": "2026-09-13T01:17:51+00:00"
   },
+  "donnemartin/system-design-primer": {
+    "ai": "none",
+    "ai_file": null,
+    "cla": false,
+    "dco": false,
+    "files": [
+      ".github/PULL_REQUEST_TEMPLATE.md",
+      "CONTRIBUTING.md"
+    ],
+    "scanned_at": "2026-09-15T10:21:54+00:00"
+  },
   "doorkeeper-gem/doorkeeper": {
     "ai": "none",
     "ai_file": null,
@@ -13562,7 +13601,7 @@
       "AGENTS.md",
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-13T01:17:51+00:00"
+    "scanned_at": "2026-09-15T10:21:54+00:00"
   },
   "dortania/OpenCore-Legacy-Patcher": {
     "ai": "none",
@@ -13570,7 +13609,7 @@
     "cla": false,
     "dco": false,
     "files": [],
-    "scanned_at": "2026-09-13T01:17:51+00:00"
+    "scanned_at": "2026-09-15T10:21:54+00:00"
   },
   "dotnet-script/dotnet-script": {
     "ai": "none",
@@ -13578,7 +13617,7 @@
     "cla": false,
     "dco": false,
     "files": [],
-    "scanned_at": "2026-09-13T01:17:55+00:00"
+    "scanned_at": "2026-09-15T10:21:54+00:00"
   },
   "dotnet/AspNetCore.Docs": {
     "ai": "none",
@@ -13589,7 +13628,7 @@
       ".github/PULL_REQUEST_TEMPLATE.md",
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-13T01:17:55+00:00"
+    "scanned_at": "2026-09-15T10:21:54+00:00"
   },
   "dotnet/BenchmarkDotNet": {
     "ai": "none",
@@ -13599,7 +13638,7 @@
     "files": [
       ".github/CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-13T01:17:55+00:00"
+    "scanned_at": "2026-09-15T10:21:54+00:00"
   },
   "dotnet/Open-XML-SDK": {
     "ai": "none",
@@ -23790,7 +23829,7 @@
     "cla": false,
     "dco": false,
     "files": [],
-    "scanned_at": "2026-09-13T01:30:16+00:00"
+    "scanned_at": "2026-09-15T10:35:15+00:00"
   },
   "nasa-jpl/open-source-rover": {
     "ai": "none",
@@ -23800,7 +23839,7 @@
     "files": [
       ".github/CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-13T01:30:16+00:00"
+    "scanned_at": "2026-09-15T10:35:15+00:00"
   },
   "nasa/fprime": {
     "ai": "disclose",
@@ -23813,7 +23852,7 @@
       "AI_POLICY.md",
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-13T01:30:16+00:00"
+    "scanned_at": "2026-09-15T10:35:15+00:00"
   },
   "natalie-lang/natalie": {
     "ai": "none",
@@ -23823,7 +23862,7 @@
     "files": [
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-13T01:30:16+00:00"
+    "scanned_at": "2026-09-15T10:35:15+00:00"
   },
   "nathantannar4/InputBarAccessoryView": {
     "ai": "none",
@@ -23833,7 +23872,15 @@
     "files": [
       ".github/pull_request_template.md"
     ],
-    "scanned_at": "2026-09-13T01:30:19+00:00"
+    "scanned_at": "2026-09-15T10:35:15+00:00"
+  },
+  "nativewind/nativewind": {
+    "ai": "none",
+    "ai_file": null,
+    "cla": false,
+    "dco": false,
+    "files": [],
+    "scanned_at": "2026-09-15T10:35:15+00:00"
   },
   "navidrome/navidrome": {
     "ai": "none",
@@ -34090,7 +34137,7 @@
     "files": [
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-13T01:42:48+00:00"
+    "scanned_at": "2026-09-15T10:51:10+00:00"
   },
   "xerial/sqlite-jdbc": {
     "ai": "none",
@@ -34100,7 +34147,15 @@
     "files": [
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-13T01:42:48+00:00"
+    "scanned_at": "2026-09-15T10:51:10+00:00"
+  },
+  "xiangyuecn/Recorder": {
+    "ai": "none",
+    "ai_file": null,
+    "cla": false,
+    "dco": false,
+    "files": [],
+    "scanned_at": "2026-09-15T10:51:10+00:00"
   },
   "xiaojieonly/Ehviewer_CN_SXJ": {
     "ai": "none",
@@ -34108,7 +34163,7 @@
     "cla": false,
     "dco": false,
     "files": [],
-    "scanned_at": "2026-09-13T01:42:48+00:00"
+    "scanned_at": "2026-09-15T10:51:10+00:00"
   },
   "xiaomlove/nexusphp": {
     "ai": "none",
@@ -34116,7 +34171,7 @@
     "cla": false,
     "dco": false,
     "files": [],
-    "scanned_at": "2026-09-13T01:42:52+00:00"
+    "scanned_at": "2026-09-15T10:51:10+00:00"
   },
   "xinnan-tech/xiaozhi-esp32-server": {
     "ai": "none",
@@ -34124,7 +34179,7 @@
     "cla": false,
     "dco": false,
     "files": [],
-    "scanned_at": "2026-09-13T11:12:19+00:00"
+    "scanned_at": "2026-09-15T10:51:10+00:00"
   },
   "xming521/WeClone": {
     "ai": "none",

@@ -1,8 +1,8 @@
 # Haskell issues
 
-**21** open issues (11 labeled for beginners) across **8** active Haskell projects.
+**19** open issues (9 labeled for beginners) across **7** active Haskell projects.
 
-> Updated automatically on **2026-09-14 21:47 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-15 10:51 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -27,7 +27,5 @@
 | [Add benchmarks for compilation](https://github.com/IntersectMBO/plutus/issues/6113) 💬 1 | [IntersectMBO/plutus](https://github.com/IntersectMBO/plutus) | 1.6k | 🟢 beginner | 2026-05-01 |  |
 | [Reduce code duplication between regular and data-backed constitution tests](https://github.com/IntersectMBO/plutus/issues/6787) | [IntersectMBO/plutus](https://github.com/IntersectMBO/plutus) | 1.6k | 🟢 beginner | 2026-05-01 |  |
 | [Add golden tests for the validation benchmarks](https://github.com/IntersectMBO/plutus/issues/6828) | [IntersectMBO/plutus](https://github.com/IntersectMBO/plutus) | 1.6k | 🟢 beginner | 2026-05-01 |  |
-| [Document import 'hiding' keyword](https://github.com/digital-asset/daml/issues/2963) 💬 1 | [digital-asset/daml](https://github.com/digital-asset/daml) | 916 | 🟢 beginner | 2026-04-30 | 📄 AI policy |
-| [Please document that group, groupBy and groupOn work on sorted lists or that the grouping is for sequential el](https://github.com/digital-asset/daml/issues/7821) 💬 3 | [digital-asset/daml](https://github.com/digital-asset/daml) | 916 | 🟢 beginner | 2026-04-28 | 📄 AI policy |
 | [Composite PK support](https://github.com/haskell-beam/beam/issues/792) 💬 2 | [haskell-beam/beam](https://github.com/haskell-beam/beam) | 635 | 🟢 beginner | 2026-04-09 |  |
 | [Document that specs can depend on arguments of enclosing functions](https://github.com/ucsd-progsys/liquidhaskell/issues/2442) 💬 2 | [ucsd-progsys/liquidhaskell](https://github.com/ucsd-progsys/liquidhaskell) | 1.3k | 🟢 beginner | 2026-03-25 |  |

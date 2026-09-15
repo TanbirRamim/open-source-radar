@@ -1,8 +1,8 @@
 # TypeScript issues
 
-**306** open issues (75 labeled for beginners) across **91** active TypeScript projects.
+**317** open issues (76 labeled for beginners) across **91** active TypeScript projects.
 
-> Updated automatically on **2026-09-14 21:47 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-15 10:51 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,13 +10,18 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [Endless zoom](https://github.com/immich-app/immich/issues/31496) | [immich-app/immich](https://github.com/immich-app/immich) | 114.1k | 🟢 beginner | 2026-09-14 |  |
+| [Endless zoom](https://github.com/immich-app/immich/issues/31496) 💬 1 | [immich-app/immich](https://github.com/immich-app/immich) | 114.2k | 🟢 beginner | 2026-09-15 |  |
+| [[Bug]: Missing text chat when Create Automation button is clicked in modal](https://github.com/OpenHands/OpenHands/issues/15833) 💬 5 | [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | 88k | 🟢 beginner | 2026-09-15 |  |
+| [feat: docs(skills): five generated api SKILL.md bodies exceed the 500-line guideline, up to 1672 lines](https://github.com/diegosouzapw/OmniRoute/issues/13640) 💬 1 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 66.4k | 🟡 help wanted | 2026-09-15 |  |
+| [feat(providers): Auto-validate models against provider live catalog on import to prevent stale model errors](https://github.com/diegosouzapw/OmniRoute/issues/13505) 💬 2 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 66.4k | 🟡 help wanted | 2026-09-15 |  |
+| [Snyk vulnerability [SNYK-JS-MULTER-19785644]](https://github.com/backstage/backstage/issues/35676) 💬 2 | [backstage/backstage](https://github.com/backstage/backstage) | 34.4k | 🟡 help wanted | 2026-09-15 | 📄 AI policy · 🔏 DCO |
+| ['reactions-avatars' - Broken on Issues](https://github.com/refined-github/refined-github/issues/10048) 💬 5 | [refined-github/refined-github](https://github.com/refined-github/refined-github) | 32.2k | 🟡 help wanted | 2026-09-15 | ⚠️ AI restricted |
 | [Log axis limits "auto" doesn't work on histogram](https://github.com/grafana/grafana/issues/13027) 💬 12 | [grafana/grafana](https://github.com/grafana/grafana) | 76.8k | 🟡 help wanted | 2026-09-14 | ✍️ CLA |
+| [docs(auth): Document and rationalise MCP scope taxonomy; manage does not imply read:compression](https://github.com/diegosouzapw/OmniRoute/issues/13391) | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 66.4k | 🟡 help wanted | 2026-09-14 |  |
 | [[Discussion]: After upgrading to V2, Gemini's built-in search function cannot be called](https://github.com/CherryHQ/cherry-studio/issues/20518) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 51.8k | 🟡 help wanted | 2026-09-14 | 🔏 DCO |
 | [[Discussion]: version 1.9.12 is better than in version 2.0.13](https://github.com/CherryHQ/cherry-studio/issues/20488) 💬 2 | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 51.8k | 🟡 help wanted | 2026-09-14 | 🔏 DCO |
 | [[Bug]: @medusajs/loyalty-plugin — Editing gift card denominations crashes the admin dashboard (sends unsupport](https://github.com/medusajs/medusa/issues/15742) 💬 9 | [medusajs/medusa](https://github.com/medusajs/medusa) | 36.3k | 🟢 beginner | 2026-09-14 |  |
 | [Snyk vulnerability [SNYK-JS-ISOMORPHICGIT-19784422]](https://github.com/backstage/backstage/issues/35677) | [backstage/backstage](https://github.com/backstage/backstage) | 34.4k | 🟡 help wanted | 2026-09-14 | 📄 AI policy · 🔏 DCO |
-| [Snyk vulnerability [SNYK-JS-MULTER-19785644]](https://github.com/backstage/backstage/issues/35676) | [backstage/backstage](https://github.com/backstage/backstage) | 34.4k | 🟡 help wanted | 2026-09-14 | 📄 AI policy · 🔏 DCO |
 | [Snyk vulnerability [SNYK-JS-ADMZIP-19276676]](https://github.com/backstage/backstage/issues/35409) | [backstage/backstage](https://github.com/backstage/backstage) | 34.4k | 🟡 help wanted | 2026-09-14 | 📄 AI policy · 🔏 DCO |
 | [Snyk vulnerability [SNYK-JS-NODEMAILER-19784395]](https://github.com/backstage/backstage/issues/35654) | [backstage/backstage](https://github.com/backstage/backstage) | 34.4k | 🟡 help wanted | 2026-09-14 | 📄 AI policy · 🔏 DCO |
 | [Snyk vulnerability [SNYK-JS-ROLLUP-8073097]](https://github.com/backstage/backstage/issues/35529) | [backstage/backstage](https://github.com/backstage/backstage) | 34.4k | 🟡 help wanted | 2026-09-14 | 📄 AI policy · 🔏 DCO |
@@ -65,12 +70,10 @@
 | [Global shortcut registration failed: CTRL+Shift+X in Wayland](https://github.com/super-productivity/super-productivity/issues/3789) 💬 11 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22k | 🟡 help wanted | 2026-09-13 |  |
 | [[Discussion]: Token/s generation speed and TTFT display missing since v2.0 - was it dropped in the rewrite, an](https://github.com/CherryHQ/cherry-studio/issues/18327) 💬 2 | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 51.8k | 🟡 help wanted | 2026-09-12 | 🔏 DCO |
 | [[Discussion]: Code blocks are no longer rendered during streaming](https://github.com/CherryHQ/cherry-studio/issues/18474) 💬 2 | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 51.8k | 🟡 help wanted | 2026-09-12 | 🔏 DCO |
-| ['mark-pinned' broken?](https://github.com/refined-github/refined-github/issues/10081) | [refined-github/refined-github](https://github.com/refined-github/refined-github) | 32.2k | 🟡 help wanted | 2026-09-12 | ⚠️ AI restricted |
 | [Map support](https://github.com/pascalorg/editor/issues/154) 💬 7 | [pascalorg/editor](https://github.com/pascalorg/editor) | 23.9k | 🟡 help wanted | 2026-09-12 |  |
 | [Default value doesn't work with if-else and array](https://github.com/rjsf-team/react-jsonschema-form/issues/3869) 💬 4 | [rjsf-team/react-jsonschema-form](https://github.com/rjsf-team/react-jsonschema-form) | 15.9k | 🟡 help wanted | 2026-09-12 |  |
-| [[Bug]: 本机CLI检测不到codex cli](https://github.com/nexu-io/open-design/issues/5734) 💬 16 | [nexu-io/open-design](https://github.com/nexu-io/open-design) | 96.2k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use · ✍️ CLA |
+| [[Bug]: 本机CLI检测不到codex cli](https://github.com/nexu-io/open-design/issues/5734) 💬 16 | [nexu-io/open-design](https://github.com/nexu-io/open-design) | 96.3k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use · ✍️ CLA |
 | [Feature request: add jitter to refresh interval of individual panels](https://github.com/grafana/grafana/issues/83019) 💬 8 | [grafana/grafana](https://github.com/grafana/grafana) | 76.8k | 🟡 help wanted | 2026-09-11 | ✍️ CLA |
-| [feat(providers): add kimi/qwen/deepseek/gpt auto-routing families + auto/claude-haiku variant](https://github.com/diegosouzapw/OmniRoute/issues/13214) 💬 2 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 66.1k | 🟡 help wanted | 2026-09-11 |  |
 | [Snyk vulnerability [SNYK-JS-OCTOKITREQUESTERROR-8730854]](https://github.com/backstage/backstage/issues/35437) | [backstage/backstage](https://github.com/backstage/backstage) | 34.4k | 🟡 help wanted | 2026-09-11 | 📄 AI policy · 🔏 DCO |
 | [Snyk vulnerability [SNYK-JS-OCTOKITREQUEST-8730853]](https://github.com/backstage/backstage/issues/35436) | [backstage/backstage](https://github.com/backstage/backstage) | 34.4k | 🟡 help wanted | 2026-09-11 | 📄 AI policy · 🔏 DCO |
 | [Snyk vulnerability [SNYK-JS-OCTOKITPLUGINPAGINATEREST-8730855]](https://github.com/backstage/backstage/issues/35435) | [backstage/backstage](https://github.com/backstage/backstage) | 34.4k | 🟡 help wanted | 2026-09-11 | 📄 AI policy · 🔏 DCO |
@@ -90,7 +93,7 @@
 | [[Discussion]: Networking Issue](https://github.com/CherryHQ/cherry-studio/issues/17090) 💬 3 | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 51.8k | 🟡 help wanted | 2026-09-10 | 🔏 DCO |
 | [[Discussion]: Why can't version 2.x modify an answer, while version 1.9.x can? r, and why is conversation cont](https://github.com/CherryHQ/cherry-studio/issues/18299) 💬 2 | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 51.8k | 🟡 help wanted | 2026-09-10 | 🔏 DCO |
 | [Adopt React 19 APIs/features where it makes sense](https://github.com/eclipse-theia/theia/issues/17957) 💬 1 | [eclipse-theia/theia](https://github.com/eclipse-theia/theia) | 21.7k | 🟡 help wanted | 2026-09-10 | 🔏 DCO |
-| [🚨 CRITICAL: Verification & Truth Enforcement System Failure in Multi-Agent Architecture](https://github.com/ruvnet/ruflo/issues/640) 💬 12 | [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 72.4k | 🟡 help wanted | 2026-09-08 | 🤖 disclose AI use |
+| [🚨 CRITICAL: Verification & Truth Enforcement System Failure in Multi-Agent Architecture](https://github.com/ruvnet/ruflo/issues/640) 💬 12 | [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 72.5k | 🟡 help wanted | 2026-09-08 | 🤖 disclose AI use |
 | [[Discussion]: When using SearXNG, the content received by the LLM is incorrect and fixed](https://github.com/CherryHQ/cherry-studio/issues/12954) 💬 2 | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 51.8k | 🟡 help wanted | 2026-09-08 | 🔏 DCO |
 | [[Discussion]: Why doesn’t Cherry Studio support some of Poe’s latest models?](https://github.com/CherryHQ/cherry-studio/issues/20203) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 51.8k | 🟡 help wanted | 2026-09-08 | 🔏 DCO |
 | [[Discussion]: Can phonetic symbols be added to the selected words in selection translation?](https://github.com/CherryHQ/cherry-studio/issues/18067) 💬 1 | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 51.8k | 🟡 help wanted | 2026-09-07 | 🔏 DCO |
@@ -98,20 +101,20 @@
 | [Camera Component for mobile devices](https://github.com/Budibase/budibase/issues/17780) 💬 3 | [Budibase/budibase](https://github.com/Budibase/budibase) | 28.3k | 🟢 beginner | 2026-09-07 | ✍️ CLA |
 | [Share profile image generation is broken for some avatars and cover images](https://github.com/TryGhost/Ghost/issues/24600) 💬 10 | [TryGhost/Ghost](https://github.com/TryGhost/Ghost) | 55.3k | 🟢 beginner | 2026-09-06 | ✍️ CLA |
 | [[Discussion]: Could you consider adopting the expert team concept from workbuddy?](https://github.com/CherryHQ/cherry-studio/issues/17981) 💬 1 | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 51.8k | 🟡 help wanted | 2026-09-06 | 🔏 DCO |
-| [feat: unified all-models catalog page in the dashboard](https://github.com/diegosouzapw/OmniRoute/issues/12593) 💬 3 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 66.1k | 🟢 beginner | 2026-09-05 |  |
+| [Support RTL languages](https://github.com/xtermjs/xterm.js/issues/701) 💬 48 | [xtermjs/xterm.js](https://github.com/xtermjs/xterm.js) | 21.2k | 🟡 help wanted | 2026-09-06 |  |
+| [feat: unified all-models catalog page in the dashboard](https://github.com/diegosouzapw/OmniRoute/issues/12593) 💬 3 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 66.4k | 🟢 beginner | 2026-09-05 |  |
 | [[Discussion]: Why was the global memory feature from 1.9.x removed in version 2.0.09? Hope for restoration or ](https://github.com/CherryHQ/cherry-studio/issues/20080) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 51.8k | 🟡 help wanted | 2026-09-05 | 🔏 DCO |
-| [[Discussion]: Reconnect on Failure](https://github.com/CherryHQ/cherry-studio/issues/17847) 💬 1 | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 51.8k | 🟡 help wanted | 2026-09-05 | 🔏 DCO |
 | [🚀 Feature Request: CopilotChat support @ context](https://github.com/CopilotKit/CopilotKit/issues/1962) 💬 8 | [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit) | 37.4k | 🟡 help wanted | 2026-09-05 |  |
 | [[Bug]: Automatic scheduled transaction posting a day late— Desktop 26.9.0](https://github.com/actualbudget/actual/issues/8865) 💬 3 | [actualbudget/actual](https://github.com/actualbudget/actual) | 28.8k | 🟡 help wanted | 2026-09-05 | 🤖 disclose AI use |
 | [Transparency removal](https://github.com/GoogleChromeLabs/squoosh/issues/736) 💬 9 | [GoogleChromeLabs/squoosh](https://github.com/GoogleChromeLabs/squoosh) | 25.9k | 🟡 help wanted | 2026-09-05 | ✍️ CLA |
 | [🧹 Help us clean up duplicate (or unnecessary) libraries in Context7](https://github.com/upstash/context7/issues/339) 💬 96 | [upstash/context7](https://github.com/upstash/context7) | 62k | 🟢 beginner | 2026-09-04 |  |
 | [Avoid sticky header overlap when linking to comments](https://github.com/refined-github/refined-github/issues/9910) 💬 4 | [refined-github/refined-github](https://github.com/refined-github/refined-github) | 32.2k | 🟡 help wanted | 2026-09-04 | ⚠️ AI restricted |
 | ['extensible-nav' sometime doesn't detect "limited PRs" icon](https://github.com/refined-github/refined-github/issues/10037) 💬 1 | [refined-github/refined-github](https://github.com/refined-github/refined-github) | 32.2k | 🟡 help wanted | 2026-09-04 | ⚠️ AI restricted |
-| [Aux window: should change the cursor style within the dropping area](https://github.com/microsoft/vscode/issues/199953) 💬 8 | [microsoft/vscode](https://github.com/microsoft/vscode) | 192.5k | 🟡 help wanted | 2026-09-03 |  |
-| [Resize editor pane left/right/up/down keybindings](https://github.com/microsoft/vscode/issues/145890) 💬 13 | [microsoft/vscode](https://github.com/microsoft/vscode) | 192.5k | 🟡 help wanted | 2026-09-03 |  |
+| [Aux window: should change the cursor style within the dropping area](https://github.com/microsoft/vscode/issues/199953) 💬 8 | [microsoft/vscode](https://github.com/microsoft/vscode) | 192.6k | 🟡 help wanted | 2026-09-03 |  |
+| [Resize editor pane left/right/up/down keybindings](https://github.com/microsoft/vscode/issues/145890) 💬 13 | [microsoft/vscode](https://github.com/microsoft/vscode) | 192.6k | 🟡 help wanted | 2026-09-03 |  |
 | [Validation-only logic applied via 'oneOf'/'anyOf' should not try to render fields](https://github.com/rjsf-team/react-jsonschema-form/issues/4574) 💬 1 | [rjsf-team/react-jsonschema-form](https://github.com/rjsf-team/react-jsonschema-form) | 15.9k | 🟡 help wanted | 2026-09-03 |  |
 | [Nested 'Tabs' height transitions break due to CSS variable bleed and 0-height behavior of 'TabList' and 'TabPa](https://github.com/adobe/react-spectrum/issues/10292) 💬 12 | [adobe/react-spectrum](https://github.com/adobe/react-spectrum) | 15.9k | 🟢 beginner | 2026-09-03 | 🤖 disclose AI use · ✍️ CLA |
-| [Ambient camping sounds in freecodecamp website](https://github.com/freeCodeCamp/freeCodeCamp/issues/55941) 💬 16 | [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | 455.4k | 🟡 help wanted | 2026-09-02 |  |
+| [Ambient camping sounds in freecodecamp website](https://github.com/freeCodeCamp/freeCodeCamp/issues/55941) 💬 16 | [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | 455.5k | 🟡 help wanted | 2026-09-02 |  |
 | [DatePicker is not keyboard accessible nor a11y compliant](https://github.com/ant-design/ant-design/issues/53638) 💬 4 | [ant-design/ant-design](https://github.com/ant-design/ant-design) | 99.5k | 🟡 help wanted | 2026-09-02 |  |
 | [Type 'globalTypes' to assist writing 'preview.js'](https://github.com/storybookjs/storybook/issues/12658) 💬 11 | [storybookjs/storybook](https://github.com/storybookjs/storybook) | 91.1k | 🟡 help wanted | 2026-09-02 | 🤖 disclose AI use |
 | [Add toolbar to --docs mode](https://github.com/storybookjs/storybook/issues/13025) 💬 7 | [storybookjs/storybook](https://github.com/storybookjs/storybook) | 91.1k | 🟡 help wanted | 2026-09-02 | 🤖 disclose AI use |
@@ -124,7 +127,7 @@
 | [flowtype "declare var module" causes transform-flow-strip-types to transpile module to _module](https://github.com/babel/babel/issues/5718) 💬 11 | [babel/babel](https://github.com/babel/babel) | 44k | 🟡 help wanted | 2026-09-02 | ⚠️ AI restricted |
 | [Style Issues caused by RTL](https://github.com/directus/directus/issues/25599) 💬 6 | [directus/directus](https://github.com/directus/directus) | 37.9k | 🟡 help wanted | 2026-09-02 |  |
 | [Item permissions rules filter - '_in' operator with dynamic variable of array type](https://github.com/directus/directus/issues/24395) 💬 2 | [directus/directus](https://github.com/directus/directus) | 37.9k | 🟡 help wanted | 2026-09-02 |  |
-| [Packages using memory even if they are not used](https://github.com/directus/directus/issues/24334) 💬 3 | [directus/directus](https://github.com/directus/directus) | 37.9k | 🟡 help wanted | 2026-09-02 |  |
+| [Packages using memory even if they are not used](https://github.com/directus/directus/issues/24334) 💬 4 | [directus/directus](https://github.com/directus/directus) | 37.9k | 🟡 help wanted | 2026-09-02 |  |
 | ['_some' operator limited to top-level relations prevents complex nested filtering](https://github.com/directus/directus/issues/25403) 💬 7 | [directus/directus](https://github.com/directus/directus) | 37.9k | 🟡 help wanted | 2026-09-02 |  |
 | [M2A Relation Display Not Showing Properly](https://github.com/directus/directus/issues/25348) 💬 5 | [directus/directus](https://github.com/directus/directus) | 37.9k | 🟡 help wanted | 2026-09-02 |  |
 | [Postgresql : Can't update row with an empty array](https://github.com/sequelize/sequelize/issues/11748) 💬 6 | [sequelize/sequelize](https://github.com/sequelize/sequelize) | 30.4k | 🟢 beginner | 2026-09-02 |  |
@@ -183,15 +186,15 @@
 | [[Discussion]: Claude Sonnet 5 called via OpenRouter lacks vision capability and cannot access the internet, bu](https://github.com/CherryHQ/cherry-studio/issues/19340) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 51.8k | 🟡 help wanted | 2026-08-25 | 🔏 DCO |
 | [[讨论]: WebDAV最大备份数设置无效](https://github.com/CherryHQ/cherry-studio/issues/9389) 💬 4 | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 51.8k | 🟡 help wanted | 2026-08-25 | 🔏 DCO |
 | ["Editor" is imported from external module "@tiptap/core" but never used warning](https://github.com/ueberdosis/tiptap/issues/6621) 💬 1 | [ueberdosis/tiptap](https://github.com/ueberdosis/tiptap) | 38.4k | 🟢 beginner | 2026-08-25 | 🤖 disclose AI use |
+| [[Feature]: 建议添加webhook功能](https://github.com/agentscope-ai/QwenPaw/issues/338) 💬 9 | [agentscope-ai/QwenPaw](https://github.com/agentscope-ai/QwenPaw) | 35k | 🟢 beginner | 2026-08-25 |  |
 | [Unwrap mobile header user dropdown](https://github.com/refined-github/refined-github/issues/10001) 💬 1 | [refined-github/refined-github](https://github.com/refined-github/refined-github) | 32.2k | 🟡 help wanted | 2026-08-25 | ⚠️ AI restricted |
 | [Storybook: Setup internationalisation](https://github.com/recharts/recharts/issues/3419) 💬 3 | [recharts/recharts](https://github.com/recharts/recharts) | 27.6k | 🟢 beginner | 2026-08-25 |  |
 | [Support custom WebSocket clients](https://github.com/mswjs/msw/issues/2435) 💬 5 | [mswjs/msw](https://github.com/mswjs/msw) | 18.2k | 🟡 help wanted | 2026-08-25 |  |
 | [[Discussion]: Does the new version support conversation import functionality?](https://github.com/CherryHQ/cherry-studio/issues/19335) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 51.8k | 🟡 help wanted | 2026-08-24 | 🔏 DCO |
 | [Options page broken on Firefox mobile](https://github.com/refined-github/refined-github/issues/9996) 💬 1 | [refined-github/refined-github](https://github.com/refined-github/refined-github) | 32.2k | 🟡 help wanted | 2026-08-24 | ⚠️ AI restricted |
-| [[Bug]: Missing text chat when Create Automation button is clicked in modal](https://github.com/OpenHands/OpenHands/issues/15833) 💬 4 | [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | 87.9k | 🟢 beginner | 2026-08-23 |  |
-| [[Enhancement] Add "Open a Repository" option for Local backend mode](https://github.com/OpenHands/OpenHands/issues/15758) 💬 6 | [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | 87.9k | 🟢 beginner | 2026-08-23 |  |
+| [Cannot type Shifted characters (e.g. #, ") or overlapping keys in Safari on macOS](https://github.com/xtermjs/xterm.js/issues/5374) 💬 7 | [xtermjs/xterm.js](https://github.com/xtermjs/xterm.js) | 21.2k | 🟡 help wanted | 2026-08-24 |  |
+| [[Enhancement] Add "Open a Repository" option for Local backend mode](https://github.com/OpenHands/OpenHands/issues/15758) 💬 6 | [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | 88k | 🟢 beginner | 2026-08-23 |  |
 | [[Discussion]: V2 portable version starts very slowly](https://github.com/CherryHQ/cherry-studio/issues/18069) 💬 2 | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 51.8k | 🟡 help wanted | 2026-08-23 | 🔏 DCO |
-| [Credit Card number parameter](https://github.com/faker-js/faker/issues/181) 💬 15 | [faker-js/faker](https://github.com/faker-js/faker) | 15.5k | 🟡 help wanted | 2026-08-23 |  |
 | [agent](https://github.com/CherryHQ/cherry-studio/issues/19182) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 51.8k | 🟡 help wanted | 2026-08-22 | 🔏 DCO |
 | [Impossible to add word-wrap to menu title; 'white-space: normal' has no effect](https://github.com/ant-design/ant-design/issues/38918) 💬 6 | [ant-design/ant-design](https://github.com/ant-design/ant-design) | 99.5k | 🟡 help wanted | 2026-08-20 |  |
 | [Web Accessibility Issue in tabs and cards](https://github.com/ant-design/ant-design/issues/53584) 💬 6 | [ant-design/ant-design](https://github.com/ant-design/ant-design) | 99.5k | 🟡 help wanted | 2026-08-19 |  |
@@ -207,8 +210,5 @@
 | [Support separate display text and TTS pronunciation text](https://github.com/moeru-ai/airi/issues/2255) | [moeru-ai/airi](https://github.com/moeru-ai/airi) | 49.1k | 🟡 help wanted | 2026-08-12 |  |
 | [Replace raw form inputs with shared input components in the dotcom client](https://github.com/tldraw/tldraw/issues/9191) 💬 6 | [tldraw/tldraw](https://github.com/tldraw/tldraw) | 50.4k | 🟢 beginner | 2026-08-11 |  |
 | [Expand text input field on mobile](https://github.com/karakeep-app/karakeep/issues/2364) 💬 5 | [karakeep-app/karakeep](https://github.com/karakeep-app/karakeep) | 29k | 🟢 beginner | 2026-08-11 |  |
-| ['restore-file' doesn't work on Enterprise Server](https://github.com/refined-github/refined-github/issues/9938) 💬 2 | [refined-github/refined-github](https://github.com/refined-github/refined-github) | 32.2k | 🟡 help wanted | 2026-08-08 | ⚠️ AI restricted |
-| [@tracked: lazy evaluation](https://github.com/emberjs/ember.js/issues/18118) 💬 5 | [emberjs/ember.js](https://github.com/emberjs/ember.js) | 22.6k | 🟢 beginner | 2026-08-08 |  |
-| [Document the order of Splattributes, {{on}} modifier and component event handlers](https://github.com/emberjs/ember.js/issues/17877) 💬 8 | [emberjs/ember.js](https://github.com/emberjs/ember.js) | 22.6k | 🟢 beginner | 2026-08-07 |  |
 
-Showing the 200 most recently updated. See all 306 on the website.
+Showing the 200 most recently updated. See all 317 on the website.
