@@ -1,8 +1,8 @@
 # Go issues
 
-**360** open issues (84 labeled for beginners) across **86** active Go projects.
+**360** open issues (83 labeled for beginners) across **86** active Go projects.
 
-> Updated automatically on **2026-09-15 10:51 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-15 21:01 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,15 +10,21 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [all: flaky failures on netbsd/arm](https://github.com/golang/go/issues/73820) 💬 724 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-15 |  |
+| [runtime/race: TestRace failures in RaceWaitGroupWrongAdd](https://github.com/golang/go/issues/64038) 💬 45 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-15 |  |
+| [runtime: flaky failures on NetBSD since CL 526118](https://github.com/golang/go/issues/62524) 💬 142 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-15 |  |
+| [runtime: linux/s390x test timeout](https://github.com/golang/go/issues/60413) 💬 870 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-15 |  |
+| [runtime: "unexpected signal during runtime execution" during bgscavenge on plan9](https://github.com/golang/go/issues/35456) 💬 93 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-15 |  |
 | [cmd/cgo: cgo "//export" usage missing crucial info](https://github.com/golang/go/issues/56853) 💬 3 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-15 |  |
 | [x/crypto/ssh: implement zlib@openssh.com compression](https://github.com/golang/go/issues/31369) 💬 3 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-15 |  |
 | [x/sys/windows: generated wrappers read undefined upper bits of 32-bit syscall return values](https://github.com/golang/go/issues/81249) 💬 9 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-15 |  |
 | [Optimize Pod informer memory efficiency used in admission plugins](https://github.com/kubernetes/kubernetes/issues/125469) 💬 21 | [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) | 127.7k | 🟡 help wanted | 2026-09-15 | 🤖 disclose AI use · ✍️ CLA |
 | [Minikube start fails for nvidia gpus in compute only/ headless mode](https://github.com/kubernetes/minikube/issues/20934) 💬 4 | [kubernetes/minikube](https://github.com/kubernetes/minikube) | 32.1k | 🟡 help wanted | 2026-09-15 |  |
-| [Wanted: Who is using Open Code Review? Please leave a comment!](https://github.com/alibaba/open-code-review/issues/1020) 💬 8 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 26.9k | 🟡 help wanted | 2026-09-15 | 🤖 disclose AI use · ✍️ CLA |
-| [[Feature]: Visualize uninstrumented services in the dependency diagrams](https://github.com/jaegertracing/jaeger/issues/3804) 💬 10 | [jaegertracing/jaeger](https://github.com/jaegertracing/jaeger) | 23.2k | 🟡 help wanted | 2026-09-15 | 📄 AI policy · 🔏 DCO |
+| [Wanted: Who is using Open Code Review? Please leave a comment!](https://github.com/alibaba/open-code-review/issues/1020) 💬 8 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 28.2k | 🟡 help wanted | 2026-09-15 | 🤖 disclose AI use · ✍️ CLA |
 | [Btrfs statistics input plugin](https://github.com/influxdata/telegraf/issues/10032) 💬 5 | [influxdata/telegraf](https://github.com/influxdata/telegraf) | 17.8k | 🟡 help wanted | 2026-09-15 | ⚠️ AI restricted · ✍️ CLA |
 | [Reminder: Update Hacktoberfest branding for this year](https://github.com/owncast/owncast/issues/5180) | [owncast/owncast](https://github.com/owncast/owncast) | 11.5k | 🟢 beginner | 2026-09-15 |  |
+| [MQTT - based scaler](https://github.com/kedacore/keda/issues/1282) 💬 23 | [kedacore/keda](https://github.com/kedacore/keda) | 10.5k | 🟡 help wanted | 2026-09-15 | 🔏 DCO |
+| [Upgrade the WAF plugin's CRS rule version to the latest](https://github.com/higress-group/higress/issues/1620) 💬 1 | [higress-group/higress](https://github.com/higress-group/higress) | 9.4k | 🟡 help wanted | 2026-09-15 | 🤖 disclose AI use |
 | [Add Feature to Set Retention Time per Metric](https://github.com/prometheus/prometheus/issues/15350) 💬 3 | [prometheus/prometheus](https://github.com/prometheus/prometheus) | 66.1k | 🟡 help wanted | 2026-09-14 | 🔏 DCO |
 | [failed to download vulnerability DB](https://github.com/goharbor/harbor/issues/23521) 💬 8 | [goharbor/harbor](https://github.com/goharbor/harbor) | 29.4k | 🟡 help wanted | 2026-09-14 | 🔏 DCO |
 | [Feature Request: Social Handle Platforms for RSS and Tumblr](https://github.com/owncast/owncast/issues/5172) 💬 1 | [owncast/owncast](https://github.com/owncast/owncast) | 11.5k | 🟢 beginner | 2026-09-14 |  |
@@ -27,9 +33,6 @@
 | [Application migration across clusters](https://github.com/argoproj/argo-cd/issues/1640) 💬 16 | [argoproj/argo-cd](https://github.com/argoproj/argo-cd) | 24.2k | 🟡 help wanted | 2026-09-13 | 🔏 DCO |
 | [add Notion database MCP server in Gemini CLI extensions](https://github.com/googleapis/mcp-toolbox/issues/1699) 💬 2 | [googleapis/mcp-toolbox](https://github.com/googleapis/mcp-toolbox) | 16.4k | 🟡 help wanted | 2026-09-13 | ✍️ CLA |
 | [x/pkgsite: align attribute gets stripped from headings in README.md](https://github.com/golang/go/issues/51045) 💬 3 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-12 |  |
-| [all: flaky failures on netbsd/arm](https://github.com/golang/go/issues/73820) 💬 722 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-12 |  |
-| [runtime: flaky failures on NetBSD since CL 526118](https://github.com/golang/go/issues/62524) 💬 140 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-12 |  |
-| [runtime: linux/s390x test timeout](https://github.com/golang/go/issues/60413) 💬 869 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-12 |  |
 | [cmd/compile: eliminate base.Pos and ir.CurFunc](https://github.com/golang/go/issues/19683) 💬 40 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-12 |  |
 | [runtime: TestUsingVDSO failures](https://github.com/golang/go/issues/67383) 💬 8 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-11 |  |
 | [proposal: cmd/go: add go test -fuzztimereset option](https://github.com/golang/go/issues/80283) 💬 11 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-11 |  |
@@ -51,13 +54,11 @@
 | [cmd/cgo/internal/testcarchive: unrecognized failures](https://github.com/golang/go/issues/65995) 💬 2 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-10 |  |
 | [cmd/cgo/internal/testcshared: Test(Unexported\|Exported)Symbols failures with SIGSEGV on android/arm64](https://github.com/golang/go/issues/64823) 💬 5 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-10 |  |
 | [cmd/cgo/internal/testcarchive: 'TestSignalForwardingGo' failures with SIGABRT instead of the expected SIGSEGV](https://github.com/golang/go/issues/64656) 💬 9 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-10 |  |
-| [cmd/cgo/internal/testtls: 'signal arrived during external code execution' on Windows with clang 14.0.6](https://github.com/golang/go/issues/64400) 💬 4 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-10 |  |
 | [[feature request] HA Deployments in ipv6 only clusters](https://github.com/argoproj/argo-cd/issues/20084) 💬 2 | [argoproj/argo-cd](https://github.com/argoproj/argo-cd) | 24.2k | 🟡 help wanted | 2026-09-10 | 🔏 DCO |
 | [Bad parsing behaviour for generic arrow type arguments in class heritage / JSX open element](https://github.com/microsoft/TypeScript/issues/47410) 💬 1 | [microsoft/TypeScript](https://github.com/microsoft/TypeScript) | 111.1k | 🟡 help wanted | 2026-09-09 | 🤖 disclose AI use · ✍️ CLA |
 | [Document the Iterator, Iterable, IterableIterator types](https://github.com/microsoft/TypeScript/issues/49526) 💬 1 | [microsoft/TypeScript](https://github.com/microsoft/TypeScript) | 111.1k | 🟡 help wanted | 2026-09-09 | 🤖 disclose AI use · ✍️ CLA |
 | [Enhancement: wrap selection with (, [, {](https://github.com/micro-editor/micro/issues/707) 💬 4 | [micro-editor/micro](https://github.com/micro-editor/micro) | 29.6k | 🟡 help wanted | 2026-09-09 |  |
 | [Add RPM/Red Hat ecosystem support](https://github.com/google/osv-scanner/issues/254) 💬 2 | [google/osv-scanner](https://github.com/google/osv-scanner) | 11k | 🟢 beginner | 2026-09-09 | 📄 AI policy · ✍️ CLA |
-| [MQTT - based scaler](https://github.com/kedacore/keda/issues/1282) 💬 22 | [kedacore/keda](https://github.com/kedacore/keda) | 10.5k | 🟡 help wanted | 2026-09-09 | 🔏 DCO |
 | [Enhance Security and Self-Service by Allowing Service Account Specification in Target Namespace for Workload I](https://github.com/kedacore/keda/issues/5630) 💬 20 | [kedacore/keda](https://github.com/kedacore/keda) | 10.5k | 🟡 help wanted | 2026-09-09 | 🔏 DCO |
 | [Implement '--max-files' flag to limit the number of files transferred](https://github.com/rclone/rclone/issues/4118) 💬 8 | [rclone/rclone](https://github.com/rclone/rclone) | 59.8k | 🟡 help wanted | 2026-09-08 |  |
 | ["don't require a load balancer between cluster and control plane and still be HA"](https://github.com/kubernetes/kubernetes/issues/18174) 💬 183 | [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) | 127.7k | 🟡 help wanted | 2026-09-07 | 🤖 disclose AI use · ✍️ CLA |
@@ -209,6 +210,5 @@
 | [Code gen: generate constants for validation parameters](https://github.com/go-swagger/go-swagger/issues/717) 💬 1 | [go-swagger/go-swagger](https://github.com/go-swagger/go-swagger) | 10k | 🟡 help wanted | 2026-07-15 | 🔏 DCO |
 | [Animated connections don't honor prefers-reduced-motion](https://github.com/d2lang/d2/issues/1979) 💬 1 | [d2lang/d2](https://github.com/d2lang/d2) | 25.4k | 🟢 beginner | 2026-07-14 |  |
 | [[inputs.whois] Support RDAP lookup](https://github.com/influxdata/telegraf/issues/17243) 💬 3 | [influxdata/telegraf](https://github.com/influxdata/telegraf) | 17.8k | 🟡 help wanted | 2026-07-13 | ⚠️ AI restricted · ✍️ CLA |
-| [Add instructions for installing on SteamOS / Steam Deck](https://github.com/Jguer/yay/issues/2098) 💬 26 | [Jguer/yay](https://github.com/Jguer/yay) | 13.8k | 🟡 help wanted | 2026-07-13 |  |
 
 Showing the 200 most recently updated. See all 360 on the website.

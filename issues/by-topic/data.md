@@ -1,8 +1,8 @@
 # Data and databases issues
 
-**310** open issues (157 labeled for beginners) across **88** projects tagged with topics like `database`, `sql`, `postgresql`, `mysql`, `sqlite`, `nosql`.
+**314** open issues (162 labeled for beginners) across **87** projects tagged with topics like `database`, `sql`, `postgresql`, `mysql`, `sqlite`, `nosql`.
 
-> Updated automatically on **2026-09-15 10:51 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-15 21:01 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,6 +10,13 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [[UI] Loop tasks inside Gantt should have a link to all loop sub-executions](https://github.com/kestra-io/kestra/issues/18402) 💬 1 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-15 |  |
+| [Bad type on maxBufferSize in CsvToIon](https://github.com/kestra-io/kestra/issues/17885) | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-15 |  |
+| [HTTP Request task: failed-response error log shows [0x36] instead of a line break in the response body](https://github.com/kestra-io/kestra/issues/18698) 💬 2 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-15 |  |
+| [maxRecordSize error with CsvToIon](https://github.com/kestra-io/kestra/issues/17884) | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-15 |  |
+| [Add support for Docker tag + SHA image digest in Containerimages](https://github.com/kestra-io/kestra/issues/15694) | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-15 |  |
+| [Snowflake multiple queries fail](https://github.com/kestra-io/kestra/issues/17481) 💬 4 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-15 |  |
+| [Secret is not populated as a header value in module io.kestra.plugin.core.http.Request](https://github.com/kestra-io/kestra/issues/3988) 💬 4 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-15 |  |
 | [Better descriptions for execution kinds in 2.0](https://github.com/kestra-io/kestra/issues/17947) 💬 1 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-15 |  |
 | [[UI][Executions] Task Id is not visible when screen is small on the gantt](https://github.com/kestra-io/kestra/issues/18886) 💬 1 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-15 |  |
 | [[Bash2.0][Blueprints] First line of the code preview is fenced by a rule above and below it](https://github.com/kestra-io/kestra/issues/18330) | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-15 |  |
@@ -19,8 +26,9 @@
 | [Secrets components: replace explicit 'any' with real types](https://github.com/kestra-io/kestra/issues/19296) 💬 4 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-15 |  |
 | [Translations: replace explicit 'any' with real types](https://github.com/kestra-io/kestra/issues/19306) 💬 4 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-15 |  |
 | [TaskRunDetails.vue: replace explicit 'any' with real types](https://github.com/kestra-io/kestra/issues/19271) 💬 4 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-15 |  |
+| [Geospatial data support](https://github.com/tursodatabase/turso/issues/2066) 💬 7 | [tursodatabase/turso](https://github.com/tursodatabase/turso) | 24.3k | 🟡 help wanted | 2026-09-15 | 🤖 disclose AI use |
+| [Remove V1 API](https://github.com/paradedb/paradedb/issues/4391) 💬 14 | [paradedb/paradedb](https://github.com/paradedb/paradedb) | 9.3k | 🟢 beginner | 2026-09-15 | ✍️ CLA |
 | [Log axis limits "auto" doesn't work on histogram](https://github.com/grafana/grafana/issues/13027) 💬 12 | [grafana/grafana](https://github.com/grafana/grafana) | 76.8k | 🟡 help wanted | 2026-09-14 | ✍️ CLA |
-| [[UI] Loop tasks inside Gantt should have a link to all loop sub-executions](https://github.com/kestra-io/kestra/issues/18402) | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-14 |  |
 | [Docs components: replace explicit 'any' with real types](https://github.com/kestra-io/kestra/issues/19299) 💬 2 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-14 |  |
 | [postgres/sqlalchemy display of timestamptz loses my local timezone](https://github.com/marimo-team/marimo/issues/6250) 💬 10 | [marimo-team/marimo](https://github.com/marimo-team/marimo) | 22.8k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use · ✍️ CLA |
 | [[data_editor] Checkbox and dropdown elements in data_editor columns](https://github.com/marimo-team/marimo/issues/6694) 💬 8 | [marimo-team/marimo](https://github.com/marimo-team/marimo) | 22.8k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use · ✍️ CLA |
@@ -76,7 +84,7 @@
 | [M2A Relation Display Not Showing Properly](https://github.com/directus/directus/issues/25348) 💬 5 | [directus/directus](https://github.com/directus/directus) | 37.9k | 🟡 help wanted | 2026-09-02 |  |
 | [Postgresql : Can't update row with an empty array](https://github.com/sequelize/sequelize/issues/11748) 💬 6 | [sequelize/sequelize](https://github.com/sequelize/sequelize) | 30.4k | 🟢 beginner | 2026-09-02 |  |
 | [Alternative query result format other than []dict](https://github.com/googleapis/mcp-toolbox/issues/1537) 💬 6 | [googleapis/mcp-toolbox](https://github.com/googleapis/mcp-toolbox) | 16.4k | 🟡 help wanted | 2026-09-02 | ✍️ CLA |
-| [GCS needs someone with a real bucket to run its test](https://github.com/deeplethe/utopia/issues/214) | [deeplethe/utopia](https://github.com/deeplethe/utopia) | 8.3k | 🟡 help wanted | 2026-09-02 | ✍️ CLA · 🔏 DCO |
+| [GCS needs someone with a real bucket to run its test](https://github.com/deeplethe/utopia/issues/214) | [deeplethe/utopia](https://github.com/deeplethe/utopia) | 8.4k | 🟡 help wanted | 2026-09-02 | ✍️ CLA · 🔏 DCO |
 | [Improve logging for circuit breakers](https://github.com/elastic/elasticsearch/issues/62452) 💬 11 | [elastic/elasticsearch](https://github.com/elastic/elasticsearch) | 77.9k | 🟡 help wanted | 2026-09-01 | ✍️ CLA |
 | [Add resource ID to 404 response body](https://github.com/elastic/elasticsearch/issues/82675) 💬 17 | [elastic/elasticsearch](https://github.com/elastic/elasticsearch) | 77.9k | 🟡 help wanted | 2026-09-01 | ✍️ CLA |
 | [Replace azure-cosmos by azure-mgmt-cosmosdb](https://github.com/apache/airflow/issues/9742) 💬 7 | [apache/airflow](https://github.com/apache/airflow) | 46.9k | 🟢 beginner | 2026-09-01 | 🤖 disclose AI use · ✍️ CLA |
@@ -126,7 +134,6 @@
 | [[BUG] Error when adding Date32 and Int64](https://github.com/apache/datafusion/issues/12342) 💬 14 | [apache/datafusion](https://github.com/apache/datafusion) | 9.3k | 🟢 beginner | 2026-08-15 | ✍️ CLA |
 | [IPMI Monitoring Data Interruption Issue](https://github.com/apache/hertzbeat/issues/3197) 💬 10 | [apache/hertzbeat](https://github.com/apache/hertzbeat) | 7.4k | 🟢 beginner | 2026-08-15 |  |
 | [Expose incremental reindexing in python and node](https://github.com/lancedb/lancedb/issues/685) 💬 1 | [lancedb/lancedb](https://github.com/lancedb/lancedb) | 11.4k | 🟢 beginner | 2026-08-14 |  |
-| [Remove V1 API](https://github.com/paradedb/paradedb/issues/4391) 💬 13 | [paradedb/paradedb](https://github.com/paradedb/paradedb) | 9.3k | 🟢 beginner | 2026-08-14 | ✍️ CLA |
 | [Fuzzer failure in math_expression_fuzz_run_mvcc with trigonometry functions](https://github.com/tursodatabase/turso/issues/5165) 💬 7 | [tursodatabase/turso](https://github.com/tursodatabase/turso) | 24.3k | 🟢 beginner | 2026-08-13 | 🤖 disclose AI use |
 | [Implement cache tagging (RemoveByTagAsync + tagged writes)](https://github.com/FoundatioFx/Foundatio/issues/8) 💬 6 | [FoundatioFx/Foundatio](https://github.com/FoundatioFx/Foundatio) | 2.1k | 🟡 help wanted | 2026-08-13 |  |
 | [changefeedccl: incorrect metric types](https://github.com/cockroachdb/cockroach/issues/134547) 💬 4 | [cockroachdb/cockroach](https://github.com/cockroachdb/cockroach) | 32.5k | 🟢 beginner | 2026-08-12 | ✍️ CLA |
@@ -165,7 +172,6 @@
 | [UI fails to start with error: Failed to load version/info Error: Internal Server Error](https://github.com/argoproj/argo-workflows/issues/14455) 💬 3 | [argoproj/argo-workflows](https://github.com/argoproj/argo-workflows) | 17k | 🟢 beginner | 2026-07-31 | 📄 AI policy · 🔏 DCO |
 | [metrics browser: Label values counter showing incorrect counts after selecting a label](https://github.com/grafana/grafana/issues/59705) 💬 7 | [grafana/grafana](https://github.com/grafana/grafana) | 76.8k | 🟢 beginner | 2026-07-30 | ✍️ CLA |
 | [Writer for WebDatasets File Format](https://github.com/Eventual-Inc/Daft/issues/7343) | [Eventual-Inc/Daft](https://github.com/Eventual-Inc/Daft) | 5.8k | 🟡 help wanted | 2026-07-30 | 🤖 disclose AI use |
-| [[Feature Request] Support additional generation expressions for automatic data skipping](https://github.com/delta-io/delta/issues/1442) 💬 7 | [delta-io/delta](https://github.com/delta-io/delta) | 9k | 🟢 beginner | 2026-07-29 | 🔏 DCO |
 | [Migrate 'locale' and 'is_qbnewb' columns in 'core_user' table to User-local settings](https://github.com/metabase/metabase/issues/20604) 💬 4 | [metabase/metabase](https://github.com/metabase/metabase) | 49.3k | 🟢 beginner | 2026-07-27 | ✍️ CLA |
 | [Shared page cache support?](https://github.com/tursodatabase/turso/issues/318) 💬 1 | [tursodatabase/turso](https://github.com/tursodatabase/turso) | 24.3k | 🟡 help wanted | 2026-07-27 | 🤖 disclose AI use |
 | [mo.ui.slider with very small step value does not work](https://github.com/marimo-team/marimo/issues/2593) 💬 6 | [marimo-team/marimo](https://github.com/marimo-team/marimo) | 22.8k | 🟢 beginner | 2026-07-26 | 🤖 disclose AI use · ✍️ CLA |
@@ -204,11 +210,5 @@
 | [Disabling columnstore does not pause columnstore policies](https://github.com/timescale/timescaledb/issues/8960) 💬 3 | [timescale/timescaledb](https://github.com/timescale/timescaledb) | 23.5k | 🟢 beginner | 2026-07-04 | ✍️ CLA |
 | [Allow admin role to create pre-signed URLs with arbitrary expirations](https://github.com/nhost/nhost/issues/3517) 💬 7 | [nhost/nhost](https://github.com/nhost/nhost) | 9.3k | 🟢 beginner | 2026-07-02 | ⚠️ AI restricted |
 | [CodeMirror hint box should be wider](https://github.com/phpmyadmin/phpmyadmin/issues/17409) 💬 9 | [phpmyadmin/phpmyadmin](https://github.com/phpmyadmin/phpmyadmin) | 7.9k | 🟢 beginner | 2026-07-02 | 🔏 DCO |
-| [Add 'cargo-dist' packaging for 'limbo' and 'liblimbo_sqlite3.a'](https://github.com/tursodatabase/turso/issues/162) 💬 3 | [tursodatabase/turso](https://github.com/tursodatabase/turso) | 24.3k | 🟢 beginner | 2026-07-01 | 🤖 disclose AI use |
-| [libuv example](https://github.com/tursodatabase/turso/issues/48) 💬 2 | [tursodatabase/turso](https://github.com/tursodatabase/turso) | 24.3k | 🟡 help wanted | 2026-07-01 | 🤖 disclose AI use |
-| [Subquery support](https://github.com/tursodatabase/turso/issues/34) 💬 2 | [tursodatabase/turso](https://github.com/tursodatabase/turso) | 24.3k | 🟡 help wanted | 2026-07-01 | 🤖 disclose AI use |
-| [Marimo Static HTML Export with dynamic mo.ui.tabs](https://github.com/marimo-team/marimo/issues/6076) | [marimo-team/marimo](https://github.com/marimo-team/marimo) | 22.8k | 🟡 help wanted | 2026-07-01 | 🤖 disclose AI use · ✍️ CLA |
-| [咨询是否存在文件句柄超限问题](https://github.com/taosdata/TDengine/issues/35377) 💬 1 | [taosdata/TDengine](https://github.com/taosdata/TDengine) | 25.1k | 🟡 help wanted | 2026-06-30 |  |
-| [Optimize GROUP BY with LIMIT but no ORDER BY to keep only k groups](https://github.com/crate/crate/issues/16827) 💬 5 | [crate/crate](https://github.com/crate/crate) | 4.4k | 🟡 help wanted | 2026-06-30 | ⚠️ AI restricted · ✍️ CLA |
 
-Showing the 200 most recently updated. See all 310 on the website.
+Showing the 200 most recently updated. See all 314 on the website.

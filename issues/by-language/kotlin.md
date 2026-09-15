@@ -2,7 +2,7 @@
 
 **160** open issues (64 labeled for beginners) across **69** active Kotlin projects.
 
-> Updated automatically on **2026-09-15 10:51 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-15 21:01 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -39,7 +39,7 @@
 | [Shuffle if ther's no effective buster card](https://github.com/Fate-Grand-Automata/FGA/issues/864) | [Fate-Grand-Automata/FGA](https://github.com/Fate-Grand-Automata/FGA) | 2.4k | 🟢 beginner | 2026-09-08 |  |
 | [Editing contact and then going back decrements Event dates by 1](https://github.com/you-apps/ConnectYou/issues/84) 💬 7 | [you-apps/ConnectYou](https://github.com/you-apps/ConnectYou) | 724 | 🟡 help wanted | 2026-09-08 |  |
 | [Improve the Review forgotten cards dialog](https://github.com/ankidroid/Anki-Android/issues/20598) 💬 14 | [ankidroid/Anki-Android](https://github.com/ankidroid/Anki-Android) | 11.8k | 🟢 beginner | 2026-09-06 | 🤖 disclose AI use |
-| [Native Debrid Integration Support](https://github.com/ProdigyV21/ARVIO/issues/198) 💬 3 | [ProdigyV21/ARVIO](https://github.com/ProdigyV21/ARVIO) | 711 | 🟡 help wanted | 2026-09-06 |  |
+| [Native Debrid Integration Support](https://github.com/ProdigyV21/ARVIO/issues/198) 💬 3 | [ProdigyV21/ARVIO](https://github.com/ProdigyV21/ARVIO) | 712 | 🟡 help wanted | 2026-09-06 |  |
 | [jellyfin源无法，播放strm流文件](https://github.com/open-ani/animeko/issues/2995) 💬 3 | [open-ani/animeko](https://github.com/open-ani/animeko) | 20.1k | 🟡 help wanted | 2026-09-05 |  |
 | [应用崩溃 IllegalStateException](https://github.com/open-ani/animeko/issues/2328) 💬 2 | [open-ani/animeko](https://github.com/open-ani/animeko) | 20.1k | 🟡 help wanted | 2026-09-05 |  |
 | [增加设置允许后台播放](https://github.com/open-ani/animeko/issues/59) 💬 5 | [open-ani/animeko](https://github.com/open-ani/animeko) | 20.1k | 🟡 help wanted | 2026-09-05 |  |
@@ -116,7 +116,7 @@
 | [Navidrome Support](https://github.com/rawnaldclark/Stash/issues/86) 💬 2 | [rawnaldclark/Stash](https://github.com/rawnaldclark/Stash) | 1.1k | 🟡 help wanted | 2026-07-11 |  |
 | [[BUG] Outdated Play Store localized descriptions](https://github.com/FoedusProgramme/Gramophone/issues/970) | [FoedusProgramme/Gramophone](https://github.com/FoedusProgramme/Gramophone) | 2.3k | 🟡 help wanted | 2026-07-08 |  |
 | [Adding word to personal dictionary always adds to system language dictionary](https://github.com/HeliBorg/HeliBoard/issues/2146) 💬 8 | [HeliBorg/HeliBoard](https://github.com/HeliBorg/HeliBoard) | 6.1k | 🟡 help wanted | 2026-07-06 |  |
-| [Make read-only answers copiable](https://github.com/getodk/collect/issues/5404) | [getodk/collect](https://github.com/getodk/collect) | 789 | 🟡 help wanted | 2026-07-05 | 🤖 disclose AI use |
+| [Make read-only answers copiable](https://github.com/getodk/collect/issues/5404) | [getodk/collect](https://github.com/getodk/collect) | 790 | 🟡 help wanted | 2026-07-05 | 🤖 disclose AI use |
 | [Wallpaper changer does not work on LineageOS](https://github.com/you-apps/WallYou/issues/259) 💬 4 | [you-apps/WallYou](https://github.com/you-apps/WallYou) | 1.2k | 🟡 help wanted | 2026-07-03 |  |
 | [Checking for latest version at every "All files" screen](https://github.com/nextcloud/android/issues/1996) 💬 4 | [nextcloud/android](https://github.com/nextcloud/android) | 5.6k | 🟢 beginner | 2026-06-30 | 🤖 disclose AI use · 🔏 DCO |
 | [Linux ARM support](https://github.com/librepods-org/librepods/issues/647) 💬 2 | [librepods-org/librepods](https://github.com/librepods-org/librepods) | 29.9k | 🟡 help wanted | 2026-06-28 |  |
@@ -140,7 +140,7 @@
 | [The thumbnails don't always load](https://github.com/libre-tube/LibreTube/issues/8393) 💬 2 | [libre-tube/LibreTube](https://github.com/libre-tube/LibreTube) | 12.7k | 🟡 help wanted | 2026-05-23 |  |
 | [Create an option to automatically export settings, when they change, to the last selected note for that purpos](https://github.com/orgzly-revived/orgzly-android-revived/issues/945) 💬 1 | [orgzly-revived/orgzly-android-revived](https://github.com/orgzly-revived/orgzly-android-revived) | 1.1k | 🟢 beginner | 2026-05-23 |  |
 | [Support huge queues without lagging or freezing](https://github.com/ssalggnikool/Navic/issues/332) 💬 2 | [ssalggnikool/Navic](https://github.com/ssalggnikool/Navic) | 1k | 🟡 help wanted | 2026-05-23 | ⚠️ AI restricted |
-| [[Bug] No longer see files/folders within secure folder](https://github.com/leonlatsch/Photok/issues/678) 💬 5 | [leonlatsch/Photok](https://github.com/leonlatsch/Photok) | 966 | 🟢 beginner | 2026-05-21 |  |
+| [[Bug] No longer see files/folders within secure folder](https://github.com/leonlatsch/Photok/issues/678) 💬 5 | [leonlatsch/Photok](https://github.com/leonlatsch/Photok) | 967 | 🟢 beginner | 2026-05-21 |  |
 | [Queue UI requests from page fragments while app in background](https://github.com/ankidroid/Anki-Android/issues/15706) 💬 3 | [ankidroid/Anki-Android](https://github.com/ankidroid/Anki-Android) | 11.8k | 🟡 help wanted | 2026-05-20 | 🤖 disclose AI use |
 | [Configurable number of snapshots to keep](https://github.com/seedvault-app/seedvault/issues/977) 💬 2 | [seedvault-app/seedvault](https://github.com/seedvault-app/seedvault) | 1.8k | 🟡 help wanted | 2026-05-18 |  |
 | [NAT66 eBPF mode](https://github.com/Mygod/VPNHotspot/issues/728) | [Mygod/VPNHotspot](https://github.com/Mygod/VPNHotspot) | 6.4k | 🟡 help wanted | 2026-05-15 |  |

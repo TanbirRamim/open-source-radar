@@ -5,7 +5,7 @@
     "cla": false,
     "dco": false,
     "files": [],
-    "scanned_at": "2026-09-13T01:02:48+00:00"
+    "scanned_at": "2026-09-15T20:18:41+00:00"
   },
   "0xAX/linux-insides": {
     "ai": "none",
@@ -15,7 +15,7 @@
     "files": [
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-13T01:02:48+00:00"
+    "scanned_at": "2026-09-15T20:18:41+00:00"
   },
   "0xCUB3/wBlock": {
     "ai": "none",
@@ -23,7 +23,7 @@
     "cla": false,
     "dco": false,
     "files": [],
-    "scanned_at": "2026-09-13T01:02:48+00:00"
+    "scanned_at": "2026-09-15T20:18:41+00:00"
   },
   "0xPlaygrounds/rig": {
     "ai": "none",
@@ -34,7 +34,7 @@
       "AGENTS.md",
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-13T01:02:48+00:00"
+    "scanned_at": "2026-09-15T20:18:41+00:00"
   },
   "0xSero/litter": {
     "ai": "none",
@@ -45,7 +45,15 @@
       "AGENTS.md",
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-13T01:02:48+00:00"
+    "scanned_at": "2026-09-15T20:18:41+00:00"
+  },
+  "13atm01/GRUB-Theme": {
+    "ai": "none",
+    "ai_file": null,
+    "cla": false,
+    "dco": false,
+    "files": [],
+    "scanned_at": "2026-09-15T20:18:41+00:00"
   },
   "1jehuang/jcode": {
     "ai": "none",
@@ -3330,7 +3338,7 @@
     "files": [
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-13T01:06:21+00:00"
+    "scanned_at": "2026-09-15T20:21:23+00:00"
   },
   "JuliaDebug/Debugger.jl": {
     "ai": "none",
@@ -3338,7 +3346,7 @@
     "cla": false,
     "dco": false,
     "files": [],
-    "scanned_at": "2026-09-13T01:06:21+00:00"
+    "scanned_at": "2026-09-15T20:21:23+00:00"
   },
   "JuliaDocs/Documenter.jl": {
     "ai": "disclose",
@@ -3348,7 +3356,7 @@
     "files": [
       "AGENTS.md"
     ],
-    "scanned_at": "2026-09-13T01:06:21+00:00"
+    "scanned_at": "2026-09-15T20:21:23+00:00"
   },
   "JuliaDocs/Franklin.jl": {
     "ai": "none",
@@ -3356,7 +3364,17 @@
     "cla": false,
     "dco": false,
     "files": [],
-    "scanned_at": "2026-09-13T01:06:21+00:00"
+    "scanned_at": "2026-09-15T20:21:23+00:00"
+  },
+  "JuliaDynamics/Agents.jl": {
+    "ai": "none",
+    "ai_file": null,
+    "cla": false,
+    "dco": false,
+    "files": [
+      "CONTRIBUTING.md"
+    ],
+    "scanned_at": "2026-09-15T20:21:23+00:00"
   },
   "JuliaDynamics/DynamicalSystems.jl": {
     "ai": "none",
@@ -3366,7 +3384,7 @@
     "files": [
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-13T01:06:21+00:00"
+    "scanned_at": "2026-09-15T20:21:23+00:00"
   },
   "JuliaEarth/GeoStats.jl": {
     "ai": "none",
@@ -4563,7 +4581,7 @@
       "AGENTS.md",
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-13T01:07:42+00:00"
+    "scanned_at": "2026-09-15T20:23:28+00:00"
   },
   "NVIDIA/DALI": {
     "ai": "none",
@@ -4574,7 +4592,7 @@
       ".github/PULL_REQUEST_TEMPLATE.md",
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-13T01:07:47+00:00"
+    "scanned_at": "2026-09-15T20:23:28+00:00"
   },
   "NVIDIA/Megatron-LM": {
     "ai": "none",
@@ -4586,7 +4604,7 @@
       "AGENTS.md",
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-13T01:07:47+00:00"
+    "scanned_at": "2026-09-15T20:23:28+00:00"
   },
   "NVIDIA/NemoClaw": {
     "ai": "disclose",
@@ -4599,7 +4617,19 @@
       "CONTRIBUTING.md",
       "docs/CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-13T01:07:47+00:00"
+    "scanned_at": "2026-09-15T20:23:28+00:00"
+  },
+  "NVIDIA/OpenShell": {
+    "ai": "disclose",
+    "ai_file": "CONTRIBUTING.md",
+    "cla": false,
+    "dco": true,
+    "files": [
+      ".github/PULL_REQUEST_TEMPLATE.md",
+      "AGENTS.md",
+      "CONTRIBUTING.md"
+    ],
+    "scanned_at": "2026-09-15T20:23:28+00:00"
   },
   "NVIDIA/cudf": {
     "ai": "none",
@@ -4610,7 +4640,7 @@
       ".github/PULL_REQUEST_TEMPLATE.md",
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-13T01:07:47+00:00"
+    "scanned_at": "2026-09-15T20:23:28+00:00"
   },
   "NVIDIA/cudf-spark": {
     "ai": "disclose",
@@ -6280,6 +6310,14 @@
     "files": [],
     "scanned_at": "2026-09-13T01:09:46+00:00"
   },
+  "SkyTubeTeam/SkyTube": {
+    "ai": "none",
+    "ai_file": null,
+    "cla": false,
+    "dco": false,
+    "files": [],
+    "scanned_at": "2026-09-15T20:25:05+00:00"
+  },
   "Skyvern-AI/skyvern": {
     "ai": "none",
     "ai_file": null,
@@ -6290,7 +6328,7 @@
       "AGENTS.md",
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-13T01:09:46+00:00"
+    "scanned_at": "2026-09-15T20:25:05+00:00"
   },
   "SmartToolFactory/Jetpack-Compose-Tutorials": {
     "ai": "none",
@@ -6298,7 +6336,7 @@
     "cla": false,
     "dco": false,
     "files": [],
-    "scanned_at": "2026-09-13T01:09:46+00:00"
+    "scanned_at": "2026-09-15T20:25:05+00:00"
   },
   "Smaug6739/Alexandrie": {
     "ai": "none",
@@ -6308,7 +6346,7 @@
     "files": [
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-13T01:09:49+00:00"
+    "scanned_at": "2026-09-15T20:25:05+00:00"
   },
   "Smile-SA/elasticsuite": {
     "ai": "none",
@@ -6318,7 +6356,7 @@
     "files": [
       ".github/CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-13T01:09:49+00:00"
+    "scanned_at": "2026-09-15T20:25:05+00:00"
   },
   "SmiteshP/nvim-navic": {
     "ai": "none",
@@ -6326,7 +6364,7 @@
     "cla": false,
     "dco": false,
     "files": [],
-    "scanned_at": "2026-09-13T01:09:49+00:00"
+    "scanned_at": "2026-09-15T20:25:05+00:00"
   },
   "Snailclimb/JavaGuide": {
     "ai": "none",
@@ -20878,7 +20916,7 @@
     "files": [
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-13T01:26:44+00:00"
+    "scanned_at": "2026-09-15T20:43:25+00:00"
   },
   "leandromoreira/digital_video_introduction": {
     "ai": "none",
@@ -20888,7 +20926,15 @@
     "files": [
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-13T01:26:44+00:00"
+    "scanned_at": "2026-09-15T20:43:25+00:00"
+  },
+  "learnyouahaskell/learnyouahaskell.github.io": {
+    "ai": "none",
+    "ai_file": null,
+    "cla": false,
+    "dco": false,
+    "files": [],
+    "scanned_at": "2026-09-15T20:43:25+00:00"
   },
   "leeoniya/uPlot": {
     "ai": "none",
@@ -20896,7 +20942,7 @@
     "cla": false,
     "dco": false,
     "files": [],
-    "scanned_at": "2026-09-13T01:26:44+00:00"
+    "scanned_at": "2026-09-15T20:43:25+00:00"
   },
   "leepeuker/movary": {
     "ai": "none",
@@ -20904,7 +20950,7 @@
     "cla": false,
     "dco": false,
     "files": [],
-    "scanned_at": "2026-09-13T01:26:44+00:00"
+    "scanned_at": "2026-09-15T20:43:25+00:00"
   },
   "lejard-h/chopper": {
     "ai": "none",
@@ -20914,7 +20960,7 @@
     "files": [
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-13T01:26:47+00:00"
+    "scanned_at": "2026-09-15T20:43:25+00:00"
   },
   "lensesio/stream-reactor": {
     "ai": "none",
@@ -28098,13 +28144,21 @@
     ],
     "scanned_at": "2026-09-13T01:35:18+00:00"
   },
+  "regl-project/regl": {
+    "ai": "none",
+    "ai_file": null,
+    "cla": false,
+    "dco": false,
+    "files": [],
+    "scanned_at": "2026-09-15T20:53:07+00:00"
+  },
   "relatedcode/ProgressHUD": {
     "ai": "none",
     "ai_file": null,
     "cla": false,
     "dco": false,
     "files": [],
-    "scanned_at": "2026-09-13T01:35:18+00:00"
+    "scanned_at": "2026-09-15T20:53:07+00:00"
   },
   "rememberber/WePush": {
     "ai": "none",
@@ -28112,7 +28166,7 @@
     "cla": false,
     "dco": false,
     "files": [],
-    "scanned_at": "2026-09-13T01:35:18+00:00"
+    "scanned_at": "2026-09-15T20:53:07+00:00"
   },
   "renovatebot/renovate": {
     "ai": "disclose",
@@ -28123,7 +28177,7 @@
       ".github/pull_request_template.md",
       "AGENTS.md"
     ],
-    "scanned_at": "2026-09-13T01:35:24+00:00"
+    "scanned_at": "2026-09-15T20:53:07+00:00"
   },
   "replicate/cog": {
     "ai": "none",
@@ -28134,7 +28188,7 @@
       "AGENTS.md",
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-13T01:35:24+00:00"
+    "scanned_at": "2026-09-15T20:53:07+00:00"
   },
   "replicatedhq/kURL": {
     "ai": "none",
@@ -28146,7 +28200,7 @@
       "AGENTS.md",
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-13T01:35:24+00:00"
+    "scanned_at": "2026-09-15T20:53:07+00:00"
   },
   "replikativ/datahike": {
     "ai": "none",
@@ -28344,7 +28398,7 @@
     "files": [
       "AGENTS.md"
     ],
-    "scanned_at": "2026-09-13T01:35:54+00:00"
+    "scanned_at": "2026-09-15T20:53:50+00:00"
   },
   "rnmapbox/maps": {
     "ai": "none",
@@ -28356,7 +28410,7 @@
       "AGENTS.md",
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-13T01:35:54+00:00"
+    "scanned_at": "2026-09-15T20:53:50+00:00"
   },
   "robinrodricks/FluentFTP": {
     "ai": "none",
@@ -28364,7 +28418,19 @@
     "cla": false,
     "dco": false,
     "files": [],
-    "scanned_at": "2026-09-13T01:35:54+00:00"
+    "scanned_at": "2026-09-15T20:53:50+00:00"
+  },
+  "roboflow/supervision": {
+    "ai": "none",
+    "ai_file": null,
+    "cla": true,
+    "dco": false,
+    "files": [
+      ".github/CONTRIBUTING.md",
+      ".github/PULL_REQUEST_TEMPLATE.md",
+      "AGENTS.md"
+    ],
+    "scanned_at": "2026-09-15T20:53:50+00:00"
   },
   "robolectric/robolectric": {
     "ai": "none",
@@ -28375,7 +28441,7 @@
       ".github/CONTRIBUTING.md",
       ".github/PULL_REQUEST_TEMPLATE.md"
     ],
-    "scanned_at": "2026-09-13T01:36:00+00:00"
+    "scanned_at": "2026-09-15T20:53:50+00:00"
   },
   "robstoll/atrium": {
     "ai": "none",
@@ -28386,7 +28452,7 @@
       ".github/CONTRIBUTING.md",
       ".github/PULL_REQUEST_TEMPLATE.md"
     ],
-    "scanned_at": "2026-09-13T01:36:00+00:00"
+    "scanned_at": "2026-09-15T20:53:50+00:00"
   },
   "roc-lang/roc": {
     "ai": "none",
@@ -29021,7 +29087,7 @@
     "files": [
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-13T01:36:48+00:00"
+    "scanned_at": "2026-09-15T20:54:31+00:00"
   },
   "sameerasw/essentials": {
     "ai": "none",
@@ -29031,7 +29097,7 @@
     "files": [
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-13T01:36:48+00:00"
+    "scanned_at": "2026-09-15T20:54:31+00:00"
   },
   "sameersbn/docker-redmine": {
     "ai": "none",
@@ -29039,7 +29105,15 @@
     "cla": false,
     "dco": false,
     "files": [],
-    "scanned_at": "2026-09-13T01:36:48+00:00"
+    "scanned_at": "2026-09-15T20:54:31+00:00"
+  },
+  "samhocevar/wincompose": {
+    "ai": "none",
+    "ai_file": null,
+    "cla": false,
+    "dco": false,
+    "files": [],
+    "scanned_at": "2026-09-15T20:54:31+00:00"
   },
   "samolego/Canta": {
     "ai": "none",
@@ -29047,7 +29121,7 @@
     "cla": false,
     "dco": false,
     "files": [],
-    "scanned_at": "2026-09-13T01:36:53+00:00"
+    "scanned_at": "2026-09-15T20:54:31+00:00"
   },
   "sampotts/plyr": {
     "ai": "none",
@@ -29058,7 +29132,7 @@
       ".github/pull_request_template.md",
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-13T01:36:53+00:00"
+    "scanned_at": "2026-09-15T20:54:31+00:00"
   },
   "sandboxie-plus/Sandboxie": {
     "ai": "none",

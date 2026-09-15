@@ -1,8 +1,8 @@
 # Science and research issues
 
-**58** open issues (38 labeled for beginners) across **16** projects tagged with topics like `science`, `scientific-computing`, `bioinformatics`, `physics`, `astronomy`, `chemistry`.
+**56** open issues (36 labeled for beginners) across **16** projects tagged with topics like `science`, `scientific-computing`, `bioinformatics`, `physics`, `astronomy`, `chemistry`.
 
-> Updated automatically on **2026-09-15 10:51 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-15 21:01 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,7 +10,6 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [Fix JavaScript lint errors](https://github.com/stdlib-js/stdlib/issues/15228) 💬 1 | [stdlib-js/stdlib](https://github.com/stdlib-js/stdlib) | 6k | 🟢 beginner | 2026-09-15 | 🤖 disclose AI use |
 | [Mean Standardized Log Loss (MSLL) for uncertainty aware regression models](https://github.com/scikit-learn/scikit-learn/issues/21665) 💬 16 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | 67.3k | 🟡 help wanted | 2026-09-12 | 🤖 disclose AI use |
 | [all *.json files are interpreted as objects](https://github.com/OpenRCT2/OpenRCT2/issues/16807) 💬 3 | [OpenRCT2/OpenRCT2](https://github.com/OpenRCT2/OpenRCT2) | 16.2k | 🟢 beginner | 2026-09-12 |  |
 | [Consensus Index for Clustering Model Selection](https://github.com/scikit-learn/scikit-learn/issues/11778) 💬 7 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | 67.3k | 🟡 help wanted | 2026-09-10 | 🤖 disclose AI use |
@@ -67,4 +66,3 @@
 | [Sextant sight reduction module](https://github.com/Stellarium/stellarium/issues/796) 💬 5 | [Stellarium/stellarium](https://github.com/Stellarium/stellarium) | 10k | 🟡 help wanted | 2026-05-07 |  |
 | [Additional tests for fluxes: Invariance with respect to rotation and Consistency](https://github.com/trixi-framework/Trixi.jl/issues/1734) 💬 2 | [trixi-framework/Trixi.jl](https://github.com/trixi-framework/Trixi.jl) | 730 | 🟢 beginner | 2026-03-29 | 🤖 disclose AI use · 🔏 DCO |
 | [Cells can fire toxins while they are dead](https://github.com/Revolutionary-Games/Thrive/issues/6837) | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) | 3.7k | 🟢 beginner | 2026-03-26 |  |
-| [Switch the readme build status badge to the new system](https://github.com/Revolutionary-Games/Thrive/issues/2267) 💬 4 | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) | 3.7k | 🟢 beginner | 2026-03-19 |  |

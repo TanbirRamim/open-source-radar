@@ -1,8 +1,8 @@
 # Games and graphics issues
 
-**150** open issues (77 labeled for beginners) across **48** projects tagged with topics like `game`, `game-engine`, `gamedev`, `graphics`, `opengl`, `vulkan`.
+**150** open issues (76 labeled for beginners) across **49** projects tagged with topics like `game`, `game-engine`, `gamedev`, `graphics`, `opengl`, `vulkan`.
 
-> Updated automatically on **2026-09-15 10:51 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-15 21:01 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -12,6 +12,7 @@
 | --- | --- | ---: | --- | --- | --- |
 | [Stylesheet: UI/UX Cropped Title on popup while checking geometry with threads (Linux)](https://github.com/FreeCAD/FreeCAD/issues/17542) 💬 14 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.5k | 🟢 beginner | 2026-09-15 | ⚠️ AI restricted |
 | [macOS: Improper name formatting in About menu: 'freecad' -&gt; 'FreeCAD'](https://github.com/FreeCAD/FreeCAD/issues/21118) 💬 26 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.5k | 🟢 beginner | 2026-09-15 | ⚠️ AI restricted |
+| [[TRACKER] Potential Development Halting Issues.](https://github.com/FlaxEngine/FlaxEngine/issues/2220) 💬 6 | [FlaxEngine/FlaxEngine](https://github.com/FlaxEngine/FlaxEngine) | 7k | 🟡 help wanted | 2026-09-15 |  |
 | [window.resize_increments miscalculates the window size for some values of window.padding](https://github.com/alacritty/alacritty/issues/9047) 💬 3 | [alacritty/alacritty](https://github.com/alacritty/alacritty) | 65.7k | 🟢 beginner | 2026-09-14 |  |
 | [Sketcher: Double-click selection includes wrong object types and impacts performance](https://github.com/FreeCAD/FreeCAD/issues/32248) 💬 3 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.5k | 🟢 beginner | 2026-09-14 | ⚠️ AI restricted |
 | [STEP: Combining STEP files messes tree structure in resulting file](https://github.com/FreeCAD/FreeCAD/issues/11441) 💬 6 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.5k | 🟡 help wanted | 2026-09-14 | ⚠️ AI restricted |
@@ -159,4 +160,3 @@
 | [Add "Open" Button to AI Agent Section](https://github.com/IvanMurzak/Unity-MCP/issues/542) 💬 3 | [IvanMurzak/Unity-MCP](https://github.com/IvanMurzak/Unity-MCP) | 4.3k | 🟡 help wanted | 2026-03-31 |  |
 | [Cursor extension on the extensions market](https://github.com/IvanMurzak/Unity-MCP/issues/614) | [IvanMurzak/Unity-MCP](https://github.com/IvanMurzak/Unity-MCP) | 4.3k | 🟡 help wanted | 2026-03-26 |  |
 | [Cells can fire toxins while they are dead](https://github.com/Revolutionary-Games/Thrive/issues/6837) | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) | 3.7k | 🟢 beginner | 2026-03-26 |  |
-| [Switch the readme build status badge to the new system](https://github.com/Revolutionary-Games/Thrive/issues/2267) 💬 4 | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) | 3.7k | 🟢 beginner | 2026-03-19 |  |

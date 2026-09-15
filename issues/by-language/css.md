@@ -1,8 +1,8 @@
 # CSS issues
 
-**29** open issues (23 labeled for beginners) across **6** active CSS projects.
+**30** open issues (23 labeled for beginners) across **7** active CSS projects.
 
-> Updated automatically on **2026-09-15 10:51 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-15 21:01 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -39,3 +39,4 @@
 | [Link Checker Report](https://github.com/data-engineering-community/data-engineering-wiki/issues/148) | [data-engineering-community/data-engineering-wiki](https://github.com/data-engineering-community/data-engineering-wiki) | 2k | 🟢 beginner | 2026-05-11 | ⚠️ AI restricted |
 | [Possible new sections or chapters](https://github.com/rust-lang/nomicon/issues/269) 💬 1 | [rust-lang/nomicon](https://github.com/rust-lang/nomicon) | 2.3k | 🟡 help wanted | 2026-05-05 |  |
 | [Link Checker Report](https://github.com/data-engineering-community/data-engineering-wiki/issues/147) | [data-engineering-community/data-engineering-wiki](https://github.com/data-engineering-community/data-engineering-wiki) | 2k | 🟢 beginner | 2026-05-04 | ⚠️ AI restricted |
+| [Dark mode illustrations could use some work](https://github.com/learnyouahaskell/learnyouahaskell.github.io/issues/152) 💬 1 | [learnyouahaskell/learnyouahaskell.github.io](https://github.com/learnyouahaskell/learnyouahaskell.github.io) | 607 | 🟡 help wanted | 2026-05-03 |  |

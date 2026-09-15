@@ -1,8 +1,8 @@
 # JavaScript issues
 
-**167** open issues (74 labeled for beginners) across **65** active JavaScript projects.
+**163** open issues (73 labeled for beginners) across **65** active JavaScript projects.
 
-> Updated automatically on **2026-09-15 10:51 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-15 21:01 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,7 +10,7 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [Fix JavaScript lint errors](https://github.com/stdlib-js/stdlib/issues/15228) 💬 1 | [stdlib-js/stdlib](https://github.com/stdlib-js/stdlib) | 6k | 🟢 beginner | 2026-09-15 | 🤖 disclose AI use |
+| [[ACTION] Rewardful — Affiliate & Commission Management](https://github.com/PipedreamHQ/pipedream/issues/21991) | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-09-15 |  |
 | [feat(scan): domain-level aggregator repost list, complementing the SimHash cross-listing warning](https://github.com/career-ops-hq/career-ops/issues/3577) 💬 7 | [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | 71.7k | 🟢 beginner | 2026-09-13 |  |
 | [Allow integration with Pomerium proxy on GCP Cloud Run](https://github.com/ToolJet/ToolJet/issues/2798) 💬 1 | [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) | 40.9k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use |
 | [Change the shortcut keys in tooltip titles to show 'cmd' on Mac instead of 'ctrl'](https://github.com/josdejong/jsoneditor/issues/1628) 💬 12 | [josdejong/jsoneditor](https://github.com/josdejong/jsoneditor) | 12.3k | 🟡 help wanted | 2026-09-13 |  |
@@ -33,6 +33,7 @@
 | [i18n: add a Swedish (sv) market mode](https://github.com/career-ops-hq/career-ops/issues/3847) | [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | 71.7k | 🟡 help wanted | 2026-09-04 |  |
 | [eBay Creating/Publishing Listings](https://github.com/PipedreamHQ/pipedream/issues/21896) | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-09-04 |  |
 | [Generate PDF/A compliant document](https://github.com/parallax/jsPDF/issues/2882) 💬 6 | [parallax/jsPDF](https://github.com/parallax/jsPDF) | 31.3k | 🟡 help wanted | 2026-09-03 |  |
+| ["Should not already be working" in Firefox after a breakpoint/alert](https://github.com/react/react/issues/17355) 💬 154 | [react/react](https://github.com/react/react) | 250.5k | 🟢 beginner | 2026-09-02 | ✍️ CLA |
 | [Backmerging Module Federation v2](https://github.com/webpack/webpack/issues/18809) 💬 20 | [webpack/webpack](https://github.com/webpack/webpack) | 65.9k | 🟡 help wanted | 2026-09-02 | 🤖 disclose AI use · ✍️ CLA |
 | [Support of asynchronous computation in DefinePlugin.runtimeValue](https://github.com/webpack/webpack/issues/16629) 💬 13 | [webpack/webpack](https://github.com/webpack/webpack) | 65.9k | 🟡 help wanted | 2026-09-02 | 🤖 disclose AI use · ✍️ CLA |
 | [Module Federation Share should support layers/issuerLayer](https://github.com/webpack/webpack/issues/18988) 💬 9 | [webpack/webpack](https://github.com/webpack/webpack) | 65.9k | 🟡 help wanted | 2026-09-02 | 🤖 disclose AI use · ✍️ CLA |
@@ -78,7 +79,7 @@
 | [[Feature request]: Exclusions enhancement - Pause while camera is in use](https://github.com/hovancik/stretchly/issues/969) 💬 30 | [hovancik/stretchly](https://github.com/hovancik/stretchly) | 6.5k | 🟡 help wanted | 2026-08-20 | 🤖 disclose AI use |
 | [Irrelevant error message from 'PerInstanceColorAppearance'](https://github.com/CesiumGS/cesium/issues/12107) 💬 6 | [CesiumGS/cesium](https://github.com/CesiumGS/cesium) | 15.7k | 🟢 beginner | 2026-08-19 | ✍️ CLA |
 | [Wrong Image ColorSpace in PDF for JPEG with ICC](https://github.com/Automattic/node-canvas/issues/1621) | [Automattic/node-canvas](https://github.com/Automattic/node-canvas) | 10.7k | 🟡 help wanted | 2026-08-19 |  |
-| [Websocket connection error](https://github.com/plankanban/planka/issues/754) 💬 16 | [plankanban/planka](https://github.com/plankanban/planka) | 12.5k | 🟡 help wanted | 2026-08-18 |  |
+| [Websocket connection error](https://github.com/plankanban/planka/issues/754) 💬 16 | [plankanban/planka](https://github.com/plankanban/planka) | 12.6k | 🟡 help wanted | 2026-08-18 |  |
 | [[Help] 关于翻译，有一些不太懂的](https://github.com/maillab/cloud-mail/issues/471) 💬 1 | [maillab/cloud-mail](https://github.com/maillab/cloud-mail) | 14.2k | 🟡 help wanted | 2026-08-17 |  |
 | [Can't load svg with base64 image inside](https://github.com/Automattic/node-canvas/issues/1607) 💬 8 | [Automattic/node-canvas](https://github.com/Automattic/node-canvas) | 10.7k | 🟢 beginner | 2026-08-17 |  |
 | [[Help] Your account is blocked from using Workers Builds.](https://github.com/maillab/cloud-mail/issues/524) 💬 2 | [maillab/cloud-mail](https://github.com/maillab/cloud-mail) | 14.2k | 🟡 help wanted | 2026-08-16 |  |
@@ -86,7 +87,7 @@
 | [The Future of TWP on Chrome and Edge](https://github.com/FilipePS/Traduzir-paginas-web/issues/904) 💬 33 | [FilipePS/Traduzir-paginas-web](https://github.com/FilipePS/Traduzir-paginas-web) | 6k | 🟡 help wanted | 2026-08-13 |  |
 | [Add tools for Yahoo Fantasy Football connector](https://github.com/PipedreamHQ/pipedream/issues/21593) 💬 2 | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-08-12 |  |
 | [GitHub authentication doesn't set the correct primary email](https://github.com/sandstorm-io/sandstorm/issues/3665) 💬 3 | [sandstorm-io/sandstorm](https://github.com/sandstorm-io/sandstorm) | 7.1k | 🟢 beginner | 2026-08-12 |  |
-| [Notifications : No notifications when Actions are added or done in a card](https://github.com/plankanban/planka/issues/625) 💬 6 | [plankanban/planka](https://github.com/plankanban/planka) | 12.5k | 🟢 beginner | 2026-08-11 |  |
+| [Notifications : No notifications when Actions are added or done in a card](https://github.com/plankanban/planka/issues/625) 💬 6 | [plankanban/planka](https://github.com/plankanban/planka) | 12.6k | 🟢 beginner | 2026-08-11 |  |
 | [Bundle TypeScript type definitions with the package](https://github.com/WiseLibs/better-sqlite3/issues/423) 💬 11 | [WiseLibs/better-sqlite3](https://github.com/WiseLibs/better-sqlite3) | 7.5k | 🟡 help wanted | 2026-08-10 |  |
 | [[Bug]: Dropdown selector shows unexpected border on selected item](https://github.com/carbon-design-system/carbon/issues/20774) 💬 1 | [carbon-design-system/carbon](https://github.com/carbon-design-system/carbon) | 9.5k | 🟡 help wanted | 2026-08-06 | 🔏 DCO |
 | [[TextArea]: Disallow invalid & warn when readonly or disabled](https://github.com/carbon-design-system/carbon/issues/20726) 💬 1 | [carbon-design-system/carbon](https://github.com/carbon-design-system/carbon) | 9.5k | 🟢 beginner | 2026-08-06 | 🔏 DCO |
@@ -106,13 +107,11 @@
 | [Document Http transfer](https://github.com/winstonjs/winston/issues/1118) 💬 4 | [winstonjs/winston](https://github.com/winstonjs/winston) | 24.5k | 🟡 help wanted | 2026-07-22 |  |
 | [Feature request: Automatically scroll down for highlighted matches on large output data](https://github.com/gchq/CyberChef/issues/1386) 💬 2 | [gchq/CyberChef](https://github.com/gchq/CyberChef) | 35.8k | 🟡 help wanted | 2026-07-21 | 🤖 disclose AI use · ✍️ CLA |
 | [[Help] 希望支持检测设备的性能](https://github.com/viarotel-org/escrcpy/issues/619) | [viarotel-org/escrcpy](https://github.com/viarotel-org/escrcpy) | 11.8k | 🟡 help wanted | 2026-07-21 |  |
-| [Feature request: If CSS display:none causes failure, pull it into code snip.](https://github.com/dequelabs/axe-core/issues/598) 💬 5 | [dequelabs/axe-core](https://github.com/dequelabs/axe-core) | 7.5k | 🟡 help wanted | 2026-07-21 | ✍️ CLA |
 | [Getting an Electron crash, not sure how to further debug - help needed!](https://github.com/WiseLibs/better-sqlite3/issues/988) 💬 8 | [WiseLibs/better-sqlite3](https://github.com/WiseLibs/better-sqlite3) | 7.5k | 🟡 help wanted | 2026-07-21 |  |
 | [textAscent() and textDescent() broken if textSize &gt; 200](https://github.com/processing/p5.js/issues/8771) 💬 15 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-07-18 | ⚠️ AI restricted |
 | [Mixed 'type' imports does not trigger 'import/no-duplicates'](https://github.com/import-js/eslint-plugin-import/issues/3035) 💬 2 | [import-js/eslint-plugin-import](https://github.com/import-js/eslint-plugin-import) | 5.9k | 🟡 help wanted | 2026-07-17 |  |
 | [Incorrect message when branch is not recognized as release branch](https://github.com/semantic-release/semantic-release/issues/1443) 💬 8 | [semantic-release/semantic-release](https://github.com/semantic-release/semantic-release) | 24k | 🟡 help wanted | 2026-07-16 |  |
 | [SMS Text to Speech/ Calling notification service](https://github.com/louislam/uptime-kuma/issues/3295) 💬 13 | [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) | 91.4k | 🟡 help wanted | 2026-07-12 | ⚠️ AI restricted |
-| [Comma First adds unwanted new lines to arrays](https://github.com/beautifier/js-beautify/issues/2010) 💬 7 | [beautifier/js-beautify](https://github.com/beautifier/js-beautify) | 9k | 🟢 beginner | 2026-07-12 |  |
 | [[ACTION] Contacts+](https://github.com/PipedreamHQ/pipedream/issues/21328) 💬 2 | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-07-11 |  |
 | [Integration: Microsoft Login / MS Graph API](https://github.com/sahat/hackathon-starter/issues/1357) 💬 2 | [sahat/hackathon-starter](https://github.com/sahat/hackathon-starter) | 35.3k | 🟡 help wanted | 2026-07-09 |  |
 | [Label double moves on batch movement](https://github.com/bpmn-io/bpmn-js/issues/1766) 💬 3 | [bpmn-io/bpmn-js](https://github.com/bpmn-io/bpmn-js) | 9.7k | 🟢 beginner | 2026-07-08 |  |
@@ -132,7 +131,6 @@
 | [[TRIGGER] Facebook Pages webhooks](https://github.com/PipedreamHQ/pipedream/issues/21070) 💬 1 | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-06-24 |  |
 | [Option to not put a space before /&gt; in self-closing tags](https://github.com/beautifier/js-beautify/issues/654) 💬 13 | [beautifier/js-beautify](https://github.com/beautifier/js-beautify) | 9k | 🟢 beginner | 2026-06-23 |  |
 | [Yotpo Loyalty & Referrals — New Actions: Adjust Points, Record Action, Set Birthday, Get/Add Customer Tags, Cr](https://github.com/PipedreamHQ/pipedream/issues/21210) 💬 2 | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-06-22 |  |
-| [Axe-core's d.ts file is incomplete](https://github.com/dequelabs/axe-core/issues/4241) 💬 4 | [dequelabs/axe-core](https://github.com/dequelabs/axe-core) | 7.5k | 🟡 help wanted | 2026-06-21 | ✍️ CLA |
 | [setAttributes() invalidates references to earlier canvases](https://github.com/processing/p5.js/issues/5902) 💬 8 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-06-20 | ⚠️ AI restricted |
 | [File logging reconfiguration issue (Error: write after end)](https://github.com/winstonjs/winston/issues/1573) 💬 34 | [winstonjs/winston](https://github.com/winstonjs/winston) | 24.5k | 🟢 beginner | 2026-06-17 |  |
 | [Add additional WebGL filter stress scenarios to visual regression suite](https://github.com/processing/p5.js/issues/8550) 💬 4 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-06-17 | ⚠️ AI restricted |
@@ -159,9 +157,8 @@
 | [Security improvement : refresh token (second token stored in localstorage)](https://github.com/idurar/idurar-erp-crm/issues/204) 💬 11 | [idurar/idurar-erp-crm](https://github.com/idurar/idurar-erp-crm) | 8.8k | 🟢 beginner | 2026-04-25 |  |
 | [[Feature request]: Modify "Pause Breaks" options](https://github.com/hovancik/stretchly/issues/1462) 💬 5 | [hovancik/stretchly](https://github.com/hovancik/stretchly) | 6.5k | 🟡 help wanted | 2026-04-23 | 🤖 disclose AI use |
 | [GameDig Discord Server Monitoring](https://github.com/louislam/uptime-kuma/issues/4304) 💬 7 | [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) | 91.4k | 🟢 beginner | 2026-04-21 | ⚠️ AI restricted |
-| [[Bug]: Error 400 in ingress-nginx](https://github.com/plankanban/planka/issues/1567) 💬 2 | [plankanban/planka](https://github.com/plankanban/planka) | 12.5k | 🟡 help wanted | 2026-04-18 |  |
+| [[Bug]: Error 400 in ingress-nginx](https://github.com/plankanban/planka/issues/1567) 💬 2 | [plankanban/planka](https://github.com/plankanban/planka) | 12.6k | 🟡 help wanted | 2026-04-18 |  |
 | [RDP connection is not working](https://github.com/electerm/electerm/issues/3764) 💬 12 | [electerm/electerm](https://github.com/electerm/electerm) | 15.1k | 🟡 help wanted | 2026-04-17 |  |
-| [[TRIGGER] Discord new messages in thread](https://github.com/PipedreamHQ/pipedream/issues/14309) 💬 3 | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-04-17 |  |
 | [Documentation Translation (we first need committed translators)](https://github.com/highlightjs/highlight.js/issues/2777) 💬 22 | [highlightjs/highlight.js](https://github.com/highlightjs/highlight.js) | 25k | 🟢 beginner | 2026-04-16 | 🤖 disclose AI use |
 | [Better SEARCH documentation](https://github.com/AlaSQL/alasql/issues/838) 💬 10 | [AlaSQL/alasql](https://github.com/AlaSQL/alasql) | 7.3k | 🟡 help wanted | 2026-04-09 |  |
 | [Exposing menu opening delay as an option](https://github.com/jquery/jquery-ui/issues/2395) 💬 4 | [jquery/jquery-ui](https://github.com/jquery/jquery-ui) | 11.3k | 🟡 help wanted | 2026-04-07 | ✍️ CLA |
@@ -176,4 +173,3 @@
 | [Q: Have you considered locale specific bundles?](https://github.com/i18next/i18next/issues/1418) 💬 7 | [i18next/i18next](https://github.com/i18next/i18next) | 8.6k | 🟡 help wanted | 2026-03-21 |  |
 | [Type tests for Meteor packages](https://github.com/meteor/meteor/issues/13676) 💬 11 | [meteor/meteor](https://github.com/meteor/meteor) | 44.8k | 🟢 beginner | 2026-03-20 | ✍️ CLA |
 | ['URLPattern'](https://github.com/zloirock/core-js/issues/1011) 💬 6 | [zloirock/core-js](https://github.com/zloirock/core-js) | 25.5k | 🟡 help wanted | 2026-03-20 |  |
-| [requestAnimationFrame polyfill](https://github.com/zloirock/core-js/issues/1523) 💬 1 | [zloirock/core-js](https://github.com/zloirock/core-js) | 25.5k | 🟡 help wanted | 2026-03-19 |  |

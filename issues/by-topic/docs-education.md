@@ -1,8 +1,8 @@
 # Documentation and education issues
 
-**78** open issues (38 labeled for beginners) across **24** projects tagged with topics like `documentation`, `education`, `learning`, `tutorial`, `awesome`, `awesome-list`.
+**81** open issues (40 labeled for beginners) across **26** projects tagged with topics like `documentation`, `education`, `learning`, `tutorial`, `awesome`, `awesome-list`.
 
-> Updated automatically on **2026-09-15 10:51 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-15 21:01 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,6 +10,10 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [TheAlgorithms/python_maintainers: Call for help in preparing for Hacktoberfest 2026](https://github.com/TheAlgorithms/Python/issues/15351) 💬 2 | [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) | 224.6k | 🟡 help wanted | 2026-09-15 |  |
+| [Allow disable generating full mobile navigation tree](https://github.com/imfing/hextra/issues/275) 💬 1 | [imfing/hextra](https://github.com/imfing/hextra) | 2.3k | 🟢 beginner | 2026-09-15 |  |
+| [grade inquiry notifications need an icon to match indentation](https://github.com/Submitty/Submitty/issues/13356) 💬 2 | [Submitty/Submitty](https://github.com/Submitty/Submitty) | 791 | 🟢 beginner | 2026-09-15 |  |
+| [Peer graders should never see grade inquiries](https://github.com/Submitty/Submitty/issues/13355) 💬 1 | [Submitty/Submitty](https://github.com/Submitty/Submitty) | 791 | 🟢 beginner | 2026-09-15 |  |
 | [Feature: Organize documentation topics in beginner-friendly learning order](https://github.com/freeCodeCamp/devdocs/issues/2611) | [freeCodeCamp/devdocs](https://github.com/freeCodeCamp/devdocs) | 39.5k | 🟡 help wanted | 2026-09-14 |  |
 | [feat(scan): domain-level aggregator repost list, complementing the SimHash cross-listing warning](https://github.com/career-ops-hq/career-ops/issues/3577) 💬 7 | [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | 71.7k | 🟢 beginner | 2026-09-13 |  |
 | [[FR] remove formatting option](https://github.com/AppFlowy-IO/AppFlowy/issues/3427) 💬 10 | [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) | 76.7k | 🟢 beginner | 2026-09-09 |  |
@@ -35,7 +39,7 @@
 | [[p5.js 2.0+ Bug Report]: Floats in strands shaders are always rounded to 4 decimals](https://github.com/processing/p5.js/issues/8884) 💬 15 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-08-31 | ⚠️ AI restricted |
 | [Unable to open new tab with ctrl+click on search results](https://github.com/suitenumerique/docs/issues/2603) 💬 4 | [suitenumerique/docs](https://github.com/suitenumerique/docs) | 16.8k | 🟢 beginner | 2026-08-31 | 🤖 disclose AI use · 🔏 DCO |
 | [Translation needed for existing languages](https://github.com/sumn2u/learn-javascript/issues/346) 💬 2 | [sumn2u/learn-javascript](https://github.com/sumn2u/learn-javascript) | 1k | 🟢 beginner | 2026-08-29 |  |
-| [Add diagrams and animations to course website (inspired by makingsoftware.com)](https://github.com/rohitg00/ai-engineering-from-scratch/issues/243) 💬 12 | [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) | 54.6k | 🟢 beginner | 2026-08-28 |  |
+| [Add diagrams and animations to course website (inspired by makingsoftware.com)](https://github.com/rohitg00/ai-engineering-from-scratch/issues/243) 💬 12 | [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) | 54.7k | 🟢 beginner | 2026-08-28 |  |
 | [Add a public DNS resolver from an unrepresented region (Africa / South America / Middle East / Oceania)](https://github.com/jason5ng32/MyIP/issues/394) 💬 1 | [jason5ng32/MyIP](https://github.com/jason5ng32/MyIP) | 11.9k | 🟢 beginner | 2026-08-28 |  |
 | [TalkBack conflicts with TTS](https://github.com/ankidroid/Anki-Android/issues/6369) 💬 4 | [ankidroid/Anki-Android](https://github.com/ankidroid/Anki-Android) | 11.8k | 🟡 help wanted | 2026-08-27 | 🤖 disclose AI use |
 | [Show Answer button jumps view back to top](https://github.com/ankidroid/Anki-Android/issues/5182) 💬 27 | [ankidroid/Anki-Android](https://github.com/ankidroid/Anki-Android) | 11.8k | 🟡 help wanted | 2026-08-26 | 🤖 disclose AI use |
@@ -49,16 +53,17 @@
 | [Translate the README into German (README_DE.md)](https://github.com/jason5ng32/MyIP/issues/412) | [jason5ng32/MyIP](https://github.com/jason5ng32/MyIP) | 11.9k | 🟢 beginner | 2026-08-22 |  |
 | [Translate the README into Spanish (README_ES.md)](https://github.com/jason5ng32/MyIP/issues/410) | [jason5ng32/MyIP](https://github.com/jason5ng32/MyIP) | 11.9k | 🟢 beginner | 2026-08-22 |  |
 | [Native speakers: review the French / Russian UI translations](https://github.com/jason5ng32/MyIP/issues/401) | [jason5ng32/MyIP](https://github.com/jason5ng32/MyIP) | 11.9k | 🟢 beginner | 2026-08-22 |  |
-| [Thai translation](https://github.com/donnemartin/system-design-primer/issues/187) 💬 6 | [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) | 370.1k | 🟡 help wanted | 2026-08-21 |  |
+| [Thai translation](https://github.com/donnemartin/system-design-primer/issues/187) 💬 6 | [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) | 370.2k | 🟡 help wanted | 2026-08-21 |  |
 | [TTY: allow configuring the display font consistently](https://github.com/logisim-evolution/logisim-evolution/issues/2878) 💬 1 | [logisim-evolution/logisim-evolution](https://github.com/logisim-evolution/logisim-evolution) | 7.6k | 🟡 help wanted | 2026-08-21 |  |
 | [I am not able to export simulation as text file.](https://github.com/logisim-evolution/logisim-evolution/issues/1655) 💬 5 | [logisim-evolution/logisim-evolution](https://github.com/logisim-evolution/logisim-evolution) | 7.6k | 🟡 help wanted | 2026-08-20 |  |
 | [Consider requiring circuitChanged actions be generated by the gui thread.](https://github.com/logisim-evolution/logisim-evolution/issues/2875) 💬 2 | [logisim-evolution/logisim-evolution](https://github.com/logisim-evolution/logisim-evolution) | 7.6k | 🟡 help wanted | 2026-08-20 |  |
 | [Provide invert feature for component inputs](https://github.com/logisim-evolution/logisim-evolution/issues/1510) 💬 10 | [logisim-evolution/logisim-evolution](https://github.com/logisim-evolution/logisim-evolution) | 7.6k | 🟡 help wanted | 2026-08-20 |  |
 | [Preserve image resizing in Markdown export](https://github.com/suitenumerique/docs/issues/2367) 💬 2 | [suitenumerique/docs](https://github.com/suitenumerique/docs) | 16.8k | 🟢 beginner | 2026-08-19 | 🤖 disclose AI use · 🔏 DCO |
 | [Docs installed as an application : Error 400](https://github.com/suitenumerique/docs/issues/2477) | [suitenumerique/docs](https://github.com/suitenumerique/docs) | 16.8k | 🟢 beginner | 2026-08-19 | 🤖 disclose AI use · 🔏 DCO |
-| [Greek Translation](https://github.com/donnemartin/system-design-primer/issues/130) 💬 5 | [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) | 370.1k | 🟡 help wanted | 2026-08-18 |  |
+| [Greek Translation](https://github.com/donnemartin/system-design-primer/issues/130) 💬 5 | [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) | 370.2k | 🟡 help wanted | 2026-08-18 |  |
 | [Ability to buffer the output of the RGB Video component](https://github.com/logisim-evolution/logisim-evolution/issues/2523) 💬 3 | [logisim-evolution/logisim-evolution](https://github.com/logisim-evolution/logisim-evolution) | 7.6k | 🟡 help wanted | 2026-08-09 |  |
 | [Markdown export does not preserve original formatting (indentation, list markers, and horizontal rules)](https://github.com/suitenumerique/docs/issues/2312) 💬 1 | [suitenumerique/docs](https://github.com/suitenumerique/docs) | 16.8k | 🟢 beginner | 2026-08-08 | 🤖 disclose AI use · 🔏 DCO |
+| [Outdated/partial translations 'zh' since latest text review #3462](https://github.com/EbookFoundation/free-programming-books/issues/6782) 💬 39 | [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | 396.8k | 🟢 beginner | 2026-08-07 | ✍️ CLA |
 | [Improve Privacy Policy to explain Google Play Data Sharing](https://github.com/ankidroid/Anki-Android/issues/18413) 💬 23 | [ankidroid/Anki-Android](https://github.com/ankidroid/Anki-Android) | 11.8k | 🟡 help wanted | 2026-07-26 | 🤖 disclose AI use |
 | [[BUG] sockops port error](https://github.com/eunomia-bpf/bpf-developer-tutorial/issues/115) 💬 1 | [eunomia-bpf/bpf-developer-tutorial](https://github.com/eunomia-bpf/bpf-developer-tutorial) | 4.3k | 🟡 help wanted | 2026-07-26 |  |
 | [Microsoft emojis black outline makes it hard to see which emoji is selected](https://github.com/suitenumerique/docs/issues/1220) 💬 5 | [suitenumerique/docs](https://github.com/suitenumerique/docs) | 16.8k | 🟢 beginner | 2026-07-24 | 🤖 disclose AI use · 🔏 DCO |
@@ -67,7 +72,7 @@
 | [Model calculation is not able to read features from stdin](https://github.com/catboost/catboost/issues/200) 💬 4 | [catboost/catboost](https://github.com/catboost/catboost) | 9.1k | 🟢 beginner | 2026-07-13 |  |
 | ['Booster.save_model(format="pmml")' is highly inefficient in size.](https://github.com/catboost/catboost/issues/2387) 💬 5 | [catboost/catboost](https://github.com/catboost/catboost) | 9.1k | 🟢 beginner | 2026-07-13 |  |
 | [Allow favicons in formats other than svg](https://github.com/imfing/hextra/issues/888) 💬 2 | [imfing/hextra](https://github.com/imfing/hextra) | 2.3k | 🟢 beginner | 2026-07-13 |  |
-| [Visual summary of the agent harness architecture](https://github.com/shareAI-lab/learn-claude-code/issues/355) | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | 76.8k | 🟢 beginner | 2026-07-01 | 🤖 disclose AI use |
+| [Visual summary of the agent harness architecture](https://github.com/shareAI-lab/learn-claude-code/issues/355) | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | 76.9k | 🟢 beginner | 2026-07-01 | 🤖 disclose AI use |
 | [macOS app fails Gatekeeper; Homebrew cask deprecated and scheduled for disablement](https://github.com/logisim-evolution/logisim-evolution/issues/2699) 💬 1 | [logisim-evolution/logisim-evolution](https://github.com/logisim-evolution/logisim-evolution) | 7.6k | 🟡 help wanted | 2026-06-29 |  |
 | [[WEB - SDK] - Add Payment Method with Dynamic Field Rendering - Alfamart](https://github.com/juspay/hyperswitch/issues/6035) 💬 8 | [juspay/hyperswitch](https://github.com/juspay/hyperswitch) | 43.6k | 🟢 beginner | 2026-06-24 |  |
 | [setAttributes() invalidates references to earlier canvases](https://github.com/processing/p5.js/issues/5902) 💬 8 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-06-20 | ⚠️ AI restricted |
@@ -78,7 +83,7 @@
 | [difference between inline and inline-block should include discussion about replaced / non-replaced elements](https://github.com/yangshun/front-end-interview-handbook/issues/160) 💬 3 | [yangshun/front-end-interview-handbook](https://github.com/yangshun/front-end-interview-handbook) | 44k | 🟡 help wanted | 2026-06-05 |  |
 | [Editing a post with date-released category](https://github.com/Submitty/Submitty/issues/10989) 💬 4 | [Submitty/Submitty](https://github.com/Submitty/Submitty) | 791 | 🟢 beginner | 2026-06-04 |  |
 | [Support for Top-Level Global Mode](https://github.com/processing/p5.js/issues/7737) 💬 35 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-06-01 | ⚠️ AI restricted |
-| [Feature Request: Integrate Crowdin for community translations](https://github.com/jaywcjlove/awesome-mac/issues/2119) 💬 1 | [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac) | 113.8k | 🟡 help wanted | 2026-05-30 | 📄 AI policy |
+| [Feature Request: Integrate Crowdin for community translations](https://github.com/jaywcjlove/awesome-mac/issues/2119) 💬 1 | [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac) | 113.9k | 🟡 help wanted | 2026-05-30 | 📄 AI policy |
 | [Queue UI requests from page fragments while app in background](https://github.com/ankidroid/Anki-Android/issues/15706) 💬 3 | [ankidroid/Anki-Android](https://github.com/ankidroid/Anki-Android) | 11.8k | 🟡 help wanted | 2026-05-20 | 🤖 disclose AI use |
 | [cant connect robot app to python controller](https://github.com/ob-f/OpenBot/issues/486) 💬 2 | [ob-f/OpenBot](https://github.com/ob-f/OpenBot) | 3.5k | 🟡 help wanted | 2026-05-09 |  |
 | [Selecting AI TYPE for instance Point Goal using remote (PC/desktop) controller aka PYTHON/NPM PACKAGES....](https://github.com/ob-f/OpenBot/issues/489) 💬 2 | [ob-f/OpenBot](https://github.com/ob-f/OpenBot) | 3.5k | 🟡 help wanted | 2026-05-09 |  |
@@ -86,5 +91,3 @@
 | [Chef docs are outdated (and never will be updated)](https://github.com/freeCodeCamp/devdocs/issues/927) 💬 2 | [freeCodeCamp/devdocs](https://github.com/freeCodeCamp/devdocs) | 39.5k | 🟡 help wanted | 2026-03-27 |  |
 | [== Highlighter on markdown](https://github.com/gsantner/markor/issues/2638) 💬 3 | [gsantner/markor](https://github.com/gsantner/markor) | 6.1k | 🟢 beginner | 2026-03-26 |  |
 | [Investigate conversion of hard-to-replace PNGs to SVG](https://github.com/ankidroid/Anki-Android/issues/8741) 💬 32 | [ankidroid/Anki-Android](https://github.com/ankidroid/Anki-Android) | 11.8k | 🟢 beginner | 2026-03-20 | 🤖 disclose AI use |
-| [Manual grading progress bar includes null section](https://github.com/Submitty/Submitty/issues/11450) 💬 6 | [Submitty/Submitty](https://github.com/Submitty/Submitty) | 791 | 🟢 beginner | 2026-03-19 |  |
-| [Debugging additions to add_user.py script](https://github.com/Submitty/Submitty/issues/1411) 💬 3 | [Submitty/Submitty](https://github.com/Submitty/Submitty) | 791 | 🟢 beginner | 2026-03-19 |  |

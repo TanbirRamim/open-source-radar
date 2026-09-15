@@ -1,8 +1,8 @@
 # Python issues
 
-**260** open issues (110 labeled for beginners) across **83** active Python projects.
+**259** open issues (108 labeled for beginners) across **86** active Python projects.
 
-> Updated automatically on **2026-09-15 10:51 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-15 21:01 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,22 +10,22 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [TheAlgorithms/python_maintainers: Call for help in preparing for Hacktoberfest 2026](https://github.com/TheAlgorithms/Python/issues/15351) 💬 2 | [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) | 224.6k | 🟡 help wanted | 2026-09-15 |  |
 | [【推荐内容】合集](https://github.com/jingyaogong/minimind/issues/504) 💬 3 | [jingyaogong/minimind](https://github.com/jingyaogong/minimind) | 61.2k | 🟢 beginner | 2026-09-15 |  |
 | [Hackathon [Feature]: Add Postman data-source connector](https://github.com/topoteretes/cognee/issues/4711) 💬 1 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | 30.7k | 🟢 beginner | 2026-09-15 | 🔏 DCO |
 | [Use a dedicated Windows Registry policy path (Software\\Policies\\ungoogled-chromium) instead of sharing with ](https://github.com/ungoogled-software/ungoogled-chromium/issues/3951) 💬 1 | [ungoogled-software/ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium) | 27.7k | 🟡 help wanted | 2026-09-15 |  |
+| [Add JudgeLM as a way to evaluate and compare historical test runs](https://github.com/confident-ai/deepeval/issues/262) 💬 4 | [confident-ai/deepeval](https://github.com/confident-ai/deepeval) | 18.3k | 🟡 help wanted | 2026-09-15 |  |
 | [Add convenience features to custom emoji upload (drag drop, auto emoji name, multi emoji upload)](https://github.com/zulip/zulip/issues/20316) 💬 22 | [zulip/zulip](https://github.com/zulip/zulip) | 25.9k | 🟡 help wanted | 2026-09-14 | 📄 AI policy |
 | [Privacy controls for chat-history avatar training](https://github.com/xming521/WeClone/issues/231) | [xming521/WeClone](https://github.com/xming521/WeClone) | 18.2k | 🟢 beginner | 2026-09-14 |  |
-| [Single token output / binary classification loss goes to 0](https://github.com/unslothai/unsloth/issues/946) 💬 15 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 76.2k | 🟢 beginner | 2026-09-13 |  |
 | [postgres/sqlalchemy display of timestamptz loses my local timezone](https://github.com/marimo-team/marimo/issues/6250) 💬 10 | [marimo-team/marimo](https://github.com/marimo-team/marimo) | 22.8k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use · ✍️ CLA |
 | [[data_editor] Checkbox and dropdown elements in data_editor columns](https://github.com/marimo-team/marimo/issues/6694) 💬 8 | [marimo-team/marimo](https://github.com/marimo-team/marimo) | 22.8k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use · ✍️ CLA |
-| [Evaluation loss becomes constant](https://github.com/unslothai/unsloth/issues/1067) 💬 8 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 76.2k | 🟢 beginner | 2026-09-12 |  |
 | [Mean Standardized Log Loss (MSLL) for uncertainty aware regression models](https://github.com/scikit-learn/scikit-learn/issues/21665) 💬 16 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | 67.3k | 🟡 help wanted | 2026-09-12 | 🤖 disclose AI use |
 | [RU translation mistake](https://github.com/getsentry/sentry/issues/98565) 💬 4 | [getsentry/sentry](https://github.com/getsentry/sentry) | 44.8k | 🟢 beginner | 2026-09-12 |  |
 | [[BUG]: TOZEROY FILL IS FILLING AREAS OF THE PLOT THAT HAS NO DATA IN IT](https://github.com/plotly/plotly.py/issues/5632) 💬 9 | [plotly/plotly.py](https://github.com/plotly/plotly.py) | 18.8k | 🟢 beginner | 2026-09-12 |  |
 | [Hackathon [Feature]: Add Mixpanel data-source connector](https://github.com/topoteretes/cognee/issues/4777) 💬 1 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | 30.7k | 🟢 beginner | 2026-09-11 | 🔏 DCO |
 | [convert's playlist option uses original extensions](https://github.com/beetbox/beets/issues/5786) 💬 2 | [beetbox/beets](https://github.com/beetbox/beets) | 15.7k | 🟢 beginner | 2026-09-11 | 🤖 disclose AI use |
 | [Consensus Index for Clustering Model Selection](https://github.com/scikit-learn/scikit-learn/issues/11778) 💬 7 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | 67.3k | 🟡 help wanted | 2026-09-10 | 🤖 disclose AI use |
-| [Deterministic acronym hygiene check: writer-side fix, reviewer-side advisory](https://github.com/Imbad0202/academic-research-skills/issues/849) | [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | 48.1k | 🟡 help wanted | 2026-09-10 | 🤖 disclose AI use |
+| [Deterministic acronym hygiene check: writer-side fix, reviewer-side advisory](https://github.com/Imbad0202/academic-research-skills/issues/849) | [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | 48.2k | 🟡 help wanted | 2026-09-10 | 🤖 disclose AI use |
 | [Hackathon [Feature]: Add Rollbar data-source connector](https://github.com/topoteretes/cognee/issues/4778) 💬 1 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | 30.7k | 🟢 beginner | 2026-09-10 | 🔏 DCO |
 | [[FR] Implement docker image build support for R models](https://github.com/mlflow/mlflow/issues/17401) 💬 4 | [mlflow/mlflow](https://github.com/mlflow/mlflow) | 28k | 🟡 help wanted | 2026-09-10 | 🔏 DCO |
 | [[core] Adopt 'absl::InlinedVector' for small, frequently-allocated collections](https://github.com/ray-project/ray/issues/59884) 💬 9 | [ray-project/ray](https://github.com/ray-project/ray) | 43.8k | 🟢 beginner | 2026-09-08 | 🔏 DCO |
@@ -33,7 +33,7 @@
 | [Hackathon [Feature]: Add Klaviyo data-source connector](https://github.com/topoteretes/cognee/issues/4785) 💬 1 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | 30.7k | 🟢 beginner | 2026-09-07 | 🔏 DCO |
 | [Support Unified Push](https://github.com/ungoogled-software/ungoogled-chromium/issues/3675) 💬 20 | [ungoogled-software/ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium) | 27.7k | 🟡 help wanted | 2026-09-07 |  |
 | [Hackathon [Feature]: Add GitBook data-source connector](https://github.com/topoteretes/cognee/issues/4720) 💬 2 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | 30.7k | 🟢 beginner | 2026-09-06 | 🔏 DCO |
-| [Autonomous Agents, Unite!](https://github.com/microsoft/markitdown/issues/2386) 💬 4 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | 184.2k | 🟢 beginner | 2026-09-05 |  |
+| [Autonomous Agents, Unite!](https://github.com/microsoft/markitdown/issues/2386) 💬 4 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | 184.4k | 🟢 beginner | 2026-09-05 |  |
 | [control state of individual taskflow in mapped task-group](https://github.com/apache/airflow/issues/40543) 💬 12 | [apache/airflow](https://github.com/apache/airflow) | 46.9k | 🟢 beginner | 2026-09-05 | 🤖 disclose AI use · ✍️ CLA |
 | ['self.log' raised error when number of dataloader is not consistent](https://github.com/Lightning-AI/pytorch-lightning/issues/16431) 💬 2 | [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | 31.3k | 🟡 help wanted | 2026-09-05 | 📄 AI policy |
 | [Add n8n Support](https://github.com/ag-ui-protocol/ag-ui/issues/369) 💬 3 | [ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui) | 15.9k | 🟡 help wanted | 2026-09-05 |  |
@@ -60,7 +60,7 @@
 | [Scrapy seems to fail to load some sites when using proxy or user agent middleware?](https://github.com/scrapy/scrapy/issues/4937) 💬 16 | [scrapy/scrapy](https://github.com/scrapy/scrapy) | 64.4k | 🟡 help wanted | 2026-09-02 |  |
 | [Using Pydantic state with aliased fields](https://github.com/langchain-ai/langgraph/issues/2555) 💬 9 | [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) | 41.7k | 🟡 help wanted | 2026-09-02 | ⚠️ AI restricted |
 | [Add individual user filter](https://github.com/PostHog/posthog/issues/1289) 💬 10 | [PostHog/posthog](https://github.com/PostHog/posthog) | 39.8k | 🟢 beginner | 2026-09-02 | ⚠️ AI restricted |
-| [Supplier Quotation Comparison](https://github.com/frappe/erpnext/issues/41973) 💬 4 | [frappe/erpnext](https://github.com/frappe/erpnext) | 39.2k | 🟢 beginner | 2026-09-02 |  |
+| [Supplier Quotation Comparison](https://github.com/frappe/erpnext/issues/41973) 💬 4 | [frappe/erpnext](https://github.com/frappe/erpnext) | 39.3k | 🟢 beginner | 2026-09-02 |  |
 | [Hackathon [Feature]: Add Raindrop.io data-source connector](https://github.com/topoteretes/cognee/issues/4813) 💬 1 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | 30.7k | 🟢 beginner | 2026-09-02 | 🔏 DCO |
 | [[Feature request] Check whether we should introduce https://scientific-python.org/specs/spec-0004/](https://github.com/onnx/onnx/issues/7212) 💬 4 | [onnx/onnx](https://github.com/onnx/onnx) | 21.5k | 🟢 beginner | 2026-09-02 | 🤖 disclose AI use · ✍️ CLA · 🔏 DCO |
 | [Inconsistency in link settings terminology](https://github.com/suitenumerique/docs/issues/2612) 💬 2 | [suitenumerique/docs](https://github.com/suitenumerique/docs) | 16.8k | 🟢 beginner | 2026-09-02 | 🤖 disclose AI use · 🔏 DCO |
@@ -69,11 +69,10 @@
 | [[Bug] Cannot load qwen3-vl series with lora adapter on vllm.](https://github.com/unslothai/unsloth/issues/3560) 💬 8 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 76.2k | 🟢 beginner | 2026-09-01 |  |
 | [[Feature] Add FT support for the Qwen3-TTS model.](https://github.com/unslothai/unsloth/issues/3951) 💬 9 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 76.2k | 🟢 beginner | 2026-09-01 |  |
 | [Request for Notebook to Fine-Tune Qwen TTS (or Alternatives Using Existing Notebooks)](https://github.com/unslothai/unsloth/issues/3961) 💬 4 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 76.2k | 🟢 beginner | 2026-09-01 |  |
-| [Docling on n8n nodes](https://github.com/docling-project/docling/issues/890) 💬 1 | [docling-project/docling](https://github.com/docling-project/docling) | 66.4k | 🟡 help wanted | 2026-09-01 |  |
+| [Docling on n8n nodes](https://github.com/docling-project/docling/issues/890) 💬 1 | [docling-project/docling](https://github.com/docling-project/docling) | 66.5k | 🟡 help wanted | 2026-09-01 |  |
 | [Replace azure-cosmos by azure-mgmt-cosmosdb](https://github.com/apache/airflow/issues/9742) 💬 7 | [apache/airflow](https://github.com/apache/airflow) | 46.9k | 🟢 beginner | 2026-09-01 | 🤖 disclose AI use · ✍️ CLA |
 | [Replace azure-batch by azure-mgmt-batch](https://github.com/apache/airflow/issues/9741) 💬 7 | [apache/airflow](https://github.com/apache/airflow) | 46.9k | 🟢 beginner | 2026-09-01 | 🤖 disclose AI use · ✍️ CLA |
-| [Crons: Status Chart X-Axis Makes No Sense for 1H Time Range Filter](https://github.com/getsentry/sentry/issues/72139) 💬 5 | [getsentry/sentry](https://github.com/getsentry/sentry) | 44.8k | 🟢 beginner | 2026-09-01 |  |
-| [Payment Register](https://github.com/frappe/erpnext/issues/47847) | [frappe/erpnext](https://github.com/frappe/erpnext) | 39.2k | 🟢 beginner | 2026-09-01 |  |
+| [Payment Register](https://github.com/frappe/erpnext/issues/47847) | [frappe/erpnext](https://github.com/frappe/erpnext) | 39.3k | 🟢 beginner | 2026-09-01 |  |
 | [[Looking for community contribution] support Wan 2.2 S2V: an audio-driven cinematic video generation model](https://github.com/huggingface/diffusers/issues/12257) 💬 7 | [huggingface/diffusers](https://github.com/huggingface/diffusers) | 34.5k | 🟡 help wanted | 2026-09-01 |  |
 | [Hackathon [Feature]: Add PubMed data-source connector](https://github.com/topoteretes/cognee/issues/4807) 💬 1 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | 30.7k | 🟢 beginner | 2026-09-01 | 🔏 DCO |
 | [Hackathon [Feature]: Add Substack data-source connector](https://github.com/topoteretes/cognee/issues/4810) 💬 1 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | 30.7k | 🟢 beginner | 2026-09-01 | 🔏 DCO |
@@ -89,7 +88,7 @@
 | [Hackathon [Feature]: Add Obsidian vault data-source connector](https://github.com/topoteretes/cognee/issues/4725) 💬 2 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | 30.7k | 🟢 beginner | 2026-08-30 | 🔏 DCO |
 | [Hackathon [Feature]: Add Hacker News data-source connector](https://github.com/topoteretes/cognee/issues/4805) 💬 2 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | 30.7k | 🟢 beginner | 2026-08-30 | 🔏 DCO |
 | [Hackathon [Feature]: Add RSS / Atom feeds data-source connector](https://github.com/topoteretes/cognee/issues/4804) 💬 2 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | 30.7k | 🟢 beginner | 2026-08-30 | 🔏 DCO |
-| [Add diagrams and animations to course website (inspired by makingsoftware.com)](https://github.com/rohitg00/ai-engineering-from-scratch/issues/243) 💬 12 | [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) | 54.6k | 🟢 beginner | 2026-08-28 |  |
+| [Add diagrams and animations to course website (inspired by makingsoftware.com)](https://github.com/rohitg00/ai-engineering-from-scratch/issues/243) 💬 12 | [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) | 54.7k | 🟢 beginner | 2026-08-28 |  |
 | [Hackathon [Feature]: Add Readwise data-source connector](https://github.com/topoteretes/cognee/issues/4812) | [topoteretes/cognee](https://github.com/topoteretes/cognee) | 30.7k | 🟢 beginner | 2026-08-28 | 🔏 DCO |
 | [Hackathon [Feature]: Add Amplitude data-source connector](https://github.com/topoteretes/cognee/issues/4776) | [topoteretes/cognee](https://github.com/topoteretes/cognee) | 30.7k | 🟢 beginner | 2026-08-28 | 🔏 DCO |
 | [Possibility to use Mutelist in DynamoDB to all providers](https://github.com/prowler-cloud/prowler/issues/5777) 💬 1 | [prowler-cloud/prowler](https://github.com/prowler-cloud/prowler) | 14.8k | 🟡 help wanted | 2026-08-28 |  |
@@ -99,7 +98,7 @@
 | [Training the default perceptron tagger with bigger corpus](https://github.com/nltk/nltk/issues/1317) 💬 4 | [nltk/nltk](https://github.com/nltk/nltk) | 14.7k | 🟢 beginner | 2026-08-27 |  |
 | [I kinda wanna be able to use CMD + W to close tabs](https://github.com/PostHog/posthog/issues/76278) 💬 3 | [PostHog/posthog](https://github.com/PostHog/posthog) | 39.8k | 🟢 beginner | 2026-08-26 | ⚠️ AI restricted |
 | [CSS variables for code cell theming customization](https://github.com/marimo-team/marimo/issues/6526) 💬 6 | [marimo-team/marimo](https://github.com/marimo-team/marimo) | 22.8k | 🟡 help wanted | 2026-08-26 | 🤖 disclose AI use · ✍️ CLA |
-| [Entity extraction is nondeterministic at temperature 0 — same input, same container, different entity sets](https://github.com/666ghj/MiroFish/issues/759) | [666ghj/MiroFish](https://github.com/666ghj/MiroFish) | 73.5k | 🟡 help wanted | 2026-08-25 |  |
+| [Entity extraction is nondeterministic at temperature 0 — same input, same container, different entity sets](https://github.com/666ghj/MiroFish/issues/759) | [666ghj/MiroFish](https://github.com/666ghj/MiroFish) | 73.6k | 🟡 help wanted | 2026-08-25 |  |
 | [Different alpha selection strategies in LinearModelCV](https://github.com/scikit-learn/scikit-learn/issues/6630) 💬 8 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | 67.3k | 🟡 help wanted | 2026-08-25 | 🤖 disclose AI use |
 | [enhancement: sklearn.utils.shuffle consume 2x memory, better do it in-place](https://github.com/scikit-learn/scikit-learn/issues/7754) 💬 11 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | 67.3k | 🟡 help wanted | 2026-08-25 | 🤖 disclose AI use |
 | [RFC: Integrate Slime RL backend into Agent Lightning (tinker-style service vs native integration)](https://github.com/microsoft/agent-lightning/issues/453) 💬 1 | [microsoft/agent-lightning](https://github.com/microsoft/agent-lightning) | 18.1k | 🟡 help wanted | 2026-08-25 |  |
@@ -113,12 +112,12 @@
 | [Generic benchmarking/profiling tool](https://github.com/scikit-learn/scikit-learn/issues/10289) 💬 33 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | 67.3k | 🟡 help wanted | 2026-08-24 | 🤖 disclose AI use |
 | [[FR] [Roadmap] Support 'OR' filtering in search](https://github.com/mlflow/mlflow/issues/6075) 💬 13 | [mlflow/mlflow](https://github.com/mlflow/mlflow) | 28k | 🟡 help wanted | 2026-08-23 | 🔏 DCO |
 | [Keyboard shortcut to jump to next first frame of a track](https://github.com/cvat-ai/cvat/issues/2051) 💬 6 | [cvat-ai/cvat](https://github.com/cvat-ai/cvat) | 16.7k | 🟢 beginner | 2026-08-23 |  |
-| [Thai translation](https://github.com/donnemartin/system-design-primer/issues/187) 💬 6 | [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) | 370.1k | 🟡 help wanted | 2026-08-21 |  |
+| [Thai translation](https://github.com/donnemartin/system-design-primer/issues/187) 💬 6 | [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) | 370.2k | 🟡 help wanted | 2026-08-21 |  |
 | [Bug: In Cohorts, the 'set' operator filters in null values for person properties](https://github.com/PostHog/posthog/issues/29916) 💬 4 | [PostHog/posthog](https://github.com/PostHog/posthog) | 39.8k | 🟢 beginner | 2026-08-21 | ⚠️ AI restricted |
 | [Crash: 3.4.5 linux binary, chrome dumps core](https://github.com/FlareSolverr/FlareSolverr/issues/1621) 💬 10 | [FlareSolverr/FlareSolverr](https://github.com/FlareSolverr/FlareSolverr) | 15.6k | 🟡 help wanted | 2026-08-21 |  |
 | [Preserve image resizing in Markdown export](https://github.com/suitenumerique/docs/issues/2367) 💬 2 | [suitenumerique/docs](https://github.com/suitenumerique/docs) | 16.8k | 🟢 beginner | 2026-08-19 | 🤖 disclose AI use · 🔏 DCO |
 | [Docs installed as an application : Error 400](https://github.com/suitenumerique/docs/issues/2477) | [suitenumerique/docs](https://github.com/suitenumerique/docs) | 16.8k | 🟢 beginner | 2026-08-19 | 🤖 disclose AI use · 🔏 DCO |
-| [Greek Translation](https://github.com/donnemartin/system-design-primer/issues/130) 💬 5 | [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) | 370.1k | 🟡 help wanted | 2026-08-18 |  |
+| [Greek Translation](https://github.com/donnemartin/system-design-primer/issues/130) 💬 5 | [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) | 370.2k | 🟡 help wanted | 2026-08-18 |  |
 | [[core][compiled graphs] Support pinned memory for CPU &lt;-&gt; GPU transfers](https://github.com/ray-project/ray/issues/48086) 💬 7 | [ray-project/ray](https://github.com/ray-project/ray) | 43.8k | 🟢 beginner | 2026-08-18 | 🔏 DCO |
 | [[Feature] Request to 8-bit Quantization of Attention with SageAttention](https://github.com/sgl-project/sglang/issues/1763) 💬 9 | [sgl-project/sglang](https://github.com/sgl-project/sglang) | 36k | 🟢 beginner | 2026-08-18 |  |
 | [⚠ Looking for contributors!](https://github.com/Free-TV/IPTV/issues/211) 💬 50 | [Free-TV/IPTV](https://github.com/Free-TV/IPTV) | 20.6k | 🟡 help wanted | 2026-08-18 |  |
@@ -136,6 +135,7 @@
 | [Notebooks using 'query_params' do not update on browser navigation changes](https://github.com/marimo-team/marimo/issues/4153) 💬 5 | [marimo-team/marimo](https://github.com/marimo-team/marimo) | 22.8k | 🟡 help wanted | 2026-08-09 | 🤖 disclose AI use · ✍️ CLA |
 | [Confirgurable default branch prefixes/names](https://github.com/PostHog/posthog/issues/76277) 💬 4 | [PostHog/posthog](https://github.com/PostHog/posthog) | 39.8k | 🟢 beginner | 2026-08-08 | ⚠️ AI restricted |
 | [Markdown export does not preserve original formatting (indentation, list markers, and horizontal rules)](https://github.com/suitenumerique/docs/issues/2312) 💬 1 | [suitenumerique/docs](https://github.com/suitenumerique/docs) | 16.8k | 🟢 beginner | 2026-08-08 | 🤖 disclose AI use · 🔏 DCO |
+| [Outdated/partial translations 'zh' since latest text review #3462](https://github.com/EbookFoundation/free-programming-books/issues/6782) 💬 39 | [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | 396.8k | 🟢 beginner | 2026-08-07 | ✍️ CLA |
 | [script panel](https://github.com/nesquena/hermes-webui/issues/2316) 💬 5 | [nesquena/hermes-webui](https://github.com/nesquena/hermes-webui) | 18.4k | 🟡 help wanted | 2026-08-05 | 🤖 disclose AI use |
 | [Is it possible to add these flags back?](https://github.com/ungoogled-software/ungoogled-chromium/issues/3895) | [ungoogled-software/ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium) | 27.7k | 🟡 help wanted | 2026-08-04 |  |
 | [TypeError: 'NoneType' object is not iterable](https://github.com/saleor/saleor/issues/17891) 💬 3 | [saleor/saleor](https://github.com/saleor/saleor) | 23.3k | 🟡 help wanted | 2026-08-04 |  |
@@ -159,15 +159,15 @@
 | [Windows fuse support](https://github.com/borgbackup/borg/issues/2316) 💬 5 | [borgbackup/borg](https://github.com/borgbackup/borg) | 13.7k | 🟡 help wanted | 2026-07-25 |  |
 | [Microsoft emojis black outline makes it hard to see which emoji is selected](https://github.com/suitenumerique/docs/issues/1220) 💬 5 | [suitenumerique/docs](https://github.com/suitenumerique/docs) | 16.8k | 🟢 beginner | 2026-07-24 | 🤖 disclose AI use · 🔏 DCO |
 | [My RTF is always around 0.12 with TRT-LLM docker on L20, never match the claimed benchmark result](https://github.com/SWivid/F5-TTS/issues/1214) 💬 30 | [SWivid/F5-TTS](https://github.com/SWivid/F5-TTS) | 15.2k | 🟡 help wanted | 2026-07-23 |  |
-| [Add helpful resources for learning Manim in the landing page.](https://github.com/ManimCommunity/manim/issues/2175) 💬 6 | [ManimCommunity/manim](https://github.com/ManimCommunity/manim) | 40.8k | 🟢 beginner | 2026-07-21 |  |
+| [Add helpful resources for learning Manim in the landing page.](https://github.com/ManimCommunity/manim/issues/2175) 💬 6 | [ManimCommunity/manim](https://github.com/ManimCommunity/manim) | 40.9k | 🟢 beginner | 2026-07-21 |  |
 | [[Data] Unity Catalog Delta Table Reads Won't Work with GCP Databricks](https://github.com/ray-project/ray/issues/64880) 💬 3 | [ray-project/ray](https://github.com/ray-project/ray) | 43.8k | 🟢 beginner | 2026-07-20 | 🔏 DCO |
 | [Replace .qjz9zk "TLD" with the specification compliant .invalid TLD for domain substitution](https://github.com/ungoogled-software/ungoogled-chromium/issues/3878) | [ungoogled-software/ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium) | 27.7k | 🟡 help wanted | 2026-07-20 |  |
 | [Able to switch off question recommendation](https://github.com/Canner/WrenAI/issues/1202) 💬 5 | [Canner/WrenAI](https://github.com/Canner/WrenAI) | 17.6k | 🟢 beginner | 2026-07-20 |  |
 | [GenericUnivariateSelect has silly defaults](https://github.com/scikit-learn/scikit-learn/issues/6346) 💬 5 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | 67.3k | 🟡 help wanted | 2026-07-18 | 🤖 disclose AI use |
 | [Spec clarification in TrainingInfoProto gradients](https://github.com/onnx/onnx/issues/6422) 💬 3 | [onnx/onnx](https://github.com/onnx/onnx) | 21.5k | 🟡 help wanted | 2026-07-18 | 🤖 disclose AI use · ✍️ CLA · 🔏 DCO |
-| [Pre-download probe: format, quality and audio-track picker](https://github.com/alexta69/metube/issues/1032) 💬 1 | [alexta69/metube](https://github.com/alexta69/metube) | 14.7k | 🟡 help wanted | 2026-07-18 |  |
-| [Scope check: pre-download playlist browser (pick items before queuing)](https://github.com/alexta69/metube/issues/1030) 💬 1 | [alexta69/metube](https://github.com/alexta69/metube) | 14.7k | 🟡 help wanted | 2026-07-18 |  |
-| [[Feature]: USE OUTPUT_TEMPLATE for file name in download queue](https://github.com/alexta69/metube/issues/994) 💬 3 | [alexta69/metube](https://github.com/alexta69/metube) | 14.7k | 🟡 help wanted | 2026-07-18 |  |
+| [Pre-download probe: format, quality and audio-track picker](https://github.com/alexta69/metube/issues/1032) 💬 1 | [alexta69/metube](https://github.com/alexta69/metube) | 14.8k | 🟡 help wanted | 2026-07-18 |  |
+| [Scope check: pre-download playlist browser (pick items before queuing)](https://github.com/alexta69/metube/issues/1030) 💬 1 | [alexta69/metube](https://github.com/alexta69/metube) | 14.8k | 🟡 help wanted | 2026-07-18 |  |
+| [[Feature]: USE OUTPUT_TEMPLATE for file name in download queue](https://github.com/alexta69/metube/issues/994) 💬 3 | [alexta69/metube](https://github.com/alexta69/metube) | 14.8k | 🟡 help wanted | 2026-07-18 |  |
 | [Auto-Restore Pages After a Crash](https://github.com/ungoogled-software/ungoogled-chromium/issues/3845) 💬 3 | [ungoogled-software/ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium) | 27.7k | 🟡 help wanted | 2026-07-17 |  |
 | [Measured token-cost benchmark to replace the estimates](https://github.com/img2threejs/img2threejs/issues/4) | [img2threejs/img2threejs](https://github.com/img2threejs/img2threejs) | 16.1k | 🟢 beginner | 2026-07-17 |  |
 | [My_rank in the implementation of torch.distributed.scatter_object_list should be global](https://github.com/pytorch/pytorch/issues/74602) 💬 3 | [pytorch/pytorch](https://github.com/pytorch/pytorch) | 103k | 🟢 beginner | 2026-07-16 | 🤖 disclose AI use |
@@ -185,7 +185,7 @@
 | [[new future] Add postfix completion for ipython](https://github.com/ipython/ipython/issues/13587) 💬 7 | [ipython/ipython](https://github.com/ipython/ipython) | 16.8k | 🟡 help wanted | 2026-07-06 |  |
 | [关于npu训练模型总结以及疑问](https://github.com/hiyouga/LlamaFactory/issues/4388) 💬 35 | [hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory) | 74.8k | 🟢 beginner | 2026-07-02 |  |
 | [[BUG] Salt autocompletion fails with Fish shell](https://github.com/saltstack/salt/issues/64240) 💬 4 | [saltstack/salt](https://github.com/saltstack/salt) | 15.7k | 🟡 help wanted | 2026-07-02 |  |
-| [Visual summary of the agent harness architecture](https://github.com/shareAI-lab/learn-claude-code/issues/355) | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | 76.8k | 🟢 beginner | 2026-07-01 | 🤖 disclose AI use |
+| [Visual summary of the agent harness architecture](https://github.com/shareAI-lab/learn-claude-code/issues/355) | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | 76.9k | 🟢 beginner | 2026-07-01 | 🤖 disclose AI use |
 | [Provide better message for transactionAPI](https://github.com/saleor/saleor/issues/13951) 💬 5 | [saleor/saleor](https://github.com/saleor/saleor) | 23.3k | 🟢 beginner | 2026-07-01 |  |
 | [Marimo Static HTML Export with dynamic mo.ui.tabs](https://github.com/marimo-team/marimo/issues/6076) | [marimo-team/marimo](https://github.com/marimo-team/marimo) | 22.8k | 🟡 help wanted | 2026-07-01 | 🤖 disclose AI use · ✍️ CLA |
 | [Multiple genres are written to files joined](https://github.com/beetbox/beets/issues/5491) 💬 3 | [beetbox/beets](https://github.com/beetbox/beets) | 15.7k | 🟢 beginner | 2026-06-27 | 🤖 disclose AI use |
@@ -202,7 +202,6 @@
 | [[DB] MemGraph Driver](https://github.com/getzep/graphiti/issues/642) 💬 5 | [getzep/graphiti](https://github.com/getzep/graphiti) | 30.9k | 🟡 help wanted | 2026-06-12 |  |
 | [feat: expose balance / token-usage to the API (or at least via a UI toggle)](https://github.com/Skyvern-AI/skyvern/issues/6226) 💬 4 | [Skyvern-AI/skyvern](https://github.com/Skyvern-AI/skyvern) | 23k | 🟢 beginner | 2026-06-11 |  |
 | [support to gemini](https://github.com/Significant-Gravitas/AutoGPT/issues/6885) 💬 11 | [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | 187.4k | 🟢 beginner | 2026-06-10 | ✍️ CLA |
-| [[Bug] Qwen 2.5 VL 7B full fine tuning](https://github.com/unslothai/unsloth/issues/2629) 💬 5 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 76.2k | 🟡 help wanted | 2026-06-10 |  |
 | [Add the description of kernel data structure(hlist_head and hlist_node or hash table)](https://github.com/0xAX/linux-insides/issues/717) | [0xAX/linux-insides](https://github.com/0xAX/linux-insides) | 33.5k | 🟡 help wanted | 2026-06-10 |  |
 | [Replace 'sys_gettimeofday' with archutecture related version](https://github.com/0xAX/linux-insides/issues/634) | [0xAX/linux-insides](https://github.com/0xAX/linux-insides) | 33.5k | 🟡 help wanted | 2026-06-10 |  |
 | [update pack_gate](https://github.com/0xAX/linux-insides/issues/516) | [0xAX/linux-insides](https://github.com/0xAX/linux-insides) | 33.5k | 🟡 help wanted | 2026-06-10 |  |
@@ -210,5 +209,6 @@
 | [Windows 7 API Extensions (VxKex)](https://github.com/ungoogled-software/ungoogled-chromium/issues/3811) 💬 2 | [ungoogled-software/ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium) | 27.7k | 🟡 help wanted | 2026-06-10 |  |
 | [Opening config produces Errno 22](https://github.com/beetbox/beets/issues/2847) 💬 16 | [beetbox/beets](https://github.com/beetbox/beets) | 15.7k | 🟢 beginner | 2026-06-09 | 🤖 disclose AI use |
 | [[Feature] MV2 Bypass in Chrome 151.X+](https://github.com/ungoogled-software/ungoogled-chromium/issues/3812) 💬 1 | [ungoogled-software/ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium) | 27.7k | 🟡 help wanted | 2026-06-08 |  |
+| [Mac OS: kitty doesn't restore](https://github.com/kovidgoyal/kitty/issues/1197) 💬 22 | [kovidgoyal/kitty](https://github.com/kovidgoyal/kitty) | 34.9k | 🟡 help wanted | 2026-06-07 |  |
 
-Showing the 200 most recently updated. See all 260 on the website.
+Showing the 200 most recently updated. See all 259 on the website.

@@ -1,8 +1,8 @@
 # Dart issues
 
-**62** open issues (33 labeled for beginners) across **36** active Dart projects.
+**61** open issues (33 labeled for beginners) across **35** active Dart projects.
 
-> Updated automatically on **2026-09-15 10:51 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-15 21:01 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -12,7 +12,7 @@
 | --- | --- | ---: | --- | --- | --- |
 | [Crazy house pieces disappear](https://github.com/lichess-org/mobile/issues/3599) 💬 3 | [lichess-org/mobile](https://github.com/lichess-org/mobile) | 2.5k | 🟢 beginner | 2026-09-15 | 🤖 disclose AI use |
 | [Stale promotion UI on analysis board](https://github.com/lichess-org/mobile/issues/3610) 💬 1 | [lichess-org/mobile](https://github.com/lichess-org/mobile) | 2.5k | 🟢 beginner | 2026-09-14 | 🤖 disclose AI use |
-| [Support for older versions of MacOS](https://github.com/localsend/localsend/issues/1200) 💬 8 | [localsend/localsend](https://github.com/localsend/localsend) | 91.6k | 🟡 help wanted | 2026-09-12 |  |
+| [Support for older versions of MacOS](https://github.com/localsend/localsend/issues/1200) 💬 8 | [localsend/localsend](https://github.com/localsend/localsend) | 91.7k | 🟡 help wanted | 2026-09-12 |  |
 | [Null check operator used on a null value](https://github.com/amake/orgro/issues/215) 💬 10 | [amake/orgro](https://github.com/amake/orgro) | 730 | 🟡 help wanted | 2026-09-12 |  |
 | [Handle MainActivity destruction on Android (like retrieveLostData of ImagePicker)](https://github.com/vicajilau/flutter_file_picker/issues/1258) 💬 12 | [vicajilau/flutter_file_picker](https://github.com/vicajilau/flutter_file_picker) | 1.6k | 🟡 help wanted | 2026-09-10 |  |
 | [[FR] remove formatting option](https://github.com/AppFlowy-IO/AppFlowy/issues/3427) 💬 10 | [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) | 76.7k | 🟢 beginner | 2026-09-09 |  |
@@ -26,7 +26,7 @@
 | [Add 'ignoreTypes' parameter on 'SentryUserInteractionWidget'](https://github.com/getsentry/sentry-dart/issues/3775) 💬 1 | [getsentry/sentry-dart](https://github.com/getsentry/sentry-dart) | 873 | 🟢 beginner | 2026-09-01 |  |
 | [Add 'enableBreadcrumbTextExtraction' option on 'SentryFlutterOptions'](https://github.com/getsentry/sentry-dart/issues/3774) 💬 1 | [getsentry/sentry-dart](https://github.com/getsentry/sentry-dart) | 873 | 🟢 beginner | 2026-09-01 |  |
 | [MIssing file referred to in "Running DevTools Tests" section of TESTING.md](https://github.com/flutter/devtools/issues/8293) 💬 2 | [flutter/devtools](https://github.com/flutter/devtools) | 1.7k | 🟢 beginner | 2026-08-30 | 📄 AI policy · ✍️ CLA |
-| [[Bug] When drag and dropping contact to Bcc, the field isn't highlighted](https://github.com/linagora/tmail-flutter/issues/3074) 💬 1 | [linagora/tmail-flutter](https://github.com/linagora/tmail-flutter) | 653 | 🟢 beginner | 2026-08-29 |  |
+| [[Bug] When drag and dropping contact to Bcc, the field isn't highlighted](https://github.com/linagora/tmail-flutter/issues/3074) 💬 1 | [linagora/tmail-flutter](https://github.com/linagora/tmail-flutter) | 654 | 🟢 beginner | 2026-08-29 |  |
 | [No search progress indication after changing package source](https://github.com/ubuntu/app-center/issues/2094) | [ubuntu/app-center](https://github.com/ubuntu/app-center) | 920 | 🟢 beginner | 2026-08-24 | ✍️ CLA |
 | [Joplin integration](https://github.com/LinwoodDev/Butterfly/issues/253) 💬 3 | [LinwoodDev/Butterfly](https://github.com/LinwoodDev/Butterfly) | 2k | 🟢 beginner | 2026-08-23 |  |
 | [适配鸿蒙5（需要帮助）](https://github.com/lollipopkit/flutter_server_box/issues/869) 💬 4 | [lollipopkit/flutter_server_box](https://github.com/lollipopkit/flutter_server_box) | 8.7k | 🟡 help wanted | 2026-08-22 | ✍️ CLA |
@@ -49,14 +49,14 @@
 | [[📚]Holistically document all throwed exception codes.](https://github.com/firebase/flutterfire/issues/6326) 💬 10 | [firebase/flutterfire](https://github.com/firebase/flutterfire) | 9.3k | 🟢 beginner | 2026-07-10 | ✍️ CLA |
 | [UnsupportedError: Cannot add to a fixed-length list when selecting or rendering large text in QuillEditor](https://github.com/singerdmx/flutter-quill/issues/2487) 💬 4 | [singerdmx/flutter-quill](https://github.com/singerdmx/flutter-quill) | 2.9k | 🟡 help wanted | 2026-07-03 |  |
 | [[Inspector V2] Widget properties tab highlight extends past its rounded edge](https://github.com/flutter/devtools/issues/8936) 💬 3 | [flutter/devtools](https://github.com/flutter/devtools) | 1.7k | 🟡 help wanted | 2026-07-03 | 📄 AI policy · ✍️ CLA |
-| [Text alignment issue in mobile app – A1 Professional Spanish Certification](https://github.com/freeCodeCamp/mobile/issues/1731) 💬 4 | [freeCodeCamp/mobile](https://github.com/freeCodeCamp/mobile) | 581 | 🟢 beginner | 2026-07-01 |  |
+| [Text alignment issue in mobile app – A1 Professional Spanish Certification](https://github.com/freeCodeCamp/mobile/issues/1731) 💬 4 | [freeCodeCamp/mobile](https://github.com/freeCodeCamp/mobile) | 582 | 🟢 beginner | 2026-07-01 |  |
 | [Can you added TV Version armv7 + 64](https://github.com/ImranR98/Obtainium/issues/2924) 💬 3 | [ImranR98/Obtainium](https://github.com/ImranR98/Obtainium) | 19.7k | 🟡 help wanted | 2026-06-23 | 📄 AI policy |
 | [App Crashes while Scrolling Broadcast Carousel](https://github.com/lichess-org/mobile/issues/1769) 💬 2 | [lichess-org/mobile](https://github.com/lichess-org/mobile) | 2.5k | 🟡 help wanted | 2026-06-14 | 🤖 disclose AI use |
 | [[typed_sql] MariaDB and MySQL support](https://github.com/google/dart-neats/issues/330) | [google/dart-neats](https://github.com/google/dart-neats) | 508 | 🟡 help wanted | 2026-06-09 | ✍️ CLA |
 | [[Feature Request] implement a flickering method to introduce grayscale](https://github.com/fossasia/badgemagic-app/issues/1671) 💬 4 | [fossasia/badgemagic-app](https://github.com/fossasia/badgemagic-app) | 2k | 🟡 help wanted | 2026-06-04 |  |
 | [change the file extension form mp4 to m4a](https://github.com/HemantKArya/BloomeeTunes/issues/38) 💬 4 | [HemantKArya/BloomeeTunes](https://github.com/HemantKArya/BloomeeTunes) | 2.2k | 🟢 beginner | 2026-06-03 |  |
 | [Browers plugin? (eg. Firefox)](https://github.com/authpass/authpass/issues/41) 💬 13 | [authpass/authpass](https://github.com/authpass/authpass) | 2.8k | 🟡 help wanted | 2026-05-29 | ✍️ CLA |
-| [阅黑色背景右和下边会有一个白边](https://github.com/Anxcye/anx-reader/issues/93) 💬 4 | [Anxcye/anx-reader](https://github.com/Anxcye/anx-reader) | 8.8k | 🟡 help wanted | 2026-05-24 |  |
+| [阅黑色背景右和下边会有一个白边](https://github.com/Anxcye/anx-reader/issues/93) 💬 4 | [Anxcye/anx-reader](https://github.com/Anxcye/anx-reader) | 8.9k | 🟡 help wanted | 2026-05-24 |  |
 | [feat: implement podcast sync api](https://github.com/ubuntu-flutter-community/musicpod/issues/36) 💬 6 | [ubuntu-flutter-community/musicpod](https://github.com/ubuntu-flutter-community/musicpod) | 660 | 🟡 help wanted | 2026-05-20 |  |
 | [Feature: Self-hosted sync server](https://github.com/simonoppowa/OpenNutriTracker/issues/79) 💬 5 | [simonoppowa/OpenNutriTracker](https://github.com/simonoppowa/OpenNutriTracker) | 2.5k | 🟡 help wanted | 2026-05-06 |  |
 | [[HDR] Linux - Native HDR Rendering Support](https://github.com/AimesSoft/NipaPlay-Reload/issues/423) | [AimesSoft/NipaPlay-Reload](https://github.com/AimesSoft/NipaPlay-Reload) | 1.8k | 🟡 help wanted | 2026-05-05 |  |
@@ -71,4 +71,3 @@
 | [Only a single isolate shown in isolate picker when multiple are running](https://github.com/flutter/devtools/issues/8561) 💬 1 | [flutter/devtools](https://github.com/flutter/devtools) | 1.7k | 🟡 help wanted | 2026-03-30 | 📄 AI policy · ✍️ CLA |
 | [Add option to disable RSS graph or scale memory chart axis](https://github.com/flutter/devtools/issues/9625) | [flutter/devtools](https://github.com/flutter/devtools) | 1.7k | 🟡 help wanted | 2026-03-30 | 📄 AI policy · ✍️ CLA |
 | [Feature: dip in and out of the analysis board at any time during practise with stockfish.](https://github.com/lichess-org/mobile/issues/2823) 💬 2 | [lichess-org/mobile](https://github.com/lichess-org/mobile) | 2.5k | 🟢 beginner | 2026-03-23 | 🤖 disclose AI use |
-| [Inconsistent App Icon Display in Notifications on Windows 10/11](https://github.com/MaikuB/flutter_local_notifications/issues/2738) 💬 5 | [MaikuB/flutter_local_notifications](https://github.com/MaikuB/flutter_local_notifications) | 2.7k | 🟡 help wanted | 2026-03-19 |  |

@@ -1,8 +1,8 @@
 # Cloud, DevOps and infrastructure issues
 
-**540** open issues (212 labeled for beginners) across **143** projects tagged with topics like `devops`, `kubernetes`, `docker`, `cloud`, `infrastructure`, `terraform`.
+**539** open issues (215 labeled for beginners) across **141** projects tagged with topics like `devops`, `kubernetes`, `docker`, `cloud`, `infrastructure`, `terraform`.
 
-> Updated automatically on **2026-09-15 10:51 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-15 21:01 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -11,9 +11,18 @@
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
 | [Optimize Pod informer memory efficiency used in admission plugins](https://github.com/kubernetes/kubernetes/issues/125469) 💬 21 | [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) | 127.7k | 🟡 help wanted | 2026-09-15 | 🤖 disclose AI use · ✍️ CLA |
-| [Endless zoom](https://github.com/immich-app/immich/issues/31496) 💬 1 | [immich-app/immich](https://github.com/immich-app/immich) | 114.2k | 🟢 beginner | 2026-09-15 |  |
+| [Endless zoom](https://github.com/immich-app/immich/issues/31496) 💬 1 | [immich-app/immich](https://github.com/immich-app/immich) | 114.3k | 🟢 beginner | 2026-09-15 |  |
+| [Expand CalDAVRemoveEmptyValue.php to fix additional 'Unsupported VALUE parameter for DTEND property' errors th](https://github.com/nextcloud/server/issues/17554) 💬 7 | [nextcloud/server](https://github.com/nextcloud/server) | 36.8k | 🟢 beginner | 2026-09-15 | 🤖 disclose AI use · 🔏 DCO |
+| [Snyk vulnerability [SNYK-JS-PROXYADDR-19812342]](https://github.com/backstage/backstage/issues/35714) | [backstage/backstage](https://github.com/backstage/backstage) | 34.4k | 🟡 help wanted | 2026-09-15 | 📄 AI policy · 🔏 DCO |
 | [Snyk vulnerability [SNYK-JS-MULTER-19785644]](https://github.com/backstage/backstage/issues/35676) 💬 2 | [backstage/backstage](https://github.com/backstage/backstage) | 34.4k | 🟡 help wanted | 2026-09-15 | 📄 AI policy · 🔏 DCO |
 | [Minikube start fails for nvidia gpus in compute only/ headless mode](https://github.com/kubernetes/minikube/issues/20934) 💬 4 | [kubernetes/minikube](https://github.com/kubernetes/minikube) | 32.1k | 🟡 help wanted | 2026-09-15 |  |
+| [[UI] Loop tasks inside Gantt should have a link to all loop sub-executions](https://github.com/kestra-io/kestra/issues/18402) 💬 1 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-15 |  |
+| [Bad type on maxBufferSize in CsvToIon](https://github.com/kestra-io/kestra/issues/17885) | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-15 |  |
+| [HTTP Request task: failed-response error log shows [0x36] instead of a line break in the response body](https://github.com/kestra-io/kestra/issues/18698) 💬 2 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-15 |  |
+| [maxRecordSize error with CsvToIon](https://github.com/kestra-io/kestra/issues/17884) | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-15 |  |
+| [Add support for Docker tag + SHA image digest in Containerimages](https://github.com/kestra-io/kestra/issues/15694) | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-15 |  |
+| [Snowflake multiple queries fail](https://github.com/kestra-io/kestra/issues/17481) 💬 4 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-15 |  |
+| [Secret is not populated as a header value in module io.kestra.plugin.core.http.Request](https://github.com/kestra-io/kestra/issues/3988) 💬 4 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-15 |  |
 | [Better descriptions for execution kinds in 2.0](https://github.com/kestra-io/kestra/issues/17947) 💬 1 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-15 |  |
 | [[UI][Executions] Task Id is not visible when screen is small on the gantt](https://github.com/kestra-io/kestra/issues/18886) 💬 1 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-15 |  |
 | [[Bash2.0][Blueprints] First line of the code preview is fenced by a rule above and below it](https://github.com/kestra-io/kestra/issues/18330) | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-15 |  |
@@ -23,10 +32,12 @@
 | [Secrets components: replace explicit 'any' with real types](https://github.com/kestra-io/kestra/issues/19296) 💬 4 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-15 |  |
 | [Translations: replace explicit 'any' with real types](https://github.com/kestra-io/kestra/issues/19306) 💬 4 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-15 |  |
 | [TaskRunDetails.vue: replace explicit 'any' with real types](https://github.com/kestra-io/kestra/issues/19271) 💬 4 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-15 |  |
-| [[Feature]: Visualize uninstrumented services in the dependency diagrams](https://github.com/jaegertracing/jaeger/issues/3804) 💬 10 | [jaegertracing/jaeger](https://github.com/jaegertracing/jaeger) | 23.2k | 🟡 help wanted | 2026-09-15 | 📄 AI policy · 🔏 DCO |
 | [Btrfs statistics input plugin](https://github.com/influxdata/telegraf/issues/10032) 💬 5 | [influxdata/telegraf](https://github.com/influxdata/telegraf) | 17.8k | 🟡 help wanted | 2026-09-15 | ⚠️ AI restricted · ✍️ CLA |
+| [[ACTION] Rewardful — Affiliate & Commission Management](https://github.com/PipedreamHQ/pipedream/issues/21991) | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-09-15 |  |
 | [Reminder: Update Hacktoberfest branding for this year](https://github.com/owncast/owncast/issues/5180) | [owncast/owncast](https://github.com/owncast/owncast) | 11.5k | 🟢 beginner | 2026-09-15 |  |
+| [MQTT - based scaler](https://github.com/kedacore/keda/issues/1282) 💬 23 | [kedacore/keda](https://github.com/kedacore/keda) | 10.5k | 🟡 help wanted | 2026-09-15 | 🔏 DCO |
 | [[BUG] Deleting backups causes lots of errors if s3 path cleanup is slow](https://github.com/longhorn/longhorn/issues/13646) 💬 6 | [longhorn/longhorn](https://github.com/longhorn/longhorn) | 8k | 🟢 beginner | 2026-09-15 | 🔏 DCO |
+| [[Initiative]: Cloud Native Business Continuity: whitepaper and best practices](https://github.com/cncf/toc/issues/1779) 💬 8 | [cncf/toc](https://github.com/cncf/toc) | 1.9k | 🟡 help wanted | 2026-09-15 |  |
 | [Log axis limits "auto" doesn't work on histogram](https://github.com/grafana/grafana/issues/13027) 💬 12 | [grafana/grafana](https://github.com/grafana/grafana) | 76.8k | 🟡 help wanted | 2026-09-14 | ✍️ CLA |
 | [Add Feature to Set Retention Time per Metric](https://github.com/prometheus/prometheus/issues/15350) 💬 3 | [prometheus/prometheus](https://github.com/prometheus/prometheus) | 66.1k | 🟡 help wanted | 2026-09-14 | 🔏 DCO |
 | [Reject credential and other unsupported keys in 'files_external:option'](https://github.com/nextcloud/server/issues/58821) 💬 2 | [nextcloud/server](https://github.com/nextcloud/server) | 36.8k | 🟢 beginner | 2026-09-14 | 🤖 disclose AI use · 🔏 DCO |
@@ -47,23 +58,19 @@
 | [Snyk vulnerability [SNYK-JS-CODEMIRROR-10494092]](https://github.com/backstage/backstage/issues/35419) | [backstage/backstage](https://github.com/backstage/backstage) | 34.4k | 🟡 help wanted | 2026-09-14 | 📄 AI policy · 🔏 DCO |
 | [Snyk vulnerability [SNYK-JS-JSYAML-19496768]](https://github.com/backstage/backstage/issues/35407) | [backstage/backstage](https://github.com/backstage/backstage) | 34.4k | 🟡 help wanted | 2026-09-14 | 📄 AI policy · 🔏 DCO |
 | [failed to download vulnerability DB](https://github.com/goharbor/harbor/issues/23521) 💬 8 | [goharbor/harbor](https://github.com/goharbor/harbor) | 29.4k | 🟡 help wanted | 2026-09-14 | 🔏 DCO |
-| [[UI] Loop tasks inside Gantt should have a link to all loop sub-executions](https://github.com/kestra-io/kestra/issues/18402) | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-14 |  |
 | [Docs components: replace explicit 'any' with real types](https://github.com/kestra-io/kestra/issues/19299) 💬 2 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-14 |  |
 | [[Feature] Scaling at 125%](https://github.com/winboat-org/winboat/issues/341) 💬 4 | [winboat-org/winboat](https://github.com/winboat-org/winboat) | 22.8k | 🟢 beginner | 2026-09-14 |  |
 | [Feature Request: Social Handle Platforms for RSS and Tumblr](https://github.com/owncast/owncast/issues/5172) 💬 1 | [owncast/owncast](https://github.com/owncast/owncast) | 11.5k | 🟢 beginner | 2026-09-14 |  |
 | [docs: surface repository examples and templates in the Recipes tab](https://github.com/ai-dynamo/dynamo/issues/13497) 💬 1 | [ai-dynamo/dynamo](https://github.com/ai-dynamo/dynamo) | 8.1k | 🟢 beginner | 2026-09-14 | 📄 AI policy · 🔏 DCO |
-| [[Initiative]: Cloud Native Business Continuity: whitepaper and best practices](https://github.com/cncf/toc/issues/1779) 💬 7 | [cncf/toc](https://github.com/cncf/toc) | 1.9k | 🟡 help wanted | 2026-09-14 |  |
 | [[Initiative]: Cloud Native Observability Personas](https://github.com/cncf/toc/issues/2037) 💬 9 | [cncf/toc](https://github.com/cncf/toc) | 1.9k | 🟡 help wanted | 2026-09-14 |  |
 | [[Initiative]: Scale and performance testing guidance](https://github.com/cncf/toc/issues/2233) 💬 4 | [cncf/toc](https://github.com/cncf/toc) | 1.9k | 🟡 help wanted | 2026-09-14 |  |
 | [Reduce spawn count in test-alias-forwarding.sh (slow under contention, ~21s spawn floor)](https://github.com/asklokesh/loki-mode/issues/183) 💬 4 | [asklokesh/loki-mode](https://github.com/asklokesh/loki-mode) | 1.1k | 🟡 help wanted | 2026-09-14 | ✍️ CLA |
 | [Measure the codex approvals axis on a host with the codex CLI installed](https://github.com/asklokesh/loki-mode/issues/199) | [asklokesh/loki-mode](https://github.com/asklokesh/loki-mode) | 1.1k | 🟡 help wanted | 2026-09-14 | ✍️ CLA |
-| [Single token output / binary classification loss goes to 0](https://github.com/unslothai/unsloth/issues/946) 💬 15 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 76.2k | 🟢 beginner | 2026-09-13 |  |
 | [Allow integration with Pomerium proxy on GCP Cloud Run](https://github.com/ToolJet/ToolJet/issues/2798) 💬 1 | [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) | 40.9k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use |
 | [[Bug]: GraphQL: don't add quotes around binding as query param when user has already provided quotes](https://github.com/appsmithorg/appsmith/issues/16713) 💬 1 | [appsmithorg/appsmith](https://github.com/appsmithorg/appsmith) | 40.9k | 🟡 help wanted | 2026-09-13 |  |
 | [Application migration across clusters](https://github.com/argoproj/argo-cd/issues/1640) 💬 16 | [argoproj/argo-cd](https://github.com/argoproj/argo-cd) | 24.2k | 🟡 help wanted | 2026-09-13 | 🔏 DCO |
 | [Add tools to Yahoo Sports](https://github.com/PipedreamHQ/pipedream/issues/21979) | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-09-13 |  |
 | [Kanban is selectable in All workspaces but falls back to a DEBUG message when no parent is selected](https://github.com/Smaug6739/Alexandrie/issues/772) | [Smaug6739/Alexandrie](https://github.com/Smaug6739/Alexandrie) | 2.7k | 🟢 beginner | 2026-09-13 |  |
-| [Evaluation loss becomes constant](https://github.com/unslothai/unsloth/issues/1067) 💬 8 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 76.2k | 🟢 beginner | 2026-09-12 |  |
 | [RU translation mistake](https://github.com/getsentry/sentry/issues/98565) 💬 4 | [getsentry/sentry](https://github.com/getsentry/sentry) | 44.8k | 🟢 beginner | 2026-09-12 |  |
 | [Print via new PrusaLink API](https://github.com/manyfold3d/manyfold/issues/6436) 💬 2 | [manyfold3d/manyfold](https://github.com/manyfold3d/manyfold) | 2.2k | 🟢 beginner | 2026-09-12 | 📄 AI policy · ✍️ CLA |
 | [Feature request: add jitter to refresh interval of individual panels](https://github.com/grafana/grafana/issues/83019) 💬 8 | [grafana/grafana](https://github.com/grafana/grafana) | 76.8k | 🟡 help wanted | 2026-09-11 | ✍️ CLA |
@@ -99,7 +106,6 @@
 | [Snyk vulnerability [SNYK-JS-BACKSTAGEBACKENDDEFAULTS-15054278]](https://github.com/backstage/backstage/issues/35483) | [backstage/backstage](https://github.com/backstage/backstage) | 34.4k | 🟡 help wanted | 2026-09-11 | 📄 AI policy · 🔏 DCO |
 | [Snyk vulnerability [SNYK-JS-BACKSTAGEBACKENDAPPAPI-6229731]](https://github.com/backstage/backstage/issues/35482) | [backstage/backstage](https://github.com/backstage/backstage) | 34.4k | 🟡 help wanted | 2026-09-11 | 📄 AI policy · 🔏 DCO |
 | [Snyk vulnerability [SNYK-JS-UUID-16133035]](https://github.com/backstage/backstage/issues/35475) | [backstage/backstage](https://github.com/backstage/backstage) | 34.4k | 🟡 help wanted | 2026-09-11 | 📄 AI policy · 🔏 DCO |
-| [Snyk vulnerability [SNYK-JS-UNDICI-19635222]](https://github.com/backstage/backstage/issues/35552) | [backstage/backstage](https://github.com/backstage/backstage) | 34.4k | 🟡 help wanted | 2026-09-11 | 📄 AI policy · 🔏 DCO |
 | [Support C#/F# as one of the dedicated script plugin](https://github.com/kestra-io/kestra/issues/12742) 💬 4 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-11 |  |
 | [Workflowdefault configmap at the namespace level](https://github.com/argoproj/argo-workflows/issues/14057) 💬 5 | [argoproj/argo-workflows](https://github.com/argoproj/argo-workflows) | 17k | 🟡 help wanted | 2026-09-11 | 📄 AI policy · 🔏 DCO |
 | [Injected nginx ingress controller doesn't have access to the remote client IP](https://github.com/linkerd/linkerd2/issues/3403) 💬 19 | [linkerd/linkerd2](https://github.com/linkerd/linkerd2) | 11.5k | 🟡 help wanted | 2026-09-11 | 🔏 DCO |
@@ -110,8 +116,7 @@
 | [[feature request] HA Deployments in ipv6 only clusters](https://github.com/argoproj/argo-cd/issues/20084) 💬 2 | [argoproj/argo-cd](https://github.com/argoproj/argo-cd) | 24.2k | 🟡 help wanted | 2026-09-10 | 🔏 DCO |
 | [[TRIGGER]](https://github.com/PipedreamHQ/pipedream/issues/21956) | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-09-10 |  |
 | [[RFE] Use ansible-runner execution environments as a base for embedded ansible execution](https://github.com/ManageIQ/manageiq/issues/21466) 💬 9 | [ManageIQ/manageiq](https://github.com/ManageIQ/manageiq) | 1.4k | 🟡 help wanted | 2026-09-10 |  |
-| [[Feature Request]: Generate a PDF file from a XRechnung XML file](https://github.com/Stirling-Tools/Stirling-PDF/issues/2025) 💬 4 | [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) | 92.1k | 🟡 help wanted | 2026-09-09 |  |
-| [MQTT - based scaler](https://github.com/kedacore/keda/issues/1282) 💬 22 | [kedacore/keda](https://github.com/kedacore/keda) | 10.5k | 🟡 help wanted | 2026-09-09 | 🔏 DCO |
+| [[Feature Request]: Generate a PDF file from a XRechnung XML file](https://github.com/Stirling-Tools/Stirling-PDF/issues/2025) 💬 4 | [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) | 92.2k | 🟡 help wanted | 2026-09-09 |  |
 | [Enhance Security and Self-Service by Allowing Service Account Specification in Target Namespace for Workload I](https://github.com/kedacore/keda/issues/5630) 💬 20 | [kedacore/keda](https://github.com/kedacore/keda) | 10.5k | 🟡 help wanted | 2026-09-09 | 🔏 DCO |
 | [Headscale with reverse proxy Zoraxy not working because allegedly WebSockets are not passing through](https://github.com/tobychui/zoraxy/issues/1012) 💬 9 | [tobychui/zoraxy](https://github.com/tobychui/zoraxy) | 5.5k | 🟡 help wanted | 2026-09-09 |  |
 | [[Bug] Simplepie destroys headers with a JSON value](https://github.com/FreshRSS/FreshRSS/issues/8636) 💬 1 | [FreshRSS/FreshRSS](https://github.com/FreshRSS/FreshRSS) | 16k | 🟡 help wanted | 2026-09-08 |  |
@@ -148,14 +153,13 @@
 | [[Management] Number fields accept invalid input](https://github.com/elastic/kibana/issues/197506) 💬 6 | [elastic/kibana](https://github.com/elastic/kibana) | 21.3k | 🟢 beginner | 2026-09-02 | ⚠️ AI restricted |
 | [[Security Solution] Exception lists are removed during rule import rule import, causing false positives](https://github.com/elastic/kibana/issues/256010) 💬 4 | [elastic/kibana](https://github.com/elastic/kibana) | 21.3k | 🟢 beginner | 2026-09-02 | ⚠️ AI restricted |
 | [Inconsistency in link settings terminology](https://github.com/suitenumerique/docs/issues/2612) 💬 2 | [suitenumerique/docs](https://github.com/suitenumerique/docs) | 16.8k | 🟢 beginner | 2026-09-02 | 🤖 disclose AI use · 🔏 DCO |
-| [GCS needs someone with a real bucket to run its test](https://github.com/deeplethe/utopia/issues/214) | [deeplethe/utopia](https://github.com/deeplethe/utopia) | 8.3k | 🟡 help wanted | 2026-09-02 | ✍️ CLA · 🔏 DCO |
+| [GCS needs someone with a real bucket to run its test](https://github.com/deeplethe/utopia/issues/214) | [deeplethe/utopia](https://github.com/deeplethe/utopia) | 8.4k | 🟡 help wanted | 2026-09-02 | ✍️ CLA · 🔏 DCO |
 | [[Feature] Running Usloth Studion in kaggle](https://github.com/unslothai/unsloth/issues/4944) 💬 2 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 76.2k | 🟡 help wanted | 2026-09-01 |  |
 | [[Bug] Cannot load qwen3-vl series with lora adapter on vllm.](https://github.com/unslothai/unsloth/issues/3560) 💬 8 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 76.2k | 🟢 beginner | 2026-09-01 |  |
 | [[Feature] Add FT support for the Qwen3-TTS model.](https://github.com/unslothai/unsloth/issues/3951) 💬 9 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 76.2k | 🟢 beginner | 2026-09-01 |  |
 | [Request for Notebook to Fine-Tune Qwen TTS (or Alternatives Using Existing Notebooks)](https://github.com/unslothai/unsloth/issues/3961) 💬 4 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 76.2k | 🟢 beginner | 2026-09-01 |  |
 | [daemon/containerd GetLayerFolders: verify implementation against current hcsshim](https://github.com/moby/moby/issues/52956) 💬 3 | [moby/moby](https://github.com/moby/moby) | 72.1k | 🟡 help wanted | 2026-09-01 | 🔏 DCO |
 | [🚀 Feature: Add OneSignal as a Messaging provider](https://github.com/appwrite/appwrite/issues/7726) 💬 9 | [appwrite/appwrite](https://github.com/appwrite/appwrite) | 57.4k | 🟡 help wanted | 2026-09-01 |  |
-| [Crons: Status Chart X-Axis Makes No Sense for 1H Time Range Filter](https://github.com/getsentry/sentry/issues/72139) 💬 5 | [getsentry/sentry](https://github.com/getsentry/sentry) | 44.8k | 🟢 beginner | 2026-09-01 |  |
 | [macbook use Touch ID instead password](https://github.com/GyulyVGC/sniffnet/issues/1300) 💬 1 | [GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet) | 41.1k | 🟢 beginner | 2026-09-01 | 🤖 disclose AI use |
 | [line return](https://github.com/suitenumerique/docs/issues/2239) 💬 1 | [suitenumerique/docs](https://github.com/suitenumerique/docs) | 16.8k | 🟢 beginner | 2026-09-01 | 🤖 disclose AI use · 🔏 DCO |
 | [improve KIND performance on single node clusters \| leader-elect=false \| proxy-refresh-interval=70000](https://github.com/kubernetes-sigs/kind/issues/2513) 💬 5 | [kubernetes-sigs/kind](https://github.com/kubernetes-sigs/kind) | 15.5k | 🟡 help wanted | 2026-09-01 |  |
@@ -169,7 +173,7 @@
 | [[FEATURE] Extract kyuubiClientPrincipal/kyuubiClientKeytab from JDBC connection properties](https://github.com/apache/kyuubi/issues/6689) 💬 1 | [apache/kyuubi](https://github.com/apache/kyuubi) | 2.4k | 🟢 beginner | 2026-08-31 | 🤖 disclose AI use · ✍️ CLA |
 | [Add the ability to customize the notification on mobile](https://github.com/grimmory-tools/grimmory/issues/836) 💬 1 | [grimmory-tools/grimmory](https://github.com/grimmory-tools/grimmory) | 4.3k | 🟢 beginner | 2026-08-30 | 🤖 disclose AI use |
 | [Oauth2 generated accounts are not added as creators](https://github.com/manyfold3d/manyfold/issues/4768) 💬 3 | [manyfold3d/manyfold](https://github.com/manyfold3d/manyfold) | 2.2k | 🟢 beginner | 2026-08-29 | 📄 AI policy · ✍️ CLA |
-| ["Polls closing soon" gives confusing notification when pressing its refresh button](https://github.com/bonfire-networks/bonfire-app/issues/2243) | [bonfire-networks/bonfire-app](https://github.com/bonfire-networks/bonfire-app) | 939 | 🟢 beginner | 2026-08-29 |  |
+| ["Polls closing soon" gives confusing notification when pressing its refresh button](https://github.com/bonfire-networks/bonfire-app/issues/2243) | [bonfire-networks/bonfire-app](https://github.com/bonfire-networks/bonfire-app) | 940 | 🟢 beginner | 2026-08-29 |  |
 | [Docs: add a Wikipedia page about Sniffnet](https://github.com/GyulyVGC/sniffnet/issues/975) 💬 2 | [GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet) | 41.1k | 🟢 beginner | 2026-08-28 | 🤖 disclose AI use |
 | [Proposal: Allow dynamic dependency override](https://github.com/helm/helm/issues/2205) 💬 72 | [helm/helm](https://github.com/helm/helm) | 30.2k | 🟡 help wanted | 2026-08-28 | 🔏 DCO |
 | [Feature Request: Add official support for PostgreSQL 16, 17, and 18 in Harbor Helm Chart](https://github.com/goharbor/harbor/issues/23562) 💬 6 | [goharbor/harbor](https://github.com/goharbor/harbor) | 29.4k | 🟡 help wanted | 2026-08-28 | 🔏 DCO |
@@ -192,7 +196,7 @@
 | [Batch offline service based on IP address](https://github.com/alibaba/nacos/issues/2272) 💬 23 | [alibaba/nacos](https://github.com/alibaba/nacos) | 33.4k | 🟢 beginner | 2026-08-24 | 🤖 disclose AI use · ✍️ CLA |
 | [[FEATURE] Support Oracle Cloud Infrastructure (OCI) Object Storage as a backend](https://github.com/longhorn/longhorn/issues/7057) 💬 4 | [longhorn/longhorn](https://github.com/longhorn/longhorn) | 8k | 🟢 beginner | 2026-08-24 | 🔏 DCO |
 | [Improve public documents sharing](https://github.com/Smaug6739/Alexandrie/issues/608) | [Smaug6739/Alexandrie](https://github.com/Smaug6739/Alexandrie) | 2.7k | 🟢 beginner | 2026-08-24 |  |
-| [Support TV shows](https://github.com/leepeuker/movary/issues/186) 💬 24 | [leepeuker/movary](https://github.com/leepeuker/movary) | 776 | 🟡 help wanted | 2026-08-24 |  |
+| [Support TV shows](https://github.com/leepeuker/movary/issues/186) 💬 24 | [leepeuker/movary](https://github.com/leepeuker/movary) | 775 | 🟡 help wanted | 2026-08-24 |  |
 | [运行期间无法上传文件报数据库锁死](https://github.com/cloudreve/cloudreve/issues/2917) 💬 10 | [cloudreve/cloudreve](https://github.com/cloudreve/cloudreve) | 28.7k | 🟡 help wanted | 2026-08-23 | ✍️ CLA |
 | [[FR] [Roadmap] Support 'OR' filtering in search](https://github.com/mlflow/mlflow/issues/6075) 💬 13 | [mlflow/mlflow](https://github.com/mlflow/mlflow) | 28k | 🟡 help wanted | 2026-08-23 | 🔏 DCO |
 | [Cache metrics for http clients](https://github.com/micrometer-metrics/micrometer/issues/1700) 💬 2 | [micrometer-metrics/micrometer](https://github.com/micrometer-metrics/micrometer) | 4.9k | 🟡 help wanted | 2026-08-23 | ✍️ CLA · 🔏 DCO |
@@ -206,9 +210,5 @@
 | [Test osgi with new Prometheus client](https://github.com/micrometer-metrics/micrometer/issues/5063) 💬 6 | [micrometer-metrics/micrometer](https://github.com/micrometer-metrics/micrometer) | 4.9k | 🟡 help wanted | 2026-08-20 | ✍️ CLA · 🔏 DCO |
 | [gadgets/trace_lsm: Add missing documentation Guide section](https://github.com/inspektor-gadget/inspektor-gadget/issues/5631) 💬 2 | [inspektor-gadget/inspektor-gadget](https://github.com/inspektor-gadget/inspektor-gadget) | 2.9k | 🟢 beginner | 2026-08-20 |  |
 | [[pkg/sqlstore] support mysql engine](https://github.com/SigNoz/signoz/issues/3487) 💬 6 | [SigNoz/signoz](https://github.com/SigNoz/signoz) | 32.1k | 🟢 beginner | 2026-08-19 |  |
-| [Preserve image resizing in Markdown export](https://github.com/suitenumerique/docs/issues/2367) 💬 2 | [suitenumerique/docs](https://github.com/suitenumerique/docs) | 16.8k | 🟢 beginner | 2026-08-19 | 🤖 disclose AI use · 🔏 DCO |
-| [Docs installed as an application : Error 400](https://github.com/suitenumerique/docs/issues/2477) | [suitenumerique/docs](https://github.com/suitenumerique/docs) | 16.8k | 🟢 beginner | 2026-08-19 | 🤖 disclose AI use · 🔏 DCO |
-| [Feature request: Add UI for testing full alerting expressions over time](https://github.com/prometheus/prometheus/issues/1154) 💬 17 | [prometheus/prometheus](https://github.com/prometheus/prometheus) | 66.1k | 🟡 help wanted | 2026-08-18 | 🔏 DCO |
-| [Websocket connection error](https://github.com/plankanban/planka/issues/754) 💬 16 | [plankanban/planka](https://github.com/plankanban/planka) | 12.5k | 🟡 help wanted | 2026-08-18 |  |
 
-Showing the 200 most recently updated. See all 540 on the website.
+Showing the 200 most recently updated. See all 539 on the website.

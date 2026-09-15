@@ -1,8 +1,8 @@
 # Developer tools issues
 
-**411** open issues (161 labeled for beginners) across **147** projects tagged with topics like `developer-tools`, `devtools`, `cli`, `terminal`, `editor`, `ide`.
+**405** open issues (157 labeled for beginners) across **144** projects tagged with topics like `developer-tools`, `devtools`, `cli`, `terminal`, `editor`, `ide`.
 
-> Updated automatically on **2026-09-15 10:51 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-15 21:01 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,16 +10,18 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [Ability to exit a script while keeping browser running](https://github.com/puppeteer/puppeteer/issues/8261) 💬 17 | [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) | 95.6k | 🟢 beginner | 2026-09-15 |  |
 | [[Bug]: Missing text chat when Create Automation button is clicked in modal](https://github.com/OpenHands/OpenHands/issues/15833) 💬 5 | [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | 88k | 🟢 beginner | 2026-09-15 |  |
-| [PreToolUse rewrite misses find ... \| wc -l and never maps standalone head -n &lt;file&gt; to rtk read](https://github.com/rtk-ai/rtk/issues/4072) 💬 1 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 80.4k | 🟢 beginner | 2026-09-15 | ✍️ CLA |
+| [feat: comprehensive Kubernetes (kubectl) ecosystem support](https://github.com/rtk-ai/rtk/issues/857) 💬 2 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 80.5k | 🟡 help wanted | 2026-09-15 | ✍️ CLA |
 | [请问jeecg-aiflow-boot 这个模块没有开源吗？](https://github.com/jeecgboot/JeecgBoot/issues/9886) | [jeecgboot/JeecgBoot](https://github.com/jeecgboot/JeecgBoot) | 47.8k | 🟡 help wanted | 2026-09-15 |  |
+| [ls: show unchanged fields for record updates in consts](https://github.com/gleam-lang/gleam/issues/6276) 💬 3 | [gleam-lang/gleam](https://github.com/gleam-lang/gleam) | 21.9k | 🟢 beginner | 2026-09-15 | ⚠️ AI restricted |
 | [Restrict permissions in 'gleam new' generated github actions workflow](https://github.com/gleam-lang/gleam/issues/6311) 💬 5 | [gleam-lang/gleam](https://github.com/gleam-lang/gleam) | 21.9k | 🟢 beginner | 2026-09-15 | ⚠️ AI restricted |
+| [[ACTION] Rewardful — Affiliate & Commission Management](https://github.com/PipedreamHQ/pipedream/issues/21991) | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-09-15 |  |
 | [kew roadmap: "Project Joy"](https://github.com/ravachol/kew/issues/575) 💬 30 | [ravachol/kew](https://github.com/ravachol/kew) | 3.1k | 🟡 help wanted | 2026-09-15 |  |
-| [git_path from config.yml not used](https://github.com/klaussilveira/gitlist/issues/921) 💬 1 | [klaussilveira/gitlist](https://github.com/klaussilveira/gitlist) | 3k | 🟢 beginner | 2026-09-15 |  |
-| [Web Search Tool](https://github.com/editor-code-assistant/eca/issues/70) 💬 7 | [editor-code-assistant/eca](https://github.com/editor-code-assistant/eca) | 992 | 🟢 beginner | 2026-09-15 |  |
+| [Web Search Tool](https://github.com/editor-code-assistant/eca/issues/70) 💬 8 | [editor-code-assistant/eca](https://github.com/editor-code-assistant/eca) | 994 | 🟢 beginner | 2026-09-15 |  |
 | [Launch size, Launch position should each have a "as current window" button](https://github.com/microsoft/terminal/issues/18390) 💬 3 | [microsoft/terminal](https://github.com/microsoft/terminal) | 104.9k | 🟡 help wanted | 2026-09-14 | 🤖 disclose AI use |
 | [Allow the user to set the minimum window size](https://github.com/microsoft/terminal/issues/6820) 💬 23 | [microsoft/terminal](https://github.com/microsoft/terminal) | 104.9k | 🟢 beginner | 2026-09-14 | 🤖 disclose AI use |
-| [Claude Code hook misses rtk-eligible commands inside compound invocations (pipes, && chains)](https://github.com/rtk-ai/rtk/issues/2425) 💬 6 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 80.4k | 🟡 help wanted | 2026-09-14 | ✍️ CLA |
+| [Claude Code hook misses rtk-eligible commands inside compound invocations (pipes, && chains)](https://github.com/rtk-ai/rtk/issues/2425) 💬 6 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 80.5k | 🟡 help wanted | 2026-09-14 | ✍️ CLA |
 | [window.resize_increments miscalculates the window size for some values of window.padding](https://github.com/alacritty/alacritty/issues/9047) 💬 3 | [alacritty/alacritty](https://github.com/alacritty/alacritty) | 65.7k | 🟢 beginner | 2026-09-14 |  |
 | [Feature: Organize documentation topics in beginner-friendly learning order](https://github.com/freeCodeCamp/devdocs/issues/2611) | [freeCodeCamp/devdocs](https://github.com/freeCodeCamp/devdocs) | 39.5k | 🟡 help wanted | 2026-09-14 |  |
 | [💡 in-app updating, auto-updating](https://github.com/super-productivity/super-productivity/issues/8007) 💬 7 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22k | 🟡 help wanted | 2026-09-14 |  |
@@ -27,14 +29,13 @@
 | [💡 making more intuitive "schedule "(zooming) {ui/ux improvement for phone: 5a/100}](https://github.com/super-productivity/super-productivity/issues/9990) 💬 2 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22k | 🟡 help wanted | 2026-09-14 |  |
 | [🚨 focus mode (reset session counter) {ui/ux improvement for phone: 1b/100}](https://github.com/super-productivity/super-productivity/issues/9893) 💬 5 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22k | 🟡 help wanted | 2026-09-14 |  |
 | [Generate field code action](https://github.com/gleam-lang/gleam/issues/5916) 💬 13 | [gleam-lang/gleam](https://github.com/gleam-lang/gleam) | 21.9k | 🟡 help wanted | 2026-09-14 | ⚠️ AI restricted |
-| [ls: show unchanged fields for record updates in consts](https://github.com/gleam-lang/gleam/issues/6276) 💬 2 | [gleam-lang/gleam](https://github.com/gleam-lang/gleam) | 21.9k | 🟢 beginner | 2026-09-14 | ⚠️ AI restricted |
 | [Map maintenance with overlays](https://github.com/streetcomplete/StreetComplete/issues/4735) 💬 14 | [streetcomplete/StreetComplete](https://github.com/streetcomplete/StreetComplete) | 4.8k | 🟡 help wanted | 2026-09-14 |  |
 | [Missing Rmath derivatives](https://github.com/EnzymeAD/Enzyme.jl/issues/1620) 💬 2 | [EnzymeAD/Enzyme.jl](https://github.com/EnzymeAD/Enzyme.jl) | 586 | 🟡 help wanted | 2026-09-14 |  |
-| [Feature request: journalctl support](https://github.com/rtk-ai/rtk/issues/1819) 💬 3 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 80.4k | 🟡 help wanted | 2026-09-13 | ✍️ CLA |
-| [Add token-filtering support for dagRobin (DAG task tracker for AI agents) — 76KB on a bare 'list', 35KB on the](https://github.com/rtk-ai/rtk/issues/4020) 💬 1 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 80.4k | 🟡 help wanted | 2026-09-13 | ✍️ CLA |
-| [Add token-filtering support for agent-browser CLI commands](https://github.com/rtk-ai/rtk/issues/2867) 💬 3 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 80.4k | 🟡 help wanted | 2026-09-13 | ✍️ CLA |
-| [RTK is not being configured properly with global initialization for VS Code + Copilot](https://github.com/rtk-ai/rtk/issues/2216) 💬 4 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 80.4k | 🟡 help wanted | 2026-09-13 | ✍️ CLA |
-| ['rtk grep' uses ~31× the memory and ~4.9× the wall-clock of 'grep' for the same search](https://github.com/rtk-ai/rtk/issues/3392) 💬 4 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 80.4k | 🟡 help wanted | 2026-09-13 | ✍️ CLA |
+| [Feature request: journalctl support](https://github.com/rtk-ai/rtk/issues/1819) 💬 3 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 80.5k | 🟡 help wanted | 2026-09-13 | ✍️ CLA |
+| [Add token-filtering support for dagRobin (DAG task tracker for AI agents) — 76KB on a bare 'list', 35KB on the](https://github.com/rtk-ai/rtk/issues/4020) 💬 1 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 80.5k | 🟡 help wanted | 2026-09-13 | ✍️ CLA |
+| [Add token-filtering support for agent-browser CLI commands](https://github.com/rtk-ai/rtk/issues/2867) 💬 3 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 80.5k | 🟡 help wanted | 2026-09-13 | ✍️ CLA |
+| [RTK is not being configured properly with global initialization for VS Code + Copilot](https://github.com/rtk-ai/rtk/issues/2216) 💬 4 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 80.5k | 🟡 help wanted | 2026-09-13 | ✍️ CLA |
+| ['rtk grep' uses ~31× the memory and ~4.9× the wall-clock of 'grep' for the same search](https://github.com/rtk-ai/rtk/issues/3392) 💬 4 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 80.5k | 🟡 help wanted | 2026-09-13 | ✍️ CLA |
 | [feat(scan): domain-level aggregator repost list, complementing the SimHash cross-listing warning](https://github.com/career-ops-hq/career-ops/issues/3577) 💬 7 | [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | 71.7k | 🟢 beginner | 2026-09-13 |  |
 | [[Bug]: GraphQL: don't add quotes around binding as query param when user has already provided quotes](https://github.com/appsmithorg/appsmith/issues/16713) 💬 1 | [appsmithorg/appsmith](https://github.com/appsmithorg/appsmith) | 40.9k | 🟡 help wanted | 2026-09-13 |  |
 | [postgres/sqlalchemy display of timestamptz loses my local timezone](https://github.com/marimo-team/marimo/issues/6250) 💬 10 | [marimo-team/marimo](https://github.com/marimo-team/marimo) | 22.8k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use · ✍️ CLA |
@@ -61,7 +62,7 @@
 | [Extract record code action](https://github.com/gleam-lang/gleam/issues/4406) 💬 3 | [gleam-lang/gleam](https://github.com/gleam-lang/gleam) | 21.9k | 🟡 help wanted | 2026-09-13 | ⚠️ AI restricted |
 | [Add tools to Yahoo Sports](https://github.com/PipedreamHQ/pipedream/issues/21979) | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-09-13 |  |
 | [dotnet build /v:q is not as quiet as msbuild /v:q](https://github.com/dotnet/sdk/issues/10032) 💬 20 | [dotnet/sdk](https://github.com/dotnet/sdk) | 3.2k | 🟢 beginner | 2026-09-13 |  |
-| [rtk git diff --check emits no output at all, silently discarding every whitespace diagnostic](https://github.com/rtk-ai/rtk/issues/3984) 💬 2 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 80.4k | 🟢 beginner | 2026-09-12 | ✍️ CLA |
+| [rtk git diff --check emits no output at all, silently discarding every whitespace diagnostic](https://github.com/rtk-ai/rtk/issues/3984) 💬 2 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 80.5k | 🟢 beginner | 2026-09-12 | ✍️ CLA |
 | [Map support](https://github.com/pascalorg/editor/issues/154) 💬 7 | [pascalorg/editor](https://github.com/pascalorg/editor) | 23.9k | 🟡 help wanted | 2026-09-12 |  |
 | [Null check operator used on a null value](https://github.com/amake/orgro/issues/215) 💬 10 | [amake/orgro](https://github.com/amake/orgro) | 730 | 🟡 help wanted | 2026-09-12 |  |
 | [[Bug] Instructions for integrating with Vite don't work](https://github.com/microsoft/monaco-editor/issues/4045) 💬 8 | [microsoft/monaco-editor](https://github.com/microsoft/monaco-editor) | 46.7k | 🟡 help wanted | 2026-09-11 |  |
@@ -96,7 +97,7 @@
 | [Support RTL languages](https://github.com/xtermjs/xterm.js/issues/701) 💬 48 | [xtermjs/xterm.js](https://github.com/xtermjs/xterm.js) | 21.2k | 🟡 help wanted | 2026-09-06 |  |
 | [regression: can't build broot for Android using cargo cross anymore](https://github.com/Canop/broot/issues/565) 💬 6 | [Canop/broot](https://github.com/Canop/broot) | 12.9k | 🟡 help wanted | 2026-09-06 | ⚠️ AI restricted |
 | [Open new source to check Webhook [TRIGGER]](https://github.com/PipedreamHQ/pipedream/issues/21912) | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-09-06 |  |
-| [v4.0 post-release polish: event-count arithmetic + test cleanup trap](https://github.com/sangrokjung/claude-forge/issues/81) 💬 1 | [sangrokjung/claude-forge](https://github.com/sangrokjung/claude-forge) | 836 | 🟢 beginner | 2026-09-06 |  |
+| [v4.0 post-release polish: event-count arithmetic + test cleanup trap](https://github.com/sangrokjung/claude-forge/issues/81) 💬 1 | [sangrokjung/claude-forge](https://github.com/sangrokjung/claude-forge) | 837 | 🟢 beginner | 2026-09-06 |  |
 | [Recipes for Nx, Turborepo, moon and a danger-js plugin](https://github.com/kucherenko/jscpd/issues/1014) 💬 1 | [kucherenko/jscpd](https://github.com/kucherenko/jscpd) | 6.2k | 🟡 help wanted | 2026-09-05 |  |
 | [i18n: add a Swedish (sv) market mode](https://github.com/career-ops-hq/career-ops/issues/3847) | [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | 71.7k | 🟡 help wanted | 2026-09-04 |  |
 | [Emoji causes quote to be stuck on screen when scrolling](https://github.com/micro-editor/micro/issues/3792) 💬 12 | [micro-editor/micro](https://github.com/micro-editor/micro) | 29.6k | 🟡 help wanted | 2026-09-04 |  |
@@ -140,7 +141,7 @@
 | [Warning for immediately called anonymous functions](https://github.com/gleam-lang/gleam/issues/6259) 💬 1 | [gleam-lang/gleam](https://github.com/gleam-lang/gleam) | 21.9k | 🟢 beginner | 2026-09-01 | ⚠️ AI restricted |
 | [please a this new LLMs provider called gmicloud.ai](https://github.com/1jehuang/jcode/issues/1097) | [1jehuang/jcode](https://github.com/1jehuang/jcode) | 19.7k | 🟡 help wanted | 2026-09-01 |  |
 | [Revisit Style/EmptyCaseCondition?](https://github.com/rubocop/rubocop/issues/8396) 💬 4 | [rubocop/rubocop](https://github.com/rubocop/rubocop) | 12.9k | 🟡 help wanted | 2026-09-01 |  |
-| [Would a version for iPadOS be feasible?](https://github.com/awaseem/foqos/issues/287) 💬 8 | [awaseem/foqos](https://github.com/awaseem/foqos) | 812 | 🟡 help wanted | 2026-09-01 |  |
+| [Would a version for iPadOS be feasible?](https://github.com/awaseem/foqos/issues/287) 💬 8 | [awaseem/foqos](https://github.com/awaseem/foqos) | 815 | 🟡 help wanted | 2026-09-01 |  |
 | [Fork, Commit, Merge - Medium Issue 2 (React.js)](https://github.com/fork-commit-merge/fork-commit-merge/issues/8091) 💬 1 | [fork-commit-merge/fork-commit-merge](https://github.com/fork-commit-merge/fork-commit-merge) | 512 | 🟢 beginner | 2026-09-01 |  |
 | [Fork, Commit, Merge - Easy Issue (TypeScript/Vitest)](https://github.com/fork-commit-merge/fork-commit-merge/issues/8096) | [fork-commit-merge/fork-commit-merge](https://github.com/fork-commit-merge/fork-commit-merge) | 512 | 🟢 beginner | 2026-09-01 |  |
 | [Fork, Commit, Merge - Medium Issue (Docker)](https://github.com/fork-commit-merge/fork-commit-merge/issues/8112) | [fork-commit-merge/fork-commit-merge](https://github.com/fork-commit-merge/fork-commit-merge) | 512 | 🟢 beginner | 2026-09-01 |  |
@@ -195,7 +196,7 @@
 | [Pushing fails periodically with 'dial tcp: lookup github.com: no such host' error, disrupts network](https://github.com/git-lfs/git-lfs/issues/2887) 💬 21 | [git-lfs/git-lfs](https://github.com/git-lfs/git-lfs) | 14.5k | 🟡 help wanted | 2026-08-24 |  |
 | [[Enhancement] Add "Open a Repository" option for Local backend mode](https://github.com/OpenHands/OpenHands/issues/15758) 💬 6 | [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | 88k | 🟢 beginner | 2026-08-23 |  |
 | [Joplin integration](https://github.com/LinwoodDev/Butterfly/issues/253) 💬 3 | [LinwoodDev/Butterfly](https://github.com/LinwoodDev/Butterfly) | 2k | 🟢 beginner | 2026-08-23 |  |
-| [Tuxedo OS (Debian Testing) incorrectly identified as Ubuntu and fails install.](https://github.com/mkasberg/ghostty-ubuntu/issues/231) 💬 1 | [mkasberg/ghostty-ubuntu](https://github.com/mkasberg/ghostty-ubuntu) | 1.2k | 🟢 beginner | 2026-08-23 |  |
+| [Tuxedo OS (Debian Testing) incorrectly identified as Ubuntu and fails install.](https://github.com/mkasberg/ghostty-ubuntu/issues/231) 💬 1 | [mkasberg/ghostty-ubuntu](https://github.com/mkasberg/ghostty-ubuntu) | 1.3k | 🟢 beginner | 2026-08-23 |  |
 | [GitLab Integration not returning username](https://github.com/orhun/git-cliff/issues/1492) 💬 5 | [orhun/git-cliff](https://github.com/orhun/git-cliff) | 12.2k | 🟡 help wanted | 2026-08-22 |  |
 | [Enhanced Tab Visibility: A Desire for Multiline Tabs in Terminal](https://github.com/microsoft/terminal/issues/16912) 💬 5 | [microsoft/terminal](https://github.com/microsoft/terminal) | 104.9k | 🟡 help wanted | 2026-08-21 | 🤖 disclose AI use |
 | [Doesn't detect pwsh installed in custom directory from Scoop](https://github.com/microsoft/terminal/issues/8264) 💬 7 | [microsoft/terminal](https://github.com/microsoft/terminal) | 104.9k | 🟢 beginner | 2026-08-21 | 🤖 disclose AI use |
@@ -206,9 +207,8 @@
 | ['til::coalesce&lt;T&gt;' should be able to take a function that returns 'T'](https://github.com/microsoft/terminal/issues/15940) 💬 4 | [microsoft/terminal](https://github.com/microsoft/terminal) | 104.9k | 🟡 help wanted | 2026-08-19 | 🤖 disclose AI use |
 | [Create a cross platform pty crate](https://github.com/alacritty/alacritty/issues/2079) 💬 10 | [alacritty/alacritty](https://github.com/alacritty/alacritty) | 65.7k | 🟡 help wanted | 2026-08-19 |  |
 | [coVerify fails when running multiple tests but succeeds if the test is run alone](https://github.com/mockk/mockk/issues/932) 💬 4 | [mockk/mockk](https://github.com/mockk/mockk) | 5.8k | 🟡 help wanted | 2026-08-19 |  |
-| [v4.1 candidate: karpathy-check (overbuild/scope-drift audit)](https://github.com/sangrokjung/claude-forge/issues/75) | [sangrokjung/claude-forge](https://github.com/sangrokjung/claude-forge) | 836 | 🟢 beginner | 2026-08-19 |  |
-| [v4.1 candidate: sprint-contract (DoD pre-agreement)](https://github.com/sangrokjung/claude-forge/issues/74) | [sangrokjung/claude-forge](https://github.com/sangrokjung/claude-forge) | 836 | 🟢 beginner | 2026-08-19 |  |
-| [v4.1 candidate: dry-run masked preview](https://github.com/sangrokjung/claude-forge/issues/73) | [sangrokjung/claude-forge](https://github.com/sangrokjung/claude-forge) | 836 | 🟢 beginner | 2026-08-19 |  |
-| [v4.1 candidate: git hygiene trio (pull-main / worktree collision detect / push-before-ci)](https://github.com/sangrokjung/claude-forge/issues/72) | [sangrokjung/claude-forge](https://github.com/sangrokjung/claude-forge) | 836 | 🟢 beginner | 2026-08-19 |  |
+| [v4.1 candidate: karpathy-check (overbuild/scope-drift audit)](https://github.com/sangrokjung/claude-forge/issues/75) | [sangrokjung/claude-forge](https://github.com/sangrokjung/claude-forge) | 837 | 🟢 beginner | 2026-08-19 |  |
+| [v4.1 candidate: sprint-contract (DoD pre-agreement)](https://github.com/sangrokjung/claude-forge/issues/74) | [sangrokjung/claude-forge](https://github.com/sangrokjung/claude-forge) | 837 | 🟢 beginner | 2026-08-19 |  |
+| [v4.1 candidate: dry-run masked preview](https://github.com/sangrokjung/claude-forge/issues/73) | [sangrokjung/claude-forge](https://github.com/sangrokjung/claude-forge) | 837 | 🟢 beginner | 2026-08-19 |  |
 
-Showing the 200 most recently updated. See all 411 on the website.
+Showing the 200 most recently updated. See all 405 on the website.

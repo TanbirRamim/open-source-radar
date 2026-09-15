@@ -1,8 +1,8 @@
 # C issues
 
-**162** open issues (45 labeled for beginners) across **68** active C projects.
+**160** open issues (46 labeled for beginners) across **68** active C projects.
 
-> Updated automatically on **2026-09-15 10:51 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-15 21:01 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,28 +10,27 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [Remove duplicates from PATH environment variables](https://github.com/microsoft/PowerToys/issues/40402) 💬 10 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 138.7k | 🟡 help wanted | 2026-09-15 |  |
 | [Debug Watchpoint does not support read write permission together](https://github.com/rizinorg/rizin/issues/6743) | [rizinorg/rizin](https://github.com/rizinorg/rizin) | 3.9k | 🟢 beginner | 2026-09-15 | 🤖 disclose AI use |
+| [Fix code scanning alert - Cast from char* to wchar_t*](https://github.com/microsoft/ebpf-for-windows/issues/3296) 💬 1 | [microsoft/ebpf-for-windows](https://github.com/microsoft/ebpf-for-windows) | 3.6k | 🟢 beginner | 2026-09-15 | ✍️ CLA |
 | [kew roadmap: "Project Joy"](https://github.com/ravachol/kew/issues/575) 💬 30 | [ravachol/kew](https://github.com/ravachol/kew) | 3.1k | 🟡 help wanted | 2026-09-15 |  |
+| [Adding SDitH](https://github.com/open-quantum-safe/liboqs/issues/2453) 💬 4 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-09-15 |  |
 | [Let a CMP client require EnvelopedData (reject EncryptedValue) for centrally generated keys](https://github.com/openssl/openssl/issues/32797) | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-14 | 🤖 disclose AI use · ✍️ CLA |
 | [RFC 9919: OCSP with SHA-256](https://github.com/openssl/openssl/issues/32813) | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use · ✍️ CLA |
 | [Backport 0c2a196af8 (per-OSSL_LIB_CTX CONF storage) to 3.0-3.6: conf_ssl.c double-free still present in all re](https://github.com/openssl/openssl/issues/32804) 💬 2 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use · ✍️ CLA |
 | [Adding QR-UOV](https://github.com/open-quantum-safe/liboqs/issues/2454) 💬 17 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-09-13 |  |
 | [Update speed tests to measure GPU performance for cuPQC code](https://github.com/open-quantum-safe/liboqs/issues/2160) 💬 41 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-09-13 |  |
 | [Suppress Warnings From libpng](https://github.com/php/php-src/issues/23674) 💬 1 | [php/php-src](https://github.com/php/php-src) | 40.4k | 🟢 beginner | 2026-09-12 | 🤖 disclose AI use |
-| [test_quicapi fails on AIX](https://github.com/openssl/openssl/issues/32506) 💬 35 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use · ✍️ CLA |
 | [分享一下我解决进不去里站的方法](https://github.com/xiaojieonly/Ehviewer_CN_SXJ/issues/96) 💬 55 | [xiaojieonly/Ehviewer_CN_SXJ](https://github.com/xiaojieonly/Ehviewer_CN_SXJ) | 26.9k | 🟡 help wanted | 2026-09-10 |  |
 | [Building libqasan for musl](https://github.com/AFLplusplus/AFLplusplus/issues/2832) 💬 5 | [AFLplusplus/AFLplusplus](https://github.com/AFLplusplus/AFLplusplus) | 6.8k | 🟢 beginner | 2026-09-10 |  |
 | [Build Error with new configuration BC-64 for Embarcadero-Borland Clang Compiler 64bit](https://github.com/openssl/openssl/issues/26452) 💬 10 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-09 | 🤖 disclose AI use · ✍️ CLA |
 | [Cannot properly verify a self-signed certificate signature using SM2 key](https://github.com/openssl/openssl/issues/32744) 💬 3 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-09 | 🤖 disclose AI use · ✍️ CLA |
 | [Add SMP support for Armv8-R (Cortex-R52 / Cortex-R82)](https://github.com/eclipse-threadx/threadx/issues/710) | [eclipse-threadx/threadx](https://github.com/eclipse-threadx/threadx) | 3.5k | 🟡 help wanted | 2026-09-09 | 🔏 DCO |
-| [Adding SDitH](https://github.com/open-quantum-safe/liboqs/issues/2453) 💬 2 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-09-09 |  |
 | [Adding FAEST](https://github.com/open-quantum-safe/liboqs/issues/2101) 💬 11 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-09-09 |  |
 | [Change Audio Output with Hotkey](https://github.com/microsoft/PowerToys/issues/4964) 💬 73 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 138.7k | 🟡 help wanted | 2026-09-08 |  |
 | [Request for Guidance on GPL Compliance and Source Code Release – YUNZII Tri-Mode Boards](https://github.com/qmk/qmk_firmware/issues/25737) 💬 24 | [qmk/qmk_firmware](https://github.com/qmk/qmk_firmware) | 20.7k | 🟡 help wanted | 2026-09-08 |  |
 | [Document the SPSel = 0 / SP_EL0 requirement of the ARMv8-A ports](https://github.com/eclipse-threadx/threadx/issues/703) | [eclipse-threadx/threadx](https://github.com/eclipse-threadx/threadx) | 3.5k | 🟡 help wanted | 2026-09-08 | 🔏 DCO |
 | [Support TX_ENABLE_STACK_CHECKING for module threads](https://github.com/eclipse-threadx/threadx/issues/702) | [eclipse-threadx/threadx](https://github.com/eclipse-threadx/threadx) | 3.5k | 🟡 help wanted | 2026-09-08 | 🔏 DCO |
-| [[Experiment] expert-transition-history placement policy vs gate-momentum — controlled A/B for hypothesis #1](https://github.com/JustVugg/colibri/issues/708) 💬 11 | [JustVugg/colibri](https://github.com/JustVugg/colibri) | 32.9k | 🟡 help wanted | 2026-09-07 |  |
+| [[Experiment] expert-transition-history placement policy vs gate-momentum — controlled A/B for hypothesis #1](https://github.com/JustVugg/colibri/issues/708) 💬 11 | [JustVugg/colibri](https://github.com/JustVugg/colibri) | 33.6k | 🟡 help wanted | 2026-09-07 |  |
 | [Documentation regarding the 'OPENSSL_init_crypto' config handling is confusing](https://github.com/openssl/openssl/issues/32625) 💬 2 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-07 | 🤖 disclose AI use · ✍️ CLA |
 | [FreeSWITCH Not Compliant with RFC3515 - Not Processing REFER - $250 Bounty](https://github.com/signalwire/freeswitch/issues/592) 💬 6 | [signalwire/freeswitch](https://github.com/signalwire/freeswitch) | 5.2k | 🟡 help wanted | 2026-09-07 |  |
 | [[Feature Request] Support configurable additional HID interfaces](https://github.com/qmk/qmk_firmware/issues/26363) 💬 2 | [qmk/qmk_firmware](https://github.com/qmk/qmk_firmware) | 20.7k | 🟡 help wanted | 2026-09-06 |  |
@@ -171,4 +170,3 @@
 | [macOS Dock Icon](https://github.com/webui-dev/webui/issues/278) 💬 7 | [webui-dev/webui](https://github.com/webui-dev/webui) | 4.6k | 🟡 help wanted | 2026-03-24 |  |
 | [分页查询超级表特别慢](https://github.com/taosdata/TDengine/issues/34193) 💬 4 | [taosdata/TDengine](https://github.com/taosdata/TDengine) | 25.1k | 🟡 help wanted | 2026-03-22 |  |
 | [PC-98 256-color planar mode](https://github.com/joncampbell123/dosbox-x/issues/1061) 💬 27 | [joncampbell123/dosbox-x](https://github.com/joncampbell123/dosbox-x) | 3.7k | 🟡 help wanted | 2026-03-22 |  |
-| [[Bug] AnnePro2/C15 LEDs don't work](https://github.com/qmk/qmk_firmware/issues/26093) | [qmk/qmk_firmware](https://github.com/qmk/qmk_firmware) | 20.7k | 🟡 help wanted | 2026-03-19 |  |
