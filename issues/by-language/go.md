@@ -1,8 +1,8 @@
 # Go issues
 
-**359** open issues (83 labeled for beginners) across **84** active Go projects.
+**351** open issues (80 labeled for beginners) across **83** active Go projects.
 
-> Updated automatically on **2026-09-16 10:39 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-16 20:58 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,51 +10,50 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [runtime: "unexpected signal during runtime execution" during bgscavenge on plan9](https://github.com/golang/go/issues/35456) 💬 94 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-16 |  |
+| [runtime: linux/s390x test timeout](https://github.com/golang/go/issues/60413) 💬 871 | [golang/go](https://github.com/golang/go) | 138.9k | 🟡 help wanted | 2026-09-16 |  |
+| [runtime: "unexpected signal during runtime execution" during bgscavenge on plan9](https://github.com/golang/go/issues/35456) 💬 95 | [golang/go](https://github.com/golang/go) | 138.9k | 🟡 help wanted | 2026-09-16 |  |
+| [croc needs your help](https://github.com/schollz/croc/issues/1269) 💬 1 | [schollz/croc](https://github.com/schollz/croc) | 40.4k | 🟡 help wanted | 2026-09-16 |  |
 | [add falco back to the new iso](https://github.com/kubernetes/minikube/issues/22298) 💬 5 | [kubernetes/minikube](https://github.com/kubernetes/minikube) | 32.1k | 🟡 help wanted | 2026-09-16 |  |
-| [Crash with "unexpected end of JSON input" when try to resume a scan](https://github.com/alibaba/open-code-review/issues/1308) 💬 3 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 30.1k | 🟢 beginner | 2026-09-16 | 🤖 disclose AI use · ✍️ CLA |
-| [Wanted: Who is using Open Code Review? Please leave a comment!](https://github.com/alibaba/open-code-review/issues/1020) 💬 8 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 30.1k | 🟡 help wanted | 2026-09-16 | 🤖 disclose AI use · ✍️ CLA |
-| [all: flaky failures on netbsd/arm](https://github.com/golang/go/issues/73820) 💬 724 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-15 |  |
-| [runtime/race: TestRace failures in RaceWaitGroupWrongAdd](https://github.com/golang/go/issues/64038) 💬 45 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-15 |  |
-| [runtime: flaky failures on NetBSD since CL 526118](https://github.com/golang/go/issues/62524) 💬 142 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-15 |  |
-| [runtime: linux/s390x test timeout](https://github.com/golang/go/issues/60413) 💬 870 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-15 |  |
-| [cmd/cgo: cgo "//export" usage missing crucial info](https://github.com/golang/go/issues/56853) 💬 3 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-15 |  |
-| [x/crypto/ssh: implement zlib@openssh.com compression](https://github.com/golang/go/issues/31369) 💬 3 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-15 |  |
-| [x/sys/windows: generated wrappers read undefined upper bits of 32-bit syscall return values](https://github.com/golang/go/issues/81249) 💬 9 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-15 |  |
+| [Viewer redesign: Session detail — header / meta bar](https://github.com/alibaba/open-code-review/issues/1324) 💬 1 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 31.5k | 🟢 beginner | 2026-09-16 | 🤖 disclose AI use · ✍️ CLA |
+| [Wanted: Who is using Open Code Review? Please leave a comment!](https://github.com/alibaba/open-code-review/issues/1020) 💬 8 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 31.5k | 🟡 help wanted | 2026-09-16 | 🤖 disclose AI use · ✍️ CLA |
+| [all: flaky failures on netbsd/arm](https://github.com/golang/go/issues/73820) 💬 724 | [golang/go](https://github.com/golang/go) | 138.9k | 🟡 help wanted | 2026-09-15 |  |
+| [runtime/race: TestRace failures in RaceWaitGroupWrongAdd](https://github.com/golang/go/issues/64038) 💬 45 | [golang/go](https://github.com/golang/go) | 138.9k | 🟡 help wanted | 2026-09-15 |  |
+| [runtime: flaky failures on NetBSD since CL 526118](https://github.com/golang/go/issues/62524) 💬 142 | [golang/go](https://github.com/golang/go) | 138.9k | 🟡 help wanted | 2026-09-15 |  |
+| [cmd/cgo: cgo "//export" usage missing crucial info](https://github.com/golang/go/issues/56853) 💬 3 | [golang/go](https://github.com/golang/go) | 138.9k | 🟡 help wanted | 2026-09-15 |  |
+| [x/crypto/ssh: implement zlib@openssh.com compression](https://github.com/golang/go/issues/31369) 💬 3 | [golang/go](https://github.com/golang/go) | 138.9k | 🟡 help wanted | 2026-09-15 |  |
+| [x/sys/windows: generated wrappers read undefined upper bits of 32-bit syscall return values](https://github.com/golang/go/issues/81249) 💬 9 | [golang/go](https://github.com/golang/go) | 138.9k | 🟡 help wanted | 2026-09-15 |  |
 | [Optimize Pod informer memory efficiency used in admission plugins](https://github.com/kubernetes/kubernetes/issues/125469) 💬 21 | [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) | 127.8k | 🟡 help wanted | 2026-09-15 | 🤖 disclose AI use · ✍️ CLA |
-| [Minikube start fails for nvidia gpus in compute only/ headless mode](https://github.com/kubernetes/minikube/issues/20934) 💬 4 | [kubernetes/minikube](https://github.com/kubernetes/minikube) | 32.1k | 🟡 help wanted | 2026-09-15 |  |
 | [Btrfs statistics input plugin](https://github.com/influxdata/telegraf/issues/10032) 💬 5 | [influxdata/telegraf](https://github.com/influxdata/telegraf) | 17.8k | 🟡 help wanted | 2026-09-15 | ⚠️ AI restricted · ✍️ CLA |
 | [Reminder: Update Hacktoberfest branding for this year](https://github.com/owncast/owncast/issues/5180) | [owncast/owncast](https://github.com/owncast/owncast) | 11.5k | 🟢 beginner | 2026-09-15 |  |
-| [MQTT - based scaler](https://github.com/kedacore/keda/issues/1282) 💬 23 | [kedacore/keda](https://github.com/kedacore/keda) | 10.5k | 🟡 help wanted | 2026-09-15 | 🔏 DCO |
 | [Upgrade the WAF plugin's CRS rule version to the latest](https://github.com/higress-group/higress/issues/1620) 💬 1 | [higress-group/higress](https://github.com/higress-group/higress) | 9.4k | 🟡 help wanted | 2026-09-15 | 🤖 disclose AI use |
 | [Add Feature to Set Retention Time per Metric](https://github.com/prometheus/prometheus/issues/15350) 💬 3 | [prometheus/prometheus](https://github.com/prometheus/prometheus) | 66.1k | 🟡 help wanted | 2026-09-14 | 🔏 DCO |
 | [failed to download vulnerability DB](https://github.com/goharbor/harbor/issues/23521) 💬 8 | [goharbor/harbor](https://github.com/goharbor/harbor) | 29.4k | 🟡 help wanted | 2026-09-14 | 🔏 DCO |
 | [Feature Request: Social Handle Platforms for RSS and Tumblr](https://github.com/owncast/owncast/issues/5172) 💬 1 | [owncast/owncast](https://github.com/owncast/owncast) | 11.5k | 🟢 beginner | 2026-09-14 |  |
-| [cmd/link: test timeouts](https://github.com/golang/go/issues/64535) 💬 16 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-13 |  |
+| [cmd/link: test timeouts](https://github.com/golang/go/issues/64535) 💬 16 | [golang/go](https://github.com/golang/go) | 138.9k | 🟡 help wanted | 2026-09-13 |  |
 | [Regression: Generic function returning union of tuples is not assignable to identical type since v4.2](https://github.com/microsoft/TypeScript/issues/63019) 💬 5 | [microsoft/TypeScript](https://github.com/microsoft/TypeScript) | 111.1k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use · ✍️ CLA |
 | [Application migration across clusters](https://github.com/argoproj/argo-cd/issues/1640) 💬 16 | [argoproj/argo-cd](https://github.com/argoproj/argo-cd) | 24.2k | 🟡 help wanted | 2026-09-13 | 🔏 DCO |
 | [add Notion database MCP server in Gemini CLI extensions](https://github.com/googleapis/mcp-toolbox/issues/1699) 💬 2 | [googleapis/mcp-toolbox](https://github.com/googleapis/mcp-toolbox) | 16.4k | 🟡 help wanted | 2026-09-13 | ✍️ CLA |
-| [x/pkgsite: align attribute gets stripped from headings in README.md](https://github.com/golang/go/issues/51045) 💬 3 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-12 |  |
-| [cmd/compile: eliminate base.Pos and ir.CurFunc](https://github.com/golang/go/issues/19683) 💬 40 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-12 |  |
-| [runtime: TestUsingVDSO failures](https://github.com/golang/go/issues/67383) 💬 8 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-11 |  |
-| [proposal: cmd/go: add go test -fuzztimereset option](https://github.com/golang/go/issues/80283) 💬 11 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-11 |  |
+| [x/pkgsite: align attribute gets stripped from headings in README.md](https://github.com/golang/go/issues/51045) 💬 3 | [golang/go](https://github.com/golang/go) | 138.9k | 🟡 help wanted | 2026-09-12 |  |
+| [cmd/compile: eliminate base.Pos and ir.CurFunc](https://github.com/golang/go/issues/19683) 💬 40 | [golang/go](https://github.com/golang/go) | 138.9k | 🟡 help wanted | 2026-09-12 |  |
+| [runtime: TestUsingVDSO failures](https://github.com/golang/go/issues/67383) 💬 8 | [golang/go](https://github.com/golang/go) | 138.9k | 🟡 help wanted | 2026-09-11 |  |
+| [proposal: cmd/go: add go test -fuzztimereset option](https://github.com/golang/go/issues/80283) 💬 11 | [golang/go](https://github.com/golang/go) | 138.9k | 🟡 help wanted | 2026-09-11 |  |
 | [Help wanted issues (but NOT 'good first issue')](https://github.com/lima-vm/lima/issues/5286) 💬 2 | [lima-vm/lima](https://github.com/lima-vm/lima) | 21.9k | 🟡 help wanted | 2026-09-11 | 📄 AI policy · 🔏 DCO |
 | ['ipfs repo state' cmd](https://github.com/ipfs/kubo/issues/1486) 💬 3 | [ipfs/kubo](https://github.com/ipfs/kubo) | 17.1k | 🟡 help wanted | 2026-09-11 |  |
 | [Workflowdefault configmap at the namespace level](https://github.com/argoproj/argo-workflows/issues/14057) 💬 5 | [argoproj/argo-workflows](https://github.com/argoproj/argo-workflows) | 17k | 🟡 help wanted | 2026-09-11 | 📄 AI policy · 🔏 DCO |
 | [Injected nginx ingress controller doesn't have access to the remote client IP](https://github.com/linkerd/linkerd2/issues/3403) 💬 19 | [linkerd/linkerd2](https://github.com/linkerd/linkerd2) | 11.5k | 🟡 help wanted | 2026-09-11 | 🔏 DCO |
 | [Refactor History/Visibility Archiver implementation](https://github.com/cadence-workflow/cadence/issues/3001) 💬 3 | [cadence-workflow/cadence](https://github.com/cadence-workflow/cadence) | 9.4k | 🟡 help wanted | 2026-09-11 |  |
-| [cmd/cgo: more expansive test coverage](https://github.com/golang/go/issues/39537) 💬 7 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-10 |  |
-| [runtime: TestWindowsStackMemoryCgo is flaky](https://github.com/golang/go/issues/22575) 💬 10 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-10 |  |
-| [cmd/go: list -compiled fails to populate CompiledGoFiles when the resulting package cannot be linked](https://github.com/golang/go/issues/34229) 💬 4 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-10 |  |
-| [cmd/link: "The command line is too long" on Windows when the external linker is a .bat or .cmd wrapper](https://github.com/golang/go/issues/80862) 💬 4 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-10 |  |
-| [cmd/go: doc: inconsistent handling of build tags, cgo, goexperiment](https://github.com/golang/go/issues/76829) 💬 8 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-10 |  |
-| [runtime: cgocheck fails to correctly identify pinned allocation in self-reference of a linker-allocated object](https://github.com/golang/go/issues/74116) 💬 6 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-10 |  |
-| [cmd/link: -race doesn't work by default on FreeBSD with cgo](https://github.com/golang/go/issues/73788) 💬 6 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-10 |  |
-| [runtime: panic not generating a correct backtrace stack while crashing in cgo on ARM64 platform](https://github.com/golang/go/issues/69438) 💬 3 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-10 |  |
-| [runtime: TestCgoCallbackGC failures](https://github.com/golang/go/issues/68800) 💬 5 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-10 |  |
-| [cmd/cgo: generated code uses aliases even in modules using Go older than 1.9](https://github.com/golang/go/issues/67738) 💬 1 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-10 |  |
-| [cmd/cgo/internal/testcarchive: unrecognized failures](https://github.com/golang/go/issues/65995) 💬 2 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-10 |  |
-| [cmd/cgo/internal/testcshared: Test(Unexported\|Exported)Symbols failures with SIGSEGV on android/arm64](https://github.com/golang/go/issues/64823) 💬 5 | [golang/go](https://github.com/golang/go) | 138.8k | 🟡 help wanted | 2026-09-10 |  |
+| [cmd/cgo: more expansive test coverage](https://github.com/golang/go/issues/39537) 💬 7 | [golang/go](https://github.com/golang/go) | 138.9k | 🟡 help wanted | 2026-09-10 |  |
+| [runtime: TestWindowsStackMemoryCgo is flaky](https://github.com/golang/go/issues/22575) 💬 10 | [golang/go](https://github.com/golang/go) | 138.9k | 🟡 help wanted | 2026-09-10 |  |
+| [cmd/go: list -compiled fails to populate CompiledGoFiles when the resulting package cannot be linked](https://github.com/golang/go/issues/34229) 💬 4 | [golang/go](https://github.com/golang/go) | 138.9k | 🟡 help wanted | 2026-09-10 |  |
+| [cmd/link: "The command line is too long" on Windows when the external linker is a .bat or .cmd wrapper](https://github.com/golang/go/issues/80862) 💬 4 | [golang/go](https://github.com/golang/go) | 138.9k | 🟡 help wanted | 2026-09-10 |  |
+| [cmd/go: doc: inconsistent handling of build tags, cgo, goexperiment](https://github.com/golang/go/issues/76829) 💬 8 | [golang/go](https://github.com/golang/go) | 138.9k | 🟡 help wanted | 2026-09-10 |  |
+| [runtime: cgocheck fails to correctly identify pinned allocation in self-reference of a linker-allocated object](https://github.com/golang/go/issues/74116) 💬 6 | [golang/go](https://github.com/golang/go) | 138.9k | 🟡 help wanted | 2026-09-10 |  |
+| [cmd/link: -race doesn't work by default on FreeBSD with cgo](https://github.com/golang/go/issues/73788) 💬 6 | [golang/go](https://github.com/golang/go) | 138.9k | 🟡 help wanted | 2026-09-10 |  |
+| [runtime: panic not generating a correct backtrace stack while crashing in cgo on ARM64 platform](https://github.com/golang/go/issues/69438) 💬 3 | [golang/go](https://github.com/golang/go) | 138.9k | 🟡 help wanted | 2026-09-10 |  |
+| [runtime: TestCgoCallbackGC failures](https://github.com/golang/go/issues/68800) 💬 5 | [golang/go](https://github.com/golang/go) | 138.9k | 🟡 help wanted | 2026-09-10 |  |
+| [cmd/cgo: generated code uses aliases even in modules using Go older than 1.9](https://github.com/golang/go/issues/67738) 💬 1 | [golang/go](https://github.com/golang/go) | 138.9k | 🟡 help wanted | 2026-09-10 |  |
+| [cmd/cgo/internal/testcarchive: unrecognized failures](https://github.com/golang/go/issues/65995) 💬 2 | [golang/go](https://github.com/golang/go) | 138.9k | 🟡 help wanted | 2026-09-10 |  |
+| [cmd/cgo/internal/testcshared: Test(Unexported\|Exported)Symbols failures with SIGSEGV on android/arm64](https://github.com/golang/go/issues/64823) 💬 5 | [golang/go](https://github.com/golang/go) | 138.9k | 🟡 help wanted | 2026-09-10 |  |
 | [[feature request] HA Deployments in ipv6 only clusters](https://github.com/argoproj/argo-cd/issues/20084) 💬 2 | [argoproj/argo-cd](https://github.com/argoproj/argo-cd) | 24.2k | 🟡 help wanted | 2026-09-10 | 🔏 DCO |
 | [Bad parsing behaviour for generic arrow type arguments in class heritage / JSX open element](https://github.com/microsoft/TypeScript/issues/47410) 💬 1 | [microsoft/TypeScript](https://github.com/microsoft/TypeScript) | 111.1k | 🟡 help wanted | 2026-09-09 | 🤖 disclose AI use · ✍️ CLA |
 | [Document the Iterator, Iterable, IterableIterator types](https://github.com/microsoft/TypeScript/issues/49526) 💬 1 | [microsoft/TypeScript](https://github.com/microsoft/TypeScript) | 111.1k | 🟡 help wanted | 2026-09-09 | 🤖 disclose AI use · ✍️ CLA |
@@ -90,6 +89,8 @@
 | [Insecure default header matcher](https://github.com/grpc-ecosystem/grpc-gateway/issues/7281) 💬 5 | [grpc-ecosystem/grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) | 20k | 🟡 help wanted | 2026-09-01 |  |
 | [improve KIND performance on single node clusters \| leader-elect=false \| proxy-refresh-interval=70000](https://github.com/kubernetes-sigs/kind/issues/2513) 💬 5 | [kubernetes-sigs/kind](https://github.com/kubernetes-sigs/kind) | 15.5k | 🟡 help wanted | 2026-09-01 |  |
 | [building node images requires public internet access and doesn't error if pre-pulling images fails](https://github.com/kubernetes-sigs/kind/issues/2562) 💬 22 | [kubernetes-sigs/kind](https://github.com/kubernetes-sigs/kind) | 15.5k | 🟡 help wanted | 2026-09-01 |  |
+| [Unable to load docker containerd managed images to cluster](https://github.com/kubernetes-sigs/kind/issues/3795) 💬 66 | [kubernetes-sigs/kind](https://github.com/kubernetes-sigs/kind) | 15.5k | 🟡 help wanted | 2026-09-01 |  |
+| [Increase maxkeys and maxbytes in Known Issues](https://github.com/kubernetes-sigs/kind/issues/3806) 💬 7 | [kubernetes-sigs/kind](https://github.com/kubernetes-sigs/kind) | 15.5k | 🟡 help wanted | 2026-09-01 |  |
 | [Digicert ACME order is failing due to invalid validity_years](https://github.com/cert-manager/cert-manager/issues/7536) 💬 12 | [cert-manager/cert-manager](https://github.com/cert-manager/cert-manager) | 14.1k | 🟢 beginner | 2026-09-01 |  |
 | [Add CodeArtifact Package Origin Controls](https://github.com/hashicorp/terraform-provider-aws/issues/26623) 💬 8 | [hashicorp/terraform-provider-aws](https://github.com/hashicorp/terraform-provider-aws) | 11.1k | 🟢 beginner | 2026-09-01 | 🤖 disclose AI use |
 | [Clear signal requestID on workflow close](https://github.com/temporalio/temporal/issues/4029) 💬 1 | [temporalio/temporal](https://github.com/temporalio/temporal) | 23.1k | 🟡 help wanted | 2026-08-31 | ✍️ CLA |
@@ -118,15 +119,13 @@
 | [Feature Request: remotely (management) initiated debugging/control of clients](https://github.com/netbirdio/netbird/issues/3136) 💬 11 | [netbirdio/netbird](https://github.com/netbirdio/netbird) | 29.3k | 🟢 beginner | 2026-08-24 | ✍️ CLA |
 | [Pushing fails periodically with 'dial tcp: lookup github.com: no such host' error, disrupts network](https://github.com/git-lfs/git-lfs/issues/2887) 💬 21 | [git-lfs/git-lfs](https://github.com/git-lfs/git-lfs) | 14.5k | 🟡 help wanted | 2026-08-24 |  |
 | [运行期间无法上传文件报数据库锁死](https://github.com/cloudreve/cloudreve/issues/2917) 💬 10 | [cloudreve/cloudreve](https://github.com/cloudreve/cloudreve) | 28.7k | 🟡 help wanted | 2026-08-23 | ✍️ CLA |
-| [Discussion: should team knowledge compound across agent runs the way skills do?](https://github.com/multica-ai/multica/issues/1211) 💬 14 | [multica-ai/multica](https://github.com/multica-ai/multica) | 50k | 🟢 beginner | 2026-08-21 | 🤖 disclose AI use |
+| [Discussion: should team knowledge compound across agent runs the way skills do?](https://github.com/multica-ai/multica/issues/1211) 💬 14 | [multica-ai/multica](https://github.com/multica-ai/multica) | 50.1k | 🟢 beginner | 2026-08-21 | 🤖 disclose AI use |
 | [[fix]: Improve Keploy docs website mobile-friendly](https://github.com/keploy/keploy/issues/2998) 💬 6 | [keploy/keploy](https://github.com/keploy/keploy) | 18.5k | 🟢 beginner | 2026-08-21 | 🔏 DCO |
 | [Logparser/tail input on Windows stops sendings logs due to file being locked](https://github.com/influxdata/telegraf/issues/6539) 💬 9 | [influxdata/telegraf](https://github.com/influxdata/telegraf) | 17.8k | 🟡 help wanted | 2026-08-20 | ⚠️ AI restricted · ✍️ CLA |
-| [croc needs your help](https://github.com/schollz/croc/issues/1269) | [schollz/croc](https://github.com/schollz/croc) | 40.3k | 🟡 help wanted | 2026-08-19 |  |
 | [Feature request: Add UI for testing full alerting expressions over time](https://github.com/prometheus/prometheus/issues/1154) 💬 17 | [prometheus/prometheus](https://github.com/prometheus/prometheus) | 66.1k | 🟡 help wanted | 2026-08-18 | 🔏 DCO |
 | [HTTP/2 server push](https://github.com/grafana/k6/issues/881) 💬 1 | [grafana/k6](https://github.com/grafana/k6) | 31.5k | 🟢 beginner | 2026-08-18 | ✍️ CLA |
 | [Automatically inject the identityId while using azure-workload provider](https://github.com/kedacore/keda/issues/5911) 💬 10 | [kedacore/keda](https://github.com/kedacore/keda) | 10.5k | 🟡 help wanted | 2026-08-17 | 🔏 DCO |
 | [Helm session HTTP header](https://github.com/helm/helm/issues/13182) 💬 19 | [helm/helm](https://github.com/helm/helm) | 30.2k | 🟡 help wanted | 2026-08-15 | 🔏 DCO |
-| [nfs: Failed to resolve server nfs-server.default.svc.cluster.local: Name or service not known](https://github.com/kubernetes/minikube/issues/3417) 💬 34 | [kubernetes/minikube](https://github.com/kubernetes/minikube) | 32.1k | 🟡 help wanted | 2026-08-14 |  |
 | [Set default location for PV mounts](https://github.com/kubernetes/minikube/issues/3318) 💬 21 | [kubernetes/minikube](https://github.com/kubernetes/minikube) | 32.1k | 🟡 help wanted | 2026-08-14 |  |
 | [status: show guest VM health (cpu/ram/disk)](https://github.com/kubernetes/minikube/issues/3574) 💬 16 | [kubernetes/minikube](https://github.com/kubernetes/minikube) | 32.1k | 🟡 help wanted | 2026-08-13 |  |
 | [minikube should not start knfsd by default](https://github.com/kubernetes/minikube/issues/3143) 💬 8 | [kubernetes/minikube](https://github.com/kubernetes/minikube) | 32.1k | 🟡 help wanted | 2026-08-13 |  |
@@ -135,7 +134,6 @@
 | [Generate performance metric for minikube start/stop/delete speed on different drivers](https://github.com/kubernetes/minikube/issues/4622) 💬 6 | [kubernetes/minikube](https://github.com/kubernetes/minikube) | 32.1k | 🟡 help wanted | 2026-08-13 |  |
 | [Make the VM IP settable](https://github.com/kubernetes/minikube/issues/2938) 💬 9 | [kubernetes/minikube](https://github.com/kubernetes/minikube) | 32.1k | 🟡 help wanted | 2026-08-13 |  |
 | [Document minikube to minikube network communication (testing)](https://github.com/kubernetes/minikube/issues/2602) 💬 12 | [kubernetes/minikube](https://github.com/kubernetes/minikube) | 32.1k | 🟡 help wanted | 2026-08-13 |  |
-| [Host DNS search domain is not propagated to minikube DNS](https://github.com/kubernetes/minikube/issues/1676) 💬 10 | [kubernetes/minikube](https://github.com/kubernetes/minikube) | 32.1k | 🟡 help wanted | 2026-08-13 |  |
 | [Add cluster DNS to node resolv.conf (cannot pull image from cluster-internal host name)](https://github.com/kubernetes/minikube/issues/2162) 💬 23 | [kubernetes/minikube](https://github.com/kubernetes/minikube) | 32.1k | 🟡 help wanted | 2026-08-13 |  |
 | [Support For Windows Containers](https://github.com/kubernetes/minikube/issues/2015) 💬 67 | [kubernetes/minikube](https://github.com/kubernetes/minikube) | 32.1k | 🟡 help wanted | 2026-08-13 |  |
 | [Add context for why yay is asking to choose a provide](https://github.com/Jguer/yay/issues/2073) 💬 4 | [Jguer/yay](https://github.com/Jguer/yay) | 13.8k | 🟢 beginner | 2026-08-13 |  |
@@ -154,7 +152,6 @@
 | [contrib/registry/zookeeper: 服务多实例，会删除之前的注册信息](https://github.com/gogf/gf/issues/4149) 💬 1 | [gogf/gf](https://github.com/gogf/gf) | 13.3k | 🟡 help wanted | 2026-08-06 |  |
 | [Keda Cron Scaler can't be unsuspended](https://github.com/kedacore/keda/issues/4044) 💬 4 | [kedacore/keda](https://github.com/kedacore/keda) | 10.5k | 🟡 help wanted | 2026-08-06 | 🔏 DCO |
 | [Frontend: Clear stale .v-field--focused on v-autocomplete after focus moves](https://github.com/photoprism/photoprism/issues/5556) 💬 1 | [photoprism/photoprism](https://github.com/photoprism/photoprism) | 40.2k | 🟡 help wanted | 2026-08-05 | ⚠️ AI restricted · ✍️ CLA |
-| [Minikube tunnel is not working on Windows (endessly trying to add a route)](https://github.com/kubernetes/minikube/issues/11645) 💬 15 | [kubernetes/minikube](https://github.com/kubernetes/minikube) | 32.1k | 🟢 beginner | 2026-08-05 |  |
 | [Let's encrypt certificate caching to mitigate rate limits problems](https://github.com/cert-manager/cert-manager/issues/3298) 💬 51 | [cert-manager/cert-manager](https://github.com/cert-manager/cert-manager) | 14.1k | 🟡 help wanted | 2026-08-05 |  |
 | [Add a comment once e2e finishes](https://github.com/kedacore/keda/issues/5308) 💬 15 | [kedacore/keda](https://github.com/kedacore/keda) | 10.5k | 🟡 help wanted | 2026-08-05 | 🔏 DCO |
 | [Automatic Backup Rotation for Schedules](https://github.com/velero-io/velero/issues/3520) 💬 6 | [velero-io/velero](https://github.com/velero-io/velero) | 10.3k | 🟢 beginner | 2026-08-05 | 🔏 DCO |
@@ -162,11 +159,10 @@
 | [[inputs.disk] Add support to report mount status (mounted vs unmounted)](https://github.com/influxdata/telegraf/issues/16871) 💬 5 | [influxdata/telegraf](https://github.com/influxdata/telegraf) | 17.8k | 🟡 help wanted | 2026-08-04 | ⚠️ AI restricted · ✍️ CLA |
 | [[Support]: Broken login page](https://github.com/oauth2-proxy/oauth2-proxy/issues/3490) 💬 8 | [oauth2-proxy/oauth2-proxy](https://github.com/oauth2-proxy/oauth2-proxy) | 15k | 🟡 help wanted | 2026-08-04 | 🤖 disclose AI use · 🔏 DCO |
 | [Can active alerts display the value at the time of triggering?](https://github.com/ccfos/nightingale/issues/2873) 💬 1 | [ccfos/nightingale](https://github.com/ccfos/nightingale) | 13.3k | 🟡 help wanted | 2026-08-04 |  |
-| [Discussion: Should Multica be the unified SDLC standard, or an automation layer with fit criteria?](https://github.com/multica-ai/multica/issues/6227) 💬 4 | [multica-ai/multica](https://github.com/multica-ai/multica) | 50k | 🟢 beginner | 2026-08-03 | 🤖 disclose AI use |
+| [Discussion: Should Multica be the unified SDLC standard, or an automation layer with fit criteria?](https://github.com/multica-ai/multica/issues/6227) 💬 4 | [multica-ai/multica](https://github.com/multica-ai/multica) | 50.1k | 🟢 beginner | 2026-08-03 | 🤖 disclose AI use |
 | [[Chore]: Update security contacts](https://github.com/oauth2-proxy/oauth2-proxy/issues/3479) 💬 3 | [oauth2-proxy/oauth2-proxy](https://github.com/oauth2-proxy/oauth2-proxy) | 15k | 🟡 help wanted | 2026-08-02 | 🤖 disclose AI use · 🔏 DCO |
 | [It is recommended that the GRPC server add a timeout limit.](https://github.com/gogf/gf/issues/3189) 💬 5 | [gogf/gf](https://github.com/gogf/gf) | 13.3k | 🟡 help wanted | 2026-08-01 |  |
 | [Post image in chatroom](https://github.com/m1k1o/neko/issues/422) 💬 4 | [m1k1o/neko](https://github.com/m1k1o/neko) | 22.3k | 🟢 beginner | 2026-07-31 |  |
-| [UI fails to start with error: Failed to load version/info Error: Internal Server Error](https://github.com/argoproj/argo-workflows/issues/14455) 💬 3 | [argoproj/argo-workflows](https://github.com/argoproj/argo-workflows) | 17k | 🟢 beginner | 2026-07-31 | 📄 AI policy · 🔏 DCO |
 | [Add domain created_time value to DescribeDomainResponse](https://github.com/cadence-workflow/cadence/issues/7195) 💬 8 | [cadence-workflow/cadence](https://github.com/cadence-workflow/cadence) | 9.4k | 🟢 beginner | 2026-07-31 |  |
 | [Allow adding custom visibility attributes on reset](https://github.com/cadence-workflow/cadence/issues/2038) 💬 6 | [cadence-workflow/cadence](https://github.com/cadence-workflow/cadence) | 9.4k | 🟡 help wanted | 2026-07-31 |  |
 | [DB based configstore causes issues with advanced visibility](https://github.com/cadence-workflow/cadence/issues/7558) 💬 4 | [cadence-workflow/cadence](https://github.com/cadence-workflow/cadence) | 9.4k | 🟡 help wanted | 2026-07-31 |  |
@@ -210,5 +206,9 @@
 | [Animated connections don't honor prefers-reduced-motion](https://github.com/d2lang/d2/issues/1979) 💬 1 | [d2lang/d2](https://github.com/d2lang/d2) | 25.4k | 🟢 beginner | 2026-07-14 |  |
 | [[inputs.whois] Support RDAP lookup](https://github.com/influxdata/telegraf/issues/17243) 💬 3 | [influxdata/telegraf](https://github.com/influxdata/telegraf) | 17.8k | 🟡 help wanted | 2026-07-13 | ⚠️ AI restricted · ✍️ CLA |
 | [Add instructions for installing on SteamOS / Steam Deck](https://github.com/Jguer/yay/issues/2098) 💬 26 | [Jguer/yay](https://github.com/Jguer/yay) | 13.8k | 🟡 help wanted | 2026-07-13 |  |
+| [implement a wasmplugin to support Content Security Policy](https://github.com/higress-group/higress/issues/1706) 💬 1 | [higress-group/higress](https://github.com/higress-group/higress) | 9.4k | 🟢 beginner | 2026-07-12 | 🤖 disclose AI use |
+| [Gnome/XWayland : Crash on standby/resume](https://github.com/fyne-io/fyne/issues/1603) 💬 10 | [fyne-io/fyne](https://github.com/fyne-io/fyne) | 28.7k | 🟡 help wanted | 2026-07-11 |  |
+| [fyne_demo slow on PowerShell with administrative privileges](https://github.com/fyne-io/fyne/issues/1135) | [fyne-io/fyne](https://github.com/fyne-io/fyne) | 28.7k | 🟡 help wanted | 2026-07-11 |  |
+| [Feature: telnet, ftp provisioner](https://github.com/hashicorp/packer/issues/7971) 💬 2 | [hashicorp/packer](https://github.com/hashicorp/packer) | 15.8k | 🟡 help wanted | 2026-07-11 | ✍️ CLA |
 
-Showing the 200 most recently updated. See all 359 on the website.
+Showing the 200 most recently updated. See all 351 on the website.

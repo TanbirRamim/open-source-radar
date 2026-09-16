@@ -1,8 +1,8 @@
 # Mobile and desktop apps issues
 
-**601** open issues (236 labeled for beginners) across **212** projects tagged with topics like `android`, `ios`, `mobile`, `flutter`, `react-native`, `desktop`.
+**601** open issues (234 labeled for beginners) across **214** projects tagged with topics like `android`, `ios`, `mobile`, `flutter`, `react-native`, `desktop`.
 
-> Updated automatically on **2026-09-16 10:39 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-16 20:58 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,13 +10,25 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [Memory title shows a date one day behind of the dates of the assets](https://github.com/immich-app/immich/issues/31483) 💬 4 | [immich-app/immich](https://github.com/immich-app/immich) | 114.4k | 🟢 beginner | 2026-09-16 |  |
+| [Tile mode for background image stretch](https://github.com/microsoft/terminal/issues/3193) 💬 3 | [microsoft/terminal](https://github.com/microsoft/terminal) | 104.9k | 🟡 help wanted | 2026-09-16 | 🤖 disclose AI use |
+| [window.resize_increments miscalculates the window size for some values of window.padding](https://github.com/alacritty/alacritty/issues/9047) 💬 6 | [alacritty/alacritty](https://github.com/alacritty/alacritty) | 65.7k | 🟢 beginner | 2026-09-16 |  |
+| [BIM: Arch_Space label cannot be rotated](https://github.com/FreeCAD/FreeCAD/issues/18952) 💬 3 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.6k | 🟢 beginner | 2026-09-16 | ⚠️ AI restricted |
+| [Arch: Door/Window marks](https://github.com/FreeCAD/FreeCAD/issues/5741) | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.6k | 🟢 beginner | 2026-09-16 | ⚠️ AI restricted |
+| [Arch: Room finish marks](https://github.com/FreeCAD/FreeCAD/issues/5740) | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.6k | 🟢 beginner | 2026-09-16 | ⚠️ AI restricted |
+| [BIM: Auto section/elev marks from section plane](https://github.com/FreeCAD/FreeCAD/issues/5739) 💬 5 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.6k | 🟢 beginner | 2026-09-16 | ⚠️ AI restricted |
+| [BIM: Implement GBXML export](https://github.com/FreeCAD/FreeCAD/issues/5654) 💬 1 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.6k | 🟢 beginner | 2026-09-16 | ⚠️ AI restricted |
+| [BIM: Support material properties in IFC](https://github.com/FreeCAD/FreeCAD/issues/5657) 💬 3 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.6k | 🟡 help wanted | 2026-09-16 | ⚠️ AI restricted |
+| [OCC: GeomAPI_ExtremaCurveCurve fails to detect intersection](https://github.com/FreeCAD/FreeCAD/issues/5824) 💬 4 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.6k | 🟡 help wanted | 2026-09-16 | ⚠️ AI restricted |
 | [Stylesheet: UI/UX Cropped Title on popup while checking geometry with threads (Linux)](https://github.com/FreeCAD/FreeCAD/issues/17542) 💬 14 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.6k | 🟢 beginner | 2026-09-16 | ⚠️ AI restricted |
-| [UI bug](https://github.com/organicmaps/organicmaps/issues/12211) 💬 4 | [organicmaps/organicmaps](https://github.com/organicmaps/organicmaps) | 15.4k | 🟢 beginner | 2026-09-16 | 🔏 DCO |
-| [Endless zoom](https://github.com/immich-app/immich/issues/31496) 💬 1 | [immich-app/immich](https://github.com/immich-app/immich) | 114.4k | 🟢 beginner | 2026-09-15 |  |
+| [💡 [Android] Feature Request: Customizable Bottom Navigation Bar Layout](https://github.com/super-productivity/super-productivity/issues/7637) 💬 8 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.1k | 🟡 help wanted | 2026-09-16 |  |
+| [Remove reflection to Uno.Toolkit](https://github.com/unoplatform/uno/issues/782) 💬 2 | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-09-16 |  |
+| [kew roadmap: "Project Joy"](https://github.com/ravachol/kew/issues/575) 💬 36 | [ravachol/kew](https://github.com/ravachol/kew) | 3.1k | 🟡 help wanted | 2026-09-16 |  |
+| [bug: かな入力でテンキーの入力がひらがなに化けてしまう](https://github.com/azooKey/azooKey-Desktop/issues/262) 💬 15 | [azooKey/azooKey-Desktop](https://github.com/azooKey/azooKey-Desktop) | 1k | 🟢 beginner | 2026-09-16 |  |
+| [Add more languages](https://github.com/ferraridamiano/ConverterNOW/issues/2) 💬 10 | [ferraridamiano/ConverterNOW](https://github.com/ferraridamiano/ConverterNOW) | 620 | 🟡 help wanted | 2026-09-16 |  |
 | [macOS: Improper name formatting in About menu: 'freecad' -&gt; 'FreeCAD'](https://github.com/FreeCAD/FreeCAD/issues/21118) 💬 26 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.6k | 🟢 beginner | 2026-09-15 | ⚠️ AI restricted |
 | [AppManager initialisation](https://github.com/MuntashirAkon/AppManager/issues/1829) 💬 4 | [MuntashirAkon/AppManager](https://github.com/MuntashirAkon/AppManager) | 9k | 🟡 help wanted | 2026-09-15 | 🔏 DCO |
 | [WinUI library projects throws Markup.XamlParseException: The text associated with this error code could not be](https://github.com/microsoft/microsoft-ui-xaml/issues/9522) 💬 2 | [microsoft/microsoft-ui-xaml](https://github.com/microsoft/microsoft-ui-xaml) | 8.4k | 🟡 help wanted | 2026-09-15 | ✍️ CLA |
-| [kew roadmap: "Project Joy"](https://github.com/ravachol/kew/issues/575) 💬 30 | [ravachol/kew](https://github.com/ravachol/kew) | 3.1k | 🟡 help wanted | 2026-09-15 |  |
 | [Crazy house pieces disappear](https://github.com/lichess-org/mobile/issues/3599) 💬 3 | [lichess-org/mobile](https://github.com/lichess-org/mobile) | 2.5k | 🟢 beginner | 2026-09-15 | 🤖 disclose AI use |
 | [[Bug]: App can't be closed on macOS when google account session expired](https://github.com/sozercan/kaset/issues/493) 💬 2 | [sozercan/kaset](https://github.com/sozercan/kaset) | 2.3k | 🟢 beginner | 2026-09-15 | 🤖 disclose AI use |
 | [chore: Rename "sample apps" to "test apps"](https://github.com/getsentry/sentry-cocoa/issues/8431) 💬 2 | [getsentry/sentry-cocoa](https://github.com/getsentry/sentry-cocoa) | 1.1k | 🟢 beginner | 2026-09-15 |  |
@@ -25,7 +37,6 @@
 | ['match init' assumes a default branch of 'master' when using git storage, which is no longer the Github defaul](https://github.com/fastlane/fastlane/issues/21879) 💬 3 | [fastlane/fastlane](https://github.com/fastlane/fastlane) | 42.1k | 🟡 help wanted | 2026-09-14 |  |
 | [Sketcher: Double-click selection includes wrong object types and impacts performance](https://github.com/FreeCAD/FreeCAD/issues/32248) 💬 3 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.6k | 🟢 beginner | 2026-09-14 | ⚠️ AI restricted |
 | [STEP: Combining STEP files messes tree structure in resulting file](https://github.com/FreeCAD/FreeCAD/issues/11441) 💬 6 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.6k | 🟡 help wanted | 2026-09-14 | ⚠️ AI restricted |
-| [Part: Datum and origin planes shouldn't be hidden after using them with boolean operations](https://github.com/FreeCAD/FreeCAD/issues/32651) 💬 2 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.6k | 🟢 beginner | 2026-09-14 | ⚠️ AI restricted |
 | [[Feature] Scaling at 125%](https://github.com/winboat-org/winboat/issues/341) 💬 4 | [winboat-org/winboat](https://github.com/winboat-org/winboat) | 22.9k | 🟢 beginner | 2026-09-14 |  |
 | [💡 in-app updating, auto-updating](https://github.com/super-productivity/super-productivity/issues/8007) 💬 7 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.1k | 🟡 help wanted | 2026-09-14 |  |
 | [💡 Sync Jira Start Date to Planned Date and Due Date to Deadline](https://github.com/super-productivity/super-productivity/issues/10070) 💬 3 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.1k | 🟡 help wanted | 2026-09-14 |  |
@@ -42,7 +53,6 @@
 | [OCC: Sweep using bezier curve bug](https://github.com/FreeCAD/FreeCAD/issues/5651) 💬 5 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.6k | 🟡 help wanted | 2026-09-13 | ⚠️ AI restricted |
 | [App keeps requesting password / decryption failed](https://github.com/super-productivity/super-productivity/issues/4514) 💬 15 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.1k | 🟡 help wanted | 2026-09-13 |  |
 | [💡 Give users the option to treat "Inbox" as a location where all tasks can be seen](https://github.com/super-productivity/super-productivity/issues/6717) 💬 12 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.1k | 🟡 help wanted | 2026-09-13 |  |
-| [💡 [Android] Feature Request: Customizable Bottom Navigation Bar Layout](https://github.com/super-productivity/super-productivity/issues/7637) 💬 7 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.1k | 🟡 help wanted | 2026-09-13 |  |
 | [💡 Make "Overdue" optional](https://github.com/super-productivity/super-productivity/issues/4405) 💬 11 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.1k | 🟡 help wanted | 2026-09-13 |  |
 | [💡Reminder alarm](https://github.com/super-productivity/super-productivity/issues/4381) 💬 13 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.1k | 🟡 help wanted | 2026-09-13 |  |
 | [«Today» is not recognized as a Tag anymore in Boards](https://github.com/super-productivity/super-productivity/issues/4368) 💬 5 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.1k | 🟡 help wanted | 2026-09-13 |  |
@@ -70,7 +80,6 @@
 | [The Hebrew translation is a complete mess.](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/issues/1219) 💬 3 | [AutoDarkMode/Windows-Auto-Night-Mode](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode) | 9.7k | 🟡 help wanted | 2026-09-12 |  |
 | [Errors regarding the native mode's "Save" option](https://github.com/andreknieriem/open-headunit/issues/953) 💬 11 | [andreknieriem/open-headunit](https://github.com/andreknieriem/open-headunit) | 2.4k | 🟡 help wanted | 2026-09-12 |  |
 | [Null check operator used on a null value](https://github.com/amake/orgro/issues/215) 💬 10 | [amake/orgro](https://github.com/amake/orgro) | 731 | 🟡 help wanted | 2026-09-12 |  |
-| [Audio no sound （Add asio support)](https://github.com/rustdesk/rustdesk/issues/3762) 💬 53 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | 123.8k | 🟡 help wanted | 2026-09-11 | 🔏 DCO |
 | [PartDesign: Thickness Parameters 'Mode', 'Join Type', 'Intersection' could have tooltips](https://github.com/FreeCAD/FreeCAD/issues/23801) 💬 5 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.6k | 🟢 beginner | 2026-09-11 | ⚠️ AI restricted |
 | [Help wanted issues (but NOT 'good first issue')](https://github.com/lima-vm/lima/issues/5286) 💬 2 | [lima-vm/lima](https://github.com/lima-vm/lima) | 21.9k | 🟡 help wanted | 2026-09-11 | 📄 AI policy · 🔏 DCO |
 | [[Account setup] Display "warning" message when using POP3](https://github.com/thunderbird/thunderbird-android/issues/7551) 💬 5 | [thunderbird/thunderbird-android](https://github.com/thunderbird/thunderbird-android) | 14k | 🟢 beginner | 2026-09-11 | 🤖 disclose AI use |
@@ -91,7 +100,6 @@
 | [[Dark Mode] Control pops up dialogs and MessageBox window are not in Dark mode when DarkMode enabled](https://github.com/dotnet/winforms/issues/11896) 💬 5 | [dotnet/winforms](https://github.com/dotnet/winforms) | 4.9k | 🟡 help wanted | 2026-09-11 |  |
 | [[Feature Request] dns protection](https://github.com/0xCUB3/wBlock/issues/716) 💬 2 | [0xCUB3/wBlock](https://github.com/0xCUB3/wBlock) | 2.9k | 🟡 help wanted | 2026-09-11 |  |
 | [[Feature]: InCallService - Add a option to whitelist allowed third-party apps package name](https://github.com/kitsumed/ShizuCallRecorder/issues/46) 💬 3 | [kitsumed/ShizuCallRecorder](https://github.com/kitsumed/ShizuCallRecorder) | 1.5k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use |
-| [Give movement priority to host rather than client + multiple connections mouse move priority issue](https://github.com/rustdesk/rustdesk/issues/40) 💬 21 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | 123.8k | 🟡 help wanted | 2026-09-10 | 🔏 DCO |
 | [Sketcher: Scale default shortcut (Z, P, S) conflicts with Rotate / Polar Transform (Z, P)](https://github.com/FreeCAD/FreeCAD/issues/32557) 💬 5 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.6k | 🟢 beginner | 2026-09-10 | ⚠️ AI restricted |
 | [分享一下我解决进不去里站的方法](https://github.com/xiaojieonly/Ehviewer_CN_SXJ/issues/96) 💬 55 | [xiaojieonly/Ehviewer_CN_SXJ](https://github.com/xiaojieonly/Ehviewer_CN_SXJ) | 26.9k | 🟡 help wanted | 2026-09-10 |  |
 | [Adopt React 19 APIs/features where it makes sense](https://github.com/eclipse-theia/theia/issues/17957) 💬 1 | [eclipse-theia/theia](https://github.com/eclipse-theia/theia) | 21.7k | 🟡 help wanted | 2026-09-10 | 🔏 DCO |
@@ -107,8 +115,6 @@
 | [Change Audio Output with Hotkey](https://github.com/microsoft/PowerToys/issues/4964) 💬 73 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 138.7k | 🟡 help wanted | 2026-09-08 |  |
 | [x:Bind not Binding](https://github.com/microsoft/terminal/issues/11767) 💬 13 | [microsoft/terminal](https://github.com/microsoft/terminal) | 104.9k | 🟢 beginner | 2026-09-08 | 🤖 disclose AI use |
 | [Implement (Contour's) Color Palette Update Notification and report](https://github.com/microsoft/terminal/issues/18375) 💬 4 | [microsoft/terminal](https://github.com/microsoft/terminal) | 104.9k | 🟡 help wanted | 2026-09-08 | 🤖 disclose AI use |
-| [TechDraw: Gap in geometry prevents face detection](https://github.com/FreeCAD/FreeCAD/issues/31613) 💬 4 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.6k | 🟡 help wanted | 2026-09-08 | ⚠️ AI restricted |
-| [TechDraw: Crash when adding dimension](https://github.com/FreeCAD/FreeCAD/issues/30006) 💬 9 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.6k | 🟡 help wanted | 2026-09-08 | ⚠️ AI restricted |
 | [Cleanup edge to edge deprecations](https://github.com/ankidroid/Anki-Android/issues/21780) 💬 3 | [ankidroid/Anki-Android](https://github.com/ankidroid/Anki-Android) | 11.8k | 🟢 beginner | 2026-09-08 | 🤖 disclose AI use |
 | [Feature request: 'one-shot-toggle' variant](https://github.com/jtroo/kanata/issues/2153) 💬 2 | [jtroo/kanata](https://github.com/jtroo/kanata) | 7.9k | 🟡 help wanted | 2026-09-08 |  |
 | [Feature request: add a 'msg' subcommand to kanata binary to act as its own TCP client](https://github.com/jtroo/kanata/issues/2167) 💬 1 | [jtroo/kanata](https://github.com/jtroo/kanata) | 7.9k | 🟡 help wanted | 2026-09-08 |  |
@@ -120,7 +126,6 @@
 | [Bug: Files stops responding while loading network share content](https://github.com/files-community/Files/issues/14777) 💬 10 | [files-community/Files](https://github.com/files-community/Files) | 45.5k | 🟢 beginner | 2026-09-07 |  |
 | [Add "search instead for" feature to search page](https://github.com/TeamNewPipe/NewPipe/issues/6032) 💬 3 | [TeamNewPipe/NewPipe](https://github.com/TeamNewPipe/NewPipe) | 39.7k | 🟢 beginner | 2026-09-07 | 📄 AI policy |
 | [Showing total number of subscriptions.](https://github.com/TeamNewPipe/NewPipe/issues/6292) 💬 1 | [TeamNewPipe/NewPipe](https://github.com/TeamNewPipe/NewPipe) | 39.7k | 🟢 beginner | 2026-09-07 | 📄 AI policy |
-| [Wayland: Copy and paste issue](https://github.com/FreeCAD/FreeCAD/issues/15198) 💬 30 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.6k | 🟡 help wanted | 2026-09-07 | ⚠️ AI restricted |
 | [[Mobile] Force always on Screen when Debugging](https://github.com/unoplatform/uno/issues/18907) 💬 5 | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-09-07 |  |
 | [[feat] 跨设备剪切板同步](https://github.com/EcoPasteHub/EcoPaste/issues/62) 💬 26 | [EcoPasteHub/EcoPaste](https://github.com/EcoPasteHub/EcoPaste) | 7.4k | 🟢 beginner | 2026-09-07 |  |
 | [Add support for roaming settings.json or storing it elsewhere](https://github.com/microsoft/terminal/issues/2933) 💬 53 | [microsoft/terminal](https://github.com/microsoft/terminal) | 104.9k | 🟡 help wanted | 2026-09-06 | 🤖 disclose AI use |
@@ -129,12 +134,11 @@
 | [功能建议](https://github.com/filecxx/FileCentipede/issues/889) 💬 1 | [filecxx/FileCentipede](https://github.com/filecxx/FileCentipede) | 10.9k | 🟢 beginner | 2026-09-06 |  |
 | [Validate 'XamlBindingHelper' helper behavior for known string conversions](https://github.com/unoplatform/uno/issues/17410) 💬 2 | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-09-06 |  |
 | [Improvements to version number](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/issues/1235) 💬 3 | [AutoDarkMode/Windows-Auto-Night-Mode](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode) | 9.7k | 🟢 beginner | 2026-09-06 |  |
-| [Command Line controls](https://github.com/tranxuanthang/lrcget/issues/61) 💬 6 | [tranxuanthang/lrcget](https://github.com/tranxuanthang/lrcget) | 3.1k | 🟡 help wanted | 2026-09-06 |  |
+| [Command Line controls](https://github.com/tranxuanthang/lrcget/issues/61) 💬 6 | [tranxuanthang/lrcget](https://github.com/tranxuanthang/lrcget) | 3.2k | 🟡 help wanted | 2026-09-06 |  |
 | [v4.0 post-release polish: event-count arithmetic + test cleanup trap](https://github.com/sangrokjung/claude-forge/issues/81) 💬 1 | [sangrokjung/claude-forge](https://github.com/sangrokjung/claude-forge) | 837 | 🟢 beginner | 2026-09-06 |  |
 | [jellyfin源无法，播放strm流文件](https://github.com/open-ani/animeko/issues/2995) 💬 3 | [open-ani/animeko](https://github.com/open-ani/animeko) | 20.1k | 🟡 help wanted | 2026-09-05 |  |
 | [应用崩溃 IllegalStateException](https://github.com/open-ani/animeko/issues/2328) 💬 2 | [open-ani/animeko](https://github.com/open-ani/animeko) | 20.1k | 🟡 help wanted | 2026-09-05 |  |
 | [增加设置允许后台播放](https://github.com/open-ani/animeko/issues/59) 💬 5 | [open-ani/animeko](https://github.com/open-ani/animeko) | 20.1k | 🟡 help wanted | 2026-09-05 |  |
-| [Core: Transform context menu option of datums does not work](https://github.com/FreeCAD/FreeCAD/issues/32385) 💬 2 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.6k | 🟢 beginner | 2026-09-04 | ⚠️ AI restricted |
 | [Ability to import from mtputty](https://github.com/mRemoteNG/mRemoteNG/issues/624) 💬 7 | [mRemoteNG/mRemoteNG](https://github.com/mRemoteNG/mRemoteNG) | 11.1k | 🟡 help wanted | 2026-09-04 |  |
 | [[ Future request]跨平台，跨设备配置资产备份同步-开发进度](https://github.com/AAswordman/Operit/issues/321) 💬 1 | [AAswordman/Operit](https://github.com/AAswordman/Operit) | 7.9k | 🟢 beginner | 2026-09-04 |  |
 | [[建议] 增加「设备状态定时上报到自定义 Webhook」能力](https://github.com/AAswordman/Operit/issues/617) 💬 6 | [AAswordman/Operit](https://github.com/AAswordman/Operit) | 7.9k | 🟢 beginner | 2026-09-04 |  |
@@ -145,7 +149,7 @@
 | [[Flatpak] Auth: Failed to launch: libsecret_error: Failed to unlock the keyring](https://github.com/ente/ente/issues/6564) 💬 6 | [ente/ente](https://github.com/ente/ente) | 28.9k | 🟡 help wanted | 2026-09-03 |  |
 | [Task: update the "Postpone" part](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/issues/980) 💬 3 | [AutoDarkMode/Windows-Auto-Night-Mode](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode) | 9.7k | 🟡 help wanted | 2026-09-03 |  |
 | [[Feature Request] Handle work profile (as for instance created by shelter)](https://github.com/samolego/Canta/issues/153) 💬 3 | [samolego/Canta](https://github.com/samolego/Canta) | 5.9k | 🟡 help wanted | 2026-09-03 |  |
-| [Leaks user passwords via parameter expansion of variables in command arguments and command substitution](https://github.com/Macjutsu/super/issues/301) 💬 4 | [Macjutsu/super](https://github.com/Macjutsu/super) | 894 | 🟡 help wanted | 2026-09-03 |  |
+| [Leaks user passwords via parameter expansion of variables in command arguments and command substitution](https://github.com/Macjutsu/super/issues/301) 💬 4 | [Macjutsu/super](https://github.com/Macjutsu/super) | 895 | 🟡 help wanted | 2026-09-03 |  |
 | [Type 'globalTypes' to assist writing 'preview.js'](https://github.com/storybookjs/storybook/issues/12658) 💬 11 | [storybookjs/storybook](https://github.com/storybookjs/storybook) | 91.1k | 🟡 help wanted | 2026-09-02 | 🤖 disclose AI use |
 | [Add toolbar to --docs mode](https://github.com/storybookjs/storybook/issues/13025) 💬 7 | [storybookjs/storybook](https://github.com/storybookjs/storybook) | 91.1k | 🟡 help wanted | 2026-09-02 | 🤖 disclose AI use |
 | [Refs to other localhosts do not work](https://github.com/storybookjs/storybook/issues/18405) 💬 13 | [storybookjs/storybook](https://github.com/storybookjs/storybook) | 91.1k | 🟡 help wanted | 2026-09-02 | 🤖 disclose AI use |
@@ -194,7 +198,6 @@
 | [I need your help](https://github.com/HawaiiBeach/TinyNvidiaUpdateChecker/issues/210) 💬 4 | [HawaiiBeach/TinyNvidiaUpdateChecker](https://github.com/HawaiiBeach/TinyNvidiaUpdateChecker) | 1.8k | 🟡 help wanted | 2026-08-29 |  |
 | [[Bug] When drag and dropping contact to Bcc, the field isn't highlighted](https://github.com/linagora/tmail-flutter/issues/3074) 💬 1 | [linagora/tmail-flutter](https://github.com/linagora/tmail-flutter) | 654 | 🟢 beginner | 2026-08-29 |  |
 | [Feature request: Add a Disable option in the Menu](https://github.com/pablopunk/SwiftShift/issues/158) | [pablopunk/SwiftShift](https://github.com/pablopunk/SwiftShift) | 642 | 🟢 beginner | 2026-08-29 |  |
-| [Create a Homebrew cask for Agent!](https://github.com/AgentiLoop/Agent/issues/29) | [AgentiLoop/Agent](https://github.com/AgentiLoop/Agent) | 605 | 🟢 beginner | 2026-08-29 |  |
 | [Add a demo GIF to the top of the README](https://github.com/AgentiLoop/Agent/issues/27) | [AgentiLoop/Agent](https://github.com/AgentiLoop/Agent) | 605 | 🟢 beginner | 2026-08-29 |  |
 | [Allow users to hide/remove unwanted apps from Command Palette search results](https://github.com/microsoft/PowerToys/issues/41497) 💬 12 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 138.7k | 🟡 help wanted | 2026-08-28 |  |
 | [Use a Clip rect for Pane animations instead of the Width/Height](https://github.com/microsoft/terminal/issues/7436) 💬 1 | [microsoft/terminal](https://github.com/microsoft/terminal) | 104.9k | 🟡 help wanted | 2026-08-28 | 🤖 disclose AI use |
@@ -207,8 +210,5 @@
 | ["Error loading feed" message reappears when rotating the screen even after selecting Cancel](https://github.com/TeamNewPipe/NewPipe/issues/8474) 💬 3 | [TeamNewPipe/NewPipe](https://github.com/TeamNewPipe/NewPipe) | 39.7k | 🟡 help wanted | 2026-08-27 | 📄 AI policy |
 | [TalkBack conflicts with TTS](https://github.com/ankidroid/Anki-Android/issues/6369) 💬 4 | [ankidroid/Anki-Android](https://github.com/ankidroid/Anki-Android) | 11.8k | 🟡 help wanted | 2026-08-27 | 🤖 disclose AI use |
 | [compileOnly: allow users to define a list of compileOnly(Api) dependencies](https://github.com/autonomousapps/dependency-analysis-gradle-plugin/issues/1387) 💬 3 | [autonomousapps/dependency-analysis-gradle-plugin](https://github.com/autonomousapps/dependency-analysis-gradle-plugin) | 2.2k | 🟡 help wanted | 2026-08-27 |  |
-| [[Feature Request]:](https://github.com/yuliskov/SmartTube/issues/4603) 💬 7 | [yuliskov/SmartTube](https://github.com/yuliskov/SmartTube) | 33.7k | 🟡 help wanted | 2026-08-26 |  |
-| [Show Answer button jumps view back to top](https://github.com/ankidroid/Anki-Android/issues/5182) 💬 27 | [ankidroid/Anki-Android](https://github.com/ankidroid/Anki-Android) | 11.8k | 🟡 help wanted | 2026-08-26 | 🤖 disclose AI use |
-| [Pointer speed has no effect on trackpad on M2 and later Macs](https://github.com/linearmouse/linearmouse/issues/270) 💬 14 | [linearmouse/linearmouse](https://github.com/linearmouse/linearmouse) | 6.8k | 🟡 help wanted | 2026-08-26 |  |
 
 Showing the 200 most recently updated. See all 601 on the website.

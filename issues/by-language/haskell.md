@@ -2,7 +2,7 @@
 
 **19** open issues (9 labeled for beginners) across **7** active Haskell projects.
 
-> Updated automatically on **2026-09-16 10:39 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-16 20:58 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,8 +10,8 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [Output to STDOUT blocks reporting to STDERR](https://github.com/gren-lang/compiler/issues/388) 💬 1 | [gren-lang/compiler](https://github.com/gren-lang/compiler) | 503 | 🟢 beginner | 2026-09-16 |  |
 | [Bugs/Issue8182 golden requires -fdebug, but the Bugs suite is not covered by fdebugTestFilter](https://github.com/agda/agda/issues/8748) 💬 1 | [agda/agda](https://github.com/agda/agda) | 2.9k | 🟡 help wanted | 2026-09-11 |  |
-| [Output to STDOUT blocks reporting to STDERR](https://github.com/gren-lang/compiler/issues/388) | [gren-lang/compiler](https://github.com/gren-lang/compiler) | 503 | 🟢 beginner | 2026-09-08 |  |
 | [Use github actions' cron to build additional libraries?](https://github.com/agda/agda/issues/4328) 💬 5 | [agda/agda](https://github.com/agda/agda) | 2.9k | 🟡 help wanted | 2026-09-02 |  |
 | ['//' truncates its result to 32 bits when inlined, but not when passed as a function](https://github.com/gren-lang/compiler/issues/383) 💬 1 | [gren-lang/compiler](https://github.com/gren-lang/compiler) | 503 | 🟢 beginner | 2026-09-02 |  |
 | [Installing development version with cabal](https://github.com/agda/agda/issues/6031) 💬 8 | [agda/agda](https://github.com/agda/agda) | 2.9k | 🟡 help wanted | 2026-09-01 |  |

@@ -1,8 +1,8 @@
 # Security and privacy issues
 
-**235** open issues (116 labeled for beginners) across **58** projects tagged with topics like `security`, `privacy`, `cryptography`, `encryption`, `authentication`, `oauth`.
+**232** open issues (113 labeled for beginners) across **58** projects tagged with topics like `security`, `privacy`, `cryptography`, `encryption`, `authentication`, `oauth`.
 
-> Updated automatically on **2026-09-16 10:39 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-16 20:58 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,10 +10,11 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [Frequent test hangs in 4.1 (master) on Nonstop tests](https://github.com/openssl/openssl/issues/32618) 💬 9 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-16 | 🤖 disclose AI use · ✍️ CLA |
 | [Ticket age wraparound breaks TLS 1.3 and DTLS 1.3 early data freshness checks](https://github.com/openssl/openssl/issues/32834) 💬 1 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-16 | 🤖 disclose AI use · ✍️ CLA |
-| [UI bug](https://github.com/organicmaps/organicmaps/issues/12211) 💬 4 | [organicmaps/organicmaps](https://github.com/organicmaps/organicmaps) | 15.4k | 🟢 beginner | 2026-09-16 | 🔏 DCO |
+| [💡 [Android] Feature Request: Customizable Bottom Navigation Bar Layout](https://github.com/super-productivity/super-productivity/issues/7637) 💬 8 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.1k | 🟡 help wanted | 2026-09-16 |  |
+| [Update speed tests to measure GPU performance for cuPQC code](https://github.com/open-quantum-safe/liboqs/issues/2160) 💬 42 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-09-16 |  |
 | [Use a dedicated Windows Registry policy path (Software\\Policies\\ungoogled-chromium) instead of sharing with ](https://github.com/ungoogled-software/ungoogled-chromium/issues/3951) 💬 1 | [ungoogled-software/ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium) | 27.7k | 🟡 help wanted | 2026-09-15 |  |
-| [Debug Watchpoint does not support read write permission together](https://github.com/rizinorg/rizin/issues/6743) | [rizinorg/rizin](https://github.com/rizinorg/rizin) | 3.9k | 🟢 beginner | 2026-09-15 | 🤖 disclose AI use |
 | [Adding SDitH](https://github.com/open-quantum-safe/liboqs/issues/2453) 💬 4 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-09-15 |  |
 | [Let a CMP client require EnvelopedData (reject EncryptedValue) for centrally generated keys](https://github.com/openssl/openssl/issues/32797) | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-14 | 🤖 disclose AI use · ✍️ CLA |
 | [💡 in-app updating, auto-updating](https://github.com/super-productivity/super-productivity/issues/8007) 💬 7 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.1k | 🟡 help wanted | 2026-09-14 |  |
@@ -24,7 +25,6 @@
 | [Backport 0c2a196af8 (per-OSSL_LIB_CTX CONF storage) to 3.0-3.6: conf_ssl.c double-free still present in all re](https://github.com/openssl/openssl/issues/32804) 💬 2 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use · ✍️ CLA |
 | [App keeps requesting password / decryption failed](https://github.com/super-productivity/super-productivity/issues/4514) 💬 15 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.1k | 🟡 help wanted | 2026-09-13 |  |
 | [💡 Give users the option to treat "Inbox" as a location where all tasks can be seen](https://github.com/super-productivity/super-productivity/issues/6717) 💬 12 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.1k | 🟡 help wanted | 2026-09-13 |  |
-| [💡 [Android] Feature Request: Customizable Bottom Navigation Bar Layout](https://github.com/super-productivity/super-productivity/issues/7637) 💬 7 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.1k | 🟡 help wanted | 2026-09-13 |  |
 | [💡 Make "Overdue" optional](https://github.com/super-productivity/super-productivity/issues/4405) 💬 11 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.1k | 🟡 help wanted | 2026-09-13 |  |
 | [💡Reminder alarm](https://github.com/super-productivity/super-productivity/issues/4381) 💬 13 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.1k | 🟡 help wanted | 2026-09-13 |  |
 | [«Today» is not recognized as a Tag anymore in Boards](https://github.com/super-productivity/super-productivity/issues/4368) 💬 5 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.1k | 🟡 help wanted | 2026-09-13 |  |
@@ -42,7 +42,6 @@
 | [Global shortcut registration failed: CTRL+Shift+X in Wayland](https://github.com/super-productivity/super-productivity/issues/3789) 💬 11 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.1k | 🟡 help wanted | 2026-09-13 |  |
 | [Empty indices are incorrectly included in the search target](https://github.com/Graylog2/graylog2-server/issues/6016) 💬 7 | [Graylog2/graylog2-server](https://github.com/Graylog2/graylog2-server) | 8.1k | 🟢 beginner | 2026-09-13 |  |
 | [Adding QR-UOV](https://github.com/open-quantum-safe/liboqs/issues/2454) 💬 17 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-09-13 |  |
-| [Update speed tests to measure GPU performance for cuPQC code](https://github.com/open-quantum-safe/liboqs/issues/2160) 💬 41 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-09-13 |  |
 | [Support ECH SSLKEYLOGFILE](https://github.com/openssl/openssl/issues/31607) 💬 5 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-12 | 🤖 disclose AI use · ✍️ CLA |
 | [[Feature Request] dns protection](https://github.com/0xCUB3/wBlock/issues/716) 💬 2 | [0xCUB3/wBlock](https://github.com/0xCUB3/wBlock) | 2.9k | 🟡 help wanted | 2026-09-11 |  |
 | [[Feature]: InCallService - Add a option to whitelist allowed third-party apps package name](https://github.com/kitsumed/ShizuCallRecorder/issues/46) 💬 3 | [kitsumed/ShizuCallRecorder](https://github.com/kitsumed/ShizuCallRecorder) | 1.5k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use |
@@ -208,7 +207,8 @@
 | [Replace TODO comments in DuplicatesModule with real implementation or remove](https://github.com/iliyami/MacSai/issues/5) | [iliyami/MacSai](https://github.com/iliyami/MacSai) | 1.5k | 🟢 beginner | 2026-05-28 |  |
 | [Cropped button label in "Remove vault" dialog](https://github.com/cryptomator/cryptomator/issues/3338) 💬 5 | [cryptomator/cryptomator](https://github.com/cryptomator/cryptomator) | 16.1k | 🟢 beginner | 2026-05-26 |  |
 | [The thumbnails don't always load](https://github.com/libre-tube/LibreTube/issues/8393) 💬 2 | [libre-tube/LibreTube](https://github.com/libre-tube/LibreTube) | 12.7k | 🟡 help wanted | 2026-05-23 |  |
-| [[Bug] No longer see files/folders within secure folder](https://github.com/leonlatsch/Photok/issues/678) 💬 5 | [leonlatsch/Photok](https://github.com/leonlatsch/Photok) | 967 | 🟢 beginner | 2026-05-21 |  |
+| [[Bug] No longer see files/folders within secure folder](https://github.com/leonlatsch/Photok/issues/678) 💬 5 | [leonlatsch/Photok](https://github.com/leonlatsch/Photok) | 968 | 🟢 beginner | 2026-05-21 |  |
 | [[META] Adding subfeatures to audits](https://github.com/zizmorcore/zizmor/issues/963) 💬 4 | [zizmorcore/zizmor](https://github.com/zizmorcore/zizmor) | 6.5k | 🟢 beginner | 2026-05-15 | 📄 AI policy |
+| [api_version as large unsigned int causes exception instead of clean rejection](https://github.com/XRPLF/rippled/issues/6776) 💬 1 | [XRPLF/rippled](https://github.com/XRPLF/rippled) | 5.2k | 🟢 beginner | 2026-05-15 | 🔏 DCO |
 
-Showing the 200 most recently updated. See all 235 on the website.
+Showing the 200 most recently updated. See all 232 on the website.

@@ -1,8 +1,8 @@
 # HTML issues
 
-**91** open issues (32 labeled for beginners) across **38** active HTML projects.
+**92** open issues (33 labeled for beginners) across **38** active HTML projects.
 
-> Updated automatically on **2026-09-16 10:39 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-16 20:58 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,12 +10,13 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [Testing if UA sends TLS client certs in CORS preflight OPTIONS request?](https://github.com/web-platform-tests/wpt/issues/7873) 💬 2 | [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt) | 6.2k | 🟢 beginner | 2026-09-16 |  |
 | [[Initiative]: Cloud Native Business Continuity: whitepaper and best practices](https://github.com/cncf/toc/issues/1779) 💬 9 | [cncf/toc](https://github.com/cncf/toc) | 1.9k | 🟡 help wanted | 2026-09-16 |  |
 | [[Initiative]: Cloud Native Observability Personas](https://github.com/cncf/toc/issues/2037) 💬 10 | [cncf/toc](https://github.com/cncf/toc) | 1.9k | 🟡 help wanted | 2026-09-16 |  |
 | [Allow disable generating full mobile navigation tree](https://github.com/imfing/hextra/issues/275) 💬 1 | [imfing/hextra](https://github.com/imfing/hextra) | 2.3k | 🟢 beginner | 2026-09-15 |  |
 | [输入 【介绍一下html-anything】，导出html单文件出现错误 1. 第一页只展示一半 2. 左右键不起作用 3. 从第二页开始都是黑底空白页 4. 。。。。。。](https://github.com/nexu-io/html-anything/issues/152) 💬 2 | [nexu-io/html-anything](https://github.com/nexu-io/html-anything) | 8.9k | 🟡 help wanted | 2026-09-14 | ✍️ CLA |
 | [[Initiative]: Scale and performance testing guidance](https://github.com/cncf/toc/issues/2233) 💬 4 | [cncf/toc](https://github.com/cncf/toc) | 1.9k | 🟡 help wanted | 2026-09-14 |  |
-| [[feat] no new X chat dm sending?](https://github.com/nirholas/XActions/issues/37) 💬 4 | [nirholas/XActions](https://github.com/nirholas/XActions) | 530 | 🟡 help wanted | 2026-09-14 |  |
+| [[feat] no new X chat dm sending?](https://github.com/nirholas/XActions/issues/37) 💬 4 | [nirholas/XActions](https://github.com/nirholas/XActions) | 533 | 🟡 help wanted | 2026-09-14 |  |
 | [[🚀 Feature]: Fixing Accessibility Issues On Selenium Website](https://github.com/SeleniumHQ/seleniumhq.github.io/issues/2486) 💬 6 | [SeleniumHQ/seleniumhq.github.io](https://github.com/SeleniumHQ/seleniumhq.github.io) | 1.4k | 🟡 help wanted | 2026-09-11 |  |
 | [switch cutout for back body plate doesn't fit switch](https://github.com/nasa-jpl/open-source-rover/issues/499) 💬 2 | [nasa-jpl/open-source-rover](https://github.com/nasa-jpl/open-source-rover) | 9.7k | 🟡 help wanted | 2026-09-10 |  |
 | [Headscale with reverse proxy Zoraxy not working because allegedly WebSockets are not passing through](https://github.com/tobychui/zoraxy/issues/1012) 💬 9 | [tobychui/zoraxy](https://github.com/tobychui/zoraxy) | 5.5k | 🟡 help wanted | 2026-09-09 |  |
@@ -37,7 +38,7 @@
 | [[FEATURE]Allow a custom download directory instead of the browser's default Downloads folder](https://github.com/EltonChou/TwitterMediaHarvest/issues/344) 💬 3 | [EltonChou/TwitterMediaHarvest](https://github.com/EltonChou/TwitterMediaHarvest) | 1.2k | 🟡 help wanted | 2026-08-06 |  |
 | [feat: implement pi-rpc protocol for Pi agent](https://github.com/nexu-io/html-anything/issues/130) 💬 2 | [nexu-io/html-anything](https://github.com/nexu-io/html-anything) | 8.9k | 🟡 help wanted | 2026-07-27 | ✍️ CLA |
 | [[🚀 Feature]: Rewriting Webdriver &gt; Elements &gt; Finders to Not Use HTML Snippet](https://github.com/SeleniumHQ/seleniumhq.github.io/issues/2037) 💬 8 | [SeleniumHQ/seleniumhq.github.io](https://github.com/SeleniumHQ/seleniumhq.github.io) | 1.4k | 🟢 beginner | 2026-07-27 |  |
-| [有对参与开源项目感兴趣的朋友吗，组个wx群](https://github.com/PKUFlyingPig/cs-self-learning/issues/347) 💬 49 | [PKUFlyingPig/cs-self-learning](https://github.com/PKUFlyingPig/cs-self-learning) | 75.6k | 🟡 help wanted | 2026-07-25 |  |
+| [有对参与开源项目感兴趣的朋友吗，组个wx群](https://github.com/PKUFlyingPig/cs-self-learning/issues/347) 💬 49 | [PKUFlyingPig/cs-self-learning](https://github.com/PKUFlyingPig/cs-self-learning) | 75.7k | 🟡 help wanted | 2026-07-25 |  |
 | [emojipedia is redistributing our emojis as stickers](https://github.com/hfg-gmuend/openmoji/issues/552) 💬 1 | [hfg-gmuend/openmoji](https://github.com/hfg-gmuend/openmoji) | 4.6k | 🟡 help wanted | 2026-07-24 |  |
 | ["Comparison to average values of products in the same category" is unclear](https://github.com/openfoodfacts/openfoodfacts-server/issues/2497) 💬 9 | [openfoodfacts/openfoodfacts-server](https://github.com/openfoodfacts/openfoodfacts-server) | 1.2k | 🟢 beginner | 2026-07-23 | 🤖 disclose AI use |
 | [Feature request: If CSS display:none causes failure, pull it into code snip.](https://github.com/dequelabs/axe-core/issues/598) 💬 5 | [dequelabs/axe-core](https://github.com/dequelabs/axe-core) | 7.5k | 🟡 help wanted | 2026-07-21 | ✍️ CLA |
@@ -48,7 +49,7 @@
 | [Allow favicons in formats other than svg](https://github.com/imfing/hextra/issues/888) 💬 2 | [imfing/hextra](https://github.com/imfing/hextra) | 2.3k | 🟢 beginner | 2026-07-13 |  |
 | [Translate content into Korean](https://github.com/HTTPArchive/almanac.httparchive.org/issues/926) 💬 14 | [HTTPArchive/almanac.httparchive.org](https://github.com/HTTPArchive/almanac.httparchive.org) | 691 | 🟢 beginner | 2026-07-05 |  |
 | [Translate content into Polish](https://github.com/HTTPArchive/almanac.httparchive.org/issues/1043) 💬 8 | [HTTPArchive/almanac.httparchive.org](https://github.com/HTTPArchive/almanac.httparchive.org) | 691 | 🟢 beginner | 2026-07-05 |  |
-| [solved](https://github.com/PKUFlyingPig/cs-self-learning/issues/423) 💬 2 | [PKUFlyingPig/cs-self-learning](https://github.com/PKUFlyingPig/cs-self-learning) | 75.6k | 🟡 help wanted | 2026-06-28 |  |
+| [solved](https://github.com/PKUFlyingPig/cs-self-learning/issues/423) 💬 2 | [PKUFlyingPig/cs-self-learning](https://github.com/PKUFlyingPig/cs-self-learning) | 75.7k | 🟡 help wanted | 2026-06-28 |  |
 | [NEW DESIGN - The action menu should be on the left of the Open Food Facts logo when scrolling](https://github.com/openfoodfacts/openfoodfacts-server/issues/7497) 💬 6 | [openfoodfacts/openfoodfacts-server](https://github.com/openfoodfacts/openfoodfacts-server) | 1.2k | 🟢 beginner | 2026-06-28 | 🤖 disclose AI use |
 | [NEW DESIGN - We should try to avoid a blank when JavaScript is disabled](https://github.com/openfoodfacts/openfoodfacts-server/issues/7504) 💬 3 | [openfoodfacts/openfoodfacts-server](https://github.com/openfoodfacts/openfoodfacts-server) | 1.2k | 🟢 beginner | 2026-06-28 | 🤖 disclose AI use |
 | [NEW DESIGN - We should try to display cards when JavaScript is disabled](https://github.com/openfoodfacts/openfoodfacts-server/issues/7503) 💬 3 | [openfoodfacts/openfoodfacts-server](https://github.com/openfoodfacts/openfoodfacts-server) | 1.2k | 🟢 beginner | 2026-06-28 | 🤖 disclose AI use |
@@ -96,7 +97,7 @@
 | [emoji request: vegan symbol (Ⓥ) and vegetarian indicator](https://github.com/hfg-gmuend/openmoji/issues/620) | [hfg-gmuend/openmoji](https://github.com/hfg-gmuend/openmoji) | 4.6k | 🟡 help wanted | 2026-04-14 |  |
 | [Openmoji Request: Paragenders Flag](https://github.com/hfg-gmuend/openmoji/issues/629) 💬 7 | [hfg-gmuend/openmoji](https://github.com/hfg-gmuend/openmoji) | 4.6k | 🟡 help wanted | 2026-04-14 |  |
 | [[HELP] Transmission web UI returns 521 when proxied](https://github.com/tobychui/zoraxy/issues/1102) | [tobychui/zoraxy](https://github.com/tobychui/zoraxy) | 5.5k | 🟡 help wanted | 2026-04-03 |  |
-| [emby/jellyfin support](https://github.com/petersem/posterr/issues/49) 💬 26 | [petersem/posterr](https://github.com/petersem/posterr) | 647 | 🟢 beginner | 2026-04-02 |  |
+| [emby/jellyfin support](https://github.com/petersem/posterr/issues/49) 💬 26 | [petersem/posterr](https://github.com/petersem/posterr) | 648 | 🟢 beginner | 2026-04-02 |  |
 | [Test target override better](https://github.com/web-platform-tests/wpt/issues/2321) 💬 1 | [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt) | 6.2k | 🟢 beginner | 2026-03-30 |  |
 | [[HELP] Custom Error 521 template , how to set ?](https://github.com/tobychui/zoraxy/issues/1095) 💬 1 | [tobychui/zoraxy](https://github.com/tobychui/zoraxy) | 5.5k | 🟡 help wanted | 2026-03-30 |  |
 | [Test that innerHTML works in synthetic documents.](https://github.com/web-platform-tests/wpt/issues/1509) 💬 1 | [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt) | 6.2k | 🟢 beginner | 2026-03-24 |  |

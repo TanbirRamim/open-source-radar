@@ -1,8 +1,8 @@
 # Cloud, DevOps and infrastructure issues
 
-**533** open issues (215 labeled for beginners) across **138** projects tagged with topics like `devops`, `kubernetes`, `docker`, `cloud`, `infrastructure`, `terraform`.
+**536** open issues (221 labeled for beginners) across **138** projects tagged with topics like `devops`, `kubernetes`, `docker`, `cloud`, `infrastructure`, `terraform`.
 
-> Updated automatically on **2026-09-16 10:39 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-16 20:58 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,19 +10,31 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [Memory title shows a date one day behind of the dates of the assets](https://github.com/immich-app/immich/issues/31483) 💬 4 | [immich-app/immich](https://github.com/immich-app/immich) | 114.4k | 🟢 beginner | 2026-09-16 |  |
+| [Make UI translations pluggable as add-on gems](https://github.com/huginn/huginn/issues/3748) | [huginn/huginn](https://github.com/huginn/huginn) | 50k | 🟡 help wanted | 2026-09-16 |  |
+| [Snyk vulnerability [SNYK-JS-JSYAML-18593780]](https://github.com/backstage/backstage/issues/35434) | [backstage/backstage](https://github.com/backstage/backstage) | 34.4k | 🟡 help wanted | 2026-09-16 | 📄 AI policy · 🔏 DCO |
+| [Snyk vulnerability [SNYK-JS-JSYAML-19496768]](https://github.com/backstage/backstage/issues/35407) | [backstage/backstage](https://github.com/backstage/backstage) | 34.4k | 🟡 help wanted | 2026-09-16 | 📄 AI policy · 🔏 DCO |
 | [Snyk vulnerability [SNYK-JS-ADMZIP-19846655]](https://github.com/backstage/backstage/issues/35739) | [backstage/backstage](https://github.com/backstage/backstage) | 34.4k | 🟡 help wanted | 2026-09-16 | 📄 AI policy · 🔏 DCO |
 | [Snyk vulnerability [SNYK-JS-FASTURI-19846649]](https://github.com/backstage/backstage/issues/35738) | [backstage/backstage](https://github.com/backstage/backstage) | 34.4k | 🟡 help wanted | 2026-09-16 | 📄 AI policy · 🔏 DCO |
 | [Snyk vulnerability [SNYK-JS-APIDEVTOOLSJSONSCHEMAREFPARSER-17937352]](https://github.com/backstage/backstage/issues/35481) | [backstage/backstage](https://github.com/backstage/backstage) | 34.4k | 🟡 help wanted | 2026-09-16 | 📄 AI policy · 🔏 DCO |
 | [add falco back to the new iso](https://github.com/kubernetes/minikube/issues/22298) 💬 5 | [kubernetes/minikube](https://github.com/kubernetes/minikube) | 32.1k | 🟡 help wanted | 2026-09-16 |  |
-| [Auto-created tables can miss required columns when insert schemas differ](https://github.com/GreptimeTeam/greptimedb/issues/9185) | [GreptimeTeam/greptimedb](https://github.com/GreptimeTeam/greptimedb) | 6.7k | 🟢 beginner | 2026-09-16 | ✍️ CLA · 🔏 DCO |
+| [[UI] Copy icon overlaps executionId text in Logs table](https://github.com/kestra-io/kestra/issues/18993) 💬 1 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-16 |  |
+| [[UI] Add Version display / selector to Plugin Documentation in Flow Editor](https://github.com/kestra-io/kestra/issues/14075) 💬 2 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-16 |  |
+| [Server starting behavior - PluginScanner - PrometheusMeterRegistry](https://github.com/kestra-io/kestra/issues/13741) 💬 4 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-16 |  |
+| [Kestra flow is failing for taskRunner Docker](https://github.com/kestra-io/kestra/issues/9814) 💬 2 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-16 |  |
+| [[ HttpRequest ] letter with accent are cropped in urlencoded forms](https://github.com/kestra-io/kestra/issues/8166) 💬 3 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-16 |  |
+| [Process Runner Fails Silently on Windows with cmd.exe](https://github.com/kestra-io/kestra/issues/12989) | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-16 |  |
+| [Fix validation of String plugin properties](https://github.com/kestra-io/kestra/issues/8801) 💬 3 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-16 |  |
+| [Task retry stuck in RETRYING state with rootless Podman setup in v1.1.12 (works in v0.22.10)](https://github.com/kestra-io/kestra/issues/14056) | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-16 |  |
+| [[JENKINS-31511] Recent (since 1.628) bug introduced into pluginManager filter UI](https://github.com/jenkinsci/jenkins/issues/21563) 💬 8 | [jenkinsci/jenkins](https://github.com/jenkinsci/jenkins) | 26.6k | 🟢 beginner | 2026-09-16 | ✍️ CLA |
+| [[JENKINS-44972] Truncated log displayed in middle of line, showing Base64-encoded ConsoleNote garbage](https://github.com/jenkinsci/jenkins/issues/22143) 💬 9 | [jenkinsci/jenkins](https://github.com/jenkinsci/jenkins) | 26.6k | 🟢 beginner | 2026-09-16 | ✍️ CLA |
+| [Auto-created tables can miss required columns when insert schemas differ](https://github.com/GreptimeTeam/greptimedb/issues/9185) 💬 1 | [GreptimeTeam/greptimedb](https://github.com/GreptimeTeam/greptimedb) | 6.7k | 🟢 beginner | 2026-09-16 | ✍️ CLA · 🔏 DCO |
 | [[Initiative]: Cloud Native Business Continuity: whitepaper and best practices](https://github.com/cncf/toc/issues/1779) 💬 9 | [cncf/toc](https://github.com/cncf/toc) | 1.9k | 🟡 help wanted | 2026-09-16 |  |
 | [[Initiative]: Cloud Native Observability Personas](https://github.com/cncf/toc/issues/2037) 💬 10 | [cncf/toc](https://github.com/cncf/toc) | 1.9k | 🟡 help wanted | 2026-09-16 |  |
 | [Optimize Pod informer memory efficiency used in admission plugins](https://github.com/kubernetes/kubernetes/issues/125469) 💬 21 | [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) | 127.8k | 🟡 help wanted | 2026-09-15 | 🤖 disclose AI use · ✍️ CLA |
-| [Endless zoom](https://github.com/immich-app/immich/issues/31496) 💬 1 | [immich-app/immich](https://github.com/immich-app/immich) | 114.4k | 🟢 beginner | 2026-09-15 |  |
 | [Expand CalDAVRemoveEmptyValue.php to fix additional 'Unsupported VALUE parameter for DTEND property' errors th](https://github.com/nextcloud/server/issues/17554) 💬 7 | [nextcloud/server](https://github.com/nextcloud/server) | 36.8k | 🟢 beginner | 2026-09-15 | 🤖 disclose AI use · 🔏 DCO |
 | [Snyk vulnerability [SNYK-JS-PROXYADDR-19812342]](https://github.com/backstage/backstage/issues/35714) | [backstage/backstage](https://github.com/backstage/backstage) | 34.4k | 🟡 help wanted | 2026-09-15 | 📄 AI policy · 🔏 DCO |
 | [Snyk vulnerability [SNYK-JS-MULTER-19785644]](https://github.com/backstage/backstage/issues/35676) 💬 2 | [backstage/backstage](https://github.com/backstage/backstage) | 34.4k | 🟡 help wanted | 2026-09-15 | 📄 AI policy · 🔏 DCO |
-| [Minikube start fails for nvidia gpus in compute only/ headless mode](https://github.com/kubernetes/minikube/issues/20934) 💬 4 | [kubernetes/minikube](https://github.com/kubernetes/minikube) | 32.1k | 🟡 help wanted | 2026-09-15 |  |
 | [Bad type on maxBufferSize in CsvToIon](https://github.com/kestra-io/kestra/issues/17885) | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-15 |  |
 | [maxRecordSize error with CsvToIon](https://github.com/kestra-io/kestra/issues/17884) | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-15 |  |
 | [Add support for Docker tag + SHA image digest in Containerimages](https://github.com/kestra-io/kestra/issues/15694) | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-15 |  |
@@ -32,7 +44,6 @@
 | [[UI][Executions] Task Id is not visible when screen is small on the gantt](https://github.com/kestra-io/kestra/issues/18886) 💬 1 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-15 |  |
 | [[Bash2.0][Blueprints] First line of the code preview is fenced by a rule above and below it](https://github.com/kestra-io/kestra/issues/18330) | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-15 |  |
 | [Plugin type layout](https://github.com/kestra-io/kestra/issues/18789) 💬 1 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-15 |  |
-| [[UI] Copy icon overlaps executionId text in Logs table](https://github.com/kestra-io/kestra/issues/18993) | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-15 |  |
 | [execution overview not showing variables having value 0](https://github.com/kestra-io/kestra/issues/16194) 💬 2 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-15 |  |
 | [Secrets components: replace explicit 'any' with real types](https://github.com/kestra-io/kestra/issues/19296) 💬 4 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-15 |  |
 | [Translations: replace explicit 'any' with real types](https://github.com/kestra-io/kestra/issues/19306) 💬 4 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-15 |  |
@@ -40,12 +51,10 @@
 | [Btrfs statistics input plugin](https://github.com/influxdata/telegraf/issues/10032) 💬 5 | [influxdata/telegraf](https://github.com/influxdata/telegraf) | 17.8k | 🟡 help wanted | 2026-09-15 | ⚠️ AI restricted · ✍️ CLA |
 | [[ACTION] Rewardful — Affiliate & Commission Management](https://github.com/PipedreamHQ/pipedream/issues/21991) | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-09-15 |  |
 | [Reminder: Update Hacktoberfest branding for this year](https://github.com/owncast/owncast/issues/5180) | [owncast/owncast](https://github.com/owncast/owncast) | 11.5k | 🟢 beginner | 2026-09-15 |  |
-| [MQTT - based scaler](https://github.com/kedacore/keda/issues/1282) 💬 23 | [kedacore/keda](https://github.com/kedacore/keda) | 10.5k | 🟡 help wanted | 2026-09-15 | 🔏 DCO |
 | [[BUG] Deleting backups causes lots of errors if s3 path cleanup is slow](https://github.com/longhorn/longhorn/issues/13646) 💬 6 | [longhorn/longhorn](https://github.com/longhorn/longhorn) | 8k | 🟢 beginner | 2026-09-15 | 🔏 DCO |
 | [Log axis limits "auto" doesn't work on histogram](https://github.com/grafana/grafana/issues/13027) 💬 12 | [grafana/grafana](https://github.com/grafana/grafana) | 76.8k | 🟡 help wanted | 2026-09-14 | ✍️ CLA |
 | [Add Feature to Set Retention Time per Metric](https://github.com/prometheus/prometheus/issues/15350) 💬 3 | [prometheus/prometheus](https://github.com/prometheus/prometheus) | 66.1k | 🟡 help wanted | 2026-09-14 | 🔏 DCO |
 | [Reject credential and other unsupported keys in 'files_external:option'](https://github.com/nextcloud/server/issues/58821) 💬 2 | [nextcloud/server](https://github.com/nextcloud/server) | 36.8k | 🟢 beginner | 2026-09-14 | 🤖 disclose AI use · 🔏 DCO |
-| [Snyk vulnerability [SNYK-JS-ISOMORPHICGIT-19784422]](https://github.com/backstage/backstage/issues/35677) | [backstage/backstage](https://github.com/backstage/backstage) | 34.4k | 🟡 help wanted | 2026-09-14 | 📄 AI policy · 🔏 DCO |
 | [Snyk vulnerability [SNYK-JS-ADMZIP-19276676]](https://github.com/backstage/backstage/issues/35409) | [backstage/backstage](https://github.com/backstage/backstage) | 34.4k | 🟡 help wanted | 2026-09-14 | 📄 AI policy · 🔏 DCO |
 | [Snyk vulnerability [SNYK-JS-NODEMAILER-19784395]](https://github.com/backstage/backstage/issues/35654) | [backstage/backstage](https://github.com/backstage/backstage) | 34.4k | 🟡 help wanted | 2026-09-14 | 📄 AI policy · 🔏 DCO |
 | [Snyk vulnerability [SNYK-JS-ROLLUP-8073097]](https://github.com/backstage/backstage/issues/35529) | [backstage/backstage](https://github.com/backstage/backstage) | 34.4k | 🟡 help wanted | 2026-09-14 | 📄 AI policy · 🔏 DCO |
@@ -58,7 +67,6 @@
 | [Snyk vulnerability [SNYK-JS-QS-19432019]](https://github.com/backstage/backstage/issues/35443) | [backstage/backstage](https://github.com/backstage/backstage) | 34.4k | 🟡 help wanted | 2026-09-14 | 📄 AI policy · 🔏 DCO |
 | [Snyk vulnerability [snyk:lic:npm:axe-core:MPL-2.0]](https://github.com/backstage/backstage/issues/35478) | [backstage/backstage](https://github.com/backstage/backstage) | 34.4k | 🟡 help wanted | 2026-09-14 | 📄 AI policy · 🔏 DCO |
 | [Snyk vulnerability [SNYK-JS-CODEMIRROR-10494092]](https://github.com/backstage/backstage/issues/35419) | [backstage/backstage](https://github.com/backstage/backstage) | 34.4k | 🟡 help wanted | 2026-09-14 | 📄 AI policy · 🔏 DCO |
-| [Snyk vulnerability [SNYK-JS-JSYAML-19496768]](https://github.com/backstage/backstage/issues/35407) | [backstage/backstage](https://github.com/backstage/backstage) | 34.4k | 🟡 help wanted | 2026-09-14 | 📄 AI policy · 🔏 DCO |
 | [failed to download vulnerability DB](https://github.com/goharbor/harbor/issues/23521) 💬 8 | [goharbor/harbor](https://github.com/goharbor/harbor) | 29.4k | 🟡 help wanted | 2026-09-14 | 🔏 DCO |
 | [Docs components: replace explicit 'any' with real types](https://github.com/kestra-io/kestra/issues/19299) 💬 2 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-14 |  |
 | [[Feature] Scaling at 125%](https://github.com/winboat-org/winboat/issues/341) 💬 4 | [winboat-org/winboat](https://github.com/winboat-org/winboat) | 22.9k | 🟢 beginner | 2026-09-14 |  |
@@ -106,7 +114,6 @@
 | [Snyk vulnerability [SNYK-JS-BACKSTAGEBACKENDDEFAULTS-15064476]](https://github.com/backstage/backstage/issues/35484) | [backstage/backstage](https://github.com/backstage/backstage) | 34.4k | 🟡 help wanted | 2026-09-11 | 📄 AI policy · 🔏 DCO |
 | [Snyk vulnerability [SNYK-JS-BACKSTAGEBACKENDDEFAULTS-15054278]](https://github.com/backstage/backstage/issues/35483) | [backstage/backstage](https://github.com/backstage/backstage) | 34.4k | 🟡 help wanted | 2026-09-11 | 📄 AI policy · 🔏 DCO |
 | [Snyk vulnerability [SNYK-JS-BACKSTAGEBACKENDAPPAPI-6229731]](https://github.com/backstage/backstage/issues/35482) | [backstage/backstage](https://github.com/backstage/backstage) | 34.4k | 🟡 help wanted | 2026-09-11 | 📄 AI policy · 🔏 DCO |
-| [Support C#/F# as one of the dedicated script plugin](https://github.com/kestra-io/kestra/issues/12742) 💬 4 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-11 |  |
 | [Workflowdefault configmap at the namespace level](https://github.com/argoproj/argo-workflows/issues/14057) 💬 5 | [argoproj/argo-workflows](https://github.com/argoproj/argo-workflows) | 17k | 🟡 help wanted | 2026-09-11 | 📄 AI policy · 🔏 DCO |
 | [Injected nginx ingress controller doesn't have access to the remote client IP](https://github.com/linkerd/linkerd2/issues/3403) 💬 19 | [linkerd/linkerd2](https://github.com/linkerd/linkerd2) | 11.5k | 🟡 help wanted | 2026-09-11 | 🔏 DCO |
 | [Support for Vavr types?](https://github.com/micronaut-projects/micronaut-core/issues/3520) 💬 2 | [micronaut-projects/micronaut-core](https://github.com/micronaut-projects/micronaut-core) | 6.4k | 🟡 help wanted | 2026-09-11 |  |
@@ -153,7 +160,7 @@
 | [[Management] Number fields accept invalid input](https://github.com/elastic/kibana/issues/197506) 💬 6 | [elastic/kibana](https://github.com/elastic/kibana) | 21.3k | 🟢 beginner | 2026-09-02 | ⚠️ AI restricted |
 | [[Security Solution] Exception lists are removed during rule import rule import, causing false positives](https://github.com/elastic/kibana/issues/256010) 💬 4 | [elastic/kibana](https://github.com/elastic/kibana) | 21.3k | 🟢 beginner | 2026-09-02 | ⚠️ AI restricted |
 | [Inconsistency in link settings terminology](https://github.com/suitenumerique/docs/issues/2612) 💬 2 | [suitenumerique/docs](https://github.com/suitenumerique/docs) | 16.8k | 🟢 beginner | 2026-09-02 | 🤖 disclose AI use · 🔏 DCO |
-| [GCS needs someone with a real bucket to run its test](https://github.com/deeplethe/utopia/issues/214) | [deeplethe/utopia](https://github.com/deeplethe/utopia) | 8.8k | 🟡 help wanted | 2026-09-02 | ✍️ CLA · 🔏 DCO |
+| [GCS needs someone with a real bucket to run its test](https://github.com/deeplethe/utopia/issues/214) | [deeplethe/utopia](https://github.com/deeplethe/utopia) | 7.6k | 🟡 help wanted | 2026-09-02 | ✍️ CLA · 🔏 DCO |
 | [[Feature] Running Usloth Studion in kaggle](https://github.com/unslothai/unsloth/issues/4944) 💬 2 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 76.2k | 🟡 help wanted | 2026-09-01 |  |
 | [[Bug] Cannot load qwen3-vl series with lora adapter on vllm.](https://github.com/unslothai/unsloth/issues/3560) 💬 8 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 76.2k | 🟢 beginner | 2026-09-01 |  |
 | [[Feature] Add FT support for the Qwen3-TTS model.](https://github.com/unslothai/unsloth/issues/3951) 💬 9 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 76.2k | 🟢 beginner | 2026-09-01 |  |
@@ -164,6 +171,8 @@
 | [line return](https://github.com/suitenumerique/docs/issues/2239) 💬 1 | [suitenumerique/docs](https://github.com/suitenumerique/docs) | 16.8k | 🟢 beginner | 2026-09-01 | 🤖 disclose AI use · 🔏 DCO |
 | [improve KIND performance on single node clusters \| leader-elect=false \| proxy-refresh-interval=70000](https://github.com/kubernetes-sigs/kind/issues/2513) 💬 5 | [kubernetes-sigs/kind](https://github.com/kubernetes-sigs/kind) | 15.5k | 🟡 help wanted | 2026-09-01 |  |
 | [building node images requires public internet access and doesn't error if pre-pulling images fails](https://github.com/kubernetes-sigs/kind/issues/2562) 💬 22 | [kubernetes-sigs/kind](https://github.com/kubernetes-sigs/kind) | 15.5k | 🟡 help wanted | 2026-09-01 |  |
+| [Unable to load docker containerd managed images to cluster](https://github.com/kubernetes-sigs/kind/issues/3795) 💬 66 | [kubernetes-sigs/kind](https://github.com/kubernetes-sigs/kind) | 15.5k | 🟡 help wanted | 2026-09-01 |  |
+| [Increase maxkeys and maxbytes in Known Issues](https://github.com/kubernetes-sigs/kind/issues/3806) 💬 7 | [kubernetes-sigs/kind](https://github.com/kubernetes-sigs/kind) | 15.5k | 🟡 help wanted | 2026-09-01 |  |
 | [Digicert ACME order is failing due to invalid validity_years](https://github.com/cert-manager/cert-manager/issues/7536) 💬 12 | [cert-manager/cert-manager](https://github.com/cert-manager/cert-manager) | 14.1k | 🟢 beginner | 2026-09-01 |  |
 | [Add CodeArtifact Package Origin Controls](https://github.com/hashicorp/terraform-provider-aws/issues/26623) 💬 8 | [hashicorp/terraform-provider-aws](https://github.com/hashicorp/terraform-provider-aws) | 11.1k | 🟢 beginner | 2026-09-01 | 🤖 disclose AI use |
 | [Unable to open new tab with ctrl+click on search results](https://github.com/suitenumerique/docs/issues/2603) 💬 4 | [suitenumerique/docs](https://github.com/suitenumerique/docs) | 16.8k | 🟢 beginner | 2026-08-31 | 🤖 disclose AI use · 🔏 DCO |
@@ -196,19 +205,10 @@
 | [Batch offline service based on IP address](https://github.com/alibaba/nacos/issues/2272) 💬 23 | [alibaba/nacos](https://github.com/alibaba/nacos) | 33.4k | 🟢 beginner | 2026-08-24 | 🤖 disclose AI use · ✍️ CLA |
 | [[FEATURE] Support Oracle Cloud Infrastructure (OCI) Object Storage as a backend](https://github.com/longhorn/longhorn/issues/7057) 💬 4 | [longhorn/longhorn](https://github.com/longhorn/longhorn) | 8k | 🟢 beginner | 2026-08-24 | 🔏 DCO |
 | [Improve public documents sharing](https://github.com/Smaug6739/Alexandrie/issues/608) | [Smaug6739/Alexandrie](https://github.com/Smaug6739/Alexandrie) | 2.7k | 🟢 beginner | 2026-08-24 |  |
-| [Support TV shows](https://github.com/leepeuker/movary/issues/186) 💬 24 | [leepeuker/movary](https://github.com/leepeuker/movary) | 775 | 🟡 help wanted | 2026-08-24 |  |
+| [Support TV shows](https://github.com/leepeuker/movary/issues/186) 💬 24 | [leepeuker/movary](https://github.com/leepeuker/movary) | 776 | 🟡 help wanted | 2026-08-24 |  |
 | [运行期间无法上传文件报数据库锁死](https://github.com/cloudreve/cloudreve/issues/2917) 💬 10 | [cloudreve/cloudreve](https://github.com/cloudreve/cloudreve) | 28.7k | 🟡 help wanted | 2026-08-23 | ✍️ CLA |
 | [[FR] [Roadmap] Support 'OR' filtering in search](https://github.com/mlflow/mlflow/issues/6075) 💬 13 | [mlflow/mlflow](https://github.com/mlflow/mlflow) | 28k | 🟡 help wanted | 2026-08-23 | 🔏 DCO |
 | [Cache metrics for http clients](https://github.com/micrometer-metrics/micrometer/issues/1700) 💬 2 | [micrometer-metrics/micrometer](https://github.com/micrometer-metrics/micrometer) | 4.9k | 🟡 help wanted | 2026-08-23 | ✍️ CLA · 🔏 DCO |
 | [Crash: 3.4.5 linux binary, chrome dumps core](https://github.com/FlareSolverr/FlareSolverr/issues/1621) 💬 10 | [FlareSolverr/FlareSolverr](https://github.com/FlareSolverr/FlareSolverr) | 15.6k | 🟡 help wanted | 2026-08-21 |  |
-| [Logparser/tail input on Windows stops sendings logs due to file being locked](https://github.com/influxdata/telegraf/issues/6539) 💬 9 | [influxdata/telegraf](https://github.com/influxdata/telegraf) | 17.8k | 🟡 help wanted | 2026-08-20 | ⚠️ AI restricted · ✍️ CLA |
-| [[riddle_quiz_maker] Update app metadata: description, logo and MCP URL](https://github.com/PipedreamHQ/pipedream/issues/21717) | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-08-20 |  |
-| [Cannot start a Multipass instance that previously used a native mount, if the directory is not available in th](https://github.com/canonical/multipass/issues/4957) 💬 4 | [canonical/multipass](https://github.com/canonical/multipass) | 9.2k | 🟢 beginner | 2026-08-20 | ✍️ CLA |
-| [Allow specifying wildcards ('*') for '--[ug]id-map' on mounts](https://github.com/canonical/multipass/issues/1200) 💬 10 | [canonical/multipass](https://github.com/canonical/multipass) | 9.2k | 🟢 beginner | 2026-08-20 | ✍️ CLA |
-| [Can't handle parallel installs](https://github.com/canonical/multipass/issues/1129) 💬 6 | [canonical/multipass](https://github.com/canonical/multipass) | 9.2k | 🟡 help wanted | 2026-08-20 | ✍️ CLA |
-| [[delete] suspend and resume running instances when deleting](https://github.com/canonical/multipass/issues/549) 💬 2 | [canonical/multipass](https://github.com/canonical/multipass) | 9.2k | 🟡 help wanted | 2026-08-20 | ✍️ CLA |
-| [[feature request] loadUpdateData only insert](https://github.com/liquibase/liquibase/issues/1101) 💬 5 | [liquibase/liquibase](https://github.com/liquibase/liquibase) | 5.6k | 🟡 help wanted | 2026-08-20 |  |
-| [Test osgi with new Prometheus client](https://github.com/micrometer-metrics/micrometer/issues/5063) 💬 6 | [micrometer-metrics/micrometer](https://github.com/micrometer-metrics/micrometer) | 4.9k | 🟡 help wanted | 2026-08-20 | ✍️ CLA · 🔏 DCO |
-| [gadgets/trace_lsm: Add missing documentation Guide section](https://github.com/inspektor-gadget/inspektor-gadget/issues/5631) 💬 2 | [inspektor-gadget/inspektor-gadget](https://github.com/inspektor-gadget/inspektor-gadget) | 2.9k | 🟢 beginner | 2026-08-20 |  |
 
-Showing the 200 most recently updated. See all 533 on the website.
+Showing the 200 most recently updated. See all 536 on the website.

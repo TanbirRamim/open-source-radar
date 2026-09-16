@@ -1,8 +1,8 @@
 # JavaScript issues
 
-**169** open issues (75 labeled for beginners) across **67** active JavaScript projects.
+**162** open issues (73 labeled for beginners) across **65** active JavaScript projects.
 
-> Updated automatically on **2026-09-16 10:39 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-16 20:58 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -11,9 +11,6 @@
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
 | [prettier fails to parse now required less format for at rule variables](https://github.com/prettier/prettier/issues/20076) 💬 1 | [prettier/prettier](https://github.com/prettier/prettier) | 52.3k | 🟡 help wanted | 2026-09-16 | 📄 AI policy |
-| [[p5.js 2.0+ Bug Report]: strands not handling comma operator (common in minified js)](https://github.com/processing/p5.js/issues/9178) 💬 2 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-09-16 | ⚠️ AI restricted |
-| [[p5.js 2.0+ Bug Report]: strands breaking on arrow functions with parameters](https://github.com/processing/p5.js/issues/9180) 💬 1 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-09-16 | ⚠️ AI restricted |
-| [A false positive FES error on function "loadModel"](https://github.com/processing/p5.js/issues/9176) 💬 7 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟢 beginner | 2026-09-15 | ⚠️ AI restricted |
 | [[ACTION] Rewardful — Affiliate & Commission Management](https://github.com/PipedreamHQ/pipedream/issues/21991) | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-09-15 |  |
 | [Fix JavaScript lint errors](https://github.com/stdlib-js/stdlib/issues/15228) 💬 1 | [stdlib-js/stdlib](https://github.com/stdlib-js/stdlib) | 6k | 🟢 beginner | 2026-09-15 | 🤖 disclose AI use |
 | [feat(scan): domain-level aggregator repost list, complementing the SimHash cross-listing warning](https://github.com/career-ops-hq/career-ops/issues/3577) 💬 7 | [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | 71.8k | 🟢 beginner | 2026-09-13 |  |
@@ -23,7 +20,6 @@
 | [enum dropdown in anyOf \\ oneOf](https://github.com/josdejong/jsoneditor/issues/1653) 💬 2 | [josdejong/jsoneditor](https://github.com/josdejong/jsoneditor) | 12.3k | 🟡 help wanted | 2026-09-13 |  |
 | [Add tools to Yahoo Sports](https://github.com/PipedreamHQ/pipedream/issues/21979) | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-09-13 |  |
 | [Customizeable Axis Title Rendering](https://github.com/chartjs/Chart.js/issues/3214) 💬 5 | [chartjs/Chart.js](https://github.com/chartjs/Chart.js) | 67.7k | 🟡 help wanted | 2026-09-11 |  |
-| [[Bug] Instructions for integrating with Vite don't work](https://github.com/microsoft/monaco-editor/issues/4045) 💬 8 | [microsoft/monaco-editor](https://github.com/microsoft/monaco-editor) | 46.7k | 🟡 help wanted | 2026-09-11 |  |
 | [Android remove event](https://github.com/ajaxorg/ace/issues/5304) 💬 7 | [ajaxorg/ace](https://github.com/ajaxorg/ace) | 27.1k | 🟢 beginner | 2026-09-10 |  |
 | [[TRIGGER]](https://github.com/PipedreamHQ/pipedream/issues/21956) | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-09-10 |  |
 | [[BUG]: Background image is rendered at an incorrect size after box zoom followed by mouse wheel zoom out](https://github.com/plotly/plotly.js/issues/7914) 💬 8 | [plotly/plotly.js](https://github.com/plotly/plotly.js) | 18.3k | 🟢 beginner | 2026-09-09 | ⚠️ AI restricted |
@@ -158,8 +154,7 @@
 | [Demo tests in 'tests/basic.js' are broken.](https://github.com/sandstorm-io/sandstorm/issues/3615) 💬 1 | [sandstorm-io/sandstorm](https://github.com/sandstorm-io/sandstorm) | 7.1k | 🟢 beginner | 2026-05-12 |  |
 | [add paper size option Generate pdf on server](https://github.com/idurar/idurar-erp-crm/issues/230) 💬 6 | [idurar/idurar-erp-crm](https://github.com/idurar/idurar-erp-crm) | 8.8k | 🟢 beginner | 2026-05-07 |  |
 | [Groove Agent](https://github.com/PipedreamHQ/pipedream/issues/19397) | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-05-06 |  |
-| [[Bug] Failed to load source map simpleWorker.nls.js.map](https://github.com/microsoft/monaco-editor/issues/3336) 💬 11 | [microsoft/monaco-editor](https://github.com/microsoft/monaco-editor) | 46.7k | 🟡 help wanted | 2026-04-30 |  |
-| [use non blocking json parser](https://github.com/expressjs/body-parser/issues/132) 💬 17 | [expressjs/body-parser](https://github.com/expressjs/body-parser) | 5.5k | 🟡 help wanted | 2026-04-30 |  |
+| [[Bug] Failed to load source map simpleWorker.nls.js.map](https://github.com/microsoft/monaco-editor/issues/3336) 💬 11 | [microsoft/monaco-editor](https://github.com/microsoft/monaco-editor) | 46.8k | 🟡 help wanted | 2026-04-30 |  |
 | [Security improvement : refresh token (second token stored in localstorage)](https://github.com/idurar/idurar-erp-crm/issues/204) 💬 11 | [idurar/idurar-erp-crm](https://github.com/idurar/idurar-erp-crm) | 8.8k | 🟢 beginner | 2026-04-25 |  |
 | [[Feature request]: Modify "Pause Breaks" options](https://github.com/hovancik/stretchly/issues/1462) 💬 5 | [hovancik/stretchly](https://github.com/hovancik/stretchly) | 6.5k | 🟡 help wanted | 2026-04-23 | 🤖 disclose AI use |
 | [GameDig Discord Server Monitoring](https://github.com/louislam/uptime-kuma/issues/4304) 💬 7 | [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) | 91.4k | 🟢 beginner | 2026-04-21 | ⚠️ AI restricted |
@@ -177,5 +172,3 @@
 | [Theme status pages (and dashboard?) by defining "base colors" in Appearance setting](https://github.com/louislam/uptime-kuma/issues/4642) 💬 16 | [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) | 91.4k | 🟡 help wanted | 2026-03-26 | ⚠️ AI restricted |
 | [Visual Studio 6 signature scan missing libc type?](https://github.com/horsicq/Detect-It-Easy/issues/311) 💬 9 | [horsicq/Detect-It-Easy](https://github.com/horsicq/Detect-It-Easy) | 11.5k | 🟡 help wanted | 2026-03-26 |  |
 | [Q: Have you considered locale specific bundles?](https://github.com/i18next/i18next/issues/1418) 💬 7 | [i18next/i18next](https://github.com/i18next/i18next) | 8.6k | 🟡 help wanted | 2026-03-21 |  |
-| [Type tests for Meteor packages](https://github.com/meteor/meteor/issues/13676) 💬 11 | [meteor/meteor](https://github.com/meteor/meteor) | 44.8k | 🟢 beginner | 2026-03-20 | ✍️ CLA |
-| ['URLPattern'](https://github.com/zloirock/core-js/issues/1011) 💬 6 | [zloirock/core-js](https://github.com/zloirock/core-js) | 25.5k | 🟡 help wanted | 2026-03-20 |  |

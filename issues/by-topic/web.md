@@ -1,8 +1,8 @@
 # Web development issues
 
-**284** open issues (125 labeled for beginners) across **115** projects tagged with topics like `web`, `frontend`, `react`, `vue`, `svelte`, `angular`.
+**281** open issues (124 labeled for beginners) across **115** projects tagged with topics like `web`, `frontend`, `react`, `vue`, `svelte`, `angular`.
 
-> Updated automatically on **2026-09-16 10:39 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-16 20:58 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,13 +10,13 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [Employee Profile Generator step 17 rejects a combined print call](https://github.com/freeCodeCamp/freeCodeCamp/issues/70082) | [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | 455.6k | 🟡 help wanted | 2026-09-16 |  |
+| [Correct A1 Professional Spanish intro ordering and remove unused module intros](https://github.com/freeCodeCamp/freeCodeCamp/issues/70102) | [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | 455.6k | 🟡 help wanted | 2026-09-16 |  |
+| [Correct A1 Professional Chinese intro ordering and remove unused module intros](https://github.com/freeCodeCamp/freeCodeCamp/issues/70101) | [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | 455.6k | 🟡 help wanted | 2026-09-16 |  |
+| [Memory title shows a date one day behind of the dates of the assets](https://github.com/immich-app/immich/issues/31483) 💬 4 | [immich-app/immich](https://github.com/immich-app/immich) | 114.4k | 🟢 beginner | 2026-09-16 |  |
 | [Ability to exit a script while keeping browser running](https://github.com/puppeteer/puppeteer/issues/8261) 💬 18 | [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) | 95.6k | 🟢 beginner | 2026-09-16 |  |
 | [prettier fails to parse now required less format for at rule variables](https://github.com/prettier/prettier/issues/20076) 💬 1 | [prettier/prettier](https://github.com/prettier/prettier) | 52.3k | 🟡 help wanted | 2026-09-16 | 📄 AI policy |
-| [[p5.js 2.0+ Bug Report]: strands not handling comma operator (common in minified js)](https://github.com/processing/p5.js/issues/9178) 💬 2 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-09-16 | ⚠️ AI restricted |
-| [[p5.js 2.0+ Bug Report]: strands breaking on arrow functions with parameters](https://github.com/processing/p5.js/issues/9180) 💬 1 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-09-16 | ⚠️ AI restricted |
-| [Endless zoom](https://github.com/immich-app/immich/issues/31496) 💬 1 | [immich-app/immich](https://github.com/immich-app/immich) | 114.4k | 🟢 beginner | 2026-09-15 |  |
-| [A false positive FES error on function "loadModel"](https://github.com/processing/p5.js/issues/9176) 💬 7 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟢 beginner | 2026-09-15 | ⚠️ AI restricted |
+| [[Bug]: medusa build breaks with TypeScript 7 (config loader: Cannot read properties of undefined (reading 'fil](https://github.com/medusajs/medusa/issues/16838) 💬 1 | [medusajs/medusa](https://github.com/medusajs/medusa) | 36.3k | 🟡 help wanted | 2026-09-16 |  |
+| [Testing if UA sends TLS client certs in CORS preflight OPTIONS request?](https://github.com/web-platform-tests/wpt/issues/7873) 💬 2 | [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt) | 6.2k | 🟢 beginner | 2026-09-16 |  |
 | [Allow disable generating full mobile navigation tree](https://github.com/imfing/hextra/issues/275) 💬 1 | [imfing/hextra](https://github.com/imfing/hextra) | 2.3k | 🟢 beginner | 2026-09-15 |  |
 | [Update jsignpdf-php in LibreSign 3rdparty](https://github.com/LibreSign/libresign/issues/8411) | [LibreSign/libresign](https://github.com/LibreSign/libresign) | 811 | 🟢 beginner | 2026-09-15 | 🤖 disclose AI use · 🔏 DCO |
 | [Add CanSelect property to MudTreeViewItem](https://github.com/MudBlazor/MudBlazor/issues/11195) 💬 1 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-09-14 |  |
@@ -36,14 +36,14 @@
 | ['dx serve --hot-patch' on Windows 11 cannot generate binary outside of VS command prompt](https://github.com/DioxusLabs/dioxus/issues/4911) 💬 2 | [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus) | 39.2k | 🟡 help wanted | 2026-09-09 |  |
 | [HTTP4K Connect - Amazon IRSA Support](https://github.com/http4k/http4k/issues/1388) 💬 2 | [http4k/http4k](https://github.com/http4k/http4k) | 2.8k | 🟢 beginner | 2026-09-09 | ✍️ CLA · 🔏 DCO |
 | [Add signature rejection policy configuration UI](https://github.com/LibreSign/libresign/issues/8160) | [LibreSign/libresign](https://github.com/LibreSign/libresign) | 811 | 🟢 beginner | 2026-09-09 | 🤖 disclose AI use · 🔏 DCO |
-| [Zombie chrome-headless processes created on element export](https://github.com/penpot/penpot/issues/10339) 💬 1 | [penpot/penpot](https://github.com/penpot/penpot) | 60k | 🟢 beginner | 2026-09-08 | 🤖 disclose AI use · 🔏 DCO |
+| [Zombie chrome-headless processes created on element export](https://github.com/penpot/penpot/issues/10339) 💬 1 | [penpot/penpot](https://github.com/penpot/penpot) | 60.1k | 🟢 beginner | 2026-09-08 | 🤖 disclose AI use · 🔏 DCO |
 | [It would be handy for devs to have a 'harper-cli linter-tree' command](https://github.com/Automattic/harper/issues/2323) 💬 3 | [Automattic/harper](https://github.com/Automattic/harper) | 15.4k | 🟢 beginner | 2026-09-08 | 🤖 disclose AI use |
 | [Add Hurl to Offical Redhat/Centos/Fedora repository](https://github.com/Orange-OpenSource/hurl/issues/367) 💬 1 | [Orange-OpenSource/hurl](https://github.com/Orange-OpenSource/hurl) | 19.2k | 🟡 help wanted | 2026-09-07 | 📄 AI policy |
 | [Support import of OpenVEX statements](https://github.com/DependencyTrack/dependency-track/issues/7094) 💬 8 | [DependencyTrack/dependency-track](https://github.com/DependencyTrack/dependency-track) | 4.2k | 🟢 beginner | 2026-09-07 | ⚠️ AI restricted · 🔏 DCO |
 | [List LibreSign in beginner-friendly open source directories](https://github.com/LibreSign/libresign/issues/8284) 💬 5 | [LibreSign/libresign](https://github.com/LibreSign/libresign) | 811 | 🟢 beginner | 2026-09-07 | 🤖 disclose AI use · 🔏 DCO |
 | [MudDataGrid: Add row number or index to the row context](https://github.com/MudBlazor/MudBlazor/issues/11167) 💬 1 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-09-06 |  |
 | [include git commit id in status information and artifact README](https://github.com/yacy/yacy_search_server/issues/466) 💬 1 | [yacy/yacy_search_server](https://github.com/yacy/yacy_search_server) | 4k | 🟢 beginner | 2026-09-06 |  |
-| [Command Line controls](https://github.com/tranxuanthang/lrcget/issues/61) 💬 6 | [tranxuanthang/lrcget](https://github.com/tranxuanthang/lrcget) | 3.1k | 🟡 help wanted | 2026-09-06 |  |
+| [Command Line controls](https://github.com/tranxuanthang/lrcget/issues/61) 💬 6 | [tranxuanthang/lrcget](https://github.com/tranxuanthang/lrcget) | 3.2k | 🟡 help wanted | 2026-09-06 |  |
 | [🚀 Feature Request: CopilotChat support @ context](https://github.com/CopilotKit/CopilotKit/issues/1962) 💬 8 | [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit) | 37.4k | 🟡 help wanted | 2026-09-05 |  |
 | [EntityDecoder MediaRange translation](https://github.com/http4s/http4s/issues/4973) 💬 11 | [http4s/http4s](https://github.com/http4s/http4s) | 2.6k | 🟢 beginner | 2026-09-05 |  |
 | [jetty-unixsocket: No ability to set permissions on unix domain socket - other services cannot connect](https://github.com/jetty/jetty.project/issues/10860) 💬 17 | [jetty/jetty.project](https://github.com/jetty/jetty.project) | 4.1k | 🟡 help wanted | 2026-09-04 |  |
@@ -120,7 +120,7 @@
 | [Improve public documents sharing](https://github.com/Smaug6739/Alexandrie/issues/608) | [Smaug6739/Alexandrie](https://github.com/Smaug6739/Alexandrie) | 2.7k | 🟢 beginner | 2026-08-24 |  |
 | [MudSelect should support nullable enums and show placeholder when value is null](https://github.com/MudBlazor/MudBlazor/issues/5647) 💬 2 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-08-23 |  |
 | [Joplin integration](https://github.com/LinwoodDev/Butterfly/issues/253) 💬 3 | [LinwoodDev/Butterfly](https://github.com/LinwoodDev/Butterfly) | 2k | 🟢 beginner | 2026-08-23 |  |
-| [Thai translation](https://github.com/donnemartin/system-design-primer/issues/187) 💬 6 | [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) | 370.3k | 🟡 help wanted | 2026-08-21 |  |
+| [Thai translation](https://github.com/donnemartin/system-design-primer/issues/187) 💬 6 | [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) | 370.4k | 🟡 help wanted | 2026-08-21 |  |
 | [Bug: In Cohorts, the 'set' operator filters in null values for person properties](https://github.com/PostHog/posthog/issues/29916) 💬 4 | [PostHog/posthog](https://github.com/PostHog/posthog) | 39.8k | 🟢 beginner | 2026-08-21 | ⚠️ AI restricted |
 | [Impossible to add word-wrap to menu title; 'white-space: normal' has no effect](https://github.com/ant-design/ant-design/issues/38918) 💬 6 | [ant-design/ant-design](https://github.com/ant-design/ant-design) | 99.5k | 🟡 help wanted | 2026-08-20 |  |
 | [Mask Slow Performance and Inaccurate Input on Blazor Server](https://github.com/MudBlazor/MudBlazor/issues/6280) 💬 8 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟡 help wanted | 2026-08-20 |  |
@@ -128,7 +128,7 @@
 | [Web Accessibility Issue in tabs and cards](https://github.com/ant-design/ant-design/issues/53584) 💬 6 | [ant-design/ant-design](https://github.com/ant-design/ant-design) | 99.5k | 🟡 help wanted | 2026-08-19 |  |
 | [Tabs not selectable with a keyboard when screen reader is not activated](https://github.com/ant-design/ant-design/issues/53612) 💬 3 | [ant-design/ant-design](https://github.com/ant-design/ant-design) | 99.5k | 🟡 help wanted | 2026-08-19 |  |
 | [[pkg/sqlstore] support mysql engine](https://github.com/SigNoz/signoz/issues/3487) 💬 6 | [SigNoz/signoz](https://github.com/SigNoz/signoz) | 32.1k | 🟢 beginner | 2026-08-19 |  |
-| [Greek Translation](https://github.com/donnemartin/system-design-primer/issues/130) 💬 5 | [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) | 370.3k | 🟡 help wanted | 2026-08-18 |  |
+| [Greek Translation](https://github.com/donnemartin/system-design-primer/issues/130) 💬 5 | [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) | 370.4k | 🟡 help wanted | 2026-08-18 |  |
 | [Adding a viewport "simulated real mode" with mockup](https://github.com/responsively-org/responsively-app/issues/363) 💬 2 | [responsively-org/responsively-app](https://github.com/responsively-org/responsively-app) | 25.2k | 🟡 help wanted | 2026-08-18 |  |
 | [MudDateRangePicker ResetAsync() does not affect the DateRange or the current focused period](https://github.com/MudBlazor/MudBlazor/issues/9692) 💬 3 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-08-18 |  |
 | [addTagOnEnter setting](https://github.com/yairEO/tagify/issues/1500) 💬 5 | [yairEO/tagify](https://github.com/yairEO/tagify) | 3.9k | 🟡 help wanted | 2026-08-17 |  |
@@ -211,4 +211,4 @@
 | [Option to not put a space before /&gt; in self-closing tags](https://github.com/beautifier/js-beautify/issues/654) 💬 13 | [beautifier/js-beautify](https://github.com/beautifier/js-beautify) | 9k | 🟢 beginner | 2026-06-23 |  |
 | [add support for link type extensions ('&lt;link [rel]&gt;')](https://github.com/kristoff-it/superhtml/issues/143) 💬 1 | [kristoff-it/superhtml](https://github.com/kristoff-it/superhtml) | 1.4k | 🟢 beginner | 2026-06-23 |  |
 
-Showing the 200 most recently updated. See all 284 on the website.
+Showing the 200 most recently updated. See all 281 on the website.

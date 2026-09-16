@@ -1,8 +1,8 @@
 # Java issues
 
-**270** open issues (121 labeled for beginners) across **80** active Java projects.
+**277** open issues (128 labeled for beginners) across **79** active Java projects.
 
-> Updated automatically on **2026-09-16 10:39 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-16 20:58 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,7 +10,19 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [Organization group roles are not automapped to realm/resource_access](https://github.com/keycloak/keycloak/issues/52764) 💬 5 | [keycloak/keycloak](https://github.com/keycloak/keycloak) | 36.8k | 🟡 help wanted | 2026-09-16 | 🤖 disclose AI use · 🔏 DCO |
 | [CORS Origin validation rejects non-browser token requests (direct grant, client credentials)](https://github.com/keycloak/keycloak/issues/51831) 💬 2 | [keycloak/keycloak](https://github.com/keycloak/keycloak) | 36.8k | 🟡 help wanted | 2026-09-16 | 🤖 disclose AI use · 🔏 DCO |
+| [[UI] Copy icon overlaps executionId text in Logs table](https://github.com/kestra-io/kestra/issues/18993) 💬 1 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-16 |  |
+| [[UI] Add Version display / selector to Plugin Documentation in Flow Editor](https://github.com/kestra-io/kestra/issues/14075) 💬 2 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-16 |  |
+| [Server starting behavior - PluginScanner - PrometheusMeterRegistry](https://github.com/kestra-io/kestra/issues/13741) 💬 4 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-16 |  |
+| [Kestra flow is failing for taskRunner Docker](https://github.com/kestra-io/kestra/issues/9814) 💬 2 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-16 |  |
+| [[ HttpRequest ] letter with accent are cropped in urlencoded forms](https://github.com/kestra-io/kestra/issues/8166) 💬 3 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-16 |  |
+| [Process Runner Fails Silently on Windows with cmd.exe](https://github.com/kestra-io/kestra/issues/12989) | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-16 |  |
+| [Fix validation of String plugin properties](https://github.com/kestra-io/kestra/issues/8801) 💬 3 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-16 |  |
+| [Task retry stuck in RETRYING state with rootless Podman setup in v1.1.12 (works in v0.22.10)](https://github.com/kestra-io/kestra/issues/14056) | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-16 |  |
+| [[JENKINS-31511] Recent (since 1.628) bug introduced into pluginManager filter UI](https://github.com/jenkinsci/jenkins/issues/21563) 💬 8 | [jenkinsci/jenkins](https://github.com/jenkinsci/jenkins) | 26.6k | 🟢 beginner | 2026-09-16 | ✍️ CLA |
+| [[JENKINS-44972] Truncated log displayed in middle of line, showing Base64-encoded ConsoleNote garbage](https://github.com/jenkinsci/jenkins/issues/22143) 💬 9 | [jenkinsci/jenkins](https://github.com/jenkinsci/jenkins) | 26.6k | 🟢 beginner | 2026-09-16 | ✍️ CLA |
+| [Controller Crashing - repetition of same config causing multi value setting](https://github.com/apache/pinot/issues/6595) 💬 2 | [apache/pinot](https://github.com/apache/pinot) | 6.1k | 🟢 beginner | 2026-09-16 | ✍️ CLA |
 | [请问jeecg-aiflow-boot 这个模块没有开源吗？](https://github.com/jeecgboot/JeecgBoot/issues/9886) | [jeecgboot/JeecgBoot](https://github.com/jeecgboot/JeecgBoot) | 47.8k | 🟡 help wanted | 2026-09-15 |  |
 | [CIMD: Unbounded persistent client creation via path variation](https://github.com/keycloak/keycloak/issues/50532) 💬 2 | [keycloak/keycloak](https://github.com/keycloak/keycloak) | 36.8k | 🟡 help wanted | 2026-09-15 | 🤖 disclose AI use · 🔏 DCO |
 | [Bad type on maxBufferSize in CsvToIon](https://github.com/kestra-io/kestra/issues/17885) | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-15 |  |
@@ -22,7 +34,6 @@
 | [[UI][Executions] Task Id is not visible when screen is small on the gantt](https://github.com/kestra-io/kestra/issues/18886) 💬 1 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-15 |  |
 | [[Bash2.0][Blueprints] First line of the code preview is fenced by a rule above and below it](https://github.com/kestra-io/kestra/issues/18330) | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-15 |  |
 | [Plugin type layout](https://github.com/kestra-io/kestra/issues/18789) 💬 1 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-15 |  |
-| [[UI] Copy icon overlaps executionId text in Logs table](https://github.com/kestra-io/kestra/issues/18993) | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-15 |  |
 | [execution overview not showing variables having value 0](https://github.com/kestra-io/kestra/issues/16194) 💬 2 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-15 |  |
 | [Secrets components: replace explicit 'any' with real types](https://github.com/kestra-io/kestra/issues/19296) 💬 4 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-15 |  |
 | [Translations: replace explicit 'any' with real types](https://github.com/kestra-io/kestra/issues/19306) 💬 4 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-15 |  |
@@ -47,7 +58,6 @@
 | [Zero downtime upgrade of keycloak](https://github.com/keycloak/keycloak/issues/14455) 💬 10 | [keycloak/keycloak](https://github.com/keycloak/keycloak) | 36.8k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use · 🔏 DCO |
 | [Recaptcha for login](https://github.com/keycloak/keycloak/issues/14936) 💬 15 | [keycloak/keycloak](https://github.com/keycloak/keycloak) | 36.8k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use · 🔏 DCO |
 | [Allow usernames with uppercase characters](https://github.com/keycloak/keycloak/issues/32869) 💬 15 | [keycloak/keycloak](https://github.com/keycloak/keycloak) | 36.8k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use · 🔏 DCO |
-| [Support C#/F# as one of the dedicated script plugin](https://github.com/kestra-io/kestra/issues/12742) 💬 4 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-11 |  |
 | [Add bazel flag for max_cas_entry size.](https://github.com/bazelbuild/bazel/issues/18449) 💬 11 | [bazelbuild/bazel](https://github.com/bazelbuild/bazel) | 25.9k | 🟡 help wanted | 2026-09-11 | ✍️ CLA |
 | [New user UX: Bring some life to the app, fill the inbox](https://github.com/AntennaPod/AntennaPod/issues/8730) | [AntennaPod/AntennaPod](https://github.com/AntennaPod/AntennaPod) | 8.2k | 🟢 beginner | 2026-09-11 |  |
 | [Support for Vavr types?](https://github.com/micronaut-projects/micronaut-core/issues/3520) 💬 2 | [micronaut-projects/micronaut-core](https://github.com/micronaut-projects/micronaut-core) | 6.4k | 🟡 help wanted | 2026-09-11 |  |
@@ -91,7 +101,7 @@
 | ["Error loading feed" message reappears when rotating the screen even after selecting Cancel](https://github.com/TeamNewPipe/NewPipe/issues/8474) 💬 3 | [TeamNewPipe/NewPipe](https://github.com/TeamNewPipe/NewPipe) | 39.7k | 🟡 help wanted | 2026-08-27 | 📄 AI policy |
 | [系统WebView问题，请在该issue下留言讨论。](https://github.com/Justson/AgentWeb/issues/219) 💬 21 | [Justson/AgentWeb](https://github.com/Justson/AgentWeb) | 9.4k | 🟡 help wanted | 2026-08-27 |  |
 | [网站里的图画错了？](https://github.com/jeecgboot/JeecgBoot/issues/9857) 💬 1 | [jeecgboot/JeecgBoot](https://github.com/jeecgboot/JeecgBoot) | 47.8k | 🟡 help wanted | 2026-08-26 |  |
-| [[Feature Request]:](https://github.com/yuliskov/SmartTube/issues/4603) 💬 7 | [yuliskov/SmartTube](https://github.com/yuliskov/SmartTube) | 33.7k | 🟡 help wanted | 2026-08-26 |  |
+| [[Feature Request]:](https://github.com/yuliskov/SmartTube/issues/4603) 💬 7 | [yuliskov/SmartTube](https://github.com/yuliskov/SmartTube) | 33.8k | 🟡 help wanted | 2026-08-26 |  |
 | [Command line to Export ER Diagrams](https://github.com/dbeaver/dbeaver/issues/6215) 💬 7 | [dbeaver/dbeaver](https://github.com/dbeaver/dbeaver) | 51.8k | 🟡 help wanted | 2026-08-25 | 🤖 disclose AI use |
 | [Show/Don't hide feed items when updating feed](https://github.com/TeamNewPipe/NewPipe/issues/4952) 💬 5 | [TeamNewPipe/NewPipe](https://github.com/TeamNewPipe/NewPipe) | 39.7k | 🟡 help wanted | 2026-08-25 | 📄 AI policy |
 | [Support a properties-file (available during runtime) for ml-models (Stateless evaluation in container)](https://github.com/vespa-engine/vespa/issues/9552) 💬 2 | [vespa-engine/vespa](https://github.com/vespa-engine/vespa) | 7.1k | 🟢 beginner | 2026-08-25 |  |
@@ -121,7 +131,7 @@
 | [[Feature]: Add ArgumentHexColor](https://github.com/Minestom/Minestom/issues/3199) 💬 3 | [Minestom/Minestom](https://github.com/Minestom/Minestom) | 3.3k | 🟢 beginner | 2026-08-16 |  |
 | [[Bug] [Flink] stop flink job error](https://github.com/apache/dolphinscheduler/issues/16789) 💬 6 | [apache/dolphinscheduler](https://github.com/apache/dolphinscheduler) | 14.5k | 🟢 beginner | 2026-08-15 |  |
 | [IPMI Monitoring Data Interruption Issue](https://github.com/apache/hertzbeat/issues/3197) 💬 10 | [apache/hertzbeat](https://github.com/apache/hertzbeat) | 7.4k | 🟢 beginner | 2026-08-15 |  |
-| [[JENKINS-33239] Environment variable resolves variables recursively](https://github.com/jenkinsci/jenkins/issues/21801) 💬 4 | [jenkinsci/jenkins](https://github.com/jenkinsci/jenkins) | 26.5k | 🟢 beginner | 2026-08-12 | ✍️ CLA |
+| [[JENKINS-33239] Environment variable resolves variables recursively](https://github.com/jenkinsci/jenkins/issues/21801) 💬 4 | [jenkinsci/jenkins](https://github.com/jenkinsci/jenkins) | 26.6k | 🟢 beginner | 2026-08-12 | ✍️ CLA |
 | [Light/Dark theme not applying correctly across UI components](https://github.com/tchiotludo/akhq/issues/2633) 💬 5 | [tchiotludo/akhq](https://github.com/tchiotludo/akhq) | 3.9k | 🟢 beginner | 2026-08-12 |  |
 | [Optimize jdk.internal.misc.Unsafe.storeStoreFence() into no-op on x86 platforms](https://github.com/eclipse-openj9/openj9/issues/19042) 💬 3 | [eclipse-openj9/openj9](https://github.com/eclipse-openj9/openj9) | 3.5k | 🟢 beginner | 2026-08-12 | 🤖 disclose AI use · ✍️ CLA · 🔏 DCO |
 | ['--test_output=streamed' does not stream the logs when executing remotely](https://github.com/bazelbuild/bazel/issues/30651) | [bazelbuild/bazel](https://github.com/bazelbuild/bazel) | 25.9k | 🟡 help wanted | 2026-08-11 | ✍️ CLA |
@@ -160,7 +170,7 @@
 | [Use kiali to build a microservices governance console](https://github.com/alibaba/spring-cloud-alibaba/issues/3118) 💬 2 | [alibaba/spring-cloud-alibaba](https://github.com/alibaba/spring-cloud-alibaba) | 29.2k | 🟢 beginner | 2026-07-21 |  |
 | [Regarding the GA version issue](https://github.com/alibaba/spring-cloud-alibaba/issues/4100) 💬 6 | [alibaba/spring-cloud-alibaba](https://github.com/alibaba/spring-cloud-alibaba) | 29.2k | 🟢 beginner | 2026-07-21 |  |
 | [RTools download progress dialog isn't focused](https://github.com/rstudio/rstudio/issues/11521) 💬 2 | [rstudio/rstudio](https://github.com/rstudio/rstudio) | 5.1k | 🟢 beginner | 2026-07-21 |  |
-| [Support for Azure Cognitive Services Speech SDK](https://github.com/spring-projects/spring-ai/issues/1165) 💬 8 | [spring-projects/spring-ai](https://github.com/spring-projects/spring-ai) | 9.4k | 🟡 help wanted | 2026-07-16 | 🤖 disclose AI use · ✍️ CLA · 🔏 DCO |
+| [Support for Azure Cognitive Services Speech SDK](https://github.com/spring-projects/spring-ai/issues/1165) 💬 8 | [spring-projects/spring-ai](https://github.com/spring-projects/spring-ai) | 9.5k | 🟡 help wanted | 2026-07-16 | 🤖 disclose AI use · ✍️ CLA · 🔏 DCO |
 | [The MavenMetaAnalyzer task fails due to invalid URLs](https://github.com/DependencyTrack/dependency-track/issues/3566) 💬 2 | [DependencyTrack/dependency-track](https://github.com/DependencyTrack/dependency-track) | 4.2k | 🟢 beginner | 2026-07-16 | ⚠️ AI restricted · 🔏 DCO |
 | [规则Web可视化方案咨询](https://github.com/alibaba/QLExpress/issues/419) 💬 1 | [alibaba/QLExpress](https://github.com/alibaba/QLExpress) | 5.6k | 🟡 help wanted | 2026-07-13 |  |
 | [Variable Filter does not return results for decimal numbers when decimal point is zero](https://github.com/camunda/camunda/issues/32838) 💬 1 | [camunda/camunda](https://github.com/camunda/camunda) | 4.3k | 🟢 beginner | 2026-07-12 | ✍️ CLA |
@@ -168,7 +178,7 @@
 | [Offer a way to get a provider from ctx.super() response](https://github.com/bazelbuild/bazel/issues/26960) 💬 3 | [bazelbuild/bazel](https://github.com/bazelbuild/bazel) | 25.9k | 🟡 help wanted | 2026-07-09 | ✍️ CLA |
 | [Decrypt Whatsapp desktop client db files](https://github.com/sepinf-inc/IPED/issues/2247) 💬 5 | [sepinf-inc/IPED](https://github.com/sepinf-inc/IPED) | 3k | 🟡 help wanted | 2026-07-09 |  |
 | [ModuleListImpl erases concrete subclass types of stored Modules, causing ClassCastException when casting back ](https://github.com/bytedeco/javacpp-presets/issues/1783) 💬 2 | [bytedeco/javacpp-presets](https://github.com/bytedeco/javacpp-presets) | 2.9k | 🟡 help wanted | 2026-07-09 |  |
-| [[JENKINS-42816] Agent terminology cleanup](https://github.com/jenkinsci/jenkins/issues/21944) 💬 8 | [jenkinsci/jenkins](https://github.com/jenkinsci/jenkins) | 26.5k | 🟡 help wanted | 2026-07-08 | ✍️ CLA |
+| [[JENKINS-42816] Agent terminology cleanup](https://github.com/jenkinsci/jenkins/issues/21944) 💬 8 | [jenkinsci/jenkins](https://github.com/jenkinsci/jenkins) | 26.6k | 🟡 help wanted | 2026-07-08 | ✍️ CLA |
 | [Improve UX for beginner users](https://github.com/Col-E/Recaf/issues/230) | [Col-E/Recaf](https://github.com/Col-E/Recaf) | 7.4k | 🟡 help wanted | 2026-07-08 |  |
 | [Disable colors in logs](https://github.com/tchiotludo/akhq/issues/917) 💬 9 | [tchiotludo/akhq](https://github.com/tchiotludo/akhq) | 3.9k | 🟢 beginner | 2026-07-08 |  |
 | [Limit the cardinality of request metrics](https://github.com/line/armeria/issues/2149) 💬 9 | [line/armeria](https://github.com/line/armeria) | 5.1k | 🟢 beginner | 2026-07-07 |  |
@@ -200,15 +210,5 @@
 | [[openvino] [hugectr][apex][FasterTransformer][horovod][NCNN][ggml][llm][faiss][USearch]these deeplearning tool](https://github.com/bytedeco/javacpp-presets/issues/1404) 💬 3 | [bytedeco/javacpp-presets](https://github.com/bytedeco/javacpp-presets) | 2.9k | 🟡 help wanted | 2026-06-04 |  |
 | [Add size-bounded GC of the repo contents cache](https://github.com/bazelbuild/bazel/issues/29557) 💬 1 | [bazelbuild/bazel](https://github.com/bazelbuild/bazel) | 25.9k | 🟡 help wanted | 2026-06-03 | ✍️ CLA |
 | [[GSoC 2025] Enhancing Dubbo Python Serialization](https://github.com/apache/dubbo/issues/15215) 💬 6 | [apache/dubbo](https://github.com/apache/dubbo) | 41.6k | 🟡 help wanted | 2026-06-02 | ✍️ CLA |
-| [Feature Request: Add Support for torch.jit.script, torch.jit.trace, and AOT Optimization APIs in JavaCPP PyTor](https://github.com/bytedeco/javacpp-presets/issues/1776) 💬 8 | [bytedeco/javacpp-presets](https://github.com/bytedeco/javacpp-presets) | 2.9k | 🟡 help wanted | 2026-06-02 |  |
-| [should we consider adding multiple overloaded [ forward] methods to org.bytedeco.pytorch.Module？](https://github.com/bytedeco/javacpp-presets/issues/1757) 💬 8 | [bytedeco/javacpp-presets](https://github.com/bytedeco/javacpp-presets) | 2.9k | 🟡 help wanted | 2026-06-01 |  |
-| [[Improvement][Alter] Add instance link to alert like email](https://github.com/apache/dolphinscheduler/issues/16716) 💬 5 | [apache/dolphinscheduler](https://github.com/apache/dolphinscheduler) | 14.5k | 🟡 help wanted | 2026-05-31 |  |
-| [[Bug] [seatunnel task] run the seatunnel task ,report "-e and --deploy-mode deprecated in 2.3.1, please use -m](https://github.com/apache/dolphinscheduler/issues/16617) 💬 2 | [apache/dolphinscheduler](https://github.com/apache/dolphinscheduler) | 14.5k | 🟡 help wanted | 2026-05-31 |  |
-| [Projects view, versions column should support semantic versioning](https://github.com/DependencyTrack/dependency-track/issues/378) 💬 3 | [DependencyTrack/dependency-track](https://github.com/DependencyTrack/dependency-track) | 4.2k | 🟡 help wanted | 2026-05-30 | ⚠️ AI restricted · 🔏 DCO |
-| [core issue # Issue: Enable Kineto Profiler Support in JavaCPP PyTorch Bindings，need javacpp compile kineto par](https://github.com/bytedeco/javacpp-presets/issues/1772) | [bytedeco/javacpp-presets](https://github.com/bytedeco/javacpp-presets) | 2.9k | 🟡 help wanted | 2026-05-30 |  |
-| [Re-implement fuzzy analysis for internal scanner](https://github.com/DependencyTrack/dependency-track/issues/6195) | [DependencyTrack/dependency-track](https://github.com/DependencyTrack/dependency-track) | 4.2k | 🟡 help wanted | 2026-05-29 | ⚠️ AI restricted · 🔏 DCO |
-| [[Best Pratice] JavaWeb Integration Solution](https://github.com/agentscope-ai/agentscope-java/issues/113) 💬 3 | [agentscope-ai/agentscope-java](https://github.com/agentscope-ai/agentscope-java) | 5.6k | 🟡 help wanted | 2026-05-28 |  |
-| [[Feature] MCP Tool notification support](https://github.com/agentscope-ai/agentscope-java/issues/115) 💬 3 | [agentscope-ai/agentscope-java](https://github.com/agentscope-ai/agentscope-java) | 5.6k | 🟡 help wanted | 2026-05-28 |  |
-| [[Proposal Wanted] Merge deployment support](https://github.com/agentscope-ai/agentscope-java/issues/116) | [agentscope-ai/agentscope-java](https://github.com/agentscope-ai/agentscope-java) | 5.6k | 🟡 help wanted | 2026-05-28 |  |
 
-Showing the 200 most recently updated. See all 270 on the website.
+Showing the 200 most recently updated. See all 277 on the website.
