@@ -1,8 +1,8 @@
 # Kotlin issues
 
-**160** open issues (64 labeled for beginners) across **69** active Kotlin projects.
+**155** open issues (59 labeled for beginners) across **69** active Kotlin projects.
 
-> Updated automatically on **2026-09-15 21:01 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-16 10:39 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -12,7 +12,6 @@
 | --- | --- | ---: | --- | --- | --- |
 | [Map maintenance with overlays](https://github.com/streetcomplete/StreetComplete/issues/4735) 💬 14 | [streetcomplete/StreetComplete](https://github.com/streetcomplete/StreetComplete) | 4.8k | 🟡 help wanted | 2026-09-14 |  |
 | [Thread-safe date formatting and scope ownership for 2 launches left from #5070](https://github.com/kiwix/kiwix-android/issues/5078) | [kiwix/kiwix-android](https://github.com/kiwix/kiwix-android) | 1.5k | 🟢 beginner | 2026-09-14 |  |
-| [From address is not shown in full detail](https://github.com/thunderbird/thunderbird-android/issues/11502) 💬 2 | [thunderbird/thunderbird-android](https://github.com/thunderbird/thunderbird-android) | 14k | 🟢 beginner | 2026-09-13 | 🤖 disclose AI use |
 | [Testers wanted for "Google Closed Testing"](https://github.com/aj3423/SpamBlocker/issues/664) | [aj3423/SpamBlocker](https://github.com/aj3423/SpamBlocker) | 1.8k | 🟡 help wanted | 2026-09-13 |  |
 | [Errors regarding the native mode's "Save" option](https://github.com/andreknieriem/open-headunit/issues/953) 💬 11 | [andreknieriem/open-headunit](https://github.com/andreknieriem/open-headunit) | 2.4k | 🟡 help wanted | 2026-09-12 |  |
 | [[Account setup] Display "warning" message when using POP3](https://github.com/thunderbird/thunderbird-android/issues/7551) 💬 5 | [thunderbird/thunderbird-android](https://github.com/thunderbird/thunderbird-android) | 14k | 🟢 beginner | 2026-09-11 | 🤖 disclose AI use |
@@ -44,10 +43,10 @@
 | [应用崩溃 IllegalStateException](https://github.com/open-ani/animeko/issues/2328) 💬 2 | [open-ani/animeko](https://github.com/open-ani/animeko) | 20.1k | 🟡 help wanted | 2026-09-05 |  |
 | [增加设置允许后台播放](https://github.com/open-ani/animeko/issues/59) 💬 5 | [open-ani/animeko](https://github.com/open-ani/animeko) | 20.1k | 🟡 help wanted | 2026-09-05 |  |
 | [Broken Image Frame when switching orientation of paused video](https://github.com/mpv-android/mpv-android/issues/1201) 💬 11 | [mpv-android/mpv-android](https://github.com/mpv-android/mpv-android) | 3.6k | 🟡 help wanted | 2026-09-05 |  |
-| [[ Future request]跨平台，跨设备配置资产备份同步-开发进度](https://github.com/AAswordman/Operit/issues/321) 💬 1 | [AAswordman/Operit](https://github.com/AAswordman/Operit) | 7.8k | 🟢 beginner | 2026-09-04 |  |
-| [[建议] 增加「设备状态定时上报到自定义 Webhook」能力](https://github.com/AAswordman/Operit/issues/617) 💬 6 | [AAswordman/Operit](https://github.com/AAswordman/Operit) | 7.8k | 🟢 beginner | 2026-09-04 |  |
-| [[ Future request]支持单独配置子模型参数](https://github.com/AAswordman/Operit/issues/596) 💬 11 | [AAswordman/Operit](https://github.com/AAswordman/Operit) | 7.8k | 🟢 beginner | 2026-09-04 |  |
-| [关于发送聊天记录的问题](https://github.com/AAswordman/Operit/issues/635) 💬 3 | [AAswordman/Operit](https://github.com/AAswordman/Operit) | 7.8k | 🟡 help wanted | 2026-09-04 |  |
+| [[ Future request]跨平台，跨设备配置资产备份同步-开发进度](https://github.com/AAswordman/Operit/issues/321) 💬 1 | [AAswordman/Operit](https://github.com/AAswordman/Operit) | 7.9k | 🟢 beginner | 2026-09-04 |  |
+| [[建议] 增加「设备状态定时上报到自定义 Webhook」能力](https://github.com/AAswordman/Operit/issues/617) 💬 6 | [AAswordman/Operit](https://github.com/AAswordman/Operit) | 7.9k | 🟢 beginner | 2026-09-04 |  |
+| [[ Future request]支持单独配置子模型参数](https://github.com/AAswordman/Operit/issues/596) 💬 11 | [AAswordman/Operit](https://github.com/AAswordman/Operit) | 7.9k | 🟢 beginner | 2026-09-04 |  |
+| [关于发送聊天记录的问题](https://github.com/AAswordman/Operit/issues/635) 💬 3 | [AAswordman/Operit](https://github.com/AAswordman/Operit) | 7.9k | 🟡 help wanted | 2026-09-04 |  |
 | [[Feature Request] Handle work profile (as for instance created by shelter)](https://github.com/samolego/Canta/issues/153) 💬 3 | [samolego/Canta](https://github.com/samolego/Canta) | 5.9k | 🟡 help wanted | 2026-09-03 |  |
 | [Automatic refresh rate switching](https://github.com/mpv-android/mpv-android/issues/12) 💬 24 | [mpv-android/mpv-android](https://github.com/mpv-android/mpv-android) | 3.6k | 🟡 help wanted | 2026-09-03 |  |
 | [Switch form extending AlertDialog to just Dialog](https://github.com/getsentry/sentry-java/issues/5354) 💬 1 | [getsentry/sentry-java](https://github.com/getsentry/sentry-java) | 1.4k | 🟢 beginner | 2026-09-01 |  |
@@ -67,13 +66,10 @@
 | [TalkBack conflicts with TTS](https://github.com/ankidroid/Anki-Android/issues/6369) 💬 4 | [ankidroid/Anki-Android](https://github.com/ankidroid/Anki-Android) | 11.8k | 🟡 help wanted | 2026-08-27 | 🤖 disclose AI use |
 | [compileOnly: allow users to define a list of compileOnly(Api) dependencies](https://github.com/autonomousapps/dependency-analysis-gradle-plugin/issues/1387) 💬 3 | [autonomousapps/dependency-analysis-gradle-plugin](https://github.com/autonomousapps/dependency-analysis-gradle-plugin) | 2.2k | 🟡 help wanted | 2026-08-27 |  |
 | [Show Answer button jumps view back to top](https://github.com/ankidroid/Anki-Android/issues/5182) 💬 27 | [ankidroid/Anki-Android](https://github.com/ankidroid/Anki-Android) | 11.8k | 🟡 help wanted | 2026-08-26 | 🤖 disclose AI use |
-| [[Feature]: Localize not change](https://github.com/TheWidlarzGroup/react-native-video/issues/3686) 💬 6 | [TheWidlarzGroup/react-native-video](https://github.com/TheWidlarzGroup/react-native-video) | 7.7k | 🟢 beginner | 2026-08-26 |  |
 | [Unclosed strings cause editor hangs](https://github.com/intellij-elixir/intellij-elixir/issues/361) 💬 1 | [intellij-elixir/intellij-elixir](https://github.com/intellij-elixir/intellij-elixir) | 1.9k | 🟡 help wanted | 2026-08-26 |  |
 | [Default Trace Context Status to OK](https://github.com/getsentry/sentry-java/issues/4769) 💬 2 | [getsentry/sentry-java](https://github.com/getsentry/sentry-java) | 1.4k | 🟢 beginner | 2026-08-26 |  |
 | [Nutrient level clipping issue on some devices](https://github.com/openfoodfacts/openfoodfacts-androidapp/issues/4441) 💬 4 | [openfoodfacts/openfoodfacts-androidapp](https://github.com/openfoodfacts/openfoodfacts-androidapp) | 804 | 🟢 beginner | 2026-08-26 |  |
 | [Change CTA from 'Use this photo' to 'Use this GIF' when adding from Tenor](https://github.com/wordpress-mobile/WordPress-Android/issues/16212) 💬 2 | [wordpress-mobile/WordPress-Android](https://github.com/wordpress-mobile/WordPress-Android) | 3.2k | 🟢 beginner | 2026-08-25 |  |
-| [[Bug]: iOS Crash: Deadlock caused by DispatchQueue.main.sync in RCTVideo.swift](https://github.com/TheWidlarzGroup/react-native-video/issues/4888) 💬 2 | [TheWidlarzGroup/react-native-video](https://github.com/TheWidlarzGroup/react-native-video) | 7.7k | 🟢 beginner | 2026-08-23 |  |
-| [[Android] VideoPlaybackService crashes on Android 8+ (O) — missing NotificationChannel before startForeground(](https://github.com/TheWidlarzGroup/react-native-video/issues/4892) 💬 2 | [TheWidlarzGroup/react-native-video](https://github.com/TheWidlarzGroup/react-native-video) | 7.7k | 🟢 beginner | 2026-08-23 |  |
 | [Make category selection more intuitive for beginners](https://github.com/openfoodfacts/openfoodfacts-androidapp/issues/2951) | [openfoodfacts/openfoodfacts-androidapp](https://github.com/openfoodfacts/openfoodfacts-androidapp) | 804 | 🟡 help wanted | 2026-08-22 |  |
 | [Remove nutrient hardcoding (nutrition table/edit mode) using new API](https://github.com/openfoodfacts/openfoodfacts-androidapp/issues/2357) 💬 5 | [openfoodfacts/openfoodfacts-androidapp](https://github.com/openfoodfacts/openfoodfacts-androidapp) | 804 | 🟡 help wanted | 2026-08-22 |  |
 | [Show additives class on the additives card](https://github.com/openfoodfacts/openfoodfacts-androidapp/issues/2233) 💬 4 | [openfoodfacts/openfoodfacts-androidapp](https://github.com/openfoodfacts/openfoodfacts-androidapp) | 804 | 🟡 help wanted | 2026-08-22 |  |
@@ -123,8 +119,6 @@
 | [[Feature]: Migrate from SharedPreferences to Preferences DataStore](https://github.com/kitsumed/ShizuCallRecorder/issues/3) | [kitsumed/ShizuCallRecorder](https://github.com/kitsumed/ShizuCallRecorder) | 1.5k | 🟡 help wanted | 2026-06-26 | 🤖 disclose AI use |
 | [Play random gif instead of showing leak icon](https://github.com/square/leakcanary/issues/1988) 💬 3 | [square/leakcanary](https://github.com/square/leakcanary) | 30k | 🟡 help wanted | 2026-06-25 |  |
 | [Progress indicator when opening/importing a HeapDump file](https://github.com/square/leakcanary/issues/2129) 💬 2 | [square/leakcanary](https://github.com/square/leakcanary) | 30k | 🟡 help wanted | 2026-06-25 |  |
-| [[BUG]: 'muted' not working on Android 12/13 for Samsung and Pixel devices](https://github.com/TheWidlarzGroup/react-native-video/issues/4162) 💬 5 | [TheWidlarzGroup/react-native-video](https://github.com/TheWidlarzGroup/react-native-video) | 7.7k | 🟡 help wanted | 2026-06-23 |  |
-| [[Bug]: Ad Pauses on Buffer but Never Resumes](https://github.com/TheWidlarzGroup/react-native-video/issues/3113) 💬 2 | [TheWidlarzGroup/react-native-video](https://github.com/TheWidlarzGroup/react-native-video) | 7.7k | 🟢 beginner | 2026-06-23 |  |
 | [Inline some type aliases in public API, part 2](https://github.com/Kotlin/dataframe/issues/1866) 💬 1 | [Kotlin/dataframe](https://github.com/Kotlin/dataframe) | 1.1k | 🟢 beginner | 2026-06-22 |  |
 | [L2CAP connection fails on A16 GrapheneOS](https://github.com/librepods-org/librepods/issues/211) 💬 20 | [librepods-org/librepods](https://github.com/librepods-org/librepods) | 29.9k | 🟢 beginner | 2026-06-21 |  |
 | [Support dimensions for embedding models](https://github.com/JetBrains/koog/issues/340) 💬 6 | [JetBrains/koog](https://github.com/JetBrains/koog) | 4.6k | 🟢 beginner | 2026-06-21 |  |
@@ -153,7 +147,7 @@
 | [Improve Threat Matrix](https://github.com/doyensec/inql/issues/220) | [doyensec/inql](https://github.com/doyensec/inql) | 1.8k | 🟢 beginner | 2026-05-07 |  |
 | [请问如果需要人脸识别才能打卡的话，这个软件还适用吗](https://github.com/AndroidCoderPeng/DailyTask/issues/67) 💬 1 | [AndroidCoderPeng/DailyTask](https://github.com/AndroidCoderPeng/DailyTask) | 1.8k | 🟡 help wanted | 2026-05-06 |  |
 | [Opening "On device" menu causes "All files" to open "On device" the first time](https://github.com/nextcloud/android/issues/9668) 💬 4 | [nextcloud/android](https://github.com/nextcloud/android) | 5.6k | 🟢 beginner | 2026-05-04 | 🤖 disclose AI use · 🔏 DCO |
-| [Google killing freedom android](https://github.com/alexch33/super-video-downloader/issues/231) 💬 1 | [alexch33/super-video-downloader](https://github.com/alexch33/super-video-downloader) | 927 | 🟡 help wanted | 2026-05-04 |  |
+| [Google killing freedom android](https://github.com/alexch33/super-video-downloader/issues/231) 💬 1 | [alexch33/super-video-downloader](https://github.com/alexch33/super-video-downloader) | 928 | 🟡 help wanted | 2026-05-04 |  |
 | [[Feature request] RCS support with E2EE](https://github.com/dekusms/DekuSMS-Android/issues/184) 💬 5 | [dekusms/DekuSMS-Android](https://github.com/dekusms/DekuSMS-Android) | 598 | 🟡 help wanted | 2026-05-03 |  |
 | [Translations for upcoming release](https://github.com/libre-tube/LibreTube/issues/8314) 💬 1 | [libre-tube/LibreTube](https://github.com/libre-tube/LibreTube) | 12.7k | 🟡 help wanted | 2026-04-20 |  |
 | [Placeholder image messes up image 'ContentScale'](https://github.com/coil-kt/coil/issues/2779) 💬 3 | [coil-kt/coil](https://github.com/coil-kt/coil) | 11.9k | 🟡 help wanted | 2026-04-20 |  |
@@ -169,4 +163,5 @@
 | [Remove the swipe gesture from the bottom once the user is familiar with the app](https://github.com/kiwix/kiwix-android/issues/4621) 💬 5 | [kiwix/kiwix-android](https://github.com/kiwix/kiwix-android) | 1.5k | 🟢 beginner | 2026-03-31 |  |
 | [osmdroid is now archived and will no longer receive updates or new releases](https://github.com/commons-app/apps-android-commons/issues/6380) 💬 2 | [commons-app/apps-android-commons](https://github.com/commons-app/apps-android-commons) | 1.2k | 🟢 beginner | 2026-03-29 |  |
 | [Change default behavior to stop tracing 404s unless explicitly enabled](https://github.com/getsentry/sentry-java/issues/4736) 💬 2 | [getsentry/sentry-java](https://github.com/getsentry/sentry-java) | 1.4k | 🟢 beginner | 2026-03-24 |  |
+| [[Feature]: Support web camera by wasm or javascript](https://github.com/Kashif-E/Kamera/issues/111) 💬 2 | [Kashif-E/Kamera](https://github.com/Kashif-E/Kamera) | 576 | 🟡 help wanted | 2026-03-21 |  |
 | [Investigate conversion of hard-to-replace PNGs to SVG](https://github.com/ankidroid/Anki-Android/issues/8741) 💬 32 | [ankidroid/Anki-Android](https://github.com/ankidroid/Anki-Android) | 11.8k | 🟢 beginner | 2026-03-20 | 🤖 disclose AI use |

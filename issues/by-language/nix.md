@@ -2,7 +2,7 @@
 
 **11** open issues (4 labeled for beginners) across **9** active Nix projects.
 
-> Updated automatically on **2026-09-15 21:01 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-16 10:39 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -19,5 +19,5 @@
 | [random failures during script "cannot open /dev/disk/by-partlabel/disk-sda-boot"](https://github.com/nix-community/disko/issues/739) 💬 5 | [nix-community/disko](https://github.com/nix-community/disko) | 3.3k | 🟡 help wanted | 2026-05-15 |  |
 | [vsock support with vfkit runner](https://github.com/microvm-nix/microvm.nix/issues/513) 💬 4 | [microvm-nix/microvm.nix](https://github.com/microvm-nix/microvm.nix) | 2.9k | 🟡 help wanted | 2026-05-02 |  |
 | [Changing 'fonts.fonts' default to NixOS' 'fonts.packages'](https://github.com/nixpak/nixpak/issues/196) 💬 1 | [nixpak/nixpak](https://github.com/nixpak/nixpak) | 649 | 🟢 beginner | 2026-04-14 |  |
-| [FR: battery for flake-parts independent system access](https://github.com/denful/den/issues/159) | [denful/den](https://github.com/denful/den) | 593 | 🟢 beginner | 2026-04-13 |  |
+| [FR: battery for flake-parts independent system access](https://github.com/denful/den/issues/159) | [denful/den](https://github.com/denful/den) | 594 | 🟢 beginner | 2026-04-13 |  |
 | [Customizing dashboard.alpha](https://github.com/NotAShelf/nvf/issues/1123) 💬 2 | [NotAShelf/nvf](https://github.com/NotAShelf/nvf) | 1.6k | 🟡 help wanted | 2026-03-22 |  |
