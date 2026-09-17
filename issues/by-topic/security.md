@@ -1,8 +1,8 @@
 # Security and privacy issues
 
-**233** open issues (113 labeled for beginners) across **58** projects tagged with topics like `security`, `privacy`, `cryptography`, `encryption`, `authentication`, `oauth`.
+**232** open issues (114 labeled for beginners) across **58** projects tagged with topics like `security`, `privacy`, `cryptography`, `encryption`, `authentication`, `oauth`.
 
-> Updated automatically on **2026-09-17 10:46 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-17 21:06 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,8 +10,10 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [macbook use Touch ID instead password](https://github.com/GyulyVGC/sniffnet/issues/1300) 💬 3 | [GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet) | 41.1k | 🟢 beginner | 2026-09-17 | 🤖 disclose AI use |
 | [URI name constraints accept an IP-literal authority with excludedSubtrees only](https://github.com/openssl/openssl/issues/32858) 💬 1 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-17 | 🤖 disclose AI use · ✍️ CLA |
 | [🚨 Schedule view: blurred background image overflows viewport, pushing nav off-screen](https://github.com/super-productivity/super-productivity/issues/10063) 💬 5 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.1k | 🟡 help wanted | 2026-09-17 |  |
+| [Mutual information content for rizin and rz-diff](https://github.com/rizinorg/rizin/issues/5176) 💬 4 | [rizinorg/rizin](https://github.com/rizinorg/rizin) | 3.9k | 🟢 beginner | 2026-09-17 | 🤖 disclose AI use |
 | [Frequent test hangs in 4.1 (master) on Nonstop tests](https://github.com/openssl/openssl/issues/32618) 💬 9 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-16 | 🤖 disclose AI use · ✍️ CLA |
 | [Ticket age wraparound breaks TLS 1.3 and DTLS 1.3 early data freshness checks](https://github.com/openssl/openssl/issues/32834) 💬 1 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-16 | 🤖 disclose AI use · ✍️ CLA |
 | [💡 [Android] Feature Request: Customizable Bottom Navigation Bar Layout](https://github.com/super-productivity/super-productivity/issues/7637) 💬 8 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.1k | 🟡 help wanted | 2026-09-16 |  |
@@ -41,7 +43,6 @@
 | [💡 Save a task as a reusable template](https://github.com/super-productivity/super-productivity/issues/4982) 💬 3 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.1k | 🟡 help wanted | 2026-09-13 |  |
 | [Reusable task with sub tasks structure or template](https://github.com/super-productivity/super-productivity/issues/3952) 💬 6 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.1k | 🟡 help wanted | 2026-09-13 |  |
 | [Add update checker and installer for standalone Linux versions (rpm, deb, appimage etc.)](https://github.com/super-productivity/super-productivity/issues/3730) 💬 8 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.1k | 🟡 help wanted | 2026-09-13 |  |
-| [Global shortcut registration failed: CTRL+Shift+X in Wayland](https://github.com/super-productivity/super-productivity/issues/3789) 💬 11 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.1k | 🟡 help wanted | 2026-09-13 |  |
 | [Empty indices are incorrectly included in the search target](https://github.com/Graylog2/graylog2-server/issues/6016) 💬 7 | [Graylog2/graylog2-server](https://github.com/Graylog2/graylog2-server) | 8.1k | 🟢 beginner | 2026-09-13 |  |
 | [Adding QR-UOV](https://github.com/open-quantum-safe/liboqs/issues/2454) 💬 17 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-09-13 |  |
 | [Support ECH SSLKEYLOGFILE](https://github.com/openssl/openssl/issues/31607) 💬 5 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-12 | 🤖 disclose AI use · ✍️ CLA |
@@ -64,7 +65,6 @@
 | [Add flag to disable Web Audio API](https://github.com/ungoogled-software/ungoogled-chromium/issues/3944) | [ungoogled-software/ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium) | 27.7k | 🟡 help wanted | 2026-09-04 |  |
 | [[Flatpak] Auth: Failed to launch: libsecret_error: Failed to unlock the keyring](https://github.com/ente/ente/issues/6564) 💬 6 | [ente/ente](https://github.com/ente/ente) | 28.9k | 🟡 help wanted | 2026-09-03 |  |
 | [borg2 b24: benchmarking needed](https://github.com/borgbackup/borg/issues/10315) 💬 7 | [borgbackup/borg](https://github.com/borgbackup/borg) | 13.7k | 🟡 help wanted | 2026-09-03 |  |
-| [macbook use Touch ID instead password](https://github.com/GyulyVGC/sniffnet/issues/1300) 💬 1 | [GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet) | 41.1k | 🟢 beginner | 2026-09-01 | 🤖 disclose AI use |
 | [CLI Support for Injecting Envars into Docker-Compose Containers without embedding the CLI in Container Images](https://github.com/Infisical/infisical/issues/425) 💬 8 | [Infisical/infisical](https://github.com/Infisical/infisical) | 29.3k | 🟡 help wanted | 2026-09-01 |  |
 | [Don't sort output config fields by optionality](https://github.com/Graylog2/graylog2-server/issues/4761) 💬 4 | [Graylog2/graylog2-server](https://github.com/Graylog2/graylog2-server) | 8.1k | 🟢 beginner | 2026-08-31 |  |
 | [Support header sso (Forward Auth)](https://github.com/lldap/lldap/issues/352) 💬 15 | [lldap/lldap](https://github.com/lldap/lldap) | 6.5k | 🟢 beginner | 2026-08-31 |  |
@@ -211,4 +211,4 @@
 | [[Bug] No longer see files/folders within secure folder](https://github.com/leonlatsch/Photok/issues/678) 💬 5 | [leonlatsch/Photok](https://github.com/leonlatsch/Photok) | 970 | 🟢 beginner | 2026-05-21 |  |
 | [[META] Adding subfeatures to audits](https://github.com/zizmorcore/zizmor/issues/963) 💬 4 | [zizmorcore/zizmor](https://github.com/zizmorcore/zizmor) | 6.5k | 🟢 beginner | 2026-05-15 | 📄 AI policy |
 
-Showing the 200 most recently updated. See all 233 on the website.
+Showing the 200 most recently updated. See all 232 on the website.

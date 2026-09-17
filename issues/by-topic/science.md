@@ -1,8 +1,8 @@
 # Science and research issues
 
-**58** open issues (37 labeled for beginners) across **16** projects tagged with topics like `science`, `scientific-computing`, `bioinformatics`, `physics`, `astronomy`, `chemistry`.
+**58** open issues (37 labeled for beginners) across **17** projects tagged with topics like `science`, `scientific-computing`, `bioinformatics`, `physics`, `astronomy`, `chemistry`.
 
-> Updated automatically on **2026-09-17 10:46 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-17 21:06 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,8 +10,8 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [Crash just after loading screen due to 'ERROR: Parameter "tex" is null'](https://github.com/Revolutionary-Games/Thrive/issues/6981) 💬 8 | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) | 3.7k | 🟡 help wanted | 2026-09-17 |  |
 | [Are predictions on scikit-learn models thread-safe?](https://github.com/scikit-learn/scikit-learn/issues/18530) 💬 9 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | 67.3k | 🟡 help wanted | 2026-09-16 | 🤖 disclose AI use |
-| [Core.bitcast to LLVMPtr from Float64 generates invalid inttoptr, aborts compilation](https://github.com/JuliaLang/julia/issues/63218) 💬 1 | [JuliaLang/julia](https://github.com/JuliaLang/julia) | 49.1k | 🟢 beginner | 2026-09-16 | 🤖 disclose AI use |
 | [Shell mode doesn't respect Cmd object's env](https://github.com/JuliaLang/julia/issues/51020) 💬 4 | [JuliaLang/julia](https://github.com/JuliaLang/julia) | 49.1k | 🟢 beginner | 2026-09-15 | 🤖 disclose AI use |
 | [Mean Standardized Log Loss (MSLL) for uncertainty aware regression models](https://github.com/scikit-learn/scikit-learn/issues/21665) 💬 16 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | 67.3k | 🟡 help wanted | 2026-09-12 | 🤖 disclose AI use |
 | [all *.json files are interpreted as objects](https://github.com/OpenRCT2/OpenRCT2/issues/16807) 💬 3 | [OpenRCT2/OpenRCT2](https://github.com/OpenRCT2/OpenRCT2) | 16.2k | 🟢 beginner | 2026-09-12 |  |
@@ -25,8 +25,8 @@
 | [Add prompt for the delete keybinding controller button in the keybindings menu](https://github.com/Revolutionary-Games/Thrive/issues/4049) 💬 17 | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) | 3.7k | 🟢 beginner | 2026-08-25 |  |
 | [MIN_CAT_SUPPORT in HGBT](https://github.com/scikit-learn/scikit-learn/issues/19008) 💬 3 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | 67.3k | 🟡 help wanted | 2026-08-24 | 🤖 disclose AI use |
 | [Generic benchmarking/profiling tool](https://github.com/scikit-learn/scikit-learn/issues/10289) 💬 33 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | 67.3k | 🟡 help wanted | 2026-08-24 | 🤖 disclose AI use |
-| [[RFC]: Add C implementation for '@stdlib/stats/base/dists/beta/median'](https://github.com/stdlib-js/stdlib/issues/3429) 💬 2 | [stdlib-js/stdlib](https://github.com/stdlib-js/stdlib) | 6.1k | 🟢 beginner | 2026-08-22 | 🤖 disclose AI use |
-| [[RFC]: Add C implementation for '@stdlib/stats/base/dists/chisquare/pdf'](https://github.com/stdlib-js/stdlib/issues/3508) 💬 2 | [stdlib-js/stdlib](https://github.com/stdlib-js/stdlib) | 6.1k | 🟢 beginner | 2026-08-22 | 🤖 disclose AI use |
+| [[RFC]: Add C implementation for '@stdlib/stats/base/dists/beta/median'](https://github.com/stdlib-js/stdlib/issues/3429) 💬 2 | [stdlib-js/stdlib](https://github.com/stdlib-js/stdlib) | 6k | 🟢 beginner | 2026-08-22 | 🤖 disclose AI use |
+| [[RFC]: Add C implementation for '@stdlib/stats/base/dists/chisquare/pdf'](https://github.com/stdlib-js/stdlib/issues/3508) 💬 2 | [stdlib-js/stdlib](https://github.com/stdlib-js/stdlib) | 6k | 🟢 beginner | 2026-08-22 | 🤖 disclose AI use |
 | [Tracking openrocket in downstream package ecosystem](https://github.com/openrocket/openrocket/issues/2254) 💬 15 | [openrocket/openrocket](https://github.com/openrocket/openrocket) | 3.1k | 🟢 beginner | 2026-08-20 |  |
 | [Irrelevant error message from 'PerInstanceColorAppearance'](https://github.com/CesiumGS/cesium/issues/12107) 💬 6 | [CesiumGS/cesium](https://github.com/CesiumGS/cesium) | 15.7k | 🟢 beginner | 2026-08-19 | ✍️ CLA |
 | [[Feature Request]: Integrate Automated Data Validation Pipeline using 'Great Expectations' for Dataset Integri](https://github.com/Niketkumardheeryan/ML-CaPsule/issues/1504) 💬 26 | [Niketkumardheeryan/ML-CaPsule](https://github.com/Niketkumardheeryan/ML-CaPsule) | 682 | 🟡 help wanted | 2026-08-19 |  |
@@ -36,7 +36,7 @@
 | [Write unit tests for multi-component editing](https://github.com/openrocket/openrocket/issues/1690) | [openrocket/openrocket](https://github.com/openrocket/openrocket) | 3.1k | 🟢 beginner | 2026-08-09 |  |
 | [Write unit tests for component parameter saving and re-opening](https://github.com/openrocket/openrocket/issues/1806) 💬 4 | [openrocket/openrocket](https://github.com/openrocket/openrocket) | 3.1k | 🟢 beginner | 2026-08-09 |  |
 | [Write unit tests for RASAero importing](https://github.com/openrocket/openrocket/issues/2136) | [openrocket/openrocket](https://github.com/openrocket/openrocket) | 3.1k | 🟢 beginner | 2026-08-09 |  |
-| [Fix broken Markdown link: https://bugzilla.mozilla.org/show_bug.cgi?id=892671](https://github.com/stdlib-js/stdlib/issues/11248) 💬 6 | [stdlib-js/stdlib](https://github.com/stdlib-js/stdlib) | 6.1k | 🟢 beginner | 2026-08-04 | 🤖 disclose AI use |
+| [Fix broken Markdown link: https://bugzilla.mozilla.org/show_bug.cgi?id=892671](https://github.com/stdlib-js/stdlib/issues/11248) 💬 6 | [stdlib-js/stdlib](https://github.com/stdlib-js/stdlib) | 6k | 🟢 beginner | 2026-08-04 | 🤖 disclose AI use |
 | [Add units option for "Stability margin" in plot dialog](https://github.com/openrocket/openrocket/issues/2221) 💬 11 | [openrocket/openrocket](https://github.com/openrocket/openrocket) | 3.1k | 🟢 beginner | 2026-08-04 |  |
 | [[Feature Request] Show More Details in Parachute Parts Library](https://github.com/openrocket/openrocket/issues/2487) 💬 2 | [openrocket/openrocket](https://github.com/openrocket/openrocket) | 3.1k | 🟢 beginner | 2026-08-04 |  |
 | [[Bug] Some component default wall thicknesses are 0](https://github.com/openrocket/openrocket/issues/2454) 💬 4 | [openrocket/openrocket](https://github.com/openrocket/openrocket) | 3.1k | 🟢 beginner | 2026-08-04 |  |
@@ -59,12 +59,12 @@
 | [Make sure that extinct entries aren't shown in the endosymbiosis candidates (verify bug report)](https://github.com/Revolutionary-Games/Thrive/issues/6656) 💬 4 | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) | 3.7k | 🟢 beginner | 2026-05-22 |  |
 | [Add new editor help section explaining the controls](https://github.com/Revolutionary-Games/Thrive/issues/2853) 💬 2 | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) | 3.7k | 🟢 beginner | 2026-05-21 |  |
 | [warn on constant redefinition (in package tests)?](https://github.com/JuliaLang/julia/issues/58670) 💬 7 | [JuliaLang/julia](https://github.com/JuliaLang/julia) | 49.1k | 🟡 help wanted | 2026-05-20 | 🤖 disclose AI use |
-| [Fix EditorConfig lint errors](https://github.com/stdlib-js/stdlib/issues/12184) 💬 1 | [stdlib-js/stdlib](https://github.com/stdlib-js/stdlib) | 6.1k | 🟢 beginner | 2026-05-18 | 🤖 disclose AI use |
+| [Fix EditorConfig lint errors](https://github.com/stdlib-js/stdlib/issues/12184) 💬 1 | [stdlib-js/stdlib](https://github.com/stdlib-js/stdlib) | 6k | 🟢 beginner | 2026-05-18 | 🤖 disclose AI use |
 | [A question about target_log_prob_fn](https://github.com/tensorflow/probability/issues/611) 💬 5 | [tensorflow/probability](https://github.com/tensorflow/probability) | 4.4k | 🟢 beginner | 2026-05-18 | ✍️ CLA |
 | [Feature Request: Efficient Poisson Binomial PMF/CDF in tfp](https://github.com/tensorflow/probability/issues/1453) 💬 14 | [tensorflow/probability](https://github.com/tensorflow/probability) | 4.4k | 🟢 beginner | 2026-05-18 | ✍️ CLA |
 | [Add the new Arabic variant localization if it is started](https://github.com/Revolutionary-Games/Thrive/issues/7006) | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) | 3.7k | 🟢 beginner | 2026-05-18 |  |
+| [NeuralFoil Optimizer tutorial issue](https://github.com/peterdsharpe/AeroSandbox/issues/172) 💬 1 | [peterdsharpe/AeroSandbox](https://github.com/peterdsharpe/AeroSandbox) | 1.3k | 🟢 beginner | 2026-05-16 |  |
 | [V26.1 (appimage): cannot configure online queries plugin](https://github.com/Stellarium/stellarium/issues/4899) 💬 7 | [Stellarium/stellarium](https://github.com/Stellarium/stellarium) | 10k | 🟡 help wanted | 2026-05-13 |  |
-| [Crash just after loading screen due to 'ERROR: Parameter "tex" is null'](https://github.com/Revolutionary-Games/Thrive/issues/6981) 💬 7 | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) | 3.7k | 🟡 help wanted | 2026-05-10 |  |
 | [Sextant sight reduction module](https://github.com/Stellarium/stellarium/issues/796) 💬 5 | [Stellarium/stellarium](https://github.com/Stellarium/stellarium) | 10k | 🟡 help wanted | 2026-05-07 |  |
 | [Additional tests for fluxes: Invariance with respect to rotation and Consistency](https://github.com/trixi-framework/Trixi.jl/issues/1734) 💬 2 | [trixi-framework/Trixi.jl](https://github.com/trixi-framework/Trixi.jl) | 731 | 🟢 beginner | 2026-03-29 | 🤖 disclose AI use · 🔏 DCO |
 | [Cells can fire toxins while they are dead](https://github.com/Revolutionary-Games/Thrive/issues/6837) | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) | 3.7k | 🟢 beginner | 2026-03-26 |  |

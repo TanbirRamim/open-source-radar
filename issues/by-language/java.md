@@ -1,8 +1,8 @@
 # Java issues
 
-**274** open issues (126 labeled for beginners) across **80** active Java projects.
+**275** open issues (124 labeled for beginners) across **80** active Java projects.
 
-> Updated automatically on **2026-09-17 10:46 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-17 21:06 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,13 +10,13 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [TaskRunDetails.vue: replace explicit 'any' with real types](https://github.com/kestra-io/kestra/issues/19271) 💬 5 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-17 |  |
+| [Produce 'Logout' event in event listener provider when 'SSO Session Max' is reached](https://github.com/keycloak/keycloak/issues/40403) 💬 9 | [keycloak/keycloak](https://github.com/keycloak/keycloak) | 36.8k | 🟡 help wanted | 2026-09-17 | 🤖 disclose AI use · 🔏 DCO |
 | [[JENKINS-31511] Recent (since 1.628) bug introduced into pluginManager filter UI](https://github.com/jenkinsci/jenkins/issues/21563) 💬 12 | [jenkinsci/jenkins](https://github.com/jenkinsci/jenkins) | 26.6k | 🟢 beginner | 2026-09-17 | ✍️ CLA |
+| [如果想做到报表里面显示的图片是安全的。。 因为图片在OSS 里面设置了 refrence 限制。。](https://github.com/jeecgboot/jimureport/issues/4791) | [jeecgboot/jimureport](https://github.com/jeecgboot/jimureport) | 8.4k | 🟡 help wanted | 2026-09-17 |  |
 | [多行填报下按钮需设置开启/禁用功能](https://github.com/jeecgboot/jimureport/issues/4790) | [jeecgboot/jimureport](https://github.com/jeecgboot/jimureport) | 8.4k | 🟡 help wanted | 2026-09-17 |  |
-| [Show which pre-selected fetchers have a saved API key](https://github.com/JabRef/jabref/issues/16250) 💬 20 | [JabRef/jabref](https://github.com/JabRef/jabref) | 4.7k | 🟢 beginner | 2026-09-17 | ⚠️ AI restricted |
+| [Audiobook duration only lists time of first audio file](https://github.com/grimmory-tools/grimmory/issues/2672) | [grimmory-tools/grimmory](https://github.com/grimmory-tools/grimmory) | 4.4k | 🟢 beginner | 2026-09-17 | 🤖 disclose AI use |
 | [Organization group roles are not automapped to realm/resource_access](https://github.com/keycloak/keycloak/issues/52764) 💬 5 | [keycloak/keycloak](https://github.com/keycloak/keycloak) | 36.8k | 🟡 help wanted | 2026-09-16 | 🤖 disclose AI use · 🔏 DCO |
 | [CORS Origin validation rejects non-browser token requests (direct grant, client credentials)](https://github.com/keycloak/keycloak/issues/51831) 💬 2 | [keycloak/keycloak](https://github.com/keycloak/keycloak) | 36.8k | 🟡 help wanted | 2026-09-16 | 🤖 disclose AI use · 🔏 DCO |
-| [[UI] Copy icon overlaps executionId text in Logs table](https://github.com/kestra-io/kestra/issues/18993) 💬 1 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-16 |  |
 | [[UI] Add Version display / selector to Plugin Documentation in Flow Editor](https://github.com/kestra-io/kestra/issues/14075) 💬 2 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-16 |  |
 | [Server starting behavior - PluginScanner - PrometheusMeterRegistry](https://github.com/kestra-io/kestra/issues/13741) 💬 4 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-16 |  |
 | [Kestra flow is failing for taskRunner Docker](https://github.com/kestra-io/kestra/issues/9814) 💬 2 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.1k | 🟢 beginner | 2026-09-16 |  |
@@ -65,6 +65,7 @@
 | [How do you use SNI with SSL?](https://github.com/micronaut-projects/micronaut-core/issues/1131) 💬 1 | [micronaut-projects/micronaut-core](https://github.com/micronaut-projects/micronaut-core) | 6.4k | 🟡 help wanted | 2026-09-11 |  |
 | [Full-duplex support for browsers that do not support WebSocket](https://github.com/micronaut-projects/micronaut-core/issues/583) 💬 2 | [micronaut-projects/micronaut-core](https://github.com/micronaut-projects/micronaut-core) | 6.4k | 🟡 help wanted | 2026-09-11 |  |
 | [NPE when recovering from snapshot in StreamProcessor](https://github.com/camunda/camunda/issues/12201) 💬 2 | [camunda/camunda](https://github.com/camunda/camunda) | 4.3k | 🟢 beginner | 2026-09-11 | ✍️ CLA |
+| [[Feature Request]: Generate a PDF file from a XRechnung XML file](https://github.com/Stirling-Tools/Stirling-PDF/issues/2025) 💬 4 | [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) | 92.4k | 🟡 help wanted | 2026-09-09 |  |
 | [[Feature][WorkflowTiming] Supports multiple timing plans for one workflow](https://github.com/apache/dolphinscheduler/issues/15151) 💬 7 | [apache/dolphinscheduler](https://github.com/apache/dolphinscheduler) | 14.5k | 🟡 help wanted | 2026-09-08 |  |
 | [Delay component](https://github.com/logisim-evolution/logisim-evolution/issues/1840) 💬 26 | [logisim-evolution/logisim-evolution](https://github.com/logisim-evolution/logisim-evolution) | 7.6k | 🟡 help wanted | 2026-09-08 |  |
 | [Add "search instead for" feature to search page](https://github.com/TeamNewPipe/NewPipe/issues/6032) 💬 3 | [TeamNewPipe/NewPipe](https://github.com/TeamNewPipe/NewPipe) | 39.7k | 🟢 beginner | 2026-09-07 | 📄 AI policy |
@@ -209,6 +210,5 @@
 | [On window minimize Screen.resize(0,0) called on Windows but not on Linux](https://github.com/libgdx/libgdx/issues/7072) 💬 8 | [libgdx/libgdx](https://github.com/libgdx/libgdx) | 25.4k | 🟢 beginner | 2026-06-04 | ✍️ CLA |
 | [[openvino] [hugectr][apex][FasterTransformer][horovod][NCNN][ggml][llm][faiss][USearch]these deeplearning tool](https://github.com/bytedeco/javacpp-presets/issues/1404) 💬 3 | [bytedeco/javacpp-presets](https://github.com/bytedeco/javacpp-presets) | 2.9k | 🟡 help wanted | 2026-06-04 |  |
 | [Add size-bounded GC of the repo contents cache](https://github.com/bazelbuild/bazel/issues/29557) 💬 1 | [bazelbuild/bazel](https://github.com/bazelbuild/bazel) | 25.9k | 🟡 help wanted | 2026-06-03 | ✍️ CLA |
-| [[GSoC 2025] Enhancing Dubbo Python Serialization](https://github.com/apache/dubbo/issues/15215) 💬 6 | [apache/dubbo](https://github.com/apache/dubbo) | 41.6k | 🟡 help wanted | 2026-06-02 | ✍️ CLA |
 
-Showing the 200 most recently updated. See all 274 on the website.
+Showing the 200 most recently updated. See all 275 on the website.
