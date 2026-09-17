@@ -1,8 +1,8 @@
 # C# issues
 
-**247** open issues (78 labeled for beginners) across **80** active C# projects.
+**273** open issues (82 labeled for beginners) across **81** active C# projects.
 
-> Updated automatically on **2026-09-16 20:58 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-17 10:46 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,16 +10,26 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [Unnecessary defensive copies in 'string' + implicit 'object' operator](https://github.com/dotnet/roslyn/issues/72044) 💬 3 | [dotnet/roslyn](https://github.com/dotnet/roslyn) | 20.7k | 🟡 help wanted | 2026-09-17 | ✍️ CLA |
+| [Address race in PerformanceCounterLib](https://github.com/dotnet/runtime/issues/90803) 💬 20 | [dotnet/runtime](https://github.com/dotnet/runtime) | 18.3k | 🟡 help wanted | 2026-09-17 | ✍️ CLA |
+| ['ConsoleStream.ReadByte' throws when 'Console.Encoding' is UTF-16](https://github.com/dotnet/runtime/issues/70448) 💬 6 | [dotnet/runtime](https://github.com/dotnet/runtime) | 18.3k | 🟡 help wanted | 2026-09-16 | ✍️ CLA |
 | [ManagementEventWatcher.Start throws an exception when a power plan doesn't have a name](https://github.com/dotnet/runtime/issues/125296) 💬 6 | [dotnet/runtime](https://github.com/dotnet/runtime) | 18.3k | 🟡 help wanted | 2026-09-16 | ✍️ CLA |
 | [Remove reflection to Uno.Toolkit](https://github.com/unoplatform/uno/issues/782) 💬 2 | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-09-16 |  |
 | [Add analyzer to detect illegal and/or duplicate cultures](https://github.com/xunit/xunit/issues/3632) | [xunit/xunit](https://github.com/xunit/xunit) | 4.6k | 🟡 help wanted | 2026-09-16 |  |
 | [Tablet stops working after resuming from suspend](https://github.com/OpenTabletDriver/OpenTabletDriver/issues/3171) 💬 10 | [OpenTabletDriver/OpenTabletDriver](https://github.com/OpenTabletDriver/OpenTabletDriver) | 4.1k | 🟡 help wanted | 2026-09-16 |  |
 | [Extract component unexpected behavior when both C# and html selected](https://github.com/dotnet/roslyn/issues/85598) | [dotnet/roslyn](https://github.com/dotnet/roslyn) | 20.7k | 🟡 help wanted | 2026-09-15 | ✍️ CLA |
+| ['GetUserNameFromPasswd' errors instead of returning empty string if '/etc/passwd' is missing](https://github.com/dotnet/runtime/issues/119216) 💬 3 | [dotnet/runtime](https://github.com/dotnet/runtime) | 18.3k | 🟡 help wanted | 2026-09-15 | ✍️ CLA |
 | [Console.In.Peek() always returning EOF after the first read line on Windows](https://github.com/dotnet/runtime/issues/40735) 💬 5 | [dotnet/runtime](https://github.com/dotnet/runtime) | 18.3k | 🟡 help wanted | 2026-09-14 | ✍️ CLA |
+| [MemoryExtensions: multi-value IndexOfAny/IndexOfAnyExcept/LastIndexOfAny/LastIndexOfAnyExcept missing int/long](https://github.com/dotnet/runtime/issues/131367) 💬 8 | [dotnet/runtime](https://github.com/dotnet/runtime) | 18.3k | 🟡 help wanted | 2026-09-14 | ✍️ CLA |
+| [Some System.Reflection.Emit implementations of 'Type.IsByRefLike' still throw 'NotSupportedException': "Derive](https://github.com/dotnet/runtime/issues/91532) 💬 7 | [dotnet/runtime](https://github.com/dotnet/runtime) | 18.3k | 🟡 help wanted | 2026-09-14 | ✍️ CLA |
 | [Add CanSelect property to MudTreeViewItem](https://github.com/MudBlazor/MudBlazor/issues/11195) 💬 1 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-09-14 |  |
+| [TensorPrimitives.MinNumber(ReadOnlySpan&lt;T&gt;) incorrectly propagates NaN](https://github.com/dotnet/runtime/issues/133346) 💬 2 | [dotnet/runtime](https://github.com/dotnet/runtime) | 18.3k | 🟡 help wanted | 2026-09-13 | ✍️ CLA |
 | [Numeric Field does not support Percent format](https://github.com/MudBlazor/MudBlazor/issues/11241) 💬 7 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-09-13 |  |
 | [dotnet build /v:q is not as quiet as msbuild /v:q](https://github.com/dotnet/sdk/issues/10032) 💬 20 | [dotnet/sdk](https://github.com/dotnet/sdk) | 3.2k | 🟢 beginner | 2026-09-13 |  |
+| [There is an inconsistency in behavior between 'string.Format(IFormatProvider?, string, *)' and 'string.Format(](https://github.com/dotnet/runtime/issues/119756) 💬 3 | [dotnet/runtime](https://github.com/dotnet/runtime) | 18.3k | 🟡 help wanted | 2026-09-12 | ✍️ CLA |
 | [The Hebrew translation is a complete mess.](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/issues/1219) 💬 3 | [AutoDarkMode/Windows-Auto-Night-Mode](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode) | 9.7k | 🟡 help wanted | 2026-09-12 |  |
+| [ToFrozenDictionary overloads differ in duplicate handling](https://github.com/dotnet/runtime/issues/127798) 💬 4 | [dotnet/runtime](https://github.com/dotnet/runtime) | 18.3k | 🟡 help wanted | 2026-09-11 | ✍️ CLA |
+| [Add package readmes to shipping libraries packages](https://github.com/dotnet/runtime/issues/99358) 💬 3 | [dotnet/runtime](https://github.com/dotnet/runtime) | 18.3k | 🟡 help wanted | 2026-09-11 | ✍️ CLA |
 | [[Dark Mode] Control pops up dialogs and MessageBox window are not in Dark mode when DarkMode enabled](https://github.com/dotnet/winforms/issues/11896) 💬 5 | [dotnet/winforms](https://github.com/dotnet/winforms) | 4.9k | 🟡 help wanted | 2026-09-11 |  |
 | [[Feature]: Support tests defined in F# modules (which are static methods on abstract classes)](https://github.com/thomhurst/TUnit/issues/6746) 💬 2 | [thomhurst/TUnit](https://github.com/thomhurst/TUnit) | 4k | 🟡 help wanted | 2026-09-11 |  |
 | [[ONBOARD] Static Web Apps](https://github.com/microsoft/mcp/issues/182) 💬 2 | [microsoft/mcp](https://github.com/microsoft/mcp) | 3.7k | 🟡 help wanted | 2026-09-11 |  |
@@ -29,6 +39,7 @@
 | [[API Proposal]: AVX10.2 saturating floating point to integer conversions](https://github.com/dotnet/runtime/issues/117573) 💬 4 | [dotnet/runtime](https://github.com/dotnet/runtime) | 18.3k | 🟡 help wanted | 2026-09-09 | ✍️ CLA |
 | [[Codespaces] Trying to debug tests in codespaces fails to build](https://github.com/dotnet/runtime/issues/119604) 💬 3 | [dotnet/runtime](https://github.com/dotnet/runtime) | 18.3k | 🟡 help wanted | 2026-09-09 | ✍️ CLA |
 | [[Launcher] Check for disabledPackageSources (in NuGet.config)](https://github.com/stride3d/stride/issues/287) 💬 3 | [stride3d/stride](https://github.com/stride3d/stride) | 7.8k | 🟢 beginner | 2026-09-09 |  |
+| [[API Proposal]: Introduce an intrinsic for more efficient lambda generation](https://github.com/dotnet/runtime/issues/85014) 💬 41 | [dotnet/runtime](https://github.com/dotnet/runtime) | 18.3k | 🟡 help wanted | 2026-09-08 | ✍️ CLA |
 | [Cannot combine OneVersusAll with FieldAwareFactorizationMachine](https://github.com/dotnet/machinelearning/issues/590) 💬 9 | [dotnet/machinelearning](https://github.com/dotnet/machinelearning) | 9.4k | 🟡 help wanted | 2026-09-08 | ✍️ CLA |
 | [CpuMath Enhancement: Preamble for hardware intrinsics implementation](https://github.com/dotnet/machinelearning/issues/830) | [dotnet/machinelearning](https://github.com/dotnet/machinelearning) | 9.4k | 🟡 help wanted | 2026-09-08 | ✍️ CLA |
 | [[DatabaseLoader] Create higher level convenient methods for DatabaseLoader](https://github.com/dotnet/machinelearning/issues/4182) 💬 2 | [dotnet/machinelearning](https://github.com/dotnet/machinelearning) | 9.4k | 🟢 beginner | 2026-09-08 | ✍️ CLA |
@@ -46,19 +57,22 @@
 | [Validate 'XamlBindingHelper' helper behavior for known string conversions](https://github.com/unoplatform/uno/issues/17410) 💬 2 | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-09-06 |  |
 | [Improvements to version number](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/issues/1235) 💬 3 | [AutoDarkMode/Windows-Auto-Night-Mode](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode) | 9.7k | 🟢 beginner | 2026-09-06 |  |
 | [[API Proposal]: Read an environment variable without expansion](https://github.com/dotnet/runtime/issues/132366) 💬 5 | [dotnet/runtime](https://github.com/dotnet/runtime) | 18.3k | 🟡 help wanted | 2026-09-05 | ✍️ CLA |
+| [BlockingCollection can get back to uncompleted state even after 'IsCompleted' was true](https://github.com/dotnet/runtime/issues/109217) 💬 7 | [dotnet/runtime](https://github.com/dotnet/runtime) | 18.3k | 🟡 help wanted | 2026-09-05 | ✍️ CLA |
 | [Improve discovery for F# explicit fields](https://github.com/dotnet/efcore/issues/12923) 💬 3 | [dotnet/efcore](https://github.com/dotnet/efcore) | 14.8k | 🟡 help wanted | 2026-09-05 | ✍️ CLA |
 | [Ability to import from mtputty](https://github.com/mRemoteNG/mRemoteNG/issues/624) 💬 7 | [mRemoteNG/mRemoteNG](https://github.com/mRemoteNG/mRemoteNG) | 11.1k | 🟡 help wanted | 2026-09-04 |  |
-| [3.0.5 自定义打包和偏移加密修改支持](https://github.com/tuyoogame/YooAsset/issues/763) 💬 2 | [tuyoogame/YooAsset](https://github.com/tuyoogame/YooAsset) | 3.4k | 🟡 help wanted | 2026-09-04 |  |
+| [RCS1249 - Not working in some cases](https://github.com/dotnet/roslynator/issues/1659) 💬 1 | [dotnet/roslynator](https://github.com/dotnet/roslynator) | 3.5k | 🟡 help wanted | 2026-09-04 |  |
 | [Source Generators: Allow more than one subfolder for hintnames](https://github.com/dotnet/roslyn/issues/70859) 💬 4 | [dotnet/roslyn](https://github.com/dotnet/roslyn) | 20.7k | 🟡 help wanted | 2026-09-03 | ✍️ CLA |
 | [Task: update the "Postpone" part](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/issues/980) 💬 3 | [AutoDarkMode/Windows-Auto-Night-Mode](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode) | 9.7k | 🟡 help wanted | 2026-09-03 |  |
 | [Unify the WebSocket and HTTP pipelines](https://github.com/ThreeMammals/Ocelot/issues/2422) | [ThreeMammals/Ocelot](https://github.com/ThreeMammals/Ocelot) | 8.7k | 🟡 help wanted | 2026-09-03 |  |
+| [[Proposal] Document that Linq-to-XML is thread-safe for multiple readers](https://github.com/dotnet/runtime/issues/123068) 💬 4 | [dotnet/runtime](https://github.com/dotnet/runtime) | 18.3k | 🟡 help wanted | 2026-09-02 | ✍️ CLA |
 | [Single calc instance and window vs. Multiple calc windows](https://github.com/microsoft/calculator/issues/215) 💬 42 | [microsoft/calculator](https://github.com/microsoft/calculator) | 31.1k | 🟡 help wanted | 2026-09-01 | ✍️ CLA |
-| [Provide Name property for all framework components](https://github.com/QuantConnect/Lean/issues/3839) 💬 3 | [QuantConnect/Lean](https://github.com/QuantConnect/Lean) | 21.6k | 🟢 beginner | 2026-09-01 |  |
-| [Unnecessary defensive copies in 'string' + implicit 'object' operator](https://github.com/dotnet/roslyn/issues/72044) 💬 1 | [dotnet/roslyn](https://github.com/dotnet/roslyn) | 20.7k | 🟡 help wanted | 2026-09-01 | ✍️ CLA |
+| [Provide Name property for all framework components](https://github.com/QuantConnect/Lean/issues/3839) 💬 3 | [QuantConnect/Lean](https://github.com/QuantConnect/Lean) | 21.7k | 🟢 beginner | 2026-09-01 |  |
+| [RISC-V support](https://github.com/dotnet/runtime/issues/36748) 💬 103 | [dotnet/runtime](https://github.com/dotnet/runtime) | 18.3k | 🟡 help wanted | 2026-09-01 | ✍️ CLA |
 | [Possibly too aggressive cleaning](https://github.com/builtbybel/FluentCleaner/issues/51) 💬 11 | [builtbybel/FluentCleaner](https://github.com/builtbybel/FluentCleaner) | 6k | 🟡 help wanted | 2026-09-01 |  |
 | [No presentation mode when reading PDF on ipad](https://github.com/Kareadita/Kavita/issues/3289) 💬 4 | [Kareadita/Kavita](https://github.com/Kareadita/Kavita) | 11.7k | 🟡 help wanted | 2026-08-31 |  |
 | [JXL color management incorrectly applied](https://github.com/Ruben2776/PicView/issues/331) 💬 2 | [Ruben2776/PicView](https://github.com/Ruben2776/PicView) | 3.6k | 🟡 help wanted | 2026-08-31 |  |
 | [Don't copy additional files when ReferenceOutputAssembly=false for exe references](https://github.com/dotnet/sdk/issues/23420) 💬 4 | [dotnet/sdk](https://github.com/dotnet/sdk) | 3.2k | 🟢 beginner | 2026-08-31 |  |
+| [Implement io_uring support for FileStream](https://github.com/dotnet/runtime/issues/51985) 💬 23 | [dotnet/runtime](https://github.com/dotnet/runtime) | 18.3k | 🟡 help wanted | 2026-08-30 | ✍️ CLA |
 | [Improve format of self-diagnostic log file names](https://github.com/open-telemetry/opentelemetry-dotnet/issues/4478) 💬 5 | [open-telemetry/opentelemetry-dotnet](https://github.com/open-telemetry/opentelemetry-dotnet) | 3.8k | 🟡 help wanted | 2026-08-30 | ✍️ CLA |
 | [Sync image viewing order with Windows Explorer sorting](https://github.com/Ruben2776/PicView/issues/328) 💬 1 | [Ruben2776/PicView](https://github.com/Ruben2776/PicView) | 3.6k | 🟡 help wanted | 2026-08-30 |  |
 | [I need your help](https://github.com/HawaiiBeach/TinyNvidiaUpdateChecker/issues/210) 💬 4 | [HawaiiBeach/TinyNvidiaUpdateChecker](https://github.com/HawaiiBeach/TinyNvidiaUpdateChecker) | 1.8k | 🟡 help wanted | 2026-08-29 |  |
@@ -80,11 +94,13 @@
 | [[Bug] Discriminated polymorphism does not populate anyOf and oneOf, in contrast with Swagger documentation](https://github.com/domaindrivendev/Swashbuckle.AspNetCore/issues/3166) 💬 1 | [domaindrivendev/Swashbuckle.AspNetCore](https://github.com/domaindrivendev/Swashbuckle.AspNetCore) | 5.5k | 🟡 help wanted | 2026-08-25 |  |
 | [Add prompt for the delete keybinding controller button in the keybindings menu](https://github.com/Revolutionary-Games/Thrive/issues/4049) 💬 17 | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) | 3.7k | 🟢 beginner | 2026-08-25 |  |
 | [NegotiateStreamPal.Unix.cs does not support default auth](https://github.com/dotnet/runtime/issues/66633) 💬 4 | [dotnet/runtime](https://github.com/dotnet/runtime) | 18.3k | 🟡 help wanted | 2026-08-24 | ✍️ CLA |
+| [Support implicit TLS for SMTP client](https://github.com/dotnet/runtime/issues/71304) 💬 3 | [dotnet/runtime](https://github.com/dotnet/runtime) | 18.3k | 🟡 help wanted | 2026-08-24 | ✍️ CLA |
 | [Enhance the NTLM negotiation testing on Linux/macOS](https://github.com/dotnet/runtime/issues/71427) 💬 2 | [dotnet/runtime](https://github.com/dotnet/runtime) | 18.3k | 🟡 help wanted | 2026-08-24 | ✍️ CLA |
 | [[Test Failure] System.Net.Security.Tests.SslStreamSniTest.UnencodedHostName_ValidatesCertificate on Android](https://github.com/dotnet/runtime/issues/86003) 💬 4 | [dotnet/runtime](https://github.com/dotnet/runtime) | 18.3k | 🟡 help wanted | 2026-08-24 | ✍️ CLA |
 | [Title: [Feature Request] Add simple annotation tools: arrow marker and mosaic blur](https://github.com/Ruben2776/PicView/issues/350) | [Ruben2776/PicView](https://github.com/Ruben2776/PicView) | 3.6k | 🟡 help wanted | 2026-08-24 |  |
 | [Customizable user-defined actions (in the context menu)](https://github.com/Ruben2776/PicView/issues/383) | [Ruben2776/PicView](https://github.com/Ruben2776/PicView) | 3.6k | 🟡 help wanted | 2026-08-24 |  |
 | [微信小游戏加载资源时报错：Unable to open archive file](https://github.com/tuyoogame/YooAsset/issues/561) 💬 14 | [tuyoogame/YooAsset](https://github.com/tuyoogame/YooAsset) | 3.4k | 🟡 help wanted | 2026-08-24 |  |
+| [System.DirectoryServices.Protocols.SearchRequest Filter does not allow redundant parentheses unlike on Windows](https://github.com/dotnet/runtime/issues/127168) 💬 4 | [dotnet/runtime](https://github.com/dotnet/runtime) | 18.3k | 🟡 help wanted | 2026-08-23 | ✍️ CLA |
 | [MudSelect should support nullable enums and show placeholder when value is null](https://github.com/MudBlazor/MudBlazor/issues/5647) 💬 2 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-08-23 |  |
 | [Metrics stress test improvements](https://github.com/open-telemetry/opentelemetry-dotnet/issues/2373) 💬 3 | [open-telemetry/opentelemetry-dotnet](https://github.com/open-telemetry/opentelemetry-dotnet) | 3.8k | 🟡 help wanted | 2026-08-23 | ✍️ CLA |
 | [Issues with the fixer for xUnit2023](https://github.com/xunit/xunit/issues/3336) 💬 11 | [xunit/xunit](https://github.com/xunit/xunit) | 4.6k | 🟡 help wanted | 2026-08-22 |  |
@@ -96,6 +112,7 @@
 | [Configurable Error Handler](https://github.com/open-telemetry/opentelemetry-dotnet/issues/4159) 💬 2 | [open-telemetry/opentelemetry-dotnet](https://github.com/open-telemetry/opentelemetry-dotnet) | 3.8k | 🟡 help wanted | 2026-08-22 | ✍️ CLA |
 | [[feature request] Implement http/json in OtlpExporter](https://github.com/open-telemetry/opentelemetry-dotnet/issues/5764) 💬 11 | [open-telemetry/opentelemetry-dotnet](https://github.com/open-telemetry/opentelemetry-dotnet) | 3.8k | 🟡 help wanted | 2026-08-22 | ✍️ CLA |
 | [[question] No OpenTelemetry-based tracing data captured when proxies are not instrumented](https://github.com/open-telemetry/opentelemetry-dotnet/issues/5919) 💬 10 | [open-telemetry/opentelemetry-dotnet](https://github.com/open-telemetry/opentelemetry-dotnet) | 3.8k | 🟡 help wanted | 2026-08-22 | ✍️ CLA |
+| [Add tests for playing back binlogs of each file format](https://github.com/dotnet/msbuild/issues/6587) 💬 2 | [dotnet/msbuild](https://github.com/dotnet/msbuild) | 5.5k | 🟢 beginner | 2026-08-21 |  |
 | [Mask Slow Performance and Inaccurate Input on Blazor Server](https://github.com/MudBlazor/MudBlazor/issues/6280) 💬 8 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟡 help wanted | 2026-08-20 |  |
 | [Unable to download a private video with cookies ('401 Unauthorized')](https://github.com/Tyrrrz/YoutubeExplode/issues/781) 💬 14 | [Tyrrrz/YoutubeExplode](https://github.com/Tyrrrz/YoutubeExplode) | 3.7k | 🟡 help wanted | 2026-08-19 |  |
 | [MudDateRangePicker ResetAsync() does not affect the DateRange or the current focused period](https://github.com/MudBlazor/MudBlazor/issues/9692) 💬 3 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-08-18 |  |
@@ -103,6 +120,7 @@
 | ['dotnet sln add' should allow non-project files to be added to the solution](https://github.com/dotnet/sdk/issues/9611) 💬 31 | [dotnet/sdk](https://github.com/dotnet/sdk) | 3.2k | 🟢 beginner | 2026-08-18 |  |
 | [[BUG]: Not loading cuda backend on laptop](https://github.com/SciSharp/LLamaSharp/issues/990) 💬 10 | [SciSharp/LLamaSharp](https://github.com/SciSharp/LLamaSharp) | 3.8k | 🟢 beginner | 2026-08-17 |  |
 | [[Java Client] No proguard file declaring that we need to keep class members](https://github.com/dotnet/aspnetcore/issues/53238) 💬 3 | [dotnet/aspnetcore](https://github.com/dotnet/aspnetcore) | 38.4k | 🟡 help wanted | 2026-08-16 | ✍️ CLA |
+| [Binding IconImageSource on MenuFlyoutItem does not update on runtime.](https://github.com/dotnet/maui/issues/17210) 💬 4 | [dotnet/maui](https://github.com/dotnet/maui) | 23.3k | 🟢 beginner | 2026-08-16 | ✍️ CLA |
 | [Docs: Add TreeView example for nested structures with different object subtypes](https://github.com/MudBlazor/MudBlazor/issues/6510) 💬 2 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-08-16 |  |
 | [MudMenuItem: Add IsChecked prop](https://github.com/MudBlazor/MudBlazor/issues/6124) 💬 1 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-08-16 |  |
 | [Custom SVG Icon Size Limitation in MudNavLink](https://github.com/MudBlazor/MudBlazor/issues/6491) 💬 1 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-08-15 |  |
@@ -113,9 +131,12 @@
 | [[MAC/iOS] Contents are blurred with scaling](https://github.com/dotnet/maui/issues/9420) 💬 9 | [dotnet/maui](https://github.com/dotnet/maui) | 23.3k | 🟢 beginner | 2026-08-14 | ✍️ CLA |
 | [GraphicsView renders content outside of view](https://github.com/dotnet/maui/issues/9183) 💬 6 | [dotnet/maui](https://github.com/dotnet/maui) | 23.3k | 🟡 help wanted | 2026-08-14 | ✍️ CLA |
 | [[Android] Talkback reports incorrect number of list items](https://github.com/dotnet/maui/issues/3995) 💬 5 | [dotnet/maui](https://github.com/dotnet/maui) | 23.3k | 🟢 beginner | 2026-08-14 | ✍️ CLA |
+| [[iOS] Map pin InfoWindowClicked event is never fired](https://github.com/dotnet/maui/issues/13123) 💬 14 | [dotnet/maui](https://github.com/dotnet/maui) | 23.3k | 🟢 beginner | 2026-08-14 | ✍️ CLA |
+| ['DropCompletedEventArgs.DropResult' is never used](https://github.com/dotnet/maui/issues/2839) 💬 1 | [dotnet/maui](https://github.com/dotnet/maui) | 23.3k | 🟢 beginner | 2026-08-13 | ✍️ CLA |
 | [Extra vertical space in static ColorPicker with small palettes](https://github.com/MudBlazor/MudBlazor/issues/9131) 💬 1 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-08-13 |  |
 | [Implement cache tagging (RemoveByTagAsync + tagged writes)](https://github.com/FoundatioFx/Foundatio/issues/8) 💬 6 | [FoundatioFx/Foundatio](https://github.com/FoundatioFx/Foundatio) | 2.1k | 🟡 help wanted | 2026-08-13 |  |
 | [Thin horizontal line appears between images during reading in the webtoon reader](https://github.com/Kareadita/Kavita/issues/4132) 💬 6 | [Kareadita/Kavita](https://github.com/Kareadita/Kavita) | 11.7k | 🟡 help wanted | 2026-08-12 |  |
+| [Improve parser error recovery for misplaced 'ref' modifier of a struct declaration](https://github.com/dotnet/roslyn/issues/84734) 💬 5 | [dotnet/roslyn](https://github.com/dotnet/roslyn) | 20.7k | 🟡 help wanted | 2026-08-10 | ✍️ CLA |
 | ["Playlist not available" for public playlist](https://github.com/Tyrrrz/YoutubeDownloader/issues/732) 💬 2 | [Tyrrrz/YoutubeDownloader](https://github.com/Tyrrrz/YoutubeDownloader) | 16.2k | 🟡 help wanted | 2026-08-10 |  |
 | [macOS: Cannot open image by double-click when path contains special characters like []&lt;&gt;](https://github.com/Ruben2776/PicView/issues/336) 💬 1 | [Ruben2776/PicView](https://github.com/Ruben2776/PicView) | 3.6k | 🟡 help wanted | 2026-08-10 |  |
 | [HttpRuleParser GetExpressionLength allows invalid characters.](https://github.com/dotnet/aspnetcore/issues/2694) 💬 2 | [dotnet/aspnetcore](https://github.com/dotnet/aspnetcore) | 38.4k | 🟡 help wanted | 2026-08-09 | ✍️ CLA |
@@ -132,12 +153,14 @@
 | [Image Position And Pixel Info](https://github.com/Ruben2776/PicView/issues/151) 💬 1 | [Ruben2776/PicView](https://github.com/Ruben2776/PicView) | 3.6k | 🟡 help wanted | 2026-08-06 |  |
 | [Add support for cropping function to work when zoomed in](https://github.com/Ruben2776/PicView/issues/44) 💬 1 | [Ruben2776/PicView](https://github.com/Ruben2776/PicView) | 3.6k | 🟡 help wanted | 2026-08-06 |  |
 | [Get-AzADGroupMember should return better error message if group does not exist](https://github.com/Azure/azure-powershell/issues/26237) 💬 6 | [Azure/azure-powershell](https://github.com/Azure/azure-powershell) | 4.8k | 🟢 beginner | 2026-08-05 | ✍️ CLA |
+| [XML Doc Comment incorrectly indents code CDATA section](https://github.com/dotnet/roslyn/issues/27150) 💬 6 | [dotnet/roslyn](https://github.com/dotnet/roslyn) | 20.7k | 🟡 help wanted | 2026-08-04 | ✍️ CLA |
 | [Add drag and drop functionality to TreeView](https://github.com/MudBlazor/MudBlazor/issues/5987) 💬 16 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟡 help wanted | 2026-08-03 |  |
 | [Centralize more toolsetversion-related data for tests](https://github.com/dotnet/sdk/issues/41583) 💬 3 | [dotnet/sdk](https://github.com/dotnet/sdk) | 3.2k | 🟢 beginner | 2026-08-03 |  |
 | [Improve overload resolution in error scenarios for better source-generator experience](https://github.com/dotnet/roslyn/issues/84322) 💬 2 | [dotnet/roslyn](https://github.com/dotnet/roslyn) | 20.7k | 🟡 help wanted | 2026-08-02 | ✍️ CLA |
 | [Cursor flickering on Wayland: Repeated proximity-out/in events while hovering stationary.](https://github.com/OpenTabletDriver/OpenTabletDriver/issues/4936) 💬 4 | [OpenTabletDriver/OpenTabletDriver](https://github.com/OpenTabletDriver/OpenTabletDriver) | 4.1k | 🟡 help wanted | 2026-08-02 |  |
 | [Reading Mode: Keep subtitles stable while captions are being updated](https://github.com/SakiRinn/LiveCaptions-Translator/issues/278) | [SakiRinn/LiveCaptions-Translator](https://github.com/SakiRinn/LiveCaptions-Translator) | 3.7k | 🟡 help wanted | 2026-08-02 |  |
 | [ToCSharpString outputs floats without a type suffix](https://github.com/dotnet/roslyn/issues/76061) 💬 9 | [dotnet/roslyn](https://github.com/dotnet/roslyn) | 20.7k | 🟡 help wanted | 2026-07-30 | ✍️ CLA |
+| [Pasting multiline text into XML comments should make it comments](https://github.com/dotnet/roslyn/issues/17383) 💬 3 | [dotnet/roslyn](https://github.com/dotnet/roslyn) | 20.7k | 🟡 help wanted | 2026-07-30 | ✍️ CLA |
 | ['FrameworkElement_Sizes' crashes on WinUI](https://github.com/unoplatform/uno/issues/19198) 💬 5 | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-07-29 |  |
 | [Telemetry - use the request path for name of trace](https://github.com/dotnet/yarp/issues/2667) 💬 10 | [dotnet/yarp](https://github.com/dotnet/yarp) | 9.6k | 🟡 help wanted | 2026-07-29 | ✍️ CLA |
 | [React SPA Template Jest Unit Tests Should Work](https://github.com/dotnet/aspnetcore/issues/30388) 💬 3 | [dotnet/aspnetcore](https://github.com/dotnet/aspnetcore) | 38.4k | 🟢 beginner | 2026-07-28 | ✍️ CLA |
@@ -156,6 +179,7 @@
 | [Optimize generated code](https://github.com/dotnet/macios/issues/16675) | [dotnet/macios](https://github.com/dotnet/macios) | 2.9k | 🟢 beginner | 2026-07-21 |  |
 | [Mouse wheel zoom not working when EnableSwapChainRendering = True](https://github.com/helix-toolkit/helix-toolkit/issues/833) 💬 17 | [helix-toolkit/helix-toolkit](https://github.com/helix-toolkit/helix-toolkit) | 2.3k | 🟡 help wanted | 2026-07-21 |  |
 | [[QUESTION]: How to access CL_DEVICE_MAX_MEM_ALLOC_SIZE](https://github.com/m4rs-mt/ILGPU/issues/1611) | [m4rs-mt/ILGPU](https://github.com/m4rs-mt/ILGPU) | 1.8k | 🟡 help wanted | 2026-07-20 |  |
+| [Binlog reading - grace checking of GZip signature](https://github.com/dotnet/msbuild/issues/9567) 💬 1 | [dotnet/msbuild](https://github.com/dotnet/msbuild) | 5.5k | 🟡 help wanted | 2026-07-19 |  |
 | [Society center can be built above the ground](https://github.com/Revolutionary-Games/Thrive/issues/7073) 💬 2 | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) | 3.7k | 🟢 beginner | 2026-07-15 |  |
 | [Need an API to get the 'iteration type' of a type.](https://github.com/dotnet/roslyn/issues/77926) 💬 6 | [dotnet/roslyn](https://github.com/dotnet/roslyn) | 20.7k | 🟡 help wanted | 2026-07-14 | ✍️ CLA |
 | [Wine via homebrew on MacOS is being removed on 2026-09-01](https://github.com/MonoGame/MonoGame/issues/9424) 💬 4 | [MonoGame/MonoGame](https://github.com/MonoGame/MonoGame) | 14.4k | 🟡 help wanted | 2026-07-13 | ⚠️ AI restricted |
@@ -186,29 +210,5 @@
 | [[BUG] Premium unlocked banner keeps coming back](https://github.com/unchihugo/FluentFlyout/issues/540) 💬 2 | [unchihugo/FluentFlyout](https://github.com/unchihugo/FluentFlyout) | 4.4k | 🟢 beginner | 2026-06-19 |  |
 | [[Request] Add support for OpenTelemetry telemetry instrumentation](https://github.com/robinrodricks/FluentFTP/issues/1150) 💬 16 | [robinrodricks/FluentFTP](https://github.com/robinrodricks/FluentFTP) | 3.4k | 🟡 help wanted | 2026-06-19 |  |
 | [Support for 'UISettings.AnimationsEnabled' and 'AutoHideScrollBars'](https://github.com/unoplatform/uno/issues/6851) 💬 2 | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-06-18 |  |
-| [Add support for 'OAuth2Manager'](https://github.com/unoplatform/uno/issues/19787) 💬 12 | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟡 help wanted | 2026-06-18 |  |
-| [[Docs] Mapping (Xamarin.Essentials)/.NET MAUI Platform APIs to WinRT APIs](https://github.com/unoplatform/uno/issues/16665) 💬 3 | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-06-18 |  |
-| [[Gallery][iOS]Email Manager - When clicking on 'compose' button, the email send screen is quickly disappearing](https://github.com/unoplatform/uno/issues/11181) 💬 9 | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-06-18 |  |
-| [How to get all users who have no role assigned?](https://github.com/OrchardCMS/OrchardCore/issues/2987) 💬 22 | [OrchardCMS/OrchardCore](https://github.com/OrchardCMS/OrchardCore) | 8.2k | 🟢 beginner | 2026-06-18 |  |
-| [Problem with counting in the workflow loop](https://github.com/OrchardCMS/OrchardCore/issues/6912) 💬 10 | [OrchardCMS/OrchardCore](https://github.com/OrchardCMS/OrchardCore) | 8.2k | 🟢 beginner | 2026-06-18 |  |
-| [Can't download age-restricted channels](https://github.com/Tyrrrz/DiscordChatExporter/issues/1483) 💬 5 | [Tyrrrz/DiscordChatExporter](https://github.com/Tyrrrz/DiscordChatExporter) | 12k | 🟡 help wanted | 2026-06-17 |  |
-| [PT BR - Portuguese Brazil](https://github.com/itsfatduck/optimizerDuck/issues/34) 💬 1 | [itsfatduck/optimizerDuck](https://github.com/itsfatduck/optimizerDuck) | 9.6k | 🟢 beginner | 2026-06-16 |  |
-| [Examples of program usage](https://github.com/dotnet/command-line-api/issues/400) 💬 14 | [dotnet/command-line-api](https://github.com/dotnet/command-line-api) | 3.7k | 🟡 help wanted | 2026-06-13 |  |
-| [Investigate perf with EF Core on MAUI](https://github.com/dotnet/efcore/issues/12087) 💬 28 | [dotnet/efcore](https://github.com/dotnet/efcore) | 14.8k | 🟡 help wanted | 2026-06-09 | ✍️ CLA |
-| [[Docs] Push Notifications](https://github.com/unoplatform/uno/issues/3661) 💬 5 | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-06-04 |  |
-| [[WASM] 'SystemNavigationManager.BackRequested' doesn't work.](https://github.com/unoplatform/uno/issues/3115) 💬 9 | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-06-04 |  |
-| [[Droid] 'DoubleAnimation' in 'ControlTemplate' 'VisualState' throws Exception on call to 'Convert.ToSingle()'](https://github.com/unoplatform/uno/issues/2955) 💬 3 | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-06-04 |  |
-| [[Layout] Unit test 'When_One_Child_Alignment' is failing](https://github.com/unoplatform/uno/issues/2733) 💬 2 | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-06-04 |  |
-| [Adjust screenshot tests](https://github.com/unoplatform/uno/issues/2556) 💬 6 | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-06-04 |  |
-| [Select and Translate](https://github.com/SakiRinn/LiveCaptions-Translator/issues/265) | [SakiRinn/LiveCaptions-Translator](https://github.com/SakiRinn/LiveCaptions-Translator) | 3.7k | 🟡 help wanted | 2026-06-04 |  |
-| [Consider if the editor light level (day/night) buttons should default to day](https://github.com/Revolutionary-Games/Thrive/issues/6039) 💬 2 | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) | 3.7k | 🟢 beginner | 2026-06-04 |  |
-| [请问何时会做TikTok小游戏适配呢？](https://github.com/tuyoogame/YooAsset/issues/748) 💬 7 | [tuyoogame/YooAsset](https://github.com/tuyoogame/YooAsset) | 3.4k | 🟡 help wanted | 2026-06-03 |  |
-| [RAM Search Changes column does not update](https://github.com/TASEmulators/BizHawk/issues/3020) 💬 2 | [TASEmulators/BizHawk](https://github.com/TASEmulators/BizHawk) | 2.8k | 🟢 beginner | 2026-06-03 |  |
-| [Update documentation for MonoGame Extended Particle System Quick Start Guide](https://github.com/MonoGame-Extended/Monogame-Extended/issues/1124) 💬 1 | [MonoGame-Extended/Monogame-Extended](https://github.com/MonoGame-Extended/Monogame-Extended) | 1.8k | 🟢 beginner | 2026-06-03 |  |
-| [Nats Activities](https://github.com/elsa-workflows/elsa-core/issues/743) 💬 1 | [elsa-workflows/elsa-core](https://github.com/elsa-workflows/elsa-core) | 7.9k | 🟡 help wanted | 2026-06-02 |  |
-| [Bundle Name Problem](https://github.com/tuyoogame/YooAsset/issues/717) 💬 5 | [tuyoogame/YooAsset](https://github.com/tuyoogame/YooAsset) | 3.4k | 🟡 help wanted | 2026-06-02 |  |
-| [commandTimeout for some query only](https://github.com/dotnet/efcore/issues/18895) 💬 12 | [dotnet/efcore](https://github.com/dotnet/efcore) | 14.8k | 🟢 beginner | 2026-05-31 | ✍️ CLA |
-| [Binary for WindowsARM64](https://github.com/winsw/winsw/issues/1307) | [winsw/winsw](https://github.com/winsw/winsw) | 14.3k | 🟡 help wanted | 2026-05-30 |  |
-| [Support dynamic routing configuration in Service Fabric](https://github.com/ThreeMammals/Ocelot/issues/939) 💬 9 | [ThreeMammals/Ocelot](https://github.com/ThreeMammals/Ocelot) | 8.7k | 🟡 help wanted | 2026-05-26 |  |
 
-Showing the 200 most recently updated. See all 247 on the website.
+Showing the 200 most recently updated. See all 273 on the website.

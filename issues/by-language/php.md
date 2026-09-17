@@ -1,8 +1,8 @@
 # PHP issues
 
-**163** open issues (87 labeled for beginners) across **57** active PHP projects.
+**165** open issues (86 labeled for beginners) across **57** active PHP projects.
 
-> Updated automatically on **2026-09-16 20:58 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-17 10:46 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -11,38 +11,41 @@
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
 | [schedule:work run artisan relative to current working dir](https://github.com/laravel/framework/issues/56390) 💬 3 | [laravel/framework](https://github.com/laravel/framework) | 34.9k | 🟡 help wanted | 2026-09-16 |  |
-| [Missing translations for Estonian (et)](https://github.com/symfony/symfony/issues/66097) 💬 4 | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-09-16 |  |
-| [Missing translations for Burmese (my)](https://github.com/symfony/symfony/issues/51897) 💬 2 | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-09-16 |  |
+| [Missing translations for Estonian (et)](https://github.com/symfony/symfony/issues/66097) 💬 4 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-16 |  |
+| [Missing translations for Burmese (my)](https://github.com/symfony/symfony/issues/51897) 💬 2 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-16 |  |
 | [Plain URLs typed/pasted in editor are not auto-linked in outgoing emails](https://github.com/freescout-help-desk/freescout/issues/5280) 💬 3 | [freescout-help-desk/freescout](https://github.com/freescout-help-desk/freescout) | 4.5k | 🟡 help wanted | 2026-09-16 |  |
+| [Document need some custom attributes,eg:metadata](https://github.com/LLPhant/LLPhant/issues/313) | [LLPhant/LLPhant](https://github.com/LLPhant/LLPhant) | 1.7k | 🟡 help wanted | 2026-09-16 |  |
+| [Ollama cloud and webSearch](https://github.com/LLPhant/LLPhant/issues/421) | [LLPhant/LLPhant](https://github.com/LLPhant/LLPhant) | 1.7k | 🟡 help wanted | 2026-09-16 |  |
+| [Meilisearch Vector Database Support](https://github.com/LLPhant/LLPhant/issues/425) | [LLPhant/LLPhant](https://github.com/LLPhant/LLPhant) | 1.7k | 🟡 help wanted | 2026-09-16 |  |
+| [Update jsignpdf-php in LibreSign 3rdparty](https://github.com/LibreSign/libresign/issues/8411) 💬 2 | [LibreSign/libresign](https://github.com/LibreSign/libresign) | 811 | 🟢 beginner | 2026-09-16 | 🤖 disclose AI use · 🔏 DCO |
 | [Expand CalDAVRemoveEmptyValue.php to fix additional 'Unsupported VALUE parameter for DTEND property' errors th](https://github.com/nextcloud/server/issues/17554) 💬 7 | [nextcloud/server](https://github.com/nextcloud/server) | 36.8k | 🟢 beginner | 2026-09-15 | 🤖 disclose AI use · 🔏 DCO |
-| [Missing translations for Welsh (cy)](https://github.com/symfony/symfony/issues/51903) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-09-15 |  |
-| [Missing translations for Vietnamese (vi)](https://github.com/symfony/symfony/issues/53309) 💬 4 | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-09-15 |  |
-| [Missing translations for Urdu (ur)](https://github.com/symfony/symfony/issues/66111) | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-09-15 |  |
-| [Missing translations for Uzbek (uz)](https://github.com/symfony/symfony/issues/65569) | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-09-15 |  |
-| [Missing translations for Turkish (tr)](https://github.com/symfony/symfony/issues/66110) | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-09-15 |  |
-| [Missing translations for Ukrainian (uk)](https://github.com/symfony/symfony/issues/65567) | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-09-15 |  |
-| [Missing translations for Tagalog (tl)](https://github.com/symfony/symfony/issues/65565) | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-09-15 |  |
-| [Missing translations for Thai (th)](https://github.com/symfony/symfony/issues/53048) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-09-15 |  |
-| [Missing translations for Swedish (sv)](https://github.com/symfony/symfony/issues/64518) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-09-15 |  |
-| [Missing translations for Spanish (es)](https://github.com/symfony/symfony/issues/66109) | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-09-15 |  |
-| [Missing translations for Slovenian (sl)](https://github.com/symfony/symfony/issues/64516) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-09-15 |  |
-| [Missing translations for Serbian (sr_Latn)](https://github.com/symfony/symfony/issues/66108) | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-09-15 |  |
-| [Missing translations for Slovak (sk)](https://github.com/symfony/symfony/issues/65563) | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-09-15 |  |
-| [Missing translations for Serbian (sr_Cyrl)](https://github.com/symfony/symfony/issues/66107) | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-09-15 |  |
-| [Missing translations for Russian (ru)](https://github.com/symfony/symfony/issues/66106) | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-09-15 |  |
-| [Missing translations for Romanian (ro)](https://github.com/symfony/symfony/issues/66105) | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-09-15 |  |
-| [Missing translations for Polish (pl)](https://github.com/symfony/symfony/issues/66104) | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-09-15 |  |
-| [Missing translations for Portuguese (pt)](https://github.com/symfony/symfony/issues/64510) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-09-15 |  |
-| [Missing translations for Persian (fa)](https://github.com/symfony/symfony/issues/66103) | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-09-15 |  |
-| [Missing translations for Norwegian Nynorsk (nn)](https://github.com/symfony/symfony/issues/45130) 💬 6 | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-09-15 |  |
-| [Missing translations for Norwegian Bokmål (nb)](https://github.com/symfony/symfony/issues/64507) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-09-15 |  |
-| [Missing translations for Norwegian (no)](https://github.com/symfony/symfony/issues/64506) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-09-15 |  |
-| [Missing translations for Mongolian (mn)](https://github.com/symfony/symfony/issues/45127) 💬 5 | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-09-15 |  |
-| [Missing translations for Lithuanian (lt)](https://github.com/symfony/symfony/issues/65558) | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-09-15 |  |
-| [Missing translations for Luxembourgish (lb)](https://github.com/symfony/symfony/issues/64505) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-09-15 |  |
-| [Missing translations for Latvian (lv)](https://github.com/symfony/symfony/issues/64503) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.1k | 🟢 beginner | 2026-09-15 |  |
+| [Missing translations for Welsh (cy)](https://github.com/symfony/symfony/issues/51903) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-15 |  |
+| [Missing translations for Vietnamese (vi)](https://github.com/symfony/symfony/issues/53309) 💬 4 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-15 |  |
+| [Missing translations for Urdu (ur)](https://github.com/symfony/symfony/issues/66111) | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-15 |  |
+| [Missing translations for Uzbek (uz)](https://github.com/symfony/symfony/issues/65569) | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-15 |  |
+| [Missing translations for Turkish (tr)](https://github.com/symfony/symfony/issues/66110) | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-15 |  |
+| [Missing translations for Ukrainian (uk)](https://github.com/symfony/symfony/issues/65567) | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-15 |  |
+| [Missing translations for Tagalog (tl)](https://github.com/symfony/symfony/issues/65565) | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-15 |  |
+| [Missing translations for Thai (th)](https://github.com/symfony/symfony/issues/53048) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-15 |  |
+| [Missing translations for Swedish (sv)](https://github.com/symfony/symfony/issues/64518) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-15 |  |
+| [Missing translations for Spanish (es)](https://github.com/symfony/symfony/issues/66109) | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-15 |  |
+| [Missing translations for Slovenian (sl)](https://github.com/symfony/symfony/issues/64516) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-15 |  |
+| [Missing translations for Serbian (sr_Latn)](https://github.com/symfony/symfony/issues/66108) | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-15 |  |
+| [Missing translations for Slovak (sk)](https://github.com/symfony/symfony/issues/65563) | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-15 |  |
+| [Missing translations for Serbian (sr_Cyrl)](https://github.com/symfony/symfony/issues/66107) | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-15 |  |
+| [Missing translations for Russian (ru)](https://github.com/symfony/symfony/issues/66106) | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-15 |  |
+| [Missing translations for Romanian (ro)](https://github.com/symfony/symfony/issues/66105) | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-15 |  |
+| [Missing translations for Polish (pl)](https://github.com/symfony/symfony/issues/66104) | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-15 |  |
+| [Missing translations for Portuguese (pt)](https://github.com/symfony/symfony/issues/64510) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-15 |  |
+| [Missing translations for Persian (fa)](https://github.com/symfony/symfony/issues/66103) | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-15 |  |
+| [Missing translations for Norwegian Nynorsk (nn)](https://github.com/symfony/symfony/issues/45130) 💬 6 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-15 |  |
+| [Missing translations for Norwegian Bokmål (nb)](https://github.com/symfony/symfony/issues/64507) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-15 |  |
+| [Missing translations for Norwegian (no)](https://github.com/symfony/symfony/issues/64506) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-15 |  |
+| [Missing translations for Mongolian (mn)](https://github.com/symfony/symfony/issues/45127) 💬 5 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-15 |  |
+| [Missing translations for Lithuanian (lt)](https://github.com/symfony/symfony/issues/65558) | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-15 |  |
+| [Missing translations for Luxembourgish (lb)](https://github.com/symfony/symfony/issues/64505) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-15 |  |
+| [Missing translations for Latvian (lv)](https://github.com/symfony/symfony/issues/64503) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-15 |  |
 | [Move API component 'ComponentProvider's into API packages](https://github.com/open-telemetry/opentelemetry-php/issues/1638) 💬 3 | [open-telemetry/opentelemetry-php](https://github.com/open-telemetry/opentelemetry-php) | 912 | 🟡 help wanted | 2026-09-15 |  |
-| [Update jsignpdf-php in LibreSign 3rdparty](https://github.com/LibreSign/libresign/issues/8411) | [LibreSign/libresign](https://github.com/LibreSign/libresign) | 811 | 🟢 beginner | 2026-09-15 | 🤖 disclose AI use · 🔏 DCO |
 | [Peer graders should never see grade inquiries](https://github.com/Submitty/Submitty/issues/13355) 💬 1 | [Submitty/Submitty](https://github.com/Submitty/Submitty) | 791 | 🟢 beginner | 2026-09-15 |  |
 | [Reject credential and other unsupported keys in 'files_external:option'](https://github.com/nextcloud/server/issues/58821) 💬 2 | [nextcloud/server](https://github.com/nextcloud/server) | 36.8k | 🟢 beginner | 2026-09-14 | 🤖 disclose AI use · 🔏 DCO |
 | ['CHECK_MODE_COERCE_TYPES' flag does not coerce quoted ints to corresponding boolean](https://github.com/jsonrainbow/json-schema/issues/955) 💬 1 | [jsonrainbow/json-schema](https://github.com/jsonrainbow/json-schema) | 3.6k | 🟢 beginner | 2026-09-14 |  |
@@ -101,7 +104,7 @@
 | [@aware property values lost when rendering a named slot with '{{ $slotName }}'](https://github.com/laravel/framework/issues/57286) 💬 6 | [laravel/framework](https://github.com/laravel/framework) | 34.9k | 🟡 help wanted | 2026-07-15 |  |
 | [Add info to Report Search tooltip](https://github.com/matomo-org/matomo/issues/19042) 💬 3 | [matomo-org/matomo](https://github.com/matomo-org/matomo) | 21.9k | 🟡 help wanted | 2026-07-11 |  |
 | [When autofilling a search term on info page, the wrong background is selected in the form field](https://github.com/matomo-org/matomo/issues/18857) 💬 1 | [matomo-org/matomo](https://github.com/matomo-org/matomo) | 21.9k | 🟡 help wanted | 2026-07-11 |  |
-| [Неверное склонение городов](https://github.com/wapmorgan/Morphos/issues/142) 💬 4 | [wapmorgan/Morphos](https://github.com/wapmorgan/Morphos) | 829 | 🟡 help wanted | 2026-07-09 |  |
+| [Неверное склонение городов](https://github.com/wapmorgan/Morphos/issues/142) 💬 4 | [wapmorgan/Morphos](https://github.com/wapmorgan/Morphos) | 830 | 🟡 help wanted | 2026-07-09 |  |
 | [[Feature] more batch "mark as read" tools](https://github.com/FreshRSS/FreshRSS/issues/8658) 💬 3 | [FreshRSS/FreshRSS](https://github.com/FreshRSS/FreshRSS) | 16k | 🟡 help wanted | 2026-07-06 |  |
 | [Uuid v7 generated in wrong order](https://github.com/ramsey/uuid/issues/536) 💬 29 | [ramsey/uuid](https://github.com/ramsey/uuid) | 12.6k | 🟡 help wanted | 2026-07-06 |  |
 | [[Bug]: Web Updater’s "start update" button unreachable without scroll bar](https://github.com/nextcloud/server/issues/40624) 💬 2 | [nextcloud/server](https://github.com/nextcloud/server) | 36.8k | 🟢 beginner | 2026-07-03 | 🤖 disclose AI use · 🔏 DCO |
@@ -155,7 +158,6 @@
 | [Inconsistent orWhere behavior after upgrade from Laravel 10.x to 13.x](https://github.com/laravel/framework/issues/59516) 💬 4 | [laravel/framework](https://github.com/laravel/framework) | 34.9k | 🟡 help wanted | 2026-05-01 |  |
 | [Ability to set default_phone_region to none / E.164 only](https://github.com/nextcloud/server/issues/49460) 💬 6 | [nextcloud/server](https://github.com/nextcloud/server) | 36.8k | 🟢 beginner | 2026-04-29 | 🤖 disclose AI use · 🔏 DCO |
 | [[Meilisearch v1.37] Backport Network API changes to 'v1.x' branch](https://github.com/meilisearch/meilisearch-php/issues/851) 💬 1 | [meilisearch/meilisearch-php](https://github.com/meilisearch/meilisearch-php) | 757 | 🟢 beginner | 2026-04-28 | 🤖 disclose AI use |
-| [Change the sentence's text color when "License:" is set to "Licensing issue".](https://github.com/Tatoeba/tatoeba2/issues/2996) 💬 4 | [Tatoeba/tatoeba2](https://github.com/Tatoeba/tatoeba2) | 882 | 🟢 beginner | 2026-04-22 |  |
 | [[FR] Auto-subscribe to folders](https://github.com/cypht-org/cypht/issues/460) 💬 1 | [cypht-org/cypht](https://github.com/cypht-org/cypht) | 1.7k | 🟡 help wanted | 2026-04-16 |  |
 | [3.0.0-RC: @package partially not inherited for "classless functions/constants"](https://github.com/phpDocumentor/phpDocumentor/issues/2318) 💬 4 | [phpDocumentor/phpDocumentor](https://github.com/phpDocumentor/phpDocumentor) | 4.3k | 🟡 help wanted | 2026-04-15 |  |
 | [Page Overlay specific date ranges](https://github.com/matomo-org/matomo/issues/20230) 💬 4 | [matomo-org/matomo](https://github.com/matomo-org/matomo) | 21.9k | 🟡 help wanted | 2026-04-14 |  |
