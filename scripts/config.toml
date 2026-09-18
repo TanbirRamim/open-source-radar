@@ -119,6 +119,6 @@ keywords = ["documentation", "education", "learning", "tutorial", "awesome", "aw
 title = "Science and research"
 keywords = ["science", "scientific-computing", "bioinformatics", "physics", "astronomy", "chemistry", "mathematics", "statistics", "simulation", "geospatial", "gis", "climate"]
 
-[topics.finance-web3]
+[topics.robotics]\ntitle = "Robotics"\nkeywords = ["robotics", "ros", "ros2", "drones", "autonomous-vehicles", "slam", "motion-planning"]\n\n[topics.finance-web3]
 title = "Finance and Web3"
 keywords = ["finance", "fintech", "blockchain", "ethereum", "crypto*", "trading", "bitcoin", "defi", "web3", "payments"]
