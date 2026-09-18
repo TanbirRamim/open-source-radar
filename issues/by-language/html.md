@@ -1,8 +1,8 @@
 # HTML issues
 
-**91** open issues (32 labeled for beginners) across **38** active HTML projects.
+**91** open issues (31 labeled for beginners) across **38** active HTML projects.
 
-> Updated automatically on **2026-09-18 10:36 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-18 20:28 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,6 +10,7 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [Confirm new ubuntu-latest GH runner image is fine](https://github.com/mozilla/bedrock/issues/17386) 💬 1 | [mozilla/bedrock](https://github.com/mozilla/bedrock) | 1.3k | 🟡 help wanted | 2026-09-18 |  |
 | [[Initiative]: Cloud Native Business Continuity: whitepaper and best practices](https://github.com/cncf/toc/issues/1779) 💬 9 | [cncf/toc](https://github.com/cncf/toc) | 1.9k | 🟡 help wanted | 2026-09-16 |  |
 | [[Initiative]: Cloud Native Observability Personas](https://github.com/cncf/toc/issues/2037) 💬 10 | [cncf/toc](https://github.com/cncf/toc) | 1.9k | 🟡 help wanted | 2026-09-16 |  |
 | [Allow disable generating full mobile navigation tree](https://github.com/imfing/hextra/issues/275) 💬 1 | [imfing/hextra](https://github.com/imfing/hextra) | 2.4k | 🟢 beginner | 2026-09-15 |  |
@@ -30,7 +31,7 @@
 | [[Initiative]: Reference framework for the levels of Service Reliability Automation](https://github.com/cncf/toc/issues/1984) 💬 31 | [cncf/toc](https://github.com/cncf/toc) | 1.9k | 🟡 help wanted | 2026-08-11 |  |
 | [Better "No product" experience](https://github.com/openfoodfacts/openfoodfacts-server/issues/1505) | [openfoodfacts/openfoodfacts-server](https://github.com/openfoodfacts/openfoodfacts-server) | 1.2k | 🟡 help wanted | 2026-08-11 | 🤖 disclose AI use |
 | [Request for two enhancements: prev/next post, & list of all posts](https://github.com/chipzoller/hugo-clarity/issues/126) 💬 5 | [chipzoller/hugo-clarity](https://github.com/chipzoller/hugo-clarity) | 652 | 🟡 help wanted | 2026-08-10 | 🔏 DCO |
-| [cua-driver installer: print the PATH export command when ~/.local/bin isn't on PATH](https://github.com/trycua/cua/issues/3004) 💬 1 | [trycua/cua](https://github.com/trycua/cua) | 23k | 🟢 beginner | 2026-08-09 | 🤖 disclose AI use |
+| [cua-driver installer: print the PATH export command when ~/.local/bin isn't on PATH](https://github.com/trycua/cua/issues/3004) 💬 1 | [trycua/cua](https://github.com/trycua/cua) | 23.2k | 🟢 beginner | 2026-08-09 | 🤖 disclose AI use |
 | [[ja] Translate docs/concepts/services-networking/windows-networking.md into Japanese](https://github.com/kubernetes/website/issues/56047) 💬 4 | [kubernetes/website](https://github.com/kubernetes/website) | 5.4k | 🟡 help wanted | 2026-08-08 |  |
 | [[ja] Translate docs/concepts/security/hardening-guide/dynamic-resource-allocation.md into Japanese](https://github.com/kubernetes/website/issues/56048) 💬 6 | [kubernetes/website](https://github.com/kubernetes/website) | 5.4k | 🟡 help wanted | 2026-08-08 |  |
 | [Create a Sitemap for ProductOpener](https://github.com/openfoodfacts/openfoodfacts-server/issues/442) 💬 2 | [openfoodfacts/openfoodfacts-server](https://github.com/openfoodfacts/openfoodfacts-server) | 1.2k | 🟡 help wanted | 2026-08-08 | 🤖 disclose AI use |
@@ -59,15 +60,15 @@
 | [ExternalizableSerializer does not support circular references](https://github.com/EsotericSoftware/kryo/issues/1094) 💬 2 | [EsotericSoftware/kryo](https://github.com/EsotericSoftware/kryo) | 6.5k | 🟡 help wanted | 2026-06-23 |  |
 | [java.util.ImmutableCollections$ListN can contain null values](https://github.com/EsotericSoftware/kryo/issues/1239) 💬 1 | [EsotericSoftware/kryo](https://github.com/EsotericSoftware/kryo) | 6.5k | 🟡 help wanted | 2026-06-23 |  |
 | [CompatibleFieldSerializer: Subsequent fields are null after skipping an unknown field](https://github.com/EsotericSoftware/kryo/issues/1247) 💬 5 | [EsotericSoftware/kryo](https://github.com/EsotericSoftware/kryo) | 6.5k | 🟡 help wanted | 2026-06-23 |  |
-| [CORE-AAM has "user agents must not expose non-global, not support attributes on roles", but there is no relate](https://github.com/w3c/aria/issues/2168) 💬 2 | [w3c/aria](https://github.com/w3c/aria) | 753 | 🟢 beginner | 2026-06-23 |  |
+| [CORE-AAM has "user agents must not expose non-global, not support attributes on roles", but there is no relate](https://github.com/w3c/aria/issues/2168) 💬 2 | [w3c/aria](https://github.com/w3c/aria) | 752 | 🟢 beginner | 2026-06-23 |  |
 | [Axe-core's d.ts file is incomplete](https://github.com/dequelabs/axe-core/issues/4241) 💬 4 | [dequelabs/axe-core](https://github.com/dequelabs/axe-core) | 7.5k | 🟡 help wanted | 2026-06-21 | ✍️ CLA |
 | [support Podman for local development](https://github.com/projectcontour/contour/issues/5261) 💬 1 | [projectcontour/contour](https://github.com/projectcontour/contour) | 3.9k | 🟡 help wanted | 2026-06-18 | 🔏 DCO |
 | [Supporting BackendTLS for TLSRoute](https://github.com/projectcontour/contour/issues/6136) 💬 2 | [projectcontour/contour](https://github.com/projectcontour/contour) | 3.9k | 🟡 help wanted | 2026-06-18 | 🔏 DCO |
 | [E2Es: improve verification that the correct backend service is being hit.](https://github.com/projectcontour/contour/issues/6253) 💬 1 | [projectcontour/contour](https://github.com/projectcontour/contour) | 3.9k | 🟡 help wanted | 2026-06-18 | 🔏 DCO |
 | [Docs: Create and document a "stale content" checking cycle](https://github.com/projectcontour/contour/issues/3814) 💬 1 | [projectcontour/contour](https://github.com/projectcontour/contour) | 3.9k | 🟢 beginner | 2026-06-18 | 🔏 DCO |
 | [Processed meat openmojis?](https://github.com/hfg-gmuend/openmoji/issues/657) 💬 2 | [hfg-gmuend/openmoji](https://github.com/hfg-gmuend/openmoji) | 4.6k | 🟡 help wanted | 2026-06-17 |  |
-| [Limitations of Anki as a learning coding platform](https://github.com/badlydrawnrob/anki/issues/180) | [badlydrawnrob/anki](https://github.com/badlydrawnrob/anki) | 928 | 🟡 help wanted | 2026-06-17 |  |
-| [Moving away from Anki](https://github.com/badlydrawnrob/anki/issues/181) | [badlydrawnrob/anki](https://github.com/badlydrawnrob/anki) | 928 | 🟡 help wanted | 2026-06-12 |  |
+| [Limitations of Anki as a learning coding platform](https://github.com/badlydrawnrob/anki/issues/180) | [badlydrawnrob/anki](https://github.com/badlydrawnrob/anki) | 929 | 🟡 help wanted | 2026-06-17 |  |
+| [Moving away from Anki](https://github.com/badlydrawnrob/anki/issues/181) | [badlydrawnrob/anki](https://github.com/badlydrawnrob/anki) | 929 | 🟡 help wanted | 2026-06-12 |  |
 | [Very high CPU usage while the GUI is open since EasyEffects 8.x](https://github.com/wwmm/easyeffects/issues/4652) 💬 69 | [wwmm/easyeffects](https://github.com/wwmm/easyeffects) | 10.2k | 🟡 help wanted | 2026-06-10 |  |
 | [Develop example of a datagrid with advanced, spreadsheet-like features](https://github.com/w3c/aria-practices/issues/155) 💬 19 | [w3c/aria-practices](https://github.com/w3c/aria-practices) | 1.4k | 🟡 help wanted | 2026-06-10 |  |
 | [[Worlds Without Number] Text is barely readable/showing the wrong color in the roll macro window](https://github.com/Roll20/roll20-character-sheets/issues/13773) 💬 3 | [Roll20/roll20-character-sheets](https://github.com/Roll20/roll20-character-sheets) | 1.2k | 🟢 beginner | 2026-06-10 |  |
@@ -100,4 +101,3 @@
 | [Test target override better](https://github.com/web-platform-tests/wpt/issues/2321) 💬 1 | [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt) | 6.2k | 🟢 beginner | 2026-03-30 |  |
 | [[HELP] Custom Error 521 template , how to set ?](https://github.com/tobychui/zoraxy/issues/1095) 💬 1 | [tobychui/zoraxy](https://github.com/tobychui/zoraxy) | 5.5k | 🟡 help wanted | 2026-03-30 |  |
 | [Test that innerHTML works in synthetic documents.](https://github.com/web-platform-tests/wpt/issues/1509) 💬 1 | [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt) | 6.2k | 🟢 beginner | 2026-03-24 |  |
-| [FOSSology not setting sticky bit on REPODIR](https://github.com/fossology/fossology/issues/1115) 💬 5 | [fossology/fossology](https://github.com/fossology/fossology) | 1k | 🟢 beginner | 2026-03-22 | 🔏 DCO |

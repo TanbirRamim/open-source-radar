@@ -2,7 +2,7 @@
 
 **28** open issues (13 labeled for beginners) across **12** active Jupyter Notebook projects.
 
-> Updated automatically on **2026-09-18 10:36 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-18 20:28 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -14,10 +14,10 @@
 | [Link back to github from reference API docs](https://github.com/apache/hamilton/issues/572) 💬 3 | [apache/hamilton](https://github.com/apache/hamilton) | 2.6k | 🟢 beginner | 2026-09-03 | ✍️ CLA |
 | [Output cells no longer collapse completely](https://github.com/jupyter/notebook/issues/7020) 💬 16 | [jupyter/notebook](https://github.com/jupyter/notebook) | 13.3k | 🟡 help wanted | 2026-09-01 |  |
 | [[P0] Off-chain / devshard implementation track](https://github.com/gonka-ai/gonka/issues/1220) 💬 2 | [gonka-ai/gonka](https://github.com/gonka-ai/gonka) | 629 | 🟡 help wanted | 2026-08-27 |  |
-| [[Feature Request]: Integrate Automated Data Validation Pipeline using 'Great Expectations' for Dataset Integri](https://github.com/Niketkumardheeryan/ML-CaPsule/issues/1504) 💬 26 | [Niketkumardheeryan/ML-CaPsule](https://github.com/Niketkumardheeryan/ML-CaPsule) | 682 | 🟡 help wanted | 2026-08-19 |  |
+| [[Feature Request]: Integrate Automated Data Validation Pipeline using 'Great Expectations' for Dataset Integri](https://github.com/Niketkumardheeryan/ML-CaPsule/issues/1504) 💬 26 | [Niketkumardheeryan/ML-CaPsule](https://github.com/Niketkumardheeryan/ML-CaPsule) | 681 | 🟡 help wanted | 2026-08-19 |  |
 | [More transparent error messages when calling effect functions on un-fitted estimators](https://github.com/py-why/EconML/issues/686) 💬 1 | [py-why/EconML](https://github.com/py-why/EconML) | 4.8k | 🟡 help wanted | 2026-08-18 |  |
 | [Hacktoberfest Umbrella Issue](https://github.com/apache/hamilton/issues/1186) 💬 25 | [apache/hamilton](https://github.com/apache/hamilton) | 2.6k | 🟢 beginner | 2026-08-18 | ✍️ CLA |
-| [Build an AI-Based Interview Preparation Website](https://github.com/Niketkumardheeryan/ML-CaPsule/issues/1436) 💬 18 | [Niketkumardheeryan/ML-CaPsule](https://github.com/Niketkumardheeryan/ML-CaPsule) | 682 | 🟡 help wanted | 2026-08-17 |  |
+| [Build an AI-Based Interview Preparation Website](https://github.com/Niketkumardheeryan/ML-CaPsule/issues/1436) 💬 18 | [Niketkumardheeryan/ML-CaPsule](https://github.com/Niketkumardheeryan/ML-CaPsule) | 681 | 🟡 help wanted | 2026-08-17 |  |
 | [Fix broken science article links in TU Chronicles pages](https://github.com/onestardao/WFGY/issues/126) 💬 2 | [onestardao/WFGY](https://github.com/onestardao/WFGY) | 1.8k | 🟢 beginner | 2026-08-08 |  |
 | [Add a minimal reproducible debugging template](https://github.com/onestardao/WFGY/issues/80) 💬 1 | [onestardao/WFGY](https://github.com/onestardao/WFGY) | 1.8k | 🟢 beginner | 2026-08-08 |  |
 | [Long words overflow the user chat message](https://github.com/mito-ds/mito/issues/1370) 💬 10 | [mito-ds/mito](https://github.com/mito-ds/mito) | 2.6k | 🟢 beginner | 2026-07-06 | ✍️ CLA |
