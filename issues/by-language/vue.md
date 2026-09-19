@@ -1,8 +1,8 @@
 # Vue issues
 
-**33** open issues (22 labeled for beginners) across **13** active Vue projects.
+**34** open issues (23 labeled for beginners) across **13** active Vue projects.
 
-> Updated automatically on **2026-09-18 20:28 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-19 10:05 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,6 +10,7 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [建议：播放页「纯净模式」开关补充悬停说明与首次开启引导气泡](https://github.com/algerkong/AlgerMusicPlayer/issues/758) 💬 1 | [algerkong/AlgerMusicPlayer](https://github.com/algerkong/AlgerMusicPlayer) | 16.8k | 🟢 beginner | 2026-09-19 |  |
 | [Forward Ticket to External Third Party / Supplier in Frappe Helpdesk](https://github.com/frappe/helpdesk/issues/3774) | [frappe/helpdesk](https://github.com/frappe/helpdesk) | 3.4k | 🟢 beginner | 2026-09-17 |  |
 | [桌面歌词功能栏优化](https://github.com/algerkong/AlgerMusicPlayer/issues/719) | [algerkong/AlgerMusicPlayer](https://github.com/algerkong/AlgerMusicPlayer) | 16.8k | 🟢 beginner | 2026-09-16 |  |
 | [点击底部播放条，也可以进入详情页](https://github.com/algerkong/AlgerMusicPlayer/issues/751) | [algerkong/AlgerMusicPlayer](https://github.com/algerkong/AlgerMusicPlayer) | 16.8k | 🟢 beginner | 2026-09-16 |  |

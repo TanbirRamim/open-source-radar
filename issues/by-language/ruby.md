@@ -2,7 +2,7 @@
 
 **100** open issues (74 labeled for beginners) across **31** active Ruby projects.
 
-> Updated automatically on **2026-09-18 20:28 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-19 10:05 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -57,7 +57,7 @@
 | [port ip bans to reaction + ipset](https://github.com/lobsters/lobsters/issues/2149) 💬 3 | [lobsters/lobsters](https://github.com/lobsters/lobsters) | 4.8k | 🟢 beginner | 2026-07-14 |  |
 | [Disallow duplicate comments posted around the same time](https://github.com/lobsters/lobsters/issues/1209) 💬 5 | [lobsters/lobsters](https://github.com/lobsters/lobsters) | 4.8k | 🟢 beginner | 2026-07-14 |  |
 | [improve traffic-counting query](https://github.com/lobsters/lobsters/issues/2139) 💬 2 | [lobsters/lobsters](https://github.com/lobsters/lobsters) | 4.8k | 🟢 beginner | 2026-07-13 |  |
-| [Feature Request to add chatwoot directly install in plesk apps](https://github.com/chatwoot/chatwoot/issues/6911) 💬 6 | [chatwoot/chatwoot](https://github.com/chatwoot/chatwoot) | 36.9k | 🟢 beginner | 2026-07-12 |  |
+| [Feature Request to add chatwoot directly install in plesk apps](https://github.com/chatwoot/chatwoot/issues/6911) 💬 6 | [chatwoot/chatwoot](https://github.com/chatwoot/chatwoot) | 37k | 🟢 beginner | 2026-07-12 |  |
 | [Arrays of multiple custom types not validating correctly](https://github.com/dry-rb/dry-validation/issues/750) 💬 1 | [dry-rb/dry-validation](https://github.com/dry-rb/dry-validation) | 1.4k | 🟡 help wanted | 2026-07-12 |  |
 | [Count-Based Windows](https://github.com/bolshakov/stoplight/issues/466) | [bolshakov/stoplight](https://github.com/bolshakov/stoplight) | 629 | 🟢 beginner | 2026-07-12 |  |
 | [Feature tests for admin panel](https://github.com/bolshakov/stoplight/issues/494) | [bolshakov/stoplight](https://github.com/bolshakov/stoplight) | 629 | 🟡 help wanted | 2026-07-11 |  |
