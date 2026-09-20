@@ -2,7 +2,7 @@
 
 **59** open issues (38 labeled for beginners) across **17** projects tagged with topics like `science`, `scientific-computing`, `bioinformatics`, `physics`, `astronomy`, `chemistry`.
 
-> Updated automatically on **2026-09-19 20:11 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-20 10:45 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,7 +10,7 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [OpenRocket on Linux - very odd filenames under ~/.java/.userPrefs/OpenRocket/favoritePresets/](https://github.com/openrocket/openrocket/issues/3335) 💬 2 | [openrocket/openrocket](https://github.com/openrocket/openrocket) | 3.1k | 🟢 beginner | 2026-09-19 |  |
+| [OpenRocket on Linux - very odd filenames under ~/.java/.userPrefs/OpenRocket/favoritePresets/](https://github.com/openrocket/openrocket/issues/3335) 💬 2 | [openrocket/openrocket](https://github.com/openrocket/openrocket) | 3.1k | 🟢 beginner | 2026-09-19 | 📄 AI policy |
 | [Crash just after loading screen due to 'ERROR: Parameter "tex" is null'](https://github.com/Revolutionary-Games/Thrive/issues/6981) 💬 8 | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) | 3.7k | 🟡 help wanted | 2026-09-18 |  |
 | [Are predictions on scikit-learn models thread-safe?](https://github.com/scikit-learn/scikit-learn/issues/18530) 💬 9 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | 67.3k | 🟡 help wanted | 2026-09-16 | 🤖 disclose AI use |
 | [Shell mode doesn't respect Cmd object's env](https://github.com/JuliaLang/julia/issues/51020) 💬 4 | [JuliaLang/julia](https://github.com/JuliaLang/julia) | 49.1k | 🟢 beginner | 2026-09-15 | 🤖 disclose AI use |
@@ -28,20 +28,20 @@
 | [Generic benchmarking/profiling tool](https://github.com/scikit-learn/scikit-learn/issues/10289) 💬 33 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | 67.3k | 🟡 help wanted | 2026-08-24 | 🤖 disclose AI use |
 | [[RFC]: Add C implementation for '@stdlib/stats/base/dists/beta/median'](https://github.com/stdlib-js/stdlib/issues/3429) 💬 2 | [stdlib-js/stdlib](https://github.com/stdlib-js/stdlib) | 6k | 🟢 beginner | 2026-08-22 | 🤖 disclose AI use |
 | [[RFC]: Add C implementation for '@stdlib/stats/base/dists/chisquare/pdf'](https://github.com/stdlib-js/stdlib/issues/3508) 💬 2 | [stdlib-js/stdlib](https://github.com/stdlib-js/stdlib) | 6k | 🟢 beginner | 2026-08-22 | 🤖 disclose AI use |
-| [Tracking openrocket in downstream package ecosystem](https://github.com/openrocket/openrocket/issues/2254) 💬 15 | [openrocket/openrocket](https://github.com/openrocket/openrocket) | 3.1k | 🟢 beginner | 2026-08-20 |  |
+| [Tracking openrocket in downstream package ecosystem](https://github.com/openrocket/openrocket/issues/2254) 💬 15 | [openrocket/openrocket](https://github.com/openrocket/openrocket) | 3.1k | 🟢 beginner | 2026-08-20 | 📄 AI policy |
 | [Irrelevant error message from 'PerInstanceColorAppearance'](https://github.com/CesiumGS/cesium/issues/12107) 💬 6 | [CesiumGS/cesium](https://github.com/CesiumGS/cesium) | 15.8k | 🟢 beginner | 2026-08-19 | ✍️ CLA |
 | [[Feature Request]: Integrate Automated Data Validation Pipeline using 'Great Expectations' for Dataset Integri](https://github.com/Niketkumardheeryan/ML-CaPsule/issues/1504) 💬 26 | [Niketkumardheeryan/ML-CaPsule](https://github.com/Niketkumardheeryan/ML-CaPsule) | 681 | 🟡 help wanted | 2026-08-19 |  |
 | [Utilize DocumenterCodeblocks.jl in all subpackages of the ecosystem](https://github.com/JuliaDynamics/DynamicalSystems.jl/issues/270) | [JuliaDynamics/DynamicalSystems.jl](https://github.com/JuliaDynamics/DynamicalSystems.jl) | 950 | 🟢 beginner | 2026-08-18 |  |
 | [Build an AI-Based Interview Preparation Website](https://github.com/Niketkumardheeryan/ML-CaPsule/issues/1436) 💬 18 | [Niketkumardheeryan/ML-CaPsule](https://github.com/Niketkumardheeryan/ML-CaPsule) | 681 | 🟡 help wanted | 2026-08-17 |  |
-| [Write unit tests for cut, copy, paste, duplicate component actions](https://github.com/openrocket/openrocket/issues/1692) 💬 2 | [openrocket/openrocket](https://github.com/openrocket/openrocket) | 3.1k | 🟢 beginner | 2026-08-09 |  |
-| [Write unit tests for multi-component editing](https://github.com/openrocket/openrocket/issues/1690) | [openrocket/openrocket](https://github.com/openrocket/openrocket) | 3.1k | 🟢 beginner | 2026-08-09 |  |
-| [Write unit tests for component parameter saving and re-opening](https://github.com/openrocket/openrocket/issues/1806) 💬 4 | [openrocket/openrocket](https://github.com/openrocket/openrocket) | 3.1k | 🟢 beginner | 2026-08-09 |  |
-| [Write unit tests for RASAero importing](https://github.com/openrocket/openrocket/issues/2136) | [openrocket/openrocket](https://github.com/openrocket/openrocket) | 3.1k | 🟢 beginner | 2026-08-09 |  |
+| [Write unit tests for cut, copy, paste, duplicate component actions](https://github.com/openrocket/openrocket/issues/1692) 💬 2 | [openrocket/openrocket](https://github.com/openrocket/openrocket) | 3.1k | 🟢 beginner | 2026-08-09 | 📄 AI policy |
+| [Write unit tests for multi-component editing](https://github.com/openrocket/openrocket/issues/1690) | [openrocket/openrocket](https://github.com/openrocket/openrocket) | 3.1k | 🟢 beginner | 2026-08-09 | 📄 AI policy |
+| [Write unit tests for component parameter saving and re-opening](https://github.com/openrocket/openrocket/issues/1806) 💬 4 | [openrocket/openrocket](https://github.com/openrocket/openrocket) | 3.1k | 🟢 beginner | 2026-08-09 | 📄 AI policy |
+| [Write unit tests for RASAero importing](https://github.com/openrocket/openrocket/issues/2136) | [openrocket/openrocket](https://github.com/openrocket/openrocket) | 3.1k | 🟢 beginner | 2026-08-09 | 📄 AI policy |
 | [Fix broken Markdown link: https://bugzilla.mozilla.org/show_bug.cgi?id=892671](https://github.com/stdlib-js/stdlib/issues/11248) 💬 6 | [stdlib-js/stdlib](https://github.com/stdlib-js/stdlib) | 6k | 🟢 beginner | 2026-08-04 | 🤖 disclose AI use |
-| [Add units option for "Stability margin" in plot dialog](https://github.com/openrocket/openrocket/issues/2221) 💬 11 | [openrocket/openrocket](https://github.com/openrocket/openrocket) | 3.1k | 🟢 beginner | 2026-08-04 |  |
-| [[Feature Request] Show More Details in Parachute Parts Library](https://github.com/openrocket/openrocket/issues/2487) 💬 2 | [openrocket/openrocket](https://github.com/openrocket/openrocket) | 3.1k | 🟢 beginner | 2026-08-04 |  |
-| [[Bug] Some component default wall thicknesses are 0](https://github.com/openrocket/openrocket/issues/2454) 💬 4 | [openrocket/openrocket](https://github.com/openrocket/openrocket) | 3.1k | 🟢 beginner | 2026-08-04 |  |
-| [[burn-train] Hot Reloading](https://github.com/tracel-ai/burn/issues/3571) 💬 2 | [tracel-ai/burn](https://github.com/tracel-ai/burn) | 15.9k | 🟡 help wanted | 2026-07-31 |  |
+| [Add units option for "Stability margin" in plot dialog](https://github.com/openrocket/openrocket/issues/2221) 💬 11 | [openrocket/openrocket](https://github.com/openrocket/openrocket) | 3.1k | 🟢 beginner | 2026-08-04 | 📄 AI policy |
+| [[Feature Request] Show More Details in Parachute Parts Library](https://github.com/openrocket/openrocket/issues/2487) 💬 2 | [openrocket/openrocket](https://github.com/openrocket/openrocket) | 3.1k | 🟢 beginner | 2026-08-04 | 📄 AI policy |
+| [[Bug] Some component default wall thicknesses are 0](https://github.com/openrocket/openrocket/issues/2454) 💬 4 | [openrocket/openrocket](https://github.com/openrocket/openrocket) | 3.1k | 🟢 beginner | 2026-08-04 | 📄 AI policy |
+| [[burn-train] Hot Reloading](https://github.com/tracel-ai/burn/issues/3571) 💬 2 | [tracel-ai/burn](https://github.com/tracel-ai/burn) | 16k | 🟡 help wanted | 2026-07-31 |  |
 | [RandomForestRegressor quantile Criterion](https://github.com/scikit-learn/scikit-learn/issues/18540) 💬 5 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | 67.3k | 🟡 help wanted | 2026-07-28 | 🤖 disclose AI use |
 | [cross_validate hang randomly when training svc with polynomial kernel.](https://github.com/scikit-learn/scikit-learn/issues/13557) 💬 5 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | 67.3k | 🟡 help wanted | 2026-07-27 | 🤖 disclose AI use |
 | [Add notification of excluded WWTT objects](https://github.com/OpenRCT2/OpenRCT2/issues/8031) 💬 2 | [OpenRCT2/OpenRCT2](https://github.com/OpenRCT2/OpenRCT2) | 16.2k | 🟢 beginner | 2026-07-20 |  |

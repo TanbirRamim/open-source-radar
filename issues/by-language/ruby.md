@@ -2,7 +2,7 @@
 
 **101** open issues (76 labeled for beginners) across **31** active Ruby projects.
 
-> Updated automatically on **2026-09-19 20:11 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-20 10:45 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -50,7 +50,7 @@
 | [Sort by tags](https://github.com/manyfold3d/manyfold/issues/4962) 💬 5 | [manyfold3d/manyfold](https://github.com/manyfold3d/manyfold) | 2.2k | 🟢 beginner | 2026-07-28 | 📄 AI policy · ✍️ CLA |
 | [Can't edit S3 bucket settings after creating library](https://github.com/manyfold3d/manyfold/issues/4826) 💬 4 | [manyfold3d/manyfold](https://github.com/manyfold3d/manyfold) | 2.2k | 🟢 beginner | 2026-07-25 | 📄 AI policy · ✍️ CLA |
 | [Detect corrupted files](https://github.com/manyfold3d/manyfold/issues/4797) 💬 2 | [manyfold3d/manyfold](https://github.com/manyfold3d/manyfold) | 2.2k | 🟢 beginner | 2026-07-25 | 📄 AI policy · ✍️ CLA |
-| [Normalize data-store backend dispatch](https://github.com/bolshakov/stoplight/issues/813) | [bolshakov/stoplight](https://github.com/bolshakov/stoplight) | 629 | 🟢 beginner | 2026-07-24 |  |
+| [Normalize data-store backend dispatch](https://github.com/bolshakov/stoplight/issues/813) | [bolshakov/stoplight](https://github.com/bolshakov/stoplight) | 630 | 🟢 beginner | 2026-07-24 |  |
 | [Isolated reply comment form allows for two different reply forms.](https://github.com/lobsters/lobsters/issues/2098) 💬 2 | [lobsters/lobsters](https://github.com/lobsters/lobsters) | 4.8k | 🟢 beginner | 2026-07-23 |  |
 | [Require description for public models](https://github.com/manyfold3d/manyfold/issues/4430) 💬 2 | [manyfold3d/manyfold](https://github.com/manyfold3d/manyfold) | 2.2k | 🟢 beginner | 2026-07-23 | 📄 AI policy · ✍️ CLA |
 | [Add admin contact email to site settings](https://github.com/manyfold3d/manyfold/issues/4383) 💬 2 | [manyfold3d/manyfold](https://github.com/manyfold3d/manyfold) | 2.2k | 🟢 beginner | 2026-07-23 | 📄 AI policy · ✍️ CLA |
@@ -60,8 +60,8 @@
 | [Disallow duplicate comments posted around the same time](https://github.com/lobsters/lobsters/issues/1209) 💬 5 | [lobsters/lobsters](https://github.com/lobsters/lobsters) | 4.8k | 🟢 beginner | 2026-07-14 |  |
 | [improve traffic-counting query](https://github.com/lobsters/lobsters/issues/2139) 💬 2 | [lobsters/lobsters](https://github.com/lobsters/lobsters) | 4.8k | 🟢 beginner | 2026-07-13 |  |
 | [Arrays of multiple custom types not validating correctly](https://github.com/dry-rb/dry-validation/issues/750) 💬 1 | [dry-rb/dry-validation](https://github.com/dry-rb/dry-validation) | 1.4k | 🟡 help wanted | 2026-07-12 |  |
-| [Count-Based Windows](https://github.com/bolshakov/stoplight/issues/466) | [bolshakov/stoplight](https://github.com/bolshakov/stoplight) | 629 | 🟢 beginner | 2026-07-12 |  |
-| [Feature tests for admin panel](https://github.com/bolshakov/stoplight/issues/494) | [bolshakov/stoplight](https://github.com/bolshakov/stoplight) | 629 | 🟡 help wanted | 2026-07-11 |  |
+| [Count-Based Windows](https://github.com/bolshakov/stoplight/issues/466) | [bolshakov/stoplight](https://github.com/bolshakov/stoplight) | 630 | 🟢 beginner | 2026-07-12 |  |
+| [Feature tests for admin panel](https://github.com/bolshakov/stoplight/issues/494) | [bolshakov/stoplight](https://github.com/bolshakov/stoplight) | 630 | 🟡 help wanted | 2026-07-11 |  |
 | [class com.sun.nio.file.ExtendedOpenOption cannot access class jdk.internal.misc.FileSystemOption](https://github.com/jruby/jruby/issues/7835) 💬 7 | [jruby/jruby](https://github.com/jruby/jruby) | 3.9k | 🟢 beginner | 2026-07-09 |  |
 | [Links in Description](https://github.com/manyfold3d/manyfold/issues/4944) 💬 3 | [manyfold3d/manyfold](https://github.com/manyfold3d/manyfold) | 2.2k | 🟢 beginner | 2026-07-08 | 📄 AI policy · ✍️ CLA |
 | [Support 'distinct' when it comes to further association chaining](https://github.com/neo4jrb/activegraph/issues/1340) 💬 3 | [neo4jrb/activegraph](https://github.com/neo4jrb/activegraph) | 1.4k | 🟢 beginner | 2026-07-06 |  |

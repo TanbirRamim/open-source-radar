@@ -1,8 +1,8 @@
 # Jupyter Notebook issues
 
-**28** open issues (13 labeled for beginners) across **12** active Jupyter Notebook projects.
+**27** open issues (12 labeled for beginners) across **11** active Jupyter Notebook projects.
 
-> Updated automatically on **2026-09-19 20:11 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-20 10:45 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -13,24 +13,23 @@
 | [Query, Discussion & Bug Report](https://github.com/darkprinx/break-the-ice-with-python/issues/3) 💬 224 | [darkprinx/break-the-ice-with-python](https://github.com/darkprinx/break-the-ice-with-python) | 3.1k | 🟡 help wanted | 2026-09-09 |  |
 | [Link back to github from reference API docs](https://github.com/apache/hamilton/issues/572) 💬 3 | [apache/hamilton](https://github.com/apache/hamilton) | 2.6k | 🟢 beginner | 2026-09-03 | ✍️ CLA |
 | [Output cells no longer collapse completely](https://github.com/jupyter/notebook/issues/7020) 💬 16 | [jupyter/notebook](https://github.com/jupyter/notebook) | 13.3k | 🟡 help wanted | 2026-09-01 |  |
-| [[P0] Off-chain / devshard implementation track](https://github.com/gonka-ai/gonka/issues/1220) 💬 2 | [gonka-ai/gonka](https://github.com/gonka-ai/gonka) | 631 | 🟡 help wanted | 2026-08-27 |  |
+| [[P0] Off-chain / devshard implementation track](https://github.com/gonka-ai/gonka/issues/1220) 💬 2 | [gonka-ai/gonka](https://github.com/gonka-ai/gonka) | 632 | 🟡 help wanted | 2026-08-27 |  |
 | [[Feature Request]: Integrate Automated Data Validation Pipeline using 'Great Expectations' for Dataset Integri](https://github.com/Niketkumardheeryan/ML-CaPsule/issues/1504) 💬 26 | [Niketkumardheeryan/ML-CaPsule](https://github.com/Niketkumardheeryan/ML-CaPsule) | 681 | 🟡 help wanted | 2026-08-19 |  |
 | [More transparent error messages when calling effect functions on un-fitted estimators](https://github.com/py-why/EconML/issues/686) 💬 1 | [py-why/EconML](https://github.com/py-why/EconML) | 4.8k | 🟡 help wanted | 2026-08-18 |  |
 | [Hacktoberfest Umbrella Issue](https://github.com/apache/hamilton/issues/1186) 💬 25 | [apache/hamilton](https://github.com/apache/hamilton) | 2.6k | 🟢 beginner | 2026-08-18 | ✍️ CLA |
 | [Build an AI-Based Interview Preparation Website](https://github.com/Niketkumardheeryan/ML-CaPsule/issues/1436) 💬 18 | [Niketkumardheeryan/ML-CaPsule](https://github.com/Niketkumardheeryan/ML-CaPsule) | 681 | 🟡 help wanted | 2026-08-17 |  |
 | [Fix broken science article links in TU Chronicles pages](https://github.com/onestardao/WFGY/issues/126) 💬 2 | [onestardao/WFGY](https://github.com/onestardao/WFGY) | 1.8k | 🟢 beginner | 2026-08-08 |  |
 | [Add a minimal reproducible debugging template](https://github.com/onestardao/WFGY/issues/80) 💬 1 | [onestardao/WFGY](https://github.com/onestardao/WFGY) | 1.8k | 🟢 beginner | 2026-08-08 |  |
-| [Long words overflow the user chat message](https://github.com/mito-ds/mito/issues/1370) 💬 10 | [mito-ds/mito](https://github.com/mito-ds/mito) | 2.6k | 🟢 beginner | 2026-07-06 | ✍️ CLA |
-| [TEE Implementation](https://github.com/gonka-ai/gonka/issues/1173) 💬 3 | [gonka-ai/gonka](https://github.com/gonka-ai/gonka) | 631 | 🟡 help wanted | 2026-07-04 |  |
+| [TEE Implementation](https://github.com/gonka-ai/gonka/issues/1173) 💬 3 | [gonka-ai/gonka](https://github.com/gonka-ai/gonka) | 632 | 🟡 help wanted | 2026-07-04 |  |
 | [Hub Contributions Ideas](https://github.com/apache/hamilton/issues/559) 💬 2 | [apache/hamilton](https://github.com/apache/hamilton) | 2.6k | 🟢 beginner | 2026-06-28 | ✍️ CLA |
 | [providing sample weights to glm.fit() and glm.fit.sparse()](https://github.com/tensorflow/probability/issues/252) 💬 1 | [tensorflow/probability](https://github.com/tensorflow/probability) | 4.4k | 🟢 beginner | 2026-06-22 | ✍️ CLA |
 | [Combined 'extract' decorator](https://github.com/apache/hamilton/issues/121) 💬 2 | [apache/hamilton](https://github.com/apache/hamilton) | 2.6k | 🟢 beginner | 2026-06-19 | ✍️ CLA |
 | [JN 7.0.2 Hotkey for copying cells from one notebook to another is not working](https://github.com/jupyter/notebook/issues/7019) 💬 14 | [jupyter/notebook](https://github.com/jupyter/notebook) | 13.3k | 🟡 help wanted | 2026-06-18 |  |
-| [Re-validate VLM inference and validation results from #1026](https://github.com/gonka-ai/gonka/issues/1198) 💬 7 | [gonka-ai/gonka](https://github.com/gonka-ai/gonka) | 631 | 🟡 help wanted | 2026-06-11 |  |
+| [Re-validate VLM inference and validation results from #1026](https://github.com/gonka-ai/gonka/issues/1198) 💬 7 | [gonka-ai/gonka](https://github.com/gonka-ai/gonka) | 632 | 🟡 help wanted | 2026-06-11 |  |
 | [Unit test stub autogenerator](https://github.com/apache/hamilton/issues/74) 💬 5 | [apache/hamilton](https://github.com/apache/hamilton) | 2.6k | 🟢 beginner | 2026-06-09 | ✍️ CLA |
 | [Jupyter notebook SSL does not allow keyfile with PEM pass phrase](https://github.com/jupyter/notebook/issues/2595) 💬 4 | [jupyter/notebook](https://github.com/jupyter/notebook) | 13.3k | 🟡 help wanted | 2026-05-24 |  |
-| [[P0] Training on Gonka](https://github.com/gonka-ai/gonka/issues/1201) | [gonka-ai/gonka](https://github.com/gonka-ai/gonka) | 631 | 🟡 help wanted | 2026-05-21 |  |
-| [Independent review of PoC-decode results](https://github.com/gonka-ai/gonka/issues/1200) | [gonka-ai/gonka](https://github.com/gonka-ai/gonka) | 631 | 🟡 help wanted | 2026-05-19 |  |
+| [[P0] Training on Gonka](https://github.com/gonka-ai/gonka/issues/1201) | [gonka-ai/gonka](https://github.com/gonka-ai/gonka) | 632 | 🟡 help wanted | 2026-05-21 |  |
+| [Independent review of PoC-decode results](https://github.com/gonka-ai/gonka/issues/1200) | [gonka-ai/gonka](https://github.com/gonka-ai/gonka) | 632 | 🟡 help wanted | 2026-05-19 |  |
 | [A question about target_log_prob_fn](https://github.com/tensorflow/probability/issues/611) 💬 5 | [tensorflow/probability](https://github.com/tensorflow/probability) | 4.4k | 🟢 beginner | 2026-05-18 | ✍️ CLA |
 | [Feature Request: Efficient Poisson Binomial PMF/CDF in tfp](https://github.com/tensorflow/probability/issues/1453) 💬 14 | [tensorflow/probability](https://github.com/tensorflow/probability) | 4.4k | 🟢 beginner | 2026-05-18 | ✍️ CLA |
 | [Example for running on AWS (Glue, EMR, SageMaker, etc)](https://github.com/awslabs/python-deequ/issues/140) 💬 3 | [awslabs/python-deequ](https://github.com/awslabs/python-deequ) | 826 | 🟢 beginner | 2026-05-18 | ✍️ CLA |

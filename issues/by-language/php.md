@@ -1,8 +1,8 @@
 # PHP issues
 
-**163** open issues (84 labeled for beginners) across **56** active PHP projects.
+**170** open issues (91 labeled for beginners) across **55** active PHP projects.
 
-> Updated automatically on **2026-09-19 20:11 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-20 10:45 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,6 +10,7 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [Add signature rejection policy configuration UI](https://github.com/LibreSign/libresign/issues/8160) | [LibreSign/libresign](https://github.com/LibreSign/libresign) | 818 | 🟢 beginner | 2026-09-20 | 🤖 disclose AI use · 🔏 DCO |
 | [Missing translations for Welsh (cy)](https://github.com/symfony/symfony/issues/51903) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-19 |  |
 | [Missing translations for Vietnamese (vi)](https://github.com/symfony/symfony/issues/53309) 💬 4 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-19 |  |
 | [Missing translations for Uzbek (uz)](https://github.com/symfony/symfony/issues/65569) | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-19 |  |
@@ -41,12 +42,11 @@
 | [Unable to reaffect given elements when associating network name to server](https://github.com/glpi-project/glpi/issues/24314) 💬 2 | [glpi-project/glpi](https://github.com/glpi-project/glpi) | 6.4k | 🟢 beginner | 2026-09-19 | 🤖 disclose AI use |
 | [Duplicate conversation created from a single self-addressed email with identical Message-ID (single mailbox, o](https://github.com/freescout-help-desk/freescout/issues/5638) 💬 4 | [freescout-help-desk/freescout](https://github.com/freescout-help-desk/freescout) | 4.5k | 🟡 help wanted | 2026-09-19 |  |
 | [improve Automatic updates when they fail silently if image pulls fail due to host failures — no notification, ](https://github.com/nextcloud/all-in-one/issues/8452) 💬 3 | [nextcloud/all-in-one](https://github.com/nextcloud/all-in-one) | 10.5k | 🟡 help wanted | 2026-09-18 | 🤖 disclose AI use · 🔏 DCO |
-| [Contest problemset PDF not viewable in jury interface](https://github.com/DOMjudge/domjudge/issues/3752) | [DOMjudge/domjudge](https://github.com/DOMjudge/domjudge) | 913 | 🟢 beginner | 2026-09-18 |  |
-| [Sidebar notifications badge does not update after marking notifications as seen](https://github.com/Submitty/Submitty/issues/13372) 💬 2 | [Submitty/Submitty](https://github.com/Submitty/Submitty) | 793 | 🟢 beginner | 2026-09-18 |  |
+| [Sidebar notifications badge does not update after marking notifications as seen](https://github.com/Submitty/Submitty/issues/13372) 💬 2 | [Submitty/Submitty](https://github.com/Submitty/Submitty) | 794 | 🟢 beginner | 2026-09-18 |  |
 | [Reject credential and other unsupported keys in 'files_external:option'](https://github.com/nextcloud/server/issues/58821) 💬 3 | [nextcloud/server](https://github.com/nextcloud/server) | 36.9k | 🟢 beginner | 2026-09-17 | 🤖 disclose AI use · 🔏 DCO |
 | [Chamilo automatic deployment - Ansible](https://github.com/chamilo/chamilo-lms/issues/2502) 💬 7 | [chamilo/chamilo-lms](https://github.com/chamilo/chamilo-lms) | 1k | 🟡 help wanted | 2026-09-17 |  |
-| [editing forum thread to update category](https://github.com/Submitty/Submitty/issues/13366) 💬 2 | [Submitty/Submitty](https://github.com/Submitty/Submitty) | 793 | 🟢 beginner | 2026-09-17 |  |
-| [confusions with "my late days/extensions page"](https://github.com/Submitty/Submitty/issues/6068) 💬 1 | [Submitty/Submitty](https://github.com/Submitty/Submitty) | 793 | 🟢 beginner | 2026-09-17 |  |
+| [editing forum thread to update category](https://github.com/Submitty/Submitty/issues/13366) 💬 2 | [Submitty/Submitty](https://github.com/Submitty/Submitty) | 794 | 🟢 beginner | 2026-09-17 |  |
+| [confusions with "my late days/extensions page"](https://github.com/Submitty/Submitty/issues/6068) 💬 1 | [Submitty/Submitty](https://github.com/Submitty/Submitty) | 794 | 🟢 beginner | 2026-09-17 |  |
 | [schedule:work run artisan relative to current working dir](https://github.com/laravel/framework/issues/56390) 💬 3 | [laravel/framework](https://github.com/laravel/framework) | 34.9k | 🟡 help wanted | 2026-09-16 |  |
 | [Document need some custom attributes,eg:metadata](https://github.com/LLPhant/LLPhant/issues/313) | [LLPhant/LLPhant](https://github.com/LLPhant/LLPhant) | 1.7k | 🟡 help wanted | 2026-09-16 |  |
 | [Ollama cloud and webSearch](https://github.com/LLPhant/LLPhant/issues/421) | [LLPhant/LLPhant](https://github.com/LLPhant/LLPhant) | 1.7k | 🟡 help wanted | 2026-09-16 |  |
@@ -56,8 +56,15 @@
 | ['CHECK_MODE_COERCE_TYPES' flag does not coerce quoted ints to corresponding boolean](https://github.com/jsonrainbow/json-schema/issues/955) 💬 1 | [jsonrainbow/json-schema](https://github.com/jsonrainbow/json-schema) | 3.6k | 🟢 beginner | 2026-09-14 |  |
 | [Write or document a replacement for parseAddresses](https://github.com/PHPMailer/PHPMailer/issues/3359) | [PHPMailer/PHPMailer](https://github.com/PHPMailer/PHPMailer) | 22.3k | 🟢 beginner | 2026-09-10 |  |
 | [InitialTestSuite/SA should only run when mutations found](https://github.com/infection/infection/issues/2555) 💬 3 | [infection/infection](https://github.com/infection/infection) | 2.2k | 🟡 help wanted | 2026-09-10 |  |
+| [talk couldn't work after install the “talk_matterbridge”](https://github.com/nextcloud/spreed/issues/13594) 💬 2 | [nextcloud/spreed](https://github.com/nextcloud/spreed) | 2.2k | 🟢 beginner | 2026-09-10 | 🤖 disclose AI use · 🔏 DCO |
+| [Write tests for "Team resources" integration](https://github.com/nextcloud/spreed/issues/11746) 💬 3 | [nextcloud/spreed](https://github.com/nextcloud/spreed) | 2.2k | 🟢 beginner | 2026-09-10 | 🤖 disclose AI use · 🔏 DCO |
+| [System message shows "guest added user" to a conversation when adding through circle/team](https://github.com/nextcloud/spreed/issues/11768) 💬 1 | [nextcloud/spreed](https://github.com/nextcloud/spreed) | 2.2k | 🟢 beginner | 2026-09-10 | 🤖 disclose AI use · 🔏 DCO |
+| [Limit to groups in federated target server breaks federation](https://github.com/nextcloud/spreed/issues/12429) 💬 1 | [nextcloud/spreed](https://github.com/nextcloud/spreed) | 2.2k | 🟢 beginner | 2026-09-10 | 🤖 disclose AI use · 🔏 DCO |
+| [Instant meeting outside of dashboard?](https://github.com/nextcloud/spreed/issues/15276) 💬 3 | [nextcloud/spreed](https://github.com/nextcloud/spreed) | 2.2k | 🟢 beginner | 2026-09-10 | 🤖 disclose AI use · 🔏 DCO |
+| [Imprint and privacy links in public talk conversations](https://github.com/nextcloud/spreed/issues/14547) 💬 4 | [nextcloud/spreed](https://github.com/nextcloud/spreed) | 2.2k | 🟢 beginner | 2026-09-10 | 🤖 disclose AI use · 🔏 DCO |
+| [Migrate addParticipantToRoom to InvitationList](https://github.com/nextcloud/spreed/issues/14570) | [nextcloud/spreed](https://github.com/nextcloud/spreed) | 2.2k | 🟢 beginner | 2026-09-10 | 🤖 disclose AI use · 🔏 DCO |
+| [Migrate OCC to InvitationList](https://github.com/nextcloud/spreed/issues/14571) | [nextcloud/spreed](https://github.com/nextcloud/spreed) | 2.2k | 🟢 beginner | 2026-09-10 | 🤖 disclose AI use · 🔏 DCO |
 | [[LiveComponent] addCollectionItem don't work when using DTO as source](https://github.com/symfony/ux/issues/1384) 💬 5 | [symfony/ux](https://github.com/symfony/ux) | 1.1k | 🟡 help wanted | 2026-09-10 |  |
-| [Add signature rejection policy configuration UI](https://github.com/LibreSign/libresign/issues/8160) | [LibreSign/libresign](https://github.com/LibreSign/libresign) | 817 | 🟢 beginner | 2026-09-09 | 🤖 disclose AI use · 🔏 DCO |
 | [[Bug] Simplepie destroys headers with a JSON value](https://github.com/FreshRSS/FreshRSS/issues/8636) 💬 1 | [FreshRSS/FreshRSS](https://github.com/FreshRSS/FreshRSS) | 16.1k | 🟡 help wanted | 2026-09-08 |  |
 | [[Feature]Subscribe FreshRSS's logs itself as rss](https://github.com/FreshRSS/FreshRSS/issues/6839) 💬 3 | [FreshRSS/FreshRSS](https://github.com/FreshRSS/FreshRSS) | 16.1k | 🟡 help wanted | 2026-09-08 |  |
 | [[HOOK \| IMPROVEMENT] Add two more hooks to Cart::updateQty function](https://github.com/PrestaShop/PrestaShop/issues/24612) 💬 2 | [PrestaShop/PrestaShop](https://github.com/PrestaShop/PrestaShop) | 9.2k | 🟢 beginner | 2026-09-08 |  |
@@ -65,7 +72,7 @@
 | [Deletion modal doesn't use the UI kit](https://github.com/PrestaShop/PrestaShop/issues/26936) 💬 6 | [PrestaShop/PrestaShop](https://github.com/PrestaShop/PrestaShop) | 9.2k | 🟢 beginner | 2026-09-08 |  |
 | [JsonApiResource loads relationships one model at a time, so ?include= on a collection costs a query per record](https://github.com/laravel/framework/issues/61252) 💬 3 | [laravel/framework](https://github.com/laravel/framework) | 34.9k | 🟡 help wanted | 2026-09-07 |  |
 | [Private comment not available on REST api (webservice)](https://github.com/PrestaShop/PrestaShop/issues/30731) 💬 6 | [PrestaShop/PrestaShop](https://github.com/PrestaShop/PrestaShop) | 9.2k | 🟡 help wanted | 2026-09-07 |  |
-| [List LibreSign in beginner-friendly open source directories](https://github.com/LibreSign/libresign/issues/8284) 💬 5 | [LibreSign/libresign](https://github.com/LibreSign/libresign) | 817 | 🟢 beginner | 2026-09-07 | 🤖 disclose AI use · 🔏 DCO |
+| [List LibreSign in beginner-friendly open source directories](https://github.com/LibreSign/libresign/issues/8284) 💬 5 | [LibreSign/libresign](https://github.com/LibreSign/libresign) | 818 | 🟢 beginner | 2026-09-07 | 🤖 disclose AI use · 🔏 DCO |
 | [Active and Canceled both return true](https://github.com/laravel/cashier-stripe/issues/1791) 💬 5 | [laravel/cashier-stripe](https://github.com/laravel/cashier-stripe) | 2.5k | 🟡 help wanted | 2026-09-06 |  |
 | [Stack push not always working](https://github.com/laravel/framework/issues/60221) 💬 7 | [laravel/framework](https://github.com/laravel/framework) | 34.9k | 🟡 help wanted | 2026-09-01 |  |
 | [Subscription::currentPeriodStart / currentPeriodEnd causes lazy load error when preventLazyLoad is active](https://github.com/laravel/cashier-stripe/issues/1844) 💬 2 | [laravel/cashier-stripe](https://github.com/laravel/cashier-stripe) | 2.5k | 🟡 help wanted | 2026-09-01 |  |
@@ -85,7 +92,6 @@
 | [Enhance Blueprint Stubs with PHPDoc to Eliminate PHPStan Warnings](https://github.com/laravel-shift/blueprint/issues/738) 💬 4 | [laravel-shift/blueprint](https://github.com/laravel-shift/blueprint) | 3.1k | 🟢 beginner | 2026-08-15 |  |
 | [[Feature Request/Bug] reordering feeds within a category](https://github.com/FreshRSS/FreshRSS/issues/3527) 💬 5 | [FreshRSS/FreshRSS](https://github.com/FreshRSS/FreshRSS) | 16.1k | 🟢 beginner | 2026-08-14 |  |
 | [Mago analysis](https://github.com/open-telemetry/opentelemetry-php/issues/1964) 💬 8 | [open-telemetry/opentelemetry-php](https://github.com/open-telemetry/opentelemetry-php) | 912 | 🟡 help wanted | 2026-08-12 |  |
-| [Update bundled jQuery version to address older dependency warnings](https://github.com/LinkStackOrg/LinkStack/issues/995) 💬 1 | [LinkStackOrg/LinkStack](https://github.com/LinkStackOrg/LinkStack) | 3.9k | 🟢 beginner | 2026-08-11 |  |
 | [Setup Onboarding Login-Flow (for Enforce 2FA)](https://github.com/WordPress/two-factor/issues/813) 💬 3 | [WordPress/two-factor](https://github.com/WordPress/two-factor) | 825 | 🟡 help wanted | 2026-08-10 | 🤖 disclose AI use |
 | [docker UID/GID environment settings?](https://github.com/FreshRSS/FreshRSS/issues/2400) 💬 6 | [FreshRSS/FreshRSS](https://github.com/FreshRSS/FreshRSS) | 16.1k | 🟡 help wanted | 2026-08-09 |  |
 | [Scaled instances and the deletion problem](https://github.com/HaschekSolutions/pictshare/issues/80) 💬 8 | [HaschekSolutions/pictshare](https://github.com/HaschekSolutions/pictshare) | 949 | 🟡 help wanted | 2026-08-09 |  |
@@ -102,6 +108,7 @@
 | [gettext locale overrides not applied](https://github.com/glpi-project/glpi/issues/22377) 💬 7 | [glpi-project/glpi](https://github.com/glpi-project/glpi) | 6.4k | 🟢 beginner | 2026-07-20 | 🤖 disclose AI use |
 | [[Feat]: Import/Export Excel (Office Open XML) Files](https://github.com/phpmyadmin/phpmyadmin/issues/19962) 💬 16 | [phpmyadmin/phpmyadmin](https://github.com/phpmyadmin/phpmyadmin) | 7.9k | 🟢 beginner | 2026-07-18 | 🔏 DCO |
 | [[Feat]: Export data only when export all table](https://github.com/phpmyadmin/phpmyadmin/issues/20018) 💬 1 | [phpmyadmin/phpmyadmin](https://github.com/phpmyadmin/phpmyadmin) | 7.9k | 🟢 beginner | 2026-07-18 | 🔏 DCO |
+| [Compatibility with Cloudflare Calls (TURN & STUN servers)](https://github.com/nextcloud/spreed/issues/12394) 💬 8 | [nextcloud/spreed](https://github.com/nextcloud/spreed) | 2.2k | 🟢 beginner | 2026-07-18 | 🤖 disclose AI use · 🔏 DCO |
 | [[feature] Leverage readOnly/writeOnly metadata](https://github.com/nelmio/NelmioApiDocBundle/issues/1683) 💬 1 | [nelmio/NelmioApiDocBundle](https://github.com/nelmio/NelmioApiDocBundle) | 2.4k | 🟢 beginner | 2026-07-17 |  |
 | [UI bug with bootstrap theme on settings &gt; Page related settings](https://github.com/phpmyadmin/phpmyadmin/issues/18505) 💬 6 | [phpmyadmin/phpmyadmin](https://github.com/phpmyadmin/phpmyadmin) | 7.9k | 🟢 beginner | 2026-07-16 | 🔏 DCO |
 | [magnet links get interpreted as relative links](https://github.com/nextcloud/news/issues/3840) 💬 1 | [nextcloud/news](https://github.com/nextcloud/news) | 1k | 🟡 help wanted | 2026-07-16 | 🔏 DCO |
@@ -117,6 +124,7 @@
 | [[Checkout Address Step] Address form submitted after enter key pressed in Api Login](https://github.com/Sylius/Sylius/issues/11900) 💬 2 | [Sylius/Sylius](https://github.com/Sylius/Sylius) | 8.5k | 🟢 beginner | 2026-07-01 | 📄 AI policy |
 | [Support Otlp Profiling](https://github.com/open-telemetry/opentelemetry-php/issues/1984) | [open-telemetry/opentelemetry-php](https://github.com/open-telemetry/opentelemetry-php) | 912 | 🟡 help wanted | 2026-07-01 |  |
 | [[GLPI 11] Menu and Widget Display Problem with a Limited Profile](https://github.com/glpi-project/glpi/issues/21773) 💬 3 | [glpi-project/glpi](https://github.com/glpi-project/glpi) | 6.4k | 🟢 beginner | 2026-06-29 | 🤖 disclose AI use |
+| [Delete messages completely instead of showing "Message deleted by you" in "Note to self"](https://github.com/nextcloud/spreed/issues/13139) 💬 15 | [nextcloud/spreed](https://github.com/nextcloud/spreed) | 2.2k | 🟢 beginner | 2026-06-29 | 🤖 disclose AI use · 🔏 DCO |
 | [Use an external LED as a status led](https://github.com/RaspAP/raspap-webgui/issues/2108) 💬 3 | [RaspAP/raspap-webgui](https://github.com/RaspAP/raspap-webgui) | 5.2k | 🟢 beginner | 2026-06-23 |  |
 | [Supervisors create connections with drivers they don't belong to](https://github.com/laravel/horizon/issues/1704) 💬 4 | [laravel/horizon](https://github.com/laravel/horizon) | 4.2k | 🟡 help wanted | 2026-06-23 |  |
 | [Segments \| Improve geographical segmentations: Continent & Regions segment are not clear](https://github.com/matomo-org/matomo/issues/11261) 💬 4 | [matomo-org/matomo](https://github.com/matomo-org/matomo) | 21.9k | 🟡 help wanted | 2026-06-22 |  |
@@ -172,4 +180,3 @@
 | [Page number placeholders in body not replaced when font-family is set](https://github.com/mpdf/mpdf/issues/2192) 💬 6 | [mpdf/mpdf](https://github.com/mpdf/mpdf) | 4.7k | 🟡 help wanted | 2026-04-01 |  |
 | [[Feature Request] Replace jplayer](https://github.com/ampache/ampache/issues/2113) 💬 19 | [ampache/ampache](https://github.com/ampache/ampache) | 3.8k | 🟡 help wanted | 2026-03-31 |  |
 | [🐛 \| Web Interface: Playlist Content incomplete / does not show](https://github.com/MiczFlor/RPi-Jukebox-RFID/issues/845) 💬 8 | [MiczFlor/RPi-Jukebox-RFID](https://github.com/MiczFlor/RPi-Jukebox-RFID) | 1.8k | 🟡 help wanted | 2026-03-25 |  |
-| [Change default behavior to stop tracing 404s unless explicitly enabled](https://github.com/getsentry/sentry-php/issues/1912) 💬 1 | [getsentry/sentry-php](https://github.com/getsentry/sentry-php) | 1.9k | 🟢 beginner | 2026-03-24 |  |

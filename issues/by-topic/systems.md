@@ -1,8 +1,8 @@
 # Systems and embedded issues
 
-**184** open issues (88 labeled for beginners) across **49** projects tagged with topics like `operating-system`, `embedded`, `kernel`, `rust-lang`, `systems-programming`, `wasm`.
+**179** open issues (87 labeled for beginners) across **49** projects tagged with topics like `operating-system`, `embedded`, `kernel`, `rust-lang`, `systems-programming`, `wasm`.
 
-> Updated automatically on **2026-09-19 20:11 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-20 10:45 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,6 +10,7 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [[Bug]: Podman detection support fails of Fedora](https://github.com/armbian/build/issues/9228) 💬 3 | [armbian/build](https://github.com/armbian/build) | 5.4k | 🟢 beginner | 2026-09-20 |  |
 | [docs: Rework the service discovery documentation in general and Eureka in particular](https://github.com/apache/apisix/issues/7342) 💬 3 | [apache/apisix](https://github.com/apache/apisix) | 17.1k | 🟢 beginner | 2026-09-19 | ✍️ CLA |
 | [MudAutocomplete: Allow to set busy state from external process](https://github.com/MudBlazor/MudBlazor/issues/11398) 💬 1 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-09-17 |  |
 | [Remove reflection to Uno.Toolkit](https://github.com/unoplatform/uno/issues/782) 💬 2 | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-09-16 |  |
@@ -17,7 +18,6 @@
 | [Add CanSelect property to MudTreeViewItem](https://github.com/MudBlazor/MudBlazor/issues/11195) 💬 1 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-09-14 |  |
 | [[Bug]: uInitrd CRC mismatch in community images for Orange Pi Zero3 (sun50iw9)](https://github.com/armbian/build/issues/10701) 💬 1 | [armbian/build](https://github.com/armbian/build) | 5.4k | 🟢 beginner | 2026-09-14 |  |
 | [Numeric Field does not support Percent format](https://github.com/MudBlazor/MudBlazor/issues/11241) 💬 7 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-09-13 |  |
-| [Audio no sound （Add asio support)](https://github.com/rustdesk/rustdesk/issues/3762) 💬 53 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | 124k | 🟡 help wanted | 2026-09-11 | 🔏 DCO |
 | [verbose mode partition commands with wrong partition identifier](https://github.com/ClickHouse/ClickHouse/issues/6743) 💬 2 | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 50k | 🟢 beginner | 2026-09-11 | 🤖 disclose AI use · ✍️ CLA |
 | [Add function to check if an IPv4/6 is in a list of subnets](https://github.com/ClickHouse/ClickHouse/issues/6808) 💬 4 | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 50k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use · ✍️ CLA |
 | [Decrease the logging level for health checks](https://github.com/ClickHouse/ClickHouse/issues/23858) 💬 12 | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 50k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use · ✍️ CLA |
@@ -40,9 +40,7 @@
 | [MaterializedPostgreSQL: order of columns in the primary key is not honoured on the Clickhouse Side](https://github.com/ClickHouse/ClickHouse/issues/79375) | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 50k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use · ✍️ CLA |
 | [Request to allow storage policy with MaterializedPostgreSQL](https://github.com/ClickHouse/ClickHouse/issues/81878) | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 50k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use · ✍️ CLA |
 | [Execution time limit annotations](https://github.com/nasa/fprime/issues/3688) 💬 3 | [nasa/fprime](https://github.com/nasa/fprime) | 11.8k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use |
-| [Give movement priority to host rather than client + multiple connections mouse move priority issue](https://github.com/rustdesk/rustdesk/issues/40) 💬 21 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | 124k | 🟡 help wanted | 2026-09-10 | 🔏 DCO |
 | [Group commits](https://github.com/tursodatabase/turso/issues/5675) 💬 2 | [tursodatabase/turso](https://github.com/tursodatabase/turso) | 24.3k | 🟡 help wanted | 2026-09-10 | 🤖 disclose AI use |
-| ['dx serve --hot-patch' on Windows 11 cannot generate binary outside of VS command prompt](https://github.com/DioxusLabs/dioxus/issues/4911) 💬 2 | [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus) | 39.2k | 🟡 help wanted | 2026-09-09 |  |
 | [Add SMP support for Armv8-R (Cortex-R52 / Cortex-R82)](https://github.com/eclipse-threadx/threadx/issues/710) | [eclipse-threadx/threadx](https://github.com/eclipse-threadx/threadx) | 3.5k | 🟡 help wanted | 2026-09-09 | 🔏 DCO |
 | [clang-tidy: enable performance-*](https://github.com/alibaba/zvec/issues/291) 💬 3 | [alibaba/zvec](https://github.com/alibaba/zvec) | 16k | 🟡 help wanted | 2026-09-08 |  |
 | [clang-tidy: enable clang-analyzer-*](https://github.com/alibaba/zvec/issues/292) | [alibaba/zvec](https://github.com/alibaba/zvec) | 16k | 🟡 help wanted | 2026-09-08 |  |
@@ -89,19 +87,19 @@
 | [Samba integration](https://github.com/lldap/lldap/issues/599) 💬 32 | [lldap/lldap](https://github.com/lldap/lldap) | 6.5k | 🟡 help wanted | 2026-08-11 |  |
 | [MudOverlay: Allow setting custom opacity](https://github.com/MudBlazor/MudBlazor/issues/11991) 💬 5 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-08-08 |  |
 | [Drawer Anchor.End and Anchor.Bottom visible on page when closed](https://github.com/MudBlazor/MudBlazor/issues/10175) 💬 15 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟡 help wanted | 2026-08-08 |  |
-| [feat(init): add option to have 'dev' dependency-group be in default environment](https://github.com/prefix-dev/pixi/issues/5906) 💬 10 | [prefix-dev/pixi](https://github.com/prefix-dev/pixi) | 7.7k | 🟢 beginner | 2026-08-07 | 🤖 disclose AI use |
+| [feat(init): add option to have 'dev' dependency-group be in default environment](https://github.com/prefix-dev/pixi/issues/5906) 💬 10 | [prefix-dev/pixi](https://github.com/prefix-dev/pixi) | 7.8k | 🟢 beginner | 2026-08-07 | 🤖 disclose AI use |
 | [Update to Golden-Layout v2](https://github.com/compiler-explorer/compiler-explorer/issues/4175) 💬 2 | [compiler-explorer/compiler-explorer](https://github.com/compiler-explorer/compiler-explorer) | 19.1k | 🟡 help wanted | 2026-08-06 |  |
 | [MudDatePicker: Text gets deleted after each key stroke with Mask inside MudForm](https://github.com/MudBlazor/MudBlazor/issues/4047) 💬 24 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟡 help wanted | 2026-08-06 |  |
-| [Autogenerated manifest docs](https://github.com/prefix-dev/pixi/issues/3021) 💬 4 | [prefix-dev/pixi](https://github.com/prefix-dev/pixi) | 7.7k | 🟢 beginner | 2026-08-05 | 🤖 disclose AI use |
+| [Autogenerated manifest docs](https://github.com/prefix-dev/pixi/issues/3021) 💬 4 | [prefix-dev/pixi](https://github.com/prefix-dev/pixi) | 7.8k | 🟢 beginner | 2026-08-05 | 🤖 disclose AI use |
 | [Implement case-changing utility methods](https://github.com/oven-sh/bun/issues/15087) 💬 17 | [oven-sh/bun](https://github.com/oven-sh/bun) | 96k | 🟢 beginner | 2026-08-04 |  |
 | [在Dbeaver中，不能下载、使用最新驱动](https://github.com/taosdata/TDengine/issues/35396) 💬 2 | [taosdata/TDengine](https://github.com/taosdata/TDengine) | 25.1k | 🟡 help wanted | 2026-08-04 |  |
 | [Serverless driver re-prepare support](https://github.com/tursodatabase/turso/issues/2573) | [tursodatabase/turso](https://github.com/tursodatabase/turso) | 24.3k | 🟡 help wanted | 2026-08-04 | 🤖 disclose AI use |
 | [Turso's case-insensitive behaviour for tables and views does not match SQLite](https://github.com/tursodatabase/turso/issues/5730) 💬 2 | [tursodatabase/turso](https://github.com/tursodatabase/turso) | 24.3k | 🟢 beginner | 2026-08-03 | 🤖 disclose AI use |
 | [MessagePack codec (or VRL functions)](https://github.com/vectordotdev/vector/issues/8675) 💬 4 | [vectordotdev/vector](https://github.com/vectordotdev/vector) | 22.6k | 🟢 beginner | 2026-08-03 | 📄 AI policy · ✍️ CLA |
 | [Add drag and drop functionality to TreeView](https://github.com/MudBlazor/MudBlazor/issues/5987) 💬 16 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟡 help wanted | 2026-08-03 |  |
-| [More Linux distros compatible](https://github.com/rustdesk/rustdesk/issues/3565) 💬 8 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | 124k | 🟡 help wanted | 2026-08-02 | 🔏 DCO |
+| [More Linux distros compatible](https://github.com/rustdesk/rustdesk/issues/3565) 💬 8 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | 124.1k | 🟡 help wanted | 2026-08-02 | 🔏 DCO |
 | [Swift bindings](https://github.com/tursodatabase/turso/issues/1950) 💬 3 | [tursodatabase/turso](https://github.com/tursodatabase/turso) | 24.3k | 🟢 beginner | 2026-08-02 | 🤖 disclose AI use |
-| [[burn-train] Hot Reloading](https://github.com/tracel-ai/burn/issues/3571) 💬 2 | [tracel-ai/burn](https://github.com/tracel-ai/burn) | 15.9k | 🟡 help wanted | 2026-07-31 |  |
+| [[burn-train] Hot Reloading](https://github.com/tracel-ai/burn/issues/3571) 💬 2 | [tracel-ai/burn](https://github.com/tracel-ai/burn) | 16k | 🟡 help wanted | 2026-07-31 |  |
 | [[RFC] Lack of support for types none, exn and noexn.](https://github.com/wasm-micro-runtime/wasm-micro-runtime/issues/4814) | [wasm-micro-runtime/wasm-micro-runtime](https://github.com/wasm-micro-runtime/wasm-micro-runtime) | 6.1k | 🟡 help wanted | 2026-07-30 |  |
 | [RFC: Use the target_features section to verify compatibility](https://github.com/wasm-micro-runtime/wasm-micro-runtime/issues/4569) 💬 2 | [wasm-micro-runtime/wasm-micro-runtime](https://github.com/wasm-micro-runtime/wasm-micro-runtime) | 6.1k | 🟡 help wanted | 2026-07-30 |  |
 | [Host Function capability to call into Wasm Function](https://github.com/WasmEdge/WasmEdge/issues/1673) 💬 5 | [WasmEdge/WasmEdge](https://github.com/WasmEdge/WasmEdge) | 10.8k | 🟡 help wanted | 2026-07-29 | 🤖 disclose AI use · 🔏 DCO |
@@ -119,10 +117,9 @@
 | [It would be a great help to have a Harper corpus tool for Harper devs to help research new linting rules](https://github.com/Automattic/harper/issues/3841) | [Automattic/harper](https://github.com/Automattic/harper) | 15.7k | 🟢 beginner | 2026-07-17 | 🤖 disclose AI use |
 | [Unify WAMR_BUILD_TARGET auto-detection across all CMake build files](https://github.com/wasm-micro-runtime/wasm-micro-runtime/issues/4966) 💬 1 | [wasm-micro-runtime/wasm-micro-runtime](https://github.com/wasm-micro-runtime/wasm-micro-runtime) | 6.1k | 🟡 help wanted | 2026-07-17 |  |
 | [Overleaf Support (LaTeX Editor)](https://github.com/Automattic/harper/issues/3306) 💬 2 | [Automattic/harper](https://github.com/Automattic/harper) | 15.7k | 🟢 beginner | 2026-07-14 | 🤖 disclose AI use |
-| [Flag using "tenant" instead of "tenet".](https://github.com/Automattic/harper/issues/1070) 💬 2 | [Automattic/harper](https://github.com/Automattic/harper) | 15.7k | 🟢 beginner | 2026-07-10 | 🤖 disclose AI use |
 | [Ability to disable HDR rendering](https://github.com/FyroxEngine/Fyrox/issues/703) 💬 1 | [FyroxEngine/Fyrox](https://github.com/FyroxEngine/Fyrox) | 9.6k | 🟢 beginner | 2026-07-10 |  |
 | [Issues with 3rd party compilation order](https://github.com/canonical/multipass/issues/3802) 💬 16 | [canonical/multipass](https://github.com/canonical/multipass) | 9.2k | 🟢 beginner | 2026-07-07 | ✍️ CLA |
-| [Support artifacts-credprovider-conda for consuming coda packages from private Azure feed](https://github.com/prefix-dev/pixi/issues/4142) 💬 3 | [prefix-dev/pixi](https://github.com/prefix-dev/pixi) | 7.7k | 🟡 help wanted | 2026-07-06 | 🤖 disclose AI use |
+| [Support artifacts-credprovider-conda for consuming coda packages from private Azure feed](https://github.com/prefix-dev/pixi/issues/4142) 💬 3 | [prefix-dev/pixi](https://github.com/prefix-dev/pixi) | 7.8k | 🟡 help wanted | 2026-07-06 | 🤖 disclose AI use |
 | [Disabling columnstore does not pause columnstore policies](https://github.com/timescale/timescaledb/issues/8960) 💬 3 | [timescale/timescaledb](https://github.com/timescale/timescaledb) | 23.5k | 🟢 beginner | 2026-07-04 | ✍️ CLA |
 | [[BUG] Salt autocompletion fails with Fish shell](https://github.com/saltstack/salt/issues/64240) 💬 4 | [saltstack/salt](https://github.com/saltstack/salt) | 15.7k | 🟡 help wanted | 2026-07-02 |  |
 | [Add 'cargo-dist' packaging for 'limbo' and 'liblimbo_sqlite3.a'](https://github.com/tursodatabase/turso/issues/162) 💬 3 | [tursodatabase/turso](https://github.com/tursodatabase/turso) | 24.3k | 🟢 beginner | 2026-07-01 | 🤖 disclose AI use |
@@ -138,7 +135,7 @@
 | [[DOCS] salt.states.timezone has conflicting information about the default value of 'utc'](https://github.com/saltstack/salt/issues/60630) | [saltstack/salt](https://github.com/saltstack/salt) | 15.7k | 🟡 help wanted | 2026-06-25 |  |
 | [Use an external LED as a status led](https://github.com/RaspAP/raspap-webgui/issues/2108) 💬 3 | [RaspAP/raspap-webgui](https://github.com/RaspAP/raspap-webgui) | 5.2k | 🟢 beginner | 2026-06-23 |  |
 | [Unified Issue ticket for Rule Engine](https://github.com/nanomq/nanomq/issues/2288) 💬 2 | [nanomq/nanomq](https://github.com/nanomq/nanomq) | 2.6k | 🟡 help wanted | 2026-06-23 | 🔏 DCO |
-| [Rustdesk shows workstation offline when its screen is off](https://github.com/rustdesk/rustdesk/issues/2166) 💬 16 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | 124k | 🟡 help wanted | 2026-06-18 | 🔏 DCO |
+| [Rustdesk shows workstation offline when its screen is off](https://github.com/rustdesk/rustdesk/issues/2166) 💬 16 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | 124.1k | 🟡 help wanted | 2026-06-18 | 🔏 DCO |
 | [Support for 'UISettings.AnimationsEnabled' and 'AutoHideScrollBars'](https://github.com/unoplatform/uno/issues/6851) 💬 2 | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-06-18 |  |
 | [Add support for 'OAuth2Manager'](https://github.com/unoplatform/uno/issues/19787) 💬 12 | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟡 help wanted | 2026-06-18 |  |
 | [[Docs] Mapping (Xamarin.Essentials)/.NET MAUI Platform APIs to WinRT APIs](https://github.com/unoplatform/uno/issues/16665) 💬 3 | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-06-18 |  |
@@ -150,7 +147,6 @@
 | [Instrument function calls to debug-log arguments and return values](https://github.com/canonical/multipass/issues/428) 💬 5 | [canonical/multipass](https://github.com/canonical/multipass) | 9.2k | 🟢 beginner | 2026-06-15 | ✍️ CLA |
 | [transform-scale should make SVG images scale up smoothly as vectors, not bitmaps](https://github.com/slint-ui/slint/issues/10903) 💬 1 | [slint-ui/slint](https://github.com/slint-ui/slint) | 23.9k | 🟢 beginner | 2026-06-14 |  |
 | [Update Syslog source to accept non UTF-8 encoding in syslog message](https://github.com/vectordotdev/vector/issues/20462) 💬 9 | [vectordotdev/vector](https://github.com/vectordotdev/vector) | 22.6k | 🟢 beginner | 2026-06-12 | 📄 AI policy · ✍️ CLA |
-| [Extra Mouse Button and left/right wheel issues (Linux not ready yet, because of flutter bug)](https://github.com/rustdesk/rustdesk/issues/1169) 💬 15 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | 124k | 🟡 help wanted | 2026-06-10 | 🔏 DCO |
 | [how to use encryption in the browser with WASM](https://github.com/tursodatabase/turso/issues/5361) 💬 3 | [tursodatabase/turso](https://github.com/tursodatabase/turso) | 24.3k | 🟢 beginner | 2026-06-08 | 🤖 disclose AI use |
 | [Improve testing for configurable page size](https://github.com/tursodatabase/turso/issues/5141) 💬 1 | [tursodatabase/turso](https://github.com/tursodatabase/turso) | 24.3k | 🟡 help wanted | 2026-06-05 | 🤖 disclose AI use |
 | [Add support for OpenVPN private key password in .ovpn configurations](https://github.com/RaspAP/raspap-webgui/issues/2109) 💬 1 | [RaspAP/raspap-webgui](https://github.com/RaspAP/raspap-webgui) | 5.2k | 🟢 beginner | 2026-06-05 |  |
@@ -165,7 +161,7 @@
 | [Make 'vector generate' output documentation](https://github.com/vectordotdev/vector/issues/1687) 💬 3 | [vectordotdev/vector](https://github.com/vectordotdev/vector) | 22.6k | 🟢 beginner | 2026-06-01 | 📄 AI policy · ✍️ CLA |
 | [Kerberos support for Kafka sink](https://github.com/vectordotdev/vector/issues/1326) 💬 4 | [vectordotdev/vector](https://github.com/vectordotdev/vector) | 22.6k | 🟢 beginner | 2026-06-01 | 📄 AI policy · ✍️ CLA |
 | [File format support fuzz testing with SQLite](https://github.com/tursodatabase/turso/issues/2576) 💬 1 | [tursodatabase/turso](https://github.com/tursodatabase/turso) | 24.3k | 🟢 beginner | 2026-05-29 | 🤖 disclose AI use |
-| [Unable to interact if laptop lid is closed (TV works)](https://github.com/rustdesk/rustdesk/issues/4296) 💬 17 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | 124k | 🟡 help wanted | 2026-05-25 | 🔏 DCO |
+| [Unable to interact if laptop lid is closed (TV works)](https://github.com/rustdesk/rustdesk/issues/4296) 💬 17 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | 124.1k | 🟡 help wanted | 2026-05-25 | 🔏 DCO |
 | [Tree-Sitter grammar for '.weir' files](https://github.com/Automattic/harper/issues/2511) 💬 1 | [Automattic/harper](https://github.com/Automattic/harper) | 15.7k | 🟢 beginner | 2026-05-25 | 🤖 disclose AI use |
 | [Video Thumbnails Failing to Generate on NextCloud Snap](https://github.com/nextcloud-snap/nextcloud-snap/issues/1327) 💬 59 | [nextcloud-snap/nextcloud-snap](https://github.com/nextcloud-snap/nextcloud-snap) | 1.8k | 🟡 help wanted | 2026-05-24 |  |
 | [Recruiting maintainers](https://github.com/RustPython/RustPython/issues/5387) 💬 10 | [RustPython/RustPython](https://github.com/RustPython/RustPython) | 22.4k | 🟡 help wanted | 2026-05-23 | ⚠️ AI restricted |
@@ -174,7 +170,7 @@
 | [Support for the Mojo programming language](https://github.com/Automattic/harper/issues/2766) | [Automattic/harper](https://github.com/Automattic/harper) | 15.7k | 🟢 beginner | 2026-05-19 | 🤖 disclose AI use |
 | [[FR] Runtime adjustable machine travel limits](https://github.com/MarlinFirmware/Marlin/issues/25582) 💬 21 | [MarlinFirmware/Marlin](https://github.com/MarlinFirmware/Marlin) | 17.6k | 🟢 beginner | 2026-05-18 |  |
 | [TextMate grammar for '.weir' files](https://github.com/Automattic/harper/issues/2510) 💬 3 | [Automattic/harper](https://github.com/Automattic/harper) | 15.7k | 🟢 beginner | 2026-05-17 | 🤖 disclose AI use |
-| [mount local drive to remote (usb redirect)](https://github.com/rustdesk/rustdesk/issues/2027) 💬 6 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | 124k | 🟡 help wanted | 2026-05-16 | 🔏 DCO |
+| [mount local drive to remote (usb redirect)](https://github.com/rustdesk/rustdesk/issues/2027) 💬 6 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | 124.1k | 🟡 help wanted | 2026-05-16 | 🔏 DCO |
 | [AzureProvisioner output saves connection strings to user secrets even if it did nothing](https://github.com/microsoft/aspire/issues/3298) 💬 4 | [microsoft/aspire](https://github.com/microsoft/aspire) | 6.3k | 🟢 beginner | 2026-05-12 |  |
 | [Support for third_party_licenses files from Google Play Services libraries](https://github.com/mikepenz/AboutLibraries/issues/824) 💬 16 | [mikepenz/AboutLibraries](https://github.com/mikepenz/AboutLibraries) | 4.4k | 🟡 help wanted | 2026-05-10 |  |
 | [Desktop: Logo+Drag on an applet shouldn't open start menu, but it does](https://github.com/SerenityOS/serenity/issues/12823) 💬 8 | [SerenityOS/serenity](https://github.com/SerenityOS/serenity) | 33.8k | 🟡 help wanted | 2026-05-08 |  |
@@ -182,14 +178,13 @@
 | [BETWEEN Expression Evaluates Left Side Twice](https://github.com/tursodatabase/turso/issues/5152) 💬 6 | [tursodatabase/turso](https://github.com/tursodatabase/turso) | 24.3k | 🟢 beginner | 2026-04-25 | 🤖 disclose AI use |
 | [Deterministic simulation testing foundations (madsim) for linera-core](https://github.com/linera-io/linera-protocol/issues/6108) | [linera-io/linera-protocol](https://github.com/linera-io/linera-protocol) | 32.1k | 🟡 help wanted | 2026-04-23 |  |
 | [Backtrace: Display binary offset](https://github.com/swiftwasm/WasmKit/issues/155) | [swiftwasm/WasmKit](https://github.com/swiftwasm/WasmKit) | 504 | 🟢 beginner | 2026-04-23 |  |
-| [No sound / audio from remote PC - working after switch default audio device from analog to digital](https://github.com/rustdesk/rustdesk/issues/4280) 💬 27 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | 124k | 🟡 help wanted | 2026-04-21 | 🔏 DCO |
+| [No sound / audio from remote PC - working after switch default audio device from analog to digital](https://github.com/rustdesk/rustdesk/issues/4280) 💬 27 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | 124.1k | 🟡 help wanted | 2026-04-21 | 🔏 DCO |
 | [Tdengine 3.2.0.0.0 集群环境下同步数据慢慢慢慢](https://github.com/taosdata/TDengine/issues/34802) 💬 3 | [taosdata/TDengine](https://github.com/taosdata/TDengine) | 25.1k | 🟡 help wanted | 2026-04-14 |  |
 | [导入数据集时遇到了性能问题](https://github.com/taosdata/TDengine/issues/34980) 💬 2 | [taosdata/TDengine](https://github.com/taosdata/TDengine) | 25.1k | 🟡 help wanted | 2026-04-14 |  |
 | [[RFC] Run-time dynamic linking support](https://github.com/wasm-micro-runtime/wasm-micro-runtime/issues/495) | [wasm-micro-runtime/wasm-micro-runtime](https://github.com/wasm-micro-runtime/wasm-micro-runtime) | 6.1k | 🟡 help wanted | 2026-04-13 |  |
-| [support '--skip-with-deps'/'--skip' for 'pixi global'](https://github.com/prefix-dev/pixi/issues/5444) 💬 11 | [prefix-dev/pixi](https://github.com/prefix-dev/pixi) | 7.7k | 🟡 help wanted | 2026-04-03 | 🤖 disclose AI use |
-| [[Bug]: Podman detection support fails of Fedora](https://github.com/armbian/build/issues/9228) 💬 3 | [armbian/build](https://github.com/armbian/build) | 5.4k | 🟢 beginner | 2026-04-03 |  |
+| [support '--skip-with-deps'/'--skip' for 'pixi global'](https://github.com/prefix-dev/pixi/issues/5444) 💬 11 | [prefix-dev/pixi](https://github.com/prefix-dev/pixi) | 7.8k | 🟡 help wanted | 2026-04-03 | 🤖 disclose AI use |
 | [docs: Mac related documents need to be modified / deleted](https://github.com/apache/apisix/issues/10893) 💬 1 | [apache/apisix](https://github.com/apache/apisix) | 17.1k | 🟢 beginner | 2026-03-27 | ✍️ CLA |
-| [Comparison with mise is missing from pixi.prefix.dev](https://github.com/prefix-dev/pixi/issues/5609) 💬 2 | [prefix-dev/pixi](https://github.com/prefix-dev/pixi) | 7.7k | 🟢 beginner | 2026-03-27 | 🤖 disclose AI use |
+| [Comparison with mise is missing from pixi.prefix.dev](https://github.com/prefix-dev/pixi/issues/5609) 💬 2 | [prefix-dev/pixi](https://github.com/prefix-dev/pixi) | 7.8k | 🟢 beginner | 2026-03-27 | 🤖 disclose AI use |
 | [Add Boa to Test262-Harness](https://github.com/boa-dev/boa/issues/3431) 💬 15 | [boa-dev/boa](https://github.com/boa-dev/boa) | 7.6k | 🟢 beginner | 2026-03-27 |  |
 | [Please change the function signature of 'dioxus::server::router' to allow users to set the state type](https://github.com/DioxusLabs/dioxus/issues/5394) 💬 5 | [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus) | 39.2k | 🟢 beginner | 2026-03-26 |  |
 | [Audit public APIs](https://github.com/boa-dev/boa/issues/4524) 💬 21 | [boa-dev/boa](https://github.com/boa-dev/boa) | 7.6k | 🟡 help wanted | 2026-03-26 |  |

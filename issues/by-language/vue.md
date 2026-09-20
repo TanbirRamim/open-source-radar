@@ -2,7 +2,7 @@
 
 **34** open issues (23 labeled for beginners) across **13** active Vue projects.
 
-> Updated automatically on **2026-09-19 20:11 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-20 10:45 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -23,15 +23,15 @@
 | [Cannot remove audio file, keeps UI in blocked state on error.](https://github.com/elk-zone/elk/issues/3626) | [elk-zone/elk](https://github.com/elk-zone/elk) | 6k | 🟡 help wanted | 2026-08-15 | 🔏 DCO |
 | [Replying to message in thread causes scroll to top of thread](https://github.com/elk-zone/elk/issues/3456) | [elk-zone/elk](https://github.com/elk-zone/elk) | 6k | 🟡 help wanted | 2026-08-15 | 🔏 DCO |
 | [A provision is required to create Child or dependent tickets.](https://github.com/frappe/helpdesk/issues/2370) 💬 1 | [frappe/helpdesk](https://github.com/frappe/helpdesk) | 3.4k | 🟢 beginner | 2026-08-07 |  |
-| [[Feature Request]: Add Shuffle button within both YouTube and User Playlists](https://github.com/FreeTubeApp/FreeTube/issues/5618) 💬 10 | [FreeTubeApp/FreeTube](https://github.com/FreeTubeApp/FreeTube) | 21.9k | 🟢 beginner | 2026-08-06 |  |
-| [[Feature Request]: Have refresh timestamp on the subscriptions page update on an interval](https://github.com/FreeTubeApp/FreeTube/issues/5140) 💬 4 | [FreeTubeApp/FreeTube](https://github.com/FreeTubeApp/FreeTube) | 21.9k | 🟢 beginner | 2026-08-06 |  |
-| [[Feature Request]: Localise 'README.md'](https://github.com/FreeTubeApp/FreeTube/issues/3200) 💬 1 | [FreeTubeApp/FreeTube](https://github.com/FreeTubeApp/FreeTube) | 21.9k | 🟡 help wanted | 2026-08-06 |  |
-| [[Feature Request]: Grey option for main and secondary color theme](https://github.com/FreeTubeApp/FreeTube/issues/2600) 💬 4 | [FreeTubeApp/FreeTube](https://github.com/FreeTubeApp/FreeTube) | 21.9k | 🟢 beginner | 2026-08-06 |  |
-| [Support for Piped (Invidious alternative)](https://github.com/FreeTubeApp/FreeTube/issues/1527) 💬 10 | [FreeTubeApp/FreeTube](https://github.com/FreeTubeApp/FreeTube) | 21.9k | 🟡 help wanted | 2026-08-06 |  |
-| [Verified mark(Right mark) beside channel name](https://github.com/FreeTubeApp/FreeTube/issues/944) 💬 11 | [FreeTubeApp/FreeTube](https://github.com/FreeTubeApp/FreeTube) | 21.9k | 🟢 beginner | 2026-08-06 |  |
-| [Highlighting comments](https://github.com/FreeTubeApp/FreeTube/issues/783) 💬 10 | [FreeTubeApp/FreeTube](https://github.com/FreeTubeApp/FreeTube) | 21.9k | 🟢 beginner | 2026-08-06 |  |
-| [Mode to display all digits of Subscribers](https://github.com/FreeTubeApp/FreeTube/issues/726) 💬 2 | [FreeTubeApp/FreeTube](https://github.com/FreeTubeApp/FreeTube) | 21.9k | 🟢 beginner | 2026-08-06 |  |
-| [[Bug]: In some languages, an extra scrollbar appears in the settings](https://github.com/FreeTubeApp/FreeTube/issues/6330) 💬 5 | [FreeTubeApp/FreeTube](https://github.com/FreeTubeApp/FreeTube) | 21.9k | 🟢 beginner | 2026-08-06 |  |
+| [[Feature Request]: Add Shuffle button within both YouTube and User Playlists](https://github.com/FreeTubeApp/FreeTube/issues/5618) 💬 10 | [FreeTubeApp/FreeTube](https://github.com/FreeTubeApp/FreeTube) | 22k | 🟢 beginner | 2026-08-06 |  |
+| [[Feature Request]: Have refresh timestamp on the subscriptions page update on an interval](https://github.com/FreeTubeApp/FreeTube/issues/5140) 💬 4 | [FreeTubeApp/FreeTube](https://github.com/FreeTubeApp/FreeTube) | 22k | 🟢 beginner | 2026-08-06 |  |
+| [[Feature Request]: Localise 'README.md'](https://github.com/FreeTubeApp/FreeTube/issues/3200) 💬 1 | [FreeTubeApp/FreeTube](https://github.com/FreeTubeApp/FreeTube) | 22k | 🟡 help wanted | 2026-08-06 |  |
+| [[Feature Request]: Grey option for main and secondary color theme](https://github.com/FreeTubeApp/FreeTube/issues/2600) 💬 4 | [FreeTubeApp/FreeTube](https://github.com/FreeTubeApp/FreeTube) | 22k | 🟢 beginner | 2026-08-06 |  |
+| [Support for Piped (Invidious alternative)](https://github.com/FreeTubeApp/FreeTube/issues/1527) 💬 10 | [FreeTubeApp/FreeTube](https://github.com/FreeTubeApp/FreeTube) | 22k | 🟡 help wanted | 2026-08-06 |  |
+| [Verified mark(Right mark) beside channel name](https://github.com/FreeTubeApp/FreeTube/issues/944) 💬 11 | [FreeTubeApp/FreeTube](https://github.com/FreeTubeApp/FreeTube) | 22k | 🟢 beginner | 2026-08-06 |  |
+| [Highlighting comments](https://github.com/FreeTubeApp/FreeTube/issues/783) 💬 10 | [FreeTubeApp/FreeTube](https://github.com/FreeTubeApp/FreeTube) | 22k | 🟢 beginner | 2026-08-06 |  |
+| [Mode to display all digits of Subscribers](https://github.com/FreeTubeApp/FreeTube/issues/726) 💬 2 | [FreeTubeApp/FreeTube](https://github.com/FreeTubeApp/FreeTube) | 22k | 🟢 beginner | 2026-08-06 |  |
+| [[Bug]: In some languages, an extra scrollbar appears in the settings](https://github.com/FreeTubeApp/FreeTube/issues/6330) 💬 5 | [FreeTubeApp/FreeTube](https://github.com/FreeTubeApp/FreeTube) | 22k | 🟢 beginner | 2026-08-06 |  |
 | [[Feature Request]: Support the new error state API](https://github.com/VueTorrent/VueTorrent/issues/2319) 💬 3 | [VueTorrent/VueTorrent](https://github.com/VueTorrent/VueTorrent) | 7k | 🟢 beginner | 2026-08-02 |  |
 | [关于AIPPT的各种常见问题说明](https://github.com/pipipi-pikachu/PPTist/issues/354) 💬 13 | [pipipi-pikachu/PPTist](https://github.com/pipipi-pikachu/PPTist) | 9.3k | 🟡 help wanted | 2026-06-20 |  |
 | [[Feature Request]: show "Time Inactive" in torrent "Duration Values" section](https://github.com/VueTorrent/VueTorrent/issues/2207) 💬 4 | [VueTorrent/VueTorrent](https://github.com/VueTorrent/VueTorrent) | 7k | 🟢 beginner | 2026-06-03 |  |
