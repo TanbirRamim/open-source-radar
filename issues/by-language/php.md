@@ -1,8 +1,8 @@
 # PHP issues
 
-**170** open issues (91 labeled for beginners) across **55** active PHP projects.
+**169** open issues (91 labeled for beginners) across **55** active PHP projects.
 
-> Updated automatically on **2026-09-20 10:45 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-20 20:19 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,7 +10,8 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [Add signature rejection policy configuration UI](https://github.com/LibreSign/libresign/issues/8160) | [LibreSign/libresign](https://github.com/LibreSign/libresign) | 818 | 🟢 beginner | 2026-09-20 | 🤖 disclose AI use · 🔏 DCO |
+| [Missing translations for Burmese (my)](https://github.com/symfony/symfony/issues/51897) 💬 2 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-20 |  |
+| [Add signature rejection policy configuration UI](https://github.com/LibreSign/libresign/issues/8160) | [LibreSign/libresign](https://github.com/LibreSign/libresign) | 821 | 🟢 beginner | 2026-09-20 | 🤖 disclose AI use · 🔏 DCO |
 | [Missing translations for Welsh (cy)](https://github.com/symfony/symfony/issues/51903) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-19 |  |
 | [Missing translations for Vietnamese (vi)](https://github.com/symfony/symfony/issues/53309) 💬 4 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-19 |  |
 | [Missing translations for Uzbek (uz)](https://github.com/symfony/symfony/issues/65569) | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-19 |  |
@@ -38,7 +39,6 @@
 | [Missing translations for Latvian (lv)](https://github.com/symfony/symfony/issues/64503) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-19 |  |
 | [Missing translations for Japanese (ja)](https://github.com/symfony/symfony/issues/64502) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-19 |  |
 | [Missing translations for Italian (it)](https://github.com/symfony/symfony/issues/66170) | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-19 |  |
-| [Missing translations for Indonesian (id)](https://github.com/symfony/symfony/issues/66169) | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-19 |  |
 | [Unable to reaffect given elements when associating network name to server](https://github.com/glpi-project/glpi/issues/24314) 💬 2 | [glpi-project/glpi](https://github.com/glpi-project/glpi) | 6.4k | 🟢 beginner | 2026-09-19 | 🤖 disclose AI use |
 | [Duplicate conversation created from a single self-addressed email with identical Message-ID (single mailbox, o](https://github.com/freescout-help-desk/freescout/issues/5638) 💬 4 | [freescout-help-desk/freescout](https://github.com/freescout-help-desk/freescout) | 4.5k | 🟡 help wanted | 2026-09-19 |  |
 | [improve Automatic updates when they fail silently if image pulls fail due to host failures — no notification, ](https://github.com/nextcloud/all-in-one/issues/8452) 💬 3 | [nextcloud/all-in-one](https://github.com/nextcloud/all-in-one) | 10.5k | 🟡 help wanted | 2026-09-18 | 🤖 disclose AI use · 🔏 DCO |
@@ -72,7 +72,7 @@
 | [Deletion modal doesn't use the UI kit](https://github.com/PrestaShop/PrestaShop/issues/26936) 💬 6 | [PrestaShop/PrestaShop](https://github.com/PrestaShop/PrestaShop) | 9.2k | 🟢 beginner | 2026-09-08 |  |
 | [JsonApiResource loads relationships one model at a time, so ?include= on a collection costs a query per record](https://github.com/laravel/framework/issues/61252) 💬 3 | [laravel/framework](https://github.com/laravel/framework) | 34.9k | 🟡 help wanted | 2026-09-07 |  |
 | [Private comment not available on REST api (webservice)](https://github.com/PrestaShop/PrestaShop/issues/30731) 💬 6 | [PrestaShop/PrestaShop](https://github.com/PrestaShop/PrestaShop) | 9.2k | 🟡 help wanted | 2026-09-07 |  |
-| [List LibreSign in beginner-friendly open source directories](https://github.com/LibreSign/libresign/issues/8284) 💬 5 | [LibreSign/libresign](https://github.com/LibreSign/libresign) | 818 | 🟢 beginner | 2026-09-07 | 🤖 disclose AI use · 🔏 DCO |
+| [List LibreSign in beginner-friendly open source directories](https://github.com/LibreSign/libresign/issues/8284) 💬 5 | [LibreSign/libresign](https://github.com/LibreSign/libresign) | 821 | 🟢 beginner | 2026-09-07 | 🤖 disclose AI use · 🔏 DCO |
 | [Active and Canceled both return true](https://github.com/laravel/cashier-stripe/issues/1791) 💬 5 | [laravel/cashier-stripe](https://github.com/laravel/cashier-stripe) | 2.5k | 🟡 help wanted | 2026-09-06 |  |
 | [Stack push not always working](https://github.com/laravel/framework/issues/60221) 💬 7 | [laravel/framework](https://github.com/laravel/framework) | 34.9k | 🟡 help wanted | 2026-09-01 |  |
 | [Subscription::currentPeriodStart / currentPeriodEnd causes lazy load error when preventLazyLoad is active](https://github.com/laravel/cashier-stripe/issues/1844) 💬 2 | [laravel/cashier-stripe](https://github.com/laravel/cashier-stripe) | 2.5k | 🟡 help wanted | 2026-09-01 |  |
@@ -112,7 +112,6 @@
 | [[feature] Leverage readOnly/writeOnly metadata](https://github.com/nelmio/NelmioApiDocBundle/issues/1683) 💬 1 | [nelmio/NelmioApiDocBundle](https://github.com/nelmio/NelmioApiDocBundle) | 2.4k | 🟢 beginner | 2026-07-17 |  |
 | [UI bug with bootstrap theme on settings &gt; Page related settings](https://github.com/phpmyadmin/phpmyadmin/issues/18505) 💬 6 | [phpmyadmin/phpmyadmin](https://github.com/phpmyadmin/phpmyadmin) | 7.9k | 🟢 beginner | 2026-07-16 | 🔏 DCO |
 | [magnet links get interpreted as relative links](https://github.com/nextcloud/news/issues/3840) 💬 1 | [nextcloud/news](https://github.com/nextcloud/news) | 1k | 🟡 help wanted | 2026-07-16 | 🔏 DCO |
-| [@aware property values lost when rendering a named slot with '{{ $slotName }}'](https://github.com/laravel/framework/issues/57286) 💬 6 | [laravel/framework](https://github.com/laravel/framework) | 34.9k | 🟡 help wanted | 2026-07-15 |  |
 | [Add info to Report Search tooltip](https://github.com/matomo-org/matomo/issues/19042) 💬 3 | [matomo-org/matomo](https://github.com/matomo-org/matomo) | 21.9k | 🟡 help wanted | 2026-07-11 |  |
 | [When autofilling a search term on info page, the wrong background is selected in the form field](https://github.com/matomo-org/matomo/issues/18857) 💬 1 | [matomo-org/matomo](https://github.com/matomo-org/matomo) | 21.9k | 🟡 help wanted | 2026-07-11 |  |
 | [Неверное склонение городов](https://github.com/wapmorgan/Morphos/issues/142) 💬 4 | [wapmorgan/Morphos](https://github.com/wapmorgan/Morphos) | 830 | 🟡 help wanted | 2026-07-09 |  |

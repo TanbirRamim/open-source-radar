@@ -1,8 +1,8 @@
 # Java issues
 
-**274** open issues (124 labeled for beginners) across **80** active Java projects.
+**281** open issues (129 labeled for beginners) across **82** active Java projects.
 
-> Updated automatically on **2026-09-20 10:45 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-20 20:19 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,10 +10,15 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [积木报表在线填报表单中数据字典不能获取系统中已有数据字典、新增又提示编码已经存在](https://github.com/jeecgboot/JeecgBoot/issues/9895) | [jeecgboot/JeecgBoot](https://github.com/jeecgboot/JeecgBoot) | 47.9k | 🟡 help wanted | 2026-09-20 |  |
+| [Proposal: Add AGENTS.md for AI-assisted development](https://github.com/alibaba/spring-cloud-alibaba/issues/4313) 💬 6 | [alibaba/spring-cloud-alibaba](https://github.com/alibaba/spring-cloud-alibaba) | 29.2k | 🟡 help wanted | 2026-09-20 |  |
+| [Process Runner Fails Silently on Windows with cmd.exe](https://github.com/kestra-io/kestra/issues/12989) 💬 2 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.2k | 🟢 beginner | 2026-09-20 |  |
 | [Basic auth components: replace explicit 'any' with real types](https://github.com/kestra-io/kestra/issues/19298) 💬 1 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.2k | 🟢 beginner | 2026-09-20 |  |
 | [Shared components: replace explicit 'any' with real types](https://github.com/kestra-io/kestra/issues/19297) 💬 1 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.2k | 🟢 beginner | 2026-09-20 |  |
 | [Docs components: replace explicit 'any' with real types](https://github.com/kestra-io/kestra/issues/19299) 💬 3 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.2k | 🟢 beginner | 2026-09-20 |  |
 | [Plugin type layout](https://github.com/kestra-io/kestra/issues/18789) 💬 2 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.2k | 🟢 beginner | 2026-09-20 |  |
+| [[Feature][Transform-V2] Make FieldEncrypt production-ready with pluggable key management](https://github.com/apache/seatunnel/issues/12407) | [apache/seatunnel](https://github.com/apache/seatunnel) | 9.7k | 🟡 help wanted | 2026-09-20 | ✍️ CLA |
+| [pause endpoint not work with spring cloud bus](https://github.com/spring-cloud/spring-cloud-netflix/issues/3841) 💬 4 | [spring-cloud/spring-cloud-netflix](https://github.com/spring-cloud/spring-cloud-netflix) | 5k | 🟡 help wanted | 2026-09-20 | ✍️ CLA |
 | [AIGC AI流程设计和AI应用管理 增加LLM流程节点时模型列表，只有语言模型，AI应用编排里，AI模型列表也只有语言模型，](https://github.com/jeecgboot/JeecgBoot/issues/9891) | [jeecgboot/JeecgBoot](https://github.com/jeecgboot/JeecgBoot) | 47.9k | 🟡 help wanted | 2026-09-19 |  |
 | [TIME inputs are submitted in 12-hour hh:mm:ss (wrong wall-clock time)](https://github.com/kestra-io/kestra/issues/19367) 💬 1 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.2k | 🟢 beginner | 2026-09-19 |  |
 | [hey-api plugin: replace explicit 'any' with real types](https://github.com/kestra-io/kestra/issues/19290) 💬 1 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.2k | 🟢 beginner | 2026-09-19 |  |
@@ -30,8 +35,6 @@
 | [No-code components: replace explicit 'any' with real types](https://github.com/kestra-io/kestra/issues/19282) | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.2k | 🟢 beginner | 2026-09-18 |  |
 | [Design system: replace explicit 'any' with real types](https://github.com/kestra-io/kestra/issues/19281) 💬 1 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.2k | 🟢 beginner | 2026-09-18 |  |
 | [Executions.vue: replace explicit 'any' with real types](https://github.com/kestra-io/kestra/issues/19280) | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.2k | 🟢 beginner | 2026-09-18 |  |
-| [KsDataTable.test.ts: replace explicit 'any' with real types](https://github.com/kestra-io/kestra/issues/19279) | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.2k | 🟢 beginner | 2026-09-18 |  |
-| [KsMarkdown.vue: replace explicit 'any' with real types](https://github.com/kestra-io/kestra/issues/19278) | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.2k | 🟢 beginner | 2026-09-18 |  |
 | [Expose Netty ioHandler configuration](https://github.com/eclipse-vertx/vert.x/issues/6105) 💬 4 | [eclipse-vertx/vert.x](https://github.com/eclipse-vertx/vert.x) | 14.7k | 🟡 help wanted | 2026-09-18 | 🤖 disclose AI use · ✍️ CLA · 🔏 DCO |
 | [OpenCV references a dylib in /usr/local on macosx-x86_64](https://github.com/bytedeco/javacpp-presets/issues/1806) 💬 1 | [bytedeco/javacpp-presets](https://github.com/bytedeco/javacpp-presets) | 2.9k | 🟡 help wanted | 2026-09-18 |  |
 | [Delete multiple subscriptions at once](https://github.com/TeamNewPipe/NewPipe/issues/3301) 💬 7 | [TeamNewPipe/NewPipe](https://github.com/TeamNewPipe/NewPipe) | 39.7k | 🟢 beginner | 2026-09-17 | 📄 AI policy |
@@ -66,9 +69,10 @@
 | [How do you use SNI with SSL?](https://github.com/micronaut-projects/micronaut-core/issues/1131) 💬 1 | [micronaut-projects/micronaut-core](https://github.com/micronaut-projects/micronaut-core) | 6.4k | 🟡 help wanted | 2026-09-11 |  |
 | [Full-duplex support for browsers that do not support WebSocket](https://github.com/micronaut-projects/micronaut-core/issues/583) 💬 2 | [micronaut-projects/micronaut-core](https://github.com/micronaut-projects/micronaut-core) | 6.4k | 🟡 help wanted | 2026-09-11 |  |
 | [NPE when recovering from snapshot in StreamProcessor](https://github.com/camunda/camunda/issues/12201) 💬 2 | [camunda/camunda](https://github.com/camunda/camunda) | 4.3k | 🟢 beginner | 2026-09-11 | ✍️ CLA |
-| [[Feature Request]: Generate a PDF file from a XRechnung XML file](https://github.com/Stirling-Tools/Stirling-PDF/issues/2025) 💬 4 | [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) | 92.6k | 🟡 help wanted | 2026-09-09 |  |
+| [[Feature Request]: Generate a PDF file from a XRechnung XML file](https://github.com/Stirling-Tools/Stirling-PDF/issues/2025) 💬 4 | [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) | 92.7k | 🟡 help wanted | 2026-09-09 |  |
 | [[Feature][WorkflowTiming] Supports multiple timing plans for one workflow](https://github.com/apache/dolphinscheduler/issues/15151) 💬 7 | [apache/dolphinscheduler](https://github.com/apache/dolphinscheduler) | 14.5k | 🟡 help wanted | 2026-09-08 |  |
 | [Delay component](https://github.com/logisim-evolution/logisim-evolution/issues/1840) 💬 26 | [logisim-evolution/logisim-evolution](https://github.com/logisim-evolution/logisim-evolution) | 7.6k | 🟡 help wanted | 2026-09-08 |  |
+| [[FEATURE] Fad Cam Lite](https://github.com/anonfaded/FadCam/issues/194) 💬 7 | [anonfaded/FadCam](https://github.com/anonfaded/FadCam) | 2.8k | 🟢 beginner | 2026-09-08 |  |
 | [Add "search instead for" feature to search page](https://github.com/TeamNewPipe/NewPipe/issues/6032) 💬 3 | [TeamNewPipe/NewPipe](https://github.com/TeamNewPipe/NewPipe) | 39.7k | 🟢 beginner | 2026-09-07 | 📄 AI policy |
 | [Showing total number of subscriptions.](https://github.com/TeamNewPipe/NewPipe/issues/6292) 💬 1 | [TeamNewPipe/NewPipe](https://github.com/TeamNewPipe/NewPipe) | 39.7k | 🟢 beginner | 2026-09-07 | 📄 AI policy |
 | [[Improve][Zeta] Bound terminal-state notification delivery without dropping terminal events](https://github.com/apache/seatunnel/issues/12118) 💬 2 | [apache/seatunnel](https://github.com/apache/seatunnel) | 9.7k | 🟡 help wanted | 2026-09-07 | ✍️ CLA |
@@ -81,7 +85,6 @@
 | [include git commit id in status information and artifact README](https://github.com/yacy/yacy_search_server/issues/466) 💬 1 | [yacy/yacy_search_server](https://github.com/yacy/yacy_search_server) | 4k | 🟢 beginner | 2026-09-06 |  |
 | [[Improve][Zeta] Investigate the SeaTunnelServer#reset() no-op and worker execution-state reconciliation after ](https://github.com/apache/seatunnel/issues/12125) | [apache/seatunnel](https://github.com/apache/seatunnel) | 9.7k | 🟡 help wanted | 2026-09-05 | ✍️ CLA |
 | [Create Alerts for Distributed Commands Queue backlogs.](https://github.com/camunda/camunda/issues/49809) 💬 3 | [camunda/camunda](https://github.com/camunda/camunda) | 4.3k | 🟢 beginner | 2026-09-05 | ✍️ CLA |
-| [[Feature][Zeta] Add autoscaling support for SeaTunnel Engine workers and slots](https://github.com/apache/seatunnel/issues/11663) 💬 15 | [apache/seatunnel](https://github.com/apache/seatunnel) | 9.7k | 🟡 help wanted | 2026-09-04 | ✍️ CLA |
 | [jetty-unixsocket: No ability to set permissions on unix domain socket - other services cannot connect](https://github.com/jetty/jetty.project/issues/10860) 💬 17 | [jetty/jetty.project](https://github.com/jetty/jetty.project) | 4.1k | 🟡 help wanted | 2026-09-04 |  |
 | [Support cancellation](https://github.com/modelcontextprotocol/java-sdk/issues/130) 💬 8 | [modelcontextprotocol/java-sdk](https://github.com/modelcontextprotocol/java-sdk) | 3.7k | 🟡 help wanted | 2026-09-04 | 🤖 disclose AI use |
 | [[Feature]: 升级 A2A SDK 至 v1.0 以支持稳定的AgentCard 和A2A协议](https://github.com/agentscope-ai/agentscope-java/issues/1388) 💬 11 | [agentscope-ai/agentscope-java](https://github.com/agentscope-ai/agentscope-java) | 5.7k | 🟡 help wanted | 2026-09-03 |  |
@@ -117,7 +120,6 @@
 | [Support for greek locale](https://github.com/dbeaver/dbeaver/issues/7932) 💬 4 | [dbeaver/dbeaver](https://github.com/dbeaver/dbeaver) | 51.8k | 🟡 help wanted | 2026-08-21 | 🤖 disclose AI use |
 | [TTY: allow configuring the display font consistently](https://github.com/logisim-evolution/logisim-evolution/issues/2878) 💬 1 | [logisim-evolution/logisim-evolution](https://github.com/logisim-evolution/logisim-evolution) | 7.6k | 🟡 help wanted | 2026-08-21 |  |
 | [Configure heartbeat interval and election timeout](https://github.com/camunda/camunda/issues/3096) 💬 9 | [camunda/camunda](https://github.com/camunda/camunda) | 4.3k | 🟢 beginner | 2026-08-21 | ✍️ CLA |
-| [Proposal: Add AGENTS.md for AI-assisted development](https://github.com/alibaba/spring-cloud-alibaba/issues/4313) 💬 5 | [alibaba/spring-cloud-alibaba](https://github.com/alibaba/spring-cloud-alibaba) | 29.2k | 🟡 help wanted | 2026-08-20 |  |
 | [I am not able to export simulation as text file.](https://github.com/logisim-evolution/logisim-evolution/issues/1655) 💬 5 | [logisim-evolution/logisim-evolution](https://github.com/logisim-evolution/logisim-evolution) | 7.6k | 🟡 help wanted | 2026-08-20 |  |
 | [Consider requiring circuitChanged actions be generated by the gui thread.](https://github.com/logisim-evolution/logisim-evolution/issues/2875) 💬 2 | [logisim-evolution/logisim-evolution](https://github.com/logisim-evolution/logisim-evolution) | 7.6k | 🟡 help wanted | 2026-08-20 |  |
 | [Provide invert feature for component inputs](https://github.com/logisim-evolution/logisim-evolution/issues/1510) 💬 10 | [logisim-evolution/logisim-evolution](https://github.com/logisim-evolution/logisim-evolution) | 7.6k | 🟡 help wanted | 2026-08-20 |  |
@@ -126,6 +128,7 @@
 | [Aliases do not appear to be reported in notifications](https://github.com/DependencyTrack/dependency-track/issues/3723) 💬 1 | [DependencyTrack/dependency-track](https://github.com/DependencyTrack/dependency-track) | 4.2k | 🟢 beginner | 2026-08-20 | ⚠️ AI restricted · 🔏 DCO |
 | [Tracking openrocket in downstream package ecosystem](https://github.com/openrocket/openrocket/issues/2254) 💬 15 | [openrocket/openrocket](https://github.com/openrocket/openrocket) | 3.1k | 🟢 beginner | 2026-08-20 | 📄 AI policy |
 | [[cuda][onnxruntime] CUDA EP fail connected to cudnn redist 13.3-9.25-1.5.14](https://github.com/bytedeco/javacpp-presets/issues/1799) 💬 6 | [bytedeco/javacpp-presets](https://github.com/bytedeco/javacpp-presets) | 2.9k | 🟡 help wanted | 2026-08-20 |  |
+| [[FEATURE] Quick Settings option for directly starting video taping without opening the app at all](https://github.com/anonfaded/FadCam/issues/207) 💬 10 | [anonfaded/FadCam](https://github.com/anonfaded/FadCam) | 2.8k | 🟢 beginner | 2026-08-20 |  |
 | [Introduce a better hash function for Starlark](https://github.com/bazelbuild/bazel/issues/26529) 💬 7 | [bazelbuild/bazel](https://github.com/bazelbuild/bazel) | 25.9k | 🟡 help wanted | 2026-08-18 | ✍️ CLA |
 | [Support Nextcloud drop folders for blobby storage](https://github.com/dtinit/data-transfer-project/issues/616) 💬 7 | [dtinit/data-transfer-project](https://github.com/dtinit/data-transfer-project) | 3.6k | 🟡 help wanted | 2026-08-18 | ✍️ CLA |
 | [[Feature]: Support proactive per-model rate limiting (e.g. max requests per minute with blocking wait)](https://github.com/agentscope-ai/agentscope-java/issues/974) 💬 4 | [agentscope-ai/agentscope-java](https://github.com/agentscope-ai/agentscope-java) | 5.7k | 🟡 help wanted | 2026-08-17 |  |
@@ -174,8 +177,11 @@
 | [Use kiali to build a microservices governance console](https://github.com/alibaba/spring-cloud-alibaba/issues/3118) 💬 2 | [alibaba/spring-cloud-alibaba](https://github.com/alibaba/spring-cloud-alibaba) | 29.2k | 🟢 beginner | 2026-07-21 |  |
 | [Regarding the GA version issue](https://github.com/alibaba/spring-cloud-alibaba/issues/4100) 💬 6 | [alibaba/spring-cloud-alibaba](https://github.com/alibaba/spring-cloud-alibaba) | 29.2k | 🟢 beginner | 2026-07-21 |  |
 | [RTools download progress dialog isn't focused](https://github.com/rstudio/rstudio/issues/11521) 💬 2 | [rstudio/rstudio](https://github.com/rstudio/rstudio) | 5.1k | 🟢 beginner | 2026-07-21 |  |
+| [[FEATURE] Native volume key / Bluetooth shutter shortcut for FadShot during video recording](https://github.com/anonfaded/FadCam/issues/292) 💬 2 | [anonfaded/FadCam](https://github.com/anonfaded/FadCam) | 2.8k | 🟢 beginner | 2026-07-21 |  |
 | [Support for Azure Cognitive Services Speech SDK](https://github.com/spring-projects/spring-ai/issues/1165) 💬 8 | [spring-projects/spring-ai](https://github.com/spring-projects/spring-ai) | 9.5k | 🟡 help wanted | 2026-07-16 | 🤖 disclose AI use · ✍️ CLA · 🔏 DCO |
 | [The MavenMetaAnalyzer task fails due to invalid URLs](https://github.com/DependencyTrack/dependency-track/issues/3566) 💬 2 | [DependencyTrack/dependency-track](https://github.com/DependencyTrack/dependency-track) | 4.2k | 🟢 beginner | 2026-07-16 | ⚠️ AI restricted · 🔏 DCO |
+| [[FEATURE] Separate FadShot photo resolution from video recording resolution](https://github.com/anonfaded/FadCam/issues/293) | [anonfaded/FadCam](https://github.com/anonfaded/FadCam) | 2.8k | 🟢 beginner | 2026-07-16 |  |
+| [[FEATURE] Configurable watermark font size for videos and FadShot photos](https://github.com/anonfaded/FadCam/issues/294) | [anonfaded/FadCam](https://github.com/anonfaded/FadCam) | 2.8k | 🟢 beginner | 2026-07-16 |  |
 | [规则Web可视化方案咨询](https://github.com/alibaba/QLExpress/issues/419) 💬 1 | [alibaba/QLExpress](https://github.com/alibaba/QLExpress) | 5.6k | 🟡 help wanted | 2026-07-13 |  |
 | [Variable Filter does not return results for decimal numbers when decimal point is zero](https://github.com/camunda/camunda/issues/32838) 💬 1 | [camunda/camunda](https://github.com/camunda/camunda) | 4.3k | 🟢 beginner | 2026-07-12 | ✍️ CLA |
 | [pytorch Issue: SequentialImpl and AnyModule do not support custom user-defined Modules inherited from Module (](https://github.com/bytedeco/javacpp-presets/issues/1779) 💬 9 | [bytedeco/javacpp-presets](https://github.com/bytedeco/javacpp-presets) | 2.9k | 🟡 help wanted | 2026-07-11 |  |
@@ -204,11 +210,5 @@
 | [Help translate the Astron Agent docs (i18n translators wanted)](https://github.com/iflytek/astron-agent/issues/1409) | [iflytek/astron-agent](https://github.com/iflytek/astron-agent) | 9k | 🟡 help wanted | 2026-06-15 |  |
 | [Set SameSite attribute on session cookie created by the frontend](https://github.com/DependencyTrack/dependency-track/issues/2985) 💬 1 | [DependencyTrack/dependency-track](https://github.com/DependencyTrack/dependency-track) | 4.2k | 🟢 beginner | 2026-06-15 | ⚠️ AI restricted · 🔏 DCO |
 | [pytorch issue ，ModuleDictImpl need mapping void insert(const std::string& key, std::shared_ptr&lt;Module&gt; m](https://github.com/bytedeco/javacpp-presets/issues/1781) 💬 1 | [bytedeco/javacpp-presets](https://github.com/bytedeco/javacpp-presets) | 2.9k | 🟡 help wanted | 2026-06-15 |  |
-| [Specifying only Group Name and Version will not match VulnerableSoftware using the Internal Analyzer.](https://github.com/DependencyTrack/dependency-track/issues/2984) 💬 2 | [DependencyTrack/dependency-track](https://github.com/DependencyTrack/dependency-track) | 4.2k | 🟢 beginner | 2026-06-13 | ⚠️ AI restricted · 🔏 DCO |
-| [Add a multi-page flags reference](https://github.com/bazelbuild/bazel/issues/29049) 💬 5 | [bazelbuild/bazel](https://github.com/bazelbuild/bazel) | 25.9k | 🟡 help wanted | 2026-06-12 | ✍️ CLA |
-| [[Improvement] Fix client-python codes to conform Pylint Rules](https://github.com/apache/gravitino/issues/3560) 💬 2 | [apache/gravitino](https://github.com/apache/gravitino) | 3.2k | 🟢 beginner | 2026-06-10 | 🤖 disclose AI use · ✍️ CLA |
-| [include support for opencv 5](https://github.com/bytedeco/javacv/issues/2388) | [bytedeco/javacv](https://github.com/bytedeco/javacv) | 8.3k | 🟡 help wanted | 2026-06-09 |  |
-| [Show all queries by default in Web UI](https://github.com/trinodb/trino/issues/4350) 💬 4 | [trinodb/trino](https://github.com/trinodb/trino) | 13.3k | 🟢 beginner | 2026-06-08 | ✍️ CLA |
-| [Using WebClient with Mono.zip stuck in half-open state.](https://github.com/resilience4j/resilience4j/issues/1681) 💬 4 | [resilience4j/resilience4j](https://github.com/resilience4j/resilience4j) | 10.8k | 🟡 help wanted | 2026-06-07 |  |
 
-Showing the 200 most recently updated. See all 274 on the website.
+Showing the 200 most recently updated. See all 281 on the website.

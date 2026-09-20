@@ -1,8 +1,8 @@
 # Julia issues
 
-**30** open issues (21 labeled for beginners) across **13** active Julia projects.
+**31** open issues (22 labeled for beginners) across **14** active Julia projects.
 
-> Updated automatically on **2026-09-20 10:45 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-20 20:19 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,11 +10,12 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [Legend entries are in wrong order for areaplot](https://github.com/JuliaPlots/Plots.jl/issues/5029) 💬 1 | [JuliaPlots/Plots.jl](https://github.com/JuliaPlots/Plots.jl) | 2k | 🟢 beginner | 2026-09-20 |  |
 | [Inconsistency between CUDA.jl and Base for sum!](https://github.com/JuliaGPU/CUDA.jl/issues/2506) 💬 2 | [JuliaGPU/CUDA.jl](https://github.com/JuliaGPU/CUDA.jl) | 1.4k | 🟢 beginner | 2026-09-16 |  |
 | [Shell mode doesn't respect Cmd object's env](https://github.com/JuliaLang/julia/issues/51020) 💬 4 | [JuliaLang/julia](https://github.com/JuliaLang/julia) | 49.1k | 🟢 beginner | 2026-09-15 | 🤖 disclose AI use |
 | [Missing Rmath derivatives](https://github.com/EnzymeAD/Enzyme.jl/issues/1620) 💬 2 | [EnzymeAD/Enzyme.jl](https://github.com/EnzymeAD/Enzyme.jl) | 587 | 🟡 help wanted | 2026-09-14 |  |
 | [Can't turn off range and indexing parentheses](https://github.com/JuliaEditorSupport/JuliaFormatter.jl/issues/877) 💬 1 | [JuliaEditorSupport/JuliaFormatter.jl](https://github.com/JuliaEditorSupport/JuliaFormatter.jl) | 644 | 🟢 beginner | 2026-09-10 |  |
-| [Conjugate heat transfer, requires implementation of new temperature scalar transport equation](https://github.com/WaterLily-jl/WaterLily.jl/issues/172) 💬 14 | [WaterLily-jl/WaterLily.jl](https://github.com/WaterLily-jl/WaterLily.jl) | 839 | 🟡 help wanted | 2026-08-21 |  |
+| [Conjugate heat transfer, requires implementation of new temperature scalar transport equation](https://github.com/WaterLily-jl/WaterLily.jl/issues/172) 💬 14 | [WaterLily-jl/WaterLily.jl](https://github.com/WaterLily-jl/WaterLily.jl) | 840 | 🟡 help wanted | 2026-08-21 |  |
 | [Utilize DocumenterCodeblocks.jl in all subpackages of the ecosystem](https://github.com/JuliaDynamics/DynamicalSystems.jl/issues/270) | [JuliaDynamics/DynamicalSystems.jl](https://github.com/JuliaDynamics/DynamicalSystems.jl) | 950 | 🟢 beginner | 2026-08-18 |  |
 | [Functional equivalents missing for some layers](https://github.com/FluxML/Flux.jl/issues/2013) 💬 4 | [FluxML/Flux.jl](https://github.com/FluxML/Flux.jl) | 4.7k | 🟢 beginner | 2026-08-12 |  |
 | [Better error message when uuid is not present in Project.toml](https://github.com/JuliaLang/PackageCompiler.jl/issues/1033) 💬 2 | [JuliaLang/PackageCompiler.jl](https://github.com/JuliaLang/PackageCompiler.jl) | 1.6k | 🟢 beginner | 2026-08-11 |  |
@@ -28,7 +29,7 @@
 | [API for Hessian](https://github.com/EnzymeAD/Enzyme.jl/issues/1495) 💬 3 | [EnzymeAD/Enzyme.jl](https://github.com/EnzymeAD/Enzyme.jl) | 587 | 🟢 beginner | 2026-07-20 |  |
 | [Some Projects that are Available for Future Work](https://github.com/QuantEcon/QuantEcon.jl/issues/83) 💬 16 | [QuantEcon/QuantEcon.jl](https://github.com/QuantEcon/QuantEcon.jl) | 554 | 🟡 help wanted | 2026-07-15 |  |
 | [Provide interpolation function 'f(x, y)' for user-driven postprocessing of results](https://github.com/trixi-framework/Trixi.jl/issues/1291) 💬 4 | [trixi-framework/Trixi.jl](https://github.com/trixi-framework/Trixi.jl) | 731 | 🟢 beginner | 2026-07-13 | 🤖 disclose AI use · 🔏 DCO |
-| [Implement '@formula' support in 'Kriging' model](https://github.com/JuliaEarth/GeoStats.jl/issues/573) 💬 2 | [JuliaEarth/GeoStats.jl](https://github.com/JuliaEarth/GeoStats.jl) | 591 | 🟡 help wanted | 2026-07-04 |  |
+| [Implement '@formula' support in 'Kriging' model](https://github.com/JuliaEarth/GeoStats.jl/issues/573) 💬 2 | [JuliaEarth/GeoStats.jl](https://github.com/JuliaEarth/GeoStats.jl) | 590 | 🟡 help wanted | 2026-07-04 |  |
 | [Space between unary prefix operator and operand is not removed](https://github.com/JuliaEditorSupport/JuliaFormatter.jl/issues/281) 💬 5 | [JuliaEditorSupport/JuliaFormatter.jl](https://github.com/JuliaEditorSupport/JuliaFormatter.jl) | 644 | 🟢 beginner | 2026-07-01 |  |
 | [Interactive reflection of caught errors is broken](https://github.com/JuliaGPU/CUDA.jl/issues/2798) 💬 2 | [JuliaGPU/CUDA.jl](https://github.com/JuliaGPU/CUDA.jl) | 1.4k | 🟢 beginner | 2026-06-18 |  |
 | [Option for whitespace surrounding parenthesis/brackets?](https://github.com/JuliaEditorSupport/JuliaFormatter.jl/issues/1084) 💬 1 | [JuliaEditorSupport/JuliaFormatter.jl](https://github.com/JuliaEditorSupport/JuliaFormatter.jl) | 644 | 🟢 beginner | 2026-06-17 |  |

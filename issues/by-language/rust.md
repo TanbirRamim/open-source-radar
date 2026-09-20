@@ -1,8 +1,8 @@
 # Rust issues
 
-**327** open issues (127 labeled for beginners) across **94** active Rust projects.
+**324** open issues (127 labeled for beginners) across **93** active Rust projects.
 
-> Updated automatically on **2026-09-20 10:45 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-20 20:19 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,18 +10,17 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [Recall retention only applies on write: a quiet machine keeps rows past retention_days](https://github.com/rtk-ai/rtk/issues/4144) 💬 1 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 81.1k | 🟡 help wanted | 2026-09-20 | ✍️ CLA |
 | [Website color theme: "auto" / "system preference" option](https://github.com/rust-lang/rust-clippy/issues/14098) | [rust-lang/rust-clippy](https://github.com/rust-lang/rust-clippy) | 13.5k | 🟢 beginner | 2026-09-20 | 🤖 disclose AI use |
+| [Auto-created tables can miss required columns when insert schemas differ](https://github.com/GreptimeTeam/greptimedb/issues/9185) 💬 3 | [GreptimeTeam/greptimedb](https://github.com/GreptimeTeam/greptimedb) | 6.7k | 🟢 beginner | 2026-09-20 | ✍️ CLA · 🔏 DCO |
 | [Add uv script to pyenv's pip-rehash](https://github.com/astral-sh/uv/issues/4130) 💬 2 | [astral-sh/uv](https://github.com/astral-sh/uv) | 90k | 🟡 help wanted | 2026-09-19 | 📄 AI policy |
 | [RTK is not being configured properly with global initialization for VS Code + Copilot](https://github.com/rtk-ai/rtk/issues/2216) 💬 5 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 81.1k | 🟡 help wanted | 2026-09-19 | ✍️ CLA |
-| [Changing text alignment deletes MathJax block](https://github.com/ankitects/anki/issues/5176) 💬 4 | [ankitects/anki](https://github.com/ankitects/anki) | 31.3k | 🟢 beginner | 2026-09-19 |  |
+| [Changing text alignment deletes MathJax block](https://github.com/ankitects/anki/issues/5176) 💬 4 | [ankitects/anki](https://github.com/ankitects/anki) | 31.4k | 🟢 beginner | 2026-09-19 |  |
 | ["Pattern match on variable" is offered on discards / could generate better code?](https://github.com/gleam-lang/gleam/issues/6285) 💬 1 | [gleam-lang/gleam](https://github.com/gleam-lang/gleam) | 21.9k | 🟡 help wanted | 2026-09-19 | ⚠️ AI restricted |
 | [Manually allow 'clippy::await_holding_invalid_type'](https://github.com/rust-lang/rust-clippy/issues/13680) | [rust-lang/rust-clippy](https://github.com/rust-lang/rust-clippy) | 13.5k | 🟢 beginner | 2026-09-19 | 🤖 disclose AI use |
 | [Replace the current continuous benchmarking action with our own.](https://github.com/paradedb/paradedb/issues/5013) 💬 4 | [paradedb/paradedb](https://github.com/paradedb/paradedb) | 9.3k | 🟢 beginner | 2026-09-19 | ✍️ CLA |
 | [A match operator in the target list crosses every JIT threshold](https://github.com/paradedb/paradedb/issues/6406) 💬 1 | [paradedb/paradedb](https://github.com/paradedb/paradedb) | 9.3k | 🟢 beginner | 2026-09-19 | ✍️ CLA |
 | ['COUNT(*)' with 'ctid IN (subquery)' fails with 'Pre-filter failed: Column 0 not fetched'](https://github.com/paradedb/paradedb/issues/6399) | [paradedb/paradedb](https://github.com/paradedb/paradedb) | 9.3k | 🟢 beginner | 2026-09-19 | ✍️ CLA |
 | [Introduce shellcheck](https://github.com/youki-dev/youki/issues/2064) 💬 2 | [youki-dev/youki](https://github.com/youki-dev/youki) | 7.6k | 🟢 beginner | 2026-09-19 |  |
-| [Auto-created tables can miss required columns when insert schemas differ](https://github.com/GreptimeTeam/greptimedb/issues/9185) 💬 4 | [GreptimeTeam/greptimedb](https://github.com/GreptimeTeam/greptimedb) | 6.7k | 🟢 beginner | 2026-09-19 | ✍️ CLA · 🔏 DCO |
 | [seems like custom text cant implement the auto-fit resize for whatever reason, so, to resize have to manually ](https://github.com/koharu-rs/koharu/issues/991) 💬 2 | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.6k | 🟡 help wanted | 2026-09-19 | 🤖 disclose AI use |
 | [rtk grep: invalid UTF-8 in a searched file corrupts file-count/attribution for other matches in the same file ](https://github.com/rtk-ai/rtk/issues/4113) 💬 1 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 81.1k | 🟡 help wanted | 2026-09-18 | ✍️ CLA |
 | [Prioritize high-frequency unhandled commands: gofmt, cat, go run, and node](https://github.com/rtk-ai/rtk/issues/4112) 💬 1 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 81.1k | 🟡 help wanted | 2026-09-18 | ✍️ CLA |
@@ -94,7 +93,6 @@
 | [Block areas work like in version 0.61.2](https://github.com/koharu-rs/koharu/issues/929) 💬 1 | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.6k | 🟡 help wanted | 2026-09-08 | 🤖 disclose AI use |
 | [detector sometimes failed to detect an obvious text](https://github.com/koharu-rs/koharu/issues/919) 💬 4 | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.6k | 🟡 help wanted | 2026-09-08 | 🤖 disclose AI use |
 | [please add notification sound whenever a process completed...](https://github.com/koharu-rs/koharu/issues/918) | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.6k | 🟡 help wanted | 2026-09-08 | 🤖 disclose AI use |
-| [copilot: no real-world fixture proving duplicate exporter spans are snapshots, not deltas](https://github.com/junhoyeo/tokscale/issues/940) | [junhoyeo/tokscale](https://github.com/junhoyeo/tokscale) | 5.5k | 🟡 help wanted | 2026-09-08 | 📄 AI policy |
 | [Skip redundant length checks when pattern matching on multiple bit-array segments](https://github.com/gleam-lang/gleam/issues/6027) 💬 2 | [gleam-lang/gleam](https://github.com/gleam-lang/gleam) | 21.9k | 🟡 help wanted | 2026-09-07 | ⚠️ AI restricted |
 | [Missing qualify code action on unqualified imports](https://github.com/gleam-lang/gleam/issues/6267) 💬 3 | [gleam-lang/gleam](https://github.com/gleam-lang/gleam) | 21.9k | 🟢 beginner | 2026-09-07 | ⚠️ AI restricted |
 | [Add Hurl to Offical Redhat/Centos/Fedora repository](https://github.com/Orange-OpenSource/hurl/issues/367) 💬 1 | [Orange-OpenSource/hurl](https://github.com/Orange-OpenSource/hurl) | 19.2k | 🟡 help wanted | 2026-09-07 | 📄 AI policy |
@@ -210,5 +208,7 @@
 | [feature: Specify a pattern for branch names](https://github.com/gitbutlerapp/gitbutler/issues/2717) 💬 1 | [gitbutlerapp/gitbutler](https://github.com/gitbutlerapp/gitbutler) | 21.7k | 🟢 beginner | 2026-07-20 | ✍️ CLA |
 | [Support for JetBrains IDEs](https://github.com/gitbutlerapp/gitbutler/issues/9984) 💬 20 | [gitbutlerapp/gitbutler](https://github.com/gitbutlerapp/gitbutler) | 21.7k | 🟡 help wanted | 2026-07-20 | ✍️ CLA |
 | [Merge commit diffs show all incoming changes instead of merge-only changes](https://github.com/gitbutlerapp/gitbutler/issues/12795) 💬 2 | [gitbutlerapp/gitbutler](https://github.com/gitbutlerapp/gitbutler) | 21.7k | 🟡 help wanted | 2026-07-20 | ✍️ CLA |
+| [Windows installer always creates a desktop shortcut](https://github.com/gitbutlerapp/gitbutler/issues/14722) 💬 3 | [gitbutlerapp/gitbutler](https://github.com/gitbutlerapp/gitbutler) | 21.7k | 🟡 help wanted | 2026-07-20 | ✍️ CLA |
+| [False positive: "more cut" wrongly flagged to change to "cuter"](https://github.com/Automattic/harper/issues/3297) | [Automattic/harper](https://github.com/Automattic/harper) | 15.7k | 🟡 help wanted | 2026-07-19 | 🤖 disclose AI use |
 
-Showing the 200 most recently updated. See all 327 on the website.
+Showing the 200 most recently updated. See all 324 on the website.

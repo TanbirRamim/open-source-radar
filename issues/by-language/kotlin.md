@@ -1,8 +1,8 @@
 # Kotlin issues
 
-**161** open issues (63 labeled for beginners) across **70** active Kotlin projects.
+**160** open issues (62 labeled for beginners) across **70** active Kotlin projects.
 
-> Updated automatically on **2026-09-20 10:45 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-20 20:19 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,14 +10,16 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [Testers wanted for "Google Closed Testing"](https://github.com/aj3423/SpamBlocker/issues/664) 💬 15 | [aj3423/SpamBlocker](https://github.com/aj3423/SpamBlocker) | 1.9k | 🟡 help wanted | 2026-09-20 |  |
+| [Incorrect test: 'copyNoteCopiesDeckId'](https://github.com/ankidroid/Anki-Android/issues/21942) | [ankidroid/Anki-Android](https://github.com/ankidroid/Anki-Android) | 11.8k | 🟢 beginner | 2026-09-20 | 🤖 disclose AI use |
+| [Corrupt-delete file](https://github.com/TeamAmaze/AmazeFileManager/issues/4721) 💬 8 | [TeamAmaze/AmazeFileManager](https://github.com/TeamAmaze/AmazeFileManager) | 6.4k | 🟡 help wanted | 2026-09-20 |  |
+| [The last file of the folder gets hidden behind the now playing bottom widget](https://github.com/RetroMusicPlayer/RetroMusicPlayer/issues/1478) 💬 5 | [RetroMusicPlayer/RetroMusicPlayer](https://github.com/RetroMusicPlayer/RetroMusicPlayer) | 5.3k | 🟢 beginner | 2026-09-20 |  |
+| [Testers wanted for "Google Closed Testing"](https://github.com/aj3423/SpamBlocker/issues/664) 💬 18 | [aj3423/SpamBlocker](https://github.com/aj3423/SpamBlocker) | 1.9k | 🟡 help wanted | 2026-09-20 |  |
 | [PNG images are uploaded with names ending in .jpg](https://github.com/element-hq/element-x-android/issues/1681) 💬 5 | [element-hq/element-x-android](https://github.com/element-hq/element-x-android) | 2.4k | 🟡 help wanted | 2026-09-19 | ⚠️ AI restricted |
 | [[Bug]: Errors after password changed](https://github.com/commons-app/apps-android-commons/issues/6446) 💬 3 | [commons-app/apps-android-commons](https://github.com/commons-app/apps-android-commons) | 1.2k | 🟢 beginner | 2026-09-19 |  |
 | [no such table workspec](https://github.com/commons-app/apps-android-commons/issues/6434) 💬 2 | [commons-app/apps-android-commons](https://github.com/commons-app/apps-android-commons) | 1.2k | 🟢 beginner | 2026-09-19 |  |
 | [Category suggestions sometimes not found](https://github.com/commons-app/apps-android-commons/issues/6438) 💬 12 | [commons-app/apps-android-commons](https://github.com/commons-app/apps-android-commons) | 1.2k | 🟢 beginner | 2026-09-19 |  |
 | [[Bug]: Fix Feature request template](https://github.com/commons-app/apps-android-commons/issues/6969) 💬 1 | [commons-app/apps-android-commons](https://github.com/commons-app/apps-android-commons) | 1.2k | 🟢 beginner | 2026-09-19 |  |
 | [Stale screenshot baseline was used](https://github.com/ankidroid/Anki-Android/issues/21888) 💬 3 | [ankidroid/Anki-Android](https://github.com/ankidroid/Anki-Android) | 11.8k | 🟡 help wanted | 2026-09-18 | 🤖 disclose AI use |
-| [Corrupt-delete file](https://github.com/TeamAmaze/AmazeFileManager/issues/4721) 💬 6 | [TeamAmaze/AmazeFileManager](https://github.com/TeamAmaze/AmazeFileManager) | 6.4k | 🟡 help wanted | 2026-09-18 |  |
 | [Using the headunit server mode wireless connection is very laggy and may even be disconnected.](https://github.com/andreknieriem/open-headunit/issues/979) 💬 1 | [andreknieriem/open-headunit](https://github.com/andreknieriem/open-headunit) | 2.4k | 🟡 help wanted | 2026-09-18 |  |
 | [Feature Request: Option For App-Dependent Background Colors](https://github.com/LawnchairLauncher/lawnicons/issues/1813) 💬 2 | [LawnchairLauncher/lawnicons](https://github.com/LawnchairLauncher/lawnicons) | 2.1k | 🟡 help wanted | 2026-09-18 |  |
 | [[DISCUSSION] Inclusion in default F-Droid repo](https://github.com/LawnchairLauncher/lawnicons/issues/897) 💬 8 | [LawnchairLauncher/lawnicons](https://github.com/LawnchairLauncher/lawnicons) | 2.1k | 🟡 help wanted | 2026-09-18 |  |
@@ -50,8 +52,7 @@
 | [Adjust CE Bomb for wide screen, add documentation](https://github.com/Fate-Grand-Automata/FGA/issues/998) 💬 33 | [Fate-Grand-Automata/FGA](https://github.com/Fate-Grand-Automata/FGA) | 2.4k | 🟡 help wanted | 2026-09-08 |  |
 | [Shuffle if ther's no effective buster card](https://github.com/Fate-Grand-Automata/FGA/issues/864) | [Fate-Grand-Automata/FGA](https://github.com/Fate-Grand-Automata/FGA) | 2.4k | 🟢 beginner | 2026-09-08 |  |
 | [Editing contact and then going back decrements Event dates by 1](https://github.com/you-apps/ConnectYou/issues/84) 💬 7 | [you-apps/ConnectYou](https://github.com/you-apps/ConnectYou) | 724 | 🟡 help wanted | 2026-09-08 |  |
-| [Improve the Review forgotten cards dialog](https://github.com/ankidroid/Anki-Android/issues/20598) 💬 14 | [ankidroid/Anki-Android](https://github.com/ankidroid/Anki-Android) | 11.8k | 🟢 beginner | 2026-09-06 | 🤖 disclose AI use |
-| [Native Debrid Integration Support](https://github.com/ProdigyV21/ARVIO/issues/198) 💬 3 | [ProdigyV21/ARVIO](https://github.com/ProdigyV21/ARVIO) | 725 | 🟡 help wanted | 2026-09-06 |  |
+| [Native Debrid Integration Support](https://github.com/ProdigyV21/ARVIO/issues/198) 💬 3 | [ProdigyV21/ARVIO](https://github.com/ProdigyV21/ARVIO) | 728 | 🟡 help wanted | 2026-09-06 |  |
 | [jellyfin源无法，播放strm流文件](https://github.com/open-ani/animeko/issues/2995) 💬 3 | [open-ani/animeko](https://github.com/open-ani/animeko) | 20.2k | 🟡 help wanted | 2026-09-05 |  |
 | [应用崩溃 IllegalStateException](https://github.com/open-ani/animeko/issues/2328) 💬 2 | [open-ani/animeko](https://github.com/open-ani/animeko) | 20.2k | 🟡 help wanted | 2026-09-05 |  |
 | [增加设置允许后台播放](https://github.com/open-ani/animeko/issues/59) 💬 5 | [open-ani/animeko](https://github.com/open-ani/animeko) | 20.2k | 🟡 help wanted | 2026-09-05 |  |
@@ -72,7 +73,6 @@
 | [Include 'LICENSE' file in JARs](https://github.com/getsentry/sentry-java/issues/4667) 💬 1 | [getsentry/sentry-java](https://github.com/getsentry/sentry-java) | 1.4k | 🟢 beginner | 2026-09-01 |  |
 | [Arabic language support](https://github.com/yairm210/Unciv/issues/14955) 💬 4 | [yairm210/Unciv](https://github.com/yairm210/Unciv) | 11.3k | 🟡 help wanted | 2026-08-30 |  |
 | [Add Playlist Sorting by Date Added](https://github.com/rawnaldclark/Stash/issues/110) 💬 2 | [rawnaldclark/Stash](https://github.com/rawnaldclark/Stash) | 1.1k | 🟢 beginner | 2026-08-30 |  |
-| [The last file of the folder gets hidden behind the now playing bottom widget](https://github.com/RetroMusicPlayer/RetroMusicPlayer/issues/1478) 💬 4 | [RetroMusicPlayer/RetroMusicPlayer](https://github.com/RetroMusicPlayer/RetroMusicPlayer) | 5.3k | 🟢 beginner | 2026-08-29 |  |
 | [Group by Disk](https://github.com/RetroMusicPlayer/RetroMusicPlayer/issues/725) 💬 10 | [RetroMusicPlayer/RetroMusicPlayer](https://github.com/RetroMusicPlayer/RetroMusicPlayer) | 5.3k | 🟢 beginner | 2026-08-29 |  |
 | [There seems to be over-reporting for Cargo dependencies](https://github.com/oss-review-toolkit/ort/issues/9717) 💬 1 | [oss-review-toolkit/ort](https://github.com/oss-review-toolkit/ort) | 2.1k | 🟡 help wanted | 2026-08-28 | 🤖 disclose AI use |
 | [Change how file writing is done to prevent issues with third-party cloud services](https://github.com/kitsumed/ShizuCallRecorder/issues/113) 💬 2 | [kitsumed/ShizuCallRecorder](https://github.com/kitsumed/ShizuCallRecorder) | 1.5k | 🟡 help wanted | 2026-08-28 | 🤖 disclose AI use |
@@ -113,7 +113,7 @@
 | [File extension k9s seems not registered in android](https://github.com/thunderbird/thunderbird-android/issues/3562) 💬 1 | [thunderbird/thunderbird-android](https://github.com/thunderbird/thunderbird-android) | 14k | 🟢 beginner | 2026-07-29 | 🤖 disclose AI use |
 | [Automatic Backup's "max amount of backups" doesn't seem to be working](https://github.com/you-apps/ConnectYou/issues/92) 💬 8 | [you-apps/ConnectYou](https://github.com/you-apps/ConnectYou) | 724 | 🟡 help wanted | 2026-07-29 |  |
 | [Improve Privacy Policy to explain Google Play Data Sharing](https://github.com/ankidroid/Anki-Android/issues/18413) 💬 23 | [ankidroid/Anki-Android](https://github.com/ankidroid/Anki-Android) | 11.8k | 🟡 help wanted | 2026-07-26 | 🤖 disclose AI use |
-| [[Serious Bug] App crashes (SIGSEGV) when switching to a new video too quickly](https://github.com/mpvRex/REX-Player/issues/216) 💬 3 | [mpvRex/REX-Player](https://github.com/mpvRex/REX-Player) | 688 | 🟡 help wanted | 2026-07-26 |  |
+| [[Serious Bug] App crashes (SIGSEGV) when switching to a new video too quickly](https://github.com/mpvRex/REX-Player/issues/216) 💬 3 | [mpvRex/REX-Player](https://github.com/mpvRex/REX-Player) | 690 | 🟡 help wanted | 2026-07-26 |  |
 | [Attachment handling](https://github.com/thunderbird/thunderbird-android/issues/10114) 💬 4 | [thunderbird/thunderbird-android](https://github.com/thunderbird/thunderbird-android) | 14k | 🟢 beginner | 2026-07-24 | 🤖 disclose AI use |
 | [Wording alignment is off for terms in multiple scripts](https://github.com/streetcomplete/StreetComplete/issues/6778) 💬 11 | [streetcomplete/StreetComplete](https://github.com/streetcomplete/StreetComplete) | 4.8k | 🟡 help wanted | 2026-07-24 |  |
 | [Allow using a custom Hub with SentryTraced for Jetpack Compose](https://github.com/getsentry/sentry-java/issues/2668) 💬 7 | [getsentry/sentry-java](https://github.com/getsentry/sentry-java) | 1.4k | 🟢 beginner | 2026-07-24 |  |
@@ -128,7 +128,7 @@
 | [Make read-only answers copiable](https://github.com/getodk/collect/issues/5404) | [getodk/collect](https://github.com/getodk/collect) | 791 | 🟡 help wanted | 2026-07-05 | 🤖 disclose AI use |
 | [Wallpaper changer does not work on LineageOS](https://github.com/you-apps/WallYou/issues/259) 💬 4 | [you-apps/WallYou](https://github.com/you-apps/WallYou) | 1.2k | 🟡 help wanted | 2026-07-03 |  |
 | [Checking for latest version at every "All files" screen](https://github.com/nextcloud/android/issues/1996) 💬 4 | [nextcloud/android](https://github.com/nextcloud/android) | 5.6k | 🟢 beginner | 2026-06-30 | 🤖 disclose AI use · 🔏 DCO |
-| [Linux ARM support](https://github.com/librepods-org/librepods/issues/647) 💬 2 | [librepods-org/librepods](https://github.com/librepods-org/librepods) | 29.9k | 🟡 help wanted | 2026-06-28 |  |
+| [Linux ARM support](https://github.com/librepods-org/librepods/issues/647) 💬 2 | [librepods-org/librepods](https://github.com/librepods-org/librepods) | 30k | 🟡 help wanted | 2026-06-28 |  |
 | [[Feature]: Migrate from SharedPreferences to Preferences DataStore](https://github.com/kitsumed/ShizuCallRecorder/issues/3) | [kitsumed/ShizuCallRecorder](https://github.com/kitsumed/ShizuCallRecorder) | 1.5k | 🟡 help wanted | 2026-06-26 | 🤖 disclose AI use |
 | [Play random gif instead of showing leak icon](https://github.com/square/leakcanary/issues/1988) 💬 3 | [square/leakcanary](https://github.com/square/leakcanary) | 30k | 🟡 help wanted | 2026-06-25 |  |
 | [Progress indicator when opening/importing a HeapDump file](https://github.com/square/leakcanary/issues/2129) 💬 2 | [square/leakcanary](https://github.com/square/leakcanary) | 30k | 🟡 help wanted | 2026-06-25 |  |
@@ -158,7 +158,7 @@
 | [Improve Threat Matrix](https://github.com/doyensec/inql/issues/220) | [doyensec/inql](https://github.com/doyensec/inql) | 1.8k | 🟢 beginner | 2026-05-07 |  |
 | [请问如果需要人脸识别才能打卡的话，这个软件还适用吗](https://github.com/AndroidCoderPeng/DailyTask/issues/67) 💬 1 | [AndroidCoderPeng/DailyTask](https://github.com/AndroidCoderPeng/DailyTask) | 1.8k | 🟡 help wanted | 2026-05-06 |  |
 | [Opening "On device" menu causes "All files" to open "On device" the first time](https://github.com/nextcloud/android/issues/9668) 💬 4 | [nextcloud/android](https://github.com/nextcloud/android) | 5.6k | 🟢 beginner | 2026-05-04 | 🤖 disclose AI use · 🔏 DCO |
-| [Google killing freedom android](https://github.com/alexch33/super-video-downloader/issues/231) 💬 1 | [alexch33/super-video-downloader](https://github.com/alexch33/super-video-downloader) | 932 | 🟡 help wanted | 2026-05-04 |  |
+| [Google killing freedom android](https://github.com/alexch33/super-video-downloader/issues/231) 💬 1 | [alexch33/super-video-downloader](https://github.com/alexch33/super-video-downloader) | 933 | 🟡 help wanted | 2026-05-04 |  |
 | [Translations for upcoming release](https://github.com/libre-tube/LibreTube/issues/8314) 💬 1 | [libre-tube/LibreTube](https://github.com/libre-tube/LibreTube) | 12.7k | 🟡 help wanted | 2026-04-20 |  |
 | [Placeholder image messes up image 'ContentScale'](https://github.com/coil-kt/coil/issues/2779) 💬 3 | [coil-kt/coil](https://github.com/coil-kt/coil) | 11.9k | 🟡 help wanted | 2026-04-20 |  |
 | [Refactor: rename 'toggle' key actions](https://github.com/dessalines/thumb-key/issues/1678) 💬 1 | [dessalines/thumb-key](https://github.com/dessalines/thumb-key) | 1.5k | 🟢 beginner | 2026-04-20 |  |
@@ -170,4 +170,3 @@
 | [Add FAQ/Wiki/Recipes](https://github.com/cashapp/paparazzi/issues/583) 💬 3 | [cashapp/paparazzi](https://github.com/cashapp/paparazzi) | 2.6k | 🟡 help wanted | 2026-04-06 |  |
 | [Remove the swipe gesture from the bottom once the user is familiar with the app](https://github.com/kiwix/kiwix-android/issues/4621) 💬 5 | [kiwix/kiwix-android](https://github.com/kiwix/kiwix-android) | 1.5k | 🟢 beginner | 2026-03-31 |  |
 | [osmdroid is now archived and will no longer receive updates or new releases](https://github.com/commons-app/apps-android-commons/issues/6380) 💬 2 | [commons-app/apps-android-commons](https://github.com/commons-app/apps-android-commons) | 1.2k | 🟢 beginner | 2026-03-29 |  |
-| [Change default behavior to stop tracing 404s unless explicitly enabled](https://github.com/getsentry/sentry-java/issues/4736) 💬 2 | [getsentry/sentry-java](https://github.com/getsentry/sentry-java) | 1.4k | 🟢 beginner | 2026-03-24 |  |

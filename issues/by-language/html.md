@@ -1,8 +1,8 @@
 # HTML issues
 
-**90** open issues (31 labeled for beginners) across **38** active HTML projects.
+**90** open issues (31 labeled for beginners) across **39** active HTML projects.
 
-> Updated automatically on **2026-09-20 10:45 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-20 20:19 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,6 +10,7 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [Update setting up Prometheus docs](https://github.com/knative/docs/issues/5217) 💬 13 | [knative/docs](https://github.com/knative/docs) | 5.1k | 🟢 beginner | 2026-09-20 |  |
 | [java.util.ImmutableCollections$ListN can contain null values](https://github.com/EsotericSoftware/kryo/issues/1239) 💬 2 | [EsotericSoftware/kryo](https://github.com/EsotericSoftware/kryo) | 6.5k | 🟡 help wanted | 2026-09-19 |  |
 | [Confirm new ubuntu-latest GH runner image is fine](https://github.com/mozilla/bedrock/issues/17386) 💬 1 | [mozilla/bedrock](https://github.com/mozilla/bedrock) | 1.3k | 🟡 help wanted | 2026-09-18 |  |
 | [[Initiative]: Cloud Native Business Continuity: whitepaper and best practices](https://github.com/cncf/toc/issues/1779) 💬 9 | [cncf/toc](https://github.com/cncf/toc) | 1.9k | 🟡 help wanted | 2026-09-16 |  |
@@ -32,14 +33,14 @@
 | [[Initiative]: Reference framework for the levels of Service Reliability Automation](https://github.com/cncf/toc/issues/1984) 💬 31 | [cncf/toc](https://github.com/cncf/toc) | 1.9k | 🟡 help wanted | 2026-08-11 |  |
 | [Better "No product" experience](https://github.com/openfoodfacts/openfoodfacts-server/issues/1505) | [openfoodfacts/openfoodfacts-server](https://github.com/openfoodfacts/openfoodfacts-server) | 1.2k | 🟡 help wanted | 2026-08-11 | 🤖 disclose AI use |
 | [Request for two enhancements: prev/next post, & list of all posts](https://github.com/chipzoller/hugo-clarity/issues/126) 💬 5 | [chipzoller/hugo-clarity](https://github.com/chipzoller/hugo-clarity) | 652 | 🟡 help wanted | 2026-08-10 | 🔏 DCO |
-| [cua-driver installer: print the PATH export command when ~/.local/bin isn't on PATH](https://github.com/trycua/cua/issues/3004) 💬 1 | [trycua/cua](https://github.com/trycua/cua) | 24.8k | 🟢 beginner | 2026-08-09 | 🤖 disclose AI use |
+| [cua-driver installer: print the PATH export command when ~/.local/bin isn't on PATH](https://github.com/trycua/cua/issues/3004) 💬 1 | [trycua/cua](https://github.com/trycua/cua) | 25.1k | 🟢 beginner | 2026-08-09 | 🤖 disclose AI use |
 | [[ja] Translate docs/concepts/services-networking/windows-networking.md into Japanese](https://github.com/kubernetes/website/issues/56047) 💬 4 | [kubernetes/website](https://github.com/kubernetes/website) | 5.4k | 🟡 help wanted | 2026-08-08 |  |
 | [[ja] Translate docs/concepts/security/hardening-guide/dynamic-resource-allocation.md into Japanese](https://github.com/kubernetes/website/issues/56048) 💬 6 | [kubernetes/website](https://github.com/kubernetes/website) | 5.4k | 🟡 help wanted | 2026-08-08 |  |
 | [Create a Sitemap for ProductOpener](https://github.com/openfoodfacts/openfoodfacts-server/issues/442) 💬 2 | [openfoodfacts/openfoodfacts-server](https://github.com/openfoodfacts/openfoodfacts-server) | 1.2k | 🟡 help wanted | 2026-08-08 | 🤖 disclose AI use |
 | [[FEATURE]Allow a custom download directory instead of the browser's default Downloads folder](https://github.com/EltonChou/TwitterMediaHarvest/issues/344) 💬 3 | [EltonChou/TwitterMediaHarvest](https://github.com/EltonChou/TwitterMediaHarvest) | 1.2k | 🟡 help wanted | 2026-08-06 |  |
 | [feat: implement pi-rpc protocol for Pi agent](https://github.com/nexu-io/html-anything/issues/130) 💬 2 | [nexu-io/html-anything](https://github.com/nexu-io/html-anything) | 8.9k | 🟡 help wanted | 2026-07-27 | ✍️ CLA |
 | [[🚀 Feature]: Rewriting Webdriver &gt; Elements &gt; Finders to Not Use HTML Snippet](https://github.com/SeleniumHQ/seleniumhq.github.io/issues/2037) 💬 8 | [SeleniumHQ/seleniumhq.github.io](https://github.com/SeleniumHQ/seleniumhq.github.io) | 1.4k | 🟢 beginner | 2026-07-27 |  |
-| [有对参与开源项目感兴趣的朋友吗，组个wx群](https://github.com/PKUFlyingPig/cs-self-learning/issues/347) 💬 49 | [PKUFlyingPig/cs-self-learning](https://github.com/PKUFlyingPig/cs-self-learning) | 75.7k | 🟡 help wanted | 2026-07-25 |  |
+| [有对参与开源项目感兴趣的朋友吗，组个wx群](https://github.com/PKUFlyingPig/cs-self-learning/issues/347) 💬 49 | [PKUFlyingPig/cs-self-learning](https://github.com/PKUFlyingPig/cs-self-learning) | 75.8k | 🟡 help wanted | 2026-07-25 |  |
 | [emojipedia is redistributing our emojis as stickers](https://github.com/hfg-gmuend/openmoji/issues/552) 💬 1 | [hfg-gmuend/openmoji](https://github.com/hfg-gmuend/openmoji) | 4.6k | 🟡 help wanted | 2026-07-24 |  |
 | ["Comparison to average values of products in the same category" is unclear](https://github.com/openfoodfacts/openfoodfacts-server/issues/2497) 💬 9 | [openfoodfacts/openfoodfacts-server](https://github.com/openfoodfacts/openfoodfacts-server) | 1.2k | 🟢 beginner | 2026-07-23 | 🤖 disclose AI use |
 | [Feature request: If CSS display:none causes failure, pull it into code snip.](https://github.com/dequelabs/axe-core/issues/598) 💬 5 | [dequelabs/axe-core](https://github.com/dequelabs/axe-core) | 7.5k | 🟡 help wanted | 2026-07-21 | ✍️ CLA |
@@ -50,7 +51,7 @@
 | [Allow favicons in formats other than svg](https://github.com/imfing/hextra/issues/888) 💬 2 | [imfing/hextra](https://github.com/imfing/hextra) | 2.4k | 🟢 beginner | 2026-07-13 |  |
 | [Translate content into Korean](https://github.com/HTTPArchive/almanac.httparchive.org/issues/926) 💬 14 | [HTTPArchive/almanac.httparchive.org](https://github.com/HTTPArchive/almanac.httparchive.org) | 691 | 🟢 beginner | 2026-07-05 |  |
 | [Translate content into Polish](https://github.com/HTTPArchive/almanac.httparchive.org/issues/1043) 💬 8 | [HTTPArchive/almanac.httparchive.org](https://github.com/HTTPArchive/almanac.httparchive.org) | 691 | 🟢 beginner | 2026-07-05 |  |
-| [solved](https://github.com/PKUFlyingPig/cs-self-learning/issues/423) 💬 2 | [PKUFlyingPig/cs-self-learning](https://github.com/PKUFlyingPig/cs-self-learning) | 75.7k | 🟡 help wanted | 2026-06-28 |  |
+| [solved](https://github.com/PKUFlyingPig/cs-self-learning/issues/423) 💬 2 | [PKUFlyingPig/cs-self-learning](https://github.com/PKUFlyingPig/cs-self-learning) | 75.8k | 🟡 help wanted | 2026-06-28 |  |
 | [NEW DESIGN - The action menu should be on the left of the Open Food Facts logo when scrolling](https://github.com/openfoodfacts/openfoodfacts-server/issues/7497) 💬 6 | [openfoodfacts/openfoodfacts-server](https://github.com/openfoodfacts/openfoodfacts-server) | 1.2k | 🟢 beginner | 2026-06-28 | 🤖 disclose AI use |
 | [NEW DESIGN - We should try to avoid a blank when JavaScript is disabled](https://github.com/openfoodfacts/openfoodfacts-server/issues/7504) 💬 3 | [openfoodfacts/openfoodfacts-server](https://github.com/openfoodfacts/openfoodfacts-server) | 1.2k | 🟢 beginner | 2026-06-28 | 🤖 disclose AI use |
 | [NEW DESIGN - We should try to display cards when JavaScript is disabled](https://github.com/openfoodfacts/openfoodfacts-server/issues/7503) 💬 3 | [openfoodfacts/openfoodfacts-server](https://github.com/openfoodfacts/openfoodfacts-server) | 1.2k | 🟢 beginner | 2026-06-28 | 🤖 disclose AI use |
@@ -99,4 +100,3 @@
 | [emby/jellyfin support](https://github.com/petersem/posterr/issues/49) 💬 26 | [petersem/posterr](https://github.com/petersem/posterr) | 648 | 🟢 beginner | 2026-04-02 |  |
 | [Test target override better](https://github.com/web-platform-tests/wpt/issues/2321) 💬 1 | [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt) | 6.2k | 🟢 beginner | 2026-03-30 |  |
 | [[HELP] Custom Error 521 template , how to set ?](https://github.com/tobychui/zoraxy/issues/1095) 💬 1 | [tobychui/zoraxy](https://github.com/tobychui/zoraxy) | 5.5k | 🟡 help wanted | 2026-03-30 |  |
-| [Test that innerHTML works in synthetic documents.](https://github.com/web-platform-tests/wpt/issues/1509) 💬 1 | [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt) | 6.2k | 🟢 beginner | 2026-03-24 |  |

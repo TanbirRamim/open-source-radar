@@ -1,8 +1,8 @@
 # C# issues
 
-**269** open issues (78 labeled for beginners) across **80** active C# projects.
+**269** open issues (81 labeled for beginners) across **80** active C# projects.
 
-> Updated automatically on **2026-09-20 10:45 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-20 20:19 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -80,7 +80,6 @@
 | [Implement io_uring support for FileStream](https://github.com/dotnet/runtime/issues/51985) 💬 23 | [dotnet/runtime](https://github.com/dotnet/runtime) | 18.3k | 🟡 help wanted | 2026-08-30 | ✍️ CLA |
 | [Improve format of self-diagnostic log file names](https://github.com/open-telemetry/opentelemetry-dotnet/issues/4478) 💬 5 | [open-telemetry/opentelemetry-dotnet](https://github.com/open-telemetry/opentelemetry-dotnet) | 3.8k | 🟡 help wanted | 2026-08-30 | ✍️ CLA |
 | [Sync image viewing order with Windows Explorer sorting](https://github.com/Ruben2776/PicView/issues/328) 💬 1 | [Ruben2776/PicView](https://github.com/Ruben2776/PicView) | 3.6k | 🟡 help wanted | 2026-08-30 |  |
-| [I need your help](https://github.com/HawaiiBeach/TinyNvidiaUpdateChecker/issues/210) 💬 4 | [HawaiiBeach/TinyNvidiaUpdateChecker](https://github.com/HawaiiBeach/TinyNvidiaUpdateChecker) | 1.8k | 🟡 help wanted | 2026-08-29 |  |
 | [Use disjoint-set-union for 'ClassLayout::AreCompatible'.](https://github.com/dotnet/runtime/issues/42801) 💬 7 | [dotnet/runtime](https://github.com/dotnet/runtime) | 18.3k | 🟢 beginner | 2026-08-28 | ✍️ CLA |
 | [Extend DUMP & RESTORE commands to support Garnet objects](https://github.com/microsoft/garnet/issues/1343) 💬 5 | [microsoft/garnet](https://github.com/microsoft/garnet) | 12k | 🟡 help wanted | 2026-08-27 |  |
 | [Enhancement: create ActorTaskScheduler overload that schedules Task to dispatcher without blocking current act](https://github.com/akkadotnet/akka.net/issues/4363) 💬 3 | [akkadotnet/akka.net](https://github.com/akkadotnet/akka.net) | 5.1k | 🟡 help wanted | 2026-08-27 |  |
@@ -123,6 +122,7 @@
 | ['dotnet sln add' should allow non-project files to be added to the solution](https://github.com/dotnet/sdk/issues/9611) 💬 31 | [dotnet/sdk](https://github.com/dotnet/sdk) | 3.2k | 🟢 beginner | 2026-08-18 |  |
 | [[BUG]: Not loading cuda backend on laptop](https://github.com/SciSharp/LLamaSharp/issues/990) 💬 10 | [SciSharp/LLamaSharp](https://github.com/SciSharp/LLamaSharp) | 3.8k | 🟢 beginner | 2026-08-17 |  |
 | [[Java Client] No proguard file declaring that we need to keep class members](https://github.com/dotnet/aspnetcore/issues/53238) 💬 3 | [dotnet/aspnetcore](https://github.com/dotnet/aspnetcore) | 38.5k | 🟡 help wanted | 2026-08-16 | ✍️ CLA |
+| [Binding IconImageSource on MenuFlyoutItem does not update on runtime.](https://github.com/dotnet/maui/issues/17210) 💬 4 | [dotnet/maui](https://github.com/dotnet/maui) | 23.3k | 🟢 beginner | 2026-08-16 | ✍️ CLA |
 | [Docs: Add TreeView example for nested structures with different object subtypes](https://github.com/MudBlazor/MudBlazor/issues/6510) 💬 2 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-08-16 |  |
 | [MudMenuItem: Add IsChecked prop](https://github.com/MudBlazor/MudBlazor/issues/6124) 💬 1 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-08-16 |  |
 | [Custom SVG Icon Size Limitation in MudNavLink](https://github.com/MudBlazor/MudBlazor/issues/6491) 💬 1 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-08-15 |  |
@@ -133,10 +133,11 @@
 | [[MAC/iOS] Contents are blurred with scaling](https://github.com/dotnet/maui/issues/9420) 💬 9 | [dotnet/maui](https://github.com/dotnet/maui) | 23.3k | 🟢 beginner | 2026-08-14 | ✍️ CLA |
 | [GraphicsView renders content outside of view](https://github.com/dotnet/maui/issues/9183) 💬 6 | [dotnet/maui](https://github.com/dotnet/maui) | 23.3k | 🟡 help wanted | 2026-08-14 | ✍️ CLA |
 | [[Android] Talkback reports incorrect number of list items](https://github.com/dotnet/maui/issues/3995) 💬 5 | [dotnet/maui](https://github.com/dotnet/maui) | 23.3k | 🟢 beginner | 2026-08-14 | ✍️ CLA |
+| [[iOS] Map pin InfoWindowClicked event is never fired](https://github.com/dotnet/maui/issues/13123) 💬 14 | [dotnet/maui](https://github.com/dotnet/maui) | 23.3k | 🟢 beginner | 2026-08-14 | ✍️ CLA |
+| ['DropCompletedEventArgs.DropResult' is never used](https://github.com/dotnet/maui/issues/2839) 💬 1 | [dotnet/maui](https://github.com/dotnet/maui) | 23.3k | 🟢 beginner | 2026-08-13 | ✍️ CLA |
 | [Extra vertical space in static ColorPicker with small palettes](https://github.com/MudBlazor/MudBlazor/issues/9131) 💬 1 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-08-13 |  |
 | [Implement cache tagging (RemoveByTagAsync + tagged writes)](https://github.com/FoundatioFx/Foundatio/issues/8) 💬 6 | [FoundatioFx/Foundatio](https://github.com/FoundatioFx/Foundatio) | 2.1k | 🟡 help wanted | 2026-08-13 |  |
 | [Thin horizontal line appears between images during reading in the webtoon reader](https://github.com/Kareadita/Kavita/issues/4132) 💬 6 | [Kareadita/Kavita](https://github.com/Kareadita/Kavita) | 11.7k | 🟡 help wanted | 2026-08-12 |  |
-| [Capitalization of build folders names in case sensitive OS's](https://github.com/dotnet/sdk/issues/375) 💬 16 | [dotnet/sdk](https://github.com/dotnet/sdk) | 3.2k | 🟡 help wanted | 2026-08-11 |  |
 | [Improve parser error recovery for misplaced 'ref' modifier of a struct declaration](https://github.com/dotnet/roslyn/issues/84734) 💬 5 | [dotnet/roslyn](https://github.com/dotnet/roslyn) | 20.7k | 🟡 help wanted | 2026-08-10 | ✍️ CLA |
 | ["Playlist not available" for public playlist](https://github.com/Tyrrrz/YoutubeDownloader/issues/732) 💬 2 | [Tyrrrz/YoutubeDownloader](https://github.com/Tyrrrz/YoutubeDownloader) | 16.2k | 🟡 help wanted | 2026-08-10 |  |
 | [macOS: Cannot open image by double-click when path contains special characters like []&lt;&gt;](https://github.com/Ruben2776/PicView/issues/336) 💬 1 | [Ruben2776/PicView](https://github.com/Ruben2776/PicView) | 3.6k | 🟡 help wanted | 2026-08-10 |  |
@@ -172,7 +173,6 @@
 | [MudTreeView: Child nodes with 'Visible=false' due to filtering are affected by parent selection in MultiSelect](https://github.com/MudBlazor/MudBlazor/issues/10414) 💬 4 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟡 help wanted | 2026-07-25 |  |
 | [Bring back history editing](https://github.com/microsoft/calculator/issues/163) 💬 10 | [microsoft/calculator](https://github.com/microsoft/calculator) | 31.1k | 🟡 help wanted | 2026-07-24 | ✍️ CLA |
 | [[iOS/Android][PhoneCallManager] 'IsCallActive' & 'IsCallIncoming' does not change when user receives or answer](https://github.com/unoplatform/uno/issues/19912) 💬 4 | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-07-24 |  |
-| [Make RuntimeFrameworkVersion apply to targeting packs](https://github.com/dotnet/sdk/issues/42196) | [dotnet/sdk](https://github.com/dotnet/sdk) | 3.2k | 🟢 beginner | 2026-07-24 |  |
 | [Color Management Support](https://github.com/Ruben2776/PicView/issues/201) 💬 1 | [Ruben2776/PicView](https://github.com/Ruben2776/PicView) | 3.6k | 🟡 help wanted | 2026-07-22 |  |
 | [Provide an optional value comparer for JsonDocument/JsonElement](https://github.com/npgsql/efcore.pg/issues/1393) 💬 5 | [npgsql/efcore.pg](https://github.com/npgsql/efcore.pg) | 1.8k | 🟢 beginner | 2026-07-22 |  |
 | [Unused frameworks linked into a fully managed linked macOS app](https://github.com/dotnet/macios/issues/6542) 💬 1 | [dotnet/macios](https://github.com/dotnet/macios) | 2.9k | 🟢 beginner | 2026-07-21 |  |
@@ -197,7 +197,6 @@
 | [Pipeline Tool use same instance for same files](https://github.com/MonoGame/MonoGame/issues/4658) 💬 3 | [MonoGame/MonoGame](https://github.com/MonoGame/MonoGame) | 14.4k | 🟡 help wanted | 2026-06-29 | ⚠️ AI restricted |
 | [Add Unit Tests for Effect Classes](https://github.com/MonoGame/MonoGame/issues/4698) 💬 12 | [MonoGame/MonoGame](https://github.com/MonoGame/MonoGame) | 14.4k | 🟡 help wanted | 2026-06-29 | ⚠️ AI restricted |
 | [[question] 1) how can i add a row above the table add some text in it. ? 2) and merge the cells a1 to g1 ?](https://github.com/mini-software/MiniExcel/issues/612) 💬 6 | [mini-software/MiniExcel](https://github.com/mini-software/MiniExcel) | 3.6k | 🟡 help wanted | 2026-06-29 |  |
-| [APICompat doesn't test for private fields in structs](https://github.com/dotnet/sdk/issues/54377) 💬 2 | [dotnet/sdk](https://github.com/dotnet/sdk) | 3.2k | 🟡 help wanted | 2026-06-27 |  |
 | [Adding group membership to a user](https://github.com/MichaelGrafnetter/DSInternals/issues/107) 💬 8 | [MichaelGrafnetter/DSInternals](https://github.com/MichaelGrafnetter/DSInternals) | 2k | 🟡 help wanted | 2026-06-27 |  |
 | [Bug: Touch scrolling doesn't work in PDF Preview Pane on Surface devices](https://github.com/files-community/Files/issues/18580) 💬 6 | [files-community/Files](https://github.com/files-community/Files) | 45.6k | 🟡 help wanted | 2026-06-25 |  |
 | [[Feature] UseOutboxArchiver should not require DbTransaction generic type](https://github.com/BrighterCommand/Brighter/issues/3878) 💬 1 | [BrighterCommand/Brighter](https://github.com/BrighterCommand/Brighter) | 2.5k | 🟡 help wanted | 2026-06-25 | ✍️ CLA |
@@ -207,8 +206,9 @@
 | [[Request]: Add same partition relative file path mode (portable drive mode)](https://github.com/CollapseLauncher/Collapse/issues/663) 💬 1 | [CollapseLauncher/Collapse](https://github.com/CollapseLauncher/Collapse) | 1.8k | 🟡 help wanted | 2026-06-21 |  |
 | [How to add Swagger for Gateway?](https://github.com/dotnet/yarp/issues/1789) 💬 33 | [dotnet/yarp](https://github.com/dotnet/yarp) | 9.6k | 🟡 help wanted | 2026-06-20 | ✍️ CLA |
 | [Exclude taskbar of changes](https://github.com/Tyrrrz/LightBulb/issues/451) | [Tyrrrz/LightBulb](https://github.com/Tyrrrz/LightBulb) | 2.8k | 🟡 help wanted | 2026-06-20 |  |
-| [[BUG] Premium unlocked banner keeps coming back](https://github.com/unchihugo/FluentFlyout/issues/540) 💬 2 | [unchihugo/FluentFlyout](https://github.com/unchihugo/FluentFlyout) | 4.4k | 🟢 beginner | 2026-06-19 |  |
+| [[BUG] Premium unlocked banner keeps coming back](https://github.com/unchihugo/FluentFlyout/issues/540) 💬 2 | [unchihugo/FluentFlyout](https://github.com/unchihugo/FluentFlyout) | 4.5k | 🟢 beginner | 2026-06-19 |  |
 | [[Request] Add support for OpenTelemetry telemetry instrumentation](https://github.com/robinrodricks/FluentFTP/issues/1150) 💬 16 | [robinrodricks/FluentFTP](https://github.com/robinrodricks/FluentFTP) | 3.4k | 🟡 help wanted | 2026-06-19 |  |
 | [Support for 'UISettings.AnimationsEnabled' and 'AutoHideScrollBars'](https://github.com/unoplatform/uno/issues/6851) 💬 2 | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-06-18 |  |
+| [Add support for 'OAuth2Manager'](https://github.com/unoplatform/uno/issues/19787) 💬 12 | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟡 help wanted | 2026-06-18 |  |
 
 Showing the 200 most recently updated. See all 269 on the website.

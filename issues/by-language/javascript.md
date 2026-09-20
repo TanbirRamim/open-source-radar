@@ -1,8 +1,8 @@
 # JavaScript issues
 
-**162** open issues (72 labeled for beginners) across **64** active JavaScript projects.
+**162** open issues (72 labeled for beginners) across **65** active JavaScript projects.
 
-> Updated automatically on **2026-09-20 10:45 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-20 20:19 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,11 +10,11 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [Fix EditorConfig lint errors](https://github.com/stdlib-js/stdlib/issues/12184) 💬 2 | [stdlib-js/stdlib](https://github.com/stdlib-js/stdlib) | 6k | 🟢 beginner | 2026-09-20 | 🤖 disclose AI use |
 | [Feature request: remember highlighted text after tab change](https://github.com/gchq/CyberChef/issues/874) 💬 4 | [gchq/CyberChef](https://github.com/gchq/CyberChef) | 35.9k | 🟢 beginner | 2026-09-19 | 🤖 disclose AI use · ✍️ CLA |
 | [Document developer requirements/guidelines for the Number bundle](https://github.com/josdejong/mathjs/issues/3559) 💬 5 | [josdejong/mathjs](https://github.com/josdejong/mathjs) | 15.1k | 🟢 beginner | 2026-09-19 |  |
 | [[Help] 代替send发信的一个网站](https://github.com/maillab/cloud-mail/issues/582) | [maillab/cloud-mail](https://github.com/maillab/cloud-mail) | 14.3k | 🟡 help wanted | 2026-09-19 |  |
 | [[FEATURE] Add tawk.to actions to Pipedream MCP](https://github.com/PipedreamHQ/pipedream/issues/22017) | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-09-19 |  |
-| [Support of asynchronous computation in DefinePlugin.runtimeValue](https://github.com/webpack/webpack/issues/16629) 💬 14 | [webpack/webpack](https://github.com/webpack/webpack) | 65.9k | 🟡 help wanted | 2026-09-18 | 🤖 disclose AI use · ✍️ CLA |
 | [[Bug] Opening popup triggers extension mode flip](https://github.com/openstyles/stylus/issues/1810) 💬 6 | [openstyles/stylus](https://github.com/openstyles/stylus) | 6.9k | 🟡 help wanted | 2026-09-18 |  |
 | [TS: Statement after top-level 'await' is duplicated with 'typescript' parser](https://github.com/prettier/prettier/issues/20096) 💬 2 | [prettier/prettier](https://github.com/prettier/prettier) | 52.3k | 🟡 help wanted | 2026-09-17 | 📄 AI policy |
 | [[Help] 可以接收邮件，无法发送邮件。](https://github.com/maillab/cloud-mail/issues/581) | [maillab/cloud-mail](https://github.com/maillab/cloud-mail) | 14.3k | 🟡 help wanted | 2026-09-17 |  |
@@ -153,10 +153,10 @@
 | [Allow changing the duration of zoom animations](https://github.com/Leaflet/Leaflet/issues/5332) 💬 8 | [Leaflet/Leaflet](https://github.com/Leaflet/Leaflet) | 45.6k | 🟡 help wanted | 2026-05-22 |  |
 | [Show detailed history of all received Push status=up events](https://github.com/louislam/uptime-kuma/issues/5949) 💬 3 | [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) | 91.6k | 🟡 help wanted | 2026-05-20 | ⚠️ AI restricted |
 | [&amp; TO & amp;](https://github.com/beautifier/js-beautify/issues/880) 💬 2 | [beautifier/js-beautify](https://github.com/beautifier/js-beautify) | 9k | 🟢 beginner | 2026-05-18 |  |
-| [Fix EditorConfig lint errors](https://github.com/stdlib-js/stdlib/issues/12184) 💬 1 | [stdlib-js/stdlib](https://github.com/stdlib-js/stdlib) | 6k | 🟢 beginner | 2026-05-18 | 🤖 disclose AI use |
 | [Demo tests in 'tests/basic.js' are broken.](https://github.com/sandstorm-io/sandstorm/issues/3615) 💬 1 | [sandstorm-io/sandstorm](https://github.com/sandstorm-io/sandstorm) | 7.1k | 🟢 beginner | 2026-05-12 |  |
 | [add paper size option Generate pdf on server](https://github.com/idurar/idurar-erp-crm/issues/230) 💬 6 | [idurar/idurar-erp-crm](https://github.com/idurar/idurar-erp-crm) | 8.8k | 🟢 beginner | 2026-05-07 |  |
 | [[Bug] Failed to load source map simpleWorker.nls.js.map](https://github.com/microsoft/monaco-editor/issues/3336) 💬 11 | [microsoft/monaco-editor](https://github.com/microsoft/monaco-editor) | 46.8k | 🟡 help wanted | 2026-04-30 |  |
+| [use non blocking json parser](https://github.com/expressjs/body-parser/issues/132) 💬 17 | [expressjs/body-parser](https://github.com/expressjs/body-parser) | 5.5k | 🟡 help wanted | 2026-04-30 |  |
 | [Security improvement : refresh token (second token stored in localstorage)](https://github.com/idurar/idurar-erp-crm/issues/204) 💬 11 | [idurar/idurar-erp-crm](https://github.com/idurar/idurar-erp-crm) | 8.8k | 🟢 beginner | 2026-04-25 |  |
 | [[Feature request]: Modify "Pause Breaks" options](https://github.com/hovancik/stretchly/issues/1462) 💬 5 | [hovancik/stretchly](https://github.com/hovancik/stretchly) | 6.5k | 🟡 help wanted | 2026-04-23 | 🤖 disclose AI use |
 | [GameDig Discord Server Monitoring](https://github.com/louislam/uptime-kuma/issues/4304) 💬 7 | [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) | 91.6k | 🟢 beginner | 2026-04-21 | ⚠️ AI restricted |

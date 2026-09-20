@@ -1,8 +1,8 @@
 # Documentation and education issues
 
-**79** open issues (39 labeled for beginners) across **25** projects tagged with topics like `documentation`, `education`, `learning`, `tutorial`, `awesome`, `awesome-list`.
+**80** open issues (40 labeled for beginners) across **26** projects tagged with topics like `documentation`, `education`, `learning`, `tutorial`, `awesome`, `awesome-list`.
 
-> Updated automatically on **2026-09-20 10:45 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-20 20:19 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,6 +10,8 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [Incorrect test: 'copyNoteCopiesDeckId'](https://github.com/ankidroid/Anki-Android/issues/21942) | [ankidroid/Anki-Android](https://github.com/ankidroid/Anki-Android) | 11.8k | 🟢 beginner | 2026-09-20 | 🤖 disclose AI use |
+| [Update setting up Prometheus docs](https://github.com/knative/docs/issues/5217) 💬 13 | [knative/docs](https://github.com/knative/docs) | 5.1k | 🟢 beginner | 2026-09-20 |  |
 | [Stale screenshot baseline was used](https://github.com/ankidroid/Anki-Android/issues/21888) 💬 3 | [ankidroid/Anki-Android](https://github.com/ankidroid/Anki-Android) | 11.8k | 🟡 help wanted | 2026-09-18 | 🤖 disclose AI use |
 | [Sidebar notifications badge does not update after marking notifications as seen](https://github.com/Submitty/Submitty/issues/13372) 💬 2 | [Submitty/Submitty](https://github.com/Submitty/Submitty) | 794 | 🟢 beginner | 2026-09-18 |  |
 | [Flaky emulator test: Error on ZipFile unknown archive](https://github.com/ankidroid/Anki-Android/issues/21885) 💬 1 | [ankidroid/Anki-Android](https://github.com/ankidroid/Anki-Android) | 11.8k | 🟡 help wanted | 2026-09-17 | 🤖 disclose AI use |
@@ -25,7 +27,6 @@
 | [No icon to launch logisim-evolution on snap version](https://github.com/logisim-evolution/logisim-evolution/issues/1662) 💬 3 | [logisim-evolution/logisim-evolution](https://github.com/logisim-evolution/logisim-evolution) | 7.6k | 🟢 beginner | 2026-09-07 |  |
 | [PlaRom in subcircuit makes clock stop working](https://github.com/logisim-evolution/logisim-evolution/issues/1247) 💬 12 | [logisim-evolution/logisim-evolution](https://github.com/logisim-evolution/logisim-evolution) | 7.6k | 🟡 help wanted | 2026-09-07 |  |
 | [AppImage](https://github.com/logisim-evolution/logisim-evolution/issues/1970) 💬 5 | [logisim-evolution/logisim-evolution](https://github.com/logisim-evolution/logisim-evolution) | 7.6k | 🟢 beginner | 2026-09-07 |  |
-| [Improve the Review forgotten cards dialog](https://github.com/ankidroid/Anki-Android/issues/20598) 💬 14 | [ankidroid/Anki-Android](https://github.com/ankidroid/Anki-Android) | 11.8k | 🟢 beginner | 2026-09-06 | 🤖 disclose AI use |
 | [i18n: add a Swedish (sv) market mode](https://github.com/career-ops-hq/career-ops/issues/3847) | [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | 72.2k | 🟡 help wanted | 2026-09-04 |  |
 | [Type 'globalTypes' to assist writing 'preview.js'](https://github.com/storybookjs/storybook/issues/12658) 💬 11 | [storybookjs/storybook](https://github.com/storybookjs/storybook) | 91.1k | 🟡 help wanted | 2026-09-02 | 🤖 disclose AI use |
 | [Add toolbar to --docs mode](https://github.com/storybookjs/storybook/issues/13025) 💬 7 | [storybookjs/storybook](https://github.com/storybookjs/storybook) | 91.1k | 🟡 help wanted | 2026-09-02 | 🤖 disclose AI use |
@@ -52,14 +53,14 @@
 | [Translate the README into German (README_DE.md)](https://github.com/jason5ng32/MyIP/issues/412) | [jason5ng32/MyIP](https://github.com/jason5ng32/MyIP) | 11.9k | 🟢 beginner | 2026-08-22 |  |
 | [Translate the README into Spanish (README_ES.md)](https://github.com/jason5ng32/MyIP/issues/410) | [jason5ng32/MyIP](https://github.com/jason5ng32/MyIP) | 11.9k | 🟢 beginner | 2026-08-22 |  |
 | [Native speakers: review the French / Russian UI translations](https://github.com/jason5ng32/MyIP/issues/401) | [jason5ng32/MyIP](https://github.com/jason5ng32/MyIP) | 11.9k | 🟢 beginner | 2026-08-22 |  |
-| [Thai translation](https://github.com/donnemartin/system-design-primer/issues/187) 💬 6 | [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) | 370.8k | 🟡 help wanted | 2026-08-21 |  |
+| [Thai translation](https://github.com/donnemartin/system-design-primer/issues/187) 💬 6 | [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) | 370.9k | 🟡 help wanted | 2026-08-21 |  |
 | [TTY: allow configuring the display font consistently](https://github.com/logisim-evolution/logisim-evolution/issues/2878) 💬 1 | [logisim-evolution/logisim-evolution](https://github.com/logisim-evolution/logisim-evolution) | 7.6k | 🟡 help wanted | 2026-08-21 |  |
 | [I am not able to export simulation as text file.](https://github.com/logisim-evolution/logisim-evolution/issues/1655) 💬 5 | [logisim-evolution/logisim-evolution](https://github.com/logisim-evolution/logisim-evolution) | 7.6k | 🟡 help wanted | 2026-08-20 |  |
 | [Consider requiring circuitChanged actions be generated by the gui thread.](https://github.com/logisim-evolution/logisim-evolution/issues/2875) 💬 2 | [logisim-evolution/logisim-evolution](https://github.com/logisim-evolution/logisim-evolution) | 7.6k | 🟡 help wanted | 2026-08-20 |  |
 | [Provide invert feature for component inputs](https://github.com/logisim-evolution/logisim-evolution/issues/1510) 💬 10 | [logisim-evolution/logisim-evolution](https://github.com/logisim-evolution/logisim-evolution) | 7.6k | 🟡 help wanted | 2026-08-20 |  |
 | [Preserve image resizing in Markdown export](https://github.com/suitenumerique/docs/issues/2367) 💬 2 | [suitenumerique/docs](https://github.com/suitenumerique/docs) | 16.8k | 🟢 beginner | 2026-08-19 | 🤖 disclose AI use · 🔏 DCO |
 | [Docs installed as an application : Error 400](https://github.com/suitenumerique/docs/issues/2477) | [suitenumerique/docs](https://github.com/suitenumerique/docs) | 16.8k | 🟢 beginner | 2026-08-19 | 🤖 disclose AI use · 🔏 DCO |
-| [Greek Translation](https://github.com/donnemartin/system-design-primer/issues/130) 💬 5 | [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) | 370.8k | 🟡 help wanted | 2026-08-18 |  |
+| [Greek Translation](https://github.com/donnemartin/system-design-primer/issues/130) 💬 5 | [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) | 370.9k | 🟡 help wanted | 2026-08-18 |  |
 | [Ability to buffer the output of the RGB Video component](https://github.com/logisim-evolution/logisim-evolution/issues/2523) 💬 3 | [logisim-evolution/logisim-evolution](https://github.com/logisim-evolution/logisim-evolution) | 7.6k | 🟡 help wanted | 2026-08-09 |  |
 | [Markdown export does not preserve original formatting (indentation, list markers, and horizontal rules)](https://github.com/suitenumerique/docs/issues/2312) 💬 1 | [suitenumerique/docs](https://github.com/suitenumerique/docs) | 16.8k | 🟢 beginner | 2026-08-08 | 🤖 disclose AI use · 🔏 DCO |
 | [Outdated/partial translations 'zh' since latest text review #3462](https://github.com/EbookFoundation/free-programming-books/issues/6782) 💬 39 | [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | 397.3k | 🟢 beginner | 2026-08-07 | ✍️ CLA |
@@ -71,7 +72,7 @@
 | [Model calculation is not able to read features from stdin](https://github.com/catboost/catboost/issues/200) 💬 4 | [catboost/catboost](https://github.com/catboost/catboost) | 9.1k | 🟢 beginner | 2026-07-13 |  |
 | ['Booster.save_model(format="pmml")' is highly inefficient in size.](https://github.com/catboost/catboost/issues/2387) 💬 5 | [catboost/catboost](https://github.com/catboost/catboost) | 9.1k | 🟢 beginner | 2026-07-13 |  |
 | [Allow favicons in formats other than svg](https://github.com/imfing/hextra/issues/888) 💬 2 | [imfing/hextra](https://github.com/imfing/hextra) | 2.4k | 🟢 beginner | 2026-07-13 |  |
-| [Visual summary of the agent harness architecture](https://github.com/shareAI-lab/learn-claude-code/issues/355) | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | 77.2k | 🟢 beginner | 2026-07-01 | 🤖 disclose AI use |
+| [Visual summary of the agent harness architecture](https://github.com/shareAI-lab/learn-claude-code/issues/355) | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | 77.3k | 🟢 beginner | 2026-07-01 | 🤖 disclose AI use |
 | [macOS app fails Gatekeeper; Homebrew cask deprecated and scheduled for disablement](https://github.com/logisim-evolution/logisim-evolution/issues/2699) 💬 1 | [logisim-evolution/logisim-evolution](https://github.com/logisim-evolution/logisim-evolution) | 7.6k | 🟡 help wanted | 2026-06-29 |  |
 | [[WEB - SDK] - Add Payment Method with Dynamic Field Rendering - Alfamart](https://github.com/juspay/hyperswitch/issues/6035) 💬 8 | [juspay/hyperswitch](https://github.com/juspay/hyperswitch) | 43.6k | 🟢 beginner | 2026-06-24 |  |
 | [setAttributes() invalidates references to earlier canvases](https://github.com/processing/p5.js/issues/5902) 💬 8 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-06-20 | ⚠️ AI restricted |

@@ -1,8 +1,8 @@
 # Science and research issues
 
-**59** open issues (38 labeled for beginners) across **17** projects tagged with topics like `science`, `scientific-computing`, `bioinformatics`, `physics`, `astronomy`, `chemistry`.
+**61** open issues (40 labeled for beginners) across **17** projects tagged with topics like `science`, `scientific-computing`, `bioinformatics`, `physics`, `astronomy`, `chemistry`.
 
-> Updated automatically on **2026-09-20 10:45 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-20 20:19 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,6 +10,9 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [Create FlagHolder for TrackDesignGameStateFlags](https://github.com/OpenRCT2/OpenRCT2/issues/27170) | [OpenRCT2/OpenRCT2](https://github.com/OpenRCT2/OpenRCT2) | 16.2k | 🟢 beginner | 2026-09-20 |  |
+| [Change gameState.researchPriorities into FlagHolder](https://github.com/OpenRCT2/OpenRCT2/issues/27168) | [OpenRCT2/OpenRCT2](https://github.com/OpenRCT2/OpenRCT2) | 16.2k | 🟢 beginner | 2026-09-20 |  |
+| [Fix EditorConfig lint errors](https://github.com/stdlib-js/stdlib/issues/12184) 💬 2 | [stdlib-js/stdlib](https://github.com/stdlib-js/stdlib) | 6k | 🟢 beginner | 2026-09-20 | 🤖 disclose AI use |
 | [OpenRocket on Linux - very odd filenames under ~/.java/.userPrefs/OpenRocket/favoritePresets/](https://github.com/openrocket/openrocket/issues/3335) 💬 2 | [openrocket/openrocket](https://github.com/openrocket/openrocket) | 3.1k | 🟢 beginner | 2026-09-19 | 📄 AI policy |
 | [Crash just after loading screen due to 'ERROR: Parameter "tex" is null'](https://github.com/Revolutionary-Games/Thrive/issues/6981) 💬 8 | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) | 3.7k | 🟡 help wanted | 2026-09-18 |  |
 | [Are predictions on scikit-learn models thread-safe?](https://github.com/scikit-learn/scikit-learn/issues/18530) 💬 9 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | 67.3k | 🟡 help wanted | 2026-09-16 | 🤖 disclose AI use |
@@ -49,7 +52,7 @@
 | [GenericUnivariateSelect has silly defaults](https://github.com/scikit-learn/scikit-learn/issues/6346) 💬 5 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | 67.3k | 🟡 help wanted | 2026-07-18 | 🤖 disclose AI use |
 | [Society center can be built above the ground](https://github.com/Revolutionary-Games/Thrive/issues/7073) 💬 2 | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) | 3.7k | 🟢 beginner | 2026-07-15 |  |
 | [Provide interpolation function 'f(x, y)' for user-driven postprocessing of results](https://github.com/trixi-framework/Trixi.jl/issues/1291) 💬 4 | [trixi-framework/Trixi.jl](https://github.com/trixi-framework/Trixi.jl) | 731 | 🟢 beginner | 2026-07-13 | 🤖 disclose AI use · 🔏 DCO |
-| [Implement '@formula' support in 'Kriging' model](https://github.com/JuliaEarth/GeoStats.jl/issues/573) 💬 2 | [JuliaEarth/GeoStats.jl](https://github.com/JuliaEarth/GeoStats.jl) | 591 | 🟡 help wanted | 2026-07-04 |  |
+| [Implement '@formula' support in 'Kriging' model](https://github.com/JuliaEarth/GeoStats.jl/issues/573) 💬 2 | [JuliaEarth/GeoStats.jl](https://github.com/JuliaEarth/GeoStats.jl) | 590 | 🟡 help wanted | 2026-07-04 |  |
 | [clockTrackedDataSource tracks non-clock dataSources](https://github.com/CesiumGS/cesium/issues/11738) 💬 2 | [CesiumGS/cesium](https://github.com/CesiumGS/cesium) | 15.8k | 🟢 beginner | 2026-07-02 | ✍️ CLA |
 | [providing sample weights to glm.fit() and glm.fit.sparse()](https://github.com/tensorflow/probability/issues/252) 💬 1 | [tensorflow/probability](https://github.com/tensorflow/probability) | 4.4k | 🟢 beginner | 2026-06-22 | ✍️ CLA |
 | [Cannot combine @simd and @threads on a loop](https://github.com/JuliaLang/julia/issues/32684) 💬 5 | [JuliaLang/julia](https://github.com/JuliaLang/julia) | 49.1k | 🟢 beginner | 2026-06-06 | 🤖 disclose AI use |
@@ -60,7 +63,6 @@
 | [Make sure that extinct entries aren't shown in the endosymbiosis candidates (verify bug report)](https://github.com/Revolutionary-Games/Thrive/issues/6656) 💬 4 | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) | 3.7k | 🟢 beginner | 2026-05-22 |  |
 | [Add new editor help section explaining the controls](https://github.com/Revolutionary-Games/Thrive/issues/2853) 💬 2 | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) | 3.7k | 🟢 beginner | 2026-05-21 |  |
 | [warn on constant redefinition (in package tests)?](https://github.com/JuliaLang/julia/issues/58670) 💬 7 | [JuliaLang/julia](https://github.com/JuliaLang/julia) | 49.1k | 🟡 help wanted | 2026-05-20 | 🤖 disclose AI use |
-| [Fix EditorConfig lint errors](https://github.com/stdlib-js/stdlib/issues/12184) 💬 1 | [stdlib-js/stdlib](https://github.com/stdlib-js/stdlib) | 6k | 🟢 beginner | 2026-05-18 | 🤖 disclose AI use |
 | [A question about target_log_prob_fn](https://github.com/tensorflow/probability/issues/611) 💬 5 | [tensorflow/probability](https://github.com/tensorflow/probability) | 4.4k | 🟢 beginner | 2026-05-18 | ✍️ CLA |
 | [Feature Request: Efficient Poisson Binomial PMF/CDF in tfp](https://github.com/tensorflow/probability/issues/1453) 💬 14 | [tensorflow/probability](https://github.com/tensorflow/probability) | 4.4k | 🟢 beginner | 2026-05-18 | ✍️ CLA |
 | [Add the new Arabic variant localization if it is started](https://github.com/Revolutionary-Games/Thrive/issues/7006) | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) | 3.7k | 🟢 beginner | 2026-05-18 |  |

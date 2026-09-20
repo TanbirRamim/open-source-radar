@@ -1,8 +1,8 @@
 # Jupyter Notebook issues
 
-**27** open issues (12 labeled for beginners) across **11** active Jupyter Notebook projects.
+**26** open issues (11 labeled for beginners) across **11** active Jupyter Notebook projects.
 
-> Updated automatically on **2026-09-20 10:45 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-20 20:19 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -11,7 +11,6 @@
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
 | [Query, Discussion & Bug Report](https://github.com/darkprinx/break-the-ice-with-python/issues/3) 💬 224 | [darkprinx/break-the-ice-with-python](https://github.com/darkprinx/break-the-ice-with-python) | 3.1k | 🟡 help wanted | 2026-09-09 |  |
-| [Link back to github from reference API docs](https://github.com/apache/hamilton/issues/572) 💬 3 | [apache/hamilton](https://github.com/apache/hamilton) | 2.6k | 🟢 beginner | 2026-09-03 | ✍️ CLA |
 | [Output cells no longer collapse completely](https://github.com/jupyter/notebook/issues/7020) 💬 16 | [jupyter/notebook](https://github.com/jupyter/notebook) | 13.3k | 🟡 help wanted | 2026-09-01 |  |
 | [[P0] Off-chain / devshard implementation track](https://github.com/gonka-ai/gonka/issues/1220) 💬 2 | [gonka-ai/gonka](https://github.com/gonka-ai/gonka) | 632 | 🟡 help wanted | 2026-08-27 |  |
 | [[Feature Request]: Integrate Automated Data Validation Pipeline using 'Great Expectations' for Dataset Integri](https://github.com/Niketkumardheeryan/ML-CaPsule/issues/1504) 💬 26 | [Niketkumardheeryan/ML-CaPsule](https://github.com/Niketkumardheeryan/ML-CaPsule) | 681 | 🟡 help wanted | 2026-08-19 |  |
