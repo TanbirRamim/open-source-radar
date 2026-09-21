@@ -2,7 +2,7 @@
 
 **90** open issues (31 labeled for beginners) across **39** active HTML projects.
 
-> Updated automatically on **2026-09-20 20:19 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-21 11:35 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,11 +10,11 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [[Initiative]: Cloud Native Observability Personas](https://github.com/cncf/toc/issues/2037) 💬 11 | [cncf/toc](https://github.com/cncf/toc) | 1.9k | 🟡 help wanted | 2026-09-21 |  |
 | [Update setting up Prometheus docs](https://github.com/knative/docs/issues/5217) 💬 13 | [knative/docs](https://github.com/knative/docs) | 5.1k | 🟢 beginner | 2026-09-20 |  |
 | [java.util.ImmutableCollections$ListN can contain null values](https://github.com/EsotericSoftware/kryo/issues/1239) 💬 2 | [EsotericSoftware/kryo](https://github.com/EsotericSoftware/kryo) | 6.5k | 🟡 help wanted | 2026-09-19 |  |
 | [Confirm new ubuntu-latest GH runner image is fine](https://github.com/mozilla/bedrock/issues/17386) 💬 1 | [mozilla/bedrock](https://github.com/mozilla/bedrock) | 1.3k | 🟡 help wanted | 2026-09-18 |  |
 | [[Initiative]: Cloud Native Business Continuity: whitepaper and best practices](https://github.com/cncf/toc/issues/1779) 💬 9 | [cncf/toc](https://github.com/cncf/toc) | 1.9k | 🟡 help wanted | 2026-09-16 |  |
-| [[Initiative]: Cloud Native Observability Personas](https://github.com/cncf/toc/issues/2037) 💬 10 | [cncf/toc](https://github.com/cncf/toc) | 1.9k | 🟡 help wanted | 2026-09-16 |  |
 | [Allow disable generating full mobile navigation tree](https://github.com/imfing/hextra/issues/275) 💬 1 | [imfing/hextra](https://github.com/imfing/hextra) | 2.4k | 🟢 beginner | 2026-09-15 |  |
 | [输入 【介绍一下html-anything】，导出html单文件出现错误 1. 第一页只展示一半 2. 左右键不起作用 3. 从第二页开始都是黑底空白页 4. 。。。。。。](https://github.com/nexu-io/html-anything/issues/152) 💬 2 | [nexu-io/html-anything](https://github.com/nexu-io/html-anything) | 8.9k | 🟡 help wanted | 2026-09-14 | ✍️ CLA |
 | [[Initiative]: Scale and performance testing guidance](https://github.com/cncf/toc/issues/2233) 💬 4 | [cncf/toc](https://github.com/cncf/toc) | 1.9k | 🟡 help wanted | 2026-09-14 |  |
@@ -33,7 +33,7 @@
 | [[Initiative]: Reference framework for the levels of Service Reliability Automation](https://github.com/cncf/toc/issues/1984) 💬 31 | [cncf/toc](https://github.com/cncf/toc) | 1.9k | 🟡 help wanted | 2026-08-11 |  |
 | [Better "No product" experience](https://github.com/openfoodfacts/openfoodfacts-server/issues/1505) | [openfoodfacts/openfoodfacts-server](https://github.com/openfoodfacts/openfoodfacts-server) | 1.2k | 🟡 help wanted | 2026-08-11 | 🤖 disclose AI use |
 | [Request for two enhancements: prev/next post, & list of all posts](https://github.com/chipzoller/hugo-clarity/issues/126) 💬 5 | [chipzoller/hugo-clarity](https://github.com/chipzoller/hugo-clarity) | 652 | 🟡 help wanted | 2026-08-10 | 🔏 DCO |
-| [cua-driver installer: print the PATH export command when ~/.local/bin isn't on PATH](https://github.com/trycua/cua/issues/3004) 💬 1 | [trycua/cua](https://github.com/trycua/cua) | 25.1k | 🟢 beginner | 2026-08-09 | 🤖 disclose AI use |
+| [cua-driver installer: print the PATH export command when ~/.local/bin isn't on PATH](https://github.com/trycua/cua/issues/3004) 💬 1 | [trycua/cua](https://github.com/trycua/cua) | 25.5k | 🟢 beginner | 2026-08-09 | 🤖 disclose AI use |
 | [[ja] Translate docs/concepts/services-networking/windows-networking.md into Japanese](https://github.com/kubernetes/website/issues/56047) 💬 4 | [kubernetes/website](https://github.com/kubernetes/website) | 5.4k | 🟡 help wanted | 2026-08-08 |  |
 | [[ja] Translate docs/concepts/security/hardening-guide/dynamic-resource-allocation.md into Japanese](https://github.com/kubernetes/website/issues/56048) 💬 6 | [kubernetes/website](https://github.com/kubernetes/website) | 5.4k | 🟡 help wanted | 2026-08-08 |  |
 | [Create a Sitemap for ProductOpener](https://github.com/openfoodfacts/openfoodfacts-server/issues/442) 💬 2 | [openfoodfacts/openfoodfacts-server](https://github.com/openfoodfacts/openfoodfacts-server) | 1.2k | 🟡 help wanted | 2026-08-08 | 🤖 disclose AI use |

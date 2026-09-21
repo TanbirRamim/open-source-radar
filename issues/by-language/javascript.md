@@ -1,8 +1,8 @@
 # JavaScript issues
 
-**162** open issues (72 labeled for beginners) across **65** active JavaScript projects.
+**162** open issues (71 labeled for beginners) across **65** active JavaScript projects.
 
-> Updated automatically on **2026-09-20 20:19 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-21 11:35 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,7 +10,7 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [Fix EditorConfig lint errors](https://github.com/stdlib-js/stdlib/issues/12184) 💬 2 | [stdlib-js/stdlib](https://github.com/stdlib-js/stdlib) | 6k | 🟢 beginner | 2026-09-20 | 🤖 disclose AI use |
+| [noiseMode(SIMPLEX) add-on library](https://github.com/processing/p5.js/issues/6152) 💬 14 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-09-21 | ⚠️ AI restricted |
 | [Feature request: remember highlighted text after tab change](https://github.com/gchq/CyberChef/issues/874) 💬 4 | [gchq/CyberChef](https://github.com/gchq/CyberChef) | 35.9k | 🟢 beginner | 2026-09-19 | 🤖 disclose AI use · ✍️ CLA |
 | [Document developer requirements/guidelines for the Number bundle](https://github.com/josdejong/mathjs/issues/3559) 💬 5 | [josdejong/mathjs](https://github.com/josdejong/mathjs) | 15.1k | 🟢 beginner | 2026-09-19 |  |
 | [[Help] 代替send发信的一个网站](https://github.com/maillab/cloud-mail/issues/582) | [maillab/cloud-mail](https://github.com/maillab/cloud-mail) | 14.3k | 🟡 help wanted | 2026-09-19 |  |
@@ -20,7 +20,7 @@
 | [[Help] 可以接收邮件，无法发送邮件。](https://github.com/maillab/cloud-mail/issues/581) | [maillab/cloud-mail](https://github.com/maillab/cloud-mail) | 14.3k | 🟡 help wanted | 2026-09-17 |  |
 | [prettier fails to parse now required less format for at rule variables](https://github.com/prettier/prettier/issues/20076) 💬 1 | [prettier/prettier](https://github.com/prettier/prettier) | 52.3k | 🟡 help wanted | 2026-09-16 | 📄 AI policy |
 | [[ACTION] Rewardful — Affiliate & Commission Management](https://github.com/PipedreamHQ/pipedream/issues/21991) | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-09-15 |  |
-| [Allow integration with Pomerium proxy on GCP Cloud Run](https://github.com/ToolJet/ToolJet/issues/2798) 💬 1 | [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) | 40.9k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use |
+| [Allow integration with Pomerium proxy on GCP Cloud Run](https://github.com/ToolJet/ToolJet/issues/2798) 💬 1 | [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) | 41k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use |
 | [Change the shortcut keys in tooltip titles to show 'cmd' on Mac instead of 'ctrl'](https://github.com/josdejong/jsoneditor/issues/1628) 💬 12 | [josdejong/jsoneditor](https://github.com/josdejong/jsoneditor) | 12.3k | 🟡 help wanted | 2026-09-13 |  |
 | [Implement an option to enable/disable date tags](https://github.com/josdejong/jsoneditor/issues/1553) 💬 5 | [josdejong/jsoneditor](https://github.com/josdejong/jsoneditor) | 12.3k | 🟡 help wanted | 2026-09-13 |  |
 | [enum dropdown in anyOf \\ oneOf](https://github.com/josdejong/jsoneditor/issues/1653) 💬 2 | [josdejong/jsoneditor](https://github.com/josdejong/jsoneditor) | 12.3k | 🟡 help wanted | 2026-09-13 |  |
@@ -29,7 +29,7 @@
 | [Android remove event](https://github.com/ajaxorg/ace/issues/5304) 💬 7 | [ajaxorg/ace](https://github.com/ajaxorg/ace) | 27.1k | 🟢 beginner | 2026-09-10 |  |
 | [[TRIGGER]](https://github.com/PipedreamHQ/pipedream/issues/21956) | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-09-10 |  |
 | [[BUG]: Background image is rendered at an incorrect size after box zoom followed by mouse wheel zoom out](https://github.com/plotly/plotly.js/issues/7914) 💬 8 | [plotly/plotly.js](https://github.com/plotly/plotly.js) | 18.3k | 🟢 beginner | 2026-09-09 | ⚠️ AI restricted |
-| [workdayDedupKey: a hyphenated requisition base skips the trailing -N strip (residual of the tenant-site dedup ](https://github.com/career-ops-hq/career-ops/issues/3882) 💬 3 | [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | 72.2k | 🟡 help wanted | 2026-09-08 |  |
+| [workdayDedupKey: a hyphenated requisition base skips the trailing -N strip (residual of the tenant-site dedup ](https://github.com/career-ops-hq/career-ops/issues/3882) 💬 3 | [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | 72.3k | 🟡 help wanted | 2026-09-08 |  |
 | [Decision tree visualization](https://github.com/lutzroeder/netron/issues/180) 💬 1 | [lutzroeder/netron](https://github.com/lutzroeder/netron) | 33.5k | 🟡 help wanted | 2026-09-08 |  |
 | [[Help] catch-all那里现在需要email worker，咋办？](https://github.com/maillab/cloud-mail/issues/564) 💬 2 | [maillab/cloud-mail](https://github.com/maillab/cloud-mail) | 14.3k | 🟡 help wanted | 2026-09-07 |  |
 | [Resize to non-proper scaling and checkmark effect](https://github.com/fengyuanchen/compressorjs/issues/182) 💬 3 | [fengyuanchen/compressorjs](https://github.com/fengyuanchen/compressorjs) | 5.8k | 🟡 help wanted | 2026-09-07 |  |
@@ -37,7 +37,7 @@
 | [Open new source to check Webhook [TRIGGER]](https://github.com/PipedreamHQ/pipedream/issues/21912) | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-09-06 |  |
 | [[Help] worker配置了admin，但部署登录后，admin是普通用户，没有系统设置！](https://github.com/maillab/cloud-mail/issues/567) | [maillab/cloud-mail](https://github.com/maillab/cloud-mail) | 14.3k | 🟡 help wanted | 2026-09-05 |  |
 | [[Help] cloudflare里面的电子邮件路由消失了，咋办？](https://github.com/maillab/cloud-mail/issues/563) 💬 3 | [maillab/cloud-mail](https://github.com/maillab/cloud-mail) | 14.3k | 🟡 help wanted | 2026-09-05 |  |
-| [i18n: add a Swedish (sv) market mode](https://github.com/career-ops-hq/career-ops/issues/3847) | [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | 72.2k | 🟡 help wanted | 2026-09-04 |  |
+| [i18n: add a Swedish (sv) market mode](https://github.com/career-ops-hq/career-ops/issues/3847) | [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | 72.3k | 🟡 help wanted | 2026-09-04 |  |
 | [eBay Creating/Publishing Listings](https://github.com/PipedreamHQ/pipedream/issues/21896) | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-09-04 |  |
 | [Generate PDF/A compliant document](https://github.com/parallax/jsPDF/issues/2882) 💬 6 | [parallax/jsPDF](https://github.com/parallax/jsPDF) | 31.3k | 🟡 help wanted | 2026-09-03 |  |
 | ["Should not already be working" in Firefox after a breakpoint/alert](https://github.com/react/react/issues/17355) 💬 154 | [react/react](https://github.com/react/react) | 250.6k | 🟢 beginner | 2026-09-02 | ✍️ CLA |
@@ -62,12 +62,12 @@
 | [Proxying should support HTTP and HTTPS at the same time](https://github.com/usebruno/bruno/issues/1985) 💬 3 | [usebruno/bruno](https://github.com/usebruno/bruno) | 47.1k | 🟢 beginner | 2026-08-26 |  |
 | [Add a check to test if :hover styles require doubletapping links](https://github.com/GoogleChrome/lighthouse/issues/9474) 💬 9 | [GoogleChrome/lighthouse](https://github.com/GoogleChrome/lighthouse) | 30.8k | 🟢 beginner | 2026-08-26 | ✍️ CLA |
 | [[Feature request]: add some image examples](https://github.com/hovancik/stretchly/issues/1788) 💬 2 | [hovancik/stretchly](https://github.com/hovancik/stretchly) | 6.5k | 🟡 help wanted | 2026-08-26 | 🤖 disclose AI use |
-| [Cannot deploy Tooljet when database uses a unix socket, likely due to a regression after wait-for-it was intro](https://github.com/ToolJet/ToolJet/issues/4618) 💬 4 | [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) | 40.9k | 🟡 help wanted | 2026-08-25 | 🤖 disclose AI use |
-| [Encrypted HTTP headers in REST and GraphQL sources](https://github.com/ToolJet/ToolJet/issues/5113) 💬 1 | [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) | 40.9k | 🟡 help wanted | 2026-08-25 | 🤖 disclose AI use |
-| [AWS S3 feature request - add a new operation called "Multipart Upload"](https://github.com/ToolJet/ToolJet/issues/5689) 💬 6 | [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) | 40.9k | 🟡 help wanted | 2026-08-25 | 🤖 disclose AI use |
-| [[Feature] Support Firestore Collection Group queries](https://github.com/ToolJet/ToolJet/issues/3802) 💬 2 | [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) | 40.9k | 🟡 help wanted | 2026-08-25 | 🤖 disclose AI use |
-| [ScyllaDB data source integration](https://github.com/ToolJet/ToolJet/issues/3841) 💬 1 | [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) | 40.9k | 🟡 help wanted | 2026-08-25 | 🤖 disclose AI use |
-| [Add "Signature" component](https://github.com/ToolJet/ToolJet/issues/4859) 💬 4 | [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) | 40.9k | 🟡 help wanted | 2026-08-25 | 🤖 disclose AI use |
+| [Cannot deploy Tooljet when database uses a unix socket, likely due to a regression after wait-for-it was intro](https://github.com/ToolJet/ToolJet/issues/4618) 💬 3 | [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) | 41k | 🟡 help wanted | 2026-08-25 | 🤖 disclose AI use |
+| [Encrypted HTTP headers in REST and GraphQL sources](https://github.com/ToolJet/ToolJet/issues/5113) | [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) | 41k | 🟡 help wanted | 2026-08-25 | 🤖 disclose AI use |
+| [AWS S3 feature request - add a new operation called "Multipart Upload"](https://github.com/ToolJet/ToolJet/issues/5689) 💬 5 | [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) | 41k | 🟡 help wanted | 2026-08-25 | 🤖 disclose AI use |
+| [[Feature] Support Firestore Collection Group queries](https://github.com/ToolJet/ToolJet/issues/3802) 💬 1 | [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) | 41k | 🟡 help wanted | 2026-08-25 | 🤖 disclose AI use |
+| [ScyllaDB data source integration](https://github.com/ToolJet/ToolJet/issues/3841) | [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) | 41k | 🟡 help wanted | 2026-08-25 | 🤖 disclose AI use |
+| [Add "Signature" component](https://github.com/ToolJet/ToolJet/issues/4859) 💬 3 | [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) | 41k | 🟡 help wanted | 2026-08-25 | 🤖 disclose AI use |
 | [[ACTION]](https://github.com/PipedreamHQ/pipedream/issues/21787) 💬 1 | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-08-25 |  |
 | [Comprison on NULL differes from SQL](https://github.com/AlaSQL/alasql/issues/1414) 💬 14 | [AlaSQL/alasql](https://github.com/AlaSQL/alasql) | 7.3k | 🟢 beginner | 2026-08-25 |  |
 | [Connectivity test: add a Vietnam country list](https://github.com/jason5ng32/MyIP/issues/406) 💬 2 | [jason5ng32/MyIP](https://github.com/jason5ng32/MyIP) | 11.9k | 🟢 beginner | 2026-08-22 |  |

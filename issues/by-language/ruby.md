@@ -1,8 +1,8 @@
 # Ruby issues
 
-**101** open issues (76 labeled for beginners) across **31** active Ruby projects.
+**100** open issues (75 labeled for beginners) across **31** active Ruby projects.
 
-> Updated automatically on **2026-09-20 20:19 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-21 11:35 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -46,7 +46,6 @@
 | [Allow using RSwag on specs other than :request](https://github.com/rswag/rswag/issues/364) 💬 14 | [rswag/rswag](https://github.com/rswag/rswag) | 2.2k | 🟡 help wanted | 2026-08-03 |  |
 | [Use largest thumbnail image from GCODE files](https://github.com/manyfold3d/manyfold/issues/6407) 💬 2 | [manyfold3d/manyfold](https://github.com/manyfold3d/manyfold) | 2.2k | 🟢 beginner | 2026-07-31 | 📄 AI policy · ✍️ CLA |
 | [Make immediate printing optional, with a choice dialog](https://github.com/manyfold3d/manyfold/issues/6447) 💬 6 | [manyfold3d/manyfold](https://github.com/manyfold3d/manyfold) | 2.2k | 🟢 beginner | 2026-07-31 | 📄 AI policy · ✍️ CLA |
-| [comment reply flow broken without js](https://github.com/lobsters/lobsters/issues/2190) 💬 4 | [lobsters/lobsters](https://github.com/lobsters/lobsters) | 4.8k | 🟢 beginner | 2026-07-29 |  |
 | [Sort by tags](https://github.com/manyfold3d/manyfold/issues/4962) 💬 5 | [manyfold3d/manyfold](https://github.com/manyfold3d/manyfold) | 2.2k | 🟢 beginner | 2026-07-28 | 📄 AI policy · ✍️ CLA |
 | [Can't edit S3 bucket settings after creating library](https://github.com/manyfold3d/manyfold/issues/4826) 💬 4 | [manyfold3d/manyfold](https://github.com/manyfold3d/manyfold) | 2.2k | 🟢 beginner | 2026-07-25 | 📄 AI policy · ✍️ CLA |
 | [Detect corrupted files](https://github.com/manyfold3d/manyfold/issues/4797) 💬 2 | [manyfold3d/manyfold](https://github.com/manyfold3d/manyfold) | 2.2k | 🟢 beginner | 2026-07-25 | 📄 AI policy · ✍️ CLA |

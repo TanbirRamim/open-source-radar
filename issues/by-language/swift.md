@@ -1,8 +1,8 @@
 # Swift issues
 
-**96** open issues (49 labeled for beginners) across **60** active Swift projects.
+**97** open issues (50 labeled for beginners) across **61** active Swift projects.
 
-> Updated automatically on **2026-09-20 20:19 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-21 11:35 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,7 +10,10 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [It does not work in Contexts/Alfred/Spotlight/Launcher...](https://github.com/itsuhane/SwitchKey/issues/4) 💬 8 | [itsuhane/SwitchKey](https://github.com/itsuhane/SwitchKey) | 961 | 🟡 help wanted | 2026-09-20 |  |
+| [Use augmentsSyntaxTokens parameter instead of reportSyntacticHighlightInSemanticTokens in initialization reque](https://github.com/swiftlang/sourcekit-lsp/issues/2767) | [swiftlang/sourcekit-lsp](https://github.com/swiftlang/sourcekit-lsp) | 3.9k | 🟢 beginner | 2026-09-21 |  |
+| [chore: Rename "sample apps" to "test apps"](https://github.com/getsentry/sentry-cocoa/issues/8431) 💬 4 | [getsentry/sentry-cocoa](https://github.com/getsentry/sentry-cocoa) | 1.1k | 🟢 beginner | 2026-09-21 |  |
+| [Tags should be displayed in book detailed view](https://github.com/kiwix/kiwix-apple/issues/1739) | [kiwix/kiwix-apple](https://github.com/kiwix/kiwix-apple) | 784 | 🟢 beginner | 2026-09-21 |  |
+| [It does not work in Contexts/Alfred/Spotlight/Launcher...](https://github.com/itsuhane/SwitchKey/issues/4) 💬 7 | [itsuhane/SwitchKey](https://github.com/itsuhane/SwitchKey) | 961 | 🟡 help wanted | 2026-09-20 |  |
 | [FR: Add configurable Finder context menu actions and one-click compression](https://github.com/idawnlight/ShichiZip/issues/63) 💬 2 | [idawnlight/ShichiZip](https://github.com/idawnlight/ShichiZip) | 956 | 🟡 help wanted | 2026-09-20 |  |
 | [Add support for Raycast/Alfred](https://github.com/buresdv/Cork/issues/135) 💬 1 | [buresdv/Cork](https://github.com/buresdv/Cork) | 4.7k | 🟡 help wanted | 2026-09-19 | 📄 AI policy |
 | [[Feature Request] dns protection](https://github.com/0xCUB3/wBlock/issues/716) 💬 3 | [0xCUB3/wBlock](https://github.com/0xCUB3/wBlock) | 2.9k | 🟡 help wanted | 2026-09-19 |  |
@@ -20,14 +23,12 @@
 | [bug: かな入力でテンキーの入力がひらがなに化けてしまう](https://github.com/azooKey/azooKey-Desktop/issues/262) 💬 15 | [azooKey/azooKey-Desktop](https://github.com/azooKey/azooKey-Desktop) | 1k | 🟢 beginner | 2026-09-16 |  |
 | [Drop ZIG as the default build programme](https://github.com/idawnlight/ShichiZip/issues/52) 💬 1 | [idawnlight/ShichiZip](https://github.com/idawnlight/ShichiZip) | 956 | 🟡 help wanted | 2026-09-16 |  |
 | [[Bug]: App can't be closed on macOS when google account session expired](https://github.com/sozercan/kaset/issues/493) 💬 2 | [sozercan/kaset](https://github.com/sozercan/kaset) | 2.3k | 🟢 beginner | 2026-09-15 | 🤖 disclose AI use |
-| [chore: Rename "sample apps" to "test apps"](https://github.com/getsentry/sentry-cocoa/issues/8431) 💬 2 | [getsentry/sentry-cocoa](https://github.com/getsentry/sentry-cocoa) | 1.1k | 🟢 beginner | 2026-09-15 |  |
 | [HTML Tags Appear in Overview Text](https://github.com/jellyfin/Swiftfin/issues/1537) | [jellyfin/Swiftfin](https://github.com/jellyfin/Swiftfin) | 4.2k | 🟢 beginner | 2026-09-14 |  |
 | [The Favorites folder has no background image.](https://github.com/jellyfin/Swiftfin/issues/2086) | [jellyfin/Swiftfin](https://github.com/jellyfin/Swiftfin) | 4.2k | 🟢 beginner | 2026-09-14 |  |
-| [Double touch does not work](https://github.com/jellyfin/Swiftfin/issues/2085) | [jellyfin/Swiftfin](https://github.com/jellyfin/Swiftfin) | 4.2k | 🟢 beginner | 2026-09-14 |  |
 | [Use vertical scrolling for series episodes on iOS](https://github.com/jellyfin/Swiftfin/issues/2145) 💬 3 | [jellyfin/Swiftfin](https://github.com/jellyfin/Swiftfin) | 4.2k | 🟢 beginner | 2026-09-14 |  |
 | [[FR]backup settings](https://github.com/ejbills/DockDoor/issues/688) 💬 7 | [ejbills/DockDoor](https://github.com/ejbills/DockDoor) | 6.1k | 🟢 beginner | 2026-09-09 | 🤖 disclose AI use |
 | [连接airpods的时候，会奇怪的出现通透模式，降噪模式切换](https://github.com/Ebullioscopic/Atoll/issues/822) 💬 2 | [Ebullioscopic/Atoll](https://github.com/Ebullioscopic/Atoll) | 4.7k | 🟡 help wanted | 2026-09-09 |  |
-| [container compose doesn't support extends](https://github.com/Mcrich23/Container-Compose/issues/7) 💬 2 | [Mcrich23/Container-Compose](https://github.com/Mcrich23/Container-Compose) | 937 | 🟡 help wanted | 2026-09-09 |  |
+| [container compose doesn't support extends](https://github.com/Mcrich23/Container-Compose/issues/7) 💬 2 | [Mcrich23/Container-Compose](https://github.com/Mcrich23/Container-Compose) | 938 | 🟡 help wanted | 2026-09-09 |  |
 | [Visiting a reading list site that has not been previously opened in reader mode never renders content](https://github.com/mozilla-mobile/firefox-ios/issues/27546) 💬 7 | [mozilla-mobile/firefox-ios](https://github.com/mozilla-mobile/firefox-ios) | 13k | 🟢 beginner | 2026-09-04 |  |
 | [Add support for Cygwin](https://github.com/swiftlang/swift-testing/issues/886) 💬 1 | [swiftlang/swift-testing](https://github.com/swiftlang/swift-testing) | 2.2k | 🟡 help wanted | 2026-09-03 |  |
 | [Add 'sentryLabel' property on UIView](https://github.com/getsentry/sentry-cocoa/issues/8103) 💬 1 | [getsentry/sentry-cocoa](https://github.com/getsentry/sentry-cocoa) | 1.1k | 🟢 beginner | 2026-09-01 |  |
@@ -54,13 +55,13 @@
 | [Feature Request: Enterprise Analytics - Add Base Usage Status for OpenAI Business Team Subscription](https://github.com/steipete/CodexBar/issues/1130) 💬 4 | [steipete/CodexBar](https://github.com/steipete/CodexBar) | 21.7k | 🟡 help wanted | 2026-08-05 |  |
 | [[SR-13388] Add Fix-Its to "override" mismatch](https://github.com/swiftlang/swift/issues/55828) 💬 13 | [swiftlang/swift](https://github.com/swiftlang/swift) | 70.4k | 🟢 beginner | 2026-08-03 |  |
 | [[SR-5362] StdlibUnittest allows redeclaration of the same-named test; ignores all but last](https://github.com/swiftlang/swift/issues/47936) 💬 3 | [swiftlang/swift](https://github.com/swiftlang/swift) | 70.4k | 🟢 beginner | 2026-08-01 |  |
-| [Run with all traits in the API checker CI](https://github.com/apple/swift-configuration/issues/95) 💬 2 | [apple/swift-configuration](https://github.com/apple/swift-configuration) | 813 | 🟢 beginner | 2026-07-30 |  |
+| [Run with all traits in the API checker CI](https://github.com/apple/swift-configuration/issues/95) 💬 2 | [apple/swift-configuration](https://github.com/apple/swift-configuration) | 814 | 🟢 beginner | 2026-07-30 |  |
 | [[Bug] always open with mode failed to open zip file](https://github.com/idawnlight/ShichiZip/issues/50) 💬 3 | [idawnlight/ShichiZip](https://github.com/idawnlight/ShichiZip) | 956 | 🟡 help wanted | 2026-07-28 |  |
 | [Java2Swift: Generalize conformances of Java collection types to Swift sequence protocols](https://github.com/swiftlang/swift-java/issues/96) 💬 1 | [swiftlang/swift-java](https://github.com/swiftlang/swift-java) | 1.2k | 🟢 beginner | 2026-07-27 |  |
 | [Java2Swift: Improve diagnostics when we suppress import due to a missing Java class import](https://github.com/swiftlang/swift-java/issues/112) 💬 2 | [swiftlang/swift-java](https://github.com/swiftlang/swift-java) | 1.2k | 🟢 beginner | 2026-07-27 |  |
 | [[SR-12930] Add protocol extension to "Result where Success == Void" so that we can use .success()](https://github.com/swiftlang/swift/issues/55376) 💬 3 | [swiftlang/swift](https://github.com/swiftlang/swift) | 70.4k | 🟢 beginner | 2026-07-23 |  |
 | [Play sound when picking up colors](https://github.com/superhighfives/pika/issues/68) 💬 2 | [superhighfives/pika](https://github.com/superhighfives/pika) | 2.6k | 🟡 help wanted | 2026-07-23 |  |
-| [Add Rust/Cargo target directory cleanup (project-level)](https://github.com/bysiber/cleardisk/issues/3) 💬 1 | [bysiber/cleardisk](https://github.com/bysiber/cleardisk) | 700 | 🟢 beginner | 2026-07-22 |  |
+| [Add Rust/Cargo target directory cleanup (project-level)](https://github.com/bysiber/cleardisk/issues/3) 💬 1 | [bysiber/cleardisk](https://github.com/bysiber/cleardisk) | 702 | 🟢 beginner | 2026-07-22 |  |
 | [SDF 2D / 3D Rendering improvements - call for input / help](https://github.com/Fabric-Project/Fabric/issues/146) | [Fabric-Project/Fabric](https://github.com/Fabric-Project/Fabric) | 565 | 🟡 help wanted | 2026-07-22 |  |
 | [Remove underbar prefix from _NIOFileSystem](https://github.com/apple/swift-nio/issues/3052) 💬 14 | [apple/swift-nio](https://github.com/apple/swift-nio) | 8.5k | 🟢 beginner | 2026-07-21 |  |
 | [colors are not the correct ones](https://github.com/sw33tLie/macshot/issues/105) 💬 63 | [sw33tLie/macshot](https://github.com/sw33tLie/macshot) | 3.5k | 🟡 help wanted | 2026-07-10 |  |
@@ -76,14 +77,14 @@
 | [Matching Windows mouse acceleration curve](https://github.com/linearmouse/linearmouse/issues/261) 💬 7 | [linearmouse/linearmouse](https://github.com/linearmouse/linearmouse) | 6.9k | 🟡 help wanted | 2026-06-11 |  |
 | [后台进程在系统睡眠期间被自身 SIGKILL 终止（合盖睡眠后约一小时自动退出）](https://github.com/tisfeng/Easydict/issues/1194) 💬 4 | [tisfeng/Easydict](https://github.com/tisfeng/Easydict) | 14.7k | 🟢 beginner | 2026-06-09 |  |
 | [Update size(of text:…) to return a Double](https://github.com/moreSwift/swift-cross-ui/issues/617) | [moreSwift/swift-cross-ui](https://github.com/moreSwift/swift-cross-ui) | 1.8k | 🟢 beginner | 2026-06-03 | 🤖 disclose AI use |
-| [Feature Request: Integrate Crowdin for community translations](https://github.com/jaywcjlove/awesome-mac/issues/2119) 💬 1 | [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac) | 114.2k | 🟡 help wanted | 2026-05-30 | 📄 AI policy |
+| [Feature Request: Integrate Crowdin for community translations](https://github.com/jaywcjlove/awesome-mac/issues/2119) 💬 1 | [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac) | 114.3k | 🟡 help wanted | 2026-05-30 | 📄 AI policy |
 | [Support for Chromecast audio](https://github.com/TortugaPower/BookPlayer/issues/298) 💬 6 | [TortugaPower/BookPlayer](https://github.com/TortugaPower/BookPlayer) | 2.2k | 🟡 help wanted | 2026-05-30 |  |
 | [Speed up TargetedScanner by parallelizing target traversal](https://github.com/iliyami/MacSai/issues/8) | [iliyami/MacSai](https://github.com/iliyami/MacSai) | 1.6k | 🟢 beginner | 2026-05-28 |  |
 | [Replace TODO comments in DuplicatesModule with real implementation or remove](https://github.com/iliyami/MacSai/issues/5) | [iliyami/MacSai](https://github.com/iliyami/MacSai) | 1.6k | 🟢 beginner | 2026-05-28 |  |
 | [[BUG] Generated EventControllerKey.keyPressed doesn’t support returning Bool](https://github.com/moreSwift/swift-cross-ui/issues/594) 💬 1 | [moreSwift/swift-cross-ui](https://github.com/moreSwift/swift-cross-ui) | 1.8k | 🟡 help wanted | 2026-05-26 | 🤖 disclose AI use |
 | [Configurable Raise Delay With Focus-follows-mouse](https://github.com/ianyh/Amethyst/issues/638) 💬 4 | [ianyh/Amethyst](https://github.com/ianyh/Amethyst) | 16.3k | 🟢 beginner | 2026-05-21 |  |
 | [Enhance documentation](https://github.com/swiftwasm/WasmKit/issues/71) | [swiftwasm/WasmKit](https://github.com/swiftwasm/WasmKit) | 504 | 🟢 beginner | 2026-05-21 |  |
-| [大佬，可否增加低版本macos的支持](https://github.com/bylinxx/MacCalendar/issues/34) 💬 1 | [bylinxx/MacCalendar](https://github.com/bylinxx/MacCalendar) | 853 | 🟡 help wanted | 2026-05-19 |  |
+| [大佬，可否增加低版本macos的支持](https://github.com/bylinxx/MacCalendar/issues/34) 💬 1 | [bylinxx/MacCalendar](https://github.com/bylinxx/MacCalendar) | 854 | 🟡 help wanted | 2026-05-19 |  |
 | [issue with external monitor DDC control](https://github.com/Ebullioscopic/Atoll/issues/274) 💬 2 | [Ebullioscopic/Atoll](https://github.com/Ebullioscopic/Atoll) | 4.7k | 🟡 help wanted | 2026-05-16 |  |
 | [Change code actions to provide functionality through 'SyntaxRefactoringCodeActionProvider'](https://github.com/swiftlang/sourcekit-lsp/issues/2628) 💬 4 | [swiftlang/sourcekit-lsp](https://github.com/swiftlang/sourcekit-lsp) | 3.9k | 🟢 beginner | 2026-05-12 |  |
 | [When quickly scrolling through a long list of search results, a fuckton of 'ruby' processes get spawned and fr](https://github.com/buresdv/Cork/issues/168) 💬 3 | [buresdv/Cork](https://github.com/buresdv/Cork) | 4.7k | 🟡 help wanted | 2026-05-11 | 📄 AI policy |
@@ -94,7 +95,7 @@
 | [Can't activate Service on macOS](https://github.com/kkebo/DNSecure/issues/38) 💬 8 | [kkebo/DNSecure](https://github.com/kkebo/DNSecure) | 576 | 🟡 help wanted | 2026-05-07 |  |
 | [[Bug] Cannot Add Certificates to Catalyst App](https://github.com/claration/feather/issues/635) 💬 1 | [claration/feather](https://github.com/claration/feather) | 4.7k | 🟡 help wanted | 2026-05-05 |  |
 | [Access modifiers on imports in generated files](https://github.com/apple/swift-openapi-generator/issues/777) 💬 3 | [apple/swift-openapi-generator](https://github.com/apple/swift-openapi-generator) | 2k | 🟢 beginner | 2026-05-04 |  |
-| [Allow replying to an audio message](https://github.com/element-hq/element-x-ios/issues/5485) | [element-hq/element-x-ios](https://github.com/element-hq/element-x-ios) | 948 | 🟢 beginner | 2026-04-29 | ⚠️ AI restricted |
+| [Allow replying to an audio message](https://github.com/element-hq/element-x-ios/issues/5485) | [element-hq/element-x-ios](https://github.com/element-hq/element-x-ios) | 947 | 🟢 beginner | 2026-04-29 | ⚠️ AI restricted |
 | [Better iCloud sync integration](https://github.com/quoid/userscripts/issues/424) 💬 23 | [quoid/userscripts](https://github.com/quoid/userscripts) | 4.8k | 🟡 help wanted | 2026-04-28 |  |
 | [Backtrace: Display binary offset](https://github.com/swiftwasm/WasmKit/issues/155) | [swiftwasm/WasmKit](https://github.com/swiftwasm/WasmKit) | 504 | 🟢 beginner | 2026-04-23 |  |
 | [Jump back in section is hidden when opening a tab via "+" toolbar button](https://github.com/mozilla-mobile/firefox-ios/issues/27802) 💬 4 | [mozilla-mobile/firefox-ios](https://github.com/mozilla-mobile/firefox-ios) | 13k | 🟢 beginner | 2026-04-21 |  |
