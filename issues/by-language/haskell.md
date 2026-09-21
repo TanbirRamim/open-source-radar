@@ -1,8 +1,8 @@
 # Haskell issues
 
-**19** open issues (9 labeled for beginners) across **7** active Haskell projects.
+**18** open issues (8 labeled for beginners) across **6** active Haskell projects.
 
-> Updated automatically on **2026-09-21 11:35 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-21 21:59 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -28,4 +28,3 @@
 | [Reduce code duplication between regular and data-backed constitution tests](https://github.com/IntersectMBO/plutus/issues/6787) | [IntersectMBO/plutus](https://github.com/IntersectMBO/plutus) | 1.6k | 🟢 beginner | 2026-05-01 |  |
 | [Add golden tests for the validation benchmarks](https://github.com/IntersectMBO/plutus/issues/6828) | [IntersectMBO/plutus](https://github.com/IntersectMBO/plutus) | 1.6k | 🟢 beginner | 2026-05-01 |  |
 | [Composite PK support](https://github.com/haskell-beam/beam/issues/792) 💬 2 | [haskell-beam/beam](https://github.com/haskell-beam/beam) | 636 | 🟢 beginner | 2026-04-09 |  |
-| [Document that specs can depend on arguments of enclosing functions](https://github.com/ucsd-progsys/liquidhaskell/issues/2442) 💬 2 | [ucsd-progsys/liquidhaskell](https://github.com/ucsd-progsys/liquidhaskell) | 1.3k | 🟢 beginner | 2026-03-25 |  |
