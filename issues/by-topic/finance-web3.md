@@ -1,8 +1,8 @@
 # Finance and Web3 issues
 
-**61** open issues (25 labeled for beginners) across **16** projects tagged with topics like `finance`, `fintech`, `blockchain`, `ethereum`, `crypto`, `trading`.
+**60** open issues (24 labeled for beginners) across **16** projects tagged with topics like `finance`, `fintech`, `blockchain`, `ethereum`, `crypto`, `trading`.
 
-> Updated automatically on **2026-09-21 21:59 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-22 10:50 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,8 +10,10 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [Let a CMP client require EnvelopedData (reject EncryptedValue) for centrally generated keys](https://github.com/openssl/openssl/issues/32797) 💬 1 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-22 | 🤖 disclose AI use · ✍️ CLA |
 | [fuzz/provider.c: FuzzerTestOneInput returns 1 for every input of 16 bytes or more, violating libFuzzer's contr](https://github.com/openssl/openssl/issues/32897) | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟢 beginner | 2026-09-21 | 🤖 disclose AI use · ✍️ CLA |
 | [With external engine, getting DHE copy parameter's failure.](https://github.com/openssl/openssl/issues/23137) 💬 12 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-21 | 🤖 disclose AI use · ✍️ CLA |
+| [[Bug]: ios 27 - blur in header](https://github.com/actualbudget/actual/issues/8989) 💬 1 | [actualbudget/actual](https://github.com/actualbudget/actual) | 29.1k | 🟡 help wanted | 2026-09-21 | 🤖 disclose AI use |
 | [X.509 verification treats a certificate as expired at exactly its notAfter second](https://github.com/openssl/openssl/issues/32890) 💬 1 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-20 | 🤖 disclose AI use · ✍️ CLA |
 | [Allocation failure during lazy error-string initialization recursively enters 'pthread_once'](https://github.com/openssl/openssl/issues/32894) | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-20 | 🤖 disclose AI use · ✍️ CLA |
 | [nc_email_eai (v3_ncons.c:708-719): mailbox-form excluded rfc822Name never matches a SmtpUTF8Mailbox SAN → wron](https://github.com/openssl/openssl/issues/32373) 💬 2 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-19 | 🤖 disclose AI use · ✍️ CLA |
@@ -20,7 +22,6 @@
 | [[Bug]: Custom themes custom CSS leftovers when selecting stock theme](https://github.com/actualbudget/actual/issues/8896) 💬 6 | [actualbudget/actual](https://github.com/actualbudget/actual) | 29.1k | 🟡 help wanted | 2026-09-17 | 🤖 disclose AI use |
 | [Frequent test hangs in 4.1 (master) on Nonstop tests](https://github.com/openssl/openssl/issues/32618) 💬 9 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-16 | 🤖 disclose AI use · ✍️ CLA |
 | [Update speed tests to measure GPU performance for cuPQC code](https://github.com/open-quantum-safe/liboqs/issues/2160) 💬 42 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-09-16 |  |
-| [Let a CMP client require EnvelopedData (reject EncryptedValue) for centrally generated keys](https://github.com/openssl/openssl/issues/32797) | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-14 | 🤖 disclose AI use · ✍️ CLA |
 | [RFC 9919: OCSP with SHA-256](https://github.com/openssl/openssl/issues/32813) | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use · ✍️ CLA |
 | [Backport 0c2a196af8 (per-OSSL_LIB_CTX CONF storage) to 3.0-3.6: conf_ssl.c double-free still present in all re](https://github.com/openssl/openssl/issues/32804) 💬 2 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use · ✍️ CLA |
 | [[Bug]: Enable Banking with "imagin / CaixaBank" bank linking fails on desktop but works on mobile browser](https://github.com/actualbudget/actual/issues/8326) 💬 9 | [actualbudget/actual](https://github.com/actualbudget/actual) | 29.1k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use |
@@ -31,7 +32,6 @@
 | [Consider bounded CBMC proofs for liboqs-owned code](https://github.com/open-quantum-safe/liboqs/issues/2504) 💬 1 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-08-21 |  |
 | [[Bug]: Rules notes with matches has a bug](https://github.com/actualbudget/actual/issues/6317) 💬 4 | [actualbudget/actual](https://github.com/actualbudget/actual) | 29.1k | 🟡 help wanted | 2026-08-13 | 🤖 disclose AI use |
 | [Syncing archive node from era files](https://github.com/ethereum/go-ethereum/issues/35354) 💬 3 | [ethereum/go-ethereum](https://github.com/ethereum/go-ethereum) | 51.4k | 🟡 help wanted | 2026-08-08 |  |
-| [[Bug]: Account linking process with Gocardless times out before completion](https://github.com/actualbudget/actual/issues/4460) 💬 21 | [actualbudget/actual](https://github.com/actualbudget/actual) | 29.1k | 🟢 beginner | 2026-08-04 | 🤖 disclose AI use |
 | [TypeError: 'NoneType' object is not iterable](https://github.com/saleor/saleor/issues/17891) 💬 3 | [saleor/saleor](https://github.com/saleor/saleor) | 23.4k | 🟡 help wanted | 2026-08-04 |  |
 | [VoucherInfoByVoucherCodeLoader dataloader uses prefetch_related](https://github.com/saleor/saleor/issues/13751) 💬 1 | [saleor/saleor](https://github.com/saleor/saleor) | 23.4k | 🟡 help wanted | 2026-08-01 |  |
 | [Bug: Reduce repr for checkoutInfo & checkoutLineInfo](https://github.com/saleor/saleor/issues/15123) 💬 7 | [saleor/saleor](https://github.com/saleor/saleor) | 23.4k | 🟢 beginner | 2026-08-01 |  |
@@ -44,7 +44,6 @@
 | [Scheduled transactions don't handle 29th/30th/31st dates appropriately](https://github.com/actualbudget/actual/issues/1062) 💬 12 | [actualbudget/actual](https://github.com/actualbudget/actual) | 29.1k | 🟡 help wanted | 2026-07-21 | 🤖 disclose AI use |
 | [[Bug]: Filtered balance on Split's notes not calculating properly](https://github.com/actualbudget/actual/issues/4381) 💬 2 | [actualbudget/actual](https://github.com/actualbudget/actual) | 29.1k | 🟡 help wanted | 2026-07-21 | 🤖 disclose AI use |
 | [[Bug]: Unable to type in fields when editing reports on mobile browsers](https://github.com/actualbudget/actual/issues/4285) 💬 3 | [actualbudget/actual](https://github.com/actualbudget/actual) | 29.1k | 🟡 help wanted | 2026-07-21 | 🤖 disclose AI use |
-| [[Bug]: GoCardless token expires before completion on long imports](https://github.com/actualbudget/actual/issues/3590) 💬 1 | [actualbudget/actual](https://github.com/actualbudget/actual) | 29.1k | 🟡 help wanted | 2026-07-21 | 🤖 disclose AI use |
 | [[Bug]: App not loading on mobile / Safari iOS](https://github.com/actualbudget/actual/issues/3575) 💬 5 | [actualbudget/actual](https://github.com/actualbudget/actual) | 29.1k | 🟡 help wanted | 2026-07-21 | 🤖 disclose AI use |
 | [[Bug]: Server fails silently when IPv6 is unavailable](https://github.com/actualbudget/actual/issues/5682) 💬 2 | [actualbudget/actual](https://github.com/actualbudget/actual) | 29.1k | 🟡 help wanted | 2026-07-21 | 🤖 disclose AI use |
 | [[Bug]: Custom Reports with 'Tag' filters do not calculate values of tagged top level split transactions](https://github.com/actualbudget/actual/issues/5640) 💬 2 | [actualbudget/actual](https://github.com/actualbudget/actual) | 29.1k | 🟡 help wanted | 2026-07-21 | 🤖 disclose AI use |

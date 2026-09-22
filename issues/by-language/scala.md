@@ -1,8 +1,8 @@
 # Scala issues
 
-**30** open issues (18 labeled for beginners) across **17** active Scala projects.
+**29** open issues (17 labeled for beginners) across **17** active Scala projects.
 
-> Updated automatically on **2026-09-21 21:59 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-22 10:50 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -39,4 +39,3 @@
 | [Add Row Level Semantic Checks and Isolate Failed Checks with RowValidator Object](https://github.com/awslabs/deequ/issues/281) 💬 8 | [awslabs/deequ](https://github.com/awslabs/deequ) | 3.6k | 🟡 help wanted | 2026-05-06 | ✍️ CLA |
 | [Converge on a single nomenclature for fiber blocking in docs](https://github.com/typelevel/cats-effect/issues/4597) | [typelevel/cats-effect](https://github.com/typelevel/cats-effect) | 2.2k | 🟢 beginner | 2026-05-05 |  |
 | [Add option to turn off emojis in exceptions](https://github.com/typelevel/skunk/issues/1138) 💬 3 | [typelevel/skunk](https://github.com/typelevel/skunk) | 1.7k | 🟢 beginner | 2026-03-30 |  |
-| [Fix deprecated uses of 'HotSwap'](https://github.com/http4s/http4s/issues/7805) | [http4s/http4s](https://github.com/http4s/http4s) | 2.6k | 🟢 beginner | 2026-03-26 |  |

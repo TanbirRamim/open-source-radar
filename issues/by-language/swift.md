@@ -2,7 +2,7 @@
 
 **97** open issues (50 labeled for beginners) across **61** active Swift projects.
 
-> Updated automatically on **2026-09-21 21:59 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-22 10:50 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,7 +10,7 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [Use augmentsSyntaxTokens parameter instead of reportSyntacticHighlightInSemanticTokens in initialization reque](https://github.com/swiftlang/sourcekit-lsp/issues/2767) | [swiftlang/sourcekit-lsp](https://github.com/swiftlang/sourcekit-lsp) | 3.9k | 🟢 beginner | 2026-09-21 |  |
+| [Use augmentsSyntaxTokens parameter instead of reportSyntacticHighlightInSemanticTokens in initialization reque](https://github.com/swiftlang/sourcekit-lsp/issues/2767) 💬 2 | [swiftlang/sourcekit-lsp](https://github.com/swiftlang/sourcekit-lsp) | 3.9k | 🟢 beginner | 2026-09-22 |  |
 | [chore: Rename "sample apps" to "test apps"](https://github.com/getsentry/sentry-cocoa/issues/8431) 💬 4 | [getsentry/sentry-cocoa](https://github.com/getsentry/sentry-cocoa) | 1.1k | 🟢 beginner | 2026-09-21 |  |
 | [Tags should be displayed in book detailed view](https://github.com/kiwix/kiwix-apple/issues/1739) | [kiwix/kiwix-apple](https://github.com/kiwix/kiwix-apple) | 784 | 🟢 beginner | 2026-09-21 |  |
 | [It does not work in Contexts/Alfred/Spotlight/Launcher...](https://github.com/itsuhane/SwitchKey/issues/4) 💬 7 | [itsuhane/SwitchKey](https://github.com/itsuhane/SwitchKey) | 961 | 🟡 help wanted | 2026-09-20 |  |
@@ -83,8 +83,8 @@
 | [Replace TODO comments in DuplicatesModule with real implementation or remove](https://github.com/iliyami/MacSai/issues/5) | [iliyami/MacSai](https://github.com/iliyami/MacSai) | 1.6k | 🟢 beginner | 2026-05-28 |  |
 | [[BUG] Generated EventControllerKey.keyPressed doesn’t support returning Bool](https://github.com/moreSwift/swift-cross-ui/issues/594) 💬 1 | [moreSwift/swift-cross-ui](https://github.com/moreSwift/swift-cross-ui) | 1.8k | 🟡 help wanted | 2026-05-26 | 🤖 disclose AI use |
 | [Configurable Raise Delay With Focus-follows-mouse](https://github.com/ianyh/Amethyst/issues/638) 💬 4 | [ianyh/Amethyst](https://github.com/ianyh/Amethyst) | 16.3k | 🟢 beginner | 2026-05-21 |  |
-| [Enhance documentation](https://github.com/swiftwasm/WasmKit/issues/71) | [swiftwasm/WasmKit](https://github.com/swiftwasm/WasmKit) | 505 | 🟢 beginner | 2026-05-21 |  |
-| [大佬，可否增加低版本macos的支持](https://github.com/bylinxx/MacCalendar/issues/34) 💬 1 | [bylinxx/MacCalendar](https://github.com/bylinxx/MacCalendar) | 854 | 🟡 help wanted | 2026-05-19 |  |
+| [Enhance documentation](https://github.com/swiftwasm/WasmKit/issues/71) | [swiftwasm/WasmKit](https://github.com/swiftwasm/WasmKit) | 506 | 🟢 beginner | 2026-05-21 |  |
+| [大佬，可否增加低版本macos的支持](https://github.com/bylinxx/MacCalendar/issues/34) 💬 1 | [bylinxx/MacCalendar](https://github.com/bylinxx/MacCalendar) | 856 | 🟡 help wanted | 2026-05-19 |  |
 | [issue with external monitor DDC control](https://github.com/Ebullioscopic/Atoll/issues/274) 💬 2 | [Ebullioscopic/Atoll](https://github.com/Ebullioscopic/Atoll) | 4.7k | 🟡 help wanted | 2026-05-16 |  |
 | [Change code actions to provide functionality through 'SyntaxRefactoringCodeActionProvider'](https://github.com/swiftlang/sourcekit-lsp/issues/2628) 💬 4 | [swiftlang/sourcekit-lsp](https://github.com/swiftlang/sourcekit-lsp) | 3.9k | 🟢 beginner | 2026-05-12 |  |
 | [When quickly scrolling through a long list of search results, a fuckton of 'ruby' processes get spawned and fr](https://github.com/buresdv/Cork/issues/168) 💬 3 | [buresdv/Cork](https://github.com/buresdv/Cork) | 4.7k | 🟡 help wanted | 2026-05-11 | 📄 AI policy |
@@ -95,9 +95,9 @@
 | [Can't activate Service on macOS](https://github.com/kkebo/DNSecure/issues/38) 💬 8 | [kkebo/DNSecure](https://github.com/kkebo/DNSecure) | 576 | 🟡 help wanted | 2026-05-07 |  |
 | [[Bug] Cannot Add Certificates to Catalyst App](https://github.com/claration/feather/issues/635) 💬 1 | [claration/feather](https://github.com/claration/feather) | 4.7k | 🟡 help wanted | 2026-05-05 |  |
 | [Access modifiers on imports in generated files](https://github.com/apple/swift-openapi-generator/issues/777) 💬 3 | [apple/swift-openapi-generator](https://github.com/apple/swift-openapi-generator) | 2k | 🟢 beginner | 2026-05-04 |  |
-| [Allow replying to an audio message](https://github.com/element-hq/element-x-ios/issues/5485) | [element-hq/element-x-ios](https://github.com/element-hq/element-x-ios) | 947 | 🟢 beginner | 2026-04-29 | ⚠️ AI restricted |
+| [Allow replying to an audio message](https://github.com/element-hq/element-x-ios/issues/5485) | [element-hq/element-x-ios](https://github.com/element-hq/element-x-ios) | 948 | 🟢 beginner | 2026-04-29 | ⚠️ AI restricted |
 | [Better iCloud sync integration](https://github.com/quoid/userscripts/issues/424) 💬 23 | [quoid/userscripts](https://github.com/quoid/userscripts) | 4.8k | 🟡 help wanted | 2026-04-28 |  |
-| [Backtrace: Display binary offset](https://github.com/swiftwasm/WasmKit/issues/155) | [swiftwasm/WasmKit](https://github.com/swiftwasm/WasmKit) | 505 | 🟢 beginner | 2026-04-23 |  |
+| [Backtrace: Display binary offset](https://github.com/swiftwasm/WasmKit/issues/155) | [swiftwasm/WasmKit](https://github.com/swiftwasm/WasmKit) | 506 | 🟢 beginner | 2026-04-23 |  |
 | [Jump back in section is hidden when opening a tab via "+" toolbar button](https://github.com/mozilla-mobile/firefox-ios/issues/27802) 💬 4 | [mozilla-mobile/firefox-ios](https://github.com/mozilla-mobile/firefox-ios) | 13k | 🟢 beginner | 2026-04-21 |  |
 | [Restore app state on launch](https://github.com/TortugaPower/BookPlayer/issues/1158) 💬 2 | [TortugaPower/BookPlayer](https://github.com/TortugaPower/BookPlayer) | 2.2k | 🟡 help wanted | 2026-04-16 |  |
 | [GarageBand Loops Wiki needs updating](https://github.com/munki/munki/issues/1211) 💬 6 | [munki/munki](https://github.com/munki/munki) | 3.5k | 🟡 help wanted | 2026-04-15 | ✍️ CLA |

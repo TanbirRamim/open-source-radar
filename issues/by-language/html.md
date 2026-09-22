@@ -1,8 +1,8 @@
 # HTML issues
 
-**90** open issues (31 labeled for beginners) across **39** active HTML projects.
+**91** open issues (31 labeled for beginners) across **39** active HTML projects.
 
-> Updated automatically on **2026-09-21 21:59 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-22 10:50 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,6 +10,7 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [[BUG] Country whitelist returns 403 for IPs that resolve to a whitelisted country in the loaded external GeoDB](https://github.com/tobychui/zoraxy/issues/1310) 💬 1 | [tobychui/zoraxy](https://github.com/tobychui/zoraxy) | 5.5k | 🟡 help wanted | 2026-09-21 |  |
 | [[Initiative]: Cloud Native Observability Personas](https://github.com/cncf/toc/issues/2037) 💬 11 | [cncf/toc](https://github.com/cncf/toc) | 1.9k | 🟡 help wanted | 2026-09-21 |  |
 | [Update setting up Prometheus docs](https://github.com/knative/docs/issues/5217) 💬 13 | [knative/docs](https://github.com/knative/docs) | 5.1k | 🟢 beginner | 2026-09-20 |  |
 | [java.util.ImmutableCollections$ListN can contain null values](https://github.com/EsotericSoftware/kryo/issues/1239) 💬 2 | [EsotericSoftware/kryo](https://github.com/EsotericSoftware/kryo) | 6.5k | 🟡 help wanted | 2026-09-19 |  |
@@ -18,7 +19,7 @@
 | [Allow disable generating full mobile navigation tree](https://github.com/imfing/hextra/issues/275) 💬 1 | [imfing/hextra](https://github.com/imfing/hextra) | 2.4k | 🟢 beginner | 2026-09-15 |  |
 | [输入 【介绍一下html-anything】，导出html单文件出现错误 1. 第一页只展示一半 2. 左右键不起作用 3. 从第二页开始都是黑底空白页 4. 。。。。。。](https://github.com/nexu-io/html-anything/issues/152) 💬 2 | [nexu-io/html-anything](https://github.com/nexu-io/html-anything) | 8.9k | 🟡 help wanted | 2026-09-14 | ✍️ CLA |
 | [[Initiative]: Scale and performance testing guidance](https://github.com/cncf/toc/issues/2233) 💬 4 | [cncf/toc](https://github.com/cncf/toc) | 1.9k | 🟡 help wanted | 2026-09-14 |  |
-| [[feat] no new X chat dm sending?](https://github.com/nirholas/XActions/issues/37) 💬 4 | [nirholas/XActions](https://github.com/nirholas/XActions) | 538 | 🟡 help wanted | 2026-09-14 |  |
+| [[feat] no new X chat dm sending?](https://github.com/nirholas/XActions/issues/37) 💬 4 | [nirholas/XActions](https://github.com/nirholas/XActions) | 539 | 🟡 help wanted | 2026-09-14 |  |
 | [[🚀 Feature]: Fixing Accessibility Issues On Selenium Website](https://github.com/SeleniumHQ/seleniumhq.github.io/issues/2486) 💬 6 | [SeleniumHQ/seleniumhq.github.io](https://github.com/SeleniumHQ/seleniumhq.github.io) | 1.4k | 🟡 help wanted | 2026-09-11 |  |
 | [switch cutout for back body plate doesn't fit switch](https://github.com/nasa-jpl/open-source-rover/issues/499) 💬 2 | [nasa-jpl/open-source-rover](https://github.com/nasa-jpl/open-source-rover) | 9.7k | 🟡 help wanted | 2026-09-10 |  |
 | [Headscale with reverse proxy Zoraxy not working because allegedly WebSockets are not passing through](https://github.com/tobychui/zoraxy/issues/1012) 💬 9 | [tobychui/zoraxy](https://github.com/tobychui/zoraxy) | 5.5k | 🟡 help wanted | 2026-09-09 |  |
@@ -33,7 +34,7 @@
 | [[Initiative]: Reference framework for the levels of Service Reliability Automation](https://github.com/cncf/toc/issues/1984) 💬 31 | [cncf/toc](https://github.com/cncf/toc) | 1.9k | 🟡 help wanted | 2026-08-11 |  |
 | [Better "No product" experience](https://github.com/openfoodfacts/openfoodfacts-server/issues/1505) | [openfoodfacts/openfoodfacts-server](https://github.com/openfoodfacts/openfoodfacts-server) | 1.2k | 🟡 help wanted | 2026-08-11 | 🤖 disclose AI use |
 | [Request for two enhancements: prev/next post, & list of all posts](https://github.com/chipzoller/hugo-clarity/issues/126) 💬 5 | [chipzoller/hugo-clarity](https://github.com/chipzoller/hugo-clarity) | 652 | 🟡 help wanted | 2026-08-10 | 🔏 DCO |
-| [cua-driver installer: print the PATH export command when ~/.local/bin isn't on PATH](https://github.com/trycua/cua/issues/3004) 💬 1 | [trycua/cua](https://github.com/trycua/cua) | 25.7k | 🟢 beginner | 2026-08-09 | 🤖 disclose AI use |
+| [cua-driver installer: print the PATH export command when ~/.local/bin isn't on PATH](https://github.com/trycua/cua/issues/3004) 💬 1 | [trycua/cua](https://github.com/trycua/cua) | 25.9k | 🟢 beginner | 2026-08-09 | 🤖 disclose AI use |
 | [[ja] Translate docs/concepts/services-networking/windows-networking.md into Japanese](https://github.com/kubernetes/website/issues/56047) 💬 4 | [kubernetes/website](https://github.com/kubernetes/website) | 5.4k | 🟡 help wanted | 2026-08-08 |  |
 | [[ja] Translate docs/concepts/security/hardening-guide/dynamic-resource-allocation.md into Japanese](https://github.com/kubernetes/website/issues/56048) 💬 6 | [kubernetes/website](https://github.com/kubernetes/website) | 5.4k | 🟡 help wanted | 2026-08-08 |  |
 | [Create a Sitemap for ProductOpener](https://github.com/openfoodfacts/openfoodfacts-server/issues/442) 💬 2 | [openfoodfacts/openfoodfacts-server](https://github.com/openfoodfacts/openfoodfacts-server) | 1.2k | 🟡 help wanted | 2026-08-08 | 🤖 disclose AI use |
@@ -44,8 +45,8 @@
 | [emojipedia is redistributing our emojis as stickers](https://github.com/hfg-gmuend/openmoji/issues/552) 💬 1 | [hfg-gmuend/openmoji](https://github.com/hfg-gmuend/openmoji) | 4.6k | 🟡 help wanted | 2026-07-24 |  |
 | ["Comparison to average values of products in the same category" is unclear](https://github.com/openfoodfacts/openfoodfacts-server/issues/2497) 💬 9 | [openfoodfacts/openfoodfacts-server](https://github.com/openfoodfacts/openfoodfacts-server) | 1.2k | 🟢 beginner | 2026-07-23 | 🤖 disclose AI use |
 | [Feature request: If CSS display:none causes failure, pull it into code snip.](https://github.com/dequelabs/axe-core/issues/598) 💬 5 | [dequelabs/axe-core](https://github.com/dequelabs/axe-core) | 7.5k | 🟡 help wanted | 2026-07-21 | ✍️ CLA |
-| [Gateway API: implement session persistence + BackendLBPolicy [experimental]](https://github.com/projectcontour/contour/issues/6427) 💬 3 | [projectcontour/contour](https://github.com/projectcontour/contour) | 3.9k | 🟡 help wanted | 2026-07-21 | 🔏 DCO |
-| [Gateway API: implement client cert verification [experimental]](https://github.com/projectcontour/contour/issues/6428) 💬 3 | [projectcontour/contour](https://github.com/projectcontour/contour) | 3.9k | 🟡 help wanted | 2026-07-21 | 🔏 DCO |
+| [Gateway API: implement session persistence + BackendLBPolicy [experimental]](https://github.com/projectcontour/contour/issues/6427) 💬 3 | [projectcontour/contour](https://github.com/projectcontour/contour) | 4k | 🟡 help wanted | 2026-07-21 | 🔏 DCO |
+| [Gateway API: implement client cert verification [experimental]](https://github.com/projectcontour/contour/issues/6428) 💬 3 | [projectcontour/contour](https://github.com/projectcontour/contour) | 4k | 🟡 help wanted | 2026-07-21 | 🔏 DCO |
 | [Test input.type change from text to file to text](https://github.com/web-platform-tests/wpt/issues/2611) 💬 8 | [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt) | 6.2k | 🟢 beginner | 2026-07-18 |  |
 | [Navigation Tree View Sets State not in Tree View Pattern](https://github.com/w3c/aria-practices/issues/3371) 💬 2 | [w3c/aria-practices](https://github.com/w3c/aria-practices) | 1.4k | 🟢 beginner | 2026-07-15 |  |
 | [Allow favicons in formats other than svg](https://github.com/imfing/hextra/issues/888) 💬 2 | [imfing/hextra](https://github.com/imfing/hextra) | 2.4k | 🟢 beginner | 2026-07-13 |  |
@@ -62,17 +63,17 @@
 | [CompatibleFieldSerializer: Subsequent fields are null after skipping an unknown field](https://github.com/EsotericSoftware/kryo/issues/1247) 💬 5 | [EsotericSoftware/kryo](https://github.com/EsotericSoftware/kryo) | 6.5k | 🟡 help wanted | 2026-06-23 |  |
 | [CORE-AAM has "user agents must not expose non-global, not support attributes on roles", but there is no relate](https://github.com/w3c/aria/issues/2168) 💬 2 | [w3c/aria](https://github.com/w3c/aria) | 753 | 🟢 beginner | 2026-06-23 |  |
 | [Axe-core's d.ts file is incomplete](https://github.com/dequelabs/axe-core/issues/4241) 💬 4 | [dequelabs/axe-core](https://github.com/dequelabs/axe-core) | 7.5k | 🟡 help wanted | 2026-06-21 | ✍️ CLA |
-| [support Podman for local development](https://github.com/projectcontour/contour/issues/5261) 💬 1 | [projectcontour/contour](https://github.com/projectcontour/contour) | 3.9k | 🟡 help wanted | 2026-06-18 | 🔏 DCO |
-| [Supporting BackendTLS for TLSRoute](https://github.com/projectcontour/contour/issues/6136) 💬 2 | [projectcontour/contour](https://github.com/projectcontour/contour) | 3.9k | 🟡 help wanted | 2026-06-18 | 🔏 DCO |
-| [E2Es: improve verification that the correct backend service is being hit.](https://github.com/projectcontour/contour/issues/6253) 💬 1 | [projectcontour/contour](https://github.com/projectcontour/contour) | 3.9k | 🟡 help wanted | 2026-06-18 | 🔏 DCO |
-| [Docs: Create and document a "stale content" checking cycle](https://github.com/projectcontour/contour/issues/3814) 💬 1 | [projectcontour/contour](https://github.com/projectcontour/contour) | 3.9k | 🟢 beginner | 2026-06-18 | 🔏 DCO |
+| [support Podman for local development](https://github.com/projectcontour/contour/issues/5261) 💬 1 | [projectcontour/contour](https://github.com/projectcontour/contour) | 4k | 🟡 help wanted | 2026-06-18 | 🔏 DCO |
+| [Supporting BackendTLS for TLSRoute](https://github.com/projectcontour/contour/issues/6136) 💬 2 | [projectcontour/contour](https://github.com/projectcontour/contour) | 4k | 🟡 help wanted | 2026-06-18 | 🔏 DCO |
+| [E2Es: improve verification that the correct backend service is being hit.](https://github.com/projectcontour/contour/issues/6253) 💬 1 | [projectcontour/contour](https://github.com/projectcontour/contour) | 4k | 🟡 help wanted | 2026-06-18 | 🔏 DCO |
+| [Docs: Create and document a "stale content" checking cycle](https://github.com/projectcontour/contour/issues/3814) 💬 1 | [projectcontour/contour](https://github.com/projectcontour/contour) | 4k | 🟢 beginner | 2026-06-18 | 🔏 DCO |
 | [Processed meat openmojis?](https://github.com/hfg-gmuend/openmoji/issues/657) 💬 2 | [hfg-gmuend/openmoji](https://github.com/hfg-gmuend/openmoji) | 4.6k | 🟡 help wanted | 2026-06-17 |  |
 | [Limitations of Anki as a learning coding platform](https://github.com/badlydrawnrob/anki/issues/180) | [badlydrawnrob/anki](https://github.com/badlydrawnrob/anki) | 929 | 🟡 help wanted | 2026-06-17 |  |
 | [Moving away from Anki](https://github.com/badlydrawnrob/anki/issues/181) | [badlydrawnrob/anki](https://github.com/badlydrawnrob/anki) | 929 | 🟡 help wanted | 2026-06-12 |  |
 | [Very high CPU usage while the GUI is open since EasyEffects 8.x](https://github.com/wwmm/easyeffects/issues/4652) 💬 69 | [wwmm/easyeffects](https://github.com/wwmm/easyeffects) | 10.2k | 🟡 help wanted | 2026-06-10 |  |
 | [Develop example of a datagrid with advanced, spreadsheet-like features](https://github.com/w3c/aria-practices/issues/155) 💬 19 | [w3c/aria-practices](https://github.com/w3c/aria-practices) | 1.4k | 🟡 help wanted | 2026-06-10 |  |
 | [[Worlds Without Number] Text is barely readable/showing the wrong color in the roll macro window](https://github.com/Roll20/roll20-character-sheets/issues/13773) 💬 3 | [Roll20/roll20-character-sheets](https://github.com/Roll20/roll20-character-sheets) | 1.2k | 🟢 beginner | 2026-06-10 |  |
-| [Ability to specify custom error page](https://github.com/projectcontour/contour/issues/320) 💬 16 | [projectcontour/contour](https://github.com/projectcontour/contour) | 3.9k | 🟡 help wanted | 2026-06-07 | 🔏 DCO |
+| [Ability to specify custom error page](https://github.com/projectcontour/contour/issues/320) 💬 16 | [projectcontour/contour](https://github.com/projectcontour/contour) | 4k | 🟡 help wanted | 2026-06-07 | 🔏 DCO |
 | [Update theme demo site screenshots](https://github.com/hugo-sid/hugo-blog-awesome/issues/226) | [hugo-sid/hugo-blog-awesome](https://github.com/hugo-sid/hugo-blog-awesome) | 810 | 🟢 beginner | 2026-06-07 |  |
 | [PPT viewer shows inconsistent vertical alignment across slides](https://github.com/nexu-io/html-anything/issues/74) 💬 4 | [nexu-io/html-anything](https://github.com/nexu-io/html-anything) | 8.9k | 🟡 help wanted | 2026-06-01 | ✍️ CLA |
 | [文字内容模块因为动效隐藏了](https://github.com/nexu-io/html-anything/issues/89) 💬 5 | [nexu-io/html-anything](https://github.com/nexu-io/html-anything) | 8.9k | 🟢 beginner | 2026-05-28 | ✍️ CLA |
