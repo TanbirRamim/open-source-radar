@@ -5076,7 +5076,7 @@
     "files": [
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-15T10:14:04+00:00"
+    "scanned_at": "2026-09-22T20:21:43+00:00"
   },
   "OWASP/www-community": {
     "ai": "none",
@@ -5084,7 +5084,7 @@
     "cla": false,
     "dco": false,
     "files": [],
-    "scanned_at": "2026-09-15T10:14:04+00:00"
+    "scanned_at": "2026-09-22T20:21:43+00:00"
   },
   "Ombi-app/Ombi": {
     "ai": "none",
@@ -5095,7 +5095,7 @@
       ".github/pull_request_template.md",
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-15T10:14:04+00:00"
+    "scanned_at": "2026-09-22T20:21:43+00:00"
   },
   "OmniSharp/omnisharp-roslyn": {
     "ai": "none",
@@ -5105,7 +5105,7 @@
     "files": [
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-15T10:14:04+00:00"
+    "scanned_at": "2026-09-22T20:21:43+00:00"
   },
   "OneSignal/OneSignal-Android-SDK": {
     "ai": "none",
@@ -5116,7 +5116,7 @@
       ".github/pull_request_template.md",
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-15T10:14:04+00:00"
+    "scanned_at": "2026-09-22T20:21:43+00:00"
   },
   "OpenAPITools/openapi-generator": {
     "ai": "none",
@@ -5127,7 +5127,7 @@
       ".github/PULL_REQUEST_TEMPLATE.md",
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-15T10:14:04+00:00"
+    "scanned_at": "2026-09-22T20:21:43+00:00"
   },
   "OpenBB-finance/OpenBB": {
     "ai": "none",
@@ -7688,7 +7688,7 @@
     "files": [
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-20T10:01:26+00:00"
+    "scanned_at": "2026-09-22T20:26:02+00:00"
   },
   "Wilfred/difftastic": {
     "ai": "disclose",
@@ -7699,7 +7699,7 @@
       "AGENTS.md",
       "AI_POLICY.md"
     ],
-    "scanned_at": "2026-09-20T10:01:26+00:00"
+    "scanned_at": "2026-09-22T20:26:02+00:00"
   },
   "WinMerge/winmerge": {
     "ai": "none",
@@ -7709,7 +7709,7 @@
     "files": [
       ".github/pull_request_template.md"
     ],
-    "scanned_at": "2026-09-20T10:01:26+00:00"
+    "scanned_at": "2026-09-22T20:26:02+00:00"
   },
   "Winetricks/winetricks": {
     "ai": "none",
@@ -7717,7 +7717,15 @@
     "cla": false,
     "dco": false,
     "files": [],
-    "scanned_at": "2026-09-20T10:01:32+00:00"
+    "scanned_at": "2026-09-22T20:26:02+00:00"
+  },
+  "WinterChenS/my-site": {
+    "ai": "none",
+    "ai_file": null,
+    "cla": false,
+    "dco": false,
+    "files": [],
+    "scanned_at": "2026-09-22T20:26:02+00:00"
   },
   "WiseLibs/better-sqlite3": {
     "ai": "none",
@@ -7725,7 +7733,7 @@
     "cla": false,
     "dco": false,
     "files": [],
-    "scanned_at": "2026-09-20T10:01:32+00:00"
+    "scanned_at": "2026-09-22T20:26:02+00:00"
   },
   "WordPress/gutenberg": {
     "ai": "disclose",
@@ -12259,7 +12267,19 @@
       "AGENTS.md",
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-20T10:07:15+00:00"
+    "scanned_at": "2026-09-22T20:32:02+00:00"
+  },
+  "coder/coder": {
+    "ai": "policy",
+    "ai_file": ".github/pull_request_template.md",
+    "cla": false,
+    "dco": false,
+    "files": [
+      ".github/pull_request_template.md",
+      "AGENTS.md",
+      "CONTRIBUTING.md"
+    ],
+    "scanned_at": "2026-09-22T20:32:02+00:00"
   },
   "codetriage/CodeTriage": {
     "ai": "none",
@@ -12269,7 +12289,7 @@
     "files": [
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-20T10:07:18+00:00"
+    "scanned_at": "2026-09-22T20:32:02+00:00"
   },
   "codex-team/editor.js": {
     "ai": "none",
@@ -12277,7 +12297,7 @@
     "cla": false,
     "dco": false,
     "files": [],
-    "scanned_at": "2026-09-20T10:07:18+00:00"
+    "scanned_at": "2026-09-22T20:32:02+00:00"
   },
   "coil-kt/coil": {
     "ai": "none",
@@ -12288,7 +12308,7 @@
       ".github/pull_request_template.md",
       "AGENTS.md"
     ],
-    "scanned_at": "2026-09-20T10:07:18+00:00"
+    "scanned_at": "2026-09-22T20:32:02+00:00"
   },
   "coliff/dark-mode-switch": {
     "ai": "none",
@@ -12299,7 +12319,7 @@
       ".github/CONTRIBUTING.md",
       ".github/PULL_REQUEST_TEMPLATE.md"
     ],
-    "scanned_at": "2026-09-20T10:07:18+00:00"
+    "scanned_at": "2026-09-22T20:32:02+00:00"
   },
   "colinhacks/zod": {
     "ai": "none",
@@ -13359,7 +13379,7 @@
     "cla": false,
     "dco": false,
     "files": [],
-    "scanned_at": "2026-09-20T10:09:26+00:00"
+    "scanned_at": "2026-09-22T20:34:02+00:00"
   },
   "defold/defold": {
     "ai": "none",
@@ -13370,7 +13390,7 @@
       ".github/pull_request_template.md",
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-20T10:09:26+00:00"
+    "scanned_at": "2026-09-22T20:34:02+00:00"
   },
   "deivid-rodriguez/byebug": {
     "ai": "none",
@@ -13380,7 +13400,7 @@
     "files": [
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-20T10:09:26+00:00"
+    "scanned_at": "2026-09-22T20:34:02+00:00"
   },
   "dekusms/DekuSMS-Android": {
     "ai": "none",
@@ -13388,7 +13408,7 @@
     "cla": false,
     "dco": false,
     "files": [],
-    "scanned_at": "2026-09-15T10:21:17+00:00"
+    "scanned_at": "2026-09-22T20:34:02+00:00"
   },
   "delta-io/delta": {
     "ai": "none",
@@ -13399,7 +13419,7 @@
       ".github/PULL_REQUEST_TEMPLATE.md",
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-20T10:09:29+00:00"
+    "scanned_at": "2026-09-22T20:34:02+00:00"
   },
   "delta-io/delta-sharing": {
     "ai": "none",
@@ -13409,7 +13429,7 @@
     "files": [
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-20T10:09:29+00:00"
+    "scanned_at": "2026-09-22T20:34:02+00:00"
   },
   "dendianugerah/reubah": {
     "ai": "none",
@@ -13912,7 +13932,7 @@
     "cla": false,
     "dco": false,
     "files": [],
-    "scanned_at": "2026-09-20T10:10:04+00:00"
+    "scanned_at": "2026-09-22T20:34:40+00:00"
   },
   "dokuwiki/dokuwiki": {
     "ai": "policy",
@@ -13923,7 +13943,7 @@
       "AI_POLICY.md",
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-20T10:10:04+00:00"
+    "scanned_at": "2026-09-22T20:34:40+00:00"
   },
   "dolthub/dolt": {
     "ai": "none",
@@ -13931,7 +13951,7 @@
     "cla": false,
     "dco": false,
     "files": [],
-    "scanned_at": "2026-09-20T10:10:04+00:00"
+    "scanned_at": "2026-09-22T20:34:40+00:00"
   },
   "domaindrivendev/Swashbuckle.AspNetCore": {
     "ai": "none",
@@ -13943,7 +13963,7 @@
       "AGENTS.md",
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-20T10:10:04+00:00"
+    "scanned_at": "2026-09-22T20:34:40+00:00"
   },
   "domokane/FinancePy": {
     "ai": "none",
@@ -13962,7 +13982,7 @@
       ".github/PULL_REQUEST_TEMPLATE.md",
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-15T10:21:54+00:00"
+    "scanned_at": "2026-09-22T20:34:40+00:00"
   },
   "doorkeeper-gem/doorkeeper": {
     "ai": "none",
@@ -13974,7 +13994,7 @@
       "AGENTS.md",
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-15T10:21:54+00:00"
+    "scanned_at": "2026-09-22T20:34:40+00:00"
   },
   "dortania/OpenCore-Legacy-Patcher": {
     "ai": "none",
@@ -13982,7 +14002,7 @@
     "cla": false,
     "dco": false,
     "files": [],
-    "scanned_at": "2026-09-15T10:21:54+00:00"
+    "scanned_at": "2026-09-22T20:34:45+00:00"
   },
   "dotnet-script/dotnet-script": {
     "ai": "none",
@@ -13990,7 +14010,7 @@
     "cla": false,
     "dco": false,
     "files": [],
-    "scanned_at": "2026-09-15T10:21:54+00:00"
+    "scanned_at": "2026-09-22T20:34:45+00:00"
   },
   "dotnet/AspNetCore.Docs": {
     "ai": "none",
@@ -14001,7 +14021,7 @@
       ".github/PULL_REQUEST_TEMPLATE.md",
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-15T10:21:54+00:00"
+    "scanned_at": "2026-09-22T20:34:45+00:00"
   },
   "dotnet/BenchmarkDotNet": {
     "ai": "none",
@@ -14011,7 +14031,7 @@
     "files": [
       ".github/CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-15T10:21:54+00:00"
+    "scanned_at": "2026-09-22T20:34:45+00:00"
   },
   "dotnet/Open-XML-SDK": {
     "ai": "none",
@@ -14021,7 +14041,7 @@
     "files": [
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-20T10:10:13+00:00"
+    "scanned_at": "2026-09-22T20:34:45+00:00"
   },
   "dotnet/Silk.NET": {
     "ai": "none",
@@ -14032,7 +14052,7 @@
       ".github/pull_request_template.md",
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-20T10:10:13+00:00"
+    "scanned_at": "2026-09-22T20:34:45+00:00"
   },
   "dotnet/aspnet-api-versioning": {
     "ai": "none",
@@ -16035,7 +16055,7 @@
       ".github/pull_request_template.md",
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-20T10:14:17+00:00"
+    "scanned_at": "2026-09-22T20:37:50+00:00"
   },
   "flamegraph-rs/flamegraph": {
     "ai": "none",
@@ -16043,7 +16063,7 @@
     "cla": false,
     "dco": false,
     "files": [],
-    "scanned_at": "2026-09-20T10:14:22+00:00"
+    "scanned_at": "2026-09-22T20:37:50+00:00"
   },
   "flameshot-org/flameshot": {
     "ai": "none",
@@ -16053,7 +16073,7 @@
     "files": [
       "docs/CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-20T10:14:22+00:00"
+    "scanned_at": "2026-09-22T20:37:50+00:00"
   },
   "flarum/framework": {
     "ai": "none",
@@ -16061,7 +16081,7 @@
     "cla": false,
     "dco": false,
     "files": [],
-    "scanned_at": "2026-09-20T10:14:22+00:00"
+    "scanned_at": "2026-09-22T20:37:50+00:00"
   },
   "flatpak/flatpak": {
     "ai": "none",
@@ -16071,7 +16091,15 @@
     "files": [
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-20T10:14:22+00:00"
+    "scanned_at": "2026-09-22T20:37:50+00:00"
+  },
+  "flawiddsouza/Restfox": {
+    "ai": "none",
+    "ai_file": null,
+    "cla": false,
+    "dco": false,
+    "files": [],
+    "scanned_at": "2026-09-22T20:37:50+00:00"
   },
   "flipped-aurora/gin-vue-admin": {
     "ai": "none",
@@ -20461,7 +20489,17 @@
       "AGENTS.md",
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-20T10:21:28+00:00"
+    "scanned_at": "2026-09-22T20:43:12+00:00"
+  },
+  "karansinghgit/speaktype": {
+    "ai": "none",
+    "ai_file": null,
+    "cla": false,
+    "dco": false,
+    "files": [
+      "CONTRIBUTING.md"
+    ],
+    "scanned_at": "2026-09-22T20:43:12+00:00"
   },
   "katanemo/plano": {
     "ai": "none",
@@ -20471,7 +20509,7 @@
     "files": [
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-20T10:21:28+00:00"
+    "scanned_at": "2026-09-22T20:43:12+00:00"
   },
   "kayozxo/GNOME-macOS-Tahoe": {
     "ai": "none",
@@ -20479,7 +20517,7 @@
     "cla": false,
     "dco": false,
     "files": [],
-    "scanned_at": "2026-09-20T10:21:28+00:00"
+    "scanned_at": "2026-09-22T20:43:12+00:00"
   },
   "kdabir/has": {
     "ai": "none",
@@ -20489,7 +20527,7 @@
     "files": [
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-20T10:21:28+00:00"
+    "scanned_at": "2026-09-22T20:43:12+00:00"
   },
   "kedacore/keda": {
     "ai": "none",
@@ -20501,7 +20539,7 @@
       "AGENTS.md",
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-20T10:21:38+00:00"
+    "scanned_at": "2026-09-22T20:43:12+00:00"
   },
   "keepassxreboot/keepassxc": {
     "ai": "none",
@@ -27225,7 +27263,7 @@
     "cla": false,
     "dco": false,
     "files": [],
-    "scanned_at": "2026-09-20T10:30:21+00:00"
+    "scanned_at": "2026-09-22T20:51:57+00:00"
   },
   "picoe/Eto": {
     "ai": "none",
@@ -27235,7 +27273,15 @@
     "files": [
       "AGENTS.md"
     ],
-    "scanned_at": "2026-09-20T10:30:21+00:00"
+    "scanned_at": "2026-09-22T20:51:57+00:00"
+  },
+  "piggyvault/piggyvault": {
+    "ai": "none",
+    "ai_file": null,
+    "cla": false,
+    "dco": false,
+    "files": [],
+    "scanned_at": "2026-09-22T20:51:57+00:00"
   },
   "ping11700/LOLkit": {
     "ai": "none",
@@ -27243,7 +27289,7 @@
     "cla": false,
     "dco": false,
     "files": [],
-    "scanned_at": "2026-09-20T10:30:21+00:00"
+    "scanned_at": "2026-09-22T20:51:57+00:00"
   },
   "pingcap/tidb": {
     "ai": "none",
@@ -27255,7 +27301,7 @@
       "AGENTS.md",
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-20T10:30:21+00:00"
+    "scanned_at": "2026-09-22T20:51:57+00:00"
   },
   "pingdotgg/t3code": {
     "ai": "none",
@@ -27267,7 +27313,7 @@
       "AGENTS.md",
       "CONTRIBUTING.md"
     ],
-    "scanned_at": "2026-09-18T10:24:15+00:00"
+    "scanned_at": "2026-09-22T20:51:57+00:00"
   },
   "pinkary-project/pinkary.com": {
     "ai": "none",
