@@ -1,8 +1,8 @@
 # Ruby issues
 
-**98** open issues (73 labeled for beginners) across **31** active Ruby projects.
+**97** open issues (73 labeled for beginners) across **31** active Ruby projects.
 
-> Updated automatically on **2026-09-23 10:49 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-23 21:19 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -107,4 +107,3 @@
 | [Tracing updates for Ruby 2.6](https://github.com/jruby/jruby/issues/6149) 💬 4 | [jruby/jruby](https://github.com/jruby/jruby) | 3.9k | 🟡 help wanted | 2026-04-05 |  |
 | ['source:' metatag is case sensitive / DText search links convert search to lowercase](https://github.com/e621ng/e621ng/issues/553) 💬 1 | [e621ng/e621ng](https://github.com/e621ng/e621ng) | 568 | 🟢 beginner | 2026-04-03 |  |
 | [Excel Formula Language](https://github.com/github-linguist/linguist/issues/7886) | [github-linguist/linguist](https://github.com/github-linguist/linguist) | 13.7k | 🟢 beginner | 2026-03-30 |  |
-| [Chef docs are outdated (and never will be updated)](https://github.com/freeCodeCamp/devdocs/issues/927) 💬 2 | [freeCodeCamp/devdocs](https://github.com/freeCodeCamp/devdocs) | 39.5k | 🟡 help wanted | 2026-03-27 |  |

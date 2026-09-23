@@ -1,8 +1,8 @@
 # Go issues
 
-**337** open issues (71 labeled for beginners) across **80** active Go projects.
+**340** open issues (71 labeled for beginners) across **81** active Go projects.
 
-> Updated automatically on **2026-09-23 10:49 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-23 21:19 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,38 +10,42 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [cmd/objdump: x86 disassembler does not recognize PDEPQ](https://github.com/golang/go/issues/25617) 💬 6 | [golang/go](https://github.com/golang/go) | 139k | 🟡 help wanted | 2026-09-23 |  |
+| [runtime: linux/s390x test timeout](https://github.com/golang/go/issues/60413) 💬 873 | [golang/go](https://github.com/golang/go) | 139k | 🟡 help wanted | 2026-09-23 |  |
 | [all: flaky failures on netbsd/arm](https://github.com/golang/go/issues/73820) 💬 741 | [golang/go](https://github.com/golang/go) | 139k | 🟡 help wanted | 2026-09-23 |  |
+| [Type-asserting function call on variable initialized using 'this' causes false implicit-any in VSCode](https://github.com/microsoft/TypeScript/issues/51661) 💬 4 | [microsoft/TypeScript](https://github.com/microsoft/TypeScript) | 111.2k | 🟡 help wanted | 2026-09-23 | 🤖 disclose AI use · ✍️ CLA |
+| [Please Allow Mixins to function properly with new-able types](https://github.com/microsoft/TypeScript/issues/53737) 💬 2 | [microsoft/TypeScript](https://github.com/microsoft/TypeScript) | 111.2k | 🟡 help wanted | 2026-09-23 | 🤖 disclose AI use · ✍️ CLA |
+| [Unexpected "used before its declaration" error when implementing a exported type of a merged namespace](https://github.com/microsoft/TypeScript/issues/54429) 💬 1 | [microsoft/TypeScript](https://github.com/microsoft/TypeScript) | 111.2k | 🟡 help wanted | 2026-09-23 | 🤖 disclose AI use · ✍️ CLA |
+| [Auto-closing of tags within curly braces '{}' does not work when parent element is same tag in JSX](https://github.com/microsoft/TypeScript/issues/58322) 💬 2 | [microsoft/TypeScript](https://github.com/microsoft/TypeScript) | 111.2k | 🟡 help wanted | 2026-09-23 | 🤖 disclose AI use · ✍️ CLA |
+| [texSubImage2D missing WebGL2 syntax](https://github.com/microsoft/TypeScript/issues/58695) 💬 1 | [microsoft/TypeScript](https://github.com/microsoft/TypeScript) | 111.2k | 🟡 help wanted | 2026-09-23 | 🤖 disclose AI use · ✍️ CLA |
+| [strange interaction with 'resolveJsonModule', 'createRequire', naming it 'require', and requiring JSON](https://github.com/microsoft/TypeScript/issues/61292) 💬 3 | [microsoft/TypeScript](https://github.com/microsoft/TypeScript) | 111.2k | 🟡 help wanted | 2026-09-23 | 🤖 disclose AI use · ✍️ CLA |
+| [Intellisense keeps crashing](https://github.com/microsoft/TypeScript/issues/63151) 💬 25 | [microsoft/TypeScript](https://github.com/microsoft/TypeScript) | 111.2k | 🟡 help wanted | 2026-09-23 | 🤖 disclose AI use · ✍️ CLA |
+| [VM mesh expansion, ISTIO_INBOUND_PORTS conflicts with Docker container outbound traffic](https://github.com/istio/istio/issues/27728) 💬 24 | [istio/istio](https://github.com/istio/istio) | 38.4k | 🟡 help wanted | 2026-09-23 |  |
+| [Select-all feature](https://github.com/derailed/k9s/issues/4247) 💬 4 | [derailed/k9s](https://github.com/derailed/k9s) | 34.7k | 🟢 beginner | 2026-09-23 |  |
+| [\\echo and \\warn -n problem on interactive](https://github.com/xo/usql/issues/215) 💬 1 | [xo/usql](https://github.com/xo/usql) | 10.1k | 🟡 help wanted | 2026-09-23 |  |
+| [feature: support vi key bindings (ala readline/bash/psql vi modes)](https://github.com/xo/usql/issues/236) 💬 5 | [xo/usql](https://github.com/xo/usql) | 10.1k | 🟡 help wanted | 2026-09-23 |  |
+| ['\\ss' without arguments lists columns for all tables](https://github.com/xo/usql/issues/363) 💬 2 | [xo/usql](https://github.com/xo/usql) | 10.1k | 🟡 help wanted | 2026-09-23 |  |
 | [x/website/tour: PageUp and PageDown navigation stops working when focus is outside the tour editor](https://github.com/golang/go/issues/81596) 💬 2 | [golang/go](https://github.com/golang/go) | 139k | 🟡 help wanted | 2026-09-22 |  |
 | [runtime: flaky failures on NetBSD since CL 526118](https://github.com/golang/go/issues/62524) 💬 154 | [golang/go](https://github.com/golang/go) | 139k | 🟡 help wanted | 2026-09-22 |  |
 | [x/sys/unix: xattr functions erroneously pass Go pointers as type uintptr on BSDs](https://github.com/golang/go/issues/58386) 💬 6 | [golang/go](https://github.com/golang/go) | 139k | 🟡 help wanted | 2026-09-22 |  |
-| [Wanted: Who is using Open Code Review? Please leave a comment!](https://github.com/alibaba/open-code-review/issues/1020) 💬 11 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 40k | 🟡 help wanted | 2026-09-22 | 🤖 disclose AI use · ✍️ CLA |
+| [Wanted: Who is using Open Code Review? Please leave a comment!](https://github.com/alibaba/open-code-review/issues/1020) 💬 11 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 40.2k | 🟡 help wanted | 2026-09-22 | 🤖 disclose AI use · ✍️ CLA |
 | [Support For Windows Containers](https://github.com/kubernetes/minikube/issues/2015) 💬 68 | [kubernetes/minikube](https://github.com/kubernetes/minikube) | 32.2k | 🟡 help wanted | 2026-09-22 |  |
-| [feat(site): allow customization of Web Terminal browser tab/window title](https://github.com/coder/coder/issues/25693) | [coder/coder](https://github.com/coder/coder) | 16.6k | 🟢 beginner | 2026-09-22 | 📄 AI policy |
+| [feat(site): allow customization of Web Terminal browser tab/window title](https://github.com/coder/coder/issues/25693) | [coder/coder](https://github.com/coder/coder) | 16.7k | 🟢 beginner | 2026-09-22 | 📄 AI policy |
+| [Unable to load docker containerd managed images to cluster](https://github.com/kubernetes-sigs/kind/issues/3795) 💬 68 | [kubernetes-sigs/kind](https://github.com/kubernetes-sigs/kind) | 15.5k | 🟡 help wanted | 2026-09-22 |  |
 | [i18n: Streamline Singular/Plural Nouns](https://github.com/stashapp/stash/issues/1924) 💬 6 | [stashapp/stash](https://github.com/stashapp/stash) | 13k | 🟡 help wanted | 2026-09-22 | ⚠️ AI restricted |
 | [Help about Telegram Custom alerts](https://github.com/TwiN/gatus/issues/1809) | [TwiN/gatus](https://github.com/TwiN/gatus) | 12.1k | 🟡 help wanted | 2026-09-22 |  |
 | [x/sys/windows: generated wrappers read undefined upper bits of 32-bit syscall return values](https://github.com/golang/go/issues/81249) 💬 11 | [golang/go](https://github.com/golang/go) | 139k | 🟡 help wanted | 2026-09-21 |  |
 | [Make sig-node CI test coverage adhere to defined guidance](https://github.com/kubernetes/kubernetes/issues/134862) 💬 14 | [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) | 127.9k | 🟡 help wanted | 2026-09-21 | 🤖 disclose AI use · ✍️ CLA |
-| [Multi-line top-level 'await' causes duplicate declaration error](https://github.com/microsoft/TypeScript/issues/59777) 💬 4 | [microsoft/TypeScript](https://github.com/microsoft/TypeScript) | 111.2k | 🟡 help wanted | 2026-09-21 | 🤖 disclose AI use · ✍️ CLA |
 | [Spread operator with wrong optional property raises error on incorrect source line](https://github.com/microsoft/TypeScript/issues/51376) 💬 3 | [microsoft/TypeScript](https://github.com/microsoft/TypeScript) | 111.2k | 🟡 help wanted | 2026-09-21 | 🤖 disclose AI use · ✍️ CLA |
 | [Document how to configure host for podman --rootless driver](https://github.com/kubernetes/minikube/issues/23724) | [kubernetes/minikube](https://github.com/kubernetes/minikube) | 32.2k | 🟢 beginner | 2026-09-21 |  |
 | [Typst support](https://github.com/d2lang/d2/issues/1435) 💬 5 | [d2lang/d2](https://github.com/d2lang/d2) | 25.5k | 🟢 beginner | 2026-09-21 |  |
 | [croc needs your help](https://github.com/schollz/croc/issues/1269) | [schollz/croc](https://github.com/schollz/croc) | 40.4k | 🟡 help wanted | 2026-09-20 |  |
 | [globbing/wildcards in "resources" field](https://github.com/kubernetes-sigs/kustomize/issues/119) 💬 61 | [kubernetes-sigs/kustomize](https://github.com/kubernetes-sigs/kustomize) | 12.2k | 🟡 help wanted | 2026-09-20 | ✍️ CLA |
 | [e2e: add testcases for the ext-auth wasmplugin](https://github.com/higress-group/higress/issues/1799) 💬 1 | [higress-group/higress](https://github.com/higress-group/higress) | 9.4k | 🟡 help wanted | 2026-09-20 | 🤖 disclose AI use |
-| [Intellisense keeps crashing](https://github.com/microsoft/TypeScript/issues/63151) 💬 25 | [microsoft/TypeScript](https://github.com/microsoft/TypeScript) | 111.2k | 🟡 help wanted | 2026-09-19 | 🤖 disclose AI use · ✍️ CLA |
 | [Certain recursive types cause "Maximum call stack size exceeded" error in TS server](https://github.com/microsoft/TypeScript/issues/62471) 💬 1 | [microsoft/TypeScript](https://github.com/microsoft/TypeScript) | 111.2k | 🟡 help wanted | 2026-09-19 | 🤖 disclose AI use · ✍️ CLA |
-| [Ghost error appearing after signature help in inferred signatures with rest parameter](https://github.com/microsoft/TypeScript/issues/62183) | [microsoft/TypeScript](https://github.com/microsoft/TypeScript) | 111.2k | 🟡 help wanted | 2026-09-19 | 🤖 disclose AI use · ✍️ CLA |
-| [strange interaction with 'resolveJsonModule', 'createRequire', naming it 'require', and requiring JSON](https://github.com/microsoft/TypeScript/issues/61292) 💬 3 | [microsoft/TypeScript](https://github.com/microsoft/TypeScript) | 111.2k | 🟡 help wanted | 2026-09-19 | 🤖 disclose AI use · ✍️ CLA |
-| [texSubImage2D missing WebGL2 syntax](https://github.com/microsoft/TypeScript/issues/58695) 💬 1 | [microsoft/TypeScript](https://github.com/microsoft/TypeScript) | 111.2k | 🟡 help wanted | 2026-09-19 | 🤖 disclose AI use · ✍️ CLA |
-| [Auto-closing of tags within curly braces '{}' does not work when parent element is same tag in JSX](https://github.com/microsoft/TypeScript/issues/58322) 💬 2 | [microsoft/TypeScript](https://github.com/microsoft/TypeScript) | 111.2k | 🟡 help wanted | 2026-09-19 | 🤖 disclose AI use · ✍️ CLA |
-| [Mirror cursor for JSX stops working in some case](https://github.com/microsoft/TypeScript/issues/56669) 💬 3 | [microsoft/TypeScript](https://github.com/microsoft/TypeScript) | 111.2k | 🟡 help wanted | 2026-09-19 | 🤖 disclose AI use · ✍️ CLA |
-| [Unexpected "used before its declaration" error when implementing a exported type of a merged namespace](https://github.com/microsoft/TypeScript/issues/54429) 💬 1 | [microsoft/TypeScript](https://github.com/microsoft/TypeScript) | 111.2k | 🟡 help wanted | 2026-09-19 | 🤖 disclose AI use · ✍️ CLA |
-| [Please Allow Mixins to function properly with new-able types](https://github.com/microsoft/TypeScript/issues/53737) 💬 2 | [microsoft/TypeScript](https://github.com/microsoft/TypeScript) | 111.2k | 🟡 help wanted | 2026-09-19 | 🤖 disclose AI use · ✍️ CLA |
 | [Reminder: Update Hacktoberfest branding for this year](https://github.com/owncast/owncast/issues/5180) 💬 2 | [owncast/owncast](https://github.com/owncast/owncast) | 11.6k | 🟢 beginner | 2026-09-19 |  |
 | [runtime: deadlock while stopping the world (most recently openbsd/amd64)](https://github.com/golang/go/issues/62541) 💬 14 | [golang/go](https://github.com/golang/go) | 139k | 🟡 help wanted | 2026-09-18 |  |
 | [x/text/feature/plural: tables are generated from CLDR 32 (2017); wrong plural category for 26 locales](https://github.com/golang/go/issues/80753) 💬 6 | [golang/go](https://github.com/golang/go) | 139k | 🟡 help wanted | 2026-09-18 |  |
-| [runtime: linux/s390x test timeout](https://github.com/golang/go/issues/60413) 💬 872 | [golang/go](https://github.com/golang/go) | 139k | 🟡 help wanted | 2026-09-18 |  |
-| [Permission Annotations in Swagger](https://github.com/goharbor/harbor/issues/21734) 💬 4 | [goharbor/harbor](https://github.com/goharbor/harbor) | 29.4k | 🟡 help wanted | 2026-09-18 | 🔏 DCO |
 | [Proposal: use container DNS for Windows containers in Docker Desktop instead of localhost](https://github.com/dapr/dapr/issues/5490) 💬 4 | [dapr/dapr](https://github.com/dapr/dapr) | 26.1k | 🟡 help wanted | 2026-09-18 | 🔏 DCO |
 | [ArangoDB](https://github.com/googleapis/mcp-toolbox/issues/2290) 💬 16 | [googleapis/mcp-toolbox](https://github.com/googleapis/mcp-toolbox) | 16.5k | 🟡 help wanted | 2026-09-18 | ✍️ CLA |
 | [Add Feature to Set Retention Time per Metric](https://github.com/prometheus/prometheus/issues/15350) 💬 3 | [prometheus/prometheus](https://github.com/prometheus/prometheus) | 66.2k | 🟡 help wanted | 2026-09-17 | 🔏 DCO |
@@ -93,6 +97,7 @@
 | [Mouse selection wrapping](https://github.com/micro-editor/micro/issues/677) 💬 4 | [micro-editor/micro](https://github.com/micro-editor/micro) | 29.6k | 🟡 help wanted | 2026-09-01 |  |
 | [improve KIND performance on single node clusters \| leader-elect=false \| proxy-refresh-interval=70000](https://github.com/kubernetes-sigs/kind/issues/2513) 💬 5 | [kubernetes-sigs/kind](https://github.com/kubernetes-sigs/kind) | 15.5k | 🟡 help wanted | 2026-09-01 |  |
 | [building node images requires public internet access and doesn't error if pre-pulling images fails](https://github.com/kubernetes-sigs/kind/issues/2562) 💬 22 | [kubernetes-sigs/kind](https://github.com/kubernetes-sigs/kind) | 15.5k | 🟡 help wanted | 2026-09-01 |  |
+| [Increase maxkeys and maxbytes in Known Issues](https://github.com/kubernetes-sigs/kind/issues/3806) 💬 7 | [kubernetes-sigs/kind](https://github.com/kubernetes-sigs/kind) | 15.5k | 🟡 help wanted | 2026-09-01 |  |
 | [Digicert ACME order is failing due to invalid validity_years](https://github.com/cert-manager/cert-manager/issues/7536) 💬 12 | [cert-manager/cert-manager](https://github.com/cert-manager/cert-manager) | 14.1k | 🟢 beginner | 2026-09-01 |  |
 | [Clear signal requestID on workflow close](https://github.com/temporalio/temporal/issues/4029) 💬 1 | [temporalio/temporal](https://github.com/temporalio/temporal) | 23.3k | 🟡 help wanted | 2026-08-31 | ✍️ CLA |
 | [[Support]: How to use allowed_groups query parameter when groups themselves contain commas?](https://github.com/oauth2-proxy/oauth2-proxy/issues/3528) | [oauth2-proxy/oauth2-proxy](https://github.com/oauth2-proxy/oauth2-proxy) | 15k | 🟡 help wanted | 2026-08-31 | 🤖 disclose AI use · 🔏 DCO |
@@ -205,10 +210,5 @@
 | [Code gen: generate constants for validation parameters](https://github.com/go-swagger/go-swagger/issues/717) 💬 1 | [go-swagger/go-swagger](https://github.com/go-swagger/go-swagger) | 10k | 🟡 help wanted | 2026-07-15 | 🔏 DCO |
 | [Animated connections don't honor prefers-reduced-motion](https://github.com/d2lang/d2/issues/1979) 💬 1 | [d2lang/d2](https://github.com/d2lang/d2) | 25.5k | 🟢 beginner | 2026-07-14 |  |
 | [[inputs.whois] Support RDAP lookup](https://github.com/influxdata/telegraf/issues/17243) 💬 3 | [influxdata/telegraf](https://github.com/influxdata/telegraf) | 17.8k | 🟡 help wanted | 2026-07-13 | ⚠️ AI restricted · ✍️ CLA |
-| [Add instructions for installing on SteamOS / Steam Deck](https://github.com/Jguer/yay/issues/2098) 💬 26 | [Jguer/yay](https://github.com/Jguer/yay) | 13.8k | 🟡 help wanted | 2026-07-13 |  |
-| [implement a wasmplugin to support Content Security Policy](https://github.com/higress-group/higress/issues/1706) 💬 1 | [higress-group/higress](https://github.com/higress-group/higress) | 9.4k | 🟢 beginner | 2026-07-12 | 🤖 disclose AI use |
-| [Gnome/XWayland : Crash on standby/resume](https://github.com/fyne-io/fyne/issues/1603) 💬 10 | [fyne-io/fyne](https://github.com/fyne-io/fyne) | 28.7k | 🟡 help wanted | 2026-07-11 |  |
-| [fyne_demo slow on PowerShell with administrative privileges](https://github.com/fyne-io/fyne/issues/1135) | [fyne-io/fyne](https://github.com/fyne-io/fyne) | 28.7k | 🟡 help wanted | 2026-07-11 |  |
-| [Feature: telnet, ftp provisioner](https://github.com/hashicorp/packer/issues/7971) 💬 2 | [hashicorp/packer](https://github.com/hashicorp/packer) | 15.8k | 🟡 help wanted | 2026-07-11 | ✍️ CLA |
 
-Showing the 200 most recently updated. See all 337 on the website.
+Showing the 200 most recently updated. See all 340 on the website.

@@ -1,8 +1,8 @@
 # Documentation and education issues
 
-**82** open issues (38 labeled for beginners) across **26** projects tagged with topics like `documentation`, `education`, `learning`, `tutorial`, `awesome`, `awesome-list`.
+**78** open issues (37 labeled for beginners) across **26** projects tagged with topics like `documentation`, `education`, `learning`, `tutorial`, `awesome`, `awesome-list`.
 
-> Updated automatically on **2026-09-23 10:49 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-23 21:19 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,11 +10,9 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [Business Card lab seed and solutions use incorrect formatting](https://github.com/freeCodeCamp/freeCodeCamp/issues/70307) | [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | 456k | 🟡 help wanted | 2026-09-23 |  |
 | [Regex in "Build a medical data validator" (Python curriculum) should use raw string notation](https://github.com/freeCodeCamp/freeCodeCamp/issues/69917) 💬 5 | [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | 456k | 🟡 help wanted | 2026-09-23 |  |
-| [Travel Weather Planner has incomplete and inaccurate tests and hints](https://github.com/freeCodeCamp/freeCodeCamp/issues/70303) | [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | 456k | 🟡 help wanted | 2026-09-23 |  |
-| [workdayDedupKey: a hyphenated requisition base skips the trailing -N strip (residual of the tenant-site dedup ](https://github.com/career-ops-hq/career-ops/issues/3882) 💬 4 | [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | 72.5k | 🟡 help wanted | 2026-09-23 |  |
-| [Add emulator test results to the human-visible GitHub workflow summary](https://github.com/ankidroid/Anki-Android/issues/22011) 💬 1 | [ankidroid/Anki-Android](https://github.com/ankidroid/Anki-Android) | 11.8k | 🟢 beginner | 2026-09-23 | 🤖 disclose AI use |
+| [🐝 Feature request](https://github.com/jaywcjlove/awesome-mac/issues/2967) | [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac) | 114.6k | 🟡 help wanted | 2026-09-23 | 📄 AI policy |
+| ['p5.VERSION' reports "2.3.1" in the 2.3.3 release build (build-time version replacement regression)](https://github.com/processing/p5.js/issues/9202) 💬 1 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-09-23 | ⚠️ AI restricted |
 | [noiseMode(SIMPLEX) add-on library](https://github.com/processing/p5.js/issues/6152) 💬 20 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-09-22 | ⚠️ AI restricted |
 | [Update setting up Prometheus docs](https://github.com/knative/docs/issues/5217) 💬 13 | [knative/docs](https://github.com/knative/docs) | 5.1k | 🟢 beginner | 2026-09-20 |  |
 | [Stale screenshot baseline was used](https://github.com/ankidroid/Anki-Android/issues/21888) 💬 3 | [ankidroid/Anki-Android](https://github.com/ankidroid/Anki-Android) | 11.8k | 🟡 help wanted | 2026-09-18 | 🤖 disclose AI use |
@@ -41,10 +39,10 @@
 | [line return](https://github.com/suitenumerique/docs/issues/2239) 💬 1 | [suitenumerique/docs](https://github.com/suitenumerique/docs) | 16.9k | 🟢 beginner | 2026-09-01 | 🤖 disclose AI use · 🔏 DCO |
 | [[p5.js 2.0+ Bug Report]: Floats in strands shaders are always rounded to 4 decimals](https://github.com/processing/p5.js/issues/8884) 💬 15 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-08-31 | ⚠️ AI restricted |
 | [Translation needed for existing languages](https://github.com/sumn2u/learn-javascript/issues/346) 💬 2 | [sumn2u/learn-javascript](https://github.com/sumn2u/learn-javascript) | 1k | 🟢 beginner | 2026-08-29 |  |
-| [Add diagrams and animations to course website (inspired by makingsoftware.com)](https://github.com/rohitg00/ai-engineering-from-scratch/issues/243) 💬 12 | [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) | 55.5k | 🟢 beginner | 2026-08-28 |  |
+| [Add diagrams and animations to course website (inspired by makingsoftware.com)](https://github.com/rohitg00/ai-engineering-from-scratch/issues/243) 💬 12 | [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) | 55.8k | 🟢 beginner | 2026-08-28 |  |
 | [Add a public DNS resolver from an unrepresented region (Africa / South America / Middle East / Oceania)](https://github.com/jason5ng32/MyIP/issues/394) 💬 1 | [jason5ng32/MyIP](https://github.com/jason5ng32/MyIP) | 11.9k | 🟢 beginner | 2026-08-28 |  |
 | [TalkBack conflicts with TTS](https://github.com/ankidroid/Anki-Android/issues/6369) 💬 4 | [ankidroid/Anki-Android](https://github.com/ankidroid/Anki-Android) | 11.8k | 🟡 help wanted | 2026-08-27 | 🤖 disclose AI use |
-| [Clean up dead or outdated tutorials](https://github.com/practical-tutorials/project-based-learning/issues/344) 💬 12 | [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | 284.3k | 🟢 beginner | 2026-08-25 |  |
+| [Clean up dead or outdated tutorials](https://github.com/practical-tutorials/project-based-learning/issues/344) 💬 12 | [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | 284.4k | 🟢 beginner | 2026-08-25 |  |
 | [Connectivity test: add a Vietnam country list](https://github.com/jason5ng32/MyIP/issues/406) 💬 2 | [jason5ng32/MyIP](https://github.com/jason5ng32/MyIP) | 11.9k | 🟢 beginner | 2026-08-22 |  |
 | [🇯🇵 Japanese (ja) UI translation](https://github.com/jason5ng32/MyIP/issues/421) | [jason5ng32/MyIP](https://github.com/jason5ng32/MyIP) | 11.9k | 🟢 beginner | 2026-08-22 |  |
 | [🇪🇸 Spanish (es) UI translation](https://github.com/jason5ng32/MyIP/issues/420) | [jason5ng32/MyIP](https://github.com/jason5ng32/MyIP) | 11.9k | 🟢 beginner | 2026-08-22 |  |
@@ -77,18 +75,16 @@
 | [[FEATURE]CPU Scheduling algorithms](https://github.com/TheAlgorithms/C-Plus-Plus/issues/1574) 💬 19 | [TheAlgorithms/C-Plus-Plus](https://github.com/TheAlgorithms/C-Plus-Plus) | 34.7k | 🟡 help wanted | 2026-07-03 |  |
 | [Visual summary of the agent harness architecture](https://github.com/shareAI-lab/learn-claude-code/issues/355) | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | 77.5k | 🟢 beginner | 2026-07-01 | 🤖 disclose AI use |
 | [macOS app fails Gatekeeper; Homebrew cask deprecated and scheduled for disablement](https://github.com/logisim-evolution/logisim-evolution/issues/2699) 💬 1 | [logisim-evolution/logisim-evolution](https://github.com/logisim-evolution/logisim-evolution) | 7.6k | 🟡 help wanted | 2026-06-29 |  |
-| [[WEB - SDK] - Add Payment Method with Dynamic Field Rendering - Alfamart](https://github.com/juspay/hyperswitch/issues/6035) 💬 8 | [juspay/hyperswitch](https://github.com/juspay/hyperswitch) | 43.7k | 🟢 beginner | 2026-06-24 |  |
+| [[WEB - SDK] - Add Payment Method with Dynamic Field Rendering - Alfamart](https://github.com/juspay/hyperswitch/issues/6035) 💬 8 | [juspay/hyperswitch](https://github.com/juspay/hyperswitch) | 43.8k | 🟢 beginner | 2026-06-24 |  |
 | [setAttributes() invalidates references to earlier canvases](https://github.com/processing/p5.js/issues/5902) 💬 8 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-06-20 | ⚠️ AI restricted |
 | [Add additional WebGL filter stress scenarios to visual regression suite](https://github.com/processing/p5.js/issues/8550) 💬 4 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-06-17 | ⚠️ AI restricted |
-| [[FEATURE] : [NOON] Add Integrity Check Support for Authorize, PSync, Refund and RSync Flows](https://github.com/juspay/hyperswitch/issues/9199) 💬 3 | [juspay/hyperswitch](https://github.com/juspay/hyperswitch) | 43.7k | 🟢 beginner | 2026-06-10 |  |
+| [[FEATURE] : [NOON] Add Integrity Check Support for Authorize, PSync, Refund and RSync Flows](https://github.com/juspay/hyperswitch/issues/9199) 💬 3 | [juspay/hyperswitch](https://github.com/juspay/hyperswitch) | 43.8k | 🟢 beginner | 2026-06-10 |  |
 | [Add Gradients for Fill and Strokes](https://github.com/processing/p5.js/issues/7313) 💬 7 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-06-10 | ⚠️ AI restricted |
 | [WebGL Error Triggered by 'noSmooth()' Invocation Between Framebuffer Creation and Drawing on Framebuffer](https://github.com/processing/p5.js/issues/6369) 💬 2 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-06-09 | ⚠️ AI restricted |
 | [difference between inline and inline-block should include discussion about replaced / non-replaced elements](https://github.com/yangshun/front-end-interview-handbook/issues/160) 💬 3 | [yangshun/front-end-interview-handbook](https://github.com/yangshun/front-end-interview-handbook) | 44k | 🟡 help wanted | 2026-06-05 |  |
-| [Support for Top-Level Global Mode](https://github.com/processing/p5.js/issues/7737) 💬 35 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-06-01 | ⚠️ AI restricted |
 | [Feature Request: Integrate Crowdin for community translations](https://github.com/jaywcjlove/awesome-mac/issues/2119) 💬 1 | [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac) | 114.6k | 🟡 help wanted | 2026-05-30 | 📄 AI policy |
 | [Queue UI requests from page fragments while app in background](https://github.com/ankidroid/Anki-Android/issues/15706) 💬 3 | [ankidroid/Anki-Android](https://github.com/ankidroid/Anki-Android) | 11.8k | 🟡 help wanted | 2026-05-20 | 🤖 disclose AI use |
 | [cant connect robot app to python controller](https://github.com/ob-f/OpenBot/issues/486) 💬 2 | [ob-f/OpenBot](https://github.com/ob-f/OpenBot) | 3.5k | 🟡 help wanted | 2026-05-09 |  |
 | [Selecting AI TYPE for instance Point Goal using remote (PC/desktop) controller aka PYTHON/NPM PACKAGES....](https://github.com/ob-f/OpenBot/issues/489) 💬 2 | [ob-f/OpenBot](https://github.com/ob-f/OpenBot) | 3.5k | 🟡 help wanted | 2026-05-09 |  |
-| [broken link in java tutorial](https://github.com/practical-tutorials/project-based-learning/issues/347) 💬 9 | [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | 284.3k | 🟢 beginner | 2026-05-07 |  |
+| [broken link in java tutorial](https://github.com/practical-tutorials/project-based-learning/issues/347) 💬 9 | [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | 284.4k | 🟢 beginner | 2026-05-07 |  |
 | [Server-side meta tags](https://github.com/suitenumerique/docs/issues/739) | [suitenumerique/docs](https://github.com/suitenumerique/docs) | 16.9k | 🟡 help wanted | 2026-04-08 | 🤖 disclose AI use · 🔏 DCO |
-| [Chef docs are outdated (and never will be updated)](https://github.com/freeCodeCamp/devdocs/issues/927) 💬 2 | [freeCodeCamp/devdocs](https://github.com/freeCodeCamp/devdocs) | 39.5k | 🟡 help wanted | 2026-03-27 |  |

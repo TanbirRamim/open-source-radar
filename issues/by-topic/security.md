@@ -1,8 +1,8 @@
 # Security and privacy issues
 
-**226** open issues (110 labeled for beginners) across **55** projects tagged with topics like `security`, `privacy`, `cryptography`, `encryption`, `authentication`, `oauth`.
+**225** open issues (110 labeled for beginners) across **55** projects tagged with topics like `security`, `privacy`, `cryptography`, `encryption`, `authentication`, `oauth`.
 
-> Updated automatically on **2026-09-23 10:49 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-23 21:19 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,11 +10,17 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [borg2 b24: benchmarking needed](https://github.com/borgbackup/borg/issues/10315) 💬 8 | [borgbackup/borg](https://github.com/borgbackup/borg) | 13.8k | 🟡 help wanted | 2026-09-23 |  |
-| [EMBA does not detect all components / SBOM is incomplete](https://github.com/e-m-b-a/emba/issues/2132) | [e-m-b-a/emba](https://github.com/e-m-b-a/emba) | 3.7k | 🟢 beginner | 2026-09-23 |  |
+| [Feature request: remember highlighted text after tab change](https://github.com/gchq/CyberChef/issues/874) 💬 5 | [gchq/CyberChef](https://github.com/gchq/CyberChef) | 35.9k | 🟢 beginner | 2026-09-23 | 🤖 disclose AI use · ✍️ CLA |
+| [🚨 OneDrive authentication fails on Android with AADSTS90023 while desktop works](https://github.com/super-productivity/super-productivity/issues/9546) 💬 3 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.2k | 🟡 help wanted | 2026-09-23 |  |
+| [CalDAV Connection fails (android)](https://github.com/super-productivity/super-productivity/issues/3603) 💬 10 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.2k | 🟡 help wanted | 2026-09-23 |  |
+| [🚨 CalDAV TODO: (Two-Way sync) Sync deadlines from SP to CalDav Server.](https://github.com/super-productivity/super-productivity/issues/10099) 💬 3 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.2k | 🟡 help wanted | 2026-09-23 |  |
+| [💡 Global hotkey for pause/resume focus session](https://github.com/super-productivity/super-productivity/issues/9754) 💬 3 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.2k | 🟡 help wanted | 2026-09-23 |  |
+| [borg2 b24: benchmarking needed](https://github.com/borgbackup/borg/issues/10315) 💬 9 | [borgbackup/borg](https://github.com/borgbackup/borg) | 13.8k | 🟡 help wanted | 2026-09-23 |  |
+| [Add indicator in assembly browser how many jumps/calls the user is from a reference point.](https://github.com/rizinorg/rizin/issues/6788) | [rizinorg/rizin](https://github.com/rizinorg/rizin) | 3.9k | 🟢 beginner | 2026-09-23 | 🤖 disclose AI use |
+| [EMBA does not detect all components / SBOM is incomplete](https://github.com/e-m-b-a/emba/issues/2132) 💬 1 | [e-m-b-a/emba](https://github.com/e-m-b-a/emba) | 3.7k | 🟢 beginner | 2026-09-23 |  |
 | [Let a CMP client require EnvelopedData (reject EncryptedValue) for centrally generated keys](https://github.com/openssl/openssl/issues/32797) 💬 1 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-22 | 🤖 disclose AI use · ✍️ CLA |
 | [💡 android widget habit tracker](https://github.com/super-productivity/super-productivity/issues/9662) 💬 4 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.2k | 🟡 help wanted | 2026-09-22 |  |
-| [Setting a custom User Agent breaks Desktop mode toggle after removing the Custom User Agent](https://github.com/FaFre/WebLibre/issues/619) 💬 1 | [FaFre/WebLibre](https://github.com/FaFre/WebLibre) | 988 | 🟢 beginner | 2026-09-22 |  |
+| [Setting a custom User Agent breaks Desktop mode toggle after removing the Custom User Agent](https://github.com/FaFre/WebLibre/issues/619) 💬 1 | [FaFre/WebLibre](https://github.com/FaFre/WebLibre) | 990 | 🟢 beginner | 2026-09-22 |  |
 | [With external engine, getting DHE copy parameter's failure.](https://github.com/openssl/openssl/issues/23137) 💬 12 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-21 | 🤖 disclose AI use · ✍️ CLA |
 | [💡 Add Youtrack as issue provider](https://github.com/super-productivity/super-productivity/issues/5733) 💬 5 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.2k | 🟡 help wanted | 2026-09-21 |  |
 | [Loginflow SSO for Nextcloud](https://github.com/super-productivity/super-productivity/issues/914) 💬 29 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.2k | 🟡 help wanted | 2026-09-21 |  |
@@ -38,13 +44,7 @@
 | [💡 Settings - Default Order Number](https://github.com/super-productivity/super-productivity/issues/4630) 💬 3 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.2k | 🟡 help wanted | 2026-09-20 |  |
 | [🚨 GitLab issue descriptions and subtasks are not fetched](https://github.com/super-productivity/super-productivity/issues/4604) 💬 6 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.2k | 🟡 help wanted | 2026-09-20 |  |
 | [🚨 App does not try polling from local instance in an offline network (Android)](https://github.com/super-productivity/super-productivity/issues/4603) 💬 4 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.2k | 🟡 help wanted | 2026-09-20 |  |
-| [💡 iPad version](https://github.com/super-productivity/super-productivity/issues/4572) 💬 4 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.2k | 🟡 help wanted | 2026-09-20 |  |
-| [🚨 Task notification dialogue is not in the foreground](https://github.com/super-productivity/super-productivity/issues/4550) 💬 4 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.2k | 🟡 help wanted | 2026-09-20 |  |
-| [App keeps requesting password / decryption failed](https://github.com/super-productivity/super-productivity/issues/4514) 💬 16 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.2k | 🟡 help wanted | 2026-09-20 |  |
-| [💡 Short syntax to mark a (unplanned) task as completed!](https://github.com/super-productivity/super-productivity/issues/4477) 💬 4 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.2k | 🟡 help wanted | 2026-09-20 |  |
 | [Some icons are blurry or inconsistent in size on Android 16 / Fairphone](https://github.com/organicmaps/organicmaps/issues/13596) | [organicmaps/organicmaps](https://github.com/organicmaps/organicmaps) | 15.5k | 🟢 beginner | 2026-09-20 | 🔏 DCO |
-| [Two maps created with 'om', seem to share the same underlying buffer](https://github.com/rizinorg/rizin/issues/6771) 💬 1 | [rizinorg/rizin](https://github.com/rizinorg/rizin) | 3.9k | 🟡 help wanted | 2026-09-20 | 🤖 disclose AI use |
-| [Feature request: remember highlighted text after tab change](https://github.com/gchq/CyberChef/issues/874) 💬 4 | [gchq/CyberChef](https://github.com/gchq/CyberChef) | 35.9k | 🟢 beginner | 2026-09-19 | 🤖 disclose AI use · ✍️ CLA |
 | [nc_email_eai (v3_ncons.c:708-719): mailbox-form excluded rfc822Name never matches a SmtpUTF8Mailbox SAN → wron](https://github.com/openssl/openssl/issues/32373) 💬 2 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-19 | 🤖 disclose AI use · ✍️ CLA |
 | [[Feature Request] dns protection](https://github.com/0xCUB3/wBlock/issues/716) 💬 3 | [0xCUB3/wBlock](https://github.com/0xCUB3/wBlock) | 2.9k | 🟡 help wanted | 2026-09-19 |  |
 | [[Bug] Opening popup triggers extension mode flip](https://github.com/openstyles/stylus/issues/1810) 💬 6 | [openstyles/stylus](https://github.com/openstyles/stylus) | 6.9k | 🟡 help wanted | 2026-09-18 |  |
@@ -192,13 +192,12 @@
 | [CPU profiles: add the '.comment' value as rizin comment near the flag, if defined](https://github.com/rizinorg/rizin/issues/1671) 💬 13 | [rizinorg/rizin](https://github.com/rizinorg/rizin) | 3.9k | 🟢 beginner | 2026-06-07 | 🤖 disclose AI use |
 | [Add rendering man_made=tower](https://github.com/organicmaps/organicmaps/issues/5521) 💬 7 | [organicmaps/organicmaps](https://github.com/organicmaps/organicmaps) | 15.5k | 🟢 beginner | 2026-06-06 | 🔏 DCO |
 | [Publish icon is upside down](https://github.com/MISP/MISP/issues/1179) 💬 3 | [MISP/MISP](https://github.com/MISP/MISP) | 6.5k | 🟢 beginner | 2026-06-05 | ✍️ CLA |
-| [Selenium tests: check console output.](https://github.com/searxng/searxng/issues/338) 💬 1 | [searxng/searxng](https://github.com/searxng/searxng) | 37.5k | 🟢 beginner | 2026-06-04 | 📄 AI policy |
+| [Selenium tests: check console output.](https://github.com/searxng/searxng/issues/338) 💬 1 | [searxng/searxng](https://github.com/searxng/searxng) | 37.6k | 🟢 beginner | 2026-06-04 | 📄 AI policy |
 | [[FR] RTL BiDi Support](https://github.com/PrivateBin/PrivateBin/issues/1849) 💬 1 | [PrivateBin/PrivateBin](https://github.com/PrivateBin/PrivateBin) | 8.6k | 🟡 help wanted | 2026-06-04 | 🤖 disclose AI use |
 | [[Feature request] SQIsign](https://github.com/open-quantum-safe/liboqs/issues/1946) 💬 2 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-06-03 |  |
 | [Request: Form Upload with http server](https://github.com/rclone/rclone/issues/3151) 💬 3 | [rclone/rclone](https://github.com/rclone/rclone) | 59.9k | 🟡 help wanted | 2026-06-02 |  |
 | [Projects view, versions column should support semantic versioning](https://github.com/DependencyTrack/dependency-track/issues/378) 💬 3 | [DependencyTrack/dependency-track](https://github.com/DependencyTrack/dependency-track) | 4.2k | 🟡 help wanted | 2026-05-30 | ⚠️ AI restricted · 🔏 DCO |
 | [Re-implement fuzzy analysis for internal scanner](https://github.com/DependencyTrack/dependency-track/issues/6195) | [DependencyTrack/dependency-track](https://github.com/DependencyTrack/dependency-track) | 4.2k | 🟡 help wanted | 2026-05-29 | ⚠️ AI restricted · 🔏 DCO |
-| [Rework disassembly API](https://github.com/rizinorg/rizin/issues/3086) 💬 1 | [rizinorg/rizin](https://github.com/rizinorg/rizin) | 3.9k | 🟢 beginner | 2026-05-29 | 🤖 disclose AI use |
 | [Browers plugin? (eg. Firefox)](https://github.com/authpass/authpass/issues/41) 💬 13 | [authpass/authpass](https://github.com/authpass/authpass) | 2.8k | 🟡 help wanted | 2026-05-29 | ✍️ CLA |
 | [evaluate redundancy / error correction options](https://github.com/borgbackup/borg/issues/225) 💬 66 | [borgbackup/borg](https://github.com/borgbackup/borg) | 13.8k | 🟡 help wanted | 2026-05-28 |  |
 | [git secret can hang on 'Enter passphrase' in certain situation(s)](https://github.com/sobolevn/git-secret/issues/563) 💬 11 | [sobolevn/git-secret](https://github.com/sobolevn/git-secret) | 4k | 🟡 help wanted | 2026-05-28 |  |
@@ -210,5 +209,6 @@
 | [[META] Adding subfeatures to audits](https://github.com/zizmorcore/zizmor/issues/963) 💬 4 | [zizmorcore/zizmor](https://github.com/zizmorcore/zizmor) | 6.6k | 🟢 beginner | 2026-05-15 | 📄 AI policy |
 | [api_version as large unsigned int causes exception instead of clean rejection](https://github.com/XRPLF/rippled/issues/6776) 💬 1 | [XRPLF/rippled](https://github.com/XRPLF/rippled) | 5.2k | 🟢 beginner | 2026-05-15 | 🔏 DCO |
 | [[Feature]: Support Dual Call Scenario](https://github.com/kitsumed/ShizuCallRecorder/issues/2) | [kitsumed/ShizuCallRecorder](https://github.com/kitsumed/ShizuCallRecorder) | 1.6k | 🟡 help wanted | 2026-05-15 | 🤖 disclose AI use |
+| [App being hardly usable in Android Desktop Mode in maximized state](https://github.com/libre-tube/LibreTube/issues/8249) 💬 6 | [libre-tube/LibreTube](https://github.com/libre-tube/LibreTube) | 12.7k | 🟡 help wanted | 2026-05-14 |  |
 
-Showing the 200 most recently updated. See all 226 on the website.
+Showing the 200 most recently updated. See all 225 on the website.

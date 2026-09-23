@@ -1,8 +1,8 @@
 # PHP issues
 
-**154** open issues (76 labeled for beginners) across **54** active PHP projects.
+**158** open issues (76 labeled for beginners) across **54** active PHP projects.
 
-> Updated automatically on **2026-09-23 10:49 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-23 21:19 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,15 +10,21 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [Missing translations for Burmese (my)](https://github.com/symfony/symfony/issues/51897) 💬 2 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-22 |  |
+| [Missing translations for Burmese (my)](https://github.com/symfony/symfony/issues/51897) 💬 2 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-23 |  |
+| [Nginx container failed to connect to localhost in Sylius project on Docker](https://github.com/Sylius/Sylius/issues/14429) 💬 5 | [Sylius/Sylius](https://github.com/Sylius/Sylius) | 8.5k | 🟡 help wanted | 2026-09-23 | 📄 AI policy |
+| [Opcache Optimization triggering Segmentation Faults when using OpenTelemetry hooks](https://github.com/open-telemetry/opentelemetry-php/issues/1512) 💬 3 | [open-telemetry/opentelemetry-php](https://github.com/open-telemetry/opentelemetry-php) | 912 | 🟡 help wanted | 2026-09-23 |  |
+| [Inconsistent console exporter behavior/documentation](https://github.com/open-telemetry/opentelemetry-php/issues/1645) 💬 2 | [open-telemetry/opentelemetry-php](https://github.com/open-telemetry/opentelemetry-php) | 912 | 🟡 help wanted | 2026-09-23 |  |
+| [Allow dependency for google/protobuf v^5.34](https://github.com/open-telemetry/opentelemetry-php/issues/1902) 💬 1 | [open-telemetry/opentelemetry-php](https://github.com/open-telemetry/opentelemetry-php) | 912 | 🟡 help wanted | 2026-09-23 |  |
+| [[opentelemetry-php-contrib] auto PDO - add support for trace propagation through user variables](https://github.com/open-telemetry/opentelemetry-php/issues/2001) 💬 1 | [open-telemetry/opentelemetry-php](https://github.com/open-telemetry/opentelemetry-php) | 912 | 🟡 help wanted | 2026-09-23 |  |
 | [unnecessary folder in mobile app feed list](https://github.com/FreshRSS/FreshRSS/issues/2742) 💬 8 | [FreshRSS/FreshRSS](https://github.com/FreshRSS/FreshRSS) | 16.1k | 🟢 beginner | 2026-09-22 |  |
 | [Add SPDX license headers to all files](https://github.com/nextcloud/all-in-one/issues/7439) | [nextcloud/all-in-one](https://github.com/nextcloud/all-in-one) | 10.5k | 🟡 help wanted | 2026-09-22 | 🤖 disclose AI use · 🔏 DCO |
 | [Feat request: Contact conversations don't include anything they were cced or recipients of](https://github.com/freescout-help-desk/freescout/issues/5656) | [freescout-help-desk/freescout](https://github.com/freescout-help-desk/freescout) | 4.6k | 🟡 help wanted | 2026-09-22 |  |
-| [Add signature rejection policy configuration UI](https://github.com/LibreSign/libresign/issues/8160) 💬 4 | [LibreSign/libresign](https://github.com/LibreSign/libresign) | 821 | 🟢 beginner | 2026-09-22 | 🤖 disclose AI use · 🔏 DCO |
+| [Add signature rejection policy configuration UI](https://github.com/LibreSign/libresign/issues/8160) 💬 4 | [LibreSign/libresign](https://github.com/LibreSign/libresign) | 822 | 🟢 beginner | 2026-09-22 | 🤖 disclose AI use · 🔏 DCO |
 | [[Bug]: Web Updater’s "start update" button unreachable without scroll bar](https://github.com/nextcloud/server/issues/40624) 💬 3 | [nextcloud/server](https://github.com/nextcloud/server) | 36.9k | 🟢 beginner | 2026-09-21 | 🤖 disclose AI use · 🔏 DCO |
 | ['Cannot write into 'config' directory' misleading when an upgrade is needed](https://github.com/nextcloud/server/issues/29583) 💬 5 | [nextcloud/server](https://github.com/nextcloud/server) | 36.9k | 🟢 beginner | 2026-09-21 | 🤖 disclose AI use · 🔏 DCO |
-| [List LibreSign in beginner-friendly open source directories](https://github.com/LibreSign/libresign/issues/8284) 💬 5 | [LibreSign/libresign](https://github.com/LibreSign/libresign) | 821 | 🟢 beginner | 2026-09-21 | 🤖 disclose AI use · 🔏 DCO |
-| [Show a SELinux hint when Java execution is blocked](https://github.com/LibreSign/libresign/issues/3227) | [LibreSign/libresign](https://github.com/LibreSign/libresign) | 821 | 🟢 beginner | 2026-09-20 | 🤖 disclose AI use · 🔏 DCO |
+| [List LibreSign in beginner-friendly open source directories](https://github.com/LibreSign/libresign/issues/8284) 💬 5 | [LibreSign/libresign](https://github.com/LibreSign/libresign) | 822 | 🟢 beginner | 2026-09-21 | 🤖 disclose AI use · 🔏 DCO |
+| [Show a SELinux hint when Java execution is blocked](https://github.com/LibreSign/libresign/issues/3227) | [LibreSign/libresign](https://github.com/LibreSign/libresign) | 822 | 🟢 beginner | 2026-09-20 | 🤖 disclose AI use · 🔏 DCO |
+| [🚀 Feature: Add OneSignal as a Messaging provider](https://github.com/appwrite/appwrite/issues/7726) 💬 9 | [appwrite/appwrite](https://github.com/appwrite/appwrite) | 57.4k | 🟡 help wanted | 2026-09-19 |  |
 | [Missing translations for Welsh (cy)](https://github.com/symfony/symfony/issues/51903) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-19 |  |
 | [Missing translations for Vietnamese (vi)](https://github.com/symfony/symfony/issues/53309) 💬 4 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-19 |  |
 | [Missing translations for Uzbek (uz)](https://github.com/symfony/symfony/issues/65569) | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-19 |  |
@@ -45,6 +51,7 @@
 | [Missing translations for Lithuanian (lt)](https://github.com/symfony/symfony/issues/65558) | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-19 |  |
 | [Missing translations for Latvian (lv)](https://github.com/symfony/symfony/issues/64503) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-19 |  |
 | [Missing translations for Japanese (ja)](https://github.com/symfony/symfony/issues/64502) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-19 |  |
+| [Missing translations for Italian (it)](https://github.com/symfony/symfony/issues/66170) | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-19 |  |
 | [Duplicate conversation created from a single self-addressed email with identical Message-ID (single mailbox, o](https://github.com/freescout-help-desk/freescout/issues/5638) 💬 4 | [freescout-help-desk/freescout](https://github.com/freescout-help-desk/freescout) | 4.6k | 🟡 help wanted | 2026-09-19 |  |
 | [improve Automatic updates when they fail silently if image pulls fail due to host failures — no notification, ](https://github.com/nextcloud/all-in-one/issues/8452) 💬 3 | [nextcloud/all-in-one](https://github.com/nextcloud/all-in-one) | 10.5k | 🟡 help wanted | 2026-09-18 | 🤖 disclose AI use · 🔏 DCO |
 | [Reject credential and other unsupported keys in 'files_external:option'](https://github.com/nextcloud/server/issues/58821) 💬 3 | [nextcloud/server](https://github.com/nextcloud/server) | 36.9k | 🟢 beginner | 2026-09-17 | 🤖 disclose AI use · 🔏 DCO |
@@ -55,7 +62,6 @@
 | [Ollama cloud and webSearch](https://github.com/LLPhant/LLPhant/issues/421) | [LLPhant/LLPhant](https://github.com/LLPhant/LLPhant) | 1.7k | 🟡 help wanted | 2026-09-16 |  |
 | [Meilisearch Vector Database Support](https://github.com/LLPhant/LLPhant/issues/425) | [LLPhant/LLPhant](https://github.com/LLPhant/LLPhant) | 1.7k | 🟡 help wanted | 2026-09-16 |  |
 | [Expand CalDAVRemoveEmptyValue.php to fix additional 'Unsupported VALUE parameter for DTEND property' errors th](https://github.com/nextcloud/server/issues/17554) 💬 7 | [nextcloud/server](https://github.com/nextcloud/server) | 36.9k | 🟢 beginner | 2026-09-15 | 🤖 disclose AI use · 🔏 DCO |
-| [Move API component 'ComponentProvider's into API packages](https://github.com/open-telemetry/opentelemetry-php/issues/1638) 💬 3 | [open-telemetry/opentelemetry-php](https://github.com/open-telemetry/opentelemetry-php) | 912 | 🟡 help wanted | 2026-09-15 |  |
 | ['CHECK_MODE_COERCE_TYPES' flag does not coerce quoted ints to corresponding boolean](https://github.com/jsonrainbow/json-schema/issues/955) 💬 1 | [jsonrainbow/json-schema](https://github.com/jsonrainbow/json-schema) | 3.6k | 🟢 beginner | 2026-09-14 |  |
 | [Write or document a replacement for parseAddresses](https://github.com/PHPMailer/PHPMailer/issues/3359) | [PHPMailer/PHPMailer](https://github.com/PHPMailer/PHPMailer) | 22.3k | 🟢 beginner | 2026-09-10 |  |
 | [InitialTestSuite/SA should only run when mutations found](https://github.com/infection/infection/issues/2555) 💬 3 | [infection/infection](https://github.com/infection/infection) | 2.2k | 🟡 help wanted | 2026-09-10 |  |
@@ -70,9 +76,8 @@
 | [Subscription::currentPeriodStart / currentPeriodEnd causes lazy load error when preventLazyLoad is active](https://github.com/laravel/cashier-stripe/issues/1844) 💬 2 | [laravel/cashier-stripe](https://github.com/laravel/cashier-stripe) | 2.5k | 🟡 help wanted | 2026-09-01 |  |
 | [Add option to exclude certain HTTP statuses from tracing in SDK](https://github.com/getsentry/sentry-php/issues/1913) 💬 1 | [getsentry/sentry-php](https://github.com/getsentry/sentry-php) | 1.9k | 🟢 beginner | 2026-09-01 |  |
 | [Add Documentation for Custom Transport](https://github.com/getsentry/sentry-php/issues/1924) 💬 1 | [getsentry/sentry-php](https://github.com/getsentry/sentry-php) | 1.9k | 🟢 beginner | 2026-09-01 |  |
-| [Add class_serializer for 'Illuminate\\Http\\Client\\Response'](https://github.com/getsentry/sentry-laravel/issues/1070) 💬 1 | [getsentry/sentry-laravel](https://github.com/getsentry/sentry-laravel) | 1.3k | 🟢 beginner | 2026-09-01 |  |
-| [Update Commands to use the Fully Qualified Class Name for the 'Transaction'](https://github.com/getsentry/sentry-laravel/issues/1022) 💬 2 | [getsentry/sentry-laravel](https://github.com/getsentry/sentry-laravel) | 1.3k | 🟢 beginner | 2026-09-01 |  |
-| [Add option to exclude certain HTTP statuses from tracing in SDK](https://github.com/getsentry/sentry-symfony/issues/957) 💬 5 | [getsentry/sentry-symfony](https://github.com/getsentry/sentry-symfony) | 738 | 🟢 beginner | 2026-09-01 |  |
+| [Add class_serializer for 'Illuminate\\Http\\Client\\Response'](https://github.com/getsentry/sentry-laravel/issues/1070) 💬 1 | [getsentry/sentry-laravel](https://github.com/getsentry/sentry-laravel) | 1.4k | 🟢 beginner | 2026-09-01 |  |
+| [Update Commands to use the Fully Qualified Class Name for the 'Transaction'](https://github.com/getsentry/sentry-laravel/issues/1022) 💬 2 | [getsentry/sentry-laravel](https://github.com/getsentry/sentry-laravel) | 1.4k | 🟢 beginner | 2026-09-01 |  |
 | [JUnit report format (compatible with GitLab CI)](https://github.com/infection/infection/issues/1500) 💬 2 | [infection/infection](https://github.com/infection/infection) | 2.2k | 🟡 help wanted | 2026-08-30 |  |
 | [[feature] Allow per-class mutant coverage thresholds](https://github.com/infection/infection/issues/2290) 💬 11 | [infection/infection](https://github.com/infection/infection) | 2.2k | 🟡 help wanted | 2026-08-30 |  |
 | [Alternative Badge SVG File as report for use in Gitlab and private Repositories](https://github.com/infection/infection/issues/1915) 💬 9 | [infection/infection](https://github.com/infection/infection) | 2.2k | 🟡 help wanted | 2026-08-30 |  |
@@ -84,7 +89,6 @@
 | [Is it possible to adjust the time in a user notification?](https://github.com/freescout-help-desk/freescout/issues/5570) | [freescout-help-desk/freescout](https://github.com/freescout-help-desk/freescout) | 4.6k | 🟡 help wanted | 2026-08-15 |  |
 | [Enhance Blueprint Stubs with PHPDoc to Eliminate PHPStan Warnings](https://github.com/laravel-shift/blueprint/issues/738) 💬 4 | [laravel-shift/blueprint](https://github.com/laravel-shift/blueprint) | 3.1k | 🟢 beginner | 2026-08-15 |  |
 | [[Feature Request/Bug] reordering feeds within a category](https://github.com/FreshRSS/FreshRSS/issues/3527) 💬 5 | [FreshRSS/FreshRSS](https://github.com/FreshRSS/FreshRSS) | 16.1k | 🟢 beginner | 2026-08-14 |  |
-| [Mago analysis](https://github.com/open-telemetry/opentelemetry-php/issues/1964) 💬 8 | [open-telemetry/opentelemetry-php](https://github.com/open-telemetry/opentelemetry-php) | 912 | 🟡 help wanted | 2026-08-12 |  |
 | [Setup Onboarding Login-Flow (for Enforce 2FA)](https://github.com/WordPress/two-factor/issues/813) 💬 3 | [WordPress/two-factor](https://github.com/WordPress/two-factor) | 825 | 🟡 help wanted | 2026-08-10 | 🤖 disclose AI use |
 | [docker UID/GID environment settings?](https://github.com/FreshRSS/FreshRSS/issues/2400) 💬 6 | [FreshRSS/FreshRSS](https://github.com/FreshRSS/FreshRSS) | 16.1k | 🟡 help wanted | 2026-08-09 |  |
 | [Scaled instances and the deletion problem](https://github.com/HaschekSolutions/pictshare/issues/80) 💬 8 | [HaschekSolutions/pictshare](https://github.com/HaschekSolutions/pictshare) | 948 | 🟡 help wanted | 2026-08-09 |  |

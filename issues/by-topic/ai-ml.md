@@ -1,8 +1,8 @@
 # AI and machine learning issues
 
-**406** open issues (172 labeled for beginners) across **129** projects tagged with topics like `machine-learning`, `deep-learning`, `ai`, `llm`, `artificial-intelligence`, `nlp`.
+**411** open issues (176 labeled for beginners) across **129** projects tagged with topics like `machine-learning`, `deep-learning`, `ai`, `llm`, `artificial-intelligence`, `nlp`.
 
-> Updated automatically on **2026-09-23 10:49 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-23 21:19 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,25 +10,26 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| ['head -n N file' has no rewrite rule while 'tail -n N file' does](https://github.com/rtk-ai/rtk/issues/3667) 💬 2 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 81.5k | 🟢 beginner | 2026-09-23 | ✍️ CLA |
-| [Reuse checksum-matching detached parts when bootstrapping a fresh replica](https://github.com/ClickHouse/ClickHouse/issues/121509) 💬 2 | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 50k | 🟡 help wanted | 2026-09-23 | 🤖 disclose AI use · ✍️ CLA |
+| [Feature request: Add support for high-frequency unhandled commands (mvn test, npm install/view, lsof, agent-br](https://github.com/rtk-ai/rtk/issues/2007) 💬 2 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 81.6k | 🟡 help wanted | 2026-09-23 | ✍️ CLA |
+| ['head -n N file' has no rewrite rule while 'tail -n N file' does](https://github.com/rtk-ai/rtk/issues/3667) 💬 2 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 81.6k | 🟢 beginner | 2026-09-23 | ✍️ CLA |
+| [Reuse checksum-matching detached parts when bootstrapping a fresh replica](https://github.com/ClickHouse/ClickHouse/issues/121509) 💬 3 | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 50k | 🟡 help wanted | 2026-09-23 | 🤖 disclose AI use · ✍️ CLA |
 | [建议Chat2BI增加类似AI应用一样的发布功能](https://github.com/jeecgboot/JeecgBoot/issues/9896) 💬 1 | [jeecgboot/JeecgBoot](https://github.com/jeecgboot/JeecgBoot) | 48k | 🟡 help wanted | 2026-09-23 |  |
 | [积木报表在线填报表单中数据字典不能获取系统中已有数据字典、新增又提示编码已经存在](https://github.com/jeecgboot/jimureport/issues/4797) | [jeecgboot/jimureport](https://github.com/jeecgboot/jimureport) | 8.5k | 🟡 help wanted | 2026-09-23 |  |
 | [积木报表横向分组一级标题无法设置分组合计](https://github.com/jeecgboot/jimureport/issues/4796) 💬 1 | [jeecgboot/jimureport](https://github.com/jeecgboot/jimureport) | 8.5k | 🟡 help wanted | 2026-09-23 |  |
-| [EMBA does not detect all components / SBOM is incomplete](https://github.com/e-m-b-a/emba/issues/2132) | [e-m-b-a/emba](https://github.com/e-m-b-a/emba) | 3.7k | 🟢 beginner | 2026-09-23 |  |
+| [EMBA does not detect all components / SBOM is incomplete](https://github.com/e-m-b-a/emba/issues/2132) 💬 1 | [e-m-b-a/emba](https://github.com/e-m-b-a/emba) | 3.7k | 🟢 beginner | 2026-09-23 |  |
 | [Unit test stub autogenerator](https://github.com/apache/hamilton/issues/74) 💬 6 | [apache/hamilton](https://github.com/apache/hamilton) | 2.6k | 🟢 beginner | 2026-09-23 | ✍️ CLA |
-| [Awareness text teaches 'rtk git add . && rtk git commit -m' as the chain example — unsafe for the concurrent-w](https://github.com/rtk-ai/rtk/issues/4193) 💬 1 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 81.5k | 🟢 beginner | 2026-09-22 | ✍️ CLA |
-| [Hook rewrite coverage: openssl and awk unmapped; sshpass unusable as a transparent prefix](https://github.com/rtk-ai/rtk/issues/4190) 💬 1 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 81.5k | 🟡 help wanted | 2026-09-22 | ✍️ CLA |
+| [Awareness text teaches 'rtk git add . && rtk git commit -m' as the chain example — unsafe for the concurrent-w](https://github.com/rtk-ai/rtk/issues/4193) 💬 1 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 81.6k | 🟢 beginner | 2026-09-22 | ✍️ CLA |
+| [Hook rewrite coverage: openssl and awk unmapped; sshpass unusable as a transparent prefix](https://github.com/rtk-ai/rtk/issues/4190) 💬 1 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 81.6k | 🟡 help wanted | 2026-09-22 | ✍️ CLA |
 | [[Data] Unity Catalog Delta Table Reads Won't Work with GCP Databricks](https://github.com/ray-project/ray/issues/64880) 💬 5 | [ray-project/ray](https://github.com/ray-project/ray) | 43.9k | 🟢 beginner | 2026-09-22 | 🔏 DCO |
-| [feat(site): allow customization of Web Terminal browser tab/window title](https://github.com/coder/coder/issues/25693) | [coder/coder](https://github.com/coder/coder) | 16.6k | 🟢 beginner | 2026-09-22 | 📄 AI policy |
+| [feat(site): allow customization of Web Terminal browser tab/window title](https://github.com/coder/coder/issues/25693) | [coder/coder](https://github.com/coder/coder) | 16.7k | 🟢 beginner | 2026-09-22 | 📄 AI policy |
 | [[Discussion][Connector-V2] Define safe file splitting, recoverable reads, and media-aware file ingestion](https://github.com/apache/seatunnel/issues/12437) | [apache/seatunnel](https://github.com/apache/seatunnel) | 9.7k | 🟡 help wanted | 2026-09-22 | ✍️ CLA |
 | [[Feature][Transform-V2] Make FieldEncrypt production-ready with pluggable key management](https://github.com/apache/seatunnel/issues/12407) 💬 2 | [apache/seatunnel](https://github.com/apache/seatunnel) | 9.7k | 🟡 help wanted | 2026-09-22 | ✍️ CLA |
 | [[DatabaseLoader] Create higher level convenient methods for DatabaseLoader](https://github.com/dotnet/machinelearning/issues/4182) 💬 3 | [dotnet/machinelearning](https://github.com/dotnet/machinelearning) | 9.4k | 🟢 beginner | 2026-09-22 | ✍️ CLA |
 | [Writer for WebDatasets File Format](https://github.com/Eventual-Inc/Daft/issues/7343) 💬 1 | [Eventual-Inc/Daft](https://github.com/Eventual-Inc/Daft) | 5.8k | 🟡 help wanted | 2026-09-22 | 🤖 disclose AI use |
-| [sleep-refusal message recommends Monitor unconditionally, with no config surface](https://github.com/rtk-ai/rtk/issues/4182) 💬 1 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 81.5k | 🟢 beginner | 2026-09-21 | ✍️ CLA |
-| [git diff/status output can contain text that exists nowhere on disk](https://github.com/rtk-ai/rtk/issues/4183) 💬 1 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 81.5k | 🟡 help wanted | 2026-09-21 | ✍️ CLA |
-| [backgrounded command's stdin is a garbage pipe (non-UTF8 bytes, never EOF)](https://github.com/rtk-ai/rtk/issues/4179) 💬 1 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 81.5k | 🟡 help wanted | 2026-09-21 | ✍️ CLA |
-| [Feature: add support for kiro-cli](https://github.com/rtk-ai/rtk/issues/845) 💬 19 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 81.5k | 🟡 help wanted | 2026-09-21 | ✍️ CLA |
+| [sleep-refusal message recommends Monitor unconditionally, with no config surface](https://github.com/rtk-ai/rtk/issues/4182) 💬 1 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 81.6k | 🟢 beginner | 2026-09-21 | ✍️ CLA |
+| [git diff/status output can contain text that exists nowhere on disk](https://github.com/rtk-ai/rtk/issues/4183) 💬 1 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 81.6k | 🟡 help wanted | 2026-09-21 | ✍️ CLA |
+| [backgrounded command's stdin is a garbage pipe (non-UTF8 bytes, never EOF)](https://github.com/rtk-ai/rtk/issues/4179) 💬 1 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 81.6k | 🟡 help wanted | 2026-09-21 | ✍️ CLA |
+| [Feature: add support for kiro-cli](https://github.com/rtk-ai/rtk/issues/845) 💬 19 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 81.6k | 🟡 help wanted | 2026-09-21 | ✍️ CLA |
 | [Databricks: add SQL endpoint operators](https://github.com/apache/airflow/issues/21377) 💬 12 | [apache/airflow](https://github.com/apache/airflow) | 47k | 🟢 beginner | 2026-09-21 | 🤖 disclose AI use · ✍️ CLA |
 | [[Bug]: emergency stop is a CLI-only state file that no runtime path reads](https://github.com/zeroclaw-labs/zeroclaw/issues/9390) 💬 3 | [zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw) | 32.9k | 🟡 help wanted | 2026-09-21 | 🤖 disclose AI use · ✍️ CLA |
 | [AdvancedProfiler: ValueError: Attempting to stop recording an action (run_test_evaluation) which was never sta](https://github.com/Lightning-AI/pytorch-lightning/issues/9136) 💬 17 | [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | 31.4k | 🟢 beginner | 2026-09-21 | 📄 AI policy |
@@ -42,16 +43,15 @@
 | [Inpainting crashes with HIPFFT_PARSE_ERROR](https://github.com/koharu-rs/koharu/issues/1082) 💬 4 | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.6k | 🟡 help wanted | 2026-09-21 | 🤖 disclose AI use |
 | [Add test to verify parameters match between operator and decorator](https://github.com/apache/airflow/issues/48448) 💬 11 | [apache/airflow](https://github.com/apache/airflow) | 47k | 🟢 beginner | 2026-09-20 | 🤖 disclose AI use · ✍️ CLA |
 | [Add an image-aware PDF RAG example with page-level citations](https://github.com/Arindam200/awesome-ai-apps/issues/277) 💬 2 | [Arindam200/awesome-ai-apps](https://github.com/Arindam200/awesome-ai-apps) | 15.9k | 🟢 beginner | 2026-09-20 |  |
-| [[Bug]: Missing text chat when Create Automation button is clicked in modal](https://github.com/OpenHands/OpenHands/issues/15833) 💬 6 | [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | 88.9k | 🟢 beginner | 2026-09-19 |  |
-| [RTK is not being configured properly with global initialization for VS Code + Copilot](https://github.com/rtk-ai/rtk/issues/2216) 💬 5 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 81.5k | 🟡 help wanted | 2026-09-19 | ✍️ CLA |
+| [[Bug]: Missing text chat when Create Automation button is clicked in modal](https://github.com/OpenHands/OpenHands/issues/15833) 💬 6 | [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | 89k | 🟢 beginner | 2026-09-19 |  |
+| [RTK is not being configured properly with global initialization for VS Code + Copilot](https://github.com/rtk-ai/rtk/issues/2216) 💬 5 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 81.6k | 🟡 help wanted | 2026-09-19 | ✍️ CLA |
 | [AIGC AI流程设计和AI应用管理 增加LLM流程节点时模型列表，只有语言模型，AI应用编排里，AI模型列表也只有语言模型，](https://github.com/jeecgboot/JeecgBoot/issues/9891) | [jeecgboot/JeecgBoot](https://github.com/jeecgboot/JeecgBoot) | 48k | 🟡 help wanted | 2026-09-19 |  |
 | [[Bug] Wiki asset metadata not persisted after ingestion pipeline completes](https://github.com/TencentCloud/TencentDB-Agent-Memory/issues/1232) 💬 5 | [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | 27.2k | 🟢 beginner | 2026-09-19 | 🔏 DCO |
-| [publish_code_suggestions repeats the same validation skeleton in every provider](https://github.com/The-PR-Agent/pr-agent/issues/3510) 💬 1 | [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent) | 13.1k | 🟡 help wanted | 2026-09-19 | 🤖 disclose AI use |
 | [Contribute a workflow example to the gallery](https://github.com/iflytek/astron-agent/issues/1410) 💬 4 | [iflytek/astron-agent](https://github.com/iflytek/astron-agent) | 9k | 🟢 beginner | 2026-09-19 |  |
 | [seems like custom text cant implement the auto-fit resize for whatever reason, so, to resize have to manually ](https://github.com/koharu-rs/koharu/issues/991) 💬 2 | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.6k | 🟡 help wanted | 2026-09-19 | 🤖 disclose AI use |
-| [rtk grep: invalid UTF-8 in a searched file corrupts file-count/attribution for other matches in the same file ](https://github.com/rtk-ai/rtk/issues/4113) 💬 1 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 81.5k | 🟡 help wanted | 2026-09-18 | ✍️ CLA |
-| [Prioritize high-frequency unhandled commands: gofmt, cat, go run, and node](https://github.com/rtk-ai/rtk/issues/4112) 💬 1 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 81.5k | 🟡 help wanted | 2026-09-18 | ✍️ CLA |
-| [rtk read: add a line-range option so sed -n range reads stop escaping the filter](https://github.com/rtk-ai/rtk/issues/4111) 💬 1 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 81.5k | 🟡 help wanted | 2026-09-18 | ✍️ CLA |
+| [rtk grep: invalid UTF-8 in a searched file corrupts file-count/attribution for other matches in the same file ](https://github.com/rtk-ai/rtk/issues/4113) 💬 1 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 81.6k | 🟡 help wanted | 2026-09-18 | ✍️ CLA |
+| [Prioritize high-frequency unhandled commands: gofmt, cat, go run, and node](https://github.com/rtk-ai/rtk/issues/4112) 💬 1 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 81.6k | 🟡 help wanted | 2026-09-18 | ✍️ CLA |
+| [rtk read: add a line-range option so sed -n range reads stop escaping the filter](https://github.com/rtk-ai/rtk/issues/4111) 💬 1 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 81.6k | 🟡 help wanted | 2026-09-18 | ✍️ CLA |
 | [Combined length of DAG tags cannot exceed 100 characters](https://github.com/apache/airflow/issues/55693) 💬 4 | [apache/airflow](https://github.com/apache/airflow) | 47k | 🟢 beginner | 2026-09-18 | 🤖 disclose AI use · ✍️ CLA |
 | [Using Pydantic state with aliased fields](https://github.com/langchain-ai/langgraph/issues/2555) 💬 10 | [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) | 42.2k | 🟡 help wanted | 2026-09-18 | ⚠️ AI restricted |
 | [Hackathon [Feature]: Add ClickHouse data-source connector](https://github.com/topoteretes/cognee/issues/4768) 💬 1 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | 30.9k | 🟢 beginner | 2026-09-18 | 🔏 DCO |
@@ -69,14 +69,14 @@
 | [Ollama cloud and webSearch](https://github.com/LLPhant/LLPhant/issues/421) | [LLPhant/LLPhant](https://github.com/LLPhant/LLPhant) | 1.7k | 🟡 help wanted | 2026-09-16 |  |
 | [Meilisearch Vector Database Support](https://github.com/LLPhant/LLPhant/issues/425) | [LLPhant/LLPhant](https://github.com/LLPhant/LLPhant) | 1.7k | 🟡 help wanted | 2026-09-16 |  |
 | [[Feature Request] 支持 CodeWhale（DeepSeek V4 终端编程智能体）](https://github.com/erha19/ping-island/issues/238) 💬 2 | [erha19/ping-island](https://github.com/erha19/ping-island) | 1.1k | 🟢 beginner | 2026-09-16 |  |
-| [feat(providers): Auto-validate models against provider live catalog on import to prevent stale model errors](https://github.com/diegosouzapw/OmniRoute/issues/13505) 💬 2 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 69.4k | 🟡 help wanted | 2026-09-15 |  |
+| [feat(providers): Auto-validate models against provider live catalog on import to prevent stale model errors](https://github.com/diegosouzapw/OmniRoute/issues/13505) 💬 2 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 69.6k | 🟡 help wanted | 2026-09-15 |  |
 | [【推荐内容】合集](https://github.com/jingyaogong/minimind/issues/504) 💬 3 | [jingyaogong/minimind](https://github.com/jingyaogong/minimind) | 62.3k | 🟢 beginner | 2026-09-15 |  |
 | [Shell mode doesn't respect Cmd object's env](https://github.com/JuliaLang/julia/issues/51020) 💬 4 | [JuliaLang/julia](https://github.com/JuliaLang/julia) | 49.1k | 🟢 beginner | 2026-09-15 | 🤖 disclose AI use |
 | [Hackathon [Feature]: Add Postman data-source connector](https://github.com/topoteretes/cognee/issues/4711) 💬 1 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | 30.9k | 🟢 beginner | 2026-09-15 | 🔏 DCO |
 | [Web Search Tool](https://github.com/editor-code-assistant/eca/issues/70) 💬 8 | [editor-code-assistant/eca](https://github.com/editor-code-assistant/eca) | 1k | 🟢 beginner | 2026-09-15 |  |
 | ['COMMIT AND CHAIN' is not compatible with MySQL](https://github.com/pingcap/tidb/issues/71059) 💬 4 | [pingcap/tidb](https://github.com/pingcap/tidb) | 40.6k | 🟢 beginner | 2026-09-14 |  |
 | [Privacy controls for chat-history avatar training](https://github.com/xming521/WeClone/issues/231) | [xming521/WeClone](https://github.com/xming521/WeClone) | 18.3k | 🟢 beginner | 2026-09-14 |  |
-| [Missing Rmath derivatives](https://github.com/EnzymeAD/Enzyme.jl/issues/1620) 💬 2 | [EnzymeAD/Enzyme.jl](https://github.com/EnzymeAD/Enzyme.jl) | 587 | 🟡 help wanted | 2026-09-14 |  |
+| [Missing Rmath derivatives](https://github.com/EnzymeAD/Enzyme.jl/issues/1620) 💬 2 | [EnzymeAD/Enzyme.jl](https://github.com/EnzymeAD/Enzyme.jl) | 588 | 🟡 help wanted | 2026-09-14 |  |
 | [Example: runnable app on the self-managed path (no Node runtime)](https://github.com/CopilotKit/CopilotKit/issues/7015) 💬 3 | [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit) | 37.5k | 🟡 help wanted | 2026-09-13 |  |
 | [postgres/sqlalchemy display of timestamptz loses my local timezone](https://github.com/marimo-team/marimo/issues/6250) 💬 10 | [marimo-team/marimo](https://github.com/marimo-team/marimo) | 22.9k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use · ✍️ CLA |
 | [[data_editor] Checkbox and dropdown elements in data_editor columns](https://github.com/marimo-team/marimo/issues/6694) 💬 8 | [marimo-team/marimo](https://github.com/marimo-team/marimo) | 22.9k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use · ✍️ CLA |
@@ -114,7 +114,7 @@
 | [Hackathon [Feature]: Add Rollbar data-source connector](https://github.com/topoteretes/cognee/issues/4778) 💬 1 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | 30.9k | 🟢 beginner | 2026-09-10 | 🔏 DCO |
 | [[FR] Implement docker image build support for R models](https://github.com/mlflow/mlflow/issues/17401) 💬 4 | [mlflow/mlflow](https://github.com/mlflow/mlflow) | 28.1k | 🟡 help wanted | 2026-09-10 | 🔏 DCO |
 | [delay字段添加随机延迟功能，如pre_delay[100,5000],在100到5000ms之间随机延迟](https://github.com/MaaXYZ/MaaFramework/issues/1470) 💬 1 | [MaaXYZ/MaaFramework](https://github.com/MaaXYZ/MaaFramework) | 4.9k | 🟡 help wanted | 2026-09-09 |  |
-| [🚨 CRITICAL: Verification & Truth Enforcement System Failure in Multi-Agent Architecture](https://github.com/ruvnet/ruflo/issues/640) 💬 12 | [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 73.1k | 🟡 help wanted | 2026-09-08 | 🤖 disclose AI use |
+| [🚨 CRITICAL: Verification & Truth Enforcement System Failure in Multi-Agent Architecture](https://github.com/ruvnet/ruflo/issues/640) 💬 12 | [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 73.2k | 🟡 help wanted | 2026-09-08 | 🤖 disclose AI use |
 | [Remove dr_wav.h](https://github.com/ggml-org/whisper.cpp/issues/165) 💬 2 | [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) | 53.9k | 🟢 beginner | 2026-09-08 | ⚠️ AI restricted |
 | [[core] Adopt 'absl::InlinedVector' for small, frequently-allocated collections](https://github.com/ray-project/ray/issues/59884) 💬 9 | [ray-project/ray](https://github.com/ray-project/ray) | 43.9k | 🟢 beginner | 2026-09-08 | 🔏 DCO |
 | [Decision tree visualization](https://github.com/lutzroeder/netron/issues/180) 💬 1 | [lutzroeder/netron](https://github.com/lutzroeder/netron) | 33.5k | 🟡 help wanted | 2026-09-08 |  |
@@ -143,6 +143,7 @@
 | [Block areas work like in version 0.61.2](https://github.com/koharu-rs/koharu/issues/929) 💬 1 | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.6k | 🟡 help wanted | 2026-09-08 | 🤖 disclose AI use |
 | [detector sometimes failed to detect an obvious text](https://github.com/koharu-rs/koharu/issues/919) 💬 4 | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.6k | 🟡 help wanted | 2026-09-08 | 🤖 disclose AI use |
 | [please add notification sound whenever a process completed...](https://github.com/koharu-rs/koharu/issues/918) | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.6k | 🟡 help wanted | 2026-09-08 | 🤖 disclose AI use |
+| [copilot: no real-world fixture proving duplicate exporter spans are snapshots, not deltas](https://github.com/junhoyeo/tokscale/issues/940) | [junhoyeo/tokscale](https://github.com/junhoyeo/tokscale) | 5.5k | 🟡 help wanted | 2026-09-08 | 📄 AI policy |
 | [Hackathon [Feature]: Add Klaviyo data-source connector](https://github.com/topoteretes/cognee/issues/4785) 💬 1 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | 30.9k | 🟢 beginner | 2026-09-07 | 🔏 DCO |
 | [Integration: upstream the CrewAI integration to CrewAI's own docs](https://github.com/semantica-agi/semantica/issues/1518) | [semantica-agi/semantica](https://github.com/semantica-agi/semantica) | 13.4k | 🟢 beginner | 2026-09-07 |  |
 | [[Improve][Zeta] Bound terminal-state notification delivery without dropping terminal events](https://github.com/apache/seatunnel/issues/12118) 💬 2 | [apache/seatunnel](https://github.com/apache/seatunnel) | 9.7k | 🟡 help wanted | 2026-09-07 | ✍️ CLA |
@@ -151,7 +152,6 @@
 | [[Umbrella][Performance] Track benchmark-driven optimizations and propose evidence guidelines](https://github.com/apache/seatunnel/issues/12086) 💬 2 | [apache/seatunnel](https://github.com/apache/seatunnel) | 9.7k | 🟡 help wanted | 2026-09-06 | ✍️ CLA |
 | [v4.0 post-release polish: event-count arithmetic + test cleanup trap](https://github.com/sangrokjung/claude-forge/issues/81) 💬 1 | [sangrokjung/claude-forge](https://github.com/sangrokjung/claude-forge) | 843 | 🟢 beginner | 2026-09-06 |  |
 | [Autonomous Agents, Unite!](https://github.com/microsoft/markitdown/issues/2386) 💬 4 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | 186.6k | 🟢 beginner | 2026-09-05 |  |
-| [feat: unified all-models catalog page in the dashboard](https://github.com/diegosouzapw/OmniRoute/issues/12593) 💬 3 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 69.4k | 🟢 beginner | 2026-09-05 |  |
 | [control state of individual taskflow in mapped task-group](https://github.com/apache/airflow/issues/40543) 💬 12 | [apache/airflow](https://github.com/apache/airflow) | 47k | 🟢 beginner | 2026-09-05 | 🤖 disclose AI use · ✍️ CLA |
 | [🚀 Feature Request: CopilotChat support @ context](https://github.com/CopilotKit/CopilotKit/issues/1962) 💬 8 | [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit) | 37.5k | 🟡 help wanted | 2026-09-05 |  |
 | ['self.log' raised error when number of dataloader is not consistent](https://github.com/Lightning-AI/pytorch-lightning/issues/16431) 💬 2 | [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | 31.4k | 🟡 help wanted | 2026-09-05 | 📄 AI policy |
@@ -177,6 +177,7 @@
 | [[Feature request] 'torch.export' .save/.load could support 'safetensors' and/or 'weights_only=True'](https://github.com/pytorch/pytorch/issues/153410) 💬 18 | [pytorch/pytorch](https://github.com/pytorch/pytorch) | 103.2k | 🟢 beginner | 2026-09-02 | 🤖 disclose AI use · ✍️ CLA |
 | [train_test_split with stratify causing integer overflow (32bit version)](https://github.com/scikit-learn/scikit-learn/issues/13794) 💬 5 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | 67.4k | 🟡 help wanted | 2026-09-02 | 🤖 disclose AI use |
 | [Hackathon [Feature]: Add Raindrop.io data-source connector](https://github.com/topoteretes/cognee/issues/4813) 💬 1 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | 30.9k | 🟢 beginner | 2026-09-02 | 🔏 DCO |
+| [Hackathon [Feature]: Add Zotero data-source connector](https://github.com/topoteretes/cognee/issues/4814) 💬 1 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | 30.9k | 🟢 beginner | 2026-09-02 | 🔏 DCO |
 | [[Feature request] Check whether we should introduce https://scientific-python.org/specs/spec-0004/](https://github.com/onnx/onnx/issues/7212) 💬 4 | [onnx/onnx](https://github.com/onnx/onnx) | 21.5k | 🟢 beginner | 2026-09-02 | 🤖 disclose AI use · ✍️ CLA · 🔏 DCO |
 | [Alternative query result format other than []dict](https://github.com/googleapis/mcp-toolbox/issues/1537) 💬 6 | [googleapis/mcp-toolbox](https://github.com/googleapis/mcp-toolbox) | 16.5k | 🟡 help wanted | 2026-09-02 | ✍️ CLA |
 | [GCS needs someone with a real bucket to run its test](https://github.com/deeplethe/utopia/issues/214) | [deeplethe/utopia](https://github.com/deeplethe/utopia) | 9.8k | 🟡 help wanted | 2026-09-02 | ✍️ CLA · 🔏 DCO |
@@ -186,9 +187,10 @@
 | [[Feature] Add FT support for the Qwen3-TTS model.](https://github.com/unslothai/unsloth/issues/3951) 💬 9 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 76.6k | 🟢 beginner | 2026-09-01 |  |
 | [Request for Notebook to Fine-Tune Qwen TTS (or Alternatives Using Existing Notebooks)](https://github.com/unslothai/unsloth/issues/3961) 💬 4 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 76.6k | 🟢 beginner | 2026-09-01 |  |
 | [Docling on n8n nodes](https://github.com/docling-project/docling/issues/890) 💬 1 | [docling-project/docling](https://github.com/docling-project/docling) | 67.7k | 🟡 help wanted | 2026-09-01 |  |
+| [Replace azure-cosmos by azure-mgmt-cosmosdb](https://github.com/apache/airflow/issues/9742) 💬 7 | [apache/airflow](https://github.com/apache/airflow) | 47k | 🟢 beginner | 2026-09-01 | 🤖 disclose AI use · ✍️ CLA |
 | [[Looking for community contribution] support Wan 2.2 S2V: an audio-driven cinematic video generation model](https://github.com/huggingface/diffusers/issues/12257) 💬 7 | [huggingface/diffusers](https://github.com/huggingface/diffusers) | 34.6k | 🟡 help wanted | 2026-09-01 |  |
 | [Hackathon [Feature]: Add Substack data-source connector](https://github.com/topoteretes/cognee/issues/4810) 💬 1 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | 30.9k | 🟢 beginner | 2026-09-01 | 🔏 DCO |
-| [please a this new LLMs provider called gmicloud.ai](https://github.com/1jehuang/jcode/issues/1097) | [1jehuang/jcode](https://github.com/1jehuang/jcode) | 20k | 🟡 help wanted | 2026-09-01 |  |
+| [please a this new LLMs provider called gmicloud.ai](https://github.com/1jehuang/jcode/issues/1097) | [1jehuang/jcode](https://github.com/1jehuang/jcode) | 20.1k | 🟡 help wanted | 2026-09-01 |  |
 | [[FEA] Add support to str.normalize_spaces and str.normalize_characters in dask_cudf](https://github.com/NVIDIA/cudf/issues/10908) 💬 1 | [NVIDIA/cudf](https://github.com/NVIDIA/cudf) | 9.8k | 🟢 beginner | 2026-09-01 |  |
 | [Hackathon [Feature]: Add YouTube data-source connector](https://github.com/topoteretes/cognee/issues/4808) 💬 1 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | 30.9k | 🟢 beginner | 2026-08-31 | 🔏 DCO |
 | [Warn if nvidia-docker is not installed](https://github.com/replicate/cog/issues/625) 💬 3 | [replicate/cog](https://github.com/replicate/cog) | 9.5k | 🟢 beginner | 2026-08-31 |  |
@@ -199,16 +201,14 @@
 | [Hackathon [Feature]: Add Hacker News data-source connector](https://github.com/topoteretes/cognee/issues/4805) 💬 2 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | 30.9k | 🟢 beginner | 2026-08-30 | 🔏 DCO |
 | [Hackathon [Feature]: Add RSS / Atom feeds data-source connector](https://github.com/topoteretes/cognee/issues/4804) 💬 2 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | 30.9k | 🟢 beginner | 2026-08-30 | 🔏 DCO |
 | [can i add image generation model configs for nano banana ?](https://github.com/google-gemini/gemini-cli/issues/28445) 💬 8 | [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) | 107.1k | 🟢 beginner | 2026-08-29 | ✍️ CLA |
-| [Add diagrams and animations to course website (inspired by makingsoftware.com)](https://github.com/rohitg00/ai-engineering-from-scratch/issues/243) 💬 12 | [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) | 55.5k | 🟢 beginner | 2026-08-28 |  |
+| [Add diagrams and animations to course website (inspired by makingsoftware.com)](https://github.com/rohitg00/ai-engineering-from-scratch/issues/243) 💬 12 | [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) | 55.8k | 🟢 beginner | 2026-08-28 |  |
 | [请问AI智能体目前是否支持动态生成Python脚本代码，执行并返回所需结果？](https://github.com/jeecgboot/JeecgBoot/issues/9866) 💬 2 | [jeecgboot/JeecgBoot](https://github.com/jeecgboot/JeecgBoot) | 48k | 🟡 help wanted | 2026-08-28 |  |
 | [仪表盘集成第三方系统怎么把第三方登陆系统的参数传给积木系统做动态数据查询](https://github.com/jeecgboot/jimureport/issues/4764) 💬 1 | [jeecgboot/jimureport](https://github.com/jeecgboot/jimureport) | 8.5k | 🟡 help wanted | 2026-08-28 |  |
-| [Separate windows for editor and results](https://github.com/dbeaver/dbeaver/issues/34959) 💬 10 | [dbeaver/dbeaver](https://github.com/dbeaver/dbeaver) | 51.8k | 🟡 help wanted | 2026-08-27 | 🤖 disclose AI use |
+| [Separate windows for editor and results](https://github.com/dbeaver/dbeaver/issues/34959) 💬 10 | [dbeaver/dbeaver](https://github.com/dbeaver/dbeaver) | 51.9k | 🟡 help wanted | 2026-08-27 | 🤖 disclose AI use |
 | [[合作讨论] 聊天人格学习如何扩展到多身份、多关系与受控回复](https://github.com/xming521/WeClone/issues/230) 💬 2 | [xming521/WeClone](https://github.com/xming521/WeClone) | 18.3k | 🟢 beginner | 2026-08-27 |  |
 | [Training the default perceptron tagger with bigger corpus](https://github.com/nltk/nltk/issues/1317) 💬 4 | [nltk/nltk](https://github.com/nltk/nltk) | 14.7k | 🟢 beginner | 2026-08-27 |  |
 | [tests-run: TotalTests ignores all filters (counts entire test tree)](https://github.com/IvanMurzak/Unity-MCP/issues/950) 💬 2 | [IvanMurzak/Unity-MCP](https://github.com/IvanMurzak/Unity-MCP) | 4.3k | 🟡 help wanted | 2026-08-27 |  |
 | [网站里的图画错了？](https://github.com/jeecgboot/JeecgBoot/issues/9857) 💬 1 | [jeecgboot/JeecgBoot](https://github.com/jeecgboot/JeecgBoot) | 48k | 🟡 help wanted | 2026-08-26 |  |
 | [CSS variables for code cell theming customization](https://github.com/marimo-team/marimo/issues/6526) 💬 6 | [marimo-team/marimo](https://github.com/marimo-team/marimo) | 22.9k | 🟡 help wanted | 2026-08-26 | 🤖 disclose AI use · ✍️ CLA |
-| [Support ADBC reads and writes from databases](https://github.com/Eventual-Inc/Daft/issues/7347) 💬 3 | [Eventual-Inc/Daft](https://github.com/Eventual-Inc/Daft) | 5.8k | 🟡 help wanted | 2026-08-26 | 🤖 disclose AI use |
-| [Different alpha selection strategies in LinearModelCV](https://github.com/scikit-learn/scikit-learn/issues/6630) 💬 8 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | 67.4k | 🟡 help wanted | 2026-08-25 | 🤖 disclose AI use |
 
-Showing the 200 most recently updated. See all 406 on the website.
+Showing the 200 most recently updated. See all 411 on the website.

@@ -1,8 +1,8 @@
 # C issues
 
-**159** open issues (44 labeled for beginners) across **64** active C projects.
+**159** open issues (43 labeled for beginners) across **65** active C projects.
 
-> Updated automatically on **2026-09-23 10:49 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-23 21:19 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,6 +10,7 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [Add indicator in assembly browser how many jumps/calls the user is from a reference point.](https://github.com/rizinorg/rizin/issues/6788) | [rizinorg/rizin](https://github.com/rizinorg/rizin) | 3.9k | 🟢 beginner | 2026-09-23 | 🤖 disclose AI use |
 | [kew roadmap: "Project Joy"](https://github.com/ravachol/kew/issues/575) 💬 71 | [ravachol/kew](https://github.com/ravachol/kew) | 3.1k | 🟡 help wanted | 2026-09-23 |  |
 | [Allow all system tray icons to be displayed on the dock.](https://github.com/microsoft/PowerToys/issues/46232) 💬 7 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 138.9k | 🟡 help wanted | 2026-09-22 |  |
 | [Let a CMP client require EnvelopedData (reject EncryptedValue) for centrally generated keys](https://github.com/openssl/openssl/issues/32797) 💬 1 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-22 | 🤖 disclose AI use · ✍️ CLA |
@@ -24,7 +25,6 @@
 | [X.509 verification treats a certificate as expired at exactly its notAfter second](https://github.com/openssl/openssl/issues/32890) 💬 1 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-20 | 🤖 disclose AI use · ✍️ CLA |
 | [[Bug] PC not waking up from sleep](https://github.com/qmk/qmk_firmware/issues/26429) 💬 7 | [qmk/qmk_firmware](https://github.com/qmk/qmk_firmware) | 20.7k | 🟡 help wanted | 2026-09-20 |  |
 | [Appeal Request - royalkludge Account Ban](https://github.com/qmk/qmk_firmware/issues/26285) 💬 1 | [qmk/qmk_firmware](https://github.com/qmk/qmk_firmware) | 20.7k | 🟡 help wanted | 2026-09-20 |  |
-| [Two maps created with 'om', seem to share the same underlying buffer](https://github.com/rizinorg/rizin/issues/6771) 💬 1 | [rizinorg/rizin](https://github.com/rizinorg/rizin) | 3.9k | 🟡 help wanted | 2026-09-20 | 🤖 disclose AI use |
 | [nc_email_eai (v3_ncons.c:708-719): mailbox-form excluded rfc822Name never matches a SmtpUTF8Mailbox SAN → wron](https://github.com/openssl/openssl/issues/32373) 💬 2 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-19 | 🤖 disclose AI use · ✍️ CLA |
 | [[Feature Request] Support for Microchip AVR DU (modern AVR with native USB)](https://github.com/qmk/qmk_firmware/issues/26459) 💬 2 | [qmk/qmk_firmware](https://github.com/qmk/qmk_firmware) | 20.7k | 🟡 help wanted | 2026-09-19 |  |
 | [Extensions for browser support monitoring](https://github.com/axel-download-accelerator/axel/issues/346) 💬 4 | [axel-download-accelerator/axel](https://github.com/axel-download-accelerator/axel) | 3.4k | 🟡 help wanted | 2026-09-19 |  |
@@ -44,7 +44,7 @@
 | [Request for Guidance on GPL Compliance and Source Code Release – YUNZII Tri-Mode Boards](https://github.com/qmk/qmk_firmware/issues/25737) 💬 24 | [qmk/qmk_firmware](https://github.com/qmk/qmk_firmware) | 20.7k | 🟡 help wanted | 2026-09-08 |  |
 | [Document the SPSel = 0 / SP_EL0 requirement of the ARMv8-A ports](https://github.com/eclipse-threadx/threadx/issues/703) | [eclipse-threadx/threadx](https://github.com/eclipse-threadx/threadx) | 3.5k | 🟡 help wanted | 2026-09-08 | 🔏 DCO |
 | [Support TX_ENABLE_STACK_CHECKING for module threads](https://github.com/eclipse-threadx/threadx/issues/702) | [eclipse-threadx/threadx](https://github.com/eclipse-threadx/threadx) | 3.5k | 🟡 help wanted | 2026-09-08 | 🔏 DCO |
-| [[Experiment] expert-transition-history placement policy vs gate-momentum — controlled A/B for hypothesis #1](https://github.com/JustVugg/colibri/issues/708) 💬 11 | [JustVugg/colibri](https://github.com/JustVugg/colibri) | 37.2k | 🟡 help wanted | 2026-09-07 |  |
+| [[Experiment] expert-transition-history placement policy vs gate-momentum — controlled A/B for hypothesis #1](https://github.com/JustVugg/colibri/issues/708) 💬 11 | [JustVugg/colibri](https://github.com/JustVugg/colibri) | 37.3k | 🟡 help wanted | 2026-09-07 |  |
 | [FreeSWITCH Not Compliant with RFC3515 - Not Processing REFER - $250 Bounty](https://github.com/signalwire/freeswitch/issues/592) 💬 6 | [signalwire/freeswitch](https://github.com/signalwire/freeswitch) | 5.2k | 🟡 help wanted | 2026-09-07 |  |
 | [[Feature Request] Support configurable additional HID interfaces](https://github.com/qmk/qmk_firmware/issues/26363) 💬 2 | [qmk/qmk_firmware](https://github.com/qmk/qmk_firmware) | 20.7k | 🟡 help wanted | 2026-09-06 |  |
 | [Will open5gs team produce NEF(Network Exposure Function ) to meet MEC(edge computing) use case ？](https://github.com/open5gs/open5gs/issues/1663) 💬 2 | [open5gs/open5gs](https://github.com/open5gs/open5gs) | 2.7k | 🟡 help wanted | 2026-09-03 |  |
@@ -55,6 +55,7 @@
 | [Firewall rules for Windows 10 hotspot](https://github.com/henrypp/simplewall/issues/425) 💬 59 | [henrypp/simplewall](https://github.com/henrypp/simplewall) | 9k | 🟡 help wanted | 2026-08-30 |  |
 | [Allow users to hide/remove unwanted apps from Command Palette search results](https://github.com/microsoft/PowerToys/issues/41497) 💬 12 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 138.9k | 🟡 help wanted | 2026-08-28 |  |
 | [Failing to use close-on-exec](https://github.com/microsoft/msquic/issues/4980) 💬 6 | [microsoft/msquic](https://github.com/microsoft/msquic) | 4.8k | 🟢 beginner | 2026-08-28 | ✍️ CLA |
+| [Crash under heavy spam with linked list corruption](https://github.com/irssi/irssi/issues/1333) 💬 1 | [irssi/irssi](https://github.com/irssi/irssi) | 3.1k | 🟡 help wanted | 2026-08-27 |  |
 | [rtd1296 stability issue](https://github.com/bb-qq/r8152/issues/275) 💬 81 | [bb-qq/r8152](https://github.com/bb-qq/r8152) | 3.1k | 🟡 help wanted | 2026-08-27 |  |
 | [Support Raw Public Key (RPK) as described in RFC 7250.](https://github.com/microsoft/msquic/issues/6245) | [microsoft/msquic](https://github.com/microsoft/msquic) | 4.8k | 🟡 help wanted | 2026-08-25 | ✍️ CLA |
 | [macOS: intermittent CONNECTION_IDLE during handshake on loopback under sustained connect load](https://github.com/microsoft/msquic/issues/6265) | [microsoft/msquic](https://github.com/microsoft/msquic) | 4.8k | 🟡 help wanted | 2026-08-25 | ✍️ CLA |
@@ -108,6 +109,7 @@
 | [OSX compatibility](https://github.com/cboxdoerfer/fsearch/issues/7) 💬 14 | [cboxdoerfer/fsearch](https://github.com/cboxdoerfer/fsearch) | 4.4k | 🟡 help wanted | 2026-07-14 |  |
 | [Tap to change page](https://github.com/pwmt/zathura/issues/938) 💬 4 | [pwmt/zathura](https://github.com/pwmt/zathura) | 3.3k | 🟡 help wanted | 2026-07-10 |  |
 | [Sioyek does not start](https://github.com/ahrm/sioyek/issues/1283) 💬 18 | [ahrm/sioyek](https://github.com/ahrm/sioyek) | 9.9k | 🟡 help wanted | 2026-07-09 |  |
+| [Support Client Migration (Client Side)](https://github.com/microsoft/msquic/issues/1946) 💬 5 | [microsoft/msquic](https://github.com/microsoft/msquic) | 4.8k | 🟡 help wanted | 2026-07-09 | ✍️ CLA |
 | [External datagram I/O for the connection state machine](https://github.com/microsoft/msquic/issues/6132) 💬 2 | [microsoft/msquic](https://github.com/microsoft/msquic) | 4.8k | 🟡 help wanted | 2026-07-07 | ✍️ CLA |
 | [minor security issue: file descriptor leakage](https://github.com/DynamoRIO/dynamorio/issues/2884) 💬 1 | [DynamoRIO/dynamorio](https://github.com/DynamoRIO/dynamorio) | 3.2k | 🟢 beginner | 2026-07-07 | ✍️ CLA |
 | [[YSQL] Investigate point-lookup path for fully-bound hash PK IN queries](https://github.com/yugabyte/yugabyte-db/issues/32026) 💬 1 | [yugabyte/yugabyte-db](https://github.com/yugabyte/yugabyte-db) | 10.6k | 🟢 beginner | 2026-07-06 |  |
@@ -139,7 +141,6 @@
 | [CPU profiles: add the '.comment' value as rizin comment near the flag, if defined](https://github.com/rizinorg/rizin/issues/1671) 💬 13 | [rizinorg/rizin](https://github.com/rizinorg/rizin) | 3.9k | 🟢 beginner | 2026-06-07 | 🤖 disclose AI use |
 | [[Feature request] SQIsign](https://github.com/open-quantum-safe/liboqs/issues/1946) 💬 2 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-06-03 |  |
 | [Rosetta Code Examples](https://github.com/janet-lang/janet/issues/227) 💬 10 | [janet-lang/janet](https://github.com/janet-lang/janet) | 4.4k | 🟡 help wanted | 2026-06-01 | 🤖 disclose AI use |
-| [Rework disassembly API](https://github.com/rizinorg/rizin/issues/3086) 💬 1 | [rizinorg/rizin](https://github.com/rizinorg/rizin) | 3.9k | 🟢 beginner | 2026-05-29 | 🤖 disclose AI use |
 | [Add support for Android](https://github.com/AltraMayor/f3/issues/209) 💬 6 | [AltraMayor/f3](https://github.com/AltraMayor/f3) | 3.4k | 🟡 help wanted | 2026-05-29 |  |
 | [Rename blacklist -&gt; blocklist, whitelist -&gt; allowlist](https://github.com/yugabyte/yugabyte-db/issues/4847) 💬 1 | [yugabyte/yugabyte-db](https://github.com/yugabyte/yugabyte-db) | 10.6k | 🟢 beginner | 2026-05-27 |  |
 | [Support in-memory certificate stores](https://github.com/microsoft/msquic/issues/4951) 💬 2 | [microsoft/msquic](https://github.com/microsoft/msquic) | 4.8k | 🟢 beginner | 2026-05-26 | ✍️ CLA |
@@ -168,4 +169,3 @@
 | [Create mascot and new logo graphics](https://github.com/zmkfirmware/zmk/issues/225) 💬 15 | [zmkfirmware/zmk](https://github.com/zmkfirmware/zmk) | 4.3k | 🟡 help wanted | 2026-03-31 |  |
 | [Basic templated JIT?](https://github.com/quickjs-ng/quickjs/issues/659) 💬 9 | [quickjs-ng/quickjs](https://github.com/quickjs-ng/quickjs) | 3.8k | 🟡 help wanted | 2026-03-30 |  |
 | [[YSQL] Dont COMMIT after an ERROR in COPY](https://github.com/yugabyte/yugabyte-db/issues/30351) 💬 1 | [yugabyte/yugabyte-db](https://github.com/yugabyte/yugabyte-db) | 10.6k | 🟢 beginner | 2026-03-29 |  |
-| [Themes for HTML export](https://github.com/pawelsalawa/letos/issues/3240) | [pawelsalawa/letos](https://github.com/pawelsalawa/letos) | 6.8k | 🟢 beginner | 2026-03-27 |  |

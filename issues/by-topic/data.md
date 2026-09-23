@@ -1,8 +1,8 @@
 # Data and databases issues
 
-**315** open issues (160 labeled for beginners) across **91** projects tagged with topics like `database`, `sql`, `postgresql`, `mysql`, `sqlite`, `nosql`.
+**313** open issues (156 labeled for beginners) across **91** projects tagged with topics like `database`, `sql`, `postgresql`, `mysql`, `sqlite`, `nosql`.
 
-> Updated automatically on **2026-09-23 10:49 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-23 21:19 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,18 +10,21 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [Reuse checksum-matching detached parts when bootstrapping a fresh replica](https://github.com/ClickHouse/ClickHouse/issues/121509) 💬 2 | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 50k | 🟡 help wanted | 2026-09-23 | 🤖 disclose AI use · ✍️ CLA |
-| [OSS Basic-Auth has no in-app way to change the password once set](https://github.com/kestra-io/kestra/issues/19755) | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.3k | 🟢 beginner | 2026-09-23 |  |
+| [metrics browser: Label values counter showing incorrect counts after selecting a label](https://github.com/grafana/grafana/issues/59705) 💬 8 | [grafana/grafana](https://github.com/grafana/grafana) | 76.9k | 🟢 beginner | 2026-09-23 | ✍️ CLA |
+| [Reuse checksum-matching detached parts when bootstrapping a fresh replica](https://github.com/ClickHouse/ClickHouse/issues/121509) 💬 3 | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 50k | 🟡 help wanted | 2026-09-23 | 🤖 disclose AI use · ✍️ CLA |
+| [Onboarding components: replace explicit 'any' with real types](https://github.com/kestra-io/kestra/issues/19305) 💬 2 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.3k | 🟢 beginner | 2026-09-23 |  |
 | [Kestra flow is failing for taskRunner Docker](https://github.com/kestra-io/kestra/issues/9814) 💬 5 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.3k | 🟢 beginner | 2026-09-23 |  |
-| [Task retry stuck in RETRYING state with rootless Podman setup in v1.1.12 (works in v0.22.10)](https://github.com/kestra-io/kestra/issues/14056) | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.3k | 🟢 beginner | 2026-09-23 |  |
 | [hey-api plugin: replace explicit 'any' with real types](https://github.com/kestra-io/kestra/issues/19290) 💬 4 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.3k | 🟢 beginner | 2026-09-23 |  |
+| [Fix Arc with non-Send/Sync clippy complaints](https://github.com/tursodatabase/turso/issues/1750) 💬 6 | [tursodatabase/turso](https://github.com/tursodatabase/turso) | 24.4k | 🟢 beginner | 2026-09-23 | 🤖 disclose AI use |
+| [Cached prepare statements don't work with concurrency](https://github.com/tursodatabase/turso/issues/4597) 💬 1 | [tursodatabase/turso](https://github.com/tursodatabase/turso) | 24.4k | 🟡 help wanted | 2026-09-23 | 🤖 disclose AI use |
+| [\\echo and \\warn -n problem on interactive](https://github.com/xo/usql/issues/215) 💬 1 | [xo/usql](https://github.com/xo/usql) | 10.1k | 🟡 help wanted | 2026-09-23 |  |
+| [feature: support vi key bindings (ala readline/bash/psql vi modes)](https://github.com/xo/usql/issues/236) 💬 5 | [xo/usql](https://github.com/xo/usql) | 10.1k | 🟡 help wanted | 2026-09-23 |  |
+| ['\\ss' without arguments lists columns for all tables](https://github.com/xo/usql/issues/363) 💬 2 | [xo/usql](https://github.com/xo/usql) | 10.1k | 🟡 help wanted | 2026-09-23 |  |
 | [积木报表在线填报表单中数据字典不能获取系统中已有数据字典、新增又提示编码已经存在](https://github.com/jeecgboot/jimureport/issues/4797) | [jeecgboot/jimureport](https://github.com/jeecgboot/jimureport) | 8.5k | 🟡 help wanted | 2026-09-23 |  |
 | [积木报表横向分组一级标题无法设置分组合计](https://github.com/jeecgboot/jimureport/issues/4796) 💬 1 | [jeecgboot/jimureport](https://github.com/jeecgboot/jimureport) | 8.5k | 🟡 help wanted | 2026-09-23 |  |
 | [Unit test stub autogenerator](https://github.com/apache/hamilton/issues/74) 💬 6 | [apache/hamilton](https://github.com/apache/hamilton) | 2.6k | 🟢 beginner | 2026-09-23 | ✍️ CLA |
 | [Logs components: replace explicit 'any' with real types](https://github.com/kestra-io/kestra/issues/19295) 💬 1 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.3k | 🟢 beginner | 2026-09-22 |  |
 | [Docs components: replace explicit 'any' with real types](https://github.com/kestra-io/kestra/issues/19299) 💬 8 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.3k | 🟢 beginner | 2026-09-22 |  |
-| [Onboarding components: replace explicit 'any' with real types](https://github.com/kestra-io/kestra/issues/19305) 💬 2 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.3k | 🟢 beginner | 2026-09-22 |  |
-| [Setup code coverage reporting](https://github.com/diesel-rs/diesel/issues/5225) 💬 4 | [diesel-rs/diesel](https://github.com/diesel-rs/diesel) | 14.2k | 🟡 help wanted | 2026-09-22 | ⚠️ AI restricted |
 | [Refine the fuzzer corpus](https://github.com/diesel-rs/diesel/issues/5236) | [diesel-rs/diesel](https://github.com/diesel-rs/diesel) | 14.2k | 🟡 help wanted | 2026-09-22 | ⚠️ AI restricted |
 | [Writer for WebDatasets File Format](https://github.com/Eventual-Inc/Daft/issues/7343) 💬 1 | [Eventual-Inc/Daft](https://github.com/Eventual-Inc/Daft) | 5.8k | 🟡 help wanted | 2026-09-22 | 🤖 disclose AI use |
 | [[BUG] Unable to restore the database](https://github.com/mydumper/mydumper/issues/2355) 💬 2 | [mydumper/mydumper](https://github.com/mydumper/mydumper) | 3.2k | 🟡 help wanted | 2026-09-22 |  |
@@ -30,18 +33,15 @@
 | [How servicegraph in grafana tempo filters applications](https://github.com/grafana/grafana/issues/105147) 💬 5 | [grafana/grafana](https://github.com/grafana/grafana) | 76.9k | 🟡 help wanted | 2026-09-20 | ✍️ CLA |
 | [Add test to verify parameters match between operator and decorator](https://github.com/apache/airflow/issues/48448) 💬 11 | [apache/airflow](https://github.com/apache/airflow) | 47k | 🟢 beginner | 2026-09-20 | 🤖 disclose AI use · ✍️ CLA |
 | [Replace the current continuous benchmarking action with our own.](https://github.com/paradedb/paradedb/issues/5013) 💬 4 | [paradedb/paradedb](https://github.com/paradedb/paradedb) | 9.3k | 🟢 beginner | 2026-09-19 | ✍️ CLA |
-| [A match operator in the target list crosses every JIT threshold](https://github.com/paradedb/paradedb/issues/6406) 💬 1 | [paradedb/paradedb](https://github.com/paradedb/paradedb) | 9.3k | 🟢 beginner | 2026-09-19 | ✍️ CLA |
 | [[BUG] rounding doubles floats can result in -0.0 result](https://github.com/NVIDIA/cudf-spark/issues/9349) 💬 1 | [NVIDIA/cudf-spark](https://github.com/NVIDIA/cudf-spark) | 1k | 🟢 beginner | 2026-09-19 | 🤖 disclose AI use · 🔏 DCO |
 | [Combined length of DAG tags cannot exceed 100 characters](https://github.com/apache/airflow/issues/55693) 💬 4 | [apache/airflow](https://github.com/apache/airflow) | 47k | 🟢 beginner | 2026-09-18 | 🤖 disclose AI use · ✍️ CLA |
 | [Dependencies components: replace explicit 'any' with real types](https://github.com/kestra-io/kestra/issues/19301) | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.3k | 🟢 beginner | 2026-09-18 |  |
 | [Composables: replace explicit 'any' with real types](https://github.com/kestra-io/kestra/issues/19292) | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.3k | 🟢 beginner | 2026-09-18 |  |
 | [ArangoDB](https://github.com/googleapis/mcp-toolbox/issues/2290) 💬 16 | [googleapis/mcp-toolbox](https://github.com/googleapis/mcp-toolbox) | 16.5k | 🟡 help wanted | 2026-09-18 | ✍️ CLA |
-| [Fuzzing Diesel DSL](https://github.com/diesel-rs/diesel/issues/5223) | [diesel-rs/diesel](https://github.com/diesel-rs/diesel) | 14.2k | 🟡 help wanted | 2026-09-18 | ⚠️ AI restricted |
 | [Fuzzing for 'diesel_infer_query'](https://github.com/diesel-rs/diesel/issues/5222) | [diesel-rs/diesel](https://github.com/diesel-rs/diesel) | 14.2k | 🟡 help wanted | 2026-09-18 | ⚠️ AI restricted |
 | [Add individual user filter](https://github.com/PostHog/posthog/issues/1289) 💬 11 | [PostHog/posthog](https://github.com/PostHog/posthog) | 39.9k | 🟢 beginner | 2026-09-17 | ⚠️ AI restricted |
 | [Explicit auth with TEMP tokens](https://github.com/cockroachdb/cockroach/issues/56577) 💬 6 | [cockroachdb/cockroach](https://github.com/cockroachdb/cockroach) | 32.5k | 🟢 beginner | 2026-09-17 | ✍️ CLA |
 | [多行填报下按钮需设置开启/禁用功能](https://github.com/jeecgboot/jimureport/issues/4790) | [jeecgboot/jimureport](https://github.com/jeecgboot/jimureport) | 8.5k | 🟡 help wanted | 2026-09-17 |  |
-| [Docker images for Windows 2019/2022 server](https://github.com/surrealdb/surrealdb/issues/3139) 💬 2 | [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) | 33.1k | 🟢 beginner | 2026-09-16 |  |
 | [Bug: CLI handling of version check not working](https://github.com/surrealdb/surrealdb/issues/4082) 💬 3 | [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) | 33.1k | 🟢 beginner | 2026-09-16 |  |
 | [Feature: Don't clone values by default when retrieving values](https://github.com/surrealdb/surrealdb/issues/26) | [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) | 33.1k | 🟡 help wanted | 2026-09-16 |  |
 | [Feature: Daemon Mode](https://github.com/surrealdb/surrealdb/issues/3953) 💬 4 | [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) | 33.1k | 🟢 beginner | 2026-09-16 |  |
@@ -94,16 +94,17 @@
 | [Support for PowerPC 'ppc64le' architecture](https://github.com/qdrant/qdrant/issues/3940) 💬 2 | [qdrant/qdrant](https://github.com/qdrant/qdrant) | 34.8k | 🟡 help wanted | 2026-09-04 | 🤖 disclose AI use |
 | [Flacky 'test_parallel_graph_build' on Windows](https://github.com/qdrant/qdrant/issues/1452) 💬 2 | [qdrant/qdrant](https://github.com/qdrant/qdrant) | 34.8k | 🟡 help wanted | 2026-09-04 | 🤖 disclose AI use |
 | [Refresh CHYT benchmark results](https://github.com/ClickHouse/ClickBench/issues/1459) | [ClickHouse/ClickBench](https://github.com/ClickHouse/ClickBench) | 1.1k | 🟡 help wanted | 2026-09-03 |  |
-| [Style Issues caused by RTL](https://github.com/directus/directus/issues/25599) 💬 6 | [directus/directus](https://github.com/directus/directus) | 37.9k | 🟡 help wanted | 2026-09-02 |  |
-| [Item permissions rules filter - '_in' operator with dynamic variable of array type](https://github.com/directus/directus/issues/24395) 💬 2 | [directus/directus](https://github.com/directus/directus) | 37.9k | 🟡 help wanted | 2026-09-02 |  |
-| [Packages using memory even if they are not used](https://github.com/directus/directus/issues/24334) 💬 4 | [directus/directus](https://github.com/directus/directus) | 37.9k | 🟡 help wanted | 2026-09-02 |  |
-| ['_some' operator limited to top-level relations prevents complex nested filtering](https://github.com/directus/directus/issues/25403) 💬 7 | [directus/directus](https://github.com/directus/directus) | 37.9k | 🟡 help wanted | 2026-09-02 |  |
-| [M2A Relation Display Not Showing Properly](https://github.com/directus/directus/issues/25348) 💬 5 | [directus/directus](https://github.com/directus/directus) | 37.9k | 🟡 help wanted | 2026-09-02 |  |
+| [Style Issues caused by RTL](https://github.com/directus/directus/issues/25599) 💬 6 | [directus/directus](https://github.com/directus/directus) | 38k | 🟡 help wanted | 2026-09-02 |  |
+| [Item permissions rules filter - '_in' operator with dynamic variable of array type](https://github.com/directus/directus/issues/24395) 💬 2 | [directus/directus](https://github.com/directus/directus) | 38k | 🟡 help wanted | 2026-09-02 |  |
+| [Packages using memory even if they are not used](https://github.com/directus/directus/issues/24334) 💬 4 | [directus/directus](https://github.com/directus/directus) | 38k | 🟡 help wanted | 2026-09-02 |  |
+| ['_some' operator limited to top-level relations prevents complex nested filtering](https://github.com/directus/directus/issues/25403) 💬 7 | [directus/directus](https://github.com/directus/directus) | 38k | 🟡 help wanted | 2026-09-02 |  |
+| [M2A Relation Display Not Showing Properly](https://github.com/directus/directus/issues/25348) 💬 5 | [directus/directus](https://github.com/directus/directus) | 38k | 🟡 help wanted | 2026-09-02 |  |
 | [Postgresql : Can't update row with an empty array](https://github.com/sequelize/sequelize/issues/11748) 💬 6 | [sequelize/sequelize](https://github.com/sequelize/sequelize) | 30.4k | 🟢 beginner | 2026-09-02 |  |
 | [Alternative query result format other than []dict](https://github.com/googleapis/mcp-toolbox/issues/1537) 💬 6 | [googleapis/mcp-toolbox](https://github.com/googleapis/mcp-toolbox) | 16.5k | 🟡 help wanted | 2026-09-02 | ✍️ CLA |
 | [GCS needs someone with a real bucket to run its test](https://github.com/deeplethe/utopia/issues/214) | [deeplethe/utopia](https://github.com/deeplethe/utopia) | 9.8k | 🟡 help wanted | 2026-09-02 | ✍️ CLA · 🔏 DCO |
 | [Improve logging for circuit breakers](https://github.com/elastic/elasticsearch/issues/62452) 💬 11 | [elastic/elasticsearch](https://github.com/elastic/elasticsearch) | 78k | 🟡 help wanted | 2026-09-01 | ✍️ CLA |
 | [Add resource ID to 404 response body](https://github.com/elastic/elasticsearch/issues/82675) 💬 17 | [elastic/elasticsearch](https://github.com/elastic/elasticsearch) | 78k | 🟡 help wanted | 2026-09-01 | ✍️ CLA |
+| [Replace azure-cosmos by azure-mgmt-cosmosdb](https://github.com/apache/airflow/issues/9742) 💬 7 | [apache/airflow](https://github.com/apache/airflow) | 47k | 🟢 beginner | 2026-09-01 | 🤖 disclose AI use · ✍️ CLA |
 | [Firebase Support](https://github.com/typeorm/typeorm/issues/2769) 💬 9 | [typeorm/typeorm](https://github.com/typeorm/typeorm) | 36.7k | 🟢 beginner | 2026-09-01 |  |
 | [[BUG] String(s) terminate after 2000 chars](https://github.com/opensearch-project/OpenSearch/issues/6323) 💬 11 | [opensearch-project/OpenSearch](https://github.com/opensearch-project/OpenSearch) | 13.8k | 🟢 beginner | 2026-09-01 | 🔏 DCO |
 | [[FEA] Add support to str.normalize_spaces and str.normalize_characters in dask_cudf](https://github.com/NVIDIA/cudf/issues/10908) 💬 1 | [NVIDIA/cudf](https://github.com/NVIDIA/cudf) | 9.8k | 🟢 beginner | 2026-09-01 |  |
@@ -115,7 +116,7 @@
 | [[Feature Request] Support line styles in Scattermapbox](https://github.com/plotly/plotly.js/issues/6791) 💬 12 | [plotly/plotly.js](https://github.com/plotly/plotly.js) | 18.3k | 🟢 beginner | 2026-08-28 | ⚠️ AI restricted |
 | [仪表盘集成第三方系统怎么把第三方登陆系统的参数传给积木系统做动态数据查询](https://github.com/jeecgboot/jimureport/issues/4764) 💬 1 | [jeecgboot/jimureport](https://github.com/jeecgboot/jimureport) | 8.5k | 🟡 help wanted | 2026-08-28 |  |
 | [[Feature Request] Dark Mode](https://github.com/endoflife-date/endoflife.date/issues/1187) 💬 10 | [endoflife-date/endoflife.date](https://github.com/endoflife-date/endoflife.date) | 3.4k | 🟢 beginner | 2026-08-28 |  |
-| [Separate windows for editor and results](https://github.com/dbeaver/dbeaver/issues/34959) 💬 10 | [dbeaver/dbeaver](https://github.com/dbeaver/dbeaver) | 51.8k | 🟡 help wanted | 2026-08-27 | 🤖 disclose AI use |
+| [Separate windows for editor and results](https://github.com/dbeaver/dbeaver/issues/34959) 💬 10 | [dbeaver/dbeaver](https://github.com/dbeaver/dbeaver) | 51.9k | 🟡 help wanted | 2026-08-27 | 🤖 disclose AI use |
 | [I kinda wanna be able to use CMD + W to close tabs](https://github.com/PostHog/posthog/issues/76278) 💬 2 | [PostHog/posthog](https://github.com/PostHog/posthog) | 39.9k | 🟢 beginner | 2026-08-26 | ⚠️ AI restricted |
 | [Feature Request: Support multiple SQL statements in single Exec() call](https://github.com/tursodatabase/turso/issues/1440) 💬 3 | [tursodatabase/turso](https://github.com/tursodatabase/turso) | 24.4k | 🟡 help wanted | 2026-08-26 | 🤖 disclose AI use |
 | [CSS variables for code cell theming customization](https://github.com/marimo-team/marimo/issues/6526) 💬 6 | [marimo-team/marimo](https://github.com/marimo-team/marimo) | 22.9k | 🟡 help wanted | 2026-08-26 | 🤖 disclose AI use · ✍️ CLA |
@@ -124,13 +125,13 @@
 | [Support ADBC reads and writes from databases](https://github.com/Eventual-Inc/Daft/issues/7347) 💬 3 | [Eventual-Inc/Daft](https://github.com/Eventual-Inc/Daft) | 5.8k | 🟡 help wanted | 2026-08-26 | 🤖 disclose AI use |
 | [Google Cloud Monitoring: Provide the same builder UX that GCM console](https://github.com/grafana/grafana/issues/58332) 💬 2 | [grafana/grafana](https://github.com/grafana/grafana) | 76.9k | 🟢 beginner | 2026-08-25 | ✍️ CLA |
 | [Major lack of documentation in codebase](https://github.com/meilisearch/meilisearch/issues/3206) 💬 7 | [meilisearch/meilisearch](https://github.com/meilisearch/meilisearch) | 59.4k | 🟢 beginner | 2026-08-25 | 🤖 disclose AI use |
-| [Command line to Export ER Diagrams](https://github.com/dbeaver/dbeaver/issues/6215) 💬 7 | [dbeaver/dbeaver](https://github.com/dbeaver/dbeaver) | 51.8k | 🟡 help wanted | 2026-08-25 | 🤖 disclose AI use |
+| [Command line to Export ER Diagrams](https://github.com/dbeaver/dbeaver/issues/6215) 💬 7 | [dbeaver/dbeaver](https://github.com/dbeaver/dbeaver) | 51.9k | 🟡 help wanted | 2026-08-25 | 🤖 disclose AI use |
 | [Show only insights not included in any dashboard](https://github.com/PostHog/posthog/issues/26621) 💬 10 | [PostHog/posthog](https://github.com/PostHog/posthog) | 39.9k | 🟢 beginner | 2026-08-25 | ⚠️ AI restricted |
 | [Support a properties-file (available during runtime) for ml-models (Stateless evaluation in container)](https://github.com/vespa-engine/vespa/issues/9552) 💬 2 | [vespa-engine/vespa](https://github.com/vespa-engine/vespa) | 7.1k | 🟢 beginner | 2026-08-25 |  |
 | [[Ideas Wanted] Generically accepting a &Pool or &mut Connection and allowing the argument to be used more than](https://github.com/transact-rs/sqlx/issues/419) 💬 21 | [transact-rs/sqlx](https://github.com/transact-rs/sqlx) | 17.5k | 🟡 help wanted | 2026-08-24 |  |
 | [[BUG] backup fails with —trx-table](https://github.com/mydumper/mydumper/issues/2301) 💬 13 | [mydumper/mydumper](https://github.com/mydumper/mydumper) | 3.2k | 🟡 help wanted | 2026-08-24 |  |
 | [Preparing a statement is slower than with SQLite](https://github.com/tursodatabase/turso/issues/220) 💬 6 | [tursodatabase/turso](https://github.com/tursodatabase/turso) | 24.4k | 🟢 beginner | 2026-08-23 | 🤖 disclose AI use |
-| [Support for greek locale](https://github.com/dbeaver/dbeaver/issues/7932) 💬 4 | [dbeaver/dbeaver](https://github.com/dbeaver/dbeaver) | 51.8k | 🟡 help wanted | 2026-08-21 | 🤖 disclose AI use |
+| [Support for greek locale](https://github.com/dbeaver/dbeaver/issues/7932) 💬 4 | [dbeaver/dbeaver](https://github.com/dbeaver/dbeaver) | 51.9k | 🟡 help wanted | 2026-08-21 | 🤖 disclose AI use |
 | [Bug: In Cohorts, the 'set' operator filters in null values for person properties](https://github.com/PostHog/posthog/issues/29916) 💬 4 | [PostHog/posthog](https://github.com/PostHog/posthog) | 39.9k | 🟢 beginner | 2026-08-21 | ⚠️ AI restricted |
 | [SQL Server CDC: silent data loss when upstream disables CDC on a captured table](https://github.com/risingwavelabs/risingwave/issues/25828) 💬 6 | [risingwavelabs/risingwave](https://github.com/risingwavelabs/risingwave) | 9.3k | 🟢 beginner | 2026-08-21 | ✍️ CLA |
 | [Search - Use the same words for criteria in "Products search" and in the product page (and edition page)](https://github.com/openfoodfacts/openfoodfacts-server/issues/17) | [openfoodfacts/openfoodfacts-server](https://github.com/openfoodfacts/openfoodfacts-server) | 1.2k | 🟢 beginner | 2026-08-21 | 🤖 disclose AI use |
@@ -185,7 +186,6 @@
 | [TMemoryLimitException should be inherited from std::exception](https://github.com/ydb-platform/ydb/issues/2887) | [ydb-platform/ydb](https://github.com/ydb-platform/ydb) | 4.8k | 🟢 beginner | 2026-08-02 |  |
 | [It is recommended that the GRPC server add a timeout limit.](https://github.com/gogf/gf/issues/3189) 💬 5 | [gogf/gf](https://github.com/gogf/gf) | 13.3k | 🟡 help wanted | 2026-08-01 |  |
 | [Duplicate ids on same page](https://github.com/phpmyadmin/phpmyadmin/issues/19108) 💬 5 | [phpmyadmin/phpmyadmin](https://github.com/phpmyadmin/phpmyadmin) | 7.9k | 🟢 beginner | 2026-08-01 | 🔏 DCO |
-| [metrics browser: Label values counter showing incorrect counts after selecting a label](https://github.com/grafana/grafana/issues/59705) 💬 7 | [grafana/grafana](https://github.com/grafana/grafana) | 76.9k | 🟢 beginner | 2026-07-30 | ✍️ CLA |
 | [Migrate 'locale' and 'is_qbnewb' columns in 'core_user' table to User-local settings](https://github.com/metabase/metabase/issues/20604) 💬 4 | [metabase/metabase](https://github.com/metabase/metabase) | 49.4k | 🟢 beginner | 2026-07-27 | ✍️ CLA |
 | [Shared page cache support?](https://github.com/tursodatabase/turso/issues/318) 💬 1 | [tursodatabase/turso](https://github.com/tursodatabase/turso) | 24.4k | 🟡 help wanted | 2026-07-27 | 🤖 disclose AI use |
 | [mo.ui.slider with very small step value does not work](https://github.com/marimo-team/marimo/issues/2593) 💬 6 | [marimo-team/marimo](https://github.com/marimo-team/marimo) | 22.9k | 🟢 beginner | 2026-07-26 | 🤖 disclose AI use · ✍️ CLA |
@@ -195,8 +195,7 @@
 | [delete_many() with 'exec_with_returning' with '.filter()' won't return the deleted entry](https://github.com/SeaQL/sea-orm/issues/3046) 💬 3 | [SeaQL/sea-orm](https://github.com/SeaQL/sea-orm) | 9.9k | 🟡 help wanted | 2026-07-23 |  |
 | ["Comparison to average values of products in the same category" is unclear](https://github.com/openfoodfacts/openfoodfacts-server/issues/2497) 💬 9 | [openfoodfacts/openfoodfacts-server](https://github.com/openfoodfacts/openfoodfacts-server) | 1.2k | 🟢 beginner | 2026-07-23 | 🤖 disclose AI use |
 | [Mirror load_datasets api for read_huggingface](https://github.com/Eventual-Inc/Daft/issues/5295) | [Eventual-Inc/Daft](https://github.com/Eventual-Inc/Daft) | 5.8k | 🟡 help wanted | 2026-07-22 | 🤖 disclose AI use |
-| [Provide an optional value comparer for JsonDocument/JsonElement](https://github.com/npgsql/efcore.pg/issues/1393) 💬 5 | [npgsql/efcore.pg](https://github.com/npgsql/efcore.pg) | 1.8k | 🟢 beginner | 2026-07-22 |  |
-| [(Fractional) scaling issues on KDE/Wayland](https://github.com/dbeaver/dbeaver/issues/26846) 💬 17 | [dbeaver/dbeaver](https://github.com/dbeaver/dbeaver) | 51.8k | 🟡 help wanted | 2026-07-21 | 🤖 disclose AI use |
+| [(Fractional) scaling issues on KDE/Wayland](https://github.com/dbeaver/dbeaver/issues/26846) 💬 17 | [dbeaver/dbeaver](https://github.com/dbeaver/dbeaver) | 51.9k | 🟡 help wanted | 2026-07-21 | 🤖 disclose AI use |
 | [Embedded tab feedback button survey does not respect the position](https://github.com/PostHog/posthog/issues/31267) 💬 6 | [PostHog/posthog](https://github.com/PostHog/posthog) | 39.9k | 🟢 beginner | 2026-07-21 | ⚠️ AI restricted |
 | [Getting an Electron crash, not sure how to further debug - help needed!](https://github.com/WiseLibs/better-sqlite3/issues/988) 💬 8 | [WiseLibs/better-sqlite3](https://github.com/WiseLibs/better-sqlite3) | 7.5k | 🟡 help wanted | 2026-07-21 |  |
 | [Mouse wheel zoom not working when EnableSwapChainRendering = True](https://github.com/helix-toolkit/helix-toolkit/issues/833) 💬 17 | [helix-toolkit/helix-toolkit](https://github.com/helix-toolkit/helix-toolkit) | 2.3k | 🟡 help wanted | 2026-07-21 |  |
@@ -210,5 +209,6 @@
 | [Link to an example VS code extension](https://github.com/lancedb/lancedb/issues/1849) 💬 1 | [lancedb/lancedb](https://github.com/lancedb/lancedb) | 11.5k | 🟢 beginner | 2026-07-16 |  |
 | [UI bug with bootstrap theme on settings &gt; Page related settings](https://github.com/phpmyadmin/phpmyadmin/issues/18505) 💬 6 | [phpmyadmin/phpmyadmin](https://github.com/phpmyadmin/phpmyadmin) | 7.9k | 🟢 beginner | 2026-07-16 | 🔏 DCO |
 | [Github Action for automatically running pgbench](https://github.com/supabase/supavisor/issues/11) 💬 4 | [supabase/supavisor](https://github.com/supabase/supavisor) | 2.3k | 🟢 beginner | 2026-07-15 |  |
+| [Dashboards: template variables result in invalid regex for profiles panels](https://github.com/grafana/grafana/issues/68092) 💬 9 | [grafana/grafana](https://github.com/grafana/grafana) | 76.9k | 🟢 beginner | 2026-07-14 | ✍️ CLA |
 
-Showing the 200 most recently updated. See all 315 on the website.
+Showing the 200 most recently updated. See all 313 on the website.

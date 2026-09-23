@@ -1,8 +1,8 @@
 # Elixir issues
 
-**6** open issues (6 labeled for beginners) across **4** active Elixir projects.
+**5** open issues (5 labeled for beginners) across **3** active Elixir projects.
 
-> Updated automatically on **2026-09-23 10:49 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-23 21:19 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,7 +10,6 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [Invalid 'page' options are an unrendered Spark.Options.ValidationError, and a non-list 'page' raises](https://github.com/ash-project/ash/issues/2940) 💬 2 | [ash-project/ash](https://github.com/ash-project/ash) | 2.5k | 🟢 beginner | 2026-09-22 |  |
 | ["Polls closing soon" gives confusing notification when pressing its refresh button](https://github.com/bonfire-networks/bonfire-app/issues/2243) | [bonfire-networks/bonfire-app](https://github.com/bonfire-networks/bonfire-app) | 943 | 🟢 beginner | 2026-08-29 |  |
 | [Overview of who opened the mail/ clicked on links](https://github.com/pentacent/keila/issues/109) 💬 6 | [pentacent/keila](https://github.com/pentacent/keila) | 2.2k | 🟢 beginner | 2026-08-01 | ✍️ CLA |
 | [Github Action for automatically running pgbench](https://github.com/supabase/supavisor/issues/11) 💬 4 | [supabase/supavisor](https://github.com/supabase/supavisor) | 2.3k | 🟢 beginner | 2026-07-15 |  |

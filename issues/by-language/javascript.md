@@ -1,8 +1,8 @@
 # JavaScript issues
 
-**163** open issues (72 labeled for beginners) across **65** active JavaScript projects.
+**164** open issues (72 labeled for beginners) across **65** active JavaScript projects.
 
-> Updated automatically on **2026-09-23 10:49 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-23 21:19 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,13 +10,13 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [workdayDedupKey: a hyphenated requisition base skips the trailing -N strip (residual of the tenant-site dedup ](https://github.com/career-ops-hq/career-ops/issues/3882) 💬 4 | [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | 72.5k | 🟡 help wanted | 2026-09-23 |  |
+| [Feature request: remember highlighted text after tab change](https://github.com/gchq/CyberChef/issues/874) 💬 5 | [gchq/CyberChef](https://github.com/gchq/CyberChef) | 35.9k | 🟢 beginner | 2026-09-23 | 🤖 disclose AI use · ✍️ CLA |
+| ['p5.VERSION' reports "2.3.1" in the 2.3.3 release build (build-time version replacement regression)](https://github.com/processing/p5.js/issues/9202) 💬 1 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-09-23 | ⚠️ AI restricted |
 | [noiseMode(SIMPLEX) add-on library](https://github.com/processing/p5.js/issues/6152) 💬 20 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-09-22 | ⚠️ AI restricted |
 | [[TRIGGER]](https://github.com/PipedreamHQ/pipedream/issues/22036) 💬 1 | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-09-22 |  |
 | [Parse error for quoted export/import names](https://github.com/google/closure-compiler/issues/3961) 💬 2 | [google/closure-compiler](https://github.com/google/closure-compiler) | 7.7k | 🟡 help wanted | 2026-09-22 |  |
 | [BetterAuth to implement multi-user support, roles, external auth providers](https://github.com/louislam/uptime-kuma/issues/6200) 💬 13 | [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) | 91.7k | 🟡 help wanted | 2026-09-21 | ⚠️ AI restricted |
 | [TS: Statement after top-level 'await' is duplicated with 'typescript' parser](https://github.com/prettier/prettier/issues/20096) 💬 3 | [prettier/prettier](https://github.com/prettier/prettier) | 52.3k | 🟡 help wanted | 2026-09-21 | 📄 AI policy |
-| [Feature request: remember highlighted text after tab change](https://github.com/gchq/CyberChef/issues/874) 💬 4 | [gchq/CyberChef](https://github.com/gchq/CyberChef) | 35.9k | 🟢 beginner | 2026-09-19 | 🤖 disclose AI use · ✍️ CLA |
 | [Document developer requirements/guidelines for the Number bundle](https://github.com/josdejong/mathjs/issues/3559) 💬 5 | [josdejong/mathjs](https://github.com/josdejong/mathjs) | 15.1k | 🟢 beginner | 2026-09-19 |  |
 | [[Help] 代替send发信的一个网站](https://github.com/maillab/cloud-mail/issues/582) | [maillab/cloud-mail](https://github.com/maillab/cloud-mail) | 14.4k | 🟡 help wanted | 2026-09-19 |  |
 | [[FEATURE] Add tawk.to actions to Pipedream MCP](https://github.com/PipedreamHQ/pipedream/issues/22017) | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-09-19 |  |
@@ -30,6 +30,7 @@
 | [enum dropdown in anyOf \\ oneOf](https://github.com/josdejong/jsoneditor/issues/1653) 💬 2 | [josdejong/jsoneditor](https://github.com/josdejong/jsoneditor) | 12.3k | 🟡 help wanted | 2026-09-13 |  |
 | [Add tools to Yahoo Sports](https://github.com/PipedreamHQ/pipedream/issues/21979) | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-09-13 |  |
 | [Customizeable Axis Title Rendering](https://github.com/chartjs/Chart.js/issues/3214) 💬 5 | [chartjs/Chart.js](https://github.com/chartjs/Chart.js) | 67.7k | 🟡 help wanted | 2026-09-11 |  |
+| [[Bug] Instructions for integrating with Vite don't work](https://github.com/microsoft/monaco-editor/issues/4045) 💬 8 | [microsoft/monaco-editor](https://github.com/microsoft/monaco-editor) | 46.8k | 🟡 help wanted | 2026-09-11 |  |
 | [Android remove event](https://github.com/ajaxorg/ace/issues/5304) 💬 7 | [ajaxorg/ace](https://github.com/ajaxorg/ace) | 27.1k | 🟢 beginner | 2026-09-10 |  |
 | [[TRIGGER]](https://github.com/PipedreamHQ/pipedream/issues/21956) | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-09-10 |  |
 | [[BUG]: Background image is rendered at an incorrect size after box zoom followed by mouse wheel zoom out](https://github.com/plotly/plotly.js/issues/7914) 💬 8 | [plotly/plotly.js](https://github.com/plotly/plotly.js) | 18.3k | 🟢 beginner | 2026-09-09 | ⚠️ AI restricted |
@@ -47,9 +48,9 @@
 | [Backmerging Module Federation v2](https://github.com/webpack/webpack/issues/18809) 💬 20 | [webpack/webpack](https://github.com/webpack/webpack) | 65.9k | 🟡 help wanted | 2026-09-02 | 🤖 disclose AI use · ✍️ CLA |
 | [Module Federation Share should support layers/issuerLayer](https://github.com/webpack/webpack/issues/18988) 💬 9 | [webpack/webpack](https://github.com/webpack/webpack) | 65.9k | 🟡 help wanted | 2026-09-02 | 🤖 disclose AI use · ✍️ CLA |
 | [📝 Docs: Give props to non-OpenCollective sponsors, services](https://github.com/mochajs/mocha/issues/3627) 💬 7 | [mochajs/mocha](https://github.com/mochajs/mocha) | 22.9k | 🟢 beginner | 2026-09-02 | ✍️ CLA |
-| [Simplify vm.Module](https://github.com/nodejs/node/issues/43899) 💬 8 | [nodejs/node](https://github.com/nodejs/node) | 122k | 🟡 help wanted | 2026-09-01 | 🤖 disclose AI use · 🔏 DCO |
-| [Option to have a shared V8 library?](https://github.com/nodejs/node/issues/53509) 💬 17 | [nodejs/node](https://github.com/nodejs/node) | 122k | 🟡 help wanted | 2026-09-01 | 🤖 disclose AI use · 🔏 DCO |
-| [FormData, Response, Request, and Headers have incorrect property descriptors](https://github.com/nodejs/node/issues/45099) 💬 8 | [nodejs/node](https://github.com/nodejs/node) | 122k | 🟡 help wanted | 2026-09-01 | 🤖 disclose AI use · 🔏 DCO |
+| [Simplify vm.Module](https://github.com/nodejs/node/issues/43899) 💬 8 | [nodejs/node](https://github.com/nodejs/node) | 122.1k | 🟡 help wanted | 2026-09-01 | 🤖 disclose AI use · 🔏 DCO |
+| [Option to have a shared V8 library?](https://github.com/nodejs/node/issues/53509) 💬 17 | [nodejs/node](https://github.com/nodejs/node) | 122.1k | 🟡 help wanted | 2026-09-01 | 🤖 disclose AI use · 🔏 DCO |
+| [FormData, Response, Request, and Headers have incorrect property descriptors](https://github.com/nodejs/node/issues/45099) 💬 8 | [nodejs/node](https://github.com/nodejs/node) | 122.1k | 🟡 help wanted | 2026-09-01 | 🤖 disclose AI use · 🔏 DCO |
 | [Responsive images generated with contain fit and an aspect ratio that causes pillarboxing are missing high res](https://github.com/gatsbyjs/gatsby/issues/33647) 💬 11 | [gatsbyjs/gatsby](https://github.com/gatsbyjs/gatsby) | 55.9k | 🟡 help wanted | 2026-09-01 |  |
 | [Catch and handle ChunkLoadError](https://github.com/gatsbyjs/gatsby/issues/33844) 💬 11 | [gatsbyjs/gatsby](https://github.com/gatsbyjs/gatsby) | 55.9k | 🟡 help wanted | 2026-09-01 |  |
 | [SSR: Restricting Access to Specific Pages Based on Authenticated User](https://github.com/gatsbyjs/gatsby/issues/36427) 💬 9 | [gatsbyjs/gatsby](https://github.com/gatsbyjs/gatsby) | 55.9k | 🟡 help wanted | 2026-09-01 |  |
@@ -134,7 +135,7 @@
 | [Large graph layout performance](https://github.com/lutzroeder/netron/issues/1369) | [lutzroeder/netron](https://github.com/lutzroeder/netron) | 33.5k | 🟡 help wanted | 2026-06-29 |  |
 | [GitHub 提问 (Issue) 高质量操作指南](https://github.com/justlovemaki/AIClient2API/issues/128) 💬 2 | [justlovemaki/AIClient2API](https://github.com/justlovemaki/AIClient2API) | 8.8k | 🟢 beginner | 2026-06-29 |  |
 | [manage: Promise was rejected because the browsing context is going away](https://github.com/openstyles/stylus/issues/2152) 💬 1 | [openstyles/stylus](https://github.com/openstyles/stylus) | 6.9k | 🟡 help wanted | 2026-06-29 |  |
-| [error handler of same domain can be called several times when it throws](https://github.com/nodejs/node/issues/25505) 💬 3 | [nodejs/node](https://github.com/nodejs/node) | 122k | 🟡 help wanted | 2026-06-27 | 🤖 disclose AI use · 🔏 DCO |
+| [error handler of same domain can be called several times when it throws](https://github.com/nodejs/node/issues/25505) 💬 3 | [nodejs/node](https://github.com/nodejs/node) | 122.1k | 🟡 help wanted | 2026-06-27 | 🤖 disclose AI use · 🔏 DCO |
 | [Beautifier spoils pseudo-classes and pseudo-elements inside nested CSS, .userCSS, '@supports' or '@media'](https://github.com/openstyles/stylus/issues/1960) 💬 2 | [openstyles/stylus](https://github.com/openstyles/stylus) | 6.9k | 🟡 help wanted | 2026-06-25 |  |
 | [[TRIGGER] Facebook Pages webhooks](https://github.com/PipedreamHQ/pipedream/issues/21070) 💬 1 | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-06-24 |  |
 | [Option to not put a space before /&gt; in self-closing tags](https://github.com/beautifier/js-beautify/issues/654) 💬 13 | [beautifier/js-beautify](https://github.com/beautifier/js-beautify) | 9k | 🟢 beginner | 2026-06-23 |  |
@@ -150,7 +151,7 @@
 | [WebGL Error Triggered by 'noSmooth()' Invocation Between Framebuffer Creation and Drawing on Framebuffer](https://github.com/processing/p5.js/issues/6369) 💬 2 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-06-09 | ⚠️ AI restricted |
 | [difference between inline and inline-block should include discussion about replaced / non-replaced elements](https://github.com/yangshun/front-end-interview-handbook/issues/160) 💬 3 | [yangshun/front-end-interview-handbook](https://github.com/yangshun/front-end-interview-handbook) | 44k | 🟡 help wanted | 2026-06-05 |  |
 | [这是什么情况？](https://github.com/maillab/cloud-mail/issues/430) 💬 1 | [maillab/cloud-mail](https://github.com/maillab/cloud-mail) | 14.4k | 🟡 help wanted | 2026-06-03 |  |
-| [Support for Top-Level Global Mode](https://github.com/processing/p5.js/issues/7737) 💬 35 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-06-01 | ⚠️ AI restricted |
+| [[Bug] Incorrect Raw String Literals formatting](https://github.com/microsoft/monaco-editor/issues/5085) | [microsoft/monaco-editor](https://github.com/microsoft/monaco-editor) | 46.8k | 🟡 help wanted | 2026-06-02 |  |
 | [Add ping graph on the status page](https://github.com/louislam/uptime-kuma/issues/637) 💬 35 | [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) | 91.7k | 🟡 help wanted | 2026-05-27 | ⚠️ AI restricted |
 | [Expose Fuse to be used independently](https://github.com/Choices-js/Choices/issues/1370) 💬 1 | [Choices-js/Choices](https://github.com/Choices-js/Choices) | 6.8k | 🟢 beginner | 2026-05-25 |  |
 | [Allow changing the duration of zoom animations](https://github.com/Leaflet/Leaflet/issues/5332) 💬 8 | [Leaflet/Leaflet](https://github.com/Leaflet/Leaflet) | 45.7k | 🟡 help wanted | 2026-05-22 |  |

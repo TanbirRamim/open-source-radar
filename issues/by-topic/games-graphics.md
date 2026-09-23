@@ -1,8 +1,8 @@
 # Games and graphics issues
 
-**141** open issues (76 labeled for beginners) across **50** projects tagged with topics like `game`, `game-engine`, `gamedev`, `graphics`, `opengl`, `vulkan`.
+**142** open issues (77 labeled for beginners) across **50** projects tagged with topics like `game`, `game-engine`, `gamedev`, `graphics`, `opengl`, `vulkan`.
 
-> Updated automatically on **2026-09-23 10:49 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-23 21:19 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,7 +10,9 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [PartDesign: Copy/Paste Sketches when Body is active should place them inside the Body](https://github.com/FreeCAD/FreeCAD/issues/23832) 💬 3 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.7k | 🟢 beginner | 2026-09-23 | ⚠️ AI restricted |
 | [Core: Add incremental save option](https://github.com/FreeCAD/FreeCAD/issues/27318) 💬 6 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.7k | 🟢 beginner | 2026-09-23 | ⚠️ AI restricted |
+| ['p5.VERSION' reports "2.3.1" in the 2.3.3 release build (build-time version replacement regression)](https://github.com/processing/p5.js/issues/9202) 💬 1 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-09-23 | ⚠️ AI restricted |
 | [Ship the npx installer (bin/cli.mjs) so users can install the img2threejs skill with one command](https://github.com/img2threejs/img2threejs/issues/145) | [img2threejs/img2threejs](https://github.com/img2threejs/img2threejs) | 16.6k | 🟡 help wanted | 2026-09-23 |  |
 | [BIM: External reference will ignore multiple coordinate systems](https://github.com/FreeCAD/FreeCAD/issues/23323) 💬 4 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.7k | 🟡 help wanted | 2026-09-22 | ⚠️ AI restricted |
 | [BIM: Room finish marks](https://github.com/FreeCAD/FreeCAD/issues/5740) | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.7k | 🟢 beginner | 2026-09-22 | ⚠️ AI restricted |
@@ -67,7 +69,7 @@
 | [Board editor: possibly disable 960 Castling in standard](https://github.com/lichess-org/lila/issues/12926) 💬 9 | [lichess-org/lila](https://github.com/lichess-org/lila) | 18.8k | 🟢 beginner | 2026-08-15 | 🤖 disclose AI use |
 | [Retain screen position / target screen in xemu.toml and restore when starting the program](https://github.com/xemu-project/xemu/issues/1268) 💬 1 | [xemu-project/xemu](https://github.com/xemu-project/xemu) | 4.1k | 🟢 beginner | 2026-08-13 |  |
 | [Disable VK on unsupported systems](https://github.com/xemu-project/xemu/issues/2307) 💬 3 | [xemu-project/xemu](https://github.com/xemu-project/xemu) | 4.1k | 🟢 beginner | 2026-08-12 |  |
-| [Toast widget](https://github.com/iced-rs/iced/issues/485) 💬 4 | [iced-rs/iced](https://github.com/iced-rs/iced) | 31.5k | 🟢 beginner | 2026-08-06 |  |
+| [Toast widget](https://github.com/iced-rs/iced/issues/485) 💬 4 | [iced-rs/iced](https://github.com/iced-rs/iced) | 31.6k | 🟢 beginner | 2026-08-06 |  |
 | [Feature Request: 3D Pipeline/Water Pipe Drawing Tool](https://github.com/pascalorg/editor/issues/227) 💬 4 | [pascalorg/editor](https://github.com/pascalorg/editor) | 24.3k | 🟡 help wanted | 2026-08-04 |  |
 | [Implement WebcamVideo backend using AVFoundation](https://github.com/panda3d/panda3d/issues/1532) 💬 3 | [panda3d/panda3d](https://github.com/panda3d/panda3d) | 5.2k | 🟢 beginner | 2026-08-04 |  |
 | [Give reason for damage done by tnt](https://github.com/luanti-org/minetest_game/issues/3263) | [luanti-org/minetest_game](https://github.com/luanti-org/minetest_game) | 1.6k | 🟢 beginner | 2026-08-02 |  |
@@ -76,7 +78,7 @@
 | [Support DECBKM to remap backspace &lt;-&gt; delete](https://github.com/xtermjs/xterm.js/issues/3041) 💬 7 | [xtermjs/xterm.js](https://github.com/xtermjs/xterm.js) | 21.2k | 🟢 beginner | 2026-07-26 |  |
 | [[Enhancement Proposal] Fix badly rendered shadows on common objects.](https://github.com/diasurgical/DevilutionX/issues/2451) 💬 15 | [diasurgical/DevilutionX](https://github.com/diasurgical/DevilutionX) | 9.8k | 🟢 beginner | 2026-07-26 |  |
 | [LÖVE 12.0 (CI #1664) crashes on Android when launching a project](https://github.com/love2d/love/issues/2335) 💬 18 | [love2d/love](https://github.com/love2d/love) | 8.8k | 🟡 help wanted | 2026-07-22 |  |
-| [SDF 2D / 3D Rendering improvements - call for input / help](https://github.com/Fabric-Project/Fabric/issues/146) | [Fabric-Project/Fabric](https://github.com/Fabric-Project/Fabric) | 566 | 🟡 help wanted | 2026-07-22 |  |
+| [SDF 2D / 3D Rendering improvements - call for input / help](https://github.com/Fabric-Project/Fabric/issues/146) | [Fabric-Project/Fabric](https://github.com/Fabric-Project/Fabric) | 567 | 🟡 help wanted | 2026-07-22 |  |
 | [Mouse wheel zoom not working when EnableSwapChainRendering = True](https://github.com/helix-toolkit/helix-toolkit/issues/833) 💬 17 | [helix-toolkit/helix-toolkit](https://github.com/helix-toolkit/helix-toolkit) | 2.3k | 🟡 help wanted | 2026-07-21 |  |
 | [Add notification of excluded WWTT objects](https://github.com/OpenRCT2/OpenRCT2/issues/8031) 💬 2 | [OpenRCT2/OpenRCT2](https://github.com/OpenRCT2/OpenRCT2) | 16.2k | 🟢 beginner | 2026-07-20 |  |
 | [Dark Summit - can't enter cheat codes due to Start + Select combo](https://github.com/xemu-project/xemu/issues/2822) 💬 5 | [xemu-project/xemu](https://github.com/xemu-project/xemu) | 4.1k | 🟢 beginner | 2026-07-20 |  |
@@ -123,7 +125,6 @@
 | [On window minimize Screen.resize(0,0) called on Windows but not on Linux](https://github.com/libgdx/libgdx/issues/7072) 💬 8 | [libgdx/libgdx](https://github.com/libgdx/libgdx) | 25.4k | 🟢 beginner | 2026-06-04 | ✍️ CLA |
 | [Consider if the editor light level (day/night) buttons should default to day](https://github.com/Revolutionary-Games/Thrive/issues/6039) 💬 2 | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) | 3.7k | 🟢 beginner | 2026-06-04 |  |
 | [RAM Search Changes column does not update](https://github.com/TASEmulators/BizHawk/issues/3020) 💬 2 | [TASEmulators/BizHawk](https://github.com/TASEmulators/BizHawk) | 2.8k | 🟢 beginner | 2026-06-03 | 📄 AI policy |
-| [Support for Top-Level Global Mode](https://github.com/processing/p5.js/issues/7737) 💬 35 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-06-01 | ⚠️ AI restricted |
 | [Request to add bilater filtering for PointCloud](https://github.com/isl-org/Open3D/issues/6729) 💬 4 | [isl-org/Open3D](https://github.com/isl-org/Open3D) | 14k | 🟢 beginner | 2026-05-31 |  |
 | [DB/Creature using temporary auras in c_addon.auras](https://github.com/azerothcore/azerothcore-wotlk/issues/21589) 💬 4 | [azerothcore/azerothcore-wotlk](https://github.com/azerothcore/azerothcore-wotlk) | 9k | 🟢 beginner | 2026-05-30 |  |
 | [Add Libretro cheats support](https://github.com/Swordfish90/Lemuroid/issues/119) 💬 6 | [Swordfish90/Lemuroid](https://github.com/Swordfish90/Lemuroid) | 4.3k | 🟡 help wanted | 2026-05-24 |  |
