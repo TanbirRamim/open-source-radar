@@ -2,7 +2,7 @@
 
 **23** open issues (14 labeled for beginners) across **5** active OCaml projects.
 
-> Updated automatically on **2026-09-22 21:07 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-23 10:49 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -13,7 +13,7 @@
 | [Improve '--experimental' output](https://github.com/opengrep/opengrep/issues/134) 💬 1 | [opengrep/opengrep](https://github.com/opengrep/opengrep) | 3.1k | 🟢 beginner | 2026-09-17 |  |
 | [Declare axiom compatibility and axiom classification](https://github.com/rocq-prover/rocq/issues/10617) 💬 8 | [rocq-prover/rocq](https://github.com/rocq-prover/rocq) | 5.6k | 🟢 beginner | 2026-09-14 |  |
 | [dune fmt should be able to format single files](https://github.com/ocaml/dune/issues/7287) 💬 7 | [ocaml/dune](https://github.com/ocaml/dune) | 1.9k | 🟢 beginner | 2026-08-25 | 🔏 DCO |
-| [Support for early returns inside loops that can be replaced with breaks](https://github.com/AeneasVerif/aeneas/issues/822) 💬 1 | [AeneasVerif/aeneas](https://github.com/AeneasVerif/aeneas) | 978 | 🟢 beginner | 2026-08-14 |  |
+| [Support for early returns inside loops that can be replaced with breaks](https://github.com/AeneasVerif/aeneas/issues/822) 💬 1 | [AeneasVerif/aeneas](https://github.com/AeneasVerif/aeneas) | 980 | 🟢 beginner | 2026-08-14 |  |
 | [Installation of different LICENSE files (per opam package in a multi-opam repository/project)](https://github.com/ocaml/dune/issues/4842) 💬 11 | [ocaml/dune](https://github.com/ocaml/dune) | 1.9k | 🟢 beginner | 2026-08-07 | 🔏 DCO |
 | [Named targets](https://github.com/ocaml/dune/issues/3309) 💬 4 | [ocaml/dune](https://github.com/ocaml/dune) | 1.9k | 🟢 beginner | 2026-06-17 | 🔏 DCO |
 | [Preprocess using both cppo and PPXs](https://github.com/ocaml/dune/issues/171) 💬 14 | [ocaml/dune](https://github.com/ocaml/dune) | 1.9k | 🟡 help wanted | 2026-06-05 | 🔏 DCO |
