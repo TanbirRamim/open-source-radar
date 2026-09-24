@@ -1,8 +1,8 @@
 # Security and privacy issues
 
-**225** open issues (110 labeled for beginners) across **55** projects tagged with topics like `security`, `privacy`, `cryptography`, `encryption`, `authentication`, `oauth`.
+**228** open issues (111 labeled for beginners) across **56** projects tagged with topics like `security`, `privacy`, `cryptography`, `encryption`, `authentication`, `oauth`.
 
-> Updated automatically on **2026-09-23 21:19 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-24 10:49 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,6 +10,9 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [[FR] Decompiler caching](https://github.com/rizinorg/cutter/issues/3178) 💬 3 | [rizinorg/cutter](https://github.com/rizinorg/cutter) | 19.8k | 🟡 help wanted | 2026-09-24 | 🤖 disclose AI use |
+| [OBS package refresh](https://github.com/rizinorg/cutter/issues/3447) 💬 2 | [rizinorg/cutter](https://github.com/rizinorg/cutter) | 19.8k | 🟡 help wanted | 2026-09-24 | 🤖 disclose AI use |
+| [Select all/Export](https://github.com/rizinorg/cutter/issues/3248) 💬 4 | [rizinorg/cutter](https://github.com/rizinorg/cutter) | 19.8k | 🟢 beginner | 2026-09-24 | 🤖 disclose AI use |
 | [Feature request: remember highlighted text after tab change](https://github.com/gchq/CyberChef/issues/874) 💬 5 | [gchq/CyberChef](https://github.com/gchq/CyberChef) | 35.9k | 🟢 beginner | 2026-09-23 | 🤖 disclose AI use · ✍️ CLA |
 | [🚨 OneDrive authentication fails on Android with AADSTS90023 while desktop works](https://github.com/super-productivity/super-productivity/issues/9546) 💬 3 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.2k | 🟡 help wanted | 2026-09-23 |  |
 | [CalDAV Connection fails (android)](https://github.com/super-productivity/super-productivity/issues/3603) 💬 10 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.2k | 🟡 help wanted | 2026-09-23 |  |
@@ -18,6 +21,7 @@
 | [borg2 b24: benchmarking needed](https://github.com/borgbackup/borg/issues/10315) 💬 9 | [borgbackup/borg](https://github.com/borgbackup/borg) | 13.8k | 🟡 help wanted | 2026-09-23 |  |
 | [Add indicator in assembly browser how many jumps/calls the user is from a reference point.](https://github.com/rizinorg/rizin/issues/6788) | [rizinorg/rizin](https://github.com/rizinorg/rizin) | 3.9k | 🟢 beginner | 2026-09-23 | 🤖 disclose AI use |
 | [EMBA does not detect all components / SBOM is incomplete](https://github.com/e-m-b-a/emba/issues/2132) 💬 1 | [e-m-b-a/emba](https://github.com/e-m-b-a/emba) | 3.7k | 🟢 beginner | 2026-09-23 |  |
+| [please support Chinese](https://github.com/LeanBitLab/LeanType/issues/235) 💬 6 | [LeanBitLab/LeanType](https://github.com/LeanBitLab/LeanType) | 991 | 🟡 help wanted | 2026-09-23 |  |
 | [Let a CMP client require EnvelopedData (reject EncryptedValue) for centrally generated keys](https://github.com/openssl/openssl/issues/32797) 💬 1 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-22 | 🤖 disclose AI use · ✍️ CLA |
 | [💡 android widget habit tracker](https://github.com/super-productivity/super-productivity/issues/9662) 💬 4 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.2k | 🟡 help wanted | 2026-09-22 |  |
 | [Setting a custom User Agent breaks Desktop mode toggle after removing the Custom User Agent](https://github.com/FaFre/WebLibre/issues/619) 💬 1 | [FaFre/WebLibre](https://github.com/FaFre/WebLibre) | 990 | 🟢 beginner | 2026-09-22 |  |
@@ -43,7 +47,6 @@
 | [💡 Sounds for Simple Counters and Habit Tracking](https://github.com/super-productivity/super-productivity/issues/4639) 💬 4 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.2k | 🟡 help wanted | 2026-09-20 |  |
 | [💡 Settings - Default Order Number](https://github.com/super-productivity/super-productivity/issues/4630) 💬 3 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.2k | 🟡 help wanted | 2026-09-20 |  |
 | [🚨 GitLab issue descriptions and subtasks are not fetched](https://github.com/super-productivity/super-productivity/issues/4604) 💬 6 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.2k | 🟡 help wanted | 2026-09-20 |  |
-| [🚨 App does not try polling from local instance in an offline network (Android)](https://github.com/super-productivity/super-productivity/issues/4603) 💬 4 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.2k | 🟡 help wanted | 2026-09-20 |  |
 | [Some icons are blurry or inconsistent in size on Android 16 / Fairphone](https://github.com/organicmaps/organicmaps/issues/13596) | [organicmaps/organicmaps](https://github.com/organicmaps/organicmaps) | 15.5k | 🟢 beginner | 2026-09-20 | 🔏 DCO |
 | [nc_email_eai (v3_ncons.c:708-719): mailbox-form excluded rfc822Name never matches a SmtpUTF8Mailbox SAN → wron](https://github.com/openssl/openssl/issues/32373) 💬 2 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-19 | 🤖 disclose AI use · ✍️ CLA |
 | [[Feature Request] dns protection](https://github.com/0xCUB3/wBlock/issues/716) 💬 3 | [0xCUB3/wBlock](https://github.com/0xCUB3/wBlock) | 2.9k | 🟡 help wanted | 2026-09-19 |  |
@@ -68,7 +71,7 @@
 | [ci: enable the use of a dependancy bot](https://github.com/ImranR98/Obtainium/issues/3275) 💬 3 | [ImranR98/Obtainium](https://github.com/ImranR98/Obtainium) | 19.9k | 🟢 beginner | 2026-09-06 | 📄 AI policy |
 | [include git commit id in status information and artifact README](https://github.com/yacy/yacy_search_server/issues/466) 💬 1 | [yacy/yacy_search_server](https://github.com/yacy/yacy_search_server) | 4k | 🟢 beginner | 2026-09-06 |  |
 | [Add flag to disable Web Audio API](https://github.com/ungoogled-software/ungoogled-chromium/issues/3944) | [ungoogled-software/ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium) | 27.8k | 🟡 help wanted | 2026-09-04 |  |
-| [[Flatpak] Auth: Failed to launch: libsecret_error: Failed to unlock the keyring](https://github.com/ente/ente/issues/6564) 💬 6 | [ente/ente](https://github.com/ente/ente) | 29k | 🟡 help wanted | 2026-09-03 |  |
+| [[Flatpak] Auth: Failed to launch: libsecret_error: Failed to unlock the keyring](https://github.com/ente/ente/issues/6564) 💬 6 | [ente/ente](https://github.com/ente/ente) | 29.1k | 🟡 help wanted | 2026-09-03 |  |
 | [CLI Support for Injecting Envars into Docker-Compose Containers without embedding the CLI in Container Images](https://github.com/Infisical/infisical/issues/425) 💬 8 | [Infisical/infisical](https://github.com/Infisical/infisical) | 29.4k | 🟡 help wanted | 2026-09-01 |  |
 | [Don't sort output config fields by optionality](https://github.com/Graylog2/graylog2-server/issues/4761) 💬 4 | [Graylog2/graylog2-server](https://github.com/Graylog2/graylog2-server) | 8.1k | 🟢 beginner | 2026-08-31 |  |
 | [Support header sso (Forward Auth)](https://github.com/lldap/lldap/issues/352) 💬 15 | [lldap/lldap](https://github.com/lldap/lldap) | 6.5k | 🟢 beginner | 2026-08-31 |  |
@@ -94,7 +97,7 @@
 | [Cache poisoning: additional persona/auditor sensitivities](https://github.com/zizmorcore/zizmor/issues/1278) 💬 2 | [zizmorcore/zizmor](https://github.com/zizmorcore/zizmor) | 6.6k | 🟡 help wanted | 2026-08-17 | 📄 AI policy |
 | [create a nice logo / icon / favicon / ...](https://github.com/borgbackup/borg/issues/4690) 💬 10 | [borgbackup/borg](https://github.com/borgbackup/borg) | 13.8k | 🟡 help wanted | 2026-08-12 |  |
 | [Can you write github workflow files to generate executable files on the windows and linux platforms](https://github.com/vanhauser-thc/thc-hydra/issues/1017) 💬 5 | [vanhauser-thc/thc-hydra](https://github.com/vanhauser-thc/thc-hydra) | 12.3k | 🟡 help wanted | 2026-08-12 |  |
-| [Ente Auth iOS: slow unlock](https://github.com/ente/ente/issues/4749) 💬 10 | [ente/ente](https://github.com/ente/ente) | 29k | 🟢 beginner | 2026-08-11 |  |
+| [Ente Auth iOS: slow unlock](https://github.com/ente/ente/issues/4749) 💬 10 | [ente/ente](https://github.com/ente/ente) | 29.1k | 🟢 beginner | 2026-08-11 |  |
 | [Simplify SecretInjection: drop basic_auth and query_params flags](https://github.com/superradcompany/microsandbox/issues/703) 💬 2 | [superradcompany/microsandbox](https://github.com/superradcompany/microsandbox) | 8.4k | 🟢 beginner | 2026-08-11 | 🔏 DCO |
 | [Support deepagents(langchain) backend](https://github.com/superradcompany/microsandbox/issues/1084) 💬 4 | [superradcompany/microsandbox](https://github.com/superradcompany/microsandbox) | 8.4k | 🟡 help wanted | 2026-08-11 | 🔏 DCO |
 | [Samba integration](https://github.com/lldap/lldap/issues/599) 💬 32 | [lldap/lldap](https://github.com/lldap/lldap) | 6.5k | 🟡 help wanted | 2026-08-11 |  |
@@ -131,7 +134,7 @@
 | [Address capitlization inconsistencies in the UI](https://github.com/zitadel/zitadel/issues/7323) 💬 6 | [zitadel/zitadel](https://github.com/zitadel/zitadel) | 15.1k | 🟢 beginner | 2026-07-30 |  |
 | [[Bug]: Zitadel does not honor "Light Mode only" when after user logs in with another browser or in private mod](https://github.com/zitadel/zitadel/issues/7876) 💬 5 | [zitadel/zitadel](https://github.com/zitadel/zitadel) | 15.1k | 🟢 beginner | 2026-07-30 |  |
 | [Add external IDP id to IDP list](https://github.com/zitadel/zitadel/issues/8134) 💬 13 | [zitadel/zitadel](https://github.com/zitadel/zitadel) | 15.1k | 🟢 beginner | 2026-07-30 |  |
-| [Support Fedora](https://github.com/aquasecurity/trivy/issues/121) 💬 21 | [aquasecurity/trivy](https://github.com/aquasecurity/trivy) | 38k | 🟡 help wanted | 2026-07-29 |  |
+| [Support Fedora](https://github.com/aquasecurity/trivy/issues/121) 💬 21 | [aquasecurity/trivy](https://github.com/aquasecurity/trivy) | 38.1k | 🟡 help wanted | 2026-07-29 |  |
 | [Clean up dead code](https://github.com/zitadel/zitadel/issues/10059) 💬 6 | [zitadel/zitadel](https://github.com/zitadel/zitadel) | 15.1k | 🟡 help wanted | 2026-07-29 |  |
 | [[Bug]: Link button is disabled until you enter some valid data, including valid email address](https://github.com/zitadel/zitadel/issues/8824) 💬 3 | [zitadel/zitadel](https://github.com/zitadel/zitadel) | 15.1k | 🟢 beginner | 2026-07-29 |  |
 | [2FA form improvements](https://github.com/zitadel/zitadel/issues/7529) 💬 2 | [zitadel/zitadel](https://github.com/zitadel/zitadel) | 15.1k | 🟢 beginner | 2026-07-29 |  |
@@ -207,8 +210,5 @@
 | [The thumbnails don't always load](https://github.com/libre-tube/LibreTube/issues/8393) 💬 2 | [libre-tube/LibreTube](https://github.com/libre-tube/LibreTube) | 12.7k | 🟡 help wanted | 2026-05-23 |  |
 | [[Bug] No longer see files/folders within secure folder](https://github.com/leonlatsch/Photok/issues/678) 💬 5 | [leonlatsch/Photok](https://github.com/leonlatsch/Photok) | 971 | 🟢 beginner | 2026-05-21 |  |
 | [[META] Adding subfeatures to audits](https://github.com/zizmorcore/zizmor/issues/963) 💬 4 | [zizmorcore/zizmor](https://github.com/zizmorcore/zizmor) | 6.6k | 🟢 beginner | 2026-05-15 | 📄 AI policy |
-| [api_version as large unsigned int causes exception instead of clean rejection](https://github.com/XRPLF/rippled/issues/6776) 💬 1 | [XRPLF/rippled](https://github.com/XRPLF/rippled) | 5.2k | 🟢 beginner | 2026-05-15 | 🔏 DCO |
-| [[Feature]: Support Dual Call Scenario](https://github.com/kitsumed/ShizuCallRecorder/issues/2) | [kitsumed/ShizuCallRecorder](https://github.com/kitsumed/ShizuCallRecorder) | 1.6k | 🟡 help wanted | 2026-05-15 | 🤖 disclose AI use |
-| [App being hardly usable in Android Desktop Mode in maximized state](https://github.com/libre-tube/LibreTube/issues/8249) 💬 6 | [libre-tube/LibreTube](https://github.com/libre-tube/LibreTube) | 12.7k | 🟡 help wanted | 2026-05-14 |  |
 
-Showing the 200 most recently updated. See all 225 on the website.
+Showing the 200 most recently updated. See all 228 on the website.

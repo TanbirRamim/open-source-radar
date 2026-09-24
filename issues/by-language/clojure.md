@@ -1,8 +1,8 @@
 # Clojure issues
 
-**12** open issues (9 labeled for beginners) across **9** active Clojure projects.
+**13** open issues (10 labeled for beginners) across **9** active Clojure projects.
 
-> Updated automatically on **2026-09-23 21:19 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-24 10:49 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -21,4 +21,5 @@
 | [Migrate 'locale' and 'is_qbnewb' columns in 'core_user' table to User-local settings](https://github.com/metabase/metabase/issues/20604) 💬 4 | [metabase/metabase](https://github.com/metabase/metabase) | 49.4k | 🟢 beginner | 2026-07-27 | ✍️ CLA |
 | [Default settings](https://github.com/mtgred/netrunner/issues/7403) 💬 2 | [mtgred/netrunner](https://github.com/mtgred/netrunner) | 981 | 🟢 beginner | 2026-07-17 |  |
 | [New linter for usage of prefix lists in require](https://github.com/clj-kondo/clj-kondo/issues/1137) 💬 5 | [clj-kondo/clj-kondo](https://github.com/clj-kondo/clj-kondo) | 1.9k | 🟡 help wanted | 2026-06-26 |  |
+| [Pie charts tooltip naming don't respect changed column names](https://github.com/metabase/metabase/issues/71974) 💬 3 | [metabase/metabase](https://github.com/metabase/metabase) | 49.4k | 🟢 beginner | 2026-06-11 | ✍️ CLA |
 | [Metadata: automatically set password fields to sensitive information](https://github.com/metabase/metabase/issues/1694) 💬 7 | [metabase/metabase](https://github.com/metabase/metabase) | 49.4k | 🟢 beginner | 2026-05-15 | ✍️ CLA |

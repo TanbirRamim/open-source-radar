@@ -1,8 +1,8 @@
 # Vue issues
 
-**34** open issues (23 labeled for beginners) across **13** active Vue projects.
+**36** open issues (25 labeled for beginners) across **14** active Vue projects.
 
-> Updated automatically on **2026-09-23 21:19 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-24 10:49 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,6 +10,8 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| ["Create Lead from Incoming Emails" creates a Lead from any sender, including newsletters/no-reply/automated ma](https://github.com/frappe/crm/issues/2799) 💬 1 | [frappe/crm](https://github.com/frappe/crm) | 3.6k | 🟢 beginner | 2026-09-24 |  |
+| [Regression in v1.83.0: unsaved filter change on a saved view resets when navigating back](https://github.com/frappe/crm/issues/2833) | [frappe/crm](https://github.com/frappe/crm) | 3.6k | 🟢 beginner | 2026-09-24 |  |
 | [Backend should not abort when S3 object storage does not support PutBucketPolicy](https://github.com/Smaug6739/Alexandrie/issues/781) | [Smaug6739/Alexandrie](https://github.com/Smaug6739/Alexandrie) | 2.8k | 🟢 beginner | 2026-09-22 |  |
 | [Forward Ticket to External Third Party / Supplier in Frappe Helpdesk](https://github.com/frappe/helpdesk/issues/3774) 💬 2 | [frappe/helpdesk](https://github.com/frappe/helpdesk) | 3.4k | 🟢 beginner | 2026-09-21 |  |
 | [建议：播放页「纯净模式」开关补充悬停说明与首次开启引导气泡](https://github.com/algerkong/AlgerMusicPlayer/issues/758) 💬 1 | [algerkong/AlgerMusicPlayer](https://github.com/algerkong/AlgerMusicPlayer) | 16.8k | 🟢 beginner | 2026-09-19 |  |
@@ -19,7 +21,7 @@
 | [Incorrect username after "Delete and re-draft" for handles with subdomains](https://github.com/elk-zone/elk/issues/3410) 💬 2 | [elk-zone/elk](https://github.com/elk-zone/elk) | 6k | 🟡 help wanted | 2026-09-05 | 🔏 DCO |
 | [Spanish translations](https://github.com/Smaug6739/Alexandrie/issues/651) | [Smaug6739/Alexandrie](https://github.com/Smaug6739/Alexandrie) | 2.8k | 🟢 beginner | 2026-08-26 |  |
 | [Improve public documents sharing](https://github.com/Smaug6739/Alexandrie/issues/608) | [Smaug6739/Alexandrie](https://github.com/Smaug6739/Alexandrie) | 2.8k | 🟢 beginner | 2026-08-24 |  |
-| [Take a look at this issue if you come up with more features](https://github.com/zerotrac/leetcode_problem_rating/issues/15) 💬 9 | [zerotrac/leetcode_problem_rating](https://github.com/zerotrac/leetcode_problem_rating) | 694 | 🟢 beginner | 2026-08-16 |  |
+| [Take a look at this issue if you come up with more features](https://github.com/zerotrac/leetcode_problem_rating/issues/15) 💬 9 | [zerotrac/leetcode_problem_rating](https://github.com/zerotrac/leetcode_problem_rating) | 696 | 🟢 beginner | 2026-08-16 |  |
 | [Cannot remove audio file, keeps UI in blocked state on error.](https://github.com/elk-zone/elk/issues/3626) | [elk-zone/elk](https://github.com/elk-zone/elk) | 6k | 🟡 help wanted | 2026-08-15 | 🔏 DCO |
 | [Replying to message in thread causes scroll to top of thread](https://github.com/elk-zone/elk/issues/3456) | [elk-zone/elk](https://github.com/elk-zone/elk) | 6k | 🟡 help wanted | 2026-08-15 | 🔏 DCO |
 | [A provision is required to create Child or dependent tickets.](https://github.com/frappe/helpdesk/issues/2370) 💬 1 | [frappe/helpdesk](https://github.com/frappe/helpdesk) | 3.4k | 🟢 beginner | 2026-08-07 |  |

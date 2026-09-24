@@ -1,8 +1,8 @@
 # Scala issues
 
-**29** open issues (17 labeled for beginners) across **17** active Scala projects.
+**30** open issues (17 labeled for beginners) across **18** active Scala projects.
 
-> Updated automatically on **2026-09-23 21:19 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-24 10:49 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,6 +10,7 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [UrlChecker can't see private on-prem repos: release notes and version diffs silently dropped](https://github.com/scala-steward-org/scala-steward/issues/4003) 💬 2 | [scala-steward-org/scala-steward](https://github.com/scala-steward-org/scala-steward) | 1.2k | 🟡 help wanted | 2026-09-24 |  |
 | [[BUG] rounding doubles floats can result in -0.0 result](https://github.com/NVIDIA/cudf-spark/issues/9349) 💬 1 | [NVIDIA/cudf-spark](https://github.com/NVIDIA/cudf-spark) | 1k | 🟢 beginner | 2026-09-19 | 🤖 disclose AI use · 🔏 DCO |
 | [Unable to create a routes file with same name as a method in Predef](https://github.com/playframework/playframework/issues/10204) 💬 7 | [playframework/playframework](https://github.com/playframework/playframework) | 12.6k | 🟡 help wanted | 2026-09-18 |  |
 | [EntityDecoder MediaRange translation](https://github.com/http4s/http4s/issues/4973) 💬 11 | [http4s/http4s](https://github.com/http4s/http4s) | 2.6k | 🟢 beginner | 2026-09-05 |  |

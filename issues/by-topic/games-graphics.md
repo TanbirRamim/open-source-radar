@@ -1,8 +1,8 @@
 # Games and graphics issues
 
-**142** open issues (77 labeled for beginners) across **50** projects tagged with topics like `game`, `game-engine`, `gamedev`, `graphics`, `opengl`, `vulkan`.
+**140** open issues (77 labeled for beginners) across **50** projects tagged with topics like `game`, `game-engine`, `gamedev`, `graphics`, `opengl`, `vulkan`.
 
-> Updated automatically on **2026-09-23 21:19 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-24 10:49 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -12,14 +12,12 @@
 | --- | --- | ---: | --- | --- | --- |
 | [PartDesign: Copy/Paste Sketches when Body is active should place them inside the Body](https://github.com/FreeCAD/FreeCAD/issues/23832) 💬 3 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.7k | 🟢 beginner | 2026-09-23 | ⚠️ AI restricted |
 | [Core: Add incremental save option](https://github.com/FreeCAD/FreeCAD/issues/27318) 💬 6 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.7k | 🟢 beginner | 2026-09-23 | ⚠️ AI restricted |
-| ['p5.VERSION' reports "2.3.1" in the 2.3.3 release build (build-time version replacement regression)](https://github.com/processing/p5.js/issues/9202) 💬 1 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-09-23 | ⚠️ AI restricted |
-| [Ship the npx installer (bin/cli.mjs) so users can install the img2threejs skill with one command](https://github.com/img2threejs/img2threejs/issues/145) | [img2threejs/img2threejs](https://github.com/img2threejs/img2threejs) | 16.6k | 🟡 help wanted | 2026-09-23 |  |
+| [Ship the npx installer (bin/cli.mjs) so users can install the img2threejs skill with one command](https://github.com/img2threejs/img2threejs/issues/145) | [img2threejs/img2threejs](https://github.com/img2threejs/img2threejs) | 16.7k | 🟡 help wanted | 2026-09-23 |  |
 | [BIM: External reference will ignore multiple coordinate systems](https://github.com/FreeCAD/FreeCAD/issues/23323) 💬 4 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.7k | 🟡 help wanted | 2026-09-22 | ⚠️ AI restricted |
 | [BIM: Room finish marks](https://github.com/FreeCAD/FreeCAD/issues/5740) | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.7k | 🟢 beginner | 2026-09-22 | ⚠️ AI restricted |
 | [BIM: Door/Window marks](https://github.com/FreeCAD/FreeCAD/issues/5741) | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.7k | 🟢 beginner | 2026-09-22 | ⚠️ AI restricted |
 | [BIM: Fix IV mode in Sketchfab exporter](https://github.com/FreeCAD/FreeCAD/issues/5744) 💬 10 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.7k | 🟢 beginner | 2026-09-22 | ⚠️ AI restricted |
 | [noiseMode(SIMPLEX) add-on library](https://github.com/processing/p5.js/issues/6152) 💬 20 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-09-22 | ⚠️ AI restricted |
-| [Refactor coloring options](https://github.com/f3d-app/f3d/issues/3499) 💬 1 | [f3d-app/f3d](https://github.com/f3d-app/f3d) | 4.7k | 🟡 help wanted | 2026-09-22 | 🤖 disclose AI use |
 | [Part: Intersections aren't displayed intersected in external references](https://github.com/FreeCAD/FreeCAD/issues/23142) 💬 15 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.7k | 🟡 help wanted | 2026-09-21 | ⚠️ AI restricted |
 | [OCC: GeomAPI_ExtremaCurveCurve fails to detect intersection](https://github.com/FreeCAD/FreeCAD/issues/5824) 💬 5 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.7k | 🟡 help wanted | 2026-09-20 | ⚠️ AI restricted |
 | [macOS: Improper name formatting in About menu: 'freecad' -&gt; 'FreeCAD'](https://github.com/FreeCAD/FreeCAD/issues/21118) 💬 28 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.7k | 🟢 beginner | 2026-09-20 | ⚠️ AI restricted |
@@ -83,7 +81,7 @@
 | [Add notification of excluded WWTT objects](https://github.com/OpenRCT2/OpenRCT2/issues/8031) 💬 2 | [OpenRCT2/OpenRCT2](https://github.com/OpenRCT2/OpenRCT2) | 16.2k | 🟢 beginner | 2026-07-20 |  |
 | [Dark Summit - can't enter cheat codes due to Start + Select combo](https://github.com/xemu-project/xemu/issues/2822) 💬 5 | [xemu-project/xemu](https://github.com/xemu-project/xemu) | 4.1k | 🟢 beginner | 2026-07-20 |  |
 | [textAscent() and textDescent() broken if textSize &gt; 200](https://github.com/processing/p5.js/issues/8771) 💬 15 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-07-18 | ⚠️ AI restricted |
-| [Measured token-cost benchmark to replace the estimates](https://github.com/img2threejs/img2threejs/issues/4) | [img2threejs/img2threejs](https://github.com/img2threejs/img2threejs) | 16.6k | 🟢 beginner | 2026-07-17 |  |
+| [Measured token-cost benchmark to replace the estimates](https://github.com/img2threejs/img2threejs/issues/4) | [img2threejs/img2threejs](https://github.com/img2threejs/img2threejs) | 16.7k | 🟢 beginner | 2026-07-17 |  |
 | [Society center can be built above the ground](https://github.com/Revolutionary-Games/Thrive/issues/7073) 💬 2 | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) | 3.7k | 🟢 beginner | 2026-07-15 |  |
 | [WSL + ConPTY + vim -&gt; paste with blanks lines](https://github.com/alacritty/alacritty/issues/2324) 💬 68 | [alacritty/alacritty](https://github.com/alacritty/alacritty) | 65.8k | 🟡 help wanted | 2026-07-14 |  |
 | [Enable javadoc plugin for 11+ Java and Kotlin (dokka?)](https://github.com/AlmasB/FXGL/issues/665) 💬 2 | [AlmasB/FXGL](https://github.com/AlmasB/FXGL) | 4.9k | 🟡 help wanted | 2026-07-14 |  |
@@ -120,7 +118,7 @@
 | [Improve UX for configuring external code editor](https://github.com/defold/defold/issues/8016) 💬 7 | [defold/defold](https://github.com/defold/defold) | 6.3k | 🟢 beginner | 2026-06-10 | ✍️ CLA |
 | [WebGL Error Triggered by 'noSmooth()' Invocation Between Framebuffer Creation and Drawing on Framebuffer](https://github.com/processing/p5.js/issues/6369) 💬 2 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-06-09 | ⚠️ AI restricted |
 | [[Wiki] [Docs] [Editor] Please provide documentation on "using the in-game Scenario Editor"](https://github.com/wesnoth/wesnoth/issues/5700) 💬 12 | [wesnoth/wesnoth](https://github.com/wesnoth/wesnoth) | 6.9k | 🟢 beginner | 2026-06-09 |  |
-| [Mac OS: kitty doesn't restore](https://github.com/kovidgoyal/kitty/issues/1197) 💬 22 | [kovidgoyal/kitty](https://github.com/kovidgoyal/kitty) | 35k | 🟡 help wanted | 2026-06-07 |  |
+| [Mac OS: kitty doesn't restore](https://github.com/kovidgoyal/kitty/issues/1197) 💬 22 | [kovidgoyal/kitty](https://github.com/kovidgoyal/kitty) | 35.1k | 🟡 help wanted | 2026-06-07 |  |
 | [Generate pkg-config files](https://github.com/panda3d/panda3d/issues/788) 💬 3 | [panda3d/panda3d](https://github.com/panda3d/panda3d) | 5.2k | 🟢 beginner | 2026-06-05 |  |
 | [On window minimize Screen.resize(0,0) called on Windows but not on Linux](https://github.com/libgdx/libgdx/issues/7072) 💬 8 | [libgdx/libgdx](https://github.com/libgdx/libgdx) | 25.4k | 🟢 beginner | 2026-06-04 | ✍️ CLA |
 | [Consider if the editor light level (day/night) buttons should default to day](https://github.com/Revolutionary-Games/Thrive/issues/6039) 💬 2 | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) | 3.7k | 🟢 beginner | 2026-06-04 |  |

@@ -1,8 +1,8 @@
 # Java issues
 
-**267** open issues (116 labeled for beginners) across **81** active Java projects.
+**271** open issues (119 labeled for beginners) across **81** active Java projects.
 
-> Updated automatically on **2026-09-23 21:19 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-24 10:49 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,6 +10,14 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [Organization group roles are not automapped to realm/resource_access](https://github.com/keycloak/keycloak/issues/52764) 💬 8 | [keycloak/keycloak](https://github.com/keycloak/keycloak) | 37k | 🟡 help wanted | 2026-09-24 | 🤖 disclose AI use · 🔏 DCO |
+| [OIDC backchannel Logout : multiple sessions on same client, only one backchannel request](https://github.com/keycloak/keycloak/issues/27359) 💬 5 | [keycloak/keycloak](https://github.com/keycloak/keycloak) | 37k | 🟡 help wanted | 2026-09-24 | 🤖 disclose AI use · 🔏 DCO |
+| [KsDataTable.vue: replace explicit 'any' with real types](https://github.com/kestra-io/kestra/issues/19273) 💬 1 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.3k | 🟢 beginner | 2026-09-24 |  |
+| [execution overview not showing variables having value 0](https://github.com/kestra-io/kestra/issues/16194) 💬 3 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.3k | 🟢 beginner | 2026-09-24 |  |
+| [Design system: replace explicit 'any' with real types](https://github.com/kestra-io/kestra/issues/19281) 💬 2 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.3k | 🟢 beginner | 2026-09-24 |  |
+| [Support for Azure Cognitive Services Speech SDK](https://github.com/spring-projects/spring-ai/issues/1165) 💬 9 | [spring-projects/spring-ai](https://github.com/spring-projects/spring-ai) | 9.5k | 🟡 help wanted | 2026-09-24 | 🤖 disclose AI use · ✍️ CLA · 🔏 DCO |
+| [macOS app fails Gatekeeper; Homebrew cask deprecated and scheduled for disablement](https://github.com/logisim-evolution/logisim-evolution/issues/2699) 💬 1 | [logisim-evolution/logisim-evolution](https://github.com/logisim-evolution/logisim-evolution) | 7.6k | 🟡 help wanted | 2026-09-24 |  |
+| ['COPY TO'/'COPY FROM': Support Google Cloud Platform](https://github.com/crate/crate/issues/13877) 💬 3 | [crate/crate](https://github.com/crate/crate) | 4.4k | 🟢 beginner | 2026-09-24 | ⚠️ AI restricted · ✍️ CLA |
 | [建议Chat2BI增加类似AI应用一样的发布功能](https://github.com/jeecgboot/JeecgBoot/issues/9896) 💬 1 | [jeecgboot/JeecgBoot](https://github.com/jeecgboot/JeecgBoot) | 48k | 🟡 help wanted | 2026-09-23 |  |
 | [Unable to log out via external IdP if external session terminated](https://github.com/keycloak/keycloak/issues/14451) 💬 9 | [keycloak/keycloak](https://github.com/keycloak/keycloak) | 37k | 🟡 help wanted | 2026-09-23 | 🤖 disclose AI use · 🔏 DCO |
 | [Onboarding components: replace explicit 'any' with real types](https://github.com/kestra-io/kestra/issues/19305) 💬 2 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.3k | 🟢 beginner | 2026-09-23 |  |
@@ -44,11 +52,10 @@
 | [Delete multiple subscriptions at once](https://github.com/TeamNewPipe/NewPipe/issues/3301) 💬 7 | [TeamNewPipe/NewPipe](https://github.com/TeamNewPipe/NewPipe) | 39.8k | 🟢 beginner | 2026-09-17 | 📄 AI policy |
 | [Produce 'Logout' event in event listener provider when 'SSO Session Max' is reached](https://github.com/keycloak/keycloak/issues/40403) 💬 9 | [keycloak/keycloak](https://github.com/keycloak/keycloak) | 37k | 🟡 help wanted | 2026-09-17 | 🤖 disclose AI use · 🔏 DCO |
 | [多行填报下按钮需设置开启/禁用功能](https://github.com/jeecgboot/jimureport/issues/4790) | [jeecgboot/jimureport](https://github.com/jeecgboot/jimureport) | 8.5k | 🟡 help wanted | 2026-09-17 |  |
-| [Organization group roles are not automapped to realm/resource_access](https://github.com/keycloak/keycloak/issues/52764) 💬 5 | [keycloak/keycloak](https://github.com/keycloak/keycloak) | 37k | 🟡 help wanted | 2026-09-16 | 🤖 disclose AI use · 🔏 DCO |
 | [CORS Origin validation rejects non-browser token requests (direct grant, client credentials)](https://github.com/keycloak/keycloak/issues/51831) 💬 2 | [keycloak/keycloak](https://github.com/keycloak/keycloak) | 37k | 🟡 help wanted | 2026-09-16 | 🤖 disclose AI use · 🔏 DCO |
 | [CIMD: Unbounded persistent client creation via path variation](https://github.com/keycloak/keycloak/issues/50532) 💬 2 | [keycloak/keycloak](https://github.com/keycloak/keycloak) | 37k | 🟡 help wanted | 2026-09-15 | 🤖 disclose AI use · 🔏 DCO |
 | [[Feature][API] Associate worker group with tenant](https://github.com/apache/dolphinscheduler/issues/17167) 💬 3 | [apache/dolphinscheduler](https://github.com/apache/dolphinscheduler) | 14.5k | 🟡 help wanted | 2026-09-15 |  |
-| [AppManager initialisation](https://github.com/MuntashirAkon/AppManager/issues/1829) 💬 4 | [MuntashirAkon/AppManager](https://github.com/MuntashirAkon/AppManager) | 9k | 🟡 help wanted | 2026-09-15 | 🔏 DCO |
+| [AppManager initialisation](https://github.com/MuntashirAkon/AppManager/issues/1829) 💬 4 | [MuntashirAkon/AppManager](https://github.com/MuntashirAkon/AppManager) | 9.1k | 🟡 help wanted | 2026-09-15 | 🔏 DCO |
 | [Convert all phrases into sentence case](https://github.com/camunda/camunda/issues/32869) 💬 6 | [camunda/camunda](https://github.com/camunda/camunda) | 4.3k | 🟢 beginner | 2026-09-14 | ✍️ CLA |
 | [Deep recursion / stackoverflow with tiff image](https://github.com/drewnoakes/metadata-extractor/issues/559) 💬 6 | [drewnoakes/metadata-extractor](https://github.com/drewnoakes/metadata-extractor) | 2.8k | 🟡 help wanted | 2026-09-14 |  |
 | [Empty indices are incorrectly included in the search target](https://github.com/Graylog2/graylog2-server/issues/6016) 💬 7 | [Graylog2/graylog2-server](https://github.com/Graylog2/graylog2-server) | 8.1k | 🟢 beginner | 2026-09-13 |  |
@@ -168,7 +175,6 @@
 | [Regarding the GA version issue](https://github.com/alibaba/spring-cloud-alibaba/issues/4100) 💬 6 | [alibaba/spring-cloud-alibaba](https://github.com/alibaba/spring-cloud-alibaba) | 29.2k | 🟢 beginner | 2026-07-21 |  |
 | [RTools download progress dialog isn't focused](https://github.com/rstudio/rstudio/issues/11521) 💬 2 | [rstudio/rstudio](https://github.com/rstudio/rstudio) | 5.1k | 🟢 beginner | 2026-07-21 |  |
 | [[FEATURE] Native volume key / Bluetooth shutter shortcut for FadShot during video recording](https://github.com/anonfaded/FadCam/issues/292) 💬 2 | [anonfaded/FadCam](https://github.com/anonfaded/FadCam) | 2.8k | 🟢 beginner | 2026-07-21 |  |
-| [Support for Azure Cognitive Services Speech SDK](https://github.com/spring-projects/spring-ai/issues/1165) 💬 8 | [spring-projects/spring-ai](https://github.com/spring-projects/spring-ai) | 9.5k | 🟡 help wanted | 2026-07-16 | 🤖 disclose AI use · ✍️ CLA · 🔏 DCO |
 | [The MavenMetaAnalyzer task fails due to invalid URLs](https://github.com/DependencyTrack/dependency-track/issues/3566) 💬 2 | [DependencyTrack/dependency-track](https://github.com/DependencyTrack/dependency-track) | 4.2k | 🟢 beginner | 2026-07-16 | ⚠️ AI restricted · 🔏 DCO |
 | [[FEATURE] Separate FadShot photo resolution from video recording resolution](https://github.com/anonfaded/FadCam/issues/293) | [anonfaded/FadCam](https://github.com/anonfaded/FadCam) | 2.8k | 🟢 beginner | 2026-07-16 |  |
 | [[FEATURE] Configurable watermark font size for videos and FadShot photos](https://github.com/anonfaded/FadCam/issues/294) | [anonfaded/FadCam](https://github.com/anonfaded/FadCam) | 2.8k | 🟢 beginner | 2026-07-16 |  |
@@ -187,8 +193,7 @@
 | [online java 导入增强优化](https://github.com/jeecgboot/JeecgBoot/issues/9735) | [jeecgboot/JeecgBoot](https://github.com/jeecgboot/JeecgBoot) | 48k | 🟡 help wanted | 2026-06-30 |  |
 | [Optimize GROUP BY with LIMIT but no ORDER BY to keep only k groups](https://github.com/crate/crate/issues/16827) 💬 5 | [crate/crate](https://github.com/crate/crate) | 4.4k | 🟡 help wanted | 2026-06-30 | ⚠️ AI restricted · ✍️ CLA |
 | [Search filter UI - Add sorting and filtering to search](https://github.com/TeamNewPipe/NewPipe/issues/2251) 💬 30 | [TeamNewPipe/NewPipe](https://github.com/TeamNewPipe/NewPipe) | 39.8k | 🟡 help wanted | 2026-06-29 | 📄 AI policy |
-| ["Redo existing backups" doesn't respect per-app settings](https://github.com/MuntashirAkon/AppManager/issues/991) 💬 1 | [MuntashirAkon/AppManager](https://github.com/MuntashirAkon/AppManager) | 9k | 🟢 beginner | 2026-06-29 | 🔏 DCO |
-| [macOS app fails Gatekeeper; Homebrew cask deprecated and scheduled for disablement](https://github.com/logisim-evolution/logisim-evolution/issues/2699) 💬 1 | [logisim-evolution/logisim-evolution](https://github.com/logisim-evolution/logisim-evolution) | 7.6k | 🟡 help wanted | 2026-06-29 |  |
+| ["Redo existing backups" doesn't respect per-app settings](https://github.com/MuntashirAkon/AppManager/issues/991) 💬 1 | [MuntashirAkon/AppManager](https://github.com/MuntashirAkon/AppManager) | 9.1k | 🟢 beginner | 2026-06-29 | 🔏 DCO |
 | [[Bug] Dubbo 3.3.5 fails to start with Nacos 3.x due to removed /v1/ns/operator/switches API](https://github.com/apache/dubbo/issues/15554) 💬 4 | [apache/dubbo](https://github.com/apache/dubbo) | 41.6k | 🟡 help wanted | 2026-06-28 | ✍️ CLA |
 | [Add ALERT_RULE_CONFIGURATION permission](https://github.com/DependencyTrack/dependency-track/issues/4847) 💬 5 | [DependencyTrack/dependency-track](https://github.com/DependencyTrack/dependency-track) | 4.2k | 🟢 beginner | 2026-06-27 | ⚠️ AI restricted · 🔏 DCO |
 | [Notify user, when response of Hub Authentication takes a long time](https://github.com/cryptomator/cryptomator/issues/3162) 💬 3 | [cryptomator/cryptomator](https://github.com/cryptomator/cryptomator) | 16.2k | 🟢 beginner | 2026-06-24 |  |
@@ -205,10 +210,5 @@
 | [[Improvement] Fix client-python codes to conform Pylint Rules](https://github.com/apache/gravitino/issues/3560) 💬 2 | [apache/gravitino](https://github.com/apache/gravitino) | 3.2k | 🟢 beginner | 2026-06-10 | 🤖 disclose AI use · ✍️ CLA |
 | [include support for opencv 5](https://github.com/bytedeco/javacv/issues/2388) | [bytedeco/javacv](https://github.com/bytedeco/javacv) | 8.3k | 🟡 help wanted | 2026-06-09 |  |
 | [[BUG] Auto split not working in dual recording more](https://github.com/anonfaded/FadCam/issues/303) | [anonfaded/FadCam](https://github.com/anonfaded/FadCam) | 2.8k | 🟢 beginner | 2026-06-09 |  |
-| [Show all queries by default in Web UI](https://github.com/trinodb/trino/issues/4350) 💬 4 | [trinodb/trino](https://github.com/trinodb/trino) | 13.3k | 🟢 beginner | 2026-06-08 | ✍️ CLA |
-| [Using WebClient with Mono.zip stuck in half-open state.](https://github.com/resilience4j/resilience4j/issues/1681) 💬 4 | [resilience4j/resilience4j](https://github.com/resilience4j/resilience4j) | 10.8k | 🟡 help wanted | 2026-06-07 |  |
-| [On window minimize Screen.resize(0,0) called on Windows but not on Linux](https://github.com/libgdx/libgdx/issues/7072) 💬 8 | [libgdx/libgdx](https://github.com/libgdx/libgdx) | 25.4k | 🟢 beginner | 2026-06-04 | ✍️ CLA |
-| [[openvino] [hugectr][apex][FasterTransformer][horovod][NCNN][ggml][llm][faiss][USearch]these deeplearning tool](https://github.com/bytedeco/javacpp-presets/issues/1404) 💬 3 | [bytedeco/javacpp-presets](https://github.com/bytedeco/javacpp-presets) | 2.9k | 🟡 help wanted | 2026-06-04 |  |
-| [Add size-bounded GC of the repo contents cache](https://github.com/bazelbuild/bazel/issues/29557) 💬 1 | [bazelbuild/bazel](https://github.com/bazelbuild/bazel) | 25.9k | 🟡 help wanted | 2026-06-03 | ✍️ CLA |
 
-Showing the 200 most recently updated. See all 267 on the website.
+Showing the 200 most recently updated. See all 271 on the website.

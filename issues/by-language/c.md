@@ -1,8 +1,8 @@
 # C issues
 
-**159** open issues (43 labeled for beginners) across **65** active C projects.
+**158** open issues (43 labeled for beginners) across **65** active C projects.
 
-> Updated automatically on **2026-09-23 21:19 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-24 10:49 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -12,7 +12,7 @@
 | --- | --- | ---: | --- | --- | --- |
 | [Add indicator in assembly browser how many jumps/calls the user is from a reference point.](https://github.com/rizinorg/rizin/issues/6788) | [rizinorg/rizin](https://github.com/rizinorg/rizin) | 3.9k | 🟢 beginner | 2026-09-23 | 🤖 disclose AI use |
 | [kew roadmap: "Project Joy"](https://github.com/ravachol/kew/issues/575) 💬 71 | [ravachol/kew](https://github.com/ravachol/kew) | 3.1k | 🟡 help wanted | 2026-09-23 |  |
-| [Allow all system tray icons to be displayed on the dock.](https://github.com/microsoft/PowerToys/issues/46232) 💬 7 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 138.9k | 🟡 help wanted | 2026-09-22 |  |
+| [Allow all system tray icons to be displayed on the dock.](https://github.com/microsoft/PowerToys/issues/46232) 💬 7 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 139k | 🟡 help wanted | 2026-09-22 |  |
 | [Let a CMP client require EnvelopedData (reject EncryptedValue) for centrally generated keys](https://github.com/openssl/openssl/issues/32797) 💬 1 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-22 | 🤖 disclose AI use · ✍️ CLA |
 | [Support more than 256 leds](https://github.com/qmk/qmk_firmware/issues/24675) 💬 9 | [qmk/qmk_firmware](https://github.com/qmk/qmk_firmware) | 20.7k | 🟡 help wanted | 2026-09-22 |  |
 | [Investigate AddressSanitizer-like diagnostics for ThreadX](https://github.com/eclipse-threadx/threadx/issues/764) | [eclipse-threadx/threadx](https://github.com/eclipse-threadx/threadx) | 3.5k | 🟡 help wanted | 2026-09-22 | 🔏 DCO |
@@ -37,23 +37,23 @@
 | [Backport 0c2a196af8 (per-OSSL_LIB_CTX CONF storage) to 3.0-3.6: conf_ssl.c double-free still present in all re](https://github.com/openssl/openssl/issues/32804) 💬 2 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use · ✍️ CLA |
 | [Support ECH SSLKEYLOGFILE](https://github.com/openssl/openssl/issues/31607) 💬 5 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-12 | 🤖 disclose AI use · ✍️ CLA |
 | [Add support for '_NET_WM_FRAME_DRAWN'](https://github.com/yshui/picom/issues/910) 💬 2 | [yshui/picom](https://github.com/yshui/picom) | 4.8k | 🟡 help wanted | 2026-09-11 |  |
-| [分享一下我解决进不去里站的方法](https://github.com/xiaojieonly/Ehviewer_CN_SXJ/issues/96) 💬 55 | [xiaojieonly/Ehviewer_CN_SXJ](https://github.com/xiaojieonly/Ehviewer_CN_SXJ) | 27k | 🟡 help wanted | 2026-09-10 |  |
+| [分享一下我解决进不去里站的方法](https://github.com/xiaojieonly/Ehviewer_CN_SXJ/issues/96) 💬 55 | [xiaojieonly/Ehviewer_CN_SXJ](https://github.com/xiaojieonly/Ehviewer_CN_SXJ) | 27.1k | 🟡 help wanted | 2026-09-10 |  |
 | [Add SMP support for Armv8-R (Cortex-R52 / Cortex-R82)](https://github.com/eclipse-threadx/threadx/issues/710) | [eclipse-threadx/threadx](https://github.com/eclipse-threadx/threadx) | 3.5k | 🟡 help wanted | 2026-09-09 | 🔏 DCO |
 | [Adding FAEST](https://github.com/open-quantum-safe/liboqs/issues/2101) 💬 11 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-09-09 |  |
-| [Change Audio Output with Hotkey](https://github.com/microsoft/PowerToys/issues/4964) 💬 73 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 138.9k | 🟡 help wanted | 2026-09-08 |  |
+| [Change Audio Output with Hotkey](https://github.com/microsoft/PowerToys/issues/4964) 💬 73 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 139k | 🟡 help wanted | 2026-09-08 |  |
 | [Request for Guidance on GPL Compliance and Source Code Release – YUNZII Tri-Mode Boards](https://github.com/qmk/qmk_firmware/issues/25737) 💬 24 | [qmk/qmk_firmware](https://github.com/qmk/qmk_firmware) | 20.7k | 🟡 help wanted | 2026-09-08 |  |
 | [Document the SPSel = 0 / SP_EL0 requirement of the ARMv8-A ports](https://github.com/eclipse-threadx/threadx/issues/703) | [eclipse-threadx/threadx](https://github.com/eclipse-threadx/threadx) | 3.5k | 🟡 help wanted | 2026-09-08 | 🔏 DCO |
 | [Support TX_ENABLE_STACK_CHECKING for module threads](https://github.com/eclipse-threadx/threadx/issues/702) | [eclipse-threadx/threadx](https://github.com/eclipse-threadx/threadx) | 3.5k | 🟡 help wanted | 2026-09-08 | 🔏 DCO |
-| [[Experiment] expert-transition-history placement policy vs gate-momentum — controlled A/B for hypothesis #1](https://github.com/JustVugg/colibri/issues/708) 💬 11 | [JustVugg/colibri](https://github.com/JustVugg/colibri) | 37.3k | 🟡 help wanted | 2026-09-07 |  |
+| [[Experiment] expert-transition-history placement policy vs gate-momentum — controlled A/B for hypothesis #1](https://github.com/JustVugg/colibri/issues/708) 💬 11 | [JustVugg/colibri](https://github.com/JustVugg/colibri) | 37.4k | 🟡 help wanted | 2026-09-07 |  |
 | [FreeSWITCH Not Compliant with RFC3515 - Not Processing REFER - $250 Bounty](https://github.com/signalwire/freeswitch/issues/592) 💬 6 | [signalwire/freeswitch](https://github.com/signalwire/freeswitch) | 5.2k | 🟡 help wanted | 2026-09-07 |  |
 | [[Feature Request] Support configurable additional HID interfaces](https://github.com/qmk/qmk_firmware/issues/26363) 💬 2 | [qmk/qmk_firmware](https://github.com/qmk/qmk_firmware) | 20.7k | 🟡 help wanted | 2026-09-06 |  |
 | [Will open5gs team produce NEF(Network Exposure Function ) to meet MEC(edge computing) use case ？](https://github.com/open5gs/open5gs/issues/1663) 💬 2 | [open5gs/open5gs](https://github.com/open5gs/open5gs) | 2.7k | 🟡 help wanted | 2026-09-03 |  |
 | [Filesystem time on stat from 'nftw' not faked](https://github.com/wolfcw/libfaketime/issues/476) 💬 2 | [wolfcw/libfaketime](https://github.com/wolfcw/libfaketime) | 3.1k | 🟡 help wanted | 2026-09-02 |  |
 | [DOSBox-X translations 💬🌍](https://github.com/joncampbell123/dosbox-x/issues/2820) 💬 22 | [joncampbell123/dosbox-x](https://github.com/joncampbell123/dosbox-x) | 3.7k | 🟡 help wanted | 2026-09-01 |  |
-| [CmdPal: Bookmarks extension needs icon cache](https://github.com/microsoft/PowerToys/issues/41783) 💬 5 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 138.9k | 🟡 help wanted | 2026-08-31 |  |
+| [CmdPal: Bookmarks extension needs icon cache](https://github.com/microsoft/PowerToys/issues/41783) 💬 5 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 139k | 🟡 help wanted | 2026-08-31 |  |
 | [Implement connect redirect and bind redirect.](https://github.com/microsoft/ebpf-for-windows/issues/848) 💬 1 | [microsoft/ebpf-for-windows](https://github.com/microsoft/ebpf-for-windows) | 3.6k | 🟡 help wanted | 2026-08-31 | ✍️ CLA |
-| [Firewall rules for Windows 10 hotspot](https://github.com/henrypp/simplewall/issues/425) 💬 59 | [henrypp/simplewall](https://github.com/henrypp/simplewall) | 9k | 🟡 help wanted | 2026-08-30 |  |
-| [Allow users to hide/remove unwanted apps from Command Palette search results](https://github.com/microsoft/PowerToys/issues/41497) 💬 12 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 138.9k | 🟡 help wanted | 2026-08-28 |  |
+| [Firewall rules for Windows 10 hotspot](https://github.com/henrypp/simplewall/issues/425) 💬 59 | [henrypp/simplewall](https://github.com/henrypp/simplewall) | 9.1k | 🟡 help wanted | 2026-08-30 |  |
+| [Allow users to hide/remove unwanted apps from Command Palette search results](https://github.com/microsoft/PowerToys/issues/41497) 💬 12 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 139k | 🟡 help wanted | 2026-08-28 |  |
 | [Failing to use close-on-exec](https://github.com/microsoft/msquic/issues/4980) 💬 6 | [microsoft/msquic](https://github.com/microsoft/msquic) | 4.8k | 🟢 beginner | 2026-08-28 | ✍️ CLA |
 | [Crash under heavy spam with linked list corruption](https://github.com/irssi/irssi/issues/1333) 💬 1 | [irssi/irssi](https://github.com/irssi/irssi) | 3.1k | 🟡 help wanted | 2026-08-27 |  |
 | [rtd1296 stability issue](https://github.com/bb-qq/r8152/issues/275) 💬 81 | [bb-qq/r8152](https://github.com/bb-qq/r8152) | 3.1k | 🟡 help wanted | 2026-08-27 |  |
@@ -61,13 +61,13 @@
 | [macOS: intermittent CONNECTION_IDLE during handshake on loopback under sustained connect load](https://github.com/microsoft/msquic/issues/6265) | [microsoft/msquic](https://github.com/microsoft/msquic) | 4.8k | 🟡 help wanted | 2026-08-25 | ✍️ CLA |
 | [[Bug] '50-qmk.rules' Broken on systemd 258.](https://github.com/qmk/qmk_firmware/issues/25847) 💬 16 | [qmk/qmk_firmware](https://github.com/qmk/qmk_firmware) | 20.7k | 🟡 help wanted | 2026-08-24 |  |
 | [[BUG] backup fails with —trx-table](https://github.com/mydumper/mydumper/issues/2301) 💬 13 | [mydumper/mydumper](https://github.com/mydumper/mydumper) | 3.2k | 🟡 help wanted | 2026-08-24 |  |
-| [[Color Picker] Long color format names are cut off, including default DECIMAL](https://github.com/microsoft/PowerToys/issues/25063) | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 138.9k | 🟡 help wanted | 2026-08-22 |  |
+| [[Color Picker] Long color format names are cut off, including default DECIMAL](https://github.com/microsoft/PowerToys/issues/25063) | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 139k | 🟡 help wanted | 2026-08-22 |  |
 | [Consider bounded CBMC proofs for liboqs-owned code](https://github.com/open-quantum-safe/liboqs/issues/2504) 💬 1 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-08-21 |  |
 | [Rule Engine (non-core) bugs - Community maintained part.](https://github.com/nanomq/nanomq/issues/2251) 💬 3 | [nanomq/nanomq](https://github.com/nanomq/nanomq) | 2.6k | 🟡 help wanted | 2026-08-21 | 🔏 DCO |
 | [gadgets/trace_lsm: Add missing documentation Guide section](https://github.com/inspektor-gadget/inspektor-gadget/issues/5631) 💬 2 | [inspektor-gadget/inspektor-gadget](https://github.com/inspektor-gadget/inspektor-gadget) | 2.9k | 🟢 beginner | 2026-08-20 |  |
 | [arc_summary to be able to show only altered tunables,spl](https://github.com/openzfs/zfs/issues/11685) 💬 5 | [openzfs/zfs](https://github.com/openzfs/zfs) | 12.5k | 🟢 beginner | 2026-08-18 | 🔏 DCO |
 | [New Portuguese ID card support (june 2024)](https://github.com/OpenSC/OpenSC/issues/3482) 💬 8 | [OpenSC/OpenSC](https://github.com/OpenSC/OpenSC) | 3.1k | 🟡 help wanted | 2026-08-18 | 🤖 disclose AI use |
-| [[Image Resizer] Better support for HEiC image formats](https://github.com/microsoft/PowerToys/issues/1934) 💬 11 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 138.9k | 🟡 help wanted | 2026-08-17 |  |
+| [[Image Resizer] Better support for HEiC image formats](https://github.com/microsoft/PowerToys/issues/1934) 💬 11 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 139k | 🟡 help wanted | 2026-08-17 |  |
 | [taosExplorer 服务web接口一直无返回，导致无法进入](https://github.com/taosdata/TDengine/issues/33620) 💬 8 | [taosdata/TDengine](https://github.com/taosdata/TDengine) | 25.1k | 🟡 help wanted | 2026-08-17 |  |
 | ["text selection" with keyboard](https://github.com/pwmt/zathura/issues/748) 💬 5 | [pwmt/zathura](https://github.com/pwmt/zathura) | 3.3k | 🟡 help wanted | 2026-08-17 |  |
 | [Multi Port MIDI Support](https://github.com/FluidSynth/fluidsynth/issues/1361) 💬 12 | [FluidSynth/fluidsynth](https://github.com/FluidSynth/fluidsynth) | 2.5k | 🟡 help wanted | 2026-08-16 |  |
@@ -79,7 +79,7 @@
 | [Notify user with a GUI popup about invalid config file](https://github.com/labwc/labwc/issues/1250) 💬 2 | [labwc/labwc](https://github.com/labwc/labwc) | 2.8k | 🟡 help wanted | 2026-08-10 | ⚠️ AI restricted |
 | [extreme edge-case where palera1n fails to bootstrap, requiring --force-revert to succeed](https://github.com/palera1n/palera1n/issues/665) 💬 8 | [palera1n/palera1n](https://github.com/palera1n/palera1n) | 6.5k | 🟡 help wanted | 2026-08-07 |  |
 | [Intel C++ Compiler Support](https://github.com/premake/premake-core/issues/227) 💬 2 | [premake/premake-core](https://github.com/premake/premake-core) | 3.6k | 🟡 help wanted | 2026-08-06 |  |
-| [[Keyboard Manager] Add an option for remapped keys to return to default when a modifier key is pressed](https://github.com/microsoft/PowerToys/issues/13480) 💬 11 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 138.9k | 🟡 help wanted | 2026-08-05 |  |
+| [[Keyboard Manager] Add an option for remapped keys to return to default when a modifier key is pressed](https://github.com/microsoft/PowerToys/issues/13480) 💬 11 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 139k | 🟡 help wanted | 2026-08-05 |  |
 | [在Dbeaver中，不能下载、使用最新驱动](https://github.com/taosdata/TDengine/issues/35396) 💬 2 | [taosdata/TDengine](https://github.com/taosdata/TDengine) | 25.1k | 🟡 help wanted | 2026-08-04 |  |
 | [[Bug] DOIO KB16-01 (rev1) large knob registers two inputs per detent](https://github.com/qmk/qmk_firmware/issues/26378) | [qmk/qmk_firmware](https://github.com/qmk/qmk_firmware) | 20.7k | 🟡 help wanted | 2026-08-01 |  |
 | [[Bug] Keyboard works when connected to laptop, but not through dock (modelh, thinkpad thunderbolt 3 workstatio](https://github.com/qmk/qmk_firmware/issues/23825) 💬 7 | [qmk/qmk_firmware](https://github.com/qmk/qmk_firmware) | 20.7k | 🟡 help wanted | 2026-08-01 |  |
@@ -99,38 +99,37 @@
 | [VM left in unusable state when vhost terminates](https://github.com/spdk/spdk/issues/3519) 💬 6 | [spdk/spdk](https://github.com/spdk/spdk) | 3.7k | 🟡 help wanted | 2026-07-20 |  |
 | [os.setTray crashing app on macOS Catalina 10.15.7](https://github.com/neutralinojs/neutralinojs/issues/615) 💬 25 | [neutralinojs/neutralinojs](https://github.com/neutralinojs/neutralinojs) | 8.6k | 🟡 help wanted | 2026-07-19 |  |
 | [学习29-sockops遇到报错“iperf3: error - unable to send control message: Permission denied](https://github.com/eunomia-bpf/bpf-developer-tutorial/issues/117) 💬 2 | [eunomia-bpf/bpf-developer-tutorial](https://github.com/eunomia-bpf/bpf-developer-tutorial) | 4.3k | 🟢 beginner | 2026-07-19 |  |
-| [Add option to use English system command names (like in PowerToys Run)](https://github.com/microsoft/PowerToys/issues/38593) 💬 1 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 138.9k | 🟡 help wanted | 2026-07-18 |  |
+| [Add option to use English system command names (like in PowerToys Run)](https://github.com/microsoft/PowerToys/issues/38593) 💬 1 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 139k | 🟡 help wanted | 2026-07-18 |  |
 | [[Bug] Compiled firmware for yandrstudio/yr6095 do not work](https://github.com/qmk/qmk_firmware/issues/20982) 💬 11 | [qmk/qmk_firmware](https://github.com/qmk/qmk_firmware) | 20.7k | 🟡 help wanted | 2026-07-18 |  |
 | [One shot mod keys locking when tapped in succession](https://github.com/qmk/qmk_firmware/issues/10872) 💬 2 | [qmk/qmk_firmware](https://github.com/qmk/qmk_firmware) | 20.7k | 🟡 help wanted | 2026-07-18 |  |
 | [最近测试发现TDengine的WAL_LEVEL设置为2时，插入数据后并不会主动进行刷盘](https://github.com/taosdata/TDengine/issues/33659) 💬 4 | [taosdata/TDengine](https://github.com/taosdata/TDengine) | 25.1k | 🟡 help wanted | 2026-07-17 |  |
 | [Unify WAMR_BUILD_TARGET auto-detection across all CMake build files](https://github.com/wasm-micro-runtime/wasm-micro-runtime/issues/4966) 💬 1 | [wasm-micro-runtime/wasm-micro-runtime](https://github.com/wasm-micro-runtime/wasm-micro-runtime) | 6.1k | 🟡 help wanted | 2026-07-17 |  |
-| [[Run] Improve error message for file not found](https://github.com/microsoft/PowerToys/issues/11073) 💬 1 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 138.9k | 🟡 help wanted | 2026-07-15 |  |
+| [[Run] Improve error message for file not found](https://github.com/microsoft/PowerToys/issues/11073) 💬 1 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 139k | 🟡 help wanted | 2026-07-15 |  |
 | [Add IP addresses in log messages](https://github.com/coturn/coturn/issues/756) 💬 8 | [coturn/coturn](https://github.com/coturn/coturn) | 14.4k | 🟡 help wanted | 2026-07-15 |  |
 | [OSX compatibility](https://github.com/cboxdoerfer/fsearch/issues/7) 💬 14 | [cboxdoerfer/fsearch](https://github.com/cboxdoerfer/fsearch) | 4.4k | 🟡 help wanted | 2026-07-14 |  |
 | [Tap to change page](https://github.com/pwmt/zathura/issues/938) 💬 4 | [pwmt/zathura](https://github.com/pwmt/zathura) | 3.3k | 🟡 help wanted | 2026-07-10 |  |
 | [Sioyek does not start](https://github.com/ahrm/sioyek/issues/1283) 💬 18 | [ahrm/sioyek](https://github.com/ahrm/sioyek) | 9.9k | 🟡 help wanted | 2026-07-09 |  |
-| [Support Client Migration (Client Side)](https://github.com/microsoft/msquic/issues/1946) 💬 5 | [microsoft/msquic](https://github.com/microsoft/msquic) | 4.8k | 🟡 help wanted | 2026-07-09 | ✍️ CLA |
 | [External datagram I/O for the connection state machine](https://github.com/microsoft/msquic/issues/6132) 💬 2 | [microsoft/msquic](https://github.com/microsoft/msquic) | 4.8k | 🟡 help wanted | 2026-07-07 | ✍️ CLA |
 | [minor security issue: file descriptor leakage](https://github.com/DynamoRIO/dynamorio/issues/2884) 💬 1 | [DynamoRIO/dynamorio](https://github.com/DynamoRIO/dynamorio) | 3.2k | 🟢 beginner | 2026-07-07 | ✍️ CLA |
 | [[YSQL] Investigate point-lookup path for fully-bound hash PK IN queries](https://github.com/yugabyte/yugabyte-db/issues/32026) 💬 1 | [yugabyte/yugabyte-db](https://github.com/yugabyte/yugabyte-db) | 10.6k | 🟢 beginner | 2026-07-06 |  |
 | [[FEATURE REQUEST] Support for accessing the DSpico SD card](https://github.com/d0k3/GodMode9/issues/968) 💬 1 | [d0k3/GodMode9](https://github.com/d0k3/GodMode9) | 2.6k | 🟡 help wanted | 2026-07-05 |  |
 | [Disabling columnstore does not pause columnstore policies](https://github.com/timescale/timescaledb/issues/8960) 💬 3 | [timescale/timescaledb](https://github.com/timescale/timescaledb) | 23.6k | 🟢 beginner | 2026-07-04 | ✍️ CLA |
-| [[PT Run] [Time and Date plugin] Add friendly date/time format](https://github.com/microsoft/PowerToys/issues/16809) 💬 3 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 138.9k | 🟢 beginner | 2026-07-03 |  |
-| [New Folder with Selection](https://github.com/microsoft/PowerToys/issues/3569) 💬 23 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 138.9k | 🟡 help wanted | 2026-06-30 |  |
+| [[PT Run] [Time and Date plugin] Add friendly date/time format](https://github.com/microsoft/PowerToys/issues/16809) 💬 3 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 139k | 🟢 beginner | 2026-07-03 |  |
+| [New Folder with Selection](https://github.com/microsoft/PowerToys/issues/3569) 💬 23 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 139k | 🟡 help wanted | 2026-06-30 |  |
 | [咨询是否存在文件句柄超限问题](https://github.com/taosdata/TDengine/issues/35377) 💬 1 | [taosdata/TDengine](https://github.com/taosdata/TDengine) | 25.1k | 🟡 help wanted | 2026-06-30 |  |
-| [.opus support for Peek](https://github.com/microsoft/PowerToys/issues/42576) 💬 4 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 138.9k | 🟢 beginner | 2026-06-28 |  |
-| [Perf monitor: add a setting for "graph" icons for the bands](https://github.com/microsoft/PowerToys/issues/47009) 💬 2 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 138.9k | 🟡 help wanted | 2026-06-27 |  |
+| [.opus support for Peek](https://github.com/microsoft/PowerToys/issues/42576) 💬 4 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 139k | 🟢 beginner | 2026-06-28 |  |
+| [Perf monitor: add a setting for "graph" icons for the bands](https://github.com/microsoft/PowerToys/issues/47009) 💬 2 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 139k | 🟡 help wanted | 2026-06-27 |  |
 | [[BUG] ERROR 1064 .......'MASTER STATUS'](https://github.com/mydumper/mydumper/issues/2288) 💬 6 | [mydumper/mydumper](https://github.com/mydumper/mydumper) | 3.2k | 🟡 help wanted | 2026-06-26 |  |
 | [asymmetric key encryption in pkcs11 module does not work](https://github.com/OpenSC/OpenSC/issues/3144) 💬 2 | [OpenSC/OpenSC](https://github.com/OpenSC/OpenSC) | 3.1k | 🟢 beginner | 2026-06-26 | 🤖 disclose AI use |
 | [Update Build Documentation for Windows](https://github.com/GBALATRO/balatro-gba/issues/423) | [GBALATRO/balatro-gba](https://github.com/GBALATRO/balatro-gba) | 2.4k | 🟢 beginner | 2026-06-26 |  |
 | [no way to define "no option forwardfor"](https://github.com/haproxy/haproxy/issues/130) 💬 8 | [haproxy/haproxy](https://github.com/haproxy/haproxy) | 6.9k | 🟢 beginner | 2026-06-24 |  |
 | [Unified Issue ticket for Rule Engine](https://github.com/nanomq/nanomq/issues/2288) 💬 2 | [nanomq/nanomq](https://github.com/nanomq/nanomq) | 2.6k | 🟡 help wanted | 2026-06-23 | 🔏 DCO |
-| ["Switch between open Windows" integration into "All Apps"](https://github.com/microsoft/PowerToys/issues/39125) 💬 5 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 138.9k | 🟡 help wanted | 2026-06-21 |  |
+| ["Switch between open Windows" integration into "All Apps"](https://github.com/microsoft/PowerToys/issues/39125) 💬 5 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 139k | 🟡 help wanted | 2026-06-21 |  |
 | [[Recursive lookup] Dunst doesn't search for some icons](https://github.com/dunst-project/dunst/issues/1557) 💬 3 | [dunst-project/dunst](https://github.com/dunst-project/dunst) | 5.6k | 🟡 help wanted | 2026-06-20 | 🤖 disclose AI use |
-| [Allow X in place of * for calculator](https://github.com/microsoft/PowerToys/issues/38007) 💬 6 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 138.9k | 🟡 help wanted | 2026-06-18 |  |
+| [Allow X in place of * for calculator](https://github.com/microsoft/PowerToys/issues/38007) 💬 6 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 139k | 🟡 help wanted | 2026-06-18 |  |
 | [[BUG] myloader appears to hang indefinitely during initialization when restoring a massive number of files (&g](https://github.com/mydumper/mydumper/issues/2289) 💬 1 | [mydumper/mydumper](https://github.com/mydumper/mydumper) | 3.2k | 🟡 help wanted | 2026-06-17 |  |
 | [SDL 3 support](https://github.com/chocolate-doom/chocolate-doom/issues/1736) 💬 5 | [chocolate-doom/chocolate-doom](https://github.com/chocolate-doom/chocolate-doom) | 2.4k | 🟢 beginner | 2026-06-17 |  |
-| [Command Palette: Overlay Temperature Readings](https://github.com/microsoft/PowerToys/issues/46434) 💬 5 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 138.9k | 🟡 help wanted | 2026-06-16 |  |
+| [Command Palette: Overlay Temperature Readings](https://github.com/microsoft/PowerToys/issues/46434) 💬 5 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 139k | 🟡 help wanted | 2026-06-16 |  |
 | [EXPORT/IMPORTERS](https://github.com/pawelsalawa/letos/issues/2794) 💬 2 | [pawelsalawa/letos](https://github.com/pawelsalawa/letos) | 6.8k | 🟢 beginner | 2026-06-16 |  |
 | [Find functions that perform temporary seek from the API and refactor to use the offset argument if possible](https://github.com/rizinorg/rizin/issues/2906) 💬 3 | [rizinorg/rizin](https://github.com/rizinorg/rizin) | 3.9k | 🟢 beginner | 2026-06-14 | 🤖 disclose AI use |
 | [Blank screen on previous window when opening a new one](https://github.com/ahrm/sioyek/issues/1155) 💬 35 | [ahrm/sioyek](https://github.com/ahrm/sioyek) | 9.9k | 🟡 help wanted | 2026-06-12 |  |

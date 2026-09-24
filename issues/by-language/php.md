@@ -1,8 +1,8 @@
 # PHP issues
 
-**158** open issues (76 labeled for beginners) across **54** active PHP projects.
+**162** open issues (79 labeled for beginners) across **54** active PHP projects.
 
-> Updated automatically on **2026-09-23 21:19 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-24 10:49 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,6 +10,11 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [Feature Request: merge tickets by toggle buttons on ticket list](https://github.com/freescout-help-desk/freescout/issues/5662) 💬 1 | [freescout-help-desk/freescout](https://github.com/freescout-help-desk/freescout) | 4.6k | 🟡 help wanted | 2026-09-24 |  |
+| [Register Signature Rejection in Policy Workbench and add flow tests](https://github.com/LibreSign/libresign/issues/8689) | [LibreSign/libresign](https://github.com/LibreSign/libresign) | 823 | 🟢 beginner | 2026-09-24 | 🤖 disclose AI use · 🔏 DCO |
+| [Add the Signature Rejection Policy Workbench module](https://github.com/LibreSign/libresign/issues/8688) | [LibreSign/libresign](https://github.com/LibreSign/libresign) | 823 | 🟢 beginner | 2026-09-24 | 🤖 disclose AI use · 🔏 DCO |
+| [Add compound policy write methods to the policies store](https://github.com/LibreSign/libresign/issues/8686) | [LibreSign/libresign](https://github.com/LibreSign/libresign) | 823 | 🟢 beginner | 2026-09-24 | 🤖 disclose AI use · 🔏 DCO |
+| [Generate a reproducible report of past LibreSign contributors](https://github.com/LibreSign/libresign/issues/8678) | [LibreSign/libresign](https://github.com/LibreSign/libresign) | 823 | 🟢 beginner | 2026-09-24 | 🤖 disclose AI use · 🔏 DCO |
 | [Missing translations for Burmese (my)](https://github.com/symfony/symfony/issues/51897) 💬 2 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-23 |  |
 | [Nginx container failed to connect to localhost in Sylius project on Docker](https://github.com/Sylius/Sylius/issues/14429) 💬 5 | [Sylius/Sylius](https://github.com/Sylius/Sylius) | 8.5k | 🟡 help wanted | 2026-09-23 | 📄 AI policy |
 | [Opcache Optimization triggering Segmentation Faults when using OpenTelemetry hooks](https://github.com/open-telemetry/opentelemetry-php/issues/1512) 💬 3 | [open-telemetry/opentelemetry-php](https://github.com/open-telemetry/opentelemetry-php) | 912 | 🟡 help wanted | 2026-09-23 |  |
@@ -19,12 +24,11 @@
 | [unnecessary folder in mobile app feed list](https://github.com/FreshRSS/FreshRSS/issues/2742) 💬 8 | [FreshRSS/FreshRSS](https://github.com/FreshRSS/FreshRSS) | 16.1k | 🟢 beginner | 2026-09-22 |  |
 | [Add SPDX license headers to all files](https://github.com/nextcloud/all-in-one/issues/7439) | [nextcloud/all-in-one](https://github.com/nextcloud/all-in-one) | 10.5k | 🟡 help wanted | 2026-09-22 | 🤖 disclose AI use · 🔏 DCO |
 | [Feat request: Contact conversations don't include anything they were cced or recipients of](https://github.com/freescout-help-desk/freescout/issues/5656) | [freescout-help-desk/freescout](https://github.com/freescout-help-desk/freescout) | 4.6k | 🟡 help wanted | 2026-09-22 |  |
-| [Add signature rejection policy configuration UI](https://github.com/LibreSign/libresign/issues/8160) 💬 4 | [LibreSign/libresign](https://github.com/LibreSign/libresign) | 822 | 🟢 beginner | 2026-09-22 | 🤖 disclose AI use · 🔏 DCO |
 | [[Bug]: Web Updater’s "start update" button unreachable without scroll bar](https://github.com/nextcloud/server/issues/40624) 💬 3 | [nextcloud/server](https://github.com/nextcloud/server) | 36.9k | 🟢 beginner | 2026-09-21 | 🤖 disclose AI use · 🔏 DCO |
 | ['Cannot write into 'config' directory' misleading when an upgrade is needed](https://github.com/nextcloud/server/issues/29583) 💬 5 | [nextcloud/server](https://github.com/nextcloud/server) | 36.9k | 🟢 beginner | 2026-09-21 | 🤖 disclose AI use · 🔏 DCO |
-| [List LibreSign in beginner-friendly open source directories](https://github.com/LibreSign/libresign/issues/8284) 💬 5 | [LibreSign/libresign](https://github.com/LibreSign/libresign) | 822 | 🟢 beginner | 2026-09-21 | 🤖 disclose AI use · 🔏 DCO |
-| [Show a SELinux hint when Java execution is blocked](https://github.com/LibreSign/libresign/issues/3227) | [LibreSign/libresign](https://github.com/LibreSign/libresign) | 822 | 🟢 beginner | 2026-09-20 | 🤖 disclose AI use · 🔏 DCO |
-| [🚀 Feature: Add OneSignal as a Messaging provider](https://github.com/appwrite/appwrite/issues/7726) 💬 9 | [appwrite/appwrite](https://github.com/appwrite/appwrite) | 57.4k | 🟡 help wanted | 2026-09-19 |  |
+| [List LibreSign in beginner-friendly open source directories](https://github.com/LibreSign/libresign/issues/8284) 💬 5 | [LibreSign/libresign](https://github.com/LibreSign/libresign) | 823 | 🟢 beginner | 2026-09-21 | 🤖 disclose AI use · 🔏 DCO |
+| [Show a SELinux hint when Java execution is blocked](https://github.com/LibreSign/libresign/issues/3227) | [LibreSign/libresign](https://github.com/LibreSign/libresign) | 823 | 🟢 beginner | 2026-09-20 | 🤖 disclose AI use · 🔏 DCO |
+| [🚀 Feature: Add OneSignal as a Messaging provider](https://github.com/appwrite/appwrite/issues/7726) 💬 9 | [appwrite/appwrite](https://github.com/appwrite/appwrite) | 57.5k | 🟡 help wanted | 2026-09-19 |  |
 | [Missing translations for Welsh (cy)](https://github.com/symfony/symfony/issues/51903) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-19 |  |
 | [Missing translations for Vietnamese (vi)](https://github.com/symfony/symfony/issues/53309) 💬 4 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-19 |  |
 | [Missing translations for Uzbek (uz)](https://github.com/symfony/symfony/issues/65569) | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-19 |  |
@@ -34,7 +38,6 @@
 | [Missing translations for Thai (th)](https://github.com/symfony/symfony/issues/53048) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-19 |  |
 | [Missing translations for Tagalog (tl)](https://github.com/symfony/symfony/issues/65565) | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-19 |  |
 | [Missing translations for Spanish (es)](https://github.com/symfony/symfony/issues/66109) | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-19 |  |
-| [Missing translations for Swedish (sv)](https://github.com/symfony/symfony/issues/64518) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-19 |  |
 | [Missing translations for Slovenian (sl)](https://github.com/symfony/symfony/issues/64516) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-19 |  |
 | [Missing translations for Slovak (sk)](https://github.com/symfony/symfony/issues/65563) | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-19 |  |
 | [Missing translations for Serbian (sr_Latn)](https://github.com/symfony/symfony/issues/66172) | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-19 |  |
@@ -52,11 +55,12 @@
 | [Missing translations for Latvian (lv)](https://github.com/symfony/symfony/issues/64503) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-19 |  |
 | [Missing translations for Japanese (ja)](https://github.com/symfony/symfony/issues/64502) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-19 |  |
 | [Missing translations for Italian (it)](https://github.com/symfony/symfony/issues/66170) | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-19 |  |
+| [Missing translations for Hungarian (hu)](https://github.com/symfony/symfony/issues/66100) | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-19 |  |
 | [Duplicate conversation created from a single self-addressed email with identical Message-ID (single mailbox, o](https://github.com/freescout-help-desk/freescout/issues/5638) 💬 4 | [freescout-help-desk/freescout](https://github.com/freescout-help-desk/freescout) | 4.6k | 🟡 help wanted | 2026-09-19 |  |
 | [improve Automatic updates when they fail silently if image pulls fail due to host failures — no notification, ](https://github.com/nextcloud/all-in-one/issues/8452) 💬 3 | [nextcloud/all-in-one](https://github.com/nextcloud/all-in-one) | 10.5k | 🟡 help wanted | 2026-09-18 | 🤖 disclose AI use · 🔏 DCO |
 | [Reject credential and other unsupported keys in 'files_external:option'](https://github.com/nextcloud/server/issues/58821) 💬 3 | [nextcloud/server](https://github.com/nextcloud/server) | 36.9k | 🟢 beginner | 2026-09-17 | 🤖 disclose AI use · 🔏 DCO |
 | [Chamilo automatic deployment - Ansible](https://github.com/chamilo/chamilo-lms/issues/2502) 💬 7 | [chamilo/chamilo-lms](https://github.com/chamilo/chamilo-lms) | 1k | 🟡 help wanted | 2026-09-17 |  |
-| [confusions with "my late days/extensions page"](https://github.com/Submitty/Submitty/issues/6068) 💬 1 | [Submitty/Submitty](https://github.com/Submitty/Submitty) | 796 | 🟢 beginner | 2026-09-17 |  |
+| [confusions with "my late days/extensions page"](https://github.com/Submitty/Submitty/issues/6068) 💬 1 | [Submitty/Submitty](https://github.com/Submitty/Submitty) | 797 | 🟢 beginner | 2026-09-17 |  |
 | [schedule:work run artisan relative to current working dir](https://github.com/laravel/framework/issues/56390) 💬 3 | [laravel/framework](https://github.com/laravel/framework) | 34.9k | 🟡 help wanted | 2026-09-16 |  |
 | [Document need some custom attributes,eg:metadata](https://github.com/LLPhant/LLPhant/issues/313) | [LLPhant/LLPhant](https://github.com/LLPhant/LLPhant) | 1.7k | 🟡 help wanted | 2026-09-16 |  |
 | [Ollama cloud and webSearch](https://github.com/LLPhant/LLPhant/issues/421) | [LLPhant/LLPhant](https://github.com/LLPhant/LLPhant) | 1.7k | 🟡 help wanted | 2026-09-16 |  |
@@ -84,7 +88,7 @@
 | [Multiple authors not treated properly](https://github.com/nextcloud/news/issues/3898) | [nextcloud/news](https://github.com/nextcloud/news) | 1k | 🟡 help wanted | 2026-08-29 | 🔏 DCO |
 | [Incorrect subscription type due to race condition](https://github.com/laravel/cashier-stripe/issues/1773) 💬 2 | [laravel/cashier-stripe](https://github.com/laravel/cashier-stripe) | 2.5k | 🟡 help wanted | 2026-08-27 |  |
 | [Old thread attachments are re-imported on each new reply](https://github.com/freescout-help-desk/freescout/issues/5311) 💬 9 | [freescout-help-desk/freescout](https://github.com/freescout-help-desk/freescout) | 4.6k | 🟡 help wanted | 2026-08-25 |  |
-| [Support TV shows](https://github.com/leepeuker/movary/issues/186) 💬 24 | [leepeuker/movary](https://github.com/leepeuker/movary) | 779 | 🟡 help wanted | 2026-08-24 |  |
+| [Support TV shows](https://github.com/leepeuker/movary/issues/186) 💬 24 | [leepeuker/movary](https://github.com/leepeuker/movary) | 777 | 🟡 help wanted | 2026-08-24 |  |
 | [Feature-Request: Pop-Out SQL Window](https://github.com/phpmyadmin/phpmyadmin/issues/11983) 💬 24 | [phpmyadmin/phpmyadmin](https://github.com/phpmyadmin/phpmyadmin) | 7.9k | 🟡 help wanted | 2026-08-18 | 🔏 DCO |
 | [Is it possible to adjust the time in a user notification?](https://github.com/freescout-help-desk/freescout/issues/5570) | [freescout-help-desk/freescout](https://github.com/freescout-help-desk/freescout) | 4.6k | 🟡 help wanted | 2026-08-15 |  |
 | [Enhance Blueprint Stubs with PHPDoc to Eliminate PHPStan Warnings](https://github.com/laravel-shift/blueprint/issues/738) 💬 4 | [laravel-shift/blueprint](https://github.com/laravel-shift/blueprint) | 3.1k | 🟢 beginner | 2026-08-15 |  |

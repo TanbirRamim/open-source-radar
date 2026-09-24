@@ -2,7 +2,7 @@
 
 **97** open issues (73 labeled for beginners) across **31** active Ruby projects.
 
-> Updated automatically on **2026-09-23 21:19 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-24 10:49 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -24,7 +24,7 @@
 | [Mod deleting a comment removes the visual indication of upvoted](https://github.com/lobsters/lobsters/issues/2201) | [lobsters/lobsters](https://github.com/lobsters/lobsters) | 4.8k | 🟢 beginner | 2026-09-16 |  |
 | [Unread btn for comments breaks when using pinch to zoom](https://github.com/lobsters/lobsters/issues/2198) | [lobsters/lobsters](https://github.com/lobsters/lobsters) | 4.8k | 🟢 beginner | 2026-09-16 |  |
 | [Suggest quorum can be reached by same user POSTing twice](https://github.com/lobsters/lobsters/issues/2126) 💬 3 | [lobsters/lobsters](https://github.com/lobsters/lobsters) | 4.8k | 🟢 beginner | 2026-09-15 |  |
-| ['match init' assumes a default branch of 'master' when using git storage, which is no longer the Github defaul](https://github.com/fastlane/fastlane/issues/21879) 💬 3 | [fastlane/fastlane](https://github.com/fastlane/fastlane) | 42.1k | 🟡 help wanted | 2026-09-14 |  |
+| ['match init' assumes a default branch of 'master' when using git storage, which is no longer the Github defaul](https://github.com/fastlane/fastlane/issues/21879) 💬 3 | [fastlane/fastlane](https://github.com/fastlane/fastlane) | 42.2k | 🟡 help wanted | 2026-09-14 |  |
 | [Feature: Organize documentation topics in beginner-friendly learning order](https://github.com/freeCodeCamp/devdocs/issues/2611) | [freeCodeCamp/devdocs](https://github.com/freeCodeCamp/devdocs) | 39.5k | 🟡 help wanted | 2026-09-14 |  |
 | [Soft delete for Initiatives on admin panel](https://github.com/decidim/decidim/issues/6542) 💬 9 | [decidim/decidim](https://github.com/decidim/decidim) | 1.8k | 🟢 beginner | 2026-09-10 |  |
 | [Use the spec-recommended 10000ms default interval for the stdout exporter](https://github.com/open-telemetry/opentelemetry-ruby/issues/2373) 💬 2 | [open-telemetry/opentelemetry-ruby](https://github.com/open-telemetry/opentelemetry-ruby) | 606 | 🟢 beginner | 2026-09-10 | 🤖 disclose AI use · ✍️ CLA |
