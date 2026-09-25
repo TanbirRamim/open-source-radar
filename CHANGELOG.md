@@ -2,6 +2,11 @@
 
 Notable changes to Open Source Radar. Data refreshes are not listed.
 
+## 2026-09-25
+
+- Issues whose latest comment is a recent request to take them ("can I work on this?", "please assign this to me") are skipped for 21 days (`claim_within_days`). Any later reply, such as a maintainer saying they don't assign issues, lists the issue again.
+- The website has a share image, a canonical URL and structured data.
+
 ## 2026-09-13
 
 - Maintainers can ask for their projects to be excluded (`[exclude]` in `scripts/config.toml`).

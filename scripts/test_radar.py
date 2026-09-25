@@ -21,6 +21,13 @@ def issue(**overrides):
 
 
 SINCE = dt.datetime(2026, 6, 1, tzinfo=dt.UTC)
+CLAIM_SINCE = dt.datetime(2026, 9, 1, tzinfo=dt.UTC)
+
+
+def comment(body, **overrides):
+    base = {"body": body, "createdAt": "2026-09-10T00:00:00Z"}
+    base.update(overrides)
+    return base
 
 
 class AvailabilityTests(unittest.TestCase):
@@ -38,6 +45,40 @@ class AvailabilityTests(unittest.TestCase):
     def test_closed_unmerged_pr_does_not_hide_issue(self):
         timeline = {"nodes": [{"subject": {"state": "CLOSED"}}, {}, None]}
         self.assertTrue(radar.issue_is_available(issue(timelineItems=timeline), SINCE))
+
+    def test_recent_claim_comment_hides_issue(self):
+        for body in [
+            "Can I work on this?",
+            "Hi! I'd like to work on this issue.",
+            "Please assign this to me",
+            "I'm working on it, PR soon",
+            "I will take this one",
+        ]:
+            claimed = issue(comments={"nodes": [comment(body)]})
+            self.assertFalse(radar.issue_is_available(claimed, SINCE, CLAIM_SINCE), body)
+
+    def test_old_quoted_or_unrelated_comments_do_not_hide_issue(self):
+        cases = [
+            comment("Can I work on this?", createdAt="2026-08-01T00:00:00Z"),
+            comment("Noted, thanks.\n\nOn Sun, Sep 20, 2026 someone wrote:\n> Can I work on this?"),
+            comment("I can reproduce this on 3.2 as well."),
+            comment("Is anyone working on this?"),
+        ]
+        for case in cases:
+            self.assertTrue(radar.issue_is_available(issue(comments={"nodes": [case]}), SINCE, CLAIM_SINCE), case)
+
+    def test_any_reply_after_claim_keeps_issue_listed(self):
+        nodes = [
+            comment("Can I work on this?"),
+            comment("We don't assign issues, just open a PR."),
+        ]
+        self.assertTrue(radar.issue_is_available(issue(comments={"nodes": nodes}), SINCE, CLAIM_SINCE))
+        nodes.append(comment("I'd like to work on this issue."))
+        self.assertFalse(radar.issue_is_available(issue(comments={"nodes": nodes}), SINCE, CLAIM_SINCE))
+
+    def test_claims_are_ignored_without_a_cutoff(self):
+        claimed = issue(comments={"nodes": [comment("Can I work on this?")]})
+        self.assertTrue(radar.issue_is_available(claimed, SINCE))
 
     def test_stale_or_locked_issue_is_not_available(self):
         self.assertFalse(radar.issue_is_available(issue(updatedAt="2025-01-01T00:00:00Z"), SINCE))
