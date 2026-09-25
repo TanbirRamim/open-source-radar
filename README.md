@@ -6,7 +6,7 @@
 
 Open, unclaimed, newcomer-friendly issues from active open source projects, sorted by language and topic and refreshed every 12 hours, plus a complete, practical contribution guide.
 
-[**Browse issues on the website**](https://tanbirramim.github.io/open-source-radar/) &nbsp;|&nbsp; [**Read the guide**](guide/README.md) &nbsp;|&nbsp; [**Issues by language**](issues/README.md#by-language) &nbsp;|&nbsp; [**Issues by topic**](issues/README.md#by-topic) &nbsp;|&nbsp; [**Projects directory**](projects/README.md)
+[**Browse issues on the website**](https://tanbirramim.github.io/open-source-radar/) &nbsp;|&nbsp; [**Read the guide**](guide/README.md) &nbsp;|&nbsp; [**Issues by language**](issues/README.md#by-language) &nbsp;|&nbsp; [**Issues by topic**](issues/README.md#by-topic) &nbsp;|&nbsp; [**Projects directory**](projects/README.md) &nbsp;|&nbsp; [**Dataset on Hugging Face**](https://huggingface.co/datasets/TanbirRamim/open-source-radar)
 
 [![Refresh issue data](https://github.com/TanbirRamim/open-source-radar/actions/workflows/refresh.yml/badge.svg)](https://github.com/TanbirRamim/open-source-radar/actions/workflows/refresh.yml)
 [![CI](https://github.com/TanbirRamim/open-source-radar/actions/workflows/ci.yml/badge.svg)](https://github.com/TanbirRamim/open-source-radar/actions/workflows/ci.yml)
