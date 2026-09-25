@@ -266,7 +266,7 @@ def build_repo_query(repos: list[str], labels: list[str], per_repo: int, include
            filterBy: {{labels: {label_list}}}) {{
       nodes {{
         number title url createdAt updatedAt locked
-        comments {{ totalCount }}
+        comments(last: 1) {{ totalCount nodes {{ createdAt body }} }}
         assignees {{ totalCount }}
         labels(first: 10) {{ nodes {{ name color }} }}
         timelineItems(itemTypes: [CONNECTED_EVENT, CROSS_REFERENCED_EVENT], last: 20) {{
@@ -294,14 +294,43 @@ def linked_pr_states(issue: dict[str, Any]) -> list[str]:
     return states
 
 
-def issue_is_available(issue: dict[str, Any], updated_since: dt.datetime) -> bool:
+CLAIM_PATTERN = re.compile(
+    r"\b(?:can|could|may) i (?:work on|take|pick up|tackle|handle|try)\b|"
+    r"\bi(?:'d| would) (?:like|love) to (?:work on|take|pick up|tackle|try)\b|"
+    r"\bi(?:'ll| will| want to| wanna| can) (?:work on|take|pick up|tackle|handle)\b|"
+    r"\bi(?:'m| am) (?:currently )?working on (?:this|it)\b|"
+    r"\b(?:please )?assign (?:this |it )?(?:issue )?to me\b|"
+    r"\blet me (?:work on|take|handle|try)\b",
+    re.IGNORECASE,
+)
+QUOTED_REPLY = re.compile(r"^>.*$|\n\s*On .{0,120}wrote:.*", re.MULTILINE | re.DOTALL)
+
+
+def recently_claimed(issue: dict[str, Any], claimed_since: dt.datetime) -> bool:
+    """True when the latest comment is a recent request to take the issue. Any later reply,
+    such as a maintainer saying "we don't assign issues, just open a PR", clears the claim."""
+    nodes = [node for node in (issue.get("comments") or {}).get("nodes") or [] if node]
+    if not nodes:
+        return False
+    latest = nodes[-1]
+    if iso_to_datetime(latest["createdAt"]) < claimed_since:
+        return False
+    body = QUOTED_REPLY.sub("", latest.get("body") or "")
+    return bool(CLAIM_PATTERN.search(body))
+
+
+def issue_is_available(
+    issue: dict[str, Any], updated_since: dt.datetime, claimed_since: dt.datetime | None = None
+) -> bool:
     """An issue is worth listing when nobody is assigned, no open or merged PR is linked,
-    it is not locked, and it saw activity recently."""
+    nobody claimed it in a recent comment, it is not locked, and it saw activity recently."""
     if issue.get("locked"):
         return False
     if (issue.get("assignees") or {}).get("totalCount", 0) > 0:
         return False
     if any(state in ("OPEN", "MERGED") for state in linked_pr_states(issue)):
+        return False
+    if claimed_since is not None and recently_claimed(issue, claimed_since):
         return False
     return iso_to_datetime(issue["updatedAt"]) >= updated_since
 
@@ -396,6 +425,7 @@ def fetch(github: GitHub, config: dict[str, Any], *, force: bool = False) -> dic
     policies = read_json(POLICY_PATH, {})
     refresh_before = now_utc() - dt.timedelta(days=config["policy"]["refresh_days"])
     updated_since = now_utc() - dt.timedelta(days=config["issues"]["updated_within_days"])
+    claimed_since = now_utc() - dt.timedelta(days=config["issues"].get("claim_within_days", 21))
     labels = config["issues"]["labels"]
     per_repo = config["issues"]["per_repo"]
 
@@ -430,7 +460,7 @@ def fetch(github: GitHub, config: dict[str, Any], *, force: bool = False) -> dic
             topics = [node["topic"]["name"] for node in repo["repositoryTopics"]["nodes"]]
             available = []
             for issue in repo["issues"]["nodes"]:
-                if not issue_is_available(issue, updated_since):
+                if not issue_is_available(issue, updated_since, claimed_since):
                     continue
                 label_names = [label["name"] for label in issue["labels"]["nodes"]]
                 available.append(

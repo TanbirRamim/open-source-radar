@@ -13,6 +13,8 @@ pages_per_query = 2
 [issues]
 # Issues updated longer ago than this are treated as stale and skipped.
 updated_within_days = 180
+# Issues where someone outside the project asked to take them in a comment this recently are skipped.
+claim_within_days = 21
 # Newcomer-oriented label names to collect (matched case-sensitively by GitHub, so list variants).
 labels = [
   "good first issue", "good-first-issue", "Good First Issue", "Good first issue",
