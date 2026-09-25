@@ -1,8 +1,8 @@
 # Ruby issues
 
-**96** open issues (72 labeled for beginners) across **30** active Ruby projects.
+**97** open issues (73 labeled for beginners) across **30** active Ruby projects.
 
-> Updated automatically on **2026-09-25 11:00 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-25 21:30 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -11,6 +11,7 @@
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
 | [Add support for Salam](https://github.com/github-linguist/linguist/issues/8206) 💬 3 | [github-linguist/linguist](https://github.com/github-linguist/linguist) | 13.7k | 🟢 beginner | 2026-09-25 |  |
+| [Configure default questions by Assistant](https://github.com/AllYourBot/hostedgpt/issues/805) | [AllYourBot/hostedgpt](https://github.com/AllYourBot/hostedgpt) | 511 | 🟢 beginner | 2026-09-25 |  |
 | [[CW-2868] Integration for Microsoft Teams](https://github.com/chatwoot/chatwoot/issues/1655) 💬 12 | [chatwoot/chatwoot](https://github.com/chatwoot/chatwoot) | 37.2k | 🟢 beginner | 2026-09-19 |  |
 | [Feature Request to add chatwoot directly install in plesk apps](https://github.com/chatwoot/chatwoot/issues/6911) 💬 6 | [chatwoot/chatwoot](https://github.com/chatwoot/chatwoot) | 37.2k | 🟢 beginner | 2026-09-19 |  |
 | [Python: implement full-unlock so security updates can bump a parent to fix a vulnerable transitive dependency](https://github.com/dependabot/dependabot-core/issues/16337) | [dependabot/dependabot-core](https://github.com/dependabot/dependabot-core) | 5.8k | 🟡 help wanted | 2026-09-18 |  |
@@ -62,7 +63,7 @@
 | [class com.sun.nio.file.ExtendedOpenOption cannot access class jdk.internal.misc.FileSystemOption](https://github.com/jruby/jruby/issues/7835) 💬 7 | [jruby/jruby](https://github.com/jruby/jruby) | 3.9k | 🟢 beginner | 2026-07-09 |  |
 | [Links in Description](https://github.com/manyfold3d/manyfold/issues/4944) 💬 3 | [manyfold3d/manyfold](https://github.com/manyfold3d/manyfold) | 2.2k | 🟢 beginner | 2026-07-08 | 📄 AI policy · ✍️ CLA |
 | [Support 'distinct' when it comes to further association chaining](https://github.com/neo4jrb/activegraph/issues/1340) 💬 3 | [neo4jrb/activegraph](https://github.com/neo4jrb/activegraph) | 1.4k | 🟢 beginner | 2026-07-06 |  |
-| [Upload form missing a number of options](https://github.com/e621ng/e621ng/issues/1794) | [e621ng/e621ng](https://github.com/e621ng/e621ng) | 569 | 🟢 beginner | 2026-06-30 |  |
+| [Upload form missing a number of options](https://github.com/e621ng/e621ng/issues/1794) | [e621ng/e621ng](https://github.com/e621ng/e621ng) | 568 | 🟢 beginner | 2026-06-30 |  |
 | [Very low contrast difference on comments link on mobile when using high contrast](https://github.com/lobsters/lobsters/issues/2085) | [lobsters/lobsters](https://github.com/lobsters/lobsters) | 4.8k | 🟢 beginner | 2026-06-24 |  |
 | [Disown CTA has unique focus and hover effect](https://github.com/lobsters/lobsters/issues/2099) 💬 1 | [lobsters/lobsters](https://github.com/lobsters/lobsters) | 4.8k | 🟢 beginner | 2026-06-24 |  |
 | [Create Huginn iPhone / Android app](https://github.com/huginn/huginn/issues/166) 💬 19 | [huginn/huginn](https://github.com/huginn/huginn) | 50k | 🟡 help wanted | 2026-06-20 |  |
@@ -84,25 +85,25 @@
 | [Comment form visible for moderators in deleted stories](https://github.com/lobsters/lobsters/issues/1981) 💬 1 | [lobsters/lobsters](https://github.com/lobsters/lobsters) | 4.8k | 🟢 beginner | 2026-05-07 |  |
 | [Add SNOBOL](https://github.com/github-linguist/linguist/issues/7950) | [github-linguist/linguist](https://github.com/github-linguist/linguist) | 13.7k | 🟢 beginner | 2026-05-06 |  |
 | [Add Uiua](https://github.com/github-linguist/linguist/issues/7949) | [github-linguist/linguist](https://github.com/github-linguist/linguist) | 13.7k | 🟢 beginner | 2026-05-06 |  |
-| [[Tooling] Support VSCode breakpoints for Ruby (standard running)](https://github.com/e621ng/e621ng/issues/1940) | [e621ng/e621ng](https://github.com/e621ng/e621ng) | 569 | 🟡 help wanted | 2026-04-29 |  |
-| [[Users] Onboarding process](https://github.com/e621ng/e621ng/issues/1770) 💬 3 | [e621ng/e621ng](https://github.com/e621ng/e621ng) | 569 | 🟡 help wanted | 2026-04-29 |  |
-| [Pools in upload form](https://github.com/e621ng/e621ng/issues/1882) 💬 1 | [e621ng/e621ng](https://github.com/e621ng/e621ng) | 569 | 🟡 help wanted | 2026-04-29 |  |
-| [[Tests] Add client-side Playwright testing](https://github.com/e621ng/e621ng/issues/1936) | [e621ng/e621ng](https://github.com/e621ng/e621ng) | 569 | 🟡 help wanted | 2026-04-29 |  |
-| [Comment search should have a method of viewing results under the threshold](https://github.com/e621ng/e621ng/issues/1756) | [e621ng/e621ng](https://github.com/e621ng/e621ng) | 569 | 🟢 beginner | 2026-04-28 |  |
+| [[Tooling] Support VSCode breakpoints for Ruby (standard running)](https://github.com/e621ng/e621ng/issues/1940) | [e621ng/e621ng](https://github.com/e621ng/e621ng) | 568 | 🟡 help wanted | 2026-04-29 |  |
+| [[Users] Onboarding process](https://github.com/e621ng/e621ng/issues/1770) 💬 3 | [e621ng/e621ng](https://github.com/e621ng/e621ng) | 568 | 🟡 help wanted | 2026-04-29 |  |
+| [Pools in upload form](https://github.com/e621ng/e621ng/issues/1882) 💬 1 | [e621ng/e621ng](https://github.com/e621ng/e621ng) | 568 | 🟡 help wanted | 2026-04-29 |  |
+| [[Tests] Add client-side Playwright testing](https://github.com/e621ng/e621ng/issues/1936) | [e621ng/e621ng](https://github.com/e621ng/e621ng) | 568 | 🟡 help wanted | 2026-04-29 |  |
+| [Comment search should have a method of viewing results under the threshold](https://github.com/e621ng/e621ng/issues/1756) | [e621ng/e621ng](https://github.com/e621ng/e621ng) | 568 | 🟢 beginner | 2026-04-28 |  |
 | ['download_job_artifact_file' method fails when the artifact is a non-JSON text file](https://github.com/NARKOZ/gitlab/issues/621) 💬 2 | [NARKOZ/gitlab](https://github.com/NARKOZ/gitlab) | 1.1k | 🟡 help wanted | 2026-04-26 |  |
 | [Missing translations](https://github.com/openfoodfoundation/openfoodnetwork/issues/3681) | [openfoodfoundation/openfoodnetwork](https://github.com/openfoodfoundation/openfoodnetwork) | 1.3k | 🟡 help wanted | 2026-04-22 |  |
 | [Allow priority to be globally disabled/ignored](https://github.com/bensheldon/good_job/issues/1065) 💬 2 | [bensheldon/good_job](https://github.com/bensheldon/good_job) | 3k | 🟡 help wanted | 2026-04-17 |  |
-| [[UI] Add data elements to indexes, tables, and partials](https://github.com/e621ng/e621ng/issues/1829) | [e621ng/e621ng](https://github.com/e621ng/e621ng) | 569 | 🟢 beginner | 2026-04-15 |  |
+| [[UI] Add data elements to indexes, tables, and partials](https://github.com/e621ng/e621ng/issues/1829) | [e621ng/e621ng](https://github.com/e621ng/e621ng) | 568 | 🟢 beginner | 2026-04-15 |  |
 | [Add ArkScript language](https://github.com/github-linguist/linguist/issues/5416) 💬 2 | [github-linguist/linguist](https://github.com/github-linguist/linguist) | 13.7k | 🟢 beginner | 2026-04-14 |  |
 | [Aliases for custom method](https://github.com/yosiat/panko_serializer/issues/66) 💬 14 | [yosiat/panko_serializer](https://github.com/yosiat/panko_serializer) | 635 | 🟢 beginner | 2026-04-09 |  |
-| [Post UI Navigation should show sets to maintainers, not just owners](https://github.com/e621ng/e621ng/issues/1779) | [e621ng/e621ng](https://github.com/e621ng/e621ng) | 569 | 🟢 beginner | 2026-04-08 |  |
-| [safe mode shows "deleted" for the profile picture in case the post is NSFW](https://github.com/e621ng/e621ng/issues/1553) | [e621ng/e621ng](https://github.com/e621ng/e621ng) | 569 | 🟢 beginner | 2026-04-08 |  |
-| [Refactor 'TagQuery#parse_query''s metatag matching switch to use a jump table](https://github.com/e621ng/e621ng/issues/1766) | [e621ng/e621ng](https://github.com/e621ng/e621ng) | 569 | 🟢 beginner | 2026-04-08 |  |
+| [Post UI Navigation should show sets to maintainers, not just owners](https://github.com/e621ng/e621ng/issues/1779) | [e621ng/e621ng](https://github.com/e621ng/e621ng) | 568 | 🟢 beginner | 2026-04-08 |  |
+| [safe mode shows "deleted" for the profile picture in case the post is NSFW](https://github.com/e621ng/e621ng/issues/1553) | [e621ng/e621ng](https://github.com/e621ng/e621ng) | 568 | 🟢 beginner | 2026-04-08 |  |
+| [Refactor 'TagQuery#parse_query''s metatag matching switch to use a jump table](https://github.com/e621ng/e621ng/issues/1766) | [e621ng/e621ng](https://github.com/e621ng/e621ng) | 568 | 🟢 beginner | 2026-04-08 |  |
 | [W3C BNF](https://github.com/github-linguist/linguist/issues/5590) 💬 2 | [github-linguist/linguist](https://github.com/github-linguist/linguist) | 13.7k | 🟢 beginner | 2026-04-06 |  |
-| [[UI] Temp form input caching](https://github.com/e621ng/e621ng/issues/1764) | [e621ng/e621ng](https://github.com/e621ng/e621ng) | 569 | 🟢 beginner | 2026-04-06 |  |
-| [[Hotkeys] Link to relevant user setting on keyboard shortcut page](https://github.com/e621ng/e621ng/issues/1762) 💬 3 | [e621ng/e621ng](https://github.com/e621ng/e621ng) | 569 | 🟢 beginner | 2026-04-06 |  |
-| [Alias metatag names](https://github.com/e621ng/e621ng/issues/1758) | [e621ng/e621ng](https://github.com/e621ng/e621ng) | 569 | 🟢 beginner | 2026-04-06 |  |
-| [Prevent artist pages from being made if the corresponding tag is not in the artist category.](https://github.com/e621ng/e621ng/issues/1755) | [e621ng/e621ng](https://github.com/e621ng/e621ng) | 569 | 🟢 beginner | 2026-04-06 |  |
+| [[UI] Temp form input caching](https://github.com/e621ng/e621ng/issues/1764) | [e621ng/e621ng](https://github.com/e621ng/e621ng) | 568 | 🟢 beginner | 2026-04-06 |  |
+| [[Hotkeys] Link to relevant user setting on keyboard shortcut page](https://github.com/e621ng/e621ng/issues/1762) 💬 3 | [e621ng/e621ng](https://github.com/e621ng/e621ng) | 568 | 🟢 beginner | 2026-04-06 |  |
+| [Alias metatag names](https://github.com/e621ng/e621ng/issues/1758) | [e621ng/e621ng](https://github.com/e621ng/e621ng) | 568 | 🟢 beginner | 2026-04-06 |  |
+| [Prevent artist pages from being made if the corresponding tag is not in the artist category.](https://github.com/e621ng/e621ng/issues/1755) | [e621ng/e621ng](https://github.com/e621ng/e621ng) | 568 | 🟢 beginner | 2026-04-06 |  |
 | [Tracing updates for Ruby 2.6](https://github.com/jruby/jruby/issues/6149) 💬 4 | [jruby/jruby](https://github.com/jruby/jruby) | 3.9k | 🟡 help wanted | 2026-04-05 |  |
-| ['source:' metatag is case sensitive / DText search links convert search to lowercase](https://github.com/e621ng/e621ng/issues/553) 💬 1 | [e621ng/e621ng](https://github.com/e621ng/e621ng) | 569 | 🟢 beginner | 2026-04-03 |  |
+| ['source:' metatag is case sensitive / DText search links convert search to lowercase](https://github.com/e621ng/e621ng/issues/553) 💬 1 | [e621ng/e621ng](https://github.com/e621ng/e621ng) | 568 | 🟢 beginner | 2026-04-03 |  |
 | [Excel Formula Language](https://github.com/github-linguist/linguist/issues/7886) | [github-linguist/linguist](https://github.com/github-linguist/linguist) | 13.7k | 🟢 beginner | 2026-03-30 |  |

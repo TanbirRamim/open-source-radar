@@ -1,8 +1,8 @@
 # Systems and embedded issues
 
-**195** open issues (95 labeled for beginners) across **49** projects tagged with topics like `operating-system`, `embedded`, `kernel`, `rust-lang`, `systems-programming`, `wasm`.
+**192** open issues (90 labeled for beginners) across **47** projects tagged with topics like `operating-system`, `embedded`, `kernel`, `rust-lang`, `systems-programming`, `wasm`.
 
-> Updated automatically on **2026-09-25 11:00 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-25 21:30 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,12 +10,24 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [TextHighlighter.Foreground/Background accept non-SolidColorBrush values; WinUI throws ArgumentException](https://github.com/unoplatform/uno/issues/24684) | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-09-25 |  |
-| [Selectable TextBlock copies / selects all with extra Shift or Alt modifiers, and ignores Ctrl+Insert](https://github.com/unoplatform/uno/issues/24681) | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-09-25 |  |
+| [train: hot reloading for faster prototyping](https://github.com/tracel-ai/burn/issues/3571) 💬 2 | [tracel-ai/burn](https://github.com/tracel-ai/burn) | 16k | 🟡 help wanted | 2026-09-25 |  |
+| [Allow content inside MudDivider](https://github.com/MudBlazor/MudBlazor/issues/7212) 💬 2 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-09-25 |  |
+| [MicrosoftLogger.LogLevel defaults to Trace when nothing is enabled, flipping every guarded log site open](https://github.com/unoplatform/uno/issues/24757) | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-09-25 |  |
+| [ICU break-iterator locale is marshaled as UTF-16, so ICU never resolves the requested locale](https://github.com/unoplatform/uno/issues/24756) | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-09-25 |  |
+| [Logger obtained before the logging adapter initializes stays permanently disabled](https://github.com/unoplatform/uno/issues/24755) | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-09-25 |  |
+| [DependencyPropertyDetailsCollection wastes most of its DependencyPropertyDetails[] bucket per stored property](https://github.com/unoplatform/uno/issues/24754) | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-09-25 |  |
+| [DependencyObject constructor always allocates two empty Dictionary fields, even when unused](https://github.com/unoplatform/uno/issues/24752) | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-09-25 |  |
+| ['TextBlock' with 'LineStackingStrategy.BlockLineHeight' puts the baseline at 'LineHeight - descent' instead of](https://github.com/unoplatform/uno/issues/24746) | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-09-25 |  |
+| [Selectable TextBlock drops the drag selection when the mouse is released over a Hyperlink or capture is lost](https://github.com/unoplatform/uno/issues/24744) | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-09-25 |  |
+| [A focused TextBlock removed from the tree loses focus instead of moving it to the next focusable element](https://github.com/unoplatform/uno/issues/24728) | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-09-25 |  |
+| [Pressing a 'Hyperlink' in a 'TextBlock' does not focus the Hyperlink](https://github.com/unoplatform/uno/issues/24723) 💬 1 | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-09-25 |  |
+| [FocusProperties.HasFocusedElement ignores a focused Hyperlink, so hiding or disabling its container keeps focu](https://github.com/unoplatform/uno/issues/24720) | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-09-25 |  |
+| ['ListViewItem.ContentTemplateRoot' stays null when the ListView uses an 'ItemTemplate'](https://github.com/unoplatform/uno/issues/24718) | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-09-25 |  |
 | ['Hyperlink' activation raises no 'InvokePatternOnInvoked' automation event](https://github.com/unoplatform/uno/issues/24678) | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-09-25 |  |
 | [Hyperlink keeps its underline on hover and press (HyperlinkUnderlineVisible is ignored)](https://github.com/unoplatform/uno/issues/24677) | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-09-25 |  |
 | [Several ported controls skip 'base.OnPropertyChanged2', so 'Slider', 'ProgressBar', 'DatePicker' and others ig](https://github.com/unoplatform/uno/issues/24672) | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-09-25 |  |
 | [Launcher.LaunchUriAsync always returns false on tvOS](https://github.com/unoplatform/uno/issues/24650) | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-09-25 |  |
+| [EMBA does not detect all components / SBOM is incomplete](https://github.com/e-m-b-a/emba/issues/2132) 💬 1 | [e-m-b-a/emba](https://github.com/e-m-b-a/emba) | 3.7k | 🟢 beginner | 2026-09-25 |  |
 | [Subquery support](https://github.com/tursodatabase/turso/issues/34) 💬 2 | [tursodatabase/turso](https://github.com/tursodatabase/turso) | 24.4k | 🟡 help wanted | 2026-09-24 | 🤖 disclose AI use |
 | [libuv example](https://github.com/tursodatabase/turso/issues/48) 💬 2 | [tursodatabase/turso](https://github.com/tursodatabase/turso) | 24.4k | 🟡 help wanted | 2026-09-24 | 🤖 disclose AI use |
 | [SQLite C API improvements](https://github.com/tursodatabase/turso/issues/85) 💬 12 | [tursodatabase/turso](https://github.com/tursodatabase/turso) | 24.4k | 🟢 beginner | 2026-09-24 | 🤖 disclose AI use |
@@ -41,32 +53,24 @@
 | [SQLite session extension support](https://github.com/tursodatabase/turso/issues/2694) | [tursodatabase/turso](https://github.com/tursodatabase/turso) | 24.4k | 🟡 help wanted | 2026-09-24 | 🤖 disclose AI use |
 | [Rusqlite support](https://github.com/tursodatabase/turso/issues/2784) | [tursodatabase/turso](https://github.com/tursodatabase/turso) | 24.4k | 🟡 help wanted | 2026-09-24 | 🤖 disclose AI use |
 | [train: TUI panics on manual close (unwrap on the join handle)](https://github.com/tracel-ai/burn/issues/4793) 💬 4 | [tracel-ai/burn](https://github.com/tracel-ai/burn) | 16k | 🟢 beginner | 2026-09-24 |  |
-| [train: hot reloading for faster prototyping](https://github.com/tracel-ai/burn/issues/3571) 💬 2 | [tracel-ai/burn](https://github.com/tracel-ai/burn) | 16k | 🟡 help wanted | 2026-09-24 |  |
 | [data: add drop_last to DataLoader](https://github.com/tracel-ai/burn/issues/3316) 💬 4 | [tracel-ai/burn](https://github.com/tracel-ai/burn) | 16k | 🟢 beginner | 2026-09-24 |  |
 | [autodiff: Gradients::get panics on type mismatch instead of returning an error](https://github.com/tracel-ai/burn/issues/2924) 💬 9 | [tracel-ai/burn](https://github.com/tracel-ai/burn) | 16k | 🟢 beginner | 2026-09-24 |  |
-| [tensor: add round to a number of decimals](https://github.com/tracel-ai/burn/issues/2732) 💬 3 | [tracel-ai/burn](https://github.com/tracel-ai/burn) | 16k | 🟢 beginner | 2026-09-24 |  |
 | [docs: add source links to the API docs hosted on burn.dev](https://github.com/tracel-ai/burn/issues/1244) 💬 8 | [tracel-ai/burn](https://github.com/tracel-ai/burn) | 16k | 🟢 beginner | 2026-09-24 |  |
 | [nn: add LPPool1d/LPPool2d (power-average pooling)](https://github.com/tracel-ai/burn/issues/1172) 💬 1 | [tracel-ai/burn](https://github.com/tracel-ai/burn) | 16k | 🟢 beginner | 2026-09-24 |  |
 | [tensor: add sparse tensor support](https://github.com/tracel-ai/burn/issues/846) 💬 12 | [tracel-ai/burn](https://github.com/tracel-ai/burn) | 16k | 🟡 help wanted | 2026-09-24 |  |
 | [ci: add WebGPU integration tests (e.g. with Deno)](https://github.com/tracel-ai/burn/issues/810) | [tracel-ai/burn](https://github.com/tracel-ai/burn) | 16k | 🟡 help wanted | 2026-09-24 |  |
 | [docs: provide a cargo-generate starter template](https://github.com/tracel-ai/burn/issues/282) 💬 8 | [tracel-ai/burn](https://github.com/tracel-ai/burn) | 16k | 🟢 beginner | 2026-09-24 |  |
-| [Validate 'XamlBindingHelper' helper behavior for known string conversions](https://github.com/unoplatform/uno/issues/17410) 💬 3 | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-09-24 |  |
 | [XamlBindingHelper not returning right values](https://github.com/unoplatform/uno/issues/18855) 💬 3 | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-09-24 |  |
 | [AzureProvisioner output saves connection strings to user secrets even if it did nothing](https://github.com/microsoft/aspire/issues/3298) 💬 5 | [microsoft/aspire](https://github.com/microsoft/aspire) | 6.3k | 🟢 beginner | 2026-09-24 |  |
 | [[Bug]: bcm2711 Debian images ship raspberrypi-sys-mods' passwordless sudo rule for a pi user that Armbian neve](https://github.com/armbian/build/issues/10802) 💬 2 | [armbian/build](https://github.com/armbian/build) | 5.4k | 🟢 beginner | 2026-09-24 |  |
 | ['COPY TO'/'COPY FROM': Support Google Cloud Platform](https://github.com/crate/crate/issues/13877) 💬 4 | [crate/crate](https://github.com/crate/crate) | 4.4k | 🟢 beginner | 2026-09-24 | ⚠️ AI restricted · ✍️ CLA |
+| [Give movement priority to host rather than client + multiple connections mouse move priority issue](https://github.com/rustdesk/rustdesk/issues/40) 💬 22 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | 124.5k | 🟡 help wanted | 2026-09-23 | 🔏 DCO |
 | [More Linux distros compatible](https://github.com/rustdesk/rustdesk/issues/3565) 💬 8 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | 124.5k | 🟡 help wanted | 2026-09-23 | 🔏 DCO |
 | [Reuse checksum-matching detached parts when bootstrapping a fresh replica](https://github.com/ClickHouse/ClickHouse/issues/121509) 💬 3 | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 50.1k | 🟡 help wanted | 2026-09-23 | 🤖 disclose AI use · ✍️ CLA |
 | [Implement AMX support](https://github.com/google/gvisor/issues/9896) 💬 2 | [google/gvisor](https://github.com/google/gvisor) | 19.4k | 🟡 help wanted | 2026-09-23 | 🤖 disclose AI use · ✍️ CLA |
-| [EMBA does not detect all components / SBOM is incomplete](https://github.com/e-m-b-a/emba/issues/2132) 💬 1 | [e-m-b-a/emba](https://github.com/e-m-b-a/emba) | 3.7k | 🟢 beginner | 2026-09-23 |  |
 | [Replace 'scanMonitorLookupCaches()' loop with memset](https://github.com/eclipse-openj9/openj9/issues/24803) | [eclipse-openj9/openj9](https://github.com/eclipse-openj9/openj9) | 3.5k | 🟢 beginner | 2026-09-23 | 🤖 disclose AI use · ✍️ CLA · 🔏 DCO |
 | [Investigate AddressSanitizer-like diagnostics for ThreadX](https://github.com/eclipse-threadx/threadx/issues/764) | [eclipse-threadx/threadx](https://github.com/eclipse-threadx/threadx) | 3.5k | 🟡 help wanted | 2026-09-22 | 🔏 DCO |
-| [docs: make route matching/filtering information more visible](https://github.com/apache/apisix/issues/10735) 💬 5 | [apache/apisix](https://github.com/apache/apisix) | 17.2k | 🟢 beginner | 2026-09-20 | ✍️ CLA |
-| [[Bug]: Podman detection support fails of Fedora](https://github.com/armbian/build/issues/9228) 💬 3 | [armbian/build](https://github.com/armbian/build) | 5.4k | 🟢 beginner | 2026-09-20 |  |
-| [docs: Rework the service discovery documentation in general and Eureka in particular](https://github.com/apache/apisix/issues/7342) 💬 3 | [apache/apisix](https://github.com/apache/apisix) | 17.2k | 🟢 beginner | 2026-09-19 | ✍️ CLA |
-| [MudAutocomplete: Allow to set busy state from external process](https://github.com/MudBlazor/MudBlazor/issues/11398) 💬 1 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-09-17 |  |
-| [Remove reflection to Uno.Toolkit](https://github.com/unoplatform/uno/issues/782) 💬 2 | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-09-16 |  |
-| [Add CanSelect property to MudTreeViewItem](https://github.com/MudBlazor/MudBlazor/issues/11195) 💬 1 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-09-14 |  |
+| [Audio no sound （Add asio support)](https://github.com/rustdesk/rustdesk/issues/3762) 💬 56 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | 124.5k | 🟡 help wanted | 2026-09-21 | 🔏 DCO |
 | [[Bug]: uInitrd CRC mismatch in community images for Orange Pi Zero3 (sun50iw9)](https://github.com/armbian/build/issues/10701) 💬 1 | [armbian/build](https://github.com/armbian/build) | 5.4k | 🟢 beginner | 2026-09-14 |  |
 | [verbose mode partition commands with wrong partition identifier](https://github.com/ClickHouse/ClickHouse/issues/6743) 💬 2 | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 50.1k | 🟢 beginner | 2026-09-11 | 🤖 disclose AI use · ✍️ CLA |
 | [Add function to check if an IPv4/6 is in a list of subnets](https://github.com/ClickHouse/ClickHouse/issues/6808) 💬 4 | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 50.1k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use · ✍️ CLA |
@@ -122,7 +126,7 @@
 | [MudMenuItem: Add IsChecked prop](https://github.com/MudBlazor/MudBlazor/issues/6124) 💬 1 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-08-16 |  |
 | [Custom SVG Icon Size Limitation in MudNavLink](https://github.com/MudBlazor/MudBlazor/issues/6491) 💬 1 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-08-15 |  |
 | [support pass buffer directly between two modules](https://github.com/wasm-micro-runtime/wasm-micro-runtime/issues/295) 💬 5 | [wasm-micro-runtime/wasm-micro-runtime](https://github.com/wasm-micro-runtime/wasm-micro-runtime) | 6.1k | 🟡 help wanted | 2026-08-15 |  |
-| [Support for early returns inside loops that can be replaced with breaks](https://github.com/AeneasVerif/aeneas/issues/822) 💬 1 | [AeneasVerif/aeneas](https://github.com/AeneasVerif/aeneas) | 986 | 🟢 beginner | 2026-08-14 |  |
+| [Support for early returns inside loops that can be replaced with breaks](https://github.com/AeneasVerif/aeneas/issues/822) 💬 1 | [AeneasVerif/aeneas](https://github.com/AeneasVerif/aeneas) | 987 | 🟢 beginner | 2026-08-14 |  |
 | [Extra vertical space in static ColorPicker with small palettes](https://github.com/MudBlazor/MudBlazor/issues/9131) 💬 1 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-08-13 |  |
 | [[Feature Request]: Auto max bit color depth for rockchip devices](https://github.com/armbian/build/issues/9415) 💬 3 | [armbian/build](https://github.com/armbian/build) | 5.4k | 🟢 beginner | 2026-08-12 |  |
 | [[Feature Request]: Stable 6.1 kernel build for Radxa Dragon Q6A](https://github.com/armbian/build/issues/9511) 💬 2 | [armbian/build](https://github.com/armbian/build) | 5.4k | 🟢 beginner | 2026-08-12 |  |
@@ -142,10 +146,8 @@
 | [RFC: Use the target_features section to verify compatibility](https://github.com/wasm-micro-runtime/wasm-micro-runtime/issues/4569) 💬 2 | [wasm-micro-runtime/wasm-micro-runtime](https://github.com/wasm-micro-runtime/wasm-micro-runtime) | 6.1k | 🟡 help wanted | 2026-07-30 |  |
 | [Host Function capability to call into Wasm Function](https://github.com/WasmEdge/WasmEdge/issues/1673) 💬 5 | [WasmEdge/WasmEdge](https://github.com/WasmEdge/WasmEdge) | 10.8k | 🟡 help wanted | 2026-07-29 | 🤖 disclose AI use · 🔏 DCO |
 | ['FrameworkElement_Sizes' crashes on WinUI](https://github.com/unoplatform/uno/issues/19198) 💬 5 | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-07-29 |  |
-| [Changing FontSize in MudTheme breaks components](https://github.com/MudBlazor/MudBlazor/issues/10394) 💬 3 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-07-26 |  |
 | [CapsuleRegistry duplicate capsule/uplink registration uses UnsupportedEntryPoint and docs cite nonexistent var](https://github.com/astrid-runtime/astrid/issues/476) 💬 2 | [astrid-runtime/astrid](https://github.com/astrid-runtime/astrid) | 10.3k | 🟢 beginner | 2026-07-26 | ⚠️ AI restricted · 🔏 DCO |
 | [Remove dead AgentHandler stub from astrid-hooks](https://github.com/astrid-runtime/astrid/issues/497) 💬 2 | [astrid-runtime/astrid](https://github.com/astrid-runtime/astrid) | 10.3k | 🟢 beginner | 2026-07-26 | ⚠️ AI restricted · 🔏 DCO |
-| [[iOS/Android][PhoneCallManager] 'IsCallActive' & 'IsCallIncoming' does not change when user receives or answer](https://github.com/unoplatform/uno/issues/19912) 💬 4 | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-07-24 |  |
 | [Emulation check for CVE-2026-24061 – GNU InetUtils telnetd Authentication Bypass Vulnerability](https://github.com/e-m-b-a/emba/issues/1905) 💬 1 | [e-m-b-a/emba](https://github.com/e-m-b-a/emba) | 3.7k | 🟢 beginner | 2026-07-23 |  |
 | [Intellij Plugin](https://github.com/Automattic/harper/issues/362) 💬 12 | [Automattic/harper](https://github.com/Automattic/harper) | 15.9k | 🟡 help wanted | 2026-07-22 | 🤖 disclose AI use |
 | [False positive: "more cut" wrongly flagged to change to "cuter"](https://github.com/Automattic/harper/issues/3297) | [Automattic/harper](https://github.com/Automattic/harper) | 15.9k | 🟡 help wanted | 2026-07-19 | 🤖 disclose AI use |
@@ -166,10 +168,6 @@
 | [Use an external LED as a status led](https://github.com/RaspAP/raspap-webgui/issues/2108) 💬 3 | [RaspAP/raspap-webgui](https://github.com/RaspAP/raspap-webgui) | 5.2k | 🟢 beginner | 2026-06-23 |  |
 | [Unified Issue ticket for Rule Engine](https://github.com/nanomq/nanomq/issues/2288) 💬 2 | [nanomq/nanomq](https://github.com/nanomq/nanomq) | 2.6k | 🟡 help wanted | 2026-06-23 | 🔏 DCO |
 | [Rustdesk shows workstation offline when its screen is off](https://github.com/rustdesk/rustdesk/issues/2166) 💬 16 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | 124.5k | 🟡 help wanted | 2026-06-18 | 🔏 DCO |
-| [Support for 'UISettings.AnimationsEnabled' and 'AutoHideScrollBars'](https://github.com/unoplatform/uno/issues/6851) 💬 2 | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-06-18 |  |
-| [Add support for 'OAuth2Manager'](https://github.com/unoplatform/uno/issues/19787) 💬 12 | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟡 help wanted | 2026-06-18 |  |
-| [[Docs] Mapping (Xamarin.Essentials)/.NET MAUI Platform APIs to WinRT APIs](https://github.com/unoplatform/uno/issues/16665) 💬 3 | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-06-18 |  |
-| [[Gallery][iOS]Email Manager - When clicking on 'compose' button, the email send screen is quickly disappearing](https://github.com/unoplatform/uno/issues/11181) 💬 9 | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-06-18 |  |
 | [Bulk operations - Ability to perform actions on multiple nodes](https://github.com/canonical/multipass/issues/2404) 💬 11 | [canonical/multipass](https://github.com/canonical/multipass) | 9.3k | 🟢 beginner | 2026-06-15 | ✍️ CLA |
 | [Support mounting VHD drives](https://github.com/canonical/multipass/issues/1923) 💬 2 | [canonical/multipass](https://github.com/canonical/multipass) | 9.3k | 🟡 help wanted | 2026-06-15 | ✍️ CLA |
 | [firewalld integration](https://github.com/canonical/multipass/issues/1236) 💬 2 | [canonical/multipass](https://github.com/canonical/multipass) | 9.3k | 🟢 beginner | 2026-06-15 | ✍️ CLA |
@@ -177,10 +175,10 @@
 | [Instrument function calls to debug-log arguments and return values](https://github.com/canonical/multipass/issues/428) 💬 5 | [canonical/multipass](https://github.com/canonical/multipass) | 9.3k | 🟢 beginner | 2026-06-15 | ✍️ CLA |
 | [transform-scale should make SVG images scale up smoothly as vectors, not bitmaps](https://github.com/slint-ui/slint/issues/10903) 💬 1 | [slint-ui/slint](https://github.com/slint-ui/slint) | 24k | 🟢 beginner | 2026-06-14 |  |
 | [Update Syslog source to accept non UTF-8 encoding in syslog message](https://github.com/vectordotdev/vector/issues/20462) 💬 9 | [vectordotdev/vector](https://github.com/vectordotdev/vector) | 22.6k | 🟢 beginner | 2026-06-12 | 📄 AI policy · ✍️ CLA |
+| [Extra Mouse Button and left/right wheel issues (Linux not ready yet, because of flutter bug)](https://github.com/rustdesk/rustdesk/issues/1169) 💬 15 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | 124.5k | 🟡 help wanted | 2026-06-10 | 🔏 DCO |
 | [Add support for OpenVPN private key password in .ovpn configurations](https://github.com/RaspAP/raspap-webgui/issues/2109) 💬 1 | [RaspAP/raspap-webgui](https://github.com/RaspAP/raspap-webgui) | 5.2k | 🟢 beginner | 2026-06-05 |  |
 | [Migrate opnsense from DeviceScanner to ScannerEntity](https://github.com/home-assistant/core/issues/143032) 💬 2 | [home-assistant/core](https://github.com/home-assistant/core) | 91.1k | 🟡 help wanted | 2026-06-04 | ⚠️ AI restricted |
 | [Can emqx cluster provide a docker swarm mode demo? Currently only the single-machine cluster deployed in docke](https://github.com/emqx/emqx/issues/6002) 💬 2 | [emqx/emqx](https://github.com/emqx/emqx) | 16.8k | 🟡 help wanted | 2026-06-04 |  |
-| [[Docs] Push Notifications](https://github.com/unoplatform/uno/issues/3661) 💬 5 | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-06-04 |  |
 | [Time formats in sinks should be derived from events](https://github.com/vectordotdev/vector/issues/1743) 💬 4 | [vectordotdev/vector](https://github.com/vectordotdev/vector) | 22.6k | 🟢 beginner | 2026-06-01 | 📄 AI policy · ✍️ CLA |
 | [Make 'vector generate' output documentation](https://github.com/vectordotdev/vector/issues/1687) 💬 3 | [vectordotdev/vector](https://github.com/vectordotdev/vector) | 22.6k | 🟢 beginner | 2026-06-01 | 📄 AI policy · ✍️ CLA |
 | [Kerberos support for Kafka sink](https://github.com/vectordotdev/vector/issues/1326) 💬 4 | [vectordotdev/vector](https://github.com/vectordotdev/vector) | 22.6k | 🟢 beginner | 2026-06-01 | 📄 AI policy · ✍️ CLA |
@@ -204,4 +202,3 @@
 | [导入数据集时遇到了性能问题](https://github.com/taosdata/TDengine/issues/34980) 💬 2 | [taosdata/TDengine](https://github.com/taosdata/TDengine) | 25.1k | 🟡 help wanted | 2026-04-14 |  |
 | [[RFC] Run-time dynamic linking support](https://github.com/wasm-micro-runtime/wasm-micro-runtime/issues/495) | [wasm-micro-runtime/wasm-micro-runtime](https://github.com/wasm-micro-runtime/wasm-micro-runtime) | 6.1k | 🟡 help wanted | 2026-04-13 |  |
 | [support '--skip-with-deps'/'--skip' for 'pixi global'](https://github.com/prefix-dev/pixi/issues/5444) 💬 11 | [prefix-dev/pixi](https://github.com/prefix-dev/pixi) | 7.8k | 🟡 help wanted | 2026-04-03 | 🤖 disclose AI use |
-| [add 'MODULE_SOFTDEP("pre: *");'](https://github.com/luainkernel/lunatik/issues/54) 💬 1 | [luainkernel/lunatik](https://github.com/luainkernel/lunatik) | 599 | 🟢 beginner | 2026-03-29 |  |

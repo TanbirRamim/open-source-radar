@@ -1,8 +1,8 @@
 # Dart issues
 
-**54** open issues (26 labeled for beginners) across **34** active Dart projects.
+**53** open issues (25 labeled for beginners) across **34** active Dart projects.
 
-> Updated automatically on **2026-09-25 11:00 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-25 21:30 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -12,22 +12,21 @@
 | --- | --- | ---: | --- | --- | --- |
 | [Local deb update issue](https://github.com/ubuntu/app-center/issues/2190) | [ubuntu/app-center](https://github.com/ubuntu/app-center) | 926 | 🟢 beginner | 2026-09-24 | ✍️ CLA |
 | [Crazy house pieces disappear](https://github.com/lichess-org/mobile/issues/3599) 💬 9 | [lichess-org/mobile](https://github.com/lichess-org/mobile) | 2.6k | 🟢 beginner | 2026-09-23 | 🤖 disclose AI use |
-| [Setting a custom User Agent breaks Desktop mode toggle after removing the Custom User Agent](https://github.com/FaFre/WebLibre/issues/619) 💬 1 | [FaFre/WebLibre](https://github.com/FaFre/WebLibre) | 990 | 🟢 beginner | 2026-09-22 |  |
+| [Setting a custom User Agent breaks Desktop mode toggle after removing the Custom User Agent](https://github.com/FaFre/WebLibre/issues/619) 💬 1 | [FaFre/WebLibre](https://github.com/FaFre/WebLibre) | 993 | 🟢 beginner | 2026-09-22 |  |
 | [Use the default theme available by the themeData for tooltips instead of library's custom theme](https://github.com/imaNNeo/fl_chart/issues/1377) 💬 3 | [imaNNeo/fl_chart](https://github.com/imaNNeo/fl_chart) | 7.6k | 🟢 beginner | 2026-09-17 |  |
 | [Add more languages](https://github.com/ferraridamiano/ConverterNOW/issues/2) 💬 10 | [ferraridamiano/ConverterNOW](https://github.com/ferraridamiano/ConverterNOW) | 624 | 🟡 help wanted | 2026-09-16 |  |
 | [Stale promotion UI on analysis board](https://github.com/lichess-org/mobile/issues/3610) 💬 1 | [lichess-org/mobile](https://github.com/lichess-org/mobile) | 2.6k | 🟢 beginner | 2026-09-14 | 🤖 disclose AI use |
-| [Support for older versions of MacOS](https://github.com/localsend/localsend/issues/1200) 💬 8 | [localsend/localsend](https://github.com/localsend/localsend) | 92.6k | 🟡 help wanted | 2026-09-12 |  |
+| [Support for older versions of MacOS](https://github.com/localsend/localsend/issues/1200) 💬 8 | [localsend/localsend](https://github.com/localsend/localsend) | 92.7k | 🟡 help wanted | 2026-09-12 |  |
 | [Null check operator used on a null value](https://github.com/amake/orgro/issues/215) 💬 10 | [amake/orgro](https://github.com/amake/orgro) | 731 | 🟡 help wanted | 2026-09-12 |  |
 | [Handle MainActivity destruction on Android (like retrieveLostData of ImagePicker)](https://github.com/vicajilau/flutter_file_picker/issues/1258) 💬 12 | [vicajilau/flutter_file_picker](https://github.com/vicajilau/flutter_file_picker) | 1.6k | 🟡 help wanted | 2026-09-10 |  |
 | [[FR] remove formatting option](https://github.com/AppFlowy-IO/AppFlowy/issues/3427) 💬 10 | [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) | 76.9k | 🟢 beginner | 2026-09-09 |  |
 | [[Feature Request] Support range versions](https://github.com/leoafarias/fvm/issues/751) 💬 1 | [leoafarias/fvm](https://github.com/leoafarias/fvm) | 5.5k | 🟡 help wanted | 2026-09-08 |  |
 | [Migration guide Firebase to Serverpod](https://github.com/serverpod/serverpod/issues/3337) 💬 8 | [serverpod/serverpod](https://github.com/serverpod/serverpod) | 3.3k | 🟢 beginner | 2026-09-07 |  |
-| [ci: enable the use of a dependancy bot](https://github.com/ImranR98/Obtainium/issues/3275) 💬 3 | [ImranR98/Obtainium](https://github.com/ImranR98/Obtainium) | 20k | 🟢 beginner | 2026-09-06 | 📄 AI policy |
 | [[Flatpak] Auth: Failed to launch: libsecret_error: Failed to unlock the keyring](https://github.com/ente/ente/issues/6564) 💬 6 | [ente/ente](https://github.com/ente/ente) | 29.1k | 🟡 help wanted | 2026-09-03 |  |
-| [Create integration test for 'appFlavor'](https://github.com/getsentry/sentry-dart/issues/1802) | [getsentry/sentry-dart](https://github.com/getsentry/sentry-dart) | 874 | 🟢 beginner | 2026-09-01 |  |
-| [Add option maxCacheSize](https://github.com/getsentry/sentry-dart/issues/1830) 💬 1 | [getsentry/sentry-dart](https://github.com/getsentry/sentry-dart) | 874 | 🟢 beginner | 2026-09-01 |  |
+| [Create integration test for 'appFlavor'](https://github.com/getsentry/sentry-dart/issues/1802) | [getsentry/sentry-dart](https://github.com/getsentry/sentry-dart) | 873 | 🟢 beginner | 2026-09-01 |  |
+| [Add option maxCacheSize](https://github.com/getsentry/sentry-dart/issues/1830) 💬 1 | [getsentry/sentry-dart](https://github.com/getsentry/sentry-dart) | 873 | 🟢 beginner | 2026-09-01 |  |
 | [MIssing file referred to in "Running DevTools Tests" section of TESTING.md](https://github.com/flutter/devtools/issues/8293) 💬 2 | [flutter/devtools](https://github.com/flutter/devtools) | 1.7k | 🟢 beginner | 2026-08-30 | 📄 AI policy · ✍️ CLA |
-| [[Bug] When drag and dropping contact to Bcc, the field isn't highlighted](https://github.com/linagora/tmail-flutter/issues/3074) 💬 1 | [linagora/tmail-flutter](https://github.com/linagora/tmail-flutter) | 654 | 🟢 beginner | 2026-08-29 |  |
+| [[Bug] When drag and dropping contact to Bcc, the field isn't highlighted](https://github.com/linagora/tmail-flutter/issues/3074) 💬 1 | [linagora/tmail-flutter](https://github.com/linagora/tmail-flutter) | 655 | 🟢 beginner | 2026-08-29 |  |
 | [Joplin integration](https://github.com/LinwoodDev/Butterfly/issues/253) 💬 3 | [LinwoodDev/Butterfly](https://github.com/LinwoodDev/Butterfly) | 2k | 🟢 beginner | 2026-08-23 |  |
 | [适配鸿蒙5（需要帮助）](https://github.com/lollipopkit/flutter_server_box/issues/869) 💬 4 | [lollipopkit/flutter_server_box](https://github.com/lollipopkit/flutter_server_box) | 8.7k | 🟡 help wanted | 2026-08-22 | ✍️ CLA |
 | [Add the blink effect for the "next mistake button"](https://github.com/lichess-org/mobile/issues/2953) | [lichess-org/mobile](https://github.com/lichess-org/mobile) | 2.6k | 🟢 beginner | 2026-08-20 | 🤖 disclose AI use |

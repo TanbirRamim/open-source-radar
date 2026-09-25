@@ -1,8 +1,8 @@
 # C++ issues
 
-**357** open issues (126 labeled for beginners) across **101** active C++ projects.
+**355** open issues (128 labeled for beginners) across **102** active C++ projects.
 
-> Updated automatically on **2026-09-25 11:00 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-25 21:30 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,13 +10,15 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [TechDraw: Keyboard navigation of the Section Plane is chaotic](https://github.com/FreeCAD/FreeCAD/issues/30833) 💬 3 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.8k | 🟢 beginner | 2026-09-25 | ⚠️ AI restricted |
 | [dyanamic window state should support windows split with aero snap](https://github.com/TranslucentTB/TranslucentTB/issues/116) 💬 12 | [TranslucentTB/TranslucentTB](https://github.com/TranslucentTB/TranslucentTB) | 20.4k | 🟡 help wanted | 2026-09-25 |  |
-| [RadiusOutlierRemoval&lt;PCLPointCloud2&gt; implementation is slow and confusing](https://github.com/PointCloudLibrary/pcl/issues/2816) 💬 7 | [PointCloudLibrary/pcl](https://github.com/PointCloudLibrary/pcl) | 11.1k | 🟢 beginner | 2026-09-25 |  |
+| [Create ObjectAsset.cpp](https://github.com/OpenRCT2/OpenRCT2/issues/27199) | [OpenRCT2/OpenRCT2](https://github.com/OpenRCT2/OpenRCT2) | 16.3k | 🟢 beginner | 2026-09-25 |  |
+| ["New page" settings not remembered](https://github.com/xournalpp/xournalpp/issues/1521) 💬 6 | [xournalpp/xournalpp](https://github.com/xournalpp/xournalpp) | 15.4k | 🟢 beginner | 2026-09-25 |  |
+| [Code path without return value](https://github.com/drogonframework/drogon/issues/2605) | [drogonframework/drogon](https://github.com/drogonframework/drogon) | 14.3k | 🟢 beginner | 2026-09-25 |  |
+| [RadiusOutlierRemoval&lt;PCLPointCloud2&gt; implementation is slow and confusing](https://github.com/PointCloudLibrary/pcl/issues/2816) 💬 8 | [PointCloudLibrary/pcl](https://github.com/PointCloudLibrary/pcl) | 11.1k | 🟢 beginner | 2026-09-25 |  |
+| [TabView: Closing left-most tab throws exception when IsAddTabButtonVisible = false](https://github.com/microsoft/microsoft-ui-xaml/issues/3849) 💬 2 | [microsoft/microsoft-ui-xaml](https://github.com/microsoft/microsoft-ui-xaml) | 8.5k | 🟡 help wanted | 2026-09-25 | ✍️ CLA |
+| [[Godot] SDFGI broken with Intel Arc GPUs](https://github.com/Redot-Engine/redot-engine/issues/156) 💬 9 | [Redot-Engine/redot-engine](https://github.com/Redot-Engine/redot-engine) | 6.1k | 🟡 help wanted | 2026-09-25 | ⚠️ AI restricted |
 | [Default to listening on ::](https://github.com/dragonflydb/dragonfly/issues/8266) 💬 4 | [dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly) | 31.7k | 🟢 beginner | 2026-09-24 | ✍️ CLA · 🔏 DCO |
-| [Select all/Export](https://github.com/rizinorg/cutter/issues/3248) 💬 5 | [rizinorg/cutter](https://github.com/rizinorg/cutter) | 19.8k | 🟢 beginner | 2026-09-24 | 🤖 disclose AI use |
-| [[FR] Decompiler caching](https://github.com/rizinorg/cutter/issues/3178) 💬 3 | [rizinorg/cutter](https://github.com/rizinorg/cutter) | 19.8k | 🟡 help wanted | 2026-09-24 | 🤖 disclose AI use |
-| [OBS package refresh](https://github.com/rizinorg/cutter/issues/3447) 💬 2 | [rizinorg/cutter](https://github.com/rizinorg/cutter) | 19.8k | 🟡 help wanted | 2026-09-24 | 🤖 disclose AI use |
-| [LSM Launch coaster Negative G stat requirement not in Fixed_2DP format](https://github.com/OpenRCT2/OpenRCT2/issues/23147) | [OpenRCT2/OpenRCT2](https://github.com/OpenRCT2/OpenRCT2) | 16.3k | 🟢 beginner | 2026-09-24 |  |
 | [Transmission for Mac (and probably not only) doesn't seem to open ports (also says "port closed" in Network se](https://github.com/transmission/transmission/issues/7202) 💬 30 | [transmission/transmission](https://github.com/transmission/transmission) | 15.2k | 🟡 help wanted | 2026-09-24 |  |
 | [为两种识别算法NeuralNetworkDetect / NeuralNetworkClassify引入与OCR类似的结果缓存机制](https://github.com/MaaXYZ/MaaFramework/issues/1504) 💬 1 | [MaaXYZ/MaaFramework](https://github.com/MaaXYZ/MaaFramework) | 4.9k | 🟡 help wanted | 2026-09-24 |  |
 | [Reuse checksum-matching detached parts when bootstrapping a fresh replica](https://github.com/ClickHouse/ClickHouse/issues/121509) 💬 3 | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 50.1k | 🟡 help wanted | 2026-09-23 | 🤖 disclose AI use · ✍️ CLA |
@@ -31,6 +33,7 @@
 | [CopyQ Creates a Blank Unclosable Window, Subsequently opens Second Window](https://github.com/hluk/CopyQ/issues/1228) 💬 12 | [hluk/CopyQ](https://github.com/hluk/CopyQ) | 12.3k | 🟡 help wanted | 2026-09-22 |  |
 | [Linux trace_processor prebuilt SIGILL (x86_64)](https://github.com/google/perfetto/issues/7504) 💬 7 | [google/perfetto](https://github.com/google/perfetto) | 6.6k | 🟢 beginner | 2026-09-22 |  |
 | [Part: Intersections aren't displayed intersected in external references](https://github.com/FreeCAD/FreeCAD/issues/23142) 💬 15 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.8k | 🟡 help wanted | 2026-09-21 | ⚠️ AI restricted |
+| [Support webrtc for webtorrent clients](https://github.com/transmission/transmission/issues/47) 💬 64 | [transmission/transmission](https://github.com/transmission/transmission) | 15.2k | 🟢 beginner | 2026-09-21 |  |
 | [AppImage Prism Launcher can't find Java when installed via AM-GUI](https://github.com/PrismLauncher/PrismLauncher/issues/5579) 💬 9 | [PrismLauncher/PrismLauncher](https://github.com/PrismLauncher/PrismLauncher) | 10.5k | 🟡 help wanted | 2026-09-21 | 🤖 disclose AI use · 🔏 DCO |
 | [ROS2 Kilted Sync (2025-07-28) ~ 0.9.7-1 : Fails to resolve is_nothrow_invocable_v in magic_enum::detail](https://github.com/Neargye/magic_enum/issues/420) 💬 18 | [Neargye/magic_enum](https://github.com/Neargye/magic_enum) | 6.2k | 🟡 help wanted | 2026-09-21 |  |
 | [Launch size, Launch position should each have a "as current window" button](https://github.com/microsoft/terminal/issues/18390) 💬 3 | [microsoft/terminal](https://github.com/microsoft/terminal) | 105k | 🟡 help wanted | 2026-09-20 | 🤖 disclose AI use |
@@ -67,12 +70,11 @@
 | [Automatically expand single-element in calltree view of tree explorer](https://github.com/google/perfetto/issues/7397) 💬 3 | [google/perfetto](https://github.com/google/perfetto) | 6.6k | 🟢 beginner | 2026-09-16 |  |
 | [WinUI library projects throws Markup.XamlParseException: The text associated with this error code could not be](https://github.com/microsoft/microsoft-ui-xaml/issues/9522) 💬 2 | [microsoft/microsoft-ui-xaml](https://github.com/microsoft/microsoft-ui-xaml) | 8.5k | 🟡 help wanted | 2026-09-15 | ✍️ CLA |
 | [[TRACKER] Potential Development Halting Issues.](https://github.com/FlaxEngine/FlaxEngine/issues/2220) 💬 6 | [FlaxEngine/FlaxEngine](https://github.com/FlaxEngine/FlaxEngine) | 7k | 🟡 help wanted | 2026-09-15 |  |
-| [Allow the user to set the minimum window size](https://github.com/microsoft/terminal/issues/6820) 💬 23 | [microsoft/terminal](https://github.com/microsoft/terminal) | 105k | 🟢 beginner | 2026-09-14 | 🤖 disclose AI use |
 | [Light theme renders fully transparent with 'zen.widget.linux.transparency' - dark UI text is unreadable over d](https://github.com/zen-browser/desktop/issues/15334) 💬 2 | [zen-browser/desktop](https://github.com/zen-browser/desktop) | 44.6k | 🟢 beginner | 2026-09-14 |  |
 | [UI glitch when rapidly switching Sidebar/Tabs layout options in Settings](https://github.com/zen-browser/desktop/issues/14837) 💬 4 | [zen-browser/desktop](https://github.com/zen-browser/desktop) | 44.6k | 🟢 beginner | 2026-09-14 |  |
 | [Sketcher: Double-click selection includes wrong object types and impacts performance](https://github.com/FreeCAD/FreeCAD/issues/32248) 💬 3 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.8k | 🟢 beginner | 2026-09-14 | ⚠️ AI restricted |
-| [STEP: Combining STEP files messes tree structure in resulting file](https://github.com/FreeCAD/FreeCAD/issues/11441) 💬 6 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.8k | 🟡 help wanted | 2026-09-14 | ⚠️ AI restricted |
 | [≥1 s delay reopening the main window after it is closed by unfocusing (KDE Plasma?)](https://github.com/hluk/CopyQ/issues/3634) 💬 14 | [hluk/CopyQ](https://github.com/hluk/CopyQ) | 12.3k | 🟡 help wanted | 2026-09-14 |  |
+| [g++-16 on OSX: test_flags-cpp26 Exception: SegFault](https://github.com/Neargye/magic_enum/issues/467) 💬 5 | [Neargye/magic_enum](https://github.com/Neargye/magic_enum) | 6.2k | 🟡 help wanted | 2026-09-14 |  |
 | [ARC B580 - Menus are sluggish in the redot editor.](https://github.com/Redot-Engine/redot-engine/issues/921) 💬 9 | [Redot-Engine/redot-engine](https://github.com/Redot-Engine/redot-engine) | 6.1k | 🟡 help wanted | 2026-09-14 | ⚠️ AI restricted |
 | [Support serializing NURBS surface classes](https://github.com/panda3d/panda3d/issues/1467) 💬 5 | [panda3d/panda3d](https://github.com/panda3d/panda3d) | 5.2k | 🟢 beginner | 2026-09-14 |  |
 | [Connect Crow to Apache and Nginx using custom modules](https://github.com/CrowCpp/Crow/issues/94) 💬 4 | [CrowCpp/Crow](https://github.com/CrowCpp/Crow) | 5k | 🟡 help wanted | 2026-09-14 |  |
@@ -105,8 +107,6 @@
 | [tray menu does not work with ubuntu 26](https://github.com/hluk/CopyQ/issues/3645) 💬 3 | [hluk/CopyQ](https://github.com/hluk/CopyQ) | 12.3k | 🟡 help wanted | 2026-09-11 |  |
 | [Execution time limit annotations](https://github.com/nasa/fprime/issues/3688) 💬 3 | [nasa/fprime](https://github.com/nasa/fprime) | 11.8k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use |
 | [[RFC]: Hot Standby Mode for Master Service Metadata High Availability](https://github.com/kvcache-ai/Mooncake/issues/1200) 💬 4 | [kvcache-ai/Mooncake](https://github.com/kvcache-ai/Mooncake) | 6.7k | 🟢 beginner | 2026-09-11 | 🤖 disclose AI use |
-| [[Godot] SDFGI broken with Intel Arc GPUs](https://github.com/Redot-Engine/redot-engine/issues/156) 💬 8 | [Redot-Engine/redot-engine](https://github.com/Redot-Engine/redot-engine) | 6.1k | 🟡 help wanted | 2026-09-11 | ⚠️ AI restricted |
-| [[Feature] TemplateMatch 增加可选灰度匹配参数（纯性能优化，默认关闭）](https://github.com/MaaXYZ/MaaFramework/issues/1483) 💬 2 | [MaaXYZ/MaaFramework](https://github.com/MaaXYZ/MaaFramework) | 4.9k | 🟡 help wanted | 2026-09-11 |  |
 | [Status panel and Glance buttons use dark-theme colors on light themes](https://github.com/zen-browser/desktop/issues/15280) 💬 5 | [zen-browser/desktop](https://github.com/zen-browser/desktop) | 44.6k | 🟢 beginner | 2026-09-10 |  |
 | [Consider feature adoption: Vector PP and Stanley within RPP package](https://github.com/ros-navigation/navigation2/issues/5952) 💬 10 | [ros-navigation/navigation2](https://github.com/ros-navigation/navigation2) | 4.7k | 🟡 help wanted | 2026-09-10 | 🔏 DCO |
 | [When you change the objective in a scenario that you have already failed it does not remove the failed objecti](https://github.com/OpenRCT2/OpenRCT2/issues/16510) 💬 4 | [OpenRCT2/OpenRCT2](https://github.com/OpenRCT2/OpenRCT2) | 16.3k | 🟢 beginner | 2026-09-09 |  |
@@ -120,7 +120,6 @@
 | [Signed releases](https://github.com/envoyproxy/envoy/issues/14076) 💬 19 | [envoyproxy/envoy](https://github.com/envoyproxy/envoy) | 29k | 🟡 help wanted | 2026-09-08 | 🤖 disclose AI use · 🔏 DCO |
 | [clang-tidy: enable performance-*](https://github.com/alibaba/zvec/issues/291) 💬 3 | [alibaba/zvec](https://github.com/alibaba/zvec) | 16k | 🟡 help wanted | 2026-09-08 |  |
 | [clang-tidy: enable clang-analyzer-*](https://github.com/alibaba/zvec/issues/292) | [alibaba/zvec](https://github.com/alibaba/zvec) | 16k | 🟡 help wanted | 2026-09-08 |  |
-| [Copter: move RC_Channels_Copter::save_trim to Copter class](https://github.com/ArduPilot/ardupilot/issues/32279) 💬 6 | [ArduPilot/ardupilot](https://github.com/ArduPilot/ardupilot) | 15.9k | 🟢 beginner | 2026-09-08 | 🤖 disclose AI use |
 | [Add ability to not automatically copy whitespace-only selections](https://github.com/microsoft/terminal/issues/11751) 💬 6 | [microsoft/terminal](https://github.com/microsoft/terminal) | 105k | 🟡 help wanted | 2026-09-07 | 🤖 disclose AI use |
 | [llama cpp server cant open to public](https://github.com/ggml-org/llama.cpp/issues/6268) 💬 8 | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 129.5k | 🟢 beginner | 2026-09-06 | ⚠️ AI restricted |
 | [Fallback code paths with "SIMD Everywhere"](https://github.com/simdjson/simdjson/issues/1091) 💬 6 | [simdjson/simdjson](https://github.com/simdjson/simdjson) | 24.3k | 🟢 beginner | 2026-09-06 | 📄 AI policy |
@@ -210,5 +209,6 @@
 | [Would automatic Dark Mode be available?](https://github.com/hluk/CopyQ/issues/1351) 💬 9 | [hluk/CopyQ](https://github.com/hluk/CopyQ) | 12.3k | 🟡 help wanted | 2026-07-27 |  |
 | [(Locale): Missing Spanish text for Mountaineer Stormpike.](https://github.com/azerothcore/azerothcore-wotlk/issues/16313) 💬 3 | [azerothcore/azerothcore-wotlk](https://github.com/azerothcore/azerothcore-wotlk) | 9k | 🟢 beginner | 2026-07-27 |  |
 | [Allow NPCs to milk cows](https://github.com/CleverRaven/Cataclysm-DDA/issues/86410) | [CleverRaven/Cataclysm-DDA](https://github.com/CleverRaven/Cataclysm-DDA) | 13.2k | 🟢 beginner | 2026-07-26 |  |
+| [[Enhancement Proposal] Fix badly rendered shadows on common objects.](https://github.com/diasurgical/DevilutionX/issues/2451) 💬 15 | [diasurgical/DevilutionX](https://github.com/diasurgical/DevilutionX) | 9.8k | 🟢 beginner | 2026-07-26 |  |
 
-Showing the 200 most recently updated. See all 357 on the website.
+Showing the 200 most recently updated. See all 355 on the website.

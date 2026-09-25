@@ -1,8 +1,8 @@
 # Robotics issues
 
-**10** open issues (4 labeled for beginners) across **5** projects tagged with topics like `robotics`, `ros`, `ros2`, `drones`, `autonomous-vehicles`, `slam`.
+**9** open issues (3 labeled for beginners) across **5** projects tagged with topics like `robotics`, `ros`, `ros2`, `drones`, `autonomous-vehicles`, `slam`.
 
-> Updated automatically on **2026-09-25 11:00 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-25 21:30 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -12,7 +12,6 @@
 | --- | --- | ---: | --- | --- | --- |
 | [switch cutout for back body plate doesn't fit switch](https://github.com/nasa-jpl/open-source-rover/issues/499) 💬 2 | [nasa-jpl/open-source-rover](https://github.com/nasa-jpl/open-source-rover) | 9.7k | 🟡 help wanted | 2026-09-10 |  |
 | [Consider feature adoption: Vector PP and Stanley within RPP package](https://github.com/ros-navigation/navigation2/issues/5952) 💬 10 | [ros-navigation/navigation2](https://github.com/ros-navigation/navigation2) | 4.7k | 🟡 help wanted | 2026-09-10 | 🔏 DCO |
-| [Copter: move RC_Channels_Copter::save_trim to Copter class](https://github.com/ArduPilot/ardupilot/issues/32279) 💬 6 | [ArduPilot/ardupilot](https://github.com/ArduPilot/ardupilot) | 15.9k | 🟢 beginner | 2026-09-08 | 🤖 disclose AI use |
 | [Add GPS IMU fusion](https://github.com/AtsushiSakai/PythonRobotics/issues/603) 💬 3 | [AtsushiSakai/PythonRobotics](https://github.com/AtsushiSakai/PythonRobotics) | 30.6k | 🟡 help wanted | 2026-09-04 |  |
 | [Run thread/address sanitizers in Nav2 System Tests CI](https://github.com/ros-navigation/navigation2/issues/6349) 💬 4 | [ros-navigation/navigation2](https://github.com/ros-navigation/navigation2) | 4.7k | 🟡 help wanted | 2026-08-25 | 🔏 DCO |
 | [Sub: Vaccuum testing mode with RGB feedback](https://github.com/ArduPilot/ardupilot/issues/9828) 💬 5 | [ArduPilot/ardupilot](https://github.com/ArduPilot/ardupilot) | 15.9k | 🟢 beginner | 2026-06-05 | 🤖 disclose AI use |

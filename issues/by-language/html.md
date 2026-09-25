@@ -1,8 +1,8 @@
 # HTML issues
 
-**88** open issues (30 labeled for beginners) across **38** active HTML projects.
+**89** open issues (30 labeled for beginners) across **37** active HTML projects.
 
-> Updated automatically on **2026-09-25 11:00 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-25 21:30 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -11,18 +11,19 @@
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
 | [Digitally sign Windows releases 1.3](https://github.com/Shrey113/Android-Dex/issues/187) 💬 1 | [Shrey113/Android-Dex](https://github.com/Shrey113/Android-Dex) | 2.7k | 🟢 beginner | 2026-09-25 |  |
+| [[Old School Essentials] Add support for multiple classes (optional rule)](https://github.com/Roll20/roll20-character-sheets/issues/13822) 💬 1 | [Roll20/roll20-character-sheets](https://github.com/Roll20/roll20-character-sheets) | 1.2k | 🟢 beginner | 2026-09-25 |  |
 | [[Initiative]: Cloud Native Observability Personas](https://github.com/cncf/toc/issues/2037) 💬 11 | [cncf/toc](https://github.com/cncf/toc) | 1.9k | 🟡 help wanted | 2026-09-24 |  |
-| [Update setting up Prometheus docs](https://github.com/knative/docs/issues/5217) 💬 13 | [knative/docs](https://github.com/knative/docs) | 5.1k | 🟢 beginner | 2026-09-20 |  |
 | [java.util.ImmutableCollections$ListN can contain null values](https://github.com/EsotericSoftware/kryo/issues/1239) 💬 2 | [EsotericSoftware/kryo](https://github.com/EsotericSoftware/kryo) | 6.5k | 🟡 help wanted | 2026-09-19 |  |
 | [Confirm new ubuntu-latest GH runner image is fine](https://github.com/mozilla/bedrock/issues/17386) 💬 1 | [mozilla/bedrock](https://github.com/mozilla/bedrock) | 1.3k | 🟡 help wanted | 2026-09-18 |  |
 | [[Initiative]: Cloud Native Business Continuity: whitepaper and best practices](https://github.com/cncf/toc/issues/1779) 💬 9 | [cncf/toc](https://github.com/cncf/toc) | 1.9k | 🟡 help wanted | 2026-09-16 |  |
 | [Allow disable generating full mobile navigation tree](https://github.com/imfing/hextra/issues/275) 💬 1 | [imfing/hextra](https://github.com/imfing/hextra) | 2.4k | 🟢 beginner | 2026-09-15 |  |
 | [输入 【介绍一下html-anything】，导出html单文件出现错误 1. 第一页只展示一半 2. 左右键不起作用 3. 从第二页开始都是黑底空白页 4. 。。。。。。](https://github.com/nexu-io/html-anything/issues/152) 💬 2 | [nexu-io/html-anything](https://github.com/nexu-io/html-anything) | 8.9k | 🟡 help wanted | 2026-09-14 | ✍️ CLA |
 | [[Initiative]: Scale and performance testing guidance](https://github.com/cncf/toc/issues/2233) 💬 4 | [cncf/toc](https://github.com/cncf/toc) | 1.9k | 🟡 help wanted | 2026-09-14 |  |
-| [[feat] no new X chat dm sending?](https://github.com/nirholas/XActions/issues/37) 💬 4 | [nirholas/XActions](https://github.com/nirholas/XActions) | 542 | 🟡 help wanted | 2026-09-14 |  |
+| [[feat] no new X chat dm sending?](https://github.com/nirholas/XActions/issues/37) 💬 4 | [nirholas/XActions](https://github.com/nirholas/XActions) | 543 | 🟡 help wanted | 2026-09-14 |  |
 | [[🚀 Feature]: Fixing Accessibility Issues On Selenium Website](https://github.com/SeleniumHQ/seleniumhq.github.io/issues/2486) 💬 6 | [SeleniumHQ/seleniumhq.github.io](https://github.com/SeleniumHQ/seleniumhq.github.io) | 1.4k | 🟡 help wanted | 2026-09-11 |  |
 | [switch cutout for back body plate doesn't fit switch](https://github.com/nasa-jpl/open-source-rover/issues/499) 💬 2 | [nasa-jpl/open-source-rover](https://github.com/nasa-jpl/open-source-rover) | 9.7k | 🟡 help wanted | 2026-09-10 |  |
 | [Headscale with reverse proxy Zoraxy not working because allegedly WebSockets are not passing through](https://github.com/tobychui/zoraxy/issues/1012) 💬 9 | [tobychui/zoraxy](https://github.com/tobychui/zoraxy) | 5.5k | 🟡 help wanted | 2026-09-09 |  |
+| [(1.37) Move resource managers page to new section](https://github.com/kubernetes/website/issues/56615) 💬 4 | [kubernetes/website](https://github.com/kubernetes/website) | 5.4k | 🟡 help wanted | 2026-09-09 |  |
 | [Check for obsoletes](https://github.com/mgaudet/CompilerJobs/issues/83) 💬 5 | [mgaudet/CompilerJobs](https://github.com/mgaudet/CompilerJobs) | 781 | 🟢 beginner | 2026-09-08 |  |
 | [Service Worker Offline](https://github.com/TandoorRecipes/recipes/issues/621) 💬 6 | [TandoorRecipes/recipes](https://github.com/TandoorRecipes/recipes) | 8.6k | 🟢 beginner | 2026-09-06 |  |
 | [Translation needed for existing languages](https://github.com/sumn2u/learn-javascript/issues/346) 💬 2 | [sumn2u/learn-javascript](https://github.com/sumn2u/learn-javascript) | 1k | 🟢 beginner | 2026-08-29 |  |
@@ -66,8 +67,8 @@
 | [E2Es: improve verification that the correct backend service is being hit.](https://github.com/projectcontour/contour/issues/6253) 💬 1 | [projectcontour/contour](https://github.com/projectcontour/contour) | 4k | 🟡 help wanted | 2026-06-18 | 🔏 DCO |
 | [Docs: Create and document a "stale content" checking cycle](https://github.com/projectcontour/contour/issues/3814) 💬 1 | [projectcontour/contour](https://github.com/projectcontour/contour) | 4k | 🟢 beginner | 2026-06-18 | 🔏 DCO |
 | [Processed meat openmojis?](https://github.com/hfg-gmuend/openmoji/issues/657) 💬 2 | [hfg-gmuend/openmoji](https://github.com/hfg-gmuend/openmoji) | 4.6k | 🟡 help wanted | 2026-06-17 |  |
-| [Limitations of Anki as a learning coding platform](https://github.com/badlydrawnrob/anki/issues/180) | [badlydrawnrob/anki](https://github.com/badlydrawnrob/anki) | 931 | 🟡 help wanted | 2026-06-17 |  |
-| [Moving away from Anki](https://github.com/badlydrawnrob/anki/issues/181) | [badlydrawnrob/anki](https://github.com/badlydrawnrob/anki) | 931 | 🟡 help wanted | 2026-06-12 |  |
+| [Limitations of Anki as a learning coding platform](https://github.com/badlydrawnrob/anki/issues/180) | [badlydrawnrob/anki](https://github.com/badlydrawnrob/anki) | 932 | 🟡 help wanted | 2026-06-17 |  |
+| [Moving away from Anki](https://github.com/badlydrawnrob/anki/issues/181) | [badlydrawnrob/anki](https://github.com/badlydrawnrob/anki) | 932 | 🟡 help wanted | 2026-06-12 |  |
 | [Very high CPU usage while the GUI is open since EasyEffects 8.x](https://github.com/wwmm/easyeffects/issues/4652) 💬 69 | [wwmm/easyeffects](https://github.com/wwmm/easyeffects) | 10.3k | 🟡 help wanted | 2026-06-10 |  |
 | [Develop example of a datagrid with advanced, spreadsheet-like features](https://github.com/w3c/aria-practices/issues/155) 💬 19 | [w3c/aria-practices](https://github.com/w3c/aria-practices) | 1.4k | 🟡 help wanted | 2026-06-10 |  |
 | [[Worlds Without Number] Text is barely readable/showing the wrong color in the roll macro window](https://github.com/Roll20/roll20-character-sheets/issues/13773) 💬 3 | [Roll20/roll20-character-sheets](https://github.com/Roll20/roll20-character-sheets) | 1.2k | 🟢 beginner | 2026-06-10 |  |

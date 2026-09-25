@@ -1,8 +1,8 @@
 # Science and research issues
 
-**67** open issues (44 labeled for beginners) across **18** projects tagged with topics like `science`, `scientific-computing`, `bioinformatics`, `physics`, `astronomy`, `chemistry`.
+**62** open issues (41 labeled for beginners) across **18** projects tagged with topics like `science`, `scientific-computing`, `bioinformatics`, `physics`, `astronomy`, `chemistry`.
 
-> Updated automatically on **2026-09-25 11:00 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-25 21:30 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,12 +10,11 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [LSM Launch coaster Negative G stat requirement not in Fixed_2DP format](https://github.com/OpenRCT2/OpenRCT2/issues/23147) | [OpenRCT2/OpenRCT2](https://github.com/OpenRCT2/OpenRCT2) | 16.3k | 🟢 beginner | 2026-09-24 |  |
+| [Create ObjectAsset.cpp](https://github.com/OpenRCT2/OpenRCT2/issues/27199) | [OpenRCT2/OpenRCT2](https://github.com/OpenRCT2/OpenRCT2) | 16.3k | 🟢 beginner | 2026-09-25 |  |
+| [train: hot reloading for faster prototyping](https://github.com/tracel-ai/burn/issues/3571) 💬 2 | [tracel-ai/burn](https://github.com/tracel-ai/burn) | 16k | 🟡 help wanted | 2026-09-25 |  |
 | [train: TUI panics on manual close (unwrap on the join handle)](https://github.com/tracel-ai/burn/issues/4793) 💬 4 | [tracel-ai/burn](https://github.com/tracel-ai/burn) | 16k | 🟢 beginner | 2026-09-24 |  |
-| [train: hot reloading for faster prototyping](https://github.com/tracel-ai/burn/issues/3571) 💬 2 | [tracel-ai/burn](https://github.com/tracel-ai/burn) | 16k | 🟡 help wanted | 2026-09-24 |  |
 | [data: add drop_last to DataLoader](https://github.com/tracel-ai/burn/issues/3316) 💬 4 | [tracel-ai/burn](https://github.com/tracel-ai/burn) | 16k | 🟢 beginner | 2026-09-24 |  |
 | [autodiff: Gradients::get panics on type mismatch instead of returning an error](https://github.com/tracel-ai/burn/issues/2924) 💬 9 | [tracel-ai/burn](https://github.com/tracel-ai/burn) | 16k | 🟢 beginner | 2026-09-24 |  |
-| [tensor: add round to a number of decimals](https://github.com/tracel-ai/burn/issues/2732) 💬 3 | [tracel-ai/burn](https://github.com/tracel-ai/burn) | 16k | 🟢 beginner | 2026-09-24 |  |
 | [docs: add source links to the API docs hosted on burn.dev](https://github.com/tracel-ai/burn/issues/1244) 💬 8 | [tracel-ai/burn](https://github.com/tracel-ai/burn) | 16k | 🟢 beginner | 2026-09-24 |  |
 | [nn: add LPPool1d/LPPool2d (power-average pooling)](https://github.com/tracel-ai/burn/issues/1172) 💬 1 | [tracel-ai/burn](https://github.com/tracel-ai/burn) | 16k | 🟢 beginner | 2026-09-24 |  |
 | [tensor: add sparse tensor support](https://github.com/tracel-ai/burn/issues/846) 💬 12 | [tracel-ai/burn](https://github.com/tracel-ai/burn) | 16k | 🟡 help wanted | 2026-09-24 |  |
@@ -23,9 +22,6 @@
 | [docs: provide a cargo-generate starter template](https://github.com/tracel-ai/burn/issues/282) 💬 8 | [tracel-ai/burn](https://github.com/tracel-ai/burn) | 16k | 🟢 beginner | 2026-09-24 |  |
 | [OpenRocket on Linux - very odd filenames under ~/.java/.userPrefs/OpenRocket/favoritePresets/](https://github.com/openrocket/openrocket/issues/3335) 💬 2 | [openrocket/openrocket](https://github.com/openrocket/openrocket) | 3.1k | 🟢 beginner | 2026-09-19 | 📄 AI policy |
 | [Crash just after loading screen due to 'ERROR: Parameter "tex" is null'](https://github.com/Revolutionary-Games/Thrive/issues/6981) 💬 8 | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) | 3.7k | 🟡 help wanted | 2026-09-18 |  |
-| [Are predictions on scikit-learn models thread-safe?](https://github.com/scikit-learn/scikit-learn/issues/18530) 💬 9 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | 67.4k | 🟡 help wanted | 2026-09-16 | 🤖 disclose AI use |
-| [Shell mode doesn't respect Cmd object's env](https://github.com/JuliaLang/julia/issues/51020) 💬 4 | [JuliaLang/julia](https://github.com/JuliaLang/julia) | 49.2k | 🟢 beginner | 2026-09-15 | 🤖 disclose AI use |
-| [Mean Standardized Log Loss (MSLL) for uncertainty aware regression models](https://github.com/scikit-learn/scikit-learn/issues/21665) 💬 16 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | 67.4k | 🟡 help wanted | 2026-09-12 | 🤖 disclose AI use |
 | [all *.json files are interpreted as objects](https://github.com/OpenRCT2/OpenRCT2/issues/16807) 💬 3 | [OpenRCT2/OpenRCT2](https://github.com/OpenRCT2/OpenRCT2) | 16.3k | 🟢 beginner | 2026-09-12 |  |
 | [Consensus Index for Clustering Model Selection](https://github.com/scikit-learn/scikit-learn/issues/11778) 💬 7 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | 67.4k | 🟡 help wanted | 2026-09-10 | 🤖 disclose AI use |
 | [When you change the objective in a scenario that you have already failed it does not remove the failed objecti](https://github.com/OpenRCT2/OpenRCT2/issues/16510) 💬 4 | [OpenRCT2/OpenRCT2](https://github.com/OpenRCT2/OpenRCT2) | 16.3k | 🟢 beginner | 2026-09-09 |  |
@@ -76,4 +72,3 @@
 | [NeuralFoil Optimizer tutorial issue](https://github.com/peterdsharpe/AeroSandbox/issues/172) 💬 1 | [peterdsharpe/AeroSandbox](https://github.com/peterdsharpe/AeroSandbox) | 1.3k | 🟢 beginner | 2026-05-16 |  |
 | [V26.1 (appimage): cannot configure online queries plugin](https://github.com/Stellarium/stellarium/issues/4899) 💬 7 | [Stellarium/stellarium](https://github.com/Stellarium/stellarium) | 10k | 🟡 help wanted | 2026-05-13 |  |
 | [Sextant sight reduction module](https://github.com/Stellarium/stellarium/issues/796) 💬 5 | [Stellarium/stellarium](https://github.com/Stellarium/stellarium) | 10k | 🟡 help wanted | 2026-05-07 |  |
-| [Additional tests for fluxes: Invariance with respect to rotation and Consistency](https://github.com/trixi-framework/Trixi.jl/issues/1734) 💬 2 | [trixi-framework/Trixi.jl](https://github.com/trixi-framework/Trixi.jl) | 731 | 🟢 beginner | 2026-03-29 | 🤖 disclose AI use · 🔏 DCO |

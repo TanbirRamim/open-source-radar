@@ -1,8 +1,8 @@
 # Go issues
 
-**339** open issues (75 labeled for beginners) across **81** active Go projects.
+**331** open issues (72 labeled for beginners) across **80** active Go projects.
 
-> Updated automatically on **2026-09-25 11:00 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-25 21:30 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,7 +10,9 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [Incorrect/unhelpful error message for non-module jsx file](https://github.com/microsoft/TypeScript/issues/64438) 💬 2 | [microsoft/TypeScript](https://github.com/microsoft/TypeScript) | 111.2k | 🟢 beginner | 2026-09-25 | 🤖 disclose AI use · ✍️ CLA |
+| [cmd/compile/internal/pgo: error parsing profile (for pgo) after scaling](https://github.com/golang/go/issues/73640) 💬 13 | [golang/go](https://github.com/golang/go) | 139k | 🟡 help wanted | 2026-09-25 |  |
+| [cmd/vet: detect evaluation-order mistakes](https://github.com/golang/go/issues/81753) 💬 3 | [golang/go](https://github.com/golang/go) | 139k | 🟡 help wanted | 2026-09-25 |  |
+| [empty mappings in .d.ts.map for export default of a non-identifier expression](https://github.com/microsoft/TypeScript/issues/64433) | [microsoft/TypeScript](https://github.com/microsoft/TypeScript) | 111.2k | 🟡 help wanted | 2026-09-25 | 🤖 disclose AI use · ✍️ CLA |
 | [all: flaky failures on netbsd/arm](https://github.com/golang/go/issues/73820) 💬 742 | [golang/go](https://github.com/golang/go) | 139k | 🟡 help wanted | 2026-09-24 |  |
 | [runtime: flaky failures on NetBSD since CL 526118](https://github.com/golang/go/issues/62524) 💬 155 | [golang/go](https://github.com/golang/go) | 139k | 🟡 help wanted | 2026-09-24 |  |
 | [runtime: deadlock while stopping the world (most recently openbsd/amd64)](https://github.com/golang/go/issues/62541) 💬 15 | [golang/go](https://github.com/golang/go) | 139k | 🟡 help wanted | 2026-09-24 |  |
@@ -21,8 +23,6 @@
 | [[Enhancement]: [Stanford G01] Integrate a ready SGLang embedding endpoint](https://github.com/milvus-io/milvus/issues/53842) | [milvus-io/milvus](https://github.com/milvus-io/milvus) | 46.3k | 🟢 beginner | 2026-09-24 | 🔏 DCO |
 | [[Enhancement]: [Stanford E02] Expose static Explain through a CLI and API](https://github.com/milvus-io/milvus/issues/53830) | [milvus-io/milvus](https://github.com/milvus-io/milvus) | 46.3k | 🟢 beginner | 2026-09-24 | 🔏 DCO |
 | [Select-all feature](https://github.com/derailed/k9s/issues/4247) 💬 5 | [derailed/k9s](https://github.com/derailed/k9s) | 34.7k | 🟢 beginner | 2026-09-24 |  |
-| [Feature Request: remotely (management) initiated debugging/control of clients](https://github.com/netbirdio/netbird/issues/3136) 💬 11 | [netbirdio/netbird](https://github.com/netbirdio/netbird) | 29.5k | 🟢 beginner | 2026-09-24 | ✍️ CLA |
-| [history: HistoryTaskDLQMode config is keyed by DomainName filter but callers pass domainID](https://github.com/cadence-workflow/cadence/issues/8562) 💬 1 | [cadence-workflow/cadence](https://github.com/cadence-workflow/cadence) | 9.5k | 🟢 beginner | 2026-09-24 |  |
 | [cmd/objdump: x86 disassembler does not recognize PDEPQ](https://github.com/golang/go/issues/25617) 💬 6 | [golang/go](https://github.com/golang/go) | 139k | 🟡 help wanted | 2026-09-23 |  |
 | [runtime: linux/s390x test timeout](https://github.com/golang/go/issues/60413) 💬 873 | [golang/go](https://github.com/golang/go) | 139k | 🟡 help wanted | 2026-09-23 |  |
 | [Type-asserting function call on variable initialized using 'this' causes false implicit-any in VSCode](https://github.com/microsoft/TypeScript/issues/51661) 💬 4 | [microsoft/TypeScript](https://github.com/microsoft/TypeScript) | 111.2k | 🟡 help wanted | 2026-09-23 | 🤖 disclose AI use · ✍️ CLA |
@@ -37,10 +37,10 @@
 | [\\echo and \\warn -n problem on interactive](https://github.com/xo/usql/issues/215) 💬 1 | [xo/usql](https://github.com/xo/usql) | 10.1k | 🟡 help wanted | 2026-09-23 |  |
 | [feature: support vi key bindings (ala readline/bash/psql vi modes)](https://github.com/xo/usql/issues/236) 💬 5 | [xo/usql](https://github.com/xo/usql) | 10.1k | 🟡 help wanted | 2026-09-23 |  |
 | ['\\ss' without arguments lists columns for all tables](https://github.com/xo/usql/issues/363) 💬 2 | [xo/usql](https://github.com/xo/usql) | 10.1k | 🟡 help wanted | 2026-09-23 |  |
+| [Implement privilege related \\d commands](https://github.com/xo/usql/issues/172) | [xo/usql](https://github.com/xo/usql) | 10.1k | 🟡 help wanted | 2026-09-23 |  |
 | [x/website/tour: PageUp and PageDown navigation stops working when focus is outside the tour editor](https://github.com/golang/go/issues/81596) 💬 2 | [golang/go](https://github.com/golang/go) | 139k | 🟡 help wanted | 2026-09-22 |  |
-| [Wanted: Who is using Open Code Review? Please leave a comment!](https://github.com/alibaba/open-code-review/issues/1020) 💬 11 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 41.1k | 🟡 help wanted | 2026-09-22 | 🤖 disclose AI use · ✍️ CLA |
+| [Wanted: Who is using Open Code Review? Please leave a comment!](https://github.com/alibaba/open-code-review/issues/1020) 💬 11 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 41.3k | 🟡 help wanted | 2026-09-22 | 🤖 disclose AI use · ✍️ CLA |
 | [Support For Windows Containers](https://github.com/kubernetes/minikube/issues/2015) 💬 68 | [kubernetes/minikube](https://github.com/kubernetes/minikube) | 32.2k | 🟡 help wanted | 2026-09-22 |  |
-| [Unable to load docker containerd managed images to cluster](https://github.com/kubernetes-sigs/kind/issues/3795) 💬 68 | [kubernetes-sigs/kind](https://github.com/kubernetes-sigs/kind) | 15.5k | 🟡 help wanted | 2026-09-22 |  |
 | [i18n: Streamline Singular/Plural Nouns](https://github.com/stashapp/stash/issues/1924) 💬 6 | [stashapp/stash](https://github.com/stashapp/stash) | 13k | 🟡 help wanted | 2026-09-22 | ⚠️ AI restricted |
 | [Help about Telegram Custom alerts](https://github.com/TwiN/gatus/issues/1809) | [TwiN/gatus](https://github.com/TwiN/gatus) | 12.2k | 🟡 help wanted | 2026-09-22 |  |
 | [x/sys/windows: generated wrappers read undefined upper bits of 32-bit syscall return values](https://github.com/golang/go/issues/81249) 💬 11 | [golang/go](https://github.com/golang/go) | 139k | 🟡 help wanted | 2026-09-21 |  |
@@ -58,7 +58,6 @@
 | [Explicit auth with TEMP tokens](https://github.com/cockroachdb/cockroach/issues/56577) 💬 6 | [cockroachdb/cockroach](https://github.com/cockroachdb/cockroach) | 32.5k | 🟢 beginner | 2026-09-17 | ✍️ CLA |
 | [New website todo list](https://github.com/owncast/owncast/issues/4720) 💬 9 | [owncast/owncast](https://github.com/owncast/owncast) | 11.6k | 🟡 help wanted | 2026-09-17 |  |
 | [runtime: "unexpected signal during runtime execution" during bgscavenge on plan9](https://github.com/golang/go/issues/35456) 💬 95 | [golang/go](https://github.com/golang/go) | 139k | 🟡 help wanted | 2026-09-16 |  |
-| [add falco back to the new iso](https://github.com/kubernetes/minikube/issues/22298) 💬 5 | [kubernetes/minikube](https://github.com/kubernetes/minikube) | 32.2k | 🟡 help wanted | 2026-09-16 |  |
 | [yay --diffmenu using kompare opens empty](https://github.com/Jguer/yay/issues/2478) 💬 8 | [Jguer/yay](https://github.com/Jguer/yay) | 13.8k | 🟡 help wanted | 2026-09-16 |  |
 | [runtime/race: TestRace failures in RaceWaitGroupWrongAdd](https://github.com/golang/go/issues/64038) 💬 45 | [golang/go](https://github.com/golang/go) | 139k | 🟡 help wanted | 2026-09-15 |  |
 | [cmd/cgo: cgo "//export" usage missing crucial info](https://github.com/golang/go/issues/56853) 💬 3 | [golang/go](https://github.com/golang/go) | 139k | 🟡 help wanted | 2026-09-15 |  |
@@ -66,26 +65,22 @@
 | [Optimize Pod informer memory efficiency used in admission plugins](https://github.com/kubernetes/kubernetes/issues/125469) 💬 21 | [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) | 128k | 🟡 help wanted | 2026-09-15 | 🤖 disclose AI use · ✍️ CLA |
 | [Minikube start fails for nvidia gpus in compute only/ headless mode](https://github.com/kubernetes/minikube/issues/20934) 💬 4 | [kubernetes/minikube](https://github.com/kubernetes/minikube) | 32.2k | 🟡 help wanted | 2026-09-15 |  |
 | [Btrfs statistics input plugin](https://github.com/influxdata/telegraf/issues/10032) 💬 5 | [influxdata/telegraf](https://github.com/influxdata/telegraf) | 17.8k | 🟡 help wanted | 2026-09-15 | ⚠️ AI restricted · ✍️ CLA |
-| [Upgrade the WAF plugin's CRS rule version to the latest](https://github.com/higress-group/higress/issues/1620) 💬 1 | [higress-group/higress](https://github.com/higress-group/higress) | 9.5k | 🟡 help wanted | 2026-09-15 | 🤖 disclose AI use |
 | ['COMMIT AND CHAIN' is not compatible with MySQL](https://github.com/pingcap/tidb/issues/71059) 💬 4 | [pingcap/tidb](https://github.com/pingcap/tidb) | 40.6k | 🟢 beginner | 2026-09-14 |  |
 | [failed to download vulnerability DB](https://github.com/goharbor/harbor/issues/23521) 💬 8 | [goharbor/harbor](https://github.com/goharbor/harbor) | 29.5k | 🟡 help wanted | 2026-09-14 | 🔏 DCO |
 | [cmd/link: test timeouts](https://github.com/golang/go/issues/64535) 💬 16 | [golang/go](https://github.com/golang/go) | 139k | 🟡 help wanted | 2026-09-13 |  |
 | [Application migration across clusters](https://github.com/argoproj/argo-cd/issues/1640) 💬 16 | [argoproj/argo-cd](https://github.com/argoproj/argo-cd) | 24.2k | 🟡 help wanted | 2026-09-13 | 🔏 DCO |
-| [add Notion database MCP server in Gemini CLI extensions](https://github.com/googleapis/mcp-toolbox/issues/1699) 💬 2 | [googleapis/mcp-toolbox](https://github.com/googleapis/mcp-toolbox) | 16.5k | 🟡 help wanted | 2026-09-13 | ✍️ CLA |
 | [x/pkgsite: align attribute gets stripped from headings in README.md](https://github.com/golang/go/issues/51045) 💬 3 | [golang/go](https://github.com/golang/go) | 139k | 🟡 help wanted | 2026-09-12 |  |
 | [runtime: TestUsingVDSO failures](https://github.com/golang/go/issues/67383) 💬 8 | [golang/go](https://github.com/golang/go) | 139k | 🟡 help wanted | 2026-09-11 |  |
-| [proposal: cmd/go: add go test -fuzztimereset option](https://github.com/golang/go/issues/80283) 💬 11 | [golang/go](https://github.com/golang/go) | 139k | 🟡 help wanted | 2026-09-11 |  |
 | [Help wanted issues (but NOT 'good first issue')](https://github.com/lima-vm/lima/issues/5286) 💬 2 | [lima-vm/lima](https://github.com/lima-vm/lima) | 22k | 🟡 help wanted | 2026-09-11 | 📄 AI policy · 🔏 DCO |
 | ['ipfs repo state' cmd](https://github.com/ipfs/kubo/issues/1486) 💬 3 | [ipfs/kubo](https://github.com/ipfs/kubo) | 17.1k | 🟡 help wanted | 2026-09-11 |  |
 | [Injected nginx ingress controller doesn't have access to the remote client IP](https://github.com/linkerd/linkerd2/issues/3403) 💬 19 | [linkerd/linkerd2](https://github.com/linkerd/linkerd2) | 11.5k | 🟡 help wanted | 2026-09-11 | 🔏 DCO |
 | [Refactor History/Visibility Archiver implementation](https://github.com/cadence-workflow/cadence/issues/3001) 💬 3 | [cadence-workflow/cadence](https://github.com/cadence-workflow/cadence) | 9.5k | 🟡 help wanted | 2026-09-11 |  |
 | [Enhancement: wrap selection with (, [, {](https://github.com/micro-editor/micro/issues/707) 💬 4 | [micro-editor/micro](https://github.com/micro-editor/micro) | 29.6k | 🟡 help wanted | 2026-09-09 |  |
 | [Enhance Security and Self-Service by Allowing Service Account Specification in Target Namespace for Workload I](https://github.com/kedacore/keda/issues/5630) 💬 20 | [kedacore/keda](https://github.com/kedacore/keda) | 10.5k | 🟡 help wanted | 2026-09-09 | 🔏 DCO |
-| [Implement '--max-files' flag to limit the number of files transferred](https://github.com/rclone/rclone/issues/4118) 💬 8 | [rclone/rclone](https://github.com/rclone/rclone) | 59.9k | 🟡 help wanted | 2026-09-08 |  |
+| [Implement '--max-files' flag to limit the number of files transferred](https://github.com/rclone/rclone/issues/4118) 💬 8 | [rclone/rclone](https://github.com/rclone/rclone) | 60k | 🟡 help wanted | 2026-09-08 |  |
 | ["don't require a load balancer between cluster and control plane and still be HA"](https://github.com/kubernetes/kubernetes/issues/18174) 💬 183 | [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) | 128k | 🟡 help wanted | 2026-09-07 | 🤖 disclose AI use · ✍️ CLA |
 | [Old binaries are not available](https://github.com/goharbor/harbor/issues/22168) 💬 15 | [goharbor/harbor](https://github.com/goharbor/harbor) | 29.5k | 🟡 help wanted | 2026-09-07 | 🔏 DCO |
 | [Feature request: Add Avro serialization for Kafka keys and values](https://github.com/influxdata/telegraf/issues/19449) 💬 2 | [influxdata/telegraf](https://github.com/influxdata/telegraf) | 17.8k | 🟡 help wanted | 2026-09-07 | ⚠️ AI restricted · ✍️ CLA |
-| [investigate switch to NRI for product mounts](https://github.com/kubernetes-sigs/kind/issues/3938) 💬 10 | [kubernetes-sigs/kind](https://github.com/kubernetes-sigs/kind) | 15.5k | 🟡 help wanted | 2026-09-07 |  |
 | [e2e: add testcases for the de-graphql wasmplugin](https://github.com/higress-group/higress/issues/374) 💬 1 | [higress-group/higress](https://github.com/higress-group/higress) | 9.5k | 🟡 help wanted | 2026-09-07 | 🤖 disclose AI use |
 | [Allow versioning to be enabled via ObjectBucketClaim](https://github.com/rook/rook/issues/17318) 💬 9 | [rook/rook](https://github.com/rook/rook) | 13.7k | 🟡 help wanted | 2026-09-05 | 🤖 disclose AI use · 🔏 DCO |
 | [Emoji causes quote to be stuck on screen when scrolling](https://github.com/micro-editor/micro/issues/3792) 💬 12 | [micro-editor/micro](https://github.com/micro-editor/micro) | 29.6k | 🟡 help wanted | 2026-09-04 |  |
@@ -100,7 +95,6 @@
 | [Mouse selection wrapping](https://github.com/micro-editor/micro/issues/677) 💬 4 | [micro-editor/micro](https://github.com/micro-editor/micro) | 29.6k | 🟡 help wanted | 2026-09-01 |  |
 | [improve KIND performance on single node clusters \| leader-elect=false \| proxy-refresh-interval=70000](https://github.com/kubernetes-sigs/kind/issues/2513) 💬 5 | [kubernetes-sigs/kind](https://github.com/kubernetes-sigs/kind) | 15.5k | 🟡 help wanted | 2026-09-01 |  |
 | [building node images requires public internet access and doesn't error if pre-pulling images fails](https://github.com/kubernetes-sigs/kind/issues/2562) 💬 22 | [kubernetes-sigs/kind](https://github.com/kubernetes-sigs/kind) | 15.5k | 🟡 help wanted | 2026-09-01 |  |
-| [Increase maxkeys and maxbytes in Known Issues](https://github.com/kubernetes-sigs/kind/issues/3806) 💬 7 | [kubernetes-sigs/kind](https://github.com/kubernetes-sigs/kind) | 15.5k | 🟡 help wanted | 2026-09-01 |  |
 | [Digicert ACME order is failing due to invalid validity_years](https://github.com/cert-manager/cert-manager/issues/7536) 💬 12 | [cert-manager/cert-manager](https://github.com/cert-manager/cert-manager) | 14.1k | 🟢 beginner | 2026-09-01 |  |
 | [Clear signal requestID on workflow close](https://github.com/temporalio/temporal/issues/4029) 💬 1 | [temporalio/temporal](https://github.com/temporalio/temporal) | 23.3k | 🟡 help wanted | 2026-08-31 | ✍️ CLA |
 | [[Support]: How to use allowed_groups query parameter when groups themselves contain commas?](https://github.com/oauth2-proxy/oauth2-proxy/issues/3528) | [oauth2-proxy/oauth2-proxy](https://github.com/oauth2-proxy/oauth2-proxy) | 15k | 🟡 help wanted | 2026-08-31 | 🤖 disclose AI use · 🔏 DCO |
@@ -126,7 +120,7 @@
 | [Cannot scrape targets specified by mDNS name](https://github.com/prometheus/prometheus/issues/2537) 💬 28 | [prometheus/prometheus](https://github.com/prometheus/prometheus) | 66.2k | 🟡 help wanted | 2026-08-25 | 🔏 DCO |
 | [Binaries for management and signal (apt/yum)](https://github.com/netbirdio/netbird/issues/532) 💬 2 | [netbirdio/netbird](https://github.com/netbirdio/netbird) | 29.5k | 🟢 beginner | 2026-08-24 | ✍️ CLA |
 | [Pushing fails periodically with 'dial tcp: lookup github.com: no such host' error, disrupts network](https://github.com/git-lfs/git-lfs/issues/2887) 💬 21 | [git-lfs/git-lfs](https://github.com/git-lfs/git-lfs) | 14.5k | 🟡 help wanted | 2026-08-24 |  |
-| [Discussion: should team knowledge compound across agent runs the way skills do?](https://github.com/multica-ai/multica/issues/1211) 💬 14 | [multica-ai/multica](https://github.com/multica-ai/multica) | 51.3k | 🟢 beginner | 2026-08-21 | 🤖 disclose AI use |
+| [Discussion: should team knowledge compound across agent runs the way skills do?](https://github.com/multica-ai/multica/issues/1211) 💬 14 | [multica-ai/multica](https://github.com/multica-ai/multica) | 51.4k | 🟢 beginner | 2026-08-21 | 🤖 disclose AI use |
 | [[fix]: Improve Keploy docs website mobile-friendly](https://github.com/keploy/keploy/issues/2998) 💬 6 | [keploy/keploy](https://github.com/keploy/keploy) | 18.5k | 🟢 beginner | 2026-08-21 | 🔏 DCO |
 | [Logparser/tail input on Windows stops sendings logs due to file being locked](https://github.com/influxdata/telegraf/issues/6539) 💬 9 | [influxdata/telegraf](https://github.com/influxdata/telegraf) | 17.8k | 🟡 help wanted | 2026-08-20 | ⚠️ AI restricted · ✍️ CLA |
 | [Feature request: Add UI for testing full alerting expressions over time](https://github.com/prometheus/prometheus/issues/1154) 💬 17 | [prometheus/prometheus](https://github.com/prometheus/prometheus) | 66.2k | 🟡 help wanted | 2026-08-18 | 🔏 DCO |
@@ -168,7 +162,7 @@
 | [[inputs.disk] Add support to report mount status (mounted vs unmounted)](https://github.com/influxdata/telegraf/issues/16871) 💬 5 | [influxdata/telegraf](https://github.com/influxdata/telegraf) | 17.8k | 🟡 help wanted | 2026-08-04 | ⚠️ AI restricted · ✍️ CLA |
 | [[Support]: Broken login page](https://github.com/oauth2-proxy/oauth2-proxy/issues/3490) 💬 8 | [oauth2-proxy/oauth2-proxy](https://github.com/oauth2-proxy/oauth2-proxy) | 15k | 🟡 help wanted | 2026-08-04 | 🤖 disclose AI use · 🔏 DCO |
 | [Can active alerts display the value at the time of triggering?](https://github.com/ccfos/nightingale/issues/2873) 💬 1 | [ccfos/nightingale](https://github.com/ccfos/nightingale) | 13.3k | 🟡 help wanted | 2026-08-04 | 🤖 disclose AI use |
-| [Discussion: Should Multica be the unified SDLC standard, or an automation layer with fit criteria?](https://github.com/multica-ai/multica/issues/6227) 💬 4 | [multica-ai/multica](https://github.com/multica-ai/multica) | 51.3k | 🟢 beginner | 2026-08-03 | 🤖 disclose AI use |
+| [Discussion: Should Multica be the unified SDLC standard, or an automation layer with fit criteria?](https://github.com/multica-ai/multica/issues/6227) 💬 4 | [multica-ai/multica](https://github.com/multica-ai/multica) | 51.4k | 🟢 beginner | 2026-08-03 | 🤖 disclose AI use |
 | [[Chore]: Update security contacts](https://github.com/oauth2-proxy/oauth2-proxy/issues/3479) 💬 3 | [oauth2-proxy/oauth2-proxy](https://github.com/oauth2-proxy/oauth2-proxy) | 15k | 🟡 help wanted | 2026-08-02 | 🤖 disclose AI use · 🔏 DCO |
 | [It is recommended that the GRPC server add a timeout limit.](https://github.com/gogf/gf/issues/3189) 💬 5 | [gogf/gf](https://github.com/gogf/gf) | 13.3k | 🟡 help wanted | 2026-08-01 |  |
 | [Post image in chatroom](https://github.com/m1k1o/neko/issues/422) 💬 4 | [m1k1o/neko](https://github.com/m1k1o/neko) | 22.4k | 🟢 beginner | 2026-07-31 |  |
@@ -210,5 +204,11 @@
 | [draw.io (diagrams.net) files format (mxGraph) export / import](https://github.com/d2lang/d2/issues/743) 💬 3 | [d2lang/d2](https://github.com/d2lang/d2) | 25.5k | 🟢 beginner | 2026-07-22 |  |
 | [Support for metdata for both sources and tools in tools.yaml and description for sources](https://github.com/googleapis/mcp-toolbox/issues/1896) 💬 30 | [googleapis/mcp-toolbox](https://github.com/googleapis/mcp-toolbox) | 16.5k | 🟡 help wanted | 2026-07-16 | ✍️ CLA |
 | [Code gen: generate constants for validation parameters](https://github.com/go-swagger/go-swagger/issues/717) 💬 1 | [go-swagger/go-swagger](https://github.com/go-swagger/go-swagger) | 10k | 🟡 help wanted | 2026-07-15 | 🔏 DCO |
+| [Animated connections don't honor prefers-reduced-motion](https://github.com/d2lang/d2/issues/1979) 💬 1 | [d2lang/d2](https://github.com/d2lang/d2) | 25.5k | 🟢 beginner | 2026-07-14 |  |
+| [[inputs.whois] Support RDAP lookup](https://github.com/influxdata/telegraf/issues/17243) 💬 3 | [influxdata/telegraf](https://github.com/influxdata/telegraf) | 17.8k | 🟡 help wanted | 2026-07-13 | ⚠️ AI restricted · ✍️ CLA |
+| [Add instructions for installing on SteamOS / Steam Deck](https://github.com/Jguer/yay/issues/2098) 💬 26 | [Jguer/yay](https://github.com/Jguer/yay) | 13.8k | 🟡 help wanted | 2026-07-13 |  |
+| [implement a wasmplugin to support Content Security Policy](https://github.com/higress-group/higress/issues/1706) 💬 1 | [higress-group/higress](https://github.com/higress-group/higress) | 9.5k | 🟢 beginner | 2026-07-12 | 🤖 disclose AI use |
+| [Gnome/XWayland : Crash on standby/resume](https://github.com/fyne-io/fyne/issues/1603) 💬 10 | [fyne-io/fyne](https://github.com/fyne-io/fyne) | 28.7k | 🟡 help wanted | 2026-07-11 |  |
+| [fyne_demo slow on PowerShell with administrative privileges](https://github.com/fyne-io/fyne/issues/1135) | [fyne-io/fyne](https://github.com/fyne-io/fyne) | 28.7k | 🟡 help wanted | 2026-07-11 |  |
 
-Showing the 200 most recently updated. See all 339 on the website.
+Showing the 200 most recently updated. See all 331 on the website.

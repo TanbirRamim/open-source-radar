@@ -1,8 +1,8 @@
 # PHP issues
 
-**167** open issues (82 labeled for beginners) across **57** active PHP projects.
+**165** open issues (81 labeled for beginners) across **57** active PHP projects.
 
-> Updated automatically on **2026-09-25 11:00 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-25 21:30 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,15 +10,16 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [Method return type and interface documentation are inconsistent](https://github.com/woocommerce/woocommerce/issues/30926) 💬 6 | [woocommerce/woocommerce](https://github.com/woocommerce/woocommerce) | 10.5k | 🟢 beginner | 2026-09-25 | ⚠️ AI restricted |
+| [Missing translations for Burmese (my)](https://github.com/symfony/symfony/issues/51897) 💬 2 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-25 |  |
+| [[Feed problem] Titles are not parsed properly.](https://github.com/FreshRSS/FreshRSS/issues/8162) 💬 5 | [FreshRSS/FreshRSS](https://github.com/FreshRSS/FreshRSS) | 16.1k | 🟡 help wanted | 2026-09-25 |  |
 | [Direct link to an experiment step from the step list](https://github.com/elabftw/elabftw/issues/7483) 💬 1 | [elabftw/elabftw](https://github.com/elabftw/elabftw) | 1.4k | 🟢 beginner | 2026-09-25 |  |
-| [Align LibreSign with @nextcloud/vue 9.13 and harden the related E2E coverage](https://github.com/LibreSign/libresign/issues/8704) 💬 1 | [LibreSign/libresign](https://github.com/LibreSign/libresign) | 824 | 🟢 beginner | 2026-09-25 | 🤖 disclose AI use · 🔏 DCO |
-| [Missing translations for Burmese (my)](https://github.com/symfony/symfony/issues/51897) 💬 2 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-24 |  |
+| [Use human-readable duration inputs for signing request expiration settings](https://github.com/LibreSign/libresign/issues/8714) | [LibreSign/libresign](https://github.com/LibreSign/libresign) | 824 | 🟢 beginner | 2026-09-25 | 🤖 disclose AI use · 🔏 DCO |
+| [Clarify signing request expiration and access renewal messages](https://github.com/LibreSign/libresign/issues/8713) | [LibreSign/libresign](https://github.com/LibreSign/libresign) | 824 | 🟢 beginner | 2026-09-25 | 🤖 disclose AI use · 🔏 DCO |
+| [Improve admin UI for certificate validity and signing request expiration](https://github.com/LibreSign/libresign/issues/8712) | [LibreSign/libresign](https://github.com/LibreSign/libresign) | 824 | 🟢 beginner | 2026-09-25 | 🤖 disclose AI use · 🔏 DCO |
 | [Feature Request: merge tickets by toggle buttons on ticket list](https://github.com/freescout-help-desk/freescout/issues/5662) 💬 1 | [freescout-help-desk/freescout](https://github.com/freescout-help-desk/freescout) | 4.6k | 🟡 help wanted | 2026-09-24 |  |
 | [Register Signature Rejection in Policy Workbench and add flow tests](https://github.com/LibreSign/libresign/issues/8689) | [LibreSign/libresign](https://github.com/LibreSign/libresign) | 824 | 🟢 beginner | 2026-09-24 | 🤖 disclose AI use · 🔏 DCO |
 | [Add the Signature Rejection Policy Workbench module](https://github.com/LibreSign/libresign/issues/8688) | [LibreSign/libresign](https://github.com/LibreSign/libresign) | 824 | 🟢 beginner | 2026-09-24 | 🤖 disclose AI use · 🔏 DCO |
 | [Generate a reproducible report of past LibreSign contributors](https://github.com/LibreSign/libresign/issues/8678) | [LibreSign/libresign](https://github.com/LibreSign/libresign) | 824 | 🟢 beginner | 2026-09-24 | 🤖 disclose AI use · 🔏 DCO |
-| [Nginx container failed to connect to localhost in Sylius project on Docker](https://github.com/Sylius/Sylius/issues/14429) 💬 5 | [Sylius/Sylius](https://github.com/Sylius/Sylius) | 8.5k | 🟡 help wanted | 2026-09-23 | 📄 AI policy |
 | [Opcache Optimization triggering Segmentation Faults when using OpenTelemetry hooks](https://github.com/open-telemetry/opentelemetry-php/issues/1512) 💬 3 | [open-telemetry/opentelemetry-php](https://github.com/open-telemetry/opentelemetry-php) | 913 | 🟡 help wanted | 2026-09-23 |  |
 | [Inconsistent console exporter behavior/documentation](https://github.com/open-telemetry/opentelemetry-php/issues/1645) 💬 2 | [open-telemetry/opentelemetry-php](https://github.com/open-telemetry/opentelemetry-php) | 913 | 🟡 help wanted | 2026-09-23 |  |
 | [Allow dependency for google/protobuf v^5.34](https://github.com/open-telemetry/opentelemetry-php/issues/1902) 💬 1 | [open-telemetry/opentelemetry-php](https://github.com/open-telemetry/opentelemetry-php) | 913 | 🟡 help wanted | 2026-09-23 |  |
@@ -27,7 +28,6 @@
 | [Add SPDX license headers to all files](https://github.com/nextcloud/all-in-one/issues/7439) | [nextcloud/all-in-one](https://github.com/nextcloud/all-in-one) | 10.5k | 🟡 help wanted | 2026-09-22 | 🤖 disclose AI use · 🔏 DCO |
 | [Feat request: Contact conversations don't include anything they were cced or recipients of](https://github.com/freescout-help-desk/freescout/issues/5656) | [freescout-help-desk/freescout](https://github.com/freescout-help-desk/freescout) | 4.6k | 🟡 help wanted | 2026-09-22 |  |
 | [[Bug]: Web Updater’s "start update" button unreachable without scroll bar](https://github.com/nextcloud/server/issues/40624) 💬 3 | [nextcloud/server](https://github.com/nextcloud/server) | 36.9k | 🟢 beginner | 2026-09-21 | 🤖 disclose AI use · 🔏 DCO |
-| ['Cannot write into 'config' directory' misleading when an upgrade is needed](https://github.com/nextcloud/server/issues/29583) 💬 5 | [nextcloud/server](https://github.com/nextcloud/server) | 36.9k | 🟢 beginner | 2026-09-21 | 🤖 disclose AI use · 🔏 DCO |
 | [List LibreSign in beginner-friendly open source directories](https://github.com/LibreSign/libresign/issues/8284) 💬 5 | [LibreSign/libresign](https://github.com/LibreSign/libresign) | 824 | 🟢 beginner | 2026-09-21 | 🤖 disclose AI use · 🔏 DCO |
 | [Show a SELinux hint when Java execution is blocked](https://github.com/LibreSign/libresign/issues/3227) | [LibreSign/libresign](https://github.com/LibreSign/libresign) | 824 | 🟢 beginner | 2026-09-20 | 🤖 disclose AI use · 🔏 DCO |
 | [🚀 Feature: Add OneSignal as a Messaging provider](https://github.com/appwrite/appwrite/issues/7726) 💬 9 | [appwrite/appwrite](https://github.com/appwrite/appwrite) | 57.5k | 🟡 help wanted | 2026-09-19 |  |
@@ -60,9 +60,8 @@
 | [Missing translations for Greek (el)](https://github.com/symfony/symfony/issues/64498) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-19 |  |
 | [Duplicate conversation created from a single self-addressed email with identical Message-ID (single mailbox, o](https://github.com/freescout-help-desk/freescout/issues/5638) 💬 4 | [freescout-help-desk/freescout](https://github.com/freescout-help-desk/freescout) | 4.6k | 🟡 help wanted | 2026-09-19 |  |
 | [improve Automatic updates when they fail silently if image pulls fail due to host failures — no notification, ](https://github.com/nextcloud/all-in-one/issues/8452) 💬 3 | [nextcloud/all-in-one](https://github.com/nextcloud/all-in-one) | 10.5k | 🟡 help wanted | 2026-09-18 | 🤖 disclose AI use · 🔏 DCO |
-| [Reject credential and other unsupported keys in 'files_external:option'](https://github.com/nextcloud/server/issues/58821) 💬 3 | [nextcloud/server](https://github.com/nextcloud/server) | 36.9k | 🟢 beginner | 2026-09-17 | 🤖 disclose AI use · 🔏 DCO |
 | [Chamilo automatic deployment - Ansible](https://github.com/chamilo/chamilo-lms/issues/2502) 💬 7 | [chamilo/chamilo-lms](https://github.com/chamilo/chamilo-lms) | 1k | 🟡 help wanted | 2026-09-17 |  |
-| [confusions with "my late days/extensions page"](https://github.com/Submitty/Submitty/issues/6068) 💬 1 | [Submitty/Submitty](https://github.com/Submitty/Submitty) | 797 | 🟢 beginner | 2026-09-17 |  |
+| [confusions with "my late days/extensions page"](https://github.com/Submitty/Submitty/issues/6068) 💬 1 | [Submitty/Submitty](https://github.com/Submitty/Submitty) | 798 | 🟢 beginner | 2026-09-17 |  |
 | [schedule:work run artisan relative to current working dir](https://github.com/laravel/framework/issues/56390) 💬 3 | [laravel/framework](https://github.com/laravel/framework) | 34.9k | 🟡 help wanted | 2026-09-16 |  |
 | [Duplicate imports into target mailbox when sending from one FreeScout mailbox to another FreeScout mailbox wit](https://github.com/freescout-help-desk/freescout/issues/5485) 💬 1 | [freescout-help-desk/freescout](https://github.com/freescout-help-desk/freescout) | 4.6k | 🟡 help wanted | 2026-09-16 |  |
 | [Document need some custom attributes,eg:metadata](https://github.com/LLPhant/LLPhant/issues/313) | [LLPhant/LLPhant](https://github.com/LLPhant/LLPhant) | 1.7k | 🟡 help wanted | 2026-09-16 |  |
@@ -89,7 +88,6 @@
 | [JUnit report format (compatible with GitLab CI)](https://github.com/infection/infection/issues/1500) 💬 2 | [infection/infection](https://github.com/infection/infection) | 2.2k | 🟡 help wanted | 2026-08-30 |  |
 | [[feature] Allow per-class mutant coverage thresholds](https://github.com/infection/infection/issues/2290) 💬 11 | [infection/infection](https://github.com/infection/infection) | 2.2k | 🟡 help wanted | 2026-08-30 |  |
 | [Alternative Badge SVG File as report for use in Gitlab and private Repositories](https://github.com/infection/infection/issues/1915) 💬 9 | [infection/infection](https://github.com/infection/infection) | 2.2k | 🟡 help wanted | 2026-08-30 |  |
-| [Multiple authors not treated properly](https://github.com/nextcloud/news/issues/3898) | [nextcloud/news](https://github.com/nextcloud/news) | 1k | 🟡 help wanted | 2026-08-29 | 🔏 DCO |
 | [Incorrect subscription type due to race condition](https://github.com/laravel/cashier-stripe/issues/1773) 💬 2 | [laravel/cashier-stripe](https://github.com/laravel/cashier-stripe) | 2.5k | 🟡 help wanted | 2026-08-27 |  |
 | [Old thread attachments are re-imported on each new reply](https://github.com/freescout-help-desk/freescout/issues/5311) 💬 9 | [freescout-help-desk/freescout](https://github.com/freescout-help-desk/freescout) | 4.6k | 🟡 help wanted | 2026-08-25 |  |
 | [Support TV shows](https://github.com/leepeuker/movary/issues/186) 💬 24 | [leepeuker/movary](https://github.com/leepeuker/movary) | 776 | 🟡 help wanted | 2026-08-24 |  |

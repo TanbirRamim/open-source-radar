@@ -1,8 +1,8 @@
 # Finance and Web3 issues
 
-**54** open issues (22 labeled for beginners) across **16** projects tagged with topics like `finance`, `fintech`, `blockchain`, `ethereum`, `crypto`, `trading`.
+**50** open issues (22 labeled for beginners) across **16** projects tagged with topics like `finance`, `fintech`, `blockchain`, `ethereum`, `crypto`, `trading`.
 
-> Updated automatically on **2026-09-25 11:00 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-25 21:30 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,24 +10,21 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [Frequent test hangs in 4.1 (master) on Nonstop tests](https://github.com/openssl/openssl/issues/32618) 💬 11 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-25 | 🤖 disclose AI use · ✍️ CLA |
 | [Let a CMP client require EnvelopedData (reject EncryptedValue) for centrally generated keys](https://github.com/openssl/openssl/issues/32797) 💬 1 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-22 | 🤖 disclose AI use · ✍️ CLA |
 | [With external engine, getting DHE copy parameter's failure.](https://github.com/openssl/openssl/issues/23137) 💬 12 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-21 | 🤖 disclose AI use · ✍️ CLA |
 | [X.509 verification treats a certificate as expired at exactly its notAfter second](https://github.com/openssl/openssl/issues/32890) 💬 1 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-20 | 🤖 disclose AI use · ✍️ CLA |
-| [nc_email_eai (v3_ncons.c:708-719): mailbox-form excluded rfc822Name never matches a SmtpUTF8Mailbox SAN → wron](https://github.com/openssl/openssl/issues/32373) 💬 2 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-19 | 🤖 disclose AI use · ✍️ CLA |
-| [URI name constraints accept an IP-literal authority with excludedSubtrees only](https://github.com/openssl/openssl/issues/32858) 💬 1 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-17 | 🤖 disclose AI use · ✍️ CLA |
-| [Frequent test hangs in 4.1 (master) on Nonstop tests](https://github.com/openssl/openssl/issues/32618) 💬 9 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-16 | 🤖 disclose AI use · ✍️ CLA |
 | [Update speed tests to measure GPU performance for cuPQC code](https://github.com/open-quantum-safe/liboqs/issues/2160) 💬 42 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-09-16 |  |
 | [RFC 9919: OCSP with SHA-256](https://github.com/openssl/openssl/issues/32813) | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use · ✍️ CLA |
 | [Backport 0c2a196af8 (per-OSSL_LIB_CTX CONF storage) to 3.0-3.6: conf_ssl.c double-free still present in all re](https://github.com/openssl/openssl/issues/32804) 💬 2 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use · ✍️ CLA |
 | [[Bug]: Enable Banking with "imagin / CaixaBank" bank linking fails on desktop but works on mobile browser](https://github.com/actualbudget/actual/issues/8326) 💬 9 | [actualbudget/actual](https://github.com/actualbudget/actual) | 29.1k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use |
 | [[Bug]: All Accounts totals do not match when a closed account has a balance](https://github.com/actualbudget/actual/issues/5413) 💬 6 | [actualbudget/actual](https://github.com/actualbudget/actual) | 29.1k | 🟢 beginner | 2026-09-13 | 🤖 disclose AI use |
 | [Support ECH SSLKEYLOGFILE](https://github.com/openssl/openssl/issues/31607) 💬 5 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-12 | 🤖 disclose AI use · ✍️ CLA |
-| [Adding FAEST](https://github.com/open-quantum-safe/liboqs/issues/2101) 💬 11 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-09-09 |  |
 | [Provide Name property for all framework components](https://github.com/QuantConnect/Lean/issues/3839) 💬 3 | [QuantConnect/Lean](https://github.com/QuantConnect/Lean) | 21.8k | 🟢 beginner | 2026-09-01 |  |
 | [Consider bounded CBMC proofs for liboqs-owned code](https://github.com/open-quantum-safe/liboqs/issues/2504) 💬 1 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-08-21 |  |
 | [[Bug]: Rules notes with matches has a bug](https://github.com/actualbudget/actual/issues/6317) 💬 4 | [actualbudget/actual](https://github.com/actualbudget/actual) | 29.1k | 🟡 help wanted | 2026-08-13 | 🤖 disclose AI use |
 | [Syncing archive node from era files](https://github.com/ethereum/go-ethereum/issues/35354) 💬 3 | [ethereum/go-ethereum](https://github.com/ethereum/go-ethereum) | 51.4k | 🟡 help wanted | 2026-08-08 |  |
-| [TypeError: 'NoneType' object is not iterable](https://github.com/saleor/saleor/issues/17891) 💬 3 | [saleor/saleor](https://github.com/saleor/saleor) | 23.4k | 🟡 help wanted | 2026-08-04 |  |
+| [TypeError: 'NoneType' object is not iterable](https://github.com/saleor/saleor/issues/17891) 💬 1 | [saleor/saleor](https://github.com/saleor/saleor) | 23.4k | 🟡 help wanted | 2026-08-04 |  |
 | [VoucherInfoByVoucherCodeLoader dataloader uses prefetch_related](https://github.com/saleor/saleor/issues/13751) 💬 1 | [saleor/saleor](https://github.com/saleor/saleor) | 23.4k | 🟡 help wanted | 2026-08-01 |  |
 | [Bug: Reduce repr for checkoutInfo & checkoutLineInfo](https://github.com/saleor/saleor/issues/15123) 💬 7 | [saleor/saleor](https://github.com/saleor/saleor) | 23.4k | 🟢 beginner | 2026-08-01 |  |
 | [Make Wycheproof CI (network) failure resistant](https://github.com/open-quantum-safe/liboqs/issues/2495) 💬 2 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-07-28 |  |
@@ -44,13 +41,12 @@
 | [[Bug]: Custom Reports with 'Tag' filters do not calculate values of tagged top level split transactions](https://github.com/actualbudget/actual/issues/5640) 💬 2 | [actualbudget/actual](https://github.com/actualbudget/actual) | 29.1k | 🟡 help wanted | 2026-07-21 | 🤖 disclose AI use |
 | [Provide better message for transactionAPI](https://github.com/saleor/saleor/issues/13951) 💬 5 | [saleor/saleor](https://github.com/saleor/saleor) | 23.4k | 🟢 beginner | 2026-07-01 |  |
 | [parseLedgerHashes accepts negative int then throws on asUInt conversion](https://github.com/XRPLF/rippled/issues/6768) 💬 1 | [XRPLF/rippled](https://github.com/XRPLF/rippled) | 5.2k | 🟢 beginner | 2026-06-26 | 🔏 DCO |
-| [[WEB - SDK] - Add Payment Method with Dynamic Field Rendering - Alfamart](https://github.com/juspay/hyperswitch/issues/6035) 💬 8 | [juspay/hyperswitch](https://github.com/juspay/hyperswitch) | 44k | 🟢 beginner | 2026-06-24 |  |
+| [[WEB - SDK] - Add Payment Method with Dynamic Field Rendering - Alfamart](https://github.com/juspay/hyperswitch/issues/6035) 💬 8 | [juspay/hyperswitch](https://github.com/juspay/hyperswitch) | 44.1k | 🟢 beginner | 2026-06-24 |  |
 | [Bug: Internal Server Error instead of a validation error on too long inputs](https://github.com/saleor/saleor/issues/12696) 💬 8 | [saleor/saleor](https://github.com/saleor/saleor) | 23.4k | 🟢 beginner | 2026-06-24 |  |
 | [Notify user, when response of Hub Authentication takes a long time](https://github.com/cryptomator/cryptomator/issues/3162) 💬 3 | [cryptomator/cryptomator](https://github.com/cryptomator/cryptomator) | 16.2k | 🟢 beginner | 2026-06-24 |  |
 | [Moving the header to a new line](https://github.com/PrivateBin/PrivateBin/issues/1788) 💬 5 | [PrivateBin/PrivateBin](https://github.com/PrivateBin/PrivateBin) | 8.6k | 🟢 beginner | 2026-06-22 | 🤖 disclose AI use |
-| [[FEATURE] : [NOON] Add Integrity Check Support for Authorize, PSync, Refund and RSync Flows](https://github.com/juspay/hyperswitch/issues/9199) 💬 3 | [juspay/hyperswitch](https://github.com/juspay/hyperswitch) | 44k | 🟢 beginner | 2026-06-10 |  |
+| [[FEATURE] : [NOON] Add Integrity Check Support for Authorize, PSync, Refund and RSync Flows](https://github.com/juspay/hyperswitch/issues/9199) 💬 3 | [juspay/hyperswitch](https://github.com/juspay/hyperswitch) | 44.1k | 🟢 beginner | 2026-06-10 |  |
 | [[FR] RTL BiDi Support](https://github.com/PrivateBin/PrivateBin/issues/1849) 💬 1 | [PrivateBin/PrivateBin](https://github.com/PrivateBin/PrivateBin) | 8.6k | 🟡 help wanted | 2026-06-04 | 🤖 disclose AI use |
-| [[Feature request] SQIsign](https://github.com/open-quantum-safe/liboqs/issues/1946) 💬 2 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-06-03 |  |
 | [Cropped button label in "Remove vault" dialog](https://github.com/cryptomator/cryptomator/issues/3338) 💬 5 | [cryptomator/cryptomator](https://github.com/cryptomator/cryptomator) | 16.2k | 🟢 beginner | 2026-05-26 |  |
 | [api_version as large unsigned int causes exception instead of clean rejection](https://github.com/XRPLF/rippled/issues/6776) 💬 1 | [XRPLF/rippled](https://github.com/XRPLF/rippled) | 5.2k | 🟢 beginner | 2026-05-15 | 🔏 DCO |
 | [checkTxJsonFields calls asString() on tx_json.Account without type check](https://github.com/XRPLF/rippled/issues/6771) 💬 1 | [XRPLF/rippled](https://github.com/XRPLF/rippled) | 5.2k | 🟢 beginner | 2026-05-08 | 🔏 DCO |

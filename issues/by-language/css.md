@@ -1,8 +1,8 @@
 # CSS issues
 
-**26** open issues (20 labeled for beginners) across **6** active CSS projects.
+**25** open issues (19 labeled for beginners) across **6** active CSS projects.
 
-> Updated automatically on **2026-09-25 11:00 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-25 21:30 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,7 +10,6 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [Fork, Commit, Merge - Medium Issue 1 (CSS)](https://github.com/fork-commit-merge/fork-commit-merge/issues/8034) 💬 1 | [fork-commit-merge/fork-commit-merge](https://github.com/fork-commit-merge/fork-commit-merge) | 511 | 🟢 beginner | 2026-09-21 |  |
 | [Add an OpenType Math version: Source Serif Pro Math](https://github.com/adobe-fonts/source-serif/issues/13) 💬 23 | [adobe-fonts/source-serif](https://github.com/adobe-fonts/source-serif) | 2.4k | 🟡 help wanted | 2026-09-17 |  |
 | [Fork, Commit, Merge - Medium Issue 2 (React.js)](https://github.com/fork-commit-merge/fork-commit-merge/issues/8091) 💬 1 | [fork-commit-merge/fork-commit-merge](https://github.com/fork-commit-merge/fork-commit-merge) | 511 | 🟢 beginner | 2026-09-01 |  |
 | [Fork, Commit, Merge - Medium Issue (Docker)](https://github.com/fork-commit-merge/fork-commit-merge/issues/8112) | [fork-commit-merge/fork-commit-merge](https://github.com/fork-commit-merge/fork-commit-merge) | 511 | 🟢 beginner | 2026-09-01 |  |

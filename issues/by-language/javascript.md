@@ -1,8 +1,8 @@
 # JavaScript issues
 
-**166** open issues (77 labeled for beginners) across **65** active JavaScript projects.
+**161** open issues (76 labeled for beginners) across **62** active JavaScript projects.
 
-> Updated automatically on **2026-09-25 11:00 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-25 21:30 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -11,23 +11,19 @@
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
 | [UI Lag when using 1Password env file](https://github.com/usebruno/bruno/issues/6057) 💬 13 | [usebruno/bruno](https://github.com/usebruno/bruno) | 47.2k | 🟢 beginner | 2026-09-25 |  |
-| ['p5.VERSION' reports "2.3.1" in the 2.3.3 release build (build-time version replacement regression)](https://github.com/processing/p5.js/issues/9202) 💬 6 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-09-25 | ⚠️ AI restricted |
 | [[p5.js 2.0+ Bug Report]: computeNormals(SMOOTH) destroys uv attribute](https://github.com/processing/p5.js/issues/9205) 💬 2 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-09-25 | ⚠️ AI restricted |
 | [exif orientation is handled incorrectly](https://github.com/parallax/jsPDF/issues/3795) 💬 8 | [parallax/jsPDF](https://github.com/parallax/jsPDF) | 31.3k | 🟡 help wanted | 2026-09-24 |  |
 | [[FEATURE] Add tawk.to actions to Pipedream MCP](https://github.com/PipedreamHQ/pipedream/issues/22017) 💬 1 | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-09-24 |  |
-| [Feature request: remember highlighted text after tab change](https://github.com/gchq/CyberChef/issues/874) 💬 5 | [gchq/CyberChef](https://github.com/gchq/CyberChef) | 35.9k | 🟢 beginner | 2026-09-23 | 🤖 disclose AI use · ✍️ CLA |
+| [Feature request: remember highlighted text after tab change](https://github.com/gchq/CyberChef/issues/874) 💬 5 | [gchq/CyberChef](https://github.com/gchq/CyberChef) | 36k | 🟢 beginner | 2026-09-23 | 🤖 disclose AI use · ✍️ CLA |
 | [noiseMode(SIMPLEX) add-on library](https://github.com/processing/p5.js/issues/6152) 💬 20 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-09-22 | ⚠️ AI restricted |
 | [[TRIGGER]](https://github.com/PipedreamHQ/pipedream/issues/22036) 💬 1 | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-09-22 |  |
-| [Parse error for quoted export/import names](https://github.com/google/closure-compiler/issues/3961) 💬 2 | [google/closure-compiler](https://github.com/google/closure-compiler) | 7.7k | 🟡 help wanted | 2026-09-22 |  |
 | [BetterAuth to implement multi-user support, roles, external auth providers](https://github.com/louislam/uptime-kuma/issues/6200) 💬 13 | [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) | 91.8k | 🟡 help wanted | 2026-09-21 | ⚠️ AI restricted |
 | [TS: Statement after top-level 'await' is duplicated with 'typescript' parser](https://github.com/prettier/prettier/issues/20096) 💬 3 | [prettier/prettier](https://github.com/prettier/prettier) | 52.3k | 🟡 help wanted | 2026-09-21 | 📄 AI policy |
-| [Document developer requirements/guidelines for the Number bundle](https://github.com/josdejong/mathjs/issues/3559) 💬 5 | [josdejong/mathjs](https://github.com/josdejong/mathjs) | 15.1k | 🟢 beginner | 2026-09-19 |  |
 | [[Help] 代替send发信的一个网站](https://github.com/maillab/cloud-mail/issues/582) | [maillab/cloud-mail](https://github.com/maillab/cloud-mail) | 14.4k | 🟡 help wanted | 2026-09-19 |  |
 | [A false positive FES error on function "loadModel"](https://github.com/processing/p5.js/issues/9176) 💬 8 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟢 beginner | 2026-09-18 | ⚠️ AI restricted |
 | [[Bug] Opening popup triggers extension mode flip](https://github.com/openstyles/stylus/issues/1810) 💬 6 | [openstyles/stylus](https://github.com/openstyles/stylus) | 6.9k | 🟡 help wanted | 2026-09-18 |  |
 | [[Help] 可以接收邮件，无法发送邮件。](https://github.com/maillab/cloud-mail/issues/581) | [maillab/cloud-mail](https://github.com/maillab/cloud-mail) | 14.4k | 🟡 help wanted | 2026-09-17 |  |
 | [[ACTION] Rewardful — Affiliate & Commission Management](https://github.com/PipedreamHQ/pipedream/issues/21991) | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-09-15 |  |
-| [Allow integration with Pomerium proxy on GCP Cloud Run](https://github.com/ToolJet/ToolJet/issues/2798) 💬 1 | [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) | 41k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use |
 | [Change the shortcut keys in tooltip titles to show 'cmd' on Mac instead of 'ctrl'](https://github.com/josdejong/jsoneditor/issues/1628) 💬 12 | [josdejong/jsoneditor](https://github.com/josdejong/jsoneditor) | 12.3k | 🟡 help wanted | 2026-09-13 |  |
 | [Implement an option to enable/disable date tags](https://github.com/josdejong/jsoneditor/issues/1553) 💬 5 | [josdejong/jsoneditor](https://github.com/josdejong/jsoneditor) | 12.3k | 🟡 help wanted | 2026-09-13 |  |
 | [enum dropdown in anyOf \\ oneOf](https://github.com/josdejong/jsoneditor/issues/1653) 💬 2 | [josdejong/jsoneditor](https://github.com/josdejong/jsoneditor) | 12.3k | 🟡 help wanted | 2026-09-13 |  |
@@ -43,13 +39,13 @@
 | [Open new source to check Webhook [TRIGGER]](https://github.com/PipedreamHQ/pipedream/issues/21912) | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-09-06 |  |
 | [[Help] worker配置了admin，但部署登录后，admin是普通用户，没有系统设置！](https://github.com/maillab/cloud-mail/issues/567) | [maillab/cloud-mail](https://github.com/maillab/cloud-mail) | 14.4k | 🟡 help wanted | 2026-09-05 |  |
 | [[Help] cloudflare里面的电子邮件路由消失了，咋办？](https://github.com/maillab/cloud-mail/issues/563) 💬 3 | [maillab/cloud-mail](https://github.com/maillab/cloud-mail) | 14.4k | 🟡 help wanted | 2026-09-05 |  |
-| [i18n: add a Swedish (sv) market mode](https://github.com/career-ops-hq/career-ops/issues/3847) | [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | 72.7k | 🟡 help wanted | 2026-09-04 |  |
+| [i18n: add a Swedish (sv) market mode](https://github.com/career-ops-hq/career-ops/issues/3847) | [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | 72.8k | 🟡 help wanted | 2026-09-04 |  |
 | [eBay Creating/Publishing Listings](https://github.com/PipedreamHQ/pipedream/issues/21896) | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-09-04 |  |
 | [Generate PDF/A compliant document](https://github.com/parallax/jsPDF/issues/2882) 💬 6 | [parallax/jsPDF](https://github.com/parallax/jsPDF) | 31.3k | 🟡 help wanted | 2026-09-03 |  |
 | [Finish DocumenterPluto.jl](https://github.com/JuliaPluto/Pluto.jl/issues/3602) 💬 1 | [JuliaPluto/Pluto.jl](https://github.com/JuliaPluto/Pluto.jl) | 5.4k | 🟢 beginner | 2026-09-03 |  |
 | ["Should not already be working" in Firefox after a breakpoint/alert](https://github.com/react/react/issues/17355) 💬 154 | [react/react](https://github.com/react/react) | 250.7k | 🟢 beginner | 2026-09-02 | ✍️ CLA |
-| [Backmerging Module Federation v2](https://github.com/webpack/webpack/issues/18809) 💬 20 | [webpack/webpack](https://github.com/webpack/webpack) | 65.9k | 🟡 help wanted | 2026-09-02 | 🤖 disclose AI use · ✍️ CLA |
-| [Module Federation Share should support layers/issuerLayer](https://github.com/webpack/webpack/issues/18988) 💬 9 | [webpack/webpack](https://github.com/webpack/webpack) | 65.9k | 🟡 help wanted | 2026-09-02 | 🤖 disclose AI use · ✍️ CLA |
+| [Backmerging Module Federation v2](https://github.com/webpack/webpack/issues/18809) 💬 20 | [webpack/webpack](https://github.com/webpack/webpack) | 66k | 🟡 help wanted | 2026-09-02 | 🤖 disclose AI use · ✍️ CLA |
+| [Module Federation Share should support layers/issuerLayer](https://github.com/webpack/webpack/issues/18988) 💬 9 | [webpack/webpack](https://github.com/webpack/webpack) | 66k | 🟡 help wanted | 2026-09-02 | 🤖 disclose AI use · ✍️ CLA |
 | [📝 Docs: Give props to non-OpenCollective sponsors, services](https://github.com/mochajs/mocha/issues/3627) 💬 7 | [mochajs/mocha](https://github.com/mochajs/mocha) | 22.9k | 🟢 beginner | 2026-09-02 | ✍️ CLA |
 | [Simplify vm.Module](https://github.com/nodejs/node/issues/43899) 💬 8 | [nodejs/node](https://github.com/nodejs/node) | 122.1k | 🟡 help wanted | 2026-09-01 | 🤖 disclose AI use · 🔏 DCO |
 | [Option to have a shared V8 library?](https://github.com/nodejs/node/issues/53509) 💬 17 | [nodejs/node](https://github.com/nodejs/node) | 122.1k | 🟡 help wanted | 2026-09-01 | 🤖 disclose AI use · 🔏 DCO |
@@ -66,7 +62,7 @@
 | [Add a public DNS resolver from an unrepresented region (Africa / South America / Middle East / Oceania)](https://github.com/jason5ng32/MyIP/issues/394) 💬 1 | [jason5ng32/MyIP](https://github.com/jason5ng32/MyIP) | 12k | 🟢 beginner | 2026-08-28 |  |
 | [Make tooltips dismissable](https://github.com/WordPress/gutenberg/issues/15145) 💬 5 | [WordPress/gutenberg](https://github.com/WordPress/gutenberg) | 11.8k | 🟢 beginner | 2026-08-28 | 🤖 disclose AI use |
 | [[To Do] Add visual regression (Backstop) tests to Less](https://github.com/less/less.js/issues/3262) 💬 5 | [less/less.js](https://github.com/less/less.js) | 17k | 🟢 beginner | 2026-08-27 |  |
-| [i18n: translate the interview modes (plan/practice/debrief) to Indonesian](https://github.com/career-ops-hq/career-ops/issues/2784) 💬 10 | [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | 72.7k | 🟢 beginner | 2026-08-26 |  |
+| [i18n: translate the interview modes (plan/practice/debrief) to Indonesian](https://github.com/career-ops-hq/career-ops/issues/2784) 💬 10 | [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | 72.8k | 🟢 beginner | 2026-08-26 |  |
 | [Proxying should support HTTP and HTTPS at the same time](https://github.com/usebruno/bruno/issues/1985) 💬 3 | [usebruno/bruno](https://github.com/usebruno/bruno) | 47.2k | 🟢 beginner | 2026-08-26 |  |
 | [Add a check to test if :hover styles require doubletapping links](https://github.com/GoogleChrome/lighthouse/issues/9474) 💬 9 | [GoogleChrome/lighthouse](https://github.com/GoogleChrome/lighthouse) | 30.8k | 🟢 beginner | 2026-08-26 | ✍️ CLA |
 | [[Feature request]: add some image examples](https://github.com/hovancik/stretchly/issues/1788) 💬 2 | [hovancik/stretchly](https://github.com/hovancik/stretchly) | 6.6k | 🟡 help wanted | 2026-08-26 | 🤖 disclose AI use |
@@ -118,7 +114,7 @@
 | [Open npmjs.com instead of asking for OTP](https://github.com/sindresorhus/np/issues/726) 💬 11 | [sindresorhus/np](https://github.com/sindresorhus/np) | 7.7k | 🟡 help wanted | 2026-07-28 |  |
 | [Request: a getSession method?](https://github.com/expressjs/session/issues/322) 💬 8 | [expressjs/session](https://github.com/expressjs/session) | 6.4k | 🟡 help wanted | 2026-07-25 |  |
 | [HDR support](https://github.com/xanderfrangos/twinkle-tray/issues/97) 💬 90 | [xanderfrangos/twinkle-tray](https://github.com/xanderfrangos/twinkle-tray) | 9.1k | 🟡 help wanted | 2026-07-23 |  |
-| [Feature request: Automatically scroll down for highlighted matches on large output data](https://github.com/gchq/CyberChef/issues/1386) 💬 2 | [gchq/CyberChef](https://github.com/gchq/CyberChef) | 35.9k | 🟡 help wanted | 2026-07-21 | 🤖 disclose AI use · ✍️ CLA |
+| [Feature request: Automatically scroll down for highlighted matches on large output data](https://github.com/gchq/CyberChef/issues/1386) 💬 2 | [gchq/CyberChef](https://github.com/gchq/CyberChef) | 36k | 🟡 help wanted | 2026-07-21 | 🤖 disclose AI use · ✍️ CLA |
 | [[Help] 希望支持检测设备的性能](https://github.com/viarotel-org/escrcpy/issues/619) | [viarotel-org/escrcpy](https://github.com/viarotel-org/escrcpy) | 11.9k | 🟡 help wanted | 2026-07-21 |  |
 | [Getting an Electron crash, not sure how to further debug - help needed!](https://github.com/WiseLibs/better-sqlite3/issues/988) 💬 8 | [WiseLibs/better-sqlite3](https://github.com/WiseLibs/better-sqlite3) | 7.5k | 🟡 help wanted | 2026-07-21 |  |
 | [textAscent() and textDescent() broken if textSize &gt; 200](https://github.com/processing/p5.js/issues/8771) 💬 15 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-07-18 | ⚠️ AI restricted |
@@ -152,6 +148,7 @@
 | [handling impact of isInputPending on long tasks metrics?](https://github.com/GoogleChrome/lighthouse/issues/11747) 💬 5 | [GoogleChrome/lighthouse](https://github.com/GoogleChrome/lighthouse) | 30.8k | 🟢 beginner | 2026-06-11 | ✍️ CLA |
 | [Add Gradients for Fill and Strokes](https://github.com/processing/p5.js/issues/7313) 💬 7 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-06-10 | ⚠️ AI restricted |
 | [improvements to programmatic flows API - addflow/removeflow](https://github.com/node-red/node-red/issues/1372) 💬 4 | [node-red/node-red](https://github.com/node-red/node-red) | 23.7k | 🟢 beginner | 2026-06-10 | ✍️ CLA |
+| [WebGL Error Triggered by 'noSmooth()' Invocation Between Framebuffer Creation and Drawing on Framebuffer](https://github.com/processing/p5.js/issues/6369) 💬 2 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-06-09 | ⚠️ AI restricted |
 | [difference between inline and inline-block should include discussion about replaced / non-replaced elements](https://github.com/yangshun/front-end-interview-handbook/issues/160) 💬 3 | [yangshun/front-end-interview-handbook](https://github.com/yangshun/front-end-interview-handbook) | 44k | 🟡 help wanted | 2026-06-05 |  |
 | [这是什么情况？](https://github.com/maillab/cloud-mail/issues/430) 💬 1 | [maillab/cloud-mail](https://github.com/maillab/cloud-mail) | 14.4k | 🟡 help wanted | 2026-06-03 |  |
 | [Runic formatting ?](https://github.com/JuliaPluto/Pluto.jl/issues/3534) 💬 3 | [JuliaPluto/Pluto.jl](https://github.com/JuliaPluto/Pluto.jl) | 5.4k | 🟢 beginner | 2026-06-01 |  |
@@ -174,5 +171,3 @@
 | [Exposing menu opening delay as an option](https://github.com/jquery/jquery-ui/issues/2395) 💬 4 | [jquery/jquery-ui](https://github.com/jquery/jquery-ui) | 11.3k | 🟡 help wanted | 2026-04-07 | ✍️ CLA |
 | [[Help] better uninstallation support](https://github.com/viarotel-org/escrcpy/issues/565) 💬 2 | [viarotel-org/escrcpy](https://github.com/viarotel-org/escrcpy) | 11.9k | 🟡 help wanted | 2026-04-04 |  |
 | [Temporal implementation in core-js](https://github.com/zloirock/core-js/issues/365) 💬 19 | [zloirock/core-js](https://github.com/zloirock/core-js) | 25.5k | 🟡 help wanted | 2026-04-02 |  |
-| [Tensor visualization](https://github.com/lutzroeder/netron/issues/65) 💬 1 | [lutzroeder/netron](https://github.com/lutzroeder/netron) | 33.5k | 🟡 help wanted | 2026-03-29 |  |
-| [Error page should contain more details](https://github.com/WebGoat/WebGoat/issues/1740) 💬 5 | [WebGoat/WebGoat](https://github.com/WebGoat/WebGoat) | 9.4k | 🟡 help wanted | 2026-03-29 |  |

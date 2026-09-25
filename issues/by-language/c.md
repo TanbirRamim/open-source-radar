@@ -1,8 +1,8 @@
 # C issues
 
-**157** open issues (43 labeled for beginners) across **65** active C projects.
+**151** open issues (43 labeled for beginners) across **65** active C projects.
 
-> Updated automatically on **2026-09-25 11:00 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-25 21:30 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,12 +10,11 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [Frequent test hangs in 4.1 (master) on Nonstop tests](https://github.com/openssl/openssl/issues/32618) 💬 11 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-25 | 🤖 disclose AI use · ✍️ CLA |
 | [Add indicator in assembly browser how many jumps/calls the user is from a reference point.](https://github.com/rizinorg/rizin/issues/6788) 💬 2 | [rizinorg/rizin](https://github.com/rizinorg/rizin) | 3.9k | 🟢 beginner | 2026-09-24 | 🤖 disclose AI use |
 | [[BUG] Unable to restore the database](https://github.com/mydumper/mydumper/issues/2355) 💬 3 | [mydumper/mydumper](https://github.com/mydumper/mydumper) | 3.2k | 🟡 help wanted | 2026-09-24 |  |
 | [kew roadmap: "Project Joy"](https://github.com/ravachol/kew/issues/575) 💬 71 | [ravachol/kew](https://github.com/ravachol/kew) | 3.1k | 🟡 help wanted | 2026-09-23 |  |
-| [Allow all system tray icons to be displayed on the dock.](https://github.com/microsoft/PowerToys/issues/46232) 💬 7 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 139k | 🟡 help wanted | 2026-09-22 |  |
 | [Let a CMP client require EnvelopedData (reject EncryptedValue) for centrally generated keys](https://github.com/openssl/openssl/issues/32797) 💬 1 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-22 | 🤖 disclose AI use · ✍️ CLA |
-| [Support more than 256 leds](https://github.com/qmk/qmk_firmware/issues/24675) 💬 9 | [qmk/qmk_firmware](https://github.com/qmk/qmk_firmware) | 20.7k | 🟡 help wanted | 2026-09-22 |  |
 | [Investigate AddressSanitizer-like diagnostics for ThreadX](https://github.com/eclipse-threadx/threadx/issues/764) | [eclipse-threadx/threadx](https://github.com/eclipse-threadx/threadx) | 3.5k | 🟡 help wanted | 2026-09-22 | 🔏 DCO |
 | [With external engine, getting DHE copy parameter's failure.](https://github.com/openssl/openssl/issues/23137) 💬 12 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-21 | 🤖 disclose AI use · ✍️ CLA |
 | [[Bug] last_input_activity_elapsed() gives unexpected results for combo-buffered keys](https://github.com/qmk/qmk_firmware/issues/26464) 💬 3 | [qmk/qmk_firmware](https://github.com/qmk/qmk_firmware) | 20.7k | 🟡 help wanted | 2026-09-21 |  |
@@ -25,13 +24,10 @@
 | [X.509 verification treats a certificate as expired at exactly its notAfter second](https://github.com/openssl/openssl/issues/32890) 💬 1 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-20 | 🤖 disclose AI use · ✍️ CLA |
 | [[Bug] PC not waking up from sleep](https://github.com/qmk/qmk_firmware/issues/26429) 💬 7 | [qmk/qmk_firmware](https://github.com/qmk/qmk_firmware) | 20.7k | 🟡 help wanted | 2026-09-20 |  |
 | [Appeal Request - royalkludge Account Ban](https://github.com/qmk/qmk_firmware/issues/26285) 💬 1 | [qmk/qmk_firmware](https://github.com/qmk/qmk_firmware) | 20.7k | 🟡 help wanted | 2026-09-20 |  |
-| [nc_email_eai (v3_ncons.c:708-719): mailbox-form excluded rfc822Name never matches a SmtpUTF8Mailbox SAN → wron](https://github.com/openssl/openssl/issues/32373) 💬 2 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-19 | 🤖 disclose AI use · ✍️ CLA |
 | [[Feature Request] Support for Microchip AVR DU (modern AVR with native USB)](https://github.com/qmk/qmk_firmware/issues/26459) 💬 2 | [qmk/qmk_firmware](https://github.com/qmk/qmk_firmware) | 20.7k | 🟡 help wanted | 2026-09-19 |  |
 | [Extensions for browser support monitoring](https://github.com/axel-download-accelerator/axel/issues/346) 💬 4 | [axel-download-accelerator/axel](https://github.com/axel-download-accelerator/axel) | 3.4k | 🟡 help wanted | 2026-09-19 |  |
 | [shaders/log file location should be bound to '-config_path'](https://github.com/xemu-project/xemu/issues/2480) 💬 1 | [xemu-project/xemu](https://github.com/xemu-project/xemu) | 4.1k | 🟢 beginner | 2026-09-18 |  |
 | [Suppress Warnings From libpng](https://github.com/php/php-src/issues/23674) 💬 2 | [php/php-src](https://github.com/php/php-src) | 40.4k | 🟢 beginner | 2026-09-17 | 🤖 disclose AI use |
-| [URI name constraints accept an IP-literal authority with excludedSubtrees only](https://github.com/openssl/openssl/issues/32858) 💬 1 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-17 | 🤖 disclose AI use · ✍️ CLA |
-| [Frequent test hangs in 4.1 (master) on Nonstop tests](https://github.com/openssl/openssl/issues/32618) 💬 9 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-16 | 🤖 disclose AI use · ✍️ CLA |
 | [Update speed tests to measure GPU performance for cuPQC code](https://github.com/open-quantum-safe/liboqs/issues/2160) 💬 42 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-09-16 |  |
 | [RFC 9919: OCSP with SHA-256](https://github.com/openssl/openssl/issues/32813) | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use · ✍️ CLA |
 | [Backport 0c2a196af8 (per-OSSL_LIB_CTX CONF storage) to 3.0-3.6: conf_ssl.c double-free still present in all re](https://github.com/openssl/openssl/issues/32804) 💬 2 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use · ✍️ CLA |
@@ -39,7 +35,6 @@
 | [Add support for '_NET_WM_FRAME_DRAWN'](https://github.com/yshui/picom/issues/910) 💬 2 | [yshui/picom](https://github.com/yshui/picom) | 4.8k | 🟡 help wanted | 2026-09-11 |  |
 | [分享一下我解决进不去里站的方法](https://github.com/xiaojieonly/Ehviewer_CN_SXJ/issues/96) 💬 55 | [xiaojieonly/Ehviewer_CN_SXJ](https://github.com/xiaojieonly/Ehviewer_CN_SXJ) | 27.1k | 🟡 help wanted | 2026-09-10 |  |
 | [Add SMP support for Armv8-R (Cortex-R52 / Cortex-R82)](https://github.com/eclipse-threadx/threadx/issues/710) | [eclipse-threadx/threadx](https://github.com/eclipse-threadx/threadx) | 3.5k | 🟡 help wanted | 2026-09-09 | 🔏 DCO |
-| [Adding FAEST](https://github.com/open-quantum-safe/liboqs/issues/2101) 💬 11 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-09-09 |  |
 | [Change Audio Output with Hotkey](https://github.com/microsoft/PowerToys/issues/4964) 💬 73 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 139k | 🟡 help wanted | 2026-09-08 |  |
 | [Request for Guidance on GPL Compliance and Source Code Release – YUNZII Tri-Mode Boards](https://github.com/qmk/qmk_firmware/issues/25737) 💬 24 | [qmk/qmk_firmware](https://github.com/qmk/qmk_firmware) | 20.7k | 🟡 help wanted | 2026-09-08 |  |
 | [Document the SPSel = 0 / SP_EL0 requirement of the ARMv8-A ports](https://github.com/eclipse-threadx/threadx/issues/703) | [eclipse-threadx/threadx](https://github.com/eclipse-threadx/threadx) | 3.5k | 🟡 help wanted | 2026-09-08 | 🔏 DCO |
@@ -137,7 +132,6 @@
 | ['rz-asm' assembly results may be not correct](https://github.com/rizinorg/rizin/issues/1834) 💬 8 | [rizinorg/rizin](https://github.com/rizinorg/rizin) | 3.9k | 🟢 beginner | 2026-06-07 | 🤖 disclose AI use |
 | [XAP: add missing opcodes](https://github.com/rizinorg/rizin/issues/4661) 💬 5 | [rizinorg/rizin](https://github.com/rizinorg/rizin) | 3.9k | 🟢 beginner | 2026-06-07 | 🤖 disclose AI use |
 | [CPU profiles: add the '.comment' value as rizin comment near the flag, if defined](https://github.com/rizinorg/rizin/issues/1671) 💬 13 | [rizinorg/rizin](https://github.com/rizinorg/rizin) | 3.9k | 🟢 beginner | 2026-06-07 | 🤖 disclose AI use |
-| [[Feature request] SQIsign](https://github.com/open-quantum-safe/liboqs/issues/1946) 💬 2 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-06-03 |  |
 | [Rosetta Code Examples](https://github.com/janet-lang/janet/issues/227) 💬 10 | [janet-lang/janet](https://github.com/janet-lang/janet) | 4.4k | 🟡 help wanted | 2026-06-01 | 🤖 disclose AI use |
 | [Add support for Android](https://github.com/AltraMayor/f3/issues/209) 💬 6 | [AltraMayor/f3](https://github.com/AltraMayor/f3) | 3.4k | 🟡 help wanted | 2026-05-29 |  |
 | [Allow creation of NTFS filesystems on macOS (at least with 3rd party drivers)](https://github.com/veracrypt/VeraCrypt/issues/1355) 💬 1 | [veracrypt/VeraCrypt](https://github.com/veracrypt/VeraCrypt) | 11.7k | 🟡 help wanted | 2026-05-28 |  |
