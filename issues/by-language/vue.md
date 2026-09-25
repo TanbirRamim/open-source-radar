@@ -1,8 +1,8 @@
 # Vue issues
 
-**35** open issues (24 labeled for beginners) across **14** active Vue projects.
+**34** open issues (23 labeled for beginners) across **14** active Vue projects.
 
-> Updated automatically on **2026-09-24 21:17 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-25 11:00 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -12,7 +12,6 @@
 | --- | --- | ---: | --- | --- | --- |
 | ["Create Lead from Incoming Emails" creates a Lead from any sender, including newsletters/no-reply/automated ma](https://github.com/frappe/crm/issues/2799) 💬 1 | [frappe/crm](https://github.com/frappe/crm) | 3.6k | 🟢 beginner | 2026-09-24 |  |
 | [Forward Ticket to External Third Party / Supplier in Frappe Helpdesk](https://github.com/frappe/helpdesk/issues/3774) 💬 4 | [frappe/helpdesk](https://github.com/frappe/helpdesk) | 3.4k | 🟢 beginner | 2026-09-24 |  |
-| [Backend should not abort when S3 object storage does not support PutBucketPolicy](https://github.com/Smaug6739/Alexandrie/issues/781) | [Smaug6739/Alexandrie](https://github.com/Smaug6739/Alexandrie) | 2.8k | 🟢 beginner | 2026-09-22 |  |
 | [建议：播放页「纯净模式」开关补充悬停说明与首次开启引导气泡](https://github.com/algerkong/AlgerMusicPlayer/issues/758) 💬 1 | [algerkong/AlgerMusicPlayer](https://github.com/algerkong/AlgerMusicPlayer) | 16.8k | 🟢 beginner | 2026-09-19 |  |
 | [桌面歌词功能栏优化](https://github.com/algerkong/AlgerMusicPlayer/issues/719) | [algerkong/AlgerMusicPlayer](https://github.com/algerkong/AlgerMusicPlayer) | 16.8k | 🟢 beginner | 2026-09-16 |  |
 | [点击底部播放条，也可以进入详情页](https://github.com/algerkong/AlgerMusicPlayer/issues/751) | [algerkong/AlgerMusicPlayer](https://github.com/algerkong/AlgerMusicPlayer) | 16.8k | 🟢 beginner | 2026-09-16 |  |

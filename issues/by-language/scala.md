@@ -2,7 +2,7 @@
 
 **30** open issues (17 labeled for beginners) across **18** active Scala projects.
 
-> Updated automatically on **2026-09-24 21:17 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-25 11:00 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -26,8 +26,8 @@
 | [[FEATURE] Interval analysis to improve a..b](https://github.com/apalache-mc/apalache/issues/446) | [apalache-mc/apalache](https://github.com/apalache-mc/apalache) | 601 | 🟡 help wanted | 2026-08-02 | 🤖 disclose AI use · 🔏 DCO |
 | [[FEATURE] Detect uninitialized 'CONSTANT's in the 'ConfigurationPass'](https://github.com/apalache-mc/apalache/issues/1274) | [apalache-mc/apalache](https://github.com/apalache-mc/apalache) | 601 | 🟢 beginner | 2026-08-02 | 🤖 disclose AI use · 🔏 DCO |
 | [Introduce a rewriting optimization for 'tup \\in S \\X T'](https://github.com/apalache-mc/apalache/issues/1931) 💬 2 | [apalache-mc/apalache](https://github.com/apalache-mc/apalache) | 601 | 🟢 beginner | 2026-08-01 | 🤖 disclose AI use · 🔏 DCO |
-| [ScalaSQL support](https://github.com/Iltotore/iron/issues/375) | [Iltotore/iron](https://github.com/Iltotore/iron) | 557 | 🟢 beginner | 2026-07-06 |  |
-| [Cask support](https://github.com/Iltotore/iron/issues/374) | [Iltotore/iron](https://github.com/Iltotore/iron) | 557 | 🟢 beginner | 2026-07-02 |  |
+| [ScalaSQL support](https://github.com/Iltotore/iron/issues/375) | [Iltotore/iron](https://github.com/Iltotore/iron) | 558 | 🟢 beginner | 2026-07-06 |  |
+| [Cask support](https://github.com/Iltotore/iron/issues/374) | [Iltotore/iron](https://github.com/Iltotore/iron) | 558 | 🟢 beginner | 2026-07-02 |  |
 | [SFTP and SSH resolvers are not correctly used to download dependencies since 0.13.1](https://github.com/sbt/sbt/issues/1810) 💬 16 | [sbt/sbt](https://github.com/sbt/sbt) | 5k | 🟡 help wanted | 2026-06-27 | 🤖 disclose AI use · ✍️ CLA |
 | [[2.x] '@cacheLevel' and '@transient' annotation does not work if local val](https://github.com/sbt/sbt/issues/9162) 💬 2 | [sbt/sbt](https://github.com/sbt/sbt) | 5k | 🟡 help wanted | 2026-06-27 | 🤖 disclose AI use · ✍️ CLA |
 | [clean does not seem to work with java projects](https://github.com/sbt/sbt/issues/7187) 💬 2 | [sbt/sbt](https://github.com/sbt/sbt) | 5k | 🟡 help wanted | 2026-06-27 | 🤖 disclose AI use · ✍️ CLA |

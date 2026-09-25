@@ -2,7 +2,7 @@
 
 **30** open issues (21 labeled for beginners) across **14** active Julia projects.
 
-> Updated automatically on **2026-09-24 21:17 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-25 11:00 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -11,7 +11,7 @@
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
 | [Legend entries are in wrong order for areaplot](https://github.com/JuliaPlots/Plots.jl/issues/5029) 💬 1 | [JuliaPlots/Plots.jl](https://github.com/JuliaPlots/Plots.jl) | 2k | 🟢 beginner | 2026-09-20 |  |
-| [Shell mode doesn't respect Cmd object's env](https://github.com/JuliaLang/julia/issues/51020) 💬 4 | [JuliaLang/julia](https://github.com/JuliaLang/julia) | 49.1k | 🟢 beginner | 2026-09-15 | 🤖 disclose AI use |
+| [Shell mode doesn't respect Cmd object's env](https://github.com/JuliaLang/julia/issues/51020) 💬 4 | [JuliaLang/julia](https://github.com/JuliaLang/julia) | 49.2k | 🟢 beginner | 2026-09-15 | 🤖 disclose AI use |
 | [Missing Rmath derivatives](https://github.com/EnzymeAD/Enzyme.jl/issues/1620) 💬 2 | [EnzymeAD/Enzyme.jl](https://github.com/EnzymeAD/Enzyme.jl) | 588 | 🟡 help wanted | 2026-09-14 |  |
 | [Can't turn off range and indexing parentheses](https://github.com/JuliaEditorSupport/JuliaFormatter.jl/issues/877) 💬 1 | [JuliaEditorSupport/JuliaFormatter.jl](https://github.com/JuliaEditorSupport/JuliaFormatter.jl) | 644 | 🟢 beginner | 2026-09-10 |  |
 | [Conjugate heat transfer, requires implementation of new temperature scalar transport equation](https://github.com/WaterLily-jl/WaterLily.jl/issues/172) 💬 14 | [WaterLily-jl/WaterLily.jl](https://github.com/WaterLily-jl/WaterLily.jl) | 845 | 🟡 help wanted | 2026-08-21 |  |
@@ -35,8 +35,8 @@
 | [Error with quadrilateral mesh generated from Gmsh + Lowest-order Nedelec FEs](https://github.com/gridap/Gridap.jl/issues/811) 💬 10 | [gridap/Gridap.jl](https://github.com/gridap/Gridap.jl) | 880 | 🟡 help wanted | 2026-06-10 | 🔏 DCO |
 | [make this repo's pre-commit hook use 'julia --project=. -e'](https://github.com/JuliaEditorSupport/JuliaFormatter.jl/issues/1028) | [JuliaEditorSupport/JuliaFormatter.jl](https://github.com/JuliaEditorSupport/JuliaFormatter.jl) | 644 | 🟢 beginner | 2026-06-08 |  |
 | [Whitespace removed outside of indices](https://github.com/JuliaEditorSupport/JuliaFormatter.jl/issues/651) | [JuliaEditorSupport/JuliaFormatter.jl](https://github.com/JuliaEditorSupport/JuliaFormatter.jl) | 644 | 🟢 beginner | 2026-06-07 |  |
-| [Cannot combine @simd and @threads on a loop](https://github.com/JuliaLang/julia/issues/32684) 💬 5 | [JuliaLang/julia](https://github.com/JuliaLang/julia) | 49.1k | 🟢 beginner | 2026-06-06 | 🤖 disclose AI use |
-| [warn on constant redefinition (in package tests)?](https://github.com/JuliaLang/julia/issues/58670) 💬 7 | [JuliaLang/julia](https://github.com/JuliaLang/julia) | 49.1k | 🟡 help wanted | 2026-05-20 | 🤖 disclose AI use |
+| [Cannot combine @simd and @threads on a loop](https://github.com/JuliaLang/julia/issues/32684) 💬 5 | [JuliaLang/julia](https://github.com/JuliaLang/julia) | 49.2k | 🟢 beginner | 2026-06-06 | 🤖 disclose AI use |
+| [warn on constant redefinition (in package tests)?](https://github.com/JuliaLang/julia/issues/58670) 💬 7 | [JuliaLang/julia](https://github.com/JuliaLang/julia) | 49.2k | 🟡 help wanted | 2026-05-20 | 🤖 disclose AI use |
 | [Reconsider how we deploy JS assets (aka. let's get rid of RequireJS)](https://github.com/JuliaDocs/Documenter.jl/issues/2158) | [JuliaDocs/Documenter.jl](https://github.com/JuliaDocs/Documenter.jl) | 918 | 🟡 help wanted | 2026-04-29 | 🤖 disclose AI use |
 | [Naming inconsistencies in generic dense cuSOLVER functions](https://github.com/JuliaGPU/CUDA.jl/issues/3085) | [JuliaGPU/CUDA.jl](https://github.com/JuliaGPU/CUDA.jl) | 1.4k | 🟢 beginner | 2026-04-09 |  |
 | [Additional tests for fluxes: Invariance with respect to rotation and Consistency](https://github.com/trixi-framework/Trixi.jl/issues/1734) 💬 2 | [trixi-framework/Trixi.jl](https://github.com/trixi-framework/Trixi.jl) | 731 | 🟢 beginner | 2026-03-29 | 🤖 disclose AI use · 🔏 DCO |
