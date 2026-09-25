@@ -58,3 +58,5 @@ curl -s https://tanbirramim.github.io/open-source-radar/data/issues.json \
   | jq -r '.repositories as $r | [.issues[] | select(.level == "beginner" and $r[.repo].language == "Go")]
            | sort_by(.created) | reverse | .[:5][] | "\(.title)\n  \(.url)"'
 ```
+
+A snapshot of this data is also published as a dataset on Hugging Face: [TanbirRamim/open-source-radar](https://huggingface.co/datasets/TanbirRamim/open-source-radar), with an `issues` table and a `repositories` table.
