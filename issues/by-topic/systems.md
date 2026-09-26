@@ -1,8 +1,8 @@
 # Systems and embedded issues
 
-**193** open issues (90 labeled for beginners) across **47** projects tagged with topics like `operating-system`, `embedded`, `kernel`, `rust-lang`, `systems-programming`, `wasm`.
+**192** open issues (89 labeled for beginners) across **47** projects tagged with topics like `operating-system`, `embedded`, `kernel`, `rust-lang`, `systems-programming`, `wasm`.
 
-> Updated automatically on **2026-09-26 10:54 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-26 20:55 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -11,10 +11,10 @@
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
 | [error handler of same domain can be called several times when it throws](https://github.com/nodejs/node/issues/25505) 💬 4 | [nodejs/node](https://github.com/nodejs/node) | 122.1k | 🟡 help wanted | 2026-09-26 | 🤖 disclose AI use · 🔏 DCO |
-| [Will message with Will Delay Interval &gt; 0 is lost on abnormal WebSocket disconnect when Session Expiry Inte](https://github.com/emqx/emqx/issues/19258) | [emqx/emqx](https://github.com/emqx/emqx) | 16.8k | 🟡 help wanted | 2026-09-26 |  |
+| [Will message with Will Delay Interval &gt; 0 is lost on abnormal WebSocket disconnect when Session Expiry Inte](https://github.com/emqx/emqx/issues/19258) 💬 2 | [emqx/emqx](https://github.com/emqx/emqx) | 16.8k | 🟡 help wanted | 2026-09-26 |  |
+| [Support for early returns inside loops that can be replaced with breaks](https://github.com/AeneasVerif/aeneas/issues/822) 💬 2 | [AeneasVerif/aeneas](https://github.com/AeneasVerif/aeneas) | 990 | 🟢 beginner | 2026-09-26 |  |
 | [train: hot reloading for faster prototyping](https://github.com/tracel-ai/burn/issues/3571) 💬 2 | [tracel-ai/burn](https://github.com/tracel-ai/burn) | 16k | 🟡 help wanted | 2026-09-25 |  |
 | [Allow content inside MudDivider](https://github.com/MudBlazor/MudBlazor/issues/7212) 💬 2 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-09-25 |  |
-| [MicrosoftLogger.LogLevel defaults to Trace when nothing is enabled, flipping every guarded log site open](https://github.com/unoplatform/uno/issues/24757) | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-09-25 |  |
 | [ICU break-iterator locale is marshaled as UTF-16, so ICU never resolves the requested locale](https://github.com/unoplatform/uno/issues/24756) | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-09-25 |  |
 | [Logger obtained before the logging adapter initializes stays permanently disabled](https://github.com/unoplatform/uno/issues/24755) | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-09-25 |  |
 | [DependencyPropertyDetailsCollection wastes most of its DependencyPropertyDetails[] bucket per stored property](https://github.com/unoplatform/uno/issues/24754) | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-09-25 |  |
@@ -128,7 +128,6 @@
 | [MudMenuItem: Add IsChecked prop](https://github.com/MudBlazor/MudBlazor/issues/6124) 💬 1 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-08-16 |  |
 | [Custom SVG Icon Size Limitation in MudNavLink](https://github.com/MudBlazor/MudBlazor/issues/6491) 💬 1 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-08-15 |  |
 | [support pass buffer directly between two modules](https://github.com/wasm-micro-runtime/wasm-micro-runtime/issues/295) 💬 5 | [wasm-micro-runtime/wasm-micro-runtime](https://github.com/wasm-micro-runtime/wasm-micro-runtime) | 6.1k | 🟡 help wanted | 2026-08-15 |  |
-| [Support for early returns inside loops that can be replaced with breaks](https://github.com/AeneasVerif/aeneas/issues/822) 💬 1 | [AeneasVerif/aeneas](https://github.com/AeneasVerif/aeneas) | 988 | 🟢 beginner | 2026-08-14 |  |
 | [Extra vertical space in static ColorPicker with small palettes](https://github.com/MudBlazor/MudBlazor/issues/9131) 💬 1 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-08-13 |  |
 | [[Feature Request]: Auto max bit color depth for rockchip devices](https://github.com/armbian/build/issues/9415) 💬 3 | [armbian/build](https://github.com/armbian/build) | 5.4k | 🟢 beginner | 2026-08-12 |  |
 | [[Feature Request]: Stable 6.1 kernel build for Radxa Dragon Q6A](https://github.com/armbian/build/issues/9511) 💬 2 | [armbian/build](https://github.com/armbian/build) | 5.4k | 🟢 beginner | 2026-08-12 |  |

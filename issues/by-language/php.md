@@ -2,7 +2,7 @@
 
 **165** open issues (78 labeled for beginners) across **57** active PHP projects.
 
-> Updated automatically on **2026-09-26 10:54 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-26 20:55 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,10 +10,10 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [Missing translations for Burmese (my)](https://github.com/symfony/symfony/issues/51897) 💬 2 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-26 |  |
 | [[Messenger] Sanitize message when the receiver is another app](https://github.com/symfony/symfony/issues/49081) 💬 7 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟡 help wanted | 2026-09-26 |  |
 | [[HttpClient] allow upload in form to be transfer-encoded with base64](https://github.com/symfony/symfony/issues/49315) 💬 7 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟡 help wanted | 2026-09-26 |  |
 | [Generate an AsyncAPI documentation for the Mercure API.](https://github.com/api-platform/core/issues/4494) 💬 2 | [api-platform/core](https://github.com/api-platform/core) | 2.6k | 🟡 help wanted | 2026-09-26 |  |
-| [Missing translations for Burmese (my)](https://github.com/symfony/symfony/issues/51897) 💬 2 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-09-25 |  |
 | [[Feed problem] Titles are not parsed properly.](https://github.com/FreshRSS/FreshRSS/issues/8162) 💬 5 | [FreshRSS/FreshRSS](https://github.com/FreshRSS/FreshRSS) | 16.1k | 🟡 help wanted | 2026-09-25 |  |
 | [Direct link to an experiment step from the step list](https://github.com/elabftw/elabftw/issues/7483) 💬 1 | [elabftw/elabftw](https://github.com/elabftw/elabftw) | 1.4k | 🟢 beginner | 2026-09-25 |  |
 | [Clarify signing request expiration and access renewal messages](https://github.com/LibreSign/libresign/issues/8713) | [LibreSign/libresign](https://github.com/LibreSign/libresign) | 824 | 🟢 beginner | 2026-09-25 | 🤖 disclose AI use · 🔏 DCO |
@@ -97,7 +97,7 @@
 | [[Feature Request/Bug] reordering feeds within a category](https://github.com/FreshRSS/FreshRSS/issues/3527) 💬 5 | [FreshRSS/FreshRSS](https://github.com/FreshRSS/FreshRSS) | 16.1k | 🟢 beginner | 2026-08-14 |  |
 | [Setup Onboarding Login-Flow (for Enforce 2FA)](https://github.com/WordPress/two-factor/issues/813) 💬 3 | [WordPress/two-factor](https://github.com/WordPress/two-factor) | 825 | 🟡 help wanted | 2026-08-10 | 🤖 disclose AI use |
 | [docker UID/GID environment settings?](https://github.com/FreshRSS/FreshRSS/issues/2400) 💬 6 | [FreshRSS/FreshRSS](https://github.com/FreshRSS/FreshRSS) | 16.1k | 🟡 help wanted | 2026-08-09 |  |
-| [Scaled instances and the deletion problem](https://github.com/HaschekSolutions/pictshare/issues/80) 💬 8 | [HaschekSolutions/pictshare](https://github.com/HaschekSolutions/pictshare) | 949 | 🟡 help wanted | 2026-08-09 |  |
+| [Scaled instances and the deletion problem](https://github.com/HaschekSolutions/pictshare/issues/80) 💬 8 | [HaschekSolutions/pictshare](https://github.com/HaschekSolutions/pictshare) | 950 | 🟡 help wanted | 2026-08-09 |  |
 | [Do not delete addresses from the copy of the email](https://github.com/freescout-help-desk/freescout/issues/5127) 💬 3 | [freescout-help-desk/freescout](https://github.com/freescout-help-desk/freescout) | 4.6k | 🟡 help wanted | 2026-08-08 |  |
 | ['WC_Abstract_Order' does not implement 'get_customer_id()'](https://github.com/woocommerce/woocommerce/issues/30922) 💬 9 | [woocommerce/woocommerce](https://github.com/woocommerce/woocommerce) | 10.5k | 🟢 beginner | 2026-08-07 | ⚠️ AI restricted |
 | [Email address InlineEdit not working (Contact, Account, ...) in SuiteCRM 7.x](https://github.com/SuiteCRM/SuiteCRM/issues/9762) 💬 10 | [SuiteCRM/SuiteCRM](https://github.com/SuiteCRM/SuiteCRM) | 5.8k | 🟡 help wanted | 2026-08-04 |  |
@@ -129,18 +129,18 @@
 | [Move all repo calls from controllers to services](https://github.com/Leantime/leantime/issues/1532) 💬 1 | [Leantime/leantime](https://github.com/Leantime/leantime) | 11.7k | 🟢 beginner | 2026-06-20 | ✍️ CLA |
 | [AIO is mounting extra volumes in nextcloud-aio-database container](https://github.com/nextcloud/all-in-one/issues/8155) 💬 4 | [nextcloud/all-in-one](https://github.com/nextcloud/all-in-one) | 10.5k | 🟡 help wanted | 2026-06-17 | 🤖 disclose AI use · 🔏 DCO |
 | [Give activities multi-day capabilities](https://github.com/monicahq/monica/issues/2113) 💬 1 | [monicahq/monica](https://github.com/monicahq/monica) | 25.4k | 🟡 help wanted | 2026-06-14 |  |
-| [[3.x-migration] ApiController](https://github.com/MISP/MISP/issues/9382) 💬 2 | [MISP/MISP](https://github.com/MISP/MISP) | 6.5k | 🟢 beginner | 2026-06-12 | ✍️ CLA |
+| [[3.x-migration] ApiController](https://github.com/MISP/MISP/issues/9382) 💬 2 | [MISP/MISP](https://github.com/MISP/MISP) | 6.6k | 🟢 beginner | 2026-06-12 | ✍️ CLA |
 | [CommentAuthor should have RootQuery entry points in the Graph](https://github.com/wp-graphql/wp-graphql/issues/1757) 💬 13 | [wp-graphql/wp-graphql](https://github.com/wp-graphql/wp-graphql) | 3.8k | 🟢 beginner | 2026-06-12 |  |
 | [Add ::to_global_id( $id ) static methods to models?](https://github.com/wp-graphql/wp-graphql/issues/842) 💬 4 | [wp-graphql/wp-graphql](https://github.com/wp-graphql/wp-graphql) | 3.8k | 🟢 beginner | 2026-06-12 |  |
 | [Add graphql_term_object_mutation_update_additional_data hook](https://github.com/wp-graphql/wp-graphql/issues/1429) 💬 7 | [wp-graphql/wp-graphql](https://github.com/wp-graphql/wp-graphql) | 3.8k | 🟢 beginner | 2026-06-12 |  |
 | [Add phpcs rule to ensure one line is left empty after function declaration](https://github.com/EasyEngine/easyengine/issues/1222) 💬 2 | [EasyEngine/easyengine](https://github.com/EasyEngine/easyengine) | 2.2k | 🟢 beginner | 2026-06-12 |  |
 | [Undefined array key "scheme" at /var/www/html/nextcloud/apps/news/lib/Vendor/FeedIo/Feed/Node.php#159](https://github.com/nextcloud/news/issues/3787) 💬 2 | [nextcloud/news](https://github.com/nextcloud/news) | 1k | 🟡 help wanted | 2026-06-11 | 🔏 DCO |
 | [Heading display issue using 'use_kwt' with floated DIVs](https://github.com/mpdf/mpdf/issues/2143) 💬 2 | [mpdf/mpdf](https://github.com/mpdf/mpdf) | 4.7k | 🟡 help wanted | 2026-06-10 |  |
-| [Enhance footer to include link to privacy policy](https://github.com/MISP/MISP/issues/3438) 💬 4 | [MISP/MISP](https://github.com/MISP/MISP) | 6.5k | 🟢 beginner | 2026-06-09 | ✍️ CLA |
+| [Enhance footer to include link to privacy policy](https://github.com/MISP/MISP/issues/3438) 💬 4 | [MISP/MISP](https://github.com/MISP/MISP) | 6.6k | 🟢 beginner | 2026-06-09 | ✍️ CLA |
 | [Cant save panel label in Module Builder](https://github.com/SuiteCRM/SuiteCRM/issues/9605) 💬 1 | [SuiteCRM/SuiteCRM](https://github.com/SuiteCRM/SuiteCRM) | 5.8k | 🟡 help wanted | 2026-06-09 |  |
-| [Org admin can't delete local tags](https://github.com/MISP/MISP/issues/6513) 💬 1 | [MISP/MISP](https://github.com/MISP/MISP) | 6.5k | 🟡 help wanted | 2026-06-08 | ✍️ CLA |
-| [Add warning on the web interface stating the discussions aren't shared.](https://github.com/MISP/MISP/issues/3181) 💬 3 | [MISP/MISP](https://github.com/MISP/MISP) | 6.5k | 🟢 beginner | 2026-06-07 | ✍️ CLA |
-| [Publish icon is upside down](https://github.com/MISP/MISP/issues/1179) 💬 3 | [MISP/MISP](https://github.com/MISP/MISP) | 6.5k | 🟢 beginner | 2026-06-05 | ✍️ CLA |
+| [Org admin can't delete local tags](https://github.com/MISP/MISP/issues/6513) 💬 1 | [MISP/MISP](https://github.com/MISP/MISP) | 6.6k | 🟡 help wanted | 2026-06-08 | ✍️ CLA |
+| [Add warning on the web interface stating the discussions aren't shared.](https://github.com/MISP/MISP/issues/3181) 💬 3 | [MISP/MISP](https://github.com/MISP/MISP) | 6.6k | 🟢 beginner | 2026-06-07 | ✍️ CLA |
+| [Publish icon is upside down](https://github.com/MISP/MISP/issues/1179) 💬 3 | [MISP/MISP](https://github.com/MISP/MISP) | 6.6k | 🟢 beginner | 2026-06-05 | ✍️ CLA |
 | [Add support for OpenVPN private key password in .ovpn configurations](https://github.com/RaspAP/raspap-webgui/issues/2109) 💬 1 | [RaspAP/raspap-webgui](https://github.com/RaspAP/raspap-webgui) | 5.2k | 🟢 beginner | 2026-06-05 |  |
 | [[FR] RTL BiDi Support](https://github.com/PrivateBin/PrivateBin/issues/1849) 💬 1 | [PrivateBin/PrivateBin](https://github.com/PrivateBin/PrivateBin) | 8.6k | 🟡 help wanted | 2026-06-04 | 🤖 disclose AI use |
 | [[HLAPI] Need a way to filter ticket actors](https://github.com/glpi-project/glpi/issues/20743) 💬 5 | [glpi-project/glpi](https://github.com/glpi-project/glpi) | 6.4k | 🟡 help wanted | 2026-06-04 | 🤖 disclose AI use |

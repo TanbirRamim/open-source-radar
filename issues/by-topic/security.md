@@ -1,8 +1,8 @@
 # Security and privacy issues
 
-**216** open issues (107 labeled for beginners) across **57** projects tagged with topics like `security`, `privacy`, `cryptography`, `encryption`, `authentication`, `oauth`.
+**214** open issues (107 labeled for beginners) across **56** projects tagged with topics like `security`, `privacy`, `cryptography`, `encryption`, `authentication`, `oauth`.
 
-> Updated automatically on **2026-09-26 10:54 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-26 20:55 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,7 +10,6 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [Restrict left panel scroll to Projects & Tags sections only, make top and bottom sections sticky](https://github.com/super-productivity/super-productivity/issues/10232) 💬 2 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.3k | 🟡 help wanted | 2026-09-26 |  |
 | [🚨 Add or give option to show both scheduled date and deadline in Kanbanboard and Eisenhauermatrix](https://github.com/super-productivity/super-productivity/issues/10097) 💬 2 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.3k | 🟡 help wanted | 2026-09-26 |  |
 | [💡 Add a folder option to the board project filter](https://github.com/super-productivity/super-productivity/issues/8615) 💬 2 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.3k | 🟡 help wanted | 2026-09-26 |  |
 | [🚨 positioning of ON plugins {ui/ux improvement for phone: 9/100}](https://github.com/super-productivity/super-productivity/issues/10175) 💬 1 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.3k | 🟡 help wanted | 2026-09-26 |  |
@@ -33,9 +32,8 @@
 | [Feature request: remember highlighted text after tab change](https://github.com/gchq/CyberChef/issues/874) 💬 5 | [gchq/CyberChef](https://github.com/gchq/CyberChef) | 36k | 🟢 beginner | 2026-09-23 | 🤖 disclose AI use · ✍️ CLA |
 | [CalDAV Connection fails (android)](https://github.com/super-productivity/super-productivity/issues/3603) 💬 10 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.3k | 🟡 help wanted | 2026-09-23 |  |
 | [borg2 b24: benchmarking needed](https://github.com/borgbackup/borg/issues/10315) 💬 9 | [borgbackup/borg](https://github.com/borgbackup/borg) | 13.8k | 🟡 help wanted | 2026-09-23 |  |
-| [please support Chinese](https://github.com/LeanBitLab/LeanType/issues/235) 💬 6 | [LeanBitLab/LeanType](https://github.com/LeanBitLab/LeanType) | 995 | 🟡 help wanted | 2026-09-23 |  |
+| [please support Chinese](https://github.com/LeanBitLab/LeanType/issues/235) 💬 6 | [LeanBitLab/LeanType](https://github.com/LeanBitLab/LeanType) | 996 | 🟡 help wanted | 2026-09-23 |  |
 | [Let a CMP client require EnvelopedData (reject EncryptedValue) for centrally generated keys](https://github.com/openssl/openssl/issues/32797) 💬 1 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-22 | 🤖 disclose AI use · ✍️ CLA |
-| [Setting a custom User Agent breaks Desktop mode toggle after removing the Custom User Agent](https://github.com/FaFre/WebLibre/issues/619) 💬 1 | [FaFre/WebLibre](https://github.com/FaFre/WebLibre) | 993 | 🟢 beginner | 2026-09-22 |  |
 | [With external engine, getting DHE copy parameter's failure.](https://github.com/openssl/openssl/issues/23137) 💬 12 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-21 | 🤖 disclose AI use · ✍️ CLA |
 | [💡 Add Youtrack as issue provider](https://github.com/super-productivity/super-productivity/issues/5733) 💬 5 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.3k | 🟡 help wanted | 2026-09-21 |  |
 | [Loginflow SSO for Nextcloud](https://github.com/super-productivity/super-productivity/issues/914) 💬 29 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.3k | 🟡 help wanted | 2026-09-21 |  |
@@ -44,12 +42,12 @@
 | [💡 Today - Grouping not applied to "Overdue" and "Later Today"](https://github.com/super-productivity/super-productivity/issues/4748) 💬 4 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.3k | 🟡 help wanted | 2026-09-20 |  |
 | [🚨 description in additional info pane doesn't respect app theme](https://github.com/super-productivity/super-productivity/issues/4803) 💬 2 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.3k | 🟡 help wanted | 2026-09-20 |  |
 | [💡 more flexible options for the reminder settings](https://github.com/super-productivity/super-productivity/issues/4802) 💬 2 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.3k | 🟡 help wanted | 2026-09-20 |  |
-| [💡 Make tasks in chains – Gantt chart (as plugin)](https://github.com/super-productivity/super-productivity/issues/4790) 💬 3 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.3k | 🟡 help wanted | 2026-09-20 |  |
 | [Some icons are blurry or inconsistent in size on Android 16 / Fairphone](https://github.com/organicmaps/organicmaps/issues/13596) | [organicmaps/organicmaps](https://github.com/organicmaps/organicmaps) | 15.5k | 🟢 beginner | 2026-09-20 | 🔏 DCO |
 | [[Feature Request] dns protection](https://github.com/0xCUB3/wBlock/issues/716) 💬 3 | [0xCUB3/wBlock](https://github.com/0xCUB3/wBlock) | 3k | 🟡 help wanted | 2026-09-19 |  |
 | [[Bug] Opening popup triggers extension mode flip](https://github.com/openstyles/stylus/issues/1810) 💬 6 | [openstyles/stylus](https://github.com/openstyles/stylus) | 6.9k | 🟡 help wanted | 2026-09-18 |  |
 | [macbook use Touch ID instead password](https://github.com/GyulyVGC/sniffnet/issues/1300) 💬 3 | [GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet) | 41.2k | 🟢 beginner | 2026-09-17 | 🤖 disclose AI use |
 | [Update speed tests to measure GPU performance for cuPQC code](https://github.com/open-quantum-safe/liboqs/issues/2160) 💬 42 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-09-16 |  |
+| [Debug Watchpoint does not support read write permission together](https://github.com/rizinorg/rizin/issues/6743) | [rizinorg/rizin](https://github.com/rizinorg/rizin) | 3.9k | 🟢 beginner | 2026-09-15 | 🤖 disclose AI use |
 | [RFC 9919: OCSP with SHA-256](https://github.com/openssl/openssl/issues/32813) | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use · ✍️ CLA |
 | [Backport 0c2a196af8 (per-OSSL_LIB_CTX CONF storage) to 3.0-3.6: conf_ssl.c double-free still present in all re](https://github.com/openssl/openssl/issues/32804) 💬 2 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use · ✍️ CLA |
 | [Support ECH SSLKEYLOGFILE](https://github.com/openssl/openssl/issues/31607) 💬 5 | [openssl/openssl](https://github.com/openssl/openssl) | 30.8k | 🟡 help wanted | 2026-09-12 | 🤖 disclose AI use · ✍️ CLA |
@@ -64,7 +62,7 @@
 | [include git commit id in status information and artifact README](https://github.com/yacy/yacy_search_server/issues/466) 💬 1 | [yacy/yacy_search_server](https://github.com/yacy/yacy_search_server) | 4k | 🟢 beginner | 2026-09-06 |  |
 | [Add flag to disable Web Audio API](https://github.com/ungoogled-software/ungoogled-chromium/issues/3944) | [ungoogled-software/ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium) | 27.8k | 🟡 help wanted | 2026-09-04 |  |
 | [[Flatpak] Auth: Failed to launch: libsecret_error: Failed to unlock the keyring](https://github.com/ente/ente/issues/6564) 💬 6 | [ente/ente](https://github.com/ente/ente) | 29.1k | 🟡 help wanted | 2026-09-03 |  |
-| [CLI Support for Injecting Envars into Docker-Compose Containers without embedding the CLI in Container Images](https://github.com/Infisical/infisical/issues/425) 💬 8 | [Infisical/infisical](https://github.com/Infisical/infisical) | 29.4k | 🟡 help wanted | 2026-09-01 |  |
+| [CLI Support for Injecting Envars into Docker-Compose Containers without embedding the CLI in Container Images](https://github.com/Infisical/infisical/issues/425) 💬 8 | [Infisical/infisical](https://github.com/Infisical/infisical) | 29.5k | 🟡 help wanted | 2026-09-01 |  |
 | [Don't sort output config fields by optionality](https://github.com/Graylog2/graylog2-server/issues/4761) 💬 4 | [Graylog2/graylog2-server](https://github.com/Graylog2/graylog2-server) | 8.1k | 🟢 beginner | 2026-08-31 |  |
 | [Support header sso (Forward Auth)](https://github.com/lldap/lldap/issues/352) 💬 15 | [lldap/lldap](https://github.com/lldap/lldap) | 6.5k | 🟢 beginner | 2026-08-31 |  |
 | [Docs: add a Wikipedia page about Sniffnet](https://github.com/GyulyVGC/sniffnet/issues/975) 💬 2 | [GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet) | 41.2k | 🟢 beginner | 2026-08-28 | 🤖 disclose AI use |
@@ -94,7 +92,7 @@
 | [Support deepagents(langchain) backend](https://github.com/superradcompany/microsandbox/issues/1084) 💬 4 | [superradcompany/microsandbox](https://github.com/superradcompany/microsandbox) | 8.4k | 🟡 help wanted | 2026-08-11 | 🔏 DCO |
 | [Samba integration](https://github.com/lldap/lldap/issues/599) 💬 32 | [lldap/lldap](https://github.com/lldap/lldap) | 6.5k | 🟡 help wanted | 2026-08-11 |  |
 | [Setup Onboarding Login-Flow (for Enforce 2FA)](https://github.com/WordPress/two-factor/issues/813) 💬 3 | [WordPress/two-factor](https://github.com/WordPress/two-factor) | 825 | 🟡 help wanted | 2026-08-10 | 🤖 disclose AI use |
-| [Scaled instances and the deletion problem](https://github.com/HaschekSolutions/pictshare/issues/80) 💬 8 | [HaschekSolutions/pictshare](https://github.com/HaschekSolutions/pictshare) | 949 | 🟡 help wanted | 2026-08-09 |  |
+| [Scaled instances and the deletion problem](https://github.com/HaschekSolutions/pictshare/issues/80) 💬 8 | [HaschekSolutions/pictshare](https://github.com/HaschekSolutions/pictshare) | 950 | 🟡 help wanted | 2026-08-09 |  |
 | [[Feature Request]: Add Shuffle button within both YouTube and User Playlists](https://github.com/FreeTubeApp/FreeTube/issues/5618) 💬 10 | [FreeTubeApp/FreeTube](https://github.com/FreeTubeApp/FreeTube) | 22k | 🟢 beginner | 2026-08-06 |  |
 | [[Feature Request]: Have refresh timestamp on the subscriptions page update on an interval](https://github.com/FreeTubeApp/FreeTube/issues/5140) 💬 4 | [FreeTubeApp/FreeTube](https://github.com/FreeTubeApp/FreeTube) | 22k | 🟢 beginner | 2026-08-06 |  |
 | [[Feature Request]: Localise 'README.md'](https://github.com/FreeTubeApp/FreeTube/issues/3200) 💬 1 | [FreeTubeApp/FreeTube](https://github.com/FreeTubeApp/FreeTube) | 22k | 🟡 help wanted | 2026-08-06 |  |
@@ -176,18 +174,18 @@
 | [Set SameSite attribute on session cookie created by the frontend](https://github.com/DependencyTrack/dependency-track/issues/2985) 💬 1 | [DependencyTrack/dependency-track](https://github.com/DependencyTrack/dependency-track) | 4.2k | 🟢 beginner | 2026-06-15 | ⚠️ AI restricted · 🔏 DCO |
 | [Find functions that perform temporary seek from the API and refactor to use the offset argument if possible](https://github.com/rizinorg/rizin/issues/2906) 💬 3 | [rizinorg/rizin](https://github.com/rizinorg/rizin) | 3.9k | 🟢 beginner | 2026-06-14 | 🤖 disclose AI use |
 | [Specifying only Group Name and Version will not match VulnerableSoftware using the Internal Analyzer.](https://github.com/DependencyTrack/dependency-track/issues/2984) 💬 2 | [DependencyTrack/dependency-track](https://github.com/DependencyTrack/dependency-track) | 4.2k | 🟢 beginner | 2026-06-13 | ⚠️ AI restricted · 🔏 DCO |
-| [[3.x-migration] ApiController](https://github.com/MISP/MISP/issues/9382) 💬 2 | [MISP/MISP](https://github.com/MISP/MISP) | 6.5k | 🟢 beginner | 2026-06-12 | ✍️ CLA |
+| [[3.x-migration] ApiController](https://github.com/MISP/MISP/issues/9382) 💬 2 | [MISP/MISP](https://github.com/MISP/MISP) | 6.6k | 🟢 beginner | 2026-06-12 | ✍️ CLA |
 | [FR: Add support for Synology RT2600 series routers and SRM platform](https://github.com/tailscale/tailscale/issues/5455) 💬 23 | [tailscale/tailscale](https://github.com/tailscale/tailscale) | 36.9k | 🟡 help wanted | 2026-06-10 | 🔏 DCO |
 | [Windows 7 API Extensions (VxKex)](https://github.com/ungoogled-software/ungoogled-chromium/issues/3811) 💬 2 | [ungoogled-software/ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium) | 27.8k | 🟡 help wanted | 2026-06-10 |  |
-| [Enhance footer to include link to privacy policy](https://github.com/MISP/MISP/issues/3438) 💬 4 | [MISP/MISP](https://github.com/MISP/MISP) | 6.5k | 🟢 beginner | 2026-06-09 | ✍️ CLA |
+| [Enhance footer to include link to privacy policy](https://github.com/MISP/MISP/issues/3438) 💬 4 | [MISP/MISP](https://github.com/MISP/MISP) | 6.6k | 🟢 beginner | 2026-06-09 | ✍️ CLA |
 | [[Feature] MV2 Bypass in Chrome 151.X+](https://github.com/ungoogled-software/ungoogled-chromium/issues/3812) 💬 1 | [ungoogled-software/ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium) | 27.8k | 🟡 help wanted | 2026-06-08 |  |
-| [Org admin can't delete local tags](https://github.com/MISP/MISP/issues/6513) 💬 1 | [MISP/MISP](https://github.com/MISP/MISP) | 6.5k | 🟡 help wanted | 2026-06-08 | ✍️ CLA |
-| [Add warning on the web interface stating the discussions aren't shared.](https://github.com/MISP/MISP/issues/3181) 💬 3 | [MISP/MISP](https://github.com/MISP/MISP) | 6.5k | 🟢 beginner | 2026-06-07 | ✍️ CLA |
+| [Org admin can't delete local tags](https://github.com/MISP/MISP/issues/6513) 💬 1 | [MISP/MISP](https://github.com/MISP/MISP) | 6.6k | 🟡 help wanted | 2026-06-08 | ✍️ CLA |
+| [Add warning on the web interface stating the discussions aren't shared.](https://github.com/MISP/MISP/issues/3181) 💬 3 | [MISP/MISP](https://github.com/MISP/MISP) | 6.6k | 🟢 beginner | 2026-06-07 | ✍️ CLA |
 | ['rz-asm' assembly results may be not correct](https://github.com/rizinorg/rizin/issues/1834) 💬 8 | [rizinorg/rizin](https://github.com/rizinorg/rizin) | 3.9k | 🟢 beginner | 2026-06-07 | 🤖 disclose AI use |
 | [XAP: add missing opcodes](https://github.com/rizinorg/rizin/issues/4661) 💬 5 | [rizinorg/rizin](https://github.com/rizinorg/rizin) | 3.9k | 🟢 beginner | 2026-06-07 | 🤖 disclose AI use |
 | [CPU profiles: add the '.comment' value as rizin comment near the flag, if defined](https://github.com/rizinorg/rizin/issues/1671) 💬 13 | [rizinorg/rizin](https://github.com/rizinorg/rizin) | 3.9k | 🟢 beginner | 2026-06-07 | 🤖 disclose AI use |
 | [Add rendering man_made=tower](https://github.com/organicmaps/organicmaps/issues/5521) 💬 7 | [organicmaps/organicmaps](https://github.com/organicmaps/organicmaps) | 15.5k | 🟢 beginner | 2026-06-06 | 🔏 DCO |
-| [Publish icon is upside down](https://github.com/MISP/MISP/issues/1179) 💬 3 | [MISP/MISP](https://github.com/MISP/MISP) | 6.5k | 🟢 beginner | 2026-06-05 | ✍️ CLA |
+| [Publish icon is upside down](https://github.com/MISP/MISP/issues/1179) 💬 3 | [MISP/MISP](https://github.com/MISP/MISP) | 6.6k | 🟢 beginner | 2026-06-05 | ✍️ CLA |
 | [Selenium tests: check console output.](https://github.com/searxng/searxng/issues/338) 💬 1 | [searxng/searxng](https://github.com/searxng/searxng) | 37.7k | 🟢 beginner | 2026-06-04 | 📄 AI policy |
 | [[FR] RTL BiDi Support](https://github.com/PrivateBin/PrivateBin/issues/1849) 💬 1 | [PrivateBin/PrivateBin](https://github.com/PrivateBin/PrivateBin) | 8.6k | 🟡 help wanted | 2026-06-04 | 🤖 disclose AI use |
 | [Request: Form Upload with http server](https://github.com/rclone/rclone/issues/3151) 💬 3 | [rclone/rclone](https://github.com/rclone/rclone) | 60k | 🟡 help wanted | 2026-06-02 |  |
@@ -210,5 +208,7 @@
 | [checkTxJsonFields calls asString() on tx_json.Account without type check](https://github.com/XRPLF/rippled/issues/6771) 💬 1 | [XRPLF/rippled](https://github.com/XRPLF/rippled) | 5.2k | 🟢 beginner | 2026-05-08 | 🔏 DCO |
 | [CephFS Backend](https://github.com/rclone/rclone/issues/7172) 💬 11 | [rclone/rclone](https://github.com/rclone/rclone) | 60k | 🟡 help wanted | 2026-05-06 |  |
 | [Feature: Self-hosted sync server](https://github.com/simonoppowa/OpenNutriTracker/issues/79) 💬 5 | [simonoppowa/OpenNutriTracker](https://github.com/simonoppowa/OpenNutriTracker) | 2.6k | 🟡 help wanted | 2026-05-06 |  |
+| [Define a clear threat model for this project](https://github.com/ungoogled-software/ungoogled-chromium/issues/3287) 💬 4 | [ungoogled-software/ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium) | 27.8k | 🟡 help wanted | 2026-05-05 |  |
+| [hide close button("x") on first half(first tab) of "split view"](https://github.com/ungoogled-software/ungoogled-chromium/issues/3771) | [ungoogled-software/ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium) | 27.8k | 🟡 help wanted | 2026-05-05 |  |
 
-Showing the 200 most recently updated. See all 216 on the website.
+Showing the 200 most recently updated. See all 214 on the website.

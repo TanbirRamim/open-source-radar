@@ -1,8 +1,8 @@
 # C++ issues
 
-**350** open issues (125 labeled for beginners) across **101** active C++ projects.
+**351** open issues (125 labeled for beginners) across **101** active C++ projects.
 
-> Updated automatically on **2026-09-26 10:54 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-26 20:55 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,6 +10,7 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [Launch size, Launch position should each have a "as current window" button](https://github.com/microsoft/terminal/issues/18390) 💬 3 | [microsoft/terminal](https://github.com/microsoft/terminal) | 105k | 🟡 help wanted | 2026-09-26 | 🤖 disclose AI use |
 | [x:Bind not Binding](https://github.com/microsoft/terminal/issues/11767) 💬 13 | [microsoft/terminal](https://github.com/microsoft/terminal) | 105k | 🟢 beginner | 2026-09-26 | 🤖 disclose AI use |
 | [TechDraw: Keyboard navigation of the Section Plane is chaotic](https://github.com/FreeCAD/FreeCAD/issues/30833) 💬 3 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.8k | 🟢 beginner | 2026-09-25 | ⚠️ AI restricted |
 | [dyanamic window state should support windows split with aero snap](https://github.com/TranslucentTB/TranslucentTB/issues/116) 💬 12 | [TranslucentTB/TranslucentTB](https://github.com/TranslucentTB/TranslucentTB) | 20.4k | 🟡 help wanted | 2026-09-25 |  |
@@ -35,7 +36,6 @@
 | [Support webrtc for webtorrent clients](https://github.com/transmission/transmission/issues/47) 💬 64 | [transmission/transmission](https://github.com/transmission/transmission) | 15.2k | 🟢 beginner | 2026-09-21 |  |
 | [AppImage Prism Launcher can't find Java when installed via AM-GUI](https://github.com/PrismLauncher/PrismLauncher/issues/5579) 💬 9 | [PrismLauncher/PrismLauncher](https://github.com/PrismLauncher/PrismLauncher) | 10.5k | 🟡 help wanted | 2026-09-21 | 🤖 disclose AI use · 🔏 DCO |
 | [ROS2 Kilted Sync (2025-07-28) ~ 0.9.7-1 : Fails to resolve is_nothrow_invocable_v in magic_enum::detail](https://github.com/Neargye/magic_enum/issues/420) 💬 18 | [Neargye/magic_enum](https://github.com/Neargye/magic_enum) | 6.2k | 🟡 help wanted | 2026-09-21 |  |
-| [Launch size, Launch position should each have a "as current window" button](https://github.com/microsoft/terminal/issues/18390) 💬 3 | [microsoft/terminal](https://github.com/microsoft/terminal) | 105k | 🟡 help wanted | 2026-09-20 | 🤖 disclose AI use |
 | [[L10n][TR] Accesskey collisions in bookmark and tab context menus](https://github.com/zen-browser/desktop/issues/15488) | [zen-browser/desktop](https://github.com/zen-browser/desktop) | 44.6k | 🟢 beginner | 2026-09-20 |  |
 | [OCC: GeomAPI_ExtremaCurveCurve fails to detect intersection](https://github.com/FreeCAD/FreeCAD/issues/5824) 💬 5 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.8k | 🟡 help wanted | 2026-09-20 | ⚠️ AI restricted |
 | [macOS: Improper name formatting in About menu: 'freecad' -&gt; 'FreeCAD'](https://github.com/FreeCAD/FreeCAD/issues/21118) 💬 28 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.8k | 🟢 beginner | 2026-09-20 | ⚠️ AI restricted |
@@ -46,6 +46,7 @@
 | [Part: makeCompound introduces artifacts](https://github.com/FreeCAD/FreeCAD/issues/22713) 💬 3 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.8k | 🟡 help wanted | 2026-09-18 | ⚠️ AI restricted |
 | [Fallback value should be close to original value](https://github.com/microsoft/microsoft-ui-xaml/issues/5707) 💬 2 | [microsoft/microsoft-ui-xaml](https://github.com/microsoft/microsoft-ui-xaml) | 8.5k | 🟡 help wanted | 2026-09-18 | ✍️ CLA |
 | [Icon on MenuFlyoutItem within a dark container turns black on pointer exit (with OS in light mode theme color)](https://github.com/microsoft/microsoft-ui-xaml/issues/5381) 💬 11 | [microsoft/microsoft-ui-xaml](https://github.com/microsoft/microsoft-ui-xaml) | 8.5k | 🟡 help wanted | 2026-09-18 | ✍️ CLA |
+| [Drag&Drop does not work with within Elevated Apps](https://github.com/microsoft/microsoft-ui-xaml/issues/7690) 💬 42 | [microsoft/microsoft-ui-xaml](https://github.com/microsoft/microsoft-ui-xaml) | 8.5k | 🟡 help wanted | 2026-09-18 | ✍️ CLA |
 | [Proposal: C++/WinRT basic example for each control](https://github.com/microsoft/microsoft-ui-xaml/issues/1946) 💬 11 | [microsoft/microsoft-ui-xaml](https://github.com/microsoft/microsoft-ui-xaml) | 8.5k | 🟡 help wanted | 2026-09-18 | ✍️ CLA |
 | [The welcome message and brand text renders over content, when the “Loading Results…” window is 1⁄8 of the tota](https://github.com/KDAB/hotspot/issues/713) 💬 15 | [KDAB/hotspot](https://github.com/KDAB/hotspot) | 5.2k | 🟡 help wanted | 2026-09-18 |  |
 | [Support for cursors change](https://github.com/f3d-app/f3d/issues/3492) | [f3d-app/f3d](https://github.com/f3d-app/f3d) | 4.7k | 🟡 help wanted | 2026-09-18 | 🤖 disclose AI use |
@@ -209,6 +210,5 @@
 | [Allow NPCs to milk cows](https://github.com/CleverRaven/Cataclysm-DDA/issues/86410) | [CleverRaven/Cataclysm-DDA](https://github.com/CleverRaven/Cataclysm-DDA) | 13.2k | 🟢 beginner | 2026-07-26 |  |
 | [[Enhancement Proposal] Fix badly rendered shadows on common objects.](https://github.com/diasurgical/DevilutionX/issues/2451) 💬 15 | [diasurgical/DevilutionX](https://github.com/diasurgical/DevilutionX) | 9.8k | 🟢 beginner | 2026-07-26 |  |
 | [[Feature Request]: Implement Power Saving for STM32 (STM32WLE5CC, etc.) based Microcontrollers](https://github.com/meshtastic/firmware/issues/8628) 💬 4 | [meshtastic/firmware](https://github.com/meshtastic/firmware) | 8.3k | 🟡 help wanted | 2026-07-25 | ✍️ CLA |
-| [Support --gtest_stream_result_to on Windows](https://github.com/google/googletest/issues/3935) 💬 4 | [google/googletest](https://github.com/google/googletest) | 39.6k | 🟡 help wanted | 2026-07-23 | ✍️ CLA |
 
-Showing the 200 most recently updated. See all 350 on the website.
+Showing the 200 most recently updated. See all 351 on the website.

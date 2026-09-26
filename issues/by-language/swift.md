@@ -2,7 +2,7 @@
 
 **94** open issues (47 labeled for beginners) across **59** active Swift projects.
 
-> Updated automatically on **2026-09-26 10:54 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-26 20:55 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,13 +10,13 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [Linux: run SpeakType 2 end to end and report what breaks](https://github.com/karansinghgit/speaktype/issues/164) 💬 1 | [karansinghgit/speaktype](https://github.com/karansinghgit/speaktype) | 516 | 🟡 help wanted | 2026-09-26 |  |
+| [Linux: run SpeakType 2 end to end and report what breaks](https://github.com/karansinghgit/speaktype/issues/164) 💬 1 | [karansinghgit/speaktype](https://github.com/karansinghgit/speaktype) | 518 | 🟡 help wanted | 2026-09-26 |  |
 | [Help wanted: Japanese speaker to help localize and validate translations](https://github.com/pluk-inc/markdown-preview/issues/445) 💬 1 | [pluk-inc/markdown-preview](https://github.com/pluk-inc/markdown-preview) | 2.4k | 🟡 help wanted | 2026-09-25 |  |
 | [Gitlab Duo Support](https://github.com/steipete/CodexBar/issues/1769) 💬 4 | [steipete/CodexBar](https://github.com/steipete/CodexBar) | 21.9k | 🟡 help wanted | 2026-09-24 |  |
 | [[Bug] Keyboard text input has poor performance, buggy, and unstable](https://github.com/minh-ton/reynard-browser/issues/309) 💬 7 | [minh-ton/reynard-browser](https://github.com/minh-ton/reynard-browser) | 1.7k | 🟡 help wanted | 2026-09-23 |  |
-| [Copy support info button in Settings](https://github.com/karansinghgit/speaktype/issues/161) 💬 3 | [karansinghgit/speaktype](https://github.com/karansinghgit/speaktype) | 516 | 🟢 beginner | 2026-09-23 |  |
+| [Copy support info button in Settings](https://github.com/karansinghgit/speaktype/issues/161) 💬 3 | [karansinghgit/speaktype](https://github.com/karansinghgit/speaktype) | 518 | 🟢 beginner | 2026-09-23 |  |
 | [Use augmentsSyntaxTokens parameter instead of reportSyntacticHighlightInSemanticTokens in initialization reque](https://github.com/swiftlang/sourcekit-lsp/issues/2767) 💬 2 | [swiftlang/sourcekit-lsp](https://github.com/swiftlang/sourcekit-lsp) | 3.9k | 🟢 beginner | 2026-09-22 |  |
-| [Ship SpeakType on Flathub](https://github.com/karansinghgit/speaktype/issues/163) | [karansinghgit/speaktype](https://github.com/karansinghgit/speaktype) | 516 | 🟡 help wanted | 2026-09-22 |  |
+| [Ship SpeakType on Flathub](https://github.com/karansinghgit/speaktype/issues/163) | [karansinghgit/speaktype](https://github.com/karansinghgit/speaktype) | 518 | 🟡 help wanted | 2026-09-22 |  |
 | [It does not work in Contexts/Alfred/Spotlight/Launcher...](https://github.com/itsuhane/SwitchKey/issues/4) 💬 7 | [itsuhane/SwitchKey](https://github.com/itsuhane/SwitchKey) | 961 | 🟡 help wanted | 2026-09-20 |  |
 | [FR: Add configurable Finder context menu actions and one-click compression](https://github.com/idawnlight/ShichiZip/issues/63) 💬 2 | [idawnlight/ShichiZip](https://github.com/idawnlight/ShichiZip) | 957 | 🟡 help wanted | 2026-09-20 |  |
 | [Add support for Raycast/Alfred](https://github.com/buresdv/Cork/issues/135) 💬 1 | [buresdv/Cork](https://github.com/buresdv/Cork) | 4.7k | 🟡 help wanted | 2026-09-19 | 📄 AI policy |
@@ -29,7 +29,7 @@
 | [Use vertical scrolling for series episodes on iOS](https://github.com/jellyfin/Swiftfin/issues/2145) 💬 3 | [jellyfin/Swiftfin](https://github.com/jellyfin/Swiftfin) | 4.2k | 🟢 beginner | 2026-09-14 |  |
 | [[FR]backup settings](https://github.com/ejbills/DockDoor/issues/688) 💬 7 | [ejbills/DockDoor](https://github.com/ejbills/DockDoor) | 6.1k | 🟢 beginner | 2026-09-09 | 🤖 disclose AI use |
 | [连接airpods的时候，会奇怪的出现通透模式，降噪模式切换](https://github.com/Ebullioscopic/Atoll/issues/822) 💬 2 | [Ebullioscopic/Atoll](https://github.com/Ebullioscopic/Atoll) | 4.8k | 🟡 help wanted | 2026-09-09 |  |
-| [container compose doesn't support extends](https://github.com/Mcrich23/Container-Compose/issues/7) 💬 2 | [Mcrich23/Container-Compose](https://github.com/Mcrich23/Container-Compose) | 949 | 🟡 help wanted | 2026-09-09 |  |
+| [container compose doesn't support extends](https://github.com/Mcrich23/Container-Compose/issues/7) 💬 2 | [Mcrich23/Container-Compose](https://github.com/Mcrich23/Container-Compose) | 948 | 🟡 help wanted | 2026-09-09 |  |
 | [Visiting a reading list site that has not been previously opened in reader mode never renders content](https://github.com/mozilla-mobile/firefox-ios/issues/27546) 💬 7 | [mozilla-mobile/firefox-ios](https://github.com/mozilla-mobile/firefox-ios) | 13k | 🟢 beginner | 2026-09-04 |  |
 | [Add support for Cygwin](https://github.com/swiftlang/swift-testing/issues/886) 💬 1 | [swiftlang/swift-testing](https://github.com/swiftlang/swift-testing) | 2.2k | 🟡 help wanted | 2026-09-03 |  |
 | [Add 'sentryLabel' property on UIView](https://github.com/getsentry/sentry-cocoa/issues/8103) 💬 1 | [getsentry/sentry-cocoa](https://github.com/getsentry/sentry-cocoa) | 1.1k | 🟢 beginner | 2026-09-01 |  |
@@ -37,7 +37,7 @@
 | [test: fix flaky internal profiling API test](https://github.com/getsentry/sentry-cocoa/issues/8637) 💬 1 | [getsentry/sentry-cocoa](https://github.com/getsentry/sentry-cocoa) | 1.1k | 🟢 beginner | 2026-09-01 |  |
 | [Fix flaky 'testProfilerMutationDuringSlicing'](https://github.com/getsentry/sentry-cocoa/issues/3910) 💬 2 | [getsentry/sentry-cocoa](https://github.com/getsentry/sentry-cocoa) | 1.1k | 🟢 beginner | 2026-09-01 |  |
 | [Fix flaky 'testFlush_WhenNoInternet_BlocksAndFinishes'](https://github.com/getsentry/sentry-cocoa/issues/4704) | [getsentry/sentry-cocoa](https://github.com/getsentry/sentry-cocoa) | 1.1k | 🟢 beginner | 2026-09-01 |  |
-| [Would a version for iPadOS be feasible?](https://github.com/awaseem/foqos/issues/287) 💬 8 | [awaseem/foqos](https://github.com/awaseem/foqos) | 837 | 🟡 help wanted | 2026-09-01 |  |
+| [Would a version for iPadOS be feasible?](https://github.com/awaseem/foqos/issues/287) 💬 8 | [awaseem/foqos](https://github.com/awaseem/foqos) | 838 | 🟡 help wanted | 2026-09-01 |  |
 | [Feature request: Add a Disable option in the Menu](https://github.com/pablopunk/SwiftShift/issues/158) | [pablopunk/SwiftShift](https://github.com/pablopunk/SwiftShift) | 649 | 🟢 beginner | 2026-08-29 |  |
 | [Add a Qoder CLI agent manifest](https://github.com/termio-sh/termio/issues/246) | [termio-sh/termio](https://github.com/termio-sh/termio) | 529 | 🟡 help wanted | 2026-08-27 |  |
 | [Pointer speed has no effect on trackpad on M2 and later Macs](https://github.com/linearmouse/linearmouse/issues/270) 💬 14 | [linearmouse/linearmouse](https://github.com/linearmouse/linearmouse) | 6.9k | 🟡 help wanted | 2026-08-26 |  |

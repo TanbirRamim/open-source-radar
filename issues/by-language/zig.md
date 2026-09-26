@@ -2,7 +2,7 @@
 
 **10** open issues (8 labeled for beginners) across **6** active Zig projects.
 
-> Updated automatically on **2026-09-26 10:54 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-26 20:55 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -18,5 +18,5 @@
 | [Add CI check to check repo for any dangerous characters or substrings in text](https://github.com/roc-lang/roc/issues/6963) | [roc-lang/roc](https://github.com/roc-lang/roc) | 6.1k | 🟢 beginner | 2026-07-18 |  |
 | ['roc init'](https://github.com/roc-lang/roc/issues/3139) 💬 2 | [roc-lang/roc](https://github.com/roc-lang/roc) | 6.1k | 🟢 beginner | 2026-06-27 |  |
 | [add support for link type extensions ('&lt;link [rel]&gt;')](https://github.com/kristoff-it/superhtml/issues/143) 💬 1 | [kristoff-it/superhtml](https://github.com/kristoff-it/superhtml) | 1.4k | 🟢 beginner | 2026-06-23 |  |
-| [Login with Phone number error](https://github.com/Loongphy/codex-auth/issues/138) | [Loongphy/codex-auth](https://github.com/Loongphy/codex-auth) | 2.7k | 🟡 help wanted | 2026-06-05 |  |
+| [Login with Phone number error](https://github.com/Loongphy/codex-auth/issues/138) | [Loongphy/codex-auth](https://github.com/Loongphy/codex-auth) | 2.8k | 🟡 help wanted | 2026-06-05 |  |
 | [dx11: uv wrap](https://github.com/david-vanderson/dvui/issues/881) | [david-vanderson/dvui](https://github.com/david-vanderson/dvui) | 1.7k | 🟢 beginner | 2026-05-26 |  |

@@ -1,8 +1,8 @@
 # Cloud, DevOps and infrastructure issues
 
-**491** open issues (195 labeled for beginners) across **136** projects tagged with topics like `devops`, `kubernetes`, `docker`, `cloud`, `infrastructure`, `terraform`.
+**487** open issues (192 labeled for beginners) across **135** projects tagged with topics like `devops`, `kubernetes`, `docker`, `cloud`, `infrastructure`, `terraform`.
 
-> Updated automatically on **2026-09-26 10:54 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-26 20:55 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -18,7 +18,6 @@
 | [Navidrome: add lyrics plugin](https://github.com/kiriwalawren/nixflix/issues/334) | [kiriwalawren/nixflix](https://github.com/kiriwalawren/nixflix) | 579 | 🟢 beginner | 2026-09-25 |  |
 | [Integrate autobrr](https://github.com/kiriwalawren/nixflix/issues/359) 💬 1 | [kiriwalawren/nixflix](https://github.com/kiriwalawren/nixflix) | 579 | 🟢 beginner | 2026-09-25 |  |
 | [Integrate cross-seed](https://github.com/kiriwalawren/nixflix/issues/360) 💬 1 | [kiriwalawren/nixflix](https://github.com/kiriwalawren/nixflix) | 579 | 🟢 beginner | 2026-09-25 |  |
-| [Select-all feature](https://github.com/derailed/k9s/issues/4247) 💬 5 | [derailed/k9s](https://github.com/derailed/k9s) | 34.7k | 🟢 beginner | 2026-09-24 |  |
 | [Batch offline service based on IP address](https://github.com/alibaba/nacos/issues/2272) 💬 24 | [alibaba/nacos](https://github.com/alibaba/nacos) | 33.4k | 🟢 beginner | 2026-09-24 | 🤖 disclose AI use · ✍️ CLA |
 | [[JENKINS-31511] Recent (since 1.628) bug introduced into pluginManager filter UI](https://github.com/jenkinsci/jenkins/issues/21563) 💬 12 | [jenkinsci/jenkins](https://github.com/jenkinsci/jenkins) | 26.6k | 🟢 beginner | 2026-09-24 | ✍️ CLA |
 | [[kbn-evals] "Not applicable" counts as a pass in every LLM-judged score](https://github.com/elastic/kibana/issues/285441) 💬 2 | [elastic/kibana](https://github.com/elastic/kibana) | 21.3k | 🟢 beginner | 2026-09-24 | ⚠️ AI restricted |
@@ -47,7 +46,7 @@
 | [Help about Telegram Custom alerts](https://github.com/TwiN/gatus/issues/1809) | [TwiN/gatus](https://github.com/TwiN/gatus) | 12.2k | 🟡 help wanted | 2026-09-22 |  |
 | [[TRIGGER]](https://github.com/PipedreamHQ/pipedream/issues/22036) 💬 1 | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-09-22 |  |
 | [Add SPDX license headers to all files](https://github.com/nextcloud/all-in-one/issues/7439) | [nextcloud/all-in-one](https://github.com/nextcloud/all-in-one) | 10.5k | 🟡 help wanted | 2026-09-22 | 🤖 disclose AI use · 🔏 DCO |
-| [BetterAuth to implement multi-user support, roles, external auth providers](https://github.com/louislam/uptime-kuma/issues/6200) 💬 13 | [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) | 91.8k | 🟡 help wanted | 2026-09-21 | ⚠️ AI restricted |
+| [BetterAuth to implement multi-user support, roles, external auth providers](https://github.com/louislam/uptime-kuma/issues/6200) 💬 13 | [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) | 91.9k | 🟡 help wanted | 2026-09-21 | ⚠️ AI restricted |
 | [[Bug]: Web Updater’s "start update" button unreachable without scroll bar](https://github.com/nextcloud/server/issues/40624) 💬 3 | [nextcloud/server](https://github.com/nextcloud/server) | 36.9k | 🟢 beginner | 2026-09-21 | 🤖 disclose AI use · 🔏 DCO |
 | [Snyk vulnerability [SNYK-JS-BRACES-19963945]](https://github.com/backstage/backstage/issues/35821) | [backstage/backstage](https://github.com/backstage/backstage) | 34.5k | 🟡 help wanted | 2026-09-21 | 📄 AI policy · 🔏 DCO |
 | [Document how to configure host for podman --rootless driver](https://github.com/kubernetes/minikube/issues/23724) | [kubernetes/minikube](https://github.com/kubernetes/minikube) | 32.2k | 🟢 beginner | 2026-09-21 |  |
@@ -82,7 +81,7 @@
 | [[FEATURE] CLI support preflight check for Talos Linux](https://github.com/longhorn/longhorn/issues/9950) 💬 1 | [longhorn/longhorn](https://github.com/longhorn/longhorn) | 8k | 🟢 beginner | 2026-09-18 | 🔏 DCO |
 | [[BUG][V1.7.0][Longhornctl] Longhorn CLI fail on check preflight on Fedora CoreOS](https://github.com/longhorn/longhorn/issues/9301) 💬 14 | [longhorn/longhorn](https://github.com/longhorn/longhorn) | 8k | 🟢 beginner | 2026-09-18 | 🔏 DCO |
 | [Python: implement full-unlock so security updates can bump a parent to fix a vulnerable transitive dependency](https://github.com/dependabot/dependabot-core/issues/16337) | [dependabot/dependabot-core](https://github.com/dependabot/dependabot-core) | 5.8k | 🟡 help wanted | 2026-09-18 |  |
-| [Add Feature to Set Retention Time per Metric](https://github.com/prometheus/prometheus/issues/15350) 💬 3 | [prometheus/prometheus](https://github.com/prometheus/prometheus) | 66.2k | 🟡 help wanted | 2026-09-17 | 🔏 DCO |
+| [Add Feature to Set Retention Time per Metric](https://github.com/prometheus/prometheus/issues/15350) 💬 3 | [prometheus/prometheus](https://github.com/prometheus/prometheus) | 66.3k | 🟡 help wanted | 2026-09-17 | 🔏 DCO |
 | [macbook use Touch ID instead password](https://github.com/GyulyVGC/sniffnet/issues/1300) 💬 3 | [GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet) | 41.2k | 🟢 beginner | 2026-09-17 | 🤖 disclose AI use |
 | [Snyk vulnerability [snyk:lic:npm:rollup-plugin-dts:LGPL-3.0]](https://github.com/backstage/backstage/issues/35480) | [backstage/backstage](https://github.com/backstage/backstage) | 34.5k | 🟡 help wanted | 2026-09-17 | 📄 AI policy · 🔏 DCO |
 | [New website todo list](https://github.com/owncast/owncast/issues/4720) 💬 9 | [owncast/owncast](https://github.com/owncast/owncast) | 11.6k | 🟡 help wanted | 2026-09-17 |  |
@@ -135,7 +134,7 @@
 | [How do you use SNI with SSL?](https://github.com/micronaut-projects/micronaut-core/issues/1131) 💬 1 | [micronaut-projects/micronaut-core](https://github.com/micronaut-projects/micronaut-core) | 6.4k | 🟡 help wanted | 2026-09-11 |  |
 | [Full-duplex support for browsers that do not support WebSocket](https://github.com/micronaut-projects/micronaut-core/issues/583) 💬 2 | [micronaut-projects/micronaut-core](https://github.com/micronaut-projects/micronaut-core) | 6.4k | 🟡 help wanted | 2026-09-11 |  |
 | [[TRIGGER]](https://github.com/PipedreamHQ/pipedream/issues/21956) | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-09-10 |  |
-| [[Feature Request]: Generate a PDF file from a XRechnung XML file](https://github.com/Stirling-Tools/Stirling-PDF/issues/2025) 💬 4 | [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) | 93k | 🟡 help wanted | 2026-09-09 |  |
+| [[Feature Request]: Generate a PDF file from a XRechnung XML file](https://github.com/Stirling-Tools/Stirling-PDF/issues/2025) 💬 4 | [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) | 93.1k | 🟡 help wanted | 2026-09-09 |  |
 | [Enhance Security and Self-Service by Allowing Service Account Specification in Target Namespace for Workload I](https://github.com/kedacore/keda/issues/5630) 💬 20 | [kedacore/keda](https://github.com/kedacore/keda) | 10.5k | 🟡 help wanted | 2026-09-09 | 🔏 DCO |
 | [Headscale with reverse proxy Zoraxy not working because allegedly WebSockets are not passing through](https://github.com/tobychui/zoraxy/issues/1012) 💬 9 | [tobychui/zoraxy](https://github.com/tobychui/zoraxy) | 5.5k | 🟡 help wanted | 2026-09-09 |  |
 | [[Bug] Simplepie destroys headers with a JSON value](https://github.com/FreshRSS/FreshRSS/issues/8636) 💬 1 | [FreshRSS/FreshRSS](https://github.com/FreshRSS/FreshRSS) | 16.1k | 🟡 help wanted | 2026-09-08 |  |
@@ -148,7 +147,6 @@
 | [Service Worker Offline](https://github.com/TandoorRecipes/recipes/issues/621) 💬 6 | [TandoorRecipes/recipes](https://github.com/TandoorRecipes/recipes) | 8.6k | 🟢 beginner | 2026-09-06 |  |
 | [Allow versioning to be enabled via ObjectBucketClaim](https://github.com/rook/rook/issues/17318) 💬 9 | [rook/rook](https://github.com/rook/rook) | 13.7k | 🟡 help wanted | 2026-09-05 | 🤖 disclose AI use · 🔏 DCO |
 | [eBay Creating/Publishing Listings](https://github.com/PipedreamHQ/pipedream/issues/21896) | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-09-04 |  |
-| [docs: deduplicate compatibility feature support and interactions](https://github.com/ai-dynamo/dynamo/issues/13211) 💬 1 | [ai-dynamo/dynamo](https://github.com/ai-dynamo/dynamo) | 8.2k | 🟢 beginner | 2026-09-03 | 📄 AI policy · 🔏 DCO |
 | [Add WSS to interop test impl](https://github.com/libp2p/rust-libp2p/issues/3576) 💬 3 | [libp2p/rust-libp2p](https://github.com/libp2p/rust-libp2p) | 5.6k | 🟢 beginner | 2026-09-03 | 🤖 disclose AI use |
 | [Refresh CHYT benchmark results](https://github.com/ClickHouse/ClickBench/issues/1459) | [ClickHouse/ClickBench](https://github.com/ClickHouse/ClickBench) | 1.1k | 🟡 help wanted | 2026-09-03 |  |
 | [ListWatch: StreamWatcher is consuming high memory in high pod churn](https://github.com/kubernetes/kubernetes/issues/129705) 💬 12 | [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) | 128k | 🟡 help wanted | 2026-09-02 | 🤖 disclose AI use · ✍️ CLA |
@@ -177,7 +175,7 @@
 | [improve KIND performance on single node clusters \| leader-elect=false \| proxy-refresh-interval=70000](https://github.com/kubernetes-sigs/kind/issues/2513) 💬 5 | [kubernetes-sigs/kind](https://github.com/kubernetes-sigs/kind) | 15.5k | 🟡 help wanted | 2026-09-01 |  |
 | [building node images requires public internet access and doesn't error if pre-pulling images fails](https://github.com/kubernetes-sigs/kind/issues/2562) 💬 22 | [kubernetes-sigs/kind](https://github.com/kubernetes-sigs/kind) | 15.5k | 🟡 help wanted | 2026-09-01 |  |
 | [Digicert ACME order is failing due to invalid validity_years](https://github.com/cert-manager/cert-manager/issues/7536) 💬 12 | [cert-manager/cert-manager](https://github.com/cert-manager/cert-manager) | 14.1k | 🟢 beginner | 2026-09-01 |  |
-| [No presentation mode when reading PDF on ipad](https://github.com/Kareadita/Kavita/issues/3289) 💬 4 | [Kareadita/Kavita](https://github.com/Kareadita/Kavita) | 11.7k | 🟡 help wanted | 2026-08-31 |  |
+| [No presentation mode when reading PDF on ipad](https://github.com/Kareadita/Kavita/issues/3289) 💬 4 | [Kareadita/Kavita](https://github.com/Kareadita/Kavita) | 11.8k | 🟡 help wanted | 2026-08-31 |  |
 | [Warn if nvidia-docker is not installed](https://github.com/replicate/cog/issues/625) 💬 3 | [replicate/cog](https://github.com/replicate/cog) | 9.5k | 🟢 beginner | 2026-08-31 |  |
 | [Consolidate code snippets from the docs and '/examples' folder](https://github.com/testcontainers/testcontainers-java/issues/1167) 💬 9 | [testcontainers/testcontainers-java](https://github.com/testcontainers/testcontainers-java) | 8.7k | 🟢 beginner | 2026-08-31 |  |
 | [[FEATURE] Extract kyuubiClientPrincipal/kyuubiClientKeytab from JDBC connection properties](https://github.com/apache/kyuubi/issues/6689) 💬 1 | [apache/kyuubi](https://github.com/apache/kyuubi) | 2.4k | 🟢 beginner | 2026-08-31 | 🤖 disclose AI use · ✍️ CLA |
@@ -192,7 +190,7 @@
 | [examples: add examples with other client frameworks](https://github.com/dexidp/dex/issues/320) 💬 11 | [dexidp/dex](https://github.com/dexidp/dex) | 11.1k | 🟡 help wanted | 2026-08-27 | 🔏 DCO |
 | [Improve Exception Message for Missing Project Metadata Annotation in ResourceContainerImageBuilder.cs](https://github.com/microsoft/aspire/issues/11299) 💬 13 | [microsoft/aspire](https://github.com/microsoft/aspire) | 6.3k | 🟢 beginner | 2026-08-26 |  |
 | [Spanish translations](https://github.com/Smaug6739/Alexandrie/issues/651) | [Smaug6739/Alexandrie](https://github.com/Smaug6739/Alexandrie) | 2.8k | 🟢 beginner | 2026-08-26 |  |
-| [Cannot scrape targets specified by mDNS name](https://github.com/prometheus/prometheus/issues/2537) 💬 28 | [prometheus/prometheus](https://github.com/prometheus/prometheus) | 66.2k | 🟡 help wanted | 2026-08-25 | 🔏 DCO |
+| [Cannot scrape targets specified by mDNS name](https://github.com/prometheus/prometheus/issues/2537) 💬 28 | [prometheus/prometheus](https://github.com/prometheus/prometheus) | 66.3k | 🟡 help wanted | 2026-08-25 | 🔏 DCO |
 | [Cannot deploy Tooljet when database uses a unix socket, likely due to a regression after wait-for-it was intro](https://github.com/ToolJet/ToolJet/issues/4618) 💬 3 | [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) | 41k | 🟡 help wanted | 2026-08-25 | 🤖 disclose AI use |
 | [Encrypted HTTP headers in REST and GraphQL sources](https://github.com/ToolJet/ToolJet/issues/5113) | [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) | 41k | 🟡 help wanted | 2026-08-25 | 🤖 disclose AI use |
 | [AWS S3 feature request - add a new operation called "Multipart Upload"](https://github.com/ToolJet/ToolJet/issues/5689) 💬 5 | [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) | 41k | 🟡 help wanted | 2026-08-25 | 🤖 disclose AI use |
@@ -210,5 +208,7 @@
 | [[riddle_quiz_maker] Update app metadata: description, logo and MCP URL](https://github.com/PipedreamHQ/pipedream/issues/21717) | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-08-20 |  |
 | [Cannot start a Multipass instance that previously used a native mount, if the directory is not available in th](https://github.com/canonical/multipass/issues/4957) 💬 4 | [canonical/multipass](https://github.com/canonical/multipass) | 9.3k | 🟢 beginner | 2026-08-20 | ✍️ CLA |
 | [Allow specifying wildcards ('*') for '--[ug]id-map' on mounts](https://github.com/canonical/multipass/issues/1200) 💬 10 | [canonical/multipass](https://github.com/canonical/multipass) | 9.3k | 🟢 beginner | 2026-08-20 | ✍️ CLA |
+| [Can't handle parallel installs](https://github.com/canonical/multipass/issues/1129) 💬 6 | [canonical/multipass](https://github.com/canonical/multipass) | 9.3k | 🟡 help wanted | 2026-08-20 | ✍️ CLA |
+| [[delete] suspend and resume running instances when deleting](https://github.com/canonical/multipass/issues/549) 💬 2 | [canonical/multipass](https://github.com/canonical/multipass) | 9.3k | 🟡 help wanted | 2026-08-20 | ✍️ CLA |
 
-Showing the 200 most recently updated. See all 491 on the website.
+Showing the 200 most recently updated. See all 487 on the website.

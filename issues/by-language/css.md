@@ -1,8 +1,8 @@
 # CSS issues
 
-**25** open issues (19 labeled for beginners) across **6** active CSS projects.
+**22** open issues (16 labeled for beginners) across **6** active CSS projects.
 
-> Updated automatically on **2026-09-26 10:54 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-26 20:55 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -11,23 +11,20 @@
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
 | [Add an OpenType Math version: Source Serif Pro Math](https://github.com/adobe-fonts/source-serif/issues/13) 💬 23 | [adobe-fonts/source-serif](https://github.com/adobe-fonts/source-serif) | 2.4k | 🟡 help wanted | 2026-09-17 |  |
-| [Fork, Commit, Merge - Medium Issue 2 (React.js)](https://github.com/fork-commit-merge/fork-commit-merge/issues/8091) 💬 1 | [fork-commit-merge/fork-commit-merge](https://github.com/fork-commit-merge/fork-commit-merge) | 510 | 🟢 beginner | 2026-09-01 |  |
-| [Fork, Commit, Merge - Medium Issue (Docker)](https://github.com/fork-commit-merge/fork-commit-merge/issues/8112) | [fork-commit-merge/fork-commit-merge](https://github.com/fork-commit-merge/fork-commit-merge) | 510 | 🟢 beginner | 2026-09-01 |  |
-| [Fork, Commit, Merge - Hard Issue (Docker)](https://github.com/fork-commit-merge/fork-commit-merge/issues/8111) | [fork-commit-merge/fork-commit-merge](https://github.com/fork-commit-merge/fork-commit-merge) | 510 | 🟡 help wanted | 2026-09-01 |  |
-| [Fork, Commit, Merge - Hard Issue (Bash)](https://github.com/fork-commit-merge/fork-commit-merge/issues/8110) | [fork-commit-merge/fork-commit-merge](https://github.com/fork-commit-merge/fork-commit-merge) | 510 | 🟡 help wanted | 2026-09-01 |  |
-| [Fork, Commit, Merge - Medium Issue (Solid.js)](https://github.com/fork-commit-merge/fork-commit-merge/issues/8109) | [fork-commit-merge/fork-commit-merge](https://github.com/fork-commit-merge/fork-commit-merge) | 510 | 🟢 beginner | 2026-09-01 |  |
-| [Fork, Commit, Merge - Easy Issue (Solid.js)](https://github.com/fork-commit-merge/fork-commit-merge/issues/8108) | [fork-commit-merge/fork-commit-merge](https://github.com/fork-commit-merge/fork-commit-merge) | 510 | 🟢 beginner | 2026-09-01 |  |
-| [Fork, Commit, Merge - Easy Issue 3 (PHP)](https://github.com/fork-commit-merge/fork-commit-merge/issues/8106) | [fork-commit-merge/fork-commit-merge](https://github.com/fork-commit-merge/fork-commit-merge) | 510 | 🟢 beginner | 2026-09-01 |  |
-| [Fork, Commit, Merge - Easy Issue 2 (PHP)](https://github.com/fork-commit-merge/fork-commit-merge/issues/8104) | [fork-commit-merge/fork-commit-merge](https://github.com/fork-commit-merge/fork-commit-merge) | 510 | 🟢 beginner | 2026-09-01 |  |
-| [Fork, Commit, Merge - Easy Issue (Next.js)](https://github.com/fork-commit-merge/fork-commit-merge/issues/8103) | [fork-commit-merge/fork-commit-merge](https://github.com/fork-commit-merge/fork-commit-merge) | 510 | 🟢 beginner | 2026-09-01 |  |
-| [Fork, Commit, Merge - Easy Issue 3 (Dart)](https://github.com/fork-commit-merge/fork-commit-merge/issues/8101) | [fork-commit-merge/fork-commit-merge](https://github.com/fork-commit-merge/fork-commit-merge) | 510 | 🟢 beginner | 2026-09-01 |  |
-| [Fork, Commit, Merge - Easy Issue 2 (Dart)](https://github.com/fork-commit-merge/fork-commit-merge/issues/8100) | [fork-commit-merge/fork-commit-merge](https://github.com/fork-commit-merge/fork-commit-merge) | 510 | 🟢 beginner | 2026-09-01 |  |
-| [Fork, Commit, Merge - Easy Issue 3 (HTML)](https://github.com/fork-commit-merge/fork-commit-merge/issues/8099) | [fork-commit-merge/fork-commit-merge](https://github.com/fork-commit-merge/fork-commit-merge) | 510 | 🟢 beginner | 2026-09-01 |  |
-| [Fork, Commit, Merge - Easy Issue 2 (HTML)](https://github.com/fork-commit-merge/fork-commit-merge/issues/8098) | [fork-commit-merge/fork-commit-merge](https://github.com/fork-commit-merge/fork-commit-merge) | 510 | 🟢 beginner | 2026-09-01 |  |
-| [Fork, Commit, Merge - Easy Issue 1 (Dart)](https://github.com/fork-commit-merge/fork-commit-merge/issues/8095) | [fork-commit-merge/fork-commit-merge](https://github.com/fork-commit-merge/fork-commit-merge) | 510 | 🟢 beginner | 2026-09-01 |  |
-| [Fork, Commit, Merge - Easy Issue (C#)](https://github.com/fork-commit-merge/fork-commit-merge/issues/8094) | [fork-commit-merge/fork-commit-merge](https://github.com/fork-commit-merge/fork-commit-merge) | 510 | 🟢 beginner | 2026-09-01 |  |
-| [Fork, Commit, Merge - Easy Issue (Bash)](https://github.com/fork-commit-merge/fork-commit-merge/issues/8092) | [fork-commit-merge/fork-commit-merge](https://github.com/fork-commit-merge/fork-commit-merge) | 510 | 🟢 beginner | 2026-09-01 |  |
-| [Fork, Commit, Merge - Medium Issue 1 (React.js)](https://github.com/fork-commit-merge/fork-commit-merge/issues/8090) | [fork-commit-merge/fork-commit-merge](https://github.com/fork-commit-merge/fork-commit-merge) | 510 | 🟢 beginner | 2026-09-01 |  |
+| [Fork, Commit, Merge - Medium Issue 2 (React.js)](https://github.com/fork-commit-merge/fork-commit-merge/issues/8091) 💬 1 | [fork-commit-merge/fork-commit-merge](https://github.com/fork-commit-merge/fork-commit-merge) | 511 | 🟢 beginner | 2026-09-01 |  |
+| [Fork, Commit, Merge - Medium Issue (Docker)](https://github.com/fork-commit-merge/fork-commit-merge/issues/8112) | [fork-commit-merge/fork-commit-merge](https://github.com/fork-commit-merge/fork-commit-merge) | 511 | 🟢 beginner | 2026-09-01 |  |
+| [Fork, Commit, Merge - Hard Issue (Docker)](https://github.com/fork-commit-merge/fork-commit-merge/issues/8111) | [fork-commit-merge/fork-commit-merge](https://github.com/fork-commit-merge/fork-commit-merge) | 511 | 🟡 help wanted | 2026-09-01 |  |
+| [Fork, Commit, Merge - Hard Issue (Bash)](https://github.com/fork-commit-merge/fork-commit-merge/issues/8110) | [fork-commit-merge/fork-commit-merge](https://github.com/fork-commit-merge/fork-commit-merge) | 511 | 🟡 help wanted | 2026-09-01 |  |
+| [Fork, Commit, Merge - Medium Issue (Solid.js)](https://github.com/fork-commit-merge/fork-commit-merge/issues/8109) | [fork-commit-merge/fork-commit-merge](https://github.com/fork-commit-merge/fork-commit-merge) | 511 | 🟢 beginner | 2026-09-01 |  |
+| [Fork, Commit, Merge - Easy Issue (Solid.js)](https://github.com/fork-commit-merge/fork-commit-merge/issues/8108) | [fork-commit-merge/fork-commit-merge](https://github.com/fork-commit-merge/fork-commit-merge) | 511 | 🟢 beginner | 2026-09-01 |  |
+| [Fork, Commit, Merge - Easy Issue 3 (PHP)](https://github.com/fork-commit-merge/fork-commit-merge/issues/8106) | [fork-commit-merge/fork-commit-merge](https://github.com/fork-commit-merge/fork-commit-merge) | 511 | 🟢 beginner | 2026-09-01 |  |
+| [Fork, Commit, Merge - Easy Issue 2 (PHP)](https://github.com/fork-commit-merge/fork-commit-merge/issues/8104) | [fork-commit-merge/fork-commit-merge](https://github.com/fork-commit-merge/fork-commit-merge) | 511 | 🟢 beginner | 2026-09-01 |  |
+| [Fork, Commit, Merge - Easy Issue (Next.js)](https://github.com/fork-commit-merge/fork-commit-merge/issues/8103) | [fork-commit-merge/fork-commit-merge](https://github.com/fork-commit-merge/fork-commit-merge) | 511 | 🟢 beginner | 2026-09-01 |  |
+| [Fork, Commit, Merge - Easy Issue 3 (Dart)](https://github.com/fork-commit-merge/fork-commit-merge/issues/8101) | [fork-commit-merge/fork-commit-merge](https://github.com/fork-commit-merge/fork-commit-merge) | 511 | 🟢 beginner | 2026-09-01 |  |
+| [Fork, Commit, Merge - Easy Issue 2 (Dart)](https://github.com/fork-commit-merge/fork-commit-merge/issues/8100) | [fork-commit-merge/fork-commit-merge](https://github.com/fork-commit-merge/fork-commit-merge) | 511 | 🟢 beginner | 2026-09-01 |  |
+| [Fork, Commit, Merge - Easy Issue 3 (HTML)](https://github.com/fork-commit-merge/fork-commit-merge/issues/8099) | [fork-commit-merge/fork-commit-merge](https://github.com/fork-commit-merge/fork-commit-merge) | 511 | 🟢 beginner | 2026-09-01 |  |
+| [Fork, Commit, Merge - Easy Issue 2 (HTML)](https://github.com/fork-commit-merge/fork-commit-merge/issues/8098) | [fork-commit-merge/fork-commit-merge](https://github.com/fork-commit-merge/fork-commit-merge) | 511 | 🟢 beginner | 2026-09-01 |  |
+| [Fork, Commit, Merge - Easy Issue 1 (Dart)](https://github.com/fork-commit-merge/fork-commit-merge/issues/8095) | [fork-commit-merge/fork-commit-merge](https://github.com/fork-commit-merge/fork-commit-merge) | 511 | 🟢 beginner | 2026-09-01 |  |
 | [Possibility to change LoadSimulationsSettings within a JSON file with values provided from command line argume](https://github.com/PragmaticFlow/NBomber/issues/672) 💬 9 | [PragmaticFlow/NBomber](https://github.com/PragmaticFlow/NBomber) | 2.2k | 🟡 help wanted | 2026-07-15 |  |
 | [Link Checker Report](https://github.com/data-engineering-community/data-engineering-wiki/issues/151) | [data-engineering-community/data-engineering-wiki](https://github.com/data-engineering-community/data-engineering-wiki) | 2k | 🟢 beginner | 2026-05-25 | ⚠️ AI restricted |
 | [Link Checker Report](https://github.com/data-engineering-community/data-engineering-wiki/issues/149) | [data-engineering-community/data-engineering-wiki](https://github.com/data-engineering-community/data-engineering-wiki) | 2k | 🟢 beginner | 2026-05-18 | ⚠️ AI restricted |

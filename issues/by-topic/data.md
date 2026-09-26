@@ -1,8 +1,8 @@
 # Data and databases issues
 
-**295** open issues (138 labeled for beginners) across **89** projects tagged with topics like `database`, `sql`, `postgresql`, `mysql`, `sqlite`, `nosql`.
+**292** open issues (136 labeled for beginners) across **89** projects tagged with topics like `database`, `sql`, `postgresql`, `mysql`, `sqlite`, `nosql`.
 
-> Updated automatically on **2026-09-26 10:54 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-26 20:55 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -45,7 +45,6 @@
 | [\\echo and \\warn -n problem on interactive](https://github.com/xo/usql/issues/215) 💬 1 | [xo/usql](https://github.com/xo/usql) | 10.1k | 🟡 help wanted | 2026-09-23 |  |
 | [feature: support vi key bindings (ala readline/bash/psql vi modes)](https://github.com/xo/usql/issues/236) 💬 5 | [xo/usql](https://github.com/xo/usql) | 10.1k | 🟡 help wanted | 2026-09-23 |  |
 | ['\\ss' without arguments lists columns for all tables](https://github.com/xo/usql/issues/363) 💬 2 | [xo/usql](https://github.com/xo/usql) | 10.1k | 🟡 help wanted | 2026-09-23 |  |
-| [Implement privilege related \\d commands](https://github.com/xo/usql/issues/172) | [xo/usql](https://github.com/xo/usql) | 10.1k | 🟡 help wanted | 2026-09-23 |  |
 | [积木报表在线填报表单中数据字典不能获取系统中已有数据字典、新增又提示编码已经存在](https://github.com/jeecgboot/jimureport/issues/4797) | [jeecgboot/jimureport](https://github.com/jeecgboot/jimureport) | 8.5k | 🟡 help wanted | 2026-09-23 |  |
 | [积木报表横向分组一级标题无法设置分组合计](https://github.com/jeecgboot/jimureport/issues/4796) 💬 1 | [jeecgboot/jimureport](https://github.com/jeecgboot/jimureport) | 8.5k | 🟡 help wanted | 2026-09-23 |  |
 | [Unit test stub autogenerator](https://github.com/apache/hamilton/issues/74) 💬 6 | [apache/hamilton](https://github.com/apache/hamilton) | 2.6k | 🟢 beginner | 2026-09-23 | ✍️ CLA |
@@ -115,7 +114,6 @@
 | [GCS needs someone with a real bucket to run its test](https://github.com/deeplethe/utopia/issues/214) | [deeplethe/utopia](https://github.com/deeplethe/utopia) | 7.9k | 🟡 help wanted | 2026-09-02 | ✍️ CLA · 🔏 DCO |
 | [Improve logging for circuit breakers](https://github.com/elastic/elasticsearch/issues/62452) 💬 11 | [elastic/elasticsearch](https://github.com/elastic/elasticsearch) | 78k | 🟡 help wanted | 2026-09-01 | ✍️ CLA |
 | [Add resource ID to 404 response body](https://github.com/elastic/elasticsearch/issues/82675) 💬 17 | [elastic/elasticsearch](https://github.com/elastic/elasticsearch) | 78k | 🟡 help wanted | 2026-09-01 | ✍️ CLA |
-| [Replace azure-cosmos by azure-mgmt-cosmosdb](https://github.com/apache/airflow/issues/9742) 💬 7 | [apache/airflow](https://github.com/apache/airflow) | 47k | 🟢 beginner | 2026-09-01 | 🤖 disclose AI use · ✍️ CLA |
 | [Firebase Support](https://github.com/typeorm/typeorm/issues/2769) 💬 9 | [typeorm/typeorm](https://github.com/typeorm/typeorm) | 36.7k | 🟢 beginner | 2026-09-01 |  |
 | [[BUG] String(s) terminate after 2000 chars](https://github.com/opensearch-project/OpenSearch/issues/6323) 💬 11 | [opensearch-project/OpenSearch](https://github.com/opensearch-project/OpenSearch) | 13.8k | 🟢 beginner | 2026-09-01 | 🔏 DCO |
 | [[FEA] Add support to str.normalize_spaces and str.normalize_characters in dask_cudf](https://github.com/NVIDIA/cudf/issues/10908) 💬 1 | [NVIDIA/cudf](https://github.com/NVIDIA/cudf) | 9.8k | 🟢 beginner | 2026-09-01 |  |
@@ -210,5 +208,7 @@
 | [Github Action for automatically running pgbench](https://github.com/supabase/supavisor/issues/11) 💬 4 | [supabase/supavisor](https://github.com/supabase/supavisor) | 2.3k | 🟢 beginner | 2026-07-15 |  |
 | [Dashboards: template variables result in invalid regex for profiles panels](https://github.com/grafana/grafana/issues/68092) 💬 9 | [grafana/grafana](https://github.com/grafana/grafana) | 76.9k | 🟢 beginner | 2026-07-14 | ✍️ CLA |
 | [OSX compatibility](https://github.com/cboxdoerfer/fsearch/issues/7) 💬 14 | [cboxdoerfer/fsearch](https://github.com/cboxdoerfer/fsearch) | 4.4k | 🟡 help wanted | 2026-07-14 |  |
+| [Model calculation is not able to read features from stdin](https://github.com/catboost/catboost/issues/200) 💬 4 | [catboost/catboost](https://github.com/catboost/catboost) | 9.1k | 🟢 beginner | 2026-07-13 |  |
+| ['Booster.save_model(format="pmml")' is highly inefficient in size.](https://github.com/catboost/catboost/issues/2387) 💬 5 | [catboost/catboost](https://github.com/catboost/catboost) | 9.1k | 🟢 beginner | 2026-07-13 |  |
 
-Showing the 200 most recently updated. See all 295 on the website.
+Showing the 200 most recently updated. See all 292 on the website.

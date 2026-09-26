@@ -1,8 +1,8 @@
 # Lua issues
 
-**15** open issues (10 labeled for beginners) across **10** active Lua projects.
+**14** open issues (9 labeled for beginners) across **9** active Lua projects.
 
-> Updated automatically on **2026-09-26 10:54 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-26 20:55 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,9 +10,8 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [make it more obvious whether we are using an ACP provider](https://github.com/avante-corp/avante.nvim/issues/3257) | [avante-corp/avante.nvim](https://github.com/avante-corp/avante.nvim) | 18.2k | 🟢 beginner | 2026-09-23 |  |
 | [Locations with known existing but non-public feeds](https://github.com/public-transport/transitous/issues/585) 💬 10 | [public-transport/transitous](https://github.com/public-transport/transitous) | 720 | 🟢 beginner | 2026-09-11 |  |
-| [[Feature] 可否将标注的想法同步到微信读书功能](https://github.com/finlater/weread.koplugin/issues/126) 💬 7 | [finlater/weread.koplugin](https://github.com/finlater/weread.koplugin) | 822 | 🟡 help wanted | 2026-09-05 |  |
+| [[Feature] 可否将标注的想法同步到微信读书功能](https://github.com/finlater/weread.koplugin/issues/126) 💬 7 | [finlater/weread.koplugin](https://github.com/finlater/weread.koplugin) | 823 | 🟡 help wanted | 2026-09-05 |  |
 | [Integrate Swedish realtime feeds](https://github.com/public-transport/transitous/issues/125) 💬 7 | [public-transport/transitous](https://github.com/public-transport/transitous) | 720 | 🟢 beginner | 2026-08-06 |  |
 | [Give reason for damage done by tnt](https://github.com/luanti-org/minetest_game/issues/3263) | [luanti-org/minetest_game](https://github.com/luanti-org/minetest_game) | 1.6k | 🟢 beginner | 2026-08-02 |  |
 | ['util.trim_string_to_width("asdf", 2)' causes maiden to crash](https://github.com/monome/norns/issues/1636) 💬 1 | [monome/norns](https://github.com/monome/norns) | 732 | 🟢 beginner | 2026-07-30 |  |

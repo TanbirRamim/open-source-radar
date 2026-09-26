@@ -1,8 +1,8 @@
 # Java issues
 
-**250** open issues (101 labeled for beginners) across **81** active Java projects.
+**250** open issues (101 labeled for beginners) across **80** active Java projects.
 
-> Updated automatically on **2026-09-26 10:54 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-26 20:55 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,7 +10,7 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [Opt-in to Arm Memory Tagging Extensions (MTE)](https://github.com/TeamNewPipe/NewPipe/issues/12644) 💬 5 | [TeamNewPipe/NewPipe](https://github.com/TeamNewPipe/NewPipe) | 39.8k | 🟢 beginner | 2026-09-26 | 📄 AI policy |
+| [Opt-in to Arm Memory Tagging Extensions (MTE)](https://github.com/TeamNewPipe/NewPipe/issues/12644) 💬 6 | [TeamNewPipe/NewPipe](https://github.com/TeamNewPipe/NewPipe) | 39.8k | 🟢 beginner | 2026-09-26 | 📄 AI policy |
 | [[Task] Remove the unused MemorySafeWindowTinyLFUMap implementation](https://github.com/apache/shenyu/issues/7309) 💬 1 | [apache/shenyu](https://github.com/apache/shenyu) | 8.8k | 🟢 beginner | 2026-09-26 |  |
 | [client-facade.ts: replace explicit 'any' with real types](https://github.com/kestra-io/kestra/issues/19274) 💬 2 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 28.4k | 🟢 beginner | 2026-09-25 |  |
 | [Device authorization user_code verification has no server-side rate limit](https://github.com/keycloak/keycloak/issues/51275) 💬 2 | [keycloak/keycloak](https://github.com/keycloak/keycloak) | 37k | 🟡 help wanted | 2026-09-24 | 🤖 disclose AI use · 🔏 DCO |
@@ -58,7 +58,7 @@
 | [Support for Vavr types?](https://github.com/micronaut-projects/micronaut-core/issues/3520) 💬 2 | [micronaut-projects/micronaut-core](https://github.com/micronaut-projects/micronaut-core) | 6.4k | 🟡 help wanted | 2026-09-11 |  |
 | [How do you use SNI with SSL?](https://github.com/micronaut-projects/micronaut-core/issues/1131) 💬 1 | [micronaut-projects/micronaut-core](https://github.com/micronaut-projects/micronaut-core) | 6.4k | 🟡 help wanted | 2026-09-11 |  |
 | [Full-duplex support for browsers that do not support WebSocket](https://github.com/micronaut-projects/micronaut-core/issues/583) 💬 2 | [micronaut-projects/micronaut-core](https://github.com/micronaut-projects/micronaut-core) | 6.4k | 🟡 help wanted | 2026-09-11 |  |
-| [[Feature Request]: Generate a PDF file from a XRechnung XML file](https://github.com/Stirling-Tools/Stirling-PDF/issues/2025) 💬 4 | [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) | 93k | 🟡 help wanted | 2026-09-09 |  |
+| [[Feature Request]: Generate a PDF file from a XRechnung XML file](https://github.com/Stirling-Tools/Stirling-PDF/issues/2025) 💬 4 | [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) | 93.1k | 🟡 help wanted | 2026-09-09 |  |
 | [[Feature][WorkflowTiming] Supports multiple timing plans for one workflow](https://github.com/apache/dolphinscheduler/issues/15151) 💬 7 | [apache/dolphinscheduler](https://github.com/apache/dolphinscheduler) | 14.5k | 🟡 help wanted | 2026-09-08 |  |
 | [Delay component](https://github.com/logisim-evolution/logisim-evolution/issues/1840) 💬 26 | [logisim-evolution/logisim-evolution](https://github.com/logisim-evolution/logisim-evolution) | 7.7k | 🟡 help wanted | 2026-09-08 |  |
 | [Support Bearer Tokens for authenticating instead of using a token in basic auth](https://github.com/Graylog2/graylog2-server/issues/5167) 💬 2 | [Graylog2/graylog2-server](https://github.com/Graylog2/graylog2-server) | 8.1k | 🟢 beginner | 2026-09-07 |  |
@@ -171,7 +171,6 @@
 | [[JENKINS-42816] Agent terminology cleanup](https://github.com/jenkinsci/jenkins/issues/21944) 💬 9 | [jenkinsci/jenkins](https://github.com/jenkinsci/jenkins) | 26.6k | 🟡 help wanted | 2026-07-08 | ✍️ CLA |
 | [Improve UX for beginner users](https://github.com/Col-E/Recaf/issues/230) | [Col-E/Recaf](https://github.com/Col-E/Recaf) | 7.4k | 🟡 help wanted | 2026-07-08 |  |
 | [Disable colors in logs](https://github.com/tchiotludo/akhq/issues/917) 💬 9 | [tchiotludo/akhq](https://github.com/tchiotludo/akhq) | 3.9k | 🟢 beginner | 2026-07-08 |  |
-| [Limit the cardinality of request metrics](https://github.com/line/armeria/issues/2149) 💬 9 | [line/armeria](https://github.com/line/armeria) | 5.1k | 🟢 beginner | 2026-07-07 |  |
 | [runtime_type_check DoFn wrapper doesn't call setup and teardown](https://github.com/apache/beam/issues/20059) 💬 6 | [apache/beam](https://github.com/apache/beam) | 8.7k | 🟢 beginner | 2026-07-05 | ✍️ CLA |
 | [Hide health status timeline per partition in a row](https://github.com/camunda/camunda/issues/29579) 💬 1 | [camunda/camunda](https://github.com/camunda/camunda) | 4.3k | 🟢 beginner | 2026-07-01 | ✍️ CLA |
 | [online java 导入增强优化](https://github.com/jeecgboot/JeecgBoot/issues/9735) | [jeecgboot/JeecgBoot](https://github.com/jeecgboot/JeecgBoot) | 48k | 🟡 help wanted | 2026-06-30 |  |
@@ -210,5 +209,6 @@
 | [[Best Pratice] JavaWeb Integration Solution](https://github.com/agentscope-ai/agentscope-java/issues/113) 💬 3 | [agentscope-ai/agentscope-java](https://github.com/agentscope-ai/agentscope-java) | 5.8k | 🟡 help wanted | 2026-05-28 |  |
 | [[Feature] MCP Tool notification support](https://github.com/agentscope-ai/agentscope-java/issues/115) 💬 3 | [agentscope-ai/agentscope-java](https://github.com/agentscope-ai/agentscope-java) | 5.8k | 🟡 help wanted | 2026-05-28 |  |
 | [[Proposal Wanted] Merge deployment support](https://github.com/agentscope-ai/agentscope-java/issues/116) | [agentscope-ai/agentscope-java](https://github.com/agentscope-ai/agentscope-java) | 5.8k | 🟡 help wanted | 2026-05-28 |  |
+| [[Docs]: Divide Docs into functional usage and principle sections](https://github.com/agentscope-ai/agentscope-java/issues/216) 💬 1 | [agentscope-ai/agentscope-java](https://github.com/agentscope-ai/agentscope-java) | 5.8k | 🟡 help wanted | 2026-05-28 |  |
 
 Showing the 200 most recently updated. See all 250 on the website.
