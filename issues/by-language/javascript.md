@@ -2,7 +2,7 @@
 
 **161** open issues (76 labeled for beginners) across **62** active JavaScript projects.
 
-> Updated automatically on **2026-09-25 21:30 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-26 10:54 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,6 +10,7 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [error handler of same domain can be called several times when it throws](https://github.com/nodejs/node/issues/25505) 💬 4 | [nodejs/node](https://github.com/nodejs/node) | 122.1k | 🟡 help wanted | 2026-09-26 | 🤖 disclose AI use · 🔏 DCO |
 | [UI Lag when using 1Password env file](https://github.com/usebruno/bruno/issues/6057) 💬 13 | [usebruno/bruno](https://github.com/usebruno/bruno) | 47.2k | 🟢 beginner | 2026-09-25 |  |
 | [[p5.js 2.0+ Bug Report]: computeNormals(SMOOTH) destroys uv attribute](https://github.com/processing/p5.js/issues/9205) 💬 2 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-09-25 | ⚠️ AI restricted |
 | [exif orientation is handled incorrectly](https://github.com/parallax/jsPDF/issues/3795) 💬 8 | [parallax/jsPDF](https://github.com/parallax/jsPDF) | 31.3k | 🟡 help wanted | 2026-09-24 |  |
@@ -122,7 +123,7 @@
 | [Incorrect message when branch is not recognized as release branch](https://github.com/semantic-release/semantic-release/issues/1443) 💬 8 | [semantic-release/semantic-release](https://github.com/semantic-release/semantic-release) | 24.1k | 🟡 help wanted | 2026-07-16 |  |
 | [SMS Text to Speech/ Calling notification service](https://github.com/louislam/uptime-kuma/issues/3295) 💬 13 | [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) | 91.8k | 🟡 help wanted | 2026-07-12 | ⚠️ AI restricted |
 | [[ACTION] Contacts+](https://github.com/PipedreamHQ/pipedream/issues/21328) 💬 2 | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-07-11 |  |
-| [Integration: Microsoft Login / MS Graph API](https://github.com/sahat/hackathon-starter/issues/1357) 💬 2 | [sahat/hackathon-starter](https://github.com/sahat/hackathon-starter) | 35.2k | 🟡 help wanted | 2026-07-09 |  |
+| [Integration: Microsoft Login / MS Graph API](https://github.com/sahat/hackathon-starter/issues/1357) 💬 2 | [sahat/hackathon-starter](https://github.com/sahat/hackathon-starter) | 35.3k | 🟡 help wanted | 2026-07-09 |  |
 | [Label double moves on batch movement](https://github.com/bpmn-io/bpmn-js/issues/1766) 💬 3 | [bpmn-io/bpmn-js](https://github.com/bpmn-io/bpmn-js) | 9.7k | 🟢 beginner | 2026-07-08 |  |
 | [Corrupted styles with third-party component using cssInterop and shadows](https://github.com/nativewind/nativewind/issues/1418) 💬 2 | [nativewind/nativewind](https://github.com/nativewind/nativewind) | 8.1k | 🟡 help wanted | 2026-07-08 |  |
 | [[Help] disable the physical touchscreen](https://github.com/viarotel-org/escrcpy/issues/613) 💬 1 | [viarotel-org/escrcpy](https://github.com/viarotel-org/escrcpy) | 11.9k | 🟡 help wanted | 2026-07-05 |  |
@@ -135,7 +136,6 @@
 | [Large graph layout performance](https://github.com/lutzroeder/netron/issues/1369) | [lutzroeder/netron](https://github.com/lutzroeder/netron) | 33.5k | 🟡 help wanted | 2026-06-29 |  |
 | [GitHub 提问 (Issue) 高质量操作指南](https://github.com/justlovemaki/AIClient2API/issues/128) 💬 2 | [justlovemaki/AIClient2API](https://github.com/justlovemaki/AIClient2API) | 8.8k | 🟢 beginner | 2026-06-29 |  |
 | [manage: Promise was rejected because the browsing context is going away](https://github.com/openstyles/stylus/issues/2152) 💬 1 | [openstyles/stylus](https://github.com/openstyles/stylus) | 6.9k | 🟡 help wanted | 2026-06-29 |  |
-| [error handler of same domain can be called several times when it throws](https://github.com/nodejs/node/issues/25505) 💬 3 | [nodejs/node](https://github.com/nodejs/node) | 122.1k | 🟡 help wanted | 2026-06-27 | 🤖 disclose AI use · 🔏 DCO |
 | [Beautifier spoils pseudo-classes and pseudo-elements inside nested CSS, .userCSS, '@supports' or '@media'](https://github.com/openstyles/stylus/issues/1960) 💬 2 | [openstyles/stylus](https://github.com/openstyles/stylus) | 6.9k | 🟡 help wanted | 2026-06-25 |  |
 | [[TRIGGER] Facebook Pages webhooks](https://github.com/PipedreamHQ/pipedream/issues/21070) 💬 1 | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-06-24 |  |
 | [Option to not put a space before /&gt; in self-closing tags](https://github.com/beautifier/js-beautify/issues/654) 💬 13 | [beautifier/js-beautify](https://github.com/beautifier/js-beautify) | 9k | 🟢 beginner | 2026-06-23 |  |

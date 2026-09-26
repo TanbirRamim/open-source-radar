@@ -1,8 +1,8 @@
 # Games and graphics issues
 
-**162** open issues (87 labeled for beginners) across **51** projects tagged with topics like `game`, `game-engine`, `gamedev`, `graphics`, `opengl`, `vulkan`.
+**160** open issues (85 labeled for beginners) across **51** projects tagged with topics like `game`, `game-engine`, `gamedev`, `graphics`, `opengl`, `vulkan`.
 
-> Updated automatically on **2026-09-25 21:30 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-26 10:54 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -12,7 +12,6 @@
 | --- | --- | ---: | --- | --- | --- |
 | [TechDraw: Keyboard navigation of the Section Plane is chaotic](https://github.com/FreeCAD/FreeCAD/issues/30833) 💬 3 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.8k | 🟢 beginner | 2026-09-25 | ⚠️ AI restricted |
 | [[p5.js 2.0+ Bug Report]: computeNormals(SMOOTH) destroys uv attribute](https://github.com/processing/p5.js/issues/9205) 💬 2 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-09-25 | ⚠️ AI restricted |
-| [Create ObjectAsset.cpp](https://github.com/OpenRCT2/OpenRCT2/issues/27199) | [OpenRCT2/OpenRCT2](https://github.com/OpenRCT2/OpenRCT2) | 16.3k | 🟢 beginner | 2026-09-25 |  |
 | [train: hot reloading for faster prototyping](https://github.com/tracel-ai/burn/issues/3571) 💬 2 | [tracel-ai/burn](https://github.com/tracel-ai/burn) | 16k | 🟡 help wanted | 2026-09-25 |  |
 | [[Godot] SDFGI broken with Intel Arc GPUs](https://github.com/Redot-Engine/redot-engine/issues/156) 💬 9 | [Redot-Engine/redot-engine](https://github.com/Redot-Engine/redot-engine) | 6.1k | 🟡 help wanted | 2026-09-25 | ⚠️ AI restricted |
 | [Digitally sign Windows releases 1.3](https://github.com/Shrey113/Android-Dex/issues/187) 💬 1 | [Shrey113/Android-Dex](https://github.com/Shrey113/Android-Dex) | 2.7k | 🟢 beginner | 2026-09-25 |  |
@@ -42,7 +41,6 @@
 | [Support for cursors change](https://github.com/f3d-app/f3d/issues/3492) | [f3d-app/f3d](https://github.com/f3d-app/f3d) | 4.7k | 🟡 help wanted | 2026-09-18 | 🤖 disclose AI use |
 | [OpenGL error with grid reflection and volume option](https://github.com/f3d-app/f3d/issues/3488) | [f3d-app/f3d](https://github.com/f3d-app/f3d) | 4.7k | 🟡 help wanted | 2026-09-18 | 🤖 disclose AI use |
 | [USD: GPU sparse blend shapes support](https://github.com/f3d-app/f3d/issues/3218) 💬 9 | [f3d-app/f3d](https://github.com/f3d-app/f3d) | 4.7k | 🟡 help wanted | 2026-09-18 | 🤖 disclose AI use |
-| [shaders/log file location should be bound to '-config_path'](https://github.com/xemu-project/xemu/issues/2480) 💬 1 | [xemu-project/xemu](https://github.com/xemu-project/xemu) | 4.1k | 🟢 beginner | 2026-09-18 |  |
 | [Crash just after loading screen due to 'ERROR: Parameter "tex" is null'](https://github.com/Revolutionary-Games/Thrive/issues/6981) 💬 8 | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) | 3.7k | 🟡 help wanted | 2026-09-18 |  |
 | [Core: Transform context menu option of datums does not work](https://github.com/FreeCAD/FreeCAD/issues/32385) 💬 3 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 33.8k | 🟢 beginner | 2026-09-17 | ⚠️ AI restricted |
 | [Improve Windows Thumbnailer](https://github.com/f3d-app/f3d/issues/797) 💬 5 | [f3d-app/f3d](https://github.com/f3d-app/f3d) | 4.7k | 🟡 help wanted | 2026-09-17 | 🤖 disclose AI use |
@@ -92,7 +90,7 @@
 | [Allow NPCs to milk cows](https://github.com/CleverRaven/Cataclysm-DDA/issues/86410) | [CleverRaven/Cataclysm-DDA](https://github.com/CleverRaven/Cataclysm-DDA) | 13.2k | 🟢 beginner | 2026-07-26 |  |
 | [[Enhancement Proposal] Fix badly rendered shadows on common objects.](https://github.com/diasurgical/DevilutionX/issues/2451) 💬 15 | [diasurgical/DevilutionX](https://github.com/diasurgical/DevilutionX) | 9.8k | 🟢 beginner | 2026-07-26 |  |
 | [LÖVE 12.0 (CI #1664) crashes on Android when launching a project](https://github.com/love2d/love/issues/2335) 💬 18 | [love2d/love](https://github.com/love2d/love) | 8.8k | 🟡 help wanted | 2026-07-22 |  |
-| [SDF 2D / 3D Rendering improvements - call for input / help](https://github.com/Fabric-Project/Fabric/issues/146) | [Fabric-Project/Fabric](https://github.com/Fabric-Project/Fabric) | 569 | 🟡 help wanted | 2026-07-22 |  |
+| [SDF 2D / 3D Rendering improvements - call for input / help](https://github.com/Fabric-Project/Fabric/issues/146) | [Fabric-Project/Fabric](https://github.com/Fabric-Project/Fabric) | 570 | 🟡 help wanted | 2026-07-22 |  |
 | [Mouse wheel zoom not working when EnableSwapChainRendering = True](https://github.com/helix-toolkit/helix-toolkit/issues/833) 💬 17 | [helix-toolkit/helix-toolkit](https://github.com/helix-toolkit/helix-toolkit) | 2.3k | 🟡 help wanted | 2026-07-21 |  |
 | [Add notification of excluded WWTT objects](https://github.com/OpenRCT2/OpenRCT2/issues/8031) 💬 2 | [OpenRCT2/OpenRCT2](https://github.com/OpenRCT2/OpenRCT2) | 16.3k | 🟢 beginner | 2026-07-20 |  |
 | [Dark Summit - can't enter cheat codes due to Start + Select combo](https://github.com/xemu-project/xemu/issues/2822) 💬 5 | [xemu-project/xemu](https://github.com/xemu-project/xemu) | 4.1k | 🟢 beginner | 2026-07-20 |  |
@@ -108,7 +106,7 @@
 | [[PAID BOUNTY][LOCKED] MonoGame 2D advanced series - Networking](https://github.com/MonoGame/MonoGame/issues/8821) 💬 2 | [MonoGame/MonoGame](https://github.com/MonoGame/MonoGame) | 14.5k | 🟡 help wanted | 2026-07-08 | ⚠️ AI restricted |
 | [Custom fins don't have a crafting recipe](https://github.com/CleverRaven/Cataclysm-DDA/issues/69652) 💬 3 | [CleverRaven/Cataclysm-DDA](https://github.com/CleverRaven/Cataclysm-DDA) | 13.2k | 🟢 beginner | 2026-07-06 |  |
 | [CSM command help GUI shows wrong per-command help guide](https://github.com/luanti-org/luanti/issues/17191) 💬 2 | [luanti-org/luanti](https://github.com/luanti-org/luanti) | 13.6k | 🟢 beginner | 2026-07-05 | 🤖 disclose AI use |
-| [Libresprite Crashes on Launch (Apple Silicon)](https://github.com/LibreSprite/LibreSprite/issues/230) 💬 23 | [LibreSprite/LibreSprite](https://github.com/LibreSprite/LibreSprite) | 8.4k | 🟡 help wanted | 2026-07-05 |  |
+| [Libresprite Crashes on Launch (Apple Silicon)](https://github.com/LibreSprite/LibreSprite/issues/230) 💬 23 | [LibreSprite/LibreSprite](https://github.com/LibreSprite/LibreSprite) | 8.5k | 🟡 help wanted | 2026-07-05 |  |
 | [Update files in the Cemu-Language repository](https://github.com/cemu-project/Cemu/issues/1215) 💬 5 | [cemu-project/Cemu](https://github.com/cemu-project/Cemu) | 9.9k | 🟢 beginner | 2026-07-03 |  |
 | [clockTrackedDataSource tracks non-clock dataSources](https://github.com/CesiumGS/cesium/issues/11738) 💬 2 | [CesiumGS/cesium](https://github.com/CesiumGS/cesium) | 15.8k | 🟢 beginner | 2026-07-02 | ✍️ CLA |
 | [Update documentation for Vector3.Transform](https://github.com/MonoGame/MonoGame/issues/4586) 💬 7 | [MonoGame/MonoGame](https://github.com/MonoGame/MonoGame) | 14.5k | 🟡 help wanted | 2026-06-29 | ⚠️ AI restricted |
@@ -125,7 +123,7 @@
 | [fit addon resizes irratically moving up and down](https://github.com/xtermjs/xterm.js/issues/3584) 💬 3 | [xtermjs/xterm.js](https://github.com/xtermjs/xterm.js) | 21.2k | 🟡 help wanted | 2026-06-16 |  |
 | [Limited touch support on mobile devices impacts terminal usability](https://github.com/xtermjs/xterm.js/issues/5377) 💬 6 | [xtermjs/xterm.js](https://github.com/xtermjs/xterm.js) | 21.2k | 🟡 help wanted | 2026-06-15 |  |
 | [Backends should not need two passes to handle wrapped functions](https://github.com/gfx-rs/wgpu/issues/7106) 💬 3 | [gfx-rs/wgpu](https://github.com/gfx-rs/wgpu) | 18.1k | 🟢 beginner | 2026-06-14 | 🤖 disclose AI use |
-| [[io] Separate Drives, Partitions and Block Devices](https://github.com/Vita3K/Vita3K/issues/137) | [Vita3K/Vita3K](https://github.com/Vita3K/Vita3K) | 5.7k | 🟢 beginner | 2026-06-13 |  |
+| [[io] Separate Drives, Partitions and Block Devices](https://github.com/Vita3K/Vita3K/issues/137) | [Vita3K/Vita3K](https://github.com/Vita3K/Vita3K) | 5.8k | 🟢 beginner | 2026-06-13 |  |
 | [Add Tetrahedron shape to Collision Object](https://github.com/defold/defold/issues/5260) 💬 1 | [defold/defold](https://github.com/defold/defold) | 6.3k | 🟢 beginner | 2026-06-11 | ✍️ CLA |
 | [Console output line highlight](https://github.com/defold/defold/issues/11232) | [defold/defold](https://github.com/defold/defold) | 6.3k | 🟢 beginner | 2026-06-11 | ✍️ CLA |
 | [Add Gradients for Fill and Strokes](https://github.com/processing/p5.js/issues/7313) 💬 7 | [processing/p5.js](https://github.com/processing/p5.js) | 24k | 🟡 help wanted | 2026-06-10 | ⚠️ AI restricted |
@@ -143,12 +141,12 @@
 | [RAM Search Changes column does not update](https://github.com/TASEmulators/BizHawk/issues/3020) 💬 2 | [TASEmulators/BizHawk](https://github.com/TASEmulators/BizHawk) | 2.8k | 🟢 beginner | 2026-06-03 | 📄 AI policy |
 | [Request to add bilater filtering for PointCloud](https://github.com/isl-org/Open3D/issues/6729) 💬 4 | [isl-org/Open3D](https://github.com/isl-org/Open3D) | 14k | 🟢 beginner | 2026-05-31 |  |
 | [DB/Creature using temporary auras in c_addon.auras](https://github.com/azerothcore/azerothcore-wotlk/issues/21589) 💬 4 | [azerothcore/azerothcore-wotlk](https://github.com/azerothcore/azerothcore-wotlk) | 9k | 🟢 beginner | 2026-05-30 |  |
-| [Add Libretro cheats support](https://github.com/Swordfish90/Lemuroid/issues/119) 💬 6 | [Swordfish90/Lemuroid](https://github.com/Swordfish90/Lemuroid) | 4.3k | 🟡 help wanted | 2026-05-24 |  |
+| [Add Libretro cheats support](https://github.com/Swordfish90/Lemuroid/issues/119) 💬 6 | [Swordfish90/Lemuroid](https://github.com/Swordfish90/Lemuroid) | 4.4k | 🟡 help wanted | 2026-05-24 |  |
 | [Add a tutorial about storage and dangers of low storage causing negative ATP balance](https://github.com/Revolutionary-Games/Thrive/issues/5950) 💬 1 | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) | 3.7k | 🟢 beginner | 2026-05-24 |  |
 | [Membrane types should give some macrolide resistance](https://github.com/Revolutionary-Games/Thrive/issues/5194) 💬 1 | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) | 3.7k | 🟢 beginner | 2026-05-22 |  |
 | [Make sure that extinct entries aren't shown in the endosymbiosis candidates (verify bug report)](https://github.com/Revolutionary-Games/Thrive/issues/6656) 💬 4 | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) | 3.7k | 🟢 beginner | 2026-05-22 |  |
 | [Add new editor help section explaining the controls](https://github.com/Revolutionary-Games/Thrive/issues/2853) 💬 2 | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) | 3.7k | 🟢 beginner | 2026-05-21 |  |
-| [Inverting the gyroscope](https://github.com/Vita3K/Vita3K/issues/3156) | [Vita3K/Vita3K](https://github.com/Vita3K/Vita3K) | 5.7k | 🟢 beginner | 2026-05-18 |  |
+| [Inverting the gyroscope](https://github.com/Vita3K/Vita3K/issues/3156) | [Vita3K/Vita3K](https://github.com/Vita3K/Vita3K) | 5.8k | 🟢 beginner | 2026-05-18 |  |
 | [Add the new Arabic variant localization if it is started](https://github.com/Revolutionary-Games/Thrive/issues/7006) | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) | 3.7k | 🟢 beginner | 2026-05-18 |  |
 | [(Magiclysm) attempting to cast a hp-based spell with insufficient hp in each limb softlock the game](https://github.com/CleverRaven/Cataclysm-DDA/issues/48139) 💬 3 | [CleverRaven/Cataclysm-DDA](https://github.com/CleverRaven/Cataclysm-DDA) | 13.2k | 🟡 help wanted | 2026-05-10 |  |
 | [Benchmark Mode: Recording FPS and MSPF values and providing Averages](https://github.com/xemu-project/xemu/issues/465) 💬 2 | [xemu-project/xemu](https://github.com/xemu-project/xemu) | 4.1k | 🟢 beginner | 2026-05-09 |  |

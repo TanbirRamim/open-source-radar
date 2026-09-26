@@ -1,8 +1,8 @@
 # Haskell issues
 
-**18** open issues (8 labeled for beginners) across **6** active Haskell projects.
+**14** open issues (6 labeled for beginners) across **5** active Haskell projects.
 
-> Updated automatically on **2026-09-25 21:30 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-09-26 10:54 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -17,14 +17,10 @@
 | [Installing development version with cabal](https://github.com/agda/agda/issues/6031) 💬 8 | [agda/agda](https://github.com/agda/agda) | 2.9k | 🟡 help wanted | 2026-09-01 |  |
 | ['withReduceDefs' does not block reduction of record projections](https://github.com/agda/agda/issues/8566) 💬 1 | [agda/agda](https://github.com/agda/agda) | 2.9k | 🟡 help wanted | 2026-08-19 |  |
 | [Install on Windows via Winget support](https://github.com/hadolint/hadolint/issues/1217) 💬 1 | [hadolint/hadolint](https://github.com/hadolint/hadolint) | 12.4k | 🟡 help wanted | 2026-07-22 |  |
-| [Resurrecting the MySQL backend](https://github.com/haskell-beam/beam/issues/822) 💬 1 | [haskell-beam/beam](https://github.com/haskell-beam/beam) | 636 | 🟡 help wanted | 2026-07-21 |  |
-| [Benchmark build time of user code](https://github.com/haskell-beam/beam/issues/824) | [haskell-beam/beam](https://github.com/haskell-beam/beam) | 636 | 🟡 help wanted | 2026-07-20 |  |
 | [Haskell-based compiler 0.6.5 crashes when compiling a package that has a summary field &gt;= 80 chars](https://github.com/gren-lang/compiler/issues/380) | [gren-lang/compiler](https://github.com/gren-lang/compiler) | 504 | 🟢 beginner | 2026-07-02 |  |
 | [Trusted registries don't work correctly for multi-part repo names](https://github.com/hadolint/hadolint/issues/401) 💬 7 | [hadolint/hadolint](https://github.com/hadolint/hadolint) | 12.4k | 🟡 help wanted | 2026-06-22 |  |
 | [Environment variables values are ignored when executing rules](https://github.com/hadolint/hadolint/issues/341) 💬 4 | [hadolint/hadolint](https://github.com/hadolint/hadolint) | 12.4k | 🟡 help wanted | 2026-06-22 |  |
-| [How to use Postgres Functions?](https://github.com/haskell-beam/beam/issues/758) 💬 2 | [haskell-beam/beam](https://github.com/haskell-beam/beam) | 636 | 🟢 beginner | 2026-06-07 |  |
 | [add nom run](https://github.com/maralorn/nix-output-monitor/issues/110) 💬 5 | [maralorn/nix-output-monitor](https://github.com/maralorn/nix-output-monitor) | 1.7k | 🟡 help wanted | 2026-05-29 |  |
 | [Add benchmarks for compilation](https://github.com/IntersectMBO/plutus/issues/6113) 💬 1 | [IntersectMBO/plutus](https://github.com/IntersectMBO/plutus) | 1.6k | 🟢 beginner | 2026-05-01 |  |
 | [Reduce code duplication between regular and data-backed constitution tests](https://github.com/IntersectMBO/plutus/issues/6787) | [IntersectMBO/plutus](https://github.com/IntersectMBO/plutus) | 1.6k | 🟢 beginner | 2026-05-01 |  |
 | [Add golden tests for the validation benchmarks](https://github.com/IntersectMBO/plutus/issues/6828) | [IntersectMBO/plutus](https://github.com/IntersectMBO/plutus) | 1.6k | 🟢 beginner | 2026-05-01 |  |
-| [Composite PK support](https://github.com/haskell-beam/beam/issues/792) 💬 2 | [haskell-beam/beam](https://github.com/haskell-beam/beam) | 636 | 🟢 beginner | 2026-04-09 |  |
