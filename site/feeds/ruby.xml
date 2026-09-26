@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0">
+  <channel>
+    <title>Ruby beginner issues</title>
+    <link>https://tanbirramim.github.io/open-source-radar/issues/by-language/ruby.md</link>
+    <description>Recently created beginner-friendly issues for Ruby.</description>
+    <item>
+      <title>Configure default questions by Assistant</title>
+      <link>https://github.com/AllYourBot/hostedgpt/issues/805</link>
+      <guid isPermaLink="true">https://github.com/AllYourBot/hostedgpt/issues/805</guid>
+      <pubDate>2026-09-25</pubDate>
+    </item>
+    <item>
+      <title>Add support for Salam</title>
+      <link>https://github.com/github-linguist/linguist/issues/8206</link>
+      <guid isPermaLink="true">https://github.com/github-linguist/linguist/issues/8206</guid>
+      <pubDate>2026-09-18</pubDate>
+    </item>
+    <item>
+      <title>Use the spec-recommended 10000ms default interval for the stdout exporter</title>
+      <link>https://github.com/open-telemetry/opentelemetry-ruby/issues/2373</link>
+      <guid isPermaLink="true">https://github.com/open-telemetry/opentelemetry-ruby/issues/2373</guid>
+      <pubDate>2026-09-09</pubDate>
+    </item>
+    <item>
+      <title>Search does not find article with all keywords in its title</title>
+      <link>https://github.com/lobsters/lobsters/issues/2220</link>
+      <guid isPermaLink="true">https://github.com/lobsters/lobsters/issues/2220</guid>
+      <pubDate>2026-09-07</pubDate>
+    </item>
+    <item>
+      <title>Canceling comment edit triggers a JS exception and doesn't cancel</title>
+      <link>https://github.com/lobsters/lobsters/issues/2215</link>
+      <guid isPermaLink="true">https://github.com/lobsters/lobsters/issues/2215</guid>
+      <pubDate>2026-09-02</pubDate>
+    </item>
+    <item>
+      <title>When hovering a link, any punctuation immediately following the link is hidden</title>
+      <link>https://github.com/lobsters/lobsters/issues/2203</link>
+      <guid isPermaLink="true">https://github.com/lobsters/lobsters/issues/2203</guid>
+      <pubDate>2026-08-13</pubDate>
+    </item>
+    <item>
+      <title>Mod deleting a comment removes the visual indication of upvoted</title>
+      <link>https://github.com/lobsters/lobsters/issues/2201</link>
+      <guid isPermaLink="true">https://github.com/lobsters/lobsters/issues/2201</guid>
+      <pubDate>2026-08-08</pubDate>
+    </item>
+    <item>
+      <title>Unread btn for comments breaks when using pinch to zoom</title>
+      <link>https://github.com/lobsters/lobsters/issues/2198</link>
+      <guid isPermaLink="true">https://github.com/lobsters/lobsters/issues/2198</guid>
+      <pubDate>2026-08-06</pubDate>
+    </item>
+    <item>
+      <title>Normalize data-store backend dispatch</title>
+      <link>https://github.com/bolshakov/stoplight/issues/813</link>
+      <guid isPermaLink="true">https://github.com/bolshakov/stoplight/issues/813</guid>
+      <pubDate>2026-07-17</pubDate>
+    </item>
+    <item>
+      <title>raise exception on full table scans</title>
+      <link>https://github.com/lobsters/lobsters/issues/2150</link>
+      <guid isPermaLink="true">https://github.com/lobsters/lobsters/issues/2150</guid>
+      <pubDate>2026-07-14</pubDate>
+    </item>
+    <item>
+      <title>port ip bans to reaction + ipset</title>
+      <link>https://github.com/lobsters/lobsters/issues/2149</link>
+      <guid isPermaLink="true">https://github.com/lobsters/lobsters/issues/2149</guid>
+      <pubDate>2026-07-14</pubDate>
+    </item>
+    <item>
+      <title>improve traffic-counting query</title>
+      <link>https://github.com/lobsters/lobsters/issues/2139</link>
+      <guid isPermaLink="true">https://github.com/lobsters/lobsters/issues/2139</guid>
+      <pubDate>2026-07-12</pubDate>
+    </item>
+    <item>
+      <title>Suggest quorum can be reached by same user POSTing twice</title>
+      <link>https://github.com/lobsters/lobsters/issues/2126</link>
+      <guid isPermaLink="true">https://github.com/lobsters/lobsters/issues/2126</guid>
+      <pubDate>2026-07-08</pubDate>
+    </item>
+    <item>
+      <title>Isolated reply comment form allows for two different reply forms.</title>
+      <link>https://github.com/lobsters/lobsters/issues/2098</link>
+      <guid isPermaLink="true">https://github.com/lobsters/lobsters/issues/2098</guid>
+      <pubDate>2026-06-23</pubDate>
+    </item>
+    <item>
+      <title>Disown CTA has unique focus and hover effect</title>
+      <link>https://github.com/lobsters/lobsters/issues/2099</link>
+      <guid isPermaLink="true">https://github.com/lobsters/lobsters/issues/2099</guid>
+      <pubDate>2026-06-23</pubDate>
+    </item>
+    <item>
+      <title>Very low contrast difference on comments link on mobile when using high contrast</title>
+      <link>https://github.com/lobsters/lobsters/issues/2085</link>
+      <guid isPermaLink="true">https://github.com/lobsters/lobsters/issues/2085</guid>
+      <pubDate>2026-06-20</pubDate>
+    </item>
+    <item>
+      <title>Make immediate printing optional, with a choice dialog</title>
+      <link>https://github.com/manyfold3d/manyfold/issues/6447</link>
+      <guid isPermaLink="true">https://github.com/manyfold3d/manyfold/issues/6447</guid>
+      <pubDate>2026-06-19</pubDate>
+    </item>
+    <item>
+      <title>Print via Repetier API</title>
+      <link>https://github.com/manyfold3d/manyfold/issues/6440</link>
+      <guid isPermaLink="true">https://github.com/manyfold3d/manyfold/issues/6440</guid>
+      <pubDate>2026-06-19</pubDate>
+    </item>
+    <item>
+      <title>Print via FDM Monster</title>
+      <link>https://github.com/manyfold3d/manyfold/issues/6444</link>
+      <guid isPermaLink="true">https://github.com/manyfold3d/manyfold/issues/6444</guid>
+      <pubDate>2026-06-19</pubDate>
+    </item>
+    <item>
+      <title>Print via Bambuddy</title>
+      <link>https://github.com/manyfold3d/manyfold/issues/6443</link>
+      <guid isPermaLink="true">https://github.com/manyfold3d/manyfold/issues/6443</guid>
+      <pubDate>2026-06-19</pubDate>
+    </item>
+    <item>
+      <title>Print via Bambu developer mode</title>
+      <link>https://github.com/manyfold3d/manyfold/issues/6442</link>
+      <guid isPermaLink="true">https://github.com/manyfold3d/manyfold/issues/6442</guid>
+      <pubDate>2026-06-19</pubDate>
+    </item>
+    <item>
+      <title>Print via RepRapFirmware API</title>
+      <link>https://github.com/manyfold3d/manyfold/issues/6438</link>
+      <guid isPermaLink="true">https://github.com/manyfold3d/manyfold/issues/6438</guid>
+      <pubDate>2026-06-19</pubDate>
+    </item>
+    <item>
+      <title>Use largest thumbnail image from GCODE files</title>
+      <link>https://github.com/manyfold3d/manyfold/issues/6407</link>
+      <guid isPermaLink="true">https://github.com/manyfold3d/manyfold/issues/6407</guid>
+      <pubDate>2026-06-17</pubDate>
+    </item>
+    <item>
+      <title>bug?: "prompted for a comment when submitting this entry because of a similar entry"</title>
+      <link>https://github.com/lobsters/lobsters/issues/2069</link>
+      <guid isPermaLink="true">https://github.com/lobsters/lobsters/issues/2069</guid>
+      <pubDate>2026-06-11</pubDate>
+    </item>
+    <item>
+      <title>PL/I language support</title>
+      <link>https://github.com/github-linguist/linguist/issues/8013</link>
+      <guid isPermaLink="true">https://github.com/github-linguist/linguist/issues/8013</guid>
+      <pubDate>2026-06-10</pubDate>
+    </item>
+    <item>
+      <title>New comment appears at the top of parent when replying in isolated form</title>
+      <link>https://github.com/lobsters/lobsters/issues/2061</link>
+      <guid isPermaLink="true">https://github.com/lobsters/lobsters/issues/2061</guid>
+      <pubDate>2026-06-06</pubDate>
+    </item>
+    <item>
+      <title>Automated Performance Testing</title>
+      <link>https://github.com/lobsters/lobsters/issues/2016</link>
+      <guid isPermaLink="true">https://github.com/lobsters/lobsters/issues/2016</guid>
+      <pubDate>2026-05-07</pubDate>
+    </item>
+    <item>
+      <title>Add SNOBOL</title>
+      <link>https://github.com/github-linguist/linguist/issues/7950</link>
+      <guid isPermaLink="true">https://github.com/github-linguist/linguist/issues/7950</guid>
+      <pubDate>2026-05-06</pubDate>
+    </item>
+    <item>
+      <title>Add Uiua</title>
+      <link>https://github.com/github-linguist/linguist/issues/7949</link>
+      <guid isPermaLink="true">https://github.com/github-linguist/linguist/issues/7949</guid>
+      <pubDate>2026-05-06</pubDate>
+    </item>
+    <item>
+      <title>[UI] Add data elements to indexes, tables, and partials</title>
+      <link>https://github.com/e621ng/e621ng/issues/1829</link>
+      <guid isPermaLink="true">https://github.com/e621ng/e621ng/issues/1829</guid>
+      <pubDate>2026-04-15</pubDate>
+    </item>
+    <item>
+      <title>Upload form missing a number of options</title>
+      <link>https://github.com/e621ng/e621ng/issues/1794</link>
+      <guid isPermaLink="true">https://github.com/e621ng/e621ng/issues/1794</guid>
+      <pubDate>2026-04-08</pubDate>
+    </item>
+    <item>
+      <title>Post UI Navigation should show sets to maintainers, not just owners</title>
+      <link>https://github.com/e621ng/e621ng/issues/1779</link>
+      <guid isPermaLink="true">https://github.com/e621ng/e621ng/issues/1779</guid>
+      <pubDate>2026-04-07</pubDate>
+    </item>
+    <item>
+      <title>Refactor `TagQuery#parse_query`'s metatag matching switch to use a jump table</title>
+      <link>https://github.com/e621ng/e621ng/issues/1766</link>
+      <guid isPermaLink="true">https://github.com/e621ng/e621ng/issues/1766</guid>
+      <pubDate>2026-04-05</pubDate>
+    </item>
+    <item>
+      <title>[UI] Temp form input caching</title>
+      <link>https://github.com/e621ng/e621ng/issues/1764</link>
+      <guid isPermaLink="true">https://github.com/e621ng/e621ng/issues/1764</guid>
+      <pubDate>2026-04-04</pubDate>
+    </item>
+    <item>
+      <title>[Hotkeys] Link to relevant user setting on keyboard shortcut page</title>
+      <link>https://github.com/e621ng/e621ng/issues/1762</link>
+      <guid isPermaLink="true">https://github.com/e621ng/e621ng/issues/1762</guid>
+      <pubDate>2026-04-04</pubDate>
+    </item>
+    <item>
+      <title>Comment search should have a method of viewing results under the threshold</title>
+      <link>https://github.com/e621ng/e621ng/issues/1756</link>
+      <guid isPermaLink="true">https://github.com/e621ng/e621ng/issues/1756</guid>
+      <pubDate>2026-04-03</pubDate>
+    </item>
+    <item>
+      <title>Alias metatag names</title>
+      <link>https://github.com/e621ng/e621ng/issues/1758</link>
+      <guid isPermaLink="true">https://github.com/e621ng/e621ng/issues/1758</guid>
+      <pubDate>2026-04-03</pubDate>
+    </item>
+    <item>
+      <title>Prevent artist pages from being made if the corresponding tag is not in the artist category.</title>
+      <link>https://github.com/e621ng/e621ng/issues/1755</link>
+      <guid isPermaLink="true">https://github.com/e621ng/e621ng/issues/1755</guid>
+      <pubDate>2026-04-03</pubDate>
+    </item>
+    <item>
+      <title>add also "open in Anycubic Slicer Next"</title>
+      <link>https://github.com/manyfold3d/manyfold/issues/5823</link>
+      <guid isPermaLink="true">https://github.com/manyfold3d/manyfold/issues/5823</guid>
+      <pubDate>2026-03-29</pubDate>
+    </item>
+    <item>
+      <title>Comment form visible for moderators in deleted stories</title>
+      <link>https://github.com/lobsters/lobsters/issues/1981</link>
+      <guid isPermaLink="true">https://github.com/lobsters/lobsters/issues/1981</guid>
+      <pubDate>2026-03-20</pubDate>
+    </item>
+    <item>
+      <title>safe mode shows "deleted" for the profile picture in case the post is NSFW</title>
+      <link>https://github.com/e621ng/e621ng/issues/1553</link>
+      <guid isPermaLink="true">https://github.com/e621ng/e621ng/issues/1553</guid>
+      <pubDate>2025-11-22</pubDate>
+    </item>
+    <item>
+      <title>The javascript is too damn big!</title>
+      <link>https://github.com/manyfold3d/manyfold/issues/5025</link>
+      <guid isPermaLink="true">https://github.com/manyfold3d/manyfold/issues/5025</guid>
+      <pubDate>2025-11-07</pubDate>
+    </item>
+    <item>
+      <title>Sort by tags</title>
+      <link>https://github.com/manyfold3d/manyfold/issues/4962</link>
+      <guid isPermaLink="true">https://github.com/manyfold3d/manyfold/issues/4962</guid>
+      <pubDate>2025-11-03</pubDate>
+    </item>
+    <item>
+      <title>Links in Description</title>
+      <link>https://github.com/manyfold3d/manyfold/issues/4944</link>
+      <guid isPermaLink="true">https://github.com/manyfold3d/manyfold/issues/4944</guid>
+      <pubDate>2025-10-30</pubDate>
+    </item>
+    <item>
+      <title>Can't edit S3 bucket settings after creating library</title>
+      <link>https://github.com/manyfold3d/manyfold/issues/4826</link>
+      <guid isPermaLink="true">https://github.com/manyfold3d/manyfold/issues/4826</guid>
+      <pubDate>2025-10-11</pubDate>
+    </item>
+    <item>
+      <title>Count-Based Windows</title>
+      <link>https://github.com/bolshakov/stoplight/issues/466</link>
+      <guid isPermaLink="true">https://github.com/bolshakov/stoplight/issues/466</guid>
+      <pubDate>2025-10-10</pubDate>
+    </item>
+    <item>
+      <title>Detect corrupted files</title>
+      <link>https://github.com/manyfold3d/manyfold/issues/4797</link>
+      <guid isPermaLink="true">https://github.com/manyfold3d/manyfold/issues/4797</guid>
+      <pubDate>2025-10-07</pubDate>
+    </item>
+    <item>
+      <title>Oauth2 generated accounts are not added as creators</title>
+      <link>https://github.com/manyfold3d/manyfold/issues/4768</link>
+      <guid isPermaLink="true">https://github.com/manyfold3d/manyfold/issues/4768</guid>
+      <pubDate>2025-09-29</pubDate>
+    </item>
+    <item>
+      <title>Add a scroll to top button</title>
+      <link>https://github.com/manyfold3d/manyfold/issues/4540</link>
+      <guid isPermaLink="true">https://github.com/manyfold3d/manyfold/issues/4540</guid>
+      <pubDate>2025-07-23</pubDate>
+    </item>
+    <item>
+      <title>Require description for public models</title>
+      <link>https://github.com/manyfold3d/manyfold/issues/4430</link>
+      <guid isPermaLink="true">https://github.com/manyfold3d/manyfold/issues/4430</guid>
+      <pubDate>2025-06-26</pubDate>
+    </item>
+  </channel>
+</rss>

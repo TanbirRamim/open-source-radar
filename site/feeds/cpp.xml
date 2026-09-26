@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0">
+  <channel>
+    <title>C++ beginner issues</title>
+    <link>https://tanbirramim.github.io/open-source-radar/issues/by-language/cpp.md</link>
+    <description>Recently created beginner-friendly issues for C++.</description>
+    <item>
+      <title>Linux trace_processor prebuilt SIGILL (x86_64)</title>
+      <link>https://github.com/google/perfetto/issues/7504</link>
+      <guid isPermaLink="true">https://github.com/google/perfetto/issues/7504</guid>
+      <pubDate>2026-09-21</pubDate>
+    </item>
+    <item>
+      <title>[L10n][TR] Accesskey collisions in bookmark and tab context menus</title>
+      <link>https://github.com/zen-browser/desktop/issues/15488</link>
+      <guid isPermaLink="true">https://github.com/zen-browser/desktop/issues/15488</guid>
+      <pubDate>2026-09-20</pubDate>
+    </item>
+    <item>
+      <title>Some icons are blurry or inconsistent in size on Android 16 / Fairphone</title>
+      <link>https://github.com/organicmaps/organicmaps/issues/13596</link>
+      <guid isPermaLink="true">https://github.com/organicmaps/organicmaps/issues/13596</guid>
+      <pubDate>2026-09-20</pubDate>
+    </item>
+    <item>
+      <title>Light theme renders fully transparent with `zen.widget.linux.transparency` - dark UI text is unreadable over dark backgrounds</title>
+      <link>https://github.com/zen-browser/desktop/issues/15334</link>
+      <guid isPermaLink="true">https://github.com/zen-browser/desktop/issues/15334</guid>
+      <pubDate>2026-09-10</pubDate>
+    </item>
+    <item>
+      <title>Default to listening on ::</title>
+      <link>https://github.com/dragonflydb/dragonfly/issues/8266</link>
+      <guid isPermaLink="true">https://github.com/dragonflydb/dragonfly/issues/8266</guid>
+      <pubDate>2026-09-09</pubDate>
+    </item>
+    <item>
+      <title>Automatically expand single-element in calltree view of tree explorer</title>
+      <link>https://github.com/google/perfetto/issues/7397</link>
+      <guid isPermaLink="true">https://github.com/google/perfetto/issues/7397</guid>
+      <pubDate>2026-09-09</pubDate>
+    </item>
+    <item>
+      <title>Status panel and Glance buttons use dark-theme colors on light themes</title>
+      <link>https://github.com/zen-browser/desktop/issues/15280</link>
+      <guid isPermaLink="true">https://github.com/zen-browser/desktop/issues/15280</guid>
+      <pubDate>2026-09-07</pubDate>
+    </item>
+    <item>
+      <title>Core: Transform context menu option of datums does not work</title>
+      <link>https://github.com/FreeCAD/FreeCAD/issues/32385</link>
+      <guid isPermaLink="true">https://github.com/FreeCAD/FreeCAD/issues/32385</guid>
+      <pubDate>2026-09-03</pubDate>
+    </item>
+    <item>
+      <title>Sketcher: Double-click selection includes wrong object types and impacts performance</title>
+      <link>https://github.com/FreeCAD/FreeCAD/issues/32248</link>
+      <guid isPermaLink="true">https://github.com/FreeCAD/FreeCAD/issues/32248</guid>
+      <pubDate>2026-08-29</pubDate>
+    </item>
+    <item>
+      <title>UI glitch when rapidly switching Sidebar/Tabs layout options in Settings</title>
+      <link>https://github.com/zen-browser/desktop/issues/14837</link>
+      <guid isPermaLink="true">https://github.com/zen-browser/desktop/issues/14837</guid>
+      <pubDate>2026-08-04</pubDate>
+    </item>
+    <item>
+      <title>[FEA] Allow Hybrid Scan PQ reader to prune row groups with length-absent bloom filters</title>
+      <link>https://github.com/NVIDIA/cudf/issues/23515</link>
+      <guid isPermaLink="true">https://github.com/NVIDIA/cudf/issues/23515</guid>
+      <pubDate>2026-08-03</pubDate>
+    </item>
+    <item>
+      <title>Replacing a stave spacer with another is not undoable</title>
+      <link>https://github.com/musescore/MuseScore/issues/34423</link>
+      <guid isPermaLink="true">https://github.com/musescore/MuseScore/issues/34423</guid>
+      <pubDate>2026-07-31</pubDate>
+    </item>
+    <item>
+      <title>Translate "more..."</title>
+      <link>https://github.com/organicmaps/organicmaps/issues/13214</link>
+      <guid isPermaLink="true">https://github.com/organicmaps/organicmaps/issues/13214</guid>
+      <pubDate>2026-07-22</pubDate>
+    </item>
+    <item>
+      <title>Sidebar position set to top after exiting fullscreen YouTube video</title>
+      <link>https://github.com/zen-browser/desktop/issues/14389</link>
+      <guid isPermaLink="true">https://github.com/zen-browser/desktop/issues/14389</guid>
+      <pubDate>2026-06-27</pubDate>
+    </item>
+    <item>
+      <title>TechDraw: Keyboard navigation of the Section Plane is chaotic</title>
+      <link>https://github.com/FreeCAD/FreeCAD/issues/30833</link>
+      <guid isPermaLink="true">https://github.com/FreeCAD/FreeCAD/issues/30833</guid>
+      <pubDate>2026-06-17</pubDate>
+    </item>
+    <item>
+      <title>Cannot start a Multipass instance that previously used a native mount, if the directory is not available in the host machine anymore, after being unmounted.</title>
+      <link>https://github.com/canonical/multipass/issues/4957</link>
+      <guid isPermaLink="true">https://github.com/canonical/multipass/issues/4957</guid>
+      <pubDate>2026-06-15</pubDate>
+    </item>
+    <item>
+      <title>CSM command help GUI shows wrong per-command help guide</title>
+      <link>https://github.com/luanti-org/luanti/issues/17191</link>
+      <guid isPermaLink="true">https://github.com/luanti-org/luanti/issues/17191</guid>
+      <pubDate>2026-05-21</pubDate>
+    </item>
+    <item>
+      <title>New landing page for the Carbon project</title>
+      <link>https://github.com/carbon-language/carbon-lang/issues/7237</link>
+      <guid isPermaLink="true">https://github.com/carbon-language/carbon-lang/issues/7237</guid>
+      <pubDate>2026-05-20</pubDate>
+    </item>
+    <item>
+      <title>Allow NPCs to milk cows</title>
+      <link>https://github.com/CleverRaven/Cataclysm-DDA/issues/86410</link>
+      <guid isPermaLink="true">https://github.com/CleverRaven/Cataclysm-DDA/issues/86410</guid>
+      <pubDate>2026-04-11</pubDate>
+    </item>
+    <item>
+      <title>parseLedgerHashes accepts negative int then throws on asUInt conversion</title>
+      <link>https://github.com/XRPLF/rippled/issues/6768</link>
+      <guid isPermaLink="true">https://github.com/XRPLF/rippled/issues/6768</guid>
+      <pubDate>2026-04-07</pubDate>
+    </item>
+    <item>
+      <title>api_version as large unsigned int causes exception instead of clean rejection</title>
+      <link>https://github.com/XRPLF/rippled/issues/6776</link>
+      <guid isPermaLink="true">https://github.com/XRPLF/rippled/issues/6776</guid>
+      <pubDate>2026-04-07</pubDate>
+    </item>
+    <item>
+      <title>checkTxJsonFields calls asString() on tx_json.Account without type check</title>
+      <link>https://github.com/XRPLF/rippled/issues/6771</link>
+      <guid isPermaLink="true">https://github.com/XRPLF/rippled/issues/6771</guid>
+      <pubDate>2026-04-07</pubDate>
+    </item>
+    <item>
+      <title>LogLevel contains dead code due to redundant partition check</title>
+      <link>https://github.com/XRPLF/rippled/issues/6752</link>
+      <guid isPermaLink="true">https://github.com/XRPLF/rippled/issues/6752</guid>
+      <pubDate>2026-04-07</pubDate>
+    </item>
+    <item>
+      <title>ledger_request asInt() throws for large uint ledger_index values</title>
+      <link>https://github.com/XRPLF/rippled/issues/6750</link>
+      <guid isPermaLink="true">https://github.com/XRPLF/rippled/issues/6750</guid>
+      <pubDate>2026-04-07</pubDate>
+    </item>
+    <item>
+      <title>Web client’s context menu on iOS/iPadOS while connected to external display</title>
+      <link>https://github.com/transmission/transmission/issues/8757</link>
+      <guid isPermaLink="true">https://github.com/transmission/transmission/issues/8757</guid>
+      <pubDate>2026-04-04</pubDate>
+    </item>
+    <item>
+      <title>Custom icons for tabs without favicons not saving</title>
+      <link>https://github.com/zen-browser/desktop/issues/13020</link>
+      <guid isPermaLink="true">https://github.com/zen-browser/desktop/issues/13020</guid>
+      <pubDate>2026-03-31</pubDate>
+    </item>
+    <item>
+      <title>Support for connecting via a system proxy</title>
+      <link>https://github.com/drogonframework/drogon/issues/2479</link>
+      <guid isPermaLink="true">https://github.com/drogonframework/drogon/issues/2479</guid>
+      <pubDate>2026-03-31</pubDate>
+    </item>
+    <item>
+      <title>Decomp upstream list</title>
+      <link>https://github.com/TwilitRealm/dusklight/issues/51</link>
+      <guid isPermaLink="true">https://github.com/TwilitRealm/dusklight/issues/51</guid>
+      <pubDate>2026-03-11</pubDate>
+    </item>
+    <item>
+      <title>Windows: Scroll bar in tab list causes layout shift when always show scroll bars is enabled</title>
+      <link>https://github.com/zen-browser/desktop/issues/12402</link>
+      <guid isPermaLink="true">https://github.com/zen-browser/desktop/issues/12402</guid>
+      <pubDate>2026-02-16</pubDate>
+    </item>
+    <item>
+      <title>Core: Add incremental save option</title>
+      <link>https://github.com/FreeCAD/FreeCAD/issues/27318</link>
+      <guid isPermaLink="true">https://github.com/FreeCAD/FreeCAD/issues/27318</guid>
+      <pubDate>2026-02-02</pubDate>
+    </item>
+    <item>
+      <title>[RFC]: Hot Standby Mode for Master Service Metadata High Availability</title>
+      <link>https://github.com/kvcache-ai/Mooncake/issues/1200</link>
+      <guid isPermaLink="true">https://github.com/kvcache-ai/Mooncake/issues/1200</guid>
+      <pubDate>2025-12-12</pubDate>
+    </item>
+    <item>
+      <title>The toolbar breaks when changing the browser layout</title>
+      <link>https://github.com/zen-browser/desktop/issues/11595</link>
+      <guid isPermaLink="true">https://github.com/zen-browser/desktop/issues/11595</guid>
+      <pubDate>2025-12-12</pubDate>
+    </item>
+    <item>
+      <title>GGUF convert support for Vibevoice</title>
+      <link>https://github.com/ggml-org/llama.cpp/issues/17488</link>
+      <guid isPermaLink="true">https://github.com/ggml-org/llama.cpp/issues/17488</guid>
+      <pubDate>2025-11-25</pubDate>
+    </item>
+    <item>
+      <title>Hotkey action to cycle between specific computers</title>
+      <link>https://github.com/deskflow/deskflow/issues/9135</link>
+      <guid isPermaLink="true">https://github.com/deskflow/deskflow/issues/9135</guid>
+      <pubDate>2025-11-10</pubDate>
+    </item>
+    <item>
+      <title>Indicate that ACLs can only be applied to registered users</title>
+      <link>https://github.com/mumble-voip/mumble/issues/6961</link>
+      <guid isPermaLink="true">https://github.com/mumble-voip/mumble/issues/6961</guid>
+      <pubDate>2025-10-21</pubDate>
+    </item>
+    <item>
+      <title>[Bug]: Conky CPU graph misaligned at bottom edge in Wayland</title>
+      <link>https://github.com/brndnmtthws/conky/issues/2247</link>
+      <guid isPermaLink="true">https://github.com/brndnmtthws/conky/issues/2247</guid>
+      <pubDate>2025-09-19</pubDate>
+    </item>
+    <item>
+      <title>Console output line highlight</title>
+      <link>https://github.com/defold/defold/issues/11232</link>
+      <guid isPermaLink="true">https://github.com/defold/defold/issues/11232</guid>
+      <pubDate>2025-09-16</pubDate>
+    </item>
+    <item>
+      <title>PartDesign: Copy/Paste Sketches when Body is active should place them inside the Body</title>
+      <link>https://github.com/FreeCAD/FreeCAD/issues/23832</link>
+      <guid isPermaLink="true">https://github.com/FreeCAD/FreeCAD/issues/23832</guid>
+      <pubDate>2025-09-11</pubDate>
+    </item>
+    <item>
+      <title>`about:debugging` wrong connected browser warning</title>
+      <link>https://github.com/zen-browser/desktop/issues/10158</link>
+      <guid isPermaLink="true">https://github.com/zen-browser/desktop/issues/10158</guid>
+      <pubDate>2025-08-30</pubDate>
+    </item>
+    <item>
+      <title>Distance to stop in route</title>
+      <link>https://github.com/organicmaps/organicmaps/issues/10784</link>
+      <guid isPermaLink="true">https://github.com/organicmaps/organicmaps/issues/10784</guid>
+      <pubDate>2025-06-24</pubDate>
+    </item>
+    <item>
+      <title>macOS: Improper name formatting in About menu:  'freecad'  -&gt;  'FreeCAD'</title>
+      <link>https://github.com/FreeCAD/FreeCAD/issues/21118</link>
+      <guid isPermaLink="true">https://github.com/FreeCAD/FreeCAD/issues/21118</guid>
+      <pubDate>2025-05-03</pubDate>
+    </item>
+    <item>
+      <title>[Bug]: Network speed graphs shared scaling</title>
+      <link>https://github.com/brndnmtthws/conky/issues/2181</link>
+      <guid isPermaLink="true">https://github.com/brndnmtthws/conky/issues/2181</guid>
+      <pubDate>2025-03-26</pubDate>
+    </item>
+    <item>
+      <title>DB/Creature using temporary auras in c_addon.auras</title>
+      <link>https://github.com/azerothcore/azerothcore-wotlk/issues/21589</link>
+      <guid isPermaLink="true">https://github.com/azerothcore/azerothcore-wotlk/issues/21589</guid>
+      <pubDate>2025-02-23</pubDate>
+    </item>
+    <item>
+      <title>tcp_source has no QA</title>
+      <link>https://github.com/gnuradio/gnuradio/issues/7697</link>
+      <guid isPermaLink="true">https://github.com/gnuradio/gnuradio/issues/7697</guid>
+      <pubDate>2025-01-28</pubDate>
+    </item>
+    <item>
+      <title>Add Bluesky and Mastodon to the Edit Place screen</title>
+      <link>https://github.com/organicmaps/organicmaps/issues/10142</link>
+      <guid isPermaLink="true">https://github.com/organicmaps/organicmaps/issues/10142</guid>
+      <pubDate>2025-01-27</pubDate>
+    </item>
+    <item>
+      <title>BIM: Arch_Space label cannot be rotated</title>
+      <link>https://github.com/FreeCAD/FreeCAD/issues/18952</link>
+      <guid isPermaLink="true">https://github.com/FreeCAD/FreeCAD/issues/18952</guid>
+      <pubDate>2025-01-08</pubDate>
+    </item>
+    <item>
+      <title>add support for signed data types for TTL</title>
+      <link>https://github.com/ydb-platform/ydb/issues/12751</link>
+      <guid isPermaLink="true">https://github.com/ydb-platform/ydb/issues/12751</guid>
+      <pubDate>2024-12-19</pubDate>
+    </item>
+    <item>
+      <title>Issues with 3rd party compilation order</title>
+      <link>https://github.com/canonical/multipass/issues/3802</link>
+      <guid isPermaLink="true">https://github.com/canonical/multipass/issues/3802</guid>
+      <pubDate>2024-12-02</pubDate>
+    </item>
+    <item>
+      <title>[W10] Application icon in task bar can become invisible</title>
+      <link>https://github.com/mumble-voip/mumble/issues/6631</link>
+      <guid isPermaLink="true">https://github.com/mumble-voip/mumble/issues/6631</guid>
+      <pubDate>2024-11-15</pubDate>
+    </item>
+    <item>
+      <title>Stylesheet: UI/UX Cropped Title on popup while checking geometry with threads (Linux)</title>
+      <link>https://github.com/FreeCAD/FreeCAD/issues/17542</link>
+      <guid isPermaLink="true">https://github.com/FreeCAD/FreeCAD/issues/17542</guid>
+      <pubDate>2024-10-28</pubDate>
+    </item>
+  </channel>
+</rss>

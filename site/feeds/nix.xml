@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0">
+  <channel>
+    <title>Nix beginner issues</title>
+    <link>https://tanbirramim.github.io/open-source-radar/issues/by-language/nix.md</link>
+    <description>Recently created beginner-friendly issues for Nix.</description>
+    <item>
+      <title>Integrate autobrr</title>
+      <link>https://github.com/kiriwalawren/nixflix/issues/359</link>
+      <guid isPermaLink="true">https://github.com/kiriwalawren/nixflix/issues/359</guid>
+      <pubDate>2026-09-24</pubDate>
+    </item>
+    <item>
+      <title>Integrate cross-seed</title>
+      <link>https://github.com/kiriwalawren/nixflix/issues/360</link>
+      <guid isPermaLink="true">https://github.com/kiriwalawren/nixflix/issues/360</guid>
+      <pubDate>2026-09-24</pubDate>
+    </item>
+    <item>
+      <title>Lidarr: Create metadata tags configuration service</title>
+      <link>https://github.com/kiriwalawren/nixflix/issues/335</link>
+      <guid isPermaLink="true">https://github.com/kiriwalawren/nixflix/issues/335</guid>
+      <pubDate>2026-09-10</pubDate>
+    </item>
+    <item>
+      <title>Navidrome: add lyrics plugin</title>
+      <link>https://github.com/kiriwalawren/nixflix/issues/334</link>
+      <guid isPermaLink="true">https://github.com/kiriwalawren/nixflix/issues/334</guid>
+      <pubDate>2026-09-10</pubDate>
+    </item>
+    <item>
+      <title>Use smbios to pass systemd credentials instead of fw_cfg</title>
+      <link>https://github.com/microvm-nix/microvm.nix/issues/511</link>
+      <guid isPermaLink="true">https://github.com/microvm-nix/microvm.nix/issues/511</guid>
+      <pubDate>2026-04-27</pubDate>
+    </item>
+    <item>
+      <title>FR: battery for flake-parts independent system access</title>
+      <link>https://github.com/denful/den/issues/159</link>
+      <guid isPermaLink="true">https://github.com/denful/den/issues/159</guid>
+      <pubDate>2026-02-14</pubDate>
+    </item>
+    <item>
+      <title>Changing `fonts.fonts` default to NixOS' `fonts.packages`</title>
+      <link>https://github.com/nixpak/nixpak/issues/196</link>
+      <guid isPermaLink="true">https://github.com/nixpak/nixpak/issues/196</guid>
+      <pubDate>2026-01-14</pubDate>
+    </item>
+    <item>
+      <title>Build Result</title>
+      <link>https://github.com/numtide/system-manager/issues/182</link>
+      <guid isPermaLink="true">https://github.com/numtide/system-manager/issues/182</guid>
+      <pubDate>2025-01-06</pubDate>
+    </item>
+  </channel>
+</rss>

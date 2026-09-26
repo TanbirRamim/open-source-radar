@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0">
+  <channel>
+    <title>Java beginner issues</title>
+    <link>https://tanbirramim.github.io/open-source-radar/issues/by-language/java.md</link>
+    <description>Recently created beginner-friendly issues for Java.</description>
+    <item>
+      <title>[Task] Remove the unused MemorySafeWindowTinyLFUMap implementation</title>
+      <link>https://github.com/apache/shenyu/issues/7309</link>
+      <guid isPermaLink="true">https://github.com/apache/shenyu/issues/7309</guid>
+      <pubDate>2026-09-26</pubDate>
+    </item>
+    <item>
+      <title>Replace `scanMonitorLookupCaches()` loop with memset</title>
+      <link>https://github.com/eclipse-openj9/openj9/issues/24803</link>
+      <guid isPermaLink="true">https://github.com/eclipse-openj9/openj9/issues/24803</guid>
+      <pubDate>2026-09-23</pubDate>
+    </item>
+    <item>
+      <title>OpenRocket on Linux - very odd filenames under ~/.java/.userPrefs/OpenRocket/favoritePresets/</title>
+      <link>https://github.com/openrocket/openrocket/issues/3335</link>
+      <guid isPermaLink="true">https://github.com/openrocket/openrocket/issues/3335</guid>
+      <pubDate>2026-09-19</pubDate>
+    </item>
+    <item>
+      <title>client-facade.ts: replace explicit `any` with real types</title>
+      <link>https://github.com/kestra-io/kestra/issues/19274</link>
+      <guid isPermaLink="true">https://github.com/kestra-io/kestra/issues/19274</guid>
+      <pubDate>2026-09-10</pubDate>
+    </item>
+    <item>
+      <title>Support import of OpenVEX statements</title>
+      <link>https://github.com/DependencyTrack/dependency-track/issues/7094</link>
+      <guid isPermaLink="true">https://github.com/DependencyTrack/dependency-track/issues/7094</guid>
+      <pubDate>2026-08-24</pubDate>
+    </item>
+    <item>
+      <title>Contribute a workflow example to the gallery</title>
+      <link>https://github.com/iflytek/astron-agent/issues/1410</link>
+      <guid isPermaLink="true">https://github.com/iflytek/astron-agent/issues/1410</guid>
+      <pubDate>2026-06-15</pubDate>
+    </item>
+    <item>
+      <title>[BUG] Auto split not working in dual recording more</title>
+      <link>https://github.com/anonfaded/FadCam/issues/303</link>
+      <guid isPermaLink="true">https://github.com/anonfaded/FadCam/issues/303</guid>
+      <pubDate>2026-06-09</pubDate>
+    </item>
+    <item>
+      <title>[Feature]: Add ArgumentHexColor</title>
+      <link>https://github.com/Minestom/Minestom/issues/3199</link>
+      <guid isPermaLink="true">https://github.com/Minestom/Minestom/issues/3199</guid>
+      <pubDate>2026-05-30</pubDate>
+    </item>
+    <item>
+      <title>[FEATURE] Separate FadShot photo resolution from video recording resolution</title>
+      <link>https://github.com/anonfaded/FadCam/issues/293</link>
+      <guid isPermaLink="true">https://github.com/anonfaded/FadCam/issues/293</guid>
+      <pubDate>2026-05-16</pubDate>
+    </item>
+    <item>
+      <title>[FEATURE] Configurable watermark font size for videos and FadShot photos</title>
+      <link>https://github.com/anonfaded/FadCam/issues/294</link>
+      <guid isPermaLink="true">https://github.com/anonfaded/FadCam/issues/294</guid>
+      <pubDate>2026-05-16</pubDate>
+    </item>
+    <item>
+      <title>[FEATURE] Native volume key / Bluetooth shutter shortcut for FadShot during video recording</title>
+      <link>https://github.com/anonfaded/FadCam/issues/292</link>
+      <guid isPermaLink="true">https://github.com/anonfaded/FadCam/issues/292</guid>
+      <pubDate>2026-05-15</pubDate>
+    </item>
+    <item>
+      <title>Add the ability to customize the notification on mobile</title>
+      <link>https://github.com/grimmory-tools/grimmory/issues/836</link>
+      <guid isPermaLink="true">https://github.com/grimmory-tools/grimmory/issues/836</guid>
+      <pubDate>2026-04-24</pubDate>
+    </item>
+    <item>
+      <title>Create Alerts for Distributed Commands Queue backlogs.</title>
+      <link>https://github.com/camunda/camunda/issues/49809</link>
+      <guid isPermaLink="true">https://github.com/camunda/camunda/issues/49809</guid>
+      <pubDate>2026-03-27</pubDate>
+    </item>
+    <item>
+      <title>Allow un-matching of an improperly automatched author</title>
+      <link>https://github.com/grimmory-tools/grimmory/issues/106</link>
+      <guid isPermaLink="true">https://github.com/grimmory-tools/grimmory/issues/106</guid>
+      <pubDate>2026-03-21</pubDate>
+    </item>
+    <item>
+      <title>Add metadata IDs as Magic Shelf filtering options</title>
+      <link>https://github.com/grimmory-tools/grimmory/issues/64</link>
+      <guid isPermaLink="true">https://github.com/grimmory-tools/grimmory/issues/64</guid>
+      <pubDate>2026-03-19</pubDate>
+    </item>
+    <item>
+      <title>Regarding the GA version issue</title>
+      <link>https://github.com/alibaba/spring-cloud-alibaba/issues/4100</link>
+      <guid isPermaLink="true">https://github.com/alibaba/spring-cloud-alibaba/issues/4100</guid>
+      <pubDate>2025-11-27</pubDate>
+    </item>
+    <item>
+      <title>[FEATURE] Quick Settings option for directly starting video taping without opening the app at all</title>
+      <link>https://github.com/anonfaded/FadCam/issues/207</link>
+      <guid isPermaLink="true">https://github.com/anonfaded/FadCam/issues/207</guid>
+      <pubDate>2025-11-04</pubDate>
+    </item>
+    <item>
+      <title>[FEATURE] Fad Cam Lite</title>
+      <link>https://github.com/anonfaded/FadCam/issues/194</link>
+      <guid isPermaLink="true">https://github.com/anonfaded/FadCam/issues/194</guid>
+      <pubDate>2025-10-19</pubDate>
+    </item>
+    <item>
+      <title>Remove operate legacy templates from SaaS to eliminate log noise</title>
+      <link>https://github.com/camunda/camunda/issues/39542</link>
+      <guid isPermaLink="true">https://github.com/camunda/camunda/issues/39542</guid>
+      <pubDate>2025-10-14</pubDate>
+    </item>
+    <item>
+      <title>[FEATURE] Allow private searches for search providers</title>
+      <link>https://github.com/LawnchairLauncher/lawnchair/issues/5913</link>
+      <guid isPermaLink="true">https://github.com/LawnchairLauncher/lawnchair/issues/5913</guid>
+      <pubDate>2025-10-04</pubDate>
+    </item>
+    <item>
+      <title>Opt-in to Arm Memory Tagging Extensions (MTE)</title>
+      <link>https://github.com/TeamNewPipe/NewPipe/issues/12644</link>
+      <guid isPermaLink="true">https://github.com/TeamNewPipe/NewPipe/issues/12644</guid>
+      <pubDate>2025-09-18</pubDate>
+    </item>
+    <item>
+      <title>[Roles] Assign mapping button text is malformed</title>
+      <link>https://github.com/camunda/camunda/issues/36962</link>
+      <guid isPermaLink="true">https://github.com/camunda/camunda/issues/36962</guid>
+      <pubDate>2025-08-19</pubDate>
+    </item>
+    <item>
+      <title>Should we use the new `expectedVisitedNodes` estimator to speed up filtered vector search?</title>
+      <link>https://github.com/apache/lucene/issues/14845</link>
+      <guid isPermaLink="true">https://github.com/apache/lucene/issues/14845</guid>
+      <pubDate>2025-06-25</pubDate>
+    </item>
+    <item>
+      <title>Create and curate a TLA+ Dataset for LLM Training and Evaluation</title>
+      <link>https://github.com/tlaplus/tlaplus/issues/1196</link>
+      <guid isPermaLink="true">https://github.com/tlaplus/tlaplus/issues/1196</guid>
+      <pubDate>2025-06-11</pubDate>
+    </item>
+    <item>
+      <title>[FEATURE] Disabling search suggestions for web suggestions</title>
+      <link>https://github.com/LawnchairLauncher/lawnchair/issues/5490</link>
+      <guid isPermaLink="true">https://github.com/LawnchairLauncher/lawnchair/issues/5490</guid>
+      <pubDate>2025-05-24</pubDate>
+    </item>
+    <item>
+      <title>Add ALERT_RULE_CONFIGURATION permission</title>
+      <link>https://github.com/DependencyTrack/dependency-track/issues/4847</link>
+      <guid isPermaLink="true">https://github.com/DependencyTrack/dependency-track/issues/4847</guid>
+      <pubDate>2025-04-15</pubDate>
+    </item>
+    <item>
+      <title>IPMI Monitoring Data Interruption Issue</title>
+      <link>https://github.com/apache/hertzbeat/issues/3197</link>
+      <guid isPermaLink="true">https://github.com/apache/hertzbeat/issues/3197</guid>
+      <pubDate>2025-03-30</pubDate>
+    </item>
+    <item>
+      <title>[Feature request] Support Markdown</title>
+      <link>https://github.com/starcwang/easy_javadoc/issues/182</link>
+      <guid isPermaLink="true">https://github.com/starcwang/easy_javadoc/issues/182</guid>
+      <pubDate>2025-03-25</pubDate>
+    </item>
+    <item>
+      <title>[Enhancement] Inconsistent rowcount in `SHOW DATA` command across sessions</title>
+      <link>https://github.com/apache/doris/issues/49106</link>
+      <guid isPermaLink="true">https://github.com/apache/doris/issues/49106</guid>
+      <pubDate>2025-03-15</pubDate>
+    </item>
+    <item>
+      <title>Hide health status timeline per partition in a row</title>
+      <link>https://github.com/camunda/camunda/issues/29579</link>
+      <guid isPermaLink="true">https://github.com/camunda/camunda/issues/29579</guid>
+      <pubDate>2025-03-14</pubDate>
+    </item>
+    <item>
+      <title>[Meta-Issue] Requested Rippers up-for-grabs (2025)</title>
+      <link>https://github.com/RipMeApp/ripme/issues/2069</link>
+      <guid isPermaLink="true">https://github.com/RipMeApp/ripme/issues/2069</guid>
+      <pubDate>2025-01-06</pubDate>
+    </item>
+    <item>
+      <title>[Bug] [Flink] stop flink job error</title>
+      <link>https://github.com/apache/dolphinscheduler/issues/16789</link>
+      <guid isPermaLink="true">https://github.com/apache/dolphinscheduler/issues/16789</guid>
+      <pubDate>2024-11-11</pubDate>
+    </item>
+    <item>
+      <title>Config Doc - Support more features in Asciidoc -&gt; Mardown converter</title>
+      <link>https://github.com/quarkusio/quarkus/issues/43287</link>
+      <guid isPermaLink="true">https://github.com/quarkusio/quarkus/issues/43287</guid>
+      <pubDate>2024-09-13</pubDate>
+    </item>
+    <item>
+      <title>Export position can change during replicating SnapshotChunks</title>
+      <link>https://github.com/camunda/camunda/issues/21577</link>
+      <guid isPermaLink="true">https://github.com/camunda/camunda/issues/21577</guid>
+      <pubDate>2024-08-26</pubDate>
+    </item>
+    <item>
+      <title>[DSIP-64] Add more workflow Integration test cases in master.</title>
+      <link>https://github.com/apache/dolphinscheduler/issues/16479</link>
+      <guid isPermaLink="true">https://github.com/apache/dolphinscheduler/issues/16479</guid>
+      <pubDate>2024-08-18</pubDate>
+    </item>
+    <item>
+      <title>[Feature] Improve the compatibility test between the new and old versions of paimon</title>
+      <link>https://github.com/apache/paimon/issues/3531</link>
+      <guid isPermaLink="true">https://github.com/apache/paimon/issues/3531</guid>
+      <pubDate>2024-06-17</pubDate>
+    </item>
+    <item>
+      <title>[Feature Request] Show More Details in Parachute Parts Library</title>
+      <link>https://github.com/openrocket/openrocket/issues/2487</link>
+      <guid isPermaLink="true">https://github.com/openrocket/openrocket/issues/2487</guid>
+      <pubDate>2024-05-27</pubDate>
+    </item>
+    <item>
+      <title>[Improvement] Fix client-python codes to conform Pylint Rules</title>
+      <link>https://github.com/apache/gravitino/issues/3560</link>
+      <guid isPermaLink="true">https://github.com/apache/gravitino/issues/3560</guid>
+      <pubDate>2024-05-25</pubDate>
+    </item>
+    <item>
+      <title>Aliases do not appear to be reported in notifications</title>
+      <link>https://github.com/DependencyTrack/dependency-track/issues/3723</link>
+      <guid isPermaLink="true">https://github.com/DependencyTrack/dependency-track/issues/3723</guid>
+      <pubDate>2024-05-16</pubDate>
+    </item>
+    <item>
+      <title>App Crash on mark video as watched</title>
+      <link>https://github.com/TeamNewPipe/NewPipe/issues/10939</link>
+      <guid isPermaLink="true">https://github.com/TeamNewPipe/NewPipe/issues/10939</guid>
+      <pubDate>2024-04-03</pubDate>
+    </item>
+    <item>
+      <title>java.lang.InterruptedException: null when closing BrokerClient</title>
+      <link>https://github.com/camunda/camunda/issues/17098</link>
+      <guid isPermaLink="true">https://github.com/camunda/camunda/issues/17098</guid>
+      <pubDate>2024-03-25</pubDate>
+    </item>
+    <item>
+      <title>The MavenMetaAnalyzer task fails due to invalid URLs</title>
+      <link>https://github.com/DependencyTrack/dependency-track/issues/3566</link>
+      <guid isPermaLink="true">https://github.com/DependencyTrack/dependency-track/issues/3566</guid>
+      <pubDate>2024-03-18</pubDate>
+    </item>
+    <item>
+      <title>Optimize jdk.internal.misc.Unsafe.storeStoreFence() into no-op on x86 platforms</title>
+      <link>https://github.com/eclipse-openj9/openj9/issues/19042</link>
+      <guid isPermaLink="true">https://github.com/eclipse-openj9/openj9/issues/19042</guid>
+      <pubDate>2024-02-28</pubDate>
+    </item>
+    <item>
+      <title>AppImage</title>
+      <link>https://github.com/logisim-evolution/logisim-evolution/issues/1970</link>
+      <guid isPermaLink="true">https://github.com/logisim-evolution/logisim-evolution/issues/1970</guid>
+      <pubDate>2024-02-26</pubDate>
+    </item>
+    <item>
+      <title>Cropped button label in "Remove vault" dialog</title>
+      <link>https://github.com/cryptomator/cryptomator/issues/3338</link>
+      <guid isPermaLink="true">https://github.com/cryptomator/cryptomator/issues/3338</guid>
+      <pubDate>2024-02-18</pubDate>
+    </item>
+    <item>
+      <title>[Bug] Some component default wall thicknesses are 0</title>
+      <link>https://github.com/openrocket/openrocket/issues/2454</link>
+      <guid isPermaLink="true">https://github.com/openrocket/openrocket/issues/2454</guid>
+      <pubDate>2024-02-02</pubDate>
+    </item>
+    <item>
+      <title>Variable Filter does not return results for decimal numbers when decimal point is zero</title>
+      <link>https://github.com/camunda/camunda/issues/32838</link>
+      <guid isPermaLink="true">https://github.com/camunda/camunda/issues/32838</guid>
+      <pubDate>2024-01-05</pubDate>
+    </item>
+    <item>
+      <title>(mediaCCC) audio language changes when switching to background player</title>
+      <link>https://github.com/TeamNewPipe/NewPipe/issues/10720</link>
+      <guid isPermaLink="true">https://github.com/TeamNewPipe/NewPipe/issues/10720</guid>
+      <pubDate>2023-12-31</pubDate>
+    </item>
+    <item>
+      <title>Notify user, when response of Hub Authentication takes a long time</title>
+      <link>https://github.com/cryptomator/cryptomator/issues/3162</link>
+      <guid isPermaLink="true">https://github.com/cryptomator/cryptomator/issues/3162</guid>
+      <pubDate>2023-10-20</pubDate>
+    </item>
+    <item>
+      <title>Convert all phrases into sentence case</title>
+      <link>https://github.com/camunda/camunda/issues/32869</link>
+      <guid isPermaLink="true">https://github.com/camunda/camunda/issues/32869</guid>
+      <pubDate>2023-10-06</pubDate>
+    </item>
+  </channel>
+</rss>

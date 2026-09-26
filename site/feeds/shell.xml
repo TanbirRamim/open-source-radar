@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0">
+  <channel>
+    <title>Shell beginner issues</title>
+    <link>https://tanbirramim.github.io/open-source-radar/issues/by-language/shell.md</link>
+    <description>Recently created beginner-friendly issues for Shell.</description>
+    <item>
+      <title>App Request: Komi-Store</title>
+      <link>https://github.com/wimpysworld/deb-get/issues/2029</link>
+      <guid isPermaLink="true">https://github.com/wimpysworld/deb-get/issues/2029</guid>
+      <pubDate>2026-09-24</pubDate>
+    </item>
+    <item>
+      <title>EMBA does not detect all components / SBOM is incomplete</title>
+      <link>https://github.com/e-m-b-a/emba/issues/2132</link>
+      <guid isPermaLink="true">https://github.com/e-m-b-a/emba/issues/2132</guid>
+      <pubDate>2026-09-23</pubDate>
+    </item>
+    <item>
+      <title>[Bug]: bcm2711 Debian images ship raspberrypi-sys-mods' passwordless sudo rule for a pi user that Armbian never creates</title>
+      <link>https://github.com/armbian/build/issues/10802</link>
+      <guid isPermaLink="true">https://github.com/armbian/build/issues/10802</guid>
+      <pubDate>2026-09-23</pubDate>
+    </item>
+    <item>
+      <title>App Request: ZapFast</title>
+      <link>https://github.com/wimpysworld/deb-get/issues/2026</link>
+      <guid isPermaLink="true">https://github.com/wimpysworld/deb-get/issues/2026</guid>
+      <pubDate>2026-09-18</pubDate>
+    </item>
+    <item>
+      <title>Tweak OverridePureVirtuals does not append the correct namespaces</title>
+      <link>https://github.com/clangd/clangd/issues/2706</link>
+      <guid isPermaLink="true">https://github.com/clangd/clangd/issues/2706</guid>
+      <pubDate>2026-09-16</pubDate>
+    </item>
+    <item>
+      <title>[Bug]: uInitrd CRC mismatch in community images for Orange Pi Zero3 (sun50iw9)</title>
+      <link>https://github.com/armbian/build/issues/10701</link>
+      <guid isPermaLink="true">https://github.com/armbian/build/issues/10701</guid>
+      <pubDate>2026-09-14</pubDate>
+    </item>
+    <item>
+      <title>App Request: Biopass</title>
+      <link>https://github.com/wimpysworld/deb-get/issues/2005</link>
+      <guid isPermaLink="true">https://github.com/wimpysworld/deb-get/issues/2005</guid>
+      <pubDate>2026-09-07</pubDate>
+    </item>
+    <item>
+      <title>App Request:IPTVnator</title>
+      <link>https://github.com/wimpysworld/deb-get/issues/2003</link>
+      <guid isPermaLink="true">https://github.com/wimpysworld/deb-get/issues/2003</guid>
+      <pubDate>2026-09-06</pubDate>
+    </item>
+    <item>
+      <title>enchancement: Can we move transalation to weblate/transifex/crowdin</title>
+      <link>https://github.com/ivan-hc/AM/issues/2655</link>
+      <guid isPermaLink="true">https://github.com/ivan-hc/AM/issues/2655</guid>
+      <pubDate>2026-08-28</pubDate>
+    </item>
+    <item>
+      <title>[Bug]: Fails to compile on system if any parent above is shared and has se_linux labels applied for samba.</title>
+      <link>https://github.com/armbian/build/issues/10544</link>
+      <guid isPermaLink="true">https://github.com/armbian/build/issues/10544</guid>
+      <pubDate>2026-08-27</pubDate>
+    </item>
+    <item>
+      <title>Tuxedo OS (Debian Testing) incorrectly identified as Ubuntu and fails install.</title>
+      <link>https://github.com/mkasberg/ghostty-ubuntu/issues/231</link>
+      <guid isPermaLink="true">https://github.com/mkasberg/ghostty-ubuntu/issues/231</guid>
+      <pubDate>2026-08-22</pubDate>
+    </item>
+    <item>
+      <title>v4.0 post-release polish: event-count arithmetic + test cleanup trap</title>
+      <link>https://github.com/sangrokjung/claude-forge/issues/81</link>
+      <guid isPermaLink="true">https://github.com/sangrokjung/claude-forge/issues/81</guid>
+      <pubDate>2026-08-19</pubDate>
+    </item>
+    <item>
+      <title>v4.1 candidate: karpathy-check (overbuild/scope-drift audit)</title>
+      <link>https://github.com/sangrokjung/claude-forge/issues/75</link>
+      <guid isPermaLink="true">https://github.com/sangrokjung/claude-forge/issues/75</guid>
+      <pubDate>2026-08-19</pubDate>
+    </item>
+    <item>
+      <title>v4.1 candidate: sprint-contract (DoD pre-agreement)</title>
+      <link>https://github.com/sangrokjung/claude-forge/issues/74</link>
+      <guid isPermaLink="true">https://github.com/sangrokjung/claude-forge/issues/74</guid>
+      <pubDate>2026-08-19</pubDate>
+    </item>
+    <item>
+      <title>v4.1 candidate: dry-run masked preview</title>
+      <link>https://github.com/sangrokjung/claude-forge/issues/73</link>
+      <guid isPermaLink="true">https://github.com/sangrokjung/claude-forge/issues/73</guid>
+      <pubDate>2026-08-19</pubDate>
+    </item>
+    <item>
+      <title>v4.1 candidate: git hygiene trio (pull-main / worktree collision detect / push-before-ci)</title>
+      <link>https://github.com/sangrokjung/claude-forge/issues/72</link>
+      <guid isPermaLink="true">https://github.com/sangrokjung/claude-forge/issues/72</guid>
+      <pubDate>2026-08-19</pubDate>
+    </item>
+    <item>
+      <title>v4.1 candidate: a11y-reviewer + performance-reviewer agent pair</title>
+      <link>https://github.com/sangrokjung/claude-forge/issues/71</link>
+      <guid isPermaLink="true">https://github.com/sangrokjung/claude-forge/issues/71</guid>
+      <pubDate>2026-08-19</pubDate>
+    </item>
+    <item>
+      <title>v4.1 candidate: notification policy set</title>
+      <link>https://github.com/sangrokjung/claude-forge/issues/66</link>
+      <guid isPermaLink="true">https://github.com/sangrokjung/claude-forge/issues/66</guid>
+      <pubDate>2026-08-19</pubDate>
+    </item>
+    <item>
+      <title>App Request: Ghost Downloader</title>
+      <link>https://github.com/wimpysworld/deb-get/issues/1973</link>
+      <guid isPermaLink="true">https://github.com/wimpysworld/deb-get/issues/1973</guid>
+      <pubDate>2026-08-17</pubDate>
+    </item>
+    <item>
+      <title>Add Pulumi topic (Infrastructure as Code)</title>
+      <link>https://github.com/tungbq/devops-basics/issues/805</link>
+      <guid isPermaLink="true">https://github.com/tungbq/devops-basics/issues/805</guid>
+      <pubDate>2026-08-15</pubDate>
+    </item>
+    <item>
+      <title>Add Dagger topic (CI/CD)</title>
+      <link>https://github.com/tungbq/devops-basics/issues/804</link>
+      <guid isPermaLink="true">https://github.com/tungbq/devops-basics/issues/804</guid>
+      <pubDate>2026-08-15</pubDate>
+    </item>
+    <item>
+      <title>Add Crossplane topic (IaC / Platform Engineering)</title>
+      <link>https://github.com/tungbq/devops-basics/issues/802</link>
+      <guid isPermaLink="true">https://github.com/tungbq/devops-basics/issues/802</guid>
+      <pubDate>2026-08-15</pubDate>
+    </item>
+    <item>
+      <title>feat: --exact flag to only match if exact full string is found (for wrapper scripts)</title>
+      <link>https://github.com/pystardust/ani-cli/issues/1851</link>
+      <guid isPermaLink="true">https://github.com/pystardust/ani-cli/issues/1851</guid>
+      <pubDate>2026-08-04</pubDate>
+    </item>
+    <item>
+      <title>[BUG] Deleting backups causes lots of errors if s3 path cleanup is slow</title>
+      <link>https://github.com/longhorn/longhorn/issues/13646</link>
+      <guid isPermaLink="true">https://github.com/longhorn/longhorn/issues/13646</guid>
+      <pubDate>2026-08-04</pubDate>
+    </item>
+    <item>
+      <title>App Request: CrossMacro</title>
+      <link>https://github.com/wimpysworld/deb-get/issues/1939</link>
+      <guid isPermaLink="true">https://github.com/wimpysworld/deb-get/issues/1939</guid>
+      <pubDate>2026-07-20</pubDate>
+    </item>
+    <item>
+      <title>App Request: SimpleX Chat</title>
+      <link>https://github.com/wimpysworld/deb-get/issues/1938</link>
+      <guid isPermaLink="true">https://github.com/wimpysworld/deb-get/issues/1938</guid>
+      <pubDate>2026-07-20</pubDate>
+    </item>
+    <item>
+      <title>App Request: Asyar</title>
+      <link>https://github.com/wimpysworld/deb-get/issues/1936</link>
+      <guid isPermaLink="true">https://github.com/wimpysworld/deb-get/issues/1936</guid>
+      <pubDate>2026-07-17</pubDate>
+    </item>
+    <item>
+      <title>App Request: Hayase</title>
+      <link>https://github.com/wimpysworld/deb-get/issues/1935</link>
+      <guid isPermaLink="true">https://github.com/wimpysworld/deb-get/issues/1935</guid>
+      <pubDate>2026-07-16</pubDate>
+    </item>
+    <item>
+      <title>App Request: Albert (key launcher)</title>
+      <link>https://github.com/wimpysworld/deb-get/issues/1922</link>
+      <guid isPermaLink="true">https://github.com/wimpysworld/deb-get/issues/1922</guid>
+      <pubDate>2026-07-01</pubDate>
+    </item>
+    <item>
+      <title>App Request: NymVPN</title>
+      <link>https://github.com/wimpysworld/deb-get/issues/1916</link>
+      <guid isPermaLink="true">https://github.com/wimpysworld/deb-get/issues/1916</guid>
+      <pubDate>2026-06-27</pubDate>
+    </item>
+    <item>
+      <title>App Request: jtk</title>
+      <link>https://github.com/wimpysworld/deb-get/issues/1914</link>
+      <guid isPermaLink="true">https://github.com/wimpysworld/deb-get/issues/1914</guid>
+      <pubDate>2026-06-24</pubDate>
+    </item>
+    <item>
+      <title>App Request: TBlock &amp; TBlock GUI</title>
+      <link>https://github.com/wimpysworld/deb-get/issues/1915</link>
+      <guid isPermaLink="true">https://github.com/wimpysworld/deb-get/issues/1915</guid>
+      <pubDate>2026-06-24</pubDate>
+    </item>
+    <item>
+      <title>App Request: OpenPets</title>
+      <link>https://github.com/wimpysworld/deb-get/issues/1911</link>
+      <guid isPermaLink="true">https://github.com/wimpysworld/deb-get/issues/1911</guid>
+      <pubDate>2026-06-22</pubDate>
+    </item>
+    <item>
+      <title>Spreadsheets: Insert row below</title>
+      <link>https://github.com/Euro-Office/DocumentServer/issues/225</link>
+      <guid isPermaLink="true">https://github.com/Euro-Office/DocumentServer/issues/225</guid>
+      <pubDate>2026-06-19</pubDate>
+    </item>
+    <item>
+      <title>welcome page - security question</title>
+      <link>https://github.com/Euro-Office/DocumentServer/issues/183</link>
+      <guid isPermaLink="true">https://github.com/Euro-Office/DocumentServer/issues/183</guid>
+      <pubDate>2026-06-14</pubDate>
+    </item>
+    <item>
+      <title>App Request: word-sys's PDF Editor</title>
+      <link>https://github.com/wimpysworld/deb-get/issues/1897</link>
+      <guid isPermaLink="true">https://github.com/wimpysworld/deb-get/issues/1897</guid>
+      <pubDate>2026-06-02</pubDate>
+    </item>
+    <item>
+      <title>[Improvement] Reduce docker image size</title>
+      <link>https://github.com/Euro-Office/DocumentServer/issues/76</link>
+      <guid isPermaLink="true">https://github.com/Euro-Office/DocumentServer/issues/76</guid>
+      <pubDate>2026-04-17</pubDate>
+    </item>
+    <item>
+      <title>Containerization with Podman</title>
+      <link>https://github.com/Euro-Office/DocumentServer/issues/54</link>
+      <guid isPermaLink="true">https://github.com/Euro-Office/DocumentServer/issues/54</guid>
+      <pubDate>2026-04-04</pubDate>
+    </item>
+    <item>
+      <title>Bug: setup.sh fails if Resolve's installer path contains space</title>
+      <link>https://github.com/zelikos/davincibox/issues/253</link>
+      <guid isPermaLink="true">https://github.com/zelikos/davincibox/issues/253</guid>
+      <pubDate>2026-03-29</pubDate>
+    </item>
+    <item>
+      <title>Emulation check for CVE-2026-24061 – GNU InetUtils telnetd Authentication Bypass Vulnerability</title>
+      <link>https://github.com/e-m-b-a/emba/issues/1905</link>
+      <guid isPermaLink="true">https://github.com/e-m-b-a/emba/issues/1905</guid>
+      <pubDate>2026-03-12</pubDate>
+    </item>
+    <item>
+      <title>[Feature Request]: Stable 6.1 kernel build for Radxa Dragon Q6A</title>
+      <link>https://github.com/armbian/build/issues/9511</link>
+      <guid isPermaLink="true">https://github.com/armbian/build/issues/9511</guid>
+      <pubDate>2026-03-10</pubDate>
+    </item>
+    <item>
+      <title>[Feature Request]: Auto max bit color depth for rockchip devices</title>
+      <link>https://github.com/armbian/build/issues/9415</link>
+      <guid isPermaLink="true">https://github.com/armbian/build/issues/9415</guid>
+      <pubDate>2026-02-18</pubDate>
+    </item>
+    <item>
+      <title>SHORT_HOST variable appears unused and adds latency during startup</title>
+      <link>https://github.com/ohmybash/oh-my-bash/issues/733</link>
+      <guid isPermaLink="true">https://github.com/ohmybash/oh-my-bash/issues/733</guid>
+      <pubDate>2026-01-19</pubDate>
+    </item>
+    <item>
+      <title>Can you please do for GetX</title>
+      <link>https://github.com/evanca/flutter-ai-rules/issues/2</link>
+      <guid isPermaLink="true">https://github.com/evanca/flutter-ai-rules/issues/2</guid>
+      <pubDate>2026-01-12</pubDate>
+    </item>
+    <item>
+      <title>Official app definition requests</title>
+      <link>https://github.com/winapps-org/winapps/issues/635</link>
+      <guid isPermaLink="true">https://github.com/winapps-org/winapps/issues/635</guid>
+      <pubDate>2025-08-11</pubDate>
+    </item>
+    <item>
+      <title>DISABLE_AUTO_TITLE flag not working as intended.</title>
+      <link>https://github.com/ohmybash/oh-my-bash/issues/704</link>
+      <guid isPermaLink="true">https://github.com/ohmybash/oh-my-bash/issues/704</guid>
+      <pubDate>2025-08-07</pubDate>
+    </item>
+    <item>
+      <title>[FEATURE] CLI support preflight check for Talos Linux</title>
+      <link>https://github.com/longhorn/longhorn/issues/9950</link>
+      <guid isPermaLink="true">https://github.com/longhorn/longhorn/issues/9950</guid>
+      <pubDate>2024-12-11</pubDate>
+    </item>
+    <item>
+      <title>[IMPROVEMENT] Implementing CLI Checks for Critical Resource Labels and Fields</title>
+      <link>https://github.com/longhorn/longhorn/issues/9458</link>
+      <guid isPermaLink="true">https://github.com/longhorn/longhorn/issues/9458</guid>
+      <pubDate>2024-09-13</pubDate>
+    </item>
+    <item>
+      <title>Popup window text confusing when editing same document</title>
+      <link>https://github.com/CollaboraOnline/online/issues/9915</link>
+      <guid isPermaLink="true">https://github.com/CollaboraOnline/online/issues/9915</guid>
+      <pubDate>2024-08-27</pubDate>
+    </item>
+    <item>
+      <title>[BUG][V1.7.0][Longhornctl] Longhorn CLI fail on check preflight on Fedora CoreOS</title>
+      <link>https://github.com/longhorn/longhorn/issues/9301</link>
+      <guid isPermaLink="true">https://github.com/longhorn/longhorn/issues/9301</guid>
+      <pubDate>2024-08-25</pubDate>
+    </item>
+  </channel>
+</rss>

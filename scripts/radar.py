@@ -29,6 +29,7 @@ import urllib.parse
 import urllib.request
 from collections.abc import Iterable
 from pathlib import Path
+import xml.etree.ElementTree as ET
 from typing import Any
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -583,6 +584,81 @@ def page_header(title: str, subtitle: str, generated_at: str) -> str:
     )
 
 
+def render_language_feeds(
+    languages: dict[str, str],
+    repositories: dict[str, Any],
+    issues: list[dict[str, Any]],
+) -> None:
+    feeds_dir = ROOT / "site" / "feeds"
+    feeds_dir.mkdir(parents=True, exist_ok=True)
+    feed_index = [
+        "<!doctype html>",
+        "<html lang=\"en\">",
+        "<head>",
+        '  <meta charset="utf-8">',
+        "  <title>RSS feeds</title>",
+        "</head>",
+        "<body>",
+        "  <h1>Beginner issue RSS feeds</h1>",
+        "  <ul>",
+    ]
+
+    for language, slug in languages.items():
+        beginner_issues = [
+            issue
+            for issue in issues
+            if issue["level"] == "beginner"
+            and repositories[issue["repo"]]["language"] == language
+        ]
+        beginner_issues.sort(key=lambda issue: issue["created"], reverse=True)
+
+        feed_index.append(
+            f'    <li><a href="{slug}.xml">{language}</a></li>'
+        )
+
+        rss = ET.Element(
+            "rss",
+            {
+                "version": "2.0",
+            },
+        )
+        channel = ET.SubElement(rss, "channel")
+        ET.SubElement(channel, "title").text = f"{language} beginner issues"
+        ET.SubElement(channel, "link").text = (
+            f"https://tanbirramim.github.io/open-source-radar/"
+            f"issues/by-language/{slug}.md"
+        )
+        ET.SubElement(channel, "description").text = (
+            f"Recently created beginner-friendly issues for {language}."
+        )
+
+        for issue in beginner_issues[:50]:
+            item = ET.SubElement(channel, "item")
+            ET.SubElement(item, "title").text = issue["title"]
+            ET.SubElement(item, "link").text = issue["url"]
+            ET.SubElement(item, "guid", {"isPermaLink": "true"}).text = issue["url"]
+            ET.SubElement(item, "pubDate").text = issue["created"]
+
+        tree = ET.ElementTree(rss)
+        ET.indent(tree, space="  ")
+        tree.write(
+            feeds_dir / f"{slug}.xml",
+            encoding="utf-8",
+            xml_declaration=True,
+        )
+
+    feed_index.extend(
+        [
+            "  </ul>",
+            "</body>",
+            "</html>",
+        ]
+    )
+    (feeds_dir / "index.html").write_text(
+        "\n".join(feed_index) + "\n",
+        encoding="utf-8",
+    )
+
 def render(config: dict[str, Any]) -> None:
     payload = read_json(ISSUES_PATH, None)
     if not payload:
@@ -592,6 +668,8 @@ def render(config: dict[str, Any]) -> None:
     generated_at = payload["generated_at"]
     limit = config["issues"]["max_per_page"]
     languages: dict[str, str] = config["languages"]
+
+    render_language_feeds(languages, repositories, issues)
 
     by_language_dir = ROOT / "issues" / "by-language"
     by_topic_dir = ROOT / "issues" / "by-topic"
@@ -607,6 +685,7 @@ def render(config: dict[str, Any]) -> None:
             continue
         repo_count = len({issue["repo"] for issue in subset})
         beginner = sum(1 for issue in subset if issue["level"] == "beginner")
+        feed_link = f"[RSS feed](../../site/feeds/{slug}.xml)"
         body = page_header(
             f"{language} issues",
             f"**{len(subset)}** open issues ({beginner} labeled for beginners) across **{repo_count}** "

@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0">
+  <channel>
+    <title>Go beginner issues</title>
+    <link>https://tanbirramim.github.io/open-source-radar/issues/by-language/go.md</link>
+    <description>Recently created beginner-friendly issues for Go.</description>
+    <item>
+      <title>[Feature]: [Stanford F01] Bulk-import a fixed Lance snapshot through Parquet</title>
+      <link>https://github.com/milvus-io/milvus/issues/53864</link>
+      <guid isPermaLink="true">https://github.com/milvus-io/milvus/issues/53864</guid>
+      <pubDate>2026-09-24</pubDate>
+    </item>
+    <item>
+      <title>[Enhancement]: [Stanford G02] Integrate a ready SGLang reranking endpoint</title>
+      <link>https://github.com/milvus-io/milvus/issues/53843</link>
+      <guid isPermaLink="true">https://github.com/milvus-io/milvus/issues/53843</guid>
+      <pubDate>2026-09-24</pubDate>
+    </item>
+    <item>
+      <title>[Enhancement]: [Stanford G01] Integrate a ready SGLang embedding endpoint</title>
+      <link>https://github.com/milvus-io/milvus/issues/53842</link>
+      <guid isPermaLink="true">https://github.com/milvus-io/milvus/issues/53842</guid>
+      <pubDate>2026-09-24</pubDate>
+    </item>
+    <item>
+      <title>[Enhancement]: [Stanford E02] Expose static Explain through a CLI and API</title>
+      <link>https://github.com/milvus-io/milvus/issues/53830</link>
+      <guid isPermaLink="true">https://github.com/milvus-io/milvus/issues/53830</guid>
+      <pubDate>2026-09-24</pubDate>
+    </item>
+    <item>
+      <title>Select-all feature</title>
+      <link>https://github.com/derailed/k9s/issues/4247</link>
+      <guid isPermaLink="true">https://github.com/derailed/k9s/issues/4247</guid>
+      <pubDate>2026-09-23</pubDate>
+    </item>
+    <item>
+      <title>Document how to configure host for podman --rootless driver</title>
+      <link>https://github.com/kubernetes/minikube/issues/23724</link>
+      <guid isPermaLink="true">https://github.com/kubernetes/minikube/issues/23724</guid>
+      <pubDate>2026-09-18</pubDate>
+    </item>
+    <item>
+      <title>Reminder: Update Hacktoberfest branding for this year</title>
+      <link>https://github.com/owncast/owncast/issues/5180</link>
+      <guid isPermaLink="true">https://github.com/owncast/owncast/issues/5180</guid>
+      <pubDate>2026-09-15</pubDate>
+    </item>
+    <item>
+      <title>`COMMIT AND CHAIN` is not compatible with MySQL</title>
+      <link>https://github.com/pingcap/tidb/issues/71059</link>
+      <guid isPermaLink="true">https://github.com/pingcap/tidb/issues/71059</guid>
+      <pubDate>2026-09-14</pubDate>
+    </item>
+    <item>
+      <title>Discussion: Should Multica be the unified SDLC standard, or an automation layer with fit criteria?</title>
+      <link>https://github.com/multica-ai/multica/issues/6227</link>
+      <guid isPermaLink="true">https://github.com/multica-ai/multica/issues/6227</guid>
+      <pubDate>2026-07-31</pubDate>
+    </item>
+    <item>
+      <title>[Bug]: 安全沙箱设置无效</title>
+      <link>https://github.com/esengine/DeepSeek-Reasonix/issues/6692</link>
+      <guid isPermaLink="true">https://github.com/esengine/DeepSeek-Reasonix/issues/6692</guid>
+      <pubDate>2026-07-19</pubDate>
+    </item>
+    <item>
+      <title>Discussion: should team knowledge compound across agent runs the way skills do?</title>
+      <link>https://github.com/multica-ai/multica/issues/1211</link>
+      <guid isPermaLink="true">https://github.com/multica-ai/multica/issues/1211</guid>
+      <pubDate>2026-04-16</pubDate>
+    </item>
+    <item>
+      <title>Discussion: Multica still manages AI the way it manages people</title>
+      <link>https://github.com/multica-ai/multica/issues/815</link>
+      <guid isPermaLink="true">https://github.com/multica-ai/multica/issues/815</guid>
+      <pubDate>2026-04-13</pubDate>
+    </item>
+    <item>
+      <title>Add New Quickstarts for More Languages (Rust, Ruby, C++, Perl, PHP)</title>
+      <link>https://github.com/keploy/keploy/issues/3521</link>
+      <guid isPermaLink="true">https://github.com/keploy/keploy/issues/3521</guid>
+      <pubDate>2026-01-12</pubDate>
+    </item>
+    <item>
+      <title>changefeedccl: make a changefeed setting for sink IO workers</title>
+      <link>https://github.com/cockroachdb/cockroach/issues/154546</link>
+      <guid isPermaLink="true">https://github.com/cockroachdb/cockroach/issues/154546</guid>
+      <pubDate>2025-10-01</pubDate>
+    </item>
+    <item>
+      <title>[fix]: Improve Keploy docs website mobile-friendly</title>
+      <link>https://github.com/keploy/keploy/issues/2998</link>
+      <guid isPermaLink="true">https://github.com/keploy/keploy/issues/2998</guid>
+      <pubDate>2025-09-16</pubDate>
+    </item>
+    <item>
+      <title>Add domain created_time value to DescribeDomainResponse</title>
+      <link>https://github.com/cadence-workflow/cadence/issues/7195</link>
+      <guid isPermaLink="true">https://github.com/cadence-workflow/cadence/issues/7195</guid>
+      <pubDate>2025-08-20</pubDate>
+    </item>
+    <item>
+      <title>kv,rpc: adopt static labels</title>
+      <link>https://github.com/cockroachdb/cockroach/issues/150493</link>
+      <guid isPermaLink="true">https://github.com/cockroachdb/cockroach/issues/150493</guid>
+      <pubDate>2025-07-18</pubDate>
+    </item>
+    <item>
+      <title>Keeping consistency for man pages</title>
+      <link>https://github.com/podman-container-tools/podman/issues/26428</link>
+      <guid isPermaLink="true">https://github.com/podman-container-tools/podman/issues/26428</guid>
+      <pubDate>2025-06-14</pubDate>
+    </item>
+    <item>
+      <title>AWS IVS Real Time Stage Terraform Module</title>
+      <link>https://github.com/hashicorp/terraform-provider-aws/issues/42644</link>
+      <guid isPermaLink="true">https://github.com/hashicorp/terraform-provider-aws/issues/42644</guid>
+      <pubDate>2025-05-16</pubDate>
+    </item>
+    <item>
+      <title>[Enhancement]: `aws_cloudwatch_metric_alarm`: Add validation to prevent specifying both `metric` and `expression`</title>
+      <link>https://github.com/hashicorp/terraform-provider-aws/issues/41680</link>
+      <guid isPermaLink="true">https://github.com/hashicorp/terraform-provider-aws/issues/41680</guid>
+      <pubDate>2025-03-05</pubDate>
+    </item>
+    <item>
+      <title>Digicert ACME order is failing due to invalid validity_years</title>
+      <link>https://github.com/cert-manager/cert-manager/issues/7536</link>
+      <guid isPermaLink="true">https://github.com/cert-manager/cert-manager/issues/7536</guid>
+      <pubDate>2025-01-30</pubDate>
+    </item>
+    <item>
+      <title>implement a wasmplugin to support Content Security Policy</title>
+      <link>https://github.com/higress-group/higress/issues/1706</link>
+      <guid isPermaLink="true">https://github.com/higress-group/higress/issues/1706</guid>
+      <pubDate>2025-01-23</pubDate>
+    </item>
+    <item>
+      <title>QFE should optionally expose httpgrpc on through gRPC</title>
+      <link>https://github.com/thanos-io/thanos/issues/7905</link>
+      <guid isPermaLink="true">https://github.com/thanos-io/thanos/issues/7905</guid>
+      <pubDate>2024-11-14</pubDate>
+    </item>
+    <item>
+      <title>changefeedccl: incorrect metric types</title>
+      <link>https://github.com/cockroachdb/cockroach/issues/134547</link>
+      <guid isPermaLink="true">https://github.com/cockroachdb/cockroach/issues/134547</guid>
+      <pubDate>2024-11-07</pubDate>
+    </item>
+    <item>
+      <title>[Bug]: Link button is disabled until you enter some valid data, including valid email address</title>
+      <link>https://github.com/zitadel/zitadel/issues/8824</link>
+      <guid isPermaLink="true">https://github.com/zitadel/zitadel/issues/8824</guid>
+      <pubDate>2024-10-25</pubDate>
+    </item>
+    <item>
+      <title>Post image in chatroom</title>
+      <link>https://github.com/m1k1o/neko/issues/422</link>
+      <guid isPermaLink="true">https://github.com/m1k1o/neko/issues/422</guid>
+      <pubDate>2024-09-05</pubDate>
+    </item>
+    <item>
+      <title>PromQL: Need richer label matcher logic (or apply matchers to expressions?)</title>
+      <link>https://github.com/prometheus/prometheus/issues/14824</link>
+      <guid isPermaLink="true">https://github.com/prometheus/prometheus/issues/14824</guid>
+      <pubDate>2024-09-04</pubDate>
+    </item>
+    <item>
+      <title>Animated connections don't honor prefers-reduced-motion</title>
+      <link>https://github.com/d2lang/d2/issues/1979</link>
+      <guid isPermaLink="true">https://github.com/d2lang/d2/issues/1979</guid>
+      <pubDate>2024-06-18</pubDate>
+    </item>
+    <item>
+      <title>Add external IDP id to IDP list</title>
+      <link>https://github.com/zitadel/zitadel/issues/8134</link>
+      <guid isPermaLink="true">https://github.com/zitadel/zitadel/issues/8134</guid>
+      <pubDate>2024-06-14</pubDate>
+    </item>
+    <item>
+      <title>[Bug]: Zitadel does not honor "Light Mode only" when after user logs in with another browser or in private mode</title>
+      <link>https://github.com/zitadel/zitadel/issues/7876</link>
+      <guid isPermaLink="true">https://github.com/zitadel/zitadel/issues/7876</guid>
+      <pubDate>2024-04-30</pubDate>
+    </item>
+    <item>
+      <title>changefeedccl: fix flush_hist_nanos callback in cloud storage and webhook sinks</title>
+      <link>https://github.com/cockroachdb/cockroach/issues/121248</link>
+      <guid isPermaLink="true">https://github.com/cockroachdb/cockroach/issues/121248</guid>
+      <pubDate>2024-03-27</pubDate>
+    </item>
+    <item>
+      <title>2FA form improvements</title>
+      <link>https://github.com/zitadel/zitadel/issues/7529</link>
+      <guid isPermaLink="true">https://github.com/zitadel/zitadel/issues/7529</guid>
+      <pubDate>2024-03-10</pubDate>
+    </item>
+    <item>
+      <title>Address capitlization inconsistencies in the UI</title>
+      <link>https://github.com/zitadel/zitadel/issues/7323</link>
+      <guid isPermaLink="true">https://github.com/zitadel/zitadel/issues/7323</guid>
+      <pubDate>2024-02-01</pubDate>
+    </item>
+    <item>
+      <title>Show actual Default URI in Console for Instance and Organizations</title>
+      <link>https://github.com/zitadel/zitadel/issues/7317</link>
+      <guid isPermaLink="true">https://github.com/zitadel/zitadel/issues/7317</guid>
+      <pubDate>2024-01-30</pubDate>
+    </item>
+    <item>
+      <title>[Bug]: Branding, Logo/icon  Changed After Page Reload</title>
+      <link>https://github.com/zitadel/zitadel/issues/7284</link>
+      <guid isPermaLink="true">https://github.com/zitadel/zitadel/issues/7284</guid>
+      <pubDate>2024-01-24</pubDate>
+    </item>
+    <item>
+      <title>Non-actionable error message: 'Error: unsupported transport "docker" for looking up local images'</title>
+      <link>https://github.com/podman-container-tools/podman/issues/20775</link>
+      <guid isPermaLink="true">https://github.com/podman-container-tools/podman/issues/20775</guid>
+      <pubDate>2023-11-24</pubDate>
+    </item>
+    <item>
+      <title>[Bug]: (Minor) Pressing Back Button in SSO Flow -&gt; Disabled Login Button</title>
+      <link>https://github.com/zitadel/zitadel/issues/6847</link>
+      <guid isPermaLink="true">https://github.com/zitadel/zitadel/issues/6847</guid>
+      <pubDate>2023-10-30</pubDate>
+    </item>
+    <item>
+      <title>[Bug]: Manager on instance level organization context unclear</title>
+      <link>https://github.com/zitadel/zitadel/issues/6805</link>
+      <guid isPermaLink="true">https://github.com/zitadel/zitadel/issues/6805</guid>
+      <pubDate>2023-10-25</pubDate>
+    </item>
+    <item>
+      <title>Disable "MULTIFACTOR AUTHENTICATION" in section "Edit Account"</title>
+      <link>https://github.com/zitadel/zitadel/issues/6655</link>
+      <guid isPermaLink="true">https://github.com/zitadel/zitadel/issues/6655</guid>
+      <pubDate>2023-10-02</pubDate>
+    </item>
+    <item>
+      <title>yay can ask the same "multiple providers" question and doesn't show for which package</title>
+      <link>https://github.com/Jguer/yay/issues/2290</link>
+      <guid isPermaLink="true">https://github.com/Jguer/yay/issues/2290</guid>
+      <pubDate>2023-09-24</pubDate>
+    </item>
+    <item>
+      <title>"Multifactor Init Lifetime" should default to 0 when configuring external IdPs</title>
+      <link>https://github.com/zitadel/zitadel/issues/6595</link>
+      <guid isPermaLink="true">https://github.com/zitadel/zitadel/issues/6595</guid>
+      <pubDate>2023-09-19</pubDate>
+    </item>
+    <item>
+      <title>[Bug]: logo not shown on first load</title>
+      <link>https://github.com/zitadel/zitadel/issues/6484</link>
+      <guid isPermaLink="true">https://github.com/zitadel/zitadel/issues/6484</guid>
+      <pubDate>2023-09-04</pubDate>
+    </item>
+    <item>
+      <title>Allow to set "User Info inside ID token" while creating an app</title>
+      <link>https://github.com/zitadel/zitadel/issues/6351</link>
+      <guid isPermaLink="true">https://github.com/zitadel/zitadel/issues/6351</guid>
+      <pubDate>2023-08-11</pubDate>
+    </item>
+    <item>
+      <title>Optimize the information displayed on the "Device Authorization" page.</title>
+      <link>https://github.com/zitadel/zitadel/issues/6120</link>
+      <guid isPermaLink="true">https://github.com/zitadel/zitadel/issues/6120</guid>
+      <pubDate>2023-06-30</pubDate>
+    </item>
+    <item>
+      <title>[Bug]: New user via external login can delete their IdP link and make their account inaccessible</title>
+      <link>https://github.com/zitadel/zitadel/issues/6081</link>
+      <guid isPermaLink="true">https://github.com/zitadel/zitadel/issues/6081</guid>
+      <pubDate>2023-06-23</pubDate>
+    </item>
+    <item>
+      <title>Typst support</title>
+      <link>https://github.com/d2lang/d2/issues/1435</link>
+      <guid isPermaLink="true">https://github.com/d2lang/d2/issues/1435</guid>
+      <pubDate>2023-06-22</pubDate>
+    </item>
+    <item>
+      <title>console: Highlight required fields consistently</title>
+      <link>https://github.com/zitadel/zitadel/issues/5712</link>
+      <guid isPermaLink="true">https://github.com/zitadel/zitadel/issues/5712</guid>
+      <pubDate>2023-04-19</pubDate>
+    </item>
+    <item>
+      <title>higress如何支持健康检查和路由权重、会话保持</title>
+      <link>https://github.com/higress-group/higress/issues/287</link>
+      <guid isPermaLink="true">https://github.com/higress-group/higress/issues/287</guid>
+      <pubDate>2023-04-11</pubDate>
+    </item>
+    <item>
+      <title>Add context for why yay is asking to choose a provide</title>
+      <link>https://github.com/Jguer/yay/issues/2073</link>
+      <guid isPermaLink="true">https://github.com/Jguer/yay/issues/2073</guid>
+      <pubDate>2023-04-05</pubDate>
+    </item>
+    <item>
+      <title>draw.io (diagrams.net) files format (mxGraph) export / import</title>
+      <link>https://github.com/d2lang/d2/issues/743</link>
+      <guid isPermaLink="true">https://github.com/d2lang/d2/issues/743</guid>
+      <pubDate>2023-01-30</pubDate>
+    </item>
+  </channel>
+</rss>

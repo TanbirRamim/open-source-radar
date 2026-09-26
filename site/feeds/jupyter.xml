@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0">
+  <channel>
+    <title>Jupyter Notebook beginner issues</title>
+    <link>https://tanbirramim.github.io/open-source-radar/issues/by-language/jupyter.md</link>
+    <description>Recently created beginner-friendly issues for Jupyter Notebook.</description>
+    <item>
+      <title>Fix broken science article links in TU Chronicles pages</title>
+      <link>https://github.com/onestardao/WFGY/issues/126</link>
+      <guid isPermaLink="true">https://github.com/onestardao/WFGY/issues/126</guid>
+      <pubDate>2026-03-09</pubDate>
+    </item>
+    <item>
+      <title>NeuralFoil Optimizer tutorial issue</title>
+      <link>https://github.com/peterdsharpe/AeroSandbox/issues/172</link>
+      <guid isPermaLink="true">https://github.com/peterdsharpe/AeroSandbox/issues/172</guid>
+      <pubDate>2026-03-06</pubDate>
+    </item>
+    <item>
+      <title>Add a minimal reproducible debugging template</title>
+      <link>https://github.com/onestardao/WFGY/issues/80</link>
+      <guid isPermaLink="true">https://github.com/onestardao/WFGY/issues/80</guid>
+      <pubDate>2026-03-04</pubDate>
+    </item>
+    <item>
+      <title>Hacktoberfest Umbrella Issue</title>
+      <link>https://github.com/apache/hamilton/issues/1186</link>
+      <guid isPermaLink="true">https://github.com/apache/hamilton/issues/1186</guid>
+      <pubDate>2024-10-15</pubDate>
+    </item>
+    <item>
+      <title>Hub Contributions Ideas</title>
+      <link>https://github.com/apache/hamilton/issues/559</link>
+      <guid isPermaLink="true">https://github.com/apache/hamilton/issues/559</guid>
+      <pubDate>2023-11-27</pubDate>
+    </item>
+    <item>
+      <title>Example for running on AWS (Glue, EMR, SageMaker, etc)</title>
+      <link>https://github.com/awslabs/python-deequ/issues/140</link>
+      <guid isPermaLink="true">https://github.com/awslabs/python-deequ/issues/140</guid>
+      <pubDate>2023-07-08</pubDate>
+    </item>
+    <item>
+      <title>Combined `extract` decorator</title>
+      <link>https://github.com/apache/hamilton/issues/121</link>
+      <guid isPermaLink="true">https://github.com/apache/hamilton/issues/121</guid>
+      <pubDate>2023-03-22</pubDate>
+    </item>
+    <item>
+      <title>Unit test stub autogenerator</title>
+      <link>https://github.com/apache/hamilton/issues/74</link>
+      <guid isPermaLink="true">https://github.com/apache/hamilton/issues/74</guid>
+      <pubDate>2023-02-26</pubDate>
+    </item>
+    <item>
+      <title>Feature Request: Efficient Poisson Binomial PMF/CDF in tfp</title>
+      <link>https://github.com/tensorflow/probability/issues/1453</link>
+      <guid isPermaLink="true">https://github.com/tensorflow/probability/issues/1453</guid>
+      <pubDate>2021-10-26</pubDate>
+    </item>
+    <item>
+      <title>A question about target_log_prob_fn</title>
+      <link>https://github.com/tensorflow/probability/issues/611</link>
+      <guid isPermaLink="true">https://github.com/tensorflow/probability/issues/611</guid>
+      <pubDate>2019-10-17</pubDate>
+    </item>
+    <item>
+      <title>providing sample weights to glm.fit() and glm.fit.sparse()</title>
+      <link>https://github.com/tensorflow/probability/issues/252</link>
+      <guid isPermaLink="true">https://github.com/tensorflow/probability/issues/252</guid>
+      <pubDate>2018-12-18</pubDate>
+    </item>
+  </channel>
+</rss>

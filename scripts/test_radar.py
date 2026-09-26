@@ -1,11 +1,14 @@
 """Unit tests for the pure parts of the radar pipeline: python -m unittest discover scripts"""
 
 import datetime as dt
+from pathlib import Path
+import tempfile
 import unittest
 from typing import ClassVar
 
 import radar
-
+import tempfile
+import xml.etree.ElementTree as ET
 
 def issue(**overrides):
     base = {
@@ -230,3 +233,44 @@ class QueryTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+class LanguageFeedTests(unittest.TestCase):
+    def test_render_language_feeds(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            original_root = radar.ROOT
+            radar.ROOT = Path(tmp)
+
+            try:
+                repositories = {
+                    "owner/repo": {"language": "Python"},
+                }
+                issues = [
+                    {
+                        "repo": "owner/repo",
+                        "level": "beginner",
+                        "title": "Issue <with> & special chars",
+                        "url": "https://github.com/owner/repo/issues/1",
+                        "created": "2026-09-20",
+                    },
+                ]
+
+                radar.render_language_feeds(
+                    {"Python": "python"},
+                    repositories,
+                    issues,
+                )
+
+                feed = Path(tmp) / "site" / "feeds" / "python.xml"
+                self.assertTrue(feed.exists())
+
+                root = ET.parse(feed).getroot()
+                items = root.findall("./channel/item")
+
+                self.assertEqual(len(items), 1)
+                self.assertEqual(items[0].findtext("title"), "Issue <with> & special chars")
+                self.assertEqual(
+                    items[0].findtext("guid"),
+                    "https://github.com/owner/repo/issues/1",
+                )
+            finally:
+                radar.ROOT = original_root

@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0">
+  <channel>
+    <title>Clojure beginner issues</title>
+    <link>https://tanbirramim.github.io/open-source-radar/issues/by-language/clojure.md</link>
+    <description>Recently created beginner-friendly issues for Clojure.</description>
+    <item>
+      <title>Show when a subscription or alert was skipped because it was empty</title>
+      <link>https://github.com/metabase/metabase/issues/80736</link>
+      <guid isPermaLink="true">https://github.com/metabase/metabase/issues/80736</guid>
+      <pubDate>2026-08-24</pubDate>
+    </item>
+    <item>
+      <title>Zombie chrome-headless processes created on element export</title>
+      <link>https://github.com/penpot/penpot/issues/10339</link>
+      <guid isPermaLink="true">https://github.com/penpot/penpot/issues/10339</guid>
+      <pubDate>2026-06-19</pubDate>
+    </item>
+    <item>
+      <title>Pie charts tooltip naming don't respect changed column names</title>
+      <link>https://github.com/metabase/metabase/issues/71974</link>
+      <guid isPermaLink="true">https://github.com/metabase/metabase/issues/71974</guid>
+      <pubDate>2026-04-03</pubDate>
+    </item>
+    <item>
+      <title>Web Search Tool</title>
+      <link>https://github.com/editor-code-assistant/eca/issues/70</link>
+      <guid isPermaLink="true">https://github.com/editor-code-assistant/eca/issues/70</guid>
+      <pubDate>2025-08-21</pubDate>
+    </item>
+    <item>
+      <title>Add "Replace full qualified ns with alias" feature</title>
+      <link>https://github.com/clojure-lsp/clojure-lsp/issues/1810</link>
+      <guid isPermaLink="true">https://github.com/clojure-lsp/clojure-lsp/issues/1810</guid>
+      <pubDate>2024-04-22</pubDate>
+    </item>
+    <item>
+      <title>Default settings</title>
+      <link>https://github.com/mtgred/netrunner/issues/7403</link>
+      <guid isPermaLink="true">https://github.com/mtgred/netrunner/issues/7403</guid>
+      <pubDate>2024-04-21</pubDate>
+    </item>
+    <item>
+      <title>Block embed doesn`t contain block references info (number of instances)</title>
+      <link>https://github.com/logseq/logseq/issues/8489</link>
+      <guid isPermaLink="true">https://github.com/logseq/logseq/issues/8489</guid>
+      <pubDate>2023-02-01</pubDate>
+    </item>
+    <item>
+      <title>Queries doesnt respect styled CSS tags</title>
+      <link>https://github.com/logseq/logseq/issues/6060</link>
+      <guid isPermaLink="true">https://github.com/logseq/logseq/issues/6060</guid>
+      <pubDate>2022-07-16</pubDate>
+    </item>
+    <item>
+      <title>Migrate `locale` and `is_qbnewb` columns in `core_user` table to User-local settings</title>
+      <link>https://github.com/metabase/metabase/issues/20604</link>
+      <guid isPermaLink="true">https://github.com/metabase/metabase/issues/20604</guid>
+      <pubDate>2022-02-17</pubDate>
+    </item>
+    <item>
+      <title>Metadata: automatically set password fields to sensitive information</title>
+      <link>https://github.com/metabase/metabase/issues/1694</link>
+      <guid isPermaLink="true">https://github.com/metabase/metabase/issues/1694</guid>
+      <pubDate>2015-12-18</pubDate>
+    </item>
+  </channel>
+</rss>

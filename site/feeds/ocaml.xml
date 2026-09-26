@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0">
+  <channel>
+    <title>OCaml beginner issues</title>
+    <link>https://tanbirramim.github.io/open-source-radar/issues/by-language/ocaml.md</link>
+    <description>Recently created beginner-friendly issues for OCaml.</description>
+    <item>
+      <title>Support for early returns inside loops that can be replaced with breaks</title>
+      <link>https://github.com/AeneasVerif/aeneas/issues/822</link>
+      <guid isPermaLink="true">https://github.com/AeneasVerif/aeneas/issues/822</guid>
+      <pubDate>2026-03-04</pubDate>
+    </item>
+    <item>
+      <title>Detect common typos in metadata and attempt to guess user's intention (or at least print a hint)</title>
+      <link>https://github.com/ocaml/dune/issues/11561</link>
+      <guid isPermaLink="true">https://github.com/ocaml/dune/issues/11561</guid>
+      <pubDate>2025-03-24</pubDate>
+    </item>
+    <item>
+      <title>Improve `--experimental` output</title>
+      <link>https://github.com/opengrep/opengrep/issues/134</link>
+      <guid isPermaLink="true">https://github.com/opengrep/opengrep/issues/134</guid>
+      <pubDate>2025-03-08</pubDate>
+    </item>
+    <item>
+      <title>Merlin-lib: return the description of a warning based on its identifier</title>
+      <link>https://github.com/ocaml/merlin/issues/1775</link>
+      <guid isPermaLink="true">https://github.com/ocaml/merlin/issues/1775</guid>
+      <pubDate>2024-05-29</pubDate>
+    </item>
+    <item>
+      <title>dune fmt should be able to format single files</title>
+      <link>https://github.com/ocaml/dune/issues/7287</link>
+      <guid isPermaLink="true">https://github.com/ocaml/dune/issues/7287</guid>
+      <pubDate>2023-03-11</pubDate>
+    </item>
+    <item>
+      <title>dune init should support Coq projects</title>
+      <link>https://github.com/ocaml/dune/issues/7087</link>
+      <guid isPermaLink="true">https://github.com/ocaml/dune/issues/7087</guid>
+      <pubDate>2023-02-15</pubDate>
+    </item>
+    <item>
+      <title>Installation of different LICENSE files (per opam package in a multi-opam repository/project)</title>
+      <link>https://github.com/ocaml/dune/issues/4842</link>
+      <guid isPermaLink="true">https://github.com/ocaml/dune/issues/4842</guid>
+      <pubDate>2021-08-03</pubDate>
+    </item>
+    <item>
+      <title>[RFC] allow user actions to request direct access to the terminal</title>
+      <link>https://github.com/ocaml/dune/issues/3464</link>
+      <guid isPermaLink="true">https://github.com/ocaml/dune/issues/3464</guid>
+      <pubDate>2020-05-07</pubDate>
+    </item>
+    <item>
+      <title>Add support for assembly language for foreign_stubs</title>
+      <link>https://github.com/ocaml/dune/issues/3342</link>
+      <guid isPermaLink="true">https://github.com/ocaml/dune/issues/3342</guid>
+      <pubDate>2020-04-08</pubDate>
+    </item>
+    <item>
+      <title>Named targets</title>
+      <link>https://github.com/ocaml/dune/issues/3309</link>
+      <guid isPermaLink="true">https://github.com/ocaml/dune/issues/3309</guid>
+      <pubDate>2020-03-31</pubDate>
+    </item>
+    <item>
+      <title>Ability to control the meaning of :standard dirs at workspace level.</title>
+      <link>https://github.com/ocaml/dune/issues/3271</link>
+      <guid isPermaLink="true">https://github.com/ocaml/dune/issues/3271</guid>
+      <pubDate>2020-03-16</pubDate>
+    </item>
+    <item>
+      <title>Declare axiom compatibility and axiom classification</title>
+      <link>https://github.com/rocq-prover/rocq/issues/10617</link>
+      <guid isPermaLink="true">https://github.com/rocq-prover/rocq/issues/10617</guid>
+      <pubDate>2019-08-04</pubDate>
+    </item>
+    <item>
+      <title>Add support for version comparison</title>
+      <link>https://github.com/ocaml/dune/issues/1071</link>
+      <guid isPermaLink="true">https://github.com/ocaml/dune/issues/1071</guid>
+      <pubDate>2018-07-31</pubDate>
+    </item>
+    <item>
+      <title>Implement OSL in the per_module field for preprocessor specifications</title>
+      <link>https://github.com/ocaml/dune/issues/963</link>
+      <guid isPermaLink="true">https://github.com/ocaml/dune/issues/963</guid>
+      <pubDate>2018-07-07</pubDate>
+    </item>
+  </channel>
+</rss>

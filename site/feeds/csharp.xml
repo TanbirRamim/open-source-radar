@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0">
+  <channel>
+    <title>C# beginner issues</title>
+    <link>https://tanbirramim.github.io/open-source-radar/issues/by-language/csharp.md</link>
+    <description>Recently created beginner-friendly issues for C#.</description>
+    <item>
+      <title>MicrosoftLogger.LogLevel defaults to Trace when nothing is enabled, flipping every guarded log site open</title>
+      <link>https://github.com/unoplatform/uno/issues/24757</link>
+      <guid isPermaLink="true">https://github.com/unoplatform/uno/issues/24757</guid>
+      <pubDate>2026-09-25</pubDate>
+    </item>
+    <item>
+      <title>ICU break-iterator locale is marshaled as UTF-16, so ICU never resolves the requested locale</title>
+      <link>https://github.com/unoplatform/uno/issues/24756</link>
+      <guid isPermaLink="true">https://github.com/unoplatform/uno/issues/24756</guid>
+      <pubDate>2026-09-25</pubDate>
+    </item>
+    <item>
+      <title>Logger obtained before the logging adapter initializes stays permanently disabled</title>
+      <link>https://github.com/unoplatform/uno/issues/24755</link>
+      <guid isPermaLink="true">https://github.com/unoplatform/uno/issues/24755</guid>
+      <pubDate>2026-09-25</pubDate>
+    </item>
+    <item>
+      <title>DependencyPropertyDetailsCollection wastes most of its DependencyPropertyDetails[] bucket per stored property</title>
+      <link>https://github.com/unoplatform/uno/issues/24754</link>
+      <guid isPermaLink="true">https://github.com/unoplatform/uno/issues/24754</guid>
+      <pubDate>2026-09-25</pubDate>
+    </item>
+    <item>
+      <title>DependencyObject constructor always allocates two empty Dictionary fields, even when unused</title>
+      <link>https://github.com/unoplatform/uno/issues/24752</link>
+      <guid isPermaLink="true">https://github.com/unoplatform/uno/issues/24752</guid>
+      <pubDate>2026-09-25</pubDate>
+    </item>
+    <item>
+      <title>`TextBlock` with `LineStackingStrategy.BlockLineHeight` puts the baseline at `LineHeight - descent` instead of scaling it like WinUI (Skia)</title>
+      <link>https://github.com/unoplatform/uno/issues/24746</link>
+      <guid isPermaLink="true">https://github.com/unoplatform/uno/issues/24746</guid>
+      <pubDate>2026-09-25</pubDate>
+    </item>
+    <item>
+      <title>Selectable TextBlock drops the drag selection when the mouse is released over a Hyperlink or capture is lost</title>
+      <link>https://github.com/unoplatform/uno/issues/24744</link>
+      <guid isPermaLink="true">https://github.com/unoplatform/uno/issues/24744</guid>
+      <pubDate>2026-09-25</pubDate>
+    </item>
+    <item>
+      <title>A focused TextBlock removed from the tree loses focus instead of moving it to the next focusable element</title>
+      <link>https://github.com/unoplatform/uno/issues/24728</link>
+      <guid isPermaLink="true">https://github.com/unoplatform/uno/issues/24728</guid>
+      <pubDate>2026-09-25</pubDate>
+    </item>
+    <item>
+      <title>Pressing a `Hyperlink` in a `TextBlock` does not focus the Hyperlink</title>
+      <link>https://github.com/unoplatform/uno/issues/24723</link>
+      <guid isPermaLink="true">https://github.com/unoplatform/uno/issues/24723</guid>
+      <pubDate>2026-09-25</pubDate>
+    </item>
+    <item>
+      <title>FocusProperties.HasFocusedElement ignores a focused Hyperlink, so hiding or disabling its container keeps focus on it</title>
+      <link>https://github.com/unoplatform/uno/issues/24720</link>
+      <guid isPermaLink="true">https://github.com/unoplatform/uno/issues/24720</guid>
+      <pubDate>2026-09-25</pubDate>
+    </item>
+    <item>
+      <title>`ListViewItem.ContentTemplateRoot` stays null when the ListView uses an `ItemTemplate`</title>
+      <link>https://github.com/unoplatform/uno/issues/24718</link>
+      <guid isPermaLink="true">https://github.com/unoplatform/uno/issues/24718</guid>
+      <pubDate>2026-09-25</pubDate>
+    </item>
+    <item>
+      <title>`Hyperlink` activation raises no `InvokePatternOnInvoked` automation event</title>
+      <link>https://github.com/unoplatform/uno/issues/24678</link>
+      <guid isPermaLink="true">https://github.com/unoplatform/uno/issues/24678</guid>
+      <pubDate>2026-09-25</pubDate>
+    </item>
+    <item>
+      <title>Hyperlink keeps its underline on hover and press (HyperlinkUnderlineVisible is ignored)</title>
+      <link>https://github.com/unoplatform/uno/issues/24677</link>
+      <guid isPermaLink="true">https://github.com/unoplatform/uno/issues/24677</guid>
+      <pubDate>2026-09-25</pubDate>
+    </item>
+    <item>
+      <title>Several ported controls skip `base.OnPropertyChanged2`, so `Slider`, `ProgressBar`, `DatePicker` and others ignore `IsFocusEngaged` and `Visibility` changes</title>
+      <link>https://github.com/unoplatform/uno/issues/24672</link>
+      <guid isPermaLink="true">https://github.com/unoplatform/uno/issues/24672</guid>
+      <pubDate>2026-09-25</pubDate>
+    </item>
+    <item>
+      <title>Launcher.LaunchUriAsync always returns false on tvOS</title>
+      <link>https://github.com/unoplatform/uno/issues/24650</link>
+      <guid isPermaLink="true">https://github.com/unoplatform/uno/issues/24650</guid>
+      <pubDate>2026-09-25</pubDate>
+    </item>
+    <item>
+      <title>[2.x] Tracking issue for RID-related binary loading issues on Linux</title>
+      <link>https://github.com/dotnet/Silk.NET/issues/2610</link>
+      <guid isPermaLink="true">https://github.com/dotnet/Silk.NET/issues/2610</guid>
+      <pubDate>2026-08-22</pubDate>
+    </item>
+    <item>
+      <title>[FEATURE REQUEST] Update 'About &gt; Open Source Licenses' section in settings</title>
+      <link>https://github.com/unchihugo/FluentFlyout/issues/1021</link>
+      <guid isPermaLink="true">https://github.com/unchihugo/FluentFlyout/issues/1021</guid>
+      <pubDate>2026-08-13</pubDate>
+    </item>
+    <item>
+      <title>Improvements to version number</title>
+      <link>https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/issues/1235</link>
+      <guid isPermaLink="true">https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/issues/1235</guid>
+      <pubDate>2026-07-05</pubDate>
+    </item>
+    <item>
+      <title>PT BR - Portuguese Brazil</title>
+      <link>https://github.com/itsfatduck/optimizerDuck/issues/34</link>
+      <guid isPermaLink="true">https://github.com/itsfatduck/optimizerDuck/issues/34</guid>
+      <pubDate>2026-06-15</pubDate>
+    </item>
+    <item>
+      <title>Society center can be built above the ground</title>
+      <link>https://github.com/Revolutionary-Games/Thrive/issues/7073</link>
+      <guid isPermaLink="true">https://github.com/Revolutionary-Games/Thrive/issues/7073</guid>
+      <pubDate>2026-06-06</pubDate>
+    </item>
+    <item>
+      <title>Add the new Arabic variant localization if it is started</title>
+      <link>https://github.com/Revolutionary-Games/Thrive/issues/7006</link>
+      <guid isPermaLink="true">https://github.com/Revolutionary-Games/Thrive/issues/7006</guid>
+      <pubDate>2026-05-18</pubDate>
+    </item>
+    <item>
+      <title>Scancode not passed to TSF</title>
+      <link>https://github.com/dotnet/wpf/issues/11635</link>
+      <guid isPermaLink="true">https://github.com/dotnet/wpf/issues/11635</guid>
+      <pubDate>2026-05-12</pubDate>
+    </item>
+    <item>
+      <title>Add "tile" support for wallpaper image position.</title>
+      <link>https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/issues/1214</link>
+      <guid isPermaLink="true">https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/issues/1214</guid>
+      <pubDate>2026-04-11</pubDate>
+    </item>
+    <item>
+      <title>[BUG] Premium unlocked banner keeps coming back</title>
+      <link>https://github.com/unchihugo/FluentFlyout/issues/540</link>
+      <guid isPermaLink="true">https://github.com/unchihugo/FluentFlyout/issues/540</guid>
+      <pubDate>2026-03-20</pubDate>
+    </item>
+    <item>
+      <title>Make sure that extinct entries aren't shown in the endosymbiosis candidates (verify bug report)</title>
+      <link>https://github.com/Revolutionary-Games/Thrive/issues/6656</link>
+      <guid isPermaLink="true">https://github.com/Revolutionary-Games/Thrive/issues/6656</guid>
+      <pubDate>2026-01-21</pubDate>
+    </item>
+    <item>
+      <title>MudOverlay: Allow setting custom opacity</title>
+      <link>https://github.com/MudBlazor/MudBlazor/issues/11991</link>
+      <guid isPermaLink="true">https://github.com/MudBlazor/MudBlazor/issues/11991</guid>
+      <pubDate>2025-10-23</pubDate>
+    </item>
+    <item>
+      <title>Improve Exception Message for Missing Project Metadata Annotation in ResourceContainerImageBuilder.cs</title>
+      <link>https://github.com/microsoft/aspire/issues/11299</link>
+      <guid isPermaLink="true">https://github.com/microsoft/aspire/issues/11299</guid>
+      <pubDate>2025-09-09</pubDate>
+    </item>
+    <item>
+      <title>Displaying Camera Settings</title>
+      <link>https://github.com/immichFrame/ImmichFrame/issues/386</link>
+      <guid isPermaLink="true">https://github.com/immichFrame/ImmichFrame/issues/386</guid>
+      <pubDate>2025-06-04</pubDate>
+    </item>
+    <item>
+      <title>AddReferenceViewModel duplicate key exception when viewing entity</title>
+      <link>https://github.com/stride3d/stride/issues/2785</link>
+      <guid isPermaLink="true">https://github.com/stride3d/stride/issues/2785</guid>
+      <pubDate>2025-05-14</pubDate>
+    </item>
+    <item>
+      <title>MudDataGrid: Add row number or index to the row context</title>
+      <link>https://github.com/MudBlazor/MudBlazor/issues/11167</link>
+      <guid isPermaLink="true">https://github.com/MudBlazor/MudBlazor/issues/11167</guid>
+      <pubDate>2025-04-09</pubDate>
+    </item>
+    <item>
+      <title>Consider if the editor light level (day/night) buttons should default to day</title>
+      <link>https://github.com/Revolutionary-Games/Thrive/issues/6039</link>
+      <guid isPermaLink="true">https://github.com/Revolutionary-Games/Thrive/issues/6039</guid>
+      <pubDate>2025-03-25</pubDate>
+    </item>
+    <item>
+      <title>OpenID Connect response_mode handling - flawed discovery, missing validation</title>
+      <link>https://github.com/bitwarden/server/issues/5461</link>
+      <guid isPermaLink="true">https://github.com/bitwarden/server/issues/5461</guid>
+      <pubDate>2025-03-04</pubDate>
+    </item>
+    <item>
+      <title>Add a tutorial about storage and dangers of low storage causing negative ATP balance</title>
+      <link>https://github.com/Revolutionary-Games/Thrive/issues/5950</link>
+      <guid isPermaLink="true">https://github.com/Revolutionary-Games/Thrive/issues/5950</guid>
+      <pubDate>2025-02-24</pubDate>
+    </item>
+    <item>
+      <title>CA1036: Override methods on comparable types</title>
+      <link>https://github.com/dotnet/wpf/issues/10271</link>
+      <guid isPermaLink="true">https://github.com/dotnet/wpf/issues/10271</guid>
+      <pubDate>2025-01-13</pubDate>
+    </item>
+    <item>
+      <title>`FrameworkElement_Sizes` crashes on WinUI</title>
+      <link>https://github.com/unoplatform/uno/issues/19198</link>
+      <guid isPermaLink="true">https://github.com/unoplatform/uno/issues/19198</guid>
+      <pubDate>2025-01-10</pubDate>
+    </item>
+    <item>
+      <title>Dependency Injection too vague</title>
+      <link>https://github.com/Azure/azure-sdk-for-net/issues/47586</link>
+      <guid isPermaLink="true">https://github.com/Azure/azure-sdk-for-net/issues/47586</guid>
+      <pubDate>2024-12-17</pubDate>
+    </item>
+    <item>
+      <title>XamlBindingHelper not returning right values</title>
+      <link>https://github.com/unoplatform/uno/issues/18855</link>
+      <guid isPermaLink="true">https://github.com/unoplatform/uno/issues/18855</guid>
+      <pubDate>2024-11-20</pubDate>
+    </item>
+    <item>
+      <title>[BUG]: Not loading cuda backend on laptop</title>
+      <link>https://github.com/SciSharp/LLamaSharp/issues/990</link>
+      <guid isPermaLink="true">https://github.com/SciSharp/LLamaSharp/issues/990</guid>
+      <pubDate>2024-11-19</pubDate>
+    </item>
+    <item>
+      <title>Get-AzADGroupMember should return better error message if group does not exist</title>
+      <link>https://github.com/Azure/azure-powershell/issues/26237</link>
+      <guid isPermaLink="true">https://github.com/Azure/azure-powershell/issues/26237</guid>
+      <pubDate>2024-10-08</pubDate>
+    </item>
+    <item>
+      <title>tabPage 的 Alignment 属性无法设置为 Top</title>
+      <link>https://github.com/Taiizor/ReaLTaiizor/issues/173</link>
+      <guid isPermaLink="true">https://github.com/Taiizor/ReaLTaiizor/issues/173</guid>
+      <pubDate>2024-08-30</pubDate>
+    </item>
+    <item>
+      <title>MudDateRangePicker ResetAsync() does not affect the DateRange or the current focused period</title>
+      <link>https://github.com/MudBlazor/MudBlazor/issues/9692</link>
+      <guid isPermaLink="true">https://github.com/MudBlazor/MudBlazor/issues/9692</guid>
+      <pubDate>2024-08-22</pubDate>
+    </item>
+    <item>
+      <title>Make RuntimeFrameworkVersion apply to targeting packs</title>
+      <link>https://github.com/dotnet/sdk/issues/42196</link>
+      <guid isPermaLink="true">https://github.com/dotnet/sdk/issues/42196</guid>
+      <pubDate>2024-07-16</pubDate>
+    </item>
+    <item>
+      <title>Centralize more toolsetversion-related data for tests</title>
+      <link>https://github.com/dotnet/sdk/issues/41583</link>
+      <guid isPermaLink="true">https://github.com/dotnet/sdk/issues/41583</guid>
+      <pubDate>2024-06-13</pubDate>
+    </item>
+    <item>
+      <title>Membrane types should give some macrolide resistance</title>
+      <link>https://github.com/Revolutionary-Games/Thrive/issues/5194</link>
+      <guid isPermaLink="true">https://github.com/Revolutionary-Games/Thrive/issues/5194</guid>
+      <pubDate>2024-06-10</pubDate>
+    </item>
+    <item>
+      <title>Extra vertical space in static ColorPicker with small palettes</title>
+      <link>https://github.com/MudBlazor/MudBlazor/issues/9131</link>
+      <guid isPermaLink="true">https://github.com/MudBlazor/MudBlazor/issues/9131</guid>
+      <pubDate>2024-06-06</pubDate>
+    </item>
+    <item>
+      <title>[Feature Request]: Reduce the wrapping around SDK Resolver messages when only one resolver is actually invoked</title>
+      <link>https://github.com/dotnet/msbuild/issues/10191</link>
+      <guid isPermaLink="true">https://github.com/dotnet/msbuild/issues/10191</guid>
+      <pubDate>2024-05-30</pubDate>
+    </item>
+    <item>
+      <title>Certain VPNs cause MAUI to respond with connectivity of NetworkAccess.Local</title>
+      <link>https://github.com/dotnet/maui/issues/22228</link>
+      <guid isPermaLink="true">https://github.com/dotnet/maui/issues/22228</guid>
+      <pubDate>2024-05-06</pubDate>
+    </item>
+    <item>
+      <title>[ENH] Display Log Persistence Mode in Workflow Instance Viewer</title>
+      <link>https://github.com/elsa-workflows/elsa-core/issues/5271</link>
+      <guid isPermaLink="true">https://github.com/elsa-workflows/elsa-core/issues/5271</guid>
+      <pubDate>2024-04-24</pubDate>
+    </item>
+    <item>
+      <title>AzureProvisioner output saves connection strings to user secrets even if it did nothing</title>
+      <link>https://github.com/microsoft/aspire/issues/3298</link>
+      <guid isPermaLink="true">https://github.com/microsoft/aspire/issues/3298</guid>
+      <pubDate>2024-03-30</pubDate>
+    </item>
+    <item>
+      <title>Update Pinta PPA with recent versions</title>
+      <link>https://github.com/PintaProject/Pinta/issues/738</link>
+      <guid isPermaLink="true">https://github.com/PintaProject/Pinta/issues/738</guid>
+      <pubDate>2024-02-26</pubDate>
+    </item>
+  </channel>
+</rss>

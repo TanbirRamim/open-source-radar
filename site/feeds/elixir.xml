@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0">
+  <channel>
+    <title>Elixir beginner issues</title>
+    <link>https://tanbirramim.github.io/open-source-radar/issues/by-language/elixir.md</link>
+    <description>Recently created beginner-friendly issues for Elixir.</description>
+    <item>
+      <title>"Polls closing soon" gives confusing notification when pressing its refresh button</title>
+      <link>https://github.com/bonfire-networks/bonfire-app/issues/2243</link>
+      <guid isPermaLink="true">https://github.com/bonfire-networks/bonfire-app/issues/2243</guid>
+      <pubDate>2026-08-28</pubDate>
+    </item>
+    <item>
+      <title>Feature Proposal: unfollow all</title>
+      <link>https://github.com/bonfire-networks/bonfire-app/issues/2049</link>
+      <guid isPermaLink="true">https://github.com/bonfire-networks/bonfire-app/issues/2049</guid>
+      <pubDate>2026-06-16</pubDate>
+    </item>
+    <item>
+      <title>Github Action for automatically running pgbench</title>
+      <link>https://github.com/supabase/supavisor/issues/11</link>
+      <guid isPermaLink="true">https://github.com/supabase/supavisor/issues/11</guid>
+      <pubDate>2023-02-02</pubDate>
+    </item>
+    <item>
+      <title>Feature Proposal: Keyboard shortcuts</title>
+      <link>https://github.com/bonfire-networks/bonfire-app/issues/404</link>
+      <guid isPermaLink="true">https://github.com/bonfire-networks/bonfire-app/issues/404</guid>
+      <pubDate>2022-07-01</pubDate>
+    </item>
+    <item>
+      <title>Overview of who opened the mail/ clicked on links</title>
+      <link>https://github.com/pentacent/keila/issues/109</link>
+      <guid isPermaLink="true">https://github.com/pentacent/keila/issues/109</guid>
+      <pubDate>2022-01-27</pubDate>
+    </item>
+  </channel>
+</rss>

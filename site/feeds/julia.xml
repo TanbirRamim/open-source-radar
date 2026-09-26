@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0">
+  <channel>
+    <title>Julia beginner issues</title>
+    <link>https://tanbirramim.github.io/open-source-radar/issues/by-language/julia.md</link>
+    <description>Recently created beginner-friendly issues for Julia.</description>
+    <item>
+      <title>Utilize DocumenterCodeblocks.jl in all subpackages of the ecosystem</title>
+      <link>https://github.com/JuliaDynamics/DynamicalSystems.jl/issues/270</link>
+      <guid isPermaLink="true">https://github.com/JuliaDynamics/DynamicalSystems.jl/issues/270</guid>
+      <pubDate>2026-08-18</pubDate>
+    </item>
+    <item>
+      <title>More refined handling of (top-level) semicolons</title>
+      <link>https://github.com/JuliaEditorSupport/JuliaFormatter.jl/issues/1239</link>
+      <guid isPermaLink="true">https://github.com/JuliaEditorSupport/JuliaFormatter.jl/issues/1239</guid>
+      <pubDate>2026-07-26</pubDate>
+    </item>
+    <item>
+      <title>Option for whitespace surrounding parenthesis/brackets?</title>
+      <link>https://github.com/JuliaEditorSupport/JuliaFormatter.jl/issues/1084</link>
+      <guid isPermaLink="true">https://github.com/JuliaEditorSupport/JuliaFormatter.jl/issues/1084</guid>
+      <pubDate>2026-06-11</pubDate>
+    </item>
+    <item>
+      <title>make this repo's pre-commit hook use `julia --project=. -e`</title>
+      <link>https://github.com/JuliaEditorSupport/JuliaFormatter.jl/issues/1028</link>
+      <guid isPermaLink="true">https://github.com/JuliaEditorSupport/JuliaFormatter.jl/issues/1028</guid>
+      <pubDate>2026-06-03</pubDate>
+    </item>
+    <item>
+      <title>Naming inconsistencies in generic dense cuSOLVER functions</title>
+      <link>https://github.com/JuliaGPU/CUDA.jl/issues/3085</link>
+      <guid isPermaLink="true">https://github.com/JuliaGPU/CUDA.jl/issues/3085</guid>
+      <pubDate>2026-04-09</pubDate>
+    </item>
+    <item>
+      <title>Interactive reflection of caught errors is broken</title>
+      <link>https://github.com/JuliaGPU/CUDA.jl/issues/2798</link>
+      <guid isPermaLink="true">https://github.com/JuliaGPU/CUDA.jl/issues/2798</guid>
+      <pubDate>2025-06-25</pubDate>
+    </item>
+    <item>
+      <title>Better error message when uuid is not present in Project.toml</title>
+      <link>https://github.com/JuliaLang/PackageCompiler.jl/issues/1033</link>
+      <guid isPermaLink="true">https://github.com/JuliaLang/PackageCompiler.jl/issues/1033</guid>
+      <pubDate>2025-03-02</pubDate>
+    </item>
+    <item>
+      <title>Legend entries are in wrong order for areaplot</title>
+      <link>https://github.com/JuliaPlots/Plots.jl/issues/5029</link>
+      <guid isPermaLink="true">https://github.com/JuliaPlots/Plots.jl/issues/5029</guid>
+      <pubDate>2024-11-18</pubDate>
+    </item>
+    <item>
+      <title>Can't turn off range and indexing parentheses</title>
+      <link>https://github.com/JuliaEditorSupport/JuliaFormatter.jl/issues/877</link>
+      <guid isPermaLink="true">https://github.com/JuliaEditorSupport/JuliaFormatter.jl/issues/877</guid>
+      <pubDate>2024-10-16</pubDate>
+    </item>
+    <item>
+      <title>API for Hessian</title>
+      <link>https://github.com/EnzymeAD/Enzyme.jl/issues/1495</link>
+      <guid isPermaLink="true">https://github.com/EnzymeAD/Enzyme.jl/issues/1495</guid>
+      <pubDate>2024-06-06</pubDate>
+    </item>
+    <item>
+      <title>Add option to log which statement is being precompiled</title>
+      <link>https://github.com/JuliaLang/PackageCompiler.jl/issues/867</link>
+      <guid isPermaLink="true">https://github.com/JuliaLang/PackageCompiler.jl/issues/867</guid>
+      <pubDate>2023-10-13</pubDate>
+    </item>
+    <item>
+      <title>CI job to push automated fixes to PRs</title>
+      <link>https://github.com/JuliaDocs/Documenter.jl/issues/2229</link>
+      <guid isPermaLink="true">https://github.com/JuliaDocs/Documenter.jl/issues/2229</guid>
+      <pubDate>2023-08-22</pubDate>
+    </item>
+    <item>
+      <title>Provide interpolation function `f(x, y)` for user-driven postprocessing of results</title>
+      <link>https://github.com/trixi-framework/Trixi.jl/issues/1291</link>
+      <guid isPermaLink="true">https://github.com/trixi-framework/Trixi.jl/issues/1291</guid>
+      <pubDate>2022-12-10</pubDate>
+    </item>
+    <item>
+      <title>[FR] Do basic checks before compilation</title>
+      <link>https://github.com/JuliaLang/PackageCompiler.jl/issues/735</link>
+      <guid isPermaLink="true">https://github.com/JuliaLang/PackageCompiler.jl/issues/735</guid>
+      <pubDate>2022-11-02</pubDate>
+    </item>
+    <item>
+      <title>Whitespace removed outside of indices</title>
+      <link>https://github.com/JuliaEditorSupport/JuliaFormatter.jl/issues/651</link>
+      <guid isPermaLink="true">https://github.com/JuliaEditorSupport/JuliaFormatter.jl/issues/651</guid>
+      <pubDate>2022-11-02</pubDate>
+    </item>
+    <item>
+      <title>Request: Warning for lack of appropriate compiler </title>
+      <link>https://github.com/JuliaLang/PackageCompiler.jl/issues/714</link>
+      <guid isPermaLink="true">https://github.com/JuliaLang/PackageCompiler.jl/issues/714</guid>
+      <pubDate>2022-08-10</pubDate>
+    </item>
+    <item>
+      <title>Functional equivalents missing for some layers</title>
+      <link>https://github.com/FluxML/Flux.jl/issues/2013</link>
+      <guid isPermaLink="true">https://github.com/FluxML/Flux.jl/issues/2013</guid>
+      <pubDate>2022-06-29</pubDate>
+    </item>
+    <item>
+      <title>Space between unary prefix operator and operand is not removed</title>
+      <link>https://github.com/JuliaEditorSupport/JuliaFormatter.jl/issues/281</link>
+      <guid isPermaLink="true">https://github.com/JuliaEditorSupport/JuliaFormatter.jl/issues/281</guid>
+      <pubDate>2020-09-04</pubDate>
+    </item>
+    <item>
+      <title>Cannot combine @simd and @threads on a loop</title>
+      <link>https://github.com/JuliaLang/julia/issues/32684</link>
+      <guid isPermaLink="true">https://github.com/JuliaLang/julia/issues/32684</guid>
+      <pubDate>2019-07-25</pubDate>
+    </item>
+  </channel>
+</rss>
