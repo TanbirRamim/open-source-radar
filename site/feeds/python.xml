@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0">
+  <channel>
+    <title>Python beginner issues</title>
+    <link>https://tanbirramim.github.io/open-source-radar/issues/by-language/python.md</link>
+    <description>Recently created beginner-friendly issues for Python.</description>
+    <item>
+      <title>Privacy controls for chat-history avatar training</title>
+      <link>https://github.com/xming521/WeClone/issues/231</link>
+      <guid isPermaLink="true">https://github.com/xming521/WeClone/issues/231</guid>
+      <pubDate>2026-09-14</pubDate>
+    </item>
+    <item>
+      <title>Integration: build and upstream an AutoGen integration</title>
+      <link>https://github.com/semantica-agi/semantica/issues/1519</link>
+      <guid isPermaLink="true">https://github.com/semantica-agi/semantica/issues/1519</guid>
+      <pubDate>2026-09-07</pubDate>
+    </item>
+    <item>
+      <title>Integration: upstream the CrewAI integration to CrewAI's own docs</title>
+      <link>https://github.com/semantica-agi/semantica/issues/1518</link>
+      <guid isPermaLink="true">https://github.com/semantica-agi/semantica/issues/1518</guid>
+      <pubDate>2026-09-07</pubDate>
+    </item>
+    <item>
+      <title>Autonomous Agents, Unite!</title>
+      <link>https://github.com/microsoft/markitdown/issues/2386</link>
+      <guid isPermaLink="true">https://github.com/microsoft/markitdown/issues/2386</guid>
+      <pubDate>2026-09-04</pubDate>
+    </item>
+    <item>
+      <title>Store token files with `0600` permissions</title>
+      <link>https://github.com/beetbox/beets/issues/6984</link>
+      <guid isPermaLink="true">https://github.com/beetbox/beets/issues/6984</guid>
+      <pubDate>2026-09-03</pubDate>
+    </item>
+    <item>
+      <title>`CurvesAsSubmobjects` error messages contain hardcoded class names</title>
+      <link>https://github.com/ManimCommunity/manim/issues/4983</link>
+      <guid isPermaLink="true">https://github.com/ManimCommunity/manim/issues/4983</guid>
+      <pubDate>2026-09-01</pubDate>
+    </item>
+    <item>
+      <title>Hackathon [Feature]: Add Mixpanel data-source connector</title>
+      <link>https://github.com/topoteretes/cognee/issues/4777</link>
+      <guid isPermaLink="true">https://github.com/topoteretes/cognee/issues/4777</guid>
+      <pubDate>2026-08-28</pubDate>
+    </item>
+    <item>
+      <title>Hackathon [Feature]: Add GitBook data-source connector</title>
+      <link>https://github.com/topoteretes/cognee/issues/4720</link>
+      <guid isPermaLink="true">https://github.com/topoteretes/cognee/issues/4720</guid>
+      <pubDate>2026-08-28</pubDate>
+    </item>
+    <item>
+      <title>Hackathon [Feature]: Add Customer.io data-source connector</title>
+      <link>https://github.com/topoteretes/cognee/issues/4786</link>
+      <guid isPermaLink="true">https://github.com/topoteretes/cognee/issues/4786</guid>
+      <pubDate>2026-08-28</pubDate>
+    </item>
+    <item>
+      <title>Hackathon [Feature]: Add Contentful data-source connector</title>
+      <link>https://github.com/topoteretes/cognee/issues/4787</link>
+      <guid isPermaLink="true">https://github.com/topoteretes/cognee/issues/4787</guid>
+      <pubDate>2026-08-28</pubDate>
+    </item>
+    <item>
+      <title>Hackathon [Feature]: Add Sanity data-source connector</title>
+      <link>https://github.com/topoteretes/cognee/issues/4788</link>
+      <guid isPermaLink="true">https://github.com/topoteretes/cognee/issues/4788</guid>
+      <pubDate>2026-08-28</pubDate>
+    </item>
+    <item>
+      <title>Hackathon [Feature]: Add Mailchimp data-source connector</title>
+      <link>https://github.com/topoteretes/cognee/issues/4784</link>
+      <guid isPermaLink="true">https://github.com/topoteretes/cognee/issues/4784</guid>
+      <pubDate>2026-08-28</pubDate>
+    </item>
+    <item>
+      <title>Hackathon [Feature]: Add BambooHR data-source connector</title>
+      <link>https://github.com/topoteretes/cognee/issues/4795</link>
+      <guid isPermaLink="true">https://github.com/topoteretes/cognee/issues/4795</guid>
+      <pubDate>2026-08-28</pubDate>
+    </item>
+    <item>
+      <title>Hackathon [Feature]: Add Chargebee data-source connector</title>
+      <link>https://github.com/topoteretes/cognee/issues/4794</link>
+      <guid isPermaLink="true">https://github.com/topoteretes/cognee/issues/4794</guid>
+      <pubDate>2026-08-28</pubDate>
+    </item>
+    <item>
+      <title>Hackathon [Feature]: Add arXiv data-source connector</title>
+      <link>https://github.com/topoteretes/cognee/issues/4806</link>
+      <guid isPermaLink="true">https://github.com/topoteretes/cognee/issues/4806</guid>
+      <pubDate>2026-08-28</pubDate>
+    </item>
+    <item>
+      <title>Hackathon [Feature]: Add Stack Overflow data-source connector</title>
+      <link>https://github.com/topoteretes/cognee/issues/4809</link>
+      <guid isPermaLink="true">https://github.com/topoteretes/cognee/issues/4809</guid>
+      <pubDate>2026-08-28</pubDate>
+    </item>
+    <item>
+      <title>Hackathon [Feature]: Add WordPress data-source connector</title>
+      <link>https://github.com/topoteretes/cognee/issues/4789</link>
+      <guid isPermaLink="true">https://github.com/topoteretes/cognee/issues/4789</guid>
+      <pubDate>2026-08-28</pubDate>
+    </item>
+    <item>
+      <title>Hackathon [Feature]: Add Raindrop.io data-source connector</title>
+      <link>https://github.com/topoteretes/cognee/issues/4813</link>
+      <guid isPermaLink="true">https://github.com/topoteretes/cognee/issues/4813</guid>
+      <pubDate>2026-08-28</pubDate>
+    </item>
+    <item>
+      <title>Hackathon [Feature]: Add Zotero data-source connector</title>
+      <link>https://github.com/topoteretes/cognee/issues/4814</link>
+      <guid isPermaLink="true">https://github.com/topoteretes/cognee/issues/4814</guid>
+      <pubDate>2026-08-28</pubDate>
+    </item>
+    <item>
+      <title>Inconsistency in link settings terminology</title>
+      <link>https://github.com/suitenumerique/docs/issues/2612</link>
+      <guid isPermaLink="true">https://github.com/suitenumerique/docs/issues/2612</guid>
+      <pubDate>2026-08-28</pubDate>
+    </item>
+    <item>
+      <title>Hackathon [Feature]: Add Substack data-source connector</title>
+      <link>https://github.com/topoteretes/cognee/issues/4810</link>
+      <guid isPermaLink="true">https://github.com/topoteretes/cognee/issues/4810</guid>
+      <pubDate>2026-08-28</pubDate>
+    </item>
+    <item>
+      <title>Hackathon [Feature]: Add YouTube data-source connector</title>
+      <link>https://github.com/topoteretes/cognee/issues/4808</link>
+      <guid isPermaLink="true">https://github.com/topoteretes/cognee/issues/4808</guid>
+      <pubDate>2026-08-28</pubDate>
+    </item>
+    <item>
+      <title>Hackathon [Feature]: Add Telegram data-source connector</title>
+      <link>https://github.com/topoteretes/cognee/issues/4730</link>
+      <guid isPermaLink="true">https://github.com/topoteretes/cognee/issues/4730</guid>
+      <pubDate>2026-08-28</pubDate>
+    </item>
+    <item>
+      <title>Hackathon [Feature]: Add MediaWiki data-source connector</title>
+      <link>https://github.com/topoteretes/cognee/issues/4724</link>
+      <guid isPermaLink="true">https://github.com/topoteretes/cognee/issues/4724</guid>
+      <pubDate>2026-08-28</pubDate>
+    </item>
+    <item>
+      <title>Hackathon [Feature]: Add Todoist data-source connector</title>
+      <link>https://github.com/topoteretes/cognee/issues/4815</link>
+      <guid isPermaLink="true">https://github.com/topoteretes/cognee/issues/4815</guid>
+      <pubDate>2026-08-28</pubDate>
+    </item>
+    <item>
+      <title>Hackathon [Feature]: Add Obsidian vault data-source connector</title>
+      <link>https://github.com/topoteretes/cognee/issues/4725</link>
+      <guid isPermaLink="true">https://github.com/topoteretes/cognee/issues/4725</guid>
+      <pubDate>2026-08-28</pubDate>
+    </item>
+    <item>
+      <title>Hackathon [Feature]: Add Hacker News data-source connector</title>
+      <link>https://github.com/topoteretes/cognee/issues/4805</link>
+      <guid isPermaLink="true">https://github.com/topoteretes/cognee/issues/4805</guid>
+      <pubDate>2026-08-28</pubDate>
+    </item>
+    <item>
+      <title>Hackathon [Feature]: Add RSS / Atom feeds data-source connector</title>
+      <link>https://github.com/topoteretes/cognee/issues/4804</link>
+      <guid isPermaLink="true">https://github.com/topoteretes/cognee/issues/4804</guid>
+      <pubDate>2026-08-28</pubDate>
+    </item>
+    <item>
+      <title>[合作讨论] 聊天人格学习如何扩展到多身份、多关系与受控回复</title>
+      <link>https://github.com/xming521/WeClone/issues/230</link>
+      <guid isPermaLink="true">https://github.com/xming521/WeClone/issues/230</guid>
+      <pubDate>2026-08-27</pubDate>
+    </item>
+    <item>
+      <title>Add an image-aware PDF RAG example with page-level citations</title>
+      <link>https://github.com/Arindam200/awesome-ai-apps/issues/277</link>
+      <guid isPermaLink="true">https://github.com/Arindam200/awesome-ai-apps/issues/277</guid>
+      <pubDate>2026-08-19</pubDate>
+    </item>
+    <item>
+      <title>Registration form in organization invite flow should pre-fill email address</title>
+      <link>https://github.com/getsentry/sentry/issues/121594</link>
+      <guid isPermaLink="true">https://github.com/getsentry/sentry/issues/121594</guid>
+      <pubDate>2026-08-09</pubDate>
+    </item>
+    <item>
+      <title>[Data] Unity Catalog Delta Table Reads Won't Work with GCP Databricks</title>
+      <link>https://github.com/ray-project/ray/issues/64880</link>
+      <guid isPermaLink="true">https://github.com/ray-project/ray/issues/64880</guid>
+      <pubDate>2026-07-20</pubDate>
+    </item>
+    <item>
+      <title>Measured token-cost benchmark to replace the estimates</title>
+      <link>https://github.com/img2threejs/img2threejs/issues/4</link>
+      <guid isPermaLink="true">https://github.com/img2threejs/img2threejs/issues/4</guid>
+      <pubDate>2026-07-17</pubDate>
+    </item>
+    <item>
+      <title>Docs installed as an application : Error 400</title>
+      <link>https://github.com/suitenumerique/docs/issues/2477</link>
+      <guid isPermaLink="true">https://github.com/suitenumerique/docs/issues/2477</guid>
+      <pubDate>2026-06-29</pubDate>
+    </item>
+    <item>
+      <title>[BUG]: TOZEROY FILL IS FILLING AREAS OF THE PLOT THAT HAS NO DATA IN IT</title>
+      <link>https://github.com/plotly/plotly.py/issues/5632</link>
+      <guid isPermaLink="true">https://github.com/plotly/plotly.py/issues/5632</guid>
+      <pubDate>2026-06-22</pubDate>
+    </item>
+    <item>
+      <title>Visual summary of the agent harness architecture</title>
+      <link>https://github.com/shareAI-lab/learn-claude-code/issues/355</link>
+      <guid isPermaLink="true">https://github.com/shareAI-lab/learn-claude-code/issues/355</guid>
+      <pubDate>2026-06-08</pubDate>
+    </item>
+    <item>
+      <title>Add diagrams and animations to course website (inspired by makingsoftware.com)</title>
+      <link>https://github.com/rohitg00/ai-engineering-from-scratch/issues/243</link>
+      <guid isPermaLink="true">https://github.com/rohitg00/ai-engineering-from-scratch/issues/243</guid>
+      <pubDate>2026-06-01</pubDate>
+    </item>
+    <item>
+      <title>feat: expose balance / token-usage to the API (or at least via a UI toggle)</title>
+      <link>https://github.com/Skyvern-AI/skyvern/issues/6226</link>
+      <guid isPermaLink="true">https://github.com/Skyvern-AI/skyvern/issues/6226</guid>
+      <pubDate>2026-05-28</pubDate>
+    </item>
+    <item>
+      <title>line return</title>
+      <link>https://github.com/suitenumerique/docs/issues/2239</link>
+      <guid isPermaLink="true">https://github.com/suitenumerique/docs/issues/2239</guid>
+      <pubDate>2026-04-22</pubDate>
+    </item>
+    <item>
+      <title>Confirgurable default branch prefixes/names</title>
+      <link>https://github.com/PostHog/posthog/issues/76277</link>
+      <guid isPermaLink="true">https://github.com/PostHog/posthog/issues/76277</guid>
+      <pubDate>2026-04-14</pubDate>
+    </item>
+    <item>
+      <title>I kinda wanna be able to use CMD + W to close tabs</title>
+      <link>https://github.com/PostHog/posthog/issues/76278</link>
+      <guid isPermaLink="true">https://github.com/PostHog/posthog/issues/76278</guid>
+      <pubDate>2026-04-13</pubDate>
+    </item>
+    <item>
+      <title>Lyrics: force / use a specific URL for lyrics</title>
+      <link>https://github.com/beetbox/beets/issues/6439</link>
+      <guid isPermaLink="true">https://github.com/beetbox/beets/issues/6439</guid>
+      <pubDate>2026-03-13</pubDate>
+    </item>
+    <item>
+      <title>Request for Notebook to Fine-Tune Qwen TTS (or Alternatives Using Existing Notebooks)</title>
+      <link>https://github.com/unslothai/unsloth/issues/3961</link>
+      <guid isPermaLink="true">https://github.com/unslothai/unsloth/issues/3961</guid>
+      <pubDate>2026-02-02</pubDate>
+    </item>
+    <item>
+      <title>[Feature] Add FT support for the Qwen3-TTS model.</title>
+      <link>https://github.com/unslothai/unsloth/issues/3951</link>
+      <guid isPermaLink="true">https://github.com/unslothai/unsloth/issues/3951</guid>
+      <pubDate>2026-01-29</pubDate>
+    </item>
+    <item>
+      <title>[core] Adopt `absl::InlinedVector` for small, frequently-allocated collections</title>
+      <link>https://github.com/ray-project/ray/issues/59884</link>
+      <guid isPermaLink="true">https://github.com/ray-project/ray/issues/59884</guid>
+      <pubDate>2026-01-06</pubDate>
+    </item>
+    <item>
+      <title>[Bug] Cannot load qwen3-vl series with lora adapter on vllm.</title>
+      <link>https://github.com/unslothai/unsloth/issues/3560</link>
+      <guid isPermaLink="true">https://github.com/unslothai/unsloth/issues/3560</guid>
+      <pubDate>2025-11-06</pubDate>
+    </item>
+    <item>
+      <title>【推荐内容】合集</title>
+      <link>https://github.com/jingyaogong/minimind/issues/504</link>
+      <guid isPermaLink="true">https://github.com/jingyaogong/minimind/issues/504</guid>
+      <pubDate>2025-10-23</pubDate>
+    </item>
+    <item>
+      <title>DagBag Processing SIGSEGV causes runaway tasks with LocalExecutor</title>
+      <link>https://github.com/apache/airflow/issues/57174</link>
+      <guid isPermaLink="true">https://github.com/apache/airflow/issues/57174</guid>
+      <pubDate>2025-10-23</pubDate>
+    </item>
+    <item>
+      <title>Collapse unconnected object sub-outputs on blocks</title>
+      <link>https://github.com/Significant-Gravitas/AutoGPT/issues/11044</link>
+      <guid isPermaLink="true">https://github.com/Significant-Gravitas/AutoGPT/issues/11044</guid>
+      <pubDate>2025-10-02</pubDate>
+    </item>
+    <item>
+      <title>Multiple errors trying to fetch lyrics during import</title>
+      <link>https://github.com/beetbox/beets/issues/5998</link>
+      <guid isPermaLink="true">https://github.com/beetbox/beets/issues/5998</guid>
+      <pubDate>2025-09-11</pubDate>
+    </item>
+  </channel>
+</rss>

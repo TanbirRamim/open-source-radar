@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0">
+  <channel>
+    <title>PHP beginner issues</title>
+    <link>https://tanbirramim.github.io/open-source-radar/issues/by-language/php.md</link>
+    <description>Recently created beginner-friendly issues for PHP.</description>
+    <item>
+      <title>Clarify signing request expiration and access renewal messages</title>
+      <link>https://github.com/LibreSign/libresign/issues/8713</link>
+      <guid isPermaLink="true">https://github.com/LibreSign/libresign/issues/8713</guid>
+      <pubDate>2026-09-25</pubDate>
+    </item>
+    <item>
+      <title>Improve admin UI for certificate validity and signing request expiration</title>
+      <link>https://github.com/LibreSign/libresign/issues/8712</link>
+      <guid isPermaLink="true">https://github.com/LibreSign/libresign/issues/8712</guid>
+      <pubDate>2026-09-25</pubDate>
+    </item>
+    <item>
+      <title>Direct link to an experiment step from the step list</title>
+      <link>https://github.com/elabftw/elabftw/issues/7483</link>
+      <guid isPermaLink="true">https://github.com/elabftw/elabftw/issues/7483</guid>
+      <pubDate>2026-09-24</pubDate>
+    </item>
+    <item>
+      <title>Register Signature Rejection in Policy Workbench and add flow tests</title>
+      <link>https://github.com/LibreSign/libresign/issues/8689</link>
+      <guid isPermaLink="true">https://github.com/LibreSign/libresign/issues/8689</guid>
+      <pubDate>2026-09-24</pubDate>
+    </item>
+    <item>
+      <title>Add the Signature Rejection Policy Workbench module</title>
+      <link>https://github.com/LibreSign/libresign/issues/8688</link>
+      <guid isPermaLink="true">https://github.com/LibreSign/libresign/issues/8688</guid>
+      <pubDate>2026-09-24</pubDate>
+    </item>
+    <item>
+      <title>Generate a reproducible report of past LibreSign contributors</title>
+      <link>https://github.com/LibreSign/libresign/issues/8678</link>
+      <guid isPermaLink="true">https://github.com/LibreSign/libresign/issues/8678</guid>
+      <pubDate>2026-09-23</pubDate>
+    </item>
+    <item>
+      <title>Missing translations for Serbian (sr_Latn)</title>
+      <link>https://github.com/symfony/symfony/issues/66172</link>
+      <guid isPermaLink="true">https://github.com/symfony/symfony/issues/66172</guid>
+      <pubDate>2026-09-19</pubDate>
+    </item>
+    <item>
+      <title>Missing translations for Serbian (sr_Cyrl)</title>
+      <link>https://github.com/symfony/symfony/issues/66171</link>
+      <guid isPermaLink="true">https://github.com/symfony/symfony/issues/66171</guid>
+      <pubDate>2026-09-19</pubDate>
+    </item>
+    <item>
+      <title>Missing translations for Italian (it)</title>
+      <link>https://github.com/symfony/symfony/issues/66170</link>
+      <guid isPermaLink="true">https://github.com/symfony/symfony/issues/66170</guid>
+      <pubDate>2026-09-19</pubDate>
+    </item>
+    <item>
+      <title>Missing translations for Urdu (ur)</title>
+      <link>https://github.com/symfony/symfony/issues/66111</link>
+      <guid isPermaLink="true">https://github.com/symfony/symfony/issues/66111</guid>
+      <pubDate>2026-09-15</pubDate>
+    </item>
+    <item>
+      <title>Missing translations for Turkish (tr)</title>
+      <link>https://github.com/symfony/symfony/issues/66110</link>
+      <guid isPermaLink="true">https://github.com/symfony/symfony/issues/66110</guid>
+      <pubDate>2026-09-15</pubDate>
+    </item>
+    <item>
+      <title>Missing translations for Romanian (ro)</title>
+      <link>https://github.com/symfony/symfony/issues/66105</link>
+      <guid isPermaLink="true">https://github.com/symfony/symfony/issues/66105</guid>
+      <pubDate>2026-09-15</pubDate>
+    </item>
+    <item>
+      <title>Missing translations for Persian (fa)</title>
+      <link>https://github.com/symfony/symfony/issues/66103</link>
+      <guid isPermaLink="true">https://github.com/symfony/symfony/issues/66103</guid>
+      <pubDate>2026-09-15</pubDate>
+    </item>
+    <item>
+      <title>Missing translations for Hungarian (hu)</title>
+      <link>https://github.com/symfony/symfony/issues/66100</link>
+      <guid isPermaLink="true">https://github.com/symfony/symfony/issues/66100</guid>
+      <pubDate>2026-09-15</pubDate>
+    </item>
+    <item>
+      <title>`CHECK_MODE_COERCE_TYPES` flag does not coerce quoted ints to corresponding boolean</title>
+      <link>https://github.com/jsonrainbow/json-schema/issues/955</link>
+      <guid isPermaLink="true">https://github.com/jsonrainbow/json-schema/issues/955</guid>
+      <pubDate>2026-09-14</pubDate>
+    </item>
+    <item>
+      <title>Write or document a replacement for parseAddresses</title>
+      <link>https://github.com/PHPMailer/PHPMailer/issues/3359</link>
+      <guid isPermaLink="true">https://github.com/PHPMailer/PHPMailer/issues/3359</guid>
+      <pubDate>2026-09-10</pubDate>
+    </item>
+    <item>
+      <title>List LibreSign in beginner-friendly open source directories</title>
+      <link>https://github.com/LibreSign/libresign/issues/8284</link>
+      <guid isPermaLink="true">https://github.com/LibreSign/libresign/issues/8284</guid>
+      <pubDate>2026-09-06</pubDate>
+    </item>
+    <item>
+      <title>Missing translations for Uzbek (uz)</title>
+      <link>https://github.com/symfony/symfony/issues/65569</link>
+      <guid isPermaLink="true">https://github.com/symfony/symfony/issues/65569</guid>
+      <pubDate>2026-08-21</pubDate>
+    </item>
+    <item>
+      <title>Missing translations for Ukrainian (uk)</title>
+      <link>https://github.com/symfony/symfony/issues/65567</link>
+      <guid isPermaLink="true">https://github.com/symfony/symfony/issues/65567</guid>
+      <pubDate>2026-08-21</pubDate>
+    </item>
+    <item>
+      <title>Missing translations for Tagalog (tl)</title>
+      <link>https://github.com/symfony/symfony/issues/65565</link>
+      <guid isPermaLink="true">https://github.com/symfony/symfony/issues/65565</guid>
+      <pubDate>2026-08-21</pubDate>
+    </item>
+    <item>
+      <title>Missing translations for Slovak (sk)</title>
+      <link>https://github.com/symfony/symfony/issues/65563</link>
+      <guid isPermaLink="true">https://github.com/symfony/symfony/issues/65563</guid>
+      <pubDate>2026-08-21</pubDate>
+    </item>
+    <item>
+      <title>Missing translations for Lithuanian (lt)</title>
+      <link>https://github.com/symfony/symfony/issues/65558</link>
+      <guid isPermaLink="true">https://github.com/symfony/symfony/issues/65558</guid>
+      <pubDate>2026-08-21</pubDate>
+    </item>
+    <item>
+      <title>Missing translations for Slovenian (sl)</title>
+      <link>https://github.com/symfony/symfony/issues/64516</link>
+      <guid isPermaLink="true">https://github.com/symfony/symfony/issues/64516</guid>
+      <pubDate>2026-06-06</pubDate>
+    </item>
+    <item>
+      <title>Missing translations for Portuguese (pt)</title>
+      <link>https://github.com/symfony/symfony/issues/64510</link>
+      <guid isPermaLink="true">https://github.com/symfony/symfony/issues/64510</guid>
+      <pubDate>2026-06-06</pubDate>
+    </item>
+    <item>
+      <title>Missing translations for Norwegian Bokmål (nb)</title>
+      <link>https://github.com/symfony/symfony/issues/64507</link>
+      <guid isPermaLink="true">https://github.com/symfony/symfony/issues/64507</guid>
+      <pubDate>2026-06-06</pubDate>
+    </item>
+    <item>
+      <title>Missing translations for Norwegian (no)</title>
+      <link>https://github.com/symfony/symfony/issues/64506</link>
+      <guid isPermaLink="true">https://github.com/symfony/symfony/issues/64506</guid>
+      <pubDate>2026-06-06</pubDate>
+    </item>
+    <item>
+      <title>Missing translations for Luxembourgish (lb)</title>
+      <link>https://github.com/symfony/symfony/issues/64505</link>
+      <guid isPermaLink="true">https://github.com/symfony/symfony/issues/64505</guid>
+      <pubDate>2026-06-06</pubDate>
+    </item>
+    <item>
+      <title>Missing translations for Latvian (lv)</title>
+      <link>https://github.com/symfony/symfony/issues/64503</link>
+      <guid isPermaLink="true">https://github.com/symfony/symfony/issues/64503</guid>
+      <pubDate>2026-06-06</pubDate>
+    </item>
+    <item>
+      <title>Missing translations for Japanese (ja)</title>
+      <link>https://github.com/symfony/symfony/issues/64502</link>
+      <guid isPermaLink="true">https://github.com/symfony/symfony/issues/64502</guid>
+      <pubDate>2026-06-06</pubDate>
+    </item>
+    <item>
+      <title>Add support for OpenVPN private key password in .ovpn configurations</title>
+      <link>https://github.com/RaspAP/raspap-webgui/issues/2109</link>
+      <guid isPermaLink="true">https://github.com/RaspAP/raspap-webgui/issues/2109</guid>
+      <pubDate>2026-05-05</pubDate>
+    </item>
+    <item>
+      <title>Use an external LED as a status led</title>
+      <link>https://github.com/RaspAP/raspap-webgui/issues/2108</link>
+      <guid isPermaLink="true">https://github.com/RaspAP/raspap-webgui/issues/2108</guid>
+      <pubDate>2026-05-04</pubDate>
+    </item>
+    <item>
+      <title>Improve errors when using "story as service" and story is not a service</title>
+      <link>https://github.com/zenstruck/foundry/issues/1106</link>
+      <guid isPermaLink="true">https://github.com/zenstruck/foundry/issues/1106</guid>
+      <pubDate>2026-02-26</pubDate>
+    </item>
+    <item>
+      <title>Moving the header to a new line</title>
+      <link>https://github.com/PrivateBin/PrivateBin/issues/1788</link>
+      <guid isPermaLink="true">https://github.com/PrivateBin/PrivateBin/issues/1788</guid>
+      <pubDate>2026-02-12</pubDate>
+    </item>
+    <item>
+      <title>[Feat]: Export data only when export all table</title>
+      <link>https://github.com/phpmyadmin/phpmyadmin/issues/20018</link>
+      <guid isPermaLink="true">https://github.com/phpmyadmin/phpmyadmin/issues/20018</guid>
+      <pubDate>2026-01-10</pubDate>
+    </item>
+    <item>
+      <title>gettext locale overrides not applied</title>
+      <link>https://github.com/glpi-project/glpi/issues/22377</link>
+      <guid isPermaLink="true">https://github.com/glpi-project/glpi/issues/22377</guid>
+      <pubDate>2025-12-16</pubDate>
+    </item>
+    <item>
+      <title>[Meilisearch v1.37] Backport Network API changes to `v1.x` branch</title>
+      <link>https://github.com/meilisearch/meilisearch-php/issues/851</link>
+      <guid isPermaLink="true">https://github.com/meilisearch/meilisearch-php/issues/851</guid>
+      <pubDate>2025-12-16</pubDate>
+    </item>
+    <item>
+      <title>Add class_serializer for `Illuminate\Http\Client\Response`</title>
+      <link>https://github.com/getsentry/sentry-laravel/issues/1070</link>
+      <guid isPermaLink="true">https://github.com/getsentry/sentry-laravel/issues/1070</guid>
+      <pubDate>2025-11-25</pubDate>
+    </item>
+    <item>
+      <title>[Feat]: Import/Export Excel (Office Open XML) Files</title>
+      <link>https://github.com/phpmyadmin/phpmyadmin/issues/19962</link>
+      <guid isPermaLink="true">https://github.com/phpmyadmin/phpmyadmin/issues/19962</guid>
+      <pubDate>2025-11-25</pubDate>
+    </item>
+    <item>
+      <title>Add Documentation for Custom Transport</title>
+      <link>https://github.com/getsentry/sentry-php/issues/1924</link>
+      <guid isPermaLink="true">https://github.com/getsentry/sentry-php/issues/1924</guid>
+      <pubDate>2025-09-24</pubDate>
+    </item>
+    <item>
+      <title>Add option to exclude certain HTTP statuses from tracing in SDK</title>
+      <link>https://github.com/getsentry/sentry-php/issues/1913</link>
+      <guid isPermaLink="true">https://github.com/getsentry/sentry-php/issues/1913</guid>
+      <pubDate>2025-09-17</pubDate>
+    </item>
+    <item>
+      <title>Add option to exclude certain HTTP statuses from tracing in SDK</title>
+      <link>https://github.com/getsentry/sentry-symfony/issues/957</link>
+      <guid isPermaLink="true">https://github.com/getsentry/sentry-symfony/issues/957</guid>
+      <pubDate>2025-09-17</pubDate>
+    </item>
+    <item>
+      <title>Update Commands to use the Fully Qualified Class Name for the 'Transaction'</title>
+      <link>https://github.com/getsentry/sentry-laravel/issues/1022</link>
+      <guid isPermaLink="true">https://github.com/getsentry/sentry-laravel/issues/1022</guid>
+      <pubDate>2025-08-03</pubDate>
+    </item>
+    <item>
+      <title>Enhance Blueprint Stubs with PHPDoc to Eliminate PHPStan Warnings</title>
+      <link>https://github.com/laravel-shift/blueprint/issues/738</link>
+      <guid isPermaLink="true">https://github.com/laravel-shift/blueprint/issues/738</guid>
+      <pubDate>2025-02-11</pubDate>
+    </item>
+    <item>
+      <title>Ability to set default_phone_region to none / E.164 only</title>
+      <link>https://github.com/nextcloud/server/issues/49460</link>
+      <guid isPermaLink="true">https://github.com/nextcloud/server/issues/49460</guid>
+      <pubDate>2024-11-25</pubDate>
+    </item>
+    <item>
+      <title>Show a SELinux hint when Java execution is blocked</title>
+      <link>https://github.com/LibreSign/libresign/issues/3227</link>
+      <guid isPermaLink="true">https://github.com/LibreSign/libresign/issues/3227</guid>
+      <pubDate>2024-06-25</pubDate>
+    </item>
+    <item>
+      <title>Duplicate ids on same page</title>
+      <link>https://github.com/phpmyadmin/phpmyadmin/issues/19108</link>
+      <guid isPermaLink="true">https://github.com/phpmyadmin/phpmyadmin/issues/19108</guid>
+      <pubDate>2024-04-10</pubDate>
+    </item>
+    <item>
+      <title>Missing translations for Vietnamese (vi)</title>
+      <link>https://github.com/symfony/symfony/issues/53309</link>
+      <guid isPermaLink="true">https://github.com/symfony/symfony/issues/53309</guid>
+      <pubDate>2023-12-30</pubDate>
+    </item>
+    <item>
+      <title>Missing translations for Thai (th)</title>
+      <link>https://github.com/symfony/symfony/issues/53048</link>
+      <guid isPermaLink="true">https://github.com/symfony/symfony/issues/53048</guid>
+      <pubDate>2023-12-13</pubDate>
+    </item>
+    <item>
+      <title>[3.x-migration] ApiController</title>
+      <link>https://github.com/MISP/MISP/issues/9382</link>
+      <guid isPermaLink="true">https://github.com/MISP/MISP/issues/9382</guid>
+      <pubDate>2023-11-22</pubDate>
+    </item>
+    <item>
+      <title>Missing translations for Burmese (my)</title>
+      <link>https://github.com/symfony/symfony/issues/51897</link>
+      <guid isPermaLink="true">https://github.com/symfony/symfony/issues/51897</guid>
+      <pubDate>2023-10-09</pubDate>
+    </item>
+  </channel>
+</rss>

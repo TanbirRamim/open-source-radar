@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0">
+  <channel>
+    <title>Kotlin beginner issues</title>
+    <link>https://tanbirramim.github.io/open-source-radar/issues/by-language/kotlin.md</link>
+    <description>Recently created beginner-friendly issues for Kotlin.</description>
+    <item>
+      <title>Cleanup edge to edge deprecations</title>
+      <link>https://github.com/ankidroid/Anki-Android/issues/21780</link>
+      <guid isPermaLink="true">https://github.com/ankidroid/Anki-Android/issues/21780</guid>
+      <pubDate>2026-09-07</pubDate>
+    </item>
+    <item>
+      <title>Thread-safe date formatting and scope ownership for 2 launches left from #5070</title>
+      <link>https://github.com/kiwix/kiwix-android/issues/5078</link>
+      <guid isPermaLink="true">https://github.com/kiwix/kiwix-android/issues/5078</guid>
+      <pubDate>2026-09-02</pubDate>
+    </item>
+    <item>
+      <title>Adjusting the view with the dialog box open a screensaver will begin playing underneath it</title>
+      <link>https://github.com/damontecres/Wholphin/issues/1769</link>
+      <guid isPermaLink="true">https://github.com/damontecres/Wholphin/issues/1769</guid>
+      <pubDate>2026-07-30</pubDate>
+    </item>
+    <item>
+      <title>[建议] 增加「设备状态定时上报到自定义 Webhook」能力</title>
+      <link>https://github.com/AAswordman/Operit/issues/617</link>
+      <guid isPermaLink="true">https://github.com/AAswordman/Operit/issues/617</guid>
+      <pubDate>2026-06-17</pubDate>
+    </item>
+    <item>
+      <title>Add `enableBreadcrumbTextExtraction` option on `SentryAndroidOptions`</title>
+      <link>https://github.com/getsentry/sentry-java/issues/5557</link>
+      <guid isPermaLink="true">https://github.com/getsentry/sentry-java/issues/5557</guid>
+      <pubDate>2026-06-17</pubDate>
+    </item>
+    <item>
+      <title>Install apps not progressing when screen goes off in restore phase of lineageos 22 first boot</title>
+      <link>https://github.com/seedvault-app/seedvault/issues/1022</link>
+      <guid isPermaLink="true">https://github.com/seedvault-app/seedvault/issues/1022</guid>
+      <pubDate>2026-06-14</pubDate>
+    </item>
+    <item>
+      <title>[ Future request]支持单独配置子模型参数</title>
+      <link>https://github.com/AAswordman/Operit/issues/596</link>
+      <guid isPermaLink="true">https://github.com/AAswordman/Operit/issues/596</guid>
+      <pubDate>2026-06-09</pubDate>
+    </item>
+    <item>
+      <title>Add Playlist Sorting by Date Added</title>
+      <link>https://github.com/rawnaldclark/Stash/issues/110</link>
+      <guid isPermaLink="true">https://github.com/rawnaldclark/Stash/issues/110</guid>
+      <pubDate>2026-05-25</pubDate>
+    </item>
+    <item>
+      <title>Inline some type aliases in public API, part 2</title>
+      <link>https://github.com/Kotlin/dataframe/issues/1866</link>
+      <guid isPermaLink="true">https://github.com/Kotlin/dataframe/issues/1866</guid>
+      <pubDate>2026-05-19</pubDate>
+    </item>
+    <item>
+      <title>[Bug]  No longer see files/folders within secure folder</title>
+      <link>https://github.com/leonlatsch/Photok/issues/678</link>
+      <guid isPermaLink="true">https://github.com/leonlatsch/Photok/issues/678</guid>
+      <pubDate>2026-05-15</pubDate>
+    </item>
+    <item>
+      <title>Improve Threat Matrix</title>
+      <link>https://github.com/doyensec/inql/issues/220</link>
+      <guid isPermaLink="true">https://github.com/doyensec/inql/issues/220</guid>
+      <pubDate>2026-05-07</pubDate>
+    </item>
+    <item>
+      <title>Switch form extending AlertDialog to just Dialog</title>
+      <link>https://github.com/getsentry/sentry-java/issues/5354</link>
+      <guid isPermaLink="true">https://github.com/getsentry/sentry-java/issues/5354</guid>
+      <pubDate>2026-04-30</pubDate>
+    </item>
+    <item>
+      <title>Create an option to automatically export settings, when they change, to the last selected note for that purpose</title>
+      <link>https://github.com/orgzly-revived/orgzly-android-revived/issues/945</link>
+      <guid isPermaLink="true">https://github.com/orgzly-revived/orgzly-android-revived/issues/945</guid>
+      <pubDate>2026-04-17</pubDate>
+    </item>
+    <item>
+      <title>Up/Down cursor key in keyAction</title>
+      <link>https://github.com/dessalines/thumb-key/issues/1838</link>
+      <guid isPermaLink="true">https://github.com/dessalines/thumb-key/issues/1838</guid>
+      <pubDate>2026-04-08</pubDate>
+    </item>
+    <item>
+      <title>Remove the swipe gesture from the bottom once the user is familiar with the app</title>
+      <link>https://github.com/kiwix/kiwix-android/issues/4621</link>
+      <guid isPermaLink="true">https://github.com/kiwix/kiwix-android/issues/4621</guid>
+      <pubDate>2026-01-25</pubDate>
+    </item>
+    <item>
+      <title>Rework UI of configure widget screens</title>
+      <link>https://github.com/home-assistant/android/issues/6289</link>
+      <guid isPermaLink="true">https://github.com/home-assistant/android/issues/6289</guid>
+      <pubDate>2026-01-20</pubDate>
+    </item>
+    <item>
+      <title>[ Future request]跨平台，跨设备配置资产备份同步-开发进度</title>
+      <link>https://github.com/AAswordman/Operit/issues/321</link>
+      <guid isPermaLink="true">https://github.com/AAswordman/Operit/issues/321</guid>
+      <pubDate>2026-01-10</pubDate>
+    </item>
+    <item>
+      <title>[Feature Request] Add more LLM providers</title>
+      <link>https://github.com/PixelPlayerHQ/PixelPlayer/issues/760</link>
+      <guid isPermaLink="true">https://github.com/PixelPlayerHQ/PixelPlayer/issues/760</guid>
+      <pubDate>2026-01-07</pubDate>
+    </item>
+    <item>
+      <title>Refactor: rename 'toggle' key actions</title>
+      <link>https://github.com/dessalines/thumb-key/issues/1678</link>
+      <guid isPermaLink="true">https://github.com/dessalines/thumb-key/issues/1678</guid>
+      <pubDate>2025-12-05</pubDate>
+    </item>
+    <item>
+      <title>Attachment handling</title>
+      <link>https://github.com/thunderbird/thunderbird-android/issues/10114</link>
+      <guid isPermaLink="true">https://github.com/thunderbird/thunderbird-android/issues/10114</guid>
+      <pubDate>2025-11-17</pubDate>
+    </item>
+    <item>
+      <title>Unable to transfer profiles from chromebook</title>
+      <link>https://github.com/thunderbird/thunderbird-android/issues/10033</link>
+      <guid isPermaLink="true">https://github.com/thunderbird/thunderbird-android/issues/10033</guid>
+      <pubDate>2025-10-30</pubDate>
+    </item>
+    <item>
+      <title>Category suggestions sometimes not found</title>
+      <link>https://github.com/commons-app/apps-android-commons/issues/6438</link>
+      <guid isPermaLink="true">https://github.com/commons-app/apps-android-commons/issues/6438</guid>
+      <pubDate>2025-10-02</pubDate>
+    </item>
+    <item>
+      <title>no such table workspec</title>
+      <link>https://github.com/commons-app/apps-android-commons/issues/6434</link>
+      <guid isPermaLink="true">https://github.com/commons-app/apps-android-commons/issues/6434</guid>
+      <pubDate>2025-10-01</pubDate>
+    </item>
+    <item>
+      <title>Default Trace Context Status to OK</title>
+      <link>https://github.com/getsentry/sentry-java/issues/4769</link>
+      <guid isPermaLink="true">https://github.com/getsentry/sentry-java/issues/4769</guid>
+      <pubDate>2025-10-01</pubDate>
+    </item>
+    <item>
+      <title>Include `LICENSE` file in JARs</title>
+      <link>https://github.com/getsentry/sentry-java/issues/4667</link>
+      <guid isPermaLink="true">https://github.com/getsentry/sentry-java/issues/4667</guid>
+      <pubDate>2025-08-26</pubDate>
+    </item>
+    <item>
+      <title>Add support for Add to tile</title>
+      <link>https://github.com/home-assistant/android/issues/5623</link>
+      <guid isPermaLink="true">https://github.com/home-assistant/android/issues/5623</guid>
+      <pubDate>2025-08-05</pubDate>
+    </item>
+    <item>
+      <title>Add a java annotation use checker</title>
+      <link>https://github.com/ZacSweers/metro/issues/850</link>
+      <guid isPermaLink="true">https://github.com/ZacSweers/metro/issues/850</guid>
+      <pubDate>2025-07-30</pubDate>
+    </item>
+    <item>
+      <title>HTTP4K Connect - Amazon IRSA Support</title>
+      <link>https://github.com/http4k/http4k/issues/1388</link>
+      <guid isPermaLink="true">https://github.com/http4k/http4k/issues/1388</guid>
+      <pubDate>2025-07-22</pubDate>
+    </item>
+    <item>
+      <title>osmdroid is now archived and will no longer receive updates or new releases</title>
+      <link>https://github.com/commons-app/apps-android-commons/issues/6380</link>
+      <guid isPermaLink="true">https://github.com/commons-app/apps-android-commons/issues/6380</guid>
+      <pubDate>2025-07-20</pubDate>
+    </item>
+    <item>
+      <title>Swipe actions not available to TalkBack users</title>
+      <link>https://github.com/thunderbird/thunderbird-android/issues/9430</link>
+      <guid isPermaLink="true">https://github.com/thunderbird/thunderbird-android/issues/9430</guid>
+      <pubDate>2025-07-07</pubDate>
+    </item>
+    <item>
+      <title>Support dimensions for embedding models</title>
+      <link>https://github.com/JetBrains/koog/issues/340</link>
+      <guid isPermaLink="true">https://github.com/JetBrains/koog/issues/340</guid>
+      <pubDate>2025-06-26</pubDate>
+    </item>
+    <item>
+      <title>Make harder moving messages to the wrong folder, instead of scrolling the list of folders</title>
+      <link>https://github.com/thunderbird/thunderbird-android/issues/8796</link>
+      <guid isPermaLink="true">https://github.com/thunderbird/thunderbird-android/issues/8796</guid>
+      <pubDate>2025-02-05</pubDate>
+    </item>
+    <item>
+      <title>Indicator of email from how much time is synchronized</title>
+      <link>https://github.com/thunderbird/thunderbird-android/issues/8460</link>
+      <guid isPermaLink="true">https://github.com/thunderbird/thunderbird-android/issues/8460</guid>
+      <pubDate>2024-11-01</pubDate>
+    </item>
+    <item>
+      <title>Improved Error Reporting for "No space left on device"</title>
+      <link>https://github.com/cryptomator/android/issues/551</link>
+      <guid isPermaLink="true">https://github.com/cryptomator/android/issues/551</guid>
+      <pubDate>2024-09-20</pubDate>
+    </item>
+    <item>
+      <title>Use account image for "K-9 Accounts" widget</title>
+      <link>https://github.com/thunderbird/thunderbird-android/issues/7906</link>
+      <guid isPermaLink="true">https://github.com/thunderbird/thunderbird-android/issues/7906</guid>
+      <pubDate>2024-06-05</pubDate>
+    </item>
+    <item>
+      <title>Add `tunnel` option (sets the url used by transport)</title>
+      <link>https://github.com/getsentry/sentry-java/issues/3174</link>
+      <guid isPermaLink="true">https://github.com/getsentry/sentry-java/issues/3174</guid>
+      <pubDate>2024-01-29</pubDate>
+    </item>
+    <item>
+      <title>[Account setup] Display "warning" message when using POP3</title>
+      <link>https://github.com/thunderbird/thunderbird-android/issues/7551</link>
+      <guid isPermaLink="true">https://github.com/thunderbird/thunderbird-android/issues/7551</guid>
+      <pubDate>2024-01-24</pubDate>
+    </item>
+    <item>
+      <title>Add option maxCacheSize</title>
+      <link>https://github.com/getsentry/sentry-java/issues/3136</link>
+      <guid isPermaLink="true">https://github.com/getsentry/sentry-java/issues/3136</guid>
+      <pubDate>2024-01-10</pubDate>
+    </item>
+    <item>
+      <title>Add OS security patch level to app context</title>
+      <link>https://github.com/getsentry/sentry-java/issues/3015</link>
+      <guid isPermaLink="true">https://github.com/getsentry/sentry-java/issues/3015</guid>
+      <pubDate>2023-10-27</pubDate>
+    </item>
+    <item>
+      <title>[Feature Request] Auto-capitalisation</title>
+      <link>https://github.com/fcitx5-android/fcitx5-android/issues/283</link>
+      <guid isPermaLink="true">https://github.com/fcitx5-android/fcitx5-android/issues/283</guid>
+      <pubDate>2023-06-16</pubDate>
+    </item>
+    <item>
+      <title>Encryption passphrase regenerates when you switch apps</title>
+      <link>https://github.com/nextcloud/android/issues/11571</link>
+      <guid isPermaLink="true">https://github.com/nextcloud/android/issues/11571</guid>
+      <pubDate>2023-04-28</pubDate>
+    </item>
+    <item>
+      <title>Allow using a custom Hub with SentryTraced for Jetpack Compose</title>
+      <link>https://github.com/getsentry/sentry-java/issues/2668</link>
+      <guid isPermaLink="true">https://github.com/getsentry/sentry-java/issues/2668</guid>
+      <pubDate>2023-04-21</pubDate>
+    </item>
+    <item>
+      <title>The last file of the folder gets hidden behind the now playing bottom widget</title>
+      <link>https://github.com/RetroMusicPlayer/RetroMusicPlayer/issues/1478</link>
+      <guid isPermaLink="true">https://github.com/RetroMusicPlayer/RetroMusicPlayer/issues/1478</guid>
+      <pubDate>2023-04-03</pubDate>
+    </item>
+    <item>
+      <title>Add samples for apollo and apollo-3 integrations</title>
+      <link>https://github.com/getsentry/sentry-java/issues/2548</link>
+      <guid isPermaLink="true">https://github.com/getsentry/sentry-java/issues/2548</guid>
+      <pubDate>2023-02-15</pubDate>
+    </item>
+    <item>
+      <title>Transfer the valuable parts of the codebase to openfoodfacts-kotlin</title>
+      <link>https://github.com/openfoodfacts/openfoodfacts-androidapp/issues/4853</link>
+      <guid isPermaLink="true">https://github.com/openfoodfacts/openfoodfacts-androidapp/issues/4853</guid>
+      <pubDate>2022-09-29</pubDate>
+    </item>
+    <item>
+      <title>Add `flavor` to `App` context</title>
+      <link>https://github.com/getsentry/sentry-java/issues/2039</link>
+      <guid isPermaLink="true">https://github.com/getsentry/sentry-java/issues/2039</guid>
+      <pubDate>2022-05-11</pubDate>
+    </item>
+    <item>
+      <title>Change CTA from 'Use this photo' to 'Use this GIF' when adding from Tenor</title>
+      <link>https://github.com/wordpress-mobile/WordPress-Android/issues/16212</link>
+      <guid isPermaLink="true">https://github.com/wordpress-mobile/WordPress-Android/issues/16212</guid>
+      <pubDate>2022-03-30</pubDate>
+    </item>
+    <item>
+      <title>Support for Material You icon</title>
+      <link>https://github.com/openfoodfacts/openfoodfacts-androidapp/issues/4471</link>
+      <guid isPermaLink="true">https://github.com/openfoodfacts/openfoodfacts-androidapp/issues/4471</guid>
+      <pubDate>2022-02-10</pubDate>
+    </item>
+    <item>
+      <title>Nutrient level clipping issue on some devices</title>
+      <link>https://github.com/openfoodfacts/openfoodfacts-androidapp/issues/4441</link>
+      <guid isPermaLink="true">https://github.com/openfoodfacts/openfoodfacts-androidapp/issues/4441</guid>
+      <pubDate>2022-01-22</pubDate>
+    </item>
+    <item>
+      <title>Opening "On device" menu causes "All files" to open "On device" the first time</title>
+      <link>https://github.com/nextcloud/android/issues/9668</link>
+      <guid isPermaLink="true">https://github.com/nextcloud/android/issues/9668</guid>
+      <pubDate>2022-01-07</pubDate>
+    </item>
+  </channel>
+</rss>

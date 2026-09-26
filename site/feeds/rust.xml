@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0">
+  <channel>
+    <title>Rust beginner issues</title>
+    <link>https://tanbirramim.github.io/open-source-radar/issues/by-language/rust.md</link>
+    <description>Recently created beginner-friendly issues for Rust.</description>
+    <item>
+      <title>Add in option for completely kill the app</title>
+      <link>https://github.com/tonhowtf/omniget/issues/371</link>
+      <guid isPermaLink="true">https://github.com/tonhowtf/omniget/issues/371</guid>
+      <pubDate>2026-09-25</pubDate>
+    </item>
+    <item>
+      <title>sleep-refusal message recommends Monitor unconditionally, with no config surface</title>
+      <link>https://github.com/rtk-ai/rtk/issues/4182</link>
+      <guid isPermaLink="true">https://github.com/rtk-ai/rtk/issues/4182</guid>
+      <pubDate>2026-09-21</pubDate>
+    </item>
+    <item>
+      <title>ls: completions for attributes</title>
+      <link>https://github.com/gleam-lang/gleam/issues/6333</link>
+      <guid isPermaLink="true">https://github.com/gleam-lang/gleam/issues/6333</guid>
+      <pubDate>2026-09-21</pubDate>
+    </item>
+    <item>
+      <title>`@deprecated` attribute can be attached to `import` item</title>
+      <link>https://github.com/gleam-lang/gleam/issues/6331</link>
+      <guid isPermaLink="true">https://github.com/gleam-lang/gleam/issues/6331</guid>
+      <pubDate>2026-09-21</pubDate>
+    </item>
+    <item>
+      <title>rtk wc does not read stdin — silent false zero on redirect and pipe</title>
+      <link>https://github.com/rtk-ai/rtk/issues/4091</link>
+      <guid isPermaLink="true">https://github.com/rtk-ai/rtk/issues/4091</guid>
+      <pubDate>2026-09-17</pubDate>
+    </item>
+    <item>
+      <title>Auto-created tables can miss required columns when insert schemas differ</title>
+      <link>https://github.com/GreptimeTeam/greptimedb/issues/9185</link>
+      <guid isPermaLink="true">https://github.com/GreptimeTeam/greptimedb/issues/9185</guid>
+      <pubDate>2026-09-16</pubDate>
+    </item>
+    <item>
+      <title>Restrict permissions in `gleam new` generated github actions workflow</title>
+      <link>https://github.com/gleam-lang/gleam/issues/6311</link>
+      <guid isPermaLink="true">https://github.com/gleam-lang/gleam/issues/6311</guid>
+      <pubDate>2026-09-14</pubDate>
+    </item>
+    <item>
+      <title>drag to reorder</title>
+      <link>https://github.com/koharu-rs/koharu/issues/1100</link>
+      <guid isPermaLink="true">https://github.com/koharu-rs/koharu/issues/1100</guid>
+      <pubDate>2026-09-13</pubDate>
+    </item>
+    <item>
+      <title>window.resize_increments miscalculates the window size for some values of window.padding</title>
+      <link>https://github.com/alacritty/alacritty/issues/9047</link>
+      <guid isPermaLink="true">https://github.com/alacritty/alacritty/issues/9047</guid>
+      <pubDate>2026-09-12</pubDate>
+    </item>
+    <item>
+      <title>Disable webview right-click menu and add context-specific options</title>
+      <link>https://github.com/koharu-rs/koharu/issues/1063</link>
+      <guid isPermaLink="true">https://github.com/koharu-rs/koharu/issues/1063</guid>
+      <pubDate>2026-09-07</pubDate>
+    </item>
+    <item>
+      <title>Automatically apply paint/eraser to cleanup layer if no other layer selected</title>
+      <link>https://github.com/koharu-rs/koharu/issues/1062</link>
+      <guid isPermaLink="true">https://github.com/koharu-rs/koharu/issues/1062</guid>
+      <pubDate>2026-09-07</pubDate>
+    </item>
+    <item>
+      <title>Add option to export all pages without selecting all pages</title>
+      <link>https://github.com/koharu-rs/koharu/issues/1060</link>
+      <guid isPermaLink="true">https://github.com/koharu-rs/koharu/issues/1060</guid>
+      <pubDate>2026-09-07</pubDate>
+    </item>
+    <item>
+      <title>Re-add the ability to see the cleanup layer mask</title>
+      <link>https://github.com/koharu-rs/koharu/issues/1059</link>
+      <guid isPermaLink="true">https://github.com/koharu-rs/koharu/issues/1059</guid>
+      <pubDate>2026-09-07</pubDate>
+    </item>
+    <item>
+      <title>Copy and paste text boxes</title>
+      <link>https://github.com/koharu-rs/koharu/issues/1057</link>
+      <guid isPermaLink="true">https://github.com/koharu-rs/koharu/issues/1057</guid>
+      <pubDate>2026-09-07</pubDate>
+    </item>
+    <item>
+      <title>Support multiple instances running simultaneously</title>
+      <link>https://github.com/koharu-rs/koharu/issues/1056</link>
+      <guid isPermaLink="true">https://github.com/koharu-rs/koharu/issues/1056</guid>
+      <pubDate>2026-09-07</pubDate>
+    </item>
+    <item>
+      <title>ls: show unchanged fields for record updates in consts</title>
+      <link>https://github.com/gleam-lang/gleam/issues/6276</link>
+      <guid isPermaLink="true">https://github.com/gleam-lang/gleam/issues/6276</guid>
+      <pubDate>2026-09-04</pubDate>
+    </item>
+    <item>
+      <title>ls: show documentation on hover of constants in bit array's `size`</title>
+      <link>https://github.com/gleam-lang/gleam/issues/6264</link>
+      <guid isPermaLink="true">https://github.com/gleam-lang/gleam/issues/6264</guid>
+      <pubDate>2026-09-01</pubDate>
+    </item>
+    <item>
+      <title>Warning for immediately called function captures</title>
+      <link>https://github.com/gleam-lang/gleam/issues/6258</link>
+      <guid isPermaLink="true">https://github.com/gleam-lang/gleam/issues/6258</guid>
+      <pubDate>2026-09-01</pubDate>
+    </item>
+    <item>
+      <title>macbook use Touch ID instead password</title>
+      <link>https://github.com/GyulyVGC/sniffnet/issues/1300</link>
+      <guid isPermaLink="true">https://github.com/GyulyVGC/sniffnet/issues/1300</guid>
+      <pubDate>2026-08-31</pubDate>
+    </item>
+    <item>
+      <title>Adding history to ColorWell</title>
+      <link>https://github.com/koharu-rs/koharu/issues/1015</link>
+      <guid isPermaLink="true">https://github.com/koharu-rs/koharu/issues/1015</guid>
+      <pubDate>2026-08-30</pubDate>
+    </item>
+    <item>
+      <title>Deprecate native ltree support in the ParadeDB index in favor of bitmap intersection</title>
+      <link>https://github.com/paradedb/paradedb/issues/6093</link>
+      <guid isPermaLink="true">https://github.com/paradedb/paradedb/issues/6093</guid>
+      <pubDate>2026-08-26</pubDate>
+    </item>
+    <item>
+      <title>removes comment after import</title>
+      <link>https://github.com/rust-lang/rustfmt/issues/7051</link>
+      <guid isPermaLink="true">https://github.com/rust-lang/rustfmt/issues/7051</guid>
+      <pubDate>2026-08-23</pubDate>
+    </item>
+    <item>
+      <title>docs: surface repository examples and templates in the Recipes tab</title>
+      <link>https://github.com/ai-dynamo/dynamo/issues/13497</link>
+      <guid isPermaLink="true">https://github.com/ai-dynamo/dynamo/issues/13497</guid>
+      <pubDate>2026-08-18</pubDate>
+    </item>
+    <item>
+      <title>The replace arithmetic assist should be offered on negation and `.pow()`</title>
+      <link>https://github.com/rust-lang/rust-analyzer/issues/23153</link>
+      <guid isPermaLink="true">https://github.com/rust-lang/rust-analyzer/issues/23153</guid>
+      <pubDate>2026-08-16</pubDate>
+    </item>
+    <item>
+      <title>FP `Syntax Error: expected an item`</title>
+      <link>https://github.com/rust-lang/rust-analyzer/issues/23144</link>
+      <guid isPermaLink="true">https://github.com/rust-lang/rust-analyzer/issues/23144</guid>
+      <pubDate>2026-08-14</pubDate>
+    </item>
+    <item>
+      <title>docs: deduplicate compatibility feature support and interactions</title>
+      <link>https://github.com/ai-dynamo/dynamo/issues/13211</link>
+      <guid isPermaLink="true">https://github.com/ai-dynamo/dynamo/issues/13211</guid>
+      <pubDate>2026-08-13</pubDate>
+    </item>
+    <item>
+      <title>Mutable segment snapshot assertion fails after crash recovery: ctid_set.len() != expected_ctids</title>
+      <link>https://github.com/paradedb/paradedb/issues/5937</link>
+      <guid isPermaLink="true">https://github.com/paradedb/paradedb/issues/5937</guid>
+      <pubDate>2026-08-11</pubDate>
+    </item>
+    <item>
+      <title>docs: how-to for ignoring files (`.loreignore`) and view filters</title>
+      <link>https://github.com/EpicGames/lore/issues/118</link>
+      <guid isPermaLink="true">https://github.com/EpicGames/lore/issues/118</guid>
+      <pubDate>2026-07-18</pubDate>
+    </item>
+    <item>
+      <title>It would be a great help to have a Harper corpus tool for Harper devs to help research new linting rules</title>
+      <link>https://github.com/Automattic/harper/issues/3841</link>
+      <guid isPermaLink="true">https://github.com/Automattic/harper/issues/3841</guid>
+      <pubDate>2026-07-17</pubDate>
+    </item>
+    <item>
+      <title>Feature: Flag `benc-uk/workflow-dispatch` as superfluous action (use `gh workflow run` instead)</title>
+      <link>https://github.com/zizmorcore/zizmor/issues/2181</link>
+      <guid isPermaLink="true">https://github.com/zizmorcore/zizmor/issues/2181</guid>
+      <pubDate>2026-07-12</pubDate>
+    </item>
+    <item>
+      <title>Webhook source: support HTTP GET verification handshake for providers like Meta/Facebook, WhatsApp, Instagram</title>
+      <link>https://github.com/risingwavelabs/risingwave/issues/26236</link>
+      <guid isPermaLink="true">https://github.com/risingwavelabs/risingwave/issues/26236</guid>
+      <pubDate>2026-07-10</pubDate>
+    </item>
+    <item>
+      <title>Proposal: Turn on GL backend for Femtovg WGPU</title>
+      <link>https://github.com/slint-ui/slint/issues/12273</link>
+      <guid isPermaLink="true">https://github.com/slint-ui/slint/issues/12273</guid>
+      <pubDate>2026-06-28</pubDate>
+    </item>
+    <item>
+      <title>建议支持 Skill 文件夹分类管理、优化 Hermes 导入体验及全选/全不选交互</title>
+      <link>https://github.com/farion1231/cc-switch/issues/3611</link>
+      <guid isPermaLink="true">https://github.com/farion1231/cc-switch/issues/3611</guid>
+      <pubDate>2026-06-02</pubDate>
+    </item>
+    <item>
+      <title>SQL Server CDC: silent data loss when upstream disables CDC on a captured table</title>
+      <link>https://github.com/risingwavelabs/risingwave/issues/25828</link>
+      <guid isPermaLink="true">https://github.com/risingwavelabs/risingwave/issues/25828</guid>
+      <pubDate>2026-05-28</pubDate>
+    </item>
+    <item>
+      <title>Enable `arg_required_else_help`</title>
+      <link>https://github.com/lucasgelfond/zerobrew/issues/357</link>
+      <guid isPermaLink="true">https://github.com/lucasgelfond/zerobrew/issues/357</guid>
+      <pubDate>2026-05-23</pubDate>
+    </item>
+    <item>
+      <title>document visual studio 2026</title>
+      <link>https://github.com/rust-lang/rustup/issues/4858</link>
+      <guid isPermaLink="true">https://github.com/rust-lang/rustup/issues/4858</guid>
+      <pubDate>2026-05-15</pubDate>
+    </item>
+    <item>
+      <title>Simplify SecretInjection: drop basic_auth and query_params flags</title>
+      <link>https://github.com/superradcompany/microsandbox/issues/703</link>
+      <guid isPermaLink="true">https://github.com/superradcompany/microsandbox/issues/703</guid>
+      <pubDate>2026-05-13</pubDate>
+    </item>
+    <item>
+      <title>Replace the current continuous benchmarking action with our own.</title>
+      <link>https://github.com/paradedb/paradedb/issues/5013</link>
+      <guid isPermaLink="true">https://github.com/paradedb/paradedb/issues/5013</guid>
+      <pubDate>2026-05-06</pubDate>
+    </item>
+    <item>
+      <title>Overleaf Support (LaTeX Editor)</title>
+      <link>https://github.com/Automattic/harper/issues/3306</link>
+      <guid isPermaLink="true">https://github.com/Automattic/harper/issues/3306</guid>
+      <pubDate>2026-05-05</pubDate>
+    </item>
+    <item>
+      <title>Address FIXMEs for adding diagnostics</title>
+      <link>https://github.com/rust-lang/rust-analyzer/issues/22140</link>
+      <guid isPermaLink="true">https://github.com/rust-lang/rust-analyzer/issues/22140</guid>
+      <pubDate>2026-04-22</pubDate>
+    </item>
+    <item>
+      <title>Expose ergonomic create_with_progress / create_detached_with_progress in the Rust SDK</title>
+      <link>https://github.com/superradcompany/microsandbox/issues/593</link>
+      <guid isPermaLink="true">https://github.com/superradcompany/microsandbox/issues/593</guid>
+      <pubDate>2026-04-21</pubDate>
+    </item>
+    <item>
+      <title>feat(init): add option to have `dev` dependency-group be in default environment</title>
+      <link>https://github.com/prefix-dev/pixi/issues/5906</link>
+      <guid isPermaLink="true">https://github.com/prefix-dev/pixi/issues/5906</guid>
+      <pubDate>2026-04-14</pubDate>
+    </item>
+    <item>
+      <title>train: TUI panics on manual close (unwrap on the join handle)</title>
+      <link>https://github.com/tracel-ai/burn/issues/4793</link>
+      <guid isPermaLink="true">https://github.com/tracel-ai/burn/issues/4793</guid>
+      <pubDate>2026-04-13</pubDate>
+    </item>
+    <item>
+      <title>How to get the current directory from a session</title>
+      <link>https://github.com/alacritty/alacritty/issues/8885</link>
+      <guid isPermaLink="true">https://github.com/alacritty/alacritty/issues/8885</guid>
+      <pubDate>2026-03-27</pubDate>
+    </item>
+    <item>
+      <title>Remove V1 API</title>
+      <link>https://github.com/paradedb/paradedb/issues/4391</link>
+      <guid isPermaLink="true">https://github.com/paradedb/paradedb/issues/4391</guid>
+      <pubDate>2026-03-17</pubDate>
+    </item>
+    <item>
+      <title>CapsuleRegistry duplicate capsule/uplink registration uses UnsupportedEntryPoint and docs cite nonexistent variants</title>
+      <link>https://github.com/astrid-runtime/astrid/issues/476</link>
+      <guid isPermaLink="true">https://github.com/astrid-runtime/astrid/issues/476</guid>
+      <pubDate>2026-03-15</pubDate>
+    </item>
+    <item>
+      <title>Remove dead AgentHandler stub from astrid-hooks</title>
+      <link>https://github.com/astrid-runtime/astrid/issues/497</link>
+      <guid isPermaLink="true">https://github.com/astrid-runtime/astrid/issues/497</guid>
+      <pubDate>2026-03-15</pubDate>
+    </item>
+    <item>
+      <title>transform-scale should make SVG images scale up smoothly as vectors, not bitmaps</title>
+      <link>https://github.com/slint-ui/slint/issues/10903</link>
+      <guid isPermaLink="true">https://github.com/slint-ui/slint/issues/10903</guid>
+      <pubDate>2026-03-01</pubDate>
+    </item>
+    <item>
+      <title>Support for the Mojo programming language</title>
+      <link>https://github.com/Automattic/harper/issues/2766</link>
+      <guid isPermaLink="true">https://github.com/Automattic/harper/issues/2766</guid>
+      <pubDate>2026-02-20</pubDate>
+    </item>
+    <item>
+      <title>Keybinding "/" not starting search in "Vi" mode for Spanish keyboard</title>
+      <link>https://github.com/alacritty/alacritty/issues/8846</link>
+      <guid isPermaLink="true">https://github.com/alacritty/alacritty/issues/8846</guid>
+      <pubDate>2026-02-19</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0">
+  <channel>
+    <title>Dart beginner issues</title>
+    <link>https://tanbirramim.github.io/open-source-radar/issues/by-language/dart.md</link>
+    <description>Recently created beginner-friendly issues for Dart.</description>
+    <item>
+      <title>Local deb update issue</title>
+      <link>https://github.com/ubuntu/app-center/issues/2190</link>
+      <guid isPermaLink="true">https://github.com/ubuntu/app-center/issues/2190</guid>
+      <pubDate>2026-09-17</pubDate>
+    </item>
+    <item>
+      <title>Setting a custom User Agent breaks Desktop mode toggle after removing the Custom User Agent</title>
+      <link>https://github.com/FaFre/WebLibre/issues/619</link>
+      <guid isPermaLink="true">https://github.com/FaFre/WebLibre/issues/619</guid>
+      <pubDate>2026-09-14</pubDate>
+    </item>
+    <item>
+      <title>Stale promotion UI on analysis board</title>
+      <link>https://github.com/lichess-org/mobile/issues/3610</link>
+      <guid isPermaLink="true">https://github.com/lichess-org/mobile/issues/3610</guid>
+      <pubDate>2026-08-25</pubDate>
+    </item>
+    <item>
+      <title>Crazy house pieces disappear</title>
+      <link>https://github.com/lichess-org/mobile/issues/3599</link>
+      <guid isPermaLink="true">https://github.com/lichess-org/mobile/issues/3599</guid>
+      <pubDate>2026-08-23</pubDate>
+    </item>
+    <item>
+      <title>Submit OpenNutriTracker to the F-Droid repository</title>
+      <link>https://github.com/simonoppowa/OpenNutriTracker/issues/575</link>
+      <guid isPermaLink="true">https://github.com/simonoppowa/OpenNutriTracker/issues/575</guid>
+      <pubDate>2026-07-23</pubDate>
+    </item>
+    <item>
+      <title>Add the blink effect for the "next mistake button"</title>
+      <link>https://github.com/lichess-org/mobile/issues/2953</link>
+      <guid isPermaLink="true">https://github.com/lichess-org/mobile/issues/2953</guid>
+      <pubDate>2026-04-11</pubDate>
+    </item>
+    <item>
+      <title>[content] Add more flexible mechanism for `FilesystemLoader` to ignore paths</title>
+      <link>https://github.com/schultek/jaspr/issues/789</link>
+      <guid isPermaLink="true">https://github.com/schultek/jaspr/issues/789</guid>
+      <pubDate>2026-04-05</pubDate>
+    </item>
+    <item>
+      <title>Text alignment issue in mobile app – A1 Professional Spanish Certification</title>
+      <link>https://github.com/freeCodeCamp/mobile/issues/1731</link>
+      <guid isPermaLink="true">https://github.com/freeCodeCamp/mobile/issues/1731</guid>
+      <pubDate>2026-02-09</pubDate>
+    </item>
+    <item>
+      <title>[UI/UX] Improve channel arragement</title>
+      <link>https://github.com/zjs81/meshcore-open/issues/70</link>
+      <guid isPermaLink="true">https://github.com/zjs81/meshcore-open/issues/70</guid>
+      <pubDate>2026-01-21</pubDate>
+    </item>
+    <item>
+      <title>Migration guide Firebase to Serverpod</title>
+      <link>https://github.com/serverpod/serverpod/issues/3337</link>
+      <guid isPermaLink="true">https://github.com/serverpod/serverpod/issues/3337</guid>
+      <pubDate>2025-03-21</pubDate>
+    </item>
+    <item>
+      <title>可以支援繁體中文嗎?</title>
+      <link>https://github.com/fregie/pho/issues/76</link>
+      <guid isPermaLink="true">https://github.com/fregie/pho/issues/76</guid>
+      <pubDate>2025-03-16</pubDate>
+    </item>
+    <item>
+      <title>Ente Auth iOS: slow unlock</title>
+      <link>https://github.com/ente/ente/issues/4749</link>
+      <guid isPermaLink="true">https://github.com/ente/ente/issues/4749</guid>
+      <pubDate>2025-01-16</pubDate>
+    </item>
+    <item>
+      <title>MIssing file referred to in "Running DevTools Tests" section of TESTING.md</title>
+      <link>https://github.com/flutter/devtools/issues/8293</link>
+      <guid isPermaLink="true">https://github.com/flutter/devtools/issues/8293</guid>
+      <pubDate>2024-09-03</pubDate>
+    </item>
+    <item>
+      <title>change the file extension form mp4 to m4a</title>
+      <link>https://github.com/HemantKArya/BloomeeTunes/issues/38</link>
+      <guid isPermaLink="true">https://github.com/HemantKArya/BloomeeTunes/issues/38</guid>
+      <pubDate>2024-08-31</pubDate>
+    </item>
+    <item>
+      <title>[Bug] When drag and dropping contact to Bcc, the field isn't highlighted</title>
+      <link>https://github.com/linagora/tmail-flutter/issues/3074</link>
+      <guid isPermaLink="true">https://github.com/linagora/tmail-flutter/issues/3074</guid>
+      <pubDate>2024-08-12</pubDate>
+    </item>
+    <item>
+      <title>Add option maxCacheSize</title>
+      <link>https://github.com/getsentry/sentry-dart/issues/1830</link>
+      <guid isPermaLink="true">https://github.com/getsentry/sentry-dart/issues/1830</guid>
+      <pubDate>2024-01-19</pubDate>
+    </item>
+    <item>
+      <title>Create integration test for `appFlavor`</title>
+      <link>https://github.com/getsentry/sentry-dart/issues/1802</link>
+      <guid isPermaLink="true">https://github.com/getsentry/sentry-dart/issues/1802</guid>
+      <pubDate>2024-01-03</pubDate>
+    </item>
+    <item>
+      <title>Adding a pointer beside the bar rod.</title>
+      <link>https://github.com/imaNNeo/fl_chart/issues/1480</link>
+      <guid isPermaLink="true">https://github.com/imaNNeo/fl_chart/issues/1480</guid>
+      <pubDate>2023-11-06</pubDate>
+    </item>
+    <item>
+      <title>[FR] remove formatting option</title>
+      <link>https://github.com/AppFlowy-IO/AppFlowy/issues/3427</link>
+      <guid isPermaLink="true">https://github.com/AppFlowy-IO/AppFlowy/issues/3427</guid>
+      <pubDate>2023-09-17</pubDate>
+    </item>
+    <item>
+      <title>fix: `shorebird preview` should detect/warn when targeting x86 devices</title>
+      <link>https://github.com/shorebirdtech/shorebird/issues/1173</link>
+      <guid isPermaLink="true">https://github.com/shorebirdtech/shorebird/issues/1173</guid>
+      <pubDate>2023-08-28</pubDate>
+    </item>
+    <item>
+      <title>gif 动态图打开后不会动态显示</title>
+      <link>https://github.com/fregie/pho/issues/28</link>
+      <guid isPermaLink="true">https://github.com/fregie/pho/issues/28</guid>
+      <pubDate>2023-08-02</pubDate>
+    </item>
+    <item>
+      <title>feat: Would like better usage information for `aar` missing option</title>
+      <link>https://github.com/shorebirdtech/shorebird/issues/982</link>
+      <guid isPermaLink="true">https://github.com/shorebirdtech/shorebird/issues/982</guid>
+      <pubDate>2023-08-01</pubDate>
+    </item>
+    <item>
+      <title>Use the default theme available by the themeData for tooltips instead of library's custom theme</title>
+      <link>https://github.com/imaNNeo/fl_chart/issues/1377</link>
+      <guid isPermaLink="true">https://github.com/imaNNeo/fl_chart/issues/1377</guid>
+      <pubDate>2023-06-25</pubDate>
+    </item>
+    <item>
+      <title>希望可以加入收藏功能</title>
+      <link>https://github.com/fregie/pho/issues/5</link>
+      <guid isPermaLink="true">https://github.com/fregie/pho/issues/5</guid>
+      <pubDate>2023-05-22</pubDate>
+    </item>
+    <item>
+      <title>Joplin integration</title>
+      <link>https://github.com/LinwoodDev/Butterfly/issues/253</link>
+      <guid isPermaLink="true">https://github.com/LinwoodDev/Butterfly/issues/253</guid>
+      <pubDate>2022-08-14</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0">
+  <channel>
+    <title>R beginner issues</title>
+    <link>https://tanbirramim.github.io/open-source-radar/issues/by-language/r.md</link>
+    <description>Recently created beginner-friendly issues for R.</description>
+    <item>
+      <title>Do not use the `use-custom-error` feature of savvy</title>
+      <link>https://github.com/pola-rs/r-polars/issues/1436</link>
+      <guid isPermaLink="true">https://github.com/pola-rs/r-polars/issues/1436</guid>
+      <pubDate>2025-07-21</pubDate>
+    </item>
+  </channel>
+</rss>

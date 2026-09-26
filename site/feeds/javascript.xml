@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0">
+  <channel>
+    <title>JavaScript beginner issues</title>
+    <link>https://tanbirramim.github.io/open-source-radar/issues/by-language/javascript.md</link>
+    <description>Recently created beginner-friendly issues for JavaScript.</description>
+    <item>
+      <title>[TRIGGER]</title>
+      <link>https://github.com/PipedreamHQ/pipedream/issues/22036</link>
+      <guid isPermaLink="true">https://github.com/PipedreamHQ/pipedream/issues/22036</guid>
+      <pubDate>2026-09-21</pubDate>
+    </item>
+    <item>
+      <title>[FEATURE] Add tawk.to actions to Pipedream MCP</title>
+      <link>https://github.com/PipedreamHQ/pipedream/issues/22017</link>
+      <guid isPermaLink="true">https://github.com/PipedreamHQ/pipedream/issues/22017</guid>
+      <pubDate>2026-09-19</pubDate>
+    </item>
+    <item>
+      <title>A false positive FES error on function "loadModel"</title>
+      <link>https://github.com/processing/p5.js/issues/9176</link>
+      <guid isPermaLink="true">https://github.com/processing/p5.js/issues/9176</guid>
+      <pubDate>2026-09-15</pubDate>
+    </item>
+    <item>
+      <title>[ACTION] Rewardful — Affiliate &amp; Commission Management</title>
+      <link>https://github.com/PipedreamHQ/pipedream/issues/21991</link>
+      <guid isPermaLink="true">https://github.com/PipedreamHQ/pipedream/issues/21991</guid>
+      <pubDate>2026-09-15</pubDate>
+    </item>
+    <item>
+      <title>Add tools to Yahoo Sports</title>
+      <link>https://github.com/PipedreamHQ/pipedream/issues/21979</link>
+      <guid isPermaLink="true">https://github.com/PipedreamHQ/pipedream/issues/21979</guid>
+      <pubDate>2026-09-13</pubDate>
+    </item>
+    <item>
+      <title>[TRIGGER]</title>
+      <link>https://github.com/PipedreamHQ/pipedream/issues/21956</link>
+      <guid isPermaLink="true">https://github.com/PipedreamHQ/pipedream/issues/21956</guid>
+      <pubDate>2026-09-10</pubDate>
+    </item>
+    <item>
+      <title>Open new source to check Webhook [TRIGGER]</title>
+      <link>https://github.com/PipedreamHQ/pipedream/issues/21912</link>
+      <guid isPermaLink="true">https://github.com/PipedreamHQ/pipedream/issues/21912</guid>
+      <pubDate>2026-09-06</pubDate>
+    </item>
+    <item>
+      <title>eBay Creating/Publishing Listings</title>
+      <link>https://github.com/PipedreamHQ/pipedream/issues/21896</link>
+      <guid isPermaLink="true">https://github.com/PipedreamHQ/pipedream/issues/21896</guid>
+      <pubDate>2026-09-04</pubDate>
+    </item>
+    <item>
+      <title>[ACTION]</title>
+      <link>https://github.com/PipedreamHQ/pipedream/issues/21787</link>
+      <guid isPermaLink="true">https://github.com/PipedreamHQ/pipedream/issues/21787</guid>
+      <pubDate>2026-08-25</pubDate>
+    </item>
+    <item>
+      <title>Add a public DNS resolver from an unrepresented region (Africa / South America / Middle East / Oceania)</title>
+      <link>https://github.com/jason5ng32/MyIP/issues/394</link>
+      <guid isPermaLink="true">https://github.com/jason5ng32/MyIP/issues/394</guid>
+      <pubDate>2026-08-22</pubDate>
+    </item>
+    <item>
+      <title>Connectivity test: add a Vietnam country list</title>
+      <link>https://github.com/jason5ng32/MyIP/issues/406</link>
+      <guid isPermaLink="true">https://github.com/jason5ng32/MyIP/issues/406</guid>
+      <pubDate>2026-08-22</pubDate>
+    </item>
+    <item>
+      <title>🇯🇵 Japanese (ja) UI translation</title>
+      <link>https://github.com/jason5ng32/MyIP/issues/421</link>
+      <guid isPermaLink="true">https://github.com/jason5ng32/MyIP/issues/421</guid>
+      <pubDate>2026-08-22</pubDate>
+    </item>
+    <item>
+      <title>🇪🇸 Spanish (es) UI translation</title>
+      <link>https://github.com/jason5ng32/MyIP/issues/420</link>
+      <guid isPermaLink="true">https://github.com/jason5ng32/MyIP/issues/420</guid>
+      <pubDate>2026-08-22</pubDate>
+    </item>
+    <item>
+      <title>🇩🇪 German (de) UI translation</title>
+      <link>https://github.com/jason5ng32/MyIP/issues/419</link>
+      <guid isPermaLink="true">https://github.com/jason5ng32/MyIP/issues/419</guid>
+      <pubDate>2026-08-22</pubDate>
+    </item>
+    <item>
+      <title>Translate the README into your language</title>
+      <link>https://github.com/jason5ng32/MyIP/issues/415</link>
+      <guid isPermaLink="true">https://github.com/jason5ng32/MyIP/issues/415</guid>
+      <pubDate>2026-08-22</pubDate>
+    </item>
+    <item>
+      <title>Translate the README into Korean (README_KO.md)</title>
+      <link>https://github.com/jason5ng32/MyIP/issues/414</link>
+      <guid isPermaLink="true">https://github.com/jason5ng32/MyIP/issues/414</guid>
+      <pubDate>2026-08-22</pubDate>
+    </item>
+    <item>
+      <title>Translate the README into Japanese (README_JA.md)</title>
+      <link>https://github.com/jason5ng32/MyIP/issues/413</link>
+      <guid isPermaLink="true">https://github.com/jason5ng32/MyIP/issues/413</guid>
+      <pubDate>2026-08-22</pubDate>
+    </item>
+    <item>
+      <title>Translate the README into German (README_DE.md)</title>
+      <link>https://github.com/jason5ng32/MyIP/issues/412</link>
+      <guid isPermaLink="true">https://github.com/jason5ng32/MyIP/issues/412</guid>
+      <pubDate>2026-08-22</pubDate>
+    </item>
+    <item>
+      <title>Translate the README into Spanish (README_ES.md)</title>
+      <link>https://github.com/jason5ng32/MyIP/issues/410</link>
+      <guid isPermaLink="true">https://github.com/jason5ng32/MyIP/issues/410</guid>
+      <pubDate>2026-08-22</pubDate>
+    </item>
+    <item>
+      <title>Native speakers: review the French / Russian UI translations</title>
+      <link>https://github.com/jason5ng32/MyIP/issues/401</link>
+      <guid isPermaLink="true">https://github.com/jason5ng32/MyIP/issues/401</guid>
+      <pubDate>2026-08-22</pubDate>
+    </item>
+    <item>
+      <title>[riddle_quiz_maker] Update app metadata: description, logo and MCP URL</title>
+      <link>https://github.com/PipedreamHQ/pipedream/issues/21717</link>
+      <guid isPermaLink="true">https://github.com/PipedreamHQ/pipedream/issues/21717</guid>
+      <pubDate>2026-08-20</pubDate>
+    </item>
+    <item>
+      <title>Finish DocumenterPluto.jl</title>
+      <link>https://github.com/JuliaPluto/Pluto.jl/issues/3602</link>
+      <guid isPermaLink="true">https://github.com/JuliaPluto/Pluto.jl/issues/3602</guid>
+      <pubDate>2026-08-17</pubDate>
+    </item>
+    <item>
+      <title>i18n: translate the interview modes (plan/practice/debrief) to Indonesian</title>
+      <link>https://github.com/career-ops-hq/career-ops/issues/2784</link>
+      <guid isPermaLink="true">https://github.com/career-ops-hq/career-ops/issues/2784</guid>
+      <pubDate>2026-08-12</pubDate>
+    </item>
+    <item>
+      <title>Add tools for Yahoo Fantasy Football connector</title>
+      <link>https://github.com/PipedreamHQ/pipedream/issues/21593</link>
+      <guid isPermaLink="true">https://github.com/PipedreamHQ/pipedream/issues/21593</guid>
+      <pubDate>2026-08-08</pubDate>
+    </item>
+    <item>
+      <title>[BUG]: Background image is rendered at an incorrect size after box zoom followed by mouse wheel zoom out</title>
+      <link>https://github.com/plotly/plotly.js/issues/7914</link>
+      <guid isPermaLink="true">https://github.com/plotly/plotly.js/issues/7914</guid>
+      <pubDate>2026-07-21</pubDate>
+    </item>
+    <item>
+      <title>[ACTION] DPD Shipping - Get Tracking Data with Weight (detail=3)</title>
+      <link>https://github.com/PipedreamHQ/pipedream/issues/21321</link>
+      <guid isPermaLink="true">https://github.com/PipedreamHQ/pipedream/issues/21321</guid>
+      <pubDate>2026-07-03</pubDate>
+    </item>
+    <item>
+      <title>[ACTION] Contacts+</title>
+      <link>https://github.com/PipedreamHQ/pipedream/issues/21328</link>
+      <guid isPermaLink="true">https://github.com/PipedreamHQ/pipedream/issues/21328</guid>
+      <pubDate>2026-07-03</pubDate>
+    </item>
+    <item>
+      <title>Add Reload File button, just call it Reload</title>
+      <link>https://github.com/Acode-Foundation/Acode/issues/2390</link>
+      <guid isPermaLink="true">https://github.com/Acode-Foundation/Acode/issues/2390</guid>
+      <pubDate>2026-06-25</pubDate>
+    </item>
+    <item>
+      <title>Yotpo Loyalty &amp; Referrals — New Actions: Adjust Points, Record Action, Set Birthday, Get/Add Customer Tags, Create Refund</title>
+      <link>https://github.com/PipedreamHQ/pipedream/issues/21210</link>
+      <guid isPermaLink="true">https://github.com/PipedreamHQ/pipedream/issues/21210</guid>
+      <pubDate>2026-06-22</pubDate>
+    </item>
+    <item>
+      <title>[TRIGGER] Facebook Pages webhooks</title>
+      <link>https://github.com/PipedreamHQ/pipedream/issues/21070</link>
+      <guid isPermaLink="true">https://github.com/PipedreamHQ/pipedream/issues/21070</guid>
+      <pubDate>2026-06-05</pubDate>
+    </item>
+    <item>
+      <title>Sms8 - SMS GATEWAY: OTP &amp; webhook</title>
+      <link>https://github.com/PipedreamHQ/pipedream/issues/20977</link>
+      <guid isPermaLink="true">https://github.com/PipedreamHQ/pipedream/issues/20977</guid>
+      <pubDate>2026-05-24</pubDate>
+    </item>
+    <item>
+      <title>Runic formatting ?</title>
+      <link>https://github.com/JuliaPluto/Pluto.jl/issues/3534</link>
+      <guid isPermaLink="true">https://github.com/JuliaPluto/Pluto.jl/issues/3534</guid>
+      <pubDate>2026-05-07</pubDate>
+    </item>
+    <item>
+      <title>Pull a whatsapp conversation</title>
+      <link>https://github.com/PipedreamHQ/pipedream/issues/20799</link>
+      <guid isPermaLink="true">https://github.com/PipedreamHQ/pipedream/issues/20799</guid>
+      <pubDate>2026-05-06</pubDate>
+    </item>
+    <item>
+      <title>[ACTION] Simplify Notion upload image affordance</title>
+      <link>https://github.com/PipedreamHQ/pipedream/issues/20537</link>
+      <guid isPermaLink="true">https://github.com/PipedreamHQ/pipedream/issues/20537</guid>
+      <pubDate>2026-04-07</pubDate>
+    </item>
+    <item>
+      <title>Fix broken Markdown link: https://bugzilla.mozilla.org/show_bug.cgi?id=892671</title>
+      <link>https://github.com/stdlib-js/stdlib/issues/11248</link>
+      <guid isPermaLink="true">https://github.com/stdlib-js/stdlib/issues/11248</guid>
+      <pubDate>2026-04-01</pubDate>
+    </item>
+    <item>
+      <title>[Get Rows]</title>
+      <link>https://github.com/PipedreamHQ/pipedream/issues/20089</link>
+      <guid isPermaLink="true">https://github.com/PipedreamHQ/pipedream/issues/20089</guid>
+      <pubDate>2026-02-22</pubDate>
+    </item>
+    <item>
+      <title>[ACTION]</title>
+      <link>https://github.com/PipedreamHQ/pipedream/issues/19997</link>
+      <guid isPermaLink="true">https://github.com/PipedreamHQ/pipedream/issues/19997</guid>
+      <pubDate>2026-02-11</pubDate>
+    </item>
+    <item>
+      <title>Expose Fuse to be used independently</title>
+      <link>https://github.com/Choices-js/Choices/issues/1370</link>
+      <guid isPermaLink="true">https://github.com/Choices-js/Choices/issues/1370</guid>
+      <pubDate>2026-01-18</pubDate>
+    </item>
+    <item>
+      <title>Show errors in user friendly way</title>
+      <link>https://github.com/Acode-Foundation/Acode/issues/1800</link>
+      <guid isPermaLink="true">https://github.com/Acode-Foundation/Acode/issues/1800</guid>
+      <pubDate>2026-01-06</pubDate>
+    </item>
+    <item>
+      <title>GitHub 提问 (Issue) 高质量操作指南</title>
+      <link>https://github.com/justlovemaki/AIClient2API/issues/128</link>
+      <guid isPermaLink="true">https://github.com/justlovemaki/AIClient2API/issues/128</guid>
+      <pubDate>2025-12-23</pubDate>
+    </item>
+    <item>
+      <title>UI Lag when using 1Password env file</title>
+      <link>https://github.com/usebruno/bruno/issues/6057</link>
+      <guid isPermaLink="true">https://github.com/usebruno/bruno/issues/6057</guid>
+      <pubDate>2025-11-10</pubDate>
+    </item>
+    <item>
+      <title>[TextArea]: Disallow invalid &amp; warn when readonly or disabled</title>
+      <link>https://github.com/carbon-design-system/carbon/issues/20726</link>
+      <guid isPermaLink="true">https://github.com/carbon-design-system/carbon/issues/20726</guid>
+      <pubDate>2025-10-15</pubDate>
+    </item>
+    <item>
+      <title>[PasswordInput]: Disallow invalid &amp; warn when readonly or disabled</title>
+      <link>https://github.com/carbon-design-system/carbon/issues/20732</link>
+      <guid isPermaLink="true">https://github.com/carbon-design-system/carbon/issues/20732</guid>
+      <pubDate>2025-10-15</pubDate>
+    </item>
+    <item>
+      <title>[NumberInput]: Disallow invalid &amp; warn when readonly or disabled</title>
+      <link>https://github.com/carbon-design-system/carbon/issues/20729</link>
+      <guid isPermaLink="true">https://github.com/carbon-design-system/carbon/issues/20729</guid>
+      <pubDate>2025-10-15</pubDate>
+    </item>
+    <item>
+      <title>[RFC]: Add C implementation for `@stdlib/stats/base/dists/chisquare/pdf`</title>
+      <link>https://github.com/stdlib-js/stdlib/issues/3508</link>
+      <guid isPermaLink="true">https://github.com/stdlib-js/stdlib/issues/3508</guid>
+      <pubDate>2024-12-12</pubDate>
+    </item>
+    <item>
+      <title>[RFC]: Add C implementation for `@stdlib/stats/base/dists/beta/median`</title>
+      <link>https://github.com/stdlib-js/stdlib/issues/3429</link>
+      <guid isPermaLink="true">https://github.com/stdlib-js/stdlib/issues/3429</guid>
+      <pubDate>2024-12-11</pubDate>
+    </item>
+    <item>
+      <title>Irrelevant error message from `PerInstanceColorAppearance`</title>
+      <link>https://github.com/CesiumGS/cesium/issues/12107</link>
+      <guid isPermaLink="true">https://github.com/CesiumGS/cesium/issues/12107</guid>
+      <pubDate>2024-08-02</pubDate>
+    </item>
+    <item>
+      <title>Proxying should support HTTP and HTTPS at the same time</title>
+      <link>https://github.com/usebruno/bruno/issues/1985</link>
+      <guid isPermaLink="true">https://github.com/usebruno/bruno/issues/1985</guid>
+      <pubDate>2024-04-02</pubDate>
+    </item>
+    <item>
+      <title>Notifications : No notifications when Actions are added or done in a card</title>
+      <link>https://github.com/plankanban/planka/issues/625</link>
+      <guid isPermaLink="true">https://github.com/plankanban/planka/issues/625</guid>
+      <pubDate>2024-03-14</pubDate>
+    </item>
+    <item>
+      <title>clockTrackedDataSource tracks non-clock dataSources</title>
+      <link>https://github.com/CesiumGS/cesium/issues/11738</link>
+      <guid isPermaLink="true">https://github.com/CesiumGS/cesium/issues/11738</guid>
+      <pubDate>2024-01-04</pubDate>
+    </item>
+  </channel>
+</rss>

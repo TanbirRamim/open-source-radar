@@ -1,0 +1,260 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0">
+  <channel>
+    <title>C beginner issues</title>
+    <link>https://tanbirramim.github.io/open-source-radar/issues/by-language/c.md</link>
+    <description>Recently created beginner-friendly issues for C.</description>
+    <item>
+      <title>Add indicator in assembly browser how many jumps/calls the user is from a reference point.</title>
+      <link>https://github.com/rizinorg/rizin/issues/6788</link>
+      <guid isPermaLink="true">https://github.com/rizinorg/rizin/issues/6788</guid>
+      <pubDate>2026-09-23</pubDate>
+    </item>
+    <item>
+      <title>Suppress Warnings From libpng</title>
+      <link>https://github.com/php/php-src/issues/23674</link>
+      <guid isPermaLink="true">https://github.com/php/php-src/issues/23674</guid>
+      <pubDate>2026-09-12</pubDate>
+    </item>
+    <item>
+      <title>gadgets/trace_lsm: Add missing documentation Guide section</title>
+      <link>https://github.com/inspektor-gadget/inspektor-gadget/issues/5631</link>
+      <guid isPermaLink="true">https://github.com/inspektor-gadget/inspektor-gadget/issues/5631</guid>
+      <pubDate>2026-07-09</pubDate>
+    </item>
+    <item>
+      <title>gadgets/profile_cuda: Add missing documentation Guide section</title>
+      <link>https://github.com/inspektor-gadget/inspektor-gadget/issues/5630</link>
+      <guid isPermaLink="true">https://github.com/inspektor-gadget/inspektor-gadget/issues/5630</guid>
+      <pubDate>2026-07-09</pubDate>
+    </item>
+    <item>
+      <title>gadgets/trace_malloc: Add missing documentation Guide section</title>
+      <link>https://github.com/inspektor-gadget/inspektor-gadget/issues/5632</link>
+      <guid isPermaLink="true">https://github.com/inspektor-gadget/inspektor-gadget/issues/5632</guid>
+      <pubDate>2026-07-09</pubDate>
+    </item>
+    <item>
+      <title>Building libqasan for musl</title>
+      <link>https://github.com/AFLplusplus/AFLplusplus/issues/2832</link>
+      <guid isPermaLink="true">https://github.com/AFLplusplus/AFLplusplus/issues/2832</guid>
+      <pubDate>2026-06-26</pubDate>
+    </item>
+    <item>
+      <title>[YSQL] Investigate point-lookup path for fully-bound hash PK IN queries</title>
+      <link>https://github.com/yugabyte/yugabyte-db/issues/32026</link>
+      <guid isPermaLink="true">https://github.com/yugabyte/yugabyte-db/issues/32026</guid>
+      <pubDate>2026-06-04</pubDate>
+    </item>
+    <item>
+      <title>[YSQL] [Buffering] AbortSubTransaction flushes buffered operations instead of dropping them</title>
+      <link>https://github.com/yugabyte/yugabyte-db/issues/31655</link>
+      <guid isPermaLink="true">https://github.com/yugabyte/yugabyte-db/issues/31655</guid>
+      <pubDate>2026-05-15</pubDate>
+    </item>
+    <item>
+      <title>[BUG] [24.10.5] ShadoWRT有时会导致主系统卡死，无法进入web管理页面</title>
+      <link>https://github.com/istoreos/istoreos/issues/2950</link>
+      <guid isPermaLink="true">https://github.com/istoreos/istoreos/issues/2950</guid>
+      <pubDate>2026-04-22</pubDate>
+    </item>
+    <item>
+      <title>Dark Summit - can't enter cheat codes due to Start + Select combo</title>
+      <link>https://github.com/xemu-project/xemu/issues/2822</link>
+      <guid isPermaLink="true">https://github.com/xemu-project/xemu/issues/2822</guid>
+      <pubDate>2026-04-14</pubDate>
+    </item>
+    <item>
+      <title>Update Build Documentation for Windows</title>
+      <link>https://github.com/GBALATRO/balatro-gba/issues/423</link>
+      <guid isPermaLink="true">https://github.com/GBALATRO/balatro-gba/issues/423</guid>
+      <pubDate>2026-04-02</pubDate>
+    </item>
+    <item>
+      <title>[BUG] Error in acos</title>
+      <link>https://github.com/IoLanguage/io/issues/489</link>
+      <guid isPermaLink="true">https://github.com/IoLanguage/io/issues/489</guid>
+      <pubDate>2026-03-09</pubDate>
+    </item>
+    <item>
+      <title>Use lmdb for shader cache</title>
+      <link>https://github.com/xemu-project/xemu/issues/2746</link>
+      <guid isPermaLink="true">https://github.com/xemu-project/xemu/issues/2746</guid>
+      <pubDate>2026-02-17</pubDate>
+    </item>
+    <item>
+      <title>Make required file paths relative to xemu.toml file so they are portable across machines</title>
+      <link>https://github.com/xemu-project/xemu/issues/2730</link>
+      <guid isPermaLink="true">https://github.com/xemu-project/xemu/issues/2730</guid>
+      <pubDate>2026-02-08</pubDate>
+    </item>
+    <item>
+      <title>Document information about Screws used</title>
+      <link>https://github.com/RfidResearchGroup/ChameleonUltra/issues/326</link>
+      <guid isPermaLink="true">https://github.com/RfidResearchGroup/ChameleonUltra/issues/326</guid>
+      <pubDate>2025-12-19</pubDate>
+    </item>
+    <item>
+      <title>Disabling columnstore does not pause columnstore policies</title>
+      <link>https://github.com/timescale/timescaledb/issues/8960</link>
+      <guid isPermaLink="true">https://github.com/timescale/timescaledb/issues/8960</guid>
+      <pubDate>2025-11-20</pubDate>
+    </item>
+    <item>
+      <title>.opus support for Peek</title>
+      <link>https://github.com/microsoft/PowerToys/issues/42576</link>
+      <guid isPermaLink="true">https://github.com/microsoft/PowerToys/issues/42576</guid>
+      <pubDate>2025-10-18</pubDate>
+    </item>
+    <item>
+      <title>[YSQL] Indexes created on Numeric type are inconsistent</title>
+      <link>https://github.com/yugabyte/yugabyte-db/issues/28967</link>
+      <guid isPermaLink="true">https://github.com/yugabyte/yugabyte-db/issues/28967</guid>
+      <pubDate>2025-10-16</pubDate>
+    </item>
+    <item>
+      <title>Disable VK on unsupported systems</title>
+      <link>https://github.com/xemu-project/xemu/issues/2307</link>
+      <guid isPermaLink="true">https://github.com/xemu-project/xemu/issues/2307</guid>
+      <pubDate>2025-06-26</pubDate>
+    </item>
+    <item>
+      <title>SDL 3 support</title>
+      <link>https://github.com/chocolate-doom/chocolate-doom/issues/1736</link>
+      <guid isPermaLink="true">https://github.com/chocolate-doom/chocolate-doom/issues/1736</guid>
+      <pubDate>2025-04-12</pubDate>
+    </item>
+    <item>
+      <title>Failing to use close-on-exec</title>
+      <link>https://github.com/microsoft/msquic/issues/4980</link>
+      <guid isPermaLink="true">https://github.com/microsoft/msquic/issues/4980</guid>
+      <pubDate>2025-04-08</pubDate>
+    </item>
+    <item>
+      <title>Support in-memory certificate stores</title>
+      <link>https://github.com/microsoft/msquic/issues/4951</link>
+      <guid isPermaLink="true">https://github.com/microsoft/msquic/issues/4951</guid>
+      <pubDate>2025-03-27</pubDate>
+    </item>
+    <item>
+      <title>XAP: add missing opcodes</title>
+      <link>https://github.com/rizinorg/rizin/issues/4661</link>
+      <guid isPermaLink="true">https://github.com/rizinorg/rizin/issues/4661</guid>
+      <pubDate>2024-10-03</pubDate>
+    </item>
+    <item>
+      <title>gadgets: Run local tests on cri-o too</title>
+      <link>https://github.com/inspektor-gadget/inspektor-gadget/issues/3175</link>
+      <guid isPermaLink="true">https://github.com/inspektor-gadget/inspektor-gadget/issues/3175</guid>
+      <pubDate>2024-07-17</pubDate>
+    </item>
+    <item>
+      <title>asymmetric key encryption in pkcs11 module does not work</title>
+      <link>https://github.com/OpenSC/OpenSC/issues/3144</link>
+      <guid isPermaLink="true">https://github.com/OpenSC/OpenSC/issues/3144</guid>
+      <pubDate>2024-05-10</pubDate>
+    </item>
+    <item>
+      <title>学习29-sockops遇到报错“iperf3: error - unable to send control message: Permission denied</title>
+      <link>https://github.com/eunomia-bpf/bpf-developer-tutorial/issues/117</link>
+      <guid isPermaLink="true">https://github.com/eunomia-bpf/bpf-developer-tutorial/issues/117</guid>
+      <pubDate>2024-05-08</pubDate>
+    </item>
+    <item>
+      <title>When execution time of fork run is much longer than one persistent iteration, all fork execuions will timeout.</title>
+      <link>https://github.com/AFLplusplus/AFLplusplus/issues/1545</link>
+      <guid isPermaLink="true">https://github.com/AFLplusplus/AFLplusplus/issues/1545</guid>
+      <pubDate>2022-10-06</pubDate>
+    </item>
+    <item>
+      <title>Retain screen position / target screen in xemu.toml and restore when starting the program</title>
+      <link>https://github.com/xemu-project/xemu/issues/1268</link>
+      <guid isPermaLink="true">https://github.com/xemu-project/xemu/issues/1268</guid>
+      <pubDate>2022-09-26</pubDate>
+    </item>
+    <item>
+      <title>Find functions that perform temporary seek from the API and refactor to use the offset argument if possible</title>
+      <link>https://github.com/rizinorg/rizin/issues/2906</link>
+      <guid isPermaLink="true">https://github.com/rizinorg/rizin/issues/2906</guid>
+      <pubDate>2022-08-11</pubDate>
+    </item>
+    <item>
+      <title>[PT Run] [Time and Date plugin] Add friendly date/time format</title>
+      <link>https://github.com/microsoft/PowerToys/issues/16809</link>
+      <guid isPermaLink="true">https://github.com/microsoft/PowerToys/issues/16809</guid>
+      <pubDate>2022-03-05</pubDate>
+    </item>
+    <item>
+      <title>progress output with `dialog` gets stuck</title>
+      <link>https://github.com/axel-download-accelerator/axel/issues/374</link>
+      <guid isPermaLink="true">https://github.com/axel-download-accelerator/axel/issues/374</guid>
+      <pubDate>2022-02-19</pubDate>
+    </item>
+    <item>
+      <title>`rz-asm` assembly results may be not correct</title>
+      <link>https://github.com/rizinorg/rizin/issues/1834</link>
+      <guid isPermaLink="true">https://github.com/rizinorg/rizin/issues/1834</guid>
+      <pubDate>2021-10-14</pubDate>
+    </item>
+    <item>
+      <title>Benchmark Mode: Recording FPS and MSPF values and providing Averages</title>
+      <link>https://github.com/xemu-project/xemu/issues/465</link>
+      <guid isPermaLink="true">https://github.com/xemu-project/xemu/issues/465</guid>
+      <pubDate>2021-09-30</pubDate>
+    </item>
+    <item>
+      <title>CPU profiles: add the `.comment` value as rizin comment near the flag, if defined</title>
+      <link>https://github.com/rizinorg/rizin/issues/1671</link>
+      <guid isPermaLink="true">https://github.com/rizinorg/rizin/issues/1671</guid>
+      <pubDate>2021-09-13</pubDate>
+    </item>
+    <item>
+      <title>Debug persistent tracing - `-t` flag</title>
+      <link>https://github.com/rizinorg/rizin/issues/765</link>
+      <guid isPermaLink="true">https://github.com/rizinorg/rizin/issues/765</guid>
+      <pubDate>2021-03-04</pubDate>
+    </item>
+    <item>
+      <title>arc_summary to be able to show only altered tunables,spl</title>
+      <link>https://github.com/openzfs/zfs/issues/11685</link>
+      <guid isPermaLink="true">https://github.com/openzfs/zfs/issues/11685</guid>
+      <pubDate>2021-03-03</pubDate>
+    </item>
+    <item>
+      <title>Rename blacklist -&gt; blocklist, whitelist -&gt; allowlist</title>
+      <link>https://github.com/yugabyte/yugabyte-db/issues/4847</link>
+      <guid isPermaLink="true">https://github.com/yugabyte/yugabyte-db/issues/4847</guid>
+      <pubDate>2020-06-22</pubDate>
+    </item>
+    <item>
+      <title>no way to define "no option forwardfor"</title>
+      <link>https://github.com/haproxy/haproxy/issues/130</link>
+      <guid isPermaLink="true">https://github.com/haproxy/haproxy/issues/130</guid>
+      <pubDate>2019-06-20</pubDate>
+    </item>
+    <item>
+      <title>Core files not being created on SIGSEGV in ASAN/TSAN mode</title>
+      <link>https://github.com/yugabyte/yugabyte-db/issues/228</link>
+      <guid isPermaLink="true">https://github.com/yugabyte/yugabyte-db/issues/228</guid>
+      <pubDate>2018-04-23</pubDate>
+    </item>
+    <item>
+      <title>minor security issue: file descriptor leakage</title>
+      <link>https://github.com/DynamoRIO/dynamorio/issues/2884</link>
+      <guid isPermaLink="true">https://github.com/DynamoRIO/dynamorio/issues/2884</guid>
+      <pubDate>2018-03-16</pubDate>
+    </item>
+    <item>
+      <title>EXPORT/IMPORTERS</title>
+      <link>https://github.com/pawelsalawa/letos/issues/2794</link>
+      <guid isPermaLink="true">https://github.com/pawelsalawa/letos/issues/2794</guid>
+      <pubDate>2018-01-18</pubDate>
+    </item>
+    <item>
+      <title>Plugging in a joystick after the game starts.</title>
+      <link>https://github.com/chocolate-doom/chocolate-doom/issues/653</link>
+      <guid isPermaLink="true">https://github.com/chocolate-doom/chocolate-doom/issues/653</guid>
+      <pubDate>2016-01-19</pubDate>
+    </item>
+  </channel>
+</rss>

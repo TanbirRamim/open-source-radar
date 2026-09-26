@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0">
+  <channel>
+    <title>Lua beginner issues</title>
+    <link>https://tanbirramim.github.io/open-source-radar/issues/by-language/lua.md</link>
+    <description>Recently created beginner-friendly issues for Lua.</description>
+    <item>
+      <title>make it more obvious whether we are using an ACP provider</title>
+      <link>https://github.com/avante-corp/avante.nvim/issues/3257</link>
+      <guid isPermaLink="true">https://github.com/avante-corp/avante.nvim/issues/3257</guid>
+      <pubDate>2026-09-23</pubDate>
+    </item>
+    <item>
+      <title>Give reason for damage done by tnt</title>
+      <link>https://github.com/luanti-org/minetest_game/issues/3263</link>
+      <guid isPermaLink="true">https://github.com/luanti-org/minetest_game/issues/3263</guid>
+      <pubDate>2026-08-01</pubDate>
+    </item>
+    <item>
+      <title>[feature] support rockspec</title>
+      <link>https://github.com/carlos-algms/agentic.nvim/issues/264</link>
+      <guid isPermaLink="true">https://github.com/carlos-algms/agentic.nvim/issues/264</guid>
+      <pubDate>2026-06-19</pubDate>
+    </item>
+    <item>
+      <title>Add more data for India</title>
+      <link>https://github.com/public-transport/transitous/issues/2144</link>
+      <guid isPermaLink="true">https://github.com/public-transport/transitous/issues/2144</guid>
+      <pubDate>2026-05-14</pubDate>
+    </item>
+    <item>
+      <title>Locations with known existing but non-public feeds</title>
+      <link>https://github.com/public-transport/transitous/issues/585</link>
+      <guid isPermaLink="true">https://github.com/public-transport/transitous/issues/585</guid>
+      <pubDate>2024-11-03</pubDate>
+    </item>
+    <item>
+      <title>Add feeds from TUMI Datahub</title>
+      <link>https://github.com/public-transport/transitous/issues/584</link>
+      <guid isPermaLink="true">https://github.com/public-transport/transitous/issues/584</guid>
+      <pubDate>2024-11-03</pubDate>
+    </item>
+    <item>
+      <title>New ingame Setting Button that opens uikeys.txt</title>
+      <link>https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3369</link>
+      <guid isPermaLink="true">https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3369</guid>
+      <pubDate>2024-07-11</pubDate>
+    </item>
+    <item>
+      <title>Integrate Swedish realtime feeds</title>
+      <link>https://github.com/public-transport/transitous/issues/125</link>
+      <guid isPermaLink="true">https://github.com/public-transport/transitous/issues/125</guid>
+      <pubDate>2024-03-11</pubDate>
+    </item>
+    <item>
+      <title>`util.trim_string_to_width("asdf", 2)` causes maiden to crash</title>
+      <link>https://github.com/monome/norns/issues/1636</link>
+      <guid isPermaLink="true">https://github.com/monome/norns/issues/1636</guid>
+      <pubDate>2022-12-31</pubDate>
+    </item>
+    <item>
+      <title>Epic Stormbgringer can't land on air repair pad most of time</title>
+      <link>https://github.com/beyond-all-reason/Beyond-All-Reason/issues/1346</link>
+      <guid isPermaLink="true">https://github.com/beyond-all-reason/Beyond-All-Reason/issues/1346</guid>
+      <pubDate>2022-10-08</pubDate>
+    </item>
+  </channel>
+</rss>

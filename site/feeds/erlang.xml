@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0">
+  <channel>
+    <title>Erlang beginner issues</title>
+    <link>https://tanbirramim.github.io/open-source-radar/issues/by-language/erlang.md</link>
+    <description>Recently created beginner-friendly issues for Erlang.</description>
+  </channel>
+</rss>

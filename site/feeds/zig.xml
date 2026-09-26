@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0">
+  <channel>
+    <title>Zig beginner issues</title>
+    <link>https://tanbirramim.github.io/open-source-radar/issues/by-language/zig.md</link>
+    <description>Recently created beginner-friendly issues for Zig.</description>
+    <item>
+      <title>Report an error for exposing a type module's own name</title>
+      <link>https://github.com/roc-lang/roc/issues/11270</link>
+      <guid isPermaLink="true">https://github.com/roc-lang/roc/issues/11270</guid>
+      <pubDate>2026-09-10</pubDate>
+    </item>
+    <item>
+      <title>dx11: uv wrap</title>
+      <link>https://github.com/david-vanderson/dvui/issues/881</link>
+      <guid isPermaLink="true">https://github.com/david-vanderson/dvui/issues/881</guid>
+      <pubDate>2026-05-26</pubDate>
+    </item>
+    <item>
+      <title>add support for link type extensions (`&lt;link [rel]&gt;`)</title>
+      <link>https://github.com/kristoff-it/superhtml/issues/143</link>
+      <guid isPermaLink="true">https://github.com/kristoff-it/superhtml/issues/143</guid>
+      <pubDate>2026-05-06</pubDate>
+    </item>
+    <item>
+      <title>Add CI check to check repo for any dangerous characters or substrings in text</title>
+      <link>https://github.com/roc-lang/roc/issues/6963</link>
+      <guid isPermaLink="true">https://github.com/roc-lang/roc/issues/6963</guid>
+      <pubDate>2024-08-03</pubDate>
+    </item>
+    <item>
+      <title>Support all of WASI preview1 functions</title>
+      <link>https://github.com/mewz-project/mewz/issues/1</link>
+      <guid isPermaLink="true">https://github.com/mewz-project/mewz/issues/1</guid>
+      <pubDate>2023-12-29</pubDate>
+    </item>
+    <item>
+      <title>add asdf plugin to repo</title>
+      <link>https://github.com/roc-lang/roc/issues/6076</link>
+      <guid isPermaLink="true">https://github.com/roc-lang/roc/issues/6076</guid>
+      <pubDate>2023-11-24</pubDate>
+    </item>
+    <item>
+      <title>Logarithm builtins for F32, F64, Dec</title>
+      <link>https://github.com/roc-lang/roc/issues/5107</link>
+      <guid isPermaLink="true">https://github.com/roc-lang/roc/issues/5107</guid>
+      <pubDate>2023-03-08</pubDate>
+    </item>
+    <item>
+      <title>`roc init`</title>
+      <link>https://github.com/roc-lang/roc/issues/3139</link>
+      <guid isPermaLink="true">https://github.com/roc-lang/roc/issues/3139</guid>
+      <pubDate>2022-05-26</pubDate>
+    </item>
+  </channel>
+</rss>

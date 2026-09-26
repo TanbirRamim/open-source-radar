@@ -1,0 +1,290 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0">
+  <channel>
+    <title>Swift beginner issues</title>
+    <link>https://tanbirramim.github.io/open-source-radar/issues/by-language/swift.md</link>
+    <description>Recently created beginner-friendly issues for Swift.</description>
+    <item>
+      <title>Copy support info button in Settings</title>
+      <link>https://github.com/karansinghgit/speaktype/issues/161</link>
+      <guid isPermaLink="true">https://github.com/karansinghgit/speaktype/issues/161</guid>
+      <pubDate>2026-09-22</pubDate>
+    </item>
+    <item>
+      <title>Use augmentsSyntaxTokens parameter instead of reportSyntacticHighlightInSemanticTokens in initialization request</title>
+      <link>https://github.com/swiftlang/sourcekit-lsp/issues/2767</link>
+      <guid isPermaLink="true">https://github.com/swiftlang/sourcekit-lsp/issues/2767</guid>
+      <pubDate>2026-09-18</pubDate>
+    </item>
+    <item>
+      <title>test: fix flaky internal profiling API test</title>
+      <link>https://github.com/getsentry/sentry-cocoa/issues/8637</link>
+      <guid isPermaLink="true">https://github.com/getsentry/sentry-cocoa/issues/8637</guid>
+      <pubDate>2026-07-31</pubDate>
+    </item>
+    <item>
+      <title>Reduce redundancy in generated OpenAPI definition names</title>
+      <link>https://github.com/FeatherCMS/feather/issues/125</link>
+      <guid isPermaLink="true">https://github.com/FeatherCMS/feather/issues/125</guid>
+      <pubDate>2026-07-31</pubDate>
+    </item>
+    <item>
+      <title>Use vertical scrolling for series episodes on iOS</title>
+      <link>https://github.com/jellyfin/Swiftfin/issues/2145</link>
+      <guid isPermaLink="true">https://github.com/jellyfin/Swiftfin/issues/2145</guid>
+      <pubDate>2026-07-25</pubDate>
+    </item>
+    <item>
+      <title>The Favorites folder has no background image.</title>
+      <link>https://github.com/jellyfin/Swiftfin/issues/2086</link>
+      <guid isPermaLink="true">https://github.com/jellyfin/Swiftfin/issues/2086</guid>
+      <pubDate>2026-07-16</pubDate>
+    </item>
+    <item>
+      <title>Add `sentryLabel` property on UIView</title>
+      <link>https://github.com/getsentry/sentry-cocoa/issues/8103</link>
+      <guid isPermaLink="true">https://github.com/getsentry/sentry-cocoa/issues/8103</guid>
+      <pubDate>2026-06-17</pubDate>
+    </item>
+    <item>
+      <title>Add `breadcrumbIgnoredViewClasses` option on `SentryOptions`</title>
+      <link>https://github.com/getsentry/sentry-cocoa/issues/8104</link>
+      <guid isPermaLink="true">https://github.com/getsentry/sentry-cocoa/issues/8104</guid>
+      <pubDate>2026-06-17</pubDate>
+    </item>
+    <item>
+      <title>[Feature Request] 支持 CodeWhale（DeepSeek V4 终端编程智能体）</title>
+      <link>https://github.com/erha19/ping-island/issues/238</link>
+      <guid isPermaLink="true">https://github.com/erha19/ping-island/issues/238</guid>
+      <pubDate>2026-06-12</pubDate>
+    </item>
+    <item>
+      <title>[App Support]: Add NFC (Near Field Communication) support for Feishu/Lark</title>
+      <link>https://github.com/PlayCover/PlayCover/issues/2149</link>
+      <guid isPermaLink="true">https://github.com/PlayCover/PlayCover/issues/2149</guid>
+      <pubDate>2026-06-06</pubDate>
+    </item>
+    <item>
+      <title>Update size(of text:…) to return a Double</title>
+      <link>https://github.com/moreSwift/swift-cross-ui/issues/617</link>
+      <guid isPermaLink="true">https://github.com/moreSwift/swift-cross-ui/issues/617</guid>
+      <pubDate>2026-06-03</pubDate>
+    </item>
+    <item>
+      <title>后台进程在系统睡眠期间被自身 SIGKILL 终止（合盖睡眠后约一小时自动退出）</title>
+      <link>https://github.com/tisfeng/Easydict/issues/1194</link>
+      <guid isPermaLink="true">https://github.com/tisfeng/Easydict/issues/1194</guid>
+      <pubDate>2026-06-02</pubDate>
+    </item>
+    <item>
+      <title>Feature request: Add a Disable option in the Menu</title>
+      <link>https://github.com/pablopunk/SwiftShift/issues/158</link>
+      <guid isPermaLink="true">https://github.com/pablopunk/SwiftShift/issues/158</guid>
+      <pubDate>2026-05-31</pubDate>
+    </item>
+    <item>
+      <title>[FEAT] 关于项目 Icon 征集与设计建议 / Call for Project Icon Designs &amp; Ideas</title>
+      <link>https://github.com/wzh4869/AppPorts/issues/45</link>
+      <guid isPermaLink="true">https://github.com/wzh4869/AppPorts/issues/45</guid>
+      <pubDate>2026-05-29</pubDate>
+    </item>
+    <item>
+      <title>Speed up TargetedScanner by parallelizing target traversal</title>
+      <link>https://github.com/iliyami/MacSai/issues/8</link>
+      <guid isPermaLink="true">https://github.com/iliyami/MacSai/issues/8</guid>
+      <pubDate>2026-05-28</pubDate>
+    </item>
+    <item>
+      <title>Replace TODO comments in DuplicatesModule with real implementation or remove</title>
+      <link>https://github.com/iliyami/MacSai/issues/5</link>
+      <guid isPermaLink="true">https://github.com/iliyami/MacSai/issues/5</guid>
+      <pubDate>2026-05-28</pubDate>
+    </item>
+    <item>
+      <title>Change code actions to provide functionality through `SyntaxRefactoringCodeActionProvider`</title>
+      <link>https://github.com/swiftlang/sourcekit-lsp/issues/2628</link>
+      <guid isPermaLink="true">https://github.com/swiftlang/sourcekit-lsp/issues/2628</guid>
+      <pubDate>2026-04-29</pubDate>
+    </item>
+    <item>
+      <title>Allow replying to an audio message</title>
+      <link>https://github.com/element-hq/element-x-ios/issues/5485</link>
+      <guid isPermaLink="true">https://github.com/element-hq/element-x-ios/issues/5485</guid>
+      <pubDate>2026-04-24</pubDate>
+    </item>
+    <item>
+      <title>Feature - show sample rate</title>
+      <link>https://github.com/BLeeEZ/amperfy/issues/657</link>
+      <guid isPermaLink="true">https://github.com/BLeeEZ/amperfy/issues/657</guid>
+      <pubDate>2026-03-31</pubDate>
+    </item>
+    <item>
+      <title>Add Rust/Cargo target directory cleanup (project-level)</title>
+      <link>https://github.com/bysiber/cleardisk/issues/3</link>
+      <guid isPermaLink="true">https://github.com/bysiber/cleardisk/issues/3</guid>
+      <pubDate>2026-03-02</pubDate>
+    </item>
+    <item>
+      <title>Add call animation</title>
+      <link>https://github.com/Ebullioscopic/Atoll/issues/248</link>
+      <guid isPermaLink="true">https://github.com/Ebullioscopic/Atoll/issues/248</guid>
+      <pubDate>2026-01-15</pubDate>
+    </item>
+    <item>
+      <title>bug: かな入力でテンキーの入力がひらがなに化けてしまう</title>
+      <link>https://github.com/azooKey/azooKey-Desktop/issues/262</link>
+      <guid isPermaLink="true">https://github.com/azooKey/azooKey-Desktop/issues/262</guid>
+      <pubDate>2026-01-08</pubDate>
+    </item>
+    <item>
+      <title>Run with all traits in the API checker CI</title>
+      <link>https://github.com/apple/swift-configuration/issues/95</link>
+      <guid isPermaLink="true">https://github.com/apple/swift-configuration/issues/95</guid>
+      <pubDate>2025-12-06</pubDate>
+    </item>
+    <item>
+      <title>[FR]backup settings</title>
+      <link>https://github.com/ejbills/DockDoor/issues/688</link>
+      <guid isPermaLink="true">https://github.com/ejbills/DockDoor/issues/688</guid>
+      <pubDate>2025-08-08</pubDate>
+    </item>
+    <item>
+      <title>Suggestions view closes when attempting to scroll, when New Tab is set to Custom</title>
+      <link>https://github.com/mozilla-mobile/firefox-ios/issues/28385</link>
+      <guid isPermaLink="true">https://github.com/mozilla-mobile/firefox-ios/issues/28385</guid>
+      <pubDate>2025-08-01</pubDate>
+    </item>
+    <item>
+      <title>Jump back in section is hidden when opening a tab via "+" toolbar button</title>
+      <link>https://github.com/mozilla-mobile/firefox-ios/issues/27802</link>
+      <guid isPermaLink="true">https://github.com/mozilla-mobile/firefox-ios/issues/27802</guid>
+      <pubDate>2025-07-07</pubDate>
+    </item>
+    <item>
+      <title>Visiting a reading list site that has not been previously opened in reader mode never renders content</title>
+      <link>https://github.com/mozilla-mobile/firefox-ios/issues/27546</link>
+      <guid isPermaLink="true">https://github.com/mozilla-mobile/firefox-ios/issues/27546</guid>
+      <pubDate>2025-06-24</pubDate>
+    </item>
+    <item>
+      <title>HTML Tags Appear in Overview Text</title>
+      <link>https://github.com/jellyfin/Swiftfin/issues/1537</link>
+      <guid isPermaLink="true">https://github.com/jellyfin/Swiftfin/issues/1537</guid>
+      <pubDate>2025-05-14</pubDate>
+    </item>
+    <item>
+      <title>Remove special handling of `_SWIFTPM_SKIP_TESTS_LIST` environment variables</title>
+      <link>https://github.com/swiftlang/swift-package-manager/issues/8533</link>
+      <guid isPermaLink="true">https://github.com/swiftlang/swift-package-manager/issues/8533</guid>
+      <pubDate>2025-04-21</pubDate>
+    </item>
+    <item>
+      <title>[RTL] Focus iOS: Arrow in the settings is pointing in the wrong direction</title>
+      <link>https://github.com/mozilla-mobile/firefox-ios/issues/25644</link>
+      <guid isPermaLink="true">https://github.com/mozilla-mobile/firefox-ios/issues/25644</guid>
+      <pubDate>2025-03-29</pubDate>
+    </item>
+    <item>
+      <title>Fix GitRepositoryTests.testRawRepository on Windows</title>
+      <link>https://github.com/swiftlang/swift-package-manager/issues/8385</link>
+      <guid isPermaLink="true">https://github.com/swiftlang/swift-package-manager/issues/8385</guid>
+      <pubDate>2025-03-19</pubDate>
+    </item>
+    <item>
+      <title>Support documenting tuple return value elements individually</title>
+      <link>https://github.com/swiftlang/swift-docc/issues/1171</link>
+      <guid isPermaLink="true">https://github.com/swiftlang/swift-docc/issues/1171</guid>
+      <pubDate>2025-03-14</pubDate>
+    </item>
+    <item>
+      <title>Fix flaky `testFlush_WhenNoInternet_BlocksAndFinishes`</title>
+      <link>https://github.com/getsentry/sentry-cocoa/issues/4704</link>
+      <guid isPermaLink="true">https://github.com/getsentry/sentry-cocoa/issues/4704</guid>
+      <pubDate>2025-01-13</pubDate>
+    </item>
+    <item>
+      <title>Remove underbar prefix from _NIOFileSystem </title>
+      <link>https://github.com/apple/swift-nio/issues/3052</link>
+      <guid isPermaLink="true">https://github.com/apple/swift-nio/issues/3052</guid>
+      <pubDate>2025-01-13</pubDate>
+    </item>
+    <item>
+      <title>Java2Swift: Improve diagnostics when we suppress import due to a missing Java class import </title>
+      <link>https://github.com/swiftlang/swift-java/issues/112</link>
+      <guid isPermaLink="true">https://github.com/swiftlang/swift-java/issues/112</guid>
+      <pubDate>2024-10-25</pubDate>
+    </item>
+    <item>
+      <title>Backtrace: Display binary offset </title>
+      <link>https://github.com/swiftwasm/WasmKit/issues/155</link>
+      <guid isPermaLink="true">https://github.com/swiftwasm/WasmKit/issues/155</guid>
+      <pubDate>2024-10-23</pubDate>
+    </item>
+    <item>
+      <title>Java2Swift: Generalize conformances of Java collection types to Swift sequence protocols</title>
+      <link>https://github.com/swiftlang/swift-java/issues/96</link>
+      <guid isPermaLink="true">https://github.com/swiftlang/swift-java/issues/96</guid>
+      <pubDate>2024-10-20</pubDate>
+    </item>
+    <item>
+      <title>Cannot delete old token in iOS App</title>
+      <link>https://github.com/freeotp/freeotp-ios/issues/370</link>
+      <guid isPermaLink="true">https://github.com/freeotp/freeotp-ios/issues/370</guid>
+      <pubDate>2024-10-05</pubDate>
+    </item>
+    <item>
+      <title>Fix flaky `testProfilerMutationDuringSlicing`</title>
+      <link>https://github.com/getsentry/sentry-cocoa/issues/3910</link>
+      <guid isPermaLink="true">https://github.com/getsentry/sentry-cocoa/issues/3910</guid>
+      <pubDate>2024-04-26</pubDate>
+    </item>
+    <item>
+      <title>✨ ⇧⌘T keyboard shortcut to bring back closed editor tabs</title>
+      <link>https://github.com/CodeEditApp/CodeEdit/issues/1656</link>
+      <guid isPermaLink="true">https://github.com/CodeEditApp/CodeEdit/issues/1656</guid>
+      <pubDate>2024-03-31</pubDate>
+    </item>
+    <item>
+      <title>Enhance documentation</title>
+      <link>https://github.com/swiftwasm/WasmKit/issues/71</link>
+      <guid isPermaLink="true">https://github.com/swiftwasm/WasmKit/issues/71</guid>
+      <pubDate>2024-02-18</pubDate>
+    </item>
+    <item>
+      <title>Heights in feet</title>
+      <link>https://github.com/open-meteo/open-meteo/issues/78</link>
+      <guid isPermaLink="true">https://github.com/open-meteo/open-meteo/issues/78</guid>
+      <pubDate>2022-08-02</pubDate>
+    </item>
+    <item>
+      <title>[SR-13388] Add Fix-Its to "override" mismatch</title>
+      <link>https://github.com/swiftlang/swift/issues/55828</link>
+      <guid isPermaLink="true">https://github.com/swiftlang/swift/issues/55828</guid>
+      <pubDate>2020-08-13</pubDate>
+    </item>
+    <item>
+      <title>[SR-12930] Add protocol extension to "Result where Success == Void" so that we can use .success()</title>
+      <link>https://github.com/swiftlang/swift/issues/55376</link>
+      <guid isPermaLink="true">https://github.com/swiftlang/swift/issues/55376</guid>
+      <pubDate>2020-06-03</pubDate>
+    </item>
+    <item>
+      <title>Feature Request: Focus space shortcut</title>
+      <link>https://github.com/ianyh/Amethyst/issues/911</link>
+      <guid isPermaLink="true">https://github.com/ianyh/Amethyst/issues/911</guid>
+      <pubDate>2019-11-23</pubDate>
+    </item>
+    <item>
+      <title>Configurable Raise Delay With Focus-follows-mouse</title>
+      <link>https://github.com/ianyh/Amethyst/issues/638</link>
+      <guid isPermaLink="true">https://github.com/ianyh/Amethyst/issues/638</guid>
+      <pubDate>2017-08-16</pubDate>
+    </item>
+    <item>
+      <title>[SR-5362] StdlibUnittest allows redeclaration of the same-named test; ignores all but last</title>
+      <link>https://github.com/swiftlang/swift/issues/47936</link>
+      <guid isPermaLink="true">https://github.com/swiftlang/swift/issues/47936</guid>
+      <pubDate>2017-07-03</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0">
+  <channel>
+    <title>TypeScript beginner issues</title>
+    <link>https://tanbirramim.github.io/open-source-radar/issues/by-language/typescript.md</link>
+    <description>Recently created beginner-friendly issues for TypeScript.</description>
+    <item>
+      <title>Admin order page: Unfulfilled Items pairs remaining quantity with the full line total after a partial fulfillment</title>
+      <link>https://github.com/medusajs/medusa/issues/17020</link>
+      <guid isPermaLink="true">https://github.com/medusajs/medusa/issues/17020</guid>
+      <pubDate>2026-09-26</pubDate>
+    </item>
+    <item>
+      <title>Floating Promise Anti-Pattern &amp; Premature Caret in Multi-Block Paste</title>
+      <link>https://github.com/codex-team/editor.js/issues/3032</link>
+      <guid isPermaLink="true">https://github.com/codex-team/editor.js/issues/3032</guid>
+      <pubDate>2026-09-20</pubDate>
+    </item>
+    <item>
+      <title>Export menu carries 6 copy-pasted menu-item button blocks</title>
+      <link>https://github.com/THU-MAIC/OpenMAIC/issues/1141</link>
+      <guid isPermaLink="true">https://github.com/THU-MAIC/OpenMAIC/issues/1141</guid>
+      <pubDate>2026-08-18</pubDate>
+    </item>
+    <item>
+      <title>[kbn-evals] "Not applicable" counts as a pass in every LLM-judged score</title>
+      <link>https://github.com/elastic/kibana/issues/285441</link>
+      <guid isPermaLink="true">https://github.com/elastic/kibana/issues/285441</guid>
+      <pubDate>2026-08-17</pubDate>
+    </item>
+    <item>
+      <title>can i add image generation model configs for nano banana ?</title>
+      <link>https://github.com/google-gemini/gemini-cli/issues/28445</link>
+      <guid isPermaLink="true">https://github.com/google-gemini/gemini-cli/issues/28445</guid>
+      <pubDate>2026-07-19</pubDate>
+    </item>
+    <item>
+      <title>Nested `Tabs` height transitions break due to CSS variable bleed and 0-height behavior of `TabList` and `TabPanel`</title>
+      <link>https://github.com/adobe/react-spectrum/issues/10292</link>
+      <guid isPermaLink="true">https://github.com/adobe/react-spectrum/issues/10292</guid>
+      <pubDate>2026-07-02</pubDate>
+    </item>
+    <item>
+      <title>Replace raw form inputs with shared input components in the dotcom client</title>
+      <link>https://github.com/tldraw/tldraw/issues/9191</link>
+      <guid isPermaLink="true">https://github.com/tldraw/tldraw/issues/9191</guid>
+      <pubDate>2026-06-15</pubDate>
+    </item>
+    <item>
+      <title>fix(vscode-ide-companion): comma operator in activate() leaks two Disposables (gemini.diff.accept, onDidChangeWorkspaceFolders)</title>
+      <link>https://github.com/google-gemini/gemini-cli/issues/27790</link>
+      <guid isPermaLink="true">https://github.com/google-gemini/gemini-cli/issues/27790</guid>
+      <pubDate>2026-06-10</pubDate>
+    </item>
+    <item>
+      <title>[kbn-evals] CLI profile flags hide that they control scores and traces</title>
+      <link>https://github.com/elastic/kibana/issues/273015</link>
+      <guid isPermaLink="true">https://github.com/elastic/kibana/issues/273015</guid>
+      <pubDate>2026-06-08</pubDate>
+    </item>
+    <item>
+      <title>Rebuild agent-memory.dev as a technical showcase</title>
+      <link>https://github.com/rohitg00/agentmemory/issues/790</link>
+      <guid isPermaLink="true">https://github.com/rohitg00/agentmemory/issues/790</guid>
+      <pubDate>2026-06-02</pubDate>
+    </item>
+    <item>
+      <title>[Enhancement] Add "Open a Repository" option for Local backend mode</title>
+      <link>https://github.com/OpenHands/OpenHands/issues/15758</link>
+      <guid isPermaLink="true">https://github.com/OpenHands/OpenHands/issues/15758</guid>
+      <pubDate>2026-06-01</pubDate>
+    </item>
+    <item>
+      <title>[Bug]: Missing text chat when Create Automation button is clicked in modal</title>
+      <link>https://github.com/OpenHands/OpenHands/issues/15833</link>
+      <guid isPermaLink="true">https://github.com/OpenHands/OpenHands/issues/15833</guid>
+      <pubDate>2026-05-27</pubDate>
+    </item>
+    <item>
+      <title>Restore help menu in bottom-right corner and replace sidebar help menu with user menu</title>
+      <link>https://github.com/tldraw/tldraw/issues/8880</link>
+      <guid isPermaLink="true">https://github.com/tldraw/tldraw/issues/8880</guid>
+      <pubDate>2026-05-20</pubDate>
+    </item>
+    <item>
+      <title>[Feature Request]: Add lyricfind lyrics provider</title>
+      <link>https://github.com/pear-devs/pear-desktop/issues/4463</link>
+      <guid isPermaLink="true">https://github.com/pear-devs/pear-desktop/issues/4463</guid>
+      <pubDate>2026-05-18</pubDate>
+    </item>
+    <item>
+      <title>Statistics -&gt; Views popup help doesn't take account of custom count_view_after value</title>
+      <link>https://github.com/Chocobozzz/PeerTube/issues/7580</link>
+      <guid isPermaLink="true">https://github.com/Chocobozzz/PeerTube/issues/7580</guid>
+      <pubDate>2026-04-29</pubDate>
+    </item>
+    <item>
+      <title>Feature Request: Add /new command to reset session context</title>
+      <link>https://github.com/nanocoai/nanoclaw/issues/1211</link>
+      <guid isPermaLink="true">https://github.com/nanocoai/nanoclaw/issues/1211</guid>
+      <pubDate>2026-03-18</pubDate>
+    </item>
+    <item>
+      <title>Migrate UUIDv5 (SHA-1) usage in kbn-evals to FIPS 140-3 compliant alternative</title>
+      <link>https://github.com/elastic/kibana/issues/256090</link>
+      <guid isPermaLink="true">https://github.com/elastic/kibana/issues/256090</guid>
+      <pubDate>2026-03-04</pubDate>
+    </item>
+    <item>
+      <title>[Feature]: 建议添加webhook功能</title>
+      <link>https://github.com/agentscope-ai/QwenPaw/issues/338</link>
+      <guid isPermaLink="true">https://github.com/agentscope-ai/QwenPaw/issues/338</guid>
+      <pubDate>2026-03-02</pubDate>
+    </item>
+    <item>
+      <title>Camera Component for mobile devices</title>
+      <link>https://github.com/Budibase/budibase/issues/17780</link>
+      <guid isPermaLink="true">https://github.com/Budibase/budibase/issues/17780</guid>
+      <pubDate>2026-01-16</pubDate>
+    </item>
+    <item>
+      <title>Expand text input field on mobile</title>
+      <link>https://github.com/karakeep-app/karakeep/issues/2364</link>
+      <guid isPermaLink="true">https://github.com/karakeep-app/karakeep/issues/2364</guid>
+      <pubDate>2026-01-09</pubDate>
+    </item>
+    <item>
+      <title>[Feature] Scaling at 125%</title>
+      <link>https://github.com/winboat-org/winboat/issues/341</link>
+      <guid isPermaLink="true">https://github.com/winboat-org/winboat/issues/341</guid>
+      <pubDate>2025-10-14</pubDate>
+    </item>
+    <item>
+      <title>Remove "Co-authored by: Happy" in git commit message</title>
+      <link>https://github.com/slopus/happy/issues/165</link>
+      <guid isPermaLink="true">https://github.com/slopus/happy/issues/165</guid>
+      <pubDate>2025-10-07</pubDate>
+    </item>
+    <item>
+      <title>[Feature] Add a shared folder that is not only limited to /home/$USER</title>
+      <link>https://github.com/winboat-org/winboat/issues/178</link>
+      <guid isPermaLink="true">https://github.com/winboat-org/winboat/issues/178</guid>
+      <pubDate>2025-09-25</pubDate>
+    </item>
+    <item>
+      <title>Ability to search similar images "from" partner assets</title>
+      <link>https://github.com/immich-app/immich/issues/21855</link>
+      <guid isPermaLink="true">https://github.com/immich-app/immich/issues/21855</guid>
+      <pubDate>2025-09-12</pubDate>
+    </item>
+    <item>
+      <title>[Documentation] Docs for VInput, VField, and custom inputs in general are very lacking</title>
+      <link>https://github.com/vuetifyjs/vuetify/issues/22036</link>
+      <guid isPermaLink="true">https://github.com/vuetifyjs/vuetify/issues/22036</guid>
+      <pubDate>2025-09-09</pubDate>
+    </item>
+    <item>
+      <title>Mobile Button Layout Option for Full-Width Stretch</title>
+      <link>https://github.com/Budibase/budibase/issues/16888</link>
+      <guid isPermaLink="true">https://github.com/Budibase/budibase/issues/16888</guid>
+      <pubDate>2025-09-03</pubDate>
+    </item>
+    <item>
+      <title>Feature Request: Option to make laser drawings persistent (like iPad laser)</title>
+      <link>https://github.com/excalidraw/excalidraw/issues/9884</link>
+      <guid isPermaLink="true">https://github.com/excalidraw/excalidraw/issues/9884</guid>
+      <pubDate>2025-08-18</pubDate>
+    </item>
+    <item>
+      <title>Implement Jotai atoms for global state management</title>
+      <link>https://github.com/kriasoft/react-starter-kit/issues/2093</link>
+      <guid isPermaLink="true">https://github.com/kriasoft/react-starter-kit/issues/2093</guid>
+      <pubDate>2025-08-06</pubDate>
+    </item>
+    <item>
+      <title>[Bug]: All Accounts totals do not match when a closed account has a balance</title>
+      <link>https://github.com/actualbudget/actual/issues/5413</link>
+      <guid isPermaLink="true">https://github.com/actualbudget/actual/issues/5413</guid>
+      <pubDate>2025-07-28</pubDate>
+    </item>
+    <item>
+      <title>[Documentation]: How do you get the content from the Editor?</title>
+      <link>https://github.com/ueberdosis/tiptap/issues/6689</link>
+      <guid isPermaLink="true">https://github.com/ueberdosis/tiptap/issues/6689</guid>
+      <pubDate>2025-07-20</pubDate>
+    </item>
+    <item>
+      <title>"Editor" is imported from external module "@tiptap/core" but never used warning</title>
+      <link>https://github.com/ueberdosis/tiptap/issues/6621</link>
+      <guid isPermaLink="true">https://github.com/ueberdosis/tiptap/issues/6621</guid>
+      <pubDate>2025-07-13</pubDate>
+    </item>
+    <item>
+      <title>[Security Solution][Bug] Count not displayed with the titles of rule gaps histogram</title>
+      <link>https://github.com/elastic/kibana/issues/224409</link>
+      <guid isPermaLink="true">https://github.com/elastic/kibana/issues/224409</guid>
+      <pubDate>2025-06-18</pubDate>
+    </item>
+    <item>
+      <title>[Dev Tools] Small design issues in high contrast mode</title>
+      <link>https://github.com/elastic/kibana/issues/217547</link>
+      <guid isPermaLink="true">https://github.com/elastic/kibana/issues/217547</guid>
+      <pubDate>2025-04-08</pubDate>
+    </item>
+    <item>
+      <title>[Feature]: browser navigate support user actions</title>
+      <link>https://github.com/bytedance/UI-TARS-desktop/issues/393</link>
+      <guid isPermaLink="true">https://github.com/bytedance/UI-TARS-desktop/issues/393</guid>
+      <pubDate>2025-03-27</pubDate>
+    </item>
+    <item>
+      <title>[Security Solution] Empty Alert Table Lines Displayed in Rule Preview When No Alerts Are Found</title>
+      <link>https://github.com/elastic/kibana/issues/211820</link>
+      <guid isPermaLink="true">https://github.com/elastic/kibana/issues/211820</guid>
+      <pubDate>2025-02-19</pubDate>
+    </item>
+    <item>
+      <title>[Security Solution] Redundant Warning Messages in Rule Preview When Exceeding Alert Limit</title>
+      <link>https://github.com/elastic/kibana/issues/211821</link>
+      <guid isPermaLink="true">https://github.com/elastic/kibana/issues/211821</guid>
+      <pubDate>2025-02-19</pubDate>
+    </item>
+    <item>
+      <title>Enhancement Suggestion: Qwen2.5-VL Support in vLLM 0.7.2</title>
+      <link>https://github.com/bytedance/UI-TARS-desktop/issues/86</link>
+      <guid isPermaLink="true">https://github.com/bytedance/UI-TARS-desktop/issues/86</guid>
+      <pubDate>2025-02-08</pubDate>
+    </item>
+    <item>
+      <title>Alerting: Improve state history</title>
+      <link>https://github.com/grafana/grafana/issues/100059</link>
+      <guid isPermaLink="true">https://github.com/grafana/grafana/issues/100059</guid>
+      <pubDate>2025-02-04</pubDate>
+    </item>
+    <item>
+      <title>German characters in html notation will not correctly converted</title>
+      <link>https://github.com/karakeep-app/karakeep/issues/728</link>
+      <guid isPermaLink="true">https://github.com/karakeep-app/karakeep/issues/728</guid>
+      <pubDate>2024-12-11</pubDate>
+    </item>
+    <item>
+      <title>[Bug]: Microsoft Pinyin Input Method Fails to Complete Input After Enabling the CharacterCount Plugin</title>
+      <link>https://github.com/ueberdosis/tiptap/issues/5878</link>
+      <guid isPermaLink="true">https://github.com/ueberdosis/tiptap/issues/5878</guid>
+      <pubDate>2024-11-27</pubDate>
+    </item>
+    <item>
+      <title>[Management] Number fields accept invalid input</title>
+      <link>https://github.com/elastic/kibana/issues/197506</link>
+      <guid isPermaLink="true">https://github.com/elastic/kibana/issues/197506</guid>
+      <pubDate>2024-10-23</pubDate>
+    </item>
+    <item>
+      <title>[Bug]: Notifications overlapping</title>
+      <link>https://github.com/actualbudget/actual/issues/3536</link>
+      <guid isPermaLink="true">https://github.com/actualbudget/actual/issues/3536</guid>
+      <pubDate>2024-10-01</pubDate>
+    </item>
+    <item>
+      <title>harmonise links to documentation in CSP integration for all cloud providers</title>
+      <link>https://github.com/elastic/kibana/issues/192971</link>
+      <guid isPermaLink="true">https://github.com/elastic/kibana/issues/192971</guid>
+      <pubDate>2024-09-16</pubDate>
+    </item>
+    <item>
+      <title>[Bug]: Can't click off to close filter menu with select open</title>
+      <link>https://github.com/actualbudget/actual/issues/3051</link>
+      <guid isPermaLink="true">https://github.com/actualbudget/actual/issues/3051</guid>
+      <pubDate>2024-07-13</pubDate>
+    </item>
+    <item>
+      <title>Is there a Nuxt3 equivalent for nuxt2's nuxt.renderRoute()?</title>
+      <link>https://github.com/nuxt/nuxt/issues/26378</link>
+      <guid isPermaLink="true">https://github.com/nuxt/nuxt/issues/26378</guid>
+      <pubDate>2024-03-19</pubDate>
+    </item>
+    <item>
+      <title>[Documentation]:  Update Nuxt example for 3 version</title>
+      <link>https://github.com/ueberdosis/tiptap/issues/4965</link>
+      <guid isPermaLink="true">https://github.com/ueberdosis/tiptap/issues/4965</guid>
+      <pubDate>2024-03-11</pubDate>
+    </item>
+    <item>
+      <title>[Documentation]: NodePos method name setAttribute is misspelled as setAttributes</title>
+      <link>https://github.com/ueberdosis/tiptap/issues/4956</link>
+      <guid isPermaLink="true">https://github.com/ueberdosis/tiptap/issues/4956</guid>
+      <pubDate>2024-03-08</pubDate>
+    </item>
+    <item>
+      <title>[Documentation]: example for extending existing mark</title>
+      <link>https://github.com/ueberdosis/tiptap/issues/4674</link>
+      <guid isPermaLink="true">https://github.com/ueberdosis/tiptap/issues/4674</guid>
+      <pubDate>2023-12-07</pubDate>
+    </item>
+    <item>
+      <title>[Feature Request]: Option for reseting/setting default plugins/views etc.</title>
+      <link>https://github.com/pear-devs/pear-desktop/issues/1370</link>
+      <guid isPermaLink="true">https://github.com/pear-devs/pear-desktop/issues/1370</guid>
+      <pubDate>2023-11-07</pubDate>
+    </item>
+    <item>
+      <title>configure bundle-size github action to track install size of a minimal nuxt project</title>
+      <link>https://github.com/nuxt/nuxt/issues/23487</link>
+      <guid isPermaLink="true">https://github.com/nuxt/nuxt/issues/23487</guid>
+      <pubDate>2023-10-01</pubDate>
+    </item>
+  </channel>
+</rss>

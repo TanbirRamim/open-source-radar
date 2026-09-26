@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0">
+  <channel>
+    <title>Scala beginner issues</title>
+    <link>https://tanbirramim.github.io/open-source-radar/issues/by-language/scala.md</link>
+    <description>Recently created beginner-friendly issues for Scala.</description>
+    <item>
+      <title>[EPIC] Replace hand-rolled native code with existing arrow-rs kernels</title>
+      <link>https://github.com/apache/datafusion-comet/issues/5104</link>
+      <guid isPermaLink="true">https://github.com/apache/datafusion-comet/issues/5104</guid>
+      <pubDate>2026-07-28</pubDate>
+    </item>
+    <item>
+      <title>OrganizeImports: regex alternation (|) in groups config doesn't match imports correctly</title>
+      <link>https://github.com/scalacenter/scalafix/issues/2477</link>
+      <guid isPermaLink="true">https://github.com/scalacenter/scalafix/issues/2477</guid>
+      <pubDate>2026-07-14</pubDate>
+    </item>
+    <item>
+      <title>ScalaSQL support</title>
+      <link>https://github.com/Iltotore/iron/issues/375</link>
+      <guid isPermaLink="true">https://github.com/Iltotore/iron/issues/375</guid>
+      <pubDate>2026-07-03</pubDate>
+    </item>
+    <item>
+      <title>Cask support</title>
+      <link>https://github.com/Iltotore/iron/issues/374</link>
+      <guid isPermaLink="true">https://github.com/Iltotore/iron/issues/374</guid>
+      <pubDate>2026-07-02</pubDate>
+    </item>
+    <item>
+      <title>[feature]: Make methods like `Kyo.collectAll` available in objects like `Sync`</title>
+      <link>https://github.com/getkyo/kyo/issues/1640</link>
+      <guid isPermaLink="true">https://github.com/getkyo/kyo/issues/1640</guid>
+      <pubDate>2026-05-26</pubDate>
+    </item>
+    <item>
+      <title>:memo: Publish kyuubi-spark-authz Spark 4.0 binary to Maven Central</title>
+      <link>https://github.com/apache/kyuubi/issues/7449</link>
+      <guid isPermaLink="true">https://github.com/apache/kyuubi/issues/7449</guid>
+      <pubDate>2026-05-14</pubDate>
+    </item>
+    <item>
+      <title>Converge on a single nomenclature for fiber blocking in docs</title>
+      <link>https://github.com/typelevel/cats-effect/issues/4597</link>
+      <guid isPermaLink="true">https://github.com/typelevel/cats-effect/issues/4597</guid>
+      <pubDate>2026-05-05</pubDate>
+    </item>
+    <item>
+      <title>[FEATURE] Extract kyuubiClientPrincipal/kyuubiClientKeytab from JDBC connection properties</title>
+      <link>https://github.com/apache/kyuubi/issues/6689</link>
+      <guid isPermaLink="true">https://github.com/apache/kyuubi/issues/6689</guid>
+      <pubDate>2024-09-12</pubDate>
+    </item>
+    <item>
+      <title>[BUG] rounding doubles floats can result in -0.0 result</title>
+      <link>https://github.com/NVIDIA/cudf-spark/issues/9349</link>
+      <guid isPermaLink="true">https://github.com/NVIDIA/cudf-spark/issues/9349</guid>
+      <pubDate>2023-09-29</pubDate>
+    </item>
+    <item>
+      <title>Board editor: possibly disable 960 Castling in standard</title>
+      <link>https://github.com/lichess-org/lila/issues/12926</link>
+      <guid isPermaLink="true">https://github.com/lichess-org/lila/issues/12926</guid>
+      <pubDate>2023-05-29</pubDate>
+    </item>
+    <item>
+      <title>Clean constructor parameters for `Indexer` and `ScalaCli`</title>
+      <link>https://github.com/scalameta/metals/issues/4788</link>
+      <guid isPermaLink="true">https://github.com/scalameta/metals/issues/4788</guid>
+      <pubDate>2023-01-01</pubDate>
+    </item>
+    <item>
+      <title>Introduce a rewriting optimization for `tup \in S \X T`</title>
+      <link>https://github.com/apalache-mc/apalache/issues/1931</link>
+      <guid isPermaLink="true">https://github.com/apalache-mc/apalache/issues/1931</guid>
+      <pubDate>2022-07-06</pubDate>
+    </item>
+    <item>
+      <title>[FEATURE] Detect uninitialized `CONSTANT`s in the `ConfigurationPass`</title>
+      <link>https://github.com/apalache-mc/apalache/issues/1274</link>
+      <guid isPermaLink="true">https://github.com/apalache-mc/apalache/issues/1274</guid>
+      <pubDate>2022-02-01</pubDate>
+    </item>
+    <item>
+      <title>Add chicken-bit support to BOOM</title>
+      <link>https://github.com/riscv-boom/riscv-boom/issues/36</link>
+      <guid isPermaLink="true">https://github.com/riscv-boom/riscv-boom/issues/36</guid>
+      <pubDate>2017-10-20</pubDate>
+    </item>
+  </channel>
+</rss>
