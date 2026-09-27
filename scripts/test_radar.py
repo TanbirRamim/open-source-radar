@@ -254,17 +254,22 @@ class RenderSmokeTests(unittest.TestCase):
                             "owner/repo": {
                                 "url": "https://github.com/owner/repo",
                                 "description": "A tiny fixture",
-                                "stars": 10, "open_count": 1, "language": "Python",
+                                "stars": 10,
+                                "open_count": 1,
+                                "language": "Python",
                                 "buckets": ["ai"],
                                 "policy": {},
                             }
                         },
                         "issues": [
                             {
-                                "repo": "owner/repo", "level": "beginner",
+                                "repo": "owner/repo",
+                                "level": "beginner",
                                 "title": "Fix the fixture",
                                 "url": "https://github.com/owner/repo/issues/1",
-                                "comments": 0, "created": "2026-09-27", "updated": "2026-09-27",
+                                "comments": 0,
+                                "created": "2026-09-27",
+                                "updated": "2026-09-27",
                             }
                         ],
                     }
@@ -273,8 +278,11 @@ class RenderSmokeTests(unittest.TestCase):
             )
             original_paths = (radar.ROOT, radar.ISSUES_PATH, radar.SITE_DATA_PATH)
             radar.ROOT, radar.ISSUES_PATH, radar.SITE_DATA_PATH = root, issues_path, site_data_path
-            config = {"issues": {"max_per_page": 10}, "languages": {"Python": "python"},
-                      "topics": {"ai": {"title": "AI", "keywords": ["ai"]}}}
+            config = {
+                "issues": {"max_per_page": 10},
+                "languages": {"Python": "python"},
+                "topics": {"ai": {"title": "AI", "keywords": ["ai"]}},
+            }
 
             try:
                 radar.render(config)
@@ -284,6 +292,9 @@ class RenderSmokeTests(unittest.TestCase):
             self.assertTrue((root / "issues" / "by-language" / "python.md").exists())
             self.assertTrue((root / "projects" / "README.md").exists())
             self.assertTrue((root / "site" / "feeds" / "python.xml").exists())
+            self.assertTrue((root / "issues" / "by-topic" / "ai.md").exists())
+            site_data = json.loads(site_data_path.read_text(encoding="utf-8"))
+            self.assertEqual([issue["title"] for issue in site_data["issues"]], ["Fix the fixture"])
 
 
 class LanguageFeedTests(unittest.TestCase):
