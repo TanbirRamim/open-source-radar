@@ -231,6 +231,13 @@ class QueryTests(unittest.TestCase):
         self.assertNotIn("p0:", radar.build_repo_query(["a/b"], ["x"], 5, include_policy=False))
 
 
+class PageHeaderTests(unittest.TestCase):
+    def test_extra_line_goes_under_the_subtitle(self):
+        header = radar.page_header("Go issues", "Subtitle.", "2026-09-27T11:00:00+00:00", "[RSS feed](x.xml)")
+        self.assertIn("Subtitle.\n\n[RSS feed](x.xml)\n\n> Updated", header)
+        self.assertNotIn("\n\n\n", radar.page_header("Go issues", "Subtitle.", "2026-09-27T11:00:00+00:00"))
+
+
 class LanguageFeedTests(unittest.TestCase):
     def test_render_language_feeds(self):
         with tempfile.TemporaryDirectory() as tmp:

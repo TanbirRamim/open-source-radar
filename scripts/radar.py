@@ -570,11 +570,12 @@ def issue_table(issues: list[dict[str, Any]], repositories: dict[str, Any], limi
     return "\n".join(lines)
 
 
-def page_header(title: str, subtitle: str, generated_at: str) -> str:
+def page_header(title: str, subtitle: str, generated_at: str, extra: str = "") -> str:
     return (
         f"# {title}\n\n"
         f"{subtitle}\n\n"
-        f"> Updated automatically on **{generated_at[:16].replace('T', ' ')} UTC**. "
+        + (f"{extra}\n\n" if extra else "")
+        + f"> Updated automatically on **{generated_at[:16].replace('T', ' ')} UTC**. "
         "Every issue listed here was open, unassigned and without an open or merged pull request when it was "
         "collected. Always read the issue and the project's contributing guide before you start.\n>\n"
         "> Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). "
@@ -622,9 +623,9 @@ def render_language_feeds(
         )
         channel = ET.SubElement(rss, "channel")
         ET.SubElement(channel, "title").text = f"{language} beginner issues"
-        ET.SubElement(channel, "link").text = (
-            f"https://github.com/TanbirRamim/open-source-radar/blob/main/issues/by-language/{slug}.md"
-        )
+        ET.SubElement(
+            channel, "link"
+        ).text = f"https://github.com/TanbirRamim/open-source-radar/blob/main/issues/by-language/{slug}.md"
         ET.SubElement(channel, "description").text = f"Recently created beginner-friendly issues for {language}."
 
         for issue in beginner_issues[:50]:
