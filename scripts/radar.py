@@ -603,12 +603,19 @@ def render_language_feeds(
         '  <meta name="viewport" content="width=device-width, initial-scale=1">',
         '  <link rel="stylesheet" href="../assets/style.css">',
         "  <title>RSS feeds</title>",
+        # Apply the light/dark choice saved by the main site, like site/index.html does.
+        "  <script>",
+        '    try { const t = localStorage.getItem("radar-theme"); '
+        "if (t) document.documentElement.dataset.theme = t; } catch (e) {}",
+        "  </script>",
         "</head>",
         "<body>",
         '  <main class="wrap">',
         '    <section class="hero">',
         "      <h1>Beginner issue RSS feeds</h1>",
-        '      <p class="lede">Subscribe to language-specific RSS feeds to discover new beginner-friendly open source issues. Copy a feed link into your RSS or feed reader to subscribe.</p>',
+        '      <p class="lede">Subscribe to language-specific RSS feeds to discover new '
+        "beginner-friendly open source issues. Copy a feed link into your RSS or feed reader "
+        "to subscribe.</p>",
         "      <ul>",
     ]
 
@@ -663,7 +670,7 @@ def render_language_feeds(
     feed_index.extend(
         [
             "      </ul>",
-            '    </section>',
+            "    </section>",
             '    <p><a href="../">← Back to Open Source Radar</a></p>',
             "  </main>",
             "</body>",

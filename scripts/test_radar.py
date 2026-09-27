@@ -370,6 +370,7 @@ class LanguageFeedTests(unittest.TestCase):
                     '<link rel="stylesheet" href="../assets/style.css">',
                     index_html,
                 )
+                self.assertIn('localStorage.getItem("radar-theme")', index_html)
 
                 for language, slug in {
                     "Python": "python",
