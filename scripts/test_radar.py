@@ -1,14 +1,14 @@
 """Unit tests for the pure parts of the radar pipeline: python -m unittest discover scripts"""
 
 import datetime as dt
-from pathlib import Path
 import tempfile
 import unittest
+import xml.etree.ElementTree as ET
+from pathlib import Path
 from typing import ClassVar
 
 import radar
-import tempfile
-import xml.etree.ElementTree as ET
+
 
 def issue(**overrides):
     base = {
@@ -196,7 +196,7 @@ class ProjectsPageTests(unittest.TestCase):
             radar.ROOT = pathlib.Path(tmp)
             try:
                 radar.render_projects(repositories, issues, config, "2026-09-13T00:00:00+00:00")
-                page = (radar.ROOT / "projects" / "README.md").read_text()
+                page = (radar.ROOT / "projects" / "README.md").read_text(encoding="utf-8")
             finally:
                 radar.ROOT = original
         self.assertIn("## Rust", page)
@@ -230,9 +230,6 @@ class QueryTests(unittest.TestCase):
         self.assertIn('expression: "HEAD:AGENTS.md"', query)
         self.assertNotIn("p0:", radar.build_repo_query(["a/b"], ["x"], 5, include_policy=False))
 
-
-if __name__ == "__main__":
-    unittest.main()
 
 class LanguageFeedTests(unittest.TestCase):
     def test_render_language_feeds(self):
@@ -272,5 +269,13 @@ class LanguageFeedTests(unittest.TestCase):
                     items[0].findtext("guid"),
                     "https://github.com/owner/repo/issues/1",
                 )
+                self.assertEqual(
+                    items[0].findtext("pubDate"),
+                    "Sun, 20 Sep 2026 00:00:00 +0000",
+                )
             finally:
                 radar.ROOT = original_root
+
+
+if __name__ == "__main__":
+    unittest.main()

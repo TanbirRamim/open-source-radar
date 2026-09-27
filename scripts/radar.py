@@ -27,9 +27,10 @@ import tomllib
 import urllib.error
 import urllib.parse
 import urllib.request
-from collections.abc import Iterable
-from pathlib import Path
 import xml.etree.ElementTree as ET
+from collections.abc import Iterable
+from email.utils import format_datetime
+from pathlib import Path
 from typing import Any
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -593,7 +594,7 @@ def render_language_feeds(
     feeds_dir.mkdir(parents=True, exist_ok=True)
     feed_index = [
         "<!doctype html>",
-        "<html lang=\"en\">",
+        '<html lang="en">',
         "<head>",
         '  <meta charset="utf-8">',
         "  <title>RSS feeds</title>",
@@ -607,14 +608,11 @@ def render_language_feeds(
         beginner_issues = [
             issue
             for issue in issues
-            if issue["level"] == "beginner"
-            and repositories[issue["repo"]]["language"] == language
+            if issue["level"] == "beginner" and repositories[issue["repo"]]["language"] == language
         ]
         beginner_issues.sort(key=lambda issue: issue["created"], reverse=True)
 
-        feed_index.append(
-            f'    <li><a href="{slug}.xml">{language}</a></li>'
-        )
+        feed_index.append(f'    <li><a href="{slug}.xml">{language}</a></li>')
 
         rss = ET.Element(
             "rss",
@@ -625,19 +623,17 @@ def render_language_feeds(
         channel = ET.SubElement(rss, "channel")
         ET.SubElement(channel, "title").text = f"{language} beginner issues"
         ET.SubElement(channel, "link").text = (
-            f"https://tanbirramim.github.io/open-source-radar/"
-            f"issues/by-language/{slug}.md"
+            f"https://github.com/TanbirRamim/open-source-radar/blob/main/issues/by-language/{slug}.md"
         )
-        ET.SubElement(channel, "description").text = (
-            f"Recently created beginner-friendly issues for {language}."
-        )
+        ET.SubElement(channel, "description").text = f"Recently created beginner-friendly issues for {language}."
 
         for issue in beginner_issues[:50]:
             item = ET.SubElement(channel, "item")
             ET.SubElement(item, "title").text = issue["title"]
             ET.SubElement(item, "link").text = issue["url"]
             ET.SubElement(item, "guid", {"isPermaLink": "true"}).text = issue["url"]
-            ET.SubElement(item, "pubDate").text = issue["created"]
+            created = dt.datetime.fromisoformat(issue["created"]).replace(tzinfo=dt.UTC)
+            ET.SubElement(item, "pubDate").text = format_datetime(created)
 
         tree = ET.ElementTree(rss)
         ET.indent(tree, space="  ")
@@ -658,6 +654,7 @@ def render_language_feeds(
         "\n".join(feed_index) + "\n",
         encoding="utf-8",
     )
+
 
 def render(config: dict[str, Any]) -> None:
     payload = read_json(ISSUES_PATH, None)
@@ -685,12 +682,13 @@ def render(config: dict[str, Any]) -> None:
             continue
         repo_count = len({issue["repo"] for issue in subset})
         beginner = sum(1 for issue in subset if issue["level"] == "beginner")
-        feed_link = f"[RSS feed](../../site/feeds/{slug}.xml)"
+        feed_link = f"[RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/{slug}.xml)"
         body = page_header(
             f"{language} issues",
             f"**{len(subset)}** open issues ({beginner} labeled for beginners) across **{repo_count}** "
             f"active {language} projects.",
             generated_at,
+            feed_link,
         ) + issue_table(subset, repositories, limit)
         if len(subset) > limit:
             body += f"\n\nShowing the {limit} most recently updated. See all {len(subset)} on the website."

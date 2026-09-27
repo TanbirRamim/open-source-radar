@@ -5,3 +5,4 @@ __pycache__/
 .DS_Store
 # Built from data/issues.json at deploy time
 site/data/
+site/feeds/
