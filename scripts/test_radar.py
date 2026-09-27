@@ -268,6 +268,16 @@ class LanguageFeedTests(unittest.TestCase):
                 self.assertTrue(feed.exists())
 
                 root = ET.parse(feed).getroot()
+                atom_link = root.find(f"./channel/{{{radar.ATOM_NAMESPACE}}}link")
+                self.assertIsNotNone(atom_link)
+                self.assertEqual(
+                    atom_link.attrib,
+                    {
+                        "href": "https://tanbirramim.github.io/open-source-radar/feeds/python.xml",
+                        "rel": "self",
+                        "type": "application/rss+xml",
+                    },
+                )
                 items = root.findall("./channel/item")
 
                 self.assertEqual(len(items), 1)

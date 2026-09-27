@@ -41,6 +41,7 @@ POLICY_PATH = DATA_DIR / "policies.json"
 ISSUES_PATH = DATA_DIR / "issues.json"
 SITE_DATA_PATH = ROOT / "site" / "data" / "issues.json"
 API = "https://api.github.com"
+ATOM_NAMESPACE = "http://www.w3.org/2005/Atom"
 USER_AGENT = "open-source-radar (+https://github.com/TanbirRamim/open-source-radar)"
 
 # Files that describe how a project accepts contributions, in lookup order.
@@ -591,6 +592,7 @@ def render_language_feeds(
     repositories: dict[str, Any],
     issues: list[dict[str, Any]],
 ) -> None:
+    ET.register_namespace("atom", ATOM_NAMESPACE)
     feeds_dir = ROOT / "site" / "feeds"
     feeds_dir.mkdir(parents=True, exist_ok=True)
     feed_index = [
@@ -623,6 +625,15 @@ def render_language_feeds(
         )
         channel = ET.SubElement(rss, "channel")
         ET.SubElement(channel, "title").text = f"{language} beginner issues"
+        ET.SubElement(
+            channel,
+            f"{{{ATOM_NAMESPACE}}}link",
+            {
+                "href": f"https://tanbirramim.github.io/open-source-radar/feeds/{slug}.xml",
+                "rel": "self",
+                "type": "application/rss+xml",
+            },
+        )
         ET.SubElement(
             channel, "link"
         ).text = f"https://github.com/TanbirRamim/open-source-radar/blob/main/issues/by-language/{slug}.md"
