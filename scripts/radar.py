@@ -591,6 +591,7 @@ def render_language_feeds(
     repositories: dict[str, Any],
     issues: list[dict[str, Any]],
 ) -> None:
+    ET.register_namespace("atom", "http://www.w3.org/2005/Atom")
     feeds_dir = ROOT / "site" / "feeds"
     feeds_dir.mkdir(parents=True, exist_ok=True)
     feed_index = [
@@ -627,6 +628,15 @@ def render_language_feeds(
             channel, "link"
         ).text = f"https://github.com/TanbirRamim/open-source-radar/blob/main/issues/by-language/{slug}.md"
         ET.SubElement(channel, "description").text = f"Recently created beginner-friendly issues for {language}."
+        ET.SubElement(
+            channel,
+            "{http://www.w3.org/2005/Atom}link",
+            {
+                "href": f"https://tanbirramim.github.io/open-source-radar/feeds/{slug}.xml",
+                "rel": "self",
+                "type": "application/rss+xml",
+            },
+        )
 
         for issue in beginner_issues[:50]:
             item = ET.SubElement(channel, "item")

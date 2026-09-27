@@ -280,6 +280,18 @@ class LanguageFeedTests(unittest.TestCase):
                     items[0].findtext("pubDate"),
                     "Sun, 20 Sep 2026 00:00:00 +0000",
                 )
+                self_link = root.find(
+                    "./channel/{http://www.w3.org/2005/Atom}link"
+                )
+                self.assertIsNotNone(self_link)
+                self.assertEqual(
+                    self_link.attrib,
+                    {
+                        "href": "https://tanbirramim.github.io/open-source-radar/feeds/python.xml",
+                        "rel": "self",
+                        "type": "application/rss+xml",
+                    },
+                )
             finally:
                 radar.ROOT = original_root
 
