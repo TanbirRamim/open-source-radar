@@ -306,6 +306,7 @@ class LanguageFeedTests(unittest.TestCase):
             try:
                 repositories = {
                     "owner/repo": {"language": "Python"},
+                    "owner/js-repo": {"language": "JavaScript"},
                 }
                 issues = [
                     {
@@ -315,10 +316,20 @@ class LanguageFeedTests(unittest.TestCase):
                         "url": "https://github.com/owner/repo/issues/1",
                         "created": "2026-09-20",
                     },
+                    {
+                        "repo": "owner/js-repo",
+                        "level": "beginner",
+                        "title": "JavaScript issue",
+                        "url": "https://github.com/owner/js-repo/issues/1",
+                        "created": "2026-09-21",
+                    },
                 ]
 
                 radar.render_language_feeds(
-                    {"Python": "python"},
+                    {
+                        "Python": "python",
+                        "JavaScript": "javascript",
+                    },
                     repositories,
                     issues,
                 )
@@ -349,6 +360,26 @@ class LanguageFeedTests(unittest.TestCase):
                     items[0].findtext("pubDate"),
                     "Sun, 20 Sep 2026 00:00:00 +0000",
                 )
+
+                index = Path(tmp) / "site" / "feeds" / "index.html"
+                self.assertTrue(index.exists())
+
+                index_html = index.read_text(encoding="utf-8")
+
+                self.assertIn(
+                    '<link rel="stylesheet" href="../assets/style.css">',
+                    index_html,
+                )
+
+                for language, slug in {
+                    "Python": "python",
+                    "JavaScript": "javascript",
+                }.items():
+                    self.assertIn(
+                        f'<li><a href="{slug}.xml">{language}</a></li>',
+                        index_html,
+                    )
+
             finally:
                 radar.ROOT = original_root
 

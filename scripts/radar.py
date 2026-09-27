@@ -600,11 +600,16 @@ def render_language_feeds(
         '<html lang="en">',
         "<head>",
         '  <meta charset="utf-8">',
+        '  <meta name="viewport" content="width=device-width, initial-scale=1">',
+        '  <link rel="stylesheet" href="../assets/style.css">',
         "  <title>RSS feeds</title>",
         "</head>",
         "<body>",
-        "  <h1>Beginner issue RSS feeds</h1>",
-        "  <ul>",
+        '  <main class="wrap">',
+        '    <section class="hero">',
+        "      <h1>Beginner issue RSS feeds</h1>",
+        '      <p class="lede">Subscribe to language-specific RSS feeds to discover new beginner-friendly open source issues. Copy a feed link into your RSS or feed reader to subscribe.</p>',
+        "      <ul>",
     ]
 
     for language, slug in languages.items():
@@ -615,7 +620,7 @@ def render_language_feeds(
         ]
         beginner_issues.sort(key=lambda issue: issue["created"], reverse=True)
 
-        feed_index.append(f'    <li><a href="{slug}.xml">{language}</a></li>')
+        feed_index.append(f'        <li><a href="{slug}.xml">{language}</a></li>')
 
         rss = ET.Element(
             "rss",
@@ -657,7 +662,10 @@ def render_language_feeds(
 
     feed_index.extend(
         [
-            "  </ul>",
+            "      </ul>",
+            '    </section>',
+            '    <p><a href="../">← Back to Open Source Radar</a></p>',
+            "  </main>",
             "</body>",
             "</html>",
         ]
