@@ -1,6 +1,7 @@
 """Unit tests for the pure parts of the radar pipeline: python -m unittest discover scripts"""
 
 import datetime as dt
+import json
 import tempfile
 import unittest
 import xml.etree.ElementTree as ET
@@ -236,6 +237,53 @@ class PageHeaderTests(unittest.TestCase):
         header = radar.page_header("Go issues", "Subtitle.", "2026-09-27T11:00:00+00:00", "[RSS feed](x.xml)")
         self.assertIn("Subtitle.\n\n[RSS feed](x.xml)\n\n> Updated", header)
         self.assertNotIn("\n\n\n", radar.page_header("Go issues", "Subtitle.", "2026-09-27T11:00:00+00:00"))
+
+
+class RenderSmokeTests(unittest.TestCase):
+    def test_render_writes_primary_outputs(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            issues_path = root / "data" / "issues.json"
+            site_data_path = root / "site" / "data" / "issues.json"
+            issues_path.parent.mkdir(parents=True)
+            issues_path.write_text(
+                json.dumps(
+                    {
+                        "generated_at": "2026-09-27T12:00:00+00:00",
+                        "repositories": {
+                            "owner/repo": {
+                                "url": "https://github.com/owner/repo",
+                                "description": "A tiny fixture",
+                                "stars": 10, "open_count": 1, "language": "Python",
+                                "buckets": ["ai"],
+                                "policy": {},
+                            }
+                        },
+                        "issues": [
+                            {
+                                "repo": "owner/repo", "level": "beginner",
+                                "title": "Fix the fixture",
+                                "url": "https://github.com/owner/repo/issues/1",
+                                "comments": 0, "created": "2026-09-27", "updated": "2026-09-27",
+                            }
+                        ],
+                    }
+                ),
+                encoding="utf-8",
+            )
+            original_paths = (radar.ROOT, radar.ISSUES_PATH, radar.SITE_DATA_PATH)
+            radar.ROOT, radar.ISSUES_PATH, radar.SITE_DATA_PATH = root, issues_path, site_data_path
+            config = {"issues": {"max_per_page": 10}, "languages": {"Python": "python"},
+                      "topics": {"ai": {"title": "AI", "keywords": ["ai"]}}}
+
+            try:
+                radar.render(config)
+            finally:
+                radar.ROOT, radar.ISSUES_PATH, radar.SITE_DATA_PATH = original_paths
+
+            self.assertTrue((root / "issues" / "by-language" / "python.md").exists())
+            self.assertTrue((root / "projects" / "README.md").exists())
+            self.assertTrue((root / "site" / "feeds" / "python.xml").exists())
 
 
 class LanguageFeedTests(unittest.TestCase):
