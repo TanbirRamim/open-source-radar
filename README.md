@@ -125,6 +125,7 @@ Thank you to everyone who has made the radar better:
 - [@nightcityblade](https://github.com/nightcityblade): an end-to-end smoke test for the render pipeline ([#34](https://github.com/TanbirRamim/open-source-radar/pull/34))
 - [@Shivani2965](https://github.com/Shivani2965): a styled RSS feed index page ([#36](https://github.com/TanbirRamim/open-source-radar/pull/36))
 - [@AkashGowdaNC](https://github.com/AkashGowdaNC): issue counts on the feed index, with empty feeds hidden ([#42](https://github.com/TanbirRamim/open-source-radar/pull/42))
+- [@JiyaSinghal0604](https://github.com/JiyaSinghal0604): the Hindi translation of the guide ([#44](https://github.com/TanbirRamim/open-source-radar/pull/44))
 
 Your name goes here with your first merged pull request. And if the radar helped you, please give it a star: it's the simplest way to help other newcomers find it.
 
