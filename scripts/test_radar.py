@@ -378,6 +378,8 @@ class LanguageFeedTests(unittest.TestCase):
                     index_html,
                 )
                 self.assertIn('localStorage.getItem("radar-theme")', index_html)
+                # The index shows the same build time as the feeds' lastBuildDate.
+                self.assertIn("<p>Updated 2026-10-04 12:00 UTC.</p>", index_html)
                 # Languages with beginner issues get a link with a count.
                 self.assertIn('<li><a href="python.xml">Python (1)</a></li>', index_html)
                 self.assertIn('<li><a href="javascript.xml">JavaScript (1)</a></li>', index_html)

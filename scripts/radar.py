@@ -673,6 +673,7 @@ def render_language_feeds(
     feed_index.extend(
         [
             "      </ul>",
+            f"      <p>Updated {generated_at[:16].replace('T', ' ')} UTC.</p>",
             "    </section>",
             '    <p><a href="../">← Back to Open Source Radar</a></p>',
             "  </main>",
