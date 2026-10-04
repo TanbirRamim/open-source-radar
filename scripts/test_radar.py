@@ -334,6 +334,7 @@ class LanguageFeedTests(unittest.TestCase):
                     },
                     repositories,
                     issues,
+                    "2026-10-04T12:00:00+00:00",
                 )
 
                 feed = Path(tmp) / "site" / "feeds" / "python.xml"
@@ -361,6 +362,10 @@ class LanguageFeedTests(unittest.TestCase):
                 self.assertEqual(
                     items[0].findtext("pubDate"),
                     "Sun, 20 Sep 2026 00:00:00 +0000",
+                )
+                self.assertEqual(
+                    root.findtext("./channel/lastBuildDate"),
+                    "Sun, 04 Oct 2026 12:00:00 +0000",
                 )
 
                 index = Path(tmp) / "site" / "feeds" / "index.html"

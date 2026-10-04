@@ -591,6 +591,7 @@ def render_language_feeds(
     languages: dict[str, str],
     repositories: dict[str, Any],
     issues: list[dict[str, Any]],
+    generated_at: str,
 ) -> None:
     ET.register_namespace("atom", ATOM_NAMESPACE)
     feeds_dir = ROOT / "site" / "feeds"
@@ -638,6 +639,7 @@ def render_language_feeds(
         )
         channel = ET.SubElement(rss, "channel")
         ET.SubElement(channel, "title").text = f"{language} beginner issues"
+        ET.SubElement(channel, "lastBuildDate").text = format_datetime(iso_to_datetime(generated_at))
         ET.SubElement(
             channel,
             f"{{{ATOM_NAMESPACE}}}link",
@@ -694,7 +696,7 @@ def render(config: dict[str, Any]) -> None:
     limit = config["issues"]["max_per_page"]
     languages: dict[str, str] = config["languages"]
 
-    render_language_feeds(languages, repositories, issues)
+    render_language_feeds(languages, repositories, issues, generated_at)
 
     by_language_dir = ROOT / "issues" / "by-language"
     by_topic_dir = ROOT / "issues" / "by-topic"
