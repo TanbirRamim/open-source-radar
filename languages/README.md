@@ -18,5 +18,6 @@ Short, practical notes on how projects in each language are usually built, teste
 | [Ruby](ruby.md) | Ruby + Bundler | [issues](../issues/by-language/ruby.md) |
 | [Swift](swift.md) | Swift toolchain / Xcode | [issues](../issues/by-language/swift.md) |
 | [Dart and Flutter](dart.md) | Dart SDK / Flutter SDK | [issues](../issues/by-language/dart.md) |
-| [Elixir](elixir.md) | Elixir + Mix | [Issues](../issues/by-language/elixir.md) |
+| [Elixir](elixir.md) | Elixir + Mix (Erlang/OTP) | [issues](../issues/by-language/elixir.md) |
+
 Missing a language, or a command is out of date? [Open a pull request](../CONTRIBUTING.md), these pages are meant to be improved by the community.
