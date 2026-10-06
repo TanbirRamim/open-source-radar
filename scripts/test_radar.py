@@ -428,20 +428,12 @@ class LanguageFeedTests(unittest.TestCase):
                 erlang_feed = Path(tmp) / "site" / "feeds" / "erlang.xml"
                 self.assertTrue(erlang_feed.exists())
 
-                # RSS autodiscovery links must be in the <head> for feeds with
-                # beginner issues.  The issue title contains <with> & special
-                # chars, so the language name "Python" is safe but we still
-                # verify the escaping path works by checking the topic test below.
-                self.assertIn(
-                    '<link rel="alternate" type="application/rss+xml" title="Python" href="python.xml">',
-                    index_html,
-                )
-                self.assertIn(
-                    '<link rel="alternate" type="application/rss+xml" title="JavaScript" href="javascript.xml">',
-                    index_html,
-                )
+                # Feeds with beginner issues get an autodiscovery link in the <head>.
+                alternate = '<link rel="alternate" type="application/rss+xml"'
+                self.assertIn(f'{alternate} title="Python beginner issues" href="python.xml">', index_html)
+                self.assertIn(f'{alternate} title="JavaScript beginner issues" href="javascript.xml">', index_html)
                 # Erlang has no beginner issues, so no autodiscovery link.
-                self.assertNotIn('title="Erlang"', index_html)
+                self.assertNotIn('title="Erlang beginner issues"', index_html)
 
             finally:
                 radar.ROOT = original_root
@@ -474,9 +466,8 @@ class LanguageFeedTests(unittest.TestCase):
                 )
 
                 index_html = (Path(tmp) / "site" / "feeds" / "index.html").read_text(encoding="utf-8")
-                # The title "Python & More" must be escaped to "Python &amp; More".
-                self.assertIn("title=\"Python &amp; More\"", index_html)
-                self.assertNotIn("title=\"Python & More\"", index_html)
+                self.assertIn('title="Python &amp; More beginner issues"', index_html)
+                self.assertNotIn('title="Python & More', index_html)
 
             finally:
                 radar.ROOT = original_root

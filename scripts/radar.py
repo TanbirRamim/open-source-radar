@@ -18,6 +18,7 @@ from __future__ import annotations
 
 import argparse
 import datetime as dt
+import html
 import json
 import os
 import re
@@ -646,36 +647,30 @@ def render_language_feeds(
     generated_at: str,
     config: dict[str, Any],
 ) -> None:
-    import html
     ET.register_namespace("atom", ATOM_NAMESPACE)
     feeds_dir = ROOT / "site" / "feeds"
     feeds_dir.mkdir(parents=True, exist_ok=True)
 
-    # Build the autodiscovery link tags for the <head>.
-    # Each feed with beginner issues gets a <link rel="alternate"> tag.
-    autodiscovery_links: list[str] = []
-    for language, slug in languages.items():
-        beginner_issues = [
-            issue
-            for issue in issues
-            if issue["level"] == "beginner" and repositories[issue["repo"]]["language"] == language
-        ]
-        if beginner_issues:
-            escaped_title = html.escape(language)
-            autodiscovery_links.append(
-                f'  <link rel="alternate" type="application/rss+xml" '
-                f'title="{escaped_title}" href="{slug}.xml">'
-            )
-    for slug, bucket in config["topics"].items():
-        subset = [
-            issue for issue in issues if issue["level"] == "beginner" and slug in repositories[issue["repo"]]["buckets"]
-        ]
-        if subset:
-            escaped_title = html.escape(bucket["title"])
-            autodiscovery_links.append(
-                f'  <link rel="alternate" type="application/rss+xml" '
-                f'title="{escaped_title}" href="topics/{slug}.xml">'
-            )
+    # Group the beginner issues once; the <head> autodiscovery links and the feeds both use them.
+    beginner = [issue for issue in issues if issue["level"] == "beginner"]
+    beginner.sort(key=lambda issue: issue["created"], reverse=True)
+    language_issues = {
+        language: [issue for issue in beginner if repositories[issue["repo"]]["language"] == language]
+        for language in languages
+    }
+    topic_issues = {
+        slug: [issue for issue in beginner if slug in repositories[issue["repo"]]["buckets"]]
+        for slug in config["topics"]
+    }
+
+    feeds = [(language, f"{slug}.xml", language_issues[language]) for language, slug in languages.items()]
+    feeds += [(b["title"], f"topics/{slug}.xml", topic_issues[slug]) for slug, b in config["topics"].items()]
+    autodiscovery_links = [
+        f'  <link rel="alternate" type="application/rss+xml" '
+        f'title="{html.escape(title)} beginner issues" href="{href}">'
+        for title, href, items in feeds
+        if items
+    ]
 
     feed_index = [
         "<!doctype html>",
@@ -704,12 +699,7 @@ def render_language_feeds(
     ]
 
     for language, slug in languages.items():
-        beginner_issues = [
-            issue
-            for issue in issues
-            if issue["level"] == "beginner" and repositories[issue["repo"]]["language"] == language
-        ]
-        beginner_issues.sort(key=lambda issue: issue["created"], reverse=True)
+        beginner_issues = language_issues[language]
         if beginner_issues:
             # Empty feeds stay on disk for existing subscribers but are not listed.
             feed_index.append(f'        <li><a href="{slug}.xml">{language} ({len(beginner_issues)})</a></li>')
@@ -733,10 +723,7 @@ def render_language_feeds(
     topics_dir = feeds_dir / "topics"
     topics_dir.mkdir(parents=True, exist_ok=True)
     for slug, bucket in config["topics"].items():
-        subset = [
-            issue for issue in issues if issue["level"] == "beginner" and slug in repositories[issue["repo"]]["buckets"]
-        ]
-        subset.sort(key=lambda issue: issue["created"], reverse=True)
+        subset = topic_issues[slug]
 
         if subset:
             topic_rows.append((bucket["title"], slug, len(subset)))
