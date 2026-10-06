@@ -27,7 +27,7 @@ Maintainers who would rather not have their project listed can open an issue, an
 
 ## Making a change
 
-1. Comment on the issue you want to work on and wait to be assigned, so two people don't solve the same issue.
+1. Comment on the issue you want to work on and wait for a reply saying it's yours. GitHub only lets me assign collaborators, so that reply is the claim, and the issue gets the `claimed` label. Please skip issues that are already claimed. If a claim sees no pull request or update for 7 days, it's free again. A pull request for an issue someone else claimed first will wait until it's sorted out with them.
 2. Fork the repository and create a branch.
 3. For pipeline changes, run the tests and linter: `python3 -m unittest discover scripts` (Python 3.11+) and `ruff check scripts && ruff format --check scripts`.
 4. To try the pipeline on a small scale: `GITHUB_TOKEN=$(gh auth token) python3 scripts/radar.py all --languages "Rust"`, then `python3 -m http.server -d site 8000`. Do not commit the generated data from a partial run.
