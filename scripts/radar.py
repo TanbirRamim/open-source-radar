@@ -646,9 +646,37 @@ def render_language_feeds(
     generated_at: str,
     config: dict[str, Any],
 ) -> None:
+    import html
     ET.register_namespace("atom", ATOM_NAMESPACE)
     feeds_dir = ROOT / "site" / "feeds"
     feeds_dir.mkdir(parents=True, exist_ok=True)
+
+    # Build the autodiscovery link tags for the <head>.
+    # Each feed with beginner issues gets a <link rel="alternate"> tag.
+    autodiscovery_links: list[str] = []
+    for language, slug in languages.items():
+        beginner_issues = [
+            issue
+            for issue in issues
+            if issue["level"] == "beginner" and repositories[issue["repo"]]["language"] == language
+        ]
+        if beginner_issues:
+            escaped_title = html.escape(language)
+            autodiscovery_links.append(
+                f'  <link rel="alternate" type="application/rss+xml" '
+                f'title="{escaped_title}" href="{slug}.xml">'
+            )
+    for slug, bucket in config["topics"].items():
+        subset = [
+            issue for issue in issues if issue["level"] == "beginner" and slug in repositories[issue["repo"]]["buckets"]
+        ]
+        if subset:
+            escaped_title = html.escape(bucket["title"])
+            autodiscovery_links.append(
+                f'  <link rel="alternate" type="application/rss+xml" '
+                f'title="{escaped_title}" href="topics/{slug}.xml">'
+            )
+
     feed_index = [
         "<!doctype html>",
         '<html lang="en">',
@@ -662,6 +690,7 @@ def render_language_feeds(
         '    try { const t = localStorage.getItem("radar-theme"); '
         "if (t) document.documentElement.dataset.theme = t; } catch (e) {}",
         "  </script>",
+        *autodiscovery_links,
         "</head>",
         "<body>",
         '  <main class="wrap">',
