@@ -129,6 +129,7 @@ Thank you to everyone who has made the radar better:
 - [@nayan45633](https://github.com/nayan45633): `lastBuildDate` in the language feeds ([#50](https://github.com/TanbirRamim/open-source-radar/pull/50))
 - [@Harshil-1603](https://github.com/Harshil-1603): feed item descriptions and categories, and the per-language RSS link on the website ([#48](https://github.com/TanbirRamim/open-source-radar/pull/48), [#49](https://github.com/TanbirRamim/open-source-radar/pull/49))
 - [@vamsikrishnaavasarala88-png](https://github.com/vamsikrishnaavasarala88-png): the Elixir quickstart ([#51](https://github.com/TanbirRamim/open-source-radar/pull/51))
+- [@faresrafat3](https://github.com/faresrafat3): RSS autodiscovery links on the feed page ([#60](https://github.com/TanbirRamim/open-source-radar/pull/60))
 
 Your name goes here with your first merged pull request. And if the radar helped you, please give it a star: it's the simplest way to help other newcomers find it.
 
