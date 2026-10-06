@@ -1,0 +1,16 @@
+name: pr-doorman
+
+on:
+  pull_request_target:
+    types: [opened, edited, reopened, synchronize]
+
+permissions:
+  contents: read
+  issues: write
+  pull-requests: write
+
+jobs:
+  doorman:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: TanbirRamim/pr-doorman@v0
