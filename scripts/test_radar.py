@@ -454,7 +454,7 @@ class LanguageFeedTests(unittest.TestCase):
 
             try:
                 repositories = {
-                    "owner/repo": {"language": "Python", "stars": 100},
+                    "owner/repo": {"language": "Python & More", "stars": 100},
                 }
                 issues = [
                     {
