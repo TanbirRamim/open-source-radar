@@ -9,6 +9,7 @@ Short, practical notes on how projects in each language are usually built, teste
 | [Python](python.md) | CPython | [issues](../issues/by-language/python.md) |
 | [Go](go.md) | Go toolchain | [issues](../issues/by-language/go.md) |
 | [Rust](rust.md) | rustup + Cargo | [issues](../issues/by-language/rust.md) |
+| [Shell](shell.md) | Bash | [issues](../issues/by-language/shell.md) |
 | [Java](java.md) | JDK + Maven/Gradle | [issues](../issues/by-language/java.md) |
 | [Kotlin](kotlin.md) | JDK + Gradle | [issues](../issues/by-language/kotlin.md) |
 | [C#](csharp.md) | .NET SDK | [issues](../issues/by-language/csharp.md) |
