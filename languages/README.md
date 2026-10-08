@@ -15,6 +15,7 @@ Short, practical notes on how projects in each language are usually built, teste
 | [C++](cpp.md) | CMake + a compiler | [issues](../issues/by-language/cpp.md) |
 | [C](c.md) | Make/CMake/Meson + a compiler | [issues](../issues/by-language/c.md) |
 | [PHP](php.md) | PHP + Composer | [issues](../issues/by-language/php.md) |
+| [Lua](lua.md) | Lua + LuaRocks | [issues](../issues/by-language/lua.md) |
 | [Ruby](ruby.md) | Ruby + Bundler | [issues](../issues/by-language/ruby.md) |
 | [Swift](swift.md) | Swift toolchain / Xcode | [issues](../issues/by-language/swift.md) |
 | [Dart and Flutter](dart.md) | Dart SDK / Flutter SDK | [issues](../issues/by-language/dart.md) |
