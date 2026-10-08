@@ -16,6 +16,8 @@
   const updated = document.getElementById("updated");
   const languageFeed = document.getElementById("language-feed");
   const languageFeedLink = document.getElementById("language-feed-link");
+  const topicFeed = document.getElementById("topic-feed");
+  const topicFeedLink = document.getElementById("topic-feed-link");
 
   let data = null;
   let filtered = [];
@@ -160,6 +162,15 @@
     if (languageSlug) {
       languageFeedLink.href = `feeds/${languageSlug}.xml`;
       languageFeedLink.textContent = `RSS feed for ${values.language} beginner issues`;
+    }
+
+    const hasTopicFeed = data.topic_feed_slugs?.includes(values.topic);
+    topicFeed.hidden = !hasTopicFeed;
+
+    if (hasTopicFeed) {
+      topicFeedLink.href = `feeds/topics/${values.topic}.xml`;
+      const topicTitle = data.topic_titles?.[values.topic];
+      topicFeedLink.textContent = `RSS feed for ${topicTitle} beginner issues`;
     }
     empty.hidden = filtered.length > 0;
   }

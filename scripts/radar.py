@@ -858,9 +858,14 @@ def render(config: dict[str, Any]) -> None:
     update_readme_stats(len(issues), len(repositories), beginner_total, language_rows, topic_rows, generated_at)
     # Only link feeds that the feed index lists; the others are empty.
     feed_languages = {repositories[issue["repo"]]["language"] for issue in issues if issue["level"] == "beginner"}
+    feed_topics_slugs = {
+        bucket for issue in issues if issue["level"] == "beginner" for bucket in repositories[issue["repo"]]["buckets"]
+    }
+
     site_payload = {
         **payload,
         "language_slugs": {language: slug for language, slug in languages.items() if language in feed_languages},
+        "topic_feed_slugs": sorted(feed_topics_slugs),
         "topic_titles": {slug: bucket["title"] for slug, bucket in config["topics"].items()},
     }
     write_json(SITE_DATA_PATH, site_payload, compact=True)
