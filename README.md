@@ -131,6 +131,8 @@ Thank you to everyone who has made the radar better:
 - [@vamsikrishnaavasarala88-png](https://github.com/vamsikrishnaavasarala88-png): the Elixir quickstart ([#51](https://github.com/TanbirRamim/open-source-radar/pull/51))
 - [@faresrafat3](https://github.com/faresrafat3): RSS autodiscovery links on the feed page ([#60](https://github.com/TanbirRamim/open-source-radar/pull/60))
 - [@Anchal-jpg](https://github.com/Anchal-jpg): the Lua quickstart ([#66](https://github.com/TanbirRamim/open-source-radar/pull/66))
+- [@raveniqe](https://github.com/raveniqe): the topic RSS link on the website ([#67](https://github.com/TanbirRamim/open-source-radar/pull/67))
+- [@tilakraj-hub](https://github.com/tilakraj-hub): the Shell quickstart ([#64](https://github.com/TanbirRamim/open-source-radar/pull/64))
 
 Your name goes here with your first merged pull request. And if the radar helped you, please give it a star: it's the simplest way to help other newcomers find it.
 
