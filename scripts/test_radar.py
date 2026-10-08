@@ -257,7 +257,7 @@ class RenderSmokeTests(unittest.TestCase):
                                 "stars": 10,
                                 "open_count": 1,
                                 "language": "Python",
-                                "buckets": ["ai"],
+                                "buckets": ["ai", "retired-topic"],
                                 "policy": {},
                             },
                             "owner/go-repo": {
@@ -321,7 +321,7 @@ class RenderSmokeTests(unittest.TestCase):
             # Go has no beginner issues, so its (empty) feed is not linked from the site.
             self.assertEqual(site_data["language_slugs"], {"Python": "python"})
 
-            # Docs has no beginner issues, so only AI is linked as a topic feed.
+            # Docs has no beginner issues and retired-topic is not configured, so only AI is linked.
             self.assertEqual(site_data["topic_feed_slugs"], ["ai"])
 
 
