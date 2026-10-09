@@ -136,6 +136,7 @@ Thank you to everyone who has made the radar better:
 - [@Poojabala30](https://github.com/Poojabala30): the Erlang quickstart ([#70](https://github.com/TanbirRamim/open-source-radar/pull/70))
 - [@saniya-malik](https://github.com/saniya-malik): the R quickstart ([#72](https://github.com/TanbirRamim/open-source-radar/pull/72))
 - [@VatsalRaina01](https://github.com/VatsalRaina01): the Hindi translation of chapter 7 ([#86](https://github.com/TanbirRamim/open-source-radar/pull/86))
+- [@avent18](https://github.com/avent18): the last activity filter on the website ([#88](https://github.com/TanbirRamim/open-source-radar/pull/88))
 
 Your name goes here with your first merged pull request. And if the radar helped you, please give it a star: it's the simplest way to help other newcomers find it.
 
