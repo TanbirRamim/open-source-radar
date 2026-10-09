@@ -126,11 +126,15 @@
     const needle = values.q.toLowerCase();
     const repos = data.repositories;
 
+    const activityDays = Number(values.activity) || 0;
+    const activityCutoff = activityDays ? Date.now() - activityDays * 86400000 : null;
+
     filtered = data.issues.filter((issue) => {
       const repo = repos[issue.repo];
       if (values.language && repo.language !== values.language) return false;
       if (values.topic && !repo.buckets.includes(values.topic)) return false;
       if (values.level && issue.level !== values.level) return false;
+      if (activityCutoff !== null && !(new Date(issue.updated + "T00:00:00Z").getTime() >= activityCutoff)) return false;
       if (values.rules && !matchesRules(repo, values.rules)) return false;
       if (needle) {
         const haystack = `${issue.title} ${issue.repo} ${issue.labels.join(" ")} ${repo.description}`.toLowerCase();
