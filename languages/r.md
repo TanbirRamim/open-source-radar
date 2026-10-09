@@ -19,13 +19,13 @@ Open R issues: [R issue list](../issues/by-language/r.md)
 | Restore project dependencies | `renv::restore()` (R console, when the project uses renv) |
 | Run tests | `devtools::test()` (R console, when devtools is used) |
 | Run one test file | `testthat::test_file("tests/testthat/test-example.R")` (R console) |
-| Check an R package | `R CMD check .` (terminal, from the package directory) |
+| Check an R package | `R CMD build .` then `R CMD check pkgname_1.0.tar.gz` (terminal), or `devtools::check()` |
 | Lint a package | `lintr::lint_package()` (R console) |
 | Format a package | `styler::style_pkg()` (R console; formats files) |
 
 ## Tips
 
-- `R CMD check` checks an R package, including its structure, metadata and tests. Run it from the package directory and follow any reported errors or warnings.
+- `R CMD check` is meant to run on the tarball that `R CMD build` makes, not the source folder, otherwise you get extra notes about stray files. `devtools::check()` does both steps for you. Fix every error and warning before opening a PR.
 - `renv::restore()` restores dependencies recorded in `renv.lock`; it is useful for projects that manage dependencies with renv.
 - `devtools::test()` runs a package's tests. Projects may use other test commands, so check their README and configuration first.
 - `lintr` checks R code against configured style rules. `styler` formats R code; review the resulting changes before committing.
