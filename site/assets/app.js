@@ -25,23 +25,34 @@
   let previousQueryTerms = new Set();
 
   const numberFormat = new Intl.NumberFormat("en");
-  const compact = new Intl.NumberFormat("en", { notation: "compact", maximumFractionDigits: 1 });
+  const compact = new Intl.NumberFormat("en", {
+    notation: "compact",
+    maximumFractionDigits: 1,
+  });
 
   // ---- Theme -------------------------------------------------------------------------------
 
   document.querySelector(".theme-toggle").addEventListener("click", () => {
     const root = document.documentElement;
-    const systemDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    const systemDark = window.matchMedia(
+      "(prefers-color-scheme: dark)",
+    ).matches;
     const current = root.dataset.theme || (systemDark ? "dark" : "light");
     const next = current === "dark" ? "light" : "dark";
     root.dataset.theme = next;
-    try { localStorage.setItem("radar-theme", next); } catch (e) { /* storage unavailable */ }
+    try {
+      localStorage.setItem("radar-theme", next);
+    } catch (e) {
+      /* storage unavailable */
+    }
   });
 
   // ---- Helpers -----------------------------------------------------------------------------
 
   function daysAgo(isoDate) {
-    const days = Math.floor((Date.now() - new Date(isoDate + "T00:00:00Z").getTime()) / 86400000);
+    const days = Math.floor(
+      (Date.now() - new Date(isoDate + "T00:00:00Z").getTime()) / 86400000,
+    );
     if (days <= 0) return "updated today";
     if (days === 1) return "updated yesterday";
     if (days < 60) return `updated ${days} days ago`;
@@ -57,7 +68,8 @@
   function writeUrl(values) {
     const params = new URLSearchParams();
     for (const [key, value] of Object.entries(values)) {
-      if (value && !(key === "sort" && value === "updated")) params.set(key, value);
+      if (value && !(key === "sort" && value === "updated"))
+        params.set(key, value);
     }
     const qs = params.toString();
     history.replaceState(null, "", qs ? `?${qs}` : location.pathname);
@@ -66,7 +78,8 @@
   function restoreFromUrl() {
     const params = new URLSearchParams(location.search);
     for (const element of form.elements) {
-      if (element.name && params.has(element.name)) element.value = params.get(element.name);
+      if (element.name && params.has(element.name))
+        element.value = params.get(element.name);
     }
   }
 
@@ -77,7 +90,9 @@
     if (values.level === "beginner") terms.push(BEGINNER_LABEL);
     if (values.level === "help-wanted") terms.push('label:"help wanted"');
     if (values.language) {
-      const name = values.language.includes(" ") ? `"${values.language}"` : values.language;
+      const name = values.language.includes(" ")
+        ? `"${values.language}"`
+        : values.language;
       terms.push(`language:${name}`);
     }
     if (values.q) terms.push(values.q);
@@ -100,7 +115,8 @@
       } else {
         span.textContent = term;
       }
-      if (previousQueryTerms.size && !previousQueryTerms.has(term)) span.classList.add("q-new");
+      if (previousQueryTerms.size && !previousQueryTerms.has(term))
+        span.classList.add("q-new");
       queryText.append(span);
     });
     previousQueryTerms = current;
@@ -117,7 +133,8 @@
     const policy = repo.policy || {};
     if (rule === "no-ai-restriction") return policy.ai !== "restricted";
     if (rule === "no-cla") return !policy.cla;
-    if (rule === "simple") return (policy.ai === "none" || !policy.ai) && !policy.cla && !policy.dco;
+    if (rule === "simple")
+      return (policy.ai === "none" || !policy.ai) && !policy.cla && !policy.dco;
     return true;
   }
 
@@ -126,24 +143,46 @@
     const needle = values.q.toLowerCase();
     const repos = data.repositories;
 
+    //  Filter the issues based on the selected filters and search query
+    const activityDays = Number(values.activity);
+    const activityCutoff = activityDays
+      ? Date.now() - activityDays * 24 * 60 * 60 * 1000
+      : null;
+
     filtered = data.issues.filter((issue) => {
       const repo = repos[issue.repo];
       if (values.language && repo.language !== values.language) return false;
       if (values.topic && !repo.buckets.includes(values.topic)) return false;
       if (values.level && issue.level !== values.level) return false;
+
+      // Filter by activity cutoff if specified
+      if (activityCutoff !== null) {
+        const updatedAt = new Date(issue.updated).getTime();
+
+        if (!Number.isFinite(updatedAt) || updatedAt < activityCutoff) {
+          return false;
+        }
+      }
+
       if (values.rules && !matchesRules(repo, values.rules)) return false;
       if (needle) {
-        const haystack = `${issue.title} ${issue.repo} ${issue.labels.join(" ")} ${repo.description}`.toLowerCase();
+        const haystack =
+          `${issue.title} ${issue.repo} ${issue.labels.join(" ")} ${repo.description}`.toLowerCase();
         if (!haystack.includes(needle)) return false;
       }
       return true;
     });
 
     const sorters = {
-      updated: (a, b) => b.updated.localeCompare(a.updated) || repos[b.repo].stars - repos[a.repo].stars,
+      updated: (a, b) =>
+        b.updated.localeCompare(a.updated) ||
+        repos[b.repo].stars - repos[a.repo].stars,
       new: (a, b) => b.created.localeCompare(a.created),
-      stars: (a, b) => repos[b.repo].stars - repos[a.repo].stars || b.updated.localeCompare(a.updated),
-      quiet: (a, b) => a.comments - b.comments || b.updated.localeCompare(a.updated),
+      stars: (a, b) =>
+        repos[b.repo].stars - repos[a.repo].stars ||
+        b.updated.localeCompare(a.updated),
+      quiet: (a, b) =>
+        a.comments - b.comments || b.updated.localeCompare(a.updated),
     };
     filtered.sort(sorters[values.sort] || sorters.updated);
 
@@ -206,24 +245,30 @@
     const repoLink = node.querySelector(".repo");
     repoLink.href = repo.url;
     repoLink.textContent = issue.repo;
-    node.querySelector(".stars").textContent = `${compact.format(repo.stars)} stars`;
+    node.querySelector(".stars").textContent =
+      `${compact.format(repo.stars)} stars`;
     node.querySelector(".lang").textContent = repo.language || "";
     node.querySelector(".updated").textContent = daysAgo(issue.updated);
     node.querySelector(".repo-desc").textContent = repo.description || "";
 
     const level = node.querySelector(".level");
     level.classList.add(issue.level);
-    level.textContent = issue.level === "beginner" ? "Beginner label" : "Help wanted";
+    level.textContent =
+      issue.level === "beginner" ? "Beginner label" : "Help wanted";
 
     const comments = node.querySelector(".comments");
-    comments.textContent = issue.comments === 1 ? "1 comment" : `${issue.comments} comments`;
+    comments.textContent =
+      issue.comments === 1 ? "1 comment" : `${issue.comments} comments`;
 
     const badges = node.querySelector(".badges");
     const policy = repo.policy || {};
     const fileUrl = (path) => `${repo.url}/blob/HEAD/${path}`;
-    if (policy.ai === "restricted") badge(badges, "AI restricted", fileUrl(policy.ai_file), "ai-restricted");
-    if (policy.ai === "disclose") badge(badges, "Disclose AI use", fileUrl(policy.ai_file));
-    if (policy.ai === "policy") badge(badges, "AI policy", fileUrl(policy.ai_file));
+    if (policy.ai === "restricted")
+      badge(badges, "AI restricted", fileUrl(policy.ai_file), "ai-restricted");
+    if (policy.ai === "disclose")
+      badge(badges, "Disclose AI use", fileUrl(policy.ai_file));
+    if (policy.ai === "policy")
+      badge(badges, "AI policy", fileUrl(policy.ai_file));
     if (policy.cla) badge(badges, "CLA");
     if (policy.dco) badge(badges, "DCO sign-off");
     if (issue.closed_pr) badge(badges, "Earlier PR closed", issue.url);
@@ -259,7 +304,8 @@
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       data = await response.json();
     } catch (error) {
-      summary.textContent = "The issue list could not be loaded. Reload the page, or browse the lists on GitHub.";
+      summary.textContent =
+        "The issue list could not be loaded. Reload the page, or browse the lists on GitHub.";
       return;
     }
 
@@ -268,25 +314,37 @@
     const topicCounts = new Map();
     for (const issue of data.issues) {
       const repo = repos[issue.repo];
-      if (repo.language) languageCounts.set(repo.language, (languageCounts.get(repo.language) || 0) + 1);
-      for (const bucket of repo.buckets) topicCounts.set(bucket, (topicCounts.get(bucket) || 0) + 1);
+      if (repo.language)
+        languageCounts.set(
+          repo.language,
+          (languageCounts.get(repo.language) || 0) + 1,
+        );
+      for (const bucket of repo.buckets)
+        topicCounts.set(bucket, (topicCounts.get(bucket) || 0) + 1);
     }
     const titles = data.topic_titles || {};
     populateSelect(
       form.elements.language,
-      [...languageCounts].sort((a, b) => b[1] - a[1]).map(([name, count]) => [name, `${name} (${count})`]),
+      [...languageCounts]
+        .sort((a, b) => b[1] - a[1])
+        .map(([name, count]) => [name, `${name} (${count})`]),
     );
     populateSelect(
       form.elements.topic,
-      [...topicCounts].sort((a, b) => b[1] - a[1]).map(([slug, count]) => [slug, `${titles[slug] || slug} (${count})`]),
+      [...topicCounts]
+        .sort((a, b) => b[1] - a[1])
+        .map(([slug, count]) => [slug, `${titles[slug] || slug} (${count})`]),
     );
 
     const when = new Date(data.generated_at);
-    updated.textContent = `Issues collected from the GitHub API on ${when.toLocaleString("en", {
-      dateStyle: "medium",
-      timeStyle: "short",
-      timeZone: "UTC",
-    })} UTC. The list refreshes every 12 hours.`;
+    updated.textContent = `Issues collected from the GitHub API on ${when.toLocaleString(
+      "en",
+      {
+        dateStyle: "medium",
+        timeStyle: "short",
+        timeZone: "UTC",
+      },
+    )} UTC. The list refreshes every 12 hours.`;
 
     restoreFromUrl();
     previousQueryTerms = new Set();
@@ -303,7 +361,9 @@
     document.addEventListener("keydown", (event) => {
       if (
         event.key === "/" &&
-        !["INPUT", "SELECT", "TEXTAREA"].includes(document.activeElement?.tagName)
+        !["INPUT", "SELECT", "TEXTAREA"].includes(
+          document.activeElement?.tagName,
+        )
       ) {
         event.preventDefault();
         form.elements.q.focus();
