@@ -4,11 +4,20 @@ Thanks for helping people find their first open source contribution. Every kind 
 
 ## Ways to help
 
-- **Star the repository.** If the radar helped you, a star is the quickest way to help other newcomers find it.
-- **Guide and quickstarts.** Fix mistakes, clarify steps, add missing tips, or add a quickstart for a language in [`languages/`](languages/README.md).
-- **Data quality.** Add label variants, languages or topic keywords in [`scripts/config.toml`](scripts/config.toml), or report a project whose AI policy, CLA or DCO requirement was detected incorrectly.
-- **Website.** Improve accessibility, performance or usability of [`site/`](site/).
-- **Pipeline.** Improve [`scripts/radar.py`](scripts/radar.py). Pure logic changes need a test in [`scripts/test_radar.py`](scripts/test_radar.py).
+Looking for something to pick up? These filters show what's open right now:
+
+- [Good first issues](https://github.com/TanbirRamim/open-source-radar/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22+-label%3Aclaimed): small, well scoped, a good place to start
+- [Help wanted](https://github.com/TanbirRamim/open-source-radar/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22+-label%3Aclaimed): bigger pieces of work
+- By area: [guide](https://github.com/TanbirRamim/open-source-radar/labels/guide), [translation](https://github.com/TanbirRamim/open-source-radar/labels/translation), [website](https://github.com/TanbirRamim/open-source-radar/labels/website), [pipeline](https://github.com/TanbirRamim/open-source-radar/labels/pipeline), [data](https://github.com/TanbirRamim/open-source-radar/labels/data)
+
+Kinds of contributions that are welcome:
+
+- **Code.** Improve [`scripts/radar.py`](scripts/radar.py) or the website in [`site/`](site/) (accessibility, mobile, filters). Pure logic changes need a test in [`scripts/test_radar.py`](scripts/test_radar.py), and tests for functions that have none are welcome too.
+- **Guides.** Fix mistakes, clarify steps, add a chapter to [`guide/`](guide/README.md), or add a quickstart for a language in [`languages/`](languages/README.md).
+- **Translations.** Translate a guide chapter into a language you know well. See [`guide/es/`](guide/es/README.md) and [`guide/hi/`](guide/hi/README.md) for how existing ones are laid out.
+- **Data quality.** Add label variants, languages or topic keywords in [`scripts/config.toml`](scripts/config.toml), or report a project whose AI policy, CLA or DCO requirement was detected wrong.
+- **Report a stale or wrong listing.** If a listed issue is already taken, closed or not beginner friendly, [open a wrong listing report](https://github.com/TanbirRamim/open-source-radar/issues/new?template=wrong-listing.yml). It takes a minute and saves the next person from a dead end.
+- **Star the repository.** If the radar helped you, a star helps other newcomers find it.
 
 ## Do not edit generated files
 
