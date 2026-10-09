@@ -1,10 +1,10 @@
 # JavaScript issues
 
-**149** open issues (65 labeled for beginners) across **60** active JavaScript projects.
+**142** open issues (65 labeled for beginners) across **59** active JavaScript projects.
 
 [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/javascript.xml)
 
-> Updated automatically on **2026-10-09 12:51 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-10-09 22:36 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -12,24 +12,17 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [[Marketplace] Add Cloudflare AI Search plugin](https://github.com/ToolJet/ToolJet/issues/18240) 💬 5 | [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) | 41.1k | 🟡 help wanted | 2026-10-09 | 🤖 disclose AI use |
 | [Audit proposal: Detect if React is development mode](https://github.com/GoogleChrome/lighthouse/issues/9511) 💬 8 | [GoogleChrome/lighthouse](https://github.com/GoogleChrome/lighthouse) | 30.9k | 🟢 beginner | 2026-10-09 | ✍️ CLA |
 | [[riddle_quiz_maker] Update app metadata: description, logo and MCP URL](https://github.com/PipedreamHQ/pipedream/issues/21717) | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-10-09 |  |
 | [Async callbacks in Meteor.setTimeout/setInterval/defer crash the server when they throw](https://github.com/meteor/meteor/issues/14793) | [meteor/meteor](https://github.com/meteor/meteor) | 44.8k | 🟢 beginner | 2026-10-08 | ✍️ CLA |
-| [[Marketplace] Add Chargebee plugin](https://github.com/ToolJet/ToolJet/issues/18234) | [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) | 41.1k | 🟡 help wanted | 2026-10-08 | 🤖 disclose AI use |
-| [[Marketplace] Add Resend plugin](https://github.com/ToolJet/ToolJet/issues/18236) 💬 1 | [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) | 41.1k | 🟡 help wanted | 2026-10-08 | 🤖 disclose AI use |
 | [handling impact of isInputPending on long tasks metrics?](https://github.com/GoogleChrome/lighthouse/issues/11747) 💬 5 | [GoogleChrome/lighthouse](https://github.com/GoogleChrome/lighthouse) | 30.9k | 🟢 beginner | 2026-10-08 | ✍️ CLA |
 | [[Help] 换域名了，原域名没了，改绑新域名，怎么重新初始化？ 或怎么改？](https://github.com/maillab/cloud-mail/issues/593) | [maillab/cloud-mail](https://github.com/maillab/cloud-mail) | 14.6k | 🟡 help wanted | 2026-10-08 |  |
-| [Add "Signature" component](https://github.com/ToolJet/ToolJet/issues/4859) 💬 4 | [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) | 41.1k | 🟡 help wanted | 2026-10-07 | 🤖 disclose AI use |
-| [Allow integration with Pomerium proxy on GCP Cloud Run](https://github.com/ToolJet/ToolJet/issues/2798) 💬 1 | [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) | 41.1k | 🟡 help wanted | 2026-10-06 | 🤖 disclose AI use |
-| [[Feature] Support Firestore Collection Group queries](https://github.com/ToolJet/ToolJet/issues/3802) 💬 2 | [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) | 41.1k | 🟡 help wanted | 2026-10-06 | 🤖 disclose AI use |
-| [ScyllaDB data source integration](https://github.com/ToolJet/ToolJet/issues/3841) 💬 1 | [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) | 41.1k | 🟡 help wanted | 2026-10-06 | 🤖 disclose AI use |
 | [Parse error for quoted export/import names](https://github.com/google/closure-compiler/issues/3961) 💬 3 | [google/closure-compiler](https://github.com/google/closure-compiler) | 7.7k | 🟡 help wanted | 2026-10-06 |  |
 | [BetterAuth to implement multi-user support, roles, external auth providers](https://github.com/louislam/uptime-kuma/issues/6200) 💬 13 | [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) | 92.3k | 🟡 help wanted | 2026-10-05 | ⚠️ AI restricted |
 | [[Feature request]: add some image examples](https://github.com/hovancik/stretchly/issues/1788) 💬 3 | [hovancik/stretchly](https://github.com/hovancik/stretchly) | 6.6k | 🟡 help wanted | 2026-10-05 | 🤖 disclose AI use |
 | [[Help] cf部署完毕，邮箱后台怎么进入](https://github.com/maillab/cloud-mail/issues/553) 💬 1 | [maillab/cloud-mail](https://github.com/maillab/cloud-mail) | 14.6k | 🟡 help wanted | 2026-10-03 |  |
-| [Add IE11 XXE to read local files](https://github.com/beefproject/beef/issues/1715) 💬 1 | [beefproject/beef](https://github.com/beefproject/beef) | 11k | 🟢 beginner | 2026-10-03 |  |
-| [update GetStoredCredentials, senglehardt.com, login manager autofill](https://github.com/beefproject/beef/issues/1974) 💬 2 | [beefproject/beef](https://github.com/beefproject/beef) | 11k | 🟢 beginner | 2026-10-03 |  |
+| [Add IE11 XXE to read local files](https://github.com/beefproject/beef/issues/1715) 💬 1 | [beefproject/beef](https://github.com/beefproject/beef) | 11.1k | 🟢 beginner | 2026-10-03 |  |
+| [update GetStoredCredentials, senglehardt.com, login manager autofill](https://github.com/beefproject/beef/issues/1974) 💬 2 | [beefproject/beef](https://github.com/beefproject/beef) | 11.1k | 🟢 beginner | 2026-10-03 |  |
 | [[Feature request]: Exclusions enhancement - Pause while camera is in use](https://github.com/hovancik/stretchly/issues/969) 💬 31 | [hovancik/stretchly](https://github.com/hovancik/stretchly) | 6.6k | 🟡 help wanted | 2026-10-03 | 🤖 disclose AI use |
 | [element with display flex do not create a new BFC itself](https://github.com/yangshun/front-end-interview-handbook/issues/159) 💬 1 | [yangshun/front-end-interview-handbook](https://github.com/yangshun/front-end-interview-handbook) | 44k | 🟡 help wanted | 2026-10-02 |  |
 | [Operation request: Protocol Data Unit (PDU) encoder/decoder](https://github.com/gchq/CyberChef/issues/256) 💬 8 | [gchq/CyberChef](https://github.com/gchq/CyberChef) | 36.1k | 🟢 beginner | 2026-09-29 | 🤖 disclose AI use · ✍️ CLA |
@@ -93,7 +86,7 @@
 | [Websocket connection error](https://github.com/plankanban/planka/issues/754) 💬 16 | [plankanban/planka](https://github.com/plankanban/planka) | 12.6k | 🟡 help wanted | 2026-08-18 |  |
 | [[Help] 关于翻译，有一些不太懂的](https://github.com/maillab/cloud-mail/issues/471) 💬 1 | [maillab/cloud-mail](https://github.com/maillab/cloud-mail) | 14.6k | 🟡 help wanted | 2026-08-17 |  |
 | [Can't load svg with base64 image inside](https://github.com/Automattic/node-canvas/issues/1607) 💬 8 | [Automattic/node-canvas](https://github.com/Automattic/node-canvas) | 10.7k | 🟢 beginner | 2026-08-17 |  |
-| [[Help] Your account is blocked from using Workers Builds.](https://github.com/maillab/cloud-mail/issues/524) 💬 2 | [maillab/cloud-mail](https://github.com/maillab/cloud-mail) | 14.6k | 🟡 help wanted | 2026-08-16 |  |
+| [[Help] Your account is blocked from using Workers Builds.](https://github.com/maillab/cloud-mail/issues/524) 💬 1 | [maillab/cloud-mail](https://github.com/maillab/cloud-mail) | 14.6k | 🟡 help wanted | 2026-08-16 |  |
 | [Filter tls options](https://github.com/nodejs/undici/issues/236) 💬 7 | [nodejs/undici](https://github.com/nodejs/undici) | 7.7k | 🟢 beginner | 2026-08-14 |  |
 | [The Future of TWP on Chrome and Edge](https://github.com/FilipePS/Traduzir-paginas-web/issues/904) 💬 33 | [FilipePS/Traduzir-paginas-web](https://github.com/FilipePS/Traduzir-paginas-web) | 6k | 🟡 help wanted | 2026-08-13 |  |
 | [Add tools for Yahoo Fantasy Football connector](https://github.com/PipedreamHQ/pipedream/issues/21593) 💬 2 | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-08-12 |  |

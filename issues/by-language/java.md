@@ -1,10 +1,10 @@
 # Java issues
 
-**253** open issues (95 labeled for beginners) across **75** active Java projects.
+**254** open issues (95 labeled for beginners) across **74** active Java projects.
 
 [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/java.xml)
 
-> Updated automatically on **2026-10-09 12:51 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-10-09 22:36 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -12,8 +12,10 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [bug: worker registration overwrites TaskDef.runtimeMetadata, breaking credential injection after restart](https://github.com/conductor-oss/conductor/issues/1561) 💬 2 | [conductor-oss/conductor](https://github.com/conductor-oss/conductor) | 32.3k | 🟢 beginner | 2026-10-09 |  |
 | [Add bazel flag for max_cas_entry size.](https://github.com/bazelbuild/bazel/issues/18449) 💬 12 | [bazelbuild/bazel](https://github.com/bazelbuild/bazel) | 25.9k | 🟡 help wanted | 2026-10-09 | ✍️ CLA |
-| [bug: worker registration overwrites TaskDef.runtimeMetadata, breaking credential injection after restart](https://github.com/conductor-oss/conductor/issues/1561) 💬 1 | [conductor-oss/conductor](https://github.com/conductor-oss/conductor) | 32.3k | 🟢 beginner | 2026-10-08 |  |
+| [java.lang.InterruptedException: null when closing BrokerClient](https://github.com/camunda/camunda/issues/17098) 💬 7 | [camunda/camunda](https://github.com/camunda/camunda) | 4.3k | 🟢 beginner | 2026-10-09 | ✍️ CLA |
+| [NPE when recovering from snapshot in StreamProcessor](https://github.com/camunda/camunda/issues/12201) 💬 2 | [camunda/camunda](https://github.com/camunda/camunda) | 4.3k | 🟢 beginner | 2026-10-09 | ✍️ CLA |
 | [Crash on startup on Android 6.0.1: NullPointerException "Attempt to read from null array" in MainActivity.onCr](https://github.com/TeamNewPipe/NewPipe/issues/13866) 💬 5 | [TeamNewPipe/NewPipe](https://github.com/TeamNewPipe/NewPipe) | 40k | 🟢 beginner | 2026-10-07 | 📄 AI policy |
 | [Create option to enable overide email theme for clients](https://github.com/keycloak/keycloak/issues/8744) 💬 8 | [keycloak/keycloak](https://github.com/keycloak/keycloak) | 37.3k | 🟡 help wanted | 2026-10-07 | 🤖 disclose AI use · 🔏 DCO |
 | [CIMD: Unbounded persistent client creation via path variation](https://github.com/keycloak/keycloak/issues/50532) 💬 2 | [keycloak/keycloak](https://github.com/keycloak/keycloak) | 37.3k | 🟡 help wanted | 2026-10-07 | 🤖 disclose AI use · 🔏 DCO |
@@ -21,6 +23,7 @@
 | [App Crash on mark video as watched](https://github.com/TeamNewPipe/NewPipe/issues/10939) 💬 10 | [TeamNewPipe/NewPipe](https://github.com/TeamNewPipe/NewPipe) | 40k | 🟢 beginner | 2026-10-06 | 📄 AI policy |
 | [Client credentials hashing (encryption / decryption)](https://github.com/keycloak/keycloak/issues/15567) 💬 2 | [keycloak/keycloak](https://github.com/keycloak/keycloak) | 37.3k | 🟡 help wanted | 2026-10-06 | 🤖 disclose AI use · 🔏 DCO |
 | [Proposal: Migrate docs from Material for MkDocs to Zensical](https://github.com/DependencyTrack/dependency-track/issues/7597) 💬 1 | [DependencyTrack/dependency-track](https://github.com/DependencyTrack/dependency-track) | 4.3k | 🟡 help wanted | 2026-10-06 | ⚠️ AI restricted · 🔏 DCO |
+| [Listing client roles on a cold realm cache is taking 45s for a customer with many roles](https://github.com/keycloak/keycloak/issues/50900) 💬 3 | [keycloak/keycloak](https://github.com/keycloak/keycloak) | 37.3k | 🟡 help wanted | 2026-10-05 | 🤖 disclose AI use · 🔏 DCO |
 | [[Feature] Support for reading and importing embedded images within cells](https://github.com/apache/fesod/issues/22) 💬 3 | [apache/fesod](https://github.com/apache/fesod) | 6.3k | 🟡 help wanted | 2026-10-05 | ✍️ CLA |
 | [[Question] Support using Fesod on Android system](https://github.com/apache/fesod/issues/12) 💬 8 | [apache/fesod](https://github.com/apache/fesod) | 6.3k | 🟡 help wanted | 2026-10-05 | ✍️ CLA |
 | [[Enhancement] Support interface projection exports](https://github.com/apache/fesod/issues/366) 💬 4 | [apache/fesod](https://github.com/apache/fesod) | 6.3k | 🟡 help wanted | 2026-10-05 | ✍️ CLA |
@@ -88,7 +91,6 @@
 | [Support for Vavr types?](https://github.com/micronaut-projects/micronaut-core/issues/3520) 💬 2 | [micronaut-projects/micronaut-core](https://github.com/micronaut-projects/micronaut-core) | 6.4k | 🟡 help wanted | 2026-09-11 |  |
 | [How do you use SNI with SSL?](https://github.com/micronaut-projects/micronaut-core/issues/1131) 💬 1 | [micronaut-projects/micronaut-core](https://github.com/micronaut-projects/micronaut-core) | 6.4k | 🟡 help wanted | 2026-09-11 |  |
 | [Full-duplex support for browsers that do not support WebSocket](https://github.com/micronaut-projects/micronaut-core/issues/583) 💬 2 | [micronaut-projects/micronaut-core](https://github.com/micronaut-projects/micronaut-core) | 6.4k | 🟡 help wanted | 2026-09-11 |  |
-| [NPE when recovering from snapshot in StreamProcessor](https://github.com/camunda/camunda/issues/12201) 💬 2 | [camunda/camunda](https://github.com/camunda/camunda) | 4.3k | 🟢 beginner | 2026-09-11 | ✍️ CLA |
 | [[Feature][WorkflowTiming] Supports multiple timing plans for one workflow](https://github.com/apache/dolphinscheduler/issues/15151) 💬 7 | [apache/dolphinscheduler](https://github.com/apache/dolphinscheduler) | 14.5k | 🟡 help wanted | 2026-09-08 |  |
 | [Add "search instead for" feature to search page](https://github.com/TeamNewPipe/NewPipe/issues/6032) 💬 3 | [TeamNewPipe/NewPipe](https://github.com/TeamNewPipe/NewPipe) | 40k | 🟢 beginner | 2026-09-07 | 📄 AI policy |
 | [Showing total number of subscriptions.](https://github.com/TeamNewPipe/NewPipe/issues/6292) 💬 1 | [TeamNewPipe/NewPipe](https://github.com/TeamNewPipe/NewPipe) | 40k | 🟢 beginner | 2026-09-07 | 📄 AI policy |
@@ -174,6 +176,7 @@
 | [Whether contain spring-cloud-loadbalancer dependency in nacos-discovery module](https://github.com/alibaba/spring-cloud-alibaba/issues/3115) 💬 3 | [alibaba/spring-cloud-alibaba](https://github.com/alibaba/spring-cloud-alibaba) | 29.2k | 🟢 beginner | 2026-07-21 |  |
 | [Use kiali to build a microservices governance console](https://github.com/alibaba/spring-cloud-alibaba/issues/3118) 💬 2 | [alibaba/spring-cloud-alibaba](https://github.com/alibaba/spring-cloud-alibaba) | 29.2k | 🟢 beginner | 2026-07-21 |  |
 | [Regarding the GA version issue](https://github.com/alibaba/spring-cloud-alibaba/issues/4100) 💬 6 | [alibaba/spring-cloud-alibaba](https://github.com/alibaba/spring-cloud-alibaba) | 29.2k | 🟢 beginner | 2026-07-21 |  |
+| [Oracle Geometry type not handled / not queryable in Trino](https://github.com/trinodb/trino/issues/30020) 💬 3 | [trinodb/trino](https://github.com/trinodb/trino) | 13.3k | 🟢 beginner | 2026-07-21 | ✍️ CLA |
 | [RTools download progress dialog isn't focused](https://github.com/rstudio/rstudio/issues/11521) 💬 2 | [rstudio/rstudio](https://github.com/rstudio/rstudio) | 5.1k | 🟢 beginner | 2026-07-21 |  |
 | [[FEATURE] Native volume key / Bluetooth shutter shortcut for FadShot during video recording](https://github.com/anonfaded/FadCam/issues/292) 💬 2 | [anonfaded/FadCam](https://github.com/anonfaded/FadCam) | 2.8k | 🟢 beginner | 2026-07-21 |  |
 | [The MavenMetaAnalyzer task fails due to invalid URLs](https://github.com/DependencyTrack/dependency-track/issues/3566) 💬 2 | [DependencyTrack/dependency-track](https://github.com/DependencyTrack/dependency-track) | 4.3k | 🟢 beginner | 2026-07-16 | ⚠️ AI restricted · 🔏 DCO |
@@ -209,8 +212,5 @@
 | [Specifying only Group Name and Version will not match VulnerableSoftware using the Internal Analyzer.](https://github.com/DependencyTrack/dependency-track/issues/2984) 💬 2 | [DependencyTrack/dependency-track](https://github.com/DependencyTrack/dependency-track) | 4.3k | 🟢 beginner | 2026-06-13 | ⚠️ AI restricted · 🔏 DCO |
 | [include support for opencv 5](https://github.com/bytedeco/javacv/issues/2388) | [bytedeco/javacv](https://github.com/bytedeco/javacv) | 8.3k | 🟡 help wanted | 2026-06-09 |  |
 | [[BUG] Auto split not working in dual recording more](https://github.com/anonfaded/FadCam/issues/303) | [anonfaded/FadCam](https://github.com/anonfaded/FadCam) | 2.8k | 🟢 beginner | 2026-06-09 |  |
-| [Show all queries by default in Web UI](https://github.com/trinodb/trino/issues/4350) 💬 4 | [trinodb/trino](https://github.com/trinodb/trino) | 13.3k | 🟢 beginner | 2026-06-08 | ✍️ CLA |
-| [Using WebClient with Mono.zip stuck in half-open state.](https://github.com/resilience4j/resilience4j/issues/1681) 💬 4 | [resilience4j/resilience4j](https://github.com/resilience4j/resilience4j) | 10.8k | 🟡 help wanted | 2026-06-07 |  |
-| [On window minimize Screen.resize(0,0) called on Windows but not on Linux](https://github.com/libgdx/libgdx/issues/7072) 💬 8 | [libgdx/libgdx](https://github.com/libgdx/libgdx) | 25.4k | 🟢 beginner | 2026-06-04 | ✍️ CLA |
 
-Showing the 200 most recently updated. See all 253 on the website.
+Showing the 200 most recently updated. See all 254 on the website.

@@ -1,10 +1,10 @@
 # Kotlin issues
 
-**172** open issues (67 labeled for beginners) across **76** active Kotlin projects.
+**170** open issues (66 labeled for beginners) across **75** active Kotlin projects.
 
 [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/kotlin.xml)
 
-> Updated automatically on **2026-10-09 12:51 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-10-09 22:36 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -24,9 +24,7 @@
 | [WearTilesKotlin: 'tiles-tooling' ships in release builds](https://github.com/android/wear-os-samples/issues/1391) 💬 1 | [android/wear-os-samples](https://github.com/android/wear-os-samples) | 1.4k | 🟢 beginner | 2026-10-08 | ✍️ CLA |
 | [WatchFacePush: Lint errors fail the build ('LocalContextGetResourceValueCall')](https://github.com/android/wear-os-samples/issues/1389) | [android/wear-os-samples](https://github.com/android/wear-os-samples) | 1.4k | 🟢 beginner | 2026-10-08 | ✍️ CLA |
 | [[Bug] App Crash: java.lang.IllegalArgumentException: color cannot be null](https://github.com/hushenghao/AndroidEasterEggs/issues/995) 💬 2 | [hushenghao/AndroidEasterEggs](https://github.com/hushenghao/AndroidEasterEggs) | 1.3k | 🟡 help wanted | 2026-10-08 |  |
-| ['RedundantVisibilityModifier' false negative on constructor visibility](https://github.com/detekt/detekt/issues/9780) | [detekt/detekt](https://github.com/detekt/detekt) | 7.1k | 🟡 help wanted | 2026-10-07 | 📄 AI policy |
 | [Weather skill does not understand some cities](https://github.com/DicioTeam/dicio-android/issues/115) 💬 5 | [DicioTeam/dicio-android](https://github.com/DicioTeam/dicio-android) | 1.5k | 🟢 beginner | 2026-10-07 |  |
-| [Launch "read aloud" on "TED Sex" crash the app](https://github.com/kiwix/kiwix-android/issues/5173) | [kiwix/kiwix-android](https://github.com/kiwix/kiwix-android) | 1.5k | 🟢 beginner | 2026-10-07 |  |
 | [RFC: Feature - Allow double-click to adopt new policy branch](https://github.com/yairm210/Unciv/issues/15719) | [yairm210/Unciv](https://github.com/yairm210/Unciv) | 11.4k | 🟡 help wanted | 2026-10-06 |  |
 | [[Feature]: Add a way to export and import app settings](https://github.com/kitsumed/ShizuCallRecorder/issues/122) 💬 5 | [kitsumed/ShizuCallRecorder](https://github.com/kitsumed/ShizuCallRecorder) | 1.7k | 🟡 help wanted | 2026-10-06 | 🤖 disclose AI use |
 | [Add option maxCacheSize](https://github.com/getsentry/sentry-java/issues/3136) 💬 1 | [getsentry/sentry-java](https://github.com/getsentry/sentry-java) | 1.4k | 🟢 beginner | 2026-10-06 |  |
@@ -40,8 +38,8 @@
 | [Sign in With Google either crashes or has no effect](https://github.com/thunderbird/thunderbird-android/issues/8697) 💬 1 | [thunderbird/thunderbird-android](https://github.com/thunderbird/thunderbird-android) | 14.1k | 🟡 help wanted | 2026-09-30 | 🤖 disclose AI use |
 | [Please don't open issues about adding settings for very small behavior changes](https://github.com/libre-tube/LibreTube/issues/8465) 💬 34 | [libre-tube/LibreTube](https://github.com/libre-tube/LibreTube) | 12.8k | 🟡 help wanted | 2026-09-30 |  |
 | [Add Declarative KSP for MCP Server](https://github.com/modelcontextprotocol/kotlin-sdk/issues/102) 💬 7 | [modelcontextprotocol/kotlin-sdk](https://github.com/modelcontextprotocol/kotlin-sdk) | 1.5k | 🟡 help wanted | 2026-09-30 |  |
-| [SoundCloud Integration](https://github.com/MuwMx/YumaPlayer/issues/87) 💬 1 | [MuwMx/YumaPlayer](https://github.com/MuwMx/YumaPlayer) | 708 | 🟡 help wanted | 2026-09-29 |  |
-| [Separate Grid Item Settings for the Dock](https://github.com/T31n/YagniLauncher/issues/1058) | [T31n/YagniLauncher](https://github.com/T31n/YagniLauncher) | 670 | 🟢 beginner | 2026-09-27 |  |
+| [SoundCloud Integration](https://github.com/MuwMx/YumaPlayer/issues/87) 💬 1 | [MuwMx/YumaPlayer](https://github.com/MuwMx/YumaPlayer) | 714 | 🟡 help wanted | 2026-09-29 |  |
+| [Separate Grid Item Settings for the Dock](https://github.com/T31n/YagniLauncher/issues/1058) | [T31n/YagniLauncher](https://github.com/T31n/YagniLauncher) | 671 | 🟢 beginner | 2026-09-27 |  |
 | [Add rule 'ReplaceTryFinallyWithUse'](https://github.com/detekt/detekt/issues/8900) 💬 7 | [detekt/detekt](https://github.com/detekt/detekt) | 7.1k | 🟡 help wanted | 2026-09-25 | 📄 AI policy |
 | [[Feature]: Add LADB / Direct Wireless Debugging backend option](https://github.com/kitsumed/ShizuCallRecorder/issues/97) 💬 2 | [kitsumed/ShizuCallRecorder](https://github.com/kitsumed/ShizuCallRecorder) | 1.7k | 🟡 help wanted | 2026-09-25 | 🤖 disclose AI use |
 | [Bad column rendering in mails](https://github.com/thunderbird/thunderbird-android/issues/9455) 💬 12 | [thunderbird/thunderbird-android](https://github.com/thunderbird/thunderbird-android) | 14.1k | 🟡 help wanted | 2026-09-24 | 🤖 disclose AI use |
@@ -62,8 +60,8 @@
 | [Repeat entry of phone pin to reveal imap/smtp password on Android 16 but not 10](https://github.com/thunderbird/thunderbird-android/issues/11565) 💬 2 | [thunderbird/thunderbird-android](https://github.com/thunderbird/thunderbird-android) | 14.1k | 🟡 help wanted | 2026-09-17 | 🤖 disclose AI use |
 | [Incorrect numbering when saving duplicate attachments for application/octet-stream attachments](https://github.com/thunderbird/thunderbird-android/issues/9141) 💬 9 | [thunderbird/thunderbird-android](https://github.com/thunderbird/thunderbird-android) | 14.1k | 🟢 beginner | 2026-09-17 | 🤖 disclose AI use |
 | [Select current server URL when Server URL configuration dialog is launched](https://github.com/getodk/collect/issues/4574) 💬 12 | [getodk/collect](https://github.com/getodk/collect) | 793 | 🟢 beginner | 2026-09-17 | 🤖 disclose AI use |
-| ['androidCompileSdkExtension = "-"' silently becomes null, hiding the intended SDK extension level](https://github.com/wangzhishou/OneBox/issues/20) 💬 1 | [wangzhishou/OneBox](https://github.com/wangzhishou/OneBox) | 657 | 🟢 beginner | 2026-09-16 |  |
-| ["universal" ABI flavor produces identical APK to "arm64" — misleading name and wasted build time](https://github.com/wangzhishou/OneBox/issues/19) 💬 1 | [wangzhishou/OneBox](https://github.com/wangzhishou/OneBox) | 657 | 🟡 help wanted | 2026-09-16 |  |
+| ['androidCompileSdkExtension = "-"' silently becomes null, hiding the intended SDK extension level](https://github.com/wangzhishou/OneBox/issues/20) 💬 1 | [wangzhishou/OneBox](https://github.com/wangzhishou/OneBox) | 664 | 🟢 beginner | 2026-09-16 |  |
+| ["universal" ABI flavor produces identical APK to "arm64" — misleading name and wasted build time](https://github.com/wangzhishou/OneBox/issues/19) 💬 1 | [wangzhishou/OneBox](https://github.com/wangzhishou/OneBox) | 664 | 🟡 help wanted | 2026-09-16 |  |
 | [Map maintenance with overlays](https://github.com/streetcomplete/StreetComplete/issues/4735) 💬 14 | [streetcomplete/StreetComplete](https://github.com/streetcomplete/StreetComplete) | 5k | 🟡 help wanted | 2026-09-14 |  |
 | [[Account setup] Display "warning" message when using POP3](https://github.com/thunderbird/thunderbird-android/issues/7551) 💬 5 | [thunderbird/thunderbird-android](https://github.com/thunderbird/thunderbird-android) | 14.1k | 🟢 beginner | 2026-09-11 | 🤖 disclose AI use |
 | [Investigate in which case 'originalMessage.from' can be either null or empty on 'TextQuoteCreator.prefixQuoteT](https://github.com/thunderbird/thunderbird-android/issues/10610) 💬 1 | [thunderbird/thunderbird-android](https://github.com/thunderbird/thunderbird-android) | 14.1k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use |
@@ -136,7 +134,7 @@
 | [Use account image for "K-9 Accounts" widget](https://github.com/thunderbird/thunderbird-android/issues/7906) 💬 1 | [thunderbird/thunderbird-android](https://github.com/thunderbird/thunderbird-android) | 14.1k | 🟢 beginner | 2026-07-29 | 🤖 disclose AI use |
 | [File extension k9s seems not registered in android](https://github.com/thunderbird/thunderbird-android/issues/3562) 💬 1 | [thunderbird/thunderbird-android](https://github.com/thunderbird/thunderbird-android) | 14.1k | 🟢 beginner | 2026-07-29 | 🤖 disclose AI use |
 | [Improve Privacy Policy to explain Google Play Data Sharing](https://github.com/ankidroid/Anki-Android/issues/18413) 💬 23 | [ankidroid/Anki-Android](https://github.com/ankidroid/Anki-Android) | 12k | 🟡 help wanted | 2026-07-26 | 🤖 disclose AI use |
-| [[Serious Bug] App crashes (SIGSEGV) when switching to a new video too quickly](https://github.com/mpvRex/REX-Player/issues/216) 💬 3 | [mpvRex/REX-Player](https://github.com/mpvRex/REX-Player) | 746 | 🟡 help wanted | 2026-07-26 |  |
+| [[Serious Bug] App crashes (SIGSEGV) when switching to a new video too quickly](https://github.com/mpvRex/REX-Player/issues/216) 💬 3 | [mpvRex/REX-Player](https://github.com/mpvRex/REX-Player) | 747 | 🟡 help wanted | 2026-07-26 |  |
 | [Allow using a custom Hub with SentryTraced for Jetpack Compose](https://github.com/getsentry/sentry-java/issues/2668) 💬 7 | [getsentry/sentry-java](https://github.com/getsentry/sentry-java) | 1.4k | 🟢 beginner | 2026-07-24 |  |
 | [Crash on HW decoder on AV1 videos](https://github.com/mpv-android/mpv-android/issues/1213) 💬 7 | [mpv-android/mpv-android](https://github.com/mpv-android/mpv-android) | 3.6k | 🟡 help wanted | 2026-07-21 |  |
 | [How to activate adb write?](https://github.com/T31n/Geto/issues/372) | [T31n/Geto](https://github.com/T31n/Geto) | 1.3k | 🟡 help wanted | 2026-07-19 |  |

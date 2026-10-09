@@ -1,8 +1,8 @@
 # Security and privacy issues
 
-**208** open issues (106 labeled for beginners) across **56** projects tagged with topics like `security`, `privacy`, `cryptography`, `encryption`, `authentication`, `oauth`.
+**211** open issues (106 labeled for beginners) across **56** projects tagged with topics like `security`, `privacy`, `cryptography`, `encryption`, `authentication`, `oauth`.
 
-> Updated automatically on **2026-10-09 12:51 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-10-09 22:36 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -11,6 +11,7 @@
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
 | [SSL_OP_CLEANSE_PLAINTEXT: TLS read buffer not cleansed on SSL_free() since 3.2.0](https://github.com/openssl/openssl/issues/33170) 💬 1 | [openssl/openssl](https://github.com/openssl/openssl) | 30.9k | 🟡 help wanted | 2026-10-09 | 🤖 disclose AI use · ✍️ CLA |
+| [Integration with ticktick or Vikunja](https://github.com/super-productivity/super-productivity/issues/2312) 💬 30 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.7k | 🟡 help wanted | 2026-10-09 |  |
 | [Make sure opening hours show proper schedule on selecting another POI](https://github.com/organicmaps/organicmaps/issues/12106) 💬 7 | [organicmaps/organicmaps](https://github.com/organicmaps/organicmaps) | 15.6k | 🟢 beginner | 2026-10-09 | 🔏 DCO |
 | [Missing tests for binary detection rules](https://github.com/e-m-b-a/emba/issues/2157) | [e-m-b-a/emba](https://github.com/e-m-b-a/emba) | 3.7k | 🟢 beginner | 2026-10-09 |  |
 | [💡 Finish Task As "Won't Do"](https://github.com/super-productivity/super-productivity/issues/7830) 💬 10 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.7k | 🟡 help wanted | 2026-10-08 |  |
@@ -21,7 +22,6 @@
 | [Proposal: Migrate docs from Material for MkDocs to Zensical](https://github.com/DependencyTrack/dependency-track/issues/7597) 💬 1 | [DependencyTrack/dependency-track](https://github.com/DependencyTrack/dependency-track) | 4.3k | 🟡 help wanted | 2026-10-06 | ⚠️ AI restricted · 🔏 DCO |
 | [[Feature]: Add a way to export and import app settings](https://github.com/kitsumed/ShizuCallRecorder/issues/122) 💬 5 | [kitsumed/ShizuCallRecorder](https://github.com/kitsumed/ShizuCallRecorder) | 1.7k | 🟡 help wanted | 2026-10-06 | 🤖 disclose AI use |
 | [04-test_bio_dgram.t hangs on HP-UX (hpux-ipf32 and hpux-ipf64, IA64)](https://github.com/openssl/openssl/issues/33112) 💬 1 | [openssl/openssl](https://github.com/openssl/openssl) | 30.9k | 🟡 help wanted | 2026-10-05 | 🤖 disclose AI use · ✍️ CLA |
-| [Integration with ticktick or Vikunja](https://github.com/super-productivity/super-productivity/issues/2312) 💬 28 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.7k | 🟡 help wanted | 2026-10-05 |  |
 | [Loginflow SSO for Nextcloud](https://github.com/super-productivity/super-productivity/issues/914) 💬 30 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.7k | 🟡 help wanted | 2026-10-05 |  |
 | [💡 [Android] Feature Request: Customizable Bottom Navigation Bar Layout](https://github.com/super-productivity/super-productivity/issues/7637) 💬 9 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.7k | 🟡 help wanted | 2026-10-05 |  |
 | [Simplify SecretInjection: drop basic_auth and query_params flags](https://github.com/superradcompany/microsandbox/issues/703) 💬 2 | [superradcompany/microsandbox](https://github.com/superradcompany/microsandbox) | 8.6k | 🟢 beginner | 2026-10-05 | 🔏 DCO |
@@ -31,7 +31,6 @@
 | [💡 bottom Navigation bar {ui/ux improvement for phone: 6a/100}](https://github.com/super-productivity/super-productivity/issues/10095) 💬 4 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.7k | 🟡 help wanted | 2026-10-04 |  |
 | [OpenSSL retains consumed TLS 1.3 stage secrets](https://github.com/openssl/openssl/issues/32213) 💬 2 | [openssl/openssl](https://github.com/openssl/openssl) | 30.9k | 🟡 help wanted | 2026-10-01 | 🤖 disclose AI use · ✍️ CLA |
 | [Cleanup in EVP_SKEY from PKCS#12 files processing](https://github.com/openssl/openssl/issues/33041) 💬 1 | [openssl/openssl](https://github.com/openssl/openssl) | 30.9k | 🟡 help wanted | 2026-10-01 | 🤖 disclose AI use · ✍️ CLA |
-| [SSL_load_client_CA_file ignores TRUSTED CERTIFICATE PEM blocks](https://github.com/openssl/openssl/issues/33020) 💬 1 | [openssl/openssl](https://github.com/openssl/openssl) | 30.9k | 🟡 help wanted | 2026-10-01 | 🤖 disclose AI use · ✍️ CLA |
 | [User country map: allow to zoom in countries when no clickable area](https://github.com/matomo-org/matomo/issues/11319) 💬 5 | [matomo-org/matomo](https://github.com/matomo-org/matomo) | 21.9k | 🟡 help wanted | 2026-10-01 |  |
 | [Installation with DB connection over TLS not possible](https://github.com/matomo-org/matomo/issues/16404) 💬 4 | [matomo-org/matomo](https://github.com/matomo-org/matomo) | 21.9k | 🟡 help wanted | 2026-10-01 |  |
 | ['x509_from_der' segfaults with invalid input](https://github.com/zeek/zeek/issues/5927) 💬 3 | [zeek/zeek](https://github.com/zeek/zeek) | 8.1k | 🟢 beginner | 2026-10-01 | 🤖 disclose AI use |
@@ -50,6 +49,10 @@
 | [Feature: Self-hosted sync server](https://github.com/simonoppowa/OpenNutriTracker/issues/79) 💬 5 | [simonoppowa/OpenNutriTracker](https://github.com/simonoppowa/OpenNutriTracker) | 2.6k | 🟡 help wanted | 2026-09-27 |  |
 | [Submit OpenNutriTracker to the F-Droid repository](https://github.com/simonoppowa/OpenNutriTracker/issues/575) 💬 4 | [simonoppowa/OpenNutriTracker](https://github.com/simonoppowa/OpenNutriTracker) | 2.6k | 🟢 beginner | 2026-09-27 |  |
 | [[robustness] -purpose crlsign\|ocsphelper infers aux-blind X509_TRUST_COMPAT (x509_vfy.c:2621) → anchor REJECT](https://github.com/openssl/openssl/issues/32365) 💬 2 | [openssl/openssl](https://github.com/openssl/openssl) | 30.9k | 🟡 help wanted | 2026-09-26 | 🤖 disclose AI use · ✍️ CLA |
+| [💡 Add a folder option to the board project filter](https://github.com/super-productivity/super-productivity/issues/8615) 💬 2 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.7k | 🟡 help wanted | 2026-09-26 |  |
+| [💡 OneDev as issue provider](https://github.com/super-productivity/super-productivity/issues/10183) 💬 1 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.7k | 🟡 help wanted | 2026-09-26 |  |
+| [💡 Calendar-style Week view with Monday-based weeks and week navigation](https://github.com/super-productivity/super-productivity/issues/9514) 💬 3 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.7k | 🟡 help wanted | 2026-09-26 |  |
+| [💡 Add a complete list of all keyboard shortcuts](https://github.com/super-productivity/super-productivity/issues/10204) 💬 1 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.7k | 🟡 help wanted | 2026-09-26 |  |
 | [[Feature]: Add LADB / Direct Wireless Debugging backend option](https://github.com/kitsumed/ShizuCallRecorder/issues/97) 💬 2 | [kitsumed/ShizuCallRecorder](https://github.com/kitsumed/ShizuCallRecorder) | 1.7k | 🟡 help wanted | 2026-09-25 | 🤖 disclose AI use |
 | [please support Chinese](https://github.com/LeanBitLab/LeanType/issues/235) 💬 6 | [LeanBitLab/LeanType](https://github.com/LeanBitLab/LeanType) | 1k | 🟡 help wanted | 2026-09-23 |  |
 | [With external engine, getting DHE copy parameter's failure.](https://github.com/openssl/openssl/issues/23137) 💬 12 | [openssl/openssl](https://github.com/openssl/openssl) | 30.9k | 🟡 help wanted | 2026-09-21 | 🤖 disclose AI use · ✍️ CLA |
@@ -98,8 +101,8 @@
 | [Ente Auth iOS: slow unlock](https://github.com/ente/ente/issues/4749) 💬 10 | [ente/ente](https://github.com/ente/ente) | 29.3k | 🟢 beginner | 2026-08-11 |  |
 | [Samba integration](https://github.com/lldap/lldap/issues/599) 💬 32 | [lldap/lldap](https://github.com/lldap/lldap) | 6.6k | 🟡 help wanted | 2026-08-11 |  |
 | [Update bundled jQuery version to address older dependency warnings](https://github.com/LinkStackOrg/LinkStack/issues/995) 💬 1 | [LinkStackOrg/LinkStack](https://github.com/LinkStackOrg/LinkStack) | 3.9k | 🟢 beginner | 2026-08-11 |  |
-| [Setup Onboarding Login-Flow (for Enforce 2FA)](https://github.com/WordPress/two-factor/issues/813) 💬 3 | [WordPress/two-factor](https://github.com/WordPress/two-factor) | 823 | 🟡 help wanted | 2026-08-10 | 🤖 disclose AI use |
-| [Scaled instances and the deletion problem](https://github.com/HaschekSolutions/pictshare/issues/80) 💬 8 | [HaschekSolutions/pictshare](https://github.com/HaschekSolutions/pictshare) | 951 | 🟡 help wanted | 2026-08-09 |  |
+| [Setup Onboarding Login-Flow (for Enforce 2FA)](https://github.com/WordPress/two-factor/issues/813) 💬 3 | [WordPress/two-factor](https://github.com/WordPress/two-factor) | 824 | 🟡 help wanted | 2026-08-10 | 🤖 disclose AI use |
+| [Scaled instances and the deletion problem](https://github.com/HaschekSolutions/pictshare/issues/80) 💬 8 | [HaschekSolutions/pictshare](https://github.com/HaschekSolutions/pictshare) | 950 | 🟡 help wanted | 2026-08-09 |  |
 | [[Feature Request]: Add Shuffle button within both YouTube and User Playlists](https://github.com/FreeTubeApp/FreeTube/issues/5618) 💬 10 | [FreeTubeApp/FreeTube](https://github.com/FreeTubeApp/FreeTube) | 22k | 🟢 beginner | 2026-08-06 |  |
 | [[Feature Request]: Have refresh timestamp on the subscriptions page update on an interval](https://github.com/FreeTubeApp/FreeTube/issues/5140) 💬 4 | [FreeTubeApp/FreeTube](https://github.com/FreeTubeApp/FreeTube) | 22k | 🟢 beginner | 2026-08-06 |  |
 | [[Feature Request]: Localise 'README.md'](https://github.com/FreeTubeApp/FreeTube/issues/3200) 💬 1 | [FreeTubeApp/FreeTube](https://github.com/FreeTubeApp/FreeTube) | 22k | 🟡 help wanted | 2026-08-06 |  |
@@ -185,7 +188,7 @@
 | [XAP: add missing opcodes](https://github.com/rizinorg/rizin/issues/4661) 💬 5 | [rizinorg/rizin](https://github.com/rizinorg/rizin) | 3.9k | 🟢 beginner | 2026-06-07 | 🤖 disclose AI use |
 | [Add rendering man_made=tower](https://github.com/organicmaps/organicmaps/issues/5521) 💬 7 | [organicmaps/organicmaps](https://github.com/organicmaps/organicmaps) | 15.6k | 🟢 beginner | 2026-06-06 | 🔏 DCO |
 | [Publish icon is upside down](https://github.com/MISP/MISP/issues/1179) 💬 3 | [MISP/MISP](https://github.com/MISP/MISP) | 6.6k | 🟢 beginner | 2026-06-05 | ✍️ CLA |
-| [Selenium tests: check console output.](https://github.com/searxng/searxng/issues/338) 💬 1 | [searxng/searxng](https://github.com/searxng/searxng) | 38.1k | 🟢 beginner | 2026-06-04 | 📄 AI policy |
+| [Selenium tests: check console output.](https://github.com/searxng/searxng/issues/338) 💬 1 | [searxng/searxng](https://github.com/searxng/searxng) | 38.2k | 🟢 beginner | 2026-06-04 | 📄 AI policy |
 | [[FR] RTL BiDi Support](https://github.com/PrivateBin/PrivateBin/issues/1849) 💬 1 | [PrivateBin/PrivateBin](https://github.com/PrivateBin/PrivateBin) | 8.7k | 🟡 help wanted | 2026-06-04 | 🤖 disclose AI use |
 | [Request: Form Upload with http server](https://github.com/rclone/rclone/issues/3151) 💬 3 | [rclone/rclone](https://github.com/rclone/rclone) | 60.2k | 🟡 help wanted | 2026-06-02 |  |
 | [Projects view, versions column should support semantic versioning](https://github.com/DependencyTrack/dependency-track/issues/378) 💬 3 | [DependencyTrack/dependency-track](https://github.com/DependencyTrack/dependency-track) | 4.3k | 🟡 help wanted | 2026-05-30 | ⚠️ AI restricted · 🔏 DCO |
@@ -207,8 +210,5 @@
 | [checkTxJsonFields calls asString() on tx_json.Account without type check](https://github.com/XRPLF/rippled/issues/6771) 💬 1 | [XRPLF/rippled](https://github.com/XRPLF/rippled) | 5.2k | 🟢 beginner | 2026-05-08 |  |
 | [CephFS Backend](https://github.com/rclone/rclone/issues/7172) 💬 11 | [rclone/rclone](https://github.com/rclone/rclone) | 60.2k | 🟡 help wanted | 2026-05-06 |  |
 | [Define a clear threat model for this project](https://github.com/ungoogled-software/ungoogled-chromium/issues/3287) 💬 4 | [ungoogled-software/ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium) | 27.9k | 🟡 help wanted | 2026-05-05 |  |
-| [hide close button("x") on first half(first tab) of "split view"](https://github.com/ungoogled-software/ungoogled-chromium/issues/3771) | [ungoogled-software/ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium) | 27.9k | 🟡 help wanted | 2026-05-05 |  |
-| [Add moderation contact information or button? (report content feature)](https://github.com/PrivateBin/PrivateBin/issues/674) 💬 8 | [PrivateBin/PrivateBin](https://github.com/PrivateBin/PrivateBin) | 8.7k | 🟢 beginner | 2026-05-03 | 🤖 disclose AI use |
-| [Towards a centralized vulnerability database for Dependency-Track](https://github.com/DependencyTrack/dependency-track/issues/4122) 💬 14 | [DependencyTrack/dependency-track](https://github.com/DependencyTrack/dependency-track) | 4.3k | 🟡 help wanted | 2026-04-29 | ⚠️ AI restricted · 🔏 DCO |
 
-Showing the 200 most recently updated. See all 208 on the website.
+Showing the 200 most recently updated. See all 211 on the website.

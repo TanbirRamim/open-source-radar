@@ -1,10 +1,10 @@
 # Vue issues
 
-**31** open issues (21 labeled for beginners) across **11** active Vue projects.
+**30** open issues (20 labeled for beginners) across **11** active Vue projects.
 
 [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/vue.xml)
 
-> Updated automatically on **2026-10-09 12:51 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-10-09 22:36 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -18,9 +18,8 @@
 | [建议新增同步数据的服务端，比如同步歌单，配置信息](https://github.com/algerkong/AlgerMusicPlayer/issues/385) | [algerkong/AlgerMusicPlayer](https://github.com/algerkong/AlgerMusicPlayer) | 16.9k | 🟡 help wanted | 2026-10-07 |  |
 | [使用过后的反馈建议以及一些期望的功能](https://github.com/algerkong/AlgerMusicPlayer/issues/132) 💬 1 | [algerkong/AlgerMusicPlayer](https://github.com/algerkong/AlgerMusicPlayer) | 16.9k | 🟢 beginner | 2026-10-07 |  |
 | [火狐浏览器添加根证书步骤过时](https://github.com/docmirror/dev-sidecar/issues/720) | [docmirror/dev-sidecar](https://github.com/docmirror/dev-sidecar) | 24.4k | 🟢 beginner | 2026-10-06 |  |
-| [[Bug] 动态签发的叶子证书 authorityKeyIdentifier 为空 SEQUENCE，导致 Python 3.13+ X509_STRICT 校验失败](https://github.com/docmirror/dev-sidecar/issues/712) 💬 1 | [docmirror/dev-sidecar](https://github.com/docmirror/dev-sidecar) | 24.4k | 🟢 beginner | 2026-10-03 |  |
 | [[Bug] Linux 下托盘图标右键菜单无法展开（popUpContextMenu 在 Linux 无效，需改用 setContextMenu）](https://github.com/docmirror/dev-sidecar/issues/716) 💬 2 | [docmirror/dev-sidecar](https://github.com/docmirror/dev-sidecar) | 24.4k | 🟢 beginner | 2026-10-03 |  |
-| [Command Line controls](https://github.com/tranxuanthang/lrcget/issues/61) 💬 6 | [tranxuanthang/lrcget](https://github.com/tranxuanthang/lrcget) | 3.2k | 🟡 help wanted | 2026-09-06 |  |
+| [Command Line controls](https://github.com/tranxuanthang/lrcget/issues/61) 💬 6 | [tranxuanthang/lrcget](https://github.com/tranxuanthang/lrcget) | 3.3k | 🟡 help wanted | 2026-09-06 |  |
 | [Incorrect username after "Delete and re-draft" for handles with subdomains](https://github.com/elk-zone/elk/issues/3410) 💬 2 | [elk-zone/elk](https://github.com/elk-zone/elk) | 6k | 🟡 help wanted | 2026-09-05 | 🔏 DCO |
 | [Spanish translations](https://github.com/Smaug6739/Alexandrie/issues/651) | [Smaug6739/Alexandrie](https://github.com/Smaug6739/Alexandrie) | 2.8k | 🟢 beginner | 2026-08-26 |  |
 | [Improve public documents sharing](https://github.com/Smaug6739/Alexandrie/issues/608) | [Smaug6739/Alexandrie](https://github.com/Smaug6739/Alexandrie) | 2.8k | 🟢 beginner | 2026-08-24 |  |

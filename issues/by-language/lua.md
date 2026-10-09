@@ -4,7 +4,7 @@
 
 [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/lua.xml)
 
-> Updated automatically on **2026-10-09 12:51 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-10-09 22:36 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -14,7 +14,7 @@
 | --- | --- | ---: | --- | --- | --- |
 | [[Bug] Missing room explosion animation](https://github.com/CorsixTH/CorsixTH/issues/2556) 💬 7 | [CorsixTH/CorsixTH](https://github.com/CorsixTH/CorsixTH) | 4.6k | 🟡 help wanted | 2026-10-08 |  |
 | [New Feed for NCRTC (Regional train)](https://github.com/public-transport/transitous/issues/1622) 💬 2 | [public-transport/transitous](https://github.com/public-transport/transitous) | 731 | 🟢 beginner | 2026-10-07 | 📄 AI policy |
-| [[GTAV Enhanced] Reproducible client crash when consuming water/burger with ox_core](https://github.com/overextended/ox_inventory/issues/1977) 💬 1 | [overextended/ox_inventory](https://github.com/overextended/ox_inventory) | 563 | 🟡 help wanted | 2026-10-06 | ✍️ CLA |
+| [[GTAV Enhanced] Reproducible client crash when consuming water/burger with ox_core](https://github.com/overextended/ox_inventory/issues/1977) 💬 1 | [overextended/ox_inventory](https://github.com/overextended/ox_inventory) | 561 | 🟡 help wanted | 2026-10-06 | ✍️ CLA |
 | [feature: have insert in AvanteResult focus AvanteInput](https://github.com/avante-corp/avante.nvim/issues/3292) | [avante-corp/avante.nvim](https://github.com/avante-corp/avante.nvim) | 18.2k | 🟢 beginner | 2026-10-05 |  |
 | [feature: Prompting through lua](https://github.com/carlos-algms/agentic.nvim/issues/316) 💬 4 | [carlos-algms/agentic.nvim](https://github.com/carlos-algms/agentic.nvim) | 641 | 🟡 help wanted | 2026-10-05 |  |
 | [Support for integrating with ClaudeCode's AskUserQuestion](https://github.com/carlos-algms/agentic.nvim/issues/274) 💬 9 | [carlos-algms/agentic.nvim](https://github.com/carlos-algms/agentic.nvim) | 641 | 🟡 help wanted | 2026-10-04 |  |
@@ -25,7 +25,7 @@
 | [Implement LAN Multiplayer System And Mode](https://github.com/CorsixTH/CorsixTH/issues/386) 💬 54 | [CorsixTH/CorsixTH](https://github.com/CorsixTH/CorsixTH) | 4.6k | 🟡 help wanted | 2026-09-18 |  |
 | [Chewbacca patients should be able to transform into females when they die](https://github.com/CorsixTH/CorsixTH/issues/177) 💬 12 | [CorsixTH/CorsixTH](https://github.com/CorsixTH/CorsixTH) | 4.6k | 🟡 help wanted | 2026-09-16 |  |
 | [Locations with known existing but non-public feeds](https://github.com/public-transport/transitous/issues/585) 💬 10 | [public-transport/transitous](https://github.com/public-transport/transitous) | 731 | 🟢 beginner | 2026-09-11 | 📄 AI policy |
-| [[Feature] 可否将标注的想法同步到微信读书功能](https://github.com/finlater/weread.koplugin/issues/126) 💬 7 | [finlater/weread.koplugin](https://github.com/finlater/weread.koplugin) | 876 | 🟡 help wanted | 2026-09-05 |  |
+| [[Feature] 可否将标注的想法同步到微信读书功能](https://github.com/finlater/weread.koplugin/issues/126) 💬 7 | [finlater/weread.koplugin](https://github.com/finlater/weread.koplugin) | 879 | 🟡 help wanted | 2026-09-05 |  |
 | [Integrate Swedish realtime feeds](https://github.com/public-transport/transitous/issues/125) 💬 7 | [public-transport/transitous](https://github.com/public-transport/transitous) | 731 | 🟢 beginner | 2026-08-06 | 📄 AI policy |
 | [Give reason for damage done by tnt](https://github.com/luanti-org/minetest_game/issues/3263) | [luanti-org/minetest_game](https://github.com/luanti-org/minetest_game) | 1.6k | 🟢 beginner | 2026-08-02 |  |
 | [New ingame Setting Button that opens uikeys.txt](https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3369) 💬 2 | [beyond-all-reason/Beyond-All-Reason](https://github.com/beyond-all-reason/Beyond-All-Reason) | 4.3k | 🟢 beginner | 2026-07-19 | 🤖 disclose AI use |

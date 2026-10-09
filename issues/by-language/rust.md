@@ -1,10 +1,10 @@
 # Rust issues
 
-**300** open issues (122 labeled for beginners) across **94** active Rust projects.
+**296** open issues (122 labeled for beginners) across **93** active Rust projects.
 
 [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/rust.xml)
 
-> Updated automatically on **2026-10-09 12:51 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-10-09 22:36 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -12,13 +12,10 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [Showing considerations when typo in function / property or enum values](https://github.com/slint-ui/slint/issues/13937) | [slint-ui/slint](https://github.com/slint-ui/slint) | 24.1k | 🟢 beginner | 2026-10-09 |  |
+| [Windows: 'rtk rake', 'rtk rspec' and 'rtk rubocop' spawn without PATH resolution, so RubyGems' '.bat' binstubs](https://github.com/rtk-ai/rtk/issues/4497) 💬 1 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 82.8k | 🟢 beginner | 2026-10-09 | ✍️ CLA |
+| [Bit array pattern match using a bits-size that uses the same variable name for the size and the segment genera](https://github.com/gleam-lang/gleam/issues/6220) 💬 6 | [gleam-lang/gleam](https://github.com/gleam-lang/gleam) | 22k | 🟡 help wanted | 2026-10-09 | ⚠️ AI restricted |
 | [Use 'ProbeCompletion' in 'NestedLoopJoinExec'](https://github.com/apache/datafusion/issues/26148) 💬 1 | [apache/datafusion](https://github.com/apache/datafusion) | 9.4k | 🟡 help wanted | 2026-10-09 | ✍️ CLA |
-| [RFC: ai-memory as marketplace plugins/extensions to capture GUI agent apps](https://github.com/akitaonrails/ai-memory/issues/1166) 💬 2 | [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) | 9.1k | 🟡 help wanted | 2026-10-09 | 🤖 disclose AI use |
-| [Add support for Prime Agent (PrimeIntellect-ai/prime-agent)](https://github.com/akitaonrails/ai-memory/issues/1163) 💬 2 | [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) | 9.1k | 🟡 help wanted | 2026-10-09 | 🤖 disclose AI use |
-| [Official thin client SDK (TypeScript / Python) for MCP + /api/v1, including lifecycle ops](https://github.com/akitaonrails/ai-memory/issues/1165) 💬 1 | [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) | 9.1k | 🟡 help wanted | 2026-10-09 | 🤖 disclose AI use |
 | [More Linux distros compatible](https://github.com/rustdesk/rustdesk/issues/3565) 💬 9 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | 125.3k | 🟡 help wanted | 2026-10-08 | 🔏 DCO |
-| [Claude Code hook never rewrites 'git commit -m' when the message comes from a heredoc](https://github.com/rtk-ai/rtk/issues/4483) 💬 1 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 82.7k | 🟡 help wanted | 2026-10-08 | ✍️ CLA |
 | [How to get the current directory from a session](https://github.com/alacritty/alacritty/issues/8885) 💬 7 | [alacritty/alacritty](https://github.com/alacritty/alacritty) | 65.9k | 🟢 beginner | 2026-10-08 |  |
 | [[WEB-SDK] - Add Payment Method with Dynamic Field Rendering - BniVa](https://github.com/juspay/hyperswitch/issues/6067) 💬 4 | [juspay/hyperswitch](https://github.com/juspay/hyperswitch) | 45.3k | 🟢 beginner | 2026-10-08 |  |
 | [[WEB-SDK] - Add Payment Method with Dynamic Field Rendering - Online Banking Poland](https://github.com/juspay/hyperswitch/issues/6079) 💬 5 | [juspay/hyperswitch](https://github.com/juspay/hyperswitch) | 45.3k | 🟢 beginner | 2026-10-08 |  |
@@ -26,7 +23,7 @@
 | [Warning for immediately called anonymous functions](https://github.com/gleam-lang/gleam/issues/6259) 💬 3 | [gleam-lang/gleam](https://github.com/gleam-lang/gleam) | 22k | 🟢 beginner | 2026-10-08 | ⚠️ AI restricted |
 | [A diagnostic information command](https://github.com/gleam-lang/gleam/issues/6398) 💬 3 | [gleam-lang/gleam](https://github.com/gleam-lang/gleam) | 22k | 🟡 help wanted | 2026-10-08 | ⚠️ AI restricted |
 | [Overloaded constructor is not converted to a callable correctly](https://github.com/facebook/pyrefly/issues/5053) 💬 2 | [facebook/pyrefly](https://github.com/facebook/pyrefly) | 7.1k | 🟡 help wanted | 2026-10-08 | 📄 AI policy · ✍️ CLA |
-| [ROCm accelerator init broken on Linux since 0.78.0 (hipErrorNoDevice)](https://github.com/koharu-rs/koharu/issues/1052) 💬 5 | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.8k | 🟡 help wanted | 2026-10-08 | 🤖 disclose AI use |
+| [ROCm accelerator init broken on Linux since 0.78.0 (hipErrorNoDevice)](https://github.com/koharu-rs/koharu/issues/1052) 💬 5 | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.9k | 🟡 help wanted | 2026-10-08 | 🤖 disclose AI use |
 | [Toast widget](https://github.com/iced-rs/iced/issues/485) 💬 6 | [iced-rs/iced](https://github.com/iced-rs/iced) | 31.7k | 🟢 beginner | 2026-10-07 |  |
 | [Make MAX_RETRIES configurable](https://github.com/cloudflare/pingora/issues/466) 💬 8 | [cloudflare/pingora](https://github.com/cloudflare/pingora) | 27.6k | 🟡 help wanted | 2026-10-07 |  |
 | [ls: completions for attributes](https://github.com/gleam-lang/gleam/issues/6333) 💬 3 | [gleam-lang/gleam](https://github.com/gleam-lang/gleam) | 22k | 🟢 beginner | 2026-10-07 | ⚠️ AI restricted |
@@ -37,7 +34,7 @@
 | [Cannot filter by an outer column inside EXCEPT](https://github.com/diesel-rs/diesel/issues/5253) 💬 2 | [diesel-rs/diesel](https://github.com/diesel-rs/diesel) | 14.2k | 🟡 help wanted | 2026-10-07 | ⚠️ AI restricted |
 | [Replace the current continuous benchmarking action with our own.](https://github.com/paradedb/paradedb/issues/5013) 💬 5 | [paradedb/paradedb](https://github.com/paradedb/paradedb) | 9.4k | 🟢 beginner | 2026-10-07 | ✍️ CLA |
 | [Suggest another toolchain when removing a component unavailable to the current toolchain](https://github.com/rust-lang/rustup/issues/5098) 💬 3 | [rust-lang/rustup](https://github.com/rust-lang/rustup) | 7.1k | 🟡 help wanted | 2026-10-07 | 📄 AI policy |
-| [Feature: add support for kiro-cli](https://github.com/rtk-ai/rtk/issues/845) 💬 22 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 82.7k | 🟡 help wanted | 2026-10-06 | ✍️ CLA |
+| [Feature: add support for kiro-cli](https://github.com/rtk-ai/rtk/issues/845) 💬 22 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 82.8k | 🟡 help wanted | 2026-10-06 | ✍️ CLA |
 | [LSP: "Pattern match on variable" action not shown when module of type isn't imported](https://github.com/gleam-lang/gleam/issues/5967) 💬 3 | [gleam-lang/gleam](https://github.com/gleam-lang/gleam) | 22k | 🟡 help wanted | 2026-10-06 | ⚠️ AI restricted |
 | [Path and Git dependencies for rebar3 packages](https://github.com/gleam-lang/gleam/issues/5266) 💬 8 | [gleam-lang/gleam](https://github.com/gleam-lang/gleam) | 22k | 🟡 help wanted | 2026-10-06 | ⚠️ AI restricted |
 | [Use boxed slices instead of Vec where appropriate](https://github.com/bytecodealliance/wasmtime/issues/5879) 💬 5 | [bytecodealliance/wasmtime](https://github.com/bytecodealliance/wasmtime) | 18.7k | 🟢 beginner | 2026-10-06 | ⚠️ AI restricted |
@@ -49,15 +46,15 @@
 | [Make feedback anonymity mode discoverable](https://github.com/pacifio/atlas/issues/69) 💬 2 | [pacifio/atlas](https://github.com/pacifio/atlas) | 9.6k | 🟢 beginner | 2026-10-04 |  |
 | [Auto-generate descriptive titles for agent tabs](https://github.com/pacifio/atlas/issues/70) 💬 2 | [pacifio/atlas](https://github.com/pacifio/atlas) | 9.6k | 🟢 beginner | 2026-10-04 |  |
 | [Keep the embedded browser strictly contained within its panel bounds](https://github.com/pacifio/atlas/issues/77) | [pacifio/atlas](https://github.com/pacifio/atlas) | 9.6k | 🟡 help wanted | 2026-10-04 |  |
-| [Feature: add 'rtk artisan' wrapper for Laravel projects](https://github.com/rtk-ai/rtk/issues/2617) 💬 4 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 82.7k | 🟡 help wanted | 2026-10-03 | ✍️ CLA |
-| [[BUG] rtk ls always reports 0B file size on Windows](https://github.com/rtk-ai/rtk/issues/1084) 💬 2 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 82.7k | 🟢 beginner | 2026-10-03 | ✍️ CLA |
-| [RTK hooks lacks support for github copilot -and github copilot app](https://github.com/rtk-ai/rtk/issues/4424) 💬 1 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 82.7k | 🟡 help wanted | 2026-10-03 | ✍️ CLA |
-| ['rtk grep' uses ~31× the memory and ~4.9× the wall-clock of 'grep' for the same search](https://github.com/rtk-ai/rtk/issues/3392) 💬 6 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 82.7k | 🟡 help wanted | 2026-10-02 | ✍️ CLA |
+| [Feature: add 'rtk artisan' wrapper for Laravel projects](https://github.com/rtk-ai/rtk/issues/2617) 💬 4 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 82.8k | 🟡 help wanted | 2026-10-03 | ✍️ CLA |
+| [[BUG] rtk ls always reports 0B file size on Windows](https://github.com/rtk-ai/rtk/issues/1084) 💬 2 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 82.8k | 🟢 beginner | 2026-10-03 | ✍️ CLA |
+| [RTK hooks lacks support for github copilot -and github copilot app](https://github.com/rtk-ai/rtk/issues/4424) 💬 1 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 82.8k | 🟡 help wanted | 2026-10-03 | ✍️ CLA |
 | [feat(api)!: split UpdateConfig into typed policy and settings mutations](https://github.com/NVIDIA/OpenShell/issues/3049) 💬 4 | [NVIDIA/OpenShell](https://github.com/NVIDIA/OpenShell) | 15.6k | 🟡 help wanted | 2026-10-02 | 🤖 disclose AI use · 🔏 DCO |
 | [Fuzzing for 'diesel_infer_query'](https://github.com/diesel-rs/diesel/issues/5222) 💬 1 | [diesel-rs/diesel](https://github.com/diesel-rs/diesel) | 14.2k | 🟡 help wanted | 2026-10-02 | ⚠️ AI restricted |
 | [support folder in sandbox](https://github.com/facebook/pyrefly/issues/4800) | [facebook/pyrefly](https://github.com/facebook/pyrefly) | 7.1k | 🟡 help wanted | 2026-10-02 | 📄 AI policy · ✍️ CLA |
 | ['information_schema.flows' include recent execution errors](https://github.com/GreptimeTeam/greptimedb/issues/5824) 💬 2 | [GreptimeTeam/greptimedb](https://github.com/GreptimeTeam/greptimedb) | 6.7k | 🟢 beginner | 2026-10-02 | ✍️ CLA · 🔏 DCO |
 | [uv tool upgrade - problem with private indexes due to short living credentials](https://github.com/astral-sh/uv/issues/8523) 💬 11 | [astral-sh/uv](https://github.com/astral-sh/uv) | 90.5k | 🟡 help wanted | 2026-10-01 | 📄 AI policy |
+| [Audio no sound （Add asio support)](https://github.com/rustdesk/rustdesk/issues/3762) 💬 57 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | 125.3k | 🟡 help wanted | 2026-09-30 | 🔏 DCO |
 | [Convert 'Past 5m...' dropdowns to duration selector](https://github.com/influxdata/influxdb/issues/18119) 💬 5 | [influxdata/influxdb](https://github.com/influxdata/influxdb) | 31.8k | 🟢 beginner | 2026-09-30 | ✍️ CLA |
 | [Expose incremental reindexing in python and node](https://github.com/lancedb/lancedb/issues/685) 💬 2 | [lancedb/lancedb](https://github.com/lancedb/lancedb) | 11.6k | 🟢 beginner | 2026-09-30 |  |
 | [Create standard environment setups for testing](https://github.com/youki-dev/youki/issues/2890) 💬 3 | [youki-dev/youki](https://github.com/youki-dev/youki) | 7.6k | 🟢 beginner | 2026-09-30 |  |
@@ -69,15 +66,15 @@
 | [Rhai standard library.](https://github.com/rhaiscript/rhai/issues/451) 💬 17 | [rhaiscript/rhai](https://github.com/rhaiscript/rhai) | 5.7k | 🟡 help wanted | 2026-09-29 |  |
 | [Missing qualify code action on unqualified imports](https://github.com/gleam-lang/gleam/issues/6267) 💬 2 | [gleam-lang/gleam](https://github.com/gleam-lang/gleam) | 22k | 🟢 beginner | 2026-09-28 | ⚠️ AI restricted |
 | [docs: provide a cargo-generate starter template](https://github.com/tracel-ai/burn/issues/282) 💬 8 | [tracel-ai/burn](https://github.com/tracel-ai/burn) | 16.1k | 🟢 beginner | 2026-09-28 |  |
-| [[Suggestion] Recommended local models for translation, correction and work notes (measured), and why vision is](https://github.com/koharu-rs/koharu/issues/1159) 💬 2 | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.8k | 🟡 help wanted | 2026-09-28 | 🤖 disclose AI use |
-| [Text box nudge with arrow key](https://github.com/koharu-rs/koharu/issues/1161) | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.8k | 🟢 beginner | 2026-09-28 | 🤖 disclose AI use |
-| [Unusable on Fedora KDE + Nvidia since 0.83.1](https://github.com/koharu-rs/koharu/issues/1147) 💬 2 | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.8k | 🟡 help wanted | 2026-09-28 | 🤖 disclose AI use |
+| [[Suggestion] Recommended local models for translation, correction and work notes (measured), and why vision is](https://github.com/koharu-rs/koharu/issues/1159) 💬 2 | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.9k | 🟡 help wanted | 2026-09-28 | 🤖 disclose AI use |
+| [Text box nudge with arrow key](https://github.com/koharu-rs/koharu/issues/1161) | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.9k | 🟢 beginner | 2026-09-28 | 🤖 disclose AI use |
+| [Unusable on Fedora KDE + Nvidia since 0.83.1](https://github.com/koharu-rs/koharu/issues/1147) 💬 2 | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.9k | 🟡 help wanted | 2026-09-28 | 🤖 disclose AI use |
 | [Support / Fix: local import in CUBEJS_SCHEMA_PATH sub directory, avoid throwing not found.](https://github.com/cube-js/cube/issues/7040) 💬 4 | [cube-js/cube](https://github.com/cube-js/cube) | 21k | 🟡 help wanted | 2026-09-27 | 🔏 DCO |
 | [ci: add WebGPU integration tests (e.g. with Deno)](https://github.com/tracel-ai/burn/issues/810) | [tracel-ai/burn](https://github.com/tracel-ai/burn) | 16.1k | 🟡 help wanted | 2026-09-27 |  |
 | [Deprecate native ltree support in the ParadeDB index in favor of bitmap intersection](https://github.com/paradedb/paradedb/issues/6093) 💬 2 | [paradedb/paradedb](https://github.com/paradedb/paradedb) | 9.4k | 🟢 beginner | 2026-09-27 | ✍️ CLA |
 | [Auto-created tables can miss required columns when insert schemas differ](https://github.com/GreptimeTeam/greptimedb/issues/9185) 💬 4 | [GreptimeTeam/greptimedb](https://github.com/GreptimeTeam/greptimedb) | 6.7k | 🟢 beginner | 2026-09-27 | ✍️ CLA · 🔏 DCO |
-| [Re-Detection is not possible](https://github.com/koharu-rs/koharu/issues/995) 💬 7 | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.8k | 🟡 help wanted | 2026-09-26 | 🤖 disclose AI use |
-| [[Call for help] layout principles](https://github.com/koharu-rs/koharu/issues/981) 💬 4 | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.8k | 🟡 help wanted | 2026-09-26 | 🤖 disclose AI use |
+| [Re-Detection is not possible](https://github.com/koharu-rs/koharu/issues/995) 💬 7 | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.9k | 🟡 help wanted | 2026-09-26 | 🤖 disclose AI use |
+| [[Call for help] layout principles](https://github.com/koharu-rs/koharu/issues/981) 💬 4 | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.9k | 🟡 help wanted | 2026-09-26 | 🤖 disclose AI use |
 | [train: hot reloading for faster prototyping](https://github.com/tracel-ai/burn/issues/3571) 💬 2 | [tracel-ai/burn](https://github.com/tracel-ai/burn) | 16.1k | 🟡 help wanted | 2026-09-25 |  |
 | [SSE (Server-Sent Events) response body not flushed to downstream on macOS](https://github.com/cloudflare/pingora/issues/841) 💬 4 | [cloudflare/pingora](https://github.com/cloudflare/pingora) | 27.6k | 🟡 help wanted | 2026-09-24 |  |
 | [Subquery support](https://github.com/tursodatabase/turso/issues/34) 💬 2 | [tursodatabase/turso](https://github.com/tursodatabase/turso) | 24.7k | 🟡 help wanted | 2026-09-24 | 🤖 disclose AI use |
@@ -103,23 +100,23 @@
 | [SQLite session extension support](https://github.com/tursodatabase/turso/issues/2694) | [tursodatabase/turso](https://github.com/tursodatabase/turso) | 24.7k | 🟡 help wanted | 2026-09-24 | 🤖 disclose AI use |
 | [Rusqlite support](https://github.com/tursodatabase/turso/issues/2784) | [tursodatabase/turso](https://github.com/tursodatabase/turso) | 24.7k | 🟡 help wanted | 2026-09-24 | 🤖 disclose AI use |
 | [Restrict permissions in 'gleam new' generated github actions workflow](https://github.com/gleam-lang/gleam/issues/6311) 💬 9 | [gleam-lang/gleam](https://github.com/gleam-lang/gleam) | 22k | 🟢 beginner | 2026-09-24 | ⚠️ AI restricted |
-| [Bit array pattern match using a bits-size that uses the same variable name for the size and the segment genera](https://github.com/gleam-lang/gleam/issues/6220) 💬 4 | [gleam-lang/gleam](https://github.com/gleam-lang/gleam) | 22k | 🟡 help wanted | 2026-09-24 | ⚠️ AI restricted |
 | [docs: add source links to the API docs hosted on burn.dev](https://github.com/tracel-ai/burn/issues/1244) 💬 8 | [tracel-ai/burn](https://github.com/tracel-ai/burn) | 16.1k | 🟢 beginner | 2026-09-24 |  |
 | [tensor: add sparse tensor support](https://github.com/tracel-ai/burn/issues/846) 💬 12 | [tracel-ai/burn](https://github.com/tracel-ai/burn) | 16.1k | 🟡 help wanted | 2026-09-24 |  |
 | [You are not allowed to run sudo](https://github.com/microsoft/sudo/issues/95) 💬 17 | [microsoft/sudo](https://github.com/microsoft/sudo) | 5.9k | 🟡 help wanted | 2026-09-24 |  |
+| [Give movement priority to host rather than client + multiple connections mouse move priority issue](https://github.com/rustdesk/rustdesk/issues/40) 💬 22 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | 125.3k | 🟡 help wanted | 2026-09-23 | 🔏 DCO |
 | [Feature Request: TLS Handshake Completion Callback](https://github.com/cloudflare/pingora/issues/786) 💬 3 | [cloudflare/pingora](https://github.com/cloudflare/pingora) | 27.6k | 🟡 help wanted | 2026-09-23 |  |
 | [[Bug]: emergency stop is a CLI-only state file that no runtime path reads](https://github.com/zeroclaw-labs/zeroclaw/issues/9390) 💬 3 | [zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw) | 32.9k | 🟡 help wanted | 2026-09-21 | 🤖 disclose AI use · ✍️ CLA |
-| [Inpainting crashes with HIPFFT_PARSE_ERROR](https://github.com/koharu-rs/koharu/issues/1082) 💬 4 | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.8k | 🟡 help wanted | 2026-09-21 | 🤖 disclose AI use |
+| [Inpainting crashes with HIPFFT_PARSE_ERROR](https://github.com/koharu-rs/koharu/issues/1082) 💬 4 | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.9k | 🟡 help wanted | 2026-09-21 | 🤖 disclose AI use |
 | [Website color theme: "auto" / "system preference" option](https://github.com/rust-lang/rust-clippy/issues/14098) | [rust-lang/rust-clippy](https://github.com/rust-lang/rust-clippy) | 13.6k | 🟢 beginner | 2026-09-20 | 🤖 disclose AI use |
 | [Add uv script to pyenv's pip-rehash](https://github.com/astral-sh/uv/issues/4130) 💬 2 | [astral-sh/uv](https://github.com/astral-sh/uv) | 90.5k | 🟡 help wanted | 2026-09-19 | 📄 AI policy |
 | [Text alignment should work without an explicit max-width](https://github.com/GraphiteEditor/Graphite/issues/4011) 💬 7 | [GraphiteEditor/Graphite](https://github.com/GraphiteEditor/Graphite) | 27.5k | 🟢 beginner | 2026-09-19 | 📄 AI policy |
-| [seems like custom text cant implement the auto-fit resize for whatever reason, so, to resize have to manually ](https://github.com/koharu-rs/koharu/issues/991) 💬 2 | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.8k | 🟡 help wanted | 2026-09-19 | 🤖 disclose AI use |
+| [seems like custom text cant implement the auto-fit resize for whatever reason, so, to resize have to manually ](https://github.com/koharu-rs/koharu/issues/991) 💬 2 | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.9k | 🟡 help wanted | 2026-09-19 | 🤖 disclose AI use |
 | [ls: show unchanged fields for record updates in consts](https://github.com/gleam-lang/gleam/issues/6276) 💬 4 | [gleam-lang/gleam](https://github.com/gleam-lang/gleam) | 22k | 🟢 beginner | 2026-09-18 | ⚠️ AI restricted |
 | [macbook use Touch ID instead password](https://github.com/GyulyVGC/sniffnet/issues/1300) 💬 3 | [GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet) | 41.4k | 🟢 beginner | 2026-09-17 | 🤖 disclose AI use |
 | [Matching on '&lt;&lt;_:utf8&gt;&gt;' takes wrong branch on JavaScript target](https://github.com/gleam-lang/gleam/issues/6181) 💬 14 | [gleam-lang/gleam](https://github.com/gleam-lang/gleam) | 22k | 🟡 help wanted | 2026-09-17 | ⚠️ AI restricted |
 | [Tracking issue for bit arrays on javascript target](https://github.com/gleam-lang/gleam/issues/3842) 💬 5 | [gleam-lang/gleam](https://github.com/gleam-lang/gleam) | 22k | 🟡 help wanted | 2026-09-17 | ⚠️ AI restricted |
-| [drag to reorder](https://github.com/koharu-rs/koharu/issues/1100) 💬 3 | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.8k | 🟢 beginner | 2026-09-17 | 🤖 disclose AI use |
-| [panic first launch when document dir are inside onedrive.](https://github.com/koharu-rs/koharu/issues/1027) 💬 5 | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.8k | 🟡 help wanted | 2026-09-17 | 🤖 disclose AI use |
+| [drag to reorder](https://github.com/koharu-rs/koharu/issues/1100) 💬 3 | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.9k | 🟢 beginner | 2026-09-17 | 🤖 disclose AI use |
+| [panic first launch when document dir are inside onedrive.](https://github.com/koharu-rs/koharu/issues/1027) 💬 5 | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.9k | 🟡 help wanted | 2026-09-17 | 🤖 disclose AI use |
 | [Bug: CLI handling of version check not working](https://github.com/surrealdb/surrealdb/issues/4082) 💬 3 | [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) | 33.1k | 🟢 beginner | 2026-09-16 |  |
 | [Feature: Don't clone values by default when retrieving values](https://github.com/surrealdb/surrealdb/issues/26) | [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) | 33.1k | 🟡 help wanted | 2026-09-16 |  |
 | [Feature: Daemon Mode](https://github.com/surrealdb/surrealdb/issues/3953) 💬 4 | [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) | 33.1k | 🟢 beginner | 2026-09-16 |  |
@@ -132,33 +129,32 @@
 | [Extract record code action](https://github.com/gleam-lang/gleam/issues/4406) 💬 3 | [gleam-lang/gleam](https://github.com/gleam-lang/gleam) | 22k | 🟡 help wanted | 2026-09-13 | ⚠️ AI restricted |
 | [Android Version](https://github.com/flxzt/rnote/issues/390) 💬 37 | [flxzt/rnote](https://github.com/flxzt/rnote) | 11.7k | 🟡 help wanted | 2026-09-10 | 🤖 disclose AI use |
 | [New audit: repojacking](https://github.com/zizmorcore/zizmor/issues/479) 💬 9 | [zizmorcore/zizmor](https://github.com/zizmorcore/zizmor) | 6.7k | 🟢 beginner | 2026-09-10 | 📄 AI policy |
-| [It would be handy for devs to have a 'harper-cli linter-tree' command](https://github.com/Automattic/harper/issues/2323) 💬 3 | [Automattic/harper](https://github.com/Automattic/harper) | 16.2k | 🟢 beginner | 2026-09-08 | 🤖 disclose AI use |
+| [It would be handy for devs to have a 'harper-cli linter-tree' command](https://github.com/Automattic/harper/issues/2323) 💬 3 | [Automattic/harper](https://github.com/Automattic/harper) | 16.3k | 🟢 beginner | 2026-09-08 | 🤖 disclose AI use |
 | [Feature request: 'one-shot-toggle' variant](https://github.com/jtroo/kanata/issues/2153) 💬 2 | [jtroo/kanata](https://github.com/jtroo/kanata) | 8k | 🟡 help wanted | 2026-09-08 |  |
 | [Feature request: add a 'msg' subcommand to kanata binary to act as its own TCP client](https://github.com/jtroo/kanata/issues/2167) 💬 1 | [jtroo/kanata](https://github.com/jtroo/kanata) | 8k | 🟡 help wanted | 2026-09-08 |  |
 | [[LSP] Treat identifiers inside string type annotations like normal annotation expressions](https://github.com/facebook/pyrefly/issues/4740) 💬 2 | [facebook/pyrefly](https://github.com/facebook/pyrefly) | 7.1k | 🟡 help wanted | 2026-09-08 | 📄 AI policy · ✍️ CLA |
 | [A long string in a match arm breaks formatting for the whole match expression](https://github.com/rust-lang/rustfmt/issues/4797) 💬 4 | [rust-lang/rustfmt](https://github.com/rust-lang/rustfmt) | 7k | 🟡 help wanted | 2026-09-08 | 📄 AI policy |
-| [Small text boxes can't be moved easily](https://github.com/koharu-rs/koharu/issues/1064) | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.8k | 🟡 help wanted | 2026-09-08 | 🤖 disclose AI use |
-| [Disable webview right-click menu and add context-specific options](https://github.com/koharu-rs/koharu/issues/1063) 💬 2 | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.8k | 🟢 beginner | 2026-09-08 | 🤖 disclose AI use |
-| [Automatically apply paint/eraser to cleanup layer if no other layer selected](https://github.com/koharu-rs/koharu/issues/1062) 💬 1 | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.8k | 🟢 beginner | 2026-09-08 | 🤖 disclose AI use |
-| [Add option to export all pages without selecting all pages](https://github.com/koharu-rs/koharu/issues/1060) | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.8k | 🟢 beginner | 2026-09-08 | 🤖 disclose AI use |
-| [Re-add the ability to see the cleanup layer mask](https://github.com/koharu-rs/koharu/issues/1059) | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.8k | 🟢 beginner | 2026-09-08 | 🤖 disclose AI use |
-| [Copy and paste text boxes](https://github.com/koharu-rs/koharu/issues/1057) | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.8k | 🟢 beginner | 2026-09-08 | 🤖 disclose AI use |
-| [Support multiple instances running simultaneously](https://github.com/koharu-rs/koharu/issues/1056) 💬 1 | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.8k | 🟢 beginner | 2026-09-08 | 🤖 disclose AI use |
-| [Ungroup all text in a group](https://github.com/koharu-rs/koharu/issues/1055) | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.8k | 🟡 help wanted | 2026-09-08 | 🤖 disclose AI use |
-| [PSD export gives brush strokes a border of different color](https://github.com/koharu-rs/koharu/issues/1036) 💬 2 | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.8k | 🟡 help wanted | 2026-09-08 | 🤖 disclose AI use |
-| ['Free text' being created withing 'Dialogue' boundaries making threshold adjustments a hassle.](https://github.com/koharu-rs/koharu/issues/1033) | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.8k | 🟡 help wanted | 2026-09-08 | 🤖 disclose AI use |
-| [Adding history to ColorWell](https://github.com/koharu-rs/koharu/issues/1015) 💬 1 | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.8k | 🟢 beginner | 2026-09-08 | 🤖 disclose AI use |
-| [[Linux/ROCm][gfx1151] MIOpen convolution failures with 'miopenStatusUnknownError'](https://github.com/koharu-rs/koharu/issues/1001) | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.8k | 🟡 help wanted | 2026-09-08 | 🤖 disclose AI use |
-| [No OCR for manual placed frames; manual placed frames can't be changed](https://github.com/koharu-rs/koharu/issues/994) 💬 2 | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.8k | 🟡 help wanted | 2026-09-08 | 🤖 disclose AI use |
-| [Text that is made "too big" for it's container will collapse on itself and teleport.](https://github.com/koharu-rs/koharu/issues/986) 💬 4 | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.8k | 🟡 help wanted | 2026-09-08 | 🤖 disclose AI use |
-| [PSD export layer order question](https://github.com/koharu-rs/koharu/issues/984) | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.8k | 🟡 help wanted | 2026-09-08 | 🤖 disclose AI use |
-| [Bubble detection failure](https://github.com/koharu-rs/koharu/issues/944) 💬 5 | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.8k | 🟡 help wanted | 2026-09-08 | 🤖 disclose AI use |
+| [Small text boxes can't be moved easily](https://github.com/koharu-rs/koharu/issues/1064) | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.9k | 🟡 help wanted | 2026-09-08 | 🤖 disclose AI use |
+| [Disable webview right-click menu and add context-specific options](https://github.com/koharu-rs/koharu/issues/1063) 💬 2 | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.9k | 🟢 beginner | 2026-09-08 | 🤖 disclose AI use |
+| [Automatically apply paint/eraser to cleanup layer if no other layer selected](https://github.com/koharu-rs/koharu/issues/1062) 💬 1 | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.9k | 🟢 beginner | 2026-09-08 | 🤖 disclose AI use |
+| [Add option to export all pages without selecting all pages](https://github.com/koharu-rs/koharu/issues/1060) | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.9k | 🟢 beginner | 2026-09-08 | 🤖 disclose AI use |
+| [Re-add the ability to see the cleanup layer mask](https://github.com/koharu-rs/koharu/issues/1059) | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.9k | 🟢 beginner | 2026-09-08 | 🤖 disclose AI use |
+| [Copy and paste text boxes](https://github.com/koharu-rs/koharu/issues/1057) | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.9k | 🟢 beginner | 2026-09-08 | 🤖 disclose AI use |
+| [Support multiple instances running simultaneously](https://github.com/koharu-rs/koharu/issues/1056) 💬 1 | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.9k | 🟢 beginner | 2026-09-08 | 🤖 disclose AI use |
+| [Ungroup all text in a group](https://github.com/koharu-rs/koharu/issues/1055) | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.9k | 🟡 help wanted | 2026-09-08 | 🤖 disclose AI use |
+| [PSD export gives brush strokes a border of different color](https://github.com/koharu-rs/koharu/issues/1036) 💬 2 | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.9k | 🟡 help wanted | 2026-09-08 | 🤖 disclose AI use |
+| ['Free text' being created withing 'Dialogue' boundaries making threshold adjustments a hassle.](https://github.com/koharu-rs/koharu/issues/1033) | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.9k | 🟡 help wanted | 2026-09-08 | 🤖 disclose AI use |
+| [Adding history to ColorWell](https://github.com/koharu-rs/koharu/issues/1015) 💬 1 | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.9k | 🟢 beginner | 2026-09-08 | 🤖 disclose AI use |
+| [[Linux/ROCm][gfx1151] MIOpen convolution failures with 'miopenStatusUnknownError'](https://github.com/koharu-rs/koharu/issues/1001) | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.9k | 🟡 help wanted | 2026-09-08 | 🤖 disclose AI use |
+| [No OCR for manual placed frames; manual placed frames can't be changed](https://github.com/koharu-rs/koharu/issues/994) 💬 2 | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.9k | 🟡 help wanted | 2026-09-08 | 🤖 disclose AI use |
+| [Text that is made "too big" for it's container will collapse on itself and teleport.](https://github.com/koharu-rs/koharu/issues/986) 💬 4 | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.9k | 🟡 help wanted | 2026-09-08 | 🤖 disclose AI use |
+| [PSD export layer order question](https://github.com/koharu-rs/koharu/issues/984) | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.9k | 🟡 help wanted | 2026-09-08 | 🤖 disclose AI use |
+| [Bubble detection failure](https://github.com/koharu-rs/koharu/issues/944) 💬 5 | [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 5.9k | 🟡 help wanted | 2026-09-08 | 🤖 disclose AI use |
 | [Skip redundant length checks when pattern matching on multiple bit-array segments](https://github.com/gleam-lang/gleam/issues/6027) 💬 2 | [gleam-lang/gleam](https://github.com/gleam-lang/gleam) | 22k | 🟡 help wanted | 2026-09-07 | ⚠️ AI restricted |
 | [Add Hurl to Offical Redhat/Centos/Fedora repository](https://github.com/Orange-OpenSource/hurl/issues/367) 💬 1 | [Orange-OpenSource/hurl](https://github.com/Orange-OpenSource/hurl) | 19.2k | 🟡 help wanted | 2026-09-07 | 📄 AI policy |
 | [Export all flow definitions](https://github.com/GreptimeTeam/greptimedb/issues/7679) 💬 1 | [GreptimeTeam/greptimedb](https://github.com/GreptimeTeam/greptimedb) | 6.7k | 🟡 help wanted | 2026-09-07 | ✍️ CLA · 🔏 DCO |
 | [Incorrect compiler emited error placement on constants used in if clauses](https://github.com/gleam-lang/gleam/issues/6238) 💬 1 | [gleam-lang/gleam](https://github.com/gleam-lang/gleam) | 22k | 🟡 help wanted | 2026-09-06 | ⚠️ AI restricted |
 | [REPL](https://github.com/gleam-lang/gleam/issues/25) 💬 17 | [gleam-lang/gleam](https://github.com/gleam-lang/gleam) | 22k | 🟡 help wanted | 2026-09-06 | ⚠️ AI restricted |
-| [ls: explain what each bit array segment option is in their hovers](https://github.com/gleam-lang/gleam/issues/6270) 💬 1 | [gleam-lang/gleam](https://github.com/gleam-lang/gleam) | 22k | 🟡 help wanted | 2026-09-06 | ⚠️ AI restricted |
 | [[feat] p2p建立多个连接并负载均衡](https://github.com/EasyTier/EasyTier/issues/961) 💬 2 | [EasyTier/EasyTier](https://github.com/EasyTier/EasyTier) | 14k | 🟡 help wanted | 2026-09-06 |  |
 | [regression: can't build broot for Android using cargo cross anymore](https://github.com/Canop/broot/issues/565) 💬 6 | [Canop/broot](https://github.com/Canop/broot) | 13.1k | 🟡 help wanted | 2026-09-06 | ⚠️ AI restricted |
 | [[EntityLoader] 'EntityLoader::load()::with()' does not work for 'self_ref' self references.](https://github.com/SeaQL/sea-orm/issues/3189) 💬 2 | [SeaQL/sea-orm](https://github.com/SeaQL/sea-orm) | 9.9k | 🟡 help wanted | 2026-09-06 |  |
@@ -178,7 +174,7 @@
 | [Docs: add a Wikipedia page about Sniffnet](https://github.com/GyulyVGC/sniffnet/issues/975) 💬 2 | [GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet) | 41.4k | 🟢 beginner | 2026-08-28 | 🤖 disclose AI use |
 | [Windows ARM epic](https://github.com/espanso/espanso/issues/2306) 💬 3 | [espanso/espanso](https://github.com/espanso/espanso) | 14.6k | 🟡 help wanted | 2026-08-28 |  |
 | [Add config option to disable optional checks](https://github.com/facebook/pyrefly/issues/4594) 💬 4 | [facebook/pyrefly](https://github.com/facebook/pyrefly) | 7.1k | 🟡 help wanted | 2026-08-28 | 📄 AI policy · ✍️ CLA |
-| [Need support for mutually exclusive / multi-way settings](https://github.com/Automattic/harper/issues/2396) 💬 2 | [Automattic/harper](https://github.com/Automattic/harper) | 16.2k | 🟡 help wanted | 2026-08-27 | 🤖 disclose AI use |
+| [Need support for mutually exclusive / multi-way settings](https://github.com/Automattic/harper/issues/2396) 💬 2 | [Automattic/harper](https://github.com/Automattic/harper) | 16.3k | 🟡 help wanted | 2026-08-27 | 🤖 disclose AI use |
 | [website: cognitive complexity does insufficiently explain method](https://github.com/rust-lang/rust-clippy/issues/7391) 💬 4 | [rust-lang/rust-clippy](https://github.com/rust-lang/rust-clippy) | 13.6k | 🟢 beginner | 2026-08-27 | 🤖 disclose AI use |
 | [Make the Document binary serialization format more compact.](https://github.com/quickwit-oss/tantivy/issues/903) 💬 6 | [quickwit-oss/tantivy](https://github.com/quickwit-oss/tantivy) | 16.2k | 🟢 beginner | 2026-08-26 |  |
 | [Support ADBC reads and writes from databases](https://github.com/Eventual-Inc/Daft/issues/7347) 💬 3 | [Eventual-Inc/Daft](https://github.com/Eventual-Inc/Daft) | 5.8k | 🟡 help wanted | 2026-08-26 | 🤖 disclose AI use |
@@ -212,5 +208,9 @@
 | [seaorm-cli codegen maps col(big_unsigned(..)) to i64](https://github.com/SeaQL/sea-orm/issues/2494) 💬 3 | [SeaQL/sea-orm](https://github.com/SeaQL/sea-orm) | 9.9k | 🟡 help wanted | 2026-08-09 |  |
 | [Extensions to should_assert_eq](https://github.com/rust-lang/rust-clippy/issues/1810) 💬 3 | [rust-lang/rust-clippy](https://github.com/rust-lang/rust-clippy) | 13.6k | 🟢 beginner | 2026-08-08 | 🤖 disclose AI use |
 | [feat(init): add option to have 'dev' dependency-group be in default environment](https://github.com/prefix-dev/pixi/issues/5906) 💬 10 | [prefix-dev/pixi](https://github.com/prefix-dev/pixi) | 7.8k | 🟢 beginner | 2026-08-07 | 🤖 disclose AI use |
+| [mv hardlinks should be preserved when moving into a different directory](https://github.com/uutils/coreutils/issues/4833) 💬 9 | [uutils/coreutils](https://github.com/uutils/coreutils) | 24.2k | 🟢 beginner | 2026-08-06 | 📄 AI policy |
+| [SQL expressions in dimension definitions are not auto-wrapped in parentheses](https://github.com/cube-js/cube/issues/6373) 💬 3 | [cube-js/cube](https://github.com/cube-js/cube) | 21k | 🟡 help wanted | 2026-08-06 | 🔏 DCO |
+| [Add support for disjunction_max to V2 API](https://github.com/paradedb/paradedb/issues/4085) 💬 1 | [paradedb/paradedb](https://github.com/paradedb/paradedb) | 9.4k | 🟢 beginner | 2026-08-06 | ✍️ CLA |
+| [Consider a more data-oriented AST representation](https://github.com/astral-sh/ruff/issues/15657) 💬 3 | [astral-sh/ruff](https://github.com/astral-sh/ruff) | 50k | 🟡 help wanted | 2026-08-05 | 📄 AI policy |
 
-Showing the 200 most recently updated. See all 300 on the website.
+Showing the 200 most recently updated. See all 296 on the website.

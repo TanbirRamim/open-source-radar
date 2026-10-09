@@ -1,10 +1,10 @@
 # PHP issues
 
-**158** open issues (79 labeled for beginners) across **50** active PHP projects.
+**157** open issues (79 labeled for beginners) across **51** active PHP projects.
 
 [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/php.xml)
 
-> Updated automatically on **2026-10-09 12:51 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-10-09 22:36 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -13,11 +13,10 @@
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
 | [Stack push not always working](https://github.com/laravel/framework/issues/60221) 💬 8 | [laravel/framework](https://github.com/laravel/framework) | 35k | 🟡 help wanted | 2026-10-09 |  |
-| [[HLAPI] Need a way to filter ticket actors](https://github.com/glpi-project/glpi/issues/20743) 💬 6 | [glpi-project/glpi](https://github.com/glpi-project/glpi) | 6.4k | 🟡 help wanted | 2026-10-09 | 🤖 disclose AI use |
+| [Missing translations for Burmese (my)](https://github.com/symfony/symfony/issues/51897) 💬 2 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-10-09 |  |
+| [[HLAPI] Need a way to filter ticket actors](https://github.com/glpi-project/glpi/issues/20743) 💬 7 | [glpi-project/glpi](https://github.com/glpi-project/glpi) | 6.4k | 🟡 help wanted | 2026-10-09 | 🤖 disclose AI use |
 | [Support rich text formatting (bold, etc.) in "mass email" (Sysadmin)](https://github.com/elabftw/elabftw/issues/7576) 💬 3 | [elabftw/elabftw](https://github.com/elabftw/elabftw) | 1.4k | 🟢 beginner | 2026-10-09 |  |
 | [Testing using official postgresql docker images](https://github.com/tpetry/laravel-postgresql-enhanced/issues/70) 💬 4 | [tpetry/laravel-postgresql-enhanced](https://github.com/tpetry/laravel-postgresql-enhanced) | 1k | 🟡 help wanted | 2026-10-09 |  |
-| [Fix Unified Search pagination and deterministic ordering](https://github.com/LibreSign/libresign/issues/9067) 💬 1 | [LibreSign/libresign](https://github.com/LibreSign/libresign) | 828 | 🟢 beginner | 2026-10-09 | 🤖 disclose AI use · 🔏 DCO |
-| [Missing translations for Burmese (my)](https://github.com/symfony/symfony/issues/51897) 💬 2 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-10-08 |  |
 | [Add class_serializer for 'Illuminate\\Http\\Client\\Response'](https://github.com/getsentry/sentry-laravel/issues/1070) 💬 2 | [getsentry/sentry-laravel](https://github.com/getsentry/sentry-laravel) | 1.4k | 🟢 beginner | 2026-10-08 |  |
 | [Missing translations for Hungarian (hu)](https://github.com/symfony/symfony/issues/66100) 💬 1 | [symfony/symfony](https://github.com/symfony/symfony) | 31.2k | 🟢 beginner | 2026-10-07 |  |
 | [Bind Parameters - support '?'](https://github.com/phpmyadmin/phpmyadmin/issues/19259) 💬 2 | [phpmyadmin/phpmyadmin](https://github.com/phpmyadmin/phpmyadmin) | 8k | 🟡 help wanted | 2026-10-05 | 🔏 DCO |
@@ -43,7 +42,6 @@
 | [Limited Access Grader Grading Access](https://github.com/Submitty/Submitty/issues/13379) 💬 8 | [Submitty/Submitty](https://github.com/Submitty/Submitty) | 801 | 🟢 beginner | 2026-09-28 |  |
 | [Generate an AsyncAPI documentation for the Mercure API.](https://github.com/api-platform/core/issues/4494) 💬 2 | [api-platform/core](https://github.com/api-platform/core) | 2.6k | 🟡 help wanted | 2026-09-26 |  |
 | [[Feed problem] Titles are not parsed properly.](https://github.com/FreshRSS/FreshRSS/issues/8162) 💬 5 | [FreshRSS/FreshRSS](https://github.com/FreshRSS/FreshRSS) | 16.3k | 🟡 help wanted | 2026-09-25 |  |
-| [Direct link to an experiment step from the step list](https://github.com/elabftw/elabftw/issues/7483) 💬 1 | [elabftw/elabftw](https://github.com/elabftw/elabftw) | 1.4k | 🟢 beginner | 2026-09-25 |  |
 | [Feature Request: merge tickets by toggle buttons on ticket list](https://github.com/freescout-help-desk/freescout/issues/5662) 💬 1 | [freescout-help-desk/freescout](https://github.com/freescout-help-desk/freescout) | 4.6k | 🟡 help wanted | 2026-09-24 |  |
 | [Opcache Optimization triggering Segmentation Faults when using OpenTelemetry hooks](https://github.com/open-telemetry/opentelemetry-php/issues/1512) 💬 3 | [open-telemetry/opentelemetry-php](https://github.com/open-telemetry/opentelemetry-php) | 915 | 🟡 help wanted | 2026-09-23 |  |
 | [Inconsistent console exporter behavior/documentation](https://github.com/open-telemetry/opentelemetry-php/issues/1645) 💬 2 | [open-telemetry/opentelemetry-php](https://github.com/open-telemetry/opentelemetry-php) | 915 | 🟡 help wanted | 2026-09-23 |  |
@@ -95,6 +93,7 @@
 | [[Bug] Simplepie destroys headers with a JSON value](https://github.com/FreshRSS/FreshRSS/issues/8636) 💬 1 | [FreshRSS/FreshRSS](https://github.com/FreshRSS/FreshRSS) | 16.3k | 🟡 help wanted | 2026-09-08 |  |
 | [[Feature]Subscribe FreshRSS's logs itself as rss](https://github.com/FreshRSS/FreshRSS/issues/6839) 💬 3 | [FreshRSS/FreshRSS](https://github.com/FreshRSS/FreshRSS) | 16.3k | 🟡 help wanted | 2026-09-08 |  |
 | [Set width and height for images to keep proper image ratio and reduce CLS](https://github.com/PrestaShop/PrestaShop/issues/25854) 💬 11 | [PrestaShop/PrestaShop](https://github.com/PrestaShop/PrestaShop) | 9.2k | 🟡 help wanted | 2026-09-08 |  |
+| [type error in max team size specification](https://github.com/Submitty/Submitty/issues/13306) 💬 2 | [Submitty/Submitty](https://github.com/Submitty/Submitty) | 801 | 🟢 beginner | 2026-09-08 |  |
 | [JsonApiResource loads relationships one model at a time, so ?include= on a collection costs a query per record](https://github.com/laravel/framework/issues/61252) 💬 3 | [laravel/framework](https://github.com/laravel/framework) | 35k | 🟡 help wanted | 2026-09-07 |  |
 | [Private comment not available on REST api (webservice)](https://github.com/PrestaShop/PrestaShop/issues/30731) 💬 6 | [PrestaShop/PrestaShop](https://github.com/PrestaShop/PrestaShop) | 9.2k | 🟡 help wanted | 2026-09-07 |  |
 | [Active and Canceled both return true](https://github.com/laravel/cashier-stripe/issues/1791) 💬 5 | [laravel/cashier-stripe](https://github.com/laravel/cashier-stripe) | 2.5k | 🟡 help wanted | 2026-09-06 |  |
@@ -111,9 +110,9 @@
 | [Enhance Blueprint Stubs with PHPDoc to Eliminate PHPStan Warnings](https://github.com/laravel-shift/blueprint/issues/738) 💬 4 | [laravel-shift/blueprint](https://github.com/laravel-shift/blueprint) | 3.1k | 🟢 beginner | 2026-08-15 |  |
 | [[Feature Request/Bug] reordering feeds within a category](https://github.com/FreshRSS/FreshRSS/issues/3527) 💬 5 | [FreshRSS/FreshRSS](https://github.com/FreshRSS/FreshRSS) | 16.3k | 🟢 beginner | 2026-08-14 |  |
 | [Update bundled jQuery version to address older dependency warnings](https://github.com/LinkStackOrg/LinkStack/issues/995) 💬 1 | [LinkStackOrg/LinkStack](https://github.com/LinkStackOrg/LinkStack) | 3.9k | 🟢 beginner | 2026-08-11 |  |
-| [Setup Onboarding Login-Flow (for Enforce 2FA)](https://github.com/WordPress/two-factor/issues/813) 💬 3 | [WordPress/two-factor](https://github.com/WordPress/two-factor) | 823 | 🟡 help wanted | 2026-08-10 | 🤖 disclose AI use |
+| [Setup Onboarding Login-Flow (for Enforce 2FA)](https://github.com/WordPress/two-factor/issues/813) 💬 3 | [WordPress/two-factor](https://github.com/WordPress/two-factor) | 824 | 🟡 help wanted | 2026-08-10 | 🤖 disclose AI use |
 | [docker UID/GID environment settings?](https://github.com/FreshRSS/FreshRSS/issues/2400) 💬 6 | [FreshRSS/FreshRSS](https://github.com/FreshRSS/FreshRSS) | 16.3k | 🟡 help wanted | 2026-08-09 |  |
-| [Scaled instances and the deletion problem](https://github.com/HaschekSolutions/pictshare/issues/80) 💬 8 | [HaschekSolutions/pictshare](https://github.com/HaschekSolutions/pictshare) | 951 | 🟡 help wanted | 2026-08-09 |  |
+| [Scaled instances and the deletion problem](https://github.com/HaschekSolutions/pictshare/issues/80) 💬 8 | [HaschekSolutions/pictshare](https://github.com/HaschekSolutions/pictshare) | 950 | 🟡 help wanted | 2026-08-09 |  |
 | [[Enhancement]: Add timeframe parameters into wc_get_customer_total_spent](https://github.com/woocommerce/woocommerce/issues/32342) 💬 4 | [woocommerce/woocommerce](https://github.com/woocommerce/woocommerce) | 10.5k | 🟢 beginner | 2026-08-05 | ⚠️ AI restricted |
 | [Email address InlineEdit not working (Contact, Account, ...) in SuiteCRM 7.x](https://github.com/SuiteCRM/SuiteCRM/issues/9762) 💬 10 | [SuiteCRM/SuiteCRM](https://github.com/SuiteCRM/SuiteCRM) | 5.8k | 🟡 help wanted | 2026-08-04 |  |
 | [🚀 \| Support displays on future3](https://github.com/MiczFlor/RPi-Jukebox-RFID/issues/2364) 💬 9 | [MiczFlor/RPi-Jukebox-RFID](https://github.com/MiczFlor/RPi-Jukebox-RFID) | 1.8k | 🟡 help wanted | 2026-08-03 |  |
@@ -165,8 +164,8 @@
 | [swapAndInvoice - Broken State/Free upgrade](https://github.com/laravel/cashier-stripe/issues/1817) 💬 16 | [laravel/cashier-stripe](https://github.com/laravel/cashier-stripe) | 2.5k | 🟡 help wanted | 2026-05-03 |  |
 | [Inconsistent orWhere behavior after upgrade from Laravel 10.x to 13.x](https://github.com/laravel/framework/issues/59516) 💬 4 | [laravel/framework](https://github.com/laravel/framework) | 35k | 🟡 help wanted | 2026-05-01 |  |
 | [Ability to set default_phone_region to none / E.164 only](https://github.com/nextcloud/server/issues/49460) 💬 6 | [nextcloud/server](https://github.com/nextcloud/server) | 37k | 🟢 beginner | 2026-04-29 | 🤖 disclose AI use · 🔏 DCO |
+| [[Meilisearch v1.37] Backport Network API changes to 'v1.x' branch](https://github.com/meilisearch/meilisearch-php/issues/851) 💬 1 | [meilisearch/meilisearch-php](https://github.com/meilisearch/meilisearch-php) | 758 | 🟢 beginner | 2026-04-28 | 🤖 disclose AI use |
 | [[FR] Auto-subscribe to folders](https://github.com/cypht-org/cypht/issues/460) 💬 1 | [cypht-org/cypht](https://github.com/cypht-org/cypht) | 1.8k | 🟡 help wanted | 2026-04-16 |  |
 | [3.0.0-RC: @package partially not inherited for "classless functions/constants"](https://github.com/phpDocumentor/phpDocumentor/issues/2318) 💬 4 | [phpDocumentor/phpDocumentor](https://github.com/phpDocumentor/phpDocumentor) | 4.3k | 🟡 help wanted | 2026-04-15 |  |
 | [Page Overlay specific date ranges](https://github.com/matomo-org/matomo/issues/20230) 💬 4 | [matomo-org/matomo](https://github.com/matomo-org/matomo) | 21.9k | 🟡 help wanted | 2026-04-14 |  |
 | [Increase icons set](https://github.com/chamilo/chamilo-lms/issues/5776) | [chamilo/chamilo-lms](https://github.com/chamilo/chamilo-lms) | 1k | 🟡 help wanted | 2026-04-13 |  |
-| [Add support property "border-radius" for IMG tag](https://github.com/mpdf/mpdf/issues/428) 💬 8 | [mpdf/mpdf](https://github.com/mpdf/mpdf) | 4.7k | 🟡 help wanted | 2026-04-12 |  |

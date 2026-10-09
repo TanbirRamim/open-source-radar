@@ -1,10 +1,10 @@
 # C++ issues
 
-**353** open issues (114 labeled for beginners) across **99** active C++ projects.
+**344** open issues (115 labeled for beginners) across **99** active C++ projects.
 
 [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/cpp.xml)
 
-> Updated automatically on **2026-10-09 12:51 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-10-09 22:36 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -13,6 +13,8 @@
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
 | [start wt.exe with parameter fails in administrator mode](https://github.com/microsoft/terminal/issues/14861) 💬 6 | [microsoft/terminal](https://github.com/microsoft/terminal) | 105.1k | 🟡 help wanted | 2026-10-09 | 🤖 disclose AI use |
+| [UI/UX Sketcher Text: Existing value should be preselected when editing an existing Text.](https://github.com/FreeCAD/FreeCAD/issues/33352) 💬 3 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 34.1k | 🟢 beginner | 2026-10-09 | ⚠️ AI restricted |
+| [Issues needing community help on reports to third-party projects](https://github.com/telegramdesktop/tdesktop/issues/25126) | [telegramdesktop/tdesktop](https://github.com/telegramdesktop/tdesktop) | 33.2k | 🟡 help wanted | 2026-10-09 |  |
 | [Make sure opening hours show proper schedule on selecting another POI](https://github.com/organicmaps/organicmaps/issues/12106) 💬 7 | [organicmaps/organicmaps](https://github.com/organicmaps/organicmaps) | 15.6k | 🟢 beginner | 2026-10-09 | 🔏 DCO |
 | [CPU support for dense reconstruction](https://github.com/colmap/colmap/issues/2390) 💬 10 | [colmap/colmap](https://github.com/colmap/colmap) | 12.9k | 🟡 help wanted | 2026-10-09 |  |
 | [AppImage: fails with “libm.so.6: version 'GLIBC_2.43' not found”](https://github.com/hluk/CopyQ/issues/3739) 💬 2 | [hluk/CopyQ](https://github.com/hluk/CopyQ) | 12.4k | 🟡 help wanted | 2026-10-09 |  |
@@ -27,18 +29,9 @@
 | [Images are stored as text when copied from web browsers](https://github.com/hluk/CopyQ/issues/2084) 💬 50 | [hluk/CopyQ](https://github.com/hluk/CopyQ) | 12.4k | 🟡 help wanted | 2026-10-08 |  |
 | [[Feature Request]: Option to set volume for ringtone](https://github.com/meshtastic/firmware/issues/8498) 💬 6 | [meshtastic/firmware](https://github.com/meshtastic/firmware) | 8.4k | 🟡 help wanted | 2026-10-08 | ✍️ CLA |
 | [Vasicek::A(t,T) loses all precision for small mean reversion just above the sqrt(QL_EPSILON) cut-off](https://github.com/lballabio/QuantLib/issues/2864) 💬 2 | [lballabio/QuantLib](https://github.com/lballabio/QuantLib) | 7.7k | 🟡 help wanted | 2026-10-08 |  |
-| ['BinomialVanillaEngine': American option loses its exercise at expiry when 'TimeGrid(T, N)[N]' rounds below 'T](https://github.com/lballabio/QuantLib/issues/2865) 💬 1 | [lballabio/QuantLib](https://github.com/lballabio/QuantLib) | 7.7k | 🟡 help wanted | 2026-10-08 |  |
-| ['BinomialVanillaEngine': theta is 'r*K - q*S' instead of 0 for an American option in the exercise region](https://github.com/lballabio/QuantLib/issues/2866) | [lballabio/QuantLib](https://github.com/lballabio/QuantLib) | 7.7k | 🟡 help wanted | 2026-10-08 |  |
-| ['DiscretizedCallableFixedRateBond::applyCallability' reads the callability type from the unfiltered schedule: ](https://github.com/lballabio/QuantLib/issues/2871) | [lballabio/QuantLib](https://github.com/lballabio/QuantLib) | 7.7k | 🟡 help wanted | 2026-10-08 |  |
-| [YoY inflation cap/floor engines price a coupon at intrinsic value when its fixing is within one observation la](https://github.com/lballabio/QuantLib/issues/2872) | [lballabio/QuantLib](https://github.com/lballabio/QuantLib) | 7.7k | 🟡 help wanted | 2026-10-08 |  |
-| ['BivariateCumulativeNormalDistributionDr78' returns NaN when one argument is tiny relative to the other (and f](https://github.com/lballabio/QuantLib/issues/2870) | [lballabio/QuantLib](https://github.com/lballabio/QuantLib) | 7.7k | 🟡 help wanted | 2026-10-08 |  |
-| ['AnalyticDoubleBarrierEngine' misprices a strike outside the corridor (integrates from the strike instead of t](https://github.com/lballabio/QuantLib/issues/2867) | [lballabio/QuantLib](https://github.com/lballabio/QuantLib) | 7.7k | 🟡 help wanted | 2026-10-08 |  |
-| ['AnalyticPartialTimeBarrierOptionEngine': start-window knock-in put is off by exactly '(K/S - 1) * vanilla put](https://github.com/lballabio/QuantLib/issues/2868) | [lballabio/QuantLib](https://github.com/lballabio/QuantLib) | 7.7k | 🟡 help wanted | 2026-10-08 |  |
-| ['LognormalCmsSpreadPricer' returns NaN or a wrong price when the two legs have different shifts (branch chosen](https://github.com/lballabio/QuantLib/issues/2873) | [lballabio/QuantLib](https://github.com/lballabio/QuantLib) | 7.7k | 🟡 help wanted | 2026-10-08 |  |
 | ['AnalyticSoftBarrierEngine' ignores the barrier direction: up-and-in/up-and-out calls and down-and-in/down-and](https://github.com/lballabio/QuantLib/issues/2869) | [lballabio/QuantLib](https://github.com/lballabio/QuantLib) | 7.7k | 🟡 help wanted | 2026-10-08 |  |
 | [Stdlib docs: every macro argument gets the first argument's description](https://github.com/google/perfetto/issues/7824) | [google/perfetto](https://github.com/google/perfetto) | 6.6k | 🟢 beginner | 2026-10-08 |  |
 | [If try tracing inside lambdas, compiler runs for infinite time](https://github.com/google/perfetto/issues/7591) 💬 3 | [google/perfetto](https://github.com/google/perfetto) | 6.6k | 🟢 beginner | 2026-10-08 |  |
-| [triggerEventLoop crash if libf3d never rendered before](https://github.com/f3d-app/f3d/issues/3547) | [f3d-app/f3d](https://github.com/f3d-app/f3d) | 4.7k | 🟡 help wanted | 2026-10-08 | 🤖 disclose AI use |
 | [Preferences: Material page has two nested vertical scrollbars](https://github.com/FreeCAD/FreeCAD/issues/15696) 💬 7 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 34.1k | 🟡 help wanted | 2026-10-07 | ⚠️ AI restricted |
 | [blank screen on desktop on Windows 11 PRO](https://github.com/hluk/CopyQ/issues/3736) 💬 1 | [hluk/CopyQ](https://github.com/hluk/CopyQ) | 12.4k | 🟡 help wanted | 2026-10-07 |  |
 | [Non-active window on copyq startup](https://github.com/hluk/CopyQ/issues/3670) 💬 2 | [hluk/CopyQ](https://github.com/hluk/CopyQ) | 12.4k | 🟡 help wanted | 2026-10-07 |  |
@@ -52,7 +45,6 @@
 | [Execution time limit annotations](https://github.com/nasa/fprime/issues/3688) 💬 4 | [nasa/fprime](https://github.com/nasa/fprime) | 11.8k | 🟡 help wanted | 2026-10-05 | 🤖 disclose AI use |
 | [STEP import: "Show progress bar when importing" option is clutter](https://github.com/FreeCAD/FreeCAD/issues/31162) 💬 1 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 34.1k | 🟢 beginner | 2026-10-04 | ⚠️ AI restricted |
 | [UI: There is no visual reference to the Sketch that is being edited AKA FreeCAD doesn't handle styling of the ](https://github.com/FreeCAD/FreeCAD/issues/20599) 💬 16 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 34.1k | 🟢 beginner | 2026-10-04 | ⚠️ AI restricted |
-| [Issues needing community help on reports to third-party projects](https://github.com/telegramdesktop/tdesktop/issues/25126) | [telegramdesktop/tdesktop](https://github.com/telegramdesktop/tdesktop) | 33.2k | 🟡 help wanted | 2026-10-04 |  |
 | [Refactor tile iteration loops to TileElementsView](https://github.com/OpenRCT2/OpenRCT2/issues/27242) 💬 2 | [OpenRCT2/OpenRCT2](https://github.com/OpenRCT2/OpenRCT2) | 16.4k | 🟢 beginner | 2026-10-04 |  |
 | [transmission window does not open on screen. Downloads but no control possible as no interface](https://github.com/transmission/transmission/issues/8016) 💬 9 | [transmission/transmission](https://github.com/transmission/transmission) | 15.3k | 🟡 help wanted | 2026-10-04 |  |
 | [[Epic] Requested 3D formats](https://github.com/assimp/assimp/issues/6097) 💬 1 | [assimp/assimp](https://github.com/assimp/assimp) | 13.3k | 🟡 help wanted | 2026-10-04 |  |
@@ -83,7 +75,6 @@
 | [window of a windows terminal is appending to the end of windows stack](https://github.com/microsoft/terminal/issues/15763) 💬 44 | [microsoft/terminal](https://github.com/microsoft/terminal) | 105.1k | 🟡 help wanted | 2026-09-28 | 🤖 disclose AI use |
 | [[L10n][TR] Accesskey collisions in bookmark and tab context menus](https://github.com/zen-browser/desktop/issues/15488) 💬 1 | [zen-browser/desktop](https://github.com/zen-browser/desktop) | 44.8k | 🟢 beginner | 2026-09-28 |  |
 | [Replace UTF code](https://github.com/zeek/zeek/issues/1756) 💬 9 | [zeek/zeek](https://github.com/zeek/zeek) | 8.1k | 🟢 beginner | 2026-09-28 | 🤖 disclose AI use |
-| [Broken geometry exporting a solid derived from an arc of ellipse to a step file](https://github.com/FreeCAD/FreeCAD/issues/14447) 💬 6 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 34.1k | 🟡 help wanted | 2026-09-27 | ⚠️ AI restricted |
 | [xtensa-lx106-elf-g++: bad CPU type in executable on a M2 Mac without rosetta emulation installed](https://github.com/esp8266/Arduino/issues/8725) 💬 10 | [esp8266/Arduino](https://github.com/esp8266/Arduino) | 16.7k | 🟡 help wanted | 2026-09-27 |  |
 | [CopyQ Creates a Blank Unclosable Window, Subsequently opens Second Window](https://github.com/hluk/CopyQ/issues/1228) 💬 13 | [hluk/CopyQ](https://github.com/hluk/CopyQ) | 12.4k | 🟡 help wanted | 2026-09-27 |  |
 | [Linux: 100% CPU when using external-message-pump with Version 84+](https://github.com/chromiumembedded/cef/issues/3002) 💬 8 | [chromiumembedded/cef](https://github.com/chromiumembedded/cef) | 4.8k | 🟡 help wanted | 2026-09-27 | 🤖 disclose AI use |
@@ -93,7 +84,7 @@
 | [Game crashes with CET with JIT enabled when using special k (mod).](https://github.com/maximegmd/CyberEngineTweaks/issues/1010) 💬 17 | [maximegmd/CyberEngineTweaks](https://github.com/maximegmd/CyberEngineTweaks) | 4.8k | 🟡 help wanted | 2026-09-26 |  |
 | [dyanamic window state should support windows split with aero snap](https://github.com/TranslucentTB/TranslucentTB/issues/116) 💬 12 | [TranslucentTB/TranslucentTB](https://github.com/TranslucentTB/TranslucentTB) | 20.5k | 🟡 help wanted | 2026-09-25 |  |
 | ["New page" settings not remembered](https://github.com/xournalpp/xournalpp/issues/1521) 💬 6 | [xournalpp/xournalpp](https://github.com/xournalpp/xournalpp) | 15.5k | 🟢 beginner | 2026-09-25 |  |
-| [RadiusOutlierRemoval&lt;PCLPointCloud2&gt; implementation is slow and confusing](https://github.com/PointCloudLibrary/pcl/issues/2816) 💬 8 | [PointCloudLibrary/pcl](https://github.com/PointCloudLibrary/pcl) | 11.1k | 🟢 beginner | 2026-09-25 |  |
+| [RadiusOutlierRemoval&lt;PCLPointCloud2&gt; implementation is slow and confusing](https://github.com/PointCloudLibrary/pcl/issues/2816) 💬 8 | [PointCloudLibrary/pcl](https://github.com/PointCloudLibrary/pcl) | 11.2k | 🟢 beginner | 2026-09-25 |  |
 | [TabView: Closing left-most tab throws exception when IsAddTabButtonVisible = false](https://github.com/microsoft/microsoft-ui-xaml/issues/3849) 💬 2 | [microsoft/microsoft-ui-xaml](https://github.com/microsoft/microsoft-ui-xaml) | 8.5k | 🟡 help wanted | 2026-09-25 | ✍️ CLA |
 | [[Godot] SDFGI broken with Intel Arc GPUs](https://github.com/Redot-Engine/redot-engine/issues/156) 💬 9 | [Redot-Engine/redot-engine](https://github.com/Redot-Engine/redot-engine) | 6.1k | 🟡 help wanted | 2026-09-25 | ⚠️ AI restricted |
 | [Default to listening on ::](https://github.com/dragonflydb/dragonfly/issues/8266) 💬 4 | [dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly) | 31.8k | 🟢 beginner | 2026-09-24 | ✍️ CLA · 🔏 DCO |
@@ -160,12 +151,12 @@
 | [Translate "more..."](https://github.com/organicmaps/organicmaps/issues/13214) 💬 1 | [organicmaps/organicmaps](https://github.com/organicmaps/organicmaps) | 15.6k | 🟢 beginner | 2026-09-09 | 🔏 DCO |
 | [delay字段添加随机延迟功能，如pre_delay[100,5000],在100到5000ms之间随机延迟](https://github.com/MaaXYZ/MaaFramework/issues/1470) 💬 1 | [MaaXYZ/MaaFramework](https://github.com/MaaXYZ/MaaFramework) | 5k | 🟡 help wanted | 2026-09-09 |  |
 | [Implement (Contour's) Color Palette Update Notification and report](https://github.com/microsoft/terminal/issues/18375) 💬 4 | [microsoft/terminal](https://github.com/microsoft/terminal) | 105.1k | 🟡 help wanted | 2026-09-08 | 🤖 disclose AI use |
-| [Remove dr_wav.h](https://github.com/ggml-org/whisper.cpp/issues/165) 💬 2 | [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) | 54.2k | 🟢 beginner | 2026-09-08 | ⚠️ AI restricted |
+| [Remove dr_wav.h](https://github.com/ggml-org/whisper.cpp/issues/165) 💬 2 | [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) | 54.3k | 🟢 beginner | 2026-09-08 | ⚠️ AI restricted |
 | [Signed releases](https://github.com/envoyproxy/envoy/issues/14076) 💬 19 | [envoyproxy/envoy](https://github.com/envoyproxy/envoy) | 29.1k | 🟡 help wanted | 2026-09-08 | 🤖 disclose AI use · 🔏 DCO |
 | [clang-tidy: enable performance-*](https://github.com/alibaba/zvec/issues/291) 💬 3 | [alibaba/zvec](https://github.com/alibaba/zvec) | 16.1k | 🟡 help wanted | 2026-09-08 |  |
 | [clang-tidy: enable clang-analyzer-*](https://github.com/alibaba/zvec/issues/292) | [alibaba/zvec](https://github.com/alibaba/zvec) | 16.1k | 🟡 help wanted | 2026-09-08 |  |
 | [Add ability to not automatically copy whitespace-only selections](https://github.com/microsoft/terminal/issues/11751) 💬 6 | [microsoft/terminal](https://github.com/microsoft/terminal) | 105.1k | 🟡 help wanted | 2026-09-07 | 🤖 disclose AI use |
-| [llama cpp server cant open to public](https://github.com/ggml-org/llama.cpp/issues/6268) 💬 8 | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 130.6k | 🟢 beginner | 2026-09-06 | ⚠️ AI restricted |
+| [llama cpp server cant open to public](https://github.com/ggml-org/llama.cpp/issues/6268) 💬 8 | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 130.7k | 🟢 beginner | 2026-09-06 | ⚠️ AI restricted |
 | [Fallback code paths with "SIMD Everywhere"](https://github.com/simdjson/simdjson/issues/1091) 💬 6 | [simdjson/simdjson](https://github.com/simdjson/simdjson) | 24.4k | 🟢 beginner | 2026-09-06 | 📄 AI policy |
 | [Add option for voice over language](https://github.com/diasurgical/DevilutionX/issues/5742) 💬 2 | [diasurgical/DevilutionX](https://github.com/diasurgical/DevilutionX) | 9.8k | 🟢 beginner | 2026-09-06 |  |
 | [[BUG] Python groupby rolling aggregations return index inconsistent with pandas](https://github.com/NVIDIA/cudf/issues/10249) 💬 7 | [NVIDIA/cudf](https://github.com/NVIDIA/cudf) | 9.8k | 🟢 beginner | 2026-09-06 |  |
@@ -183,8 +174,8 @@
 | [-Wnull dereference warning, when using -Os, -DNDEBUG and -Wnull-dereference flags after upgrading to protobuf ](https://github.com/protocolbuffers/protobuf/issues/19291) 💬 2 | [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | 72.1k | 🟡 help wanted | 2026-09-03 | ✍️ CLA |
 | [Multiple CWE's in protobuf after SAST analysis by PVS-Studio](https://github.com/protocolbuffers/protobuf/issues/24882) 💬 2 | [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | 72.1k | 🟡 help wanted | 2026-09-03 | ✍️ CLA |
 | [PHP: C extension has undocumented "append" function that has no package parity.](https://github.com/protocolbuffers/protobuf/issues/26188) 💬 2 | [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | 72.1k | 🟡 help wanted | 2026-09-03 | ✍️ CLA |
-| [GGUF convert support for Vibevoice](https://github.com/ggml-org/llama.cpp/issues/17488) 💬 6 | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 130.6k | 🟢 beginner | 2026-09-01 | ⚠️ AI restricted |
-| [Feature Request: support the multi-modal Bagel model](https://github.com/ggml-org/llama.cpp/issues/17861) 💬 2 | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 130.6k | 🟡 help wanted | 2026-09-01 | ⚠️ AI restricted |
+| [GGUF convert support for Vibevoice](https://github.com/ggml-org/llama.cpp/issues/17488) 💬 6 | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 130.7k | 🟢 beginner | 2026-09-01 | ⚠️ AI restricted |
+| [Feature Request: support the multi-modal Bagel model](https://github.com/ggml-org/llama.cpp/issues/17861) 💬 2 | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 130.7k | 🟡 help wanted | 2026-09-01 | ⚠️ AI restricted |
 | [Custom icons for tabs without favicons not saving](https://github.com/zen-browser/desktop/issues/13020) 💬 4 | [zen-browser/desktop](https://github.com/zen-browser/desktop) | 44.8k | 🟢 beginner | 2026-09-01 |  |
 | [[FEA] Add support to str.normalize_spaces and str.normalize_characters in dask_cudf](https://github.com/NVIDIA/cudf/issues/10908) 💬 1 | [NVIDIA/cudf](https://github.com/NVIDIA/cudf) | 9.8k | 🟢 beginner | 2026-09-01 |  |
 | [Wayland - remote desktop interaction popup](https://github.com/hluk/CopyQ/issues/3662) 💬 1 | [hluk/CopyQ](https://github.com/hluk/CopyQ) | 12.4k | 🟡 help wanted | 2026-08-31 |  |
@@ -212,5 +203,14 @@
 | [JMP 1.9.0 not showing pagination as result of library page size setting in video libraries](https://github.com/jellyfin/jellyfin-desktop/issues/404) 💬 2 | [jellyfin/jellyfin-desktop](https://github.com/jellyfin/jellyfin-desktop) | 5.8k | 🟡 help wanted | 2026-08-14 |  |
 | [The player currently listens for input from controllers even when the Enable Gamepad setting is disabled.](https://github.com/jellyfin/jellyfin-desktop/issues/448) 💬 3 | [jellyfin/jellyfin-desktop](https://github.com/jellyfin/jellyfin-desktop) | 5.8k | 🟡 help wanted | 2026-08-14 |  |
 | [TV remote (via CEC) unable to select options on some types of dropdown menus.](https://github.com/jellyfin/jellyfin-desktop/issues/450) | [jellyfin/jellyfin-desktop](https://github.com/jellyfin/jellyfin-desktop) | 5.8k | 🟡 help wanted | 2026-08-14 |  |
+| [Jellyfin and Voicemeter crashing](https://github.com/jellyfin/jellyfin-desktop/issues/495) | [jellyfin/jellyfin-desktop](https://github.com/jellyfin/jellyfin-desktop) | 5.8k | 🟡 help wanted | 2026-08-14 |  |
+| [Don't Pause/Play when clicking to Jellyfin from another application](https://github.com/jellyfin/jellyfin-desktop/issues/513) 💬 5 | [jellyfin/jellyfin-desktop](https://github.com/jellyfin/jellyfin-desktop) | 5.8k | 🟡 help wanted | 2026-08-14 |  |
+| [Odd full screen behavior on a multi monitor setup](https://github.com/jellyfin/jellyfin-desktop/issues/520) 💬 3 | [jellyfin/jellyfin-desktop](https://github.com/jellyfin/jellyfin-desktop) | 5.8k | 🟡 help wanted | 2026-08-14 |  |
+| [Un-fullscreening on mac moves the window off-screen where it can't be interacted with](https://github.com/jellyfin/jellyfin-desktop/issues/525) 💬 3 | [jellyfin/jellyfin-desktop](https://github.com/jellyfin/jellyfin-desktop) | 5.8k | 🟡 help wanted | 2026-08-14 |  |
+| [The binary installation and source code installation paths are different](https://github.com/Neargye/magic_enum/issues/419) 💬 5 | [Neargye/magic_enum](https://github.com/Neargye/magic_enum) | 6.2k | 🟡 help wanted | 2026-08-12 |  |
+| [Windows: Scroll bar in tab list causes layout shift when always show scroll bars is enabled](https://github.com/zen-browser/desktop/issues/12402) 💬 9 | [zen-browser/desktop](https://github.com/zen-browser/desktop) | 44.8k | 🟢 beginner | 2026-08-11 |  |
+| [Replacing a stave spacer with another is not undoable](https://github.com/musescore/MuseScore/issues/34423) 💬 4 | [musescore/MuseScore](https://github.com/musescore/MuseScore) | 15.2k | 🟢 beginner | 2026-08-11 | 🤖 disclose AI use · ✍️ CLA |
+| [Not able to link yaml-cpp.lib in cpp windows project](https://github.com/jbeder/yaml-cpp/issues/1315) 💬 4 | [jbeder/yaml-cpp](https://github.com/jbeder/yaml-cpp) | 6.1k | 🟡 help wanted | 2026-08-11 | ⚠️ AI restricted |
+| [find_package(yaml-cpp) doesn't build on Visual Studio 2022](https://github.com/jbeder/yaml-cpp/issues/1342) | [jbeder/yaml-cpp](https://github.com/jbeder/yaml-cpp) | 6.1k | 🟡 help wanted | 2026-08-11 | ⚠️ AI restricted |
 
-Showing the 200 most recently updated. See all 353 on the website.
+Showing the 200 most recently updated. See all 344 on the website.
