@@ -23,4 +23,5 @@ Short, practical notes on how projects in each language are usually built, teste
 | [OCaml](ocaml.md) | opam + dune | [issues](../issues/by-language/ocaml.md) |
 | [Elixir](elixir.md) | Elixir + Mix (Erlang/OTP) | [issues](../issues/by-language/elixir.md) |
 
+| [R](r.md) | R + renv / testthat | [issues](../issues/by-language/r.md) |
 Missing a language, or a command is out of date? [Open a pull request](../CONTRIBUTING.md), these pages are meant to be improved by the community.
