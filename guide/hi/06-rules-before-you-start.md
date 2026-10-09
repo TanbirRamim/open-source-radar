@@ -91,4 +91,4 @@ Spam के कारण कुछ projects ऐसे workflows चलाते 
 - [ ] मैंने `.github/workflows/` में ऐसी automation की जाँच कर ली है जो मेरा PR close कर सकती है।
 - [ ] अगर AI ने मेरी मदद की है, तो मुझे पता है कि मुझे इसका खुलासा करना है या नहीं और कैसे करना है।
 
-अगला: [Maintainers से बातचीत करना](../07-communication.md)
+अगला: [Maintainers से बातचीत करना](07-communication.md)
