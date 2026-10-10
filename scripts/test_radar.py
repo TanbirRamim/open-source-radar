@@ -185,6 +185,32 @@ class AvailabilityTests(unittest.TestCase):
 
 
 class PolicyTests(unittest.TestCase):
+    def test_contributing_guide_prefers_configured_priority_over_sorted_cache(self):
+        self.assertEqual(
+            radar.contributing_guide([".github/CONTRIBUTING.md", "docs/CONTRIBUTING.md", "CONTRIBUTING.md"]),
+            "CONTRIBUTING.md",
+        )
+        for expected in (".github/CONTRIBUTING.md", "docs/CONTRIBUTING.md", "CONTRIBUTING.rst"):
+            with self.subTest(expected=expected):
+                self.assertEqual(radar.contributing_guide([expected]), expected)
+
+    def test_contributing_guide_ignores_non_contributing_and_untrusted_paths(self):
+        for files in (None, [], ["AGENTS.md", "AI_POLICY.md"], [".github/pull_request_template.md"]):
+            with self.subTest(files=files):
+                self.assertIsNone(radar.contributing_guide(files))
+        self.assertIsNone(radar.contributing_guide(["../../private.txt", "CONTRIBUTING.md/../../x"]))
+        self.assertIsNone(radar.contributing_guide(["CONTRIBUTING.md.bak"]))
+
+    def test_contributing_guide_preserves_policy_flags(self):
+        policy = radar.detect_policy(
+            {
+                "CONTRIBUTING.md": "Please disclose AI use. Sign the CLA and DCO.",
+                "AGENTS.md": "AI agents are not allowed to open PRs on this project.",
+            }
+        )
+        self.assertEqual(radar.contributing_guide(policy["files"]), "CONTRIBUTING.md")
+        self.assertEqual((policy["ai"], policy["cla"], policy["dco"]), ("restricted", True, True))
+
     def test_no_files_means_no_requirements(self):
         self.assertEqual(
             radar.detect_policy({"CONTRIBUTING.md": ""}),
@@ -484,6 +510,105 @@ class PageHeaderTests(unittest.TestCase):
         self.assertNotIn("\n\n\n", radar.page_header("Go issues", "Subtitle.", "2026-09-27T11:00:00+00:00"))
 
 
+class ContributingFetchTests(unittest.TestCase):
+    def test_fetch_writes_guide_on_repository_from_refreshed_and_cached_policy(self):
+        fixed_now = dt.datetime(2026, 10, 10, tzinfo=dt.UTC)
+        cases = [
+            ("refresh", {}, "CONTRIBUTING.md", True),
+            (
+                "cached",
+                {"files": ["docs/CONTRIBUTING.md"], "scanned_at": "2026-10-09T00:00:00+00:00"},
+                "docs/CONTRIBUTING.md",
+                False,
+            ),
+            ("legacy", {"scanned_at": "2026-10-09T00:00:00+00:00"}, None, False),
+        ]
+        for name, policy, expected, refresh in cases:
+            with self.subTest(name=name), tempfile.TemporaryDirectory() as tmp:
+                root = Path(tmp)
+                repos_path = root / "repos.json"
+                policies_path = root / "policies.json"
+                issues_path = root / "issues.json"
+                site_data_path = root / "site" / "data" / "issues.json"
+                repos_path.write_text(json.dumps({"repos": {"owner/repo": {"language": "Python"}}}), encoding="utf-8")
+                if policy:
+                    policies_path.write_text(json.dumps({"owner/repo": policy}), encoding="utf-8")
+                graph_issue = {
+                    "number": 1,
+                    "title": "Task",
+                    "url": "https://github.com/owner/repo/issues/1",
+                    "createdAt": "2026-10-01T00:00:00Z",
+                    "updatedAt": "2026-10-09T00:00:00Z",
+                    "locked": False,
+                    "comments": {"totalCount": 0, "nodes": []},
+                    "assignees": {"totalCount": 0},
+                    "labels": {"nodes": [{"name": "good first issue"}]},
+                    "timelineItems": {"nodes": []},
+                }
+                graph_repo = {
+                    "nameWithOwner": "owner/repo",
+                    "url": "https://github.com/owner/repo",
+                    "description": "An example",
+                    "stargazerCount": 10,
+                    "forkCount": 1,
+                    "isArchived": False,
+                    "pushedAt": "2026-10-08T00:00:00Z",
+                    "primaryLanguage": {"name": "Python"},
+                    "licenseInfo": {"spdxId": "MIT"},
+                    "repositoryTopics": {"nodes": []},
+                    "issues": {"nodes": [graph_issue]},
+                    "p0": {"text": "Contribution steps"},
+                    "p1": {"text": "Other steps"},
+                }
+
+                class FakeGitHub:
+                    def __init__(self, response_repo):
+                        self.response_repo = response_repo
+
+                    def graphql(self, query):
+                        self.query = query
+                        return {"data": {"r0": self.response_repo, "rateLimit": {"remaining": 4000}}}
+
+                github = FakeGitHub(graph_repo)
+                config = {
+                    "issues": {
+                        "updated_within_days": 180,
+                        "claim_within_days": 21,
+                        "per_repo": 5,
+                        "max_per_page": 10,
+                        "labels": ["good first issue"],
+                    },
+                    "languages": {"Python": "python"},
+                    "policy": {"refresh_days": 7},
+                    "topics": {},
+                    "safety": {"min_ratio": 0.5},
+                    "exclude": {"repositories": []},
+                }
+                with (
+                    patch.multiple(
+                        radar,
+                        ROOT=root,
+                        REPOS_PATH=repos_path,
+                        POLICY_PATH=policies_path,
+                        ISSUES_PATH=issues_path,
+                        SITE_DATA_PATH=site_data_path,
+                    ),
+                    patch.object(radar, "now_utc", return_value=fixed_now),
+                ):
+                    result = radar.fetch(github, config, force=True)
+                    radar.render(config)
+                self.assertEqual(result["repositories"]["owner/repo"]["contributing"], expected)
+                self.assertEqual(
+                    json.loads(issues_path.read_text(encoding="utf-8"))["repositories"]["owner/repo"]["contributing"],
+                    expected,
+                )
+                self.assertNotIn("contributing", result["issues"][0])
+                site_data = json.loads(site_data_path.read_text(encoding="utf-8"))
+                self.assertEqual(site_data["repositories"]["owner/repo"]["contributing"], expected)
+                self.assertNotIn("contributing", site_data["issues"][0])
+                self.assertEqual("HEAD:CONTRIBUTING.md" in github.query, refresh)
+
+
 class RenderSmokeTests(unittest.TestCase):
     def test_render_writes_primary_outputs(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -498,6 +623,7 @@ class RenderSmokeTests(unittest.TestCase):
                         "repositories": {
                             "owner/repo": {
                                 "url": "https://github.com/owner/repo",
+                                "contributing": ".github/CONTRIBUTING.md",
                                 "description": "A tiny fixture",
                                 "stars": 10,
                                 "open_count": 1,
@@ -507,6 +633,7 @@ class RenderSmokeTests(unittest.TestCase):
                             },
                             "owner/go-repo": {
                                 "url": "https://github.com/owner/go-repo",
+                                "contributing": None,
                                 "description": "Only help-wanted issues",
                                 "stars": 5,
                                 "open_count": 1,
@@ -560,6 +687,9 @@ class RenderSmokeTests(unittest.TestCase):
             self.assertTrue((root / "site" / "feeds" / "python.xml").exists())
             self.assertTrue((root / "issues" / "by-topic" / "ai.md").exists())
             site_data = json.loads(site_data_path.read_text(encoding="utf-8"))
+            self.assertEqual(site_data["repositories"]["owner/repo"]["contributing"], ".github/CONTRIBUTING.md")
+            self.assertIsNone(site_data["repositories"]["owner/go-repo"]["contributing"])
+            self.assertTrue(all("contributing" not in item for item in site_data["issues"]))
             self.assertEqual(
                 [issue["title"] for issue in site_data["issues"]], ["Fix the fixture", "Refactor the parser"]
             )

@@ -3,6 +3,12 @@
   "use strict";
 
   const PAGE_SIZE = 50;
+  const CONTRIBUTING_PATHS = new Set([
+    "CONTRIBUTING.md",
+    ".github/CONTRIBUTING.md",
+    "docs/CONTRIBUTING.md",
+    "CONTRIBUTING.rst",
+  ]);
   const BEGINNER_LABEL = 'label:"good first issue"';
   const form = document.getElementById("filters");
   const list = document.getElementById("issue-list");
@@ -113,8 +119,13 @@
 
   // ---- Filtering -----------------------------------------------------------------------------
 
+  function contributingPath(repo) {
+    return CONTRIBUTING_PATHS.has(repo.contributing) ? repo.contributing : null;
+  }
+
   function matchesRules(repo, rule) {
     const policy = repo.policy || {};
+    if (rule === "contributing") return contributingPath(repo) !== null;
     if (rule === "no-ai-restriction") return policy.ai !== "restricted";
     if (rule === "no-cla") return !policy.cla;
     if (rule === "simple") return (policy.ai === "none" || !policy.ai) && !policy.cla && !policy.dco;
@@ -230,6 +241,8 @@
     if (policy.ai === "policy") badge(badges, "AI policy", fileUrl(policy.ai_file));
     if (policy.cla) badge(badges, "CLA");
     if (policy.dco) badge(badges, "DCO sign-off");
+    const guide = contributingPath(repo);
+    if (guide) badge(badges, "Contributing guide", fileUrl(guide));
     if (issue.closed_pr) badge(badges, "Earlier PR closed", issue.url);
     if (!badges.children.length) badges.remove();
 

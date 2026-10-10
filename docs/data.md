@@ -25,6 +25,7 @@ It is refreshed twice a day. The same data, without the website extras, is commi
       "pushed": "2026-09-12",                    // last push date
       "topics": ["cli", "terminal"],             // GitHub topics
       "buckets": ["devtools"],                   // Open Source Radar topic slugs (see scripts/config.toml)
+      "contributing": "CONTRIBUTING.md",          // detected contributing guide path, or null
       "open_count": 4,                           // listed issues in this project
       "policy": {
         "ai": "none",                            // none | policy | disclose | restricted (detected, may be wrong)
@@ -50,6 +51,14 @@ It is refreshed twice a day. The same data, without the website extras, is commi
   ]
 }
 ```
+
+`repositories[repo].contributing` is the first detected, nonempty contributing
+guide in the configured lookup order: `CONTRIBUTING.md`,
+`.github/CONTRIBUTING.md`, `docs/CONTRIBUTING.md`, then `CONTRIBUTING.rst`.
+It is `null` if no guide was detected; older datasets can omit the field.
+The site links to the detected path on GitHub and offers a **Has a contributing
+guide** filter. The policy-file cache may be stale, and detecting a guide does
+not guarantee that its advice is current or helpful.
 
 ## Example: five newest beginner issues in Go
 

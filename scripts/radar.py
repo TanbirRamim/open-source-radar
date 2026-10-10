@@ -398,6 +398,19 @@ def detect_policy(files: dict[str, str]) -> dict[str, Any]:
     return {"ai": ai, "ai_file": ai_file, "cla": cla, "dco": dco, "files": sorted(p for p, t in files.items() if t)}
 
 
+def contributing_guide(files: list[str] | None) -> str | None:
+    """Choose a detected contributing guide in configured lookup order."""
+    found = set(files or [])
+    return next(
+        (
+            path
+            for path in POLICY_FILES
+            if path.rsplit("/", 1)[-1] in {"CONTRIBUTING.md", "CONTRIBUTING.rst"} and path in found
+        ),
+        None,
+    )
+
+
 def topic_buckets(topics: list[str], config: dict[str, Any]) -> list[str]:
     buckets = []
     lowered = [topic.lower() for topic in topics]
@@ -496,6 +509,7 @@ def fetch(github: GitHub, config: dict[str, Any], *, force: bool = False) -> dic
                 "topics": topics,
                 "buckets": topic_buckets(topics, config),
                 "policy": {key: policy.get(key) for key in ("ai", "ai_file", "cla", "dco")},
+                "contributing": contributing_guide(policy.get("files")),
                 "open_count": len(available),
             }
         rate = data.get("rateLimit") or {}
