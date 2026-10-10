@@ -34,6 +34,46 @@ def comment(body, **overrides):
     return base
 
 
+class LinkedPRStatesTests(unittest.TestCase):
+    def test_issue_without_timeline_items_returns_no_states(self):
+        self.assertEqual(radar.linked_pr_states({}), [])
+
+    def test_null_nodes_are_skipped(self):
+        timeline = {
+            "nodes": [
+                None,
+                {"subject": {"state": "CLOSED"}},
+                None,
+                {"source": {"state": "OPEN"}},
+                None,
+            ]
+        }
+        self.assertEqual(radar.linked_pr_states(issue(timelineItems=timeline)), ["CLOSED", "OPEN"])
+
+    def test_subject_and_source_prs_return_states_in_order(self):
+        timeline = {"nodes": [{"subject": {"state": "OPEN"}}, {"source": {"state": "MERGED"}}]}
+        self.assertEqual(radar.linked_pr_states(issue(timelineItems=timeline)), ["OPEN", "MERGED"])
+
+    def test_nodes_without_state_are_skipped(self):
+        timeline = {
+            "nodes": [
+                {"subject": {"state": "OPEN"}},
+                {"subject": {"title": "PR without a state"}},
+                {},
+                {"source": {"title": "Another PR without a state"}},
+                {"source": {"state": "MERGED"}},
+            ]
+        }
+        self.assertEqual(radar.linked_pr_states(issue(timelineItems=timeline)), ["OPEN", "MERGED"])
+
+    def test_mention_from_another_issue_keeps_issue_available(self):
+        # The query only selects PullRequest fields, so an issue that merely
+        # mentions this one comes back as an empty source and must not hide it.
+        timeline = {"nodes": [{"source": {}}, {"subject": {}}]}
+        self.assertEqual(radar.linked_pr_states(issue(timelineItems=timeline)), [])
+        self.assertTrue(radar.issue_is_available(issue(timelineItems=timeline), SINCE))
+
+
 class AvailabilityTests(unittest.TestCase):
     def test_open_unassigned_recent_issue_is_available(self):
         self.assertTrue(radar.issue_is_available(issue(), SINCE))
