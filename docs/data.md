@@ -61,70 +61,38 @@ curl -s https://tanbirramim.github.io/open-source-radar/data/issues.json \
 
 A snapshot of this data is also published as a dataset on Hugging Face: [TanbirRamim/open-source-radar](https://huggingface.co/datasets/TanbirRamim/open-source-radar), with an `issues` table and a `repositories` table.
 
-
 ## Feeds
 
-Open Source Radar automatically generates RSS feeds for beginner-friendly issues[cite: 1]. You can access them through the following links:
+Every language and topic has an RSS feed of beginner issues, so you can follow new ones in any feed reader.
 
-* **Feed Index**: [https://tanbirramim.github.io/open-source-radar/feeds/](https://tanbirramim.github.io/open-source-radar/feeds/) (Lists all active feeds)
-* **Language Feeds**: [https://tanbirramim.github.io/open-source-radar/feeds/python.xml](https://tanbirramim.github.io/open-source-radar/feeds/python.xml) (replace `python` with any language slug, e.g., `javascript`, `typescript`, `rust`)
-* **Topic Feeds**: [https://tanbirramim.github.io/open-source-radar/feeds/topics/ai.xml](https://tanbirramim.github.io/open-source-radar/feeds/topics/ai.xml) (replace `ai` with any topic slug, e.g., `web`, `cli`, `db`)
+- Feed index: https://tanbirramim.github.io/open-source-radar/feeds/
+- One language: `https://tanbirramim.github.io/open-source-radar/feeds/<slug>.xml`, for example [python.xml](https://tanbirramim.github.io/open-source-radar/feeds/python.xml). The slugs are in `language_slugs` in `issues.json` (`cpp`, `csharp`, `go`, ...).
+- One topic: `https://tanbirramim.github.io/open-source-radar/feeds/topics/<slug>.xml`, for example [ai-ml.xml](https://tanbirramim.github.io/open-source-radar/feeds/topics/ai-ml.xml). The slugs are in `topic_feed_slugs`.
 
----
+## Python example
 
-### Python Integration Example
-
-This script uses Python standard libraries to download the central JSON database(issues.json), scan repository pathways for Python ecosystem keywords, and print out the top 5 active open-source tasks. You can easily modify this script to filter for different target keywords or repository tracks based on your requirements.
+Standard library only. It downloads `issues.json`, looks up each issue's repository language and prints the five newest beginner issues for one language.
 
 ```python
-import urllib.request
 import json
+import urllib.request
 
+DATA_URL = "https://tanbirramim.github.io/open-source-radar/data/issues.json"
+LANGUAGE = "Python"
 
-DATA_URL = "http://localhost:8000/data/issues.json"
+with urllib.request.urlopen(DATA_URL, timeout=30) as response:
+    data = json.load(response)
 
-try:
-    req = urllib.request.Request(
-        DATA_URL, 
-        headers={"User-Agent": "open-source-radar-data-client"}
-    )
-    
-    with urllib.request.urlopen(req, timeout=30) as response:
-        if response.status == 200:
-            raw_payload = response.read().decode("utf-8")
-            data = json.loads(raw_payload)
-            
-            # Grabbing the list from the "issues" key visible in the database schema
-            issues_list = data.get("issues", [])
-            
-            print("Successfully processed database file.")
-            print(f"Total system tracker pool: {len(issues_list)} issues found.\n")
-            
-            # Filtering for Python language tasks using common repository keywords
-            target_issues = []
-            python_repos = ["python", "django", "flask", "pandas", "numpy", "ansible"]
-            
-            for item in issues_list:
-                repo_name = item.get("repo", "").lower()
-                # If the repository matches our Python ecosystem keywords
-                if any(keyword in repo_name for keyword in python_repos):
-                    target_issues.append(item)
-            
-            print(f"--- Top 5 Open Python Tasks ({len(target_issues)} total available) ---")
-            for item in target_issues[:5]:
-                title = item.get("title", "No Title")
-                repo = item.get("repo", "Unknown Repo")
-                url = item.get("url", "#")
-                print(f"🔹 {title}")
-                print(f"   Repository: {repo}")
-                print(f"   Link: {url}\n")
-        else:
-            print(f"Server rejected request with status code: {response.status}")
-            
-except Exception as e:
-    print(f"Error accessing data stream pipeline: {e}")
+repos = data["repositories"]
+matches = [
+    issue
+    for issue in data["issues"]
+    if issue["level"] == "beginner" and repos.get(issue["repo"], {}).get("language") == LANGUAGE
+]
+matches.sort(key=lambda issue: issue["created"], reverse=True)
 
-...
+print(f"{len(matches)} beginner {LANGUAGE} issues")
+for issue in matches[:5]:
+    print(f"{issue['repo']}#{issue['number']}: {issue['title']}")
+    print(f"  {issue['url']}")
 ```
-
----
