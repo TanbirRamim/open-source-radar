@@ -559,7 +559,8 @@ def issue_table(issues: list[dict[str, Any]], repositories: dict[str, Any], limi
     ]
     for issue in issues[:limit]:
         repo = repositories[issue["repo"]]
-        title = md_escape(issue["title"])[:110]
+        # Cut before escaping: slicing "\\|" or "&lt;" in half breaks the link markup.
+        title = md_escape(" ".join(issue["title"].split())[:110])
         comments = f" 💬 {issue['comments']}" if issue["comments"] else ""
         lines.append(
             f"| [{title}]({issue['url']}){comments} "

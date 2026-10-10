@@ -214,6 +214,13 @@ class IssueTableTests(unittest.TestCase):
             result,
         )
 
+    def test_long_title_is_cut_before_escaping(self):
+        # A pipe right at the cut used to leave a lone backslash that escaped the closing "]".
+        self.single_issue[0]["title"] = "a" * 109 + "| tail"
+        row = radar.issue_table(self.single_issue, self.repositories, 5).splitlines()[2]
+        self.assertNotIn("\\](", row)
+        self.assertIn("](https://github.com/owner/repo/issues/1)", row)
+
     def test_title_pipe_is_escaped(self):
         result = radar.issue_table(self.single_issue, self.repositories, 5)
         self.assertIn(r"Fix \| bug", result)
