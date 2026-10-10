@@ -1,10 +1,10 @@
 # Dart issues
 
-**53** open issues (26 labeled for beginners) across **32** active Dart projects.
+**54** open issues (26 labeled for beginners) across **34** active Dart projects.
 
 [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/dart.xml)
 
-> Updated automatically on **2026-10-10 12:13 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-10-10 21:31 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -12,7 +12,11 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [Port to KaiOS](https://github.com/localsend/localsend/issues/1511) 💬 3 | [localsend/localsend](https://github.com/localsend/localsend) | 93.9k | 🟡 help wanted | 2026-10-09 |  |
+| [Port to KaiOS](https://github.com/localsend/localsend/issues/1511) 💬 4 | [localsend/localsend](https://github.com/localsend/localsend) | 93.9k | 🟡 help wanted | 2026-10-10 |  |
+| [FTappable stops animating its bounce after a CupertinoSheetRoute was shown over it](https://github.com/duobaseio/forui/issues/1215) 💬 1 | [duobaseio/forui](https://github.com/duobaseio/forui) | 2.4k | 🟢 beginner | 2026-10-10 |  |
+| [[User reported] Click on tags in the log events rows to filter by those tags](https://github.com/flutter/devtools/issues/9558) 💬 4 | [flutter/devtools](https://github.com/flutter/devtools) | 1.7k | 🟡 help wanted | 2026-10-10 | 📄 AI policy · ✍️ CLA |
+| [Add option maxCacheSize](https://github.com/getsentry/sentry-dart/issues/1830) 💬 2 | [getsentry/sentry-dart](https://github.com/getsentry/sentry-dart) | 873 | 🟢 beginner | 2026-10-10 |  |
+| [Protein/Creatine Reminder](https://github.com/InlitX/GymMane/issues/76) 💬 8 | [InlitX/GymMane](https://github.com/InlitX/GymMane) | 844 | 🟡 help wanted | 2026-10-10 |  |
 | [bug: Flatpak never opens a window on Ubuntu 26.04 — main thread spins at ~99% CPU with no output](https://github.com/localsend/localsend/issues/3553) 💬 1 | [localsend/localsend](https://github.com/localsend/localsend) | 93.9k | 🟡 help wanted | 2026-10-09 |  |
 | [English translation](https://github.com/bepass-org/oblivion/issues/171) 💬 2 | [bepass-org/oblivion](https://github.com/bepass-org/oblivion) | 4.9k | 🟡 help wanted | 2026-10-09 |  |
 | [[Feature Request] implement a flickering method to introduce grayscale](https://github.com/fossasia/badgemagic-app/issues/1671) 💬 5 | [fossasia/badgemagic-app](https://github.com/fossasia/badgemagic-app) | 2k | 🟡 help wanted | 2026-10-08 |  |
@@ -20,7 +24,6 @@
 | [File picker does not open on MX Linux while folder selection works](https://github.com/localsend/localsend/issues/1310) 💬 1 | [localsend/localsend](https://github.com/localsend/localsend) | 93.9k | 🟡 help wanted | 2026-10-04 |  |
 | [Docs: migrating from library X](https://github.com/felangel/bloc/issues/1837) 💬 1 | [felangel/bloc](https://github.com/felangel/bloc) | 12.5k | 🟢 beginner | 2026-09-29 |  |
 | [[Debugger FR] Add option to disable breakpoints](https://github.com/flutter/devtools/issues/696) 💬 9 | [flutter/devtools](https://github.com/flutter/devtools) | 1.7k | 🟢 beginner | 2026-09-29 | 📄 AI policy · ✍️ CLA |
-| [[User reported] Click on tags in the log events rows to filter by those tags](https://github.com/flutter/devtools/issues/9558) 💬 3 | [flutter/devtools](https://github.com/flutter/devtools) | 1.7k | 🟡 help wanted | 2026-09-29 | 📄 AI policy · ✍️ CLA |
 | [Feature: Self-hosted sync server](https://github.com/simonoppowa/OpenNutriTracker/issues/79) 💬 5 | [simonoppowa/OpenNutriTracker](https://github.com/simonoppowa/OpenNutriTracker) | 2.7k | 🟡 help wanted | 2026-09-27 |  |
 | [Submit OpenNutriTracker to the F-Droid repository](https://github.com/simonoppowa/OpenNutriTracker/issues/575) 💬 4 | [simonoppowa/OpenNutriTracker](https://github.com/simonoppowa/OpenNutriTracker) | 2.7k | 🟢 beginner | 2026-09-27 |  |
 | [Crazy house pieces disappear](https://github.com/lichess-org/mobile/issues/3599) 💬 9 | [lichess-org/mobile](https://github.com/lichess-org/mobile) | 2.6k | 🟢 beginner | 2026-09-23 | 🤖 disclose AI use |
@@ -31,8 +34,6 @@
 | [Migration guide Firebase to Serverpod](https://github.com/serverpod/serverpod/issues/3337) 💬 8 | [serverpod/serverpod](https://github.com/serverpod/serverpod) | 3.3k | 🟢 beginner | 2026-09-07 |  |
 | [ci: enable the use of a dependancy bot](https://github.com/ImranR98/Obtainium/issues/3275) 💬 3 | [ImranR98/Obtainium](https://github.com/ImranR98/Obtainium) | 20.3k | 🟢 beginner | 2026-09-06 | 📄 AI policy |
 | [[Flatpak] Auth: Failed to launch: libsecret_error: Failed to unlock the keyring](https://github.com/ente/ente/issues/6564) 💬 6 | [ente/ente](https://github.com/ente/ente) | 29.3k | 🟡 help wanted | 2026-09-03 |  |
-| [Create integration test for 'appFlavor'](https://github.com/getsentry/sentry-dart/issues/1802) | [getsentry/sentry-dart](https://github.com/getsentry/sentry-dart) | 873 | 🟢 beginner | 2026-09-01 |  |
-| [Add option maxCacheSize](https://github.com/getsentry/sentry-dart/issues/1830) 💬 1 | [getsentry/sentry-dart](https://github.com/getsentry/sentry-dart) | 873 | 🟢 beginner | 2026-09-01 |  |
 | [MIssing file referred to in "Running DevTools Tests" section of TESTING.md](https://github.com/flutter/devtools/issues/8293) 💬 2 | [flutter/devtools](https://github.com/flutter/devtools) | 1.7k | 🟢 beginner | 2026-08-30 | 📄 AI policy · ✍️ CLA |
 | [[Bug] When drag and dropping contact to Bcc, the field isn't highlighted](https://github.com/linagora/tmail-flutter/issues/3074) 💬 1 | [linagora/tmail-flutter](https://github.com/linagora/tmail-flutter) | 657 | 🟢 beginner | 2026-08-29 |  |
 | [Joplin integration](https://github.com/LinwoodDev/Butterfly/issues/253) 💬 3 | [LinwoodDev/Butterfly](https://github.com/LinwoodDev/Butterfly) | 2.1k | 🟢 beginner | 2026-08-23 |  |
@@ -43,7 +44,7 @@
 | [Change message and flag icons on game page for clarity](https://github.com/lichess-org/mobile/issues/3484) 💬 6 | [lichess-org/mobile](https://github.com/lichess-org/mobile) | 2.6k | 🟢 beginner | 2026-08-08 | 🤖 disclose AI use |
 | [Add a method to check whether the platform supports dynamic theming](https://github.com/material-foundation/flutter-packages/issues/390) 💬 7 | [material-foundation/flutter-packages](https://github.com/material-foundation/flutter-packages) | 864 | 🟡 help wanted | 2026-08-07 |  |
 | [Improve development experience](https://github.com/material-foundation/flutter-packages/issues/299) | [material-foundation/flutter-packages](https://github.com/material-foundation/flutter-packages) | 864 | 🟡 help wanted | 2026-08-07 |  |
-| [iOS版本播放界面侧滑返回](https://github.com/Predidit/Kazumi/issues/2427) | [Predidit/Kazumi](https://github.com/Predidit/Kazumi) | 34.2k | 🟡 help wanted | 2026-08-04 |  |
+| [iOS版本播放界面侧滑返回](https://github.com/Predidit/Kazumi/issues/2427) | [Predidit/Kazumi](https://github.com/Predidit/Kazumi) | 34.5k | 🟡 help wanted | 2026-08-04 |  |
 | [SOCKS5 Proxy/Orbot Support](https://github.com/ImranR98/Obtainium/issues/121) 💬 9 | [ImranR98/Obtainium](https://github.com/ImranR98/Obtainium) | 20.3k | 🟡 help wanted | 2026-07-31 | 📄 AI policy |
 | [gif 动态图打开后不会动态显示](https://github.com/fregie/pho/issues/28) 💬 1 | [fregie/pho](https://github.com/fregie/pho) | 1.2k | 🟢 beginner | 2026-07-29 |  |
 | [希望可以加入收藏功能](https://github.com/fregie/pho/issues/5) 💬 1 | [fregie/pho](https://github.com/fregie/pho) | 1.2k | 🟢 beginner | 2026-07-29 |  |

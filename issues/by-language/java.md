@@ -1,10 +1,10 @@
 # Java issues
 
-**263** open issues (104 labeled for beginners) across **73** active Java projects.
+**264** open issues (105 labeled for beginners) across **74** active Java projects.
 
 [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/java.xml)
 
-> Updated automatically on **2026-10-10 12:13 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-10-10 21:31 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -12,19 +12,21 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [[Feature][Connector-v2][MySQL] Support dynamic discovery of new tables for regex-based multi-table sync](https://github.com/apache/seatunnel/issues/10203) 💬 29 | [apache/seatunnel](https://github.com/apache/seatunnel) | 9.7k | 🟢 beginner | 2026-10-10 | ✍️ CLA |
-| [[Feature][Client] Make SeaTunnel installable and runnable from PyPI (pip install)](https://github.com/apache/seatunnel/issues/12707) | [apache/seatunnel](https://github.com/apache/seatunnel) | 9.7k | 🟡 help wanted | 2026-10-10 | ✍️ CLA |
+| [Replace Bootstrap utility classes in 'RawPreview.vue'](https://github.com/kestra-io/kestra/issues/20578) 💬 9 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 29.5k | 🟢 beginner | 2026-10-10 |  |
+| [Replace Bootstrap utility classes in 'BlueprintsFilterBar.vue'](https://github.com/kestra-io/kestra/issues/20580) 💬 10 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 29.5k | 🟢 beginner | 2026-10-10 |  |
+| [Add bazel flag for max_cas_entry size.](https://github.com/bazelbuild/bazel/issues/18449) 💬 13 | [bazelbuild/bazel](https://github.com/bazelbuild/bazel) | 25.9k | 🟡 help wanted | 2026-10-10 | ✍️ CLA |
+| [[Feature][Client] Make SeaTunnel installable and runnable from PyPI (pip install)](https://github.com/apache/seatunnel/issues/12707) 💬 1 | [apache/seatunnel](https://github.com/apache/seatunnel) | 9.7k | 🟡 help wanted | 2026-10-10 | ✍️ CLA |
+| [[Feature][Connector-v2][MySQL] Support dynamic discovery of new tables for regex-based multi-table sync](https://github.com/apache/seatunnel/issues/10203) 💬 30 | [apache/seatunnel](https://github.com/apache/seatunnel) | 9.7k | 🟢 beginner | 2026-10-10 | ✍️ CLA |
 | [What does the Activity enable/disable switch represent?](https://github.com/MuntashirAkon/AppManager/issues/2063) | [MuntashirAkon/AppManager](https://github.com/MuntashirAkon/AppManager) | 9.2k | 🟡 help wanted | 2026-10-10 | 🔏 DCO |
-| [Add file history to Viewer navigation](https://github.com/gsantner/markor/issues/705) 💬 8 | [gsantner/markor](https://github.com/gsantner/markor) | 6.2k | 🟢 beginner | 2026-10-10 |  |
-| [todo.txt: Reminders & Notifications for due date](https://github.com/gsantner/markor/issues/716) 💬 6 | [gsantner/markor](https://github.com/gsantner/markor) | 6.2k | 🟢 beginner | 2026-10-10 |  |
-| [Determine and keep EOL (for saving/reading files) (\\n vs \\r\\n)](https://github.com/gsantner/markor/issues/827) 💬 3 | [gsantner/markor](https://github.com/gsantner/markor) | 6.2k | 🟢 beginner | 2026-10-10 |  |
-| [Markdown converter: Add option to break lines on single EOL](https://github.com/gsantner/markor/issues/835) 💬 5 | [gsantner/markor](https://github.com/gsantner/markor) | 6.2k | 🟢 beginner | 2026-10-10 |  |
-| [todo.txt: view mode - Fancy grouping, sort, search etc](https://github.com/gsantner/markor/issues/859) 💬 14 | [gsantner/markor](https://github.com/gsantner/markor) | 6.2k | 🟢 beginner | 2026-10-10 |  |
-| [Improve View Mode & "default to view mode"](https://github.com/gsantner/markor/issues/912) | [gsantner/markor](https://github.com/gsantner/markor) | 6.2k | 🟢 beginner | 2026-10-10 |  |
-| [Rework Copy/Insert media dialogs: Scrollable selection list between notebook,current, favourite folders](https://github.com/gsantner/markor/issues/925) 💬 4 | [gsantner/markor](https://github.com/gsantner/markor) | 6.2k | 🟢 beginner | 2026-10-10 |  |
-| [Fullscreen settings option (Hide SystemUI status/nav)](https://github.com/gsantner/markor/issues/1247) 💬 3 | [gsantner/markor](https://github.com/gsantner/markor) | 6.2k | 🟢 beginner | 2026-10-10 |  |
-| [Attachment menu: Add section for Videos](https://github.com/gsantner/markor/issues/1280) 💬 5 | [gsantner/markor](https://github.com/gsantner/markor) | 6.2k | 🟢 beginner | 2026-10-10 |  |
-| [Add bazel flag for max_cas_entry size.](https://github.com/bazelbuild/bazel/issues/18449) 💬 12 | [bazelbuild/bazel](https://github.com/bazelbuild/bazel) | 25.9k | 🟡 help wanted | 2026-10-09 | ✍️ CLA |
+| [Add file history to Viewer navigation](https://github.com/gsantner/markor/issues/705) 💬 8 | [gsantner/markor](https://github.com/gsantner/markor) | 6.3k | 🟢 beginner | 2026-10-10 |  |
+| [todo.txt: Reminders & Notifications for due date](https://github.com/gsantner/markor/issues/716) 💬 6 | [gsantner/markor](https://github.com/gsantner/markor) | 6.3k | 🟢 beginner | 2026-10-10 |  |
+| [Determine and keep EOL (for saving/reading files) (\\n vs \\r\\n)](https://github.com/gsantner/markor/issues/827) 💬 3 | [gsantner/markor](https://github.com/gsantner/markor) | 6.3k | 🟢 beginner | 2026-10-10 |  |
+| [Markdown converter: Add option to break lines on single EOL](https://github.com/gsantner/markor/issues/835) 💬 5 | [gsantner/markor](https://github.com/gsantner/markor) | 6.3k | 🟢 beginner | 2026-10-10 |  |
+| [todo.txt: view mode - Fancy grouping, sort, search etc](https://github.com/gsantner/markor/issues/859) 💬 14 | [gsantner/markor](https://github.com/gsantner/markor) | 6.3k | 🟢 beginner | 2026-10-10 |  |
+| [Improve View Mode & "default to view mode"](https://github.com/gsantner/markor/issues/912) | [gsantner/markor](https://github.com/gsantner/markor) | 6.3k | 🟢 beginner | 2026-10-10 |  |
+| [Rework Copy/Insert media dialogs: Scrollable selection list between notebook,current, favourite folders](https://github.com/gsantner/markor/issues/925) 💬 4 | [gsantner/markor](https://github.com/gsantner/markor) | 6.3k | 🟢 beginner | 2026-10-10 |  |
+| [Fullscreen settings option (Hide SystemUI status/nav)](https://github.com/gsantner/markor/issues/1247) 💬 3 | [gsantner/markor](https://github.com/gsantner/markor) | 6.3k | 🟢 beginner | 2026-10-10 |  |
+| [Attachment menu: Add section for Videos](https://github.com/gsantner/markor/issues/1280) 💬 5 | [gsantner/markor](https://github.com/gsantner/markor) | 6.3k | 🟢 beginner | 2026-10-10 |  |
 | [java.lang.InterruptedException: null when closing BrokerClient](https://github.com/camunda/camunda/issues/17098) 💬 7 | [camunda/camunda](https://github.com/camunda/camunda) | 4.3k | 🟢 beginner | 2026-10-09 | ✍️ CLA |
 | [NPE when recovering from snapshot in StreamProcessor](https://github.com/camunda/camunda/issues/12201) 💬 2 | [camunda/camunda](https://github.com/camunda/camunda) | 4.3k | 🟢 beginner | 2026-10-09 | ✍️ CLA |
 | [Crash on startup on Android 6.0.1: NullPointerException "Attempt to read from null array" in MainActivity.onCr](https://github.com/TeamNewPipe/NewPipe/issues/13866) 💬 5 | [TeamNewPipe/NewPipe](https://github.com/TeamNewPipe/NewPipe) | 40k | 🟢 beginner | 2026-10-07 | 📄 AI policy |
@@ -201,7 +203,6 @@
 | [Improve UX for beginner users](https://github.com/Col-E/Recaf/issues/230) | [Col-E/Recaf](https://github.com/Col-E/Recaf) | 7.4k | 🟡 help wanted | 2026-07-08 |  |
 | [Disable colors in logs](https://github.com/tchiotludo/akhq/issues/917) 💬 9 | [tchiotludo/akhq](https://github.com/tchiotludo/akhq) | 3.9k | 🟢 beginner | 2026-07-08 |  |
 | [runtime_type_check DoFn wrapper doesn't call setup and teardown](https://github.com/apache/beam/issues/20059) 💬 6 | [apache/beam](https://github.com/apache/beam) | 8.7k | 🟢 beginner | 2026-07-05 | ✍️ CLA |
-| [python typehints: reduce the number of runtime-type-check wrappers](https://github.com/apache/beam/issues/20226) 💬 4 | [apache/beam](https://github.com/apache/beam) | 8.7k | 🟢 beginner | 2026-07-02 | ✍️ CLA |
 | [Hide health status timeline per partition in a row](https://github.com/camunda/camunda/issues/29579) 💬 1 | [camunda/camunda](https://github.com/camunda/camunda) | 4.3k | 🟢 beginner | 2026-07-01 | ✍️ CLA |
 | [online java 导入增强优化](https://github.com/jeecgboot/JeecgBoot/issues/9735) | [jeecgboot/JeecgBoot](https://github.com/jeecgboot/JeecgBoot) | 48.1k | 🟡 help wanted | 2026-06-30 |  |
 | [Optimize GROUP BY with LIMIT but no ORDER BY to keep only k groups](https://github.com/crate/crate/issues/16827) 💬 5 | [crate/crate](https://github.com/crate/crate) | 4.4k | 🟡 help wanted | 2026-06-30 | ⚠️ AI restricted · ✍️ CLA |
@@ -211,6 +212,5 @@
 | [Add ALERT_RULE_CONFIGURATION permission](https://github.com/DependencyTrack/dependency-track/issues/4847) 💬 5 | [DependencyTrack/dependency-track](https://github.com/DependencyTrack/dependency-track) | 4.3k | 🟢 beginner | 2026-06-27 | ⚠️ AI restricted · 🔏 DCO |
 | [Notify user, when response of Hub Authentication takes a long time](https://github.com/cryptomator/cryptomator/issues/3162) 💬 3 | [cryptomator/cryptomator](https://github.com/cryptomator/cryptomator) | 16.3k | 🟢 beginner | 2026-06-24 |  |
 | [Add nodejs Analyzer](https://github.com/oracle/opengrok/issues/3470) 💬 2 | [oracle/opengrok](https://github.com/oracle/opengrok) | 5k | 🟡 help wanted | 2026-06-22 | 🔏 DCO |
-| [Checkbox next to Group Name in Project Dropdown menu](https://github.com/oracle/opengrok/issues/4331) 💬 2 | [oracle/opengrok](https://github.com/oracle/opengrok) | 5k | 🟡 help wanted | 2026-06-22 | 🔏 DCO |
 
-Showing the 200 most recently updated. See all 263 on the website.
+Showing the 200 most recently updated. See all 264 on the website.

@@ -1,10 +1,10 @@
 # C++ issues
 
-**341** open issues (112 labeled for beginners) across **99** active C++ projects.
+**339** open issues (114 labeled for beginners) across **97** active C++ projects.
 
 [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/cpp.xml)
 
-> Updated automatically on **2026-10-10 12:13 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-10-10 21:31 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -12,9 +12,14 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [Right sidebar cannot be resized below a minimum width unlike left sidebar](https://github.com/zen-browser/desktop/issues/15876) | [zen-browser/desktop](https://github.com/zen-browser/desktop) | 44.9k | 🟢 beginner | 2026-10-10 |  |
 | [Sidebar position set to top after exiting fullscreen YouTube video](https://github.com/zen-browser/desktop/issues/14389) 💬 6 | [zen-browser/desktop](https://github.com/zen-browser/desktop) | 44.9k | 🟢 beginner | 2026-10-10 |  |
-| [Paste to current window intermittently fails quietly (no effect or empty paste) on Windows](https://github.com/hluk/CopyQ/issues/3744) | [hluk/CopyQ](https://github.com/hluk/CopyQ) | 12.4k | 🟡 help wanted | 2026-10-10 |  |
+| [Preferences dialogue window partially inaccessible with VoiceOver Screen reader for MacOS](https://github.com/FreeCAD/FreeCAD/issues/33413) | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 34.1k | 🟢 beginner | 2026-10-10 | ⚠️ AI restricted |
+| [Paste to current window intermittently fails quietly (no effect or empty paste) on Windows](https://github.com/hluk/CopyQ/issues/3744) 💬 1 | [hluk/CopyQ](https://github.com/hluk/CopyQ) | 12.4k | 🟡 help wanted | 2026-10-10 |  |
 | [AppImage: fails with “libm.so.6: version 'GLIBC_2.43' not found”](https://github.com/hluk/CopyQ/issues/3739) 💬 3 | [hluk/CopyQ](https://github.com/hluk/CopyQ) | 12.4k | 🟡 help wanted | 2026-10-10 |  |
+| [Abnormal drop of items](https://github.com/azerothcore/azerothcore-wotlk/issues/4212) 💬 4 | [azerothcore/azerothcore-wotlk](https://github.com/azerothcore/azerothcore-wotlk) | 9k | 🟢 beginner | 2026-10-10 |  |
+| [[TBC] Mad Alchemist's Potion without bonus effect](https://github.com/azerothcore/azerothcore-wotlk/issues/14419) 💬 2 | [azerothcore/azerothcore-wotlk](https://github.com/azerothcore/azerothcore-wotlk) | 9k | 🟢 beginner | 2026-10-10 |  |
+| [Severe Qt 6 memory leak](https://github.com/jellyfin/jellyfin-desktop/issues/1091) 💬 19 | [jellyfin/jellyfin-desktop](https://github.com/jellyfin/jellyfin-desktop) | 5.9k | 🟡 help wanted | 2026-10-10 |  |
 | [start wt.exe with parameter fails in administrator mode](https://github.com/microsoft/terminal/issues/14861) 💬 6 | [microsoft/terminal](https://github.com/microsoft/terminal) | 105.1k | 🟡 help wanted | 2026-10-09 | 🤖 disclose AI use |
 | [DAG View not rendered properly](https://github.com/FreeCAD/FreeCAD/issues/16525) 💬 24 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 34.1k | 🟡 help wanted | 2026-10-09 | ⚠️ AI restricted |
 | [Issues needing community help on reports to third-party projects](https://github.com/telegramdesktop/tdesktop/issues/25126) | [telegramdesktop/tdesktop](https://github.com/telegramdesktop/tdesktop) | 33.2k | 🟡 help wanted | 2026-10-09 |  |
@@ -34,7 +39,7 @@
 | [blank screen on desktop on Windows 11 PRO](https://github.com/hluk/CopyQ/issues/3736) 💬 1 | [hluk/CopyQ](https://github.com/hluk/CopyQ) | 12.4k | 🟡 help wanted | 2026-10-07 |  |
 | [Non-active window on copyq startup](https://github.com/hluk/CopyQ/issues/3670) 💬 2 | [hluk/CopyQ](https://github.com/hluk/CopyQ) | 12.4k | 🟡 help wanted | 2026-10-07 |  |
 | [Linux: AppImage lacks update information and delta (.zsync) files for efficient upgrades](https://github.com/hluk/CopyQ/issues/3688) 💬 1 | [hluk/CopyQ](https://github.com/hluk/CopyQ) | 12.4k | 🟡 help wanted | 2026-10-07 |  |
-| [Rotate-only interaction mode](https://github.com/f3d-app/f3d/issues/3538) 💬 7 | [f3d-app/f3d](https://github.com/f3d-app/f3d) | 4.7k | 🟡 help wanted | 2026-10-07 | 🤖 disclose AI use |
+| [Rotate-only interaction mode](https://github.com/f3d-app/f3d/issues/3538) 💬 7 | [f3d-app/f3d](https://github.com/f3d-app/f3d) | 4.8k | 🟡 help wanted | 2026-10-07 | 🤖 disclose AI use |
 | [AIX port](https://github.com/s3fs-fuse/s3fs-fuse/issues/2977) 💬 6 | [s3fs-fuse/s3fs-fuse](https://github.com/s3fs-fuse/s3fs-fuse) | 10k | 🟡 help wanted | 2026-10-06 |  |
 | [Notice in UI on updating the Terminal app + Fix a Release Notes link to point to the actual release page and n](https://github.com/microsoft/terminal/issues/12886) 💬 18 | [microsoft/terminal](https://github.com/microsoft/terminal) | 105.1k | 🟢 beginner | 2026-10-05 | 🤖 disclose AI use |
 | [[FEATURE]CPU Scheduling algorithms](https://github.com/TheAlgorithms/C-Plus-Plus/issues/1574) 💬 19 | [TheAlgorithms/C-Plus-Plus](https://github.com/TheAlgorithms/C-Plus-Plus) | 34.8k | 🟡 help wanted | 2026-10-05 |  |
@@ -65,7 +70,6 @@
 | [Segfault and application crash when clicking outside the tray menu](https://github.com/hluk/CopyQ/issues/3187) 💬 6 | [hluk/CopyQ](https://github.com/hluk/CopyQ) | 12.4k | 🟡 help wanted | 2026-09-30 |  |
 | [Bypassing Zeek's file extraction processor by twisting Content-Type](https://github.com/zeek/zeek/issues/1799) 💬 5 | [zeek/zeek](https://github.com/zeek/zeek) | 8.1k | 🟢 beginner | 2026-09-30 | 🤖 disclose AI use |
 | [PartDesign: Pad generates a surface artifact if it crosses plane (due to Angular Deflection & Deviation settin](https://github.com/FreeCAD/FreeCAD/issues/16257) 💬 8 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 34.1k | 🟢 beginner | 2026-09-29 | ⚠️ AI restricted |
-| [STEP: Crash when loading NUC12STEP file (linked)](https://github.com/FreeCAD/FreeCAD/issues/14565) 💬 12 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 34.1k | 🟡 help wanted | 2026-09-29 | ⚠️ AI restricted |
 | [end-to-end tests for ioredis and dragonfly](https://github.com/dragonflydb/dragonfly/issues/383) 💬 7 | [dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly) | 31.8k | 🟢 beginner | 2026-09-29 | ✍️ CLA · 🔏 DCO |
 | [WC: improve name generation](https://github.com/wesnoth/wesnoth/issues/9127) 💬 5 | [wesnoth/wesnoth](https://github.com/wesnoth/wesnoth) | 6.9k | 🟢 beginner | 2026-09-29 |  |
 | [Report your benchmark results here!](https://github.com/ProjectPhysX/FluidX3D/issues/8) 💬 278 | [ProjectPhysX/FluidX3D](https://github.com/ProjectPhysX/FluidX3D) | 5.3k | 🟡 help wanted | 2026-09-29 |  |
@@ -75,7 +79,7 @@
 | [xtensa-lx106-elf-g++: bad CPU type in executable on a M2 Mac without rosetta emulation installed](https://github.com/esp8266/Arduino/issues/8725) 💬 10 | [esp8266/Arduino](https://github.com/esp8266/Arduino) | 16.7k | 🟡 help wanted | 2026-09-27 |  |
 | [CopyQ Creates a Blank Unclosable Window, Subsequently opens Second Window](https://github.com/hluk/CopyQ/issues/1228) 💬 13 | [hluk/CopyQ](https://github.com/hluk/CopyQ) | 12.4k | 🟡 help wanted | 2026-09-27 |  |
 | [Linux: 100% CPU when using external-message-pump with Version 84+](https://github.com/chromiumembedded/cef/issues/3002) 💬 8 | [chromiumembedded/cef](https://github.com/chromiumembedded/cef) | 4.8k | 🟡 help wanted | 2026-09-27 | 🤖 disclose AI use |
-| [Smarter window positioning for multi-screen setups](https://github.com/f3d-app/f3d/issues/3192) 💬 5 | [f3d-app/f3d](https://github.com/f3d-app/f3d) | 4.7k | 🟡 help wanted | 2026-09-27 | 🤖 disclose AI use |
+| [Smarter window positioning for multi-screen setups](https://github.com/f3d-app/f3d/issues/3192) 💬 5 | [f3d-app/f3d](https://github.com/f3d-app/f3d) | 4.8k | 🟡 help wanted | 2026-09-27 | 🤖 disclose AI use |
 | [Launch size, Launch position should each have a "as current window" button](https://github.com/microsoft/terminal/issues/18390) 💬 3 | [microsoft/terminal](https://github.com/microsoft/terminal) | 105.1k | 🟡 help wanted | 2026-09-26 | 🤖 disclose AI use |
 | [x:Bind not Binding](https://github.com/microsoft/terminal/issues/11767) 💬 13 | [microsoft/terminal](https://github.com/microsoft/terminal) | 105.1k | 🟢 beginner | 2026-09-26 | 🤖 disclose AI use |
 | [Game crashes with CET with JIT enabled when using special k (mod).](https://github.com/maximegmd/CyberEngineTweaks/issues/1010) 💬 17 | [maximegmd/CyberEngineTweaks](https://github.com/maximegmd/CyberEngineTweaks) | 4.8k | 🟡 help wanted | 2026-09-26 |  |
@@ -93,18 +97,17 @@
 | [Add support for roaming settings.json or storing it elsewhere](https://github.com/microsoft/terminal/issues/2933) 💬 53 | [microsoft/terminal](https://github.com/microsoft/terminal) | 105.1k | 🟡 help wanted | 2026-09-19 | 🤖 disclose AI use |
 | [Fallback value should be close to original value](https://github.com/microsoft/microsoft-ui-xaml/issues/5707) 💬 2 | [microsoft/microsoft-ui-xaml](https://github.com/microsoft/microsoft-ui-xaml) | 8.5k | 🟡 help wanted | 2026-09-18 | ✍️ CLA |
 | [Icon on MenuFlyoutItem within a dark container turns black on pointer exit (with OS in light mode theme color)](https://github.com/microsoft/microsoft-ui-xaml/issues/5381) 💬 11 | [microsoft/microsoft-ui-xaml](https://github.com/microsoft/microsoft-ui-xaml) | 8.5k | 🟡 help wanted | 2026-09-18 | ✍️ CLA |
-| [Drag&Drop does not work with within Elevated Apps](https://github.com/microsoft/microsoft-ui-xaml/issues/7690) 💬 42 | [microsoft/microsoft-ui-xaml](https://github.com/microsoft/microsoft-ui-xaml) | 8.5k | 🟡 help wanted | 2026-09-18 | ✍️ CLA |
 | [Proposal: C++/WinRT basic example for each control](https://github.com/microsoft/microsoft-ui-xaml/issues/1946) 💬 11 | [microsoft/microsoft-ui-xaml](https://github.com/microsoft/microsoft-ui-xaml) | 8.5k | 🟡 help wanted | 2026-09-18 | ✍️ CLA |
 | [The welcome message and brand text renders over content, when the “Loading Results…” window is 1⁄8 of the tota](https://github.com/KDAB/hotspot/issues/713) 💬 15 | [KDAB/hotspot](https://github.com/KDAB/hotspot) | 5.2k | 🟡 help wanted | 2026-09-18 |  |
-| [Support for cursors change](https://github.com/f3d-app/f3d/issues/3492) | [f3d-app/f3d](https://github.com/f3d-app/f3d) | 4.7k | 🟡 help wanted | 2026-09-18 | 🤖 disclose AI use |
-| [OpenGL error with grid reflection and volume option](https://github.com/f3d-app/f3d/issues/3488) | [f3d-app/f3d](https://github.com/f3d-app/f3d) | 4.7k | 🟡 help wanted | 2026-09-18 | 🤖 disclose AI use |
-| [USD: GPU sparse blend shapes support](https://github.com/f3d-app/f3d/issues/3218) 💬 9 | [f3d-app/f3d](https://github.com/f3d-app/f3d) | 4.7k | 🟡 help wanted | 2026-09-18 | 🤖 disclose AI use |
-| [Improve Windows Thumbnailer](https://github.com/f3d-app/f3d/issues/797) 💬 5 | [f3d-app/f3d](https://github.com/f3d-app/f3d) | 4.7k | 🟡 help wanted | 2026-09-17 | 🤖 disclose AI use |
-| [Implement light configuration](https://github.com/f3d-app/f3d/issues/6) 💬 15 | [f3d-app/f3d](https://github.com/f3d-app/f3d) | 4.7k | 🟡 help wanted | 2026-09-17 | 🤖 disclose AI use |
-| [Add a CLI option to generate an animated camera orbit](https://github.com/f3d-app/f3d/issues/1743) 💬 15 | [f3d-app/f3d](https://github.com/f3d-app/f3d) | 4.7k | 🟡 help wanted | 2026-09-17 | 🤖 disclose AI use |
-| [Add support for GLTF 'KHR_texture_basisu' extension](https://github.com/f3d-app/f3d/issues/1707) 💬 3 | [f3d-app/f3d](https://github.com/f3d-app/f3d) | 4.7k | 🟡 help wanted | 2026-09-17 | 🤖 disclose AI use |
-| [Add support for glTF KHR_materials_pbrSpecularGlossiness (Bee.glb not working)](https://github.com/f3d-app/f3d/issues/943) 💬 13 | [f3d-app/f3d](https://github.com/f3d-app/f3d) | 4.7k | 🟡 help wanted | 2026-09-17 | 🤖 disclose AI use |
-| [Is there a way to disable thumbnail generation for specific filetypes?](https://github.com/f3d-app/f3d/issues/2917) 💬 3 | [f3d-app/f3d](https://github.com/f3d-app/f3d) | 4.7k | 🟡 help wanted | 2026-09-17 | 🤖 disclose AI use |
+| [Support for cursors change](https://github.com/f3d-app/f3d/issues/3492) | [f3d-app/f3d](https://github.com/f3d-app/f3d) | 4.8k | 🟡 help wanted | 2026-09-18 | 🤖 disclose AI use |
+| [OpenGL error with grid reflection and volume option](https://github.com/f3d-app/f3d/issues/3488) | [f3d-app/f3d](https://github.com/f3d-app/f3d) | 4.8k | 🟡 help wanted | 2026-09-18 | 🤖 disclose AI use |
+| [USD: GPU sparse blend shapes support](https://github.com/f3d-app/f3d/issues/3218) 💬 9 | [f3d-app/f3d](https://github.com/f3d-app/f3d) | 4.8k | 🟡 help wanted | 2026-09-18 | 🤖 disclose AI use |
+| [Improve Windows Thumbnailer](https://github.com/f3d-app/f3d/issues/797) 💬 5 | [f3d-app/f3d](https://github.com/f3d-app/f3d) | 4.8k | 🟡 help wanted | 2026-09-17 | 🤖 disclose AI use |
+| [Implement light configuration](https://github.com/f3d-app/f3d/issues/6) 💬 15 | [f3d-app/f3d](https://github.com/f3d-app/f3d) | 4.8k | 🟡 help wanted | 2026-09-17 | 🤖 disclose AI use |
+| [Add a CLI option to generate an animated camera orbit](https://github.com/f3d-app/f3d/issues/1743) 💬 15 | [f3d-app/f3d](https://github.com/f3d-app/f3d) | 4.8k | 🟡 help wanted | 2026-09-17 | 🤖 disclose AI use |
+| [Add support for GLTF 'KHR_texture_basisu' extension](https://github.com/f3d-app/f3d/issues/1707) 💬 3 | [f3d-app/f3d](https://github.com/f3d-app/f3d) | 4.8k | 🟡 help wanted | 2026-09-17 | 🤖 disclose AI use |
+| [Add support for glTF KHR_materials_pbrSpecularGlossiness (Bee.glb not working)](https://github.com/f3d-app/f3d/issues/943) 💬 13 | [f3d-app/f3d](https://github.com/f3d-app/f3d) | 4.8k | 🟡 help wanted | 2026-09-17 | 🤖 disclose AI use |
+| [Is there a way to disable thumbnail generation for specific filetypes?](https://github.com/f3d-app/f3d/issues/2917) 💬 3 | [f3d-app/f3d](https://github.com/f3d-app/f3d) | 4.8k | 🟡 help wanted | 2026-09-17 | 🤖 disclose AI use |
 | [window changes location between toggles](https://github.com/hluk/CopyQ/issues/3643) 💬 6 | [hluk/CopyQ](https://github.com/hluk/CopyQ) | 12.4k | 🟡 help wanted | 2026-09-16 |  |
 | [Automatically expand single-element in calltree view of tree explorer](https://github.com/google/perfetto/issues/7397) 💬 3 | [google/perfetto](https://github.com/google/perfetto) | 6.6k | 🟢 beginner | 2026-09-16 |  |
 | [WinUI library projects throws Markup.XamlParseException: The text associated with this error code could not be](https://github.com/microsoft/microsoft-ui-xaml/issues/9522) 💬 2 | [microsoft/microsoft-ui-xaml](https://github.com/microsoft/microsoft-ui-xaml) | 8.5k | 🟡 help wanted | 2026-09-15 | ✍️ CLA |
@@ -115,7 +118,7 @@
 | [g++-16 on OSX: test_flags-cpp26 Exception: SegFault](https://github.com/Neargye/magic_enum/issues/467) 💬 5 | [Neargye/magic_enum](https://github.com/Neargye/magic_enum) | 6.2k | 🟡 help wanted | 2026-09-14 |  |
 | [ARC B580 - Menus are sluggish in the redot editor.](https://github.com/Redot-Engine/redot-engine/issues/921) 💬 9 | [Redot-Engine/redot-engine](https://github.com/Redot-Engine/redot-engine) | 6.1k | 🟡 help wanted | 2026-09-14 | ⚠️ AI restricted |
 | [Connect Crow to Apache and Nginx using custom modules](https://github.com/CrowCpp/Crow/issues/94) 💬 4 | [CrowCpp/Crow](https://github.com/CrowCpp/Crow) | 5k | 🟡 help wanted | 2026-09-14 |  |
-| [Support for .NIF (NetImmerse File)](https://github.com/f3d-app/f3d/issues/3478) 💬 1 | [f3d-app/f3d](https://github.com/f3d-app/f3d) | 4.7k | 🟡 help wanted | 2026-09-14 | 🤖 disclose AI use |
+| [Support for .NIF (NetImmerse File)](https://github.com/f3d-app/f3d/issues/3478) 💬 1 | [f3d-app/f3d](https://github.com/f3d-app/f3d) | 4.8k | 🟡 help wanted | 2026-09-14 | 🤖 disclose AI use |
 | [Yo-kai Watch 2 - Blasters mode is broken](https://github.com/azahar-emu/azahar/issues/170) 💬 8 | [azahar-emu/azahar](https://github.com/azahar-emu/azahar) | 8.3k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use |
 | [all *.json files are interpreted as objects](https://github.com/OpenRCT2/OpenRCT2/issues/16807) 💬 3 | [OpenRCT2/OpenRCT2](https://github.com/OpenRCT2/OpenRCT2) | 16.4k | 🟢 beginner | 2026-09-12 |  |
 | [verbose mode partition commands with wrong partition identifier](https://github.com/ClickHouse/ClickHouse/issues/6743) 💬 2 | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 50.3k | 🟢 beginner | 2026-09-11 | 🤖 disclose AI use · ✍️ CLA |
@@ -153,7 +156,7 @@
 | [clang-tidy: enable performance-*](https://github.com/alibaba/zvec/issues/291) 💬 3 | [alibaba/zvec](https://github.com/alibaba/zvec) | 16.1k | 🟡 help wanted | 2026-09-08 |  |
 | [clang-tidy: enable clang-analyzer-*](https://github.com/alibaba/zvec/issues/292) | [alibaba/zvec](https://github.com/alibaba/zvec) | 16.1k | 🟡 help wanted | 2026-09-08 |  |
 | [Add ability to not automatically copy whitespace-only selections](https://github.com/microsoft/terminal/issues/11751) 💬 6 | [microsoft/terminal](https://github.com/microsoft/terminal) | 105.1k | 🟡 help wanted | 2026-09-07 | 🤖 disclose AI use |
-| [llama cpp server cant open to public](https://github.com/ggml-org/llama.cpp/issues/6268) 💬 8 | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 130.7k | 🟢 beginner | 2026-09-06 | ⚠️ AI restricted |
+| [llama cpp server cant open to public](https://github.com/ggml-org/llama.cpp/issues/6268) 💬 8 | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 130.8k | 🟢 beginner | 2026-09-06 | ⚠️ AI restricted |
 | [Fallback code paths with "SIMD Everywhere"](https://github.com/simdjson/simdjson/issues/1091) 💬 6 | [simdjson/simdjson](https://github.com/simdjson/simdjson) | 24.4k | 🟢 beginner | 2026-09-06 | 📄 AI policy |
 | [Add option for voice over language](https://github.com/diasurgical/DevilutionX/issues/5742) 💬 2 | [diasurgical/DevilutionX](https://github.com/diasurgical/DevilutionX) | 9.8k | 🟢 beginner | 2026-09-06 |  |
 | [[BUG] Python groupby rolling aggregations return index inconsistent with pandas](https://github.com/NVIDIA/cudf/issues/10249) 💬 7 | [NVIDIA/cudf](https://github.com/NVIDIA/cudf) | 9.8k | 🟢 beginner | 2026-09-06 |  |
@@ -171,15 +174,14 @@
 | [-Wnull dereference warning, when using -Os, -DNDEBUG and -Wnull-dereference flags after upgrading to protobuf ](https://github.com/protocolbuffers/protobuf/issues/19291) 💬 2 | [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | 72.1k | 🟡 help wanted | 2026-09-03 | ✍️ CLA |
 | [Multiple CWE's in protobuf after SAST analysis by PVS-Studio](https://github.com/protocolbuffers/protobuf/issues/24882) 💬 2 | [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | 72.1k | 🟡 help wanted | 2026-09-03 | ✍️ CLA |
 | [PHP: C extension has undocumented "append" function that has no package parity.](https://github.com/protocolbuffers/protobuf/issues/26188) 💬 2 | [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | 72.1k | 🟡 help wanted | 2026-09-03 | ✍️ CLA |
-| [GGUF convert support for Vibevoice](https://github.com/ggml-org/llama.cpp/issues/17488) 💬 6 | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 130.7k | 🟢 beginner | 2026-09-01 | ⚠️ AI restricted |
-| [Feature Request: support the multi-modal Bagel model](https://github.com/ggml-org/llama.cpp/issues/17861) 💬 2 | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 130.7k | 🟡 help wanted | 2026-09-01 | ⚠️ AI restricted |
+| [GGUF convert support for Vibevoice](https://github.com/ggml-org/llama.cpp/issues/17488) 💬 6 | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 130.8k | 🟢 beginner | 2026-09-01 | ⚠️ AI restricted |
+| [Feature Request: support the multi-modal Bagel model](https://github.com/ggml-org/llama.cpp/issues/17861) 💬 2 | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 130.8k | 🟡 help wanted | 2026-09-01 | ⚠️ AI restricted |
 | [Custom icons for tabs without favicons not saving](https://github.com/zen-browser/desktop/issues/13020) 💬 4 | [zen-browser/desktop](https://github.com/zen-browser/desktop) | 44.9k | 🟢 beginner | 2026-09-01 |  |
 | [[FEA] Add support to str.normalize_spaces and str.normalize_characters in dask_cudf](https://github.com/NVIDIA/cudf/issues/10908) 💬 1 | [NVIDIA/cudf](https://github.com/NVIDIA/cudf) | 9.8k | 🟢 beginner | 2026-09-01 |  |
 | [Wayland - remote desktop interaction popup](https://github.com/hluk/CopyQ/issues/3662) 💬 1 | [hluk/CopyQ](https://github.com/hluk/CopyQ) | 12.4k | 🟡 help wanted | 2026-08-31 |  |
 | [[Bug]: failed deploy oceanbase in developing mode](https://github.com/oceanbase/oceanbase/issues/1651) 💬 2 | [oceanbase/oceanbase](https://github.com/oceanbase/oceanbase) | 10.3k | 🟢 beginner | 2026-08-31 |  |
 | [[Bug]: 缺少两个编译依赖](https://github.com/oceanbase/oceanbase/issues/1865) 💬 2 | [oceanbase/oceanbase](https://github.com/oceanbase/oceanbase) | 10.3k | 🟢 beginner | 2026-08-31 |  |
 | [Use a Clip rect for Pane animations instead of the Width/Height](https://github.com/microsoft/terminal/issues/7436) 💬 1 | [microsoft/terminal](https://github.com/microsoft/terminal) | 105.1k | 🟡 help wanted | 2026-08-28 | 🤖 disclose AI use |
-| [Severe Qt 6 memory leak](https://github.com/jellyfin/jellyfin-desktop/issues/1091) 💬 18 | [jellyfin/jellyfin-desktop](https://github.com/jellyfin/jellyfin-desktop) | 5.9k | 🟡 help wanted | 2026-08-28 |  |
 | [Run thread/address sanitizers in Nav2 System Tests CI](https://github.com/ros-navigation/navigation2/issues/6349) 💬 4 | [ros-navigation/navigation2](https://github.com/ros-navigation/navigation2) | 4.8k | 🟡 help wanted | 2026-08-25 | 🔏 DCO |
 | [Tracing for WASM plugins](https://github.com/envoyproxy/envoy/issues/40859) | [envoyproxy/envoy](https://github.com/envoyproxy/envoy) | 29.1k | 🟡 help wanted | 2026-08-24 | 🤖 disclose AI use · 🔏 DCO |
 | [Security posture status for Stateful Session filter](https://github.com/envoyproxy/envoy/issues/39289) 💬 11 | [envoyproxy/envoy](https://github.com/envoyproxy/envoy) | 29.1k | 🟡 help wanted | 2026-08-24 | 🤖 disclose AI use · 🔏 DCO |
@@ -206,11 +208,9 @@
 | [Un-fullscreening on mac moves the window off-screen where it can't be interacted with](https://github.com/jellyfin/jellyfin-desktop/issues/525) 💬 3 | [jellyfin/jellyfin-desktop](https://github.com/jellyfin/jellyfin-desktop) | 5.9k | 🟡 help wanted | 2026-08-14 |  |
 | [The binary installation and source code installation paths are different](https://github.com/Neargye/magic_enum/issues/419) 💬 5 | [Neargye/magic_enum](https://github.com/Neargye/magic_enum) | 6.2k | 🟡 help wanted | 2026-08-12 |  |
 | [Windows: Scroll bar in tab list causes layout shift when always show scroll bars is enabled](https://github.com/zen-browser/desktop/issues/12402) 💬 9 | [zen-browser/desktop](https://github.com/zen-browser/desktop) | 44.9k | 🟢 beginner | 2026-08-11 |  |
-| [Replacing a stave spacer with another is not undoable](https://github.com/musescore/MuseScore/issues/34423) 💬 4 | [musescore/MuseScore](https://github.com/musescore/MuseScore) | 15.2k | 🟢 beginner | 2026-08-11 | 🤖 disclose AI use · ✍️ CLA |
 | [Not able to link yaml-cpp.lib in cpp windows project](https://github.com/jbeder/yaml-cpp/issues/1315) 💬 4 | [jbeder/yaml-cpp](https://github.com/jbeder/yaml-cpp) | 6.1k | 🟡 help wanted | 2026-08-11 | ⚠️ AI restricted |
 | [find_package(yaml-cpp) doesn't build on Visual Studio 2022](https://github.com/jbeder/yaml-cpp/issues/1342) | [jbeder/yaml-cpp](https://github.com/jbeder/yaml-cpp) | 6.1k | 🟡 help wanted | 2026-08-11 | ⚠️ AI restricted |
 | [Which version is compatible with VS2015 and has a new API?](https://github.com/jbeder/yaml-cpp/issues/1394) | [jbeder/yaml-cpp](https://github.com/jbeder/yaml-cpp) | 6.1k | 🟡 help wanted | 2026-08-11 | ⚠️ AI restricted |
 | [YAML::Node::EndMark()](https://github.com/jbeder/yaml-cpp/issues/1217) 💬 2 | [jbeder/yaml-cpp](https://github.com/jbeder/yaml-cpp) | 6.1k | 🟡 help wanted | 2026-08-11 | ⚠️ AI restricted |
-| [Please enhance context about exceptions handling in yaml-cpp](https://github.com/jbeder/yaml-cpp/issues/1395) | [jbeder/yaml-cpp](https://github.com/jbeder/yaml-cpp) | 6.1k | 🟡 help wanted | 2026-08-10 | ⚠️ AI restricted |
 
-Showing the 200 most recently updated. See all 341 on the website.
+Showing the 200 most recently updated. See all 339 on the website.

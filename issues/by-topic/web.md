@@ -1,8 +1,8 @@
 # Web development issues
 
-**257** open issues (110 labeled for beginners) across **106** projects tagged with topics like `web`, `frontend`, `react`, `vue`, `svelte`, `angular`.
+**251** open issues (109 labeled for beginners) across **105** projects tagged with topics like `web`, `frontend`, `react`, `vue`, `svelte`, `angular`.
 
-> Updated automatically on **2026-10-10 12:13 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-10-10 21:31 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -11,14 +11,12 @@
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
 | [bump to python 3.14](https://github.com/langgenius/dify/issues/43768) 💬 4 | [langgenius/dify](https://github.com/langgenius/dify) | 158.1k | 🟢 beginner | 2026-10-10 |  |
-| [lint: add tests for three caption rules that have none](https://github.com/heygen-com/hyperframes/issues/5388) | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | 60.1k | 🟢 beginner | 2026-10-10 | 🤖 disclose AI use · 🔏 DCO |
-| [Move the keyframe property defaults table into @hyperframes/core](https://github.com/heygen-com/hyperframes/issues/5387) | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | 60.1k | 🟢 beginner | 2026-10-10 | 🤖 disclose AI use · 🔏 DCO |
-| [docs: add open, catch-up, timeline and history to the CLI reference](https://github.com/heygen-com/hyperframes/issues/5386) | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | 60.1k | 🟢 beginner | 2026-10-10 | 🤖 disclose AI use · 🔏 DCO |
-| [docs: add a reference page for every lint finding code](https://github.com/heygen-com/hyperframes/issues/5385) | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | 60.1k | 🟡 help wanted | 2026-10-10 | 🤖 disclose AI use · 🔏 DCO |
-| [[Windows] Transient ffmpeg/ffprobe spawn failures (EBUSY/ETXTBSY) fail the whole render with a bare "spawn EBU](https://github.com/heygen-com/hyperframes/issues/4058) | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | 60.1k | 🟡 help wanted | 2026-10-10 | 🤖 disclose AI use · 🔏 DCO |
+| [docs: add open, catch-up, timeline and history to the CLI reference](https://github.com/heygen-com/hyperframes/issues/5386) | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | 60.3k | 🟢 beginner | 2026-10-10 | 🤖 disclose AI use · 🔏 DCO |
+| [docs: add a reference page for every lint finding code](https://github.com/heygen-com/hyperframes/issues/5385) | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | 60.3k | 🟡 help wanted | 2026-10-10 | 🤖 disclose AI use · 🔏 DCO |
+| [[Windows] Transient ffmpeg/ffprobe spawn failures (EBUSY/ETXTBSY) fail the whole render with a bare "spawn EBU](https://github.com/heygen-com/hyperframes/issues/4058) | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | 60.3k | 🟡 help wanted | 2026-10-10 | 🤖 disclose AI use · 🔏 DCO |
 | [Typescript regression in handling functions with generic types and method chaingin in 3.2.0 compared to 3.1.0](https://github.com/prettier/prettier/issues/16080) 💬 6 | [prettier/prettier](https://github.com/prettier/prettier) | 52.4k | 🟡 help wanted | 2026-10-10 | 📄 AI policy |
+| [[Bug]: search-postgres: facet counts ignore 'min_score', so typo-tolerant facets count products the hits leave](https://github.com/medusajs/medusa/issues/17231) 💬 1 | [medusajs/medusa](https://github.com/medusajs/medusa) | 36.7k | 🟢 beginner | 2026-10-10 |  |
 | [[Bug]: '@medusajs/test-utils': database credentials are captured at module load, ignoring runner 'env'](https://github.com/medusajs/medusa/issues/16272) 💬 6 | [medusajs/medusa](https://github.com/medusajs/medusa) | 36.7k | 🟡 help wanted | 2026-10-10 |  |
-| [[Bug]: @medusajs/locking-redis never closes its Redis client and also connects on migration-only loads (3 clie](https://github.com/medusajs/medusa/issues/17220) 💬 3 | [medusajs/medusa](https://github.com/medusajs/medusa) | 36.7k | 🟡 help wanted | 2026-10-10 |  |
 | [[Bug]: Localized query results seem to stay stale until cache TTL after a translation changes (caching + trans](https://github.com/medusajs/medusa/issues/17149) 💬 3 | [medusajs/medusa](https://github.com/medusajs/medusa) | 36.7k | 🟡 help wanted | 2026-10-10 |  |
 | [ro.json fails locale parity — 579 keys missing vs en.json (yarn i18n:validate fails)](https://github.com/medusajs/medusa/issues/16941) 💬 2 | [medusajs/medusa](https://github.com/medusajs/medusa) | 36.7k | 🟡 help wanted | 2026-10-09 |  |
 | [bg.json fails locale parity — 551 keys missing vs en.json (yarn i18n:validate fails)](https://github.com/medusajs/medusa/issues/16943) 💬 2 | [medusajs/medusa](https://github.com/medusajs/medusa) | 36.7k | 🟡 help wanted | 2026-10-09 |  |
@@ -31,7 +29,6 @@
 | [Typography.Paragraph's ellipsis tooltip becomes inconsistent when used inside Select options.](https://github.com/ant-design/ant-design/issues/54677) 💬 5 | [ant-design/ant-design](https://github.com/ant-design/ant-design) | 99.7k | 🟡 help wanted | 2026-10-06 |  |
 | [Statistics -&gt; Views popup help doesn't take account of custom count_view_after value](https://github.com/Chocobozzz/PeerTube/issues/7580) 💬 6 | [Chocobozzz/PeerTube](https://github.com/Chocobozzz/PeerTube) | 15.4k | 🟢 beginner | 2026-10-06 | 🤖 disclose AI use |
 | [Proposal: Migrate docs from Material for MkDocs to Zensical](https://github.com/DependencyTrack/dependency-track/issues/7597) 💬 1 | [DependencyTrack/dependency-track](https://github.com/DependencyTrack/dependency-track) | 4.3k | 🟡 help wanted | 2026-10-06 | ⚠️ AI restricted · 🔏 DCO |
-| [Add support for numerical enum values](https://github.com/microsoft/kiota/issues/5165) 💬 12 | [microsoft/kiota](https://github.com/microsoft/kiota) | 3.8k | 🟡 help wanted | 2026-10-06 | ✍️ CLA |
 | [📢 NaiveUI Feature Requests & Task Assignment](https://github.com/tusen-ai/naive-ui/issues/6737) 💬 10 | [tusen-ai/naive-ui](https://github.com/tusen-ai/naive-ui) | 18.6k | 🟡 help wanted | 2026-10-05 |  |
 | [Use the global primary color for all component theme defaults](https://github.com/tusen-ai/naive-ui/issues/8228) | [tusen-ai/naive-ui](https://github.com/tusen-ai/naive-ui) | 18.6k | 🟡 help wanted | 2026-10-05 |  |
 | [More AI-friendly Theme Editor](https://github.com/tusen-ai/naive-ui/issues/8227) | [tusen-ai/naive-ui](https://github.com/tusen-ai/naive-ui) | 18.6k | 🟡 help wanted | 2026-10-05 |  |
@@ -50,8 +47,8 @@
 | [[📖] explain uncontrolled vs controlled components](https://github.com/QwikDev/qwik/issues/6336) 💬 5 | [QwikDev/qwik](https://github.com/QwikDev/qwik) | 22.1k | 🟢 beginner | 2026-09-29 | 🤖 disclose AI use |
 | [[📖] How to debug Big js chunks on build](https://github.com/QwikDev/qwik/issues/6836) 💬 2 | [QwikDev/qwik](https://github.com/QwikDev/qwik) | 22.1k | 🟢 beginner | 2026-09-29 | 🤖 disclose AI use |
 | [[p5.js 2.0+ Bug Report]: Floats in strands shaders are always rounded to 4 decimals](https://github.com/processing/p5.js/issues/8884) 💬 16 | [processing/p5.js](https://github.com/processing/p5.js) | 24.1k | 🟡 help wanted | 2026-09-27 | ⚠️ AI restricted |
-| [Install contributor Git hooks when dependencies are installed in a linked worktree](https://github.com/heygen-com/hyperframes/issues/4387) 💬 1 | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | 60.1k | 🟢 beginner | 2026-09-24 | 🤖 disclose AI use · 🔏 DCO |
-| [lint: validate composition variables declared on supported root elements](https://github.com/heygen-com/hyperframes/issues/4383) | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | 60.1k | 🟢 beginner | 2026-09-24 | 🤖 disclose AI use · 🔏 DCO |
+| [Install contributor Git hooks when dependencies are installed in a linked worktree](https://github.com/heygen-com/hyperframes/issues/4387) 💬 1 | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | 60.3k | 🟢 beginner | 2026-09-24 | 🤖 disclose AI use · 🔏 DCO |
+| [lint: validate composition variables declared on supported root elements](https://github.com/heygen-com/hyperframes/issues/4383) | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | 60.3k | 🟢 beginner | 2026-09-24 | 🤖 disclose AI use · 🔏 DCO |
 | [noiseMode(SIMPLEX) add-on library](https://github.com/processing/p5.js/issues/6152) 💬 20 | [processing/p5.js](https://github.com/processing/p5.js) | 24.1k | 🟡 help wanted | 2026-09-22 | ⚠️ AI restricted |
 | [List LibreSign in beginner-friendly open source directories](https://github.com/LibreSign/libresign/issues/8284) 💬 5 | [LibreSign/libresign](https://github.com/LibreSign/libresign) | 828 | 🟢 beginner | 2026-09-21 | 🤖 disclose AI use · 🔏 DCO |
 | [Corrupt-delete file](https://github.com/TeamAmaze/AmazeFileManager/issues/4721) 💬 8 | [TeamAmaze/AmazeFileManager](https://github.com/TeamAmaze/AmazeFileManager) | 6.4k | 🟡 help wanted | 2026-09-20 |  |
@@ -127,7 +124,7 @@
 | [FR: Add 'popoverProps' property to 'TruncatedFormatProps'](https://github.com/palantir/blueprint/issues/6667) 💬 2 | [palantir/blueprint](https://github.com/palantir/blueprint) | 22.1k | 🟡 help wanted | 2026-08-31 |  |
 | [Document meaning of pemWorkDirectory](https://github.com/jetty/jetty.project/issues/12795) 💬 3 | [jetty/jetty.project](https://github.com/jetty/jetty.project) | 4.1k | 🟡 help wanted | 2026-08-31 |  |
 | [Add the ability to customize the notification on mobile](https://github.com/grimmory-tools/grimmory/issues/836) 💬 1 | [grimmory-tools/grimmory](https://github.com/grimmory-tools/grimmory) | 4.5k | 🟢 beginner | 2026-08-30 | 🤖 disclose AI use |
-| ["Polls closing soon" gives confusing notification when pressing its refresh button](https://github.com/bonfire-networks/bonfire-app/issues/2243) | [bonfire-networks/bonfire-app](https://github.com/bonfire-networks/bonfire-app) | 942 | 🟢 beginner | 2026-08-29 |  |
+| ["Polls closing soon" gives confusing notification when pressing its refresh button](https://github.com/bonfire-networks/bonfire-app/issues/2243) | [bonfire-networks/bonfire-app](https://github.com/bonfire-networks/bonfire-app) | 943 | 🟢 beginner | 2026-08-29 |  |
 | [CPU usage of "Mattermost Helper" on Mac Desktop app spikes with animated GIFs in view on Mattermost](https://github.com/mattermost/mattermost/issues/24689) 💬 28 | [mattermost/mattermost](https://github.com/mattermost/mattermost) | 39.3k | 🟡 help wanted | 2026-08-28 |  |
 | [[To Do] Add visual regression (Backstop) tests to Less](https://github.com/less/less.js/issues/3262) 💬 5 | [less/less.js](https://github.com/less/less.js) | 17k | 🟢 beginner | 2026-08-27 |  |
 | [Need support for mutually exclusive / multi-way settings](https://github.com/Automattic/harper/issues/2396) 💬 2 | [Automattic/harper](https://github.com/Automattic/harper) | 16.3k | 🟡 help wanted | 2026-08-27 | 🤖 disclose AI use |
@@ -143,12 +140,12 @@
 | [Improve public documents sharing](https://github.com/Smaug6739/Alexandrie/issues/608) | [Smaug6739/Alexandrie](https://github.com/Smaug6739/Alexandrie) | 2.8k | 🟢 beginner | 2026-08-24 |  |
 | [MudSelect should support nullable enums and show placeholder when value is null](https://github.com/MudBlazor/MudBlazor/issues/5647) 💬 2 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-08-23 |  |
 | [Joplin integration](https://github.com/LinwoodDev/Butterfly/issues/253) 💬 3 | [LinwoodDev/Butterfly](https://github.com/LinwoodDev/Butterfly) | 2.1k | 🟢 beginner | 2026-08-23 |  |
-| [Thai translation](https://github.com/donnemartin/system-design-primer/issues/187) 💬 6 | [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) | 373.6k | 🟡 help wanted | 2026-08-21 |  |
+| [Thai translation](https://github.com/donnemartin/system-design-primer/issues/187) 💬 6 | [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) | 373.7k | 🟡 help wanted | 2026-08-21 |  |
 | [Bug: In Cohorts, the 'set' operator filters in null values for person properties](https://github.com/PostHog/posthog/issues/29916) 💬 4 | [PostHog/posthog](https://github.com/PostHog/posthog) | 40.2k | 🟢 beginner | 2026-08-21 | ⚠️ AI restricted |
 | [Impossible to add word-wrap to menu title; 'white-space: normal' has no effect](https://github.com/ant-design/ant-design/issues/38918) 💬 6 | [ant-design/ant-design](https://github.com/ant-design/ant-design) | 99.7k | 🟡 help wanted | 2026-08-20 |  |
 | [Mask Slow Performance and Inaccurate Input on Blazor Server](https://github.com/MudBlazor/MudBlazor/issues/6280) 💬 8 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟡 help wanted | 2026-08-20 |  |
 | [Aliases do not appear to be reported in notifications](https://github.com/DependencyTrack/dependency-track/issues/3723) 💬 1 | [DependencyTrack/dependency-track](https://github.com/DependencyTrack/dependency-track) | 4.3k | 🟢 beginner | 2026-08-20 | ⚠️ AI restricted · 🔏 DCO |
-| [Greek Translation](https://github.com/donnemartin/system-design-primer/issues/130) 💬 5 | [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) | 373.6k | 🟡 help wanted | 2026-08-18 |  |
+| [Greek Translation](https://github.com/donnemartin/system-design-primer/issues/130) 💬 5 | [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) | 373.7k | 🟡 help wanted | 2026-08-18 |  |
 | [Adding a viewport "simulated real mode" with mockup](https://github.com/responsively-org/responsively-app/issues/363) 💬 2 | [responsively-org/responsively-app](https://github.com/responsively-org/responsively-app) | 25.2k | 🟡 help wanted | 2026-08-18 |  |
 | [addTagOnEnter setting](https://github.com/yairEO/tagify/issues/1500) 💬 5 | [yairEO/tagify](https://github.com/yairEO/tagify) | 3.9k | 🟡 help wanted | 2026-08-17 |  |
 | [Docs: Add TreeView example for nested structures with different object subtypes](https://github.com/MudBlazor/MudBlazor/issues/6510) 💬 2 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-08-16 |  |
@@ -171,8 +168,7 @@
 | [Feature: negate condition in verify()](https://github.com/wiremock/wiremock/issues/1892) 💬 2 | [wiremock/wiremock](https://github.com/wiremock/wiremock) | 7.4k | 🟡 help wanted | 2026-08-01 |  |
 | [Support returning HTTP 404 when mapping files aren't found.](https://github.com/wiremock/wiremock/issues/2470) 💬 1 | [wiremock/wiremock](https://github.com/wiremock/wiremock) | 7.4k | 🟡 help wanted | 2026-08-01 |  |
 | [Post image in chatroom](https://github.com/m1k1o/neko/issues/422) 💬 4 | [m1k1o/neko](https://github.com/m1k1o/neko) | 22.5k | 🟢 beginner | 2026-07-31 |  |
-| [Ability to search similar images "from" partner assets](https://github.com/immich-app/immich/issues/21855) 💬 6 | [immich-app/immich](https://github.com/immich-app/immich) | 115.9k | 🟢 beginner | 2026-07-30 |  |
-| [How to pass a free-format query string?](https://github.com/microsoft/kiota/issues/3800) 💬 16 | [microsoft/kiota](https://github.com/microsoft/kiota) | 3.8k | 🟡 help wanted | 2026-07-28 | ✍️ CLA |
+| [Ability to search similar images "from" partner assets](https://github.com/immich-app/immich/issues/21855) 💬 6 | [immich-app/immich](https://github.com/immich-app/immich) | 116k | 🟢 beginner | 2026-07-30 |  |
 | [feat: implement pi-rpc protocol for Pi agent](https://github.com/nexu-io/html-anything/issues/130) 💬 2 | [nexu-io/html-anything](https://github.com/nexu-io/html-anything) | 9.1k | 🟡 help wanted | 2026-07-27 | ✍️ CLA |
 | [Changing FontSize in MudTheme breaks components](https://github.com/MudBlazor/MudBlazor/issues/10394) 💬 3 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟢 beginner | 2026-07-26 |  |
 | [MudTreeView: Child nodes with 'Visible=false' due to filtering are affected by parent selection in MultiSelect](https://github.com/MudBlazor/MudBlazor/issues/10414) 💬 4 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟡 help wanted | 2026-07-25 |  |
@@ -209,6 +205,10 @@
 | [Add ALERT_RULE_CONFIGURATION permission](https://github.com/DependencyTrack/dependency-track/issues/4847) 💬 5 | [DependencyTrack/dependency-track](https://github.com/DependencyTrack/dependency-track) | 4.3k | 🟢 beginner | 2026-06-27 | ⚠️ AI restricted · 🔏 DCO |
 | [Add a way for plugins to add xterm addons](https://github.com/vercel/hyper/issues/2903) 💬 2 | [vercel/hyper](https://github.com/vercel/hyper) | 44.7k | 🟡 help wanted | 2026-06-26 |  |
 | ["determine the value of a named property" should not imply a new object each time](https://github.com/whatwg/html/issues/5266) 💬 13 | [whatwg/html](https://github.com/whatwg/html) | 9.4k | 🟢 beginner | 2026-06-26 |  |
-| [Desktop Client: standalone production server + e2e parity seam](https://github.com/nexu-io/html-anything/issues/113) 💬 2 | [nexu-io/html-anything](https://github.com/nexu-io/html-anything) | 9.1k | 🟡 help wanted | 2026-06-24 | ✍️ CLA |
+| [no way to define "no option forwardfor"](https://github.com/haproxy/haproxy/issues/130) 💬 8 | [haproxy/haproxy](https://github.com/haproxy/haproxy) | 6.9k | 🟢 beginner | 2026-06-24 |  |
+| [Option to not put a space before /&gt; in self-closing tags](https://github.com/beautifier/js-beautify/issues/654) 💬 13 | [beautifier/js-beautify](https://github.com/beautifier/js-beautify) | 9k | 🟢 beginner | 2026-06-23 |  |
+| [add support for link type extensions ('&lt;link [rel]&gt;')](https://github.com/kristoff-it/superhtml/issues/143) 💬 1 | [kristoff-it/superhtml](https://github.com/kristoff-it/superhtml) | 1.4k | 🟢 beginner | 2026-06-23 |  |
+| [Converging toward a principal Unreal Engine backend/binding for Dear ImGui?](https://github.com/ocornut/imgui/issues/9122) 💬 48 | [ocornut/imgui](https://github.com/ocornut/imgui) | 76.6k | 🟡 help wanted | 2026-06-21 | ✍️ CLA |
+| [setAttributes() invalidates references to earlier canvases](https://github.com/processing/p5.js/issues/5902) 💬 8 | [processing/p5.js](https://github.com/processing/p5.js) | 24.1k | 🟡 help wanted | 2026-06-20 | ⚠️ AI restricted |
 
-Showing the 200 most recently updated. See all 257 on the website.
+Showing the 200 most recently updated. See all 251 on the website.

@@ -1,10 +1,10 @@
 # Shell issues
 
-**121** open issues (62 labeled for beginners) across **50** active Shell projects.
+**124** open issues (62 labeled for beginners) across **51** active Shell projects.
 
 [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/shell.xml)
 
-> Updated automatically on **2026-10-10 12:13 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-10-10 21:31 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -12,6 +12,7 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [PCIe Gen 3/4 support](https://github.com/amoghmunikote/cmpunlocker/issues/9) 💬 17 | [amoghmunikote/cmpunlocker](https://github.com/amoghmunikote/cmpunlocker) | 747 | 🟡 help wanted | 2026-10-10 |  |
 | [place yt-dlp download fragments into a tempdir](https://github.com/pystardust/ani-cli/issues/1955) 💬 5 | [pystardust/ani-cli](https://github.com/pystardust/ani-cli) | 14k | 🟢 beginner | 2026-10-09 | 📄 AI policy |
 | [Missing tests for binary detection rules](https://github.com/e-m-b-a/emba/issues/2157) | [e-m-b-a/emba](https://github.com/e-m-b-a/emba) | 3.7k | 🟢 beginner | 2026-10-09 |  |
 | [Video Thumbnails Failing to Generate on NextCloud Snap](https://github.com/nextcloud-snap/nextcloud-snap/issues/1327) 💬 61 | [nextcloud-snap/nextcloud-snap](https://github.com/nextcloud-snap/nextcloud-snap) | 1.8k | 🟡 help wanted | 2026-10-08 |  |
@@ -20,10 +21,9 @@
 | [add a maintainers/contributors section on README.md](https://github.com/luainkernel/lunatik/issues/409) | [luainkernel/lunatik](https://github.com/luainkernel/lunatik) | 606 | 🟢 beginner | 2026-10-07 |  |
 | [Auto-continue block comments (draw aligned stars)](https://github.com/clangd/clangd/issues/174) 💬 17 | [clangd/clangd](https://github.com/clangd/clangd) | 2.3k | 🟡 help wanted | 2026-10-06 |  |
 | [[arm64/box64] BDS 1.26.51.1 NetherNet TLS handshake fails with InitialConnection-13](https://github.com/itzg/docker-minecraft-bedrock-server/issues/680) 💬 9 | [itzg/docker-minecraft-bedrock-server](https://github.com/itzg/docker-minecraft-bedrock-server) | 1.9k | 🟡 help wanted | 2026-10-06 |  |
-| [Super basic question about manually setting scaling](https://github.com/shibco/ableton-linux/issues/325) 💬 10 | [shibco/ableton-linux](https://github.com/shibco/ableton-linux) | 664 | 🟡 help wanted | 2026-10-06 |  |
+| [Super basic question about manually setting scaling](https://github.com/shibco/ableton-linux/issues/325) 💬 10 | [shibco/ableton-linux](https://github.com/shibco/ableton-linux) | 665 | 🟡 help wanted | 2026-10-06 |  |
 | [[BUG] Backup engine SIGSEGV on aarch64 with 16K page size kernel (Fedora Asahi Remix / Apple Silicon) — v1.11.](https://github.com/longhorn/longhorn/issues/12929) 💬 3 | [longhorn/longhorn](https://github.com/longhorn/longhorn) | 8k | 🟡 help wanted | 2026-10-04 | 🔏 DCO |
 | [[Task]: Orange Pi 4A (T527/A523) Sony IMX219 MIPI CSI-2 / CSI capture support](https://github.com/armbian/build/issues/10905) 💬 1 | [armbian/build](https://github.com/armbian/build) | 5.5k | 🟢 beginner | 2026-10-04 |  |
-| [PCIe Gen 3/4 support](https://github.com/amoghmunikote/cmpunlocker/issues/9) 💬 14 | [amoghmunikote/cmpunlocker](https://github.com/amoghmunikote/cmpunlocker) | 747 | 🟡 help wanted | 2026-10-04 |  |
 | [NVLink](https://github.com/amoghmunikote/cmpunlocker/issues/13) 💬 8 | [amoghmunikote/cmpunlocker](https://github.com/amoghmunikote/cmpunlocker) | 747 | 🟡 help wanted | 2026-10-04 |  |
 | [App Request:IPTVnator](https://github.com/wimpysworld/deb-get/issues/2003) 💬 2 | [wimpysworld/deb-get](https://github.com/wimpysworld/deb-get) | 1.8k | 🟢 beginner | 2026-10-02 |  |
 | [App Request: Limusic](https://github.com/wimpysworld/deb-get/issues/2040) | [wimpysworld/deb-get](https://github.com/wimpysworld/deb-get) | 1.8k | 🟢 beginner | 2026-10-01 |  |
@@ -34,9 +34,9 @@
 | [Missing icon: Lap](https://github.com/SylEleuth/gruvbox-plus-icon-pack/issues/556) | [SylEleuth/gruvbox-plus-icon-pack](https://github.com/SylEleuth/gruvbox-plus-icon-pack) | 806 | 🟡 help wanted | 2026-09-28 |  |
 | [[Bug]: uInitrd CRC mismatch in community images for Orange Pi Zero3 (sun50iw9)](https://github.com/armbian/build/issues/10701) 💬 2 | [armbian/build](https://github.com/armbian/build) | 5.5k | 🟢 beginner | 2026-09-27 |  |
 | [Curseforge pack containing Cleanroom relauncher](https://github.com/itzg/docker-minecraft-server/issues/4282) 💬 9 | [itzg/docker-minecraft-server](https://github.com/itzg/docker-minecraft-server) | 14.4k | 🟡 help wanted | 2026-09-26 |  |
-| [updated from ableton 11 to ableton 12 by ising script uninstaller, now ableton doesn't open at all](https://github.com/shibco/ableton-linux/issues/316) 💬 12 | [shibco/ableton-linux](https://github.com/shibco/ableton-linux) | 664 | 🟡 help wanted | 2026-09-25 |  |
+| [updated from ableton 11 to ableton 12 by ising script uninstaller, now ableton doesn't open at all](https://github.com/shibco/ableton-linux/issues/316) 💬 12 | [shibco/ableton-linux](https://github.com/shibco/ableton-linux) | 665 | 🟡 help wanted | 2026-09-25 |  |
 | [App Request: Komi-Store](https://github.com/wimpysworld/deb-get/issues/2029) | [wimpysworld/deb-get](https://github.com/wimpysworld/deb-get) | 1.8k | 🟢 beginner | 2026-09-24 |  |
-| [cannot read Ableton Live 12 Suite Installer.exe well enough to verify its Live version](https://github.com/shibco/ableton-linux/issues/319) 💬 12 | [shibco/ableton-linux](https://github.com/shibco/ableton-linux) | 664 | 🟡 help wanted | 2026-09-24 |  |
+| [cannot read Ableton Live 12 Suite Installer.exe well enough to verify its Live version](https://github.com/shibco/ableton-linux/issues/319) 💬 12 | [shibco/ableton-linux](https://github.com/shibco/ableton-linux) | 665 | 🟡 help wanted | 2026-09-24 |  |
 | [For PLUGINS and MODS list support GitHub and Jenkins resolving](https://github.com/itzg/docker-minecraft-server/issues/2944) 💬 4 | [itzg/docker-minecraft-server](https://github.com/itzg/docker-minecraft-server) | 14.4k | 🟡 help wanted | 2026-09-18 |  |
 | [[IMPROVEMENT] Strictly validate resources spec and status fields in validating webhook](https://github.com/longhorn/longhorn/issues/6793) | [longhorn/longhorn](https://github.com/longhorn/longhorn) | 8k | 🟡 help wanted | 2026-09-18 | 🔏 DCO |
 | [[FEATURE] Make UI WebSocket Refresh Interval Configurable](https://github.com/longhorn/longhorn/issues/11134) 💬 4 | [longhorn/longhorn](https://github.com/longhorn/longhorn) | 8k | 🟡 help wanted | 2026-09-18 | 🔏 DCO |
@@ -45,18 +45,18 @@
 | [[BUG][V1.7.0][Longhornctl] Longhorn CLI fail on check preflight on Fedora CoreOS](https://github.com/longhorn/longhorn/issues/9301) 💬 14 | [longhorn/longhorn](https://github.com/longhorn/longhorn) | 8k | 🟢 beginner | 2026-09-18 | 🔏 DCO |
 | [Add support for mirror lists](https://github.com/Winetricks/winetricks/issues/875) 💬 3 | [Winetricks/winetricks](https://github.com/Winetricks/winetricks) | 3.5k | 🟡 help wanted | 2026-09-18 |  |
 | [App Request: ZapFast](https://github.com/wimpysworld/deb-get/issues/2026) | [wimpysworld/deb-get](https://github.com/wimpysworld/deb-get) | 1.8k | 🟢 beginner | 2026-09-18 |  |
-| [Aydio crackle while changing UI](https://github.com/shibco/ableton-linux/issues/290) 💬 30 | [shibco/ableton-linux](https://github.com/shibco/ableton-linux) | 664 | 🟡 help wanted | 2026-09-18 |  |
+| [Aydio crackle while changing UI](https://github.com/shibco/ableton-linux/issues/290) 💬 30 | [shibco/ableton-linux](https://github.com/shibco/ableton-linux) | 665 | 🟡 help wanted | 2026-09-18 |  |
 | [App Request: word-sys's PDF Editor](https://github.com/wimpysworld/deb-get/issues/1897) 💬 1 | [wimpysworld/deb-get](https://github.com/wimpysworld/deb-get) | 1.8k | 🟢 beginner | 2026-09-17 |  |
-| [trying to upgrade from ableton 11 to 12, how to change payload from 11 to 12](https://github.com/shibco/ableton-linux/issues/315) 💬 3 | [shibco/ableton-linux](https://github.com/shibco/ableton-linux) | 664 | 🟡 help wanted | 2026-09-17 |  |
+| [trying to upgrade from ableton 11 to 12, how to change payload from 11 to 12](https://github.com/shibco/ableton-linux/issues/315) 💬 3 | [shibco/ableton-linux](https://github.com/shibco/ableton-linux) | 665 | 🟡 help wanted | 2026-09-17 |  |
 | [Tweak OverridePureVirtuals does not append the correct namespaces](https://github.com/clangd/clangd/issues/2706) 💬 1 | [clangd/clangd](https://github.com/clangd/clangd) | 2.3k | 🟢 beginner | 2026-09-16 |  |
 | [Classic: Remplace dummy cdrom repo with a real one](https://github.com/elementary/os/issues/844) | [elementary/os](https://github.com/elementary/os) | 1.2k | 🟡 help wanted | 2026-09-16 |  |
 | [[BUG] Deleting backups causes lots of errors if s3 path cleanup is slow](https://github.com/longhorn/longhorn/issues/13646) 💬 6 | [longhorn/longhorn](https://github.com/longhorn/longhorn) | 8k | 🟢 beginner | 2026-09-15 | 🔏 DCO |
-| [Install Windows fonts and support files for live 12](https://github.com/shibco/ableton-linux/issues/304) 💬 1 | [shibco/ableton-linux](https://github.com/shibco/ableton-linux) | 664 | 🟡 help wanted | 2026-09-15 |  |
+| [Install Windows fonts and support files for live 12](https://github.com/shibco/ableton-linux/issues/304) 💬 1 | [shibco/ableton-linux](https://github.com/shibco/ableton-linux) | 665 | 🟡 help wanted | 2026-09-15 |  |
 | [Reduce spawn count in test-alias-forwarding.sh (slow under contention, ~21s spawn floor)](https://github.com/asklokesh/loki-mode/issues/183) 💬 4 | [asklokesh/loki-mode](https://github.com/asklokesh/loki-mode) | 1.1k | 🟡 help wanted | 2026-09-14 | ✍️ CLA |
 | [Measure the codex approvals axis on a host with the codex CLI installed](https://github.com/asklokesh/loki-mode/issues/199) | [asklokesh/loki-mode](https://github.com/asklokesh/loki-mode) | 1.1k | 🟡 help wanted | 2026-09-14 | ✍️ CLA |
 | [[Rework] MuseScore](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/3343) 💬 2 | [PapirusDevelopmentTeam/papirus-icon-theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) | 8.1k | 🟢 beginner | 2026-09-12 |  |
-| [Ableton dies on being moved to another monitor in Niri](https://github.com/shibco/ableton-linux/issues/312) 💬 1 | [shibco/ableton-linux](https://github.com/shibco/ableton-linux) | 664 | 🟡 help wanted | 2026-09-12 |  |
-| [No sound via PipeASIO (Live 11)](https://github.com/shibco/ableton-linux/issues/302) 💬 22 | [shibco/ableton-linux](https://github.com/shibco/ableton-linux) | 664 | 🟡 help wanted | 2026-09-11 |  |
+| [Ableton dies on being moved to another monitor in Niri](https://github.com/shibco/ableton-linux/issues/312) 💬 1 | [shibco/ableton-linux](https://github.com/shibco/ableton-linux) | 665 | 🟡 help wanted | 2026-09-12 |  |
+| [No sound via PipeASIO (Live 11)](https://github.com/shibco/ableton-linux/issues/302) 💬 22 | [shibco/ableton-linux](https://github.com/shibco/ableton-linux) | 665 | 🟡 help wanted | 2026-09-11 |  |
 | [App Request: Biopass](https://github.com/wimpysworld/deb-get/issues/2005) | [wimpysworld/deb-get](https://github.com/wimpysworld/deb-get) | 1.8k | 🟢 beginner | 2026-09-07 |  |
 | [v4.0 post-release polish: event-count arithmetic + test cleanup trap](https://github.com/sangrokjung/claude-forge/issues/81) 💬 1 | [sangrokjung/claude-forge](https://github.com/sangrokjung/claude-forge) | 852 | 🟢 beginner | 2026-09-06 |  |
 | [Refresh CHYT benchmark results](https://github.com/ClickHouse/ClickBench/issues/1459) | [ClickHouse/ClickBench](https://github.com/ClickHouse/ClickBench) | 1.1k | 🟡 help wanted | 2026-09-03 |  |
@@ -90,7 +90,9 @@
 | [Support fetching world and other init data from S3](https://github.com/itzg/docker-minecraft-server/issues/4006) 💬 1 | [itzg/docker-minecraft-server](https://github.com/itzg/docker-minecraft-server) | 14.4k | 🟡 help wanted | 2026-08-01 |  |
 | [Line not wrapping correctly inside Git repo](https://github.com/liquidprompt/liquidprompt/issues/511) 💬 8 | [liquidprompt/liquidprompt](https://github.com/liquidprompt/liquidprompt) | 4.7k | 🟡 help wanted | 2026-07-29 |  |
 | [Line oddities when using vi-style editing and search (/) while in a git repo](https://github.com/liquidprompt/liquidprompt/issues/500) 💬 9 | [liquidprompt/liquidprompt](https://github.com/liquidprompt/liquidprompt) | 4.7k | 🟡 help wanted | 2026-07-29 |  |
+| [N4Max part light doesnt lit up](https://github.com/OpenNeptune3D/OpenNept4une/issues/328) 💬 6 | [OpenNeptune3D/OpenNept4une](https://github.com/OpenNeptune3D/OpenNept4une) | 678 | 🟡 help wanted | 2026-07-27 |  |
 | [Spreadsheets: Insert row below](https://github.com/Euro-Office/DocumentServer/issues/225) 💬 3 | [Euro-Office/DocumentServer](https://github.com/Euro-Office/DocumentServer) | 1.8k | 🟢 beginner | 2026-07-26 | 🤖 disclose AI use · 🔏 DCO |
+| [Filament runout issue](https://github.com/OpenNeptune3D/OpenNept4une/issues/252) 💬 10 | [OpenNeptune3D/OpenNept4une](https://github.com/OpenNeptune3D/OpenNept4une) | 678 | 🟡 help wanted | 2026-07-26 |  |
 | [[Improvement] Reduce docker image size](https://github.com/Euro-Office/DocumentServer/issues/76) 💬 8 | [Euro-Office/DocumentServer](https://github.com/Euro-Office/DocumentServer) | 1.8k | 🟢 beginner | 2026-07-24 | 🤖 disclose AI use · 🔏 DCO |
 | [Request for Windows (arm64) native binary (Windows Co-Pilot PC with Qualcomm Snapdragon X Plus/Elite CPU)](https://github.com/Betterbird/thunderbird-patches/issues/417) 💬 3 | [Betterbird/thunderbird-patches](https://github.com/Betterbird/thunderbird-patches) | 988 | 🟡 help wanted | 2026-07-24 |  |
 | [Emulation check for CVE-2026-24061 – GNU InetUtils telnetd Authentication Bypass Vulnerability](https://github.com/e-m-b-a/emba/issues/1905) 💬 1 | [e-m-b-a/emba](https://github.com/e-m-b-a/emba) | 3.7k | 🟢 beginner | 2026-07-23 |  |
@@ -105,6 +107,7 @@
 | [llvm-header-guard check is not triggered in clangd](https://github.com/clangd/clangd/issues/160) 💬 2 | [clangd/clangd](https://github.com/clangd/clangd) | 2.3k | 🟡 help wanted | 2026-07-05 |  |
 | [welcome page - security question](https://github.com/Euro-Office/DocumentServer/issues/183) 💬 2 | [Euro-Office/DocumentServer](https://github.com/Euro-Office/DocumentServer) | 1.8k | 🟢 beginner | 2026-07-03 | 🤖 disclose AI use · 🔏 DCO |
 | ["🙋 问题交流。。。 \| 设备别名可否保存到/etc/config/wechatpush里](https://github.com/tty228/luci-app-wechatpush/issues/404) | [tty228/luci-app-wechatpush](https://github.com/tty228/luci-app-wechatpush) | 1.4k | 🟡 help wanted | 2026-06-30 |  |
+| [bug? Cancel/Exclude object in Fluidd not working correctly](https://github.com/OpenNeptune3D/OpenNept4une/issues/287) 💬 5 | [OpenNeptune3D/OpenNept4une](https://github.com/OpenNeptune3D/OpenNept4une) | 678 | 🟡 help wanted | 2026-06-28 |  |
 | [App Request: NymVPN](https://github.com/wimpysworld/deb-get/issues/1916) | [wimpysworld/deb-get](https://github.com/wimpysworld/deb-get) | 1.8k | 🟢 beginner | 2026-06-27 |  |
 | [Send-command is broken](https://github.com/itzg/docker-minecraft-bedrock-server/issues/652) 💬 6 | [itzg/docker-minecraft-bedrock-server](https://github.com/itzg/docker-minecraft-bedrock-server) | 1.9k | 🟡 help wanted | 2026-06-26 |  |
 | [App Request: TBlock & TBlock GUI](https://github.com/wimpysworld/deb-get/issues/1915) | [wimpysworld/deb-get](https://github.com/wimpysworld/deb-get) | 1.8k | 🟢 beginner | 2026-06-24 |  |

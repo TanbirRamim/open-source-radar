@@ -1,10 +1,10 @@
 # Vue issues
 
-**30** open issues (20 labeled for beginners) across **11** active Vue projects.
+**28** open issues (18 labeled for beginners) across **10** active Vue projects.
 
 [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/vue.xml)
 
-> Updated automatically on **2026-10-10 12:13 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-10-10 21:31 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -17,8 +17,6 @@
 | [大佬会考虑加入自建音源：Navidrome server吗？我收藏了几千首歌，没有一个播放器喜欢的](https://github.com/algerkong/AlgerMusicPlayer/issues/439) 💬 6 | [algerkong/AlgerMusicPlayer](https://github.com/algerkong/AlgerMusicPlayer) | 16.9k | 🟢 beginner | 2026-10-07 |  |
 | [建议新增同步数据的服务端，比如同步歌单，配置信息](https://github.com/algerkong/AlgerMusicPlayer/issues/385) | [algerkong/AlgerMusicPlayer](https://github.com/algerkong/AlgerMusicPlayer) | 16.9k | 🟡 help wanted | 2026-10-07 |  |
 | [使用过后的反馈建议以及一些期望的功能](https://github.com/algerkong/AlgerMusicPlayer/issues/132) 💬 1 | [algerkong/AlgerMusicPlayer](https://github.com/algerkong/AlgerMusicPlayer) | 16.9k | 🟢 beginner | 2026-10-07 |  |
-| [火狐浏览器添加根证书步骤过时](https://github.com/docmirror/dev-sidecar/issues/720) | [docmirror/dev-sidecar](https://github.com/docmirror/dev-sidecar) | 24.4k | 🟢 beginner | 2026-10-06 |  |
-| [[Bug] Linux 下托盘图标右键菜单无法展开（popUpContextMenu 在 Linux 无效，需改用 setContextMenu）](https://github.com/docmirror/dev-sidecar/issues/716) 💬 2 | [docmirror/dev-sidecar](https://github.com/docmirror/dev-sidecar) | 24.4k | 🟢 beginner | 2026-10-03 |  |
 | [Command Line controls](https://github.com/tranxuanthang/lrcget/issues/61) 💬 6 | [tranxuanthang/lrcget](https://github.com/tranxuanthang/lrcget) | 3.3k | 🟡 help wanted | 2026-09-06 |  |
 | [Incorrect username after "Delete and re-draft" for handles with subdomains](https://github.com/elk-zone/elk/issues/3410) 💬 2 | [elk-zone/elk](https://github.com/elk-zone/elk) | 6k | 🟡 help wanted | 2026-09-05 | 🔏 DCO |
 | [Spanish translations](https://github.com/Smaug6739/Alexandrie/issues/651) | [Smaug6739/Alexandrie](https://github.com/Smaug6739/Alexandrie) | 2.8k | 🟢 beginner | 2026-08-26 |  |

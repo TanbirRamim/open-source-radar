@@ -1,8 +1,8 @@
 # Systems and embedded issues
 
-**190** open issues (91 labeled for beginners) across **49** projects tagged with topics like `operating-system`, `embedded`, `kernel`, `rust-lang`, `systems-programming`, `wasm`.
+**189** open issues (90 labeled for beginners) across **50** projects tagged with topics like `operating-system`, `embedded`, `kernel`, `rust-lang`, `systems-programming`, `wasm`.
 
-> Updated automatically on **2026-10-10 12:13 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-10-10 21:31 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,7 +10,6 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [Classes deriving from Ellipse or Rectangle default to Stretch.None and render nothing](https://github.com/unoplatform/uno/issues/24978) | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-10-09 |  |
 | [Missing tests for binary detection rules](https://github.com/e-m-b-a/emba/issues/2157) | [e-m-b-a/emba](https://github.com/e-m-b-a/emba) | 3.7k | 🟢 beginner | 2026-10-09 |  |
 | [More Linux distros compatible](https://github.com/rustdesk/rustdesk/issues/3565) 💬 9 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | 125.4k | 🟡 help wanted | 2026-10-08 | 🔏 DCO |
 | [Video Thumbnails Failing to Generate on NextCloud Snap](https://github.com/nextcloud-snap/nextcloud-snap/issues/1327) 💬 61 | [nextcloud-snap/nextcloud-snap](https://github.com/nextcloud-snap/nextcloud-snap) | 1.8k | 🟡 help wanted | 2026-10-08 |  |
@@ -28,7 +27,6 @@
 | [Skia 'BorderVisual' never disposes the 'RectangleClip's it replaces, leaving their cached paths to the finaliz](https://github.com/unoplatform/uno/issues/24915) 💬 1 | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-10-03 |  |
 | [Remove the dead, uncompiled duplicate of BrowserPointerInputSource in Uno.UI](https://github.com/unoplatform/uno/issues/24912) 💬 1 | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-10-03 |  |
 | [[6.7] NavigationView throws NullReferenceException in UpdateTitleBarPadding when Content is replaced before th](https://github.com/unoplatform/uno/issues/24925) 💬 1 | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-10-03 |  |
-| [TitleBar sample is orphaned in UITests.Shared and never compiled into SamplesApp](https://github.com/unoplatform/uno/issues/24878) 💬 1 | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-10-03 |  |
 | ['VisualStateManager.GetVisualStateGroups(element).Add(group)' throws "Collection was of a fixed size" on an el](https://github.com/unoplatform/uno/issues/24881) 💬 1 | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-10-03 |  |
 | [Remove dead code: UIElement.CompleteGesturesOnTree and SetterHelper.GetPropertySetterWithResourceValue](https://github.com/unoplatform/uno/issues/24880) 💬 1 | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-10-03 |  |
 | [XamlReader rejects text-content Color/Thickness resources inside a DataTemplate or ControlTemplate ("does not ](https://github.com/unoplatform/uno/issues/24882) 💬 1 | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-10-03 |  |
@@ -145,6 +143,7 @@
 | [在Dbeaver中，不能下载、使用最新驱动](https://github.com/taosdata/TDengine/issues/35396) 💬 2 | [taosdata/TDengine](https://github.com/taosdata/TDengine) | 25.2k | 🟡 help wanted | 2026-08-04 |  |
 | [MessagePack codec (or VRL functions)](https://github.com/vectordotdev/vector/issues/8675) 💬 4 | [vectordotdev/vector](https://github.com/vectordotdev/vector) | 22.7k | 🟢 beginner | 2026-08-03 | 📄 AI policy · ✍️ CLA |
 | [Add drag and drop functionality to TreeView](https://github.com/MudBlazor/MudBlazor/issues/5987) 💬 16 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.6k | 🟡 help wanted | 2026-08-03 |  |
+| [Add more docstring examples](https://github.com/pyodide/pyodide/issues/1955) 💬 10 | [pyodide/pyodide](https://github.com/pyodide/pyodide) | 14.9k | 🟢 beginner | 2026-07-30 |  |
 | [[RFC] Lack of support for types none, exn and noexn.](https://github.com/wasm-micro-runtime/wasm-micro-runtime/issues/4814) | [wasm-micro-runtime/wasm-micro-runtime](https://github.com/wasm-micro-runtime/wasm-micro-runtime) | 6.1k | 🟡 help wanted | 2026-07-30 |  |
 | [RFC: Use the target_features section to verify compatibility](https://github.com/wasm-micro-runtime/wasm-micro-runtime/issues/4569) 💬 2 | [wasm-micro-runtime/wasm-micro-runtime](https://github.com/wasm-micro-runtime/wasm-micro-runtime) | 6.1k | 🟡 help wanted | 2026-07-30 |  |
 | [Host Function capability to call into Wasm Function](https://github.com/WasmEdge/WasmEdge/issues/1673) 💬 5 | [WasmEdge/WasmEdge](https://github.com/WasmEdge/WasmEdge) | 10.8k | 🟡 help wanted | 2026-07-29 | 🤖 disclose AI use · 🔏 DCO |
@@ -159,7 +158,7 @@
 | [It would be a great help to have a Harper corpus tool for Harper devs to help research new linting rules](https://github.com/Automattic/harper/issues/3841) | [Automattic/harper](https://github.com/Automattic/harper) | 16.3k | 🟢 beginner | 2026-07-17 | 🤖 disclose AI use |
 | [Unify WAMR_BUILD_TARGET auto-detection across all CMake build files](https://github.com/wasm-micro-runtime/wasm-micro-runtime/issues/4966) 💬 1 | [wasm-micro-runtime/wasm-micro-runtime](https://github.com/wasm-micro-runtime/wasm-micro-runtime) | 6.1k | 🟡 help wanted | 2026-07-17 |  |
 | [Overleaf Support (LaTeX Editor)](https://github.com/Automattic/harper/issues/3306) 💬 2 | [Automattic/harper](https://github.com/Automattic/harper) | 16.3k | 🟢 beginner | 2026-07-14 | 🤖 disclose AI use |
-| [Migrate ddwrt from DeviceScanner to ScannerEntity](https://github.com/home-assistant/core/issues/143027) 💬 2 | [home-assistant/core](https://github.com/home-assistant/core) | 91.3k | 🟡 help wanted | 2026-07-10 | ⚠️ AI restricted |
+| [Migrate ddwrt from DeviceScanner to ScannerEntity](https://github.com/home-assistant/core/issues/143027) 💬 2 | [home-assistant/core](https://github.com/home-assistant/core) | 91.4k | 🟡 help wanted | 2026-07-10 | ⚠️ AI restricted |
 | [Ability to disable HDR rendering](https://github.com/FyroxEngine/Fyrox/issues/703) 💬 1 | [FyroxEngine/Fyrox](https://github.com/FyroxEngine/Fyrox) | 9.6k | 🟢 beginner | 2026-07-10 |  |
 | [Issues with 3rd party compilation order](https://github.com/canonical/multipass/issues/3802) 💬 16 | [canonical/multipass](https://github.com/canonical/multipass) | 9.3k | 🟢 beginner | 2026-07-07 | ✍️ CLA |
 | [Support artifacts-credprovider-conda for consuming coda packages from private Azure feed](https://github.com/prefix-dev/pixi/issues/4142) 💬 3 | [prefix-dev/pixi](https://github.com/prefix-dev/pixi) | 7.8k | 🟡 help wanted | 2026-07-06 | 🤖 disclose AI use |
@@ -186,7 +185,7 @@
 | [Unable to interact if laptop lid is closed (TV works)](https://github.com/rustdesk/rustdesk/issues/4296) 💬 17 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | 125.4k | 🟡 help wanted | 2026-05-25 | 🔏 DCO |
 | [Tree-Sitter grammar for '.weir' files](https://github.com/Automattic/harper/issues/2511) 💬 1 | [Automattic/harper](https://github.com/Automattic/harper) | 16.3k | 🟢 beginner | 2026-05-25 | 🤖 disclose AI use |
 | [Ignore spellcheking in a 'typst' content block](https://github.com/Automattic/harper/issues/1198) 💬 8 | [Automattic/harper](https://github.com/Automattic/harper) | 16.3k | 🟢 beginner | 2026-05-22 | 🤖 disclose AI use |
-| [Enhance documentation](https://github.com/swiftwasm/WasmKit/issues/71) | [swiftwasm/WasmKit](https://github.com/swiftwasm/WasmKit) | 508 | 🟢 beginner | 2026-05-21 |  |
+| [Enhance documentation](https://github.com/swiftwasm/WasmKit/issues/71) | [swiftwasm/WasmKit](https://github.com/swiftwasm/WasmKit) | 509 | 🟢 beginner | 2026-05-21 |  |
 | [Support for the Mojo programming language](https://github.com/Automattic/harper/issues/2766) | [Automattic/harper](https://github.com/Automattic/harper) | 16.3k | 🟢 beginner | 2026-05-19 | 🤖 disclose AI use |
 | [[FR] Runtime adjustable machine travel limits](https://github.com/MarlinFirmware/Marlin/issues/25582) 💬 21 | [MarlinFirmware/Marlin](https://github.com/MarlinFirmware/Marlin) | 17.6k | 🟢 beginner | 2026-05-18 |  |
 | [TextMate grammar for '.weir' files](https://github.com/Automattic/harper/issues/2510) 💬 3 | [Automattic/harper](https://github.com/Automattic/harper) | 16.3k | 🟢 beginner | 2026-05-17 | 🤖 disclose AI use |
@@ -195,7 +194,7 @@
 | [Desktop: Logo+Drag on an applet shouldn't open start menu, but it does](https://github.com/SerenityOS/serenity/issues/12823) 💬 8 | [SerenityOS/serenity](https://github.com/SerenityOS/serenity) | 33.9k | 🟡 help wanted | 2026-05-08 |  |
 | [feat: Enable profiling + improve available statistics (--enable-all-statistics) in WasmEdge CLI](https://github.com/WasmEdge/WasmEdge/issues/4076) 💬 10 | [WasmEdge/WasmEdge](https://github.com/WasmEdge/WasmEdge) | 10.8k | 🟡 help wanted | 2026-04-29 | 🤖 disclose AI use · 🔏 DCO |
 | [Deterministic simulation testing foundations (madsim) for linera-core](https://github.com/linera-io/linera-protocol/issues/6108) | [linera-io/linera-protocol](https://github.com/linera-io/linera-protocol) | 32.1k | 🟡 help wanted | 2026-04-23 |  |
-| [Backtrace: Display binary offset](https://github.com/swiftwasm/WasmKit/issues/155) | [swiftwasm/WasmKit](https://github.com/swiftwasm/WasmKit) | 508 | 🟢 beginner | 2026-04-23 |  |
+| [Backtrace: Display binary offset](https://github.com/swiftwasm/WasmKit/issues/155) | [swiftwasm/WasmKit](https://github.com/swiftwasm/WasmKit) | 509 | 🟢 beginner | 2026-04-23 |  |
 | [No sound / audio from remote PC - working after switch default audio device from analog to digital](https://github.com/rustdesk/rustdesk/issues/4280) 💬 27 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | 125.4k | 🟡 help wanted | 2026-04-21 | 🔏 DCO |
 | [Tdengine 3.2.0.0.0 集群环境下同步数据慢慢慢慢](https://github.com/taosdata/TDengine/issues/34802) 💬 3 | [taosdata/TDengine](https://github.com/taosdata/TDengine) | 25.2k | 🟡 help wanted | 2026-04-14 |  |
 | [导入数据集时遇到了性能问题](https://github.com/taosdata/TDengine/issues/34980) 💬 2 | [taosdata/TDengine](https://github.com/taosdata/TDengine) | 25.2k | 🟡 help wanted | 2026-04-14 |  |

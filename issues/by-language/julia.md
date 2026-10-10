@@ -1,10 +1,10 @@
 # Julia issues
 
-**28** open issues (19 labeled for beginners) across **14** active Julia projects.
+**29** open issues (19 labeled for beginners) across **14** active Julia projects.
 
 [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/julia.xml)
 
-> Updated automatically on **2026-10-10 12:13 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-10-10 21:31 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -18,7 +18,7 @@
 | [Shell mode doesn't respect Cmd object's env](https://github.com/JuliaLang/julia/issues/51020) 💬 4 | [JuliaLang/julia](https://github.com/JuliaLang/julia) | 49.2k | 🟢 beginner | 2026-09-15 | 🤖 disclose AI use |
 | [Missing Rmath derivatives](https://github.com/EnzymeAD/Enzyme.jl/issues/1620) 💬 2 | [EnzymeAD/Enzyme.jl](https://github.com/EnzymeAD/Enzyme.jl) | 588 | 🟡 help wanted | 2026-09-14 |  |
 | [Can't turn off range and indexing parentheses](https://github.com/JuliaEditorSupport/JuliaFormatter.jl/issues/877) 💬 1 | [JuliaEditorSupport/JuliaFormatter.jl](https://github.com/JuliaEditorSupport/JuliaFormatter.jl) | 645 | 🟢 beginner | 2026-09-10 |  |
-| [Utilize DocumenterCodeblocks.jl in all subpackages of the ecosystem](https://github.com/JuliaDynamics/DynamicalSystems.jl/issues/270) | [JuliaDynamics/DynamicalSystems.jl](https://github.com/JuliaDynamics/DynamicalSystems.jl) | 955 | 🟢 beginner | 2026-08-18 |  |
+| [Utilize DocumenterCodeblocks.jl in all subpackages of the ecosystem](https://github.com/JuliaDynamics/DynamicalSystems.jl/issues/270) | [JuliaDynamics/DynamicalSystems.jl](https://github.com/JuliaDynamics/DynamicalSystems.jl) | 956 | 🟢 beginner | 2026-08-18 |  |
 | [Functional equivalents missing for some layers](https://github.com/FluxML/Flux.jl/issues/2013) 💬 4 | [FluxML/Flux.jl](https://github.com/FluxML/Flux.jl) | 4.8k | 🟢 beginner | 2026-08-12 |  |
 | [Better error message when uuid is not present in Project.toml](https://github.com/JuliaLang/PackageCompiler.jl/issues/1033) 💬 2 | [JuliaLang/PackageCompiler.jl](https://github.com/JuliaLang/PackageCompiler.jl) | 1.6k | 🟢 beginner | 2026-08-11 |  |
 | [Add option to log which statement is being precompiled](https://github.com/JuliaLang/PackageCompiler.jl/issues/867) | [JuliaLang/PackageCompiler.jl](https://github.com/JuliaLang/PackageCompiler.jl) | 1.6k | 🟢 beginner | 2026-07-31 |  |
@@ -39,4 +39,5 @@
 | [make this repo's pre-commit hook use 'julia --project=. -e'](https://github.com/JuliaEditorSupport/JuliaFormatter.jl/issues/1028) | [JuliaEditorSupport/JuliaFormatter.jl](https://github.com/JuliaEditorSupport/JuliaFormatter.jl) | 645 | 🟢 beginner | 2026-06-08 |  |
 | [Whitespace removed outside of indices](https://github.com/JuliaEditorSupport/JuliaFormatter.jl/issues/651) | [JuliaEditorSupport/JuliaFormatter.jl](https://github.com/JuliaEditorSupport/JuliaFormatter.jl) | 645 | 🟢 beginner | 2026-06-07 |  |
 | [Cannot combine @simd and @threads on a loop](https://github.com/JuliaLang/julia/issues/32684) 💬 5 | [JuliaLang/julia](https://github.com/JuliaLang/julia) | 49.2k | 🟢 beginner | 2026-06-06 | 🤖 disclose AI use |
+| [warn on constant redefinition (in package tests)?](https://github.com/JuliaLang/julia/issues/58670) 💬 7 | [JuliaLang/julia](https://github.com/JuliaLang/julia) | 49.2k | 🟡 help wanted | 2026-05-20 | 🤖 disclose AI use |
 | [Reconsider how we deploy JS assets (aka. let's get rid of RequireJS)](https://github.com/JuliaDocs/Documenter.jl/issues/2158) | [JuliaDocs/Documenter.jl](https://github.com/JuliaDocs/Documenter.jl) | 920 | 🟡 help wanted | 2026-04-29 | 🤖 disclose AI use |
