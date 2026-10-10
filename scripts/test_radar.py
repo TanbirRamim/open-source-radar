@@ -163,6 +163,96 @@ class MarkdownTests(unittest.TestCase):
         self.assertEqual(radar.format_stars(12345), "12.3k")
 
 
+class NotesForTests(unittest.TestCase):
+    def test_no_policy(self):
+
+        repo = {}
+        result = radar.notes_for(repo)
+        self.assertEqual(result, "")
+
+    def test_with_ai_rule(self):
+
+        ai_rules = ["restricted", "disclose", "policy"]
+        expected = {"restricted": "⚠️ AI restricted", "disclose": "🤖 disclose AI use", "policy": "📄 AI policy"}
+        for rule in ai_rules:
+            repo = {"policy": {"ai": rule}}
+
+            result = radar.notes_for(repo)
+            self.assertEqual(result, expected[rule])
+
+    def test_with_cla_plus_dco(self):
+        repo = {"policy": {"cla": True, "dco": True}}
+        result = radar.notes_for(repo)
+        self.assertEqual(result, "✍️ CLA · 🔏 DCO")
+
+
+class IssueTableTests(unittest.TestCase):
+    def setUp(self):
+        self.repositories = {
+            "owner/repo": {
+                "url": "https://github.com/owner/repo",
+                "stars": 1200,
+                "policy": {},
+            }
+        }
+
+        self.single_issue = [
+            {
+                "repo": "owner/repo",
+                "title": "Fix | bug",
+                "url": "https://github.com/owner/repo/issues/1",
+                "comments": 2,
+                "level": "beginner",
+                "updated": "2026-09-01",
+            }
+        ]
+
+    def test_table_header(self):
+        result = radar.issue_table(self.single_issue, self.repositories, 5)
+        self.assertIn(
+            "| Issue | Repository | Stars | Level | Updated | Notes |",
+            result,
+        )
+
+    def test_title_pipe_is_escaped(self):
+        result = radar.issue_table(self.single_issue, self.repositories, 5)
+        self.assertIn(r"Fix \| bug", result)
+
+    def test_limit_cuts_rows(self):
+        issues = [
+            {
+                "repo": "owner/repo",
+                "title": "Issue A",
+                "url": "https://github.com/owner/repo/issues/1",
+                "comments": 2,
+                "level": "beginner",
+                "updated": "2026-09-01",
+            },
+            {
+                "repo": "owner/repo",
+                "title": "Issue B",
+                "url": "https://github.com/owner/repo/issues/2",
+                "comments": 5,
+                "level": "beginner",
+                "updated": "2026-09-02",
+            },
+            {
+                "repo": "owner/repo",
+                "title": "Issue C",
+                "url": "https://github.com/owner/repo/issues/3",
+                "comments": 1,
+                "level": "beginner",
+                "updated": "2026-09-03",
+            },
+        ]
+
+        result = radar.issue_table(issues, self.repositories, 2)
+
+        self.assertIn("Issue A", result)
+        self.assertIn("Issue B", result)
+        self.assertNotIn("Issue C", result)
+
+
 class ProjectsPageTests(unittest.TestCase):
     def test_projects_page_groups_by_language_and_counts_beginner_issues(self):
         import pathlib
