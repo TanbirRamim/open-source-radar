@@ -140,6 +140,7 @@ Thank you to everyone who has made the radar better:
 - [@Adarsh2345](https://github.com/Adarsh2345): RSS feed docs and a Python example for the data ([#90](https://github.com/TanbirRamim/open-source-radar/pull/90))
 - [@yunaremaia](https://github.com/yunaremaia): tests for the discovery queries and chunking ([#92](https://github.com/TanbirRamim/open-source-radar/pull/92))
 - [@Pratham2511](https://github.com/Pratham2511): tests for linked PR state parsing ([#94](https://github.com/TanbirRamim/open-source-radar/pull/94))
+- [@anmol-96](https://github.com/anmol-96): tests for notes_for and issue_table, which found a link-breaking truncation bug ([#96](https://github.com/TanbirRamim/open-source-radar/pull/96))
 
 Your name goes here with your first merged pull request. And if the radar helped you, please give it a star: it's the simplest way to help other newcomers find it.
 
