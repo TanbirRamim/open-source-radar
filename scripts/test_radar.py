@@ -262,6 +262,11 @@ class DiscoveryTests(unittest.TestCase):
         self.assertIn("good-first-issues:>=1", queries[0])
         self.assertIn("help-wanted-issues:>=1", queries[1])
 
+    def test_discovery_queries_skip_archived_forks_and_private(self):
+        queries = radar.discovery_queries("Rust", self.config, dt.date(2026, 10, 1))
+        base = 'language:"Rust" stars:>=500 pushed:>=2026-08-02 archived:false fork:false is:public'
+        self.assertEqual(queries, [f"{base} good-first-issues:>=1", f"{base} help-wanted-issues:>=1"])
+
 
 class ChunkedTests(unittest.TestCase):
     def test_chunked_empty_list(self):
