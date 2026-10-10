@@ -232,6 +232,48 @@ class QueryTests(unittest.TestCase):
         self.assertNotIn("p0:", radar.build_repo_query(["a/b"], ["x"], 5, include_policy=False))
 
 
+class DiscoveryTests(unittest.TestCase):
+    config: ClassVar[dict] = {
+        "discovery": {
+            "min_stars": 500,
+            "pushed_within_days": 60,
+        }
+    }
+
+    def test_discovery_queries_quotes_language(self):
+        queries = radar.discovery_queries("Rust", self.config, dt.date(2026, 10, 1))
+        for query in queries:
+            self.assertIn('language:"Rust"', query)
+
+    def test_discovery_queries_has_min_stars(self):
+        queries = radar.discovery_queries("Rust", self.config, dt.date(2026, 10, 1))
+        for query in queries:
+            self.assertIn("stars:>=500", query)
+
+    def test_discovery_queries_has_pushed_date(self):
+        queries = radar.discovery_queries("Rust", self.config, dt.date(2026, 10, 1))
+        expected_date = (dt.date(2026, 10, 1) - dt.timedelta(days=60)).isoformat()
+        for query in queries:
+            self.assertIn(f"pushed:>={expected_date}", query)
+
+    def test_discovery_queries_has_two_issue_qualifiers(self):
+        queries = radar.discovery_queries("Rust", self.config, dt.date(2026, 10, 1))
+        self.assertEqual(len(queries), 2)
+        self.assertIn("good-first-issues:>=1", queries[0])
+        self.assertIn("help-wanted-issues:>=1", queries[1])
+
+
+class ChunkedTests(unittest.TestCase):
+    def test_chunked_empty_list(self):
+        self.assertEqual(list(radar.chunked([], 3)), [])
+
+    def test_chunked_exact_multiple(self):
+        self.assertEqual(list(radar.chunked([1, 2, 3, 4, 5, 6], 3)), [[1, 2, 3], [4, 5, 6]])
+
+    def test_chunked_remainder(self):
+        self.assertEqual(list(radar.chunked([1, 2, 3, 4, 5], 2)), [[1, 2], [3, 4], [5]])
+
+
 class PageHeaderTests(unittest.TestCase):
     def test_extra_line_goes_under_the_subtitle(self):
         header = radar.page_header("Go issues", "Subtitle.", "2026-09-27T11:00:00+00:00", "[RSS feed](x.xml)")
