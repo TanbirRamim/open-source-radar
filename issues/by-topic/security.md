@@ -1,8 +1,8 @@
 # Security and privacy issues
 
-**211** open issues (106 labeled for beginners) across **56** projects tagged with topics like `security`, `privacy`, `cryptography`, `encryption`, `authentication`, `oauth`.
+**213** open issues (106 labeled for beginners) across **56** projects tagged with topics like `security`, `privacy`, `cryptography`, `encryption`, `authentication`, `oauth`.
 
-> Updated automatically on **2026-10-09 22:36 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-10-10 12:13 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,7 +10,9 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [SSL_OP_CLEANSE_PLAINTEXT: TLS read buffer not cleansed on SSL_free() since 3.2.0](https://github.com/openssl/openssl/issues/33170) 💬 1 | [openssl/openssl](https://github.com/openssl/openssl) | 30.9k | 🟡 help wanted | 2026-10-09 | 🤖 disclose AI use · ✍️ CLA |
+| [Cleanup in EVP_SKEY from PKCS#12 files processing](https://github.com/openssl/openssl/issues/33041) 💬 3 | [openssl/openssl](https://github.com/openssl/openssl) | 30.9k | 🟡 help wanted | 2026-10-10 | 🤖 disclose AI use · ✍️ CLA |
+| [SSL_OP_CLEANSE_PLAINTEXT: TLS read buffer not cleansed on SSL_free() since 3.2.0](https://github.com/openssl/openssl/issues/33170) 💬 2 | [openssl/openssl](https://github.com/openssl/openssl) | 30.9k | 🟡 help wanted | 2026-10-10 | 🤖 disclose AI use · ✍️ CLA |
+| [Add screenshot-taking support](https://github.com/ungoogled-software/ungoogled-chromium/issues/3990) 💬 1 | [ungoogled-software/ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium) | 27.9k | 🟡 help wanted | 2026-10-10 |  |
 | [Integration with ticktick or Vikunja](https://github.com/super-productivity/super-productivity/issues/2312) 💬 30 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.7k | 🟡 help wanted | 2026-10-09 |  |
 | [Make sure opening hours show proper schedule on selecting another POI](https://github.com/organicmaps/organicmaps/issues/12106) 💬 7 | [organicmaps/organicmaps](https://github.com/organicmaps/organicmaps) | 15.6k | 🟢 beginner | 2026-10-09 | 🔏 DCO |
 | [Missing tests for binary detection rules](https://github.com/e-m-b-a/emba/issues/2157) | [e-m-b-a/emba](https://github.com/e-m-b-a/emba) | 3.7k | 🟢 beginner | 2026-10-09 |  |
@@ -30,7 +32,6 @@
 | [Build Error with new configuration BC-64 for Embarcadero-Borland Clang Compiler 64bit](https://github.com/openssl/openssl/issues/26452) 💬 14 | [openssl/openssl](https://github.com/openssl/openssl) | 30.9k | 🟡 help wanted | 2026-10-04 | 🤖 disclose AI use · ✍️ CLA |
 | [💡 bottom Navigation bar {ui/ux improvement for phone: 6a/100}](https://github.com/super-productivity/super-productivity/issues/10095) 💬 4 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.7k | 🟡 help wanted | 2026-10-04 |  |
 | [OpenSSL retains consumed TLS 1.3 stage secrets](https://github.com/openssl/openssl/issues/32213) 💬 2 | [openssl/openssl](https://github.com/openssl/openssl) | 30.9k | 🟡 help wanted | 2026-10-01 | 🤖 disclose AI use · ✍️ CLA |
-| [Cleanup in EVP_SKEY from PKCS#12 files processing](https://github.com/openssl/openssl/issues/33041) 💬 1 | [openssl/openssl](https://github.com/openssl/openssl) | 30.9k | 🟡 help wanted | 2026-10-01 | 🤖 disclose AI use · ✍️ CLA |
 | [User country map: allow to zoom in countries when no clickable area](https://github.com/matomo-org/matomo/issues/11319) 💬 5 | [matomo-org/matomo](https://github.com/matomo-org/matomo) | 21.9k | 🟡 help wanted | 2026-10-01 |  |
 | [Installation with DB connection over TLS not possible](https://github.com/matomo-org/matomo/issues/16404) 💬 4 | [matomo-org/matomo](https://github.com/matomo-org/matomo) | 21.9k | 🟡 help wanted | 2026-10-01 |  |
 | ['x509_from_der' segfaults with invalid input](https://github.com/zeek/zeek/issues/5927) 💬 3 | [zeek/zeek](https://github.com/zeek/zeek) | 8.1k | 🟢 beginner | 2026-10-01 | 🤖 disclose AI use |
@@ -46,13 +47,14 @@
 | [Hybrid devices: UI shifts when switching between touch and mouse input (repro needed)](https://github.com/super-productivity/super-productivity/issues/10152) | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.7k | 🟡 help wanted | 2026-09-28 |  |
 | [Replace UTF code](https://github.com/zeek/zeek/issues/1756) 💬 9 | [zeek/zeek](https://github.com/zeek/zeek) | 8.1k | 🟢 beginner | 2026-09-28 | 🤖 disclose AI use |
 | [openssl cms sign command does not support 'noattr' when 'digest' is used](https://github.com/openssl/openssl/issues/28743) 💬 2 | [openssl/openssl](https://github.com/openssl/openssl) | 30.9k | 🟡 help wanted | 2026-09-27 | 🤖 disclose AI use · ✍️ CLA |
-| [Feature: Self-hosted sync server](https://github.com/simonoppowa/OpenNutriTracker/issues/79) 💬 5 | [simonoppowa/OpenNutriTracker](https://github.com/simonoppowa/OpenNutriTracker) | 2.6k | 🟡 help wanted | 2026-09-27 |  |
-| [Submit OpenNutriTracker to the F-Droid repository](https://github.com/simonoppowa/OpenNutriTracker/issues/575) 💬 4 | [simonoppowa/OpenNutriTracker](https://github.com/simonoppowa/OpenNutriTracker) | 2.6k | 🟢 beginner | 2026-09-27 |  |
+| [Feature: Self-hosted sync server](https://github.com/simonoppowa/OpenNutriTracker/issues/79) 💬 5 | [simonoppowa/OpenNutriTracker](https://github.com/simonoppowa/OpenNutriTracker) | 2.7k | 🟡 help wanted | 2026-09-27 |  |
+| [Submit OpenNutriTracker to the F-Droid repository](https://github.com/simonoppowa/OpenNutriTracker/issues/575) 💬 4 | [simonoppowa/OpenNutriTracker](https://github.com/simonoppowa/OpenNutriTracker) | 2.7k | 🟢 beginner | 2026-09-27 |  |
 | [[robustness] -purpose crlsign\|ocsphelper infers aux-blind X509_TRUST_COMPAT (x509_vfy.c:2621) → anchor REJECT](https://github.com/openssl/openssl/issues/32365) 💬 2 | [openssl/openssl](https://github.com/openssl/openssl) | 30.9k | 🟡 help wanted | 2026-09-26 | 🤖 disclose AI use · ✍️ CLA |
 | [💡 Add a folder option to the board project filter](https://github.com/super-productivity/super-productivity/issues/8615) 💬 2 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.7k | 🟡 help wanted | 2026-09-26 |  |
 | [💡 OneDev as issue provider](https://github.com/super-productivity/super-productivity/issues/10183) 💬 1 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.7k | 🟡 help wanted | 2026-09-26 |  |
 | [💡 Calendar-style Week view with Monday-based weeks and week navigation](https://github.com/super-productivity/super-productivity/issues/9514) 💬 3 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.7k | 🟡 help wanted | 2026-09-26 |  |
 | [💡 Add a complete list of all keyboard shortcuts](https://github.com/super-productivity/super-productivity/issues/10204) 💬 1 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.7k | 🟡 help wanted | 2026-09-26 |  |
+| [💡 Add syncing indicator when animations are disabled](https://github.com/super-productivity/super-productivity/issues/10224) 💬 1 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 22.7k | 🟡 help wanted | 2026-09-26 |  |
 | [[Feature]: Add LADB / Direct Wireless Debugging backend option](https://github.com/kitsumed/ShizuCallRecorder/issues/97) 💬 2 | [kitsumed/ShizuCallRecorder](https://github.com/kitsumed/ShizuCallRecorder) | 1.7k | 🟡 help wanted | 2026-09-25 | 🤖 disclose AI use |
 | [please support Chinese](https://github.com/LeanBitLab/LeanType/issues/235) 💬 6 | [LeanBitLab/LeanType](https://github.com/LeanBitLab/LeanType) | 1k | 🟡 help wanted | 2026-09-23 |  |
 | [With external engine, getting DHE copy parameter's failure.](https://github.com/openssl/openssl/issues/23137) 💬 12 | [openssl/openssl](https://github.com/openssl/openssl) | 30.9k | 🟡 help wanted | 2026-09-21 | 🤖 disclose AI use · ✍️ CLA |
@@ -208,7 +210,5 @@
 | [Multi-column bookmark dropdown list](https://github.com/ungoogled-software/ungoogled-chromium/issues/3781) | [ungoogled-software/ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium) | 27.9k | 🟡 help wanted | 2026-05-13 |  |
 | [When execution time of fork run is much longer than one persistent iteration, all fork execuions will timeout.](https://github.com/AFLplusplus/AFLplusplus/issues/1545) 💬 6 | [AFLplusplus/AFLplusplus](https://github.com/AFLplusplus/AFLplusplus) | 6.8k | 🟢 beginner | 2026-05-13 |  |
 | [checkTxJsonFields calls asString() on tx_json.Account without type check](https://github.com/XRPLF/rippled/issues/6771) 💬 1 | [XRPLF/rippled](https://github.com/XRPLF/rippled) | 5.2k | 🟢 beginner | 2026-05-08 |  |
-| [CephFS Backend](https://github.com/rclone/rclone/issues/7172) 💬 11 | [rclone/rclone](https://github.com/rclone/rclone) | 60.2k | 🟡 help wanted | 2026-05-06 |  |
-| [Define a clear threat model for this project](https://github.com/ungoogled-software/ungoogled-chromium/issues/3287) 💬 4 | [ungoogled-software/ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium) | 27.9k | 🟡 help wanted | 2026-05-05 |  |
 
-Showing the 200 most recently updated. See all 211 on the website.
+Showing the 200 most recently updated. See all 213 on the website.

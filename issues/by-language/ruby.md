@@ -1,10 +1,10 @@
 # Ruby issues
 
-**82** open issues (60 labeled for beginners) across **29** active Ruby projects.
+**84** open issues (62 labeled for beginners) across **29** active Ruby projects.
 
 [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/ruby.xml)
 
-> Updated automatically on **2026-10-09 22:36 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-10-10 12:13 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -12,6 +12,8 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [Thread::Backtrace::Location#label for top-level blocks includes filename instead of &lt;main&gt;](https://github.com/jruby/jruby/issues/5166) 💬 5 | [jruby/jruby](https://github.com/jruby/jruby) | 3.9k | 🟢 beginner | 2026-10-10 |  |
+| [Add Nagoya Ruby Kaigi 05](https://github.com/rubyevents/rubyevents/issues/2182) | [rubyevents/rubyevents](https://github.com/rubyevents/rubyevents) | 569 | 🟢 beginner | 2026-10-10 |  |
 | [Add Hokuriku RubyKaigi 02](https://github.com/rubyevents/rubyevents/issues/2178) | [rubyevents/rubyevents](https://github.com/rubyevents/rubyevents) | 569 | 🟢 beginner | 2026-10-09 |  |
 | [Show user-specific "Latest Updates" after login](https://github.com/openSUSE/open-build-service/issues/10824) 💬 9 | [openSUSE/open-build-service](https://github.com/openSUSE/open-build-service) | 1.1k | 🟢 beginner | 2026-10-08 | 🤖 disclose AI use |
 | [Configure default questions by Assistant](https://github.com/AllYourBot/hostedgpt/issues/805) 💬 1 | [AllYourBot/hostedgpt](https://github.com/AllYourBot/hostedgpt) | 513 | 🟢 beginner | 2026-10-08 |  |

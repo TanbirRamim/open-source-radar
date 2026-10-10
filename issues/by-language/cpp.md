@@ -1,10 +1,10 @@
 # C++ issues
 
-**344** open issues (115 labeled for beginners) across **99** active C++ projects.
+**341** open issues (112 labeled for beginners) across **99** active C++ projects.
 
 [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/cpp.xml)
 
-> Updated automatically on **2026-10-09 22:36 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-10-10 12:13 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -12,26 +12,24 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [Sidebar position set to top after exiting fullscreen YouTube video](https://github.com/zen-browser/desktop/issues/14389) 💬 6 | [zen-browser/desktop](https://github.com/zen-browser/desktop) | 44.9k | 🟢 beginner | 2026-10-10 |  |
+| [Paste to current window intermittently fails quietly (no effect or empty paste) on Windows](https://github.com/hluk/CopyQ/issues/3744) | [hluk/CopyQ](https://github.com/hluk/CopyQ) | 12.4k | 🟡 help wanted | 2026-10-10 |  |
+| [AppImage: fails with “libm.so.6: version 'GLIBC_2.43' not found”](https://github.com/hluk/CopyQ/issues/3739) 💬 3 | [hluk/CopyQ](https://github.com/hluk/CopyQ) | 12.4k | 🟡 help wanted | 2026-10-10 |  |
 | [start wt.exe with parameter fails in administrator mode](https://github.com/microsoft/terminal/issues/14861) 💬 6 | [microsoft/terminal](https://github.com/microsoft/terminal) | 105.1k | 🟡 help wanted | 2026-10-09 | 🤖 disclose AI use |
-| [UI/UX Sketcher Text: Existing value should be preselected when editing an existing Text.](https://github.com/FreeCAD/FreeCAD/issues/33352) 💬 3 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 34.1k | 🟢 beginner | 2026-10-09 | ⚠️ AI restricted |
+| [DAG View not rendered properly](https://github.com/FreeCAD/FreeCAD/issues/16525) 💬 24 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 34.1k | 🟡 help wanted | 2026-10-09 | ⚠️ AI restricted |
 | [Issues needing community help on reports to third-party projects](https://github.com/telegramdesktop/tdesktop/issues/25126) | [telegramdesktop/tdesktop](https://github.com/telegramdesktop/tdesktop) | 33.2k | 🟡 help wanted | 2026-10-09 |  |
 | [Make sure opening hours show proper schedule on selecting another POI](https://github.com/organicmaps/organicmaps/issues/12106) 💬 7 | [organicmaps/organicmaps](https://github.com/organicmaps/organicmaps) | 15.6k | 🟢 beginner | 2026-10-09 | 🔏 DCO |
 | [CPU support for dense reconstruction](https://github.com/colmap/colmap/issues/2390) 💬 10 | [colmap/colmap](https://github.com/colmap/colmap) | 12.9k | 🟡 help wanted | 2026-10-09 |  |
-| [AppImage: fails with “libm.so.6: version 'GLIBC_2.43' not found”](https://github.com/hluk/CopyQ/issues/3739) 💬 2 | [hluk/CopyQ](https://github.com/hluk/CopyQ) | 12.4k | 🟡 help wanted | 2026-10-09 |  |
 | [Clang/LLVM tracking issue](https://github.com/microsoft/STL/issues/4413) | [microsoft/STL](https://github.com/microsoft/STL) | 11.2k | 🟡 help wanted | 2026-10-09 | 🤖 disclose AI use · ✍️ CLA |
+| [If try tracing inside lambdas, compiler runs for infinite time](https://github.com/google/perfetto/issues/7591) 💬 4 | [google/perfetto](https://github.com/google/perfetto) | 6.6k | 🟢 beginner | 2026-10-09 |  |
 | [Explorer background context menu option missing](https://github.com/microsoft/terminal/issues/10119) 💬 35 | [microsoft/terminal](https://github.com/microsoft/terminal) | 105.1k | 🟡 help wanted | 2026-10-08 | 🤖 disclose AI use |
-| [Can't interact with MacOS traffic lights](https://github.com/zen-browser/desktop/issues/15814) 💬 2 | [zen-browser/desktop](https://github.com/zen-browser/desktop) | 44.8k | 🟢 beginner | 2026-10-08 |  |
-| [Sidebar position set to top after exiting fullscreen YouTube video](https://github.com/zen-browser/desktop/issues/14389) 💬 5 | [zen-browser/desktop](https://github.com/zen-browser/desktop) | 44.8k | 🟢 beginner | 2026-10-08 |  |
 | [Fillet can not round a face (Fixed in OCC 8.1.0)](https://github.com/FreeCAD/FreeCAD/issues/5561) 💬 18 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 34.1k | 🟡 help wanted | 2026-10-08 | ⚠️ AI restricted |
 | [Core: Improve touch input under Linux (Crashes on Qt5, Qt6 works but needs further improvement)](https://github.com/FreeCAD/FreeCAD/issues/17308) 💬 22 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 34.1k | 🟡 help wanted | 2026-10-08 | ⚠️ AI restricted |
 | [Map downloadig dialog appears for a moment](https://github.com/organicmaps/organicmaps/issues/11911) 💬 5 | [organicmaps/organicmaps](https://github.com/organicmaps/organicmaps) | 15.6k | 🟢 beginner | 2026-10-08 | 🔏 DCO |
 | [Wrong icon is displayed in tray](https://github.com/hluk/CopyQ/issues/2078) 💬 18 | [hluk/CopyQ](https://github.com/hluk/CopyQ) | 12.4k | 🟡 help wanted | 2026-10-08 |  |
 | [Images are stored as text when copied from web browsers](https://github.com/hluk/CopyQ/issues/2084) 💬 50 | [hluk/CopyQ](https://github.com/hluk/CopyQ) | 12.4k | 🟡 help wanted | 2026-10-08 |  |
 | [[Feature Request]: Option to set volume for ringtone](https://github.com/meshtastic/firmware/issues/8498) 💬 6 | [meshtastic/firmware](https://github.com/meshtastic/firmware) | 8.4k | 🟡 help wanted | 2026-10-08 | ✍️ CLA |
-| [Vasicek::A(t,T) loses all precision for small mean reversion just above the sqrt(QL_EPSILON) cut-off](https://github.com/lballabio/QuantLib/issues/2864) 💬 2 | [lballabio/QuantLib](https://github.com/lballabio/QuantLib) | 7.7k | 🟡 help wanted | 2026-10-08 |  |
-| ['AnalyticSoftBarrierEngine' ignores the barrier direction: up-and-in/up-and-out calls and down-and-in/down-and](https://github.com/lballabio/QuantLib/issues/2869) | [lballabio/QuantLib](https://github.com/lballabio/QuantLib) | 7.7k | 🟡 help wanted | 2026-10-08 |  |
 | [Stdlib docs: every macro argument gets the first argument's description](https://github.com/google/perfetto/issues/7824) | [google/perfetto](https://github.com/google/perfetto) | 6.6k | 🟢 beginner | 2026-10-08 |  |
-| [If try tracing inside lambdas, compiler runs for infinite time](https://github.com/google/perfetto/issues/7591) 💬 3 | [google/perfetto](https://github.com/google/perfetto) | 6.6k | 🟢 beginner | 2026-10-08 |  |
 | [Preferences: Material page has two nested vertical scrollbars](https://github.com/FreeCAD/FreeCAD/issues/15696) 💬 7 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 34.1k | 🟡 help wanted | 2026-10-07 | ⚠️ AI restricted |
 | [blank screen on desktop on Windows 11 PRO](https://github.com/hluk/CopyQ/issues/3736) 💬 1 | [hluk/CopyQ](https://github.com/hluk/CopyQ) | 12.4k | 🟡 help wanted | 2026-10-07 |  |
 | [Non-active window on copyq startup](https://github.com/hluk/CopyQ/issues/3670) 💬 2 | [hluk/CopyQ](https://github.com/hluk/CopyQ) | 12.4k | 🟡 help wanted | 2026-10-07 |  |
@@ -45,7 +43,6 @@
 | [Execution time limit annotations](https://github.com/nasa/fprime/issues/3688) 💬 4 | [nasa/fprime](https://github.com/nasa/fprime) | 11.8k | 🟡 help wanted | 2026-10-05 | 🤖 disclose AI use |
 | [STEP import: "Show progress bar when importing" option is clutter](https://github.com/FreeCAD/FreeCAD/issues/31162) 💬 1 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 34.1k | 🟢 beginner | 2026-10-04 | ⚠️ AI restricted |
 | [UI: There is no visual reference to the Sketch that is being edited AKA FreeCAD doesn't handle styling of the ](https://github.com/FreeCAD/FreeCAD/issues/20599) 💬 16 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 34.1k | 🟢 beginner | 2026-10-04 | ⚠️ AI restricted |
-| [Refactor tile iteration loops to TileElementsView](https://github.com/OpenRCT2/OpenRCT2/issues/27242) 💬 2 | [OpenRCT2/OpenRCT2](https://github.com/OpenRCT2/OpenRCT2) | 16.4k | 🟢 beginner | 2026-10-04 |  |
 | [transmission window does not open on screen. Downloads but no control possible as no interface](https://github.com/transmission/transmission/issues/8016) 💬 9 | [transmission/transmission](https://github.com/transmission/transmission) | 15.3k | 🟡 help wanted | 2026-10-04 |  |
 | [[Epic] Requested 3D formats](https://github.com/assimp/assimp/issues/6097) 💬 1 | [assimp/assimp](https://github.com/assimp/assimp) | 13.3k | 🟡 help wanted | 2026-10-04 |  |
 | [[Android][Vanilla] CIA installation fails on Xiaomi Android 16 because /storage/emulated/0 is duplicated in th](https://github.com/azahar-emu/azahar/issues/2418) 💬 3 | [azahar-emu/azahar](https://github.com/azahar-emu/azahar) | 8.3k | 🟡 help wanted | 2026-10-04 | 🤖 disclose AI use |
@@ -73,7 +70,7 @@
 | [WC: improve name generation](https://github.com/wesnoth/wesnoth/issues/9127) 💬 5 | [wesnoth/wesnoth](https://github.com/wesnoth/wesnoth) | 6.9k | 🟢 beginner | 2026-09-29 |  |
 | [Report your benchmark results here!](https://github.com/ProjectPhysX/FluidX3D/issues/8) 💬 278 | [ProjectPhysX/FluidX3D](https://github.com/ProjectPhysX/FluidX3D) | 5.3k | 🟡 help wanted | 2026-09-29 |  |
 | [window of a windows terminal is appending to the end of windows stack](https://github.com/microsoft/terminal/issues/15763) 💬 44 | [microsoft/terminal](https://github.com/microsoft/terminal) | 105.1k | 🟡 help wanted | 2026-09-28 | 🤖 disclose AI use |
-| [[L10n][TR] Accesskey collisions in bookmark and tab context menus](https://github.com/zen-browser/desktop/issues/15488) 💬 1 | [zen-browser/desktop](https://github.com/zen-browser/desktop) | 44.8k | 🟢 beginner | 2026-09-28 |  |
+| [[L10n][TR] Accesskey collisions in bookmark and tab context menus](https://github.com/zen-browser/desktop/issues/15488) 💬 1 | [zen-browser/desktop](https://github.com/zen-browser/desktop) | 44.9k | 🟢 beginner | 2026-09-28 |  |
 | [Replace UTF code](https://github.com/zeek/zeek/issues/1756) 💬 9 | [zeek/zeek](https://github.com/zeek/zeek) | 8.1k | 🟢 beginner | 2026-09-28 | 🤖 disclose AI use |
 | [xtensa-lx106-elf-g++: bad CPU type in executable on a M2 Mac without rosetta emulation installed](https://github.com/esp8266/Arduino/issues/8725) 💬 10 | [esp8266/Arduino](https://github.com/esp8266/Arduino) | 16.7k | 🟡 help wanted | 2026-09-27 |  |
 | [CopyQ Creates a Blank Unclosable Window, Subsequently opens Second Window](https://github.com/hluk/CopyQ/issues/1228) 💬 13 | [hluk/CopyQ](https://github.com/hluk/CopyQ) | 12.4k | 🟡 help wanted | 2026-09-27 |  |
@@ -113,7 +110,7 @@
 | [WinUI library projects throws Markup.XamlParseException: The text associated with this error code could not be](https://github.com/microsoft/microsoft-ui-xaml/issues/9522) 💬 2 | [microsoft/microsoft-ui-xaml](https://github.com/microsoft/microsoft-ui-xaml) | 8.5k | 🟡 help wanted | 2026-09-15 | ✍️ CLA |
 | [[TRACKER] Potential Development Halting Issues.](https://github.com/FlaxEngine/FlaxEngine/issues/2220) 💬 6 | [FlaxEngine/FlaxEngine](https://github.com/FlaxEngine/FlaxEngine) | 7k | 🟡 help wanted | 2026-09-15 |  |
 | [Allow the user to set the minimum window size](https://github.com/microsoft/terminal/issues/6820) 💬 23 | [microsoft/terminal](https://github.com/microsoft/terminal) | 105.1k | 🟢 beginner | 2026-09-14 | 🤖 disclose AI use |
-| [Light theme renders fully transparent with 'zen.widget.linux.transparency' - dark UI text is unreadable over d](https://github.com/zen-browser/desktop/issues/15334) 💬 2 | [zen-browser/desktop](https://github.com/zen-browser/desktop) | 44.8k | 🟢 beginner | 2026-09-14 |  |
+| [Light theme renders fully transparent with 'zen.widget.linux.transparency' - dark UI text is unreadable over d](https://github.com/zen-browser/desktop/issues/15334) 💬 2 | [zen-browser/desktop](https://github.com/zen-browser/desktop) | 44.9k | 🟢 beginner | 2026-09-14 |  |
 | [≥1 s delay reopening the main window after it is closed by unfocusing (KDE Plasma?)](https://github.com/hluk/CopyQ/issues/3634) 💬 14 | [hluk/CopyQ](https://github.com/hluk/CopyQ) | 12.4k | 🟡 help wanted | 2026-09-14 |  |
 | [g++-16 on OSX: test_flags-cpp26 Exception: SegFault](https://github.com/Neargye/magic_enum/issues/467) 💬 5 | [Neargye/magic_enum](https://github.com/Neargye/magic_enum) | 6.2k | 🟡 help wanted | 2026-09-14 |  |
 | [ARC B580 - Menus are sluggish in the redot editor.](https://github.com/Redot-Engine/redot-engine/issues/921) 💬 9 | [Redot-Engine/redot-engine](https://github.com/Redot-Engine/redot-engine) | 6.1k | 🟡 help wanted | 2026-09-14 | ⚠️ AI restricted |
@@ -143,7 +140,7 @@
 | [MaterializedPostgreSQL: order of columns in the primary key is not honoured on the Clickhouse Side](https://github.com/ClickHouse/ClickHouse/issues/79375) | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 50.3k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use · ✍️ CLA |
 | [Request to allow storage policy with MaterializedPostgreSQL](https://github.com/ClickHouse/ClickHouse/issues/81878) | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 50.3k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use · ✍️ CLA |
 | [tray menu does not work with ubuntu 26](https://github.com/hluk/CopyQ/issues/3645) 💬 3 | [hluk/CopyQ](https://github.com/hluk/CopyQ) | 12.4k | 🟡 help wanted | 2026-09-11 |  |
-| [[RFC]: Hot Standby Mode for Master Service Metadata High Availability](https://github.com/kvcache-ai/Mooncake/issues/1200) 💬 4 | [kvcache-ai/Mooncake](https://github.com/kvcache-ai/Mooncake) | 6.7k | 🟢 beginner | 2026-09-11 | 🤖 disclose AI use |
+| [[RFC]: Hot Standby Mode for Master Service Metadata High Availability](https://github.com/kvcache-ai/Mooncake/issues/1200) 💬 4 | [kvcache-ai/Mooncake](https://github.com/kvcache-ai/Mooncake) | 6.8k | 🟢 beginner | 2026-09-11 | 🤖 disclose AI use |
 | [[Feature] TemplateMatch 增加可选灰度匹配参数（纯性能优化，默认关闭）](https://github.com/MaaXYZ/MaaFramework/issues/1483) 💬 2 | [MaaXYZ/MaaFramework](https://github.com/MaaXYZ/MaaFramework) | 5k | 🟡 help wanted | 2026-09-11 |  |
 | [Consider feature adoption: Vector PP and Stanley within RPP package](https://github.com/ros-navigation/navigation2/issues/5952) 💬 10 | [ros-navigation/navigation2](https://github.com/ros-navigation/navigation2) | 4.8k | 🟡 help wanted | 2026-09-10 | 🔏 DCO |
 | [When you change the objective in a scenario that you have already failed it does not remove the failed objecti](https://github.com/OpenRCT2/OpenRCT2/issues/16510) 💬 4 | [OpenRCT2/OpenRCT2](https://github.com/OpenRCT2/OpenRCT2) | 16.4k | 🟢 beginner | 2026-09-09 |  |
@@ -176,13 +173,13 @@
 | [PHP: C extension has undocumented "append" function that has no package parity.](https://github.com/protocolbuffers/protobuf/issues/26188) 💬 2 | [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | 72.1k | 🟡 help wanted | 2026-09-03 | ✍️ CLA |
 | [GGUF convert support for Vibevoice](https://github.com/ggml-org/llama.cpp/issues/17488) 💬 6 | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 130.7k | 🟢 beginner | 2026-09-01 | ⚠️ AI restricted |
 | [Feature Request: support the multi-modal Bagel model](https://github.com/ggml-org/llama.cpp/issues/17861) 💬 2 | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 130.7k | 🟡 help wanted | 2026-09-01 | ⚠️ AI restricted |
-| [Custom icons for tabs without favicons not saving](https://github.com/zen-browser/desktop/issues/13020) 💬 4 | [zen-browser/desktop](https://github.com/zen-browser/desktop) | 44.8k | 🟢 beginner | 2026-09-01 |  |
+| [Custom icons for tabs without favicons not saving](https://github.com/zen-browser/desktop/issues/13020) 💬 4 | [zen-browser/desktop](https://github.com/zen-browser/desktop) | 44.9k | 🟢 beginner | 2026-09-01 |  |
 | [[FEA] Add support to str.normalize_spaces and str.normalize_characters in dask_cudf](https://github.com/NVIDIA/cudf/issues/10908) 💬 1 | [NVIDIA/cudf](https://github.com/NVIDIA/cudf) | 9.8k | 🟢 beginner | 2026-09-01 |  |
 | [Wayland - remote desktop interaction popup](https://github.com/hluk/CopyQ/issues/3662) 💬 1 | [hluk/CopyQ](https://github.com/hluk/CopyQ) | 12.4k | 🟡 help wanted | 2026-08-31 |  |
 | [[Bug]: failed deploy oceanbase in developing mode](https://github.com/oceanbase/oceanbase/issues/1651) 💬 2 | [oceanbase/oceanbase](https://github.com/oceanbase/oceanbase) | 10.3k | 🟢 beginner | 2026-08-31 |  |
 | [[Bug]: 缺少两个编译依赖](https://github.com/oceanbase/oceanbase/issues/1865) 💬 2 | [oceanbase/oceanbase](https://github.com/oceanbase/oceanbase) | 10.3k | 🟢 beginner | 2026-08-31 |  |
 | [Use a Clip rect for Pane animations instead of the Width/Height](https://github.com/microsoft/terminal/issues/7436) 💬 1 | [microsoft/terminal](https://github.com/microsoft/terminal) | 105.1k | 🟡 help wanted | 2026-08-28 | 🤖 disclose AI use |
-| [Severe Qt 6 memory leak](https://github.com/jellyfin/jellyfin-desktop/issues/1091) 💬 18 | [jellyfin/jellyfin-desktop](https://github.com/jellyfin/jellyfin-desktop) | 5.8k | 🟡 help wanted | 2026-08-28 |  |
+| [Severe Qt 6 memory leak](https://github.com/jellyfin/jellyfin-desktop/issues/1091) 💬 18 | [jellyfin/jellyfin-desktop](https://github.com/jellyfin/jellyfin-desktop) | 5.9k | 🟡 help wanted | 2026-08-28 |  |
 | [Run thread/address sanitizers in Nav2 System Tests CI](https://github.com/ros-navigation/navigation2/issues/6349) 💬 4 | [ros-navigation/navigation2](https://github.com/ros-navigation/navigation2) | 4.8k | 🟡 help wanted | 2026-08-25 | 🔏 DCO |
 | [Tracing for WASM plugins](https://github.com/envoyproxy/envoy/issues/40859) | [envoyproxy/envoy](https://github.com/envoyproxy/envoy) | 29.1k | 🟡 help wanted | 2026-08-24 | 🤖 disclose AI use · 🔏 DCO |
 | [Security posture status for Stateful Session filter](https://github.com/envoyproxy/envoy/issues/39289) 💬 11 | [envoyproxy/envoy](https://github.com/envoyproxy/envoy) | 29.1k | 🟡 help wanted | 2026-08-24 | 🤖 disclose AI use · 🔏 DCO |
@@ -200,17 +197,20 @@
 | [Sequential download option in GUI](https://github.com/transmission/transmission/issues/7370) 💬 10 | [transmission/transmission](https://github.com/transmission/transmission) | 15.3k | 🟡 help wanted | 2026-08-17 |  |
 | [AppImage: Broken Pipe upon opening links in-game](https://github.com/PrismLauncher/PrismLauncher/issues/5854) 💬 3 | [PrismLauncher/PrismLauncher](https://github.com/PrismLauncher/PrismLauncher) | 10.6k | 🟡 help wanted | 2026-08-17 | 📄 AI policy · 🔏 DCO |
 | [Allow worker CPU affinity to be set](https://github.com/envoyproxy/envoy/issues/14619) 💬 8 | [envoyproxy/envoy](https://github.com/envoyproxy/envoy) | 29.1k | 🟡 help wanted | 2026-08-14 | 🤖 disclose AI use · 🔏 DCO |
-| [JMP 1.9.0 not showing pagination as result of library page size setting in video libraries](https://github.com/jellyfin/jellyfin-desktop/issues/404) 💬 2 | [jellyfin/jellyfin-desktop](https://github.com/jellyfin/jellyfin-desktop) | 5.8k | 🟡 help wanted | 2026-08-14 |  |
-| [The player currently listens for input from controllers even when the Enable Gamepad setting is disabled.](https://github.com/jellyfin/jellyfin-desktop/issues/448) 💬 3 | [jellyfin/jellyfin-desktop](https://github.com/jellyfin/jellyfin-desktop) | 5.8k | 🟡 help wanted | 2026-08-14 |  |
-| [TV remote (via CEC) unable to select options on some types of dropdown menus.](https://github.com/jellyfin/jellyfin-desktop/issues/450) | [jellyfin/jellyfin-desktop](https://github.com/jellyfin/jellyfin-desktop) | 5.8k | 🟡 help wanted | 2026-08-14 |  |
-| [Jellyfin and Voicemeter crashing](https://github.com/jellyfin/jellyfin-desktop/issues/495) | [jellyfin/jellyfin-desktop](https://github.com/jellyfin/jellyfin-desktop) | 5.8k | 🟡 help wanted | 2026-08-14 |  |
-| [Don't Pause/Play when clicking to Jellyfin from another application](https://github.com/jellyfin/jellyfin-desktop/issues/513) 💬 5 | [jellyfin/jellyfin-desktop](https://github.com/jellyfin/jellyfin-desktop) | 5.8k | 🟡 help wanted | 2026-08-14 |  |
-| [Odd full screen behavior on a multi monitor setup](https://github.com/jellyfin/jellyfin-desktop/issues/520) 💬 3 | [jellyfin/jellyfin-desktop](https://github.com/jellyfin/jellyfin-desktop) | 5.8k | 🟡 help wanted | 2026-08-14 |  |
-| [Un-fullscreening on mac moves the window off-screen where it can't be interacted with](https://github.com/jellyfin/jellyfin-desktop/issues/525) 💬 3 | [jellyfin/jellyfin-desktop](https://github.com/jellyfin/jellyfin-desktop) | 5.8k | 🟡 help wanted | 2026-08-14 |  |
+| [JMP 1.9.0 not showing pagination as result of library page size setting in video libraries](https://github.com/jellyfin/jellyfin-desktop/issues/404) 💬 2 | [jellyfin/jellyfin-desktop](https://github.com/jellyfin/jellyfin-desktop) | 5.9k | 🟡 help wanted | 2026-08-14 |  |
+| [The player currently listens for input from controllers even when the Enable Gamepad setting is disabled.](https://github.com/jellyfin/jellyfin-desktop/issues/448) 💬 3 | [jellyfin/jellyfin-desktop](https://github.com/jellyfin/jellyfin-desktop) | 5.9k | 🟡 help wanted | 2026-08-14 |  |
+| [TV remote (via CEC) unable to select options on some types of dropdown menus.](https://github.com/jellyfin/jellyfin-desktop/issues/450) | [jellyfin/jellyfin-desktop](https://github.com/jellyfin/jellyfin-desktop) | 5.9k | 🟡 help wanted | 2026-08-14 |  |
+| [Jellyfin and Voicemeter crashing](https://github.com/jellyfin/jellyfin-desktop/issues/495) | [jellyfin/jellyfin-desktop](https://github.com/jellyfin/jellyfin-desktop) | 5.9k | 🟡 help wanted | 2026-08-14 |  |
+| [Don't Pause/Play when clicking to Jellyfin from another application](https://github.com/jellyfin/jellyfin-desktop/issues/513) 💬 5 | [jellyfin/jellyfin-desktop](https://github.com/jellyfin/jellyfin-desktop) | 5.9k | 🟡 help wanted | 2026-08-14 |  |
+| [Odd full screen behavior on a multi monitor setup](https://github.com/jellyfin/jellyfin-desktop/issues/520) 💬 3 | [jellyfin/jellyfin-desktop](https://github.com/jellyfin/jellyfin-desktop) | 5.9k | 🟡 help wanted | 2026-08-14 |  |
+| [Un-fullscreening on mac moves the window off-screen where it can't be interacted with](https://github.com/jellyfin/jellyfin-desktop/issues/525) 💬 3 | [jellyfin/jellyfin-desktop](https://github.com/jellyfin/jellyfin-desktop) | 5.9k | 🟡 help wanted | 2026-08-14 |  |
 | [The binary installation and source code installation paths are different](https://github.com/Neargye/magic_enum/issues/419) 💬 5 | [Neargye/magic_enum](https://github.com/Neargye/magic_enum) | 6.2k | 🟡 help wanted | 2026-08-12 |  |
-| [Windows: Scroll bar in tab list causes layout shift when always show scroll bars is enabled](https://github.com/zen-browser/desktop/issues/12402) 💬 9 | [zen-browser/desktop](https://github.com/zen-browser/desktop) | 44.8k | 🟢 beginner | 2026-08-11 |  |
+| [Windows: Scroll bar in tab list causes layout shift when always show scroll bars is enabled](https://github.com/zen-browser/desktop/issues/12402) 💬 9 | [zen-browser/desktop](https://github.com/zen-browser/desktop) | 44.9k | 🟢 beginner | 2026-08-11 |  |
 | [Replacing a stave spacer with another is not undoable](https://github.com/musescore/MuseScore/issues/34423) 💬 4 | [musescore/MuseScore](https://github.com/musescore/MuseScore) | 15.2k | 🟢 beginner | 2026-08-11 | 🤖 disclose AI use · ✍️ CLA |
 | [Not able to link yaml-cpp.lib in cpp windows project](https://github.com/jbeder/yaml-cpp/issues/1315) 💬 4 | [jbeder/yaml-cpp](https://github.com/jbeder/yaml-cpp) | 6.1k | 🟡 help wanted | 2026-08-11 | ⚠️ AI restricted |
 | [find_package(yaml-cpp) doesn't build on Visual Studio 2022](https://github.com/jbeder/yaml-cpp/issues/1342) | [jbeder/yaml-cpp](https://github.com/jbeder/yaml-cpp) | 6.1k | 🟡 help wanted | 2026-08-11 | ⚠️ AI restricted |
+| [Which version is compatible with VS2015 and has a new API?](https://github.com/jbeder/yaml-cpp/issues/1394) | [jbeder/yaml-cpp](https://github.com/jbeder/yaml-cpp) | 6.1k | 🟡 help wanted | 2026-08-11 | ⚠️ AI restricted |
+| [YAML::Node::EndMark()](https://github.com/jbeder/yaml-cpp/issues/1217) 💬 2 | [jbeder/yaml-cpp](https://github.com/jbeder/yaml-cpp) | 6.1k | 🟡 help wanted | 2026-08-11 | ⚠️ AI restricted |
+| [Please enhance context about exceptions handling in yaml-cpp](https://github.com/jbeder/yaml-cpp/issues/1395) | [jbeder/yaml-cpp](https://github.com/jbeder/yaml-cpp) | 6.1k | 🟡 help wanted | 2026-08-10 | ⚠️ AI restricted |
 
-Showing the 200 most recently updated. See all 344 on the website.
+Showing the 200 most recently updated. See all 341 on the website.

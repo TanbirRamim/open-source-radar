@@ -1,10 +1,10 @@
 # Java issues
 
-**254** open issues (95 labeled for beginners) across **74** active Java projects.
+**263** open issues (104 labeled for beginners) across **73** active Java projects.
 
 [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/java.xml)
 
-> Updated automatically on **2026-10-09 22:36 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-10-10 12:13 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -12,7 +12,18 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [bug: worker registration overwrites TaskDef.runtimeMetadata, breaking credential injection after restart](https://github.com/conductor-oss/conductor/issues/1561) 💬 2 | [conductor-oss/conductor](https://github.com/conductor-oss/conductor) | 32.3k | 🟢 beginner | 2026-10-09 |  |
+| [[Feature][Connector-v2][MySQL] Support dynamic discovery of new tables for regex-based multi-table sync](https://github.com/apache/seatunnel/issues/10203) 💬 29 | [apache/seatunnel](https://github.com/apache/seatunnel) | 9.7k | 🟢 beginner | 2026-10-10 | ✍️ CLA |
+| [[Feature][Client] Make SeaTunnel installable and runnable from PyPI (pip install)](https://github.com/apache/seatunnel/issues/12707) | [apache/seatunnel](https://github.com/apache/seatunnel) | 9.7k | 🟡 help wanted | 2026-10-10 | ✍️ CLA |
+| [What does the Activity enable/disable switch represent?](https://github.com/MuntashirAkon/AppManager/issues/2063) | [MuntashirAkon/AppManager](https://github.com/MuntashirAkon/AppManager) | 9.2k | 🟡 help wanted | 2026-10-10 | 🔏 DCO |
+| [Add file history to Viewer navigation](https://github.com/gsantner/markor/issues/705) 💬 8 | [gsantner/markor](https://github.com/gsantner/markor) | 6.2k | 🟢 beginner | 2026-10-10 |  |
+| [todo.txt: Reminders & Notifications for due date](https://github.com/gsantner/markor/issues/716) 💬 6 | [gsantner/markor](https://github.com/gsantner/markor) | 6.2k | 🟢 beginner | 2026-10-10 |  |
+| [Determine and keep EOL (for saving/reading files) (\\n vs \\r\\n)](https://github.com/gsantner/markor/issues/827) 💬 3 | [gsantner/markor](https://github.com/gsantner/markor) | 6.2k | 🟢 beginner | 2026-10-10 |  |
+| [Markdown converter: Add option to break lines on single EOL](https://github.com/gsantner/markor/issues/835) 💬 5 | [gsantner/markor](https://github.com/gsantner/markor) | 6.2k | 🟢 beginner | 2026-10-10 |  |
+| [todo.txt: view mode - Fancy grouping, sort, search etc](https://github.com/gsantner/markor/issues/859) 💬 14 | [gsantner/markor](https://github.com/gsantner/markor) | 6.2k | 🟢 beginner | 2026-10-10 |  |
+| [Improve View Mode & "default to view mode"](https://github.com/gsantner/markor/issues/912) | [gsantner/markor](https://github.com/gsantner/markor) | 6.2k | 🟢 beginner | 2026-10-10 |  |
+| [Rework Copy/Insert media dialogs: Scrollable selection list between notebook,current, favourite folders](https://github.com/gsantner/markor/issues/925) 💬 4 | [gsantner/markor](https://github.com/gsantner/markor) | 6.2k | 🟢 beginner | 2026-10-10 |  |
+| [Fullscreen settings option (Hide SystemUI status/nav)](https://github.com/gsantner/markor/issues/1247) 💬 3 | [gsantner/markor](https://github.com/gsantner/markor) | 6.2k | 🟢 beginner | 2026-10-10 |  |
+| [Attachment menu: Add section for Videos](https://github.com/gsantner/markor/issues/1280) 💬 5 | [gsantner/markor](https://github.com/gsantner/markor) | 6.2k | 🟢 beginner | 2026-10-10 |  |
 | [Add bazel flag for max_cas_entry size.](https://github.com/bazelbuild/bazel/issues/18449) 💬 12 | [bazelbuild/bazel](https://github.com/bazelbuild/bazel) | 25.9k | 🟡 help wanted | 2026-10-09 | ✍️ CLA |
 | [java.lang.InterruptedException: null when closing BrokerClient](https://github.com/camunda/camunda/issues/17098) 💬 7 | [camunda/camunda](https://github.com/camunda/camunda) | 4.3k | 🟢 beginner | 2026-10-09 | ✍️ CLA |
 | [NPE when recovering from snapshot in StreamProcessor](https://github.com/camunda/camunda/issues/12201) 💬 2 | [camunda/camunda](https://github.com/camunda/camunda) | 4.3k | 🟢 beginner | 2026-10-09 | ✍️ CLA |
@@ -23,7 +34,6 @@
 | [App Crash on mark video as watched](https://github.com/TeamNewPipe/NewPipe/issues/10939) 💬 10 | [TeamNewPipe/NewPipe](https://github.com/TeamNewPipe/NewPipe) | 40k | 🟢 beginner | 2026-10-06 | 📄 AI policy |
 | [Client credentials hashing (encryption / decryption)](https://github.com/keycloak/keycloak/issues/15567) 💬 2 | [keycloak/keycloak](https://github.com/keycloak/keycloak) | 37.3k | 🟡 help wanted | 2026-10-06 | 🤖 disclose AI use · 🔏 DCO |
 | [Proposal: Migrate docs from Material for MkDocs to Zensical](https://github.com/DependencyTrack/dependency-track/issues/7597) 💬 1 | [DependencyTrack/dependency-track](https://github.com/DependencyTrack/dependency-track) | 4.3k | 🟡 help wanted | 2026-10-06 | ⚠️ AI restricted · 🔏 DCO |
-| [Listing client roles on a cold realm cache is taking 45s for a customer with many roles](https://github.com/keycloak/keycloak/issues/50900) 💬 3 | [keycloak/keycloak](https://github.com/keycloak/keycloak) | 37.3k | 🟡 help wanted | 2026-10-05 | 🤖 disclose AI use · 🔏 DCO |
 | [[Feature] Support for reading and importing embedded images within cells](https://github.com/apache/fesod/issues/22) 💬 3 | [apache/fesod](https://github.com/apache/fesod) | 6.3k | 🟡 help wanted | 2026-10-05 | ✍️ CLA |
 | [[Question] Support using Fesod on Android system](https://github.com/apache/fesod/issues/12) 💬 8 | [apache/fesod](https://github.com/apache/fesod) | 6.3k | 🟡 help wanted | 2026-10-05 | ✍️ CLA |
 | [[Enhancement] Support interface projection exports](https://github.com/apache/fesod/issues/366) 💬 4 | [apache/fesod](https://github.com/apache/fesod) | 6.3k | 🟡 help wanted | 2026-10-05 | ✍️ CLA |
@@ -43,7 +53,6 @@
 | [[Feature] Add a method to export tree structure](https://github.com/apache/fesod/issues/83) 💬 1 | [apache/fesod](https://github.com/apache/fesod) | 6.3k | 🟡 help wanted | 2026-10-05 | ✍️ CLA |
 | [[Feature] Add internationalization (i18n) support](https://github.com/apache/fesod/issues/57) 💬 6 | [apache/fesod](https://github.com/apache/fesod) | 6.3k | 🟡 help wanted | 2026-10-05 | ✍️ CLA |
 | [[Enhancement] Add streaming or append writing support](https://github.com/apache/fesod/issues/163) 💬 2 | [apache/fesod](https://github.com/apache/fesod) | 6.3k | 🟡 help wanted | 2026-10-05 | ✍️ CLA |
-| [Handle braced initializers with const member values](https://github.com/bytedeco/javacpp/issues/808) 💬 5 | [bytedeco/javacpp](https://github.com/bytedeco/javacpp) | 4.7k | 🟡 help wanted | 2026-10-05 |  |
 | [Write unit tests for RASAero importing](https://github.com/openrocket/openrocket/issues/2136) 💬 2 | [openrocket/openrocket](https://github.com/openrocket/openrocket) | 3.2k | 🟢 beginner | 2026-10-04 | 📄 AI policy |
 | [C++ recompilation is too sensitive to preprocessor-only changes](https://github.com/bazelbuild/bazel/issues/18246) 💬 6 | [bazelbuild/bazel](https://github.com/bazelbuild/bazel) | 25.9k | 🟡 help wanted | 2026-10-02 | ✍️ CLA |
 | [could javapp-pytorch support "torch::jit::export_onnx"](https://github.com/bytedeco/javacpp-presets/issues/1811) | [bytedeco/javacpp-presets](https://github.com/bytedeco/javacpp-presets) | 2.8k | 🟡 help wanted | 2026-10-02 |  |
@@ -119,7 +128,7 @@
 | ["Error loading feed" message reappears when rotating the screen even after selecting Cancel](https://github.com/TeamNewPipe/NewPipe/issues/8474) 💬 3 | [TeamNewPipe/NewPipe](https://github.com/TeamNewPipe/NewPipe) | 40k | 🟡 help wanted | 2026-08-27 | 📄 AI policy |
 | [系统WebView问题，请在该issue下留言讨论。](https://github.com/Justson/AgentWeb/issues/219) 💬 21 | [Justson/AgentWeb](https://github.com/Justson/AgentWeb) | 9.4k | 🟡 help wanted | 2026-08-27 |  |
 | [网站里的图画错了？](https://github.com/jeecgboot/JeecgBoot/issues/9857) 💬 1 | [jeecgboot/JeecgBoot](https://github.com/jeecgboot/JeecgBoot) | 48.1k | 🟡 help wanted | 2026-08-26 |  |
-| [[Feature Request]:](https://github.com/yuliskov/SmartTube/issues/4603) 💬 7 | [yuliskov/SmartTube](https://github.com/yuliskov/SmartTube) | 34.7k | 🟡 help wanted | 2026-08-26 |  |
+| [[Feature Request]:](https://github.com/yuliskov/SmartTube/issues/4603) 💬 7 | [yuliskov/SmartTube](https://github.com/yuliskov/SmartTube) | 34.8k | 🟡 help wanted | 2026-08-26 |  |
 | [Command line to Export ER Diagrams](https://github.com/dbeaver/dbeaver/issues/6215) 💬 7 | [dbeaver/dbeaver](https://github.com/dbeaver/dbeaver) | 52k | 🟡 help wanted | 2026-08-25 | 🤖 disclose AI use |
 | [Show/Don't hide feed items when updating feed](https://github.com/TeamNewPipe/NewPipe/issues/4952) 💬 5 | [TeamNewPipe/NewPipe](https://github.com/TeamNewPipe/NewPipe) | 40k | 🟡 help wanted | 2026-08-25 | 📄 AI policy |
 | [Enhance SoapDecoder by using Content Type from Response as Mime Type](https://github.com/OpenFeign/feign/issues/1732) 💬 3 | [OpenFeign/feign](https://github.com/OpenFeign/feign) | 9.8k | 🟡 help wanted | 2026-08-24 |  |
@@ -203,14 +212,5 @@
 | [Notify user, when response of Hub Authentication takes a long time](https://github.com/cryptomator/cryptomator/issues/3162) 💬 3 | [cryptomator/cryptomator](https://github.com/cryptomator/cryptomator) | 16.3k | 🟢 beginner | 2026-06-24 |  |
 | [Add nodejs Analyzer](https://github.com/oracle/opengrok/issues/3470) 💬 2 | [oracle/opengrok](https://github.com/oracle/opengrok) | 5k | 🟡 help wanted | 2026-06-22 | 🔏 DCO |
 | [Checkbox next to Group Name in Project Dropdown menu](https://github.com/oracle/opengrok/issues/4331) 💬 2 | [oracle/opengrok](https://github.com/oracle/opengrok) | 5k | 🟡 help wanted | 2026-06-22 | 🔏 DCO |
-| [Memory consumption with tesseract](https://github.com/bytedeco/javacpp-presets/issues/1375) 💬 6 | [bytedeco/javacpp-presets](https://github.com/bytedeco/javacpp-presets) | 2.8k | 🟡 help wanted | 2026-06-20 |  |
-| [[Feature]: Sub-agent events are not visible in AG-UI frontend when using 'SubAgentTool' with 'forwardEvents(tr](https://github.com/agentscope-ai/agentscope-java/issues/1046) 💬 1 | [agentscope-ai/agentscope-java](https://github.com/agentscope-ai/agentscope-java) | 5.9k | 🟡 help wanted | 2026-06-19 |  |
-| [Error Message Could be Improved for 'http_file'](https://github.com/bazelbuild/bazel/issues/16375) 💬 8 | [bazelbuild/bazel](https://github.com/bazelbuild/bazel) | 25.9k | 🟢 beginner | 2026-06-16 | ✍️ CLA |
-| [[Feature Request] Analyzers on non-text sub fields](https://github.com/opensearch-project/OpenSearch/issues/11882) 💬 3 | [opensearch-project/OpenSearch](https://github.com/opensearch-project/OpenSearch) | 13.8k | 🟡 help wanted | 2026-06-15 | 🔏 DCO |
-| [Set SameSite attribute on session cookie created by the frontend](https://github.com/DependencyTrack/dependency-track/issues/2985) 💬 1 | [DependencyTrack/dependency-track](https://github.com/DependencyTrack/dependency-track) | 4.3k | 🟢 beginner | 2026-06-15 | ⚠️ AI restricted · 🔏 DCO |
-| [pytorch issue ，ModuleDictImpl need mapping void insert(const std::string& key, std::shared_ptr&lt;Module&gt; m](https://github.com/bytedeco/javacpp-presets/issues/1781) 💬 1 | [bytedeco/javacpp-presets](https://github.com/bytedeco/javacpp-presets) | 2.8k | 🟡 help wanted | 2026-06-15 |  |
-| [Specifying only Group Name and Version will not match VulnerableSoftware using the Internal Analyzer.](https://github.com/DependencyTrack/dependency-track/issues/2984) 💬 2 | [DependencyTrack/dependency-track](https://github.com/DependencyTrack/dependency-track) | 4.3k | 🟢 beginner | 2026-06-13 | ⚠️ AI restricted · 🔏 DCO |
-| [include support for opencv 5](https://github.com/bytedeco/javacv/issues/2388) | [bytedeco/javacv](https://github.com/bytedeco/javacv) | 8.3k | 🟡 help wanted | 2026-06-09 |  |
-| [[BUG] Auto split not working in dual recording more](https://github.com/anonfaded/FadCam/issues/303) | [anonfaded/FadCam](https://github.com/anonfaded/FadCam) | 2.8k | 🟢 beginner | 2026-06-09 |  |
 
-Showing the 200 most recently updated. See all 254 on the website.
+Showing the 200 most recently updated. See all 263 on the website.

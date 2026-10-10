@@ -1,8 +1,8 @@
 # Documentation and education issues
 
-**79** open issues (41 labeled for beginners) across **24** projects tagged with topics like `documentation`, `education`, `learning`, `tutorial`, `awesome`, `awesome-list`.
+**88** open issues (51 labeled for beginners) across **25** projects tagged with topics like `documentation`, `education`, `learning`, `tutorial`, `awesome`, `awesome-list`.
 
-> Updated automatically on **2026-10-09 22:36 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-10-10 12:13 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,15 +10,25 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [Add user locale to "Copy Debug Info"](https://github.com/ankidroid/Anki-Android/issues/22403) 💬 4 | [ankidroid/Anki-Android](https://github.com/ankidroid/Anki-Android) | 12k | 🟢 beginner | 2026-10-10 | 🤖 disclose AI use |
+| [Add file history to Viewer navigation](https://github.com/gsantner/markor/issues/705) 💬 8 | [gsantner/markor](https://github.com/gsantner/markor) | 6.2k | 🟢 beginner | 2026-10-10 |  |
+| [todo.txt: Reminders & Notifications for due date](https://github.com/gsantner/markor/issues/716) 💬 6 | [gsantner/markor](https://github.com/gsantner/markor) | 6.2k | 🟢 beginner | 2026-10-10 |  |
+| [Determine and keep EOL (for saving/reading files) (\\n vs \\r\\n)](https://github.com/gsantner/markor/issues/827) 💬 3 | [gsantner/markor](https://github.com/gsantner/markor) | 6.2k | 🟢 beginner | 2026-10-10 |  |
+| [Markdown converter: Add option to break lines on single EOL](https://github.com/gsantner/markor/issues/835) 💬 5 | [gsantner/markor](https://github.com/gsantner/markor) | 6.2k | 🟢 beginner | 2026-10-10 |  |
+| [todo.txt: view mode - Fancy grouping, sort, search etc](https://github.com/gsantner/markor/issues/859) 💬 14 | [gsantner/markor](https://github.com/gsantner/markor) | 6.2k | 🟢 beginner | 2026-10-10 |  |
+| [Improve View Mode & "default to view mode"](https://github.com/gsantner/markor/issues/912) | [gsantner/markor](https://github.com/gsantner/markor) | 6.2k | 🟢 beginner | 2026-10-10 |  |
+| [Rework Copy/Insert media dialogs: Scrollable selection list between notebook,current, favourite folders](https://github.com/gsantner/markor/issues/925) 💬 4 | [gsantner/markor](https://github.com/gsantner/markor) | 6.2k | 🟢 beginner | 2026-10-10 |  |
+| [Fullscreen settings option (Hide SystemUI status/nav)](https://github.com/gsantner/markor/issues/1247) 💬 3 | [gsantner/markor](https://github.com/gsantner/markor) | 6.2k | 🟢 beginner | 2026-10-10 |  |
+| [Attachment menu: Add section for Videos](https://github.com/gsantner/markor/issues/1280) 💬 5 | [gsantner/markor](https://github.com/gsantner/markor) | 6.2k | 🟢 beginner | 2026-10-10 |  |
 | [[WEB-SDK] - Add Payment Method with Dynamic Field Rendering - BniVa](https://github.com/juspay/hyperswitch/issues/6067) 💬 4 | [juspay/hyperswitch](https://github.com/juspay/hyperswitch) | 45.3k | 🟢 beginner | 2026-10-08 |  |
 | [[WEB-SDK] - Add Payment Method with Dynamic Field Rendering - Online Banking Poland](https://github.com/juspay/hyperswitch/issues/6079) 💬 5 | [juspay/hyperswitch](https://github.com/juspay/hyperswitch) | 45.3k | 🟢 beginner | 2026-10-08 |  |
 | [[FEATURE]CPU Scheduling algorithms](https://github.com/TheAlgorithms/C-Plus-Plus/issues/1574) 💬 19 | [TheAlgorithms/C-Plus-Plus](https://github.com/TheAlgorithms/C-Plus-Plus) | 34.8k | 🟡 help wanted | 2026-10-05 |  |
 | [🐛(Bug) Line wraps at a hyphen instead of a space](https://github.com/suitenumerique/docs/issues/2239) 💬 1 | [suitenumerique/docs](https://github.com/suitenumerique/docs) | 16.9k | 🟢 beginner | 2026-10-05 | 🤖 disclose AI use · 🔏 DCO |
 | [Have updated changelog in alpha/beta versions](https://github.com/ankidroid/Anki-Android/issues/18707) 💬 9 | [ankidroid/Anki-Android](https://github.com/ankidroid/Anki-Android) | 12k | 🟡 help wanted | 2026-10-05 | 🤖 disclose AI use |
-| [Broken/Dead Links: Implementing a Search Engine](https://github.com/practical-tutorials/project-based-learning/issues/380) 💬 33 | [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | 286.2k | 🟢 beginner | 2026-10-03 |  |
-| [broken link in java tutorial](https://github.com/practical-tutorials/project-based-learning/issues/347) 💬 10 | [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | 286.2k | 🟢 beginner | 2026-10-03 |  |
-| [Is adding an Arduino section aligned with intent of this tutorial? (add an Arduino section)](https://github.com/practical-tutorials/project-based-learning/issues/94) 💬 6 | [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | 286.2k | 🟢 beginner | 2026-10-03 |  |
-| [Kong library possibly mis-categorized](https://github.com/avelino/awesome-go/issues/6592) 💬 2 | [avelino/awesome-go](https://github.com/avelino/awesome-go) | 187.6k | 🟢 beginner | 2026-10-03 |  |
+| [Broken/Dead Links: Implementing a Search Engine](https://github.com/practical-tutorials/project-based-learning/issues/380) 💬 33 | [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | 286.3k | 🟢 beginner | 2026-10-03 |  |
+| [broken link in java tutorial](https://github.com/practical-tutorials/project-based-learning/issues/347) 💬 10 | [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | 286.3k | 🟢 beginner | 2026-10-03 |  |
+| [Is adding an Arduino section aligned with intent of this tutorial? (add an Arduino section)](https://github.com/practical-tutorials/project-based-learning/issues/94) 💬 6 | [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | 286.3k | 🟢 beginner | 2026-10-03 |  |
+| [Kong library possibly mis-categorized](https://github.com/avelino/awesome-go/issues/6592) 💬 2 | [avelino/awesome-go](https://github.com/avelino/awesome-go) | 187.7k | 🟢 beginner | 2026-10-03 |  |
 | [ContentProvider returns null unless app manually launched — request for background-initializable entry point](https://github.com/ankidroid/Anki-Android/issues/18286) 💬 16 | [ankidroid/Anki-Android](https://github.com/ankidroid/Anki-Android) | 12k | 🟡 help wanted | 2026-10-03 | 🤖 disclose AI use |
 | [element with display flex do not create a new BFC itself](https://github.com/yangshun/front-end-interview-handbook/issues/159) 💬 1 | [yangshun/front-end-interview-handbook](https://github.com/yangshun/front-end-interview-handbook) | 44k | 🟡 help wanted | 2026-10-02 |  |
 | [[Bug]: automigrate fails on EXDEV error](https://github.com/storybookjs/storybook/issues/30184) 💬 7 | [storybookjs/storybook](https://github.com/storybookjs/storybook) | 91.2k | 🟡 help wanted | 2026-10-01 | 🤖 disclose AI use |
@@ -26,7 +36,7 @@
 | [Change Image Annotation View Width With Panel Width](https://github.com/Submitty/Submitty/issues/13171) 💬 2 | [Submitty/Submitty](https://github.com/Submitty/Submitty) | 801 | 🟢 beginner | 2026-10-01 |  |
 | [[Feature:InstructorUI] Improve error / success feedback on course creation](https://github.com/Submitty/Submitty/issues/13178) 💬 2 | [Submitty/Submitty](https://github.com/Submitty/Submitty) | 801 | 🟢 beginner | 2026-10-01 |  |
 | [Peer graders should never see grade inquiries](https://github.com/Submitty/Submitty/issues/13355) 💬 1 | [Submitty/Submitty](https://github.com/Submitty/Submitty) | 801 | 🟢 beginner | 2026-10-01 |  |
-| [Translation needed for existing languages](https://github.com/sumn2u/learn-javascript/issues/337) 💬 2 | [sumn2u/learn-javascript](https://github.com/sumn2u/learn-javascript) | 1.1k | 🟢 beginner | 2026-09-29 |  |
+| [Translation needed for existing languages](https://github.com/sumn2u/learn-javascript/issues/337) 💬 2 | [sumn2u/learn-javascript](https://github.com/sumn2u/learn-javascript) | 1k | 🟢 beginner | 2026-09-29 |  |
 | [Ability to buffer the output of the RGB Video component](https://github.com/logisim-evolution/logisim-evolution/issues/2523) 💬 4 | [logisim-evolution/logisim-evolution](https://github.com/logisim-evolution/logisim-evolution) | 7.7k | 🟡 help wanted | 2026-09-28 |  |
 | [Delay component](https://github.com/logisim-evolution/logisim-evolution/issues/1840) 💬 27 | [logisim-evolution/logisim-evolution](https://github.com/logisim-evolution/logisim-evolution) | 7.7k | 🟡 help wanted | 2026-09-28 |  |
 | [Custom wire colors / multi-wire selecting](https://github.com/logisim-evolution/logisim-evolution/issues/1994) 💬 6 | [logisim-evolution/logisim-evolution](https://github.com/logisim-evolution/logisim-evolution) | 7.7k | 🟡 help wanted | 2026-09-28 |  |
@@ -50,7 +60,7 @@
 | [Add toolbar to --docs mode](https://github.com/storybookjs/storybook/issues/13025) 💬 7 | [storybookjs/storybook](https://github.com/storybookjs/storybook) | 91.2k | 🟡 help wanted | 2026-09-02 | 🤖 disclose AI use |
 | [Refs to other localhosts do not work](https://github.com/storybookjs/storybook/issues/18405) 💬 13 | [storybookjs/storybook](https://github.com/storybookjs/storybook) | 91.2k | 🟡 help wanted | 2026-09-02 | 🤖 disclose AI use |
 | [[Bug]: Failed to run on sveltekit monorepo(pnpm workspace)](https://github.com/storybookjs/storybook/issues/23777) 💬 9 | [storybookjs/storybook](https://github.com/storybookjs/storybook) | 91.2k | 🟡 help wanted | 2026-09-02 | 🤖 disclose AI use |
-| [Translation needed for existing languages](https://github.com/sumn2u/learn-javascript/issues/346) 💬 2 | [sumn2u/learn-javascript](https://github.com/sumn2u/learn-javascript) | 1.1k | 🟢 beginner | 2026-08-29 |  |
+| [Translation needed for existing languages](https://github.com/sumn2u/learn-javascript/issues/346) 💬 2 | [sumn2u/learn-javascript](https://github.com/sumn2u/learn-javascript) | 1k | 🟢 beginner | 2026-08-29 |  |
 | [Add a public DNS resolver from an unrepresented region (Africa / South America / Middle East / Oceania)](https://github.com/jason5ng32/MyIP/issues/394) 💬 1 | [jason5ng32/MyIP](https://github.com/jason5ng32/MyIP) | 12.1k | 🟢 beginner | 2026-08-28 |  |
 | [TalkBack conflicts with TTS](https://github.com/ankidroid/Anki-Android/issues/6369) 💬 4 | [ankidroid/Anki-Android](https://github.com/ankidroid/Anki-Android) | 12k | 🟡 help wanted | 2026-08-27 | 🤖 disclose AI use |
 | [i18n: translate the interview modes (plan/practice/debrief) to Indonesian](https://github.com/career-ops-hq/career-ops/issues/2784) 💬 10 | [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | 73.9k | 🟢 beginner | 2026-08-26 | 🤖 disclose AI use |
@@ -77,7 +87,7 @@
 | [textAscent() and textDescent() broken if textSize &gt; 200](https://github.com/processing/p5.js/issues/8771) 💬 15 | [processing/p5.js](https://github.com/processing/p5.js) | 24.1k | 🟡 help wanted | 2026-07-18 | ⚠️ AI restricted |
 | [Model calculation is not able to read features from stdin](https://github.com/catboost/catboost/issues/200) 💬 5 | [catboost/catboost](https://github.com/catboost/catboost) | 9.1k | 🟢 beginner | 2026-07-13 |  |
 | [Allow favicons in formats other than svg](https://github.com/imfing/hextra/issues/888) 💬 2 | [imfing/hextra](https://github.com/imfing/hextra) | 2.4k | 🟢 beginner | 2026-07-13 |  |
-| [Visual summary of the agent harness architecture](https://github.com/shareAI-lab/learn-claude-code/issues/355) | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | 78.2k | 🟢 beginner | 2026-07-01 | 🤖 disclose AI use |
+| [Visual summary of the agent harness architecture](https://github.com/shareAI-lab/learn-claude-code/issues/355) | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | 78.3k | 🟢 beginner | 2026-07-01 | 🤖 disclose AI use |
 | [setAttributes() invalidates references to earlier canvases](https://github.com/processing/p5.js/issues/5902) 💬 8 | [processing/p5.js](https://github.com/processing/p5.js) | 24.1k | 🟡 help wanted | 2026-06-20 | ⚠️ AI restricted |
 | [Add additional WebGL filter stress scenarios to visual regression suite](https://github.com/processing/p5.js/issues/8550) 💬 4 | [processing/p5.js](https://github.com/processing/p5.js) | 24.1k | 🟡 help wanted | 2026-06-17 | ⚠️ AI restricted |
 | [[FEATURE] : [NOON] Add Integrity Check Support for Authorize, PSync, Refund and RSync Flows](https://github.com/juspay/hyperswitch/issues/9199) 💬 3 | [juspay/hyperswitch](https://github.com/juspay/hyperswitch) | 45.3k | 🟢 beginner | 2026-06-10 |  |
@@ -88,4 +98,3 @@
 | [Feature Request: Integrate Crowdin for community translations](https://github.com/jaywcjlove/awesome-mac/issues/2119) 💬 1 | [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac) | 115.7k | 🟡 help wanted | 2026-05-30 | 📄 AI policy |
 | [Queue UI requests from page fragments while app in background](https://github.com/ankidroid/Anki-Android/issues/15706) 💬 3 | [ankidroid/Anki-Android](https://github.com/ankidroid/Anki-Android) | 12k | 🟡 help wanted | 2026-05-20 | 🤖 disclose AI use |
 | [cant connect robot app to python controller](https://github.com/ob-f/OpenBot/issues/486) 💬 2 | [ob-f/OpenBot](https://github.com/ob-f/OpenBot) | 3.5k | 🟡 help wanted | 2026-05-09 |  |
-| [Selecting AI TYPE for instance Point Goal using remote (PC/desktop) controller aka PYTHON/NPM PACKAGES....](https://github.com/ob-f/OpenBot/issues/489) 💬 2 | [ob-f/OpenBot](https://github.com/ob-f/OpenBot) | 3.5k | 🟡 help wanted | 2026-05-09 |  |

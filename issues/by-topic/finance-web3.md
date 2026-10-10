@@ -1,8 +1,8 @@
 # Finance and Web3 issues
 
-**53** open issues (21 labeled for beginners) across **15** projects tagged with topics like `finance`, `fintech`, `blockchain`, `ethereum`, `crypto`, `trading`.
+**52** open issues (20 labeled for beginners) across **14** projects tagged with topics like `finance`, `fintech`, `blockchain`, `ethereum`, `crypto`, `trading`.
 
-> Updated automatically on **2026-10-09 22:36 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-10-10 12:13 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,7 +10,8 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [SSL_OP_CLEANSE_PLAINTEXT: TLS read buffer not cleansed on SSL_free() since 3.2.0](https://github.com/openssl/openssl/issues/33170) 💬 1 | [openssl/openssl](https://github.com/openssl/openssl) | 30.9k | 🟡 help wanted | 2026-10-09 | 🤖 disclose AI use · ✍️ CLA |
+| [Cleanup in EVP_SKEY from PKCS#12 files processing](https://github.com/openssl/openssl/issues/33041) 💬 3 | [openssl/openssl](https://github.com/openssl/openssl) | 30.9k | 🟡 help wanted | 2026-10-10 | 🤖 disclose AI use · ✍️ CLA |
+| [SSL_OP_CLEANSE_PLAINTEXT: TLS read buffer not cleansed on SSL_free() since 3.2.0](https://github.com/openssl/openssl/issues/33170) 💬 2 | [openssl/openssl](https://github.com/openssl/openssl) | 30.9k | 🟡 help wanted | 2026-10-10 | 🤖 disclose AI use · ✍️ CLA |
 | [[WEB-SDK] - Add Payment Method with Dynamic Field Rendering - BniVa](https://github.com/juspay/hyperswitch/issues/6067) 💬 4 | [juspay/hyperswitch](https://github.com/juspay/hyperswitch) | 45.3k | 🟢 beginner | 2026-10-08 |  |
 | [[WEB-SDK] - Add Payment Method with Dynamic Field Rendering - Online Banking Poland](https://github.com/juspay/hyperswitch/issues/6079) 💬 5 | [juspay/hyperswitch](https://github.com/juspay/hyperswitch) | 45.3k | 🟢 beginner | 2026-10-08 |  |
 | [SSH corruptions with 3.0.13 on AARCH64](https://github.com/openssl/openssl/issues/33072) 💬 3 | [openssl/openssl](https://github.com/openssl/openssl) | 30.9k | 🟡 help wanted | 2026-10-07 | 🤖 disclose AI use · ✍️ CLA |
@@ -19,7 +20,6 @@
 | [04-test_bio_dgram.t hangs on HP-UX (hpux-ipf32 and hpux-ipf64, IA64)](https://github.com/openssl/openssl/issues/33112) 💬 1 | [openssl/openssl](https://github.com/openssl/openssl) | 30.9k | 🟡 help wanted | 2026-10-05 | 🤖 disclose AI use · ✍️ CLA |
 | [Build Error with new configuration BC-64 for Embarcadero-Borland Clang Compiler 64bit](https://github.com/openssl/openssl/issues/26452) 💬 14 | [openssl/openssl](https://github.com/openssl/openssl) | 30.9k | 🟡 help wanted | 2026-10-04 | 🤖 disclose AI use · ✍️ CLA |
 | [OpenSSL retains consumed TLS 1.3 stage secrets](https://github.com/openssl/openssl/issues/32213) 💬 2 | [openssl/openssl](https://github.com/openssl/openssl) | 30.9k | 🟡 help wanted | 2026-10-01 | 🤖 disclose AI use · ✍️ CLA |
-| [Cleanup in EVP_SKEY from PKCS#12 files processing](https://github.com/openssl/openssl/issues/33041) 💬 1 | [openssl/openssl](https://github.com/openssl/openssl) | 30.9k | 🟡 help wanted | 2026-10-01 | 🤖 disclose AI use · ✍️ CLA |
 | [Adding FAEST](https://github.com/open-quantum-safe/liboqs/issues/2101) 💬 14 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-10-01 |  |
 | [Large test input file distributed with latest 3.0/3.5 releases](https://github.com/openssl/openssl/issues/32603) 💬 5 | [openssl/openssl](https://github.com/openssl/openssl) | 30.9k | 🟡 help wanted | 2026-09-30 | 🤖 disclose AI use · ✍️ CLA |
 | [openssl cms sign command does not support 'noattr' when 'digest' is used](https://github.com/openssl/openssl/issues/28743) 💬 2 | [openssl/openssl](https://github.com/openssl/openssl) | 30.9k | 🟡 help wanted | 2026-09-27 | 🤖 disclose AI use · ✍️ CLA |
@@ -28,7 +28,6 @@
 | [Update speed tests to measure GPU performance for cuPQC code](https://github.com/open-quantum-safe/liboqs/issues/2160) 💬 42 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-09-16 |  |
 | [[Bug]: Enable Banking with "imagin / CaixaBank" bank linking fails on desktop but works on mobile browser](https://github.com/actualbudget/actual/issues/8326) 💬 9 | [actualbudget/actual](https://github.com/actualbudget/actual) | 29.4k | 🟡 help wanted | 2026-09-13 | 🤖 disclose AI use |
 | [[Bug]: All Accounts totals do not match when a closed account has a balance](https://github.com/actualbudget/actual/issues/5413) 💬 6 | [actualbudget/actual](https://github.com/actualbudget/actual) | 29.4k | 🟢 beginner | 2026-09-13 | 🤖 disclose AI use |
-| [Add CI for jupyter notebook example 'workflow_by_code.ipynb'](https://github.com/microsoft/qlib/issues/1278) 💬 8 | [microsoft/qlib](https://github.com/microsoft/qlib) | 49.2k | 🟢 beginner | 2026-09-01 |  |
 | [Consider bounded CBMC proofs for liboqs-owned code](https://github.com/open-quantum-safe/liboqs/issues/2504) 💬 1 | [open-quantum-safe/liboqs](https://github.com/open-quantum-safe/liboqs) | 3.1k | 🟡 help wanted | 2026-08-21 |  |
 | [[Bug]: Rules notes with matches has a bug](https://github.com/actualbudget/actual/issues/6317) 💬 4 | [actualbudget/actual](https://github.com/actualbudget/actual) | 29.4k | 🟡 help wanted | 2026-08-13 | 🤖 disclose AI use |
 | [[Bug]: Account linking process with Gocardless times out before completion](https://github.com/actualbudget/actual/issues/4460) 💬 21 | [actualbudget/actual](https://github.com/actualbudget/actual) | 29.4k | 🟢 beginner | 2026-08-04 | 🤖 disclose AI use |

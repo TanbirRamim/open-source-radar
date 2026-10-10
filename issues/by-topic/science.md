@@ -1,8 +1,8 @@
 # Science and research issues
 
-**61** open issues (39 labeled for beginners) across **19** projects tagged with topics like `science`, `scientific-computing`, `bioinformatics`, `physics`, `astronomy`, `chemistry`.
+**59** open issues (38 labeled for beginners) across **19** projects tagged with topics like `science`, `scientific-computing`, `bioinformatics`, `physics`, `astronomy`, `chemistry`.
 
-> Updated automatically on **2026-10-09 22:36 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-10-10 12:13 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -13,7 +13,6 @@
 | [Core.bitcast to LLVMPtr from Float64 generates invalid inttoptr, aborts compilation](https://github.com/JuliaLang/julia/issues/63218) 💬 4 | [JuliaLang/julia](https://github.com/JuliaLang/julia) | 49.2k | 🟢 beginner | 2026-10-06 | 🤖 disclose AI use |
 | [Find bugs in the rewrite of SymPy's assumption system](https://github.com/sympy/sympy/issues/30671) 💬 3 | [sympy/sympy](https://github.com/sympy/sympy) | 15k | 🟢 beginner | 2026-10-06 | 🤖 disclose AI use |
 | [[FEATURE]CPU Scheduling algorithms](https://github.com/TheAlgorithms/C-Plus-Plus/issues/1574) 💬 19 | [TheAlgorithms/C-Plus-Plus](https://github.com/TheAlgorithms/C-Plus-Plus) | 34.8k | 🟡 help wanted | 2026-10-05 |  |
-| [Refactor tile iteration loops to TileElementsView](https://github.com/OpenRCT2/OpenRCT2/issues/27242) 💬 2 | [OpenRCT2/OpenRCT2](https://github.com/OpenRCT2/OpenRCT2) | 16.4k | 🟢 beginner | 2026-10-04 |  |
 | [Write unit tests for RASAero importing](https://github.com/openrocket/openrocket/issues/2136) 💬 2 | [openrocket/openrocket](https://github.com/openrocket/openrocket) | 3.2k | 🟢 beginner | 2026-10-04 | 📄 AI policy |
 | [Report your benchmark results here!](https://github.com/ProjectPhysX/FluidX3D/issues/8) 💬 278 | [ProjectPhysX/FluidX3D](https://github.com/ProjectPhysX/FluidX3D) | 5.3k | 🟡 help wanted | 2026-09-29 |  |
 | [docs: provide a cargo-generate starter template](https://github.com/tracel-ai/burn/issues/282) 💬 8 | [tracel-ai/burn](https://github.com/tracel-ai/burn) | 16.1k | 🟢 beginner | 2026-09-28 |  |
@@ -40,9 +39,9 @@
 | [[RFC]: Add C implementation for '@stdlib/stats/base/dists/chisquare/pdf'](https://github.com/stdlib-js/stdlib/issues/3508) 💬 2 | [stdlib-js/stdlib](https://github.com/stdlib-js/stdlib) | 6k | 🟢 beginner | 2026-08-22 | 🤖 disclose AI use |
 | [Tracking openrocket in downstream package ecosystem](https://github.com/openrocket/openrocket/issues/2254) 💬 15 | [openrocket/openrocket](https://github.com/openrocket/openrocket) | 3.2k | 🟢 beginner | 2026-08-20 | 📄 AI policy |
 | [Irrelevant error message from 'PerInstanceColorAppearance'](https://github.com/CesiumGS/cesium/issues/12107) 💬 6 | [CesiumGS/cesium](https://github.com/CesiumGS/cesium) | 15.8k | 🟢 beginner | 2026-08-19 | ✍️ CLA |
-| [[Feature Request]: Integrate Automated Data Validation Pipeline using 'Great Expectations' for Dataset Integri](https://github.com/Niketkumardheeryan/ML-CaPsule/issues/1504) 💬 26 | [Niketkumardheeryan/ML-CaPsule](https://github.com/Niketkumardheeryan/ML-CaPsule) | 683 | 🟡 help wanted | 2026-08-19 |  |
-| [Utilize DocumenterCodeblocks.jl in all subpackages of the ecosystem](https://github.com/JuliaDynamics/DynamicalSystems.jl/issues/270) | [JuliaDynamics/DynamicalSystems.jl](https://github.com/JuliaDynamics/DynamicalSystems.jl) | 954 | 🟢 beginner | 2026-08-18 |  |
-| [Build an AI-Based Interview Preparation Website](https://github.com/Niketkumardheeryan/ML-CaPsule/issues/1436) 💬 18 | [Niketkumardheeryan/ML-CaPsule](https://github.com/Niketkumardheeryan/ML-CaPsule) | 683 | 🟡 help wanted | 2026-08-17 |  |
+| [[Feature Request]: Integrate Automated Data Validation Pipeline using 'Great Expectations' for Dataset Integri](https://github.com/Niketkumardheeryan/ML-CaPsule/issues/1504) 💬 26 | [Niketkumardheeryan/ML-CaPsule](https://github.com/Niketkumardheeryan/ML-CaPsule) | 684 | 🟡 help wanted | 2026-08-19 |  |
+| [Utilize DocumenterCodeblocks.jl in all subpackages of the ecosystem](https://github.com/JuliaDynamics/DynamicalSystems.jl/issues/270) | [JuliaDynamics/DynamicalSystems.jl](https://github.com/JuliaDynamics/DynamicalSystems.jl) | 955 | 🟢 beginner | 2026-08-18 |  |
+| [Build an AI-Based Interview Preparation Website](https://github.com/Niketkumardheeryan/ML-CaPsule/issues/1436) 💬 18 | [Niketkumardheeryan/ML-CaPsule](https://github.com/Niketkumardheeryan/ML-CaPsule) | 684 | 🟡 help wanted | 2026-08-17 |  |
 | [Write unit tests for cut, copy, paste, duplicate component actions](https://github.com/openrocket/openrocket/issues/1692) 💬 2 | [openrocket/openrocket](https://github.com/openrocket/openrocket) | 3.2k | 🟢 beginner | 2026-08-09 | 📄 AI policy |
 | [Write unit tests for multi-component editing](https://github.com/openrocket/openrocket/issues/1690) | [openrocket/openrocket](https://github.com/openrocket/openrocket) | 3.2k | 🟢 beginner | 2026-08-09 | 📄 AI policy |
 | [Write unit tests for component parameter saving and re-opening](https://github.com/openrocket/openrocket/issues/1806) 💬 4 | [openrocket/openrocket](https://github.com/openrocket/openrocket) | 3.2k | 🟢 beginner | 2026-08-09 | 📄 AI policy |
@@ -60,14 +59,13 @@
 | [providing sample weights to glm.fit() and glm.fit.sparse()](https://github.com/tensorflow/probability/issues/252) 💬 1 | [tensorflow/probability](https://github.com/tensorflow/probability) | 4.4k | 🟢 beginner | 2026-06-22 | ✍️ CLA |
 | [Cannot combine @simd and @threads on a loop](https://github.com/JuliaLang/julia/issues/32684) 💬 5 | [JuliaLang/julia](https://github.com/JuliaLang/julia) | 49.2k | 🟢 beginner | 2026-06-06 | 🤖 disclose AI use |
 | [Consider if the editor light level (day/night) buttons should default to day](https://github.com/Revolutionary-Games/Thrive/issues/6039) 💬 2 | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) | 3.7k | 🟢 beginner | 2026-06-04 |  |
-| [Instruct mount to track objects with non-sidereal motion](https://github.com/Stellarium/stellarium/issues/1154) 💬 7 | [Stellarium/stellarium](https://github.com/Stellarium/stellarium) | 10k | 🟡 help wanted | 2026-05-30 |  |
+| [Instruct mount to track objects with non-sidereal motion](https://github.com/Stellarium/stellarium/issues/1154) 💬 7 | [Stellarium/stellarium](https://github.com/Stellarium/stellarium) | 10.1k | 🟡 help wanted | 2026-05-30 |  |
 | [Add a tutorial about storage and dangers of low storage causing negative ATP balance](https://github.com/Revolutionary-Games/Thrive/issues/5950) 💬 1 | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) | 3.7k | 🟢 beginner | 2026-05-24 |  |
 | [Membrane types should give some macrolide resistance](https://github.com/Revolutionary-Games/Thrive/issues/5194) 💬 1 | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) | 3.7k | 🟢 beginner | 2026-05-22 |  |
 | [Make sure that extinct entries aren't shown in the endosymbiosis candidates (verify bug report)](https://github.com/Revolutionary-Games/Thrive/issues/6656) 💬 4 | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) | 3.7k | 🟢 beginner | 2026-05-22 |  |
 | [Add new editor help section explaining the controls](https://github.com/Revolutionary-Games/Thrive/issues/2853) 💬 2 | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) | 3.7k | 🟢 beginner | 2026-05-21 |  |
-| [warn on constant redefinition (in package tests)?](https://github.com/JuliaLang/julia/issues/58670) 💬 7 | [JuliaLang/julia](https://github.com/JuliaLang/julia) | 49.2k | 🟡 help wanted | 2026-05-20 | 🤖 disclose AI use |
 | [A question about target_log_prob_fn](https://github.com/tensorflow/probability/issues/611) 💬 5 | [tensorflow/probability](https://github.com/tensorflow/probability) | 4.4k | 🟢 beginner | 2026-05-18 | ✍️ CLA |
 | [Feature Request: Efficient Poisson Binomial PMF/CDF in tfp](https://github.com/tensorflow/probability/issues/1453) 💬 14 | [tensorflow/probability](https://github.com/tensorflow/probability) | 4.4k | 🟢 beginner | 2026-05-18 | ✍️ CLA |
 | [Add the new Arabic variant localization if it is started](https://github.com/Revolutionary-Games/Thrive/issues/7006) | [Revolutionary-Games/Thrive](https://github.com/Revolutionary-Games/Thrive) | 3.7k | 🟢 beginner | 2026-05-18 |  |
 | [NeuralFoil Optimizer tutorial issue](https://github.com/peterdsharpe/AeroSandbox/issues/172) 💬 1 | [peterdsharpe/AeroSandbox](https://github.com/peterdsharpe/AeroSandbox) | 1.4k | 🟢 beginner | 2026-05-16 |  |
-| [Sextant sight reduction module](https://github.com/Stellarium/stellarium/issues/796) 💬 5 | [Stellarium/stellarium](https://github.com/Stellarium/stellarium) | 10k | 🟡 help wanted | 2026-05-07 |  |
+| [Sextant sight reduction module](https://github.com/Stellarium/stellarium/issues/796) 💬 5 | [Stellarium/stellarium](https://github.com/Stellarium/stellarium) | 10.1k | 🟡 help wanted | 2026-05-07 |  |

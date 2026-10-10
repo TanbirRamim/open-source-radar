@@ -1,8 +1,8 @@
 # Data and databases issues
 
-**310** open issues (148 labeled for beginners) across **90** projects tagged with topics like `database`, `sql`, `postgresql`, `mysql`, `sqlite`, `nosql`.
+**305** open issues (145 labeled for beginners) across **88** projects tagged with topics like `database`, `sql`, `postgresql`, `mysql`, `sqlite`, `nosql`.
 
-> Updated automatically on **2026-10-09 22:36 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-10-10 12:13 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -178,7 +178,7 @@
 | [SQL Server CDC: silent data loss when upstream disables CDC on a captured table](https://github.com/risingwavelabs/risingwave/issues/25828) 💬 6 | [risingwavelabs/risingwave](https://github.com/risingwavelabs/risingwave) | 9.4k | 🟢 beginner | 2026-08-21 | ✍️ CLA |
 | [Add play store promo](https://github.com/openfoodfacts/openfoodfacts-server/issues/604) 💬 6 | [openfoodfacts/openfoodfacts-server](https://github.com/openfoodfacts/openfoodfacts-server) | 1.2k | 🟢 beginner | 2026-08-21 | 🤖 disclose AI use |
 | [[feature request] loadUpdateData only insert](https://github.com/liquibase/liquibase/issues/1101) 💬 5 | [liquibase/liquibase](https://github.com/liquibase/liquibase) | 5.6k | 🟡 help wanted | 2026-08-20 |  |
-| [[Feature Request]: Integrate Automated Data Validation Pipeline using 'Great Expectations' for Dataset Integri](https://github.com/Niketkumardheeryan/ML-CaPsule/issues/1504) 💬 26 | [Niketkumardheeryan/ML-CaPsule](https://github.com/Niketkumardheeryan/ML-CaPsule) | 683 | 🟡 help wanted | 2026-08-19 |  |
+| [[Feature Request]: Integrate Automated Data Validation Pipeline using 'Great Expectations' for Dataset Integri](https://github.com/Niketkumardheeryan/ML-CaPsule/issues/1504) 💬 26 | [Niketkumardheeryan/ML-CaPsule](https://github.com/Niketkumardheeryan/ML-CaPsule) | 684 | 🟡 help wanted | 2026-08-19 |  |
 | [Improve the geosearch](https://github.com/meilisearch/meilisearch/issues/3377) 💬 4 | [meilisearch/meilisearch](https://github.com/meilisearch/meilisearch) | 59.5k | 🟡 help wanted | 2026-08-18 | 🤖 disclose AI use |
 | [[FEA] Allow Hybrid Scan PQ reader to prune row groups with length-absent bloom filters](https://github.com/NVIDIA/cudf/issues/23515) 💬 4 | [NVIDIA/cudf](https://github.com/NVIDIA/cudf) | 9.8k | 🟢 beginner | 2026-08-18 |  |
 | [[FEA] Change cudf::io::detail::make_column() to have a more verbose name.](https://github.com/NVIDIA/cudf/issues/11391) 💬 3 | [NVIDIA/cudf](https://github.com/NVIDIA/cudf) | 9.8k | 🟢 beginner | 2026-08-18 |  |
@@ -186,14 +186,13 @@
 | [Hacktoberfest Umbrella Issue](https://github.com/apache/hamilton/issues/1186) 💬 25 | [apache/hamilton](https://github.com/apache/hamilton) | 2.6k | 🟢 beginner | 2026-08-18 | ✍️ CLA |
 | [taosExplorer 服务web接口一直无返回，导致无法进入](https://github.com/taosdata/TDengine/issues/33620) 💬 8 | [taosdata/TDengine](https://github.com/taosdata/TDengine) | 25.2k | 🟡 help wanted | 2026-08-17 |  |
 | [Mutable segment snapshot assertion fails after crash recovery: ctid_set.len() != expected_ctids](https://github.com/paradedb/paradedb/issues/5937) 💬 6 | [paradedb/paradedb](https://github.com/paradedb/paradedb) | 9.4k | 🟢 beginner | 2026-08-17 | ✍️ CLA |
-| [Build an AI-Based Interview Preparation Website](https://github.com/Niketkumardheeryan/ML-CaPsule/issues/1436) 💬 18 | [Niketkumardheeryan/ML-CaPsule](https://github.com/Niketkumardheeryan/ML-CaPsule) | 683 | 🟡 help wanted | 2026-08-17 |  |
+| [Build an AI-Based Interview Preparation Website](https://github.com/Niketkumardheeryan/ML-CaPsule/issues/1436) 💬 18 | [Niketkumardheeryan/ML-CaPsule](https://github.com/Niketkumardheeryan/ML-CaPsule) | 684 | 🟡 help wanted | 2026-08-17 |  |
 | [Support cast from varchar to day-time interval type](https://github.com/trinodb/trino/issues/4697) 💬 5 | [trinodb/trino](https://github.com/trinodb/trino) | 13.3k | 🟢 beginner | 2026-08-16 | ✍️ CLA |
 | [Elasticsearch connector does not support a path prefix](https://github.com/trinodb/trino/issues/26930) 💬 6 | [trinodb/trino](https://github.com/trinodb/trino) | 13.3k | 🟢 beginner | 2026-08-15 | ✍️ CLA |
 | [Unable to create new table with camel case enum type field using sea-orm-cli migrate](https://github.com/SeaQL/sea-orm/issues/2405) 💬 2 | [SeaQL/sea-orm](https://github.com/SeaQL/sea-orm) | 9.9k | 🟡 help wanted | 2026-08-15 |  |
 | [[BUG] Error when adding Date32 and Int64](https://github.com/apache/datafusion/issues/12342) 💬 14 | [apache/datafusion](https://github.com/apache/datafusion) | 9.4k | 🟢 beginner | 2026-08-15 | ✍️ CLA |
 | [Implement cache tagging (RemoveByTagAsync + tagged writes)](https://github.com/FoundatioFx/Foundatio/issues/8) 💬 6 | [FoundatioFx/Foundatio](https://github.com/FoundatioFx/Foundatio) | 2.1k | 🟡 help wanted | 2026-08-13 |  |
 | [Better "No product" experience](https://github.com/openfoodfacts/openfoodfacts-server/issues/1505) | [openfoodfacts/openfoodfacts-server](https://github.com/openfoodfacts/openfoodfacts-server) | 1.2k | 🟡 help wanted | 2026-08-11 | 🤖 disclose AI use |
-| [Bundle TypeScript type definitions with the package](https://github.com/WiseLibs/better-sqlite3/issues/423) 💬 11 | [WiseLibs/better-sqlite3](https://github.com/WiseLibs/better-sqlite3) | 7.5k | 🟡 help wanted | 2026-08-10 |  |
 | [Notebooks using 'query_params' do not update on browser navigation changes](https://github.com/marimo-team/marimo/issues/4153) 💬 5 | [marimo-team/marimo](https://github.com/marimo-team/marimo) | 23.1k | 🟡 help wanted | 2026-08-09 | 🤖 disclose AI use · ✍️ CLA |
 | [seaorm-cli codegen maps col(big_unsigned(..)) to i64](https://github.com/SeaQL/sea-orm/issues/2494) 💬 3 | [SeaQL/sea-orm](https://github.com/SeaQL/sea-orm) | 9.9k | 🟡 help wanted | 2026-08-09 |  |
 | [Should we use the new 'expectedVisitedNodes' estimator to speed up filtered vector search?](https://github.com/apache/lucene/issues/14845) 💬 8 | [apache/lucene](https://github.com/apache/lucene) | 3.6k | 🟢 beginner | 2026-08-09 | 🤖 disclose AI use · ✍️ CLA |
@@ -204,11 +203,12 @@
 | [REST test against clusters with dedicated master nodes](https://github.com/elastic/elasticsearch/issues/34563) 💬 15 | [elastic/elasticsearch](https://github.com/elastic/elasticsearch) | 78.2k | 🟡 help wanted | 2026-08-05 | ✍️ CLA |
 | [在Dbeaver中，不能下载、使用最新驱动](https://github.com/taosdata/TDengine/issues/35396) 💬 2 | [taosdata/TDengine](https://github.com/taosdata/TDengine) | 25.2k | 🟡 help wanted | 2026-08-04 |  |
 | [MessagePack codec (or VRL functions)](https://github.com/vectordotdev/vector/issues/8675) 💬 4 | [vectordotdev/vector](https://github.com/vectordotdev/vector) | 22.7k | 🟢 beginner | 2026-08-03 | 📄 AI policy · ✍️ CLA |
-| [Multi-label updates](https://github.com/FalkorDB/FalkorDB/issues/284) 💬 8 | [FalkorDB/FalkorDB](https://github.com/FalkorDB/FalkorDB) | 8.5k | 🟡 help wanted | 2026-08-03 |  |
-| [Consider RDF/SPARQL support](https://github.com/FalkorDB/FalkorDB/issues/173) 💬 2 | [FalkorDB/FalkorDB](https://github.com/FalkorDB/FalkorDB) | 8.5k | 🟡 help wanted | 2026-08-03 |  |
-| ["WHERE NOT (node)-[]-&gt;()" much slower than "OUTDEGREE(node)=0"](https://github.com/FalkorDB/FalkorDB/issues/146) 💬 1 | [FalkorDB/FalkorDB](https://github.com/FalkorDB/FalkorDB) | 8.5k | 🟡 help wanted | 2026-08-03 |  |
-| [Can I write nodes or relationships to the graph in parallel](https://github.com/FalkorDB/FalkorDB/issues/130) 💬 3 | [FalkorDB/FalkorDB](https://github.com/FalkorDB/FalkorDB) | 8.5k | 🟡 help wanted | 2026-08-03 |  |
-| [Document execution plan operations](https://github.com/FalkorDB/FalkorDB/issues/82) 💬 1 | [FalkorDB/FalkorDB](https://github.com/FalkorDB/FalkorDB) | 8.5k | 🟡 help wanted | 2026-08-03 |  |
-| [Redis Graph doesn't allow single quote to be escaped when creating a vertex/edge](https://github.com/FalkorDB/FalkorDB/issues/71) 💬 2 | [FalkorDB/FalkorDB](https://github.com/FalkorDB/FalkorDB) | 8.5k | 🟡 help wanted | 2026-08-03 |  |
+| [Multi-label updates](https://github.com/FalkorDB/FalkorDB/issues/284) 💬 8 | [FalkorDB/FalkorDB](https://github.com/FalkorDB/FalkorDB) | 8.6k | 🟡 help wanted | 2026-08-03 |  |
+| [Consider RDF/SPARQL support](https://github.com/FalkorDB/FalkorDB/issues/173) 💬 2 | [FalkorDB/FalkorDB](https://github.com/FalkorDB/FalkorDB) | 8.6k | 🟡 help wanted | 2026-08-03 |  |
+| ["WHERE NOT (node)-[]-&gt;()" much slower than "OUTDEGREE(node)=0"](https://github.com/FalkorDB/FalkorDB/issues/146) 💬 1 | [FalkorDB/FalkorDB](https://github.com/FalkorDB/FalkorDB) | 8.6k | 🟡 help wanted | 2026-08-03 |  |
+| [Can I write nodes or relationships to the graph in parallel](https://github.com/FalkorDB/FalkorDB/issues/130) 💬 3 | [FalkorDB/FalkorDB](https://github.com/FalkorDB/FalkorDB) | 8.6k | 🟡 help wanted | 2026-08-03 |  |
+| [Document execution plan operations](https://github.com/FalkorDB/FalkorDB/issues/82) 💬 1 | [FalkorDB/FalkorDB](https://github.com/FalkorDB/FalkorDB) | 8.6k | 🟡 help wanted | 2026-08-03 |  |
+| [Redis Graph doesn't allow single quote to be escaped when creating a vertex/edge](https://github.com/FalkorDB/FalkorDB/issues/71) 💬 2 | [FalkorDB/FalkorDB](https://github.com/FalkorDB/FalkorDB) | 8.6k | 🟡 help wanted | 2026-08-03 |  |
+| [add support for signed data types for TTL](https://github.com/ydb-platform/ydb/issues/12751) | [ydb-platform/ydb](https://github.com/ydb-platform/ydb) | 4.8k | 🟢 beginner | 2026-08-03 |  |
 
-Showing the 200 most recently updated. See all 310 on the website.
+Showing the 200 most recently updated. See all 305 on the website.

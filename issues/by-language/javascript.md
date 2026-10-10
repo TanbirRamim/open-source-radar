@@ -1,10 +1,10 @@
 # JavaScript issues
 
-**142** open issues (65 labeled for beginners) across **59** active JavaScript projects.
+**139** open issues (64 labeled for beginners) across **58** active JavaScript projects.
 
 [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/javascript.xml)
 
-> Updated automatically on **2026-10-09 22:36 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-10-10 12:13 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -12,9 +12,9 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [Typescript regression in handling functions with generic types and method chaingin in 3.2.0 compared to 3.1.0](https://github.com/prettier/prettier/issues/16080) 💬 6 | [prettier/prettier](https://github.com/prettier/prettier) | 52.4k | 🟡 help wanted | 2026-10-10 | 📄 AI policy |
 | [Audit proposal: Detect if React is development mode](https://github.com/GoogleChrome/lighthouse/issues/9511) 💬 8 | [GoogleChrome/lighthouse](https://github.com/GoogleChrome/lighthouse) | 30.9k | 🟢 beginner | 2026-10-09 | ✍️ CLA |
 | [[riddle_quiz_maker] Update app metadata: description, logo and MCP URL](https://github.com/PipedreamHQ/pipedream/issues/21717) | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-10-09 |  |
-| [Async callbacks in Meteor.setTimeout/setInterval/defer crash the server when they throw](https://github.com/meteor/meteor/issues/14793) | [meteor/meteor](https://github.com/meteor/meteor) | 44.8k | 🟢 beginner | 2026-10-08 | ✍️ CLA |
 | [handling impact of isInputPending on long tasks metrics?](https://github.com/GoogleChrome/lighthouse/issues/11747) 💬 5 | [GoogleChrome/lighthouse](https://github.com/GoogleChrome/lighthouse) | 30.9k | 🟢 beginner | 2026-10-08 | ✍️ CLA |
 | [[Help] 换域名了，原域名没了，改绑新域名，怎么重新初始化？ 或怎么改？](https://github.com/maillab/cloud-mail/issues/593) | [maillab/cloud-mail](https://github.com/maillab/cloud-mail) | 14.6k | 🟡 help wanted | 2026-10-08 |  |
 | [Parse error for quoted export/import names](https://github.com/google/closure-compiler/issues/3961) 💬 3 | [google/closure-compiler](https://github.com/google/closure-compiler) | 7.7k | 🟡 help wanted | 2026-10-06 |  |
@@ -86,12 +86,10 @@
 | [Websocket connection error](https://github.com/plankanban/planka/issues/754) 💬 16 | [plankanban/planka](https://github.com/plankanban/planka) | 12.6k | 🟡 help wanted | 2026-08-18 |  |
 | [[Help] 关于翻译，有一些不太懂的](https://github.com/maillab/cloud-mail/issues/471) 💬 1 | [maillab/cloud-mail](https://github.com/maillab/cloud-mail) | 14.6k | 🟡 help wanted | 2026-08-17 |  |
 | [Can't load svg with base64 image inside](https://github.com/Automattic/node-canvas/issues/1607) 💬 8 | [Automattic/node-canvas](https://github.com/Automattic/node-canvas) | 10.7k | 🟢 beginner | 2026-08-17 |  |
-| [[Help] Your account is blocked from using Workers Builds.](https://github.com/maillab/cloud-mail/issues/524) 💬 1 | [maillab/cloud-mail](https://github.com/maillab/cloud-mail) | 14.6k | 🟡 help wanted | 2026-08-16 |  |
 | [Filter tls options](https://github.com/nodejs/undici/issues/236) 💬 7 | [nodejs/undici](https://github.com/nodejs/undici) | 7.7k | 🟢 beginner | 2026-08-14 |  |
 | [The Future of TWP on Chrome and Edge](https://github.com/FilipePS/Traduzir-paginas-web/issues/904) 💬 33 | [FilipePS/Traduzir-paginas-web](https://github.com/FilipePS/Traduzir-paginas-web) | 6k | 🟡 help wanted | 2026-08-13 |  |
 | [Add tools for Yahoo Fantasy Football connector](https://github.com/PipedreamHQ/pipedream/issues/21593) 💬 2 | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-08-12 |  |
 | [Notifications : No notifications when Actions are added or done in a card](https://github.com/plankanban/planka/issues/625) 💬 6 | [plankanban/planka](https://github.com/plankanban/planka) | 12.6k | 🟢 beginner | 2026-08-11 |  |
-| [Bundle TypeScript type definitions with the package](https://github.com/WiseLibs/better-sqlite3/issues/423) 💬 11 | [WiseLibs/better-sqlite3](https://github.com/WiseLibs/better-sqlite3) | 7.5k | 🟡 help wanted | 2026-08-10 |  |
 | [[Help] 希望工具添加MCP的支持](https://github.com/viarotel-org/escrcpy/issues/614) 💬 1 | [viarotel-org/escrcpy](https://github.com/viarotel-org/escrcpy) | 12k | 🟡 help wanted | 2026-08-03 |  |
 | [[ACTION] Simplify Notion upload image affordance](https://github.com/PipedreamHQ/pipedream/issues/20537) 💬 2 | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-08-03 |  |
 | [[ACTION] DPD Shipping - Get Tracking Data with Weight (detail=3)](https://github.com/PipedreamHQ/pipedream/issues/21321) 💬 5 | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) | 11.7k | 🟢 beginner | 2026-08-03 |  |
@@ -102,7 +100,6 @@
 | [HDR support](https://github.com/xanderfrangos/twinkle-tray/issues/97) 💬 90 | [xanderfrangos/twinkle-tray](https://github.com/xanderfrangos/twinkle-tray) | 9.2k | 🟡 help wanted | 2026-07-23 |  |
 | [Feature request: Automatically scroll down for highlighted matches on large output data](https://github.com/gchq/CyberChef/issues/1386) 💬 2 | [gchq/CyberChef](https://github.com/gchq/CyberChef) | 36.1k | 🟡 help wanted | 2026-07-21 | 🤖 disclose AI use · ✍️ CLA |
 | [[Help] 希望支持检测设备的性能](https://github.com/viarotel-org/escrcpy/issues/619) | [viarotel-org/escrcpy](https://github.com/viarotel-org/escrcpy) | 12k | 🟡 help wanted | 2026-07-21 |  |
-| [Getting an Electron crash, not sure how to further debug - help needed!](https://github.com/WiseLibs/better-sqlite3/issues/988) 💬 8 | [WiseLibs/better-sqlite3](https://github.com/WiseLibs/better-sqlite3) | 7.5k | 🟡 help wanted | 2026-07-21 |  |
 | [textAscent() and textDescent() broken if textSize &gt; 200](https://github.com/processing/p5.js/issues/8771) 💬 15 | [processing/p5.js](https://github.com/processing/p5.js) | 24.1k | 🟡 help wanted | 2026-07-18 | ⚠️ AI restricted |
 | ['maxConns' option is ignored for incoming connections](https://github.com/webtorrent/webtorrent/issues/703) 💬 3 | [webtorrent/webtorrent](https://github.com/webtorrent/webtorrent) | 31.4k | 🟡 help wanted | 2026-07-17 |  |
 | [Mixed 'type' imports does not trigger 'import/no-duplicates'](https://github.com/import-js/eslint-plugin-import/issues/3035) 💬 2 | [import-js/eslint-plugin-import](https://github.com/import-js/eslint-plugin-import) | 5.9k | 🟡 help wanted | 2026-07-17 |  |

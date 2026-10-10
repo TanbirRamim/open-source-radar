@@ -1,10 +1,10 @@
 # PHP issues
 
-**157** open issues (79 labeled for beginners) across **51** active PHP projects.
+**156** open issues (79 labeled for beginners) across **51** active PHP projects.
 
 [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/php.xml)
 
-> Updated automatically on **2026-10-09 22:36 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-10-10 12:13 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -168,4 +168,3 @@
 | [[FR] Auto-subscribe to folders](https://github.com/cypht-org/cypht/issues/460) 💬 1 | [cypht-org/cypht](https://github.com/cypht-org/cypht) | 1.8k | 🟡 help wanted | 2026-04-16 |  |
 | [3.0.0-RC: @package partially not inherited for "classless functions/constants"](https://github.com/phpDocumentor/phpDocumentor/issues/2318) 💬 4 | [phpDocumentor/phpDocumentor](https://github.com/phpDocumentor/phpDocumentor) | 4.3k | 🟡 help wanted | 2026-04-15 |  |
 | [Page Overlay specific date ranges](https://github.com/matomo-org/matomo/issues/20230) 💬 4 | [matomo-org/matomo](https://github.com/matomo-org/matomo) | 21.9k | 🟡 help wanted | 2026-04-14 |  |
-| [Increase icons set](https://github.com/chamilo/chamilo-lms/issues/5776) | [chamilo/chamilo-lms](https://github.com/chamilo/chamilo-lms) | 1k | 🟡 help wanted | 2026-04-13 |  |

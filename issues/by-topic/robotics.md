@@ -1,8 +1,8 @@
 # Robotics issues
 
-**7** open issues (2 labeled for beginners) across **4** projects tagged with topics like `robotics`, `ros`, `ros2`, `drones`, `autonomous-vehicles`, `slam`.
+**6** open issues (2 labeled for beginners) across **4** projects tagged with topics like `robotics`, `ros`, `ros2`, `drones`, `autonomous-vehicles`, `slam`.
 
-> Updated automatically on **2026-10-09 22:36 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-10-10 12:13 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -16,4 +16,3 @@
 | [Sub: Vaccuum testing mode with RGB feedback](https://github.com/ArduPilot/ardupilot/issues/9828) 💬 5 | [ArduPilot/ardupilot](https://github.com/ArduPilot/ardupilot) | 16k | 🟢 beginner | 2026-06-05 | 🤖 disclose AI use |
 | [Copter: easier test of benchtest the parachute](https://github.com/ArduPilot/ardupilot/issues/2339) 💬 6 | [ArduPilot/ardupilot](https://github.com/ArduPilot/ardupilot) | 16k | 🟢 beginner | 2026-05-15 | 🤖 disclose AI use |
 | [cant connect robot app to python controller](https://github.com/ob-f/OpenBot/issues/486) 💬 2 | [ob-f/OpenBot](https://github.com/ob-f/OpenBot) | 3.5k | 🟡 help wanted | 2026-05-09 |  |
-| [Selecting AI TYPE for instance Point Goal using remote (PC/desktop) controller aka PYTHON/NPM PACKAGES....](https://github.com/ob-f/OpenBot/issues/489) 💬 2 | [ob-f/OpenBot](https://github.com/ob-f/OpenBot) | 3.5k | 🟡 help wanted | 2026-05-09 |  |
