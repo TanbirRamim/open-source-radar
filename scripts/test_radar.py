@@ -66,6 +66,13 @@ class LinkedPRStatesTests(unittest.TestCase):
         }
         self.assertEqual(radar.linked_pr_states(issue(timelineItems=timeline)), ["OPEN", "MERGED"])
 
+    def test_mention_from_another_issue_keeps_issue_available(self):
+        # The query only selects PullRequest fields, so an issue that merely
+        # mentions this one comes back as an empty source and must not hide it.
+        timeline = {"nodes": [{"source": {}}, {"subject": {}}]}
+        self.assertEqual(radar.linked_pr_states(issue(timelineItems=timeline)), [])
+        self.assertTrue(radar.issue_is_available(issue(timelineItems=timeline), SINCE))
+
 
 class AvailabilityTests(unittest.TestCase):
     def test_open_unassigned_recent_issue_is_available(self):
