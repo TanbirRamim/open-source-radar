@@ -138,6 +138,7 @@ Thank you to everyone who has made the radar better:
 - [@VatsalRaina01](https://github.com/VatsalRaina01): the Hindi translation of chapter 7 ([#86](https://github.com/TanbirRamim/open-source-radar/pull/86))
 - [@avent18](https://github.com/avent18): the last activity filter on the website ([#88](https://github.com/TanbirRamim/open-source-radar/pull/88))
 - [@Adarsh2345](https://github.com/Adarsh2345): RSS feed docs and a Python example for the data ([#90](https://github.com/TanbirRamim/open-source-radar/pull/90))
+- [@yunaremaia](https://github.com/yunaremaia): tests for the discovery queries and chunking ([#92](https://github.com/TanbirRamim/open-source-radar/pull/92))
 
 Your name goes here with your first merged pull request. And if the radar helped you, please give it a star: it's the simplest way to help other newcomers find it.
 
