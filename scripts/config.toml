@@ -128,3 +128,7 @@ keywords = ["robotics", "ros", "ros2", "drones", "autonomous-vehicles", "slam", 
 [topics.finance-web3]
 title = "Finance and Web3"
 keywords = ["finance", "fintech", "blockchain", "ethereum", "crypto*", "trading", "bitcoin", "defi", "web3", "payments"]
+
+[topics.accessibility]
+title = "Accessibility"
+keywords = ["accessibility", "a11y", "wcag", "aria", "screen-reader*", "screenreader*", "assistive-technology"]
