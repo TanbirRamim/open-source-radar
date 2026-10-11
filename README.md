@@ -143,6 +143,7 @@ Thank you to everyone who has made the radar better:
 - [@anmol-96](https://github.com/anmol-96): tests for notes_for and issue_table, which found a link-breaking truncation bug ([#96](https://github.com/TanbirRamim/open-source-radar/pull/96))
 - [@sh-i-z](https://github.com/sh-i-z): the accessibility topic ([#99](https://github.com/TanbirRamim/open-source-radar/pull/99)) and tests for the README stats block ([#102](https://github.com/TanbirRamim/open-source-radar/pull/102))
 - [@PUSHPAK-JAISWAL](https://github.com/PUSHPAK-JAISWAL): tests for the JSON helpers ([#106](https://github.com/TanbirRamim/open-source-radar/pull/106))
+- [@contputer0x0](https://github.com/contputer0x0): contributing guide links and filter on the website ([#109](https://github.com/TanbirRamim/open-source-radar/pull/109))
 
 Your name goes here with your first merged pull request. And if the radar helped you, please give it a star: it's the simplest way to help other newcomers find it.
 
