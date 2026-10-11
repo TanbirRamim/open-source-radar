@@ -131,4 +131,4 @@ keywords = ["finance", "fintech", "blockchain", "ethereum", "crypto*", "trading"
 
 [topics.accessibility]
 title = "Accessibility"
-keywords = ["accessibility", "a11y", "wcag", "aria", "screen-reader"]
+keywords = ["accessibility", "a11y", "wcag", "aria", "screen-reader*", "screenreader*", "assistive-technology"]

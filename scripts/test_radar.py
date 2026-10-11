@@ -187,6 +187,12 @@ class TopicAndLabelTests(unittest.TestCase):
         self.assertEqual(radar.topic_buckets(["ui-components"], self.config), ["web"])
         self.assertEqual(radar.topic_buckets(["reactive"], self.config), [])
 
+    def test_accessibility_topic_in_real_config(self):
+        config = radar.load_config()
+        for topics in (["a11y"], ["screen-readers"], ["screenreader"], ["WCAG"]):
+            self.assertIn("accessibility", radar.topic_buckets(topics, config), topics)
+        self.assertNotIn("accessibility", radar.topic_buckets(["aria2"], config))
+
     def test_difficulty(self):
         self.assertEqual(radar.difficulty(["good first issue"]), "beginner")
         self.assertEqual(radar.difficulty(["E-easy", "A-parser"]), "beginner")
