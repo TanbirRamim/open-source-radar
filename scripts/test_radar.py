@@ -7,6 +7,7 @@ import unittest
 import xml.etree.ElementTree as ET
 from pathlib import Path
 from typing import ClassVar
+from unittest.mock import patch
 
 import radar
 
@@ -727,6 +728,94 @@ class LanguageFeedTests(unittest.TestCase):
                 self.assertEqual(channel.findtext("item/description"), "owner/repo · 100 stars")
             finally:
                 radar.ROOT = original_root
+
+
+class UpdateReadmeStatsTests(unittest.TestCase):
+    def _run(
+        self,
+        readme_text=None,
+        language_rows=(),
+        topic_rows=(),
+        issue_count=100,
+        repo_count=10,
+        beginner_count=5,
+        generated_at="2026-10-11T12:00:00+00:00",
+    ):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            readme = root / "README.md"
+            if readme_text is not None:
+                readme.write_text(readme_text, encoding="utf-8")
+            with patch.object(radar, "ROOT", root):
+                radar.update_readme_stats(
+                    issue_count, repo_count, beginner_count, language_rows, topic_rows, generated_at
+                )
+            self.last_readme_exists = readme.exists()
+            self.last_dir_contents = list(root.iterdir())
+            return readme.read_text(encoding="utf-8") if readme.exists() else None
+
+    def test_update_readme_stats_replaces_only_marked_block_and_formats_counts(self):
+        header = "# Open Source Radar\n\nIntroductory overview.\n\n"
+        footer = "\n\n## Next Steps\nAdditional guidelines.\n"
+        old_block = "<!-- RADAR:STATS:START -->\nold stats that should be replaced\n<!-- RADAR:STATS:END -->"
+        updated = self._run(
+            f"{header}{old_block}{footer}",
+            language_rows=[("Python", "python", 150, 0, 0)],
+            topic_rows=[("Command Line", "cli", 80, 0, 0)],
+            issue_count=3321,
+            repo_count=42,
+            beginner_count=500,
+        )
+        self.assertEqual(updated.count("<!-- RADAR:STATS:START -->"), 1)
+        self.assertEqual(updated.count("<!-- RADAR:STATS:END -->"), 1)
+        self.assertTrue(updated.startswith(header))
+        self.assertTrue(updated.endswith(footer))
+        expected_block = (
+            "<!-- RADAR:STATS:START -->\n"
+            "**3,321** open issues · **500** labeled for beginners · "
+            "**42** active projects · updated 2026-10-11 12:00 UTC\n\n"
+            "**Languages:** [Python](issues/by-language/python.md) (150) · "
+            "[all languages](issues/README.md#by-language)\n\n"
+            "**Topics:** [Command Line](issues/by-topic/cli.md) (80)\n"
+            "<!-- RADAR:STATS:END -->"
+        )
+        self.assertEqual(updated, f"{header}{expected_block}{footer}")
+
+    def test_language_list_capped_at_twelve(self):
+        rows = [(f"Lang-{i:02d}", f"lang-{i:02d}", 100 - i, 0, 0) for i in range(15)]
+        updated = self._run(
+            "<!-- RADAR:STATS:START -->\n<!-- RADAR:STATS:END -->",
+            language_rows=rows,
+            topic_rows=[("Topic-One", "topic-one", 10, 0, 0)],
+        )
+        for i in range(12):
+            self.assertIn(f"[Lang-{i:02d}](", updated)
+        for i in range(12, 15):
+            self.assertNotIn(f"[Lang-{i:02d}](", updated)
+        self.assertIn("[all languages](issues/README.md#by-language)", updated)
+
+    def test_topics_list_includes_all_entries(self):
+        rows = [(f"Topic-{i:02d}", f"topic-{i:02d}", 50 - i, 0, 0) for i in range(15)]
+        updated = self._run(
+            "<!-- RADAR:STATS:START -->\n<!-- RADAR:STATS:END -->",
+            topic_rows=rows,
+        )
+        for i in range(15):
+            self.assertIn(f"[Topic-{i:02d}](", updated)
+
+    def test_missing_readme_is_no_op(self):
+        self.assertIsNone(self._run(readme_text=None))
+        self.assertFalse(self.last_readme_exists)
+        self.assertEqual(self.last_dir_contents, [])
+
+    def test_names_with_backslash_do_not_fail_regex_replacement(self):
+        updated = self._run(
+            "<!-- RADAR:STATS:START -->\n<!-- RADAR:STATS:END -->",
+            language_rows=[(r"C\Sharp", "csharp", 10, 0, 0)],
+            topic_rows=[(r"Back\slash", "backslash", 5, 0, 0)],
+        )
+        self.assertIn(r"[C\Sharp](issues/by-language/csharp.md) (10)", updated)
+        self.assertIn(r"[Back\slash](issues/by-topic/backslash.md) (5)", updated)
 
 
 if __name__ == "__main__":

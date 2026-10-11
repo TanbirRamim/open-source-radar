@@ -960,7 +960,7 @@ def update_readme_stats(
         "<!-- RADAR:STATS:END -->"
     )
     text = readme.read_text(encoding="utf-8")
-    updated = re.sub(r"<!-- RADAR:STATS:START -->.*?<!-- RADAR:STATS:END -->", block, text, flags=re.DOTALL)
+    updated = re.sub(r"<!-- RADAR:STATS:START -->.*?<!-- RADAR:STATS:END -->", lambda _: block, text, flags=re.DOTALL)
     readme.write_text(updated, encoding="utf-8")
 
 
