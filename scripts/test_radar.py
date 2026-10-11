@@ -808,6 +808,10 @@ class UpdateReadmeStatsTests(unittest.TestCase):
         self.assertFalse(self.last_readme_exists)
         self.assertEqual(self.last_dir_contents, [])
 
+    def test_readme_without_markers_is_left_unchanged(self):
+        text = "# Open Source Radar\n\nNo stats block here.\n"
+        self.assertEqual(self._run(text, language_rows=[("Python", "python", 1, 0, 0)]), text)
+
     def test_names_with_backslash_do_not_fail_regex_replacement(self):
         updated = self._run(
             "<!-- RADAR:STATS:START -->\n<!-- RADAR:STATS:END -->",
