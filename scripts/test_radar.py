@@ -275,6 +275,21 @@ class TopicAndLabelTests(unittest.TestCase):
             self.assertIn("accessibility", radar.topic_buckets(topics, config), topics)
         self.assertNotIn("accessibility", radar.topic_buckets(["aria2"], config))
 
+    def test_topics_in_real_config_are_valid(self):
+        config = radar.load_config()
+        seen_keywords = {}
+        for slug, topic in config["topics"].items():
+            with self.subTest(topic=slug):
+                self.assertTrue(topic["title"].strip())
+                self.assertTrue(topic["keywords"])
+            for keyword in topic["keywords"]:
+                with self.subTest(topic=slug, keyword=keyword):
+                    self.assertRegex(keyword, r"^[a-z0-9-]+\*?\Z")
+                    self.assertNotIn(
+                        keyword, seen_keywords, f"Keyword already appears in topic {seen_keywords.get(keyword)!r}"
+                    )
+                seen_keywords[keyword] = slug
+
     def test_difficulty(self):
         self.assertEqual(radar.difficulty(["good first issue"]), "beginner")
         self.assertEqual(radar.difficulty(["E-easy", "A-parser"]), "beginner")
