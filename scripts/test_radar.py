@@ -2,6 +2,7 @@
 
 import datetime as dt
 import json
+import re
 import tempfile
 import unittest
 import xml.etree.ElementTree as ET
@@ -1004,6 +1005,14 @@ class UpdateReadmeStatsTests(unittest.TestCase):
         )
         self.assertIn(r"[C\Sharp](issues/by-language/csharp.md) (10)", updated)
         self.assertIn(r"[Back\slash](issues/by-topic/backslash.md) (5)", updated)
+
+
+class ContributingPathsInSyncTests(unittest.TestCase):
+    def test_site_allowlist_matches_pipeline(self):
+        app = (Path(__file__).resolve().parent.parent / "site" / "assets" / "app.js").read_text(encoding="utf-8")
+        block = re.search(r"CONTRIBUTING_PATHS = new Set\(\[(.*?)\]\)", app, re.DOTALL)
+        self.assertIsNotNone(block)
+        self.assertEqual(re.findall(r'"([^"]+)"', block.group(1)), radar.CONTRIBUTING_FILES)
 
 
 if __name__ == "__main__":

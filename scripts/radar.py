@@ -46,11 +46,10 @@ ATOM_NAMESPACE = "http://www.w3.org/2005/Atom"
 USER_AGENT = "open-source-radar (+https://github.com/TanbirRamim/open-source-radar)"
 
 # Files that describe how a project accepts contributions, in lookup order.
+# Lookup order for the contributing guide. site/assets/app.js keeps the same list (tested).
+CONTRIBUTING_FILES = ["CONTRIBUTING.md", ".github/CONTRIBUTING.md", "docs/CONTRIBUTING.md", "CONTRIBUTING.rst"]
 POLICY_FILES = [
-    "CONTRIBUTING.md",
-    ".github/CONTRIBUTING.md",
-    "docs/CONTRIBUTING.md",
-    "CONTRIBUTING.rst",
+    *CONTRIBUTING_FILES,
     "AI_POLICY.md",
     ".github/AI_POLICY.md",
     "AGENTS.md",
@@ -401,14 +400,7 @@ def detect_policy(files: dict[str, str]) -> dict[str, Any]:
 def contributing_guide(files: list[str] | None) -> str | None:
     """Choose a detected contributing guide in configured lookup order."""
     found = set(files or [])
-    return next(
-        (
-            path
-            for path in POLICY_FILES
-            if path.rsplit("/", 1)[-1] in {"CONTRIBUTING.md", "CONTRIBUTING.rst"} and path in found
-        ),
-        None,
-    )
+    return next((path for path in CONTRIBUTING_FILES if path in found), None)
 
 
 def topic_buckets(topics: list[str], config: dict[str, Any]) -> list[str]:
