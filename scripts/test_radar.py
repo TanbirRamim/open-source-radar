@@ -36,7 +36,8 @@ class JsonHelpersTests(unittest.TestCase):
 
             radar.write_json(path, {"z": 2, "a": 1})
 
-            self.assertEqual(path.read_text(encoding="utf-8"), '{\n  "a": 1,\n  "z": 2\n}\n')
+            self.assertEqual(path.read_text(encoding="utf-8"),
+                             '{\n  "a": 1,\n  "z": 2\n}\n')
 
     def test_write_json_compact_omits_separator_spaces(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -44,7 +45,8 @@ class JsonHelpersTests(unittest.TestCase):
 
             radar.write_json(path, {"z": [1, 2], "a": 3}, compact=True)
 
-            self.assertEqual(path.read_text(encoding="utf-8"), '{"a":3,"z":[1,2]}\n')
+            self.assertEqual(path.read_text(encoding="utf-8"),
+                             '{"a":3,"z":[1,2]}\n')
 
     def test_write_json_preserves_non_ascii_text(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -104,11 +106,14 @@ class LinkedPRStatesTests(unittest.TestCase):
                 None,
             ]
         }
-        self.assertEqual(radar.linked_pr_states(issue(timelineItems=timeline)), ["CLOSED", "OPEN"])
+        self.assertEqual(radar.linked_pr_states(
+            issue(timelineItems=timeline)), ["CLOSED", "OPEN"])
 
     def test_subject_and_source_prs_return_states_in_order(self):
-        timeline = {"nodes": [{"subject": {"state": "OPEN"}}, {"source": {"state": "MERGED"}}]}
-        self.assertEqual(radar.linked_pr_states(issue(timelineItems=timeline)), ["OPEN", "MERGED"])
+        timeline = {"nodes": [{"subject": {"state": "OPEN"}}, {
+            "source": {"state": "MERGED"}}]}
+        self.assertEqual(radar.linked_pr_states(
+            issue(timelineItems=timeline)), ["OPEN", "MERGED"])
 
     def test_nodes_without_state_are_skipped(self):
         timeline = {
@@ -120,14 +125,17 @@ class LinkedPRStatesTests(unittest.TestCase):
                 {"source": {"state": "MERGED"}},
             ]
         }
-        self.assertEqual(radar.linked_pr_states(issue(timelineItems=timeline)), ["OPEN", "MERGED"])
+        self.assertEqual(radar.linked_pr_states(
+            issue(timelineItems=timeline)), ["OPEN", "MERGED"])
 
     def test_mention_from_another_issue_keeps_issue_available(self):
         # The query only selects PullRequest fields, so an issue that merely
         # mentions this one comes back as an empty source and must not hide it.
         timeline = {"nodes": [{"source": {}}, {"subject": {}}]}
-        self.assertEqual(radar.linked_pr_states(issue(timelineItems=timeline)), [])
-        self.assertTrue(radar.issue_is_available(issue(timelineItems=timeline), SINCE))
+        self.assertEqual(radar.linked_pr_states(
+            issue(timelineItems=timeline)), [])
+        self.assertTrue(radar.issue_is_available(
+            issue(timelineItems=timeline), SINCE))
 
 
 class AvailabilityTests(unittest.TestCase):
@@ -135,16 +143,19 @@ class AvailabilityTests(unittest.TestCase):
         self.assertTrue(radar.issue_is_available(issue(), SINCE))
 
     def test_assigned_issue_is_not_available(self):
-        self.assertFalse(radar.issue_is_available(issue(assignees={"totalCount": 1}), SINCE))
+        self.assertFalse(radar.issue_is_available(
+            issue(assignees={"totalCount": 1}), SINCE))
 
     def test_open_or_merged_linked_pr_hides_issue(self):
         for state in ("OPEN", "MERGED"):
             timeline = {"nodes": [{"source": {"state": state}}]}
-            self.assertFalse(radar.issue_is_available(issue(timelineItems=timeline), SINCE), state)
+            self.assertFalse(radar.issue_is_available(
+                issue(timelineItems=timeline), SINCE), state)
 
     def test_closed_unmerged_pr_does_not_hide_issue(self):
         timeline = {"nodes": [{"subject": {"state": "CLOSED"}}, {}, None]}
-        self.assertTrue(radar.issue_is_available(issue(timelineItems=timeline), SINCE))
+        self.assertTrue(radar.issue_is_available(
+            issue(timelineItems=timeline), SINCE))
 
     def test_recent_claim_comment_hides_issue(self):
         for body in [
@@ -155,51 +166,60 @@ class AvailabilityTests(unittest.TestCase):
             "I will take this one",
         ]:
             claimed = issue(comments={"nodes": [comment(body)]})
-            self.assertFalse(radar.issue_is_available(claimed, SINCE, CLAIM_SINCE), body)
+            self.assertFalse(radar.issue_is_available(
+                claimed, SINCE, CLAIM_SINCE), body)
 
     def test_old_quoted_or_unrelated_comments_do_not_hide_issue(self):
         cases = [
             comment("Can I work on this?", createdAt="2026-08-01T00:00:00Z"),
-            comment("Noted, thanks.\n\nOn Sun, Sep 20, 2026 someone wrote:\n> Can I work on this?"),
+            comment(
+                "Noted, thanks.\n\nOn Sun, Sep 20, 2026 someone wrote:\n> Can I work on this?"),
             comment("I can reproduce this on 3.2 as well."),
             comment("Is anyone working on this?"),
         ]
         for case in cases:
-            self.assertTrue(radar.issue_is_available(issue(comments={"nodes": [case]}), SINCE, CLAIM_SINCE), case)
+            self.assertTrue(radar.issue_is_available(
+                issue(comments={"nodes": [case]}), SINCE, CLAIM_SINCE), case)
 
     def test_any_reply_after_claim_keeps_issue_listed(self):
         nodes = [
             comment("Can I work on this?"),
             comment("We don't assign issues, just open a PR."),
         ]
-        self.assertTrue(radar.issue_is_available(issue(comments={"nodes": nodes}), SINCE, CLAIM_SINCE))
+        self.assertTrue(radar.issue_is_available(
+            issue(comments={"nodes": nodes}), SINCE, CLAIM_SINCE))
         nodes.append(comment("I'd like to work on this issue."))
-        self.assertFalse(radar.issue_is_available(issue(comments={"nodes": nodes}), SINCE, CLAIM_SINCE))
+        self.assertFalse(radar.issue_is_available(
+            issue(comments={"nodes": nodes}), SINCE, CLAIM_SINCE))
 
     def test_claims_are_ignored_without_a_cutoff(self):
         claimed = issue(comments={"nodes": [comment("Can I work on this?")]})
         self.assertTrue(radar.issue_is_available(claimed, SINCE))
 
     def test_stale_or_locked_issue_is_not_available(self):
-        self.assertFalse(radar.issue_is_available(issue(updatedAt="2025-01-01T00:00:00Z"), SINCE))
+        self.assertFalse(radar.issue_is_available(
+            issue(updatedAt="2025-01-01T00:00:00Z"), SINCE))
         self.assertFalse(radar.issue_is_available(issue(locked=True), SINCE))
 
 
 class PolicyTests(unittest.TestCase):
     def test_contributing_guide_prefers_configured_priority_over_sorted_cache(self):
         self.assertEqual(
-            radar.contributing_guide([".github/CONTRIBUTING.md", "docs/CONTRIBUTING.md", "CONTRIBUTING.md"]),
+            radar.contributing_guide(
+                [".github/CONTRIBUTING.md", "docs/CONTRIBUTING.md", "CONTRIBUTING.md"]),
             "CONTRIBUTING.md",
         )
         for expected in (".github/CONTRIBUTING.md", "docs/CONTRIBUTING.md", "CONTRIBUTING.rst"):
             with self.subTest(expected=expected):
-                self.assertEqual(radar.contributing_guide([expected]), expected)
+                self.assertEqual(
+                    radar.contributing_guide([expected]), expected)
 
     def test_contributing_guide_ignores_non_contributing_and_untrusted_paths(self):
         for files in (None, [], ["AGENTS.md", "AI_POLICY.md"], [".github/pull_request_template.md"]):
             with self.subTest(files=files):
                 self.assertIsNone(radar.contributing_guide(files))
-        self.assertIsNone(radar.contributing_guide(["../../private.txt", "CONTRIBUTING.md/../../x"]))
+        self.assertIsNone(radar.contributing_guide(
+            ["../../private.txt", "CONTRIBUTING.md/../../x"]))
         self.assertIsNone(radar.contributing_guide(["CONTRIBUTING.md.bak"]))
 
     def test_contributing_guide_preserves_policy_flags(self):
@@ -209,8 +229,10 @@ class PolicyTests(unittest.TestCase):
                 "AGENTS.md": "AI agents are not allowed to open PRs on this project.",
             }
         )
-        self.assertEqual(radar.contributing_guide(policy["files"]), "CONTRIBUTING.md")
-        self.assertEqual((policy["ai"], policy["cla"], policy["dco"]), ("restricted", True, True))
+        self.assertEqual(radar.contributing_guide(
+            policy["files"]), "CONTRIBUTING.md")
+        self.assertEqual((policy["ai"], policy["cla"],
+                         policy["dco"]), ("restricted", True, True))
 
     def test_no_files_means_no_requirements(self):
         self.assertEqual(
@@ -220,9 +242,11 @@ class PolicyTests(unittest.TestCase):
 
     def test_ai_ban_is_restricted(self):
         text = "We do not accept contributions generated by AI or LLM tools."
-        self.assertEqual(radar.detect_policy({"CONTRIBUTING.md": text})["ai"], "restricted")
+        self.assertEqual(radar.detect_policy(
+            {"CONTRIBUTING.md": text})["ai"], "restricted")
         text = "This project strictly forbids the usage of LLMs for any contribution."
-        self.assertEqual(radar.detect_policy({"CONTRIBUTING.md": text})["ai"], "restricted")
+        self.assertEqual(radar.detect_policy(
+            {"CONTRIBUTING.md": text})["ai"], "restricted")
 
     def test_agent_specific_bans_are_restricted(self):
         for text in (
@@ -230,7 +254,8 @@ class PolicyTests(unittest.TestCase):
             "AI agents are not allowed to open PRs on this project.",
             "Do not vibecode the change!",
         ):
-            self.assertEqual(radar.detect_policy({"AGENTS.md": text})["ai"], "restricted", text)
+            self.assertEqual(radar.detect_policy(
+                {"AGENTS.md": text})["ai"], "restricted", text)
 
     def test_ai_disclosure_is_detected(self):
         text = "If AI assisted in producing your change, disclose it in the PR description."
@@ -247,7 +272,8 @@ class PolicyTests(unittest.TestCase):
 
     def test_word_ai_inside_other_words_is_ignored(self):
         text = "Please email the maintainers and explain the detail of your change."
-        self.assertEqual(radar.detect_policy({"CONTRIBUTING.md": text})["ai"], "none")
+        self.assertEqual(radar.detect_policy(
+            {"CONTRIBUTING.md": text})["ai"], "none")
 
     def test_cla_and_dco(self):
         text = "Sign the Contributor License Agreement. Every commit needs Signed-off-by."
@@ -265,15 +291,19 @@ class TopicAndLabelTests(unittest.TestCase):
     }
 
     def test_exact_and_wildcard_topic_matching(self):
-        self.assertEqual(radar.topic_buckets(["React", "cli"], self.config), ["web", "devtools"])
-        self.assertEqual(radar.topic_buckets(["ui-components"], self.config), ["web"])
+        self.assertEqual(radar.topic_buckets(
+            ["React", "cli"], self.config), ["web", "devtools"])
+        self.assertEqual(radar.topic_buckets(
+            ["ui-components"], self.config), ["web"])
         self.assertEqual(radar.topic_buckets(["reactive"], self.config), [])
 
     def test_accessibility_topic_in_real_config(self):
         config = radar.load_config()
         for topics in (["a11y"], ["screen-readers"], ["screenreader"], ["WCAG"]):
-            self.assertIn("accessibility", radar.topic_buckets(topics, config), topics)
-        self.assertNotIn("accessibility", radar.topic_buckets(["aria2"], config))
+            self.assertIn("accessibility", radar.topic_buckets(
+                topics, config), topics)
+        self.assertNotIn(
+            "accessibility", radar.topic_buckets(["aria2"], config))
 
     def test_difficulty(self):
         self.assertEqual(radar.difficulty(["good first issue"]), "beginner")
@@ -293,10 +323,28 @@ class MarkdownTests(unittest.TestCase):
             radar.md_escape("Crash on ] in path"),
             r"Crash on \] in path",
         )
+
         self.assertEqual(
             radar.md_escape("[broken title"),
             r"\[broken title",
         )
+
+    def test_escape_collapses_whitespace_and_trims(self):
+        self.assertEqual(radar.md_escape(
+            "  hello\n\n  world\t "), "hello world")
+        self.assertEqual(radar.md_escape("\n\t  "), "")
+
+    def test_escape_pipe_and_backslash(self):
+        self.assertEqual(radar.md_escape("a|b"), r"a\|b")
+        self.assertEqual(radar.md_escape(r"a\b"), r"a\\b")
+
+        self.assertEqual(radar.md_escape(r"a\|b"), r"a\\\|b")
+
+    def test_escape_angle_brackets(self):
+        self.assertEqual(radar.md_escape("<b>"), "&lt;b&gt;")
+
+    def test_escape_backticks(self):
+        self.assertEqual(radar.md_escape("`code`"), "'code'")
 
     def test_star_formatting(self):
         self.assertEqual(radar.format_stars(950), "950")
@@ -326,13 +374,16 @@ class NotesForTests(unittest.TestCase):
         )
 
     def test_with_ai_rule(self):
-        expected = {"restricted": "⚠️ AI restricted", "disclose": "🤖 disclose AI use", "policy": "📄 AI policy"}
+        expected = {"restricted": "⚠️ AI restricted",
+                    "disclose": "🤖 disclose AI use", "policy": "📄 AI policy"}
         for rule, note in expected.items():
             with self.subTest(rule=rule):
-                self.assertEqual(radar.notes_for({"policy": {"ai": rule}}), note)
+                self.assertEqual(radar.notes_for(
+                    {"policy": {"ai": rule}}), note)
 
     def test_with_cla_plus_dco(self):
-        self.assertEqual(radar.notes_for({"policy": {"cla": True, "dco": True}}), "✍️ CLA · 🔏 DCO")
+        self.assertEqual(radar.notes_for(
+            {"policy": {"cla": True, "dco": True}}), "✍️ CLA · 🔏 DCO")
 
     def test_without_contributing_field(self):
         self.assertEqual(radar.notes_for({}), "")
@@ -387,7 +438,8 @@ class IssueTableTests(unittest.TestCase):
     def test_long_title_is_cut_before_escaping(self):
         # A pipe right at the cut used to leave a lone backslash that escaped the closing "]".
         self.single_issue[0]["title"] = "a" * 109 + "| tail"
-        row = radar.issue_table(self.single_issue, self.repositories, 5).splitlines()[2]
+        row = radar.issue_table(
+            self.single_issue, self.repositories, 5).splitlines()[2]
         self.assertNotIn("\\](", row)
         self.assertIn("](https://github.com/owner/repo/issues/1)", row)
 
@@ -463,18 +515,22 @@ class ProjectsPageTests(unittest.TestCase):
             original = radar.ROOT
             radar.ROOT = pathlib.Path(tmp)
             try:
-                radar.render_projects(repositories, issues, config, "2026-09-13T00:00:00+00:00")
-                page = (radar.ROOT / "projects" / "README.md").read_text(encoding="utf-8")
+                radar.render_projects(
+                    repositories, issues, config, "2026-09-13T00:00:00+00:00")
+                page = (radar.ROOT / "projects" /
+                        "README.md").read_text(encoding="utf-8")
             finally:
                 radar.ROOT = original
         self.assertIn("## Rust", page)
         self.assertIn("## Go", page)
-        self.assertIn("| [a/one](https://github.com/a/one/issues) | 5k | 3 | 1 | ✍️ CLA | First \\| tool |", page)
+        self.assertIn(
+            "| [a/one](https://github.com/a/one/issues) | 5k | 3 | 1 | ✍️ CLA | First \\| tool |", page)
         self.assertIn("[open issues](../issues/by-language/rust.md)", page)
 
 
 class SafetyTests(unittest.TestCase):
-    config: ClassVar[dict] = {"exclude": {"repositories": ["Some/Repo", "whole-org/*"]}}
+    config: ClassVar[dict] = {"exclude": {
+        "repositories": ["Some/Repo", "whole-org/*"]}}
 
     def test_exclusions_match_repo_and_owner_case_insensitively(self):
         self.assertTrue(radar.is_excluded("some/repo", self.config))
@@ -492,11 +548,13 @@ class SafetyTests(unittest.TestCase):
 
 class QueryTests(unittest.TestCase):
     def test_query_quotes_names_and_labels(self):
-        query = radar.build_repo_query(['own"er/na"me'], ['good "first"'], 5, include_policy=True)
+        query = radar.build_repo_query(
+            ['own"er/na"me'], ['good "first"'], 5, include_policy=True)
         self.assertIn('owner: "own\\"er"', query)
         self.assertIn('"good \\"first\\""', query)
         self.assertIn('expression: "HEAD:AGENTS.md"', query)
-        self.assertNotIn("p0:", radar.build_repo_query(["a/b"], ["x"], 5, include_policy=False))
+        self.assertNotIn("p0:", radar.build_repo_query(
+            ["a/b"], ["x"], 5, include_policy=False))
 
 
 class DiscoveryTests(unittest.TestCase):
@@ -508,31 +566,38 @@ class DiscoveryTests(unittest.TestCase):
     }
 
     def test_discovery_queries_quotes_language(self):
-        queries = radar.discovery_queries("Rust", self.config, dt.date(2026, 10, 1))
+        queries = radar.discovery_queries(
+            "Rust", self.config, dt.date(2026, 10, 1))
         for query in queries:
             self.assertIn('language:"Rust"', query)
 
     def test_discovery_queries_has_min_stars(self):
-        queries = radar.discovery_queries("Rust", self.config, dt.date(2026, 10, 1))
+        queries = radar.discovery_queries(
+            "Rust", self.config, dt.date(2026, 10, 1))
         for query in queries:
             self.assertIn("stars:>=500", query)
 
     def test_discovery_queries_has_pushed_date(self):
-        queries = radar.discovery_queries("Rust", self.config, dt.date(2026, 10, 1))
-        expected_date = (dt.date(2026, 10, 1) - dt.timedelta(days=60)).isoformat()
+        queries = radar.discovery_queries(
+            "Rust", self.config, dt.date(2026, 10, 1))
+        expected_date = (dt.date(2026, 10, 1) -
+                         dt.timedelta(days=60)).isoformat()
         for query in queries:
             self.assertIn(f"pushed:>={expected_date}", query)
 
     def test_discovery_queries_has_two_issue_qualifiers(self):
-        queries = radar.discovery_queries("Rust", self.config, dt.date(2026, 10, 1))
+        queries = radar.discovery_queries(
+            "Rust", self.config, dt.date(2026, 10, 1))
         self.assertEqual(len(queries), 2)
         self.assertIn("good-first-issues:>=1", queries[0])
         self.assertIn("help-wanted-issues:>=1", queries[1])
 
     def test_discovery_queries_skip_archived_forks_and_private(self):
-        queries = radar.discovery_queries("Rust", self.config, dt.date(2026, 10, 1))
+        queries = radar.discovery_queries(
+            "Rust", self.config, dt.date(2026, 10, 1))
         base = 'language:"Rust" stars:>=500 pushed:>=2026-08-02 archived:false fork:false is:public'
-        self.assertEqual(queries, [f"{base} good-first-issues:>=1", f"{base} help-wanted-issues:>=1"])
+        self.assertEqual(
+            queries, [f"{base} good-first-issues:>=1", f"{base} help-wanted-issues:>=1"])
 
 
 class ChunkedTests(unittest.TestCase):
@@ -540,17 +605,21 @@ class ChunkedTests(unittest.TestCase):
         self.assertEqual(list(radar.chunked([], 3)), [])
 
     def test_chunked_exact_multiple(self):
-        self.assertEqual(list(radar.chunked([1, 2, 3, 4, 5, 6], 3)), [[1, 2, 3], [4, 5, 6]])
+        self.assertEqual(list(radar.chunked([1, 2, 3, 4, 5, 6], 3)), [
+                         [1, 2, 3], [4, 5, 6]])
 
     def test_chunked_remainder(self):
-        self.assertEqual(list(radar.chunked([1, 2, 3, 4, 5], 2)), [[1, 2], [3, 4], [5]])
+        self.assertEqual(list(radar.chunked([1, 2, 3, 4, 5], 2)), [
+                         [1, 2], [3, 4], [5]])
 
 
 class PageHeaderTests(unittest.TestCase):
     def test_extra_line_goes_under_the_subtitle(self):
-        header = radar.page_header("Go issues", "Subtitle.", "2026-09-27T11:00:00+00:00", "[RSS feed](x.xml)")
+        header = radar.page_header(
+            "Go issues", "Subtitle.", "2026-09-27T11:00:00+00:00", "[RSS feed](x.xml)")
         self.assertIn("Subtitle.\n\n[RSS feed](x.xml)\n\n> Updated", header)
-        self.assertNotIn("\n\n\n", radar.page_header("Go issues", "Subtitle.", "2026-09-27T11:00:00+00:00"))
+        self.assertNotIn("\n\n\n", radar.page_header(
+            "Go issues", "Subtitle.", "2026-09-27T11:00:00+00:00"))
 
 
 class ContributingFetchTests(unittest.TestCase):
@@ -560,7 +629,8 @@ class ContributingFetchTests(unittest.TestCase):
             ("refresh", {}, "CONTRIBUTING.md", True),
             (
                 "cached",
-                {"files": ["docs/CONTRIBUTING.md"], "scanned_at": "2026-10-09T00:00:00+00:00"},
+                {"files": ["docs/CONTRIBUTING.md"],
+                    "scanned_at": "2026-10-09T00:00:00+00:00"},
                 "docs/CONTRIBUTING.md",
                 False,
             ),
@@ -573,9 +643,11 @@ class ContributingFetchTests(unittest.TestCase):
                 policies_path = root / "policies.json"
                 issues_path = root / "issues.json"
                 site_data_path = root / "site" / "data" / "issues.json"
-                repos_path.write_text(json.dumps({"repos": {"owner/repo": {"language": "Python"}}}), encoding="utf-8")
+                repos_path.write_text(json.dumps(
+                    {"repos": {"owner/repo": {"language": "Python"}}}), encoding="utf-8")
                 if policy:
-                    policies_path.write_text(json.dumps({"owner/repo": policy}), encoding="utf-8")
+                    policies_path.write_text(json.dumps(
+                        {"owner/repo": policy}), encoding="utf-8")
                 graph_issue = {
                     "number": 1,
                     "title": "Task",
@@ -640,16 +712,21 @@ class ContributingFetchTests(unittest.TestCase):
                 ):
                     result = radar.fetch(github, config, force=True)
                     radar.render(config)
-                self.assertEqual(result["repositories"]["owner/repo"]["contributing"], expected)
+                self.assertEqual(result["repositories"]
+                                 ["owner/repo"]["contributing"], expected)
                 self.assertEqual(
-                    json.loads(issues_path.read_text(encoding="utf-8"))["repositories"]["owner/repo"]["contributing"],
+                    json.loads(issues_path.read_text(encoding="utf-8")
+                               )["repositories"]["owner/repo"]["contributing"],
                     expected,
                 )
                 self.assertNotIn("contributing", result["issues"][0])
-                site_data = json.loads(site_data_path.read_text(encoding="utf-8"))
-                self.assertEqual(site_data["repositories"]["owner/repo"]["contributing"], expected)
+                site_data = json.loads(
+                    site_data_path.read_text(encoding="utf-8"))
+                self.assertEqual(
+                    site_data["repositories"]["owner/repo"]["contributing"], expected)
                 self.assertNotIn("contributing", site_data["issues"][0])
-                self.assertEqual("HEAD:CONTRIBUTING.md" in github.query, refresh)
+                self.assertEqual(
+                    "HEAD:CONTRIBUTING.md" in github.query, refresh)
 
 
 class RenderSmokeTests(unittest.TestCase):
@@ -709,7 +786,8 @@ class RenderSmokeTests(unittest.TestCase):
                 ),
                 encoding="utf-8",
             )
-            original_paths = (radar.ROOT, radar.ISSUES_PATH, radar.SITE_DATA_PATH)
+            original_paths = (radar.ROOT, radar.ISSUES_PATH,
+                              radar.SITE_DATA_PATH)
             radar.ROOT, radar.ISSUES_PATH, radar.SITE_DATA_PATH = root, issues_path, site_data_path
             config = {
                 "issues": {"max_per_page": 10},
@@ -725,16 +803,21 @@ class RenderSmokeTests(unittest.TestCase):
             finally:
                 radar.ROOT, radar.ISSUES_PATH, radar.SITE_DATA_PATH = original_paths
 
-            self.assertTrue((root / "issues" / "by-language" / "python.md").exists())
+            self.assertTrue(
+                (root / "issues" / "by-language" / "python.md").exists())
             self.assertTrue((root / "projects" / "README.md").exists())
             self.assertTrue((root / "site" / "feeds" / "python.xml").exists())
             self.assertTrue((root / "issues" / "by-topic" / "ai.md").exists())
             site_data = json.loads(site_data_path.read_text(encoding="utf-8"))
-            self.assertEqual(site_data["repositories"]["owner/repo"]["contributing"], ".github/CONTRIBUTING.md")
-            self.assertIsNone(site_data["repositories"]["owner/go-repo"]["contributing"])
-            self.assertTrue(all("contributing" not in item for item in site_data["issues"]))
             self.assertEqual(
-                [issue["title"] for issue in site_data["issues"]], ["Fix the fixture", "Refactor the parser"]
+                site_data["repositories"]["owner/repo"]["contributing"], ".github/CONTRIBUTING.md")
+            self.assertIsNone(
+                site_data["repositories"]["owner/go-repo"]["contributing"])
+            self.assertTrue(
+                all("contributing" not in item for item in site_data["issues"]))
+            self.assertEqual(
+                [issue["title"] for issue in site_data["issues"]], [
+                    "Fix the fixture", "Refactor the parser"]
             )
             # Go has no beginner issues, so its (empty) feed is not linked from the site.
             self.assertEqual(site_data["language_slugs"], {"Python": "python"})
@@ -789,7 +872,8 @@ class LanguageFeedTests(unittest.TestCase):
                 self.assertTrue(feed.exists())
 
                 root = ET.parse(feed).getroot()
-                atom_link = root.find(f"./channel/{{{radar.ATOM_NAMESPACE}}}link")
+                atom_link = root.find(
+                    f"./channel/{{{radar.ATOM_NAMESPACE}}}link")
                 self.assertIsNotNone(atom_link)
                 self.assertEqual(
                     atom_link.attrib,
@@ -802,7 +886,8 @@ class LanguageFeedTests(unittest.TestCase):
                 items = root.findall("./channel/item")
 
                 self.assertEqual(len(items), 1)
-                self.assertEqual(items[0].findtext("title"), "Issue <with> & special chars")
+                self.assertEqual(items[0].findtext(
+                    "title"), "Issue <with> & special chars")
                 self.assertEqual(
                     items[0].findtext("guid"),
                     "https://github.com/owner/repo/issues/1",
@@ -820,13 +905,16 @@ class LanguageFeedTests(unittest.TestCase):
                     "owner/repo · 12.3k stars · good first issue, docs & examples",
                 )
                 self.assertEqual(
-                    [category.text for category in items[0].findall("category")],
+                    [category.text for category in items[0].findall(
+                        "category")],
                     ["good first issue", "docs & examples"],
                 )
 
                 # An issue without labels gets no trailing separator and no categories.
-                js_item = ET.parse(Path(tmp) / "site" / "feeds" / "javascript.xml").getroot().find("./channel/item")
-                self.assertEqual(js_item.findtext("description"), "owner/js-repo · 900 stars")
+                js_item = ET.parse(Path(tmp) / "site" / "feeds" /
+                                   "javascript.xml").getroot().find("./channel/item")
+                self.assertEqual(js_item.findtext(
+                    "description"), "owner/js-repo · 900 stars")
                 self.assertEqual(js_item.findall("category"), [])
 
                 index = Path(tmp) / "site" / "feeds" / "index.html"
@@ -838,12 +926,16 @@ class LanguageFeedTests(unittest.TestCase):
                     '<link rel="stylesheet" href="../assets/style.css">',
                     index_html,
                 )
-                self.assertIn('localStorage.getItem("radar-theme")', index_html)
+                self.assertIn(
+                    'localStorage.getItem("radar-theme")', index_html)
                 # The index shows the same build time as the feeds' lastBuildDate.
-                self.assertIn("<p>Updated 2026-10-04 12:00 UTC.</p>", index_html)
+                self.assertIn(
+                    "<p>Updated 2026-10-04 12:00 UTC.</p>", index_html)
                 # Languages with beginner issues get a link with a count.
-                self.assertIn('<li><a href="python.xml">Python (1)</a></li>', index_html)
-                self.assertIn('<li><a href="javascript.xml">JavaScript (1)</a></li>', index_html)
+                self.assertIn(
+                    '<li><a href="python.xml">Python (1)</a></li>', index_html)
+                self.assertIn(
+                    '<li><a href="javascript.xml">JavaScript (1)</a></li>', index_html)
 
                 # Erlang has no beginner issues, so it must not appear in the index...
                 self.assertNotIn("erlang.xml", index_html)
@@ -854,8 +946,10 @@ class LanguageFeedTests(unittest.TestCase):
 
                 # Feeds with beginner issues get an autodiscovery link in the <head>.
                 alternate = '<link rel="alternate" type="application/rss+xml"'
-                self.assertIn(f'{alternate} title="Python beginner issues" href="python.xml">', index_html)
-                self.assertIn(f'{alternate} title="JavaScript beginner issues" href="javascript.xml">', index_html)
+                self.assertIn(
+                    f'{alternate} title="Python beginner issues" href="python.xml">', index_html)
+                self.assertIn(
+                    f'{alternate} title="JavaScript beginner issues" href="javascript.xml">', index_html)
                 # Erlang has no beginner issues, so no autodiscovery link.
                 self.assertNotIn('title="Erlang beginner issues"', index_html)
 
@@ -889,8 +983,10 @@ class LanguageFeedTests(unittest.TestCase):
                     {"topics": {}},
                 )
 
-                index_html = (Path(tmp) / "site" / "feeds" / "index.html").read_text(encoding="utf-8")
-                self.assertIn('title="Python &amp; More beginner issues"', index_html)
+                index_html = (Path(tmp) / "site" / "feeds" /
+                              "index.html").read_text(encoding="utf-8")
+                self.assertIn(
+                    'title="Python &amp; More beginner issues"', index_html)
                 self.assertNotIn('title="Python & More', index_html)
 
             finally:
@@ -931,7 +1027,8 @@ class LanguageFeedTests(unittest.TestCase):
                 self.assertTrue((topics_dir / "ai-ml.xml").exists())
                 self.assertTrue((topics_dir / "web.xml").exists())
 
-                index_html = (Path(tmp) / "site" / "feeds" / "index.html").read_text(encoding="utf-8")
+                index_html = (Path(tmp) / "site" / "feeds" /
+                              "index.html").read_text(encoding="utf-8")
                 self.assertIn(
                     'href="topics/ai-ml.xml">AI and machine learning (1)',
                     index_html,
@@ -941,18 +1038,23 @@ class LanguageFeedTests(unittest.TestCase):
                 self.assertIn("<h2>Feeds by topic</h2>", index_html)
 
                 # Topic feeds share the language feed structure but point at their own URLs.
-                channel = ET.parse(topics_dir / "ai-ml.xml").getroot().find("channel")
-                self.assertEqual(channel.findtext("title"), "AI and machine learning beginner issues")
+                channel = ET.parse(
+                    topics_dir / "ai-ml.xml").getroot().find("channel")
+                self.assertEqual(channel.findtext("title"),
+                                 "AI and machine learning beginner issues")
                 self.assertEqual(
-                    channel.find(f"{{{radar.ATOM_NAMESPACE}}}link").get("href"),
+                    channel.find(
+                        f"{{{radar.ATOM_NAMESPACE}}}link").get("href"),
                     "https://tanbirramim.github.io/open-source-radar/feeds/topics/ai-ml.xml",
                 )
                 self.assertEqual(
                     channel.findtext("link"),
                     "https://github.com/TanbirRamim/open-source-radar/blob/main/issues/by-topic/ai-ml.md",
                 )
-                self.assertEqual(channel.findtext("lastBuildDate"), "Sun, 04 Oct 2026 12:00:00 +0000")
-                self.assertEqual(channel.findtext("item/description"), "owner/repo · 100 stars")
+                self.assertEqual(channel.findtext("lastBuildDate"),
+                                 "Sun, 04 Oct 2026 12:00:00 +0000")
+                self.assertEqual(channel.findtext(
+                    "item/description"), "owner/repo · 100 stars")
             finally:
                 radar.ROOT = original_root
 
@@ -1009,7 +1111,8 @@ class UpdateReadmeStatsTests(unittest.TestCase):
         self.assertEqual(updated, f"{header}{expected_block}{footer}")
 
     def test_language_list_capped_at_twelve(self):
-        rows = [(f"Lang-{i:02d}", f"lang-{i:02d}", 100 - i, 0, 0) for i in range(15)]
+        rows = [(f"Lang-{i:02d}", f"lang-{i:02d}", 100 - i, 0, 0)
+                for i in range(15)]
         updated = self._run(
             "<!-- RADAR:STATS:START -->\n<!-- RADAR:STATS:END -->",
             language_rows=rows,
@@ -1022,7 +1125,8 @@ class UpdateReadmeStatsTests(unittest.TestCase):
         self.assertIn("[all languages](issues/README.md#by-language)", updated)
 
     def test_topics_list_includes_all_entries(self):
-        rows = [(f"Topic-{i:02d}", f"topic-{i:02d}", 50 - i, 0, 0) for i in range(15)]
+        rows = [(f"Topic-{i:02d}", f"topic-{i:02d}", 50 - i, 0, 0)
+                for i in range(15)]
         updated = self._run(
             "<!-- RADAR:STATS:START -->\n<!-- RADAR:STATS:END -->",
             topic_rows=rows,
@@ -1037,7 +1141,8 @@ class UpdateReadmeStatsTests(unittest.TestCase):
 
     def test_readme_without_markers_is_left_unchanged(self):
         text = "# Open Source Radar\n\nNo stats block here.\n"
-        self.assertEqual(self._run(text, language_rows=[("Python", "python", 1, 0, 0)]), text)
+        self.assertEqual(self._run(text, language_rows=[
+                         ("Python", "python", 1, 0, 0)]), text)
 
     def test_names_with_backslash_do_not_fail_regex_replacement(self):
         updated = self._run(
@@ -1046,36 +1151,44 @@ class UpdateReadmeStatsTests(unittest.TestCase):
             topic_rows=[(r"Back\slash", "backslash", 5, 0, 0)],
         )
         self.assertIn(r"[C\Sharp](issues/by-language/csharp.md) (10)", updated)
-        self.assertIn(r"[Back\slash](issues/by-topic/backslash.md) (5)", updated)
+        self.assertIn(
+            r"[Back\slash](issues/by-topic/backslash.md) (5)", updated)
 
 
 class ContributingPathsInSyncTests(unittest.TestCase):
     def test_site_allowlist_matches_pipeline(self):
-        app = (Path(__file__).resolve().parent.parent / "site" / "assets" / "app.js").read_text(encoding="utf-8")
-        block = re.search(r"CONTRIBUTING_PATHS = new Set\(\[(.*?)\]\)", app, re.DOTALL)
+        app = (Path(__file__).resolve().parent.parent / "site" /
+               "assets" / "app.js").read_text(encoding="utf-8")
+        block = re.search(
+            r"CONTRIBUTING_PATHS = new Set\(\[(.*?)\]\)", app, re.DOTALL)
         self.assertIsNotNone(block)
-        self.assertEqual(re.findall(r'"([^"]+)"', block.group(1)), radar.CONTRIBUTING_FILES)
+        self.assertEqual(re.findall(
+            r'"([^"]+)"', block.group(1)), radar.CONTRIBUTING_FILES)
 
 
 class HelperTests(unittest.TestCase):
     def test_iso_to_datetime_parses_z_suffix_as_utc(self):
         parsed = radar.iso_to_datetime("2026-10-12T08:30:00Z")
-        self.assertEqual(parsed, dt.datetime(2026, 10, 12, 8, 30, tzinfo=dt.UTC))
+        self.assertEqual(parsed, dt.datetime(
+            2026, 10, 12, 8, 30, tzinfo=dt.UTC))
         self.assertEqual(parsed.utcoffset(), dt.timedelta(0))
 
     def test_iso_to_datetime_keeps_non_utc_offset(self):
         parsed = radar.iso_to_datetime("2026-10-12T10:30:00+02:00")
         self.assertEqual(parsed.utcoffset(), dt.timedelta(hours=2))
-        self.assertEqual(parsed.astimezone(dt.UTC), dt.datetime(2026, 10, 12, 8, 30, tzinfo=dt.UTC))
+        self.assertEqual(parsed.astimezone(dt.UTC), dt.datetime(
+            2026, 10, 12, 8, 30, tzinfo=dt.UTC))
 
     def test_iso_to_datetime_accepts_explicit_zero_offset(self):
         parsed = radar.iso_to_datetime("2026-10-12T08:30:00+00:00")
-        self.assertEqual(parsed, dt.datetime(2026, 10, 12, 8, 30, tzinfo=dt.UTC))
+        self.assertEqual(parsed, dt.datetime(
+            2026, 10, 12, 8, 30, tzinfo=dt.UTC))
         self.assertEqual(parsed.utcoffset(), dt.timedelta(0))
 
     def test_gql_string_wraps_plain_value_in_quotes(self):
         self.assertEqual(radar.gql_string("owner"), '"owner"')
-        self.assertEqual(radar.gql_string("good first issue"), '"good first issue"')
+        self.assertEqual(radar.gql_string(
+            "good first issue"), '"good first issue"')
 
     def test_gql_string_escapes_quotes_backslashes_and_newlines(self):
         cases = [
@@ -1099,7 +1212,8 @@ class HelperTests(unittest.TestCase):
 
     def test_build_repo_query_escapes_names_and_labels(self):
         # gql_string is only useful if the query builder actually uses it everywhere.
-        query = radar.build_repo_query(['own/re"po'], ['say "hi"', "line\nbreak"], 5, False)
+        query = radar.build_repo_query(
+            ['own/re"po'], ['say "hi"', "line\nbreak"], 5, False)
         self.assertIn('repository(owner: "own", name: "re\\"po")', query)
         self.assertIn('labels: ["say \\"hi\\"","line\\nbreak"]', query)
         self.assertNotIn("line\nbreak", query)
