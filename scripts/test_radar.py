@@ -1057,5 +1057,46 @@ class ContributingPathsInSyncTests(unittest.TestCase):
         self.assertEqual(re.findall(r'"([^"]+)"', block.group(1)), radar.CONTRIBUTING_FILES)
 
 
+class HelperTests(unittest.TestCase):
+    def test_iso_to_datetime_parses_z_suffix_as_utc(self):
+        parsed = radar.iso_to_datetime("2026-10-12T08:30:00Z")
+        self.assertEqual(parsed, dt.datetime(2026, 10, 12, 8, 30, tzinfo=dt.UTC))
+        self.assertEqual(parsed.utcoffset(), dt.timedelta(0))
+
+    def test_iso_to_datetime_keeps_non_utc_offset(self):
+        parsed = radar.iso_to_datetime("2026-10-12T10:30:00+02:00")
+        self.assertEqual(parsed.utcoffset(), dt.timedelta(hours=2))
+        self.assertEqual(parsed.astimezone(dt.UTC), dt.datetime(2026, 10, 12, 8, 30, tzinfo=dt.UTC))
+
+    def test_iso_to_datetime_accepts_explicit_zero_offset(self):
+        parsed = radar.iso_to_datetime("2026-10-12T08:30:00+00:00")
+        self.assertEqual(parsed, dt.datetime(2026, 10, 12, 8, 30, tzinfo=dt.UTC))
+        self.assertEqual(parsed.utcoffset(), dt.timedelta(0))
+
+    def test_gql_string_wraps_plain_value_in_quotes(self):
+        self.assertEqual(radar.gql_string("owner"), '"owner"')
+        self.assertEqual(radar.gql_string("good first issue"), '"good first issue"')
+
+    def test_gql_string_escapes_quotes_backslashes_and_newlines(self):
+        cases = [
+            ('own"er', '"own\\"er"'),
+            ("a\\b", '"a\\\\b"'),
+            ("line1\nline2", '"line1\\nline2"'),
+        ]
+        for raw, expected in cases:
+            with self.subTest(raw=raw):
+                self.assertEqual(radar.gql_string(raw), expected)
+                self.assertEqual(json.loads(expected), raw)
+
+    def test_gql_string_escapes_non_ascii_as_unicode_escapes(self):
+        # json.dumps defaults to ensure_ascii=True, so labels with emoji must survive the trip
+        # as \uXXXX escapes rather than raw characters.
+        literal = radar.gql_string("good first issue 🙌")
+        self.assertEqual(literal, '"good first issue \\ud83d\\ude4c"')
+        self.assertNotIn("🙌", literal)
+        self.assertIn("\\u", literal)
+        self.assertEqual(json.loads(literal), "good first issue 🙌")
+
+
 if __name__ == "__main__":
     unittest.main()
