@@ -1,0 +1,125 @@
+name: claims
+
+# Self-serve issue claims, the way larger projects run them:
+#   /claim    assigns you right away, no need to wait for a maintainer
+#   /unclaim  hands the issue back
+# A daily job frees claims that went quiet (see STALE_DAYS) so nobody holds an issue forever.
+
+on:
+  issue_comment:
+    types: [created]
+  schedule:
+    - cron: "30 6 * * *"
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: claims-${{ github.event.issue.number || 'sweep' }}
+
+env:
+  MAX_CLAIMS: "2"
+  STALE_DAYS: "7"
+
+jobs:
+  command:
+    if: >-
+      github.event_name == 'issue_comment' && !github.event.issue.pull_request &&
+      github.event.issue.state == 'open' && github.event.comment.user.type != 'Bot' &&
+      (startsWith(github.event.comment.body, '/claim') || startsWith(github.event.comment.body, '/unclaim'))
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+            const issue = context.payload.issue;
+            const user = context.payload.comment.user.login;
+            const body = context.payload.comment.body.trim();
+            const assignees = issue.assignees.map((a) => a.login);
+            const reply = (text) =>
+              github.rest.issues.createComment({ owner, repo, issue_number: issue.number, body: text });
+            const react = (content) =>
+              github.rest.reactions.createForIssueComment({ owner, repo, comment_id: context.payload.comment.id, content });
+
+            if (body.startsWith("/unclaim")) {
+              if (!assignees.includes(user)) return;
+              await github.rest.issues.removeAssignees({ owner, repo, issue_number: issue.number, assignees: [user] });
+              await react("+1");
+              return reply(`Thanks for letting us know, @${user}. This one is open again for anyone to \`/claim\`.`);
+            }
+
+            if (assignees.includes(user)) return react("+1");
+            if (assignees.length) {
+              return reply(
+                `@${user} this one is already taken by @${assignees.join(", @")}. ` +
+                  `Claims free up automatically after ${process.env.STALE_DAYS} quiet days, or have a look at the ` +
+                  `[other open issues](https://github.com/${owner}/${repo}/issues?q=is%3Aissue+is%3Aopen+no%3Aassignee+label%3A%22good+first+issue%22).`,
+              );
+            }
+
+            const { data: held } = await github.rest.search.issuesAndPullRequests({
+              q: `repo:${owner}/${repo} is:issue is:open assignee:${user}`,
+            });
+            if (held.total_count >= Number(process.env.MAX_CLAIMS)) {
+              return reply(
+                `@${user} you already have ${held.total_count} open issues here, which is the limit for now. ` +
+                  `Finish or \`/unclaim\` one and then claim this, so others get a turn too.`,
+              );
+            }
+
+            await github.rest.issues.addAssignees({ owner, repo, issue_number: issue.number, assignees: [user] });
+            await react("rocket");
+            await reply(
+              `It's yours, @${user}! No need to wait for anything else, go ahead and open a PR when you're ready ` +
+                `(draft PRs are welcome). If you get stuck, ask here. ` +
+                `If there's no PR or update in ${process.env.STALE_DAYS} days the issue frees up for someone else, ` +
+                `and \`/unclaim\` hands it back any time.`,
+            );
+
+  stale:
+    if: github.event_name != 'issue_comment'
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+            const days = Number(process.env.STALE_DAYS);
+            const cutoff = Date.now() - days * 86400e3;
+            const issues = await github.paginate(github.rest.issues.listForRepo, {
+              owner, repo, state: "open", assignee: "*", per_page: 100,
+            });
+            for (const issue of issues) {
+              if (issue.pull_request) continue;
+              const claimers = issue.assignees.map((a) => a.login).filter((l) => l !== owner);
+              if (!claimers.length) continue;
+              // Any open PR that mentions the issue counts as activity.
+              const { data: prs } = await github.rest.search.issuesAndPullRequests({
+                q: `repo:${owner}/${repo} is:pr is:open ${issue.number} in:body`,
+              });
+              if (prs.items.some((pr) => new RegExp(`#${issue.number}\\b`).test(pr.body || ""))) continue;
+              const comments = await github.paginate(github.rest.issues.listComments, {
+                owner, repo, issue_number: issue.number, per_page: 100,
+              });
+              const events = await github.paginate(github.rest.issues.listEvents, {
+                owner, repo, issue_number: issue.number, per_page: 100,
+              });
+              const times = [
+                ...comments.filter((c) => claimers.includes(c.user.login)).map((c) => Date.parse(c.created_at)),
+                ...events.filter((e) => e.event === "assigned").map((e) => Date.parse(e.created_at)),
+              ];
+              if (Math.max(0, ...times) > cutoff) continue;
+              await github.rest.issues.removeAssignees({ owner, repo, issue_number: issue.number, assignees: claimers });
+              await github.rest.issues.createComment({
+                owner, repo, issue_number: issue.number,
+                body:
+                  `@${claimers.join(", @")} it's been ${days} days without a PR or update, so I've freed this ` +
+                  `issue for someone else. No problem at all, and if you're still on it, just \`/claim\` it again ` +
+                  `(or open your PR).`,
+              });
+            }

@@ -1,7 +1,6 @@
-<!-- Describe what this changes and why, in a few sentences. -->
+<!-- What does this change, and why? A few sentences is plenty. -->
 
 Closes #
 
-- [ ] I commented on the issue and got the go-ahead (or it's a small fix with no issue).
-- [ ] I did not edit generated files (`issues/by-*`, `data/`, `site/data/`, the README stats block).
-- [ ] For pipeline changes, `python3 -m unittest discover scripts` and `ruff check scripts` pass.
+- [ ] I didn't edit generated files (`issues/by-*`, `data/`, `site/data/`, the README stats block).
+- [ ] For pipeline changes, `python3 -m unittest discover scripts`, `ruff check scripts` and `ruff format --check scripts` pass.
