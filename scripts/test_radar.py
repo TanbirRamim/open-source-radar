@@ -153,9 +153,32 @@ class AvailabilityTests(unittest.TestCase):
             "Please assign this to me",
             "I'm working on it, PR soon",
             "I will take this one",
+            "I am interested to work on this issue",
+            "I'm interested in working on this",
+            "I am interested in taking this",
+            "I'm interested to take this issue",
+            "I would be happy to work on this",
+            "I'd be happy to take this issue",
+            "assign me please",
+            "Please assign me this issue",
+            "ASSIGN ME, PLEASE",
         ]:
-            claimed = issue(comments={"nodes": [comment(body)]})
-            self.assertFalse(radar.issue_is_available(claimed, SINCE, CLAIM_SINCE), body)
+            with self.subTest(body=body):
+                claimed = issue(comments={"nodes": [comment(body)]})
+                self.assertFalse(radar.issue_is_available(claimed, SINCE, CLAIM_SINCE))
+
+    def test_interest_without_a_claim_keeps_issue_available(self):
+        for body in [
+            "I'm interested in how this works",
+            "I am interested in this issue",
+            "Is anyone working on this?",
+            "I would be happy to review a PR",
+            "I'm interested in working on my own project",
+            "Please assign membership roles",
+        ]:
+            with self.subTest(body=body):
+                available = issue(comments={"nodes": [comment(body)]})
+                self.assertTrue(radar.issue_is_available(available, SINCE, CLAIM_SINCE))
 
     def test_old_quoted_or_unrelated_comments_do_not_hide_issue(self):
         cases = [

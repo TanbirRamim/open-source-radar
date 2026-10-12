@@ -302,6 +302,10 @@ CLAIM_PATTERN = re.compile(
     r"\bi(?:'d| would) (?:like|love) to (?:work on|take|pick up|tackle|try)\b|"
     r"\bi(?:'ll| will| want to| wanna| can) (?:work on|take|pick up|tackle|handle)\b|"
     r"\bi(?:'m| am) (?:currently )?working on (?:this|it)\b|"
+    r"\bi(?:'m| am) interested (?:to (?:work on|take|pick up|tackle|handle)|"
+    r"in (?:working on|taking|picking up|tackling|handling)) (?:this|it|the issue)\b|"
+    r"\bi(?:'d| would) be happy to (?:work on|take|pick up|tackle|handle) (?:this|it|the issue)\b|"
+    r"\b(?:please )?assign me\b|"
     r"\b(?:please )?assign (?:this |it )?(?:issue )?to me\b|"
     r"\blet me (?:work on|take|handle|try)\b",
     re.IGNORECASE,
