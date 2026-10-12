@@ -1097,6 +1097,13 @@ class HelperTests(unittest.TestCase):
         self.assertIn("\\u", literal)
         self.assertEqual(json.loads(literal), "good first issue 🙌")
 
+    def test_build_repo_query_escapes_names_and_labels(self):
+        # gql_string is only useful if the query builder actually uses it everywhere.
+        query = radar.build_repo_query(['own/re"po'], ['say "hi"', "line\nbreak"], 5, False)
+        self.assertIn('repository(owner: "own", name: "re\\"po")', query)
+        self.assertIn('labels: ["say \\"hi\\"","line\\nbreak"]', query)
+        self.assertNotIn("line\nbreak", query)
+
 
 if __name__ == "__main__":
     unittest.main()
