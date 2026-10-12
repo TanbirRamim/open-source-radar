@@ -307,6 +307,15 @@ class NotesForTests(unittest.TestCase):
             "[📘 guide](https://github.com/owner/repo/blob/HEAD/CONTRIBUTING.md)",
         )
 
+    def test_with_ai_rule(self):
+        expected = {"restricted": "⚠️ AI restricted", "disclose": "🤖 disclose AI use", "policy": "📄 AI policy"}
+        for rule, note in expected.items():
+            with self.subTest(rule=rule):
+                self.assertEqual(radar.notes_for({"policy": {"ai": rule}}), note)
+
+    def test_with_cla_plus_dco(self):
+        self.assertEqual(radar.notes_for({"policy": {"cla": True, "dco": True}}), "✍️ CLA · 🔏 DCO")
+
     def test_without_contributing_field(self):
         self.assertEqual(radar.notes_for({}), "")
 
