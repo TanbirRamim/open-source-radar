@@ -323,7 +323,6 @@ class MarkdownTests(unittest.TestCase):
             radar.md_escape("Crash on ] in path"),
             r"Crash on \] in path",
         )
-
         self.assertEqual(
             radar.md_escape("[broken title"),
             r"\[broken title",
@@ -337,7 +336,6 @@ class MarkdownTests(unittest.TestCase):
     def test_escape_pipe_and_backslash(self):
         self.assertEqual(radar.md_escape("a|b"), r"a\|b")
         self.assertEqual(radar.md_escape(r"a\b"), r"a\\b")
-
         self.assertEqual(radar.md_escape(r"a\|b"), r"a\\\|b")
 
     def test_escape_angle_brackets(self):
