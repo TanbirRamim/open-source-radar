@@ -289,6 +289,21 @@ class TopicAndLabelTests(unittest.TestCase):
                         keyword, seen_keywords, f"Keyword already appears in topic {seen_keywords.get(keyword)!r}"
                     )
                 seen_keywords[keyword] = slug
+        # A wildcard matches anywhere in a topic, so "web*" in one topic would
+        # quietly steal "webgpu" from another.
+        for keyword, slug in seen_keywords.items():
+            if not keyword.endswith("*"):
+                continue
+            for other, other_slug in seen_keywords.items():
+                if other_slug != slug and keyword[:-1] in other.rstrip("*"):
+                    with self.subTest(topic=slug, keyword=keyword, shadows=other):
+                        self.fail(f"{keyword!r} in {slug!r} also matches {other!r} from {other_slug!r}")
+
+    def test_cryptography_is_security_not_finance(self):
+        config = radar.load_config()
+        self.assertEqual(radar.topic_buckets(["cryptography"], config), ["security"])
+        self.assertIn("finance-web3", radar.topic_buckets(["cryptocurrency"], config))
+        self.assertIn("finance-web3", radar.topic_buckets(["crypto"], config))
 
     def test_difficulty(self):
         self.assertEqual(radar.difficulty(["good first issue"]), "beginner")
