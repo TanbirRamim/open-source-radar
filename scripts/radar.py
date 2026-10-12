@@ -555,6 +555,9 @@ def notes_for(repo: dict[str, Any]) -> str:
         notes.append("✍️ CLA")
     if policy.get("dco"):
         notes.append("🔏 DCO")
+    contributing = repo.get("contributing")
+    if contributing and repo.get("url"):
+        notes.append(f"[📘 guide]({repo['url']}/blob/HEAD/{contributing})")
     return " · ".join(notes)
 
 
@@ -590,7 +593,7 @@ def page_header(title: str, subtitle: str, generated_at: str, extra: str = "") -
         "> Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). "
         "New here? Start with the [guide](../../guide/README.md).\n\n"
         "**Legend:** 🟢 beginner label · 🟡 help wanted · 💬 comments · ⚠️ AI restricted · 🤖 disclose AI use · "
-        "📄 AI policy · ✍️ CLA required · 🔏 DCO sign-off. Notes are detected automatically; "
+        "📄 AI policy · ✍️ CLA required · 🔏 DCO sign-off. 📘 contributing guide. Notes are detected automatically; "
         "[how to read them](../../guide/06-rules-before-you-start.md).\n\n"
     )
 
