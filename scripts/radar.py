@@ -47,7 +47,8 @@ USER_AGENT = "open-source-radar (+https://github.com/TanbirRamim/open-source-rad
 
 # Files that describe how a project accepts contributions, in lookup order.
 # Lookup order for the contributing guide. site/assets/app.js keeps the same list (tested).
-CONTRIBUTING_FILES = ["CONTRIBUTING.md", ".github/CONTRIBUTING.md", "docs/CONTRIBUTING.md", "CONTRIBUTING.rst"]
+CONTRIBUTING_FILES = ["CONTRIBUTING.md", ".github/CONTRIBUTING.md",
+                      "docs/CONTRIBUTING.md", "CONTRIBUTING.rst"]
 POLICY_FILES = [
     *CONTRIBUTING_FILES,
     "AI_POLICY.md",
@@ -91,15 +92,17 @@ def write_json(path: Path, payload: Any, *, compact: bool = False) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8") as handle:
         if compact:
-            json.dump(payload, handle, ensure_ascii=False, separators=(",", ":"), sort_keys=True)
+            json.dump(payload, handle, ensure_ascii=False,
+                      separators=(",", ":"), sort_keys=True)
         else:
-            json.dump(payload, handle, ensure_ascii=False, indent=2, sort_keys=True)
+            json.dump(payload, handle, ensure_ascii=False,
+                      indent=2, sort_keys=True)
         handle.write("\n")
 
 
 def chunked(items: list[Any], size: int) -> Iterable[list[Any]]:
     for start in range(0, len(items), size):
-        yield items[start : start + size]
+        yield items[start: start + size]
 
 
 # --------------------------------------------------------------------------- #
@@ -137,12 +140,14 @@ class GitHub:
                     time.sleep(2**attempt)
                     continue
                 detail = error.read().decode(errors="replace")[:300]
-                raise RuntimeError(f"{method} {url} failed: {error.code} {detail}") from error
+                raise RuntimeError(
+                    f"{method} {url} failed: {error.code} {detail}") from error
             except (urllib.error.URLError, TimeoutError) as error:
                 if attempt < 5:
                     time.sleep(2**attempt)
                     continue
-                raise RuntimeError(f"{method} {url} failed: {error}") from error
+                raise RuntimeError(
+                    f"{method} {url} failed: {error}") from error
         raise RuntimeError(f"{method} {url} failed after retries")
 
     @staticmethod
@@ -163,7 +168,8 @@ class GitHub:
         if elapsed < 2.2:
             time.sleep(2.2 - elapsed)
         self.last_search = time.time()
-        params = urllib.parse.urlencode({"q": query, "sort": "stars", "order": "desc", "per_page": 100, "page": page})
+        params = urllib.parse.urlencode(
+            {"q": query, "sort": "stars", "order": "desc", "per_page": 100, "page": page})
         return self._request("GET", f"{API}/search/repositories?{params}")
 
     def graphql(self, query: str) -> dict[str, Any]:
@@ -224,16 +230,20 @@ def discover(github: GitHub, config: dict[str, Any]) -> dict[str, Any]:
                 result = github.search_repositories(query, page)
                 items = result.get("items", [])
                 for item in items:
-                    found.setdefault(item["full_name"], {"stars": item["stargazers_count"]})
+                    found.setdefault(item["full_name"], {
+                                     "stars": item["stargazers_count"]})
                 if len(items) < 100:
                     break
-        ranked = sorted(found.items(), key=lambda entry: entry[1]["stars"], reverse=True)[: cap * 2]
+        ranked = sorted(
+            found.items(), key=lambda entry: entry[1]["stars"], reverse=True)[: cap * 2]
         for full_name, info in ranked:
             if is_excluded(full_name, config):
                 continue
-            repos.setdefault(full_name, {"language": language, "stars": info["stars"]})
+            repos.setdefault(
+                full_name, {"language": language, "stars": info["stars"]})
         log(f"{language}: {len(ranked)} repositories")
-    payload = {"discovered_at": now_utc().isoformat(timespec="seconds"), "repos": repos}
+    payload = {"discovered_at": now_utc().isoformat(
+        timespec="seconds"), "repos": repos}
     write_json(REPOS_PATH, payload)
     log(f"discovered {len(repos)} repositories")
     return payload
@@ -306,13 +316,15 @@ CLAIM_PATTERN = re.compile(
     r"\blet me (?:work on|take|handle|try)\b",
     re.IGNORECASE,
 )
-QUOTED_REPLY = re.compile(r"^>.*$|\n\s*On .{0,120}wrote:.*", re.MULTILINE | re.DOTALL)
+QUOTED_REPLY = re.compile(
+    r"^>.*$|\n\s*On .{0,120}wrote:.*", re.MULTILINE | re.DOTALL)
 
 
 def recently_claimed(issue: dict[str, Any], claimed_since: dt.datetime) -> bool:
     """True when the latest comment is a recent request to take the issue. Any later reply,
     such as a maintainer saying "we don't assign issues, just open a PR", clears the claim."""
-    nodes = [node for node in (issue.get("comments") or {}).get("nodes") or [] if node]
+    nodes = [node for node in (
+        issue.get("comments") or {}).get("nodes") or [] if node]
     if not nodes:
         return False
     latest = nodes[-1]
@@ -357,8 +369,10 @@ AI_DISCLOSE_TERMS = re.compile(
     r"identify themselves|must (state|indicate|note)[^.\n]{0,40}\b(ai|llm))",
     re.IGNORECASE,
 )
-CLA_TERMS = re.compile(r"\bCLA\b|contributor license agreement|cla-assistant|easycla", re.IGNORECASE)
-DCO_TERMS = re.compile(r"\bDCO\b|developer certificate of origin|signed-off-by|git commit -s\b", re.IGNORECASE)
+CLA_TERMS = re.compile(
+    r"\bCLA\b|contributor license agreement|cla-assistant|easycla", re.IGNORECASE)
+DCO_TERMS = re.compile(
+    r"\bDCO\b|developer certificate of origin|signed-off-by|git commit -s\b", re.IGNORECASE)
 
 
 def detect_policy(files: dict[str, str]) -> dict[str, Any]:
@@ -419,6 +433,11 @@ def topic_buckets(topics: list[str], config: dict[str, Any]) -> list[str]:
     return buckets
 
 
+NEGATION = re.compile(r"\b(not|no|non)\b")
+BEGINNER = re.compile(
+    r"first[- ]timers|good[- ]first|beginner|\beasy\b|(?<![\w-])starter\b")
+
+
 def difficulty(labels: list[str]) -> str:
     joined = " ".join(labels).lower()
     if re.search(r"first[- ]timers|good[- ]first|beginner|easy|starter", joined):
@@ -429,12 +448,16 @@ def difficulty(labels: list[str]) -> str:
 def fetch(github: GitHub, config: dict[str, Any], *, force: bool = False) -> dict[str, Any]:
     repos_payload = read_json(REPOS_PATH, None)
     if not repos_payload:
-        raise SystemExit("data/repos.json is missing; run `radar.py discover` first.")
+        raise SystemExit(
+            "data/repos.json is missing; run `radar.py discover` first.")
     tracked = repos_payload["repos"]
     policies = read_json(POLICY_PATH, {})
-    refresh_before = now_utc() - dt.timedelta(days=config["policy"]["refresh_days"])
-    updated_since = now_utc() - dt.timedelta(days=config["issues"]["updated_within_days"])
-    claimed_since = now_utc() - dt.timedelta(days=config["issues"].get("claim_within_days", 21))
+    refresh_before = now_utc() - \
+        dt.timedelta(days=config["policy"]["refresh_days"])
+    updated_since = now_utc() - \
+        dt.timedelta(days=config["issues"]["updated_within_days"])
+    claimed_since = now_utc() - \
+        dt.timedelta(days=config["issues"].get("claim_within_days", 21))
     labels = config["issues"]["labels"]
     per_repo = config["issues"]["per_repo"]
 
@@ -445,7 +468,8 @@ def fetch(github: GitHub, config: dict[str, Any], *, force: bool = False) -> dic
         needs_policy = any(
             name not in policies or iso_to_datetime(policies[name]["scanned_at"]) < refresh_before for name in batch
         )
-        query = build_repo_query(batch, labels, per_repo, include_policy=needs_policy)
+        query = build_repo_query(
+            batch, labels, per_repo, include_policy=needs_policy)
         try:
             response = github.graphql(query)
         except RuntimeError as error:
@@ -453,8 +477,10 @@ def fetch(github: GitHub, config: dict[str, Any], *, force: bool = False) -> dic
             response = {"data": {}}
             for single_index, name in enumerate(batch):
                 try:
-                    single = github.graphql(build_repo_query([name], labels, per_repo, include_policy=needs_policy))
-                    response["data"][f"r{single_index}"] = (single.get("data") or {}).get("r0")
+                    single = github.graphql(build_repo_query(
+                        [name], labels, per_repo, include_policy=needs_policy))
+                    response["data"][f"r{single_index}"] = (
+                        single.get("data") or {}).get("r0")
                 except RuntimeError as single_error:
                     log(f"skipping {name}: {single_error}")
         data = response.get("data") or {}
@@ -464,14 +490,18 @@ def fetch(github: GitHub, config: dict[str, Any], *, force: bool = False) -> dic
                 continue
             full_name = repo["nameWithOwner"]
             if needs_policy:
-                texts = {path: (repo.get(f"p{i}") or {}).get("text") or "" for i, path in enumerate(POLICY_FILES)}
-                policies[full_name] = {**detect_policy(texts), "scanned_at": now_utc().isoformat(timespec="seconds")}
-            topics = [node["topic"]["name"] for node in repo["repositoryTopics"]["nodes"]]
+                texts = {path: (repo.get(f"p{i}") or {}).get(
+                    "text") or "" for i, path in enumerate(POLICY_FILES)}
+                policies[full_name] = {
+                    **detect_policy(texts), "scanned_at": now_utc().isoformat(timespec="seconds")}
+            topics = [node["topic"]["name"]
+                      for node in repo["repositoryTopics"]["nodes"]]
             available = []
             for issue in repo["issues"]["nodes"]:
                 if not issue_is_available(issue, updated_since, claimed_since):
                     continue
-                label_names = [label["name"] for label in issue["labels"]["nodes"]]
+                label_names = [label["name"]
+                               for label in issue["labels"]["nodes"]]
                 available.append(
                     {
                         "repo": full_name,
@@ -508,10 +538,12 @@ def fetch(github: GitHub, config: dict[str, Any], *, force: bool = False) -> dic
         if batch_index % 20 == 0:
             log(f"batch {batch_index}: {len(issues)} issues so far, graphql remaining {rate.get('remaining')}")
 
-    issues.sort(key=lambda item: (item["updated"], repositories[item["repo"]]["stars"]), reverse=True)
+    issues.sort(key=lambda item: (
+        item["updated"], repositories[item["repo"]]["stars"]), reverse=True)
     if not force:
         previous = read_json(ISSUES_PATH, {}) or {}
-        check_not_shrunk(len(previous.get("issues", [])), len(issues), config["safety"]["min_ratio"])
+        check_not_shrunk(len(previous.get("issues", [])),
+                         len(issues), config["safety"]["min_ratio"])
     payload = {
         "generated_at": now_utc().isoformat(timespec="seconds"),
         "repositories": repositories,
@@ -630,7 +662,8 @@ def _build_rss_tree(
     rss = ET.Element("rss", {"version": "2.0"})
     channel = ET.SubElement(rss, "channel")
     ET.SubElement(channel, "title").text = f"{title} beginner issues"
-    ET.SubElement(channel, "lastBuildDate").text = format_datetime(iso_to_datetime(generated_at))
+    ET.SubElement(channel, "lastBuildDate").text = format_datetime(
+        iso_to_datetime(generated_at))
     ET.SubElement(
         channel,
         f"{{{ATOM_NAMESPACE}}}link",
@@ -643,14 +676,17 @@ def _build_rss_tree(
     ET.SubElement(
         channel, "link"
     ).text = f"https://github.com/TanbirRamim/open-source-radar/blob/main/issues/{page_url_segment}/{slug}.md"
-    ET.SubElement(channel, "description").text = f"Recently created beginner-friendly issues for {title}."
+    ET.SubElement(
+        channel, "description").text = f"Recently created beginner-friendly issues for {title}."
 
     for issue in items[:50]:
         item = ET.SubElement(channel, "item")
         ET.SubElement(item, "title").text = issue["title"]
         ET.SubElement(item, "link").text = issue["url"]
-        ET.SubElement(item, "guid", {"isPermaLink": "true"}).text = issue["url"]
-        created = dt.datetime.fromisoformat(issue["created"]).replace(tzinfo=dt.UTC)
+        ET.SubElement(
+            item, "guid", {"isPermaLink": "true"}).text = issue["url"]
+        created = dt.datetime.fromisoformat(
+            issue["created"]).replace(tzinfo=dt.UTC)
         ET.SubElement(item, "pubDate").text = format_datetime(created)
         labels = issue.get("labels", [])
         description = f"{issue['repo']} · {format_stars(repositories[issue['repo']]['stars'])} stars"
@@ -680,16 +716,20 @@ def render_language_feeds(
     beginner = [issue for issue in issues if issue["level"] == "beginner"]
     beginner.sort(key=lambda issue: issue["created"], reverse=True)
     language_issues = {
-        language: [issue for issue in beginner if repositories[issue["repo"]]["language"] == language]
+        language: [
+            issue for issue in beginner if repositories[issue["repo"]]["language"] == language]
         for language in languages
     }
     topic_issues = {
-        slug: [issue for issue in beginner if slug in repositories[issue["repo"]]["buckets"]]
+        slug: [
+            issue for issue in beginner if slug in repositories[issue["repo"]]["buckets"]]
         for slug in config["topics"]
     }
 
-    feeds = [(language, f"{slug}.xml", language_issues[language]) for language, slug in languages.items()]
-    feeds += [(b["title"], f"topics/{slug}.xml", topic_issues[slug]) for slug, b in config["topics"].items()]
+    feeds = [(language, f"{slug}.xml", language_issues[language])
+             for language, slug in languages.items()]
+    feeds += [(b["title"], f"topics/{slug}.xml", topic_issues[slug])
+              for slug, b in config["topics"].items()]
     autodiscovery_links = [
         f'  <link rel="alternate" type="application/rss+xml" '
         f'title="{html.escape(title)} beginner issues" href="{href}">'
@@ -727,7 +767,8 @@ def render_language_feeds(
         beginner_issues = language_issues[language]
         if beginner_issues:
             # Empty feeds stay on disk for existing subscribers but are not listed.
-            feed_index.append(f'        <li><a href="{slug}.xml">{language} ({len(beginner_issues)})</a></li>')
+            feed_index.append(
+                f'        <li><a href="{slug}.xml">{language} ({len(beginner_issues)})</a></li>')
 
         tree = _build_rss_tree(
             title=language,
@@ -762,7 +803,8 @@ def render_language_feeds(
             feed_url_prefix="topics/",
             page_url_segment="by-topic",
         )
-        tree.write(topics_dir / f"{slug}.xml", encoding="utf-8", xml_declaration=True)
+        tree.write(topics_dir / f"{slug}.xml",
+                   encoding="utf-8", xml_declaration=True)
 
     feed_index.extend(
         [
@@ -772,7 +814,8 @@ def render_language_feeds(
         ]
     )
     for title, slug, count in topic_rows:
-        feed_index.append(f'        <li><a href="topics/{slug}.xml">{title} ({count})</a></li>')
+        feed_index.append(
+            f'        <li><a href="topics/{slug}.xml">{title} ({count})</a></li>')
     feed_index.extend(
         [
             "      </ul>",
@@ -793,14 +836,16 @@ def render_language_feeds(
 def render(config: dict[str, Any]) -> None:
     payload = read_json(ISSUES_PATH, None)
     if not payload:
-        raise SystemExit("data/issues.json is missing; run `radar.py fetch` first.")
+        raise SystemExit(
+            "data/issues.json is missing; run `radar.py fetch` first.")
     repositories = payload["repositories"]
     issues = payload["issues"]
     generated_at = payload["generated_at"]
     limit = config["issues"]["max_per_page"]
     languages: dict[str, str] = config["languages"]
 
-    render_language_feeds(languages, repositories, issues, generated_at, config)
+    render_language_feeds(languages, repositories,
+                          issues, generated_at, config)
 
     by_language_dir = ROOT / "issues" / "by-language"
     by_topic_dir = ROOT / "issues" / "by-topic"
@@ -811,7 +856,8 @@ def render(config: dict[str, Any]) -> None:
 
     language_rows = []
     for language, slug in languages.items():
-        subset = [issue for issue in issues if repositories[issue["repo"]]["language"] == language]
+        subset = [issue for issue in issues if repositories[issue["repo"]]
+                  ["language"] == language]
         if not subset:
             continue
         repo_count = len({issue["repo"] for issue in subset})
@@ -826,12 +872,15 @@ def render(config: dict[str, Any]) -> None:
         ) + issue_table(subset, repositories, limit)
         if len(subset) > limit:
             body += f"\n\nShowing the {limit} most recently updated. See all {len(subset)} on the website."
-        (by_language_dir / f"{slug}.md").write_text(body + "\n", encoding="utf-8")
-        language_rows.append((language, slug, len(subset), beginner, repo_count))
+        (by_language_dir /
+         f"{slug}.md").write_text(body + "\n", encoding="utf-8")
+        language_rows.append(
+            (language, slug, len(subset), beginner, repo_count))
 
     topic_rows = []
     for slug, bucket in config["topics"].items():
-        subset = [issue for issue in issues if slug in repositories[issue["repo"]]["buckets"]]
+        subset = [
+            issue for issue in issues if slug in repositories[issue["repo"]]["buckets"]]
         if not subset:
             continue
         repo_count = len({issue["repo"] for issue in subset})
@@ -845,7 +894,8 @@ def render(config: dict[str, Any]) -> None:
         if len(subset) > limit:
             body += f"\n\nShowing the {limit} most recently updated. See all {len(subset)} on the website."
         (by_topic_dir / f"{slug}.md").write_text(body + "\n", encoding="utf-8")
-        topic_rows.append((bucket["title"], slug, len(subset), beginner, repo_count))
+        topic_rows.append(
+            (bucket["title"], slug, len(subset), beginner, repo_count))
 
     language_rows.sort(key=lambda row: row[2], reverse=True)
     topic_rows.sort(key=lambda row: row[2], reverse=True)
@@ -880,9 +930,11 @@ def render(config: dict[str, Any]) -> None:
     (ROOT / "issues" / "README.md").write_text("\n".join(index), encoding="utf-8")
 
     render_projects(repositories, issues, config, generated_at)
-    update_readme_stats(len(issues), len(repositories), beginner_total, language_rows, topic_rows, generated_at)
+    update_readme_stats(len(issues), len(repositories),
+                        beginner_total, language_rows, topic_rows, generated_at)
     # Only link feeds that the feed index lists; the others are empty.
-    feed_languages = {repositories[issue["repo"]]["language"] for issue in issues if issue["level"] == "beginner"}
+    feed_languages = {repositories[issue["repo"]]["language"]
+                      for issue in issues if issue["level"] == "beginner"}
     # Repos can carry buckets that are no longer configured topics; those have no feed file.
     feed_topic_slugs = {
         bucket
@@ -909,11 +961,14 @@ def render_projects(
     beginner_counts: dict[str, int] = {}
     for issue in issues:
         if issue["level"] == "beginner":
-            beginner_counts[issue["repo"]] = beginner_counts.get(issue["repo"], 0) + 1
+            beginner_counts[issue["repo"]] = beginner_counts.get(
+                issue["repo"], 0) + 1
     by_language: dict[str, list[tuple[str, dict[str, Any]]]] = {}
     for full_name, repo in repositories.items():
-        by_language.setdefault(repo.get("language") or "Other", []).append((full_name, repo))
-    ordered = sorted(by_language.items(), key=lambda entry: len(entry[1]), reverse=True)
+        by_language.setdefault(repo.get("language")
+                               or "Other", []).append((full_name, repo))
+    ordered = sorted(by_language.items(),
+                     key=lambda entry: len(entry[1]), reverse=True)
     slugs: dict[str, str] = config["languages"]
 
     lines = [
@@ -974,7 +1029,8 @@ def update_readme_stats(
     top_languages = " · ".join(
         f"[{name}](issues/by-language/{slug}.md) ({count})" for name, slug, count, _, _ in language_rows[:12]
     )
-    top_topics = " · ".join(f"[{name}](issues/by-topic/{slug}.md) ({count})" for name, slug, count, _, _ in topic_rows)
+    top_topics = " · ".join(
+        f"[{name}](issues/by-topic/{slug}.md) ({count})" for name, slug, count, _, _ in topic_rows)
     block = (
         "<!-- RADAR:STATS:START -->\n"
         f"**{issue_count:,}** open issues · **{beginner_count:,}** labeled for beginners · "
@@ -984,7 +1040,8 @@ def update_readme_stats(
         "<!-- RADAR:STATS:END -->"
     )
     text = readme.read_text(encoding="utf-8")
-    updated = re.sub(r"<!-- RADAR:STATS:START -->.*?<!-- RADAR:STATS:END -->", lambda _: block, text, flags=re.DOTALL)
+    updated = re.sub(r"<!-- RADAR:STATS:START -->.*?<!-- RADAR:STATS:END -->",
+                     lambda _: block, text, flags=re.DOTALL)
     readme.write_text(updated, encoding="utf-8")
 
 
@@ -994,9 +1051,12 @@ def update_readme_stats(
 
 
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("command", choices=["discover", "fetch", "render", "all"])
-    parser.add_argument("--languages", help="comma-separated subset of configured languages (for local testing)")
+    parser = argparse.ArgumentParser(
+        description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser.add_argument("command", choices=[
+                        "discover", "fetch", "render", "all"])
+    parser.add_argument(
+        "--languages", help="comma-separated subset of configured languages (for local testing)")
     parser.add_argument(
         "--force", action="store_true", help="write results even if far fewer issues were found than last time"
     )
@@ -1005,7 +1065,8 @@ def main(argv: list[str] | None = None) -> int:
     config = load_config()
     if args.languages:
         wanted = {name.strip() for name in args.languages.split(",")}
-        config["languages"] = {name: slug for name, slug in config["languages"].items() if name in wanted}
+        config["languages"] = {
+            name: slug for name, slug in config["languages"].items() if name in wanted}
     token = os.environ.get("GITHUB_TOKEN", "")
 
     if args.command in ("discover", "all"):
