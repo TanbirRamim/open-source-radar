@@ -148,6 +148,7 @@ Thank you to everyone who has made the radar better:
 - [@shivangmathur2008-stack](https://github.com/shivangmathur2008-stack): contributing guide links in the issue tables ([#115](https://github.com/TanbirRamim/open-source-radar/pull/115))
 - [@08abhinav](https://github.com/08abhinav): Hindi translation of chapter 8 ([#122](https://github.com/TanbirRamim/open-source-radar/pull/122))
 - [@qiaobochi040726-source](https://github.com/qiaobochi040726-source): tests for the date and GraphQL string helpers ([#123](https://github.com/TanbirRamim/open-source-radar/pull/123))
+- [@TejasDharmale](https://github.com/TejasDharmale): tests for markdown escaping ([#128](https://github.com/TanbirRamim/open-source-radar/pull/128))
 
 Your name goes here with your first merged pull request. And if the radar helped you, please give it a star: it's the simplest way to help other newcomers find it.
 
