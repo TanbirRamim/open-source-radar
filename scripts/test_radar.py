@@ -162,6 +162,10 @@ class AvailabilityTests(unittest.TestCase):
             "assign me please",
             "Please assign me this issue",
             "ASSIGN ME, PLEASE",
+            "Can I give a try to it",
+            "Can I give it a try?",
+            "Could I give this a try?",
+            "May I give a try?",
         ]:
             with self.subTest(body=body):
                 claimed = issue(comments={"nodes": [comment(body)]})
@@ -175,6 +179,8 @@ class AvailabilityTests(unittest.TestCase):
             "I would be happy to review a PR",
             "I'm interested in working on my own project",
             "Please assign membership roles",
+            "Can anyone give it a try?",
+            "You could give it a try",
         ]:
             with self.subTest(body=body):
                 available = issue(comments={"nodes": [comment(body)]})
