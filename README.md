@@ -66,7 +66,7 @@ Open Source Radar fixes the first part with data and the second part with a guid
 8. [Reviews, feedback and rejection](guide/08-reviews.md)
 9. [Keep going](guide/09-keep-going.md)
 
-Plus a [glossary](guide/glossary.md) and [quickstarts for 14 languages](languages/README.md).
+Plus a [glossary](guide/glossary.md) and [quickstarts for 21 languages](languages/README.md).
 
 ## How issues are selected
 
