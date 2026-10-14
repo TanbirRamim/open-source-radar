@@ -19,6 +19,14 @@ Kinds of contributions that are welcome:
 - **Report a stale or wrong listing.** If a listed issue is already taken, closed or not beginner friendly, [open a wrong listing report](https://github.com/TanbirRamim/open-source-radar/issues/new?template=wrong-listing.yml). It takes a minute and saves the next person from a dead end.
 - **Star the repository.** If the radar helped you, a star helps other newcomers find it.
 
+Done here and want something different? The same maintainer runs a few smaller projects that also have open good first issues, with the same `/claim` flow and quick reviews:
+
+- [show-receipts](https://github.com/TanbirRamim/show-receipts/issues?q=is%3Aopen+label%3A%22good+first+issue%22) (Python): a stop hook that checks an AI agent's "all tests pass" claims against the transcript
+- [skill-trigger-bench](https://github.com/TanbirRamim/skill-trigger-bench/issues?q=is%3Aopen+label%3A%22good+first+issue%22) (Python): lint and eval for Agent Skills
+- [callm](https://github.com/TanbirRamim/callm/issues?q=is%3Aopen+label%3A%22good+first+issue%22) (Python): caching, retries, fallbacks and cost tracking for LLM calls
+- [vibereel](https://github.com/TanbirRamim/vibereel/issues?q=is%3Aopen+label%3A%22good+first+issue%22) (TypeScript): turn a Claude Code or Codex session into a short film
+- [pr-doorman](https://github.com/TanbirRamim/pr-doorman/issues?q=is%3Aopen+label%3A%22good+first+issue%22) (TypeScript): a GitHub Action that checks new pull requests against plain rules, no AI
+
 ## Do not edit generated files
 
 These are rebuilt by the scheduled workflow, and manual edits are overwritten:
