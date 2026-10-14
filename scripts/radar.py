@@ -425,7 +425,9 @@ BEGINNER = re.compile(r"first[- ]timers|good[- ]first|beginner|\beasy\b|(?<![\w-
 
 def difficulty(labels: list[str]) -> str:
     joined = " ".join(labels).lower()
-    if re.search(r"first[- ]timers|good[- ]first|beginner|easy|starter", joined):
+    if NEGATION.search(joined):
+        return "help-wanted"
+    if BEGINNER.search(joined):
         return "beginner"
     return "help-wanted"
 

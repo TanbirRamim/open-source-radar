@@ -278,7 +278,10 @@ class TopicAndLabelTests(unittest.TestCase):
     def test_difficulty(self):
         self.assertEqual(radar.difficulty(["good first issue"]), "beginner")
         self.assertEqual(radar.difficulty(["E-easy", "A-parser"]), "beginner")
+        self.assertEqual(radar.difficulty(["starter"]), "beginner")
         self.assertEqual(radar.difficulty(["help wanted"]), "help-wanted")
+        self.assertEqual(radar.difficulty(["not easy"]), "help-wanted")
+        self.assertEqual(radar.difficulty(["self-starter"]), "help-wanted")
 
 
 class MarkdownTests(unittest.TestCase):
