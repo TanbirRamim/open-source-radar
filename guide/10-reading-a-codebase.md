@@ -1,6 +1,6 @@
 # 10. Reading a codebase
 
-A common first wall is opening a project with thousands of files and not knowing where to start.Follow the steps below for the same. 
+A common first wall is opening a project with thousands of files and not knowing where to start. You don't need to understand all of it, only the path from the issue to the code you'll change.
 
 ## Where to start looking
 
@@ -36,3 +36,5 @@ When you find the file you need to change, Git can tell you its history:
 - [ ] I found the test suite, ran it, and made sure all tests pass locally.
 - [ ] I searched for the error text or UI string from the issue to locate relevant files.
 - [ ] I checked recent merged PRs or git history for context on conventions.
+
+Back to the [guide index](README.md) · Find your next issue in the [issue index](../issues/README.md).

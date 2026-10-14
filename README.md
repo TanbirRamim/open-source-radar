@@ -65,6 +65,7 @@ Open Source Radar fixes the first part with data and the second part with a guid
 7. [Talking to maintainers](guide/07-communication.md)
 8. [Reviews, feedback and rejection](guide/08-reviews.md)
 9. [Keep going](guide/09-keep-going.md)
+10. [Reading a codebase](guide/10-reading-a-codebase.md)
 
 Plus a [glossary](guide/glossary.md) and [quickstarts for 22 languages](languages/README.md).
 
