@@ -17,6 +17,7 @@
 | 7 | [Maintainers से बातचीत करना](07-communication.md) | Issue claim करना, अच्छे सवाल पूछना और ऐसी PR descriptions लिखना जिन्हें लोग review करना चाहें |
 | 8 | [Reviews, feedback और rejection](08-reviews.md) | Change requests, CI failures, चुप्पी और “नहीं” को संभालना |
 | 9 | [आगे बढ़ते रहें](../09-keep-going.md) (English) | एक PR से एक अच्छे track record तक: नियमित contributor, reviewer और maintainer बनना |
+| 10 | [कोडबेस को पढ़ना और समझना](10-reading-a-codebase.md) | किसी प्रोजेक्ट की संरचना समझना, कोड का execution flow trace करना और tests व Git history की मदद से कोड को समझना |
 
 यह भी उपयोगी है:
 
