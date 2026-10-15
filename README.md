@@ -154,6 +154,7 @@ Thank you to everyone who has made the radar better:
 - [@feyzasagman](https://github.com/feyzasagman): better claim detection ([#126](https://github.com/TanbirRamim/open-source-radar/pull/126))
 - [@minutechreview](https://github.com/minutechreview): sanity test for config.toml topics ([#112](https://github.com/TanbirRamim/open-source-radar/pull/112))
 - [@SKSavale](https://github.com/SKSavale): guide chapter navigation test ([#149](https://github.com/TanbirRamim/open-source-radar/pull/149))
+- [@vivan070707-ctrl](https://github.com/vivan070707-ctrl): Hindi translation of chapter 10 ([#151](https://github.com/TanbirRamim/open-source-radar/pull/151))
 
 Your name goes here with your first merged pull request. And if the radar helped you, please give it a star: it's the simplest way to help other newcomers find it.
 

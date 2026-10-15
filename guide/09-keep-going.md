@@ -56,4 +56,4 @@ When you publish something yourself, the things that made projects welcoming to 
 
 Back to the [guide index](README.md) · Find your next issue in the [issue index](../issues/README.md).
 
-Next: [Reading and understanding a codebase](10-reading-a-codebase.md)
+Next: [Reading a codebase](10-reading-a-codebase.md)
