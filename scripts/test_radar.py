@@ -1297,5 +1297,51 @@ class LanguageQuickstartsInSyncTests(unittest.TestCase):
         self.assertEqual(sorted(set(self._quickstarts()) - linked), [])
 
 
+class GuideChapterNavigationTests(unittest.TestCase):
+    """Tests that every numbered guide chapter ends with a valid navigation link."""
+
+    def test_every_chapter_ends_with_navigation_link(self):
+        guide_dir = Path(__file__).resolve().parent.parent / "guide"
+        chapters = sorted(guide_dir.glob("[0-9][0-9]-*.md"))
+
+        self.assertTrue(chapters, "No numbered guide chapters were found.")
+
+        for chapter in chapters:
+            with self.subTest(chapter=chapter.name):
+                lines = chapter.read_text(encoding="utf-8").splitlines()
+                non_empty_lines = [line.strip() for line in lines if line.strip()]
+
+                self.assertTrue(
+                    non_empty_lines,
+                    f"{chapter.name} is empty.",
+                )
+
+                last_line = non_empty_lines[-1]
+
+                self.assertTrue(
+                    last_line.startswith("Next: [") or last_line.startswith("Back to the [guide index]"),
+                    f"{chapter.name} does not end with a navigation link.",
+                )
+
+                if last_line.startswith("Next: ["):
+                    match = re.search(r"\]\(([^)]+)\)", last_line)
+
+                    self.assertIsNotNone(
+                        match,
+                        f"{chapter.name} has a malformed Next link.",
+                    )
+
+                    target = match.group(1)
+                    target_path = (chapter.parent / target).resolve()
+
+                    chapter_number = int(chapter.name[:2])
+                    expected_next = f"{chapter_number + 1:02d}-"
+
+                    self.assertTrue(
+                        target_path.name.startswith(expected_next),
+                        f"{chapter.name} should link to chapter {chapter_number + 1:02d}, but links to {target}.",
+                    )
+
+
 if __name__ == "__main__":
     unittest.main()
