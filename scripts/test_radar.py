@@ -1318,9 +1318,11 @@ class GuideChapterNavigationTests(unittest.TestCase):
 
                 last_line = non_empty_lines[-1]
 
+                # Only the final chapter may end with the index link; every other one needs Next.
+                expected_start = "Back to the [guide index]" if chapter == chapters[-1] else "Next: ["
                 self.assertTrue(
-                    last_line.startswith("Next: [") or last_line.startswith("Back to the [guide index]"),
-                    f"{chapter.name} does not end with a navigation link.",
+                    last_line.startswith(expected_start),
+                    f"{chapter.name} should end with a line starting {expected_start!r}.",
                 )
 
                 if last_line.startswith("Next: ["):
@@ -1337,6 +1339,7 @@ class GuideChapterNavigationTests(unittest.TestCase):
                     chapter_number = int(chapter.name[:2])
                     expected_next = f"{chapter_number + 1:02d}-"
 
+                    self.assertTrue(target_path.exists(), f"{chapter.name} links to missing {target}.")
                     self.assertTrue(
                         target_path.name.startswith(expected_next),
                         f"{chapter.name} should link to chapter {chapter_number + 1:02d}, but links to {target}.",

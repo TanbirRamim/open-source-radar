@@ -153,6 +153,7 @@ Thank you to everyone who has made the radar better:
 - [@asxxb](https://github.com/asxxb): Zig quickstart ([#127](https://github.com/TanbirRamim/open-source-radar/pull/127))
 - [@feyzasagman](https://github.com/feyzasagman): better claim detection ([#126](https://github.com/TanbirRamim/open-source-radar/pull/126))
 - [@minutechreview](https://github.com/minutechreview): sanity test for config.toml topics ([#112](https://github.com/TanbirRamim/open-source-radar/pull/112))
+- [@SKSavale](https://github.com/SKSavale): guide chapter navigation test ([#149](https://github.com/TanbirRamim/open-source-radar/pull/149))
 
 Your name goes here with your first merged pull request. And if the radar helped you, please give it a star: it's the simplest way to help other newcomers find it.
 
