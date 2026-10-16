@@ -372,6 +372,7 @@ class TopicAndLabelTests(unittest.TestCase):
         self.assertEqual(radar.difficulty(["help wanted"]), "help-wanted")
         self.assertEqual(radar.difficulty(["not easy"]), "help-wanted")
         self.assertEqual(radar.difficulty(["self-starter"]), "help-wanted")
+        self.assertEqual(radar.difficulty(["good first issue", "not stale"]), "beginner")
 
 
 class MarkdownTests(unittest.TestCase):

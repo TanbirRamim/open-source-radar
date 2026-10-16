@@ -438,11 +438,11 @@ BEGINNER = re.compile(r"first[- ]timers|good[- ]first|beginner|\beasy\b|(?<![\w-
 
 
 def difficulty(labels: list[str]) -> str:
-    joined = " ".join(labels).lower()
-    if NEGATION.search(joined):
-        return "help-wanted"
-    if BEGINNER.search(joined):
-        return "beginner"
+    # Check each label on its own, so a negation like "not stale" can't cancel "good first issue".
+    for label in labels:
+        label = label.lower()
+        if not NEGATION.search(label) and BEGINNER.search(label):
+            return "beginner"
     return "help-wanted"
 
 
