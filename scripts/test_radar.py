@@ -599,6 +599,8 @@ class SafetyTests(unittest.TestCase):
         with self.assertRaises(SystemExit) as stopped:
             radar.check_not_shrunk(1000, 599, 0.6)  # one below stops the refresh
         self.assertIn("--force", str(stopped.exception))
+        # The counts tell the maintainer how big the drop was before reaching for --force.
+        self.assertIn("599 issues collected, previously 1000", str(stopped.exception))
 
 
 class QueryTests(unittest.TestCase):
