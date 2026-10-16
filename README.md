@@ -158,6 +158,7 @@ Thank you to everyone who has made the radar better:
 - [@O1sumitkumar](https://github.com/O1sumitkumar): shrink guard threshold test ([#155](https://github.com/TanbirRamim/open-source-radar/pull/155))
 - [@Jeevan-git-06](https://github.com/Jeevan-git-06): Escape clears the website search ([#158](https://github.com/TanbirRamim/open-source-radar/pull/158))
 - [@aryansinha1908](https://github.com/aryansinha1908): copy button for the GitHub search ([#162](https://github.com/TanbirRamim/open-source-radar/pull/162))
+- [@akash-yadav03](https://github.com/akash-yadav03): filtered count in the tab title ([#165](https://github.com/TanbirRamim/open-source-radar/pull/165))
 
 Your name goes here with your first merged pull request. And if the radar helped you, please give it a star: it's the simplest way to help other newcomers find it.
 
