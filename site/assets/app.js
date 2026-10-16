@@ -172,6 +172,7 @@
 
     const hasFilter = values.language || values.topic || values.level ||
       values.activity || values.rules || values.q;
+    form.querySelector("button.reset").disabled = !hasFilter;
     if (!hasFilter) {
       document.title = originalTitle;
     } else {
