@@ -24,6 +24,7 @@ Short, practical notes on how projects in each language are usually built, teste
 | [OCaml](ocaml.md) | opam + dune | [issues](../issues/by-language/ocaml.md) |
 | [Elixir](elixir.md) | Elixir + Mix (Erlang/OTP) | [issues](../issues/by-language/elixir.md) |
 | [Julia](julia.md) | Julia + Pkg | [issues](../issues/by-language/julia.md) |
+| [Nix](nix.md) | Nix + flakes | [issues](../issues/by-language/nix.md) |
 | [Zig](zig.md) | Zig toolchain | [issues](../issues/by-language/zig.md) |
 | [Erlang](erlang.md) | Erlang/OTP + Rebar3 | [issues](../issues/by-language/erlang.md) |
 | [R](r.md) | R + renv / testthat | [issues](../issues/by-language/r.md) |
