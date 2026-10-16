@@ -159,6 +159,8 @@ Thank you to everyone who has made the radar better:
 - [@Jeevan-git-06](https://github.com/Jeevan-git-06): Escape clears the website search ([#158](https://github.com/TanbirRamim/open-source-radar/pull/158))
 - [@aryansinha1908](https://github.com/aryansinha1908): copy button for the GitHub search ([#162](https://github.com/TanbirRamim/open-source-radar/pull/162))
 - [@akash-yadav03](https://github.com/akash-yadav03): filtered count in the tab title ([#165](https://github.com/TanbirRamim/open-source-radar/pull/165))
+- [@ducanhnguyen223](https://github.com/ducanhnguyen223): Vue quickstart ([#169](https://github.com/TanbirRamim/open-source-radar/pull/169))
+- [@HarshRajSinghania](https://github.com/HarshRajSinghania): disabled Clear filters when idle ([#170](https://github.com/TanbirRamim/open-source-radar/pull/170))
 
 Your name goes here with your first merged pull request. And if the radar helped you, please give it a star: it's the simplest way to help other newcomers find it.
 
