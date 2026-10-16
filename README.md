@@ -162,6 +162,7 @@ Thank you to everyone who has made the radar better:
 - [@ducanhnguyen223](https://github.com/ducanhnguyen223): Vue quickstart ([#169](https://github.com/TanbirRamim/open-source-radar/pull/169))
 - [@HarshRajSinghania](https://github.com/HarshRajSinghania): disabled Clear filters when idle ([#170](https://github.com/TanbirRamim/open-source-radar/pull/170))
 - [@TejasDharmale](https://github.com/TejasDharmale): fewer false beginner labels ([#134](https://github.com/TanbirRamim/open-source-radar/pull/134))
+- [@Adarsh2345](https://github.com/Adarsh2345): Windows CI ([#174](https://github.com/TanbirRamim/open-source-radar/pull/174))
 
 Your name goes here with your first merged pull request. And if the radar helped you, please give it a star: it's the simplest way to help other newcomers find it.
 
