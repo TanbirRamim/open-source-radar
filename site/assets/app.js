@@ -19,6 +19,7 @@
   const moreButton = document.getElementById("more-button");
   const queryText = document.getElementById("query-text");
   const queryLink = document.getElementById("query-link");
+  const queryCopy = document.getElementById("query-copy");
   const updated = document.getElementById("updated");
   const languageFeed = document.getElementById("language-feed");
   const languageFeedLink = document.getElementById("language-feed-link");
@@ -354,6 +355,19 @@
       renderMore();
       const link = list.children[firstNew]?.querySelector(".issue-title");
       if (link) link.focus();
+    });
+
+    let copyTimer = null;
+
+    queryCopy.addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText(queryText.textContent);
+      } catch (error) {
+        return; // clipboard unavailable (e.g. file:// in some browsers): leave the button as is
+      }
+      queryCopy.textContent = "Copied";
+      clearTimeout(copyTimer);
+      copyTimer = setTimeout(() => { queryCopy.textContent = "Copy"; }, 1500);
     });
   }
 
