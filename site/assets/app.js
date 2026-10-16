@@ -11,6 +11,7 @@
   ]);
   const BEGINNER_LABEL = 'label:"good first issue"';
   const form = document.getElementById("filters");
+  const originalTitle = document.title;
   const list = document.getElementById("issue-list");
   const template = document.getElementById("issue-template");
   const summary = document.getElementById("summary");
@@ -167,6 +168,18 @@
     list.replaceChildren();
     shown = 0;
     renderMore();
+
+    const hasFilter = values.language || values.topic || values.level ||
+      values.activity || values.rules || values.q;
+    if (!hasFilter) {
+      document.title = originalTitle;
+    } else {
+      const issueCount = numberFormat.format(filtered.length);
+      const countLabel = `${issueCount} ${filtered.length === 1 ? "issue" : "issues"}`;
+      document.title = values.language
+        ? `${values.language} · ${countLabel} · Open Source Radar`
+        : `${countLabel} · Open Source Radar`;
+    }
 
     const projectCount = new Set(filtered.map((issue) => issue.repo)).size;
     summary.innerHTML = filtered.length
