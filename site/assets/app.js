@@ -325,25 +325,25 @@
     form.addEventListener("reset", () => setTimeout(applyFilters, 0));
 
     document.addEventListener("keydown", (event) => {
-  if (
-    event.key === "/" &&
-    !["INPUT", "SELECT", "TEXTAREA"].includes(document.activeElement?.tagName)
-  ) {
-    event.preventDefault();
-    form.elements.q.focus();
-  }
+      if (
+        event.key === "/" &&
+        !["INPUT", "SELECT", "TEXTAREA"].includes(document.activeElement?.tagName)
+      ) {
+        event.preventDefault();
+        form.elements.q.focus();
+      }
 
-  if (event.key === "Escape" && document.activeElement === form.elements.q) {
-    event.preventDefault();
+      if (event.key === "Escape" && document.activeElement === form.elements.q) {
+        event.preventDefault();
 
-    if (form.elements.q.value) {
-      form.elements.q.value = "";
-      applyFilters();
-    } else {
-      form.elements.q.blur();
-    }
-  }
-});
+        if (form.elements.q.value) {
+          form.elements.q.value = "";
+          applyFilters();
+        } else {
+          form.elements.q.blur();
+        }
+      }
+    });
 
     document.getElementById("empty-reset").addEventListener("click", () => {
       form.reset();
