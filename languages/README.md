@@ -6,6 +6,7 @@ Short, practical notes on how projects in each language are usually built, teste
 | --- | --- | --- |
 | [JavaScript](javascript.md) | Node.js | [issues](../issues/by-language/javascript.md) |
 | [TypeScript](typescript.md) | Node.js + tsc | [issues](../issues/by-language/typescript.md) |
+| [Vue](vue.md) | Node.js + Vite | [issues](../issues/by-language/vue.md) |
 | [Python](python.md) | CPython | [issues](../issues/by-language/python.md) |
 | [Go](go.md) | Go toolchain | [issues](../issues/by-language/go.md) |
 | [Rust](rust.md) | rustup + Cargo | [issues](../issues/by-language/rust.md) |
