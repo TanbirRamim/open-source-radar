@@ -164,6 +164,7 @@ Thank you to everyone who has made the radar better:
 - [@TejasDharmale](https://github.com/TejasDharmale): fewer false beginner labels ([#134](https://github.com/TanbirRamim/open-source-radar/pull/134))
 - [@Adarsh2345](https://github.com/Adarsh2345): Windows CI ([#174](https://github.com/TanbirRamim/open-source-radar/pull/174))
 - [@AOF-Systems](https://github.com/AOF-Systems): RSS feed test for odd titles ([#179](https://github.com/TanbirRamim/open-source-radar/pull/179))
+- [@ElectLive](https://github.com/ElectLive): case-insensitive --languages ([#176](https://github.com/TanbirRamim/open-source-radar/pull/176))
 
 Your name goes here with your first merged pull request. And if the radar helped you, please give it a star: it's the simplest way to help other newcomers find it.
 
