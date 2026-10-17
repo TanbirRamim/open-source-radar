@@ -839,6 +839,17 @@ class MaintainerReplyFetchTests(unittest.TestCase):
 
 
 class RenderSmokeTests(unittest.TestCase):
+    def test_render_exits_with_fetch_hint_when_issues_file_is_missing(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            missing_issues_path = Path(tmp) / "issues.json"
+            config = {"issues": {"max_per_page": 10}, "languages": {}, "topics": {}}
+
+            with (
+                patch.object(radar, "ISSUES_PATH", missing_issues_path),
+                self.assertRaisesRegex(SystemExit, "radar.py fetch"),
+            ):
+                radar.render(config)
+
     def test_render_writes_primary_outputs(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
