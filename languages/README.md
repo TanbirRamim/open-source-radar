@@ -14,6 +14,7 @@ Short, practical notes on how projects in each language are usually built, teste
 | [Java](java.md) | JDK + Maven/Gradle | [issues](../issues/by-language/java.md) |
 | [Kotlin](kotlin.md) | JDK + Gradle | [issues](../issues/by-language/kotlin.md) |
 | [C#](csharp.md) | .NET SDK | [issues](../issues/by-language/csharp.md) |
+| [Clojure](clojure.md) | Clojure CLI / Leiningen | [issues](../issues/by-language/clojure.md) |
 | [C++](cpp.md) | CMake + a compiler | [issues](../issues/by-language/cpp.md) |
 | [C](c.md) | Make/CMake/Meson + a compiler | [issues](../issues/by-language/c.md) |
 | [PHP](php.md) | PHP + Composer | [issues](../issues/by-language/php.md) |
