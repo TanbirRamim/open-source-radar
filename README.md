@@ -171,6 +171,8 @@ Thank you to everyone who has made the radar better:
 - [@Golden007-prog](https://github.com/Golden007-prog): keep the list in view after filtering ([#190](https://github.com/TanbirRamim/open-source-radar/pull/190))
 - [@githarshil](https://github.com/githarshil): Spanish translation of chapter 8 ([#194](https://github.com/TanbirRamim/open-source-radar/pull/194))
 - [@cc0006-coder](https://github.com/cc0006-coder): shared /claim matcher ([#195](https://github.com/TanbirRamim/open-source-radar/pull/195))
+- [@Aoi-Todoo](https://github.com/Aoi-Todoo): tests for the stale-claim rule ([#199](https://github.com/TanbirRamim/open-source-radar/pull/199))
+- [@cc0006-coder](https://github.com/cc0006-coder): Clojure quickstart ([#200](https://github.com/TanbirRamim/open-source-radar/pull/200))
 
 Your name goes here with your first merged pull request. And if the radar helped you, please give it a star: it's the simplest way to help other newcomers find it.
 
