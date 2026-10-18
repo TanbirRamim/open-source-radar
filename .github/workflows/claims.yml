@@ -1,7 +1,7 @@
 name: claims
 
 # Self-serve issue claims, the way larger projects run them:
-#   /claim    assigns you right away, no need to wait for a maintainer
+#   /claim    assigns you right away (on its own line, anywhere in the comment)
 #   /unclaim  hands the issue back
 # A daily job frees claims that went quiet (see STALE_DAYS) so nobody holds an issue forever.
 
@@ -26,7 +26,7 @@ jobs:
     if: >-
       github.event_name == 'issue_comment' && !github.event.issue.pull_request &&
       github.event.issue.state == 'open' && github.event.comment.user.type != 'Bot' &&
-      (startsWith(github.event.comment.body, '/claim') || startsWith(github.event.comment.body, '/unclaim'))
+      (contains(github.event.comment.body, '/claim') || contains(github.event.comment.body, '/unclaim'))
     runs-on: ubuntu-latest
     permissions:
       issues: write
@@ -37,7 +37,12 @@ jobs:
             const { owner, repo } = context.repo;
             const issue = context.payload.issue;
             const user = context.payload.comment.user.login;
-            const body = context.payload.comment.body.trim();
+            // The command can sit on any line ("hi, I'd like this one\n/claim"), but not inside a quote.
+            const body = context.payload.comment.body
+              .split("\n")
+              .map((line) => line.trim())
+              .find((line) => line.startsWith("/claim") || line.startsWith("/unclaim"));
+            if (!body) return;
             const assignees = issue.assignees.map((a) => a.login);
             const reply = (text) =>
               github.rest.issues.createComment({ owner, repo, issue_number: issue.number, body: text });
