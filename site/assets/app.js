@@ -134,7 +134,7 @@
     return true;
   }
 
-  function applyFilters() {
+  function applyFilters(scrollToList = false) {
     const values = readFilters();
     const needle = values.q.toLowerCase();
     const repos = data.repositories;
@@ -169,6 +169,9 @@
     list.replaceChildren();
     shown = 0;
     renderMore();
+    if (scrollToList && list.getBoundingClientRect().top < 0) {
+      list.scrollIntoView({ block: "start" });
+    }
 
     const hasFilter = values.language || values.topic || values.level ||
       values.activity || values.rules || values.q ||
@@ -338,7 +341,10 @@
     let timer = null;
     form.addEventListener("input", (event) => {
       clearTimeout(timer);
-      timer = setTimeout(applyFilters, event.target.name === "q" ? 180 : 0);
+      timer = setTimeout(
+        () => applyFilters(event.target.tagName === "SELECT"),
+        event.target.name === "q" ? 180 : 0,
+      );
     });
     form.addEventListener("submit", (event) => event.preventDefault());
     form.addEventListener("reset", () => setTimeout(applyFilters, 0));
