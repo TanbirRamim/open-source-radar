@@ -4,7 +4,7 @@ Un camino práctico desde «Quiero contribuir» hasta «Mi pull request fue acep
 
 Léelo en orden la primera vez. Cada capítulo termina con una breve lista de comprobación a la que puedes volver más adelante.
 
-[English version](../README.md) · Los capítulos 4 a 6 están traducidos al español; los demás siguen en inglés.
+[English version](../README.md) · Los capítulos 4 a 6 y el 8 están traducidos al español; los demás siguen en inglés.
 
 | # | Capítulo | Lo que aprenderás |
 | --- | --- | --- |
@@ -15,7 +15,7 @@ Léelo en orden la primera vez. Cada capítulo termina con una breve lista de co
 | 5 | [Tu primer pull request, paso a paso](05-first-pull-request.md) | Hacer fork, clonar, crear una rama, compilar, probar, hacer commit, hacer push y abrir el PR |
 | 6 | [Reglas que debes comprobar antes de empezar](06-rules-before-you-start.md) | Guías de contribución, CLA, firma DCO, políticas sobre IA y bots contra el spam |
 | 7 | [Cómo comunicarte con los mantenedores](../07-communication.md) (en inglés) | Reclamar un issue, hacer buenas preguntas y escribir descripciones de PR que las personas quieran revisar |
-| 8 | [Revisiones, comentarios y rechazos](../08-reviews.md) (en inglés) | Cómo gestionar solicitudes de cambios, fallos de CI, falta de respuesta y un «no» |
+| 8 | [Revisiones, comentarios y rechazos](08-reviews.md) | Cómo gestionar solicitudes de cambios, fallos de CI, falta de respuesta y un «no» |
 | 9 | [Sigue adelante](../09-keep-going.md) (en inglés) | Pasar de un PR a un historial de contribuciones: convertirte en colaborador habitual, revisor y mantenedor |
 
 También es útil:
