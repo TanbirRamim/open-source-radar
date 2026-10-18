@@ -1,11 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 
-const findCommand = (text) =>
-  text
-    .split("\n")
-    .map((line) => line.trim())
-    .find((line) => line.startsWith("/claim") || line.startsWith("/unclaim"));
+import { findCommand } from "./claims_command.mjs";
 
 test("findCommand recognizes claim commands on unquoted lines", () => {
   assert.equal(findCommand("/claim"), "/claim");

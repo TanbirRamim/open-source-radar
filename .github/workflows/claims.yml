@@ -30,18 +30,16 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       issues: write
+      contents: read
     steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
         with:
           script: |
             const { owner, repo } = context.repo;
             const issue = context.payload.issue;
             const user = context.payload.comment.user.login;
-            const findCommand = (text) =>
-              text
-                .split("\n")
-                .map((line) => line.trim())
-                .find((line) => line.startsWith("/claim") || line.startsWith("/unclaim"));
+            const { findCommand } = await import(`${process.env.GITHUB_WORKSPACE}/scripts/claims_command.mjs`);
             // The command can sit on any line ("hi, I'd like this one\n/claim"), but not inside a quote.
             const body = findCommand(context.payload.comment.body);
             if (!body) return;
