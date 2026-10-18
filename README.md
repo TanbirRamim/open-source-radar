@@ -165,6 +165,8 @@ Thank you to everyone who has made the radar better:
 - [@Adarsh2345](https://github.com/Adarsh2345): Windows CI ([#174](https://github.com/TanbirRamim/open-source-radar/pull/174))
 - [@AOF-Systems](https://github.com/AOF-Systems): RSS feed test for odd titles ([#179](https://github.com/TanbirRamim/open-source-radar/pull/179))
 - [@ElectLive](https://github.com/ElectLive): case-insensitive --languages ([#176](https://github.com/TanbirRamim/open-source-radar/pull/176))
+- [@Pratham2511](https://github.com/Pratham2511): pinned ruff in CI ([#184](https://github.com/TanbirRamim/open-source-radar/pull/184))
+- [@akash-yadav03](https://github.com/akash-yadav03): render missing-data test ([#183](https://github.com/TanbirRamim/open-source-radar/pull/183))
 
 Your name goes here with your first merged pull request. And if the radar helped you, please give it a star: it's the simplest way to help other newcomers find it.
 
