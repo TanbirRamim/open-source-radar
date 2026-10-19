@@ -174,6 +174,7 @@ Thank you to everyone who has made the radar better:
 - [@Aoi-Todoo](https://github.com/Aoi-Todoo): tests for the stale-claim rule ([#199](https://github.com/TanbirRamim/open-source-radar/pull/199))
 - [@cc0006-coder](https://github.com/cc0006-coder): Clojure quickstart ([#200](https://github.com/TanbirRamim/open-source-radar/pull/200))
 - [@diyawaja](https://github.com/diyawaja): Spanish translation of chapter 7 ([#202](https://github.com/TanbirRamim/open-source-radar/pull/202))
+- [@lava-m312](https://github.com/lava-m312): Spanish translation of chapter 10 ([#206](https://github.com/TanbirRamim/open-source-radar/pull/206))
 
 Your name goes here with your first merged pull request. And if the radar helped you, please give it a star: it's the simplest way to help other newcomers find it.
 
