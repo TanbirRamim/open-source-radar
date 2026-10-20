@@ -65,6 +65,7 @@
       <p class="summary" id="summary" aria-live="polite">Loading issues…</p>
       <p class="language-feed" id="language-feed" hidden><a id="language-feed-link" href=""></a></p>
       <p class="topic-feed" id="topic-feed" hidden><a id="topic-feed-link" href=""></a></p>
+      <div class="repo-card" id="repo-card" hidden></div>
     </section>
 
     <section class="filters-shell" aria-label="Filter issues">
@@ -117,6 +118,16 @@
             <option value="90">Past 90 days</option>
           </select>
         </label>
+        <label class="field">
+          <span>Signals</span>
+          <select name="signal">
+            <option value="">Any</option>
+            <option value="no-comments">No comments yet</option>
+            <option value="maintainer-replied">Maintainer replied</option>
+            <option value="no-closed-pr">No earlier closed PR</option>
+          </select>
+        </label>
+        <input type="hidden" name="repo" value="">
         <button class="reset" type="reset">Clear filters</button>
       </form>
     </section>
@@ -162,6 +173,7 @@
         <a class="issue-title" target="_blank" rel="noopener"></a>
         <p class="issue-meta">
           <a class="repo" target="_blank" rel="noopener"></a>
+          <button type="button" class="link-button only-repo">Only this project</button>
           <span class="stars"></span>
           <span class="lang"></span>
           <span class="updated"></span>

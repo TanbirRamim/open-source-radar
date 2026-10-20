@@ -26,6 +26,7 @@
   const languageFeedLink = document.getElementById("language-feed-link");
   const topicFeed = document.getElementById("topic-feed");
   const topicFeedLink = document.getElementById("topic-feed-link");
+  const repoCard = document.getElementById("repo-card");
 
   let data = null;
   let filtered = [];
@@ -54,6 +55,10 @@
     if (days === 1) return "updated yesterday";
     if (days < 60) return `updated ${days} days ago`;
     return `updated ${Math.round(days / 30)} months ago`;
+  }
+
+  function pushedAgo(isoDate) {
+    return daysAgo(isoDate).replace(/^updated/, "pushed");
   }
 
   function readFilters() {
@@ -134,6 +139,13 @@
     return true;
   }
 
+  function matchesSignal(issue, signal) {
+    if (signal === "no-comments") return issue.comments === 0;
+    if (signal === "maintainer-replied") return issue.maintainer_replied === true;
+    if (signal === "no-closed-pr") return !issue.closed_pr;
+    return true;
+  }
+
   function applyFilters(scrollToList = false) {
     const values = readFilters();
     const needle = values.q.toLowerCase();
@@ -149,6 +161,8 @@
       if (values.level && issue.level !== values.level) return false;
       if (activityCutoff !== null && !(new Date(issue.updated + "T00:00:00Z").getTime() >= activityCutoff)) return false;
       if (values.rules && !matchesRules(repo, values.rules)) return false;
+      if (values.signal && !matchesSignal(issue, values.signal)) return false;
+      if (values.repo && issue.repo !== values.repo) return false;
       if (needle) {
         const haystack = `${issue.title} ${issue.repo} ${issue.labels.join(" ")} ${repo.description}`.toLowerCase();
         if (!haystack.includes(needle)) return false;
@@ -174,7 +188,7 @@
     }
 
     const hasFilter = values.language || values.topic || values.level ||
-      values.activity || values.rules || values.q ||
+      values.activity || values.rules || values.signal || values.repo || values.q ||
       (values.sort && values.sort !== "updated");
     const resetButton = form.querySelector("button.reset");
     if (resetButton) {
@@ -185,8 +199,9 @@
     } else {
       const issueCount = numberFormat.format(filtered.length);
       const countLabel = `${issueCount} ${filtered.length === 1 ? "issue" : "issues"}`;
-      document.title = values.language
-        ? `${values.language} · ${countLabel} · Open Source Radar`
+      const scope = values.repo || values.language;
+      document.title = scope
+        ? `${scope} · ${countLabel} · Open Source Radar`
         : `${countLabel} · Open Source Radar`;
     }
 
@@ -209,7 +224,69 @@
       const topicTitle = data.topic_titles?.[values.topic];
       topicFeedLink.textContent = `RSS feed for ${topicTitle} beginner issues`;
     }
+    renderRepoCard(values.repo);
     empty.hidden = filtered.length > 0;
+  }
+
+  function setRepo(name) {
+    form.elements.repo.value = name;
+    applyFilters(true);
+  }
+
+  function renderRepoCard(name) {
+    const repo = name ? data.repositories[name] : null;
+    repoCard.hidden = !repo;
+    repoCard.replaceChildren();
+    if (!repo) return;
+
+    const heading = document.createElement("a");
+    heading.className = "repo-card-name";
+    heading.href = repo.url;
+    heading.target = "_blank";
+    heading.rel = "noopener";
+    heading.textContent = name;
+    repoCard.append(heading);
+
+    if (repo.description) {
+      const desc = document.createElement("p");
+      desc.className = "repo-desc";
+      desc.textContent = repo.description;
+      repoCard.append(desc);
+    }
+
+    const facts = document.createElement("p");
+    facts.className = "issue-meta";
+    const parts = [
+      `${compact.format(repo.stars)} stars`,
+      `${compact.format(repo.forks || 0)} forks`,
+    ];
+    if (repo.license && repo.license !== "NOASSERTION") parts.push(repo.license);
+    if (repo.pushed) parts.push(pushedAgo(repo.pushed));
+    if (typeof repo.open_count === "number") {
+      parts.push(`${numberFormat.format(repo.open_count)} open newcomer ${repo.open_count === 1 ? "issue" : "issues"}`);
+    }
+    for (const text of parts) {
+      const span = document.createElement("span");
+      span.textContent = text;
+      facts.append(span);
+    }
+    const guide = contributingPath(repo);
+    if (guide) {
+      const link = document.createElement("a");
+      link.href = `${repo.url}/blob/HEAD/${guide}`;
+      link.target = "_blank";
+      link.rel = "noopener";
+      link.textContent = "Contributing guide";
+      facts.append(link);
+    }
+    repoCard.append(facts);
+
+    const clear = document.createElement("button");
+    clear.type = "button";
+    clear.className = "link-button";
+    clear.textContent = "Show all projects";
+    clear.addEventListener("click", () => setRepo(""));
+    repoCard.append(clear);
   }
 
   // ---- Rendering -----------------------------------------------------------------------------
@@ -243,6 +320,9 @@
     const repoLink = node.querySelector(".repo");
     repoLink.href = repo.url;
     repoLink.textContent = issue.repo;
+    const onlyRepo = node.querySelector(".only-repo");
+    onlyRepo.setAttribute("aria-label", `Show only issues from ${issue.repo}`);
+    onlyRepo.addEventListener("click", () => setRepo(issue.repo));
     node.querySelector(".stars").textContent = `${compact.format(repo.stars)} stars`;
     node.querySelector(".lang").textContent = repo.language || "";
     node.querySelector(".updated").textContent = daysAgo(issue.updated);
@@ -347,7 +427,10 @@
       );
     });
     form.addEventListener("submit", (event) => event.preventDefault());
-    form.addEventListener("reset", () => setTimeout(applyFilters, 0));
+    form.addEventListener("reset", () => setTimeout(() => {
+      form.elements.repo.value = ""; // hidden inputs keep their value on reset
+      applyFilters();
+    }, 0));
 
     document.addEventListener("keydown", (event) => {
       if (
@@ -372,6 +455,7 @@
 
     document.getElementById("empty-reset").addEventListener("click", () => {
       form.reset();
+      form.elements.repo.value = "";
       applyFilters();
     });
     moreButton.addEventListener("click", () => {
