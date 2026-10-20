@@ -4,7 +4,7 @@ Un camino práctico desde «Quiero contribuir» hasta «Mi pull request fue acep
 
 Léelo en orden la primera vez. Cada capítulo termina con una breve lista de comprobación a la que puedes volver más adelante.
 
-[English version](../README.md) · Los capítulos 4 a 8 y el 10 están traducidos al español; los demás siguen en inglés.
+[English version](../README.md) · Los capítulos 4 a 10 están traducidos al español; los demás siguen en inglés.
 
 | # | Capítulo | Lo que aprenderás |
 | --- | --- | --- |
