@@ -66,4 +66,4 @@ Un pull request cerrado, con una respuesta amable y constructiva, sigue dejando 
 - [ ] Mantuve pequeño el alcance del pull request.
 - [ ] Hice seguimiento con educación, como máximo una vez por semana.
 
-Siguiente: [Sigue adelante](../09-keep-going.md) (en inglés)
+Siguiente: [Sigue adelante](09-keep-going.md)

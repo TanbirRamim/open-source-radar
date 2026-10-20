@@ -16,7 +16,7 @@ Léelo en orden la primera vez. Cada capítulo termina con una breve lista de co
 | 6 | [Reglas que debes comprobar antes de empezar](06-rules-before-you-start.md) | Guías de contribución, CLA, firma DCO, políticas sobre IA y bots contra el spam |
 | 7 | [Cómo comunicarte con los mantenedores](07-communication.md) | Reclamar un issue, hacer buenas preguntas y escribir descripciones de PR que las personas quieran revisar |
 | 8 | [Revisiones, comentarios y rechazos](08-reviews.md) | Cómo gestionar solicitudes de cambios, fallos de CI, falta de respuesta y un «no» |
-| 9 | [Sigue adelante](../09-keep-going.md) (en inglés) | Pasar de un PR a un historial de contribuciones: convertirte en colaborador habitual, revisor y mantenedor |
+| 9 | [Sigue adelante](09-keep-going.md) | Pasar de un PR a un historial de contribuciones: convertirte en colaborador habitual, revisor y mantenedor |
 | 10 | [Cómo leer una base de código](10-reading-a-codebase.md) | Cómo explorar código desconocido, encontrar puntos de entrada y seguir la lógica |
 
 También es útil:
