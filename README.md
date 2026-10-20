@@ -28,6 +28,24 @@ Found it useful? A star helps other newcomers find the radar.
 **Topics:** [Mobile and desktop apps](issues/by-topic/mobile.md) (576) · [Cloud, DevOps and infrastructure](issues/by-topic/cloud-devops.md) (491) · [AI and machine learning](issues/by-topic/ai-ml.md) (387) · [Developer tools](issues/by-topic/devtools.md) (361) · [Data and databases](issues/by-topic/data.md) (316) · [Web development](issues/by-topic/web.md) (260) · [Security and privacy](issues/by-topic/security.md) (212) · [Systems and embedded](issues/by-topic/systems.md) (181) · [Games and graphics](issues/by-topic/games-graphics.md) (144) · [Documentation and education](issues/by-topic/docs-education.md) (109) · [Science and research](issues/by-topic/science.md) (59) · [Finance and Web3](issues/by-topic/finance-web3.md) (34) · [Accessibility](issues/by-topic/accessibility.md) (12) · [Robotics](issues/by-topic/robotics.md) (8)
 <!-- RADAR:STATS:END -->
 
+
+## Using the website
+
+Visit the [Open Source Radar website](https://tanbirramim.github.io/open-source-radar/) to find open source issues that match your interests.
+
+- **Search:** Find issues by title, repository name, label, or repository description. Press `/` to focus the search and `Esc` to clear it.
+- **Language:** Show issues from repositories that use a selected programming language.
+- **Topic:** Filter issues by topic, such as web development, AI and machine learning, or mobile apps.
+- **Level:** Find issues with beginner or help-wanted labels.
+- **Project rules:** Filter projects based on detected AI restrictions, CLA or DCO requirements, and whether they have a contributing guide. Check each project's own policies before contributing.
+- **Sort:** Arrange results by recently updated issues, newest issues, most-starred projects, or fewest comments.
+- **Last activity:** Show issues updated within the past 7, 30, or 90 days.
+- **Signals:** Find issues with no comments, a maintainer reply, or no earlier closed pull request recorded.
+- **Clear filters:** Reset your selected filters to start a new search.
+
+You can combine filters to narrow down the results and find issues that suit your interests and experience.
+
+
 ## Why this exists
 
 Finding a first issue is harder than it should be. Popular "good first issue" lists go stale, half the issues are already taken, and nobody tells you that a project requires a CLA, bans AI-generated code, or auto-closes pull requests from new accounts until after you have done the work.
