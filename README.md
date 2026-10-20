@@ -28,7 +28,6 @@ Found it useful? A star helps other newcomers find the radar.
 **Topics:** [Mobile and desktop apps](issues/by-topic/mobile.md) (576) · [Cloud, DevOps and infrastructure](issues/by-topic/cloud-devops.md) (491) · [AI and machine learning](issues/by-topic/ai-ml.md) (387) · [Developer tools](issues/by-topic/devtools.md) (361) · [Data and databases](issues/by-topic/data.md) (316) · [Web development](issues/by-topic/web.md) (260) · [Security and privacy](issues/by-topic/security.md) (212) · [Systems and embedded](issues/by-topic/systems.md) (181) · [Games and graphics](issues/by-topic/games-graphics.md) (144) · [Documentation and education](issues/by-topic/docs-education.md) (109) · [Science and research](issues/by-topic/science.md) (59) · [Finance and Web3](issues/by-topic/finance-web3.md) (34) · [Accessibility](issues/by-topic/accessibility.md) (12) · [Robotics](issues/by-topic/robotics.md) (8)
 <!-- RADAR:STATS:END -->
 
-
 ## Using the website
 
 Visit the [Open Source Radar website](https://tanbirramim.github.io/open-source-radar/) to find open source issues that match your interests.
@@ -41,10 +40,10 @@ Visit the [Open Source Radar website](https://tanbirramim.github.io/open-source-
 - **Sort:** Arrange results by recently updated issues, newest issues, most-starred projects, or fewest comments.
 - **Last activity:** Show issues updated within the past 7, 30, or 90 days.
 - **Signals:** Find issues with no comments, a maintainer reply, or no earlier closed pull request recorded.
+- **Only this project:** the button next to a project name shows just that project's issues, with a short card (stars, license, last push, contributing guide).
 - **Clear filters:** Reset your selected filters to start a new search.
 
-You can combine filters to narrow down the results and find issues that suit your interests and experience.
-
+You can combine filters to narrow down the results and find issues that suit your interests and experience. The URL keeps your filters, so you can bookmark or share a search.
 
 ## Why this exists
 
@@ -194,6 +193,8 @@ Thank you to everyone who has made the radar better:
 - [@diyawaja](https://github.com/diyawaja): Spanish translation of chapter 7 ([#202](https://github.com/TanbirRamim/open-source-radar/pull/202))
 - [@lava-m312](https://github.com/lava-m312): Spanish translation of chapter 10 ([#206](https://github.com/TanbirRamim/open-source-radar/pull/206))
 - [@agrawal-shivansh](https://github.com/agrawal-shivansh): Spanish translation of chapter 9 ([#209](https://github.com/TanbirRamim/open-source-radar/pull/209))
+- [@agrawal-shivansh](https://github.com/agrawal-shivansh): Hindi translation of chapter 1 ([#224](https://github.com/TanbirRamim/open-source-radar/pull/224))
+- [@davekushagra](https://github.com/davekushagra): "Using the website" section ([#225](https://github.com/TanbirRamim/open-source-radar/pull/225))
 
 Your name goes here with your first merged pull request. And if the radar helped you, please give it a star: it's the simplest way to help other newcomers find it.
 
