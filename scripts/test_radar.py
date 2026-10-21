@@ -675,6 +675,19 @@ class PageHeaderTests(unittest.TestCase):
         self.assertIn("Subtitle.\n\n[RSS feed](x.xml)\n\n> Updated", header)
         self.assertNotIn("\n\n\n", radar.page_header("Go issues", "Subtitle.", "2026-09-27T11:00:00+00:00"))
 
+    def test_title_subtitle_date_and_extra_appear_in_the_header(self):
+        header = radar.page_header(
+            "Go issues",
+            "Open issues for newcomers.",
+            "2026-09-27T11:00:00+00:00",
+            "[RSS feed](x.xml)",
+        )
+
+        self.assertIn("# Go issues", header)
+        self.assertIn("Open issues for newcomers.", header)
+        self.assertIn("Updated automatically on **2026-09-27 11:00 UTC**", header)
+        self.assertIn("[RSS feed](x.xml)", header)
+
 
 class ContributingFetchTests(unittest.TestCase):
     def test_fetch_writes_guide_on_repository_from_refreshed_and_cached_policy(self):
