@@ -195,6 +195,7 @@ Thank you to everyone who has made the radar better:
 - [@agrawal-shivansh](https://github.com/agrawal-shivansh): Spanish translation of chapter 9 ([#209](https://github.com/TanbirRamim/open-source-radar/pull/209))
 - [@agrawal-shivansh](https://github.com/agrawal-shivansh): Hindi translation of chapter 1 ([#224](https://github.com/TanbirRamim/open-source-radar/pull/224))
 - [@davekushagra](https://github.com/davekushagra): "Using the website" section ([#225](https://github.com/TanbirRamim/open-source-radar/pull/225))
+- [@eddyflores100-lang](https://github.com/eddyflores100-lang): Spanish translation of chapter 2 ([#227](https://github.com/TanbirRamim/open-source-radar/pull/227))
 
 Your name goes here with your first merged pull request. And if the radar helped you, please give it a star: it's the simplest way to help other newcomers find it.
 
