@@ -326,6 +326,8 @@
     node.querySelector(".stars").textContent = `${compact.format(repo.stars)} stars`;
     node.querySelector(".lang").textContent = repo.language || "";
     node.querySelector(".updated").textContent = daysAgo(issue.updated);
+    node.querySelector(".opened").textContent =
+      daysAgo(issue.created).replace(/^updated/, "opened");
     node.querySelector(".repo-desc").textContent = repo.description || "";
 
     const level = node.querySelector(".level");
