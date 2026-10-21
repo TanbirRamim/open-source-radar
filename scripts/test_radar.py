@@ -245,6 +245,23 @@ class AvailabilityTests(unittest.TestCase):
         self.assertFalse(radar.issue_is_available(issue(locked=True), SINCE))
 
 
+class RecentlyClaimedTests(unittest.TestCase):
+    def test_no_comments_is_not_claimed(self):
+        self.assertFalse(radar.recently_claimed(issue(), CLAIM_SINCE))
+
+    def test_claimed_older_than_cutoff_is_ignored(self):
+        old = comment("Can I work on this?", createdAt="2026-08-01T00:00:00Z")
+        self.assertFalse(radar.recently_claimed(issue(comments={"nodes": [old]}), CLAIM_SINCE))
+
+    def test_recent_claim_is_detected(self):
+        claimed = issue(comments={"nodes": [comment("Can I work on this?")]})
+        self.assertTrue(radar.recently_claimed(claimed, CLAIM_SINCE))
+
+    def test_claim_inside_a_quote_is_ignored(self):
+        quoted = comment("Noted, thanks.\n\n> Can I work on this?")
+        self.assertFalse(radar.recently_claimed(issue(comments={"nodes": [quoted]}), CLAIM_SINCE))
+
+
 class PolicyTests(unittest.TestCase):
     def test_contributing_guide_prefers_configured_priority_over_sorted_cache(self):
         self.assertEqual(
