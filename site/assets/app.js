@@ -61,6 +61,10 @@
     return daysAgo(isoDate).replace(/^updated/, "pushed");
   }
 
+  function openedAgo(isoDate) {
+    return daysAgo(isoDate).replace(/^updated/, "opened");
+  }
+
   function readFilters() {
     const values = Object.fromEntries(new FormData(form).entries());
     values.q = (values.q || "").trim();
@@ -325,6 +329,7 @@
     onlyRepo.addEventListener("click", () => setRepo(issue.repo));
     node.querySelector(".stars").textContent = `${compact.format(repo.stars)} stars`;
     node.querySelector(".lang").textContent = repo.language || "";
+    node.querySelector(".opened").textContent = openedAgo(issue.created);
     node.querySelector(".updated").textContent = daysAgo(issue.updated);
     node.querySelector(".repo-desc").textContent = repo.description || "";
 
