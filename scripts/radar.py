@@ -1055,7 +1055,9 @@ def main(argv: list[str] | None = None) -> int:
     if args.languages:
         selected, unknown = select_languages(config["languages"], args.languages)
         if unknown:
-            print(f"warning: ignoring unknown language(s): {', '.join(unknown)}", file=sys.stderr)
+            parser.error(
+                f"unknown language(s): {', '.join(unknown)}. Valid languages: {', '.join(config['languages'])}"
+            )
         config["languages"] = selected
     token = os.environ.get("GITHUB_TOKEN", "")
 

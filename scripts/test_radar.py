@@ -1,6 +1,7 @@
 """Unit tests for the pure parts of the radar pipeline: python -m unittest discover scripts"""
 
 import datetime as dt
+import io
 import json
 import re
 import tempfile
@@ -1352,6 +1353,43 @@ class HelperTests(unittest.TestCase):
         languages = {"Python": "python", "Go": "go", "Rust": "rust"}
         selected, _ = radar.select_languages(languages, "rust,python")
         self.assertEqual(list(selected), ["Python", "Rust"])
+
+
+class LanguageCliValidationTests(unittest.TestCase):
+    def test_unknown_languages_fail_before_pipeline_stages(self):
+        for command in ("discover", "fetch", "render", "all"):
+            for selection in ("Pyhton", "Python,Pyhton"):
+                with self.subTest(command=command, selection=selection):
+                    config = {"languages": {"Python": "python", "C++": "cpp"}}
+                    with (
+                        patch.object(radar, "load_config", return_value=config),
+                        patch.object(radar, "GitHub") as github,
+                        patch.object(radar, "discover") as discover,
+                        patch.object(radar, "fetch") as fetch,
+                        patch.object(radar, "render") as render,
+                        patch("sys.stderr", new_callable=io.StringIO) as stderr,
+                    ):
+                        with self.assertRaises(SystemExit) as raised:
+                            radar.main([command, "--languages", selection])
+                        self.assertEqual(raised.exception.code, 2)
+                        self.assertIn("Pyhton", stderr.getvalue())
+                        self.assertIn("Python, C++", stderr.getvalue())
+                        github.assert_not_called()
+                        discover.assert_not_called()
+                        fetch.assert_not_called()
+                        render.assert_not_called()
+
+    def test_case_insensitive_names_and_slugs_still_render(self):
+        config = {"languages": {"Python": "python", "C++": "cpp", "Go": "go"}}
+        with (
+            patch.object(radar, "load_config", return_value=config),
+            patch.object(radar, "render") as render,
+            patch("sys.stderr", new_callable=io.StringIO) as stderr,
+        ):
+            self.assertEqual(radar.main(["render", "--languages", "python,CPP"]), 0)
+            self.assertEqual(config["languages"], {"Python": "python", "C++": "cpp"})
+            render.assert_called_once_with(config)
+            self.assertEqual(stderr.getvalue(), "")
 
 
 class LanguageQuickstartsInSyncTests(unittest.TestCase):
