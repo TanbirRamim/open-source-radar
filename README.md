@@ -201,6 +201,7 @@ Thank you to everyone who has made the radar better:
 - [@vishwatejay](https://github.com/vishwatejay): "opened X ago" on issue cards ([#232](https://github.com/TanbirRamim/open-source-radar/pull/232))
 - [@Meenakshi-S06](https://github.com/Meenakshi-S06): Spanish translation of chapter 1 ([#234](https://github.com/TanbirRamim/open-source-radar/pull/234))
 - [@MonishRaj-12](https://github.com/MonishRaj-12): Spanish translation of chapter 3 ([#235](https://github.com/TanbirRamim/open-source-radar/pull/235))
+- [@Sohamsonawane31](https://github.com/Sohamsonawane31): test for topic RSS feed URLs ([#239](https://github.com/TanbirRamim/open-source-radar/pull/239))
 
 Your name goes here with your first merged pull request. And if the radar helped you, please give it a star: it's the simplest way to help other newcomers find it.
 

@@ -1489,8 +1489,6 @@ class GuideChapterNavigationTests(unittest.TestCase):
                     )
 
 
-
-
 class TopicRssFeedTests(unittest.TestCase):
     def test_topic_feed_urls_and_items(self):
         fake_issue = {
@@ -1531,6 +1529,22 @@ class TopicRssFeedTests(unittest.TestCase):
         self.assertIsNotNone(item)
         self.assertEqual(item.find("title").text, "Fix something")
         self.assertEqual(item.find("link").text, "https://github.com/owner/repo/issues/42")
+
+    def test_language_feed_has_no_topics_prefix(self):
+        tree = radar._build_rss_tree(
+            title="Python",
+            slug="python",
+            items=[],
+            repositories={},
+            generated_at="2026-10-02T00:00:00+00:00",
+            feed_url_prefix="",
+            page_url_segment="by-language",
+        )
+        channel = tree.find("channel")
+        href = channel.find(f"{{{radar.ATOM_NAMESPACE}}}link").attrib["href"]
+        self.assertTrue(href.endswith("/feeds/python.xml"))
+        self.assertNotIn("topics/", href)
+        self.assertIn("/by-language/python.md", channel.find("link").text)
 
 
 if __name__ == "__main__":
