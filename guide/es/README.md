@@ -4,11 +4,11 @@ Un camino práctico desde «Quiero contribuir» hasta «Mi pull request fue acep
 
 Léelo en orden la primera vez. Cada capítulo termina con una breve lista de comprobación a la que puedes volver más adelante.
 
-[English version](../README.md) · Los capítulos 2 a 10 están traducidos al español; el capítulo 1 sigue en inglés.
+[English version](../README.md) · Todos los capítulos (1 a 10) están traducidos al español.
 
 | # | Capítulo | Lo que aprenderás |
 | --- | --- | --- |
-| 1 | [Por qué contribuir y qué cuenta como contribución](../01-why-contribute.md) (en inglés) | Qué puedes obtener de ello y los muchos tipos de contribución que existen además del código |
+| 1 | [Por qué contribuir y qué cuenta como contribución](01-why-contribute.md) | Qué puedes obtener de ello y los muchos tipos de contribución que existen además del código |
 | 2 | [Configura tus herramientas](02-setup.md) | Git, una cuenta de GitHub, claves SSH, un editor y los conceptos básicos de la línea de comandos que realmente utilizarás |
 | 3 | [Elige un proyecto](03-choose-a-project.md) | Cómo distinguir un proyecto saludable y acogedor de uno que probablemente ignore tus contribuciones |
 | 4 | [Encuentra un issue que puedas completar](04-find-an-issue.md) | Cómo leer las etiquetas, comprobar si alguien ya lo ha reclamado y calcular el tamaño del trabajo |

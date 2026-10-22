@@ -4,7 +4,7 @@ A practical path from "I want to contribute" to "my pull request got merged", wr
 
 Read it in order the first time. Each chapter ends with a short checklist you can come back to.
 
-Translations: [हिंदी (Hindi)](hi/README.md), chapters 1, 4 to 8 and 10. [Español (Spanish)](es/README.md), chapters 2 and 4 to 10.
+Translations: [हिंदी (Hindi)](hi/README.md), chapters 1, 4 to 8 and 10. [Español (Spanish)](es/README.md), all chapters (1 to 10).
 
 | # | Chapter | You will learn |
 | --- | --- | --- |

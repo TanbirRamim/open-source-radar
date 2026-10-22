@@ -196,6 +196,11 @@ Thank you to everyone who has made the radar better:
 - [@agrawal-shivansh](https://github.com/agrawal-shivansh): Hindi translation of chapter 1 ([#224](https://github.com/TanbirRamim/open-source-radar/pull/224))
 - [@davekushagra](https://github.com/davekushagra): "Using the website" section ([#225](https://github.com/TanbirRamim/open-source-radar/pull/225))
 - [@eddyflores100-lang](https://github.com/eddyflores100-lang): Spanish translation of chapter 2 ([#227](https://github.com/TanbirRamim/open-source-radar/pull/227))
+- [@dbdefault](https://github.com/dbdefault): clear error for unknown `--languages` ([#229](https://github.com/TanbirRamim/open-source-radar/pull/229))
+- [@dok4everak47](https://github.com/dok4everak47): tests for `page_header` and `recently_claimed` ([#230](https://github.com/TanbirRamim/open-source-radar/pull/230), [#231](https://github.com/TanbirRamim/open-source-radar/pull/231))
+- [@vishwatejay](https://github.com/vishwatejay): "opened X ago" on issue cards ([#232](https://github.com/TanbirRamim/open-source-radar/pull/232))
+- [@Meenakshi-S06](https://github.com/Meenakshi-S06): Spanish translation of chapter 1 ([#234](https://github.com/TanbirRamim/open-source-radar/pull/234))
+- [@MonishRaj-12](https://github.com/MonishRaj-12): Spanish translation of chapter 3 ([#235](https://github.com/TanbirRamim/open-source-radar/pull/235))
 
 Your name goes here with your first merged pull request. And if the radar helped you, please give it a star: it's the simplest way to help other newcomers find it.
 

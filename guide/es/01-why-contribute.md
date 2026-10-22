@@ -5,12 +5,12 @@
 - **Experiencia del mundo real.** Trabajas en bases de código que sirven a miles de usuarios, con revisiones de código por parte de ingenieros con experiencia. Pocos cursos o proyectos personales ofrecen algo parecido.
 - **Un historial público de trabajo.** Los pull requests fusionados son pruebas públicas y enlazables de lo que puedes hacer. Los responsables de contratación pueden consultarlos.
 - **Mejores habilidades, más rápido.** Leer el código de otras personas, seguir sus convenciones y recibir comentarios línea por línea te enseña más que escribir código por tu cuenta.
-- **Personas.** Los maintainers y colaboradores habituales pueden convertirse en colegas, mentores y referencias.
+- **Personas.** Los mantenedores y colaboradores habituales pueden convertirse en colegas, mentores y referencias.
 - **Arreglar cosas que utilizas.** El error que te molesta probablemente también esté molestando a alguien más.
 
 ## Cómo son realmente las contribuciones
 
-La mayoría de las primeras contribuciones son pequeñas. Un arreglo de una sola línea con una buena prueba es un excelente primer pull request. También lo es un mensaje de error más claro, un ejemplo que falta en la documentación o una reproducción que convierta un informe de error poco claro en algo sobre lo que un maintainer pueda actuar.
+La mayoría de las primeras contribuciones son pequeñas. Un arreglo de una sola línea con una buena prueba es un excelente primer pull request. También lo es un mensaje de error más claro, un ejemplo que falta en la documentación o una reproducción que convierta un informe de error poco claro en algo sobre lo que un mantenedor pueda actuar.
 
 ## Contribuciones que no son código
 
@@ -18,7 +18,7 @@ Estas contribuciones son realmente valiosas y, a menudo, más escasas que el có
 
 | Contribución | Por qué importa |
 | --- | --- |
-| Reproducir informes de errores | Los maintainers pasan mucho tiempo preguntando "¿puedes darme los pasos para reproducirlo?". Una reproducción clara en el issue les ahorra ese trabajo. |
+| Reproducir informes de errores | Los mantenedores pasan mucho tiempo preguntando "¿puedes darme los pasos para reproducirlo?". Una reproducción clara en el issue les ahorra ese trabajo. |
 | Triage | Identificar duplicados, confirmar un error en la última versión o indicar que algo ya está solucionado. |
 | Documentación | Corregir instrucciones incorrectas, añadir ejemplos que faltan o explicar una opción confusa. |
 | Traducciones | Muchos proyectos necesitan traductores y cuentan con herramientas específicas para ello. |
@@ -30,7 +30,7 @@ Estas contribuciones son realmente valiosas y, a menudo, más escasas que el có
 ## Expectativas que debes tener
 
 - Tu primer pull request probablemente tardará más de lo que esperas, principalmente por la configuración y por tener que leer y entender el proyecto. Es normal.
-- Algunos pull requests nunca se fusionan. Las razones a menudo no tienen relación con la calidad de tu código: el maintainer puede estar ocupado, la dirección del proyecto puede haber cambiado o alguien más puede haber solucionado el problema primero. El capítulo 8 habla de esto.
+- Algunos pull requests nunca se fusionan. Las razones a menudo no tienen relación con la calidad de tu código: el mantenedor puede estar ocupado, la dirección del proyecto puede haber cambiado o alguien más puede haber solucionado el problema primero. El capítulo 8 habla de esto.
 - La constancia es mejor que la cantidad. Cinco pull requests fusionados en un mismo proyecto te enseñan más y se ven mejor que un pull request en cada uno de cincuenta proyectos.
 
 ## Lista de comprobación
