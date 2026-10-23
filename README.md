@@ -202,6 +202,7 @@ Thank you to everyone who has made the radar better:
 - [@Meenakshi-S06](https://github.com/Meenakshi-S06): Spanish translation of chapter 1 ([#234](https://github.com/TanbirRamim/open-source-radar/pull/234))
 - [@MonishRaj-12](https://github.com/MonishRaj-12): Spanish translation of chapter 3 ([#235](https://github.com/TanbirRamim/open-source-radar/pull/235))
 - [@Sohamsonawane31](https://github.com/Sohamsonawane31): test for topic RSS feed URLs ([#239](https://github.com/TanbirRamim/open-source-radar/pull/239))
+- [@kw-1129](https://github.com/kw-1129): Hindi translation of chapter 3 ([#241](https://github.com/TanbirRamim/open-source-radar/pull/241))
 
 Your name goes here with your first merged pull request. And if the radar helped you, please give it a star: it's the simplest way to help other newcomers find it.
 
