@@ -22,11 +22,11 @@
 | **Merge conflict** | Cuando tu rama y la rama destino cambiaron las mismas líneas de forma distinta. |
 | **Monorepo** | Un único repositorio que contiene muchos paquetes. Normalmente solo compilas y pruebas el paquete que cambias. |
 | **Pull request (PR)** | Una petición de fusionar tu rama en la rama de otro repositorio. En GitLab se llama merge request. |
-| **Rebase** | Reprojectar tus commits sobre commits más recientes, para actualizar una rama. |
+| **Rebase** | Volver a aplicar tus commits sobre commits más recientes, para actualizar una rama. |
 | **Regression** | Un error en el que algo que funcionaba dejó de funcionar. |
 | **Repository (repo)** | Los archivos de un proyecto y todo su historial. |
 | **Reproduction (repro)** | Pasos o código mínimos que hacen que un error ocurra de forma fiable. |
-| **Review** | Comentarios y aprobación (o cambios solicitados) de los maintainers sobre un pull request. |
+| **Review** | Comentarios y aprobación (o cambios solicitados) de los mantenedores sobre un pull request. |
 | **Squash** | Combinar varios commits en uno, algo que se suele hacer al fusionar. |
 | **Stale** | Un issue o pull request sin actividad durante mucho tiempo; los bots pueden cerrarlo. |
 | **Triage** | Ordenar los issues nuevos: reproducirlos, etiquetarlos, buscar duplicados. |
