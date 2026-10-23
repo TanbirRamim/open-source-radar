@@ -24,6 +24,13 @@ import os
 import re
 import sys
 import time
+
+if sys.version_info < (3, 11):  # noqa: UP036
+    raise ImportError(
+        f"radar.py needs Python 3.11+ for tomllib, but this is {sys.version.split()[0]} at {sys.executable}. "
+        "Run it with python3.11 or newer."
+    )
+
 import tomllib
 import urllib.error
 import urllib.parse
