@@ -21,7 +21,7 @@ Léelo en orden la primera vez. Cada capítulo termina con una breve lista de co
 
 También es útil:
 
-- [Glosario](../glossary.md): fork, upstream, rebase, squash, CI, DCO y el resto, explicados en una línea cada uno.
+- [Glosario](glossary.md): fork, upstream, rebase, squash, CI, DCO y el resto, explicados en una línea cada uno.
 - [Guías rápidas por lenguaje](../../languages/README.md): cómo suelen compilarse y probarse los proyectos en cada lenguaje.
 - [Índice de issues](../../issues/README.md): issues abiertos y no reclamados, ordenados por lenguaje y tema, actualizados automáticamente.
 
