@@ -151,7 +151,7 @@
 
   function applyFilters(scrollToList = false) {
     const values = readFilters();
-    const needle = values.q.toLowerCase();
+    const words = values.q.toLowerCase().split(/\s+/).filter(Boolean);
     const repos = data.repositories;
 
     const activityDays = Number(values.activity) || 0;
@@ -166,12 +166,11 @@
       if (values.rules && !matchesRules(repo, values.rules)) return false;
       if (values.signal && !matchesSignal(issue, values.signal)) return false;
       if (values.repo && issue.repo !== values.repo) return false;
-      if (needle) {
+      if (words.length) {
         const haystack = `${issue.title} ${issue.repo} ${issue.labels.join(" ")} ${repo.description}`.toLowerCase();
-        const words = needle.split(/\s+/).filter(Boolean);
         if (!words.every(word => haystack.includes(word))) return false;
-      }      
-      return true;    
+      }
+      return true;
     });
 
     const sorters = {
