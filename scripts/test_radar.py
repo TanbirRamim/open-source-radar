@@ -676,6 +676,67 @@ class DiscoveryTests(unittest.TestCase):
         self.assertEqual(queries, [f"{base} good-first-issues:>=1", f"{base} help-wanted-issues:>=1"])
 
 
+class DiscoverTests(unittest.TestCase):
+    def test_discover_ranks_caps_excludes_and_deduplicates_repositories(self):
+        fixed_now = dt.datetime(2026, 10, 10, tzinfo=dt.UTC)
+        search_results = [
+            [
+                {"full_name": "owner/sunny", "stargazers_count": 1213},
+                {"full_name": "owner/shantan", "stargazers_count": 721},
+                {"full_name": "owner/sai", "stargazers_count": 901},
+                {"full_name": "owner/excluded", "stargazers_count": 700},
+                {"full_name": "owner/below-cap", "stargazers_count": 600},
+            ],
+            [
+                {"full_name": "owner/sai", "stargazers_count": 901},
+            ],
+        ]
+
+        class FakeGitHub:
+            def __init__(self):
+                self.calls = []
+
+            def search_repositories(self, query, page):
+                self.calls.append((query, page))
+                return {"items": search_results[len(self.calls) - 1]}
+
+        github = FakeGitHub()
+        config = {
+            "discovery": {
+                "min_stars": 500,
+                "pushed_within_days": 60,
+                "repos_per_language": 2,
+                "pages_per_query": 1,
+            },
+            "languages": {"Python": "python"},
+            "exclude": {"repositories": ["owner/excluded"]},
+        }
+
+        with tempfile.TemporaryDirectory() as tmp:
+            repos_path = Path(tmp) / "repos.json"
+            with (
+                patch.object(radar, "REPOS_PATH", repos_path),
+                patch.object(radar, "now_utc", return_value=fixed_now),
+            ):
+                result = radar.discover(github, config)
+
+            self.assertEqual(
+                result,
+                {
+                    "discovered_at": "2026-10-10T00:00:00+00:00",
+                    "repos": {
+                        "owner/sunny": {"language": "Python", "stars": 1213},
+                        "owner/sai": {"language": "Python", "stars": 901},
+                        "owner/shantan": {"language": "Python", "stars": 721},
+                    },
+                },
+            )
+            self.assertEqual(list(result["repos"]), ["owner/sunny", "owner/sai", "owner/shantan"])
+            self.assertEqual(json.loads(repos_path.read_text(encoding="utf-8")), result)
+            self.assertEqual(len(github.calls), 2)
+            self.assertEqual([page for _, page in github.calls], [1, 1])
+
+
 class ChunkedTests(unittest.TestCase):
     def test_chunked_empty_list(self):
         self.assertEqual(list(radar.chunked([], 3)), [])
