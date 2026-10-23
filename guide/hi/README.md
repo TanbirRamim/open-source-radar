@@ -4,7 +4,7 @@
 
 पहली बार इसे क्रम से पढ़ें। प्रत्येक अध्याय के अंत में एक छोटी चेकलिस्ट दी गई है, जिसे आप बाद में दोबारा देख सकते हैं।
 
-[English version](../README.md) · अध्याय 1, 3 से 8 और 10 का हिंदी अनुवाद उपलब्ध है; बाकी अध्याय अभी अंग्रेज़ी में हैं।
+[English version](../README.md) · अध्याय 1, 3 से 10 का हिंदी अनुवाद उपलब्ध है; अध्याय 2 अभी अंग्रेज़ी में है।
 
 | # | अध्याय | आप क्या सीखेंगे |
 | --- | --- | --- |
@@ -16,7 +16,7 @@
 | 6 | [शुरू करने से पहले जाँचने वाले नियम](06-rules-before-you-start.md) | Contributing guides, CLAs, DCO sign-off, AI policies और anti-spam bots |
 | 7 | [Maintainers से बातचीत करना](07-communication.md) | Issue claim करना, अच्छे सवाल पूछना और ऐसी PR descriptions लिखना जिन्हें लोग review करना चाहें |
 | 8 | [Reviews, feedback और rejection](08-reviews.md) | Change requests, CI failures, चुप्पी और “नहीं” को संभालना |
-| 9 | [आगे बढ़ते रहें](../09-keep-going.md) (English) | एक PR से एक अच्छे track record तक: नियमित contributor, reviewer और maintainer बनना |
+| 9 | [आगे बढ़ते रहें](09-keep-going.md) | एक PR से एक अच्छे track record तक: नियमित contributor, reviewer और maintainer बनना |
 | 10 | [कोडबेस को पढ़ना और समझना](10-reading-a-codebase.md) | किसी प्रोजेक्ट की संरचना समझना, कोड का execution flow trace करना और tests व Git history की मदद से कोड को समझना |
 
 यह भी उपयोगी है:
