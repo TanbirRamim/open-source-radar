@@ -138,6 +138,11 @@
     return CONTRIBUTING_PATHS.has(repo.contributing) ? repo.contributing : null;
   }
 
+  // GitHub reports "NOASSERTION" when it can't tell the license; treat that as no license.
+  function licenseName(repo) {
+    return repo.license && repo.license !== "NOASSERTION" ? repo.license : "";
+  }
+
   function topicTitle(slug) {
     const translated = t(`topic.${slug}`);
     return translated.startsWith("topic.") ? (data.topic_titles?.[slug] || slug) : translated;
@@ -177,8 +182,7 @@
       if (values.signal && !matchesSignal(issue, values.signal)) return false;
       if (values.repo && issue.repo !== values.repo) return false;
       if (words.length) {
-        const license = repo.license && repo.license !== "NOASSERTION" ? repo.license : "";
-        const haystack = `${issue.title} ${issue.repo} ${issue.labels.join(" ")} ${repo.description} ${license}`.toLowerCase();
+        const haystack = `${issue.title} ${issue.repo} ${issue.labels.join(" ")} ${repo.description} ${licenseName(repo)}`.toLowerCase();
         if (!words.every(word => haystack.includes(word))) return false;
       }
       return true;
@@ -276,7 +280,7 @@
       t("repo.stars", { count: compact.format(repo.stars) }),
       t("repo.forks", { count: compact.format(repo.forks || 0) }),
     ];
-    if (repo.license && repo.license !== "NOASSERTION") parts.push(repo.license);
+    if (licenseName(repo)) parts.push(licenseName(repo));
     if (repo.pushed) parts.push(pushedAgo(repo.pushed));
     if (typeof repo.open_count === "number") {
       parts.push(t(repo.open_count === 1 ? "repo.openOne" : "repo.openMany", {
@@ -344,7 +348,7 @@
     onlyRepo.addEventListener("click", () => setRepo(issue.repo));
     node.querySelector(".stars").textContent = t("repo.stars", { count: compact.format(repo.stars) });
     node.querySelector(".lang").textContent = repo.language || "";
-    node.querySelector(".license").textContent = repo.license && repo.license !== "NOASSERTION" ? repo.license : "";
+    node.querySelector(".license").textContent = licenseName(repo);
     node.querySelector(".updated").textContent = daysAgo(issue.updated);
     node.querySelector(".opened").textContent =
       daysAgo(issue.created).replace(t("time.updatedPrefix"), t("time.openedPrefix"));

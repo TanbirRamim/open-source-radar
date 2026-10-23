@@ -56,3 +56,11 @@ test("unsupported locales fall back to English", () => {
 test("messages interpolate values", () => {
   assert.equal(loadI18n("es").t("repo.stars", { count: "25" }), "25 estrellas");
 });
+
+test("English and Spanish have the same keys", () => {
+  const { messages } = loadI18n("en");
+  const en = Object.keys(messages.en).sort();
+  const es = Object.keys(messages.es).sort();
+  assert.deepEqual(es.filter((key) => !en.includes(key)), [], "keys only in es");
+  assert.deepEqual(en.filter((key) => !es.includes(key)), [], "keys only in en");
+});

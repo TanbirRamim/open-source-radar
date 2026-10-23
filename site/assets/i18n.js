@@ -24,7 +24,7 @@
       "query.run": "Run this search on GitHub",
       "filters.label": "Filter issues",
       "filters.search": "Search",
-      "filters.searchPlaceholder": "Title, repository or label (press /, Esc to clear)",
+      "filters.searchPlaceholder": "Title, repository, label or license (press /, Esc to clear)",
       "filters.language": "Language",
       "filters.allLanguages": "All languages",
       "filters.topic": "Topic",
@@ -148,7 +148,7 @@
       "query.run": "Ejecutar esta búsqueda en GitHub",
       "filters.label": "Filtrar issues",
       "filters.search": "Buscar",
-      "filters.searchPlaceholder": "Título, repositorio o etiqueta (pulsa /; Esc para limpiar)",
+      "filters.searchPlaceholder": "Título, repositorio, etiqueta o licencia (pulsa /; Esc para limpiar)",
       "filters.language": "Lenguaje",
       "filters.allLanguages": "Todos los lenguajes",
       "filters.topic": "Tema",
@@ -289,5 +289,5 @@
     location.reload();
   });
 
-  window.RadarI18n = { locale, t };
+  window.RadarI18n = { locale, t, messages };
 })();
