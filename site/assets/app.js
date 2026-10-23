@@ -10,6 +10,9 @@
     "CONTRIBUTING.rst",
   ]);
   const BEGINNER_LABEL = 'label:"good first issue"';
+  const MAX_LABELS = 5;
+  // The level pill already says these, so the label list skips them.
+  const LEVEL_LABELS = new Set(["good first issue", "help wanted"]);
   const form = document.getElementById("filters");
   const originalTitle = document.title;
   const list = document.getElementById("issue-list");
@@ -329,6 +332,29 @@
     node.querySelector(".opened").textContent =
       daysAgo(issue.created).replace(/^updated/, "opened");
     node.querySelector(".repo-desc").textContent = repo.description || "";
+
+    const labels = node.querySelector(".labels");
+    const extra = issue.labels.filter((name) => !LEVEL_LABELS.has(name.toLowerCase()));
+    for (const name of extra.slice(0, MAX_LABELS)) {
+      const item = document.createElement("li");
+      const button = document.createElement("button");
+      button.type = "button";
+      button.textContent = name;
+      button.title = `Search for "${name}"`;
+      button.addEventListener("click", () => {
+        form.elements.q.value = name;
+        applyFilters(true);
+      });
+      item.append(button);
+      labels.append(item);
+    }
+    if (extra.length > MAX_LABELS) {
+      const item = document.createElement("li");
+      item.className = "labels-more";
+      item.textContent = `+${extra.length - MAX_LABELS} more`;
+      labels.append(item);
+    }
+    if (!labels.children.length) labels.remove();
 
     const level = node.querySelector(".level");
     level.classList.add(issue.level);
