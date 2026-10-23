@@ -736,6 +736,27 @@ class DiscoverTests(unittest.TestCase):
             self.assertEqual(len(github.calls), 2)
             self.assertEqual([page for _, page in github.calls], [1, 1])
 
+    def test_discover_keeps_first_language_and_stops_on_short_page(self):
+        class FakeGitHub:
+            def __init__(self):
+                self.calls = []
+
+            def search_repositories(self, query, page):
+                self.calls.append((query, page))
+                return {"items": [{"full_name": "owner/both", "stargazers_count": 900}]}
+
+        github = FakeGitHub()
+        config = {
+            "discovery": {"min_stars": 500, "pushed_within_days": 60, "repos_per_language": 5, "pages_per_query": 3},
+            "languages": {"Python": "python", "Rust": "rust"},
+            "exclude": {"repositories": []},
+        }
+        with tempfile.TemporaryDirectory() as tmp, patch.object(radar, "REPOS_PATH", Path(tmp) / "repos.json"):
+            result = radar.discover(github, config)
+        self.assertEqual(result["repos"], {"owner/both": {"language": "Python", "stars": 900}})
+        # 2 languages x 2 queries, one page each because the first page had fewer than 100 items
+        self.assertEqual(len(github.calls), 4)
+
 
 class ChunkedTests(unittest.TestCase):
     def test_chunked_empty_list(self):

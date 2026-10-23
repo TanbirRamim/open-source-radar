@@ -205,6 +205,7 @@ Thank you to everyone who has made the radar better:
 - [@kw-1129](https://github.com/kw-1129): Hindi translation of chapter 3 ([#241](https://github.com/TanbirRamim/open-source-radar/pull/241))
 - [@rahul05ranjan](https://github.com/rahul05ranjan): Hindi chapter 9 and the Spanish glossary ([#244](https://github.com/TanbirRamim/open-source-radar/pull/244), [#245](https://github.com/TanbirRamim/open-source-radar/pull/245))
 - [@gopikrishnamahalingam](https://github.com/gopikrishnamahalingam): project license on issue cards ([#259](https://github.com/TanbirRamim/open-source-radar/pull/259))
+- [@shantan1213](https://github.com/shantan1213): tests for repository discovery ([#261](https://github.com/TanbirRamim/open-source-radar/pull/261))
 
 Your name goes here with your first merged pull request. And if the radar helped you, please give it a star: it's the simplest way to help other newcomers find it.
 
