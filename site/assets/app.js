@@ -61,7 +61,7 @@
       const years = Math.floor(days / 365);
       return `updated ${years} year${years === 1 ? "" : "s"} ago`;
     }
-    return `updated ${Math.round(days / 30)} months ago`;
+    return `updated ${Math.min(11, Math.round(days / 30))} months ago`;
   }
 
   function pushedAgo(isoDate) {
