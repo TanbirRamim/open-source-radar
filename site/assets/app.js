@@ -332,7 +332,7 @@
     onlyRepo.addEventListener("click", () => setRepo(issue.repo));
     node.querySelector(".stars").textContent = `${compact.format(repo.stars)} stars`;
     node.querySelector(".lang").textContent = repo.language || "";
-    node.querySelector(".license").textContent = ((repo.license !== "NOASSERTION")? repo.license : "") || "";
+    node.querySelector(".license").textContent = repo.license && repo.license !== "NOASSERTION" ? repo.license : "";
     node.querySelector(".updated").textContent = daysAgo(issue.updated);
     node.querySelector(".opened").textContent =
       daysAgo(issue.created).replace(/^updated/, "opened");

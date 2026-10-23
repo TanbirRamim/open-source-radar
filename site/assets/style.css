@@ -352,6 +352,7 @@ a:hover { text-decoration-thickness: 2px; }
   font-size: var(--step--1);
   color: var(--ink-soft);
 }
+.issue-meta span:empty { display: none; }
 .issue-meta .repo { font-weight: 700; color: var(--teal-strong); }
 
 .repo-desc {
