@@ -84,7 +84,7 @@ Open Source Radar fixes the first part with data and the second part with a guid
 9. [Keep going](guide/09-keep-going.md)
 10. [Reading a codebase](guide/10-reading-a-codebase.md)
 
-Plus a [glossary](guide/glossary.md) and [quickstarts for 25 languages](languages/README.md).
+Plus a [glossary](guide/glossary.md) and [quickstarts for 26 languages](languages/README.md).
 
 ## How issues are selected
 
