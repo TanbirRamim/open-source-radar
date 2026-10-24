@@ -78,5 +78,7 @@ test("every locale has the same keys as English", () => {
 
 test("the locale menu matches the available message locales", () => {
   const { messages } = loadI18n("en");
-  assert.deepEqual(localeSelectValues(), Object.keys(messages));
+  // Compare as sorted lists: the menu order is a display choice (e.g. English first),
+  // the test only cares that no locale is missing from either side.
+  assert.deepEqual(localeSelectValues().sort(), Object.keys(messages).sort());
 });
