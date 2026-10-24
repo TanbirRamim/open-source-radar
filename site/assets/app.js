@@ -193,7 +193,8 @@
       new: (a, b) => b.created.localeCompare(a.created),
       stars: (a, b) => repos[b.repo].stars - repos[a.repo].stars || b.updated.localeCompare(a.updated),
       quiet: (a, b) => a.comments - b.comments || b.updated.localeCompare(a.updated),
-      open: (a, b) => repos[b.repo].open_count - repos[a.repo].open_count
+      // open_count can be missing for a repo, so treat it as 0 instead of sorting on NaN.
+      open: (a, b) => (repos[b.repo].open_count ?? 0) - (repos[a.repo].open_count ?? 0) || b.updated.localeCompare(a.updated),
     };
     filtered.sort(sorters[values.sort] || sorters.updated);
 

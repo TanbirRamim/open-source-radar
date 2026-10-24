@@ -558,6 +558,7 @@
       "filters.newest": "Neueste Issues",
       "filters.stars": "Projekt mit den meisten Sternen",
       "filters.quiet": "Wenigste Kommentare",
+      "filters.open": "Meiste offene Issues",
       "filters.activity": "Letzte Aktivität",
       "filters.anyTime": "Jederzeit",
       "filters.days7": "Letzte 7 Tage",

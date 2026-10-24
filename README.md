@@ -210,6 +210,7 @@ Thank you to everyone who has made the radar better:
 - [@maayaankk](https://github.com/maayaankk): Hindi website ([#271](https://github.com/TanbirRamim/open-source-radar/pull/271))
 - [@ggfdrthbf176](https://github.com/ggfdrthbf176): quickstart structure test ([#278](https://github.com/TanbirRamim/open-source-radar/pull/278))
 - [@ardianwn](https://github.com/ardianwn): locale menu test ([#288](https://github.com/TanbirRamim/open-source-radar/pull/288))
+- [@Aaqibhafeezkhan](https://github.com/Aaqibhafeezkhan): German website ([#283](https://github.com/TanbirRamim/open-source-radar/pull/283))
 
 Your name goes here with your first merged pull request. And if the radar helped you, please give it a star: it's the simplest way to help other newcomers find it.
 
