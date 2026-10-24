@@ -38,9 +38,9 @@ const dynamicKeys = [
   "time.updatedPrefix", "time.year", "time.years", "time.yesterday", "title.issue", "title.issues",
 ];
 
-test("English, Spanish and Hindi define every site message", () => {
+test("English, Spanish, Hindi, Portuguese and Bengali define every site message", () => {
   const keys = [...new Set([...staticKeys(), ...dynamicKeys])];
-  for (const locale of ["en", "es", "hi"]) {
+  for (const locale of ["en", "es", "hi", "pt", "bn"]) {
     const i18n = loadI18n(locale);
     assert.equal(i18n.locale, locale);
     for (const key of keys) assert.notEqual(i18n.t(key), key, `${locale} is missing ${key}`);
@@ -56,15 +56,17 @@ test("unsupported locales fall back to English", () => {
 test("messages interpolate values", () => {
   assert.equal(loadI18n("es").t("repo.stars", { count: "25" }), "25 estrellas");
   assert.equal(loadI18n("hi").t("repo.stars", { count: "25" }), "25 स्टार्स");
+  assert.equal(loadI18n("pt").t("repo.stars", { count: "25" }), "25 estrelas");
+  assert.equal(loadI18n("bn").t("repo.stars", { count: "25" }), "25 স্টার");
 });
 
-test("English and Spanish have the same keys", () => {
+test("every locale has the same keys as English", () => {
+  // Loops over every locale in messages, so a new locale is checked without touching this test.
   const { messages } = loadI18n("en");
   const en = Object.keys(messages.en).sort();
-  const es = Object.keys(messages.es).sort();
-  const hi = Object.keys(messages.hi).sort();
-  assert.deepEqual(es.filter((key) => !en.includes(key)), [], "keys only in es");
-  assert.deepEqual(en.filter((key) => !es.includes(key)), [], "keys only in en");
-  assert.deepEqual(hi.filter((key) => !en.includes(key)), [], "keys only in hi");
-  assert.deepEqual(en.filter((key) => !hi.includes(key)), [], "keys only in en");
+  for (const [locale, table] of Object.entries(messages)) {
+    const keys = Object.keys(table);
+    assert.deepEqual(keys.filter((key) => !en.includes(key)), [], `keys only in ${locale}`);
+    assert.deepEqual(en.filter((key) => !keys.includes(key)), [], `keys missing in ${locale}`);
+  }
 });
