@@ -7,12 +7,12 @@ const i18nSource = readFileSync(new URL("../site/assets/i18n.js", import.meta.ur
 const indexSource = readFileSync(new URL("../site/index.html", import.meta.url), "utf8");
 
 function loadI18n(requestedLocale) {
-  const select = { value: "", addEventListener() {} };
+  const select = { value: "", addEventListener() { } };
   const context = {
     window: {},
     navigator: { language: "en" },
-    localStorage: { getItem: () => requestedLocale, setItem() {} },
-    location: { reload() {} },
+    localStorage: { getItem: () => requestedLocale, setItem() { } },
+    location: { reload() { } },
     document: {
       documentElement: {},
       getElementById: () => select,
@@ -38,9 +38,9 @@ const dynamicKeys = [
   "time.updatedPrefix", "time.year", "time.years", "time.yesterday", "title.issue", "title.issues",
 ];
 
-test("English and Spanish define every site message", () => {
+test("English, Spanish and Hindi define every site message", () => {
   const keys = [...new Set([...staticKeys(), ...dynamicKeys])];
-  for (const locale of ["en", "es"]) {
+  for (const locale of ["en", "es", "hi"]) {
     const i18n = loadI18n(locale);
     assert.equal(i18n.locale, locale);
     for (const key of keys) assert.notEqual(i18n.t(key), key, `${locale} is missing ${key}`);
@@ -55,12 +55,16 @@ test("unsupported locales fall back to English", () => {
 
 test("messages interpolate values", () => {
   assert.equal(loadI18n("es").t("repo.stars", { count: "25" }), "25 estrellas");
+  assert.equal(loadI18n("hi").t("repo.stars", { count: "25" }), "25 स्टार्स");
 });
 
 test("English and Spanish have the same keys", () => {
   const { messages } = loadI18n("en");
   const en = Object.keys(messages.en).sort();
   const es = Object.keys(messages.es).sort();
+  const hi = Object.keys(messages.hi).sort();
   assert.deepEqual(es.filter((key) => !en.includes(key)), [], "keys only in es");
   assert.deepEqual(en.filter((key) => !es.includes(key)), [], "keys only in en");
+  assert.deepEqual(hi.filter((key) => !en.includes(key)), [], "keys only in hi");
+  assert.deepEqual(en.filter((key) => !hi.includes(key)), [], "keys only in en");
 });

@@ -1,28 +1,35 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title data-i18n="meta.title">Open Source Radar: find an open source issue you can start today</title>
-  <meta name="description" data-i18n-content="meta.description" content="Open, unclaimed, beginner-friendly issues from active open source projects, sorted by language and topic and refreshed automatically. Plus a complete guide to your first contribution.">
+  <meta name="description" data-i18n-content="meta.description"
+    content="Open, unclaimed, beginner-friendly issues from active open source projects, sorted by language and topic and refreshed automatically. Plus a complete guide to your first contribution.">
   <meta property="og:title" content="Open Source Radar">
-  <meta property="og:description" data-i18n-content="meta.ogDescription" content="Find an open source issue you can start today: unclaimed, beginner-friendly issues from active projects, refreshed automatically.">
+  <meta property="og:description" data-i18n-content="meta.ogDescription"
+    content="Find an open source issue you can start today: unclaimed, beginner-friendly issues from active projects, refreshed automatically.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://tanbirramim.github.io/open-source-radar/">
   <meta property="og:image" content="https://tanbirramim.github.io/open-source-radar/assets/og.png">
   <meta property="og:image:width" content="1280">
   <meta property="og:image:height" content="640">
-  <meta property="og:image:alt" data-i18n-content="meta.imageAlt" content="Open Source Radar: find an open source issue you can start today.">
+  <meta property="og:image:alt" data-i18n-content="meta.imageAlt"
+    content="Open Source Radar: find an open source issue you can start today.">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="theme-color" content="#EAF0F5" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#0D1822" media="(prefers-color-scheme: dark)">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><circle cx='32' cy='32' r='28' fill='none' stroke='%230E7C72' stroke-width='6'/><circle cx='32' cy='32' r='14' fill='none' stroke='%230E7C72' stroke-width='6'/><circle cx='32' cy='32' r='5' fill='%23C2710C'/></svg>">
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><circle cx='32' cy='32' r='28' fill='none' stroke='%230E7C72' stroke-width='6'/><circle cx='32' cy='32' r='14' fill='none' stroke='%230E7C72' stroke-width='6'/><circle cx='32' cy='32' r='5' fill='%23C2710C'/></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=JetBrains+Mono:wght@400;600&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="assets/style.css">
   <script>
-    try { const t = localStorage.getItem("radar-theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+    try { const t = localStorage.getItem("radar-theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) { }
   </script>
   <link rel="canonical" href="https://tanbirramim.github.io/open-source-radar/">
   <meta name="author" content="Tanbir Hossain Ramim">
@@ -33,28 +40,40 @@
      "sameAs":["https://github.com/TanbirRamim","https://www.linkedin.com/in/tanbirramim/"]}}
   </script>
 </head>
+
 <body>
   <a class="skip" href="#results" data-i18n="skip">Skip to issues</a>
 
   <header class="site-header wrap">
     <a class="brand" href="./" aria-label="Open Source Radar home" data-i18n-aria-label="brandHome">
-      <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="28"/><circle cx="32" cy="32" r="14"/><circle class="dot" cx="32" cy="32" r="5"/></svg>
+      <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true">
+        <circle cx="32" cy="32" r="28" />
+        <circle cx="32" cy="32" r="14" />
+        <circle class="dot" cx="32" cy="32" r="5" />
+      </svg>
       <span>Open Source Radar</span>
     </a>
     <nav class="site-nav" aria-label="Main" data-i18n-aria-label="mainNav">
-      <a id="guide-link" href="https://github.com/TanbirRamim/open-source-radar/blob/main/guide/README.md" data-i18n="nav.guide">Contribution guide</a>
-      <a href="https://github.com/TanbirRamim/open-source-radar/blob/main/projects/README.md" data-i18n="nav.projects">Projects directory</a>
-      <a href="https://github.com/TanbirRamim/open-source-radar/tree/main/languages" data-i18n="nav.quickstarts">Language quickstarts</a>
+      <a id="guide-link" href="https://github.com/TanbirRamim/open-source-radar/blob/main/guide/README.md"
+        data-i18n="nav.guide">Contribution guide</a>
+      <a href="https://github.com/TanbirRamim/open-source-radar/blob/main/projects/README.md"
+        data-i18n="nav.projects">Projects directory</a>
+      <a href="https://github.com/TanbirRamim/open-source-radar/tree/main/languages"
+        data-i18n="nav.quickstarts">Language quickstarts</a>
       <a href="https://github.com/TanbirRamim/open-source-radar">GitHub</a>
       <label class="locale-picker">
         <span class="visually-hidden" data-i18n="locale.label">Interface language</span>
         <select id="locale-select" aria-label="Interface language" data-i18n-aria-label="locale.label">
           <option value="en">English</option>
           <option value="es">Español</option>
+          <option value="hi">हिन्दी</option>
         </select>
       </label>
-      <button class="theme-toggle" type="button" aria-label="Switch color theme" title="Switch color theme" data-i18n-aria-label="theme" data-i18n-title="theme">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9z"/></svg>
+      <button class="theme-toggle" type="button" aria-label="Switch color theme" title="Switch color theme"
+        data-i18n-aria-label="theme" data-i18n-title="theme">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9z" />
+        </svg>
       </button>
     </nav>
   </header>
@@ -62,12 +81,15 @@
   <main>
     <section class="hero wrap" aria-labelledby="hero-title">
       <h1 id="hero-title" data-i18n="hero.title">Find an open source issue you can start today.</h1>
-      <p class="lede" data-i18n="hero.lede">Every issue below is open, has no assignee and no linked pull request, and comes from a project that was active in the last two months. Pick one, read the project's contributing guide, and make your first pull request.</p>
+      <p class="lede" data-i18n="hero.lede">Every issue below is open, has no assignee and no linked pull request, and
+        comes from a project that was active in the last two months. Pick one, read the project's contributing guide,
+        and make your first pull request.</p>
 
       <div class="query" role="group" aria-label="Equivalent GitHub search" data-i18n-aria-label="query.label">
         <code id="query-text">is:issue is:open no:assignee -linked:pr</code>
         <button class="query-copy" id="query-copy" type="button" aria-live="polite" data-i18n="query.copy">Copy</button>
-        <a id="query-link" href="https://github.com/issues?q=is%3Aissue+is%3Aopen+no%3Aassignee+-linked%3Apr" target="_blank" rel="noopener" data-i18n="query.run">Run this search on GitHub</a>
+        <a id="query-link" href="https://github.com/issues?q=is%3Aissue+is%3Aopen+no%3Aassignee+-linked%3Apr"
+          target="_blank" rel="noopener" data-i18n="query.run">Run this search on GitHub</a>
       </div>
       <p class="summary" id="summary" aria-live="polite" data-i18n="summary.loading">Loading issues…</p>
       <p class="language-feed" id="language-feed" hidden><a id="language-feed-link" href=""></a></p>
@@ -79,15 +101,20 @@
       <form class="filters wrap" id="filters" role="search">
         <label class="field field-search">
           <span data-i18n="filters.search">Search</span>
-          <input type="search" name="q" placeholder="Title, repository, label or license (press /, Esc to clear)" data-i18n-placeholder="filters.searchPlaceholder" autocomplete="off">
+          <input type="search" name="q" placeholder="Title, repository, label or license (press /, Esc to clear)"
+            data-i18n-placeholder="filters.searchPlaceholder" autocomplete="off">
         </label>
         <label class="field">
           <span data-i18n="filters.language">Language</span>
-          <select name="language"><option value="" data-i18n="filters.allLanguages">All languages</option></select>
+          <select name="language">
+            <option value="" data-i18n="filters.allLanguages">All languages</option>
+          </select>
         </label>
         <label class="field">
           <span data-i18n="filters.topic">Topic</span>
-          <select name="topic"><option value="" data-i18n="filters.allTopics">All topics</option></select>
+          <select name="topic">
+            <option value="" data-i18n="filters.allTopics">All topics</option>
+          </select>
         </label>
         <label class="field">
           <span data-i18n="filters.level">Level</span>
@@ -153,23 +180,33 @@
     <section class="before wrap" aria-labelledby="before-title">
       <h2 id="before-title" data-i18n="before.title">Before you pick an issue</h2>
       <ol class="steps">
-        <li data-i18n-html="before.free"><strong>Check it is still free.</strong> Open the issue and look for new comments, assignees or linked pull requests. This page refreshes every 12 hours.</li>
-        <li data-i18n-html="before.rules"><strong>Read the project's rules.</strong> Look at its contributing guide, pull request template and any AI policy. Badges here are detected automatically and can be wrong.</li>
-        <li data-i18n-html="before.reproduce"><strong>Reproduce before you fix.</strong> Confirm the problem on your machine, then write a test that fails before your change.</li>
-        <li data-i18n-html="before.small"><strong>Keep it small.</strong> Change only what the issue needs, run the project's checks, and explain what you changed in plain words.</li>
+        <li data-i18n-html="before.free"><strong>Check it is still free.</strong> Open the issue and look for new
+          comments, assignees or linked pull requests. This page refreshes every 12 hours.</li>
+        <li data-i18n-html="before.rules"><strong>Read the project's rules.</strong> Look at its contributing guide,
+          pull request template and any AI policy. Badges here are detected automatically and can be wrong.</li>
+        <li data-i18n-html="before.reproduce"><strong>Reproduce before you fix.</strong> Confirm the problem on your
+          machine, then write a test that fails before your change.</li>
+        <li data-i18n-html="before.small"><strong>Keep it small.</strong> Change only what the issue needs, run the
+          project's checks, and explain what you changed in plain words.</li>
       </ol>
-      <p><a class="strong-link guide-link" href="https://github.com/TanbirRamim/open-source-radar/blob/main/guide/README.md" data-i18n="before.readGuide">Read the full contribution guide</a></p>
+      <p><a class="strong-link guide-link"
+          href="https://github.com/TanbirRamim/open-source-radar/blob/main/guide/README.md"
+          data-i18n="before.readGuide">Read the full contribution guide</a></p>
     </section>
   </main>
 
   <footer class="site-footer wrap">
     <p id="updated" data-i18n="footer.loading">Data is collected from the GitHub API by an open source workflow.</p>
     <ul class="footer-links">
-      <li><a href="https://github.com/TanbirRamim/open-source-radar/blob/main/CONTRIBUTING.md" data-i18n="footer.suggest">Suggest a project or improve the guide</a></li>
-      <li><a href="https://github.com/TanbirRamim/open-source-radar/blob/main/scripts/radar.py" data-i18n="footer.selection">How issues are selected</a></li>
+      <li><a href="https://github.com/TanbirRamim/open-source-radar/blob/main/CONTRIBUTING.md"
+          data-i18n="footer.suggest">Suggest a project or improve the guide</a></li>
+      <li><a href="https://github.com/TanbirRamim/open-source-radar/blob/main/scripts/radar.py"
+          data-i18n="footer.selection">How issues are selected</a></li>
       <li><a href="feeds/index.html" data-i18n="footer.feeds">Beginner issue RSS feeds</a></li>
-      <li data-i18n-html="footer.built">Built by <a href="https://www.tanbirramim.com">Tanbir Hossain Ramim</a> (<a href="https://github.com/TanbirRamim">GitHub</a>)</li>
-      <li data-i18n-html="footer.star"><a href="https://github.com/TanbirRamim/open-source-radar">Star it on GitHub</a> if it helped you</li>
+      <li data-i18n-html="footer.built">Built by <a href="https://www.tanbirramim.com">Tanbir Hossain Ramim</a> (<a
+          href="https://github.com/TanbirRamim">GitHub</a>)</li>
+      <li data-i18n-html="footer.star"><a href="https://github.com/TanbirRamim/open-source-radar">Star it on GitHub</a>
+        if it helped you</li>
       <li data-i18n="footer.license">MIT licensed</li>
     </ul>
   </footer>
@@ -201,4 +238,5 @@
   <script src="assets/i18n.js" defer></script>
   <script src="assets/app.js" defer></script>
 </body>
+
 </html>
