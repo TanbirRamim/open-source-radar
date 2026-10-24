@@ -599,6 +599,53 @@ class ProjectsPageTests(unittest.TestCase):
         self.assertIn("| [a/one](https://github.com/a/one/issues) | 5k | 3 | 1 | ✍️ CLA | First \\| tool |", page)
         self.assertIn("[open issues](../issues/by-language/rust.md)", page)
 
+    def test_projects_page_other_group_and_anchor_slugs(self):
+        import pathlib
+        import tempfile
+
+        repositories = {
+            "a/one": {
+                "url": "https://github.com/a/one",
+                "description": "First",
+                "stars": 5000,
+                "open_count": 3,
+                "language": None,
+                "policy": {},
+            },
+            "b/two": {
+                "url": "https://github.com/b/two",
+                "description": "Second",
+                "stars": 900,
+                "open_count": 1,
+                "language": "Jupyter Notebook",
+                "policy": {},
+            },
+            "c/three": {
+                "url": "https://github.com/c/three",
+                "description": "Third",
+                "stars": 100,
+                "open_count": 1,
+                "language": "C++",
+                "policy": {},
+            },
+        }
+        issues = []
+        config = {"languages": {}}
+        with tempfile.TemporaryDirectory() as tmp:
+            original = radar.ROOT
+            radar.ROOT = pathlib.Path(tmp)
+            try:
+                radar.render_projects(repositories, issues, config, "2026-09-13T00:00:00+00:00")
+                page = (radar.ROOT / "projects" / "README.md").read_text(encoding="utf-8")
+            finally:
+                radar.ROOT = original
+        self.assertIn("## Other", page)
+        self.assertIn("## Jupyter Notebook", page)
+        self.assertIn("## C++", page)
+        self.assertIn("[Other (1)](#other)", page)
+        self.assertIn("[Jupyter Notebook (1)](#jupyter-notebook)", page)
+        self.assertIn("[C++ (1)](#c)", page)
+
 
 class SafetyTests(unittest.TestCase):
     config: ClassVar[dict] = {"exclude": {"repositories": ["Some/Repo", "whole-org/*"]}}
