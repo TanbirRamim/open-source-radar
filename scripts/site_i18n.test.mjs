@@ -44,9 +44,10 @@ const dynamicKeys = [
   "time.updatedPrefix", "time.year", "time.years", "time.yesterday", "title.issue", "title.issues",
 ];
 
-test("English, Spanish, Hindi, Portuguese, German and French define every site message", () => {
+test("every locale defines every site message", () => {
   const keys = [...new Set([...staticKeys(), ...dynamicKeys])];
-  for (const locale of ["en", "es", "hi", "pt", "de", "fr"]) {
+  // Every locale in messages, so a new locale PR does not need to edit this test.
+  for (const locale of Object.keys(loadI18n("en").messages)) {
     const i18n = loadI18n(locale);
     assert.equal(i18n.locale, locale);
     for (const key of keys) assert.notEqual(i18n.t(key), key, `${locale} is missing ${key}`);
