@@ -1534,7 +1534,8 @@ class LanguageQuickstartsInSyncTests(unittest.TestCase):
                     f"{name} should start with a '# <Name> quickstart' heading",
                 )
                 for section in ("## Setup", "## Common commands", "## Before you push"):
-                    self.assertIn(section, text, f"{name} is missing a '{section}' section")
+                    # Match whole lines so "### Setup" or prose mentioning it doesn't count.
+                    self.assertIn(section, lines, f"{name} is missing a '{section}' section")
                 self.assertIn(
                     "Back to [all languages](README.md)",
                     last,
