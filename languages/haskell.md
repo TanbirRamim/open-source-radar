@@ -15,7 +15,7 @@ Open Haskell issues: [Haskell issue list](../issues/by-language/haskell.md)
 | --- | --- |
 | Build | `cabal build` (or `stack build`) |
 | Run tests | `cabal test` (or `stack test`) |
-| Run one test | `cabal test --test-show-details=direct -t 'TestName'` |
+| Run one test | `cabal test --test-options='-p TestName'` (tasty) or `--test-options='-m "name"'` (hspec) |
 | Format | `ormolu -m inplace $(git ls-files '*.hs')` or `fourmolu` |
 | Lint | `hlint .` |
 | REPL | `cabal repl` (or `stack ghci`) |
@@ -33,4 +33,3 @@ Open Haskell issues: [Haskell issue list](../issues/by-language/haskell.md)
 - [ ] Your diff contains no unrelated formatting or lockfile changes.
 
 Back to [all languages](README.md) · [Guide](../guide/README.md)
-EOF
