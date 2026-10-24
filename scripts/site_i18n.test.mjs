@@ -38,9 +38,9 @@ const dynamicKeys = [
   "time.updatedPrefix", "time.year", "time.years", "time.yesterday", "title.issue", "title.issues",
 ];
 
-test("English, Spanish, Hindi and Portuguese define every site message", () => {
+test("English, Spanish, Hindi, Portuguese and French define every site message", () => {
   const keys = [...new Set([...staticKeys(), ...dynamicKeys])];
-  for (const locale of ["en", "es", "hi", "pt"]) {
+  for (const locale of ["en", "es", "hi", "pt", "fr"]) {
     const i18n = loadI18n(locale);
     assert.equal(i18n.locale, locale);
     for (const key of keys) assert.notEqual(i18n.t(key), key, `${locale} is missing ${key}`);
@@ -48,7 +48,7 @@ test("English, Spanish, Hindi and Portuguese define every site message", () => {
 });
 
 test("unsupported locales fall back to English", () => {
-  const i18n = loadI18n("fr");
+  const i18n = loadI18n("de");
   assert.equal(i18n.locale, "en");
   assert.equal(i18n.t("query.copy"), "Copy");
 });
@@ -57,6 +57,7 @@ test("messages interpolate values", () => {
   assert.equal(loadI18n("es").t("repo.stars", { count: "25" }), "25 estrellas");
   assert.equal(loadI18n("hi").t("repo.stars", { count: "25" }), "25 स्टार्स");
   assert.equal(loadI18n("pt").t("repo.stars", { count: "25" }), "25 estrelas");
+  assert.equal(loadI18n("fr").t("repo.stars", { count: "25" }), "25 étoiles");
 });
 
 test("every locale has the same keys as English", () => {
