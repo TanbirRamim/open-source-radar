@@ -29,6 +29,13 @@ Open Nix issues: [Nix issue list](../issues/by-language/nix.md)
 - Check the exact package and test outputs before building; names and supported systems vary between flakes.
 - Avoid `nix flake update` unless dependency updates are part of the task, since it changes the lock file.
 
+
+## Before you push
+
+- [ ] Tests for the area you changed pass locally.
+- [ ] Formatter and linter pass with the project's configuration.
+- [ ] Your diff contains no unrelated formatting or lockfile changes.
+
 Before contributing, run the project's documented checks and formatter, then inspect `git diff --check` and the final diff.
 
 Further reading: the Nix reference for [`nix flake show`](https://nix.dev/manual/nix/2.35/command-ref/new-cli/nix3-flake-show.html), [`nix develop`](https://nix.dev/manual/nix/2.35/command-ref/new-cli/nix3-develop.html), [`nix flake check`](https://nix.dev/manual/nix/2.35/command-ref/new-cli/nix3-flake-check.html), [`nix build`](https://nix.dev/manual/nix/2.35/command-ref/new-cli/nix3-build.html) and [`nix fmt`](https://nix.dev/manual/nix/2.35/command-ref/new-cli/nix3-fmt.html).
