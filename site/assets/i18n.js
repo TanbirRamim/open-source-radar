@@ -58,6 +58,7 @@
       "filters.newest": "Newest issues",
       "filters.stars": "Most starred project",
       "filters.quiet": "Fewest comments",
+      "filters.open": "Most open issues",
       "filters.activity": "Last activity",
       "filters.anyTime": "Any time",
       "filters.days7": "Past 7 days",
