@@ -59,16 +59,13 @@ test("messages interpolate values", () => {
   assert.equal(loadI18n("pt").t("repo.stars", { count: "25" }), "25 estrelas");
 });
 
-test("English, Spanish, Hindi and Portuguese have the same keys", () => {
+test("every locale has the same keys as English", () => {
+  // Loops over every locale in messages, so a new locale is checked without touching this test.
   const { messages } = loadI18n("en");
   const en = Object.keys(messages.en).sort();
-  const es = Object.keys(messages.es).sort();
-  const hi = Object.keys(messages.hi).sort();
-  const pt = Object.keys(messages.pt).sort();
-  assert.deepEqual(es.filter((key) => !en.includes(key)), [], "keys only in es");
-  assert.deepEqual(en.filter((key) => !es.includes(key)), [], "keys only in en");
-  assert.deepEqual(hi.filter((key) => !en.includes(key)), [], "keys only in hi");
-  assert.deepEqual(en.filter((key) => !hi.includes(key)), [], "keys only in en");
-  assert.deepEqual(pt.filter((key) => !en.includes(key)), [], "keys only in pt");
-  assert.deepEqual(en.filter((key) => !pt.includes(key)), [], "keys only in en");
+  for (const [locale, table] of Object.entries(messages)) {
+    const keys = Object.keys(table);
+    assert.deepEqual(keys.filter((key) => !en.includes(key)), [], `keys only in ${locale}`);
+    assert.deepEqual(en.filter((key) => !keys.includes(key)), [], `keys missing in ${locale}`);
+  }
 });
