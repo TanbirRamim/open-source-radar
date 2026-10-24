@@ -38,9 +38,9 @@ const dynamicKeys = [
   "time.updatedPrefix", "time.year", "time.years", "time.yesterday", "title.issue", "title.issues",
 ];
 
-test("English, Spanish and Hindi define every site message", () => {
+test("English, Spanish, Hindi and Portuguese define every site message", () => {
   const keys = [...new Set([...staticKeys(), ...dynamicKeys])];
-  for (const locale of ["en", "es", "hi"]) {
+  for (const locale of ["en", "es", "hi", "pt"]) {
     const i18n = loadI18n(locale);
     assert.equal(i18n.locale, locale);
     for (const key of keys) assert.notEqual(i18n.t(key), key, `${locale} is missing ${key}`);
@@ -56,15 +56,19 @@ test("unsupported locales fall back to English", () => {
 test("messages interpolate values", () => {
   assert.equal(loadI18n("es").t("repo.stars", { count: "25" }), "25 estrellas");
   assert.equal(loadI18n("hi").t("repo.stars", { count: "25" }), "25 स्टार्स");
+  assert.equal(loadI18n("pt").t("repo.stars", { count: "25" }), "25 estrelas");
 });
 
-test("English and Spanish have the same keys", () => {
+test("English, Spanish, Hindi and Portuguese have the same keys", () => {
   const { messages } = loadI18n("en");
   const en = Object.keys(messages.en).sort();
   const es = Object.keys(messages.es).sort();
   const hi = Object.keys(messages.hi).sort();
+  const pt = Object.keys(messages.pt).sort();
   assert.deepEqual(es.filter((key) => !en.includes(key)), [], "keys only in es");
   assert.deepEqual(en.filter((key) => !es.includes(key)), [], "keys only in en");
   assert.deepEqual(hi.filter((key) => !en.includes(key)), [], "keys only in hi");
   assert.deepEqual(en.filter((key) => !hi.includes(key)), [], "keys only in en");
+  assert.deepEqual(pt.filter((key) => !en.includes(key)), [], "keys only in pt");
+  assert.deepEqual(en.filter((key) => !pt.includes(key)), [], "keys only in en");
 });
