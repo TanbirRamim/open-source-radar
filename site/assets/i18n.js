@@ -658,6 +658,7 @@
   document.querySelectorAll("#guide-link, .guide-link").forEach((link) => {
     if (locale === "es") link.href = "https://github.com/TanbirRamim/open-source-radar/blob/main/guide/es/README.md";
     if (locale === "hi") link.href = "https://github.com/TanbirRamim/open-source-radar/blob/main/guide/hi/README.md";
+    if (locale === "pt") link.href = "https://github.com/TanbirRamim/open-source-radar/blob/main/guide/pt-BR/README.md";
   });
 
   const select = document.getElementById("locale-select");
