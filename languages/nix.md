@@ -29,7 +29,6 @@ Open Nix issues: [Nix issue list](../issues/by-language/nix.md)
 - Check the exact package and test outputs before building; names and supported systems vary between flakes.
 - Avoid `nix flake update` unless dependency updates are part of the task, since it changes the lock file.
 
-
 ## Before you push
 
 - [ ] Tests for the area you changed pass locally.
