@@ -9,6 +9,12 @@ test("findCommand recognizes claim commands on unquoted lines", () => {
   assert.equal(findCommand("/unclaim thanks"), "/unclaim thanks");
 });
 
+test("findCommand allows leading @mentions before the command", () => {
+  assert.equal(findCommand("@TanbirRamim /claim"), "/claim");
+  assert.equal(findCommand("@a, @b-c: /unclaim"), "/unclaim");
+  assert.equal(findCommand("@someone please /claim"), undefined);
+});
+
 test("findCommand ignores quoted lines and comments without a command", () => {
   assert.equal(findCommand("> /claim"), undefined);
   assert.equal(findCommand("I would like to help"), undefined);

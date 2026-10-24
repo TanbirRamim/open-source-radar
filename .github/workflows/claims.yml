@@ -1,7 +1,7 @@
 name: claims
 
 # Self-serve issue claims, the way larger projects run them:
-#   /claim    assigns you right away (on its own line, anywhere in the comment)
+#   /claim    assigns you right away (on its own line or after @mentions, anywhere in the comment)
 #   /unclaim  hands the issue back
 # A daily job frees claims that went quiet (see STALE_DAYS) so nobody holds an issue forever.
 
