@@ -9,6 +9,7 @@ Short, practical notes on how projects in each language are usually built, teste
 | [Vue](vue.md) | Node.js + Vite | [issues](../issues/by-language/vue.md) |
 | [Python](python.md) | CPython | [issues](../issues/by-language/python.md) |
 | [Go](go.md) | Go toolchain | [issues](../issues/by-language/go.md) |
+| [Haskell](haskell.md) | GHC + Cabal/Stack | [issues](../issues/by-language/haskell.md) |
 | [Rust](rust.md) | rustup + Cargo | [issues](../issues/by-language/rust.md) |
 | [Shell](shell.md) | Bash | [issues](../issues/by-language/shell.md) |
 | [Java](java.md) | JDK + Maven/Gradle | [issues](../issues/by-language/java.md) |
