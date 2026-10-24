@@ -1521,6 +1521,26 @@ class LanguageQuickstartsInSyncTests(unittest.TestCase):
         linked = set(re.findall(r"\]\(([^)#/]+\.md)\)", index))
         self.assertEqual(sorted(set(self._quickstarts()) - linked), [])
 
+    def test_every_quickstart_has_the_expected_structure(self):
+        for name in self._quickstarts():
+            with self.subTest(quickstart=name):
+                text = (self.ROOT / "languages" / name).read_text(encoding="utf-8")
+                lines = [line.strip() for line in text.splitlines()]
+                first = lines[0]
+                last = lines[-1]
+                self.assertRegex(
+                    first,
+                    r"^# .*[Qq]uickstart$",
+                    f"{name} should start with a '# <Name> quickstart' heading",
+                )
+                for section in ("## Setup", "## Common commands", "## Before you push"):
+                    self.assertIn(section, text, f"{name} is missing a '{section}' section")
+                self.assertIn(
+                    "Back to [all languages](README.md)",
+                    last,
+                    f"{name} should end with the 'Back to [all languages](README.md)' footer",
+                )
+
 
 class GuideChapterNavigationTests(unittest.TestCase):
     """Tests that every numbered guide chapter ends with a valid navigation link."""
