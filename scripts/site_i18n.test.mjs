@@ -28,6 +28,12 @@ function staticKeys() {
   return [...indexSource.matchAll(pattern)].map((match) => match[1]);
 }
 
+function localeSelectValues() {
+  const select = indexSource.match(/<select id="locale-select"[\s\S]*?<\/select>/)?.[0];
+  assert.ok(select, "locale selector is present");
+  return [...select.matchAll(/<option\s+value="([^"]+)"/g)].map((match) => match[1]);
+}
+
 const dynamicKeys = [
   "badge.aiDisclose", "badge.aiPolicy", "badge.aiRestricted", "badge.closedPr", "badge.dco",
   "badge.guide", "feed.language", "feed.topic", "footer.updated", "issue.beginner", "issue.comments",
@@ -68,4 +74,9 @@ test("every locale has the same keys as English", () => {
     assert.deepEqual(keys.filter((key) => !en.includes(key)), [], `keys only in ${locale}`);
     assert.deepEqual(en.filter((key) => !keys.includes(key)), [], `keys missing in ${locale}`);
   }
+});
+
+test("the locale menu matches the available message locales", () => {
+  const { messages } = loadI18n("en");
+  assert.deepEqual(localeSelectValues(), Object.keys(messages));
 });
