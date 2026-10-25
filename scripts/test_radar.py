@@ -600,9 +600,6 @@ class ProjectsPageTests(unittest.TestCase):
         self.assertIn("[open issues](../issues/by-language/rust.md)", page)
 
     def test_projects_page_other_group_and_anchor_slugs(self):
-        import pathlib
-        import tempfile
-
         repositories = {
             "a/one": {
                 "url": "https://github.com/a/one",
@@ -628,23 +625,28 @@ class ProjectsPageTests(unittest.TestCase):
                 "language": "C++",
                 "policy": {},
             },
+            "d/four": {
+                "url": "https://github.com/d/four",
+                "description": "Fourth",
+                "stars": 50,
+                "open_count": 1,
+                "language": "",
+                "policy": {},
+            },
         }
         issues = []
         config = {"languages": {}}
-        with tempfile.TemporaryDirectory() as tmp:
-            original = radar.ROOT
-            radar.ROOT = pathlib.Path(tmp)
-            try:
-                radar.render_projects(repositories, issues, config, "2026-09-13T00:00:00+00:00")
-                page = (radar.ROOT / "projects" / "README.md").read_text(encoding="utf-8")
-            finally:
-                radar.ROOT = original
+        with tempfile.TemporaryDirectory() as tmp, patch.object(radar, "ROOT", Path(tmp)):
+            radar.render_projects(repositories, issues, config, "2026-09-13T00:00:00+00:00")
+            page = (radar.ROOT / "projects" / "README.md").read_text(encoding="utf-8")
         self.assertIn("## Other", page)
         self.assertIn("## Jupyter Notebook", page)
         self.assertIn("## C++", page)
-        self.assertIn("[Other (1)](#other)", page)
+        self.assertIn("[Other (2)](#other)", page)
         self.assertIn("[Jupyter Notebook (1)](#jupyter-notebook)", page)
         self.assertIn("[C++ (1)](#c)", page)
+        # None and "" both count as no language and share one "Other" group, never a second one.
+        self.assertEqual(page.count("## Other"), 1)
 
 
 class SafetyTests(unittest.TestCase):
