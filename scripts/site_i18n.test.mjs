@@ -6,11 +6,11 @@ import vm from "node:vm";
 const i18nSource = readFileSync(new URL("../site/assets/i18n.js", import.meta.url), "utf8");
 const indexSource = readFileSync(new URL("../site/index.html", import.meta.url), "utf8");
 
-function loadI18n(requestedLocale) {
+function loadI18n(requestedLocale, navigatorLanguages) {
   const select = { value: "", addEventListener() { } };
   const context = {
     window: {},
-    navigator: { language: "en" },
+    navigator: { language: "en", ...(navigatorLanguages ? { languages: navigatorLanguages } : {}) },
     localStorage: { getItem: () => requestedLocale, setItem() { } },
     location: { reload() { } },
     document: {
@@ -83,4 +83,20 @@ test("the locale menu matches the available message locales", () => {
   // Compare as sorted lists: the menu order is a display choice (e.g. English first),
   // the test only cares that no locale is missing from either side.
   assert.deepEqual(localeSelectValues().sort(), Object.keys(messages).sort());
+});
+
+test("picks the first supported language from navigator.languages", () => {
+  // Browser lists nl, pt-BR, en: Dutch is unsupported, so Portuguese wins.
+  const i18n = loadI18n(null, ["nl", "pt-BR", "en"]);
+  assert.equal(i18n.locale, "pt");
+});
+
+test("falls back to English when no listed language is supported", () => {
+  const i18n = loadI18n(null, ["nl", "sv"]);
+  assert.equal(i18n.locale, "en");
+});
+
+test("a stored locale still wins over navigator.languages", () => {
+  const i18n = loadI18n("es", ["pt-BR", "en"]);
+  assert.equal(i18n.locale, "es");
 });
