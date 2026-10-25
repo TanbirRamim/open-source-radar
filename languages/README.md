@@ -1,7 +1,6 @@
 # Language quickstarts
 
 Short, practical notes on how projects in each language are usually built, tested and checked, so you can get a project running quickly. The project's own contributing guide always wins when it disagrees.
-There are 27 language quickstarts available.
 
 | Language | Toolchain | Open issues |
 | --- | --- | --- |

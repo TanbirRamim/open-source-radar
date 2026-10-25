@@ -13,16 +13,17 @@ Open Scala issues: [Scala issue list](../issues/by-language/scala.md)
 
 ## Common commands
 
-Task | Usual command
---- | ---
-Compile | `sbt compile`
-Run tests | `sbt test`
-Format check | `sbt scalafmtCheckAll`
-Format code | `sbt scalafmtAll`
-Check and fix common issues | `sbt scalafix`
-Run a Scala CLI project | `scala run .`
-Compile with Scala CLI | `scala compile .`
-Run tests with Scala CLI | `scala test .`
+| Task | Usual command |
+| --- | --- |
+| Compile | `sbt compile` |
+| Run tests | `sbt test` |
+| One test class | `sbt "testOnly *UserSpec"`, or `sbt "testOnly *UserSpec -- -z name"` for one ScalaTest case |
+| Format check | `sbt scalafmtCheckAll` |
+| Format code | `sbt scalafmtAll` |
+| Check and fix common issues | `sbt scalafix` |
+| Run a Scala CLI project | `scala run .` |
+| Compile with Scala CLI | `scala compile .` |
+| Run tests with Scala CLI | `scala test .` |
 
 ## Tips
 
