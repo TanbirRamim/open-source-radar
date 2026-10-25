@@ -10,7 +10,7 @@ function loadI18n(requestedLocale) {
   const select = { value: "", addEventListener() { } };
   const context = {
     window: {},
-    navigator: { language: "en" },
+    navigator: { language: "en-US", languages:["pa","pt","es","hi","fr","ta"] },
     localStorage: { getItem: () => requestedLocale, setItem() { } },
     location: { reload() { } },
     document: {

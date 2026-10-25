@@ -886,7 +886,7 @@
     try { return localStorage.getItem("radar-locale"); } catch (error) { return null; }
   }
 
-  const requested = storedLocale() || (navigator.language || "en").split("-")[0];
+  const requested = storedLocale() || (((navigator.languages && navigator.languages.find((a) => Object.hasOwn(messages, a.split("-")[0]))) || navigator.language) || "en").split("-")[0];
   const locale = Object.hasOwn(messages, requested) ? requested : "en";
 
   function t(key, values = {}) {
