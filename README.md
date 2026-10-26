@@ -214,6 +214,8 @@ Thank you to everyone who has made the radar better:
 - [@anessha-5D](https://github.com/anessha-5D): Scala quickstart ([#306](https://github.com/TanbirRamim/open-source-radar/pull/306))
 - [@divejikan-yuvarajah](https://github.com/divejikan-yuvarajah): locale picker border fix ([#316](https://github.com/TanbirRamim/open-source-radar/pull/316))
 - [@Dev-GA-Arjun](https://github.com/Dev-GA-Arjun): Japanese website ([#322](https://github.com/TanbirRamim/open-source-radar/pull/322))
+- [@jdabid](https://github.com/jdabid): Spanish guide link fix ([#327](https://github.com/TanbirRamim/open-source-radar/pull/327))
+- [@OR3-D3V](https://github.com/OR3-D3V): Simplified Chinese website ([#328](https://github.com/TanbirRamim/open-source-radar/pull/328))
 
 Your name goes here with your first merged pull request. And if the radar helped you, please give it a star: it's the simplest way to help other newcomers find it.
 

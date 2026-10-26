@@ -508,9 +508,9 @@ a:hover { text-decoration-thickness: 2px; }
   margin: 0 0 1.25rem;
 }
 
-/* The tight tracking suits the Latin display font, but squeezes Japanese, Korean,
+/* The tight tracking suits the Latin display font, but squeezes Chinese, Japanese, Korean,
    Hindi and Bengali glyphs together, so those locales get normal spacing. */
-:is(:lang(ja), :lang(ko), :lang(hi), :lang(bn)) :is(.hero h1, .before h2) { letter-spacing: normal; }
+:is(:lang(zh), :lang(ja), :lang(ko), :lang(hi), :lang(bn)) :is(.hero h1, .before h2) { letter-spacing: normal; }
 .steps {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));

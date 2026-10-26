@@ -1592,6 +1592,24 @@ class LanguageQuickstartsInSyncTests(unittest.TestCase):
                 )
 
 
+class GuideTranslationLinkTests(unittest.TestCase):
+    """A translated chapter links to the translated next chapter once it exists (#318)."""
+
+    def test_translated_chapters_prefer_translated_next_chapter(self):
+        guide_dir = Path(__file__).resolve().parent.parent / "guide"
+        folders = [d for d in guide_dir.iterdir() if d.is_dir()]
+        self.assertTrue(folders, "No guide translations were found.")
+        for folder in folders:
+            for chapter in sorted(folder.glob("[0-9][0-9]-*.md")):
+                with self.subTest(chapter=f"{folder.name}/{chapter.name}"):
+                    lines = [line for line in chapter.read_text(encoding="utf-8").splitlines() if line.strip()]
+                    for target in re.findall(r"\]\(\.\./([0-9][0-9]-[\w-]+\.md)\)", lines[-1]):
+                        self.assertFalse(
+                            (folder / target).exists(),
+                            f"links to ../{target} but {folder.name}/{target} exists",
+                        )
+
+
 class SiteStylesheetTests(unittest.TestCase):
     """The site stylesheet only uses CSS variables it defines (#316 fixed a stray --line)."""
 
