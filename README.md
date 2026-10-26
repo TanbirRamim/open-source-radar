@@ -86,6 +86,8 @@ Open Source Radar fixes the first part with data and the second part with a guid
 
 Plus a [glossary](guide/glossary.md) and [quickstarts for 27 languages](languages/README.md).
 
+The guide is also translated: [Español](guide/es/README.md) and [Português](guide/pt-BR/README.md) (all chapters), [हिंदी](guide/hi/README.md) (most chapters).
+
 ## How issues are selected
 
 The [data pipeline](scripts/radar.py) is a single Python script with no dependencies. On each run it:
