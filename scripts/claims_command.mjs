@@ -1,7 +1,8 @@
 // Shared matcher for the self-serve /claim and /unclaim commands.
 //
 // The command can sit on any line ("hi, I'd like this one\n/claim"), and may
-// follow leading @mentions ("@maintainer /claim"), but not inside a quote. Kept
+// follow leading @mentions ("@maintainer /claim"), but not inside a quote or a
+// fenced code block (``` or ~~~, the two fence styles GitHub renders). Kept
 // in one place so the claims workflow and its test always exercise the same code.
 export const findCommand = (text) => {
   let inCodeFence = false;
@@ -10,7 +11,7 @@ export const findCommand = (text) => {
     const line = rawLine.trim();
 
     // Detect opening and closing code fences
-    if (line.startsWith("```")) {
+    if (line.startsWith("```") || line.startsWith("~~~")) {
       inCodeFence = !inCodeFence;
       continue;
     }

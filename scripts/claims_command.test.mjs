@@ -64,3 +64,7 @@ test("findCommand accepts commands after closing code fences", () => {
 
   assert.equal(findCommand(comment), "/unclaim");
 });
+
+test("findCommand ignores commands inside ~~~ fences too", () => {
+  assert.equal(findCommand(["~~~", "/claim", "~~~"].join("\n")), undefined);
+});
