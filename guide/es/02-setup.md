@@ -84,4 +84,4 @@ Los gestores de versiones lo hacen sencillo:
 - [ ] `gh auth status` (o `ssh -T git@github.com`) muestra que puedo autenticarme.
 - [ ] Mi editor formatea al guardar.
 
-Siguiente: [Elige un proyecto](../03-choose-a-project.md)
+Siguiente: [Elige un proyecto](03-choose-a-project.md)
