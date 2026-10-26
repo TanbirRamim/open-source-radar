@@ -1592,6 +1592,16 @@ class LanguageQuickstartsInSyncTests(unittest.TestCase):
                 )
 
 
+class SiteStylesheetTests(unittest.TestCase):
+    """The site stylesheet only uses CSS variables it defines (#316 fixed a stray --line)."""
+
+    def test_every_css_variable_used_is_defined(self):
+        css = (Path(__file__).resolve().parent.parent / "site" / "assets" / "style.css").read_text(encoding="utf-8")
+        used = set(re.findall(r"var\((--[\w-]+)", css))
+        defined = set(re.findall(r"(--[\w-]+)\s*:", css))
+        self.assertEqual(sorted(used - defined), [])
+
+
 class GuideChapterNavigationTests(unittest.TestCase):
     """Tests that every numbered guide chapter ends with a valid navigation link."""
 
