@@ -507,6 +507,10 @@ a:hover { text-decoration-thickness: 2px; }
   letter-spacing: -0.02em;
   margin: 0 0 1.25rem;
 }
+
+/* The tight tracking suits the Latin display font, but squeezes Japanese,
+   Hindi and Bengali glyphs together, so those locales get normal spacing. */
+:is(:lang(ja), :lang(hi), :lang(bn)) :is(.hero h1, .before h2) { letter-spacing: normal; }
 .steps {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
