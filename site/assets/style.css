@@ -152,7 +152,7 @@ a:hover { text-decoration-thickness: 2px; }
 
 .locale-picker select {
   min-height: 2.2rem;
-  border: 1px solid var(--line);
+  border: 1px solid var(--rule);
   border-radius: 0.45rem;
   background: var(--surface);
   color: var(--ink-soft);
