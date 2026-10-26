@@ -91,4 +91,4 @@ Algunos proyectos te piden incluir una declaración en tu pull request, por ejem
 * [ ] Revisé `.github/workflows/` para detectar automatizaciones que podrían cerrar mi PR.
 * [ ] Si la IA me ayudó, sé si debo declararlo y cómo hacerlo.
 
-Siguiente: [Cómo comunicarte con los mantenedores](07-communication.md) (en inglés)
+Siguiente: [Cómo comunicarte con los mantenedores](07-communication.md)

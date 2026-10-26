@@ -89,4 +89,4 @@ Alguns projetos pedem uma declaração no seu pull request, por exemplo de que v
 - [ ] Verifiquei `.github/workflows/` em busca de automação que poderia fechar meu PR.
 - [ ] Se a IA me ajudou, sei se e como preciso declarar.
 
-Próximo: [Talking to maintainers](07-communication.md)
+Próximo: [Conversando com os mantenedores](07-communication.md)
