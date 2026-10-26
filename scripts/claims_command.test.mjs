@@ -41,3 +41,26 @@ test("isStale treats activity exactly at the cutoff as stale", () => {
 test("isStale treats old activity as stale", () => {
   assert.equal(isStale([86400e3], 8 * 86400e3, 7), true);
 });
+
+test("findCommand ignores commands inside fenced code blocks", () => {
+  const comment = [
+    "To claim an issue, use:",
+    "```",
+    "/claim",
+    "```"
+  ].join("\n");
+
+  assert.equal(findCommand(comment), undefined);
+});
+
+test("findCommand accepts commands after closing code fences", () => {
+  const comment = [
+    "Example:",
+    "```",
+    "/claim",
+    "```",
+    "/unclaim"
+  ].join("\n");
+
+  assert.equal(findCommand(comment), "/unclaim");
+});
