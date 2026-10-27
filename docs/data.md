@@ -27,6 +27,10 @@ It is refreshed twice a day. The same data, without the website extras, is commi
       "buckets": ["devtools"],                   // Open Source Radar topic slugs (see scripts/config.toml)
       "contributing": "CONTRIBUTING.md",          // detected contributing guide path, or null
       "open_count": 4,                           // listed issues in this project
+      "external_prs": {
+        "last_merged_at": "2026-09-10",          // latest observed qualifying merge, or null
+        "merged_last_90_days": 3                 // qualifying merges in the configured window
+      },
       "policy": {
         "ai": "none",                            // none | policy | disclose | restricted (detected, may be wrong)
         "ai_file": null,                         // file the AI rule was found in
@@ -68,6 +72,14 @@ It is `null` if no guide was detected; older datasets can omit the field.
 The site links to the detected path on GitHub and offers a **Has a contributing
 guide** filter. The policy-file cache may be stale, and detecting a guide does
 not guarantee that its advice is current or helpful.
+
+`repositories[repo].external_prs` is a recent first-time-contribution signal. The pipeline runs
+one GitHub PR search per displayed repository for the 90-day window and counts merged PRs whose
+GitHub author association is `NONE`, `FIRST_TIMER`, or `FIRST_TIME_CONTRIBUTOR`. It excludes
+bots and the repository owner's own PRs in the search query. In particular, it excludes
+`CONTRIBUTOR`: GitHub assigns that association after a prior commit, while this signal is meant
+to show whether a project accepts new external contributors. Results are bounded to the first
+100 search results per repository.
 
 ## Example: five newest beginner issues in Go
 

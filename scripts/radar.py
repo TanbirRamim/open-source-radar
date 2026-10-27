@@ -255,17 +255,11 @@ def gql_string(value: str) -> str:
     return json.dumps(value)
 
 
-def build_repo_query(repos: list[str], labels: list[str], per_repo: int, include_policy: bool) -> str:
+def build_repo_query(repos: list[str], labels: list[str], per_repo: int) -> str:
     label_list = "[" + ",".join(gql_string(label) for label in labels) + "]"
     parts = []
     for index, full_name in enumerate(repos):
         owner, name = full_name.split("/", 1)
-        policy = ""
-        if include_policy:
-            policy = "\n".join(
-                f"    p{file_index}: object(expression: {gql_string('HEAD:' + path)}) {{ ... on Blob {{ text }} }}"
-                for file_index, path in enumerate(POLICY_FILES)
-            )
         parts.append(
             f"""  r{index}: repository(owner: {gql_string(owner)}, name: {gql_string(name)}) {{
     nameWithOwner url description stargazerCount forkCount isArchived pushedAt
@@ -287,8 +281,40 @@ def build_repo_query(repos: list[str], labels: list[str], per_repo: int, include
         }}
       }}
     }}
-{policy}
   }}"""
+        )
+    return "query {\n" + "\n".join(parts) + "\n  rateLimit { cost remaining resetAt }\n}"
+
+
+def build_policy_query(repos: list[str]) -> str:
+    """Fetch contribution-policy files only for repositories that will be displayed."""
+    parts = []
+    for index, full_name in enumerate(repos):
+        owner, name = full_name.split("/", 1)
+        files = "\n".join(
+            f"    p{file_index}: object(expression: {gql_string('HEAD:' + path)}) {{ ... on Blob {{ text }} }}"
+            for file_index, path in enumerate(POLICY_FILES)
+        )
+        parts.append(
+            f"""  r{index}: repository(owner: {gql_string(owner)}, name: {gql_string(name)}) {{
+{files}
+  }}"""
+        )
+    return "query {\n" + "\n".join(parts) + "\n  rateLimit { cost remaining resetAt }\n}"
+
+
+def build_external_merge_query(repos: list[str], since: dt.date) -> str:
+    """Build one shallow, recent merged-PR search per repository in a GraphQL batch."""
+    parts = []
+    for index, full_name in enumerate(repos):
+        owner = full_name.split("/", 1)[0]
+        search = f"repo:{full_name} is:pr is:merged merged:>={since.isoformat()} -author:{owner}"
+        parts.append(
+            f'''  external{index}: search(type: ISSUE, first: 100, query: {gql_string(search)}) {{
+    nodes {{
+      ... on PullRequest {{ mergedAt authorAssociation author {{ __typename }} }}
+    }}
+  }}'''
         )
     return "query {\n" + "\n".join(parts) + "\n  rateLimit { cost remaining resetAt }\n}"
 
@@ -453,6 +479,96 @@ def difficulty(labels: list[str]) -> str:
     return "help-wanted"
 
 
+# A past commit is enough for GitHub to label an author a CONTRIBUTOR.  This
+# signal deliberately measures first-time / previously-unaffiliated authors,
+# rather than ongoing contributors who may be part of a project team.
+EXTERNAL_AUTHOR_ASSOCIATIONS = {"NONE", "FIRST_TIMER", "FIRST_TIME_CONTRIBUTOR"}
+
+
+def external_merge_stats(search: dict[str, Any] | None, since: dt.datetime) -> dict[str, Any]:
+    """Summarise recent merged PRs from first-time or unaffiliated human authors."""
+    merged = []
+    for pull in (search or {}).get("nodes") or []:
+        if not pull or not pull.get("mergedAt"):
+            continue
+        if (pull.get("author") or {}).get("__typename") != "User":
+            continue
+        if pull.get("authorAssociation") not in EXTERNAL_AUTHOR_ASSOCIATIONS:
+            continue
+        merged_at = iso_to_datetime(pull["mergedAt"])
+        if merged_at >= since:
+            merged.append(merged_at)
+    return {
+        "last_merged_at": max(merged).date().isoformat() if merged else None,
+        "merged_last_90_days": len(merged),
+    }
+
+
+def fetch_external_merge_stats(
+    github: GitHub, repositories: list[str], since: dt.datetime
+) -> tuple[dict[str, dict[str, Any]], float, float, int]:
+    """Fetch activity only for repositories that survived the issue scan."""
+    stats: dict[str, dict[str, Any]] = {}
+    started = time.perf_counter()
+    api_seconds = 0.0
+    batches = 0
+    for batch in chunked(repositories, 6):
+        batches += 1
+        request_started = time.perf_counter()
+        try:
+            response = github.graphql(build_external_merge_query(batch, since.date()))
+        except RuntimeError as error:
+            log(f"external PR batch failed, retrying one repository at a time: {error}")
+            response = {"data": {}}
+            for index, name in enumerate(batch):
+                try:
+                    single = github.graphql(build_external_merge_query([name], since.date()))
+                    response["data"][f"external{index}"] = (single.get("data") or {}).get("external0")
+                except RuntimeError as single_error:
+                    log(f"skipping external PR activity for {name}: {single_error}")
+        api_seconds += time.perf_counter() - request_started
+        data = response.get("data") or {}
+        for index, name in enumerate(batch):
+            stats[name] = external_merge_stats(data.get(f"external{index}"), since)
+    return stats, time.perf_counter() - started, api_seconds, batches
+
+
+def policy_needs_refresh(policy: dict[str, Any] | None, refresh_before: dt.datetime) -> bool:
+    return not policy or "scanned_at" not in policy or iso_to_datetime(policy["scanned_at"]) < refresh_before
+
+
+def fetch_policies(
+    github: GitHub, repositories: list[str], policies: dict[str, Any]
+) -> tuple[float, float, int]:
+    """Refresh policy files for displayed repositories whose cached scan is stale."""
+    started = time.perf_counter()
+    api_seconds = 0.0
+    batches = 0
+    for batch in chunked(repositories, 6):
+        batches += 1
+        request_started = time.perf_counter()
+        try:
+            response = github.graphql(build_policy_query(batch))
+        except RuntimeError as error:
+            log(f"policy batch failed, retrying one repository at a time: {error}")
+            response = {"data": {}}
+            for index, name in enumerate(batch):
+                try:
+                    single = github.graphql(build_policy_query([name]))
+                    response["data"][f"r{index}"] = (single.get("data") or {}).get("r0")
+                except RuntimeError as single_error:
+                    log(f"skipping policy scan for {name}: {single_error}")
+        api_seconds += time.perf_counter() - request_started
+        data = response.get("data") or {}
+        for index, name in enumerate(batch):
+            repo = data.get(f"r{index}")
+            if not repo:
+                continue
+            texts = {path: (repo.get(f"p{i}") or {}).get("text") or "" for i, path in enumerate(POLICY_FILES)}
+            policies[name] = {**detect_policy(texts), "scanned_at": now_utc().isoformat(timespec="seconds")}
+    return time.perf_counter() - started, api_seconds, batches
+
+
 def fetch(github: GitHub, config: dict[str, Any], *, force: bool = False) -> dict[str, Any]:
     repos_payload = read_json(REPOS_PATH, None)
     if not repos_payload:
@@ -462,17 +578,20 @@ def fetch(github: GitHub, config: dict[str, Any], *, force: bool = False) -> dic
     refresh_before = now_utc() - dt.timedelta(days=config["policy"]["refresh_days"])
     updated_since = now_utc() - dt.timedelta(days=config["issues"]["updated_within_days"])
     claimed_since = now_utc() - dt.timedelta(days=config["issues"].get("claim_within_days", 21))
+    external_since = now_utc() - dt.timedelta(
+        days=config.get("external_contributions", {}).get("window_days", 90)
+    )
     labels = config["issues"]["labels"]
     per_repo = config["issues"]["per_repo"]
 
     repositories: dict[str, Any] = {}
     issues: list[dict[str, Any]] = []
     names = sorted(name for name in tracked if not is_excluded(name, config))
+    core_started = time.perf_counter()
+    core_api_seconds = 0.0
     for batch_index, batch in enumerate(chunked(names, 6)):
-        needs_policy = any(
-            name not in policies or iso_to_datetime(policies[name]["scanned_at"]) < refresh_before for name in batch
-        )
-        query = build_repo_query(batch, labels, per_repo, include_policy=needs_policy)
+        request_started = time.perf_counter()
+        query = build_repo_query(batch, labels, per_repo)
         try:
             response = github.graphql(query)
         except RuntimeError as error:
@@ -480,19 +599,17 @@ def fetch(github: GitHub, config: dict[str, Any], *, force: bool = False) -> dic
             response = {"data": {}}
             for single_index, name in enumerate(batch):
                 try:
-                    single = github.graphql(build_repo_query([name], labels, per_repo, include_policy=needs_policy))
+                    single = github.graphql(build_repo_query([name], labels, per_repo))
                     response["data"][f"r{single_index}"] = (single.get("data") or {}).get("r0")
                 except RuntimeError as single_error:
                     log(f"skipping {name}: {single_error}")
+        core_api_seconds += time.perf_counter() - request_started
         data = response.get("data") or {}
         for index, name in enumerate(batch):
             repo = data.get(f"r{index}")
             if not repo or repo.get("isArchived"):
                 continue
             full_name = repo["nameWithOwner"]
-            if needs_policy:
-                texts = {path: (repo.get(f"p{i}") or {}).get("text") or "" for i, path in enumerate(POLICY_FILES)}
-                policies[full_name] = {**detect_policy(texts), "scanned_at": now_utc().isoformat(timespec="seconds")}
             topics = [node["topic"]["name"] for node in repo["repositoryTopics"]["nodes"]]
             available = []
             for issue in repo["issues"]["nodes"]:
@@ -517,7 +634,6 @@ def fetch(github: GitHub, config: dict[str, Any], *, force: bool = False) -> dic
             if not available:
                 continue
             issues.extend(available)
-            policy = policies.get(full_name, {})
             repositories[full_name] = {
                 "url": repo["url"],
                 "description": (repo.get("description") or "").strip(),
@@ -528,13 +644,38 @@ def fetch(github: GitHub, config: dict[str, Any], *, force: bool = False) -> dic
                 "pushed": repo["pushedAt"][:10],
                 "topics": topics,
                 "buckets": topic_buckets(topics, config),
-                "policy": {key: policy.get(key) for key in ("ai", "ai_file", "cla", "dco")},
-                "contributing": contributing_guide(policy.get("files")),
                 "open_count": len(available),
             }
         rate = data.get("rateLimit") or {}
         if batch_index % 20 == 0:
             log(f"batch {batch_index}: {len(issues)} issues so far, graphql remaining {rate.get('remaining')}")
+
+    core_elapsed = time.perf_counter() - core_started
+    policy_targets = [
+        full_name for full_name in repositories if policy_needs_refresh(policies.get(full_name), refresh_before)
+    ]
+    policy_elapsed, policy_api_seconds, policy_batches = fetch_policies(github, policy_targets, policies)
+    external_stats, external_elapsed, external_api_seconds, external_batches = fetch_external_merge_stats(
+        github, sorted(repositories), external_since
+    )
+    for full_name, repo in repositories.items():
+        policy = policies.get(full_name, {})
+        repo["policy"] = {key: policy.get(key) for key in ("ai", "ai_file", "cla", "dco")}
+        repo["contributing"] = contributing_guide(policy.get("files"))
+        repo["external_prs"] = external_stats[full_name]
+
+    log(
+        f"timing core: {len(names)} repositories, {(len(names) + 5) // 6} batches, "
+        f"api {core_api_seconds:.1f}s, elapsed {core_elapsed:.1f}s"
+    )
+    log(
+        f"timing policy: {len(policy_targets)} repositories, {policy_batches} batches, "
+        f"api {policy_api_seconds:.1f}s, elapsed {policy_elapsed:.1f}s"
+    )
+    log(
+        f"timing external PRs: {len(repositories)} repositories, {external_batches} batches, "
+        f"api {external_api_seconds:.1f}s, elapsed {external_elapsed:.1f}s"
+    )
 
     issues.sort(key=lambda item: (item["updated"], repositories[item["repo"]]["stars"]), reverse=True)
     if not force:

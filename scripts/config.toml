@@ -42,6 +42,10 @@ repositories = []
 # Contribution files are re-scanned only when older than this.
 refresh_days = 7
 
+[external_contributions]
+# Window for recently merged PRs from people outside the repository team.
+window_days = 90
+
 # Languages the radar tracks (GitHub linguist names) and the page slug for each.
 [languages]
 "JavaScript" = "javascript"
