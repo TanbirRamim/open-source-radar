@@ -678,7 +678,15 @@ class ProjectsPageTests(unittest.TestCase):
 
                     page = (Path(tmp) / "projects" / "README.md").read_text(encoding="utf-8")
 
-                self.assertIn("a" * 119 + expected + " |", page)
+                self.assertIn("a" * 119 + "… |", page)
+                self.assertNotIn(expected, page)
+
+
+class ShortenTests(unittest.TestCase):
+    def test_shorten_keeps_short_text_and_marks_cuts(self):
+        self.assertEqual(radar.shorten("  a\n  short   title ", 20), "a short title")
+        self.assertEqual(radar.shorten("x" * 20, 20), "x" * 20)
+        self.assertEqual(radar.shorten("word " * 10, 12), "word word w…")
 
 
 class SafetyTests(unittest.TestCase):

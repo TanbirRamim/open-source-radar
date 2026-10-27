@@ -563,6 +563,12 @@ AI_NOTE = {
 }
 
 
+def shorten(text: str, limit: int) -> str:
+    """Collapse whitespace and cut to `limit` characters, marking a cut with an ellipsis."""
+    text = " ".join(text.split())
+    return text if len(text) <= limit else text[: limit - 1].rstrip() + "…"
+
+
 def md_escape(text: str) -> str:
     text = re.sub(r"\s+", " ", text).strip()
     return (
@@ -612,7 +618,7 @@ def issue_table(issues: list[dict[str, Any]], repositories: dict[str, Any], limi
     for issue in issues[:limit]:
         repo = repositories[issue["repo"]]
         # Cut before escaping: slicing "\\|" or "&lt;" in half breaks the link markup.
-        title = md_escape(" ".join(issue["title"].split())[:110])
+        title = md_escape(shorten(issue["title"], 110))
         comments = f" 💬 {issue['comments']}" if issue["comments"] else ""
         lines.append(
             f"| [{title}]({issue['url']}){comments} "
@@ -977,7 +983,7 @@ def render_projects(
             "| --- | ---: | ---: | ---: | --- | --- |",
         ]
         for full_name, repo in entries:
-            description = md_escape((repo.get("description") or "")[:120])
+            description = md_escape(shorten(repo.get("description") or "", 120))
             lines.append(
                 f"| [{full_name}]({repo['url']}/issues) | {format_stars(repo['stars'])} | {repo['open_count']} "
                 f"| {beginner_counts.get(full_name, 0)} | {notes_for(repo)} | {description} |"
