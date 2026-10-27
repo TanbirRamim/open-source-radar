@@ -85,5 +85,11 @@ test("the locale menu matches the available message locales", () => {
   // the test only cares that no locale is missing from either side.
   const options = localeSelectValues();
   assert.deepEqual(options.map((option) => option.value).sort(), Object.keys(messages).sort());
-  for (const option of options) assert.equal(option.lang, option.value, `${option.value} option has matching lang`);
+  // A lang can be more specific than the locale code, like zh-Hans for the Simplified Chinese option.
+  for (const option of options) {
+    assert.ok(
+      option.lang === option.value || option.lang.startsWith(`${option.value}-`),
+      `${option.value} option has matching lang (got ${option.lang})`,
+    );
+  }
 });
