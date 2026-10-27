@@ -1,10 +1,10 @@
 # Jupyter Notebook issues
 
-**21** open issues (13 labeled for beginners) across **9** active Jupyter Notebook projects.
+**22** open issues (14 labeled for beginners) across **10** active Jupyter Notebook projects.
 
 [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/jupyter.xml)
 
-> Updated automatically on **2026-10-26 22:29 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-10-27 11:28 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -12,6 +12,7 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [Switch to PyDSSP](https://github.com/a-r-j/graphein/issues/243) 💬 1 | [a-r-j/graphein](https://github.com/a-r-j/graphein) | 1.2k | 🟢 beginner | 2026-10-27 |  |
 | [\[documentation\] show how to get hamilton running on snowpark](https://github.com/apache/hamilton/issues/56) 💬 4 | [apache/hamilton](https://github.com/apache/hamilton) | 2.6k | 🟢 beginner | 2026-10-02 | ✍️ CLA · [📘 guide](https://github.com/apache/hamilton/blob/HEAD/CONTRIBUTING.md) |
 | [Unit test stub autogenerator](https://github.com/apache/hamilton/issues/74) 💬 6 | [apache/hamilton](https://github.com/apache/hamilton) | 2.6k | 🟢 beginner | 2026-09-23 | ✍️ CLA · [📘 guide](https://github.com/apache/hamilton/blob/HEAD/CONTRIBUTING.md) |
 | [Output cells no longer collapse completely](https://github.com/jupyter/notebook/issues/7020) 💬 16 | [jupyter/notebook](https://github.com/jupyter/notebook) | 13.5k | 🟡 help wanted | 2026-09-01 | [📘 guide](https://github.com/jupyter/notebook/blob/HEAD/CONTRIBUTING.md) |

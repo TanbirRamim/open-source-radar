@@ -1384,7 +1384,11 @@
     try { return localStorage.getItem("radar-locale"); } catch (error) { return null; }
   }
 
-  const requested = storedLocale() || (navigator.language || "en").split("-")[0];
+  // Browsers list the user's languages in order of preference, so use the first one we have
+  // instead of only the top one (someone with ["pa", "hi"] should get Hindi, not English).
+  const browserLocales = (navigator.languages?.length ? navigator.languages : [navigator.language || "en"])
+    .map((tag) => tag.split("-")[0].toLowerCase());
+  const requested = storedLocale() || browserLocales.find((code) => Object.hasOwn(messages, code)) || "en";
   const locale = Object.hasOwn(messages, requested) ? requested : "en";
 
   function t(key, values = {}) {

@@ -21,11 +21,11 @@ Found it useful? A star helps other newcomers find the radar.
 ## Right now on the radar
 
 <!-- RADAR:STATS:START -->
-**3,469** open issues · **1,279** labeled for beginners · **1,163** active projects · updated 2026-10-26 22:29 UTC
+**3,470** open issues · **1,315** labeled for beginners · **1,155** active projects · updated 2026-10-27 11:28 UTC
 
-**Languages:** [Go](issues/by-language/go.md) (333) · [C++](issues/by-language/cpp.md) (331) · [TypeScript](issues/by-language/typescript.md) (309) · [C#](issues/by-language/csharp.md) (299) · [Rust](issues/by-language/rust.md) (283) · [Java](issues/by-language/java.md) (273) · [Python](issues/by-language/python.md) (239) · [Kotlin](issues/by-language/kotlin.md) (199) · [JavaScript](issues/by-language/javascript.md) (154) · [C](issues/by-language/c.md) (145) · [PHP](issues/by-language/php.md) (139) · [Shell](issues/by-language/shell.md) (118) · [all languages](issues/README.md#by-language)
+**Languages:** [Go](issues/by-language/go.md) (341) · [C++](issues/by-language/cpp.md) (336) · [TypeScript](issues/by-language/typescript.md) (333) · [Rust](issues/by-language/rust.md) (305) · [C#](issues/by-language/csharp.md) (282) · [Java](issues/by-language/java.md) (268) · [Python](issues/by-language/python.md) (241) · [Kotlin](issues/by-language/kotlin.md) (170) · [JavaScript](issues/by-language/javascript.md) (151) · [C](issues/by-language/c.md) (147) · [PHP](issues/by-language/php.md) (140) · [Shell](issues/by-language/shell.md) (117) · [all languages](issues/README.md#by-language)
 
-**Topics:** [Mobile and desktop apps](issues/by-topic/mobile.md) (633) · [Cloud, DevOps and infrastructure](issues/by-topic/cloud-devops.md) (486) · [AI and machine learning](issues/by-topic/ai-ml.md) (373) · [Developer tools](issues/by-topic/devtools.md) (361) · [Data and databases](issues/by-topic/data.md) (314) · [Web development](issues/by-topic/web.md) (282) · [Security and privacy](issues/by-topic/security.md) (195) · [Systems and embedded](issues/by-topic/systems.md) (179) · [Games and graphics](issues/by-topic/games-graphics.md) (148) · [Documentation and education](issues/by-topic/docs-education.md) (91) · [Science and research](issues/by-topic/science.md) (59) · [Finance and Web3](issues/by-topic/finance-web3.md) (38) · [Accessibility](issues/by-topic/accessibility.md) (11) · [Robotics](issues/by-topic/robotics.md) (8)
+**Topics:** [Mobile and desktop apps](issues/by-topic/mobile.md) (623) · [Cloud, DevOps and infrastructure](issues/by-topic/cloud-devops.md) (500) · [Developer tools](issues/by-topic/devtools.md) (375) · [AI and machine learning](issues/by-topic/ai-ml.md) (371) · [Data and databases](issues/by-topic/data.md) (315) · [Web development](issues/by-topic/web.md) (267) · [Security and privacy](issues/by-topic/security.md) (193) · [Systems and embedded](issues/by-topic/systems.md) (177) · [Games and graphics](issues/by-topic/games-graphics.md) (147) · [Documentation and education](issues/by-topic/docs-education.md) (89) · [Science and research](issues/by-topic/science.md) (60) · [Finance and Web3](issues/by-topic/finance-web3.md) (39) · [Accessibility](issues/by-topic/accessibility.md) (9) · [Robotics](issues/by-topic/robotics.md) (8)
 <!-- RADAR:STATS:END -->
 
 ## Using the website
@@ -206,7 +206,7 @@ Thank you to everyone who has made the radar better:
 - [@Sohamsonawane31](https://github.com/Sohamsonawane31): test for topic RSS feed URLs ([#239](https://github.com/TanbirRamim/open-source-radar/pull/239))
 - [@kw-1129](https://github.com/kw-1129): Hindi translation of chapter 3 ([#241](https://github.com/TanbirRamim/open-source-radar/pull/241))
 - [@rahul05ranjan](https://github.com/rahul05ranjan): Hindi chapter 9 and the Spanish glossary ([#244](https://github.com/TanbirRamim/open-source-radar/pull/244), [#245](https://github.com/TanbirRamim/open-source-radar/pull/245))
-- [@gopikrishnamahalingam](https://github.com/gopikrishnamahalingam): project license on issue cards ([#259](https://github.com/TanbirRamim/open-source-radar/pull/259))
+- [@gopikrishnamahalingam](https://github.com/gopikrishnamahalingam): project license on issue cards ([#259](https://github.com/TanbirRamim/open-source-radar/pull/259)), browser language preference ([#305](https://github.com/TanbirRamim/open-source-radar/pull/305))
 - [@shantan1213](https://github.com/shantan1213): tests for repository discovery ([#261](https://github.com/TanbirRamim/open-source-radar/pull/261))
 - [@MarioACo](https://github.com/MarioACo): Spanish website and license search ([#265](https://github.com/TanbirRamim/open-source-radar/pull/265), [#266](https://github.com/TanbirRamim/open-source-radar/pull/266))
 - [@maayaankk](https://github.com/maayaankk): Hindi website ([#271](https://github.com/TanbirRamim/open-source-radar/pull/271))
@@ -219,6 +219,7 @@ Thank you to everyone who has made the radar better:
 - [@jdabid](https://github.com/jdabid): Spanish guide link fix ([#327](https://github.com/TanbirRamim/open-source-radar/pull/327))
 - [@OR3-D3V](https://github.com/OR3-D3V): Simplified Chinese website ([#328](https://github.com/TanbirRamim/open-source-radar/pull/328))
 - [@OKAN-SOFTWARE](https://github.com/OKAN-SOFTWARE): Turkish website ([#333](https://github.com/TanbirRamim/open-source-radar/pull/333))
+- [@potplant15](https://github.com/potplant15): lang attributes on the language menu ([#337](https://github.com/TanbirRamim/open-source-radar/pull/337))
 
 Your name goes here with your first merged pull request. And if the radar helped you, please give it a star: it's the simplest way to help other newcomers find it.
 

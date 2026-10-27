@@ -4,7 +4,7 @@
 
 [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/vue.xml)
 
-> Updated automatically on **2026-10-26 22:29 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-10-27 11:28 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -12,13 +12,13 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [Feature Request: User Account Management – Disable, Delete and Revoke Sessions](https://github.com/Smaug6739/Alexandrie/issues/793) | [Smaug6739/Alexandrie](https://github.com/Smaug6739/Alexandrie) | 3.3k | 🟢 beginner | 2026-10-25 | [📘 guide](https://github.com/Smaug6739/Alexandrie/blob/HEAD/CONTRIBUTING.md) |
+| [Feature Request: User Account Management – Disable, Delete and Revoke Sessions](https://github.com/Smaug6739/Alexandrie/issues/793) | [Smaug6739/Alexandrie](https://github.com/Smaug6739/Alexandrie) | 3.4k | 🟢 beginner | 2026-10-25 | [📘 guide](https://github.com/Smaug6739/Alexandrie/blob/HEAD/CONTRIBUTING.md) |
 | [\[功能建议\]NixOS适配](https://github.com/stark81/VutronMusic/issues/421) 💬 5 | [stark81/VutronMusic](https://github.com/stark81/VutronMusic) | 1.6k | 🟡 help wanted | 2026-10-25 |  |
 | [Linux 点「安装根证书」100% 失败：传给 '@vscode/sudo-prompt' 的 'name' 含连字符不通过校验；附带：'trust' 命令存在导致非 Arch 系误入 Arch 分支](https://github.com/docmirror/dev-sidecar/issues/740) 💬 1 | [docmirror/dev-sidecar](https://github.com/docmirror/dev-sidecar) | 24.7k | 🟢 beginner | 2026-10-23 | 🤖 disclose AI use |
 | [\[Enhancement\] Android TV Support](https://github.com/advplyr/audiobookshelf-app/issues/606) 💬 31 | [advplyr/audiobookshelf-app](https://github.com/advplyr/audiobookshelf-app) | 2.8k | 🟡 help wanted | 2026-10-23 |  |
 | [Regarding language settings](https://github.com/VueTorrent/VueTorrent/issues/1403) 💬 5 | [VueTorrent/VueTorrent](https://github.com/VueTorrent/VueTorrent) | 7k | 🟢 beginner | 2026-10-22 | [📘 guide](https://github.com/VueTorrent/VueTorrent/blob/HEAD/.github/CONTRIBUTING.md) |
 | [使用客户端发送消息时没有选择压缩条件，但实际消息好像还是进行了Snappy 压缩](https://github.com/Bronya0/Kafka-King/issues/117) 💬 1 | [Bronya0/Kafka-King](https://github.com/Bronya0/Kafka-King) | 1.3k | 🟢 beginner | 2026-10-21 |  |
-| [Teams overview: toggle option between wide and narrow mode with tags and content information](https://github.com/Smaug6739/Alexandrie/issues/771) 💬 1 | [Smaug6739/Alexandrie](https://github.com/Smaug6739/Alexandrie) | 3.3k | 🟢 beginner | 2026-10-20 | [📘 guide](https://github.com/Smaug6739/Alexandrie/blob/HEAD/CONTRIBUTING.md) |
+| [Teams overview: toggle option between wide and narrow mode with tags and content information](https://github.com/Smaug6739/Alexandrie/issues/771) 💬 1 | [Smaug6739/Alexandrie](https://github.com/Smaug6739/Alexandrie) | 3.4k | 🟢 beginner | 2026-10-20 | [📘 guide](https://github.com/Smaug6739/Alexandrie/blob/HEAD/CONTRIBUTING.md) |
 | [关于AIPPT的各种常见问题说明](https://github.com/pipipi-pikachu/PPTist/issues/354) 💬 14 | [pipipi-pikachu/PPTist](https://github.com/pipipi-pikachu/PPTist) | 9.4k | 🟡 help wanted | 2026-10-15 |  |
 | [添加音源后卡顿严重，基本点击设置以及歌词等界面都会出现卡顿5秒左右，但是播放一切正常](https://github.com/algerkong/AlgerMusicPlayer/issues/723) 💬 1 | [algerkong/AlgerMusicPlayer](https://github.com/algerkong/AlgerMusicPlayer) | 17.1k | 🟡 help wanted | 2026-10-07 |  |
 | [能否增加对外置DAC解码器的支持，支持bit-perfect源码播放，DAC独占支持？谢谢](https://github.com/algerkong/AlgerMusicPlayer/issues/686) | [algerkong/AlgerMusicPlayer](https://github.com/algerkong/AlgerMusicPlayer) | 17.1k | 🟡 help wanted | 2026-10-07 |  |
@@ -28,8 +28,8 @@
 | [Forward Ticket to External Third Party / Supplier in Frappe Helpdesk](https://github.com/frappe/helpdesk/issues/3774) 💬 4 | [frappe/helpdesk](https://github.com/frappe/helpdesk) | 3.5k | 🟢 beginner | 2026-09-24 |  |
 | [Command Line controls](https://github.com/tranxuanthang/lrcget/issues/61) 💬 6 | [tranxuanthang/lrcget](https://github.com/tranxuanthang/lrcget) | 3.3k | 🟡 help wanted | 2026-09-06 |  |
 | [Incorrect username after "Delete and re-draft" for handles with subdomains](https://github.com/elk-zone/elk/issues/3410) 💬 2 | [elk-zone/elk](https://github.com/elk-zone/elk) | 6k | 🟡 help wanted | 2026-09-05 | 🔏 DCO · [📘 guide](https://github.com/elk-zone/elk/blob/HEAD/CONTRIBUTING.md) |
-| [Spanish translations](https://github.com/Smaug6739/Alexandrie/issues/651) | [Smaug6739/Alexandrie](https://github.com/Smaug6739/Alexandrie) | 3.3k | 🟢 beginner | 2026-08-26 | [📘 guide](https://github.com/Smaug6739/Alexandrie/blob/HEAD/CONTRIBUTING.md) |
-| [Improve public documents sharing](https://github.com/Smaug6739/Alexandrie/issues/608) | [Smaug6739/Alexandrie](https://github.com/Smaug6739/Alexandrie) | 3.3k | 🟢 beginner | 2026-08-24 | [📘 guide](https://github.com/Smaug6739/Alexandrie/blob/HEAD/CONTRIBUTING.md) |
+| [Spanish translations](https://github.com/Smaug6739/Alexandrie/issues/651) | [Smaug6739/Alexandrie](https://github.com/Smaug6739/Alexandrie) | 3.4k | 🟢 beginner | 2026-08-26 | [📘 guide](https://github.com/Smaug6739/Alexandrie/blob/HEAD/CONTRIBUTING.md) |
+| [Improve public documents sharing](https://github.com/Smaug6739/Alexandrie/issues/608) | [Smaug6739/Alexandrie](https://github.com/Smaug6739/Alexandrie) | 3.4k | 🟢 beginner | 2026-08-24 | [📘 guide](https://github.com/Smaug6739/Alexandrie/blob/HEAD/CONTRIBUTING.md) |
 | [Take a look at this issue if you come up with more features](https://github.com/zerotrac/leetcode_problem_rating/issues/15) 💬 9 | [zerotrac/leetcode_problem_rating](https://github.com/zerotrac/leetcode_problem_rating) | 700 | 🟢 beginner | 2026-08-16 |  |
 | [Cannot remove audio file, keeps UI in blocked state on error.](https://github.com/elk-zone/elk/issues/3626) | [elk-zone/elk](https://github.com/elk-zone/elk) | 6k | 🟡 help wanted | 2026-08-15 | 🔏 DCO · [📘 guide](https://github.com/elk-zone/elk/blob/HEAD/CONTRIBUTING.md) |
 | [Replying to message in thread causes scroll to top of thread](https://github.com/elk-zone/elk/issues/3456) | [elk-zone/elk](https://github.com/elk-zone/elk) | 6k | 🟡 help wanted | 2026-08-15 | 🔏 DCO · [📘 guide](https://github.com/elk-zone/elk/blob/HEAD/CONTRIBUTING.md) |

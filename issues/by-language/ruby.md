@@ -1,10 +1,10 @@
 # Ruby issues
 
-**66** open issues (48 labeled for beginners) across **26** active Ruby projects.
+**68** open issues (50 labeled for beginners) across **26** active Ruby projects.
 
 [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/ruby.xml)
 
-> Updated automatically on **2026-10-26 22:29 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-10-27 11:28 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -12,6 +12,8 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [Add Missing Table Translation Test Case](https://github.com/ManageIQ/manageiq/issues/22736) 💬 2 | [ManageIQ/manageiq](https://github.com/ManageIQ/manageiq) | 1.4k | 🟢 beginner | 2026-10-26 | [📘 guide](https://github.com/ManageIQ/manageiq/blob/HEAD/CONTRIBUTING.md) |
+| [\[RFE\] Add support for relative paths to evm:export:service_dialogs](https://github.com/ManageIQ/manageiq/issues/20488) 💬 5 | [ManageIQ/manageiq](https://github.com/ManageIQ/manageiq) | 1.4k | 🟢 beginner | 2026-10-26 | [📘 guide](https://github.com/ManageIQ/manageiq/blob/HEAD/CONTRIBUTING.md) |
 | [Support setting cron monitor tolerances](https://github.com/getsentry/sentry-ruby/issues/2668) 💬 1 | [getsentry/sentry-ruby](https://github.com/getsentry/sentry-ruby) | 990 | 🟢 beginner | 2026-10-25 | [📘 guide](https://github.com/getsentry/sentry-ruby/blob/HEAD/CONTRIBUTING.md) |
 | [Adding Action Args to agent actions](https://github.com/activeagents/activeagent/issues/295) 💬 1 | [activeagents/activeagent](https://github.com/activeagents/activeagent) | 985 | 🟡 help wanted | 2026-10-24 |  |
 | [Current page's table of contents](https://github.com/freeCodeCamp/devdocs/issues/6) 💬 21 | [freeCodeCamp/devdocs](https://github.com/freeCodeCamp/devdocs) | 39.6k | 🟡 help wanted | 2026-10-20 | [📘 guide](https://github.com/freeCodeCamp/devdocs/blob/HEAD/.github/CONTRIBUTING.md) |
