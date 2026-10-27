@@ -1632,6 +1632,22 @@ class LanguageQuickstartsInSyncTests(unittest.TestCase):
                 )
 
 
+class GuideGlossaryTranslationTests(unittest.TestCase):
+    def test_translated_glossaries_define_the_same_terms(self):
+        # Terms stay in English in every translation, so the bold first cells should match exactly.
+        guide_dir = Path(__file__).resolve().parent.parent / "guide"
+
+        def terms(path):
+            # Escaped markdown like in #344 (fixed in #345) matches no rows here, so this catches that too.
+            return re.findall(r"^\| \*\*(.+?)\*\* \|", path.read_text(encoding="utf-8"), re.MULTILINE)
+
+        english = terms(guide_dir / "glossary.md")
+        self.assertTrue(english)
+        for glossary in sorted(guide_dir.glob("*/glossary.md")):
+            with self.subTest(glossary=glossary.parent.name):
+                self.assertEqual(terms(glossary), english)
+
+
 class GuideTranslationLinkTests(unittest.TestCase):
     """A translated chapter links to the translated next chapter once it exists (#318)."""
 

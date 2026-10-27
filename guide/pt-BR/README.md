@@ -21,5 +21,5 @@ Leia em ordem na primeira vez. Cada capítulo termina com uma lista de verifica�
 
 Também útil:
 
-- [Glossary](glossary.md): fork, upstream, rebase, squash, CI, DCO e o resto, em uma linha cada.
+- [Glossário](glossary.md): fork, upstream, rebase, squash, CI, DCO e o resto, em uma linha cada.
 - [Language quickstarts](../../languages/README.md): como os projetos em cada linguagem costumam ser compilados e testados (em inglês).

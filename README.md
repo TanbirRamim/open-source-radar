@@ -221,6 +221,7 @@ Thank you to everyone who has made the radar better:
 - [@OKAN-SOFTWARE](https://github.com/OKAN-SOFTWARE): Turkish website ([#333](https://github.com/TanbirRamim/open-source-radar/pull/333))
 - [@potplant15](https://github.com/potplant15): lang attributes on the language menu ([#337](https://github.com/TanbirRamim/open-source-radar/pull/337))
 - [@anweshabehera-arch](https://github.com/anweshabehera-arch): Hindi glossary ([#344](https://github.com/TanbirRamim/open-source-radar/pull/344))
+- [@yash-sharmaji](https://github.com/yash-sharmaji): Portuguese glossary ([#351](https://github.com/TanbirRamim/open-source-radar/pull/351))
 
 Your name goes here with your first merged pull request. And if the radar helped you, please give it a star: it's the simplest way to help other newcomers find it.
 
