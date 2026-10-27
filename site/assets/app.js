@@ -164,9 +164,13 @@
     return true;
   }
 
+  // Lowercase and drop accents, so "cafe" finds "café" and a Turkish "İ" (which lowercases to
+  // "i" plus a combining dot) still matches a plain "i".
+  const fold = (text) => text.toLowerCase().normalize("NFD").replace(/\p{M}/gu, "");
+
   function applyFilters(scrollToList = false) {
     const values = readFilters();
-    const words = values.q.toLowerCase().split(/\s+/).filter(Boolean);
+    const words = fold(values.q).split(/\s+/).filter(Boolean);
     const repos = data.repositories;
 
     const activityDays = Number(values.activity) || 0;
@@ -182,7 +186,7 @@
       if (values.signal && !matchesSignal(issue, values.signal)) return false;
       if (values.repo && issue.repo !== values.repo) return false;
       if (words.length) {
-        const haystack = `${issue.title} ${issue.repo} ${issue.labels.join(" ")} ${repo.description} ${licenseName(repo)}`.toLowerCase();
+        const haystack = fold(`${issue.title} ${issue.repo} ${issue.labels.join(" ")} ${repo.description} ${licenseName(repo)}`);
         if (!words.every(word => haystack.includes(word))) return false;
       }
       return true;
