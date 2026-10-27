@@ -694,8 +694,8 @@ class QueryTests(unittest.TestCase):
         query = radar.build_external_merge_query(["owner/one", "other/two"], dt.date(2026, 7, 15))
 
         self.assertEqual(query.count(": search(type: ISSUE, first: 100"), 2)
-        self.assertIn('repo:owner/one is:pr is:merged merged:>=2026-07-15 -author:owner', query)
-        self.assertIn('repo:other/two is:pr is:merged merged:>=2026-07-15 -author:other', query)
+        self.assertIn("repo:owner/one is:pr is:merged merged:>=2026-07-15 -author:owner", query)
+        self.assertIn("repo:other/two is:pr is:merged merged:>=2026-07-15 -author:other", query)
         self.assertIn("mergedAt authorAssociation author { __typename }", query)
 
 

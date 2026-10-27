@@ -310,11 +310,11 @@ def build_external_merge_query(repos: list[str], since: dt.date) -> str:
         owner = full_name.split("/", 1)[0]
         search = f"repo:{full_name} is:pr is:merged merged:>={since.isoformat()} -author:{owner}"
         parts.append(
-            f'''  external{index}: search(type: ISSUE, first: 100, query: {gql_string(search)}) {{
+            f"""  external{index}: search(type: ISSUE, first: 100, query: {gql_string(search)}) {{
     nodes {{
       ... on PullRequest {{ mergedAt authorAssociation author {{ __typename }} }}
     }}
-  }}'''
+  }}"""
         )
     return "query {\n" + "\n".join(parts) + "\n  rateLimit { cost remaining resetAt }\n}"
 
@@ -537,9 +537,7 @@ def policy_needs_refresh(policy: dict[str, Any] | None, refresh_before: dt.datet
     return not policy or "scanned_at" not in policy or iso_to_datetime(policy["scanned_at"]) < refresh_before
 
 
-def fetch_policies(
-    github: GitHub, repositories: list[str], policies: dict[str, Any]
-) -> tuple[float, float, int]:
+def fetch_policies(github: GitHub, repositories: list[str], policies: dict[str, Any]) -> tuple[float, float, int]:
     """Refresh policy files for displayed repositories whose cached scan is stale."""
     started = time.perf_counter()
     api_seconds = 0.0
@@ -578,9 +576,7 @@ def fetch(github: GitHub, config: dict[str, Any], *, force: bool = False) -> dic
     refresh_before = now_utc() - dt.timedelta(days=config["policy"]["refresh_days"])
     updated_since = now_utc() - dt.timedelta(days=config["issues"]["updated_within_days"])
     claimed_since = now_utc() - dt.timedelta(days=config["issues"].get("claim_within_days", 21))
-    external_since = now_utc() - dt.timedelta(
-        days=config.get("external_contributions", {}).get("window_days", 90)
-    )
+    external_since = now_utc() - dt.timedelta(days=config.get("external_contributions", {}).get("window_days", 90))
     labels = config["issues"]["labels"]
     per_repo = config["issues"]["per_repo"]
 
