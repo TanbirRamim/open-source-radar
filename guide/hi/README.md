@@ -21,7 +21,7 @@
 
 यह भी उपयोगी है:
 
-- [Glossary](../glossary.md): fork, upstream, rebase, squash, CI, DCO और अन्य शब्दों का एक-लाइन में अर्थ।
+- [शब्दावली](glossary.md): fork, upstream, rebase, squash, CI, DCO और अन्य शब्दों का एक-लाइन में अर्थ।
 - [Language quickstarts](../../languages/README.md): प्रत्येक programming language में प्रोजेक्ट आम तौर पर कैसे build और test किए जाते हैं।
 - [Issue index](../../issues/README.md): language और topic के अनुसार sorted खुले और unclaimed issues, जिन्हें अपने-आप refresh किया जाता है।
 
