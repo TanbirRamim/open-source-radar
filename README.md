@@ -206,7 +206,7 @@ Thank you to everyone who has made the radar better:
 - [@Sohamsonawane31](https://github.com/Sohamsonawane31): test for topic RSS feed URLs ([#239](https://github.com/TanbirRamim/open-source-radar/pull/239))
 - [@kw-1129](https://github.com/kw-1129): Hindi translation of chapter 3 ([#241](https://github.com/TanbirRamim/open-source-radar/pull/241))
 - [@rahul05ranjan](https://github.com/rahul05ranjan): Hindi chapter 9 and the Spanish glossary ([#244](https://github.com/TanbirRamim/open-source-radar/pull/244), [#245](https://github.com/TanbirRamim/open-source-radar/pull/245))
-- [@gopikrishnamahalingam](https://github.com/gopikrishnamahalingam): project license on issue cards ([#259](https://github.com/TanbirRamim/open-source-radar/pull/259))
+- [@gopikrishnamahalingam](https://github.com/gopikrishnamahalingam): project license on issue cards ([#259](https://github.com/TanbirRamim/open-source-radar/pull/259)), browser language preference ([#305](https://github.com/TanbirRamim/open-source-radar/pull/305))
 - [@shantan1213](https://github.com/shantan1213): tests for repository discovery ([#261](https://github.com/TanbirRamim/open-source-radar/pull/261))
 - [@MarioACo](https://github.com/MarioACo): Spanish website and license search ([#265](https://github.com/TanbirRamim/open-source-radar/pull/265), [#266](https://github.com/TanbirRamim/open-source-radar/pull/266))
 - [@maayaankk](https://github.com/maayaankk): Hindi website ([#271](https://github.com/TanbirRamim/open-source-radar/pull/271))
@@ -220,7 +220,6 @@ Thank you to everyone who has made the radar better:
 - [@OR3-D3V](https://github.com/OR3-D3V): Simplified Chinese website ([#328](https://github.com/TanbirRamim/open-source-radar/pull/328))
 - [@OKAN-SOFTWARE](https://github.com/OKAN-SOFTWARE): Turkish website ([#333](https://github.com/TanbirRamim/open-source-radar/pull/333))
 - [@potplant15](https://github.com/potplant15): lang attributes on the language menu ([#337](https://github.com/TanbirRamim/open-source-radar/pull/337))
-- [@gopikrishnamahalingam](https://github.com/gopikrishnamahalingam): browser language preference ([#305](https://github.com/TanbirRamim/open-source-radar/pull/305))
 
 Your name goes here with your first merged pull request. And if the radar helped you, please give it a star: it's the simplest way to help other newcomers find it.
 
