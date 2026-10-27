@@ -31,7 +31,8 @@ function staticKeys() {
 function localeSelectValues() {
   const select = indexSource.match(/<select id="locale-select"[\s\S]*?<\/select>/)?.[0];
   assert.ok(select, "locale selector is present");
-  return [...select.matchAll(/<option\s+value="([^"]+)"/g)].map((match) => match[1]);
+  return [...select.matchAll(/<option\s+value="([^"]+)"\s+lang="([^"]+)"/g)]
+    .map((match) => ({ value: match[1], lang: match[2] }));
 }
 
 const dynamicKeys = [
@@ -82,5 +83,7 @@ test("the locale menu matches the available message locales", () => {
   const { messages } = loadI18n("en");
   // Compare as sorted lists: the menu order is a display choice (e.g. English first),
   // the test only cares that no locale is missing from either side.
-  assert.deepEqual(localeSelectValues().sort(), Object.keys(messages).sort());
+  const options = localeSelectValues();
+  assert.deepEqual(options.map((option) => option.value).sort(), Object.keys(messages).sort());
+  for (const option of options) assert.equal(option.lang, option.value, `${option.value} option has matching lang`);
 });
