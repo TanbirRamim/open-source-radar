@@ -977,7 +977,7 @@ def render_projects(
             "| --- | ---: | ---: | ---: | --- | --- |",
         ]
         for full_name, repo in entries:
-            description = md_escape(repo.get("description") or "")[:120]
+            description = md_escape((repo.get("description") or "")[:120])
             lines.append(
                 f"| [{full_name}]({repo['url']}/issues) | {format_stars(repo['stars'])} | {repo['open_count']} "
                 f"| {beginner_counts.get(full_name, 0)} | {notes_for(repo)} | {description} |"

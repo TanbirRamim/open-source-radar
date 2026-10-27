@@ -648,6 +648,38 @@ class ProjectsPageTests(unittest.TestCase):
         # None and "" both count as no language and share one "Other" group, never a second one.
         self.assertEqual(page.count("## Other"), 1)
 
+    def test_projects_page_truncates_before_escaping_markdown(self):
+        for suffix, expected in [
+            ("| extra", r"\|"),
+            ("< extra", "&lt;"),
+        ]:
+            with self.subTest(suffix=suffix):
+                repositories = {
+                    "owner/repo": {
+                        "url": "https://github.com/owner/repo",
+                        "description": "a" * 119 + suffix,
+                        "stars": 500,
+                        "open_count": 1,
+                        "language": "Python",
+                        "policy": {},
+                    }
+                }
+
+                config = {"languages": {"Python": "python"}}
+
+                with tempfile.TemporaryDirectory() as tmp:
+                    with patch.object(radar, "ROOT", Path(tmp)):
+                        radar.render_projects(
+                            repositories,
+                            [],
+                            config,
+                            "2026-10-27T00:00:00+00:00",
+                        )
+
+                    page = (Path(tmp) / "projects" / "README.md").read_text(encoding="utf-8")
+
+                self.assertIn("a" * 119 + expected + " |", page)
+
 
 class SafetyTests(unittest.TestCase):
     config: ClassVar[dict] = {"exclude": {"repositories": ["Some/Repo", "whole-org/*"]}}
