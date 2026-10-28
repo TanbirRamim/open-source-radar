@@ -22,6 +22,7 @@ import html
 import json
 import os
 import re
+import statistics
 import sys
 import time
 
@@ -304,15 +305,14 @@ def build_policy_query(repos: list[str]) -> str:
 
 
 def build_external_merge_query(repos: list[str], since: dt.date) -> str:
-    """Build one shallow, recent merged-PR search per repository in a GraphQL batch."""
+    """Build one shallow, recent PR search per repository in a GraphQL batch."""
     parts = []
     for index, full_name in enumerate(repos):
-        owner = full_name.split("/", 1)[0]
-        search = f"repo:{full_name} is:pr is:merged merged:>={since.isoformat()} -author:{owner}"
+        search = f"repo:{full_name} is:pr created:>={since.isoformat()} sort:updated-desc"
         parts.append(
             f"""  external{index}: search(type: ISSUE, first: 100, query: {gql_string(search)}) {{
     nodes {{
-      ... on PullRequest {{ mergedAt authorAssociation author {{ __typename }} }}
+      ... on PullRequest {{ createdAt mergedAt state authorAssociation author {{ __typename }} }}
     }}
   }}"""
         )
@@ -479,28 +479,43 @@ def difficulty(labels: list[str]) -> str:
     return "help-wanted"
 
 
-# A past commit is enough for GitHub to label an author a CONTRIBUTOR.  This
-# signal deliberately measures first-time / previously-unaffiliated authors,
-# rather than ongoing contributors who may be part of a project team.
-EXTERNAL_AUTHOR_ASSOCIATIONS = {"NONE", "FIRST_TIMER", "FIRST_TIME_CONTRIBUTOR"}
+TEAM_AUTHOR_ASSOCIATIONS = {"OWNER", "MEMBER", "COLLABORATOR"}
 
 
 def external_merge_stats(search: dict[str, Any] | None, since: dt.datetime) -> dict[str, Any]:
-    """Summarise recent merged PRs from first-time or unaffiliated human authors."""
-    merged = []
-    for pull in (search or {}).get("nodes") or []:
-        if not pull or not pull.get("mergedAt"):
+    """Summarise merge outcomes for recent PRs from human authors outside the repository team."""
+    nodes = (search or {}).get("nodes") or []
+    external_created = 0
+    external_open = 0
+    external_merged = []
+    external_merge_hours = []
+    for pull in nodes:
+        if not pull or not pull.get("createdAt"):
             continue
         if (pull.get("author") or {}).get("__typename") != "User":
             continue
-        if pull.get("authorAssociation") not in EXTERNAL_AUTHOR_ASSOCIATIONS:
+        created_at = iso_to_datetime(pull["createdAt"])
+        if created_at < since:
+            continue
+        if pull.get("authorAssociation") in TEAM_AUTHOR_ASSOCIATIONS:
+            continue
+        external_created += 1
+        if pull.get("state") == "OPEN":
+            external_open += 1
+        if not pull.get("mergedAt"):
             continue
         merged_at = iso_to_datetime(pull["mergedAt"])
-        if merged_at >= since:
-            merged.append(merged_at)
+        external_merged.append(merged_at)
+        external_merge_hours.append((merged_at - created_at).total_seconds() / 3600)
     return {
-        "last_merged_at": max(merged).date().isoformat() if merged else None,
-        "merged_last_90_days": len(merged),
+        "capped": len(nodes) >= 100,
+        "created_in_window": external_created,
+        "merged_in_window": len(external_merged),
+        "open_in_window": external_open,
+        "merge_rate": round(len(external_merged) / external_created, 4) if external_created else None,
+        "median_time_to_merge_hours": round(statistics.median(external_merge_hours), 1)
+        if external_merge_hours
+        else None,
     }
 
 

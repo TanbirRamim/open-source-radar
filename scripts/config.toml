@@ -43,7 +43,7 @@ repositories = []
 refresh_days = 7
 
 [external_contributions]
-# Window for recently merged PRs from people outside the repository team.
+# Window for PRs created by people outside the repository team.
 window_days = 90
 
 # Languages the radar tracks (GitHub linguist names) and the page slug for each.

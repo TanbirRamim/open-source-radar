@@ -28,8 +28,12 @@ It is refreshed twice a day. The same data, without the website extras, is commi
       "contributing": "CONTRIBUTING.md",          // detected contributing guide path, or null
       "open_count": 4,                           // listed issues in this project
       "external_prs": {
-        "last_merged_at": "2026-09-10",          // latest observed qualifying merge, or null
-        "merged_last_90_days": 3                 // qualifying merges in the configured window
+        "capped": false,                        // true if the search returned its 100-PR limit
+        "created_in_window": 12,                  // non-team human PRs created in the configured window
+        "merged_in_window": 3,                   // those PRs currently merged
+        "open_in_window": 4,                     // those PRs still open
+        "merge_rate": 0.25,                      // merged_in_window / created_in_window
+        "median_time_to_merge_hours": 36.5
       },
       "policy": {
         "ai": "none",                            // none | policy | disclose | restricted (detected, may be wrong)
@@ -73,13 +77,15 @@ The site links to the detected path on GitHub and offers a **Has a contributing
 guide** filter. The policy-file cache may be stale, and detecting a guide does
 not guarantee that its advice is current or helpful.
 
-`repositories[repo].external_prs` is a recent first-time-contribution signal. The pipeline runs
-one GitHub PR search per displayed repository for the 90-day window and counts merged PRs whose
-GitHub author association is `NONE`, `FIRST_TIMER`, or `FIRST_TIME_CONTRIBUTOR`. It excludes
-bots and the repository owner's own PRs in the search query. In particular, it excludes
-`CONTRIBUTOR`: GitHub assigns that association after a prior commit, while this signal is meant
-to show whether a project accepts new external contributors. Results are bounded to the first
-100 search results per repository.
+`repositories[repo].external_prs` is a recent non-maintainer contribution signal. The pipeline
+runs one GitHub PR search per displayed repository for PRs created in the configured window,
+ordered by recent updates. It includes GitHub users who are not an `OWNER`, `MEMBER`, or
+`COLLABORATOR`, and excludes bots. `merged_in_window` counts PRs created in the window that have
+since merged; it does not include PRs created earlier and merged during this window. `merge_rate` is the share of those PRs
+that are currently merged. `median_time_to_merge_hours` is the median time between
+opening and merging them. Results are bounded to the first 100 search results per repository, so
+counts and rates are recent-sample signals rather than full-window totals when `capped` is true.
+The flag is set when the search returns 100 PRs, before filtering out team members and bots.
 
 ## Example: five newest beginner issues in Go
 

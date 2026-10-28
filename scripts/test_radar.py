@@ -694,49 +694,127 @@ class QueryTests(unittest.TestCase):
         query = radar.build_external_merge_query(["owner/one", "other/two"], dt.date(2026, 7, 15))
 
         self.assertEqual(query.count(": search(type: ISSUE, first: 100"), 2)
-        self.assertIn("repo:owner/one is:pr is:merged merged:>=2026-07-15 -author:owner", query)
-        self.assertIn("repo:other/two is:pr is:merged merged:>=2026-07-15 -author:other", query)
-        self.assertIn("mergedAt authorAssociation author { __typename }", query)
+        self.assertIn("repo:owner/one is:pr created:>=2026-07-15 sort:updated-desc", query)
+        self.assertIn("repo:other/two is:pr created:>=2026-07-15 sort:updated-desc", query)
+        self.assertIn("createdAt mergedAt state authorAssociation author { __typename }", query)
 
 
 class ExternalMergeStatsTests(unittest.TestCase):
     since = dt.datetime(2026, 7, 15, tzinfo=dt.UTC)
 
-    def test_counts_recent_first_time_or_unaffiliated_human_merges(self):
+    def test_counts_recent_non_team_human_merges(self):
         search = {
             "nodes": [
-                {"mergedAt": "2026-08-01T00:00:00Z", "authorAssociation": "NONE", "author": {"__typename": "User"}},
                 {
+                    "createdAt": "2026-07-30T00:00:00Z",
+                    "mergedAt": "2026-08-01T00:00:00Z",
+                    "state": "MERGED",
+                    "authorAssociation": "NONE",
+                    "author": {"__typename": "User"},
+                },
+                {
+                    "createdAt": "2026-10-10T00:00:00Z",
                     "mergedAt": "2026-10-12T00:00:00Z",
+                    "state": "MERGED",
                     "authorAssociation": "CONTRIBUTOR",
                     "author": {"__typename": "User"},
                 },
                 {
+                    "createdAt": "2026-10-12T12:00:00Z",
                     "mergedAt": "2026-10-13T00:00:00Z",
+                    "state": "MERGED",
                     "authorAssociation": "FIRST_TIMER",
                     "author": {"__typename": "User"},
                 },
                 {
+                    "createdAt": "2026-10-07T00:00:00Z",
                     "mergedAt": "2026-10-14T00:00:00Z",
+                    "state": "MERGED",
                     "authorAssociation": "FIRST_TIME_CONTRIBUTOR",
                     "author": {"__typename": "User"},
                 },
-                {"mergedAt": "2026-10-15T00:00:00Z", "authorAssociation": "MEMBER", "author": {"__typename": "User"}},
-                {"mergedAt": "2026-10-16T00:00:00Z", "authorAssociation": "NONE", "author": {"__typename": "Bot"}},
-                {"mergedAt": "2026-07-14T00:00:00Z", "authorAssociation": "NONE", "author": {"__typename": "User"}},
+                {
+                    "createdAt": "2026-10-14T00:00:00Z",
+                    "mergedAt": "2026-10-15T00:00:00Z",
+                    "state": "MERGED",
+                    "authorAssociation": "MEMBER",
+                    "author": {"__typename": "User"},
+                },
+                {
+                    "createdAt": "2026-10-14T12:00:00Z",
+                    "mergedAt": "2026-10-15T12:00:00Z",
+                    "state": "MERGED",
+                    "authorAssociation": "COLLABORATOR",
+                    "author": {"__typename": "User"},
+                },
+                {
+                    "createdAt": "2026-10-14T18:00:00Z",
+                    "mergedAt": "2026-10-15T18:00:00Z",
+                    "state": "MERGED",
+                    "authorAssociation": "OWNER",
+                    "author": {"__typename": "User"},
+                },
+                {
+                    "createdAt": "2026-10-14T00:00:00Z",
+                    "mergedAt": "2026-10-16T00:00:00Z",
+                    "state": "MERGED",
+                    "authorAssociation": "NONE",
+                    "author": {"__typename": "Bot"},
+                },
+                {
+                    "createdAt": "2026-07-13T00:00:00Z",
+                    "mergedAt": "2026-07-14T00:00:00Z",
+                    "state": "MERGED",
+                    "authorAssociation": "NONE",
+                    "author": {"__typename": "User"},
+                },
+                {
+                    "createdAt": "2026-10-15T00:00:00Z",
+                    "mergedAt": None,
+                    "state": "OPEN",
+                    "authorAssociation": "NONE",
+                    "author": {"__typename": "User"},
+                },
             ]
         }
 
         self.assertEqual(
             radar.external_merge_stats(search, self.since),
-            {"last_merged_at": "2026-10-14", "merged_last_90_days": 3},
+            {
+                "capped": False,
+                "created_in_window": 5,
+                "merged_in_window": 4,
+                "open_in_window": 1,
+                "merge_rate": 0.8,
+                "median_time_to_merge_hours": 48.0,
+            },
         )
 
     def test_empty_search_has_zero_stats(self):
         self.assertEqual(
             radar.external_merge_stats(None, self.since),
-            {"last_merged_at": None, "merged_last_90_days": 0},
+            {
+                "capped": False,
+                "created_in_window": 0,
+                "merged_in_window": 0,
+                "open_in_window": 0,
+                "merge_rate": None,
+                "median_time_to_merge_hours": None,
+            },
         )
+
+    def test_capped_uses_raw_search_count_before_author_filtering(self):
+        team_pr = {
+            "createdAt": "2026-10-15T00:00:00Z",
+            "mergedAt": None,
+            "state": "OPEN",
+            "authorAssociation": "MEMBER",
+            "author": {"__typename": "User"},
+        }
+        self.assertFalse(radar.external_merge_stats({"nodes": [team_pr] * 99}, self.since)["capped"])
+        stats = radar.external_merge_stats({"nodes": [team_pr] * 100}, self.since)
+        self.assertTrue(stats["capped"])
+        self.assertEqual(stats["created_in_window"], 0)
 
 
 class DiscoveryTests(unittest.TestCase):
