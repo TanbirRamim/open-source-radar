@@ -79,6 +79,18 @@ test("every locale has the same keys as English", () => {
   }
 });
 
+test("every translation keeps the English placeholders", () => {
+  // A dropped or translated {count} renders as a literal "{count}" on the page, so compare the sets.
+  const { messages } = loadI18n("en");
+  const placeholders = (text) => [...new Set(text.match(/\{\w+\}/g) ?? [])].sort();
+  for (const [locale, table] of Object.entries(messages)) {
+    for (const [key, text] of Object.entries(messages.en)) {
+      if (!(key in table)) continue;
+      assert.deepEqual(placeholders(table[key]), placeholders(text), `${locale} ${key}`);
+    }
+  }
+});
+
 test("the locale menu matches the available message locales", () => {
   const { messages } = loadI18n("en");
   // Compare as sorted lists: the menu order is a display choice (e.g. English first),
