@@ -1717,8 +1717,8 @@
       "time.yesterday": "zaktualizowano wczoraj",
       "time.days": "zaktualizowano {count} dni temu",
       "time.year": "zaktualizowano {count} rok temu",
-      "time.years": "zaktualizowano {count} lata temu",
-      "time.months": "zaktualizowano {count} miesięcy temu",
+      "time.years": { few: "zaktualizowano {count} lata temu", other: "zaktualizowano {count} lat temu" },
+      "time.months": { few: "zaktualizowano {count} miesiące temu", other: "zaktualizowano {count} miesięcy temu" },
       "time.updatedPrefix": "zaktualizowano",
       "time.openedPrefix": "otwarto",
       "time.pushedPrefix": "wypchnięto zmiany",
@@ -1740,7 +1740,7 @@
       "issue.beginner": "Etykieta dla początkujących",
       "issue.helpWanted": "Poszukiwani współtwórcy",
       "issue.oneComment": "1 komentarz",
-      "issue.comments": "{count} komentarzy",
+      "issue.comments": { few: "{count} komentarze", other: "{count} komentarzy" },
       "issue.maintainerReplied": "Opiekun projektu odpowiedział",
       "issue.maintainerRepliedTitle": "Ostatni pobrany komentarz pochodzi od właściciela repozytorium, jego członka lub współpracownika.",
       "badge.aiRestricted": "Ograniczenia dotyczące AI",
@@ -1767,8 +1767,13 @@
   const requested = storedLocale() || browserLocales.find((code) => Object.hasOwn(messages, code)) || "en";
   const locale = Object.hasOwn(messages, requested) ? requested : "en";
 
+  const pluralRules = new Intl.PluralRules(locale);
+
+  // A message can be an object of plural forms (one, few, many, other) for languages like Polish,
+  // where "2 months" and "5 months" take different words. Callers pass the raw number as `n`.
   function t(key, values = {}) {
-    const template = messages[locale][key] ?? messages.en[key] ?? key;
+    let template = messages[locale][key] ?? messages.en[key] ?? key;
+    if (typeof template === "object") template = template[pluralRules.select(values.n)] ?? template.other;
     return template.replace(/\{(\w+)\}/g, (_, name) => values[name] ?? `{${name}}`);
   }
 

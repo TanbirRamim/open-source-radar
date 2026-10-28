@@ -82,7 +82,9 @@ test("every locale has the same keys as English", () => {
 test("every translation keeps the English placeholders", () => {
   // A dropped or translated {count} renders as a literal "{count}" on the page, so compare the sets.
   const { messages } = loadI18n("en");
-  const placeholders = (text) => [...new Set(text.match(/\{\w+\}/g) ?? [])].sort();
+  // Plural messages are objects of forms; every form has to keep the placeholders.
+  const placeholders = (text) =>
+    [...new Set(Object.values(typeof text === "object" ? text : { text }).join(" ").match(/\{\w+\}/g) ?? [])].sort();
   for (const [locale, table] of Object.entries(messages)) {
     for (const [key, text] of Object.entries(messages.en)) {
       if (!(key in table)) continue;
@@ -118,4 +120,23 @@ test("browser languages fall back to navigator.language, then English", () => {
 
 test("a saved choice beats the browser languages", () => {
   assert.equal(loadI18n("de", { language: "es", languages: ["es"] }).locale, "de");
+});
+
+test("plural messages pick the right form", () => {
+  const pl = loadI18n("pl");
+  assert.equal(pl.t("time.months", { count: "3", n: 3 }), "zaktualizowano 3 miesiące temu");
+  assert.equal(pl.t("time.months", { count: "7", n: 7 }), "zaktualizowano 7 miesięcy temu");
+  assert.equal(pl.t("issue.comments", { count: "22", n: 22 }), "22 komentarze");
+  assert.equal(pl.t("issue.comments", { count: "0", n: 0 }), "0 komentarzy");
+  assert.equal(pl.t("time.years", { count: "5", n: 5 }), "zaktualizowano 5 lat temu");
+  // Plain string messages ignore n.
+  assert.equal(loadI18n("en").t("time.months", { count: "3", n: 3 }), "updated 3 months ago");
+});
+
+test("every plural message has an other form", () => {
+  for (const [locale, table] of Object.entries(loadI18n("en").messages)) {
+    for (const [key, text] of Object.entries(table)) {
+      if (typeof text === "object") assert.equal(typeof text.other, "string", `${locale} ${key}`);
+    }
+  }
 });

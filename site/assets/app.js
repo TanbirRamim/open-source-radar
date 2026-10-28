@@ -60,9 +60,10 @@
     if (days < 60) return t("time.days", { count: numberFormat.format(days) });
     if (days >= 365) {
       const years = Math.floor(days / 365);
-      return t(years === 1 ? "time.year" : "time.years", { count: numberFormat.format(years) });
+      return t(years === 1 ? "time.year" : "time.years", { count: numberFormat.format(years), n: years });
     }
-    return t("time.months", { count: numberFormat.format(Math.min(11, Math.round(days / 30))) });
+    const months = Math.min(11, Math.round(days / 30));
+    return t("time.months", { count: numberFormat.format(months), n: months });
   }
 
   function pushedAgo(isoDate) {
@@ -391,7 +392,7 @@
     const comments = node.querySelector(".comments");
     comments.textContent = issue.comments === 1
       ? t("issue.oneComment")
-      : t("issue.comments", { count: numberFormat.format(issue.comments) });
+      : t("issue.comments", { count: numberFormat.format(issue.comments), n: issue.comments });
     if (issue.maintainer_replied === true) {
       const reply = document.createElement("span");
       reply.className = "comments";
