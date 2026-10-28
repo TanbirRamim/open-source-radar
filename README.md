@@ -222,6 +222,7 @@ Thank you to everyone who has made the radar better:
 - [@potplant15](https://github.com/potplant15): lang attributes on the language menu ([#337](https://github.com/TanbirRamim/open-source-radar/pull/337))
 - [@anweshabehera-arch](https://github.com/anweshabehera-arch): Hindi glossary ([#344](https://github.com/TanbirRamim/open-source-radar/pull/344))
 - [@yash-sharmaji](https://github.com/yash-sharmaji): Portuguese glossary ([#351](https://github.com/TanbirRamim/open-source-radar/pull/351))
+- [@kd5050612-debug](https://github.com/kd5050612-debug): Thai website ([#354](https://github.com/TanbirRamim/open-source-radar/pull/354))
 
 Your name goes here with your first merged pull request. And if the radar helped you, please give it a star: it's the simplest way to help other newcomers find it.
 

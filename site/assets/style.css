@@ -204,7 +204,6 @@ a:hover { text-decoration-thickness: 2px; }
 }
 
 /* The query line: the page's signature element. It is the GitHub search the current filters express. */
-
 .query {
   display: flex;
   flex-wrap: wrap;
@@ -509,13 +508,9 @@ a:hover { text-decoration-thickness: 2px; }
   margin: 0 0 1.25rem;
 }
 
-/* Tight tracking suits the Latin display font but can squeeze glyphs in
-   Chinese, Japanese, Korean, Hindi, Bengali, and Thai, so those locales
-   use normal letter spacing. */
-:is(:lang(zh), :lang(ja), :lang(ko), :lang(hi), :lang(bn), :lang(th)) :is(.hero h1, .before h2) {
-  letter-spacing: normal;
-}
-
+/* The tight tracking suits the Latin display font, but squeezes Chinese, Japanese, Korean,
+   Hindi, Bengali and Thai glyphs together, so those locales get normal spacing. */
+:is(:lang(zh), :lang(ja), :lang(ko), :lang(hi), :lang(bn), :lang(th)) :is(.hero h1, .before h2) { letter-spacing: normal; }
 .steps {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
@@ -541,14 +536,7 @@ a:hover { text-decoration-thickness: 2px; }
   .query code .q-new { animation: none; }
 }
 
-.footer-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.2rem 1.5rem;
-  list-style: none;
-  margin: 0.4rem 0 0;
-  padding: 0;
-}
+.footer-links { display: flex; flex-wrap: wrap; gap: 0.2rem 1.5rem; list-style: none; margin: 0.4rem 0 0; padding: 0; }
 
 @media (max-width: 40rem) {
   .query a { flex: 1 1 100%; justify-content: center; }
@@ -557,20 +545,12 @@ a:hover { text-decoration-thickness: 2px; }
 /* Per-project view */
 
 .only-repo { font-size: var(--step--1); font-weight: 500; }
-
 .repo-card {
   margin: 1rem 0 0;
   padding: 1rem 1.2rem;
   border: 1px solid var(--rule);
   border-radius: 8px;
 }
-
-.repo-card-name {
-  font-weight: 700;
-  color: var(--teal-strong);
-  font-size: var(--step-1);
-  overflow-wrap: anywhere;
-}
-
+.repo-card-name { font-weight: 700; color: var(--teal-strong); font-size: var(--step-1); overflow-wrap: anywhere; }
 .repo-card .issue-meta { margin-top: 0.5rem; }
 .repo-card .link-button { margin-top: 0.6rem; }
