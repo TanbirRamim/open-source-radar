@@ -544,7 +544,9 @@ def fetch_external_merge_stats(
         api_seconds += time.perf_counter() - request_started
         data = response.get("data") or {}
         for index, name in enumerate(batch):
-            stats[name] = external_merge_stats(data.get(f"external{index}"), since)
+            search = data.get(f"external{index}")
+            # A failed search is unknown, not "no outside PRs", so it stays None instead of zeros.
+            stats[name] = external_merge_stats(search, since) if search is not None else None
     return stats, time.perf_counter() - started, api_seconds, batches
 
 

@@ -830,6 +830,18 @@ class ExternalMergeStatsTests(unittest.TestCase):
             },
         )
 
+    def test_failed_search_is_unknown_not_zero(self):
+        class FakeGitHub:
+            def graphql(self, query):
+                # The batch fails, then only owner/ok works on its own.
+                if "owner/ok" in query and "owner/broken" not in query:
+                    return {"data": {"external0": {"nodes": []}}}
+                raise RuntimeError("search failed")
+
+        stats, *_ = radar.fetch_external_merge_stats(FakeGitHub(), ["owner/ok", "owner/broken"], self.since)
+        self.assertEqual(stats["owner/ok"]["created_in_window"], 0)
+        self.assertIsNone(stats["owner/broken"])
+
     def test_empty_search_has_zero_stats(self):
         self.assertEqual(
             radar.external_merge_stats(None, self.since),

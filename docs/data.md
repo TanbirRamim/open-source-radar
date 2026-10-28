@@ -86,6 +86,7 @@ that are currently merged. `median_time_to_merge_hours` is the median time betwe
 opening and merging them. Results are bounded to the first 100 search results per repository, so
 counts and rates are recent-sample signals rather than full-window totals when `capped` is true.
 The flag is set when the search returns 100 PRs, before filtering out team members and bots.
+`external_prs` is `null` when the search for that repository failed in the last run.
 
 ## Example: five newest beginner issues in Go
 
