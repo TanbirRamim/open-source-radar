@@ -1001,6 +1001,13 @@ def render(config: dict[str, Any]) -> None:
     for language, slug in languages.items():
         subset = [issue for issue in issues if repositories[issue["repo"]]["language"] == language]
         if not subset:
+            # languages/*.md links here, so keep the page even when a refresh finds nothing
+            body = page_header(
+                f"{language} issues",
+                f"No open {language} issues right now. The list refreshes twice a day, so check back soon.",
+                generated_at,
+            )
+            (by_language_dir / f"{slug}.md").write_text(body + "\n", encoding="utf-8")
             continue
         repo_count = len({issue["repo"] for issue in subset})
         beginner = sum(1 for issue in subset if issue["level"] == "beginner")

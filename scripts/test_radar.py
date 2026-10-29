@@ -1253,7 +1253,7 @@ class RenderSmokeTests(unittest.TestCase):
             radar.ROOT, radar.ISSUES_PATH, radar.SITE_DATA_PATH = root, issues_path, site_data_path
             config = {
                 "issues": {"max_per_page": 10},
-                "languages": {"Python": "python", "Go": "go"},
+                "languages": {"Python": "python", "Go": "go", "Dart": "dart"},
                 "topics": {
                     "ai": {"title": "AI", "keywords": ["ai"]},
                     "docs": {"title": "Documentation", "keywords": ["docs"]},
@@ -1266,6 +1266,8 @@ class RenderSmokeTests(unittest.TestCase):
                 radar.ROOT, radar.ISSUES_PATH, radar.SITE_DATA_PATH = original_paths
 
             self.assertTrue((root / "issues" / "by-language" / "python.md").exists())
+            dart_page = (root / "issues" / "by-language" / "dart.md").read_text(encoding="utf-8")
+            self.assertIn("No open Dart issues right now", dart_page)
             self.assertTrue((root / "projects" / "README.md").exists())
             self.assertTrue((root / "site" / "feeds" / "python.xml").exists())
             self.assertTrue((root / "issues" / "by-topic" / "ai.md").exists())
