@@ -86,7 +86,7 @@ Open Source Radar fixes the first part with data and the second part with a guid
 
 Plus a [glossary](guide/glossary.md) and [quickstarts for 27 languages](languages/README.md).
 
-The guide is also translated: [Español](guide/es/README.md) and [Português](guide/pt-BR/README.md) (all chapters), [हिंदी](guide/hi/README.md) (most chapters).
+The guide is also translated: [Español](guide/es/README.md) and [Português](guide/pt-BR/README.md) (all chapters), [हिंदी](guide/hi/README.md) (most chapters), [বাংলা](guide/bn/README.md) (in progress).
 
 ## How issues are selected
 
@@ -225,6 +225,7 @@ Thank you to everyone who has made the radar better:
 - [@kd5050612-debug](https://github.com/kd5050612-debug): Thai website ([#354](https://github.com/TanbirRamim/open-source-radar/pull/354))
 - [@B2408942](https://github.com/B2408942): Indonesian website ([#342](https://github.com/TanbirRamim/open-source-radar/pull/342))
 - [@Pallav-Biyala](https://github.com/Pallav-Biyala): Polish website ([#359](https://github.com/TanbirRamim/open-source-radar/pull/359))
+- [@Brownteen18](https://github.com/Brownteen18): Bengali guide chapter 3 ([#363](https://github.com/TanbirRamim/open-source-radar/pull/363))
 
 Your name goes here with your first merged pull request. And if the radar helped you, please give it a star: it's the simplest way to help other newcomers find it.
 
