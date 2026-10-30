@@ -84,7 +84,7 @@ Open Source Radar fixes the first part with data and the second part with a guid
 9. [Keep going](guide/09-keep-going.md)
 10. [Reading a codebase](guide/10-reading-a-codebase.md)
 
-Plus a [glossary](guide/glossary.md) and [quickstarts for 27 languages](languages/README.md).
+Plus a [glossary](guide/glossary.md) and [quickstarts for 28 languages](languages/README.md).
 
 The guide is also translated: [Español](guide/es/README.md) and [Português](guide/pt-BR/README.md) (all chapters), [हिंदी](guide/hi/README.md) (most chapters), [বাংলা](guide/bn/README.md) (in progress).
 

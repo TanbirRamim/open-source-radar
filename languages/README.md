@@ -8,6 +8,7 @@ Short, practical notes on how projects in each language are usually built, teste
 | [TypeScript](typescript.md) | Node.js + tsc | [issues](../issues/by-language/typescript.md) |
 | [Vue](vue.md) | Node.js + Vite | [issues](../issues/by-language/vue.md) |
 | [Python](python.md) | CPython | [issues](../issues/by-language/python.md) |
+| [Jupyter Notebook](jupyter.md) | Python + Jupyter | [issues](../issues/by-language/jupyter.md) |
 | [Go](go.md) | Go toolchain | [issues](../issues/by-language/go.md) |
 | [Haskell](haskell.md) | GHC + Cabal/Stack | [issues](../issues/by-language/haskell.md) |
 | [Rust](rust.md) | rustup + Cargo | [issues](../issues/by-language/rust.md) |
