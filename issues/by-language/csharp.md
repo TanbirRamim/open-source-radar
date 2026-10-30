@@ -2,7 +2,7 @@
 
 **304** open issues (78 labeled for beginners) across **85** active C# projects.
 
-[RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/csharp.xml)
+[C# quickstart](../../languages/csharp.md) · [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/csharp.xml)
 
 > Updated automatically on **2026-10-30 22:25 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >

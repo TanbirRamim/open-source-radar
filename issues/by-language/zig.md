@@ -2,7 +2,7 @@
 
 **10** open issues (7 labeled for beginners) across **7** active Zig projects.
 
-[RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/zig.xml)
+[Zig quickstart](../../languages/zig.md) · [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/zig.xml)
 
 > Updated automatically on **2026-10-30 22:25 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >

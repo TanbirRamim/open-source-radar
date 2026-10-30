@@ -2,7 +2,7 @@
 
 **4** open issues (2 labeled for beginners) across **3** active R projects.
 
-[RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/r.xml)
+[R quickstart](../../languages/r.md) · [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/r.xml)
 
 > Updated automatically on **2026-10-30 22:25 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >

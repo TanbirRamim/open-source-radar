@@ -2,7 +2,7 @@
 
 **28** open issues (19 labeled for beginners) across **12** active Jupyter Notebook projects.
 
-[RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/jupyter.xml)
+[Jupyter Notebook quickstart](../../languages/jupyter.md) · [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/jupyter.xml)
 
 > Updated automatically on **2026-10-30 22:25 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >

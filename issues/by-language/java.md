@@ -2,7 +2,7 @@
 
 **268** open issues (114 labeled for beginners) across **80** active Java projects.
 
-[RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/java.xml)
+[Java quickstart](../../languages/java.md) · [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/java.xml)
 
 > Updated automatically on **2026-10-30 22:25 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >

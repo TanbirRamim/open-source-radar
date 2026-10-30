@@ -785,6 +785,18 @@ def issue_table(issues: list[dict[str, Any]], repositories: dict[str, Any], limi
     return "\n".join(lines)
 
 
+# Languages that share one quickstart page.
+QUICKSTART_ALIASES = {"html": "html-css", "css": "html-css"}
+
+
+def quickstart_link(language: str, slug: str) -> str:
+    """Link to languages/<slug>.md from an issue page, or "" when there is no quickstart."""
+    name = QUICKSTART_ALIASES.get(slug, slug)
+    if not (ROOT / "languages" / f"{name}.md").exists():
+        return ""
+    return f"[{language} quickstart](../../languages/{name}.md)"
+
+
 def page_header(title: str, subtitle: str, generated_at: str, extra: str = "") -> str:
     return (
         f"# {title}\n\n"
@@ -1012,6 +1024,9 @@ def render(config: dict[str, Any]) -> None:
         repo_count = len({issue["repo"] for issue in subset})
         beginner = sum(1 for issue in subset if issue["level"] == "beginner")
         feed_link = f"[RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/{slug}.xml)"
+        quickstart = quickstart_link(language, slug)
+        if quickstart:
+            feed_link = f"{quickstart} · {feed_link}"
         body = page_header(
             f"{language} issues",
             f"**{len(subset)}** open issues ({beginner} labeled for beginners) across **{repo_count}** "

@@ -2,7 +2,7 @@
 
 **16** open issues (6 labeled for beginners) across **5** active Haskell projects.
 
-[RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/haskell.xml)
+[Haskell quickstart](../../languages/haskell.md) · [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/haskell.xml)
 
 > Updated automatically on **2026-10-30 22:25 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
