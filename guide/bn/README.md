@@ -7,7 +7,7 @@
 | # | অধ্যায় |
 | --- | --- |
 | 1 | [Why contribute](../01-why-contribute.md) (English) |
-| 2 | [Set up your tools](../02-setup.md) (English) |
+| 2 | [আপনার টুলগুলো সেট আপ করুন](02-setup.md) |
 | 3 | [একটি প্রজেক্ট বেছে নিন](03-choose-a-project.md) |
 | 4 | [Find an issue you can finish](../04-find-an-issue.md) (English) |
 | 5 | [Your first pull request](../05-first-pull-request.md) (English) |

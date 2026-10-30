@@ -37,7 +37,7 @@ Dê às branches o nome da mudança, como `fix-empty-username` ou `docs-install-
 
 ## 3. Compile e rode os testes antes de mudar qualquer coisa
 
-Siga o `CONTRIBUTING.md` ou o `DEVELOPMENT.md` do projeto. Os [language quickstarts](../languages/README.md) (em inglês) mostram os comandos usuais. Rode os testes no código ainda sem modificações:
+Siga o `CONTRIBUTING.md` ou o `DEVELOPMENT.md` do projeto. Os [language quickstarts](../../languages/README.md) (em inglês) mostram os comandos usuais. Rode os testes no código ainda sem modificações:
 
 - Se passarem, você tem uma base funcionando.
 - Se alguns já falharem, anote quais. Essas falhas não são suas, e vale mencioná-las no seu PR se forem relevantes.

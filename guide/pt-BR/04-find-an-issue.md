@@ -4,7 +4,7 @@ Uma boa primeira issue é pequena, bem descrita, reproduzível e ainda não est�
 
 ## Onde procurar
 
-- **[O índice de issues deste repositório](../issues/README.md)** e o [site](https://tanbirramim.github.io/open-source-radar/): issues abertas com etiqueta de iniciante, já filtradas para excluir as que têm responsável ou pull request aberto vinculado.
+- **[O índice de issues deste repositório](../../issues/README.md)** e o [site](https://tanbirramim.github.io/open-source-radar/): issues abertas com etiqueta de iniciante, já filtradas para excluir as que têm responsável ou pull request aberto vinculado.
 - **O próprio rastreador de issues do projeto**, filtrado pelas etiquetas de iniciante dele.
 - **A busca do GitHub**, por exemplo:
 

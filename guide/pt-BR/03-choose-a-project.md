@@ -6,7 +6,7 @@ O projeto importa mais do que a issue. Um projeto acolhedor e ativo vai revisar 
 
 O melhor primeiro projeto é um que você já usa: uma biblioteca do seu próprio código, uma ferramenta que você roda todo dia, um app de que você gosta. Você entende o que ele deveria fazer, consegue testar sua mudança de verdade e se importa com o resultado.
 
-Se nada vier à mente, navegue pelo [índice de issues](../issues/README.md) pela linguagem que você domina e repare em quais projetos aparecem sempre.
+Se nada vier à mente, navegue pelo [índice de issues](../../issues/README.md) pela linguagem que você domina e repare em quais projetos aparecem sempre.
 
 ## Sinais de um projeto saudável e acolhedor
 

@@ -2,7 +2,7 @@
 
 Todo projeto tem regras para contribuições. Algumas são só convenções; outras decidem se o seu pull request pode receber merge — ou se ele será fechado automaticamente. Verifique-as **antes** de escrever código.
 
-O [índice de issues](../issues/README.md) mostra dicas detectadas automaticamente para cada projeto. São dicas, não garantias: leia sempre os arquivos do próprio projeto.
+O [índice de issues](../../issues/README.md) mostra dicas detectadas automaticamente para cada projeto. São dicas, não garantias: leia sempre os arquivos do próprio projeto.
 
 | Nota no índice | Significado |
 | --- | --- |

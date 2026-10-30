@@ -67,7 +67,7 @@ Se você nunca usou Git, passe 30 minutos no [Learn Git Branching](https://learn
 
 ## Toolchains de linguagem
 
-Instale a toolchain do projeto que você escolher, usando a versão que o projeto pede (procure arquivos como `.nvmrc`, `.python-version`, `rust-toolchain.toml`, `go.mod`, `.tool-versions`). Os [quickstarts de linguagem](../languages/README.md) listam os comandos usuais por linguagem.
+Instale a toolchain do projeto que você escolher, usando a versão que o projeto pede (procure arquivos como `.nvmrc`, `.python-version`, `rust-toolchain.toml`, `go.mod`, `.tool-versions`). Os [quickstarts de linguagem](../../languages/README.md) listam os comandos usuais por linguagem.
 
 Gerenciadores de versão facilitam isso:
 

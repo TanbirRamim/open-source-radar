@@ -67,7 +67,7 @@ Si nunca has usado Git, dedica 30 minutos a [Learn Git Branching](https://learng
 
 ## Herramientas por lenguaje
 
-Instala las herramientas del proyecto que elijas, usando la versión que pida el proyecto (busca archivos como `.nvmrc`, `.python-version`, `rust-toolchain.toml`, `go.mod`, `.tool-versions`). Las [guías rápidas por lenguaje](../languages/README.md) listan los comandos habituales de cada uno.
+Instala las herramientas del proyecto que elijas, usando la versión que pida el proyecto (busca archivos como `.nvmrc`, `.python-version`, `rust-toolchain.toml`, `go.mod`, `.tool-versions`). Las [guías rápidas por lenguaje](../../languages/README.md) listan los comandos habituales de cada uno.
 
 Los gestores de versiones lo hacen sencillo:
 
