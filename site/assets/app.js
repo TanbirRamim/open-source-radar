@@ -57,7 +57,7 @@
     const days = Math.floor((Date.now() - new Date(isoDate + "T00:00:00Z").getTime()) / 86400000);
     if (days <= 0) return t("time.today");
     if (days === 1) return t("time.yesterday");
-    if (days < 60) return t("time.days", { count: numberFormat.format(days) });
+    if (days < 60) return t("time.days", { count: numberFormat.format(days), n: days });
     if (days >= 365) {
       const years = Math.floor(days / 365);
       return t(years === 1 ? "time.year" : "time.years", { count: numberFormat.format(years), n: years });

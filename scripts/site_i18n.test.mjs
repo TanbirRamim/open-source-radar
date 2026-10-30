@@ -129,6 +129,12 @@ test("plural messages pick the right form", () => {
   assert.equal(pl.t("issue.comments", { count: "22", n: 22 }), "22 komentarze");
   assert.equal(pl.t("issue.comments", { count: "0", n: 0 }), "0 komentarzy");
   assert.equal(pl.t("time.years", { count: "5", n: 5 }), "zaktualizowano 5 lat temu");
+  const uk = loadI18n("uk");
+  assert.equal(uk.t("time.days", { count: "21", n: 21 }), "оновлено 21 день тому");
+  assert.equal(uk.t("time.days", { count: "3", n: 3 }), "оновлено 3 дні тому");
+  // "many" isn't listed, so 12 falls back to other.
+  assert.equal(uk.t("time.days", { count: "12", n: 12 }), "оновлено 12 днів тому");
+  assert.equal(uk.t("issue.comments", { count: "2", n: 2 }), "2 коментарі");
   // Plain string messages ignore n.
   assert.equal(loadI18n("en").t("time.months", { count: "3", n: 3 }), "updated 3 months ago");
 });

@@ -226,6 +226,7 @@ Thank you to everyone who has made the radar better:
 - [@B2408942](https://github.com/B2408942): Indonesian website ([#342](https://github.com/TanbirRamim/open-source-radar/pull/342))
 - [@Pallav-Biyala](https://github.com/Pallav-Biyala): Polish website ([#359](https://github.com/TanbirRamim/open-source-radar/pull/359))
 - [@Brownteen18](https://github.com/Brownteen18): Bengali guide chapter 3 ([#363](https://github.com/TanbirRamim/open-source-radar/pull/363))
+- [@Valeriia458](https://github.com/Valeriia458): Ukrainian website ([#361](https://github.com/TanbirRamim/open-source-radar/pull/361))
 
 Your name goes here with your first merged pull request. And if the radar helped you, please give it a star: it's the simplest way to help other newcomers find it.
 
