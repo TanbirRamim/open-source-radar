@@ -7,6 +7,7 @@ Short, practical notes on how projects in each language are usually built, teste
 | [JavaScript](javascript.md) | Node.js | [issues](../issues/by-language/javascript.md) |
 | [TypeScript](typescript.md) | Node.js + tsc | [issues](../issues/by-language/typescript.md) |
 | [Vue](vue.md) | Node.js + Vite | [issues](../issues/by-language/vue.md) |
+| [HTML and CSS](html-css.md) | Browser + text editor | [HTML issues](../issues/by-language/html.md) · [CSS issues](../issues/by-language/css.md) |
 | [Python](python.md) | CPython | [issues](../issues/by-language/python.md) |
 | [Jupyter Notebook](jupyter.md) | Python + Jupyter | [issues](../issues/by-language/jupyter.md) |
 | [Go](go.md) | Go toolchain | [issues](../issues/by-language/go.md) |
