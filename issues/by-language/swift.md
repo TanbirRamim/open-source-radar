@@ -2,7 +2,7 @@
 
 **108** open issues (50 labeled for beginners) across **59** active Swift projects.
 
-[RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/swift.xml)
+[Swift quickstart](../../languages/swift.md) · [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/swift.xml)
 
 > Updated automatically on **2026-10-30 22:25 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >

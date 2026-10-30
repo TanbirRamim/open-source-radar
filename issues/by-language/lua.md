@@ -2,7 +2,7 @@
 
 **33** open issues (19 labeled for beginners) across **16** active Lua projects.
 
-[RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/lua.xml)
+[Lua quickstart](../../languages/lua.md) · [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/lua.xml)
 
 > Updated automatically on **2026-10-30 22:25 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >

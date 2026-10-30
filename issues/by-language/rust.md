@@ -2,7 +2,7 @@
 
 **329** open issues (158 labeled for beginners) across **92** active Rust projects.
 
-[RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/rust.xml)
+[Rust quickstart](../../languages/rust.md) · [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/rust.xml)
 
 > Updated automatically on **2026-10-30 22:25 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >

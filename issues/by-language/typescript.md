@@ -2,7 +2,7 @@
 
 **317** open issues (84 labeled for beginners) across **82** active TypeScript projects.
 
-[RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/typescript.xml)
+[TypeScript quickstart](../../languages/typescript.md) · [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/typescript.xml)
 
 > Updated automatically on **2026-10-30 22:25 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >

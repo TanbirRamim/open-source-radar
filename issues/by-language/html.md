@@ -2,7 +2,7 @@
 
 **103** open issues (37 labeled for beginners) across **35** active HTML projects.
 
-[RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/html.xml)
+[HTML quickstart](../../languages/html-css.md) · [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/html.xml)
 
 > Updated automatically on **2026-10-30 22:25 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >

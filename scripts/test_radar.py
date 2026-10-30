@@ -682,6 +682,15 @@ class ProjectsPageTests(unittest.TestCase):
                 self.assertNotIn(expected, page)
 
 
+class QuickstartLinkTests(unittest.TestCase):
+    def test_links_existing_quickstarts_and_aliases(self):
+        self.assertEqual(radar.quickstart_link("Python", "python"), "[Python quickstart](../../languages/python.md)")
+        self.assertEqual(radar.quickstart_link("CSS", "css"), "[CSS quickstart](../../languages/html-css.md)")
+
+    def test_no_link_without_a_quickstart(self):
+        self.assertEqual(radar.quickstart_link("Brainfuck", "brainfuck"), "")
+
+
 class ShortenTests(unittest.TestCase):
     def test_shorten_keeps_short_text_and_marks_cuts(self):
         self.assertEqual(radar.shorten("  a\n  short   title ", 20), "a short title")

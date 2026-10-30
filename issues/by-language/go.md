@@ -2,7 +2,7 @@
 
 **319** open issues (74 labeled for beginners) across **77** active Go projects.
 
-[RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/go.xml)
+[Go quickstart](../../languages/go.md) · [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/go.xml)
 
 > Updated automatically on **2026-10-30 22:25 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >

@@ -2,7 +2,7 @@
 
 **144** open issues (69 labeled for beginners) across **52** active PHP projects.
 
-[RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/php.xml)
+[PHP quickstart](../../languages/php.md) · [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/php.xml)
 
 > Updated automatically on **2026-10-30 22:25 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >

@@ -2,7 +2,7 @@
 
 **30** open issues (0 labeled for beginners) across **2** active Erlang projects.
 
-[RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/erlang.xml)
+[Erlang quickstart](../../languages/erlang.md) · [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/erlang.xml)
 
 > Updated automatically on **2026-10-30 22:25 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
