@@ -9,7 +9,7 @@
 | 1 | [Why contribute](../01-why-contribute.md) (English) |
 | 2 | [আপনার টুলগুলো সেট আপ করুন](02-setup.md) |
 | 3 | [একটি প্রজেক্ট বেছে নিন](03-choose-a-project.md) |
-| 4 | [Find an issue you can finish](../04-find-an-issue.md) (English) |
+| 4 | [শেষ করতে পারবেন এমন একটি issue খুঁজুন](04-find-an-issue.md) |
 | 5 | [Your first pull request](../05-first-pull-request.md) (English) |
 | 6 | [Rules to check before you start](../06-rules-before-you-start.md) (English) |
 | 7 | [Talking to maintainers](../07-communication.md) (English) |
