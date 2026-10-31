@@ -58,4 +58,4 @@ https://github.com/OWNER/REPO/pulls?q=is:pr+is:merged+-author:app/dependabot+sor
 - [ ] Contributing guide আছে এবং আমি সেটি পড়েছি।
 - [ ] আমি নিজের কম্পিউটারে প্রজেক্টটি build ও run করতে পারি (chapter 5-এ এ বিষয়ে বলা হয়েছে)।
 
-পরবর্তী অধ্যায়: [এমন একটি issue খুঁজুন, যা আপনি সম্পন্ন করতে পারবেন](../04-find-an-issue.md)
+পরবর্তী অধ্যায়: [এমন একটি issue খুঁজুন, যা আপনি সম্পন্ন করতে পারবেন](04-find-an-issue.md)
