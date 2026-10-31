@@ -99,7 +99,8 @@
 
       <div class="query" role="group" aria-label="Equivalent GitHub search" data-i18n-aria-label="query.label">
         <code id="query-text">is:issue is:open no:assignee -linked:pr</code>
-        <button class="query-copy" id="query-copy" type="button" aria-live="polite" data-i18n="query.copy">Copy</button>
+        <button class="query-copy" id="query-copy" type="button" data-i18n="query.copy">Copy</button>
+        <span class="visually-hidden" aria-live="polite" id="copy-status"></span>
         <a id="query-link" href="https://github.com/issues?q=is%3Aissue+is%3Aopen+no%3Aassignee+-linked%3Apr"
           target="_blank" rel="noopener" data-i18n="query.run">Run this search on GitHub</a>
       </div>
