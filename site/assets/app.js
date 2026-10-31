@@ -25,6 +25,7 @@
   const queryText = document.getElementById("query-text");
   const queryLink = document.getElementById("query-link");
   const queryCopy = document.getElementById("query-copy");
+  const queryCopyStatus = document.getElementById("copy-status")
   const updated = document.getElementById("updated");
   const languageFeed = document.getElementById("language-feed");
   const languageFeedLink = document.getElementById("language-feed-link");
@@ -38,36 +39,54 @@
   let previousQueryTerms = new Set();
 
   const numberFormat = new Intl.NumberFormat(locale);
-  const compact = new Intl.NumberFormat(locale, { notation: "compact", maximumFractionDigits: 1 });
+  const compact = new Intl.NumberFormat(locale, {
+    notation: "compact",
+    maximumFractionDigits: 1,
+  });
 
   // ---- Theme -------------------------------------------------------------------------------
 
   document.querySelector(".theme-toggle").addEventListener("click", () => {
     const root = document.documentElement;
-    const systemDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    const systemDark = window.matchMedia(
+      "(prefers-color-scheme: dark)",
+    ).matches;
     const current = root.dataset.theme || (systemDark ? "dark" : "light");
     const next = current === "dark" ? "light" : "dark";
     root.dataset.theme = next;
-    try { localStorage.setItem("radar-theme", next); } catch (e) { /* storage unavailable */ }
+    try {
+      localStorage.setItem("radar-theme", next);
+    } catch (e) {
+      /* storage unavailable */
+    }
   });
 
   // ---- Helpers -----------------------------------------------------------------------------
 
   function daysAgo(isoDate) {
-    const days = Math.floor((Date.now() - new Date(isoDate + "T00:00:00Z").getTime()) / 86400000);
+    const days = Math.floor(
+      (Date.now() - new Date(isoDate + "T00:00:00Z").getTime()) / 86400000,
+    );
     if (days <= 0) return t("time.today");
     if (days === 1) return t("time.yesterday");
-    if (days < 60) return t("time.days", { count: numberFormat.format(days), n: days });
+    if (days < 60)
+      return t("time.days", { count: numberFormat.format(days), n: days });
     if (days >= 365) {
       const years = Math.floor(days / 365);
-      return t(years === 1 ? "time.year" : "time.years", { count: numberFormat.format(years), n: years });
+      return t(years === 1 ? "time.year" : "time.years", {
+        count: numberFormat.format(years),
+        n: years,
+      });
     }
     const months = Math.min(11, Math.round(days / 30));
     return t("time.months", { count: numberFormat.format(months), n: months });
   }
 
   function pushedAgo(isoDate) {
-    return daysAgo(isoDate).replace(t("time.updatedPrefix"), t("time.pushedPrefix"));
+    return daysAgo(isoDate).replace(
+      t("time.updatedPrefix"),
+      t("time.pushedPrefix"),
+    );
   }
 
   function readFilters() {
@@ -79,7 +98,8 @@
   function writeUrl(values) {
     const params = new URLSearchParams();
     for (const [key, value] of Object.entries(values)) {
-      if (value && !(key === "sort" && value === "updated")) params.set(key, value);
+      if (value && !(key === "sort" && value === "updated"))
+        params.set(key, value);
     }
     const qs = params.toString();
     history.replaceState(null, "", qs ? `?${qs}` : location.pathname);
@@ -88,7 +108,8 @@
   function restoreFromUrl() {
     const params = new URLSearchParams(location.search);
     for (const element of form.elements) {
-      if (element.name && params.has(element.name)) element.value = params.get(element.name);
+      if (element.name && params.has(element.name))
+        element.value = params.get(element.name);
     }
   }
 
@@ -99,7 +120,9 @@
     if (values.level === "beginner") terms.push(BEGINNER_LABEL);
     if (values.level === "help-wanted") terms.push('label:"help wanted"');
     if (values.language) {
-      const name = values.language.includes(" ") ? `"${values.language}"` : values.language;
+      const name = values.language.includes(" ")
+        ? `"${values.language}"`
+        : values.language;
       terms.push(`language:${name}`);
     }
     if (values.q) terms.push(values.q);
@@ -122,7 +145,8 @@
       } else {
         span.textContent = term;
       }
-      if (previousQueryTerms.size && !previousQueryTerms.has(term)) span.classList.add("q-new");
+      if (previousQueryTerms.size && !previousQueryTerms.has(term))
+        span.classList.add("q-new");
       queryText.append(span);
     });
     previousQueryTerms = current;
@@ -146,7 +170,9 @@
 
   function topicTitle(slug) {
     const translated = t(`topic.${slug}`);
-    return translated.startsWith("topic.") ? (data.topic_titles?.[slug] || slug) : translated;
+    return translated.startsWith("topic.")
+      ? data.topic_titles?.[slug] || slug
+      : translated;
   }
 
   function matchesRules(repo, rule) {
@@ -154,20 +180,23 @@
     if (rule === "contributing") return contributingPath(repo) !== null;
     if (rule === "no-ai-restriction") return policy.ai !== "restricted";
     if (rule === "no-cla") return !policy.cla;
-    if (rule === "simple") return (policy.ai === "none" || !policy.ai) && !policy.cla && !policy.dco;
+    if (rule === "simple")
+      return (policy.ai === "none" || !policy.ai) && !policy.cla && !policy.dco;
     return true;
   }
 
   function matchesSignal(issue, signal) {
     if (signal === "no-comments") return issue.comments === 0;
-    if (signal === "maintainer-replied") return issue.maintainer_replied === true;
+    if (signal === "maintainer-replied")
+      return issue.maintainer_replied === true;
     if (signal === "no-closed-pr") return !issue.closed_pr;
     return true;
   }
 
   // Lowercase and drop accents, so "cafe" finds "café" and a Turkish "İ" (which lowercases to
   // "i" plus a combining dot) still matches a plain "i".
-  const fold = (text) => text.toLowerCase().normalize("NFD").replace(/\p{M}/gu, "");
+  const fold = (text) =>
+    text.toLowerCase().normalize("NFD").replace(/\p{M}/gu, "");
 
   function applyFilters(scrollToList = false) {
     const values = readFilters();
@@ -175,31 +204,46 @@
     const repos = data.repositories;
 
     const activityDays = Number(values.activity) || 0;
-    const activityCutoff = activityDays ? Date.now() - activityDays * 86400000 : null;
+    const activityCutoff = activityDays
+      ? Date.now() - activityDays * 86400000
+      : null;
 
     filtered = data.issues.filter((issue) => {
       const repo = repos[issue.repo];
       if (values.language && repo.language !== values.language) return false;
       if (values.topic && !repo.buckets.includes(values.topic)) return false;
       if (values.level && issue.level !== values.level) return false;
-      if (activityCutoff !== null && !(new Date(issue.updated + "T00:00:00Z").getTime() >= activityCutoff)) return false;
+      if (
+        activityCutoff !== null &&
+        !(new Date(issue.updated + "T00:00:00Z").getTime() >= activityCutoff)
+      )
+        return false;
       if (values.rules && !matchesRules(repo, values.rules)) return false;
       if (values.signal && !matchesSignal(issue, values.signal)) return false;
       if (values.repo && issue.repo !== values.repo) return false;
       if (words.length) {
-        const haystack = fold(`${issue.title} ${issue.repo} ${issue.labels.join(" ")} ${repo.description} ${licenseName(repo)}`);
-        if (!words.every(word => haystack.includes(word))) return false;
+        const haystack = fold(
+          `${issue.title} ${issue.repo} ${issue.labels.join(" ")} ${repo.description} ${licenseName(repo)}`,
+        );
+        if (!words.every((word) => haystack.includes(word))) return false;
       }
       return true;
     });
 
     const sorters = {
-      updated: (a, b) => b.updated.localeCompare(a.updated) || repos[b.repo].stars - repos[a.repo].stars,
+      updated: (a, b) =>
+        b.updated.localeCompare(a.updated) ||
+        repos[b.repo].stars - repos[a.repo].stars,
       new: (a, b) => b.created.localeCompare(a.created),
-      stars: (a, b) => repos[b.repo].stars - repos[a.repo].stars || b.updated.localeCompare(a.updated),
-      quiet: (a, b) => a.comments - b.comments || b.updated.localeCompare(a.updated),
+      stars: (a, b) =>
+        repos[b.repo].stars - repos[a.repo].stars ||
+        b.updated.localeCompare(a.updated),
+      quiet: (a, b) =>
+        a.comments - b.comments || b.updated.localeCompare(a.updated),
       // open_count can be missing for a repo, so treat it as 0 instead of sorting on NaN.
-      open: (a, b) => (repos[b.repo].open_count ?? 0) - (repos[a.repo].open_count ?? 0) || b.updated.localeCompare(a.updated),
+      open: (a, b) =>
+        (repos[b.repo].open_count ?? 0) - (repos[a.repo].open_count ?? 0) ||
+        b.updated.localeCompare(a.updated),
     };
     filtered.sort(sorters[values.sort] || sorters.updated);
 
@@ -212,8 +256,15 @@
       list.scrollIntoView({ block: "start" });
     }
 
-    const hasFilter = values.language || values.topic || values.level ||
-      values.activity || values.rules || values.signal || values.repo || values.q ||
+    const hasFilter =
+      values.language ||
+      values.topic ||
+      values.level ||
+      values.activity ||
+      values.rules ||
+      values.signal ||
+      values.repo ||
+      values.q ||
       (values.sort && values.sort !== "updated");
     const resetButton = form.querySelector("button.reset");
     if (resetButton) {
@@ -233,15 +284,17 @@
     const projectCount = new Set(filtered.map((issue) => issue.repo)).size;
     summary.innerHTML = filtered.length
       ? t("summary.match", {
-        issues: numberFormat.format(filtered.length),
-        projects: numberFormat.format(projectCount),
-      })
+          issues: numberFormat.format(filtered.length),
+          projects: numberFormat.format(projectCount),
+        })
       : t("results.empty");
     const languageSlug = data.language_slugs?.[values.language];
     languageFeed.hidden = !languageSlug;
     if (languageSlug) {
       languageFeedLink.href = `feeds/${languageSlug}.xml`;
-      languageFeedLink.textContent = t("feed.language", { name: values.language });
+      languageFeedLink.textContent = t("feed.language", {
+        name: values.language,
+      });
     }
 
     const hasTopicFeed = data.topic_feed_slugs?.includes(values.topic);
@@ -249,7 +302,9 @@
 
     if (hasTopicFeed) {
       topicFeedLink.href = `feeds/topics/${values.topic}.xml`;
-      topicFeedLink.textContent = t("feed.topic", { name: topicTitle(values.topic) });
+      topicFeedLink.textContent = t("feed.topic", {
+        name: topicTitle(values.topic),
+      });
     }
     renderRepoCard(values.repo);
     empty.hidden = filtered.length > 0;
@@ -290,9 +345,11 @@
     if (licenseName(repo)) parts.push(licenseName(repo));
     if (repo.pushed) parts.push(pushedAgo(repo.pushed));
     if (typeof repo.open_count === "number") {
-      parts.push(t(repo.open_count === 1 ? "repo.openOne" : "repo.openMany", {
-        count: numberFormat.format(repo.open_count),
-      }));
+      parts.push(
+        t(repo.open_count === 1 ? "repo.openOne" : "repo.openMany", {
+          count: numberFormat.format(repo.open_count),
+        }),
+      );
     }
     for (const text of parts) {
       const span = document.createElement("span");
@@ -351,19 +408,28 @@
     repoLink.textContent = issue.repo;
     const onlyRepo = node.querySelector(".only-repo");
     onlyRepo.textContent = t("issue.onlyProject");
-    onlyRepo.setAttribute("aria-label", t("issue.onlyAria", { name: issue.repo }));
+    onlyRepo.setAttribute(
+      "aria-label",
+      t("issue.onlyAria", { name: issue.repo }),
+    );
     onlyRepo.addEventListener("click", () => setRepo(issue.repo));
-    node.querySelector(".stars").textContent = t("repo.stars", { count: compact.format(repo.stars) });
+    node.querySelector(".stars").textContent = t("repo.stars", {
+      count: compact.format(repo.stars),
+    });
     node.querySelector(".lang").textContent = repo.language || "";
     node.querySelector(".license").textContent = licenseName(repo);
     node.querySelector(".updated").textContent = daysAgo(issue.updated);
-    node.querySelector(".opened").textContent =
-      daysAgo(issue.created).replace(t("time.updatedPrefix"), t("time.openedPrefix"));
+    node.querySelector(".opened").textContent = daysAgo(issue.created).replace(
+      t("time.updatedPrefix"),
+      t("time.openedPrefix"),
+    );
     node.querySelector(".repo-desc").textContent = repo.description || "";
 
     const labels = node.querySelector(".labels");
     labels.setAttribute("aria-label", t("issue.labels"));
-    const extra = issue.labels.filter((name) => !LEVEL_LABELS.has(name.toLowerCase()));
+    const extra = issue.labels.filter(
+      (name) => !LEVEL_LABELS.has(name.toLowerCase()),
+    );
     for (const name of extra.slice(0, MAX_LABELS)) {
       const item = document.createElement("li");
       const button = document.createElement("button");
@@ -380,19 +446,27 @@
     if (extra.length > MAX_LABELS) {
       const item = document.createElement("li");
       item.className = "labels-more";
-      item.textContent = t("issue.moreLabels", { count: numberFormat.format(extra.length - MAX_LABELS) });
+      item.textContent = t("issue.moreLabels", {
+        count: numberFormat.format(extra.length - MAX_LABELS),
+      });
       labels.append(item);
     }
     if (!labels.children.length) labels.remove();
 
     const level = node.querySelector(".level");
     level.classList.add(issue.level);
-    level.textContent = t(issue.level === "beginner" ? "issue.beginner" : "issue.helpWanted");
+    level.textContent = t(
+      issue.level === "beginner" ? "issue.beginner" : "issue.helpWanted",
+    );
 
     const comments = node.querySelector(".comments");
-    comments.textContent = issue.comments === 1
-      ? t("issue.oneComment")
-      : t("issue.comments", { count: numberFormat.format(issue.comments), n: issue.comments });
+    comments.textContent =
+      issue.comments === 1
+        ? t("issue.oneComment")
+        : t("issue.comments", {
+            count: numberFormat.format(issue.comments),
+            n: issue.comments,
+          });
     if (issue.maintainer_replied === true) {
       const reply = document.createElement("span");
       reply.className = "comments";
@@ -405,9 +479,17 @@
     badges.setAttribute("aria-label", t("issue.rules"));
     const policy = repo.policy || {};
     const fileUrl = (path) => `${repo.url}/blob/HEAD/${path}`;
-    if (policy.ai === "restricted") badge(badges, t("badge.aiRestricted"), fileUrl(policy.ai_file), "ai-restricted");
-    if (policy.ai === "disclose") badge(badges, t("badge.aiDisclose"), fileUrl(policy.ai_file));
-    if (policy.ai === "policy") badge(badges, t("badge.aiPolicy"), fileUrl(policy.ai_file));
+    if (policy.ai === "restricted")
+      badge(
+        badges,
+        t("badge.aiRestricted"),
+        fileUrl(policy.ai_file),
+        "ai-restricted",
+      );
+    if (policy.ai === "disclose")
+      badge(badges, t("badge.aiDisclose"), fileUrl(policy.ai_file));
+    if (policy.ai === "policy")
+      badge(badges, t("badge.aiPolicy"), fileUrl(policy.ai_file));
     if (policy.cla) badge(badges, "CLA");
     if (policy.dco) badge(badges, t("badge.dco"));
     const guide = contributingPath(repo);
@@ -457,24 +539,35 @@
     const topicCounts = new Map();
     for (const issue of data.issues) {
       const repo = repos[issue.repo];
-      if (repo.language) languageCounts.set(repo.language, (languageCounts.get(repo.language) || 0) + 1);
-      for (const bucket of repo.buckets) topicCounts.set(bucket, (topicCounts.get(bucket) || 0) + 1);
+      if (repo.language)
+        languageCounts.set(
+          repo.language,
+          (languageCounts.get(repo.language) || 0) + 1,
+        );
+      for (const bucket of repo.buckets)
+        topicCounts.set(bucket, (topicCounts.get(bucket) || 0) + 1);
     }
     populateSelect(
       form.elements.language,
-      [...languageCounts].sort((a, b) => b[1] - a[1]).map(([name, count]) => [name, `${name} (${count})`]),
+      [...languageCounts]
+        .sort((a, b) => b[1] - a[1])
+        .map(([name, count]) => [name, `${name} (${count})`]),
     );
     populateSelect(
       form.elements.topic,
-      [...topicCounts].sort((a, b) => b[1] - a[1]).map(([slug, count]) => [slug, `${topicTitle(slug)} (${count})`]),
+      [...topicCounts]
+        .sort((a, b) => b[1] - a[1])
+        .map(([slug, count]) => [slug, `${topicTitle(slug)} (${count})`]),
     );
 
     const when = new Date(data.generated_at);
-    updated.textContent = t("footer.updated", { date: when.toLocaleString(locale, {
-      dateStyle: "medium",
-      timeStyle: "short",
-      timeZone: "UTC",
-    }) });
+    updated.textContent = t("footer.updated", {
+      date: when.toLocaleString(locale, {
+        dateStyle: "medium",
+        timeStyle: "short",
+        timeZone: "UTC",
+      }),
+    });
 
     restoreFromUrl();
     previousQueryTerms = new Set();
@@ -489,21 +582,28 @@
       );
     });
     form.addEventListener("submit", (event) => event.preventDefault());
-    form.addEventListener("reset", () => setTimeout(() => {
-      form.elements.repo.value = ""; // hidden inputs keep their value on reset
-      applyFilters();
-    }, 0));
+    form.addEventListener("reset", () =>
+      setTimeout(() => {
+        form.elements.repo.value = ""; // hidden inputs keep their value on reset
+        applyFilters();
+      }, 0),
+    );
 
     document.addEventListener("keydown", (event) => {
       if (
         event.key === "/" &&
-        !["INPUT", "SELECT", "TEXTAREA"].includes(document.activeElement?.tagName)
+        !["INPUT", "SELECT", "TEXTAREA"].includes(
+          document.activeElement?.tagName,
+        )
       ) {
         event.preventDefault();
         form.elements.q.focus();
       }
 
-      if (event.key === "Escape" && document.activeElement === form.elements.q) {
+      if (
+        event.key === "Escape" &&
+        document.activeElement === form.elements.q
+      ) {
         event.preventDefault();
 
         if (form.elements.q.value) {
@@ -536,8 +636,14 @@
         return; // clipboard unavailable (e.g. file:// in some browsers): leave the button as is
       }
       queryCopy.textContent = t("query.copied");
+      queryCopy.textContent = "Copied";
+
       clearTimeout(copyTimer);
-      copyTimer = setTimeout(() => { queryCopy.textContent = t("query.copy"); }, 1500);
+
+      copyTimer = setTimeout(() => {
+        queryCopy.textContent = t("query.copy");
+        queryCopyStatus.textContent = "";
+      }, 1500);
     });
   }
 
