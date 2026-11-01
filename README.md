@@ -218,7 +218,7 @@ Thank you to everyone who has made the radar better:
 - [@Dev-GA-Arjun](https://github.com/Dev-GA-Arjun): Japanese website ([#322](https://github.com/TanbirRamim/open-source-radar/pull/322))
 - [@jdabid](https://github.com/jdabid): Spanish guide link fix ([#327](https://github.com/TanbirRamim/open-source-radar/pull/327))
 - [@OR3-D3V](https://github.com/OR3-D3V): Simplified Chinese website ([#328](https://github.com/TanbirRamim/open-source-radar/pull/328))
-- [@OKAN-SOFTWARE](https://github.com/OKAN-SOFTWARE): Turkish website ([#333](https://github.com/TanbirRamim/open-source-radar/pull/333))
+- [@OKAN-SOFTWARE](https://github.com/OKAN-SOFTWARE): Turkish website ([#333](https://github.com/TanbirRamim/open-source-radar/pull/333)), no legend on empty language pages ([#393](https://github.com/TanbirRamim/open-source-radar/pull/393))
 - [@potplant15](https://github.com/potplant15): lang attributes on the language menu ([#337](https://github.com/TanbirRamim/open-source-radar/pull/337)), external PR activity data ([#346](https://github.com/TanbirRamim/open-source-radar/pull/346))
 - [@anweshabehera-arch](https://github.com/anweshabehera-arch): Hindi glossary ([#344](https://github.com/TanbirRamim/open-source-radar/pull/344))
 - [@yash-sharmaji](https://github.com/yash-sharmaji): Portuguese glossary ([#351](https://github.com/TanbirRamim/open-source-radar/pull/351))

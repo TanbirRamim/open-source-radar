@@ -1020,8 +1020,10 @@ def render(config: dict[str, Any]) -> None:
             # languages/*.md links here, so keep the page even when a refresh finds nothing
             body = page_header(
                 f"{language} issues",
-                f"No open {language} issues right now. The list refreshes twice a day, so check back soon.",
+                f"No open {language} issues right now. The list refreshes twice a day, so check back soon. "
+                "Meanwhile, [all languages](../README.md#by-language) has plenty.",
                 generated_at,
+                quickstart_link(language, slug),
                 legend=False,
             )
             (by_language_dir / f"{slug}.md").write_text(body + "\n", encoding="utf-8")

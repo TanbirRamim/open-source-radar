@@ -1278,6 +1278,7 @@ class RenderSmokeTests(unittest.TestCase):
             dart_page = (root / "issues" / "by-language" / "dart.md").read_text(encoding="utf-8")
             self.assertIn("No open Dart issues right now", dart_page)
             self.assertNotIn("**Legend:**", dart_page)
+            self.assertIn("[all languages](../README.md#by-language)", dart_page)
             python_page = (root / "issues" / "by-language" / "python.md").read_text(encoding="utf-8")
             self.assertIn("**Legend:**", python_page)
             topic_page = (root / "issues" / "by-topic" / "ai.md").read_text(encoding="utf-8")
