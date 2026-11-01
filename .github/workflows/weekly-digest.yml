@@ -1,0 +1,27 @@
+name: weekly digest
+
+# Posts the week's freshest beginner issues to Discussions → Announcements every Monday, after the
+# morning refresh. See scripts/weekly_digest.py.
+
+on:
+  schedule:
+    - cron: "0 14 * * 1"
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    permissions:
+      discussions: write
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Post the digest
+        run: python3 scripts/weekly_digest.py
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
