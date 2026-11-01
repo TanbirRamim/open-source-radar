@@ -160,3 +160,10 @@ test("every localized guide folder exists and contains a README.md", () => {
     assert.ok(statSync(readmePath).isFile(), `README.md in guide/${folder} is not a file`);
   }
 });
+
+test("i18n.js keeps one locale table per line and no trailing spaces", () => {
+  i18nSource.split("\n").forEach((line, index) => {
+    assert.doesNotMatch(line, /\s+$/, `trailing whitespace on line ${index + 1}`);
+    assert.doesNotMatch(line, /\},\s*[a-z]{2}(-[A-Za-z]+)?: \{/, `locale table shares line ${index + 1}`);
+  });
+});
