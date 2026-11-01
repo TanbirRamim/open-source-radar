@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync, statSync } from "node:fs";
 import test from "node:test";
 import vm from "node:vm";
 
@@ -144,5 +144,19 @@ test("every plural message has an other form", () => {
     for (const [key, text] of Object.entries(table)) {
       if (typeof text === "object") assert.equal(typeof text.other, "string", `${locale} ${key}`);
     }
+  }
+});
+
+test("every localized guide folder exists and contains a README.md", () => {
+  const { guideFolders } = loadI18n("en");
+
+  for (const folder of Object.values(guideFolders)) {
+    const guidePath = new URL(`../guide/${folder}/`, import.meta.url);
+    const readmePath = new URL(`../guide/${folder}/README.md`, import.meta.url);
+
+    assert.ok(existsSync(guidePath), `Missing guide folder: ${folder}`);
+    assert.ok(statSync(guidePath).isDirectory(), `${folder} is not a directory`);
+    assert.ok(existsSync(readmePath), `Missing README.md in guide/${folder}`);
+    assert.ok(statSync(readmePath).isFile(), `README.md in guide/${folder} is not a file`);
   }
 });
