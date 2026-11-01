@@ -233,6 +233,12 @@ Thank you to everyone who has made the radar better:
 
 Your name goes here with your first merged pull request. And if the radar helped you, please give it a star: it's the simplest way to help other newcomers find it.
 
+## For maintainers
+
+Listed here? Show newcomers where your beginner issues are with the [on the radar badge](docs/badge.md):
+
+[![On Open Source Radar](https://img.shields.io/badge/on-Open%20Source%20Radar-2ea44f)](docs/badge.md)
+
 ## Please, be a good citizen
 
 Maintainers are people with limited time. When you use this list:
