@@ -554,3 +554,5 @@ a:hover { text-decoration-thickness: 2px; }
 .repo-card-name { font-weight: 700; color: var(--teal-strong); font-size: var(--step-1); overflow-wrap: anywhere; }
 .repo-card .issue-meta { margin-top: 0.5rem; }
 .repo-card .link-button { margin-top: 0.6rem; }
+
+.repo-stars { margin-left: 0.4em; padding: 0 0.45em; border: 1px solid currentColor; border-radius: 999px; font-size: 0.85em; }

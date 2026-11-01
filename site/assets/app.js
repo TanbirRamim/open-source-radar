@@ -51,6 +51,18 @@
     try { localStorage.setItem("radar-theme", next); } catch (e) { /* storage unavailable */ }
   });
 
+  // ---- Star count in the header (best effort: hidden when the API is unavailable) ------------
+
+  fetch("https://api.github.com/repos/TanbirRamim/open-source-radar")
+    .then((response) => (response.ok ? response.json() : null))
+    .then((repo) => {
+      if (!repo || typeof repo.stargazers_count !== "number") return;
+      const stars = document.getElementById("repo-stars");
+      stars.textContent = `★ ${compact.format(repo.stargazers_count)}`;
+      stars.hidden = false;
+    })
+    .catch(() => {});
+
   // ---- Helpers -----------------------------------------------------------------------------
 
   function daysAgo(isoDate) {
