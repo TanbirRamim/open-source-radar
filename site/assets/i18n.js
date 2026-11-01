@@ -502,7 +502,8 @@
       "more.initial": "Daha fazla issue göster",
       "load.error": "Issue listesi yüklenemedi. Sayfayı yenileyin veya listelere GitHub üzerinden göz atın.",
       "footer.updated": "Issue'lar {date} UTC tarihinde GitHub API'sinden toplandı. Liste 12 saatte bir güncellenir.",
-    }, es: {
+    },
+    es: {
       "meta.title": "Open Source Radar: encuentra una contribución para comenzar hoy",
       "meta.description": "Issues abiertos, sin asignar y aptos para principiantes de proyectos open source activos, organizados por lenguaje y tema y actualizados automáticamente. Incluye una guía completa para tu primera contribución.",
       "meta.ogDescription": "Encuentra hoy un issue open source abierto, sin asignar y apto para principiantes en un proyecto activo.",

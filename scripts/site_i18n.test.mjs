@@ -146,3 +146,10 @@ test("every plural message has an other form", () => {
     }
   }
 });
+
+test("i18n.js keeps one locale table per line and no trailing spaces", () => {
+  i18nSource.split("\n").forEach((line, index) => {
+    assert.doesNotMatch(line, /\s+$/, `trailing whitespace on line ${index + 1}`);
+    assert.doesNotMatch(line, /\},\s*[a-z]{2}(-[A-Za-z]+)?: \{/, `locale table shares line ${index + 1}`);
+  });
+});
