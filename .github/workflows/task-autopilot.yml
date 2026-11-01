@@ -1,0 +1,30 @@
+name: task autopilot
+
+# Keeps at least MIN_FREE unassigned good first issues open by opening the next missing guide
+# translations. See scripts/task_autopilot.py.
+
+on:
+  schedule:
+    - cron: "0 7 * * *"
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: task-autopilot
+
+jobs:
+  top-up:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Open issues if fewer than the minimum are free
+        run: python3 scripts/task_autopilot.py
+        env:
+          GITHUB_TOKEN: ${{ github.token }}

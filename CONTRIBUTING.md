@@ -19,6 +19,19 @@ Kinds of contributions that are welcome:
 - **Report a stale or wrong listing.** If a listed issue is already taken, closed or not beginner friendly, [open a wrong listing report](https://github.com/TanbirRamim/open-source-radar/issues/new?template=wrong-listing.yml). It takes a minute and saves the next person from a dead end.
 - **Star the repository.** If the radar helped you, a star helps other newcomers find it.
 
+### Nothing free that fits? Pick from this list
+
+These never run out and don't need an issue or a claim. Open the pull request directly and say which item it is.
+
+| If you know... | You can always |
+| --- | --- |
+| A language other than English | Translate the next untranslated chapter in any `guide/<language>/` folder, or start a new language with chapter 1 and a `README.md` (copy `guide/bn/README.md`). A bot also opens these as issues when fewer than 6 good first issues are free |
+| A programming language | Improve its quickstart in [`languages/`](languages/README.md): a missing command, a tool that changed, a tip you wish you'd had. If the radar doesn't cover it yet, add it to `[languages]` in `scripts/config.toml` with a quickstart |
+| Nothing yet, you're just starting | Pick any issue from the [issue index](issues/README.md), try it, and if it was already taken or not beginner friendly, [report the listing](https://github.com/TanbirRamim/open-source-radar/issues/new?template=wrong-listing.yml). Or read a guide chapter and fix whatever confused you |
+| Python | Add a test for any function in `scripts/radar.py` that has none (`grep -n "^def " scripts/radar.py`, then search `scripts/test_radar.py`) |
+| HTML, CSS or JavaScript | Try the [website](https://tanbirramim.github.io/open-source-radar/) on a phone, with only a keyboard, or with a screen reader, and fix what breaks |
+| Design or writing | Make a guide chapter shorter and clearer without losing anything. Plain words beat clever ones |
+
 Done here and want something different? The same maintainer runs a few smaller projects that also have open good first issues and quick reviews. Ask on an issue there before you start:
 
 - [show-receipts](https://github.com/TanbirRamim/show-receipts/issues?q=is%3Aopen+label%3A%22good+first+issue%22) (Python): a stop hook that checks an AI agent's "all tests pass" claims against the transcript
