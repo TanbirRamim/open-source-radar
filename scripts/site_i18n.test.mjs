@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import test from "node:test";
 import vm from "node:vm";
 
@@ -152,4 +152,12 @@ test("i18n.js keeps one locale table per line and no trailing spaces", () => {
     assert.doesNotMatch(line, /\s+$/, `trailing whitespace on line ${index + 1}`);
     assert.doesNotMatch(line, /\},\s*[a-z]{2}(-[A-Za-z]+)?: \{/, `locale table shares line ${index + 1}`);
   });
+});
+
+test("every localized guide folder has a README.md", () => {
+  for (const [locale, folder] of Object.entries(loadI18n("en").guideFolders)) {
+    assert.ok(Object.hasOwn(loadI18n("en").messages, locale), `${locale} is not a site locale`);
+    const readme = new URL(`../guide/${folder}/README.md`, import.meta.url);
+    assert.ok(existsSync(readme), `guide/${folder}/README.md is missing`);
+  }
 });

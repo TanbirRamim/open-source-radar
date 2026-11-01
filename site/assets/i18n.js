@@ -2041,10 +2041,12 @@
     });
   }
 
+  // Site locale -> guide/<folder>/ with a translated README.md. Checked by scripts/site_i18n.test.mjs.
+  const guideFolders = { bn: "bn", es: "es", hi: "hi", pt: "pt-BR" };
+
   document.querySelectorAll("#guide-link, .guide-link").forEach((link) => {
-    if (locale === "es") link.href = "https://github.com/TanbirRamim/open-source-radar/blob/main/guide/es/README.md";
-    if (locale === "hi") link.href = "https://github.com/TanbirRamim/open-source-radar/blob/main/guide/hi/README.md";
-    if (locale === "pt") link.href = "https://github.com/TanbirRamim/open-source-radar/blob/main/guide/pt-BR/README.md";
+    const folder = guideFolders[locale];
+    if (folder) link.href = `https://github.com/TanbirRamim/open-source-radar/blob/main/guide/${folder}/README.md`;
   });
 
   const select = document.getElementById("locale-select");
@@ -2054,5 +2056,5 @@
     location.reload();
   });
 
-  window.RadarI18n = { locale, t, messages };
+  window.RadarI18n = { locale, t, messages, guideFolders };
 })();
