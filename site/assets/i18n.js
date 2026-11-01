@@ -252,6 +252,9 @@
       "more.initial": "Показати більше issue",
       "load.error": "Не вдалося завантажити список issue. Перезавантажте сторінку або перегляньте списки на GitHub.",
       "footer.updated": "Issue зібрано з GitHub API {date} UTC. Список оновлюється кожні 12 годин.",
+    },
+    vi:{
+      
     },  
     tr: {
       "meta.title": "Open Source Radar: bugün katkıda bulunabileceğiniz bir açık kaynak issue bulun",
