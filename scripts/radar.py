@@ -1112,6 +1112,7 @@ def render(config: dict[str, Any]) -> None:
     site_payload = {
         **payload,
         "language_slugs": {language: slug for language, slug in languages.items() if language in feed_languages},
+        "quickstart_slugs": {language: QUICKSTART_ALIASES.get(slug, slug) for language, slug in languages.items() if quickstart_link(language, slug)},
         "topic_feed_slugs": sorted(feed_topic_slugs),
         "topic_titles": {slug: bucket["title"] for slug, bucket in config["topics"].items()},
     }

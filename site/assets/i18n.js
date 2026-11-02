@@ -101,6 +101,7 @@
       "summary.match": "<strong>{issues}</strong> issues in <strong>{projects}</strong> projects match.",
       "summary.loading": "Loading issues…",
       "feed.language": "RSS feed for {name} beginner issues",
+      "feed.quickstart": "{name} quickstart",
       "feed.topic": "RSS feed for {name} beginner issues",
       "repo.stars": "{count} stars",
       "repo.forks": "{count} forks",

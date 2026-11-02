@@ -28,6 +28,9 @@
   const updated = document.getElementById("updated");
   const languageFeed = document.getElementById("language-feed");
   const languageFeedLink = document.getElementById("language-feed-link");
+  const languageQuickstart = document.getElementById("language-quickstart");
+  const languageQuickstartLink = document.getElementById("language-quickstart-link");
+  const languageQuickstartSeparator = document.getElementById("language-quickstart-separator");
   const topicFeed = document.getElementById("topic-feed");
   const topicFeedLink = document.getElementById("topic-feed-link");
   const repoCard = document.getElementById("repo-card");
@@ -250,10 +253,23 @@
       })
       : t("results.empty");
     const languageSlug = data.language_slugs?.[values.language];
-    languageFeed.hidden = !languageSlug;
+    const quickstartSlug = data.quickstart_slugs?.[values.language];
+    languageFeed.hidden = !languageSlug && !quickstartSlug;
+    languageFeedLink.hidden = !languageSlug;
     if (languageSlug) {
       languageFeedLink.href = `feeds/${languageSlug}.xml`;
-      languageFeedLink.textContent = t("feed.language", { name: values.language });
+      languageFeedLink.textContent = t("feed.language", {
+      name: values.language,
+      });
+    }
+    languageQuickstart.hidden = !quickstartSlug;
+    languageQuickstartSeparator.hidden = !languageSlug;
+    if (quickstartSlug) {
+      languageQuickstartLink.href =
+        `https://github.com/TanbirRamim/open-source-radar/blob/main/languages/${quickstartSlug}.md`;
+        languageQuickstartLink.textContent = t("feed.quickstart", {
+          name: values.language,
+        });
     }
 
     const hasTopicFeed = data.topic_feed_slugs?.includes(values.topic);
