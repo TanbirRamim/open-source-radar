@@ -560,9 +560,14 @@
       } catch (error) {
         return; // clipboard unavailable (e.g. file:// in some browsers): leave the button as is
       }
+      // The button shows "Copied" for sighted users; only the live region speaks, so it's announced once.
+      queryCopy.textContent = t("query.copied");
       queryCopyStatus.textContent = t("query.copied");
       clearTimeout(copyTimer);
-      copyTimer = setTimeout(() => { queryCopyStatus.textContent = "" }, 1500);
+      copyTimer = setTimeout(() => {
+        queryCopy.textContent = t("query.copy");
+        queryCopyStatus.textContent = "";
+      }, 1500);
     });
   }
 
