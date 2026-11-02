@@ -1027,6 +1027,71 @@ class PageHeaderTests(unittest.TestCase):
         self.assertIn("[RSS feed](x.xml)", header)
 
 
+class GraphQLBatchFallbackTests(unittest.TestCase):
+    def test_policy_fetch_retries_individually_and_keeps_failed_cache(self):
+        class FakeGitHub:
+            def __init__(self):
+                self.queries = []
+
+            def graphql(self, query):
+                self.queries.append(query)
+                if "r1: repository(" in query:
+                    raise RuntimeError("batch query unavailable")
+                if 'name: "first"' in query:
+                    return {"data": {"r0": {"p0": {"text": "Contribution guide"}}}}
+                raise RuntimeError("second repository unavailable")
+
+        github = FakeGitHub()
+        previous = {"ai": "disclose", "scanned_at": "2026-10-01T00:00:00Z"}
+        policies = {"acme/second": previous.copy()}
+        fixed_now = dt.datetime(2026, 10, 20, 12, tzinfo=dt.UTC)
+
+        with patch.object(radar, "now_utc", return_value=fixed_now):
+            _, _, batches = radar.fetch_policies(
+                github, ["acme/first", "acme/second"], policies
+            )
+
+        self.assertEqual(batches, 1)
+        self.assertEqual(len(github.queries), 3)  # failed batch, then two individual calls
+        self.assertEqual(policies["acme/first"]["files"], ["CONTRIBUTING.md"])
+        self.assertEqual(policies["acme/first"]["scanned_at"], fixed_now.isoformat(timespec="seconds"))
+        self.assertEqual(policies["acme/second"], previous)  # unknown, not a clean policy
+
+    def test_external_pr_fetch_retries_individually_and_marks_failure_unknown(self):
+        merged_pull = {
+            "createdAt": "2026-10-20T10:00:00Z",
+            "mergedAt": "2026-10-21T10:00:00Z",
+            "state": "MERGED",
+            "authorAssociation": "NONE",
+            "author": {"__typename": "User"},
+        }
+
+        class FakeGitHub:
+            def __init__(self):
+                self.queries = []
+
+            def graphql(self, query):
+                self.queries.append(query)
+                if "external1: search(" in query:
+                    raise RuntimeError("batch query unavailable")
+                if "repo:acme/first " in query:
+                    return {"data": {"external0": {"nodes": [merged_pull]}}}
+                raise RuntimeError("second repository unavailable")
+
+        github = FakeGitHub()
+        since = dt.datetime(2026, 10, 15, tzinfo=dt.UTC)
+        stats, _, _, batches = radar.fetch_external_merge_stats(
+            github, ["acme/first", "acme/second"], since
+        )
+
+        self.assertEqual(batches, 1)
+        self.assertEqual(len(github.queries), 3)  # failed batch, then two individual calls
+        self.assertEqual(stats["acme/first"]["created_in_window"], 1)
+        self.assertEqual(stats["acme/first"]["merged_in_window"], 1)
+        self.assertEqual(stats["acme/first"]["median_time_to_merge_hours"], 24.0)
+        self.assertIsNone(stats["acme/second"])  # unavailable is not zero contributions
+
+
 class ContributingFetchTests(unittest.TestCase):
     def test_fetch_writes_guide_on_repository_from_refreshed_and_cached_policy(self):
         fixed_now = dt.datetime(2026, 10, 10, tzinfo=dt.UTC)
