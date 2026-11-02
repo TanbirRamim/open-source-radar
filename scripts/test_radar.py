@@ -1754,6 +1754,10 @@ class LanguageCliValidationTests(unittest.TestCase):
 class LanguageQuickstartsInSyncTests(unittest.TestCase):
     ROOT = Path(__file__).resolve().parent.parent
 
+    def test_solidity_is_a_tracked_language(self):
+        config = radar.load_config()
+        self.assertEqual(config["languages"].get("Solidity"), "solidity")
+
     def _quickstarts(self):
         return sorted(p.name for p in (self.ROOT / "languages").glob("*.md") if p.name != "README.md")
 

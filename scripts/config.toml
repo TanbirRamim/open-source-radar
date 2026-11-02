@@ -67,6 +67,7 @@ window_days = 90
 "Haskell" = "haskell"
 "Lua" = "lua"
 "Perl" = "perl"
+"Solidity" = "solidity"
 "Shell" = "shell"
 "Zig" = "zig"
 "Julia" = "julia"
