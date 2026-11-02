@@ -25,6 +25,7 @@
   const queryText = document.getElementById("query-text");
   const queryLink = document.getElementById("query-link");
   const queryCopy = document.getElementById("query-copy");
+  const queryCopyStatus = document.getElementById("copy-status");
   const updated = document.getElementById("updated");
   const languageFeed = document.getElementById("language-feed");
   const languageFeedLink = document.getElementById("language-feed-link");
@@ -559,9 +560,9 @@
       } catch (error) {
         return; // clipboard unavailable (e.g. file:// in some browsers): leave the button as is
       }
-      queryCopy.textContent = t("query.copied");
+      queryCopyStatus.textContent = t("query.copied");
       clearTimeout(copyTimer);
-      copyTimer = setTimeout(() => { queryCopy.textContent = t("query.copy"); }, 1500);
+      copyTimer = setTimeout(() => { queryCopyStatus.textContent = "" }, 1500);
     });
   }
 
