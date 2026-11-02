@@ -263,6 +263,29 @@ class RecentlyClaimedTests(unittest.TestCase):
         self.assertFalse(radar.recently_claimed(issue(comments={"nodes": [quoted]}), CLAIM_SINCE))
 
 
+class PolicyRefreshTests(unittest.TestCase):
+    cutoff = dt.datetime(2026, 10, 15, tzinfo=dt.UTC)
+
+    def test_missing_policy_or_scan_timestamp_needs_refresh(self):
+        for policy in (None, {}, {"ai": "none"}):
+            with self.subTest(policy=policy):
+                self.assertTrue(radar.policy_needs_refresh(policy, self.cutoff))
+
+    def test_malformed_cached_scan_timestamp_needs_refresh(self):
+        for scanned_at in (None, 123, "not-an-iso-date", "2026-10-16T12:00:00"):
+            with self.subTest(scanned_at=scanned_at):
+                self.assertTrue(radar.policy_needs_refresh({"scanned_at": scanned_at}, self.cutoff))
+
+    def test_outdated_policy_needs_refresh(self):
+        policy = {"scanned_at": "2026-10-14T23:59:59Z"}
+        self.assertTrue(radar.policy_needs_refresh(policy, self.cutoff))
+
+    def test_fresh_policy_does_not_need_refresh(self):
+        for scanned_at in ("2026-10-15T00:00:00Z", "2026-10-16T01:00:00+02:00"):
+            with self.subTest(scanned_at=scanned_at):
+                self.assertFalse(radar.policy_needs_refresh({"scanned_at": scanned_at}, self.cutoff))
+
+
 class PolicyTests(unittest.TestCase):
     def test_contributing_guide_prefers_configured_priority_over_sorted_cache(self):
         self.assertEqual(
