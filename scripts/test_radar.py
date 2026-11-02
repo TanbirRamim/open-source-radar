@@ -1047,9 +1047,7 @@ class GraphQLBatchFallbackTests(unittest.TestCase):
         fixed_now = dt.datetime(2026, 10, 20, 12, tzinfo=dt.UTC)
 
         with patch.object(radar, "now_utc", return_value=fixed_now):
-            _, _, batches = radar.fetch_policies(
-                github, ["acme/first", "acme/second"], policies
-            )
+            _, _, batches = radar.fetch_policies(github, ["acme/first", "acme/second"], policies)
 
         self.assertEqual(batches, 1)
         self.assertEqual(len(github.queries), 3)  # failed batch, then two individual calls
@@ -1080,9 +1078,7 @@ class GraphQLBatchFallbackTests(unittest.TestCase):
 
         github = FakeGitHub()
         since = dt.datetime(2026, 10, 15, tzinfo=dt.UTC)
-        stats, _, _, batches = radar.fetch_external_merge_stats(
-            github, ["acme/first", "acme/second"], since
-        )
+        stats, _, _, batches = radar.fetch_external_merge_stats(github, ["acme/first", "acme/second"], since)
 
         self.assertEqual(batches, 1)
         self.assertEqual(len(github.queries), 3)  # failed batch, then two individual calls
