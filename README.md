@@ -84,7 +84,7 @@ Open Source Radar fixes the first part with data and the second part with a guid
 9. [Keep going](guide/09-keep-going.md)
 10. [Reading a codebase](guide/10-reading-a-codebase.md)
 
-Plus a [glossary](guide/glossary.md) and [quickstarts for 29 languages](languages/README.md).
+Plus a [glossary](guide/glossary.md) and [quickstarts for 30 languages](languages/README.md).
 
 The guide is also translated: [Español](guide/es/README.md) and [Português](guide/pt-BR/README.md) (all chapters), [हिंदी](guide/hi/README.md) (most chapters), [বাংলা](guide/bn/README.md) (in progress).
 
@@ -92,7 +92,7 @@ The guide is also translated: [Español](guide/es/README.md) and [Português](gu
 
 The [data pipeline](scripts/radar.py) is a single Python script with no dependencies. On each run it:
 
-1. **Discovers projects** through GitHub search: public, non-archived, non-fork repositories in 30 languages with at least 500 stars, commits in the last 60 days, and at least one open issue labeled `good first issue` or `help wanted`.
+1. **Discovers projects** through GitHub search: public, non-archived, non-fork repositories in 31 languages with at least 500 stars, commits in the last 60 days, and at least one open issue labeled `good first issue` or `help wanted`.
 2. **Collects issues** carrying common newcomer labels (`good first issue`, `help wanted`, `beginner`, `easy`, `E-easy`, `up-for-grabs` and variants) through the GraphQL API.
 3. **Drops issues that are not available:** assigned, locked, linked to an open or merged pull request, or not updated in 180 days.
 4. **Scans contribution files** (`CONTRIBUTING.md`, `AI_POLICY.md`, `AGENTS.md`, pull request templates) for AI policies, CLA and DCO requirements, weekly.

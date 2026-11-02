@@ -66,6 +66,7 @@ window_days = 90
 "Elixir" = "elixir"
 "Haskell" = "haskell"
 "Lua" = "lua"
+"Perl" = "perl"
 "Shell" = "shell"
 "Zig" = "zig"
 "Julia" = "julia"
