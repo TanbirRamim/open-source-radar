@@ -551,7 +551,20 @@ def fetch_external_merge_stats(
 
 
 def policy_needs_refresh(policy: dict[str, Any] | None, refresh_before: dt.datetime) -> bool:
-    return not policy or "scanned_at" not in policy or iso_to_datetime(policy["scanned_at"]) < refresh_before
+    """Treat missing or invalid cache timestamps as stale, not as fatal errors."""
+    if not policy:
+        return True
+    scanned_at = policy.get("scanned_at")
+    if not isinstance(scanned_at, str):
+        return True
+    try:
+        scanned = iso_to_datetime(scanned_at)
+    except ValueError:
+        return True
+    # A timestamp without timezone cannot safely be compared to a UTC cutoff.
+    if scanned.tzinfo is None:
+        return True
+    return scanned < refresh_before
 
 
 def fetch_policies(github: GitHub, repositories: list[str], policies: dict[str, Any]) -> tuple[float, float, int]:
