@@ -1,0 +1,3 @@
+Introducing Open Source Radar: find an open source issue you can start today.
+Every listed issue is open, unassigned, has no linked pull request and comes from a project active in the last two months, refreshed every 12 hours, with AI policy, CLA and DCO rules shown before you start.
+Free and open source: tanbirramim.github.io/open-source-radar

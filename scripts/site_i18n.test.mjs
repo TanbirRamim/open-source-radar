@@ -61,14 +61,14 @@ test("unsupported locales fall back to English", () => {
   assert.equal(i18n.t("query.copy"), "Copy");
 });
 
-test("quickstart labels use the English fallback", () => {
+test("quickstart labels are translated", () => {
   assert.equal(
     loadI18n("en").t("feed.quickstart", { name: "Python" }),
     "Python quickstart",
   );
   assert.equal(
     loadI18n("pl").t("feed.quickstart", { name: "CSS" }),
-    "CSS quickstart",
+    "Szybki start: CSS",
   );
 });
 
@@ -79,11 +79,10 @@ test("messages interpolate values", () => {
   assert.equal(loadI18n("fr").t("repo.stars", { count: "25" }), "25 étoiles");
 });
 
-test("every locale has the same keys as English except intentional fallbacks", () => {
+test("every locale has the same keys as English", () => {
+  // Loops over every locale in messages, so a new locale is checked without touching this test.
   const { messages } = loadI18n("en");
   const en = Object.keys(messages.en).sort();
-  const englishFallbackKeys = new Set(["feed.quickstart"]);
-
   for (const [locale, table] of Object.entries(messages)) {
     const keys = Object.keys(table);
     assert.deepEqual(
@@ -92,7 +91,7 @@ test("every locale has the same keys as English except intentional fallbacks", (
       `keys only in ${locale}`,
     );
     assert.deepEqual(
-      en.filter((key) => !keys.includes(key) && !englishFallbackKeys.has(key)),
+      en.filter((key) => !keys.includes(key)),
       [],
       `keys missing in ${locale}`,
     );

@@ -258,18 +258,14 @@
     languageFeedLink.hidden = !languageSlug;
     if (languageSlug) {
       languageFeedLink.href = `feeds/${languageSlug}.xml`;
-      languageFeedLink.textContent = t("feed.language", {
-      name: values.language,
-      });
+      languageFeedLink.textContent = t("feed.language", { name: values.language });
     }
     languageQuickstart.hidden = !quickstartSlug;
     languageQuickstartSeparator.hidden = !languageSlug;
     if (quickstartSlug) {
       languageQuickstartLink.href =
         `https://github.com/TanbirRamim/open-source-radar/blob/main/languages/${quickstartSlug}.md`;
-        languageQuickstartLink.textContent = t("feed.quickstart", {
-          name: values.language,
-        });
+      languageQuickstartLink.textContent = t("feed.quickstart", { name: values.language });
     }
 
     const hasTopicFeed = data.topic_feed_slugs?.includes(values.topic);

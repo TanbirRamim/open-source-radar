@@ -1,0 +1,623 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <title>Open Source Radar — launch brag</title>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <script src="assets/music/audio-data.js"></script>
+    <style>
+      @font-face {
+        font-family: "Bricolage Grotesque";
+        src: url("assets/fonts/bricolage-grotesque-latin-opsz-normal.woff2") format("woff2");
+        font-weight: 200 800;
+        font-style: normal;
+        font-display: block;
+      }
+      @font-face {
+        font-family: "Atkinson Hyperlegible";
+        src: url("assets/fonts/atkinson-hyperlegible-latin-400-normal.woff2") format("woff2");
+        font-weight: 400;
+        font-style: normal;
+        font-display: block;
+      }
+      @font-face {
+        font-family: "Atkinson Hyperlegible";
+        src: url("assets/fonts/atkinson-hyperlegible-latin-700-normal.woff2") format("woff2");
+        font-weight: 700;
+        font-style: normal;
+        font-display: block;
+      }
+      @font-face {
+        font-family: "JetBrains Mono";
+        src: url("assets/fonts/jetbrains-mono-latin-400-normal.woff2") format("woff2");
+        font-weight: 400;
+        font-style: normal;
+        font-display: block;
+      }
+      @font-face {
+        font-family: "JetBrains Mono";
+        src: url("assets/fonts/jetbrains-mono-latin-600-normal.woff2") format("woff2");
+        font-weight: 600;
+        font-style: normal;
+        font-display: block;
+      }
+
+      :root {
+        --paper: #eaf0f5;
+        --surface: #f7fafc;
+        --ink: #13263a;
+        --ink-soft: #4a5f74;
+        --rule: #c9d5e0;
+        --teal: #0e7c72;
+        --teal-strong: #0a5f57;
+        --amber: #c2710c;
+        --amber-wash: #fbe9d1;
+        --display: "Bricolage Grotesque", sans-serif;
+        --body: "Atkinson Hyperlegible", sans-serif;
+        --code: "JetBrains Mono", monospace;
+      }
+
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body {
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        background: var(--paper);
+        color: var(--ink);
+        font-family: var(--body);
+      }
+      #root {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background: var(--paper);
+      }
+
+      /* Persistent decorative: radar rings, audio-reactive */
+      #rings {
+        position: absolute;
+        top: -600px;
+        right: -560px;
+        width: 1500px;
+        height: 1500px;
+        opacity: 0.28;
+      }
+      #rings circle {
+        fill: none;
+        stroke: var(--teal);
+        stroke-width: 0.55;
+      }
+      #rings .dot { fill: var(--amber); stroke: none; }
+
+      .scene {
+        position: absolute;
+        inset: 0;
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        padding: 120px 140px;
+      }
+      #s1 { z-index: 1; }
+      #s2 { z-index: 2; opacity: 0; }
+      #s3 { z-index: 3; opacity: 0; }
+      #s4 { z-index: 4; opacity: 0; }
+      #s5 { z-index: 5; opacity: 0; }
+
+      /* Scene 1: hook */
+      .hook {
+        position: absolute;
+        left: 140px;
+        top: 360px;
+        width: 1340px;
+        font-family: var(--display);
+        font-weight: 800;
+        font-size: 104px;
+        line-height: 1.06;
+        letter-spacing: -0.02em;
+        font-variation-settings: "opsz" 96;
+      }
+      .hook.two { top: 610px; color: var(--teal-strong); }
+
+      /* Brand lockup */
+      .lockup {
+        display: flex;
+        align-items: center;
+        gap: 22px;
+        font-family: var(--display);
+        font-weight: 700;
+        font-size: 44px;
+        letter-spacing: -0.01em;
+      }
+      .lockup svg { width: 64px; height: 64px; }
+      .lockup circle { fill: none; stroke: var(--teal); stroke-width: 6; }
+      .lockup .dot { fill: var(--amber); stroke: none; }
+
+      /* Scene 2: reveal */
+      #s2 .lockup { position: absolute; left: 140px; top: 100px; }
+      .headline {
+        position: absolute;
+        left: 140px;
+        top: 250px;
+        width: 1480px;
+        font-family: var(--display);
+        font-weight: 800;
+        font-size: 118px;
+        line-height: 1.04;
+        letter-spacing: -0.025em;
+        font-variation-settings: "opsz" 96;
+      }
+      .stats {
+        position: absolute;
+        left: 140px;
+        top: 660px;
+        display: flex;
+        gap: 120px;
+      }
+      .stat .n {
+        display: block;
+        font-family: var(--display);
+        font-weight: 800;
+        font-size: 128px;
+        line-height: 1;
+        letter-spacing: -0.03em;
+        font-variation-settings: "opsz" 96;
+        min-width: 360px;
+      }
+      .stat .l { display: block; margin-top: 14px; font-size: 32px; color: var(--ink-soft); }
+      .updated {
+        position: absolute;
+        left: 140px;
+        top: 920px;
+        font-family: var(--code);
+        font-size: 26px;
+        color: var(--ink-soft);
+      }
+
+      /* Scene 3: query line */
+      #s3 .lockup { position: absolute; left: 140px; top: 100px; font-size: 36px; }
+      #s3 .lockup svg { width: 52px; height: 52px; }
+      .query {
+        position: absolute;
+        left: 140px;
+        top: 300px;
+        width: 1640px;
+        display: flex;
+        align-items: stretch;
+        border: 3px solid var(--ink);
+        border-radius: 14px;
+        background: var(--surface);
+        overflow: hidden;
+      }
+      .query code {
+        flex: 1 1 auto;
+        padding: 30px 36px;
+        font-family: var(--code);
+        font-size: 32px;
+        line-height: 1.35;
+        color: var(--ink);
+        white-space: normal;
+        overflow-wrap: anywhere;
+      }
+      .query code .k { color: var(--teal-strong); font-weight: 600; }
+      .query code .term { display: inline-block; border-radius: 6px; padding: 0 6px; white-space: nowrap; }
+      .query code .new { opacity: 0; display: none; }
+      .query .run {
+        flex: 0 0 auto;
+        display: flex;
+        align-items: center;
+        padding: 0 40px;
+        background: var(--ink);
+        color: var(--paper);
+        font-weight: 700;
+        font-size: 28px;
+        white-space: nowrap;
+      }
+      .filters {
+        position: absolute;
+        left: 140px;
+        top: 500px;
+        width: 1640px;
+        display: grid;
+        grid-template-columns: 340px 250px 210px 280px 190px 290px;
+        gap: 16px;
+      }
+      .field { display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+      .field .lab { font-size: 24px; font-weight: 700; color: var(--ink-soft); }
+      .field .box {
+        height: 72px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 18px;
+        border: 2px solid var(--rule);
+        border-radius: 10px;
+        background: var(--surface);
+        font-size: 25px;
+        color: var(--ink);
+        white-space: nowrap;
+        overflow: hidden;
+      }
+      .field .box .ph { color: var(--ink-soft); }
+      .field .box .chev { width: 18px; height: 18px; flex: 0 0 auto; margin-left: 12px; }
+      .field .box .chev path { fill: none; stroke: var(--ink-soft); stroke-width: 3; }
+      .field .box .val { position: relative; display: inline-block; }
+      .field .box .val .sel { position: absolute; left: 0; top: 0; opacity: 0; white-space: nowrap; }
+      .summary {
+        position: absolute;
+        left: 140px;
+        top: 700px;
+        font-size: 34px;
+        color: var(--ink-soft);
+      }
+      .summary strong { color: var(--ink); font-weight: 700; }
+      .menu {
+        position: absolute;
+        width: 320px;
+        border: 2px solid var(--rule);
+        border-radius: 10px;
+        background: var(--surface);
+        box-shadow: 0 18px 40px rgba(19, 38, 58, 0.14);
+        padding: 8px;
+        opacity: 0;
+        font-size: 26px;
+      }
+      .menu div { padding: 12px 16px; border-radius: 6px; }
+      .menu .hi { background: var(--amber-wash); color: var(--ink); font-weight: 700; }
+      #menu-lang { left: 496px; top: 614px; width: 280px; }
+      #menu-level { left: 988px; top: 614px; width: 300px; }
+
+      #cursor {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 42px;
+        height: 52px;
+        opacity: 0;
+        z-index: 20;
+      }
+      #cursor path { fill: var(--ink); stroke: var(--paper); stroke-width: 2.5; stroke-linejoin: round; }
+
+      /* Scene 4: issues */
+      #s4 .lockup { position: absolute; left: 140px; top: 100px; font-size: 36px; }
+      #s4 .lockup svg { width: 52px; height: 52px; }
+      .list {
+        position: absolute;
+        left: 140px;
+        top: 200px;
+        width: 1640px;
+      }
+      .row {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        gap: 8px 40px;
+        padding: 30px 0;
+        border-bottom: 2px solid var(--rule);
+        opacity: 0;
+      }
+      .row .t {
+        font-family: var(--display);
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 1.2;
+        letter-spacing: -0.01em;
+        font-variation-settings: "opsz" 24;
+        max-width: 1180px;
+      }
+      .row .t .num { color: var(--ink-soft); font-weight: 500; }
+      .row .m { margin-top: 8px; font-size: 27px; color: var(--ink-soft); display: flex; gap: 32px; }
+      .row .m .repo { color: var(--teal-strong); font-weight: 700; }
+      .row .side { display: flex; flex-direction: column; align-items: flex-end; gap: 10px; font-size: 27px; }
+      .pill {
+        padding: 6px 20px;
+        border-radius: 999px;
+        font-weight: 700;
+        font-size: 27px;
+        background: var(--amber-wash);
+        color: var(--amber);
+        white-space: nowrap;
+      }
+      .cm { color: var(--ink-soft); }
+      .chip {
+        display: inline-block;
+        padding: 4px 14px;
+        border-radius: 8px;
+        border: 2px solid var(--rule);
+        color: var(--ink-soft);
+        font-size: 24px;
+        white-space: nowrap;
+      }
+      .callout {
+        position: absolute;
+        left: 140px;
+        top: 790px;
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        opacity: 0;
+      }
+      .callout .h {
+        font-family: var(--display);
+        font-weight: 800;
+        font-size: 60px;
+        letter-spacing: -0.02em;
+        font-variation-settings: "opsz" 60;
+      }
+      .callout .chips { display: flex; gap: 14px; }
+      .callout .chip { font-size: 28px; padding: 8px 20px; }
+
+      /* Scene 5: outro */
+      .refresh {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 470px;
+        text-align: center;
+        font-family: var(--display);
+        font-weight: 800;
+        font-size: 100px;
+        letter-spacing: -0.02em;
+        font-variation-settings: "opsz" 96;
+        opacity: 0;
+      }
+      .final {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 370px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 34px;
+        opacity: 0;
+      }
+      .final .lockup { font-size: 92px; gap: 34px; }
+      .final .lockup svg { width: 128px; height: 128px; }
+      .final .lockup circle { stroke-width: 6; }
+      .final .url {
+        font-family: var(--code);
+        font-weight: 600;
+        font-size: 44px;
+        color: var(--teal-strong);
+      }
+      .final .mit { font-size: 32px; color: var(--ink-soft); }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="24.5" data-width="1920" data-height="1080">
+      <svg id="rings" viewBox="0 0 64 64" aria-hidden="true">
+        <circle class="r1" cx="32" cy="32" r="28" pathLength="1" />
+        <circle class="r2" cx="32" cy="32" r="14" pathLength="1" />
+        <circle class="dot" cx="32" cy="32" r="0.9" />
+      </svg>
+
+      <!-- Scene 1: hook -->
+      <div id="s1" class="scene">
+        <div id="hook1" class="hook">Most “good first issue” lists are stale.</div>
+        <div id="hook2" class="hook two">Half are already taken.</div>
+      </div>
+
+      <!-- Scene 2: reveal -->
+      <div id="s2" class="scene">
+        <div id="lockup2" class="lockup">
+          <svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="28"/><circle cx="32" cy="32" r="14"/><circle class="dot" cx="32" cy="32" r="5"/></svg>
+          <span>Open Source Radar</span>
+        </div>
+        <div id="headline" class="headline">Find an open source issue you can start today.</div>
+        <div class="stats">
+          <div class="stat" id="stat1"><span class="n" id="n1">0</span><span class="l">open issues</span></div>
+          <div class="stat" id="stat2"><span class="n" id="n2">0</span><span class="l">labeled for beginners</span></div>
+          <div class="stat" id="stat3"><span class="n" id="n3">0</span><span class="l">active projects</span></div>
+        </div>
+        <div id="updated" class="updated">updated 2026-09-13 20:28 UTC · refreshed every 12 hours</div>
+      </div>
+
+      <!-- Scene 3: the query line -->
+      <div id="s3" class="scene">
+        <div id="lockup3" class="lockup">
+          <svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="28"/><circle cx="32" cy="32" r="14"/><circle class="dot" cx="32" cy="32" r="5"/></svg>
+          <span>Open Source Radar</span>
+        </div>
+        <div id="query" class="query">
+          <code id="query-text"><span class="term"><span class="k">is:</span>issue</span> <span class="term"><span class="k">is:</span>open</span> <span class="term"><span class="k">no:</span>assignee</span> <span class="term"><span class="k">-linked:</span>pr</span> <span id="term-lang" class="term new"><span class="k">language:</span>Python</span> <span id="term-level" class="term new"><span class="k">label:</span>"good first issue"</span></code>
+          <div class="run">Run this search on GitHub</div>
+        </div>
+        <div id="filters" class="filters">
+          <div class="field" id="f-search"><span class="lab">Search</span><div class="box"><span class="ph">Title, repository or label</span></div></div>
+          <div class="field" id="f-lang"><span class="lab">Language</span><div class="box" id="box-lang"><span class="val"><span class="cur" id="lang-cur" data-layout-allow-overlap="true">All languages</span><span class="sel" id="lang-sel" data-layout-allow-overlap="true">Python</span></span><svg class="chev" viewBox="0 0 18 18"><path d="M3 6l6 6 6-6"/></svg></div></div>
+          <div class="field" id="f-topic"><span class="lab">Topic</span><div class="box"><span>All topics</span><svg class="chev" viewBox="0 0 18 18"><path d="M3 6l6 6 6-6"/></svg></div></div>
+          <div class="field" id="f-level"><span class="lab">Level</span><div class="box" id="box-level"><span class="val"><span class="cur" id="level-cur" data-layout-allow-overlap="true">Any label</span><span class="sel" id="level-sel" data-layout-allow-overlap="true">Beginner labels</span></span><svg class="chev" viewBox="0 0 18 18"><path d="M3 6l6 6 6-6"/></svg></div></div>
+          <div class="field" id="f-rules"><span class="lab">Project rules</span><div class="box"><span>Any</span><svg class="chev" viewBox="0 0 18 18"><path d="M3 6l6 6 6-6"/></svg></div></div>
+          <div class="field" id="f-sort"><span class="lab">Sort</span><div class="box"><span>Recently updated</span><svg class="chev" viewBox="0 0 18 18"><path d="M3 6l6 6 6-6"/></svg></div></div>
+        </div>
+        <div id="menu-lang" class="menu"><div>All languages</div><div>Go</div><div class="hi">Python</div><div>Rust</div><div>TypeScript</div></div>
+        <div id="menu-level" class="menu"><div>Any label</div><div class="hi">Beginner labels</div><div>Help wanted</div></div>
+        <div id="summary" class="summary"><strong>258</strong> issues in <strong>82</strong> projects match.</div>
+        <svg id="cursor" viewBox="0 0 42 52" aria-hidden="true"><path d="M4 3 L4 40 L14 31 L21 47 L29 44 L22 28 L35 27 Z"/></svg>
+      </div>
+
+      <!-- Scene 4: issues arrive -->
+      <div id="s4" class="scene">
+        <div id="lockup4" class="lockup">
+          <svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="28"/><circle cx="32" cy="32" r="14"/><circle class="dot" cx="32" cy="32" r="5"/></svg>
+          <span>Open Source Radar</span>
+        </div>
+        <div class="list">
+          <div class="row" id="row1">
+            <div><div class="t">RU translation mistake <span class="num">#98565</span></div><div class="m"><span class="repo">getsentry/sentry</span><span>44.8k stars</span><span>Python</span><span>4 days ago</span></div></div>
+            <div class="side"><span class="pill">Beginner label</span><span class="cm">4 comments</span></div>
+          </div>
+          <div class="row" id="row2">
+            <div><div class="t">Autonomous Agents, Unite! <span class="num">#2386</span></div><div class="m"><span class="repo">microsoft/markitdown</span><span>183.5k stars</span><span>Python</span><span>11 days ago</span></div></div>
+            <div class="side"><span class="pill">Beginner label</span><span class="cm">4 comments</span></div>
+          </div>
+          <div class="row" id="row3">
+            <div><div class="t">[core] Adopt absl::InlinedVector for small collections <span class="num">#59884</span></div><div class="m"><span class="repo">ray-project/ray</span><span>43.8k stars</span><span>Python</span><span>8 days ago</span></div></div>
+            <div class="side"><span class="pill">Beginner label</span><span class="cm">9 comments</span><span class="chip">DCO sign-off</span></div>
+          </div>
+        </div>
+        <div id="callout" class="callout">
+          <div class="h">Project rules up front.</div>
+          <div class="chips"><span class="chip">AI policy</span><span class="chip">CLA</span><span class="chip">DCO sign-off</span></div>
+        </div>
+      </div>
+
+      <!-- Scene 5: outro -->
+      <div id="s5" class="scene">
+        <div id="refresh" class="refresh">Refreshed every 12 hours.</div>
+        <div id="final" class="final">
+          <div class="lockup">
+            <svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="28"/><circle cx="32" cy="32" r="14"/><circle class="dot" cx="32" cy="32" r="5"/></svg>
+            <span>Open Source Radar</span>
+          </div>
+          <div class="url">tanbirramim.github.io/open-source-radar</div>
+          <div class="mit">Free and open source · MIT licensed · PRs welcome</div>
+        </div>
+      </div>
+
+      <!-- Audio -->
+      <audio id="bgm" data-start="0" data-duration="24.5" data-track-index="10" data-volume="0.32" src="assets/music/happy-beats-business-moves-vol-12-by-ende-dot-app.mp3"></audio>
+      <audio id="sfx-hook" data-start="2.2" data-track-index="11" data-volume="0.55" src="assets/sfx/impact/impactSoft_medium_001.ogg"></audio>
+      <audio id="sfx-stats" data-start="8.70" data-track-index="12" data-volume="0.6" src="assets/sfx/impact/impactSoft_medium_004.ogg"></audio>
+      <audio id="sfx-click1" data-start="11.5" data-track-index="13" data-volume="0.6" src="assets/sfx/interface/click_003.ogg"></audio>
+      <audio id="sfx-term1" data-start="11.95" data-track-index="14" data-volume="0.55" src="assets/sfx/interface/drop_001.ogg"></audio>
+      <audio id="sfx-click2" data-start="12.95" data-track-index="15" data-volume="0.6" src="assets/sfx/interface/click_003.ogg"></audio>
+      <audio id="sfx-term2" data-start="13.35" data-track-index="16" data-volume="0.55" src="assets/sfx/interface/drop_001.ogg"></audio>
+      <audio id="sfx-row1" data-start="15.80" data-track-index="17" data-volume="0.5" src="assets/sfx/interface/drop_002.ogg"></audio>
+      <audio id="sfx-row2" data-start="16.90" data-track-index="18" data-volume="0.5" src="assets/sfx/interface/drop_002.ogg"></audio>
+      <audio id="sfx-row3" data-start="17.98" data-track-index="19" data-volume="0.5" src="assets/sfx/interface/drop_002.ogg"></audio>
+      <audio id="sfx-callout" data-start="18.52" data-track-index="20" data-volume="0.55" src="assets/sfx/impact/impactSoft_medium_001.ogg"></audio>
+      <audio id="sfx-final" data-start="22.85" data-track-index="21" data-volume="0.5" src="assets/sfx/impact/impactBell_heavy_000.ogg"></audio>
+    </div>
+
+    <script>
+      const tl = gsap.timeline({ paused: true });
+
+      // ---------- helpers ----------
+      const fmt = (n) => Math.round(n).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+      function countUp(sel, target, start, dur) {
+        const o = { v: 0 };
+        const el = document.querySelector(sel);
+        tl.to(o, { v: target, duration: dur, ease: "power2.out", onUpdate: () => { el.textContent = fmt(o.v); } }, start);
+      }
+      function rise(sel, at, dur = 0.6, dy = 40) {
+        tl.fromTo(sel, { y: dy, opacity: 0 }, { y: 0, opacity: 1, duration: dur, ease: "power3.out" }, at);
+      }
+
+      // ---------- persistent rings: draw in, then breathe with the music ----------
+      tl.fromTo("#rings .r1", { strokeDasharray: 1, strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: 1.6, ease: "power2.inOut" }, 0.1);
+      tl.fromTo("#rings .r2", { strokeDasharray: 1, strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: 1.2, ease: "power2.inOut" }, 0.5);
+      tl.fromTo("#rings .dot", { scale: 0, transformOrigin: "50% 50%" }, { scale: 1, duration: 0.5, ease: "back.out(2)" }, 1.5);
+
+      const rings = document.getElementById("rings");
+      const AD = window.AUDIO_DATA;
+      if (AD && AD.frames) {
+        const draw = (fr) => {
+          const bass = fr.bands[0], rms = fr.rms;
+          rings.style.opacity = (0.22 + rms * 0.14).toFixed(3);
+          rings.style.transform = "scale(" + (1 + bass * 0.035).toFixed(4) + ")";
+        };
+        for (let f = 0; f < AD.totalFrames; f++) {
+          tl.call(((frame) => () => draw(frame))(AD.frames[f]), [], f / AD.fps);
+        }
+      }
+
+      // ---------- Scene 1: hook (0 – 3.9) ----------
+      rise("#hook1", 0.3, 0.7, 48);
+      rise("#hook2", 2.2, 0.6, 40); // sfx-hook at 2.2
+
+      // ---------- Transition 1→2: blur crossfade (calm) ----------
+            tl.to("#s1", { filter: "blur(18px)", scale: 1.04, opacity: 0, duration: 0.6, ease: "power2.inOut" }, 3.9);
+      tl.fromTo("#s2", { filter: "blur(18px)", scale: 0.97, opacity: 0 }, { filter: "blur(0px)", scale: 1, opacity: 1, duration: 0.6, ease: "power2.inOut" }, 4.05);
+
+      // ---------- Scene 2: reveal (4.2 – 10.0) ----------
+      rise("#lockup2", 4.4, 0.5, -16);
+      rise("#headline", 4.7, 0.8, 70);
+      rise("#stat1", 6.8, 0.5, 30);
+      rise("#stat2", 6.95, 0.5, 30);
+      rise("#stat3", 7.1, 0.5, 30);
+      countUp("#n1", 3571, 6.9, 1.84); // beat-locked: lands 8.74s
+      countUp("#n2", 1389, 7.0, 1.74);
+      countUp("#n3", 1208, 7.1, 1.64);
+      tl.fromTo(".stat .n", { color: "#13263a" }, { color: "#0a5f57", duration: 0.25, ease: "power1.out" }, 8.74);
+      tl.to(".stat .n", { color: "#13263a", duration: 0.6, ease: "power1.inOut" }, 9.0);
+      rise("#updated", 8.9, 0.5, 16);
+
+      // ---------- Transition 2→3: vertical push (topic change) ----------
+      tl.to("#s2", { y: -1080, duration: 0.55, ease: "power3.inOut" }, 10.0);
+      tl.fromTo("#s3", { y: 1080, opacity: 1 }, { y: 0, opacity: 1, duration: 0.55, ease: "power3.inOut" }, 10.0);
+      tl.set("#s2", { opacity: 0 }, 10.6);
+
+      // ---------- Scene 3: the query line (10.55 – 15.0) ----------
+      rise("#lockup3", 10.5, 0.4, -12);
+      rise("#query", 10.55, 0.5, 24);
+      tl.fromTo("#filters .field", { y: 22, opacity: 0 }, { y: 0, opacity: 1, duration: 0.45, ease: "power3.out", stagger: 0.06 }, 10.7);
+
+      // cursor: appear, travel to Language, click, pick Python
+      tl.fromTo("#cursor", { x: 1180, y: 940, opacity: 0 }, { opacity: 1, duration: 0.25 }, 10.9);
+      tl.to("#cursor", { x: 600, y: 572, duration: 0.55, ease: "power2.inOut" }, 11.0);
+      tl.to("#cursor", { scale: 0.85, duration: 0.08, yoyo: true, repeat: 1, transformOrigin: "10% 10%" }, 11.5); // sfx-click1 at 11.5
+      tl.fromTo("#menu-lang", { opacity: 0, y: -8 }, { opacity: 1, y: 0, duration: 0.2, ease: "power2.out" }, 11.55);
+      tl.to("#cursor", { x: 612, y: 758, duration: 0.25, ease: "power2.inOut" }, 11.6);
+      tl.to("#cursor", { scale: 0.85, duration: 0.08, yoyo: true, repeat: 1, transformOrigin: "10% 10%" }, 11.88);
+      tl.to("#menu-lang", { opacity: 0, duration: 0.15 }, 11.95);
+      tl.to("#lang-cur", { opacity: 0, duration: 0.12 }, 11.95);
+      tl.to("#lang-sel", { opacity: 1, duration: 0.12 }, 11.95);
+      tl.to("#box-lang", { borderColor: "#0e7c72", duration: 0.2 }, 11.95);
+      // term 1 appends with the site's amber flash — sfx-term1 at 11.95
+      tl.set("#term-lang", { display: "inline-block" }, 11.95);
+      tl.fromTo("#term-lang", { opacity: 0, x: -10, backgroundColor: "#c2710c" }, { opacity: 1, x: 0, duration: 0.25, ease: "power3.out" }, 11.95);
+      tl.to("#term-lang", { backgroundColor: "#fbe9d1", duration: 0.9, ease: "power2.out" }, 12.05);
+      rise("#summary", 12.3, 0.45, 14);
+
+      // cursor: travel to Level, click, pick Beginner labels
+      tl.to("#cursor", { x: 1080, y: 572, duration: 0.5, ease: "power2.inOut" }, 12.4);
+      tl.to("#cursor", { scale: 0.85, duration: 0.08, yoyo: true, repeat: 1, transformOrigin: "10% 10%" }, 12.95); // sfx-click2 at 12.95
+      tl.fromTo("#menu-level", { opacity: 0, y: -8 }, { opacity: 1, y: 0, duration: 0.2, ease: "power2.out" }, 13.0);
+      tl.to("#cursor", { x: 1092, y: 704, duration: 0.22, ease: "power2.inOut" }, 13.05);
+      tl.to("#cursor", { scale: 0.85, duration: 0.08, yoyo: true, repeat: 1, transformOrigin: "10% 10%" }, 13.3);
+      tl.to("#menu-level", { opacity: 0, duration: 0.15 }, 13.35);
+      tl.to("#level-cur", { opacity: 0, duration: 0.12 }, 13.35);
+      tl.to("#level-sel", { opacity: 1, duration: 0.12 }, 13.35);
+      tl.to("#box-level", { borderColor: "#0e7c72", duration: 0.2 }, 13.35);
+      // term 2 — sfx-term2 at 13.35 (timed to the click for readability; nearest beat 13.64)
+      tl.set("#term-level", { display: "inline-block" }, 13.35);
+      tl.fromTo("#term-level", { opacity: 0, x: -10, backgroundColor: "#c2710c" }, { opacity: 1, x: 0, duration: 0.25, ease: "power3.out" }, 13.35);
+      tl.to("#term-level", { backgroundColor: "#fbe9d1", duration: 0.9, ease: "power2.out" }, 13.45);
+      tl.to("#cursor", { x: 1300, y: 820, opacity: 0, duration: 0.5, ease: "power2.inOut" }, 14.2);
+
+      // ---------- Transition 3→4: blur crossfade ----------
+      tl.to("#s3", { filter: "blur(12px)", scale: 1.03, opacity: 0, duration: 0.5, ease: "power2.inOut" }, 15.0);
+      tl.fromTo("#s4", { filter: "blur(12px)", scale: 0.97, opacity: 0 }, { filter: "blur(0px)", scale: 1, opacity: 1, duration: 0.5, ease: "power2.inOut" }, 15.1);
+
+      // ---------- Scene 4: issues arrive on the beat grid (15.5 – 20.4) ----------
+      rise("#lockup4", 15.4, 0.4, -12);
+      // beat-grid: row 1 at 15.84s, row 2 at 16.93s, row 3 at 18.02s (every other beat so each row reads)
+      tl.fromTo("#row1", { x: -60, opacity: 0 }, { x: 0, opacity: 1, duration: 0.5, ease: "power3.out" }, 15.80);
+      tl.fromTo("#row2", { x: -60, opacity: 0 }, { x: 0, opacity: 1, duration: 0.5, ease: "power3.out" }, 16.90);
+      tl.fromTo("#row3", { x: -60, opacity: 0 }, { x: 0, opacity: 1, duration: 0.5, ease: "power3.out" }, 17.98);
+      // beat-locked: 18.56s
+      tl.fromTo("#callout", { y: 30, opacity: 0 }, { y: 0, opacity: 1, duration: 0.55, ease: "power3.out" }, 18.52);
+      tl.fromTo("#callout .chip", { y: 14, opacity: 0 }, { y: 0, opacity: 1, duration: 0.4, ease: "power3.out", stagger: 0.1 }, 18.7);
+
+      // ---------- Transition 4→5: slow crossfade (wind-down) ----------
+      tl.to("#s4", { filter: "blur(16px)", scale: 1.03, opacity: 0, duration: 0.7, ease: "power2.inOut" }, 20.4);
+      tl.fromTo("#s5", { opacity: 0 }, { opacity: 1, duration: 0.6, ease: "power2.inOut" }, 20.6);
+
+      // ---------- Scene 5: outro (20.9 – 24.5) ----------
+      tl.fromTo("#refresh", { y: 30, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: "power3.out" }, 20.9);
+      tl.to("#refresh", { opacity: 0, y: -20, duration: 0.4, ease: "power2.in" }, 22.4); // final-scene exit
+      // beat-locked: 22.93s — sfx-final at 22.85
+      tl.fromTo("#final", { scale: 0.94, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.7, ease: "power3.out" }, 22.85);
+      tl.fromTo("#final .url", { y: 16, opacity: 0 }, { y: 0, opacity: 1, duration: 0.5, ease: "power3.out" }, 23.2);
+      tl.fromTo("#final .mit", { y: 12, opacity: 0 }, { y: 0, opacity: 1, duration: 0.5, ease: "power3.out" }, 23.4);
+
+      // music fade under the final frame
+      tl.fromTo("#bgm", { volume: 0.32 }, { volume: 0, duration: 1.5, ease: "power1.in" }, 23.0);
+
+      window.__timelines["main"] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>
