@@ -2,7 +2,7 @@
 
 How Solidity projects are usually set up and checked. Always prefer the project's own `CONTRIBUTING.md` when it says something different.
 
-Open Solidity issues: [Solidity issue list](../issues/by-language/solidity.md)
+Browse open issues: [issue index](../issues/README.md)
 
 ## Setup
 
