@@ -17,4 +17,8 @@
 | 9 | [Keep going](../09-keep-going.md) (English) |
 | 10 | [Reading a codebase](../10-reading-a-codebase.md) (English) |
 
+এটিও কাজে লাগবে:
+
+- [শব্দকোষ](glossary.md): fork, upstream, rebase, squash, CI, DCO এবং অন্যান্য শব্দের এক লাইনে অর্থ।
+
 অনুবাদে সাহায্য করতে চান? [Open issues](https://github.com/TanbirRamim/open-source-radar/issues?q=is%3Aissue+is%3Aopen+Bengali) দেখুন।
