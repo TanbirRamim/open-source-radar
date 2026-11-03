@@ -208,7 +208,7 @@
       "footer.selection": "Come vengono selezionati i problemi",
       "footer.feeds": "Feed RSS dei problemi per principianti",
       "footer.built": "Creato da <a href=\"https://www.tanbirramim.com\">Tanbir Hossain Ramim</a> (<a href=\"https://github.com/TanbirRamim\">GitHub</a>)",
-      "footer.star": "Lascia una stella su GitHub (<a href=\"https://github.com/TanbirRamim/open-source-radar\">Star it on GitHub</a>) se ti è stato utile",
+      "footer.star": "Se ti è stato utile, <a href=\"https://github.com/TanbirRamim/open-source-radar\">lascia una stella su GitHub</a>",
       "footer.license": "Distribuito con licenza MIT",
       "issue.onlyProject": "Solo questo progetto",
       "issue.labels": "Etichette del problema",
@@ -224,7 +224,7 @@
       "time.pushedPrefix": "pubblicato",
       "title.issue": "problema",
       "title.issues": "problemi",
-      "summary.match": "<strong>{issues}</strong> problemi corrispondono a <strong>{projects}</strong> progetti.",
+      "summary.match": "<strong>{issues}</strong> problemi in <strong>{projects}</strong> progetti corrispondono.",
       "summary.loading": "Caricamento dei problemi…",
       "feed.language": "Feed RSS dei problemi per principianti relativi a {name}",
       "feed.quickstart": "Guida rapida a {name}",
@@ -2184,7 +2184,7 @@
   }
 
   // Site locale -> guide/<folder>/ with a translated README.md. Checked by scripts/site_i18n.test.mjs.
-  const guideFolders = { bn: "bn", es: "es", hi: "hi", pt: "pt-BR" };
+  const guideFolders = { bn: "bn", es: "es", hi: "hi", pt: "pt-BR", vi: "vi" };
 
   document.querySelectorAll("#guide-link, .guide-link").forEach((link) => {
     const folder = guideFolders[locale];
