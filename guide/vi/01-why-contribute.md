@@ -39,4 +39,4 @@ Những việc này thực sự có giá trị, và đôi khi còn thiếu hơn 
 - [ ] Tôi có một hoặc hai dự án mà mình thực sự sử dụng hoặc quan tâm.
 - [ ] Tôi dự định bắt đầu bằng một đóng góp nhỏ, không phải một tính năng lớn.
 
-Tiếp theo: [Thiết lập công cụ](../02-setup.md)
+Tiếp theo: [Thiết lập công cụ](02-setup.md)
