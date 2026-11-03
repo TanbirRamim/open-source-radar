@@ -32,6 +32,7 @@ LANGUAGES = {
     "fr": "French",
     "hi": "Hindi",
     "id": "Indonesian",
+    "it": "Italian",
     "ja": "Japanese",
     "ko": "Korean",
     "pl": "Polish",
