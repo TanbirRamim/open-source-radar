@@ -2,12 +2,12 @@
 
 Lộ trình thực tế từ “tôi muốn đóng góp” đến “pull request của tôi đã được merge”. Hướng dẫn dành cho người mới bắt đầu, nhưng cũng hữu ích với những ai đã có kinh nghiệm.
 
-[Bản tiếng Anh](../README.md) · Bản dịch tiếng Việt đang được thực hiện. Các chương chưa dịch sẽ dẫn tới bản tiếng Anh.
+[Bản tiếng Anh](../README.md) · Bản dịch tiếng Việt đang được thực hiện. Các chương chưa dịch dẫn tới bản tiếng Anh.
 
 | # | Chương |
 | --- | --- |
 | 1 | [Vì sao nên đóng góp, và thế nào mới được tính là đóng góp](01-why-contribute.md) |
-| 2 | [Thiết lập công cụ](../02-setup.md) (English) |
+| 2 | [Thiết lập công cụ](02-setup.md) |
 | 3 | [Chọn dự án](../03-choose-a-project.md) (English) |
 | 4 | [Tìm issue bạn có thể hoàn thành](../04-find-an-issue.md) (English) |
 | 5 | [Pull request đầu tiên, từng bước một](../05-first-pull-request.md) (English) |
