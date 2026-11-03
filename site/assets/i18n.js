@@ -2184,7 +2184,7 @@
   }
 
   // Site locale -> guide/<folder>/ with a translated README.md. Checked by scripts/site_i18n.test.mjs.
-  const guideFolders = { bn: "bn", es: "es", hi: "hi", pt: "pt-BR", vi: "vi" };
+  const guideFolders = { bn: "bn", es: "es", hi: "hi", it: "it", pt: "pt-BR", vi: "vi" };
 
   document.querySelectorAll("#guide-link, .guide-link").forEach((link) => {
     const folder = guideFolders[locale];
