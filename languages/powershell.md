@@ -24,7 +24,7 @@ Open PowerShell issues: [PowerShell issue list](../issues/by-language/powershell
 | Install PSScriptAnalyzer | `Install-Module PSScriptAnalyzer -Scope CurrentUser` |
 | Analyze a script | `Invoke-ScriptAnalyzer -Path ./path/to/script.ps1` |
 | Analyze the repository | `Invoke-ScriptAnalyzer -Path . -Recurse` |
-| Format a script | `Invoke-Formatter -ScriptDefinition (Get-Content ./path/to/script.ps1 -Raw)` |
+| Format a script (prints the result, doesn't save it) | `Invoke-Formatter -ScriptDefinition (Get-Content ./path/to/script.ps1 -Raw)` |
 
 ## Tips
 
