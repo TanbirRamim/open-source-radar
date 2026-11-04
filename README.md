@@ -181,6 +181,7 @@ Thank you to everyone who has made the radar better:
 - [@ducanhnguyen223](https://github.com/ducanhnguyen223): Vue quickstart ([#169](https://github.com/TanbirRamim/open-source-radar/pull/169)), Jupyter and HTML/CSS quickstarts ([#367](https://github.com/TanbirRamim/open-source-radar/pull/367))
 - [@Aaqibhafeezkhan](https://github.com/Aaqibhafeezkhan): PowerShell quickstart ([#412](https://github.com/TanbirRamim/open-source-radar/pull/412))
 - [@ch-yousufali](https://github.com/ch-yousufali): Bengali glossary ([#420](https://github.com/TanbirRamim/open-source-radar/pull/420))
+- [@vidhiramteke2-stack](https://github.com/vidhiramteke2-stack): Polish guide, chapter 1 ([#424](https://github.com/TanbirRamim/open-source-radar/pull/424))
 - [@HarshRajSinghania](https://github.com/HarshRajSinghania): disabled Clear filters when idle ([#170](https://github.com/TanbirRamim/open-source-radar/pull/170))
 - [@TejasDharmale](https://github.com/TejasDharmale): fewer false beginner labels ([#134](https://github.com/TanbirRamim/open-source-radar/pull/134))
 - [@Adarsh2345](https://github.com/Adarsh2345): Windows CI ([#174](https://github.com/TanbirRamim/open-source-radar/pull/174))
