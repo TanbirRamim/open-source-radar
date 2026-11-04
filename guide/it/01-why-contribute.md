@@ -40,4 +40,4 @@ Questi contributi sono davvero apprezzati e spesso più difficili da trovare ris
 - [ ] Ho individuato uno o due progetti che utilizzo davvero o a cui tengo.
 - [ ] Ho intenzione di iniziare con un piccolo contributo, non con una grande funzionalità.
 
-Successivo: [Configurare i tuoi strumenti](../02-setup.md)
+Successivo: [Configurare i tuoi strumenti](02-setup.md)
