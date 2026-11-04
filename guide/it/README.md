@@ -7,7 +7,7 @@ Un percorso pratico da «Voglio contribuire» a «La mia pull request è stata u
 | # | Capitolo |
 | --- | --- |
 | 1 | [Perché contribuire e cosa significa](01-why-contribute.md) |
-| 2 | [Configurare i tuoi strumenti](../02-setup.md) (Inglese) |
+| 2 | [Configurare i tuoi strumenti](02-setup.md) |
 | 3 | [Scegliere un progetto](../03-choose-a-project.md) (Inglese) |
 | 4 | [Trovare un issue che puoi completare](../04-find-an-issue.md) (Inglese) |
 | 5 | [La tua prima pull request](../05-first-pull-request.md) (Inglese) |
