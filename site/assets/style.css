@@ -556,3 +556,27 @@ a:hover { text-decoration-thickness: 2px; }
 .repo-card .link-button { margin-top: 0.6rem; }
 
 .repo-stars { margin-left: 0.4em; padding: 0 0.45em; border: 1px solid currentColor; border-radius: 999px; font-size: 0.85em; }
+
+.site-nav a.star-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  padding: 0.3em 0.7em;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--ink);
+  font-weight: 600;
+}
+.site-nav a.star-cta:hover { border-color: var(--amber); text-decoration: none; }
+.star-icon { width: 1em; height: 1em; fill: var(--amber); }
+.star-cta .repo-stars { margin-left: 0.15em; border: 0; padding: 0; font-weight: 400; color: var(--ink-soft); }
+
+.season-banner {
+  margin-top: 1rem;
+  padding: 0.7rem 1rem;
+  border-left: 3px solid var(--amber);
+  background: var(--amber-wash);
+  border-radius: 4px;
+  color: var(--ink);
+}

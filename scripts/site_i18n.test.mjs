@@ -180,3 +180,11 @@ test("every localized guide folder has a README.md", () => {
     assert.ok(existsSync(readme), `guide/${folder}/README.md is missing`);
   }
 });
+
+test("the 24 Pull Requests banner keeps both links in every locale", () => {
+  for (const locale of Object.keys(loadI18n("en").messages)) {
+    const html = loadI18n(locale).t("season.24pr");
+    assert.match(html, /href="https:\/\/24pullrequests\.com"/, `${locale} links 24 Pull Requests`);
+    assert.match(html, /href="\?level=beginner"/, `${locale} links the beginner filter`);
+  }
+});

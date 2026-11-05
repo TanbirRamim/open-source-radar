@@ -62,10 +62,19 @@
     .then((repo) => {
       if (!repo || typeof repo.stargazers_count !== "number") return;
       const stars = document.getElementById("repo-stars");
-      stars.textContent = `★ ${compact.format(repo.stargazers_count)}`;
+      stars.textContent = compact.format(repo.stargazers_count);
       stars.hidden = false;
     })
     .catch(() => {});
+
+  // ---- Seasonal banner: 24 Pull Requests (December 1-24), shown from November 24 ------------
+
+  const now = new Date();
+  const month = now.getMonth();
+  const day = now.getDate();
+  if ((month === 10 && day >= 24) || (month === 11 && day <= 24)) {
+    document.getElementById("season-banner").hidden = false;
+  }
 
   // ---- Helpers -----------------------------------------------------------------------------
 

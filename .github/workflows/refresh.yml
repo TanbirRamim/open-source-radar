@@ -71,8 +71,13 @@ jobs:
             echo "No changes."
           else
             git commit -m "data: refresh issues $(date -u +'%Y-%m-%d %H:%M UTC')"
-            git pull --rebase --autostash
-            git push
+            # GitHub sometimes answers a push with a 500 (it failed the 2026-11-03 run), so retry.
+            for attempt in 1 2 3 4; do
+              git pull --rebase --autostash && git push && exit 0
+              echo "Push attempt $attempt failed, retrying in $((attempt * 15))s."
+              sleep $((attempt * 15))
+            done
+            exit 1
           fi
 
       - uses: actions/configure-pages@v6

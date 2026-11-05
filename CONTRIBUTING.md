@@ -17,7 +17,7 @@ Kinds of contributions that are welcome:
 - **Translations.** Translate a guide chapter into a language you know well. See [`guide/es/`](guide/es/README.md) and [`guide/hi/`](guide/hi/README.md) for how existing ones are laid out.
 - **Data quality.** Add label variants, languages or topic keywords in [`scripts/config.toml`](scripts/config.toml), or report a project whose AI policy, CLA or DCO requirement was detected wrong.
 - **Report a stale or wrong listing.** If a listed issue is already taken, closed or not beginner friendly, [open a wrong listing report](https://github.com/TanbirRamim/open-source-radar/issues/new?template=wrong-listing.yml). It takes a minute and saves the next person from a dead end.
-- **Star the repository.** If the radar helped you, a star helps other newcomers find it.
+- **Star the repository.** If the radar helped you, a star helps other newcomers find it. A lot of people fork to send a pull request and never star, which is fine. Starring is never needed for a claim, a review or a merge.
 
 ### Nothing free that fits? Pick from this list
 
