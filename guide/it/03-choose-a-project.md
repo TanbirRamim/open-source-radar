@@ -38,3 +38,15 @@ Controlla gli autori: se tutte le pull request unite provengono sempre dalle ste
 - **Ogni issue recente ha già diverse pull request in competizione.** I progetti popolari spesso ricevono pull request spontanee poche ore dopo la segnalazione di un bug. Puoi comunque contribuire, ma scegli attività meno contese (documentazione, test, bug già verificati da tempo) oppure un progetto più piccolo.
 - **I maintainer chiedono agli utenti di non aprire pull request con contributi di scarso valore.** Leggi queste discussioni: ti indicano chiaramente cosa evitare.
 - **Nessun commit da mesi.** Il progetto potrebbe essere terminato oppure abbandonato.
+
+## Progetto grande o progetto piccolo?
+
+| | Progetto grande e famoso | Progetto più piccolo e attivo |
+| --- | --- | --- |
+| Concorrenza per gli issue semplici | Molto alta | Bassa |
+| Velocità delle revisioni | Molto variabile; spesso lenta per i contributori esterni | Spesso rapida e personalizzata |
+| Processo | Formale: template, CLA, CI rigorosa | Più snello |
+| Mentorship | A volte sono disponibili programmi strutturati | Contatto diretto con il maintainer |
+| Visibilità sul tuo profilo | Forte riconoscibilità del nome | Maggiore se diventi un contributore abituale |
+
+Una buona strategia: realizza i tuoi primi uno o due contributi in un progetto più piccolo e attivo, dove puoi ricevere feedback rapidamente. In seguito, applica ciò che hai imparato a progetti più grandi.
