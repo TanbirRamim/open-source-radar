@@ -24,3 +24,9 @@ Controlla questi aspetti nella pagina del repository. Cinque minuti di verifica 
 | CI | Controlli sulle pull request recenti | I test vengono eseguiti automaticamente sulle pull request |
 
 Una ricerca rapida per trovare le pull request unite provenienti da contributori esterni, valida per qualsiasi repository (sostituisci `OWNER/REPO`):
+
+```text
+https://github.com/OWNER/REPO/pulls?q=is:pr+is:merged+-author:app/dependabot+sort:updated-desc
+```
+
+Controlla gli autori: se tutte le pull request unite provengono sempre dalle stesse due persone, è possibile che il progetto non dia priorità ai contributi esterni.
