@@ -6,7 +6,7 @@ Il progetto è più importante del singolo issue. Un progetto attivo e accoglien
 
 Il progetto migliore da cui iniziare è uno che già utilizzi: una libreria presente nel tuo codice, uno strumento che usi ogni giorno o un'app che ti piace. Sai come dovrebbe funzionare, puoi testare concretamente le tue modifiche e hai interesse per il risultato.
 
-Se non ti viene in mente nessun progetto, consulta l'[indice degli issue](../issues/README.md) in base al linguaggio che conosci meglio e osserva quali progetti compaiono più spesso.
+Se non ti viene in mente nessun progetto, consulta l'[indice degli issue](../../issues/README.md) in base al linguaggio che conosci meglio e osserva quali progetti compaiono più spesso.
 
 ## Segnali di un progetto sano e accogliente
 
@@ -58,4 +58,4 @@ Una buona strategia: realizza i tuoi primi uno o due contributi in un progetto p
 - [ ] Ha una guida alla contribuzione e l'ho letta.
 - [ ] Riesco a compilare ed eseguire il progetto sul mio computer (il capitolo 5 tratta questo argomento).
 
-Successivo: [Trova un issue che puoi risolvere](04-find-an-issue.md)
+Successivo: [Trova un issue che puoi risolvere](../04-find-an-issue.md)
