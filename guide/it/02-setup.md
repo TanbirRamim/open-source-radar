@@ -84,4 +84,4 @@ I version manager semplificano questa operazione:
 - [ ] `gh auth status` (oppure `ssh -T git@github.com`) conferma che posso autenticarmi.
 - [ ] Il mio editor formatta il codice al salvataggio.
 
-Prossimo capitolo: [Scegliere un progetto](../03-choose-a-project.md)
+Prossimo capitolo: [Scegliere un progetto](03-choose-a-project.md)
