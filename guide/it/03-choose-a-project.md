@@ -50,3 +50,12 @@ Controlla gli autori: se tutte le pull request unite provengono sempre dalle ste
 | Visibilità sul tuo profilo | Forte riconoscibilità del nome | Maggiore se diventi un contributore abituale |
 
 Una buona strategia: realizza i tuoi primi uno o due contributi in un progetto più piccolo e attivo, dove puoi ricevere feedback rapidamente. In seguito, applica ciò che hai imparato a progetti più grandi.
+
+## Checklist
+
+- [ ] Il progetto ha registrato commit nell'ultimo mese.
+- [ ] Di recente ha unito pull request di contributori esterni.
+- [ ] Ha una guida alla contribuzione e l'ho letta.
+- [ ] Riesco a compilare ed eseguire il progetto sul mio computer (il capitolo 5 tratta questo argomento).
+
+Successivo: [Trova un issue che puoi risolvere](04-find-an-issue.md)
