@@ -30,3 +30,11 @@ https://github.com/OWNER/REPO/pulls?q=is:pr+is:merged+-author:app/dependabot+sor
 ```
 
 Controlla gli autori: se tutte le pull request unite provengono sempre dalle stesse due persone, è possibile che il progetto non dia priorità ai contributi esterni.
+
+## Segnali di allarme
+
+- **Centinaia di pull request aperte senza revisione.** La tua si aggiungerà alla coda.
+- **Una guida alla contribuzione che dichiara che il progetto non accetta pull request**, oppure le accetta solo per issue contrassegnati con una specifica label etichetta. Alcuni progetti popolari funzionano così. Rispetta questa regola.
+- **Ogni issue recente ha già diverse pull request in competizione.** I progetti popolari spesso ricevono pull request spontanee poche ore dopo la segnalazione di un bug. Puoi comunque contribuire, ma scegli attività meno contese (documentazione, test, bug già verificati da tempo) oppure un progetto più piccolo.
+- **I maintainer chiedono agli utenti di non aprire pull request con contributi di scarso valore.** Leggi queste discussioni: ti indicano chiaramente cosa evitare.
+- **Nessun commit da mesi.** Il progetto potrebbe essere terminato oppure abbandonato.
