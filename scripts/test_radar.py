@@ -2052,3 +2052,43 @@ class SitemapTests(unittest.TestCase):
             ],
         )
         self.assertEqual({el.text for el in root.findall("s:url/s:lastmod", ns)}, {"2026-11-06"})
+
+
+class LanguagePageTests(unittest.TestCase):
+    def test_writes_crawlable_page_and_sitemap_entry(self):
+        import tempfile
+
+        repositories = {"a/b": {"language": "C++", "buckets": []}, "c/d": {"language": "Go", "buckets": []}}
+        issues = [
+            {
+                "repo": "a/b",
+                "level": "beginner",
+                "created": "2026-11-01",
+                "title": "Fix <docs>",
+                "url": "https://github.com/a/b/issues/1",
+            },
+            {
+                "repo": "c/d",
+                "level": "help-wanted",
+                "created": "2026-11-02",
+                "title": "Hard one",
+                "url": "https://github.com/c/d/issues/2",
+            },
+        ]
+        with tempfile.TemporaryDirectory() as tmp, patch.object(radar, "ROOT", Path(tmp)):
+            slugs = radar.render_language_pages(
+                {"C++": "cpp", "Go": "go"}, repositories, issues, "2026-11-06T10:00:00Z"
+            )
+            page = (Path(tmp) / "site" / "beginner" / "cpp" / "index.html").read_text(encoding="utf-8")
+            self.assertFalse((Path(tmp) / "site" / "beginner" / "go").exists())
+            radar.render_sitemap(["C++"], "2026-11-06T10:00:00Z", slugs)
+            sitemap = (Path(tmp) / "site" / "sitemap.xml").read_text(encoding="utf-8")
+        self.assertEqual(slugs, ["cpp"])
+        self.assertIn("<title>Beginner C++ issues for your first open source contribution", page)
+        self.assertIn(
+            '<link rel="canonical" href="https://tanbirramim.github.io/open-source-radar/beginner/cpp/">', page
+        )
+        self.assertIn('property="og:description" content="1 open, unclaimed good first issues in C++', page)
+        self.assertIn("Fix &lt;docs&gt;", page)
+        self.assertNotIn("Hard one", page)
+        self.assertIn("<loc>https://tanbirramim.github.io/open-source-radar/beginner/cpp/</loc>", sitemap)

@@ -1134,14 +1134,111 @@ def render(config: dict[str, Any]) -> None:
         "topic_titles": {slug: bucket["title"] for slug, bucket in config["topics"].items()},
     }
     write_json(SITE_DATA_PATH, site_payload, compact=True)
-    render_sitemap(sorted(feed_languages), generated_at)
+    page_slugs = render_language_pages(
+        {language: slug for language, slug in languages.items() if language in feed_languages},
+        repositories,
+        issues,
+        generated_at,
+    )
+    render_sitemap(sorted(feed_languages), generated_at, page_slugs)
     log(f"rendered {len(language_rows)} language pages and {len(topic_rows)} topic pages")
 
 
 SITE_URL = "https://tanbirramim.github.io/open-source-radar/"
 
 
-def render_sitemap(languages: list[str], generated_at: str) -> None:
+LANGUAGE_PAGE_LIMIT = 50
+
+
+def render_language_pages(
+    languages: dict[str, str],
+    repositories: dict[str, Any],
+    issues: list[dict[str, Any]],
+    generated_at: str,
+) -> list[str]:
+    """Write site/beginner/<slug>/index.html: a static, crawlable page per language.
+
+    The main site is filled in by JavaScript, so search engines see little of it. These pages
+    carry a real title, description, Open Graph tags and the newest beginner issues as plain
+    links. Returns the slugs written, for the sitemap.
+    """
+    updated = generated_at[:16].replace("T", " ")
+    written = []
+    for language, slug in sorted(languages.items()):
+        items = [
+            issue
+            for issue in issues
+            if issue["level"] == "beginner" and repositories[issue["repo"]]["language"] == language
+        ]
+        if not items:
+            continue
+        items.sort(key=lambda issue: issue["created"], reverse=True)
+        projects = len({issue["repo"] for issue in items})
+        url = f"{SITE_URL}beginner/{slug}/"
+        live = f"{SITE_URL}?{urllib.parse.urlencode({'language': language, 'level': 'beginner'})}"
+        name = html.escape(language)
+        title = f"Beginner {name} issues for your first open source contribution"
+        description = html.escape(
+            f"{len(items)} open, unclaimed good first issues in {language} from {projects} active projects. "
+            "Updated twice a day.",
+            quote=True,
+        )
+        rows = [
+            f'      <li><a href="{html.escape(issue["url"], quote=True)}">{html.escape(issue["title"])}</a> '
+            f'<span class="muted">{html.escape(issue["repo"])}, opened {issue["created"]}</span></li>'
+            for issue in items[:LANGUAGE_PAGE_LIMIT]
+        ]
+        page = [
+            "<!doctype html>",
+            '<html lang="en">',
+            "<head>",
+            '  <meta charset="utf-8">',
+            '  <meta name="viewport" content="width=device-width, initial-scale=1">',
+            f"  <title>{title} | Open Source Radar</title>",
+            f'  <meta name="description" content="{description}">',
+            f'  <link rel="canonical" href="{url}">',
+            f'  <meta property="og:title" content="{title}">',
+            f'  <meta property="og:description" content="{description}">',
+            '  <meta property="og:type" content="website">',
+            f'  <meta property="og:url" content="{url}">',
+            f'  <meta property="og:image" content="{SITE_URL}assets/og.png">',
+            '  <meta name="twitter:card" content="summary_large_image">',
+            f'  <link rel="alternate" type="application/rss+xml" title="{name} beginner issues" '
+            f'href="../../feeds/{slug}.xml">',
+            '  <link rel="stylesheet" href="../../assets/style.css">',
+            "  <script>",
+            '    try { const t = localStorage.getItem("radar-theme"); '
+            "if (t) document.documentElement.dataset.theme = t; } catch (e) {}",
+            "  </script>",
+            "</head>",
+            "<body>",
+            '  <main class="wrap">',
+            '    <section class="hero">',
+            f"      <h1>Beginner {name} issues</h1>",
+            f'      <p class="lede">{len(items)} open, unclaimed issues labeled for newcomers in {projects} '
+            f"active {name} projects. Updated {updated} UTC.</p>",
+            f'      <p><a href="{html.escape(live, quote=True)}">Filter these on the live site</a> · '
+            f'<a href="../../feeds/{slug}.xml">RSS feed</a> · '
+            '<a href="https://github.com/TanbirRamim/open-source-radar/tree/main/guide">'
+            "First contribution guide</a></p>",
+            "    </section>",
+            "    <ul>",
+            *rows,
+            "    </ul>",
+            '    <p><a href="../../">All languages</a></p>',
+            "  </main>",
+            "</body>",
+            "</html>",
+            "",
+        ]
+        path = ROOT / "site" / "beginner" / slug / "index.html"
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text("\n".join(page), encoding="utf-8")
+        written.append(slug)
+    return written
+
+
+def render_sitemap(languages: list[str], generated_at: str, page_slugs: Iterable[str] = ()) -> None:
     """Write site/sitemap.xml: the home page, the feed index and one beginner search per language.
 
     Only languages that currently have beginner issues are listed, so search engines never
@@ -1149,6 +1246,7 @@ def render_sitemap(languages: list[str], generated_at: str) -> None:
     """
     lastmod = generated_at[:10]
     urls = [SITE_URL, f"{SITE_URL}feeds/"]
+    urls += [f"{SITE_URL}beginner/{slug}/" for slug in page_slugs]
     urls += [f"{SITE_URL}?{urllib.parse.urlencode({'language': name, 'level': 'beginner'})}" for name in languages]
     urlset = ET.Element("urlset", {"xmlns": "http://www.sitemaps.org/schemas/sitemap/0.9"})
     for loc in urls:
