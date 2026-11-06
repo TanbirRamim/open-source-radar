@@ -2031,3 +2031,24 @@ class TopicRssFeedTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class SitemapTests(unittest.TestCase):
+    def test_lists_home_feeds_and_language_searches(self):
+        import tempfile
+
+        with tempfile.TemporaryDirectory() as tmp, patch.object(radar, "ROOT", Path(tmp)):
+            radar.render_sitemap(["C++", "Python"], "2026-11-06T10:00:00Z")
+            root = ET.parse(Path(tmp) / "site" / "sitemap.xml").getroot()
+        ns = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+        locs = [el.text for el in root.findall("s:url/s:loc", ns)]
+        self.assertEqual(
+            locs,
+            [
+                radar.SITE_URL,
+                radar.SITE_URL + "feeds/",
+                radar.SITE_URL + "?language=C%2B%2B&level=beginner",
+                radar.SITE_URL + "?language=Python&level=beginner",
+            ],
+        )
+        self.assertEqual({el.text for el in root.findall("s:url/s:lastmod", ns)}, {"2026-11-06"})

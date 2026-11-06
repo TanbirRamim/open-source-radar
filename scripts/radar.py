@@ -1134,7 +1134,31 @@ def render(config: dict[str, Any]) -> None:
         "topic_titles": {slug: bucket["title"] for slug, bucket in config["topics"].items()},
     }
     write_json(SITE_DATA_PATH, site_payload, compact=True)
+    render_sitemap(sorted(feed_languages), generated_at)
     log(f"rendered {len(language_rows)} language pages and {len(topic_rows)} topic pages")
+
+
+SITE_URL = "https://tanbirramim.github.io/open-source-radar/"
+
+
+def render_sitemap(languages: list[str], generated_at: str) -> None:
+    """Write site/sitemap.xml: the home page, the feed index and one beginner search per language.
+
+    Only languages that currently have beginner issues are listed, so search engines never
+    land on an empty filtered view.
+    """
+    lastmod = generated_at[:10]
+    urls = [SITE_URL, f"{SITE_URL}feeds/"]
+    urls += [f"{SITE_URL}?{urllib.parse.urlencode({'language': name, 'level': 'beginner'})}" for name in languages]
+    urlset = ET.Element("urlset", {"xmlns": "http://www.sitemaps.org/schemas/sitemap/0.9"})
+    for loc in urls:
+        url = ET.SubElement(urlset, "url")
+        ET.SubElement(url, "loc").text = loc
+        ET.SubElement(url, "lastmod").text = lastmod
+    ET.indent(urlset)
+    path = ROOT / "site" / "sitemap.xml"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_bytes(ET.tostring(urlset, encoding="utf-8", xml_declaration=True) + b"\n")
 
 
 def render_projects(

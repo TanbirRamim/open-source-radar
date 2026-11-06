@@ -6,3 +6,4 @@ __pycache__/
 # Built from data/issues.json at deploy time
 site/data/
 site/feeds/
+site/sitemap.xml
