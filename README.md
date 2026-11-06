@@ -45,6 +45,8 @@ Visit the [Open Source Radar website](https://tanbirramim.github.io/open-source-
 
 You can combine filters to narrow down the results and find issues that suit your interests and experience. The URL keeps your filters, so you can bookmark or share a search.
 
+Some ready-made searches (beginner labels): [Python](https://tanbirramim.github.io/open-source-radar/?language=Python&level=beginner), [JavaScript](https://tanbirramim.github.io/open-source-radar/?language=JavaScript&level=beginner), [TypeScript](https://tanbirramim.github.io/open-source-radar/?language=TypeScript&level=beginner), [Rust](https://tanbirramim.github.io/open-source-radar/?language=Rust&level=beginner), [Go](https://tanbirramim.github.io/open-source-radar/?language=Go&level=beginner), [Java](https://tanbirramim.github.io/open-source-radar/?language=Java&level=beginner), [C++](https://tanbirramim.github.io/open-source-radar/?language=C%2B%2B&level=beginner), [no comments yet, past 7 days](https://tanbirramim.github.io/open-source-radar/?level=beginner&signal=no-comments&activity=7).
+
 ## Why this exists
 
 Finding a first issue is harder than it should be. Popular "good first issue" lists go stale, half the issues are already taken, and nobody tells you that a project requires a CLA, bans AI-generated code, or auto-closes pull requests from new accounts until after you have done the work.
