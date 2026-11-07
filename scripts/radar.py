@@ -1188,6 +1188,31 @@ def render_language_pages(
             f'<span class="muted">{html.escape(issue["repo"])}, opened {issue["created"]}</span></li>'
             for issue in items[:LANGUAGE_PAGE_LIMIT]
         ]
+        structured = {
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            "name": f"Beginner {language} issues",
+            "url": url,
+            "dateModified": generated_at,
+            "isPartOf": {"@type": "WebSite", "name": "Open Source Radar", "url": SITE_URL},
+            "breadcrumb": {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {"@type": "ListItem", "position": 1, "name": "Open Source Radar", "item": SITE_URL},
+                    {"@type": "ListItem", "position": 2, "name": f"Beginner {language} issues", "item": url},
+                ],
+            },
+            "mainEntity": {
+                "@type": "ItemList",
+                "numberOfItems": len(items),
+                "itemListElement": [
+                    {"@type": "ListItem", "position": n, "url": issue["url"], "name": issue["title"]}
+                    for n, issue in enumerate(items[:LANGUAGE_PAGE_LIMIT], 1)
+                ],
+            },
+        }
+        # "</" inside a title must not close the script element early.
+        json_ld = json.dumps(structured, ensure_ascii=False).replace("</", "<\\/")
         page = [
             "<!doctype html>",
             '<html lang="en">',
@@ -1206,6 +1231,7 @@ def render_language_pages(
             f'  <link rel="alternate" type="application/rss+xml" title="{name} beginner issues" '
             f'href="../../feeds/{slug}.xml">',
             '  <link rel="stylesheet" href="../../assets/style.css">',
+            f'  <script type="application/ld+json">{json_ld}</script>',
             "  <script>",
             '    try { const t = localStorage.getItem("radar-theme"); '
             "if (t) document.documentElement.dataset.theme = t; } catch (e) {}",
