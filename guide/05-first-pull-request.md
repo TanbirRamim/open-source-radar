@@ -126,3 +126,19 @@ git push --force-with-lease
 - [ ] The PR template is filled in.
 
 Next: [Rules to check before you start](06-rules-before-you-start.md)
+
+## Making a Documentation Change Using the GitHub Website
+
+Beginners can contribute to a project without using Git commands.
+
+Follow these steps:
+
+1. Open the file you want to edit in your forked repository.
+2. Click the pencil (Edit) icon.
+3. Make a small documentation change.
+4. Preview your changes.
+5. Click Commit changes.
+6. Create a new branch for your changes.
+7. Open a pull request to the original repository.
+
+This method helps beginners make their first contribution directly through the GitHub website.
