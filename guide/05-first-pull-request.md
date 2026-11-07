@@ -115,6 +115,17 @@ git push --force-with-lease
 
 `--force-with-lease` is the safe way to update a branch you rewrote; it refuses to overwrite commits you do not have locally. Some projects prefer merging `upstream/main` into your branch instead of rebasing; follow their guide.
 
+## Small doc fixes without Git
+
+For a typo or a broken link you can skip the clone entirely and do it in the browser:
+
+1. Open the file on GitHub in the original repository and click the pencil icon. If you can't push there, GitHub forks the repository for you.
+2. Make the change and check the Preview tab.
+3. Click "Commit changes...", choose "Create a new branch", and give it a short name like `fix-readme-typo`.
+4. Click "Propose changes", then "Create pull request" and fill in the template.
+
+This only suits small text changes. Anything that needs a build or tests should go through the steps above, so you can run the checks before you push.
+
 ## Checklist
 
 - [ ] Branch created from the latest upstream default branch.
@@ -126,19 +137,3 @@ git push --force-with-lease
 - [ ] The PR template is filled in.
 
 Next: [Rules to check before you start](06-rules-before-you-start.md)
-
-## Making a Documentation Change Using the GitHub Website
-
-Beginners can contribute to a project without using Git commands.
-
-Follow these steps:
-
-1. Open the file you want to edit in your forked repository.
-2. Click the pencil (Edit) icon.
-3. Make a small documentation change.
-4. Preview your changes.
-5. Click Commit changes.
-6. Create a new branch for your changes.
-7. Open a pull request to the original repository.
-
-This method helps beginners make their first contribution directly through the GitHub website.
