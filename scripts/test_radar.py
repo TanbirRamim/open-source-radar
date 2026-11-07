@@ -2054,6 +2054,45 @@ class SitemapTests(unittest.TestCase):
         self.assertEqual({el.text for el in root.findall("s:url/s:lastmod", ns)}, {"2026-11-06"})
 
 
+class TopicPageTests(unittest.TestCase):
+    def test_writes_topic_page_with_topic_links_and_sitemap_entry(self):
+        import tempfile
+
+        repositories = {"a/b": {"language": "Go", "buckets": ["web"]}, "c/d": {"language": "Go", "buckets": ["ai-ml"]}}
+        issues = [
+            {
+                "repo": "a/b",
+                "level": "beginner",
+                "created": "2026-11-01",
+                "title": "Fix form",
+                "url": "https://github.com/a/b/issues/1",
+            },
+            {
+                "repo": "c/d",
+                "level": "help-wanted",
+                "created": "2026-11-02",
+                "title": "Hard one",
+                "url": "https://github.com/c/d/issues/2",
+            },
+        ]
+        with tempfile.TemporaryDirectory() as tmp, patch.object(radar, "ROOT", Path(tmp)):
+            slugs = radar.render_topic_pages(
+                {"web": "Web", "ai-ml": "AI & ML"}, repositories, issues, "2026-11-08T10:00:00Z"
+            )
+            page = (Path(tmp) / "site" / "beginner" / "topic" / "web" / "index.html").read_text(encoding="utf-8")
+            self.assertFalse((Path(tmp) / "site" / "beginner" / "topic" / "ai-ml").exists())
+            radar.render_sitemap([], "2026-11-08T10:00:00Z", (), slugs)
+            sitemap = (Path(tmp) / "site" / "sitemap.xml").read_text(encoding="utf-8")
+        self.assertEqual(slugs, ["web"])
+        self.assertIn("<h1>Beginner Web issues</h1>", page)
+        self.assertIn('href="https://tanbirramim.github.io/open-source-radar/beginner/topic/web/"', page)
+        self.assertIn('href="../../../feeds/topics/web.xml"', page)
+        self.assertIn('href="../../../assets/style.css"', page)
+        self.assertIn("?topic=web&amp;level=beginner", page)
+        self.assertNotIn("Hard one", page)
+        self.assertIn("<loc>https://tanbirramim.github.io/open-source-radar/beginner/topic/web/</loc>", sitemap)
+
+
 class LanguagePageTests(unittest.TestCase):
     def test_writes_crawlable_page_and_sitemap_entry(self):
         import tempfile
