@@ -140,6 +140,7 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md) first, and see the [Code of Conduct](COD
 ### Contributors
 
 Thank you to everyone who has made the radar better:
+- [@snehify](https://github.com/snehify): a sun icon for light mode on the theme toggle ([#448](https://github.com/TanbirRamim/open-source-radar/pull/448))
 
 - [@Nomee-123](https://github.com/Nomee-123): the `/` shortcut that focuses the website search ([#10](https://github.com/TanbirRamim/open-source-radar/pull/10))
 - [@yyashikasharmaa](https://github.com/yyashikasharmaa): the Robotics topic ([#11](https://github.com/TanbirRamim/open-source-radar/pull/11))
