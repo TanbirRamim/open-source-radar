@@ -1321,6 +1321,9 @@ def _write_beginner_page(
     return True
 
 
+NEW_THIS_WEEK_LIMIT = 15
+
+
 def render_beginner_hub(
     languages: dict[str, str],
     topics: dict[str, str],
@@ -1384,6 +1387,21 @@ def render_beginner_hub(
         '      <p><a href="../">Search everything on the live site</a> · <a href="../feeds/">RSS feeds</a></p>',
         "    </section>",
     ]
+    # Issues opened in the last 7 days, so returning visitors see what changed.
+    week_ago = (iso_to_datetime(generated_at) - dt.timedelta(days=7)).date().isoformat()
+    fresh = sorted(
+        (i for i in beginner if i.get("created", "") >= week_ago and i.get("url")),
+        key=lambda i: i["created"],
+        reverse=True,
+    )[:NEW_THIS_WEEK_LIMIT]
+    if fresh:
+        page += ['    <h2 id="new">New this week</h2>', "    <ul>"]
+        page += [
+            f'      <li><a href="{html.escape(i["url"], quote=True)}">{html.escape(i["title"])}</a> '
+            f'<span class="muted">{html.escape(i["repo"])}, opened {i["created"]}</span></li>'
+            for i in fresh
+        ]
+        page += ["    </ul>"]
     if language_entries:
         page += ["    <h2>By language</h2>", "    <ul>", *links(language_entries), "    </ul>"]
     if topic_entries:

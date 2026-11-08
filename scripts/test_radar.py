@@ -2117,6 +2117,41 @@ class BeginnerHubTests(unittest.TestCase):
         self.assertLess(hub.index('href="cpp/"'), hub.index('href="go/"'))
         self.assertIn("<loc>https://tanbirramim.github.io/open-source-radar/beginner/</loc>", sitemap)
 
+    def test_new_this_week_lists_recent_beginner_issues(self):
+        import tempfile
+
+        repositories = {"a/b": {"language": "Go", "buckets": []}}
+        issues = [
+            {
+                "repo": "a/b",
+                "level": "beginner",
+                "created": "2026-11-07",
+                "title": "Fresh <one>",
+                "url": "https://github.com/a/b/issues/1",
+            },
+            {
+                "repo": "a/b",
+                "level": "beginner",
+                "created": "2026-10-20",
+                "title": "Old one",
+                "url": "https://github.com/a/b/issues/2",
+            },
+            {
+                "repo": "a/b",
+                "level": "help-wanted",
+                "created": "2026-11-07",
+                "title": "Hard one",
+                "url": "https://github.com/a/b/issues/3",
+            },
+        ]
+        with tempfile.TemporaryDirectory() as tmp, patch.object(radar, "ROOT", Path(tmp)):
+            radar.render_beginner_hub({"go": "Go"}, {}, repositories, issues, "2026-11-08T10:00:00Z")
+            hub = (Path(tmp) / "site" / "beginner" / "index.html").read_text(encoding="utf-8")
+        self.assertIn('<h2 id="new">New this week</h2>', hub)
+        self.assertIn("Fresh &lt;one&gt;", hub)
+        self.assertNotIn("Old one", hub)
+        self.assertNotIn("Hard one", hub)
+
     def test_no_hub_without_pages(self):
         import tempfile
 
