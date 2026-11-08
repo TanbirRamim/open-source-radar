@@ -46,58 +46,14 @@
 
   // ---- Theme -------------------------------------------------------------------------------
 
- // ---- Theme
-const themeToggle = document.querySelector(".theme-toggle");
-const themeIcon = themeToggle.querySelector("svg");
-
-function updateThemeIcon() {
-  const root = document.documentElement;
-  const systemDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-
-  const current = root.dataset.theme || (systemDark ? "dark" : "light");
-
-  if (current === "light") {
-    // Display SUN in bright mode
-    themeIcon.innerHTML = `
-      <circle cx="12" cy="12" r="4"
-        fill="none" stroke="currentColor" stroke-width="2" />
-      <path d="M12 2v2m0 16v2
-        M4.93 4.93l1.42 1.42
-        m11.3 11.3l1.42 1.42
-        M2 12h2m16 0h2
-        M4.93 19.07l1.42-1.42
-        m11.3-11.3l1.42-1.42"
-        fill="none" stroke="currentColor"
-        stroke-width="2" stroke-linecap="round" />
-    `;
-  } else {
-    // Display MOON in dark mode
-    themeIcon.innerHTML = `
-      <path d="M12 3a9 9 0 1 0 9 9
-        7 7 0 0 1-9-9z" />
-    `;
-  }
-}
-
-// Display the correct icon when the page loads
-updateThemeIcon();
-
-// Change theme and update icon when clicked
-themeToggle.addEventListener("click", () => {
-  const root = document.documentElement;
-  const systemDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-
-  const current = root.dataset.theme || (systemDark ? "dark" : "light");
-  const next = current === "dark" ? "light" : "dark";
-
-  root.dataset.theme = next;
-
-  try {
-    localStorage.setItem("radar-theme", next);
-  } catch (e) {}
-
-  updateThemeIcon();
-});
+  document.querySelector(".theme-toggle").addEventListener("click", () => {
+    const root = document.documentElement;
+    const systemDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    const current = root.dataset.theme || (systemDark ? "dark" : "light");
+    const next = current === "dark" ? "light" : "dark";
+    root.dataset.theme = next;
+    try { localStorage.setItem("radar-theme", next); } catch (e) { /* storage unavailable */ }
+  });
 
   // ---- Star count in the header (best effort: hidden when the API is unavailable) ------------
 

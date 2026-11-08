@@ -179,6 +179,15 @@ a:hover { text-decoration-thickness: 2px; }
 }
 .theme-toggle svg { width: 1.05rem; height: 1.05rem; fill: currentColor; }
 .theme-toggle:hover { color: var(--ink); border-color: var(--ink-soft); }
+/* Sun in light mode, moon in dark mode. Pure CSS, so the icon is right before any JS runs
+   and follows the OS setting when no theme was picked. */
+.theme-toggle .icon-moon { display: none; }
+:root[data-theme="dark"] .theme-toggle .icon-sun { display: none; }
+:root[data-theme="dark"] .theme-toggle .icon-moon { display: block; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .theme-toggle .icon-sun { display: none; }
+  :root:not([data-theme="light"]) .theme-toggle .icon-moon { display: block; }
+}
 
 /* Hero */
 
