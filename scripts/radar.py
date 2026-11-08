@@ -1143,6 +1143,13 @@ def render(config: dict[str, Any]) -> None:
     topic_page_slugs = render_topic_pages(
         {slug: config["topics"][slug]["title"] for slug in feed_topic_slugs}, repositories, issues, generated_at
     )
+    render_beginner_hub(
+        {slug: language for language, slug in languages.items() if slug in page_slugs},
+        {slug: config["topics"][slug]["title"] for slug in topic_page_slugs},
+        repositories,
+        issues,
+        generated_at,
+    )
     render_sitemap(sorted(feed_languages), generated_at, page_slugs, topic_page_slugs)
     log(f"rendered {len(language_rows)} language pages and {len(topic_rows)} topic pages")
 
@@ -1302,7 +1309,7 @@ def _write_beginner_page(
         "    <ul>",
         *rows,
         "    </ul>",
-        f'    <p><a href="{up}">All languages and topics</a></p>',
+        f'    <p><a href="{up}beginner/">All languages and topics</a> · <a href="{up}">Open Source Radar</a></p>',
         "  </main>",
         "</body>",
         "</html>",
@@ -1312,6 +1319,79 @@ def _write_beginner_page(
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text("\n".join(page), encoding="utf-8")
     return True
+
+
+def render_beginner_hub(
+    languages: dict[str, str],
+    topics: dict[str, str],
+    repositories: dict[str, Any],
+    issues: list[dict[str, Any]],
+    generated_at: str,
+) -> None:
+    """Write site/beginner/index.html: one crawlable page linking every language and topic page.
+
+    ``languages`` and ``topics`` map the slugs of pages that were written to their display names.
+    The home page footer links here, so search engines reach every landing page in two hops.
+    """
+    if not languages and not topics:
+        return
+    beginner = [issue for issue in issues if issue["level"] == "beginner"]
+
+    def links(entries: list[tuple[str, str, int]]) -> list[str]:
+        return [
+            f'      <li><a href="{href}">{html.escape(label)}</a> <span class="muted">{count} issues</span></li>'
+            for href, label, count in entries
+        ]
+
+    language_entries = [
+        (f"{slug}/", name, sum(repositories[i["repo"]]["language"] == name for i in beginner))
+        for slug, name in sorted(languages.items(), key=lambda kv: kv[1].lower())
+    ]
+    topic_entries = [
+        (f"topic/{slug}/", title, sum(slug in repositories[i["repo"]]["buckets"] for i in beginner))
+        for slug, title in sorted(topics.items(), key=lambda kv: kv[1].lower())
+    ]
+    url = f"{SITE_URL}beginner/"
+    title = "Good first issues by language and topic"
+    description = (
+        f"Open, unclaimed beginner issues in {len(languages)} languages and {len(topics)} topics, updated twice a day."
+    )
+    page = [
+        "<!doctype html>",
+        '<html lang="en">',
+        "<head>",
+        '  <meta charset="utf-8">',
+        '  <meta name="viewport" content="width=device-width, initial-scale=1">',
+        f"  <title>{title} | Open Source Radar</title>",
+        f'  <meta name="description" content="{description}">',
+        f'  <link rel="canonical" href="{url}">',
+        f'  <meta property="og:title" content="{title}">',
+        f'  <meta property="og:description" content="{description}">',
+        '  <meta property="og:type" content="website">',
+        f'  <meta property="og:url" content="{url}">',
+        f'  <meta property="og:image" content="{SITE_URL}assets/og.png">',
+        '  <link rel="stylesheet" href="../assets/style.css">',
+        "  <script>",
+        '    try { const t = localStorage.getItem("radar-theme"); '
+        "if (t) document.documentElement.dataset.theme = t; } catch (e) {}",
+        "  </script>",
+        "</head>",
+        "<body>",
+        '  <main class="wrap">',
+        '    <section class="hero">',
+        f"      <h1>{title}</h1>",
+        f'      <p class="lede">{description} Updated {generated_at[:16].replace("T", " ")} UTC.</p>',
+        '      <p><a href="../">Search everything on the live site</a> · <a href="../feeds/">RSS feeds</a></p>',
+        "    </section>",
+    ]
+    if language_entries:
+        page += ["    <h2>By language</h2>", "    <ul>", *links(language_entries), "    </ul>"]
+    if topic_entries:
+        page += ["    <h2>By topic</h2>", "    <ul>", *links(topic_entries), "    </ul>"]
+    page += ["  </main>", "</body>", "</html>", ""]
+    path = ROOT / "site" / "beginner" / "index.html"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text("\n".join(page), encoding="utf-8")
 
 
 def render_sitemap(
@@ -1324,6 +1404,8 @@ def render_sitemap(
     """
     lastmod = generated_at[:10]
     urls = [SITE_URL, f"{SITE_URL}feeds/"]
+    if page_slugs or topic_slugs:
+        urls.append(f"{SITE_URL}beginner/")
     urls += [f"{SITE_URL}beginner/{slug}/" for slug in page_slugs]
     urls += [f"{SITE_URL}beginner/topic/{slug}/" for slug in topic_slugs]
     urls += [f"{SITE_URL}?{urllib.parse.urlencode({'language': name, 'level': 'beginner'})}" for name in languages]

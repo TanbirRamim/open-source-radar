@@ -2093,6 +2093,38 @@ class TopicPageTests(unittest.TestCase):
         self.assertIn("<loc>https://tanbirramim.github.io/open-source-radar/beginner/topic/web/</loc>", sitemap)
 
 
+class BeginnerHubTests(unittest.TestCase):
+    def test_hub_links_every_page_with_counts_and_is_in_sitemap(self):
+        import tempfile
+
+        repositories = {"a/b": {"language": "Go", "buckets": ["web"]}, "c/d": {"language": "C++", "buckets": []}}
+        issues = [
+            {"repo": "a/b", "level": "beginner"},
+            {"repo": "a/b", "level": "beginner"},
+            {"repo": "c/d", "level": "beginner"},
+            {"repo": "c/d", "level": "help-wanted"},
+        ]
+        with tempfile.TemporaryDirectory() as tmp, patch.object(radar, "ROOT", Path(tmp)):
+            radar.render_beginner_hub(
+                {"go": "Go", "cpp": "C++"}, {"web": "Web development"}, repositories, issues, "2026-11-08T10:00:00Z"
+            )
+            hub = (Path(tmp) / "site" / "beginner" / "index.html").read_text(encoding="utf-8")
+            radar.render_sitemap([], "2026-11-08T10:00:00Z", ["go"], ["web"])
+            sitemap = (Path(tmp) / "site" / "sitemap.xml").read_text(encoding="utf-8")
+        self.assertIn('<a href="go/">Go</a> <span class="muted">2 issues</span>', hub)
+        self.assertIn('<a href="cpp/">C++</a> <span class="muted">1 issues</span>', hub)
+        self.assertIn('<a href="topic/web/">Web development</a> <span class="muted">2 issues</span>', hub)
+        self.assertLess(hub.index('href="cpp/"'), hub.index('href="go/"'))
+        self.assertIn("<loc>https://tanbirramim.github.io/open-source-radar/beginner/</loc>", sitemap)
+
+    def test_no_hub_without_pages(self):
+        import tempfile
+
+        with tempfile.TemporaryDirectory() as tmp, patch.object(radar, "ROOT", Path(tmp)):
+            radar.render_beginner_hub({}, {}, {}, [], "2026-11-08T10:00:00Z")
+            self.assertFalse((Path(tmp) / "site" / "beginner" / "index.html").exists())
+
+
 class LanguagePageTests(unittest.TestCase):
     def test_writes_crawlable_page_and_sitemap_entry(self):
         import tempfile
