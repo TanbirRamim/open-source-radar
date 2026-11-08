@@ -263,4 +263,4 @@ If you found your first issue here, starring the repository helps other newcomer
 
 ## License
 
-[MIT](LICENSE). Issue titles, descriptions and project metadata belong to their respective projects and are shown with links back to GitHub.
+Made by [Tanbir Hossain Ramim](https://tanbirramim.com/voluntary/open-source-radar). [MIT](LICENSE). Issue titles, descriptions and project metadata belong to their respective projects and are shown with links back to GitHub.
