@@ -144,12 +144,18 @@ keywords = ["accessibility", "a11y", "wcag", "aria", "screen-reader*", "screenre
 # (summerofcode.withgoogle.com/archive). Feeds site/beginner/gsoc/. Owners we
 # don't track yet are simply skipped, so it's fine to list the whole org list.
 [gsoc]
+# Checked 2026-11-08 against the official GSoC archive API
+# (summerofcode.withgoogle.com/api/program/{2024,2025}/organizations/ and
+# /api/archive/programs/{2024,2025}/projects/). Each owner is either a listed
+# org's GitHub owner or had a 2024/2025 project under an umbrella org
+# (CNCF, NumFOCUS, The Julia Language, Wikimedia Foundation).
+# Removed (no 2024/2025 GSoC evidence): audacity, cert-manager, cvxpy, dask,
+# JuliaEditorSupport, JuliaGPU, JuliaMolSim, kyverno, linkerd, openrocket,
+# tensorflow, thanos-io, wesnoth.
 owners = [
-  "apache", "ArduPilot", "ankidroid", "audacity", "cert-manager", "commons-app",
-  "cvxpy", "dask", "FluxML", "fossology", "FreeCAD", "jaegertracing",
-  "jenkinsci", "JuliaDocs", "JuliaDynamics", "JuliaEditorSupport", "JuliaGPU",
-  "JuliaLang", "JuliaMolSim", "kiwix", "knative", "kubernetes", "kubernetes-sigs",
-  "kyverno", "linkerd", "meshery", "OpenRefine", "openfoodfacts", "openrocket",
-  "organicmaps", "rizinorg", "stdlib-js", "tensorflow", "thanos-io",
-  "trixi-framework", "wesnoth",
+  "apache", "ArduPilot", "ankidroid", "commons-app", "FluxML", "fossology",
+  "FreeCAD", "jaegertracing", "jenkinsci", "JuliaDocs", "JuliaDynamics",
+  "JuliaLang", "kiwix", "knative", "kubernetes", "kubernetes-sigs", "meshery",
+  "OpenRefine", "openfoodfacts", "organicmaps", "rizinorg", "stdlib-js",
+  "trixi-framework",
 ]
