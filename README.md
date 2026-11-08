@@ -71,6 +71,7 @@ Open Source Radar fixes the first part with data and the second part with a guid
 | About to open your first pull request | [Chapter 5: your first pull request, step by step](guide/05-first-pull-request.md) |
 | Unsure about CLAs, DCO or AI rules | [Chapter 6: rules to check before you start](guide/06-rules-before-you-start.md) |
 | Waiting on a review | [Chapter 8: reviews, feedback and rejection](guide/08-reviews.md) |
+| Stuck on a quick question (claiming, no reply, CLA, DCO) | [Newcomer FAQ](guide/faq.md) |
 | Setting up a project in a new language | [Language quickstarts](languages/README.md) |
 
 ## The guide

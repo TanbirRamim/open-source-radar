@@ -21,6 +21,7 @@ Translations: [हिंदी (Hindi)](hi/README.md), chapters 1 and 3 to 10 an
 
 Also useful:
 
+- [Newcomer FAQ](faq.md): how to claim an issue, what to do when nobody replies, CLA and DCO fixes, merge conflicts.
 - [Glossary](glossary.md): fork, upstream, rebase, squash, CI, DCO and the rest, in one line each.
 - [Language quickstarts](../languages/README.md): how projects in each language are usually built and tested.
 - [Issue index](../issues/README.md): open, unclaimed issues sorted by language and topic, refreshed automatically.
