@@ -1509,6 +1509,16 @@ def render_stats_page(repositories: dict[str, Any], issues: list[dict[str, Any]]
         f"{len(beginner)} open, unclaimed beginner issues across {len(beginner_counts)} projects: "
         "which languages have the most, how old they are, and which projects merge outside PRs."
     )
+    top = f" Most are in {languages[0][0]}." if languages else ""
+    summary = (
+        f"{len(beginner)} free beginner issues in {len(by_language)} languages. "
+        f"Half are older than {median_age} days, {fresh} opened in the last 30 days.{top}"
+    )
+
+    def heading(anchor: str, text: str) -> str:
+        link = f'<a class="anchor" href="#{anchor}" aria-label="Link to this section">#</a>'
+        return f'    <h2 id="{anchor}">{html.escape(text)} {link}</h2>'
+
     page = [
         "<!doctype html>",
         '<html lang="en">',
@@ -1516,10 +1526,14 @@ def render_stats_page(repositories: dict[str, Any], issues: list[dict[str, Any]]
         '  <meta charset="utf-8">',
         '  <meta name="viewport" content="width=device-width, initial-scale=1">',
         f"  <title>{html.escape(title)} | Open Source Radar</title>",
+        f'  <meta property="article:modified_time" content="{html.escape(generated_at, quote=True)}">',
+        '  <meta name="twitter:card" content="summary_large_image">',
+        f'  <meta name="twitter:title" content="{html.escape(title, quote=True)}">',
+        f'  <meta name="twitter:description" content="{html.escape(summary, quote=True)}">',
         f'  <meta name="description" content="{html.escape(description, quote=True)}">',
         f'  <link rel="canonical" href="{url}">',
         f'  <meta property="og:title" content="{html.escape(title, quote=True)}">',
-        f'  <meta property="og:description" content="{html.escape(description, quote=True)}">',
+        f'  <meta property="og:description" content="{html.escape(summary, quote=True)}">',
         '  <meta property="og:type" content="article">',
         f'  <meta property="og:url" content="{url}">',
         f'  <meta property="og:image" content="{SITE_URL}assets/og.png">',
@@ -1533,17 +1547,20 @@ def render_stats_page(repositories: dict[str, Any], issues: list[dict[str, Any]]
         '  <main class="wrap">',
         '    <section class="hero">',
         f"      <h1>{html.escape(title)}</h1>",
-        f'      <p class="lede">{html.escape(description)} Snapshot from {stamp} UTC.</p>',
+        f'      <p class="lede">{html.escape(description)}</p>',
+        f'      <p class="muted">Last updated <time datetime="{html.escape(generated_at, quote=True)}">'
+        f"{stamp} UTC</time>. "
+        "Radar rescans twice a day, so the numbers move.</p>",
         '      <p><a href="../">Search the issues</a> · <a href="../beginner/">By language and topic</a></p>',
         "    </section>",
-        "    <h2>The short version</h2>",
+        heading("short-version", "The short version"),
         "    <ul>",
         f"      <li>{len(beginner)} beginner issues are open with nobody assigned, "
         f"in {len(by_language)} languages.</li>",
         f"      <li>Half of them are older than {median_age} days. {fresh} were opened in the last 30 days.</li>",
         f"      <li>A maintainer has replied on {round(100 * replied / len(beginner))}% of them.</li>",
         "    </ul>",
-        "    <h2>Languages with the most free beginner issues</h2>",
+        heading("languages", "Languages with the most free beginner issues"),
         "    <table>",
         "      <tr><th>Language</th><th>Issues</th><th>Median age</th><th>Opened in last 30 days</th></tr>",
     ]
@@ -1559,7 +1576,7 @@ def render_stats_page(repositories: dict[str, Any], issues: list[dict[str, Any]]
     page.append("    </table>")
     if welcoming:
         page += [
-            "    <h2>Projects that merge outside contributors</h2>",
+            heading("welcoming-projects", "Projects that merge outside contributors"),
             f"    <p>Projects with free beginner issues and at least {STATS_MIN_EXTERNAL_PRS} PRs from people "
             "outside the team in the last 90 days, sorted by how many of those got merged.</p>",
             "    <table>",
@@ -1576,7 +1593,7 @@ def render_stats_page(repositories: dict[str, Any], issues: list[dict[str, Any]]
             )
         page.append("    </table>")
     page += [
-        "    <h2>How this is counted</h2>",
+        heading("method", "How this is counted"),
         '    <p class="muted">Beginner issues are open issues with a newcomer label (good first issue and similar), '
         "no assignee, no open or merged PR linked and no recent claim comment, from active projects Radar "
         "scans twice a day. Ages are for issues "

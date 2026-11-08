@@ -2127,6 +2127,11 @@ class StatsPageTests(unittest.TestCase):
         self.assertIn("<td>4 days</td>", page)
         self.assertIn("<td>under 1 h</td>", page)
         self.assertIn("<loc>https://tanbirramim.github.io/open-source-radar/stats/</loc>", sitemap)
+        self.assertIn('<h2 id="languages">', page)
+        self.assertIn('href="#welcoming-projects"', page)
+        self.assertIn('<time datetime="2026-11-08T10:00:00Z">2026-11-08 10:00 UTC</time>', page)
+        self.assertIn('content="5 free beginner issues in 3 languages. Half are older than', page)
+        self.assertIn("Most are in Go.", page)
 
     def test_no_page_without_beginner_issues(self):
         import tempfile

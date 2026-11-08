@@ -589,3 +589,6 @@ a:hover { text-decoration-thickness: 2px; }
   border-radius: 4px;
   color: var(--ink);
 }
+
+h2 > a.anchor { margin-left: .3em; color: inherit; opacity: 0; text-decoration: none; font-weight: 400; }
+h2:hover > a.anchor, h2 > a.anchor:focus { opacity: .5; }
