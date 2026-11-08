@@ -2204,3 +2204,36 @@ class LanguagePageTests(unittest.TestCase):
         self.assertEqual(data["mainEntity"]["itemListElement"][0]["name"], "Fix <docs>")
         self.assertEqual(data["breadcrumb"]["itemListElement"][1]["item"], data["url"])
         self.assertIn("<loc>https://tanbirramim.github.io/open-source-radar/beginner/cpp/</loc>", sitemap)
+
+
+class GsocPageTests(unittest.TestCase):
+    def test_gsoc_page_lists_beginner_issues_from_configured_owners(self):
+        import tempfile
+
+        issues = [
+            {"repo": "JuliaLang/julia", "level": "beginner", "created": "2026-11-07", "title": "Doc typo", "url": "u1"},
+            {"repo": "julialang/x", "level": "help-wanted", "created": "2026-11-07", "title": "Hard", "url": "u2"},
+            {"repo": "other/y", "level": "beginner", "created": "2026-11-07", "title": "Not GSoC", "url": "u3"},
+        ]
+        with tempfile.TemporaryDirectory() as tmp, patch.object(radar, "ROOT", Path(tmp)):
+            count = radar.render_gsoc_page(["julialang"], issues, "2026-11-08T10:00:00Z")
+            page = (Path(tmp) / "site" / "beginner" / "gsoc" / "index.html").read_text(encoding="utf-8")
+            radar.render_beginner_hub({}, {}, {}, issues, "2026-11-08T10:00:00Z", gsoc_count=count)
+            hub = (Path(tmp) / "site" / "beginner" / "index.html").read_text(encoding="utf-8")
+            radar.render_sitemap([], "2026-11-08T10:00:00Z", gsoc=True)
+            sitemap = (Path(tmp) / "site" / "sitemap.xml").read_text(encoding="utf-8")
+        self.assertEqual(count, 1)
+        self.assertIn("Doc typo", page)
+        self.assertNotIn("Not GSoC", page)
+        self.assertNotIn("Hard", page)
+        self.assertNotIn("RSS feed", page)
+        self.assertIn('<a href="../../">Open Source Radar</a>', page)
+        self.assertIn('<a href="gsoc/">Projects from recent GSoC orgs</a> <span class="muted">1 issues</span>', hub)
+        self.assertIn("<loc>https://tanbirramim.github.io/open-source-radar/beginner/gsoc/</loc>", sitemap)
+
+    def test_no_gsoc_page_without_matches(self):
+        import tempfile
+
+        with tempfile.TemporaryDirectory() as tmp, patch.object(radar, "ROOT", Path(tmp)):
+            self.assertEqual(radar.render_gsoc_page(["nobody"], [], "2026-11-08T10:00:00Z"), 0)
+            self.assertFalse((Path(tmp) / "site" / "beginner" / "gsoc").exists())

@@ -1143,14 +1143,16 @@ def render(config: dict[str, Any]) -> None:
     topic_page_slugs = render_topic_pages(
         {slug: config["topics"][slug]["title"] for slug in feed_topic_slugs}, repositories, issues, generated_at
     )
+    gsoc_count = render_gsoc_page(config.get("gsoc", {}).get("owners", []), issues, generated_at)
     render_beginner_hub(
         {slug: language for language, slug in languages.items() if slug in page_slugs},
         {slug: config["topics"][slug]["title"] for slug in topic_page_slugs},
         repositories,
         issues,
         generated_at,
+        gsoc_count=gsoc_count,
     )
-    render_sitemap(sorted(feed_languages), generated_at, page_slugs, topic_page_slugs)
+    render_sitemap(sorted(feed_languages), generated_at, page_slugs, topic_page_slugs, gsoc=bool(gsoc_count))
     log(f"rendered {len(language_rows)} language pages and {len(topic_rows)} topic pages")
 
 
@@ -1218,12 +1220,28 @@ def render_topic_pages(
     return written
 
 
+def render_gsoc_page(owners: Iterable[str], issues: list[dict[str, Any]], generated_at: str) -> int:
+    """Write site/beginner/gsoc/index.html: beginner issues from recent Google Summer of Code orgs.
+
+    ``owners`` is the GitHub owner list from config.toml [gsoc]. GSoC applicants are told to
+    contribute before the org list goes out in late February, so this gives them a head start.
+    Returns how many issues the page lists (0 means no page was written).
+    """
+    wanted = {owner.lower() for owner in owners}
+    items = [i for i in issues if i["level"] == "beginner" and i["repo"].split("/")[0].lower() in wanted]
+    if not _write_beginner_page(
+        "beginner/gsoc/", "Google Summer of Code org", items, {"level": "beginner"}, None, generated_at
+    ):
+        return 0
+    return len(items)
+
+
 def _write_beginner_page(
     rel: str,
     label: str,
     items: list[dict[str, Any]],
     live_params: dict[str, str],
-    feed: str,
+    feed: str | None,
     generated_at: str,
 ) -> bool:
     """Write one static beginner page at site/<rel>index.html; False (and no file) if ``items`` is empty."""
@@ -1287,7 +1305,14 @@ def _write_beginner_page(
         f'  <meta property="og:url" content="{url}">',
         f'  <meta property="og:image" content="{SITE_URL}assets/og.png">',
         '  <meta name="twitter:card" content="summary_large_image">',
-        f'  <link rel="alternate" type="application/rss+xml" title="{name} beginner issues" href="{up}feeds/{feed}">',
+        *(
+            [
+                f'  <link rel="alternate" type="application/rss+xml" title="{name} beginner issues" '
+                f'href="{up}feeds/{feed}">'
+            ]
+            if feed
+            else []
+        ),
         f'  <link rel="stylesheet" href="{up}assets/style.css">',
         f'  <script type="application/ld+json">{json_ld}</script>',
         "  <script>",
@@ -1302,8 +1327,8 @@ def _write_beginner_page(
         f'      <p class="lede">{len(items)} open, unclaimed issues labeled for newcomers in {projects} '
         f"active {name} projects. Updated {updated} UTC.</p>",
         f'      <p><a href="{html.escape(live, quote=True)}">Filter these on the live site</a> · '
-        f'<a href="{up}feeds/{feed}">RSS feed</a> · '
-        '<a href="https://github.com/TanbirRamim/open-source-radar/tree/main/guide">'
+        + (f'<a href="{up}feeds/{feed}">RSS feed</a> · ' if feed else "")
+        + '<a href="https://github.com/TanbirRamim/open-source-radar/tree/main/guide">'
         "First contribution guide</a></p>",
         "    </section>",
         "    <ul>",
@@ -1330,13 +1355,15 @@ def render_beginner_hub(
     repositories: dict[str, Any],
     issues: list[dict[str, Any]],
     generated_at: str,
+    *,
+    gsoc_count: int = 0,
 ) -> None:
     """Write site/beginner/index.html: one crawlable page linking every language and topic page.
 
     ``languages`` and ``topics`` map the slugs of pages that were written to their display names.
     The home page footer links here, so search engines reach every landing page in two hops.
     """
-    if not languages and not topics:
+    if not languages and not topics and not gsoc_count:
         return
     beginner = [issue for issue in issues if issue["level"] == "beginner"]
 
@@ -1406,6 +1433,13 @@ def render_beginner_hub(
         page += ["    <h2>By language</h2>", "    <ul>", *links(language_entries), "    </ul>"]
     if topic_entries:
         page += ["    <h2>By topic</h2>", "    <ul>", *links(topic_entries), "    </ul>"]
+    if gsoc_count:
+        page += [
+            "    <h2>Google Summer of Code</h2>",
+            "    <ul>",
+            *links([("gsoc/", "Projects from recent GSoC orgs", gsoc_count)]),
+            "    </ul>",
+        ]
     page += ["  </main>", "</body>", "</html>", ""]
     path = ROOT / "site" / "beginner" / "index.html"
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -1413,7 +1447,12 @@ def render_beginner_hub(
 
 
 def render_sitemap(
-    languages: list[str], generated_at: str, page_slugs: Iterable[str] = (), topic_slugs: Iterable[str] = ()
+    languages: list[str],
+    generated_at: str,
+    page_slugs: Iterable[str] = (),
+    topic_slugs: Iterable[str] = (),
+    *,
+    gsoc: bool = False,
 ) -> None:
     """Write site/sitemap.xml: the home page, the feed index and one beginner search per language.
 
@@ -1426,6 +1465,8 @@ def render_sitemap(
         urls.append(f"{SITE_URL}beginner/")
     urls += [f"{SITE_URL}beginner/{slug}/" for slug in page_slugs]
     urls += [f"{SITE_URL}beginner/topic/{slug}/" for slug in topic_slugs]
+    if gsoc:
+        urls.append(f"{SITE_URL}beginner/gsoc/")
     urls += [f"{SITE_URL}?{urllib.parse.urlencode({'language': name, 'level': 'beginner'})}" for name in languages]
     urlset = ET.Element("urlset", {"xmlns": "http://www.sitemaps.org/schemas/sitemap/0.9"})
     for loc in urls:

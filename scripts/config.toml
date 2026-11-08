@@ -139,3 +139,17 @@ keywords = ["finance", "fintech", "blockchain", "ethereum", "crypto", "cryptocur
 [topics.accessibility]
 title = "Accessibility"
 keywords = ["accessibility", "a11y", "wcag", "aria", "screen-reader*", "screenreader*", "assistive-technology"]
+
+# GitHub owners of orgs that took part in recent Google Summer of Code rounds
+# (summerofcode.withgoogle.com/archive). Feeds site/beginner/gsoc/. Owners we
+# don't track yet are simply skipped, so it's fine to list the whole org list.
+[gsoc]
+owners = [
+  "apache", "ArduPilot", "ankidroid", "audacity", "cert-manager", "commons-app",
+  "cvxpy", "dask", "FluxML", "fossology", "FreeCAD", "jaegertracing",
+  "jenkinsci", "JuliaDocs", "JuliaDynamics", "JuliaEditorSupport", "JuliaGPU",
+  "JuliaLang", "JuliaMolSim", "kiwix", "knative", "kubernetes", "kubernetes-sigs",
+  "kyverno", "linkerd", "meshery", "OpenRefine", "openfoodfacts", "openrocket",
+  "organicmaps", "rizinorg", "stdlib-js", "tensorflow", "thanos-io",
+  "trixi-framework", "wesnoth",
+]
