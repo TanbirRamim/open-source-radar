@@ -1152,7 +1152,10 @@ def render(config: dict[str, Any]) -> None:
         generated_at,
         gsoc_count=gsoc_count,
     )
-    render_sitemap(sorted(feed_languages), generated_at, page_slugs, topic_page_slugs, gsoc=bool(gsoc_count))
+    stats = render_stats_page(repositories, issues, generated_at)
+    render_sitemap(
+        sorted(feed_languages), generated_at, page_slugs, topic_page_slugs, gsoc=bool(gsoc_count), stats=stats
+    )
     log(f"rendered {len(language_rows)} language pages and {len(topic_rows)} topic pages")
 
 
@@ -1411,7 +1414,8 @@ def render_beginner_hub(
         '    <section class="hero">',
         f"      <h1>{title}</h1>",
         f'      <p class="lede">{description} Updated {generated_at[:16].replace("T", " ")} UTC.</p>',
-        '      <p><a href="../">Search everything on the live site</a> · <a href="../feeds/">RSS feeds</a></p>',
+        '      <p><a href="../">Search everything on the live site</a> · <a href="../feeds/">RSS feeds</a> · '
+        '<a href="../stats/">State of beginner issues</a></p>',
         "    </section>",
     ]
     # Issues opened in the last 7 days, so returning visitors see what changed.
@@ -1446,6 +1450,150 @@ def render_beginner_hub(
     path.write_text("\n".join(page), encoding="utf-8")
 
 
+STATS_MIN_EXTERNAL_PRS = 10
+STATS_TABLE_LIMIT = 15
+
+
+def render_stats_page(repositories: dict[str, Any], issues: list[dict[str, Any]], generated_at: str) -> bool:
+    """Write site/stats/index.html: a plain, linkable snapshot of the beginner issues Radar tracks.
+
+    Everything comes from the current scan. Issue ages are for issues that are still open and
+    unclaimed, not how long issues stay free (a single snapshot can't tell that). Merge numbers
+    use the external_prs window: PRs from people outside the repo team, not first-timers only.
+    Returns False when there are no beginner issues, so no page is written.
+    """
+    beginner = [i for i in issues if i["level"] == "beginner" and i["repo"] in repositories]
+    if not beginner:
+        return False
+    today = iso_to_datetime(generated_at).date()
+
+    def age(issue: dict[str, Any]) -> int:
+        return (today - dt.date.fromisoformat(issue["created"])).days
+
+    ages = [age(i) for i in beginner if i.get("created")]
+    by_language: dict[str, list[int]] = {}
+    for issue in beginner:
+        if issue.get("created"):
+            by_language.setdefault(repositories[issue["repo"]]["language"] or "Other", []).append(age(issue))
+    languages = sorted(by_language.items(), key=lambda kv: (-len(kv[1]), kv[0].lower()))[:STATS_TABLE_LIMIT]
+    beginner_counts: dict[str, int] = {}
+    for issue in beginner:
+        beginner_counts[issue["repo"]] = beginner_counts.get(issue["repo"], 0) + 1
+    welcoming = []
+    for name, count in beginner_counts.items():
+        ext = repositories[name].get("external_prs") or {}
+        if (ext.get("created_in_window") or 0) < STATS_MIN_EXTERNAL_PRS or ext.get("merge_rate") is None:
+            continue
+        if ext.get("median_time_to_merge_hours") is None:
+            continue
+        welcoming.append((name, count, ext))
+    welcoming.sort(key=lambda row: (-row[2]["merge_rate"], row[2]["median_time_to_merge_hours"], row[0].lower()))
+    welcoming = welcoming[:STATS_TABLE_LIMIT]
+    replied = sum(bool(i.get("maintainer_replied")) for i in beginner)
+    fresh = sum(a <= 30 for a in ages)
+    median_age = round(statistics.median(ages)) if ages else 0
+
+    def cell(text: Any) -> str:
+        return f"<td>{html.escape(str(text))}</td>"
+
+    def hours(value: float) -> str:
+        if value < 1:
+            return "under 1 h"
+        return f"{value:.0f} h" if value < 48 else f"{value / 24:.0f} days"
+
+    url = f"{SITE_URL}stats/"
+    stamp = generated_at[:16].replace("T", " ")
+    month = today.strftime("%B %Y")
+    title = f"State of beginner issues, {month}"
+    description = (
+        f"{len(beginner)} open, unclaimed beginner issues across {len(beginner_counts)} projects: "
+        "which languages have the most, how old they are, and which projects merge outside PRs."
+    )
+    page = [
+        "<!doctype html>",
+        '<html lang="en">',
+        "<head>",
+        '  <meta charset="utf-8">',
+        '  <meta name="viewport" content="width=device-width, initial-scale=1">',
+        f"  <title>{html.escape(title)} | Open Source Radar</title>",
+        f'  <meta name="description" content="{html.escape(description, quote=True)}">',
+        f'  <link rel="canonical" href="{url}">',
+        f'  <meta property="og:title" content="{html.escape(title, quote=True)}">',
+        f'  <meta property="og:description" content="{html.escape(description, quote=True)}">',
+        '  <meta property="og:type" content="article">',
+        f'  <meta property="og:url" content="{url}">',
+        f'  <meta property="og:image" content="{SITE_URL}assets/og.png">',
+        '  <link rel="stylesheet" href="../assets/style.css">',
+        "  <script>",
+        '    try { const t = localStorage.getItem("radar-theme"); '
+        "if (t) document.documentElement.dataset.theme = t; } catch (e) {}",
+        "  </script>",
+        "</head>",
+        "<body>",
+        '  <main class="wrap">',
+        '    <section class="hero">',
+        f"      <h1>{html.escape(title)}</h1>",
+        f'      <p class="lede">{html.escape(description)} Snapshot from {stamp} UTC.</p>',
+        '      <p><a href="../">Search the issues</a> · <a href="../beginner/">By language and topic</a></p>',
+        "    </section>",
+        "    <h2>The short version</h2>",
+        "    <ul>",
+        f"      <li>{len(beginner)} beginner issues are open with nobody assigned, "
+        f"in {len(by_language)} languages.</li>",
+        f"      <li>Half of them are older than {median_age} days. {fresh} were opened in the last 30 days.</li>",
+        f"      <li>A maintainer has replied on {round(100 * replied / len(beginner))}% of them.</li>",
+        "    </ul>",
+        "    <h2>Languages with the most free beginner issues</h2>",
+        "    <table>",
+        "      <tr><th>Language</th><th>Issues</th><th>Median age</th><th>Opened in last 30 days</th></tr>",
+    ]
+    for language, language_ages in languages:
+        page.append(
+            "      <tr>"
+            + cell(language)
+            + cell(len(language_ages))
+            + cell(f"{round(statistics.median(language_ages))} days")
+            + cell(sum(a <= 30 for a in language_ages))
+            + "</tr>"
+        )
+    page.append("    </table>")
+    if welcoming:
+        page += [
+            "    <h2>Projects that merge outside contributors</h2>",
+            f"    <p>Projects with free beginner issues and at least {STATS_MIN_EXTERNAL_PRS} PRs from people "
+            "outside the team in the last 90 days, sorted by how many of those got merged.</p>",
+            "    <table>",
+            "      <tr><th>Project</th><th>Merged</th><th>Median time to merge</th><th>Free beginner issues</th></tr>",
+        ]
+        for name, count, ext in welcoming:
+            link = f'<a href="https://github.com/{html.escape(name, quote=True)}">{html.escape(name)}</a>'
+            page.append(
+                f"      <tr><td>{link}</td>"
+                + cell(f"{round(100 * ext['merge_rate'])}% of {ext['created_in_window']}")
+                + cell(hours(ext["median_time_to_merge_hours"]))
+                + cell(count)
+                + "</tr>"
+            )
+        page.append("    </table>")
+    page += [
+        "    <h2>How this is counted</h2>",
+        '    <p class="muted">Beginner issues are open issues with a newcomer label (good first issue and similar), '
+        "no assignee, no open or merged PR linked and no recent claim comment, from active projects Radar "
+        "scans twice a day. Ages are for issues "
+        "still open today, so they say how long the current ones have waited, not how fast issues get picked up. "
+        "Merge numbers cover the last 100 PRs at most, from authors who are not owners, members or collaborators. "
+        "The raw data is in the repo.</p>",
+        "  </main>",
+        "</body>",
+        "</html>",
+        "",
+    ]
+    path = ROOT / "site" / "stats" / "index.html"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text("\n".join(page), encoding="utf-8")
+    return True
+
+
 def render_sitemap(
     languages: list[str],
     generated_at: str,
@@ -1453,6 +1601,7 @@ def render_sitemap(
     topic_slugs: Iterable[str] = (),
     *,
     gsoc: bool = False,
+    stats: bool = False,
 ) -> None:
     """Write site/sitemap.xml: the home page, the feed index and one beginner search per language.
 
@@ -1467,6 +1616,8 @@ def render_sitemap(
     urls += [f"{SITE_URL}beginner/topic/{slug}/" for slug in topic_slugs]
     if gsoc:
         urls.append(f"{SITE_URL}beginner/gsoc/")
+    if stats:
+        urls.append(f"{SITE_URL}stats/")
     urls += [f"{SITE_URL}?{urllib.parse.urlencode({'language': name, 'level': 'beginner'})}" for name in languages]
     urlset = ET.Element("urlset", {"xmlns": "http://www.sitemaps.org/schemas/sitemap/0.9"})
     for loc in urls:

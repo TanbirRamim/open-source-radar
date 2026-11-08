@@ -2093,6 +2093,49 @@ class TopicPageTests(unittest.TestCase):
         self.assertIn("<loc>https://tanbirramim.github.io/open-source-radar/beginner/topic/web/</loc>", sitemap)
 
 
+class StatsPageTests(unittest.TestCase):
+    def test_stats_page_counts_languages_ages_and_welcoming_projects(self):
+        import tempfile
+
+        ext = {"created_in_window": 20, "merged_in_window": 18, "merge_rate": 0.9, "median_time_to_merge_hours": 30.0}
+        repositories = {
+            "a/b": {"language": "Go", "external_prs": ext},
+            "c/d": {"language": "Rust", "external_prs": {**ext, "created_in_window": 3}},
+            "e/f": {"language": "Go", "external_prs": {**ext, "merge_rate": 0.5, "median_time_to_merge_hours": 100}},
+            "g/h": {"language": "C", "external_prs": {**ext, "merge_rate": 0.1, "median_time_to_merge_hours": 0.2}},
+        }
+        issues = [
+            {"repo": "a/b", "level": "beginner", "created": "2026-11-01", "maintainer_replied": True},
+            {"repo": "a/b", "level": "beginner", "created": "2026-01-01"},
+            {"repo": "e/f", "level": "beginner", "created": "2026-10-30"},
+            {"repo": "c/d", "level": "beginner", "created": "2026-11-07"},
+            {"repo": "c/d", "level": "help-wanted", "created": "2020-01-01"},
+            {"repo": "g/h", "level": "beginner", "created": "2026-11-08"},
+        ]
+        with tempfile.TemporaryDirectory() as tmp, patch.object(radar, "ROOT", Path(tmp)):
+            self.assertTrue(radar.render_stats_page(repositories, issues, "2026-11-08T10:00:00Z"))
+            page = (Path(tmp) / "site" / "stats" / "index.html").read_text(encoding="utf-8")
+            radar.render_sitemap([], "2026-11-08T10:00:00Z", stats=True)
+            sitemap = (Path(tmp) / "site" / "sitemap.xml").read_text(encoding="utf-8")
+        self.assertIn("State of beginner issues, November 2026", page)
+        self.assertIn("5 beginner issues are open with nobody assigned, in 3 languages.", page)
+        self.assertIn("A maintainer has replied on 20% of them.", page)
+        self.assertIn("<tr><td>Go</td><td>3</td><td>9 days</td><td>2</td></tr>", page)
+        self.assertLess(page.index(">a/b</a>"), page.index(">e/f</a>"))
+        self.assertNotIn(">c/d</a>", page)
+        self.assertIn("<td>90% of 20</td><td>30 h</td><td>2</td>", page)
+        self.assertIn("<td>4 days</td>", page)
+        self.assertIn("<td>under 1 h</td>", page)
+        self.assertIn("<loc>https://tanbirramim.github.io/open-source-radar/stats/</loc>", sitemap)
+
+    def test_no_page_without_beginner_issues(self):
+        import tempfile
+
+        with tempfile.TemporaryDirectory() as tmp, patch.object(radar, "ROOT", Path(tmp)):
+            self.assertFalse(radar.render_stats_page({}, [], "2026-11-08T10:00:00Z"))
+            self.assertFalse((Path(tmp) / "site" / "stats").exists())
+
+
 class BeginnerHubTests(unittest.TestCase):
     def test_hub_links_every_page_with_counts_and_is_in_sitemap(self):
         import tempfile
