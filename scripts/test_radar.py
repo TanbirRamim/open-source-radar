@@ -262,6 +262,23 @@ class RecentlyClaimedTests(unittest.TestCase):
         quoted = comment("Noted, thanks.\n\n> Can I work on this?")
         self.assertFalse(radar.recently_claimed(issue(comments={"nodes": [quoted]}), CLAIM_SINCE))
 
+    def test_pick_this_up_is_a_claim(self):
+        for body in ("I'm a native hungarian speaker. Can I pick this up?", "Hi, I'm interested in picking this up."):
+            self.assertTrue(radar.recently_claimed(issue(comments={"nodes": [comment(body)]}), CLAIM_SINCE), body)
+        invite = comment("Anyone can pick this up, PRs welcome.")
+        self.assertFalse(radar.recently_claimed(issue(comments={"nodes": [invite]}), CLAIM_SINCE))
+
+    def test_bot_comment_after_claim_keeps_the_claim(self):
+        claim = comment("Can I pick this up?", author={"login": "someone", "__typename": "User"})
+        for author in ({"login": "carsonbot", "__typename": "User"}, {"login": "stale", "__typename": "Bot"}):
+            ping = comment("We're still looking for a native speaker.", createdAt="2026-09-12T00:00:00Z", author=author)
+            self.assertTrue(radar.recently_claimed(issue(comments={"nodes": [claim, ping]}), CLAIM_SINCE))
+
+    def test_human_reply_after_claim_clears_it(self):
+        claim = comment("Can I pick this up?", author={"login": "someone", "__typename": "User"})
+        reply = comment("No need to ask, just open a PR.", createdAt="2026-09-12T00:00:00Z", author={"login": "maint"})
+        self.assertFalse(radar.recently_claimed(issue(comments={"nodes": [claim, reply]}), CLAIM_SINCE))
+
 
 class PolicyRefreshTests(unittest.TestCase):
     cutoff = dt.datetime(2026, 10, 15, tzinfo=dt.UTC)
@@ -747,9 +764,12 @@ class SafetyTests(unittest.TestCase):
 
 
 class QueryTests(unittest.TestCase):
-    def test_query_requests_association_without_fetching_more_comments(self):
+    def test_query_requests_two_comments_with_authors(self):
         query = radar.build_repo_query(["owner/repo"], ["good first issue"], 5)
-        self.assertIn("comments(last: 1) { totalCount nodes { createdAt body authorAssociation } }", query)
+        self.assertIn(
+            "comments(last: 2) { totalCount nodes { createdAt body authorAssociation author { login __typename } } }",
+            query,
+        )
 
     def test_query_quotes_names_and_labels(self):
         query = radar.build_repo_query(['own"er/na"me'], ['good "first"'], 5)

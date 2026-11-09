@@ -271,7 +271,7 @@ def build_repo_query(repos: list[str], labels: list[str], per_repo: int) -> str:
            filterBy: {{labels: {label_list}}}) {{
       nodes {{
         number title url createdAt updatedAt locked
-        comments(last: 1) {{ totalCount nodes {{ createdAt body authorAssociation }} }}
+        comments(last: 2) {{ totalCount nodes {{ createdAt body authorAssociation author {{ login __typename }} }} }}
         assignees {{ totalCount }}
         labels(first: 10) {{ nodes {{ name color }} }}
         timelineItems(itemTypes: [CONNECTED_EVENT, CROSS_REFERENCED_EVENT], last: 20) {{
@@ -341,7 +341,10 @@ CLAIM_PATTERN = re.compile(
     r"\bi(?:'d| would) be happy to (?:work on|take|pick up|tackle|handle) (?:this|it|the issue)\b|"
     r"\b(?:please )?assign me\b|"
     r"\b(?:please )?assign (?:this |it )?(?:issue )?to me\b|"
-    r"\blet me (?:work on|take|handle|try)\b",
+    r"\blet me (?:work on|take|handle|try)\b|"
+    r"\b(?:(?:can|could|may) i|i(?:'d| would) (?:like|love) to|i(?:'ll| will| can)) "
+    r"(?:pick|take) (?:this|it) (?:up|on)\b|"
+    r"\bi(?:'m| am) interested in (?:picking|taking) (?:this|it) (?:up|on)\b",
     re.IGNORECASE,
 )
 QUOTED_REPLY = re.compile(r"^>.*$|\n\s*On .{0,120}wrote:.*", re.MULTILINE | re.DOTALL)
@@ -350,16 +353,24 @@ QUOTED_REPLY = re.compile(r"^>.*$|\n\s*On .{0,120}wrote:.*", re.MULTILINE | re.D
 def has_maintainer_reply(issue: dict[str, Any]) -> bool:
     """True when a fetched comment is from an owner, member or collaborator.
 
-    The query fetches only the latest comment, so older replies can be missed.
+    The query fetches only the latest two comments, so older replies can be missed.
     """
     nodes = (issue.get("comments") or {}).get("nodes") or []
     return any(node and node.get("authorAssociation") in ("OWNER", "MEMBER", "COLLABORATOR") for node in nodes)
 
 
+def is_bot_comment(node: dict[str, Any]) -> bool:
+    """True for comments from bots (stale/ping bots), which shouldn't clear a human's claim."""
+    author = node.get("author") or {}
+    login = (author.get("login") or "").lower()
+    return author.get("__typename") == "Bot" or login.endswith("[bot]") or login.endswith("bot")
+
+
 def recently_claimed(issue: dict[str, Any], claimed_since: dt.datetime) -> bool:
-    """True when the latest comment is a recent request to take the issue. Any later reply,
-    such as a maintainer saying "we don't assign issues, just open a PR", clears the claim."""
-    nodes = [node for node in (issue.get("comments") or {}).get("nodes") or [] if node]
+    """True when the latest human comment is a recent request to take the issue. Any later reply,
+    such as a maintainer saying "we don't assign issues, just open a PR", clears the claim.
+    Bot comments (stale or ping bots) are skipped so they don't hide a claim."""
+    nodes = [node for node in (issue.get("comments") or {}).get("nodes") or [] if node and not is_bot_comment(node)]
     if not nodes:
         return False
     latest = nodes[-1]
