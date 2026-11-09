@@ -64,4 +64,4 @@ Se sei riuscito a completare tutte e tre le attività, probabilmente la issue ha
 - [ ] Ho riprodotto il problema oppure so esattamente dove apportare la modifica.
 - [ ] I manutentori non stanno ancora discutendo sull'approccio da seguire.
 
-Successivo: [La tua prima pull request, passo dopo passo](../05-first-pull-request.md) (in inglese)
+Successivo: [La tua prima pull request, passo dopo passo](05-first-pull-request.md)
