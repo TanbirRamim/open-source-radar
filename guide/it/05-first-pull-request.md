@@ -10,8 +10,8 @@ Un **fork** è una tua copia del repository su GitHub. Effettui il push delle mo
 gh repo fork OWNER/REPO --clone
 cd REPO
 git remote -v
-# origin    https://github.com/your-username/REPO.git  (your fork)
-# upstream  https://github.com/OWNER/REPO.git          (the original)
+# origin    https://github.com/your-username/REPO.git  (il tuo fork)
+# upstream  https://github.com/OWNER/REPO.git          (l'originale)
 ```
 
 Senza GitHub CLI: fai clic su **Fork** nella pagina del repository, quindi:
@@ -30,7 +30,7 @@ Non lavorare mai sul branch predefinito del tuo fork. Inizia ogni modifica parte
 
 ```bash
 git fetch upstream
-git switch -c fix-empty-username upstream/main   # use the project's default branch name
+git switch -c fix-empty-username upstream/main   # usa il nome del branch predefinito del progetto
 ```
 
 Assegna ai branch nomi che descrivano la modifica, come `fix-empty-username` o `docs-install-windows`.
@@ -91,16 +91,16 @@ Fixes #1234
 - Prima riga: un breve riepilogo, spesso preceduto dall'area interessata o da un tipo secondo le convenzioni di [Conventional Commits](https://www.conventionalcommits.org), come `fix:` o `docs:`.
 - Corpo: descrivi cosa non funzionava e perché questa modifica risolve il problema.
 - `Fixes #1234` chiude automaticamente la issue quando la PR viene unita.
-- Se il progetto richiede la firma DCO, utilizza `git commit -s` (vedi il capitolo 6).
+- Se il progetto richiede la firma DCO, utilizza `git commit -s` (vedi il [capitolo 6](../06-rules-before-you-start.md), in inglese).
 
 ## 9. Esegui il push e apri la pull request
 
 ```bash
 git push -u origin fix-empty-username
-gh pr create --repo OWNER/REPO --fill   # or open the link git prints, in your browser
+gh pr create --repo OWNER/REPO --fill   # oppure apri nel browser il link stampato da git
 ```
 
-Compila il modello della pull request del progetto, se disponibile. Il capitolo 7 spiega come scrivere una buona descrizione. In breve: indica cosa non funzionava, cosa hai modificato, come hai eseguito i test e quale issue viene risolta.
+Compila il modello della pull request del progetto, se disponibile. Il [capitolo 7](../07-communication.md) (in inglese) spiega come scrivere una buona descrizione. In breve: indica cosa non funzionava, cosa hai modificato, come hai eseguito i test e quale issue viene risolta.
 
 ## 10. Mantieni aggiornato il tuo branch
 
@@ -109,7 +109,7 @@ Se il branch upstream avanza prima che la tua PR venga unita e si verificano con
 ```bash
 git fetch upstream
 git rebase upstream/main
-# fix any conflicts, then: git add <files> && git rebase --continue
+# risolvi eventuali conflitti, poi: git add <file> && git rebase --continue
 git push --force-with-lease
 ```
 
