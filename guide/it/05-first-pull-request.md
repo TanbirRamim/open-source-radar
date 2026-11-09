@@ -136,4 +136,4 @@ Questo metodo è adatto solo a piccole modifiche testuali. Qualsiasi modifica ch
 - [ ] Il messaggio del commit segue le convenzioni del progetto e fa riferimento alla issue.
 - [ ] Ho compilato il modello della PR.
 
-Successivo: [Regole da verificare prima di iniziare](06-rules-before-you-start.md)
+Successivo: [Regole da verificare prima di iniziare](../06-rules-before-you-start.md) (in inglese)
