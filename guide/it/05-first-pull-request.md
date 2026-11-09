@@ -37,7 +37,7 @@ Assegna ai branch nomi che descrivano la modifica, come `fix-empty-username` o `
 
 ## 3. Compila il progetto ed esegui i test prima di modificare qualsiasi cosa
 
-Segui le indicazioni contenute nel file `CONTRIBUTING.md` o `DEVELOPMENT.md` del progetto. Le [guide rapide per i linguaggi](../languages/README.md) mostrano i comandi più comuni. Esegui prima i test sul codice originale, senza modifiche:
+Segui le indicazioni contenute nel file `CONTRIBUTING.md` o `DEVELOPMENT.md` del progetto. Le [guide rapide per i linguaggi](../../languages/README.md) mostrano i comandi più comuni. Esegui prima i test sul codice originale, senza modifiche:
 
 - Se vengono superati, hai una base di partenza funzionante.
 - Se alcuni test falliscono già, annota quali sono. Quei problemi non dipendono da te e dovresti segnalarli nella tua PR, se pertinenti.
