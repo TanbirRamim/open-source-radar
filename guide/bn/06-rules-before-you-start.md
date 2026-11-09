@@ -37,7 +37,7 @@ DCO হলো CLA-এর তুলনায় সহজ একটি বিক�
 
 ```bash
 git commit -s -m "fix: handle empty username"
-# adds: Signed-off-by: Your Name <you@example.com>
+# যোগ করে: Signed-off-by: Your Name <you@example.com>
 ```
 
 Pull Request-এর প্রতিটি commit পরীক্ষা করার জন্য একটি DCO bot কাজ করে। আপনি sign-off দিতে ভুলে গেলে নিচের command ব্যবহার করে ঠিক করতে পারেন:
@@ -93,4 +93,4 @@ Spam-এর কারণে কিছু প্রজেক্টে এমন w
 - [ ] আমার PR স্বয়ংক্রিয়ভাবে বন্ধ হয়ে যেতে পারে কি না, তা জানতে `.github/workflows/` পরীক্ষা করেছি।
 - [ ] AI-এর সাহায্য নিয়ে থাকলে সেটি কীভাবে এবং জানানো বাধ্যতামূলক কি না, তা আমি জানি।
 
-পরবর্তী ধাপ: [Maintainer-দের সঙ্গে যোগাযোগ](../07-communication.md)
+পরবর্তী: [Talking to maintainers](../07-communication.md)
