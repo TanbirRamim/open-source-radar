@@ -1,5 +1,53 @@
 /* Open Source Radar */
 
+/* Metric-matched fallbacks: the web fonts load without blocking render, and these
+   stand in until they arrive with nearly the same glyph widths and line heights,
+   so the swap doesn't move the layout. Numbers come from each font's hmtx/hhea. */
+@font-face {
+  font-family: "Radar Display Fallback";
+  src: local("Arial"), local("ArialMT"), local("Liberation Sans"), local("Helvetica");
+  font-weight: 100 599;
+  size-adjust: 106.1%;
+  ascent-override: 87.65%;
+  descent-override: 25.45%;
+  line-gap-override: 0%;
+}
+@font-face {
+  font-family: "Radar Display Fallback";
+  src: local("Arial Bold"), local("Arial-BoldMT"), local("Liberation Sans Bold"), local("Helvetica Bold");
+  font-weight: 600 900;
+  size-adjust: 92.94%;
+  ascent-override: 100.06%;
+  descent-override: 29.05%;
+  line-gap-override: 0%;
+}
+@font-face {
+  font-family: "Radar Body Fallback";
+  src: local("Arial"), local("ArialMT"), local("Liberation Sans"), local("Helvetica");
+  font-weight: 100 599;
+  size-adjust: 99.15%;
+  ascent-override: 95.81%;
+  descent-override: 29.25%;
+  line-gap-override: 0%;
+}
+@font-face {
+  font-family: "Radar Body Fallback";
+  src: local("Arial Bold"), local("Arial-BoldMT"), local("Liberation Sans Bold"), local("Helvetica Bold");
+  font-weight: 600 900;
+  size-adjust: 100.04%;
+  ascent-override: 94.96%;
+  descent-override: 28.99%;
+  line-gap-override: 0%;
+}
+@font-face {
+  font-family: "Radar Code Fallback";
+  src: local("Courier New"), local("CourierNewPSMT"), local("Liberation Mono");
+  size-adjust: 99.98%;
+  ascent-override: 102.02%;
+  descent-override: 30%;
+  line-gap-override: 0%;
+}
+
 :root {
   --paper: #EAF0F5;
   --surface: #F7FAFC;
@@ -14,9 +62,9 @@
   --warn-wash: #F6DDD8;
   --focus: #1D6FD8;
 
-  --font-display: "Bricolage Grotesque", "Avenir Next Condensed", "Arial Narrow", sans-serif;
-  --font-body: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
-  --font-code: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  --font-display: "Bricolage Grotesque", "Radar Display Fallback", sans-serif;
+  --font-body: "Atkinson Hyperlegible", "Radar Body Fallback", sans-serif;
+  --font-code: "JetBrains Mono", "Radar Code Fallback", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
 
   --step--1: 0.875rem;
   --step-0: 1rem;
@@ -580,6 +628,8 @@ a:hover { text-decoration-thickness: 2px; }
 .site-nav a.star-cta:hover { border-color: var(--amber); text-decoration: none; }
 .star-icon { width: 1em; height: 1em; fill: var(--amber); }
 .star-cta .repo-stars { margin-left: 0.15em; border: 0; padding: 0; font-weight: 400; color: var(--ink-soft); }
+/* The count arrives from the API after first paint; keep its room so the header doesn't reflow. */
+.star-cta .repo-stars { display: inline-block; min-width: 2.4ch; }
 
 .season-banner {
   margin-top: 1rem;

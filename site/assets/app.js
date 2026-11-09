@@ -63,7 +63,6 @@
       if (!repo || typeof repo.stargazers_count !== "number") return;
       const stars = document.getElementById("repo-stars");
       stars.textContent = compact.format(repo.stargazers_count);
-      stars.hidden = false;
     })
     .catch(() => {});
 

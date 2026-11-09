@@ -24,9 +24,9 @@
     href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><circle cx='32' cy='32' r='28' fill='none' stroke='%230E7C72' stroke-width='6'/><circle cx='32' cy='32' r='14' fill='none' stroke='%230E7C72' stroke-width='6'/><circle cx='32' cy='32' r='5' fill='%23C2710C'/></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=JetBrains+Mono:wght@400;600&display=swap"
-    rel="stylesheet">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=JetBrains+Mono:wght@400;600&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=JetBrains+Mono:wght@400;600&display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=JetBrains+Mono:wght@400;600&display=swap"></noscript>
   <link rel="stylesheet" href="assets/style.css">
   <script>
     try { const t = localStorage.getItem("radar-theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) { }
@@ -63,7 +63,7 @@
       <a href="https://github.com/TanbirRamim/open-source-radar" class="repo-link star-cta"
         target="_blank" rel="noopener"><svg class="star-icon" viewBox="0 0 24 24" aria-hidden="true"><path
             d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z" /></svg><span
-          data-i18n="nav.star">Star</span><span class="repo-stars" id="repo-stars" hidden></span></a>
+          data-i18n="nav.star">Star</span><span class="repo-stars" id="repo-stars"></span></a>
       <label class="locale-picker">
         <span class="visually-hidden" data-i18n="locale.label">Interface language</span>
         <select id="locale-select" aria-label="Interface language" data-i18n-aria-label="locale.label">
