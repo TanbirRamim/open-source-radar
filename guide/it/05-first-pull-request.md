@@ -1,4 +1,3 @@
-
 # 5. La tua prima pull request, passo dopo passo
 
 Questo è il flusso di lavoro completo, dal fork all'apertura di una pull request. Sostituisci `OWNER/REPO` con il progetto e `your-username` con il tuo nome utente GitHub.
