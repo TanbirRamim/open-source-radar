@@ -1537,6 +1537,7 @@ def render_stats_page(repositories: dict[str, Any], issues: list[dict[str, Any]]
         '  <meta property="og:type" content="article">',
         f'  <meta property="og:url" content="{url}">',
         f'  <meta property="og:image" content="{SITE_URL}assets/og.png">',
+        '  <link rel="alternate" type="application/json" href="stats.json">',
         '  <link rel="stylesheet" href="../assets/style.css">',
         "  <script>",
         '    try { const t = localStorage.getItem("radar-theme"); '
@@ -1599,7 +1600,7 @@ def render_stats_page(repositories: dict[str, Any], issues: list[dict[str, Any]]
         "scans twice a day. Ages are for issues "
         "still open today, so they say how long the current ones have waited, not how fast issues get picked up. "
         "Merge numbers cover the last 100 PRs at most, from authors who are not owners, members or collaborators. "
-        "The raw data is in the repo.</p>",
+        'The same numbers are in <a href="stats.json">stats.json</a> if you want to chart or quote them.</p>',
         "  </main>",
         "</body>",
         "</html>",
@@ -1608,6 +1609,36 @@ def render_stats_page(repositories: dict[str, Any], issues: list[dict[str, Any]]
     path = ROOT / "site" / "stats" / "index.html"
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text("\n".join(page), encoding="utf-8")
+    snapshot = {
+        "generated_at": generated_at,
+        "url": url,
+        "beginner_issues": len(beginner),
+        "projects": len(beginner_counts),
+        "languages": len(by_language),
+        "median_age_days": median_age,
+        "opened_last_30_days": fresh,
+        "maintainer_replied_share": round(replied / len(beginner), 3),
+        "by_language": [
+            {
+                "language": language,
+                "issues": len(language_ages),
+                "median_age_days": round(statistics.median(language_ages)),
+                "opened_last_30_days": sum(a <= 30 for a in language_ages),
+            }
+            for language, language_ages in languages
+        ],
+        "welcoming_projects": [
+            {
+                "repo": name,
+                "free_beginner_issues": count,
+                "external_prs": ext["created_in_window"],
+                "merge_rate": ext["merge_rate"],
+                "median_time_to_merge_hours": ext["median_time_to_merge_hours"],
+            }
+            for name, count, ext in welcoming
+        ],
+    }
+    (path.parent / "stats.json").write_text(json.dumps(snapshot, indent=2) + "\n", encoding="utf-8")
     return True
 
 

@@ -2115,6 +2115,7 @@ class StatsPageTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp, patch.object(radar, "ROOT", Path(tmp)):
             self.assertTrue(radar.render_stats_page(repositories, issues, "2026-11-08T10:00:00Z"))
             page = (Path(tmp) / "site" / "stats" / "index.html").read_text(encoding="utf-8")
+            snapshot = json.loads((Path(tmp) / "site" / "stats" / "stats.json").read_text(encoding="utf-8"))
             radar.render_sitemap([], "2026-11-08T10:00:00Z", stats=True)
             sitemap = (Path(tmp) / "site" / "sitemap.xml").read_text(encoding="utf-8")
         self.assertIn("State of beginner issues, November 2026", page)
@@ -2132,6 +2133,14 @@ class StatsPageTests(unittest.TestCase):
         self.assertIn('<time datetime="2026-11-08T10:00:00Z">2026-11-08 10:00 UTC</time>', page)
         self.assertIn('content="5 free beginner issues in 3 languages. Half are older than', page)
         self.assertIn("Most are in Go.", page)
+        self.assertIn('<link rel="alternate" type="application/json" href="stats.json">', page)
+        self.assertEqual(snapshot["beginner_issues"], 5)
+        self.assertEqual(snapshot["languages"], 3)
+        self.assertEqual(snapshot["maintainer_replied_share"], 0.2)
+        self.assertEqual(
+            snapshot["by_language"][0], {"language": "Go", "issues": 3, "median_age_days": 9, "opened_last_30_days": 2}
+        )
+        self.assertEqual([p["repo"] for p in snapshot["welcoming_projects"]], ["a/b", "e/f", "g/h"])
 
     def test_no_page_without_beginner_issues(self):
         import tempfile
