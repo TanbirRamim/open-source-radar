@@ -1,0 +1,209 @@
+{
+  "generated_at": "2026-11-08T21:59:25+00:00",
+  "url": "https://tanbirramim.github.io/open-source-radar/stats/2026-11/",
+  "beginner_issues": 1276,
+  "projects": 532,
+  "languages": 31,
+  "median_age_days": 754,
+  "opened_last_30_days": 123,
+  "maintainer_replied_share": 0.183,
+  "by_language": [
+    {
+      "language": "Java",
+      "issues": 121,
+      "median_age_days": 1220,
+      "opened_last_30_days": 5
+    },
+    {
+      "language": "Rust",
+      "issues": 117,
+      "median_age_days": 438,
+      "opened_last_30_days": 14
+    },
+    {
+      "language": "C++",
+      "issues": 116,
+      "median_age_days": 1068,
+      "opened_last_30_days": 1
+    },
+    {
+      "language": "C#",
+      "issues": 82,
+      "median_age_days": 897,
+      "opened_last_30_days": 15
+    },
+    {
+      "language": "Go",
+      "issues": 76,
+      "median_age_days": 1137,
+      "opened_last_30_days": 1
+    },
+    {
+      "language": "TypeScript",
+      "issues": 74,
+      "median_age_days": 792,
+      "opened_last_30_days": 7
+    },
+    {
+      "language": "PHP",
+      "issues": 68,
+      "median_age_days": 621,
+      "opened_last_30_days": 3
+    },
+    {
+      "language": "JavaScript",
+      "issues": 65,
+      "median_age_days": 697,
+      "opened_last_30_days": 7
+    },
+    {
+      "language": "Python",
+      "issues": 57,
+      "median_age_days": 991,
+      "opened_last_30_days": 0
+    },
+    {
+      "language": "Kotlin",
+      "issues": 54,
+      "median_age_days": 494,
+      "opened_last_30_days": 5
+    },
+    {
+      "language": "Ruby",
+      "issues": 54,
+      "median_age_days": 394,
+      "opened_last_30_days": 1
+    },
+    {
+      "language": "Swift",
+      "issues": 50,
+      "median_age_days": 409,
+      "opened_last_30_days": 2
+    },
+    {
+      "language": "Shell",
+      "issues": 45,
+      "median_age_days": 147,
+      "opened_last_30_days": 5
+    },
+    {
+      "language": "Julia",
+      "issues": 40,
+      "median_age_days": 1467,
+      "opened_last_30_days": 0
+    },
+    {
+      "language": "CSS",
+      "issues": 32,
+      "median_age_days": 7,
+      "opened_last_30_days": 27
+    }
+  ],
+  "welcoming_projects": [
+    {
+      "repo": "tchiotludo/akhq",
+      "free_beginner_issues": 2,
+      "external_prs": 10,
+      "merge_rate": 1.0,
+      "median_time_to_merge_hours": 75.6
+    },
+    {
+      "repo": "kiriwalawren/nixflix",
+      "free_beginner_issues": 2,
+      "external_prs": 20,
+      "merge_rate": 0.95,
+      "median_time_to_merge_hours": 38.2
+    },
+    {
+      "repo": "fork-commit-merge/fork-commit-merge",
+      "free_beginner_issues": 25,
+      "external_prs": 94,
+      "merge_rate": 0.9468,
+      "median_time_to_merge_hours": 16.5
+    },
+    {
+      "repo": "AllYourBot/hostedgpt",
+      "free_beginner_issues": 1,
+      "external_prs": 53,
+      "merge_rate": 0.9434,
+      "median_time_to_merge_hours": 11.3
+    },
+    {
+      "repo": "LandSandBoat/server",
+      "free_beginner_issues": 1,
+      "external_prs": 100,
+      "merge_rate": 0.94,
+      "median_time_to_merge_hours": 8.2
+    },
+    {
+      "repo": "mgaudet/CompilerJobs",
+      "free_beginner_issues": 1,
+      "external_prs": 47,
+      "merge_rate": 0.9362,
+      "median_time_to_merge_hours": 16.1
+    },
+    {
+      "repo": "ivan-hc/AM",
+      "free_beginner_issues": 1,
+      "external_prs": 45,
+      "merge_rate": 0.9111,
+      "median_time_to_merge_hours": 2.4
+    },
+    {
+      "repo": "feimacode/open-design-agent-kit",
+      "free_beginner_issues": 1,
+      "external_prs": 100,
+      "merge_rate": 0.91,
+      "median_time_to_merge_hours": 0.2
+    },
+    {
+      "repo": "scalacenter/scalafix",
+      "free_beginner_issues": 1,
+      "external_prs": 33,
+      "merge_rate": 0.9091,
+      "median_time_to_merge_hours": 76.8
+    },
+    {
+      "repo": "valeriansaliou/sonic",
+      "free_beginner_issues": 2,
+      "external_prs": 10,
+      "merge_rate": 0.9,
+      "median_time_to_merge_hours": 44.3
+    },
+    {
+      "repo": "editor-code-assistant/eca",
+      "free_beginner_issues": 1,
+      "external_prs": 37,
+      "merge_rate": 0.8919,
+      "median_time_to_merge_hours": 65.2
+    },
+    {
+      "repo": "iliyami/MacSai",
+      "free_beginner_issues": 2,
+      "external_prs": 63,
+      "merge_rate": 0.8889,
+      "median_time_to_merge_hours": 81.7
+    },
+    {
+      "repo": "serverless/serverless",
+      "free_beginner_issues": 1,
+      "external_prs": 52,
+      "merge_rate": 0.8846,
+      "median_time_to_merge_hours": 0.5
+    },
+    {
+      "repo": "walkinglabs/hands-on-modern-rl",
+      "free_beginner_issues": 1,
+      "external_prs": 26,
+      "merge_rate": 0.8846,
+      "median_time_to_merge_hours": 10.2
+    },
+    {
+      "repo": "SciSharp/LLamaSharp",
+      "free_beginner_issues": 1,
+      "external_prs": 26,
+      "merge_rate": 0.8846,
+      "median_time_to_merge_hours": 19.1
+    }
+  ]
+}

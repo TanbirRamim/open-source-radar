@@ -2150,6 +2150,35 @@ class StatsPageTests(unittest.TestCase):
             self.assertFalse((Path(tmp) / "site" / "stats").exists())
 
 
+class StatsArchiveTests(unittest.TestCase):
+    def test_month_is_written_once_and_compared_with_the_month_before(self):
+        import tempfile
+
+        repositories = {"a/b": {"language": "Go"}}
+        october = [{"repo": "a/b", "level": "beginner", "created": "2026-10-01"}]
+        november = [*october, {"repo": "a/b", "level": "beginner", "created": "2026-11-02"}]
+        with tempfile.TemporaryDirectory() as tmp, patch.object(radar, "ROOT", Path(tmp)):
+            radar.render_stats_page(repositories, october, "2026-10-03T10:00:00Z")
+            radar.render_stats_page(repositories, november, "2026-11-03T10:00:00Z")
+            # a later scan in the same month must not replace the archived one
+            radar.render_stats_page(repositories, november + october, "2026-11-20T10:00:00Z")
+            months = radar.render_stats_archive()
+            archived = json.loads((Path(tmp) / "data" / "stats" / "2026-11.json").read_text(encoding="utf-8"))
+            page = (Path(tmp) / "site" / "stats" / "2026-11" / "index.html").read_text(encoding="utf-8")
+            latest = (Path(tmp) / "site" / "stats" / "index.html").read_text(encoding="utf-8")
+            radar.render_sitemap([], "2026-11-20T10:00:00Z", stats=True, stats_months=months)
+            sitemap = (Path(tmp) / "site" / "sitemap.xml").read_text(encoding="utf-8")
+        self.assertEqual(months, ["2026-10", "2026-11"])
+        self.assertEqual(archived["beginner_issues"], 2)
+        self.assertEqual(archived["url"], "https://tanbirramim.github.io/open-source-radar/stats/2026-11/")
+        self.assertIn("State of beginner issues, November 2026", page)
+        self.assertIn("2 free beginner issues (+1 since October 2026)", page)
+        self.assertIn('rel="canonical" href="https://tanbirramim.github.io/open-source-radar/stats/2026-11/"', page)
+        self.assertIn('<li><a href="2026-11/">November 2026</a></li>', latest)
+        self.assertLess(latest.index("2026-11/"), latest.index("2026-10/"))
+        self.assertIn("<loc>https://tanbirramim.github.io/open-source-radar/stats/2026-10/</loc>", sitemap)
+
+
 class BeginnerHubTests(unittest.TestCase):
     def test_hub_links_every_page_with_counts_and_is_in_sitemap(self):
         import tempfile

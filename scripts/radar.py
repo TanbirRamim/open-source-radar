@@ -1153,8 +1153,15 @@ def render(config: dict[str, Any]) -> None:
         gsoc_count=gsoc_count,
     )
     stats = render_stats_page(repositories, issues, generated_at)
+    stats_months = render_stats_archive() if stats else []
     render_sitemap(
-        sorted(feed_languages), generated_at, page_slugs, topic_page_slugs, gsoc=bool(gsoc_count), stats=stats
+        sorted(feed_languages),
+        generated_at,
+        page_slugs,
+        topic_page_slugs,
+        gsoc=bool(gsoc_count),
+        stats=stats,
+        stats_months=stats_months,
     )
     log(f"rendered {len(language_rows)} language pages and {len(topic_rows)} topic pages")
 
@@ -1593,6 +1600,18 @@ def render_stats_page(repositories: dict[str, Any], issues: list[dict[str, Any]]
                 + "</tr>"
             )
         page.append("    </table>")
+    snapshot = build_stats_snapshot(
+        generated_at, url, beginner, beginner_counts, by_language, median_age, fresh, replied, languages, welcoming
+    )
+    archive = save_stats_snapshot(snapshot)
+    if archive:
+        page += [
+            heading("monthly", "Monthly snapshots"),
+            "    <p>One scan a month is kept as it was, so you can compare months or link to one.</p>",
+            "    <ul>",
+        ]
+        page += [f'      <li><a href="{m}/">{html.escape(month_label(m))}</a></li>' for m in reversed(archive)]
+        page.append("    </ul>")
     page += [
         heading("method", "How this is counted"),
         '    <p class="muted">Beginner issues are open issues with a newcomer label (good first issue and similar), '
@@ -1609,7 +1628,24 @@ def render_stats_page(repositories: dict[str, Any], issues: list[dict[str, Any]]
     path = ROOT / "site" / "stats" / "index.html"
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text("\n".join(page), encoding="utf-8")
-    snapshot = {
+    (path.parent / "stats.json").write_text(json.dumps(snapshot, indent=2) + "\n", encoding="utf-8")
+    return True
+
+
+def build_stats_snapshot(
+    generated_at: str,
+    url: str,
+    beginner: list[dict[str, Any]],
+    beginner_counts: dict[str, int],
+    by_language: dict[str, list[int]],
+    median_age: int,
+    fresh: int,
+    replied: int,
+    languages: list[tuple[str, list[int]]],
+    welcoming: list[tuple[str, int, dict[str, Any]]],
+) -> dict[str, Any]:
+    """The numbers behind /stats/, as written to stats.json and the monthly archive."""
+    return {
         "generated_at": generated_at,
         "url": url,
         "beginner_issues": len(beginner),
@@ -1638,8 +1674,137 @@ def render_stats_page(repositories: dict[str, Any], issues: list[dict[str, Any]]
             for name, count, ext in welcoming
         ],
     }
-    (path.parent / "stats.json").write_text(json.dumps(snapshot, indent=2) + "\n", encoding="utf-8")
-    return True
+
+
+STATS_ARCHIVE_DIR = Path("data") / "stats"
+
+
+def month_label(month: str) -> str:
+    return dt.date.fromisoformat(f"{month}-01").strftime("%B %Y")
+
+
+def stats_archive_months() -> list[str]:
+    folder = ROOT / STATS_ARCHIVE_DIR
+    if not folder.is_dir():
+        return []
+    return sorted(p.stem for p in folder.glob("????-??.json"))
+
+
+def save_stats_snapshot(snapshot: dict[str, Any]) -> list[str]:
+    """Keep the first snapshot of each month in data/stats/<YYYY-MM>.json (committed by the refresh).
+
+    An existing month is never overwritten, so the archive page for a month stays stable.
+    Returns every archived month, oldest first.
+    """
+    month = snapshot["generated_at"][:7]
+    path = ROOT / STATS_ARCHIVE_DIR / f"{month}.json"
+    if not path.exists():
+        path.parent.mkdir(parents=True, exist_ok=True)
+        archived = {**snapshot, "url": f"{SITE_URL}stats/{month}/"}
+        path.write_text(json.dumps(archived, indent=2) + "\n", encoding="utf-8")
+    return stats_archive_months()
+
+
+def render_stats_archive() -> list[str]:
+    """Write site/stats/<YYYY-MM>/index.html for every archived month, with the change since the month before."""
+    months = stats_archive_months()
+    previous: dict[str, Any] | None = None
+    for month in months:
+        snap = json.loads((ROOT / STATS_ARCHIVE_DIR / f"{month}.json").read_text(encoding="utf-8"))
+        label = month_label(month)
+        title = f"State of beginner issues, {label}"
+        url = f"{SITE_URL}stats/{month}/"
+        summary = (
+            f"{snap['beginner_issues']} free beginner issues in {snap['languages']} languages on "
+            f"{snap['generated_at'][:10]}. Half were older than {snap['median_age_days']} days."
+        )
+
+        def change(key: str, snap: dict[str, Any] = snap, previous: dict[str, Any] | None = previous) -> str:
+            if previous is None or key not in previous:
+                return ""
+            diff = snap[key] - previous[key]
+            return f" ({'+' if diff >= 0 else ''}{diff} since {month_label(previous['generated_at'][:7])})"
+
+        def cell(text: Any) -> str:
+            return f"<td>{html.escape(str(text))}</td>"
+
+        page = [
+            "<!doctype html>",
+            '<html lang="en">',
+            "<head>",
+            '  <meta charset="utf-8">',
+            '  <meta name="viewport" content="width=device-width, initial-scale=1">',
+            f"  <title>{html.escape(title)} | Open Source Radar</title>",
+            f'  <meta name="description" content="{html.escape(summary, quote=True)}">',
+            f'  <link rel="canonical" href="{url}">',
+            f'  <meta property="og:title" content="{html.escape(title, quote=True)}">',
+            f'  <meta property="og:description" content="{html.escape(summary, quote=True)}">',
+            '  <meta property="og:type" content="article">',
+            f'  <meta property="og:url" content="{url}">',
+            f'  <meta property="og:image" content="{SITE_URL}assets/og.png">',
+            '  <link rel="stylesheet" href="../../assets/style.css">',
+            "  <script>",
+            '    try { const t = localStorage.getItem("radar-theme"); '
+            "if (t) document.documentElement.dataset.theme = t; } catch (e) {}",
+            "  </script>",
+            "</head>",
+            "<body>",
+            '  <main class="wrap">',
+            '    <section class="hero">',
+            f"      <h1>{html.escape(title)}</h1>",
+            f'      <p class="lede">The {html.escape(label)} snapshot, kept as it was.</p>',
+            f'      <p class="muted">Taken <time datetime="{html.escape(snap["generated_at"], quote=True)}">'
+            f"{snap['generated_at'][:16].replace('T', ' ')} UTC</time>.</p>",
+            '      <p><a href="../">Latest numbers</a> · <a href="../../">Search the issues</a></p>',
+            "    </section>",
+            "    <ul>",
+            f"      <li>{snap['beginner_issues']} free beginner issues{change('beginner_issues')}, "
+            f"in {snap['languages']} languages and {snap['projects']} projects{change('projects')}.</li>",
+            f"      <li>Half were older than {snap['median_age_days']} days{change('median_age_days')}. "
+            f"{snap['opened_last_30_days']} were opened in the 30 days before.</li>",
+            f"      <li>A maintainer had replied on {round(100 * snap['maintainer_replied_share'])}% of them.</li>",
+            "    </ul>",
+            "    <h2>Languages</h2>",
+            "    <table>",
+            "      <tr><th>Language</th><th>Issues</th><th>Median age</th></tr>",
+        ]
+        for row in snap["by_language"]:
+            page.append(
+                "      <tr>"
+                + cell(row["language"])
+                + cell(row["issues"])
+                + cell(f"{row['median_age_days']} days")
+                + "</tr>"
+            )
+        page.append("    </table>")
+        if snap["welcoming_projects"]:
+            page += [
+                "    <h2>Projects that merged outside contributors</h2>",
+                "    <table>",
+                "      <tr><th>Project</th><th>Merged</th><th>Free beginner issues</th></tr>",
+            ]
+            for row in snap["welcoming_projects"]:
+                repo = html.escape(row["repo"], quote=True)
+                page.append(
+                    f'      <tr><td><a href="https://github.com/{repo}">{repo}</a></td>'
+                    + cell(f"{round(100 * row['merge_rate'])}% of {row['external_prs']}")
+                    + cell(row["free_beginner_issues"])
+                    + "</tr>"
+                )
+            page.append("    </table>")
+        page += [
+            f'    <p class="muted">Raw numbers: <a href="https://github.com/TanbirRamim/open-source-radar/blob/main/'
+            f'data/stats/{month}.json">data/stats/{month}.json</a>.</p>',
+            "  </main>",
+            "</body>",
+            "</html>",
+            "",
+        ]
+        path = ROOT / "site" / "stats" / month / "index.html"
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text("\n".join(page), encoding="utf-8")
+        previous = snap
+    return months
 
 
 def render_sitemap(
@@ -1650,6 +1815,7 @@ def render_sitemap(
     *,
     gsoc: bool = False,
     stats: bool = False,
+    stats_months: Iterable[str] = (),
 ) -> None:
     """Write site/sitemap.xml: the home page, the feed index and one beginner search per language.
 
@@ -1666,6 +1832,7 @@ def render_sitemap(
         urls.append(f"{SITE_URL}beginner/gsoc/")
     if stats:
         urls.append(f"{SITE_URL}stats/")
+        urls += [f"{SITE_URL}stats/{month}/" for month in stats_months]
     urls += [f"{SITE_URL}?{urllib.parse.urlencode({'language': name, 'level': 'beginner'})}" for name in languages]
     urlset = ET.Element("urlset", {"xmlns": "http://www.sitemaps.org/schemas/sitemap/0.9"})
     for loc in urls:
