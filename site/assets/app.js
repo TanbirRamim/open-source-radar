@@ -385,7 +385,8 @@
     repoLink.textContent = issue.repo;
     const onlyRepo = node.querySelector(".only-repo");
     onlyRepo.textContent = t("issue.onlyProject");
-    onlyRepo.setAttribute("aria-label", t("issue.onlyAria", { name: issue.repo }));
+    // Keep the visible text as the accessible name (WCAG 2.5.3); the repo goes in the tooltip.
+    onlyRepo.title = t("issue.onlyAria", { name: issue.repo });
     onlyRepo.addEventListener("click", () => setRepo(issue.repo));
     node.querySelector(".stars").textContent = t("repo.stars", { count: compact.format(repo.stars) });
     node.querySelector(".lang").textContent = repo.language || "";
