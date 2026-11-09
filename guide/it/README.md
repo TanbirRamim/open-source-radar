@@ -10,7 +10,7 @@ Un percorso pratico da «Voglio contribuire» a «La mia pull request è stata u
 | 2 | [Configurare i tuoi strumenti](02-setup.md) |
 | 3 | [Scegliere un progetto](03-choose-a-project.md) |
 | 4 | [Trovare una issue che puoi completare](04-find-an-issue.md) |
-| 5 | [La tua prima pull request](../05-first-pull-request.md) (Inglese) |
+| 5 | [La tua prima pull request, passo dopo passo](05-first-pull-request.md) |
 | 6 | [Regole da verificare prima di iniziare](../06-rules-before-you-start.md) (Inglese) |
 | 7 | [Comunicare con i maintainer](../07-communication.md) (Inglese) |
 | 8 | [Revisioni, feedback e rifiuti](../08-reviews.md) (Inglese) |
