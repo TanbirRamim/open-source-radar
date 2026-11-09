@@ -18,6 +18,10 @@ Found it useful? A star helps other newcomers find the radar.
 
 </div>
 
+[![The Open Source Radar website: a search box, filters for language, topic and level, and a list of open beginner issues with project rules like CLA or AI disclosure](docs/img/site.jpg)](https://tanbirramim.github.io/open-source-radar/)
+
+New here? Start with the [beginner hub](https://tanbirramim.github.io/open-source-radar/beginner/). Curious how many beginner issues actually stay free? See the [stats page](https://tanbirramim.github.io/open-source-radar/stats/).
+
 ## Right now on the radar
 
 <!-- RADAR:STATS:START -->
