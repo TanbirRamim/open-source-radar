@@ -931,6 +931,7 @@ def render_language_feeds(
         "<head>",
         '  <meta charset="utf-8">',
         '  <meta name="viewport" content="width=device-width, initial-scale=1">',
+        '  <link rel="icon" href="../assets/icon.svg" type="image/svg+xml">',
         '  <link rel="stylesheet" href="../assets/style.css">',
         "  <title>RSS feeds</title>",
         # Apply the light/dark choice saved by the main site, like site/index.html does.
@@ -1334,6 +1335,7 @@ def _write_beginner_page(
             if feed
             else []
         ),
+        f'  <link rel="icon" href="{up}assets/icon.svg" type="image/svg+xml">',
         f'  <link rel="stylesheet" href="{up}assets/style.css">',
         f'  <script type="application/ld+json">{json_ld}</script>',
         "  <script>",
@@ -1390,7 +1392,7 @@ def render_beginner_hub(
 
     def links(entries: list[tuple[str, str, int]]) -> list[str]:
         return [
-            f'      <li><a href="{href}">{html.escape(label)}</a> <span class="muted">{count} issues</span></li>'
+            f'      <li><a href="{href}">{html.escape(label)} <span class="muted">{count} issues</span></a></li>'
             for href, label, count in entries
         ]
 
@@ -1421,6 +1423,7 @@ def render_beginner_hub(
         '  <meta property="og:type" content="website">',
         f'  <meta property="og:url" content="{url}">',
         f'  <meta property="og:image" content="{SITE_URL}assets/og.png">',
+        '  <link rel="icon" href="../assets/icon.svg" type="image/svg+xml">',
         '  <link rel="stylesheet" href="../assets/style.css">',
         "  <script>",
         '    try { const t = localStorage.getItem("radar-theme"); '
@@ -1556,6 +1559,7 @@ def render_stats_page(repositories: dict[str, Any], issues: list[dict[str, Any]]
         f'  <meta property="og:url" content="{url}">',
         f'  <meta property="og:image" content="{SITE_URL}assets/og.png">',
         '  <link rel="alternate" type="application/json" href="stats.json">',
+        '  <link rel="icon" href="../assets/icon.svg" type="image/svg+xml">',
         '  <link rel="stylesheet" href="../assets/style.css">',
         "  <script>",
         '    try { const t = localStorage.getItem("radar-theme"); '
@@ -1753,6 +1757,7 @@ def render_stats_archive() -> list[str]:
             '  <meta property="og:type" content="article">',
             f'  <meta property="og:url" content="{url}">',
             f'  <meta property="og:image" content="{SITE_URL}assets/og.png">',
+            '  <link rel="icon" href="../../assets/icon.svg" type="image/svg+xml">',
             '  <link rel="stylesheet" href="../../assets/style.css">',
             "  <script>",
             '    try { const t = localStorage.getItem("radar-theme"); '

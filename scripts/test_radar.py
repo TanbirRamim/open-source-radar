@@ -2217,10 +2217,11 @@ class BeginnerHubTests(unittest.TestCase):
             hub = (Path(tmp) / "site" / "beginner" / "index.html").read_text(encoding="utf-8")
             radar.render_sitemap([], "2026-11-08T10:00:00Z", ["go"], ["web"])
             sitemap = (Path(tmp) / "site" / "sitemap.xml").read_text(encoding="utf-8")
-        self.assertIn('<a href="go/">Go</a> <span class="muted">2 issues</span>', hub)
-        self.assertIn('<a href="cpp/">C++</a> <span class="muted">1 issues</span>', hub)
-        self.assertIn('<a href="topic/web/">Web development</a> <span class="muted">2 issues</span>', hub)
+        self.assertIn('<a href="go/">Go <span class="muted">2 issues</span></a>', hub)
+        self.assertIn('<a href="cpp/">C++ <span class="muted">1 issues</span></a>', hub)
+        self.assertIn('<a href="topic/web/">Web development <span class="muted">2 issues</span></a>', hub)
         self.assertLess(hub.index('href="cpp/"'), hub.index('href="go/"'))
+        self.assertIn('<link rel="icon" href="../assets/icon.svg" type="image/svg+xml">', hub)
         self.assertIn("<loc>https://tanbirramim.github.io/open-source-radar/beginner/</loc>", sitemap)
 
     def test_new_this_week_lists_recent_beginner_issues(self):
@@ -2296,6 +2297,7 @@ class LanguagePageTests(unittest.TestCase):
             radar.render_sitemap(["C++"], "2026-11-06T10:00:00Z", slugs)
             sitemap = (Path(tmp) / "site" / "sitemap.xml").read_text(encoding="utf-8")
         self.assertEqual(slugs, ["cpp"])
+        self.assertIn('<link rel="icon" href="../../assets/icon.svg" type="image/svg+xml">', page)
         self.assertIn("<title>Beginner C++ issues for your first open source contribution", page)
         self.assertIn(
             '<link rel="canonical" href="https://tanbirramim.github.io/open-source-radar/beginner/cpp/">', page
@@ -2334,7 +2336,7 @@ class GsocPageTests(unittest.TestCase):
         self.assertNotIn("Hard", page)
         self.assertNotIn("RSS feed", page)
         self.assertIn('<a href="../../">Open Source Radar</a>', page)
-        self.assertIn('<a href="gsoc/">Projects from recent GSoC orgs</a> <span class="muted">1 issues</span>', hub)
+        self.assertIn('<a href="gsoc/">Projects from recent GSoC orgs <span class="muted">1 issues</span></a>', hub)
         self.assertIn("<loc>https://tanbirramim.github.io/open-source-radar/beginner/gsoc/</loc>", sitemap)
 
     def test_no_gsoc_page_without_matches(self):
