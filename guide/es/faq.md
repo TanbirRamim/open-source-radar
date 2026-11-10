@@ -9,17 +9,17 @@ Respuestas breves a las dudas más comunes antes y después del primer pull requ
 <a id="do-i-need-to-ask-before-working-on-an-issue"></a>
 ### ¿Tengo que preguntar antes de trabajar en un issue?
 
-Depende del proyecto. Consulta `CONTRIBUTING.md`: algunos proyectos piden un comentario previo, otros asignan issues con el comando `/claim` o `/assign`, y otros dicen que abras un PR directamente. Si la guía no dice nada y el issue es pequeño, normalmente puedes abrir un pull request sin preguntar. Para algo más grande, comenta primero para que nadie pierda el tiempo. Consulta el [capítulo 7](../07-communication.md#claiming-an-issue) (en inglés).
+Depende del proyecto. Consulta `CONTRIBUTING.md`: algunos proyectos piden un comentario previo, otros asignan issues con el comando `/claim` o `/assign`, y otros dicen que abras un PR directamente. Si la guía no dice nada y el issue es pequeño, normalmente puedes abrir un pull request sin preguntar. Para algo más grande, comenta primero para que nadie pierda el tiempo. Consulta el [capítulo 7](07-communication.md#reclamar-un-issue) (en inglés).
 
 <a id="how-do-i-claim-an-issue-without-sounding-like-everyone-else"></a>
 ### ¿Cómo reclamo un issue sin decir lo mismo que todo el mundo?
 
-En lugar de limitarte a preguntar «¿Puedo trabajar en esto?», explica en dos o tres frases qué has encontrado y qué planeas cambiar. Así, un mantenedor puede darte el visto bueno o sugerirte una mejor solución antes de que escribas código. Hay un ejemplo en el [capítulo 7](../07-communication.md#claiming-an-issue) (en inglés).
+En lugar de limitarte a preguntar «¿Puedo trabajar en esto?», explica en dos o tres frases qué has encontrado y qué planeas cambiar. Así, un mantenedor puede darte el visto bueno o sugerirte una mejor solución antes de que escribas código. Hay un ejemplo en el [capítulo 7](07-communication.md#reclamar-un-issue) (en inglés).
 
 <a id="someone-commented-ill-take-this-weeks-ago-and-never-opened-a-pr-can-i-take-it"></a>
 ### Alguien dijo «yo me encargo» hace semanas y nunca abrió un PR. ¿Puedo hacerlo yo?
 
-Pregunta primero en el issue: «¿Sigues trabajando en esto? Si no, me gustaría encargarme». Si pasan unos días sin respuesta, pide a un mantenedor que lo reasigne. No abras un pull request que compita con el suyo sin preguntar. Consulta el [capítulo 4](../04-find-an-issue.md#is-anyone-already-working-on-it) (en inglés).
+Pregunta primero en el issue: «¿Sigues trabajando en esto? Si no, me gustaría encargarme». Si pasan unos días sin respuesta, pide a un mantenedor que lo reasigne. No abras un pull request que compita con el suyo sin preguntar. Consulta el [capítulo 4](04-find-an-issue.md#alguien-ya-está-trabajando-en-ello) (en inglés).
 
 <a id="how-many-issues-should-i-claim-at-once"></a>
 ### ¿Cuántos issues debería reclamar a la vez?
@@ -29,7 +29,7 @@ Uno. Reclama el siguiente después de abrir tu primer pull request.
 <a id="im-not-sure-i-can-finish-it-should-i-still-try"></a>
 ### No sé si podré terminarlo. ¿Debería intentarlo de todos modos?
 
-Sí, pero elige algo cuyo alcance puedas calcular. Si puedes reproducir el problema y encontrar el código relacionado en una hora, probablemente sea una buena opción. Si te atascas, puedes decirlo en el issue y quitarte la asignación. Consulta el [capítulo 4](../04-find-an-issue.md#can-you-finish-it) (en inglés).
+Sí, pero elige algo cuyo alcance puedas calcular. Si puedes reproducir el problema y encontrar el código relacionado en una hora, probablemente sea una buena opción. Si te atascas, puedes decirlo en el issue y quitarte la asignación. Consulta el [capítulo 4](04-find-an-issue.md#puedes-completarlo) (en inglés).
 
 <a id="rules-and-paperwork"></a>
 ## Reglas y trámites
@@ -54,12 +54,12 @@ De ahí en adelante, usa `git commit -s`. Consulta el [capítulo 6](06-rules-bef
 <a id="can-i-use-ai-tools"></a>
 ### ¿Puedo usar herramientas de IA?
 
-Consulta la política del proyecto antes de empezar. Algunos prohíben las contribuciones generadas con IA, otros piden que declares su uso y muchos no dicen nada. Sea cual sea la regla, eres responsable de cada línea: debes entenderla, probarla y poder explicarla durante la revisión. Consulta el [capítulo 6](../06-rules-before-you-start.md#ai-assisted-contributions) (en inglés).
+Consulta la política del proyecto antes de empezar. Algunos prohíben las contribuciones generadas con IA, otros piden que declares su uso y muchos no dicen nada. Sea cual sea la regla, eres responsable de cada línea: debes entenderla, probarla y poder explicarla durante la revisión. Consulta el [capítulo 6](06-rules-before-you-start.md#contribuciones-asistidas-por-ia) (en inglés).
 
 <a id="a-bot-closed-my-pr-or-labeled-it-as-spam-what-now"></a>
 ### Un bot cerró mi PR o lo marcó como spam. ¿Qué hago?
 
-Lee el mensaje del bot. Muchos proyectos cierran los pull requests de quienes contribuyen por primera vez si no están vinculados a un issue o no siguen la plantilla. Corrige lo que indique o responde con educación y pide a un mantenedor que lo revise. Consulta el [capítulo 6](../06-rules-before-you-start.md#anti-spam-and-first-time-contributor-automation) (en inglés).
+Lee el mensaje del bot. Muchos proyectos cierran los pull requests de quienes contribuyen por primera vez si no están vinculados a un issue o no siguen la plantilla. Corrige lo que indique o responde con educación y pide a un mantenedor que lo revise. Consulta el [capítulo 6](06-rules-before-you-start.md#automatización-contra-el-spam-y-para-nuevos-colaboradores) (en inglés).
 
 <a id="after-you-open-the-pull-request"></a>
 ## Después de abrir el pull request
@@ -67,17 +67,17 @@ Lee el mensaje del bot. Muchos proyectos cierran los pull requests de quienes co
 <a id="nobody-has-replied-how-long-should-i-wait"></a>
 ### Nadie ha respondido. ¿Cuánto debería esperar?
 
-Es normal esperar una o dos semanas. Después, deja un comentario breve y educado para preguntar si necesitan algo de tu parte. Mientras esperas, mantén la rama libre de conflictos. Pasado un mes, pregunta si el cambio sigue siendo de interés. Consulta el [capítulo 8](../08-reviews.md#when-nothing-happens) (en inglés).
+Es normal esperar una o dos semanas. Después, deja un comentario breve y educado para preguntar si necesitan algo de tu parte. Mientras esperas, mantén la rama libre de conflictos. Pasado un mes, pregunta si el cambio sigue siendo de interés. Consulta el [capítulo 8](08-reviews.md#cuando-no-pasa-nada) (en inglés).
 
 <a id="ci-is-red-and-i-dont-understand-why"></a>
 ### El CI está en rojo y no entiendo por qué.
 
-Abre la tarea que falló y busca el primer error, no el último. Ejecuta el mismo comando localmente. Si el fallo está en código que no has tocado, indícalo en el pull request; podría tratarse de una prueba intermitente o de un problema en la rama principal. Consulta el [capítulo 8](../08-reviews.md#when-ci-fails) (en inglés).
+Abre la tarea que falló y busca el primer error, no el último. Ejecuta el mismo comando localmente. Si el fallo está en código que no has tocado, indícalo en el pull request; podría tratarse de una prueba intermitente o de un problema en la rama principal. Consulta el [capítulo 8](08-reviews.md#cuando-falla-el-ci) (en inglés).
 
 <a id="the-maintainer-asked-for-changes-do-i-open-a-new-pr"></a>
 ### El mantenedor pidió cambios. ¿Abro otro PR?
 
-No. Haz push de nuevos commits a la misma rama y el pull request se actualizará. Responde a cada comentario para que la persona que revisa sepa que ya lo atendiste. Consulta el [capítulo 8](../08-reviews.md#when-you-get-change-requests) (en inglés).
+No. Haz push de nuevos commits a la misma rama y el pull request se actualizará. Responde a cada comentario para que la persona que revisa sepa que ya lo atendiste. Consulta el [capítulo 8](08-reviews.md#cuando-recibes-solicitudes-de-cambios) (en inglés).
 
 <a id="my-pr-has-merge-conflicts"></a>
 ### Mi PR tiene conflictos de merge.
@@ -96,7 +96,7 @@ Consulta el [capítulo 5](05-first-pull-request.md).
 <a id="my-pr-was-closed-without-merging-did-i-do-something-wrong"></a>
 ### Cerraron mi PR sin fusionarlo. ¿Hice algo mal?
 
-No siempre. Puede que alguien lo haya solucionado antes o que el proyecto prefiera otra solución. Lee el motivo, da las gracias y pregunta si una versión revisada sería útil. Consulta el [capítulo 8](../08-reviews.md#when-your-pull-request-is-closed) (en inglés).
+No siempre. Puede que alguien lo haya solucionado antes o que el proyecto prefiera otra solución. Lee el motivo, da las gracias y pregunta si una versión revisada sería útil. Consulta el [capítulo 8](08-reviews.md#cuando-cierran-tu-pull-request) (en inglés).
 
 <a id="after-the-merge"></a>
 ## Después de la fusión
