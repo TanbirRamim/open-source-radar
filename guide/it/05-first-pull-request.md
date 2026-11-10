@@ -91,7 +91,7 @@ Fixes #1234
 - Prima riga: un breve riepilogo, spesso preceduto dall'area interessata o da un tipo secondo le convenzioni di [Conventional Commits](https://www.conventionalcommits.org), come `fix:` o `docs:`.
 - Corpo: descrivi cosa non funzionava e perché questa modifica risolve il problema.
 - `Fixes #1234` chiude automaticamente la issue quando la PR viene unita.
-- Se il progetto richiede la firma DCO, utilizza `git commit -s` (vedi il [capitolo 6](../06-rules-before-you-start.md), in inglese).
+- Se il progetto richiede la firma DCO, utilizza `git commit -s` (vedi il [capitolo 6](06-rules-before-you-start.md)).
 
 ## 9. Esegui il push e apri la pull request
 
@@ -136,4 +136,4 @@ Questo metodo è adatto solo a piccole modifiche testuali. Qualsiasi modifica ch
 - [ ] Il messaggio del commit segue le convenzioni del progetto e fa riferimento alla issue.
 - [ ] Ho compilato il modello della PR.
 
-Successivo: [Regole da verificare prima di iniziare](../06-rules-before-you-start.md) (in inglese)
+Successivo: [Regole da verificare prima di iniziare](06-rules-before-you-start.md)
