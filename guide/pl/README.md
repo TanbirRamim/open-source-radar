@@ -8,7 +8,7 @@ Praktyczna droga od „Chcę wnieść swój wkład” do „Mój pull request zo
 | # | Rozdział |
 | --- | --- |
 | 1 | [Dlaczego warto wnosić wkład](01-why-contribute.md) |
-| 2 | [Konfiguracja narzędzi](../02-setup.md) (English) |
+| 2 | [Konfiguracja narzędzi](02-setup.md) |
 | 3 | [Wybór projektu](../03-choose-a-project.md) (English) |
 | 4 | [Znajdowanie zadania, które możesz ukończyć](../04-find-an-issue.md) (English) |
 | 5 | [Twój pierwszy pull request krok po kroku](../05-first-pull-request.md) (English) |
