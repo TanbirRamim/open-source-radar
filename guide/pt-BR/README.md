@@ -21,5 +21,6 @@ Leia em ordem na primeira vez. Cada capítulo termina com uma lista de verifica�
 
 Também útil:
 
+- [Perguntas frequentes para iniciantes](faq.md): como reivindicar uma issue, o que fazer quando ninguém responde, CLA e DCO e conflitos de merge.
 - [Glossário](glossary.md): fork, upstream, rebase, squash, CI, DCO e o resto, em uma linha cada.
 - [Language quickstarts](../../languages/README.md): como os projetos em cada linguagem costumam ser compilados e testados (em inglês).
