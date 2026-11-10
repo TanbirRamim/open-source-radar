@@ -40,4 +40,4 @@ Takie działania są naprawdę cenione, a często trudniej znaleźć osoby, któ
 - [ ] Mam na oku jeden lub dwa projekty, z których korzystam lub które naprawdę mnie interesują.
 - [ ] Planuję niewielki pierwszy wkład, a nie tworzenie dużej funkcji.
 
-Dalej: [Konfiguracja narzędzi](../02-setup.md)
+Dalej: [Konfiguracja narzędzi](02-setup.md)
