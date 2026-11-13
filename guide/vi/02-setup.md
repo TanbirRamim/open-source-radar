@@ -84,4 +84,4 @@ Trình quản lý phiên bản giúp việc này đơn giản hơn:
 - [ ] `gh auth status` (hoặc `ssh -T git@github.com`) xác nhận tôi có thể xác thực với GitHub.
 - [ ] Trình soạn thảo tự định dạng khi lưu.
 
-Tiếp theo: [Chọn dự án](../03-choose-a-project.md) (English)
+Tiếp theo: [Chọn dự án](03-choose-a-project.md)
