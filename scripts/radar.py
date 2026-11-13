@@ -1702,7 +1702,7 @@ def stats_archive_months() -> list[str]:
     folder = ROOT / STATS_ARCHIVE_DIR
     if not folder.is_dir():
         return []
-    return sorted(p.stem for p in folder.glob("????-??.json"))
+    return sorted(p.stem for p in folder.glob("[0-9][0-9][0-9][0-9]-[0-9][0-9].json"))
 
 
 def save_stats_snapshot(snapshot: dict[str, Any]) -> list[str]:
