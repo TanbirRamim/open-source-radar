@@ -2198,6 +2198,34 @@ class StatsArchiveTests(unittest.TestCase):
         self.assertLess(latest.index("2026-11/"), latest.index("2026-10/"))
         self.assertIn("<loc>https://tanbirramim.github.io/open-source-radar/stats/2026-10/</loc>", sitemap)
 
+    def test_stats_archive_months_returns_empty_when_directory_is_missing(self):
+        import tempfile
+
+        with tempfile.TemporaryDirectory() as tmp, patch.object(radar, "ROOT", Path(tmp)):
+            self.assertEqual(radar.stats_archive_months(), [])
+
+    def test_stats_archive_months_returns_sorted_json_month_files_only(self):
+        import tempfile
+
+        with tempfile.TemporaryDirectory() as tmp:
+            archive = Path(tmp) / "data" / "stats"
+            archive.mkdir(parents=True)
+
+            for filename in [
+                "2026-11.json",
+                "2026-09.json",
+                "README.md",
+                "notes.json",
+                "2026-1.json",
+            ]:
+                (archive / filename).touch()
+
+            with patch.object(radar, "ROOT", Path(tmp)):
+                self.assertEqual(
+                    radar.stats_archive_months(),
+                    ["2026-09", "2026-11"],
+                )
+
 
 class BeginnerHubTests(unittest.TestCase):
     def test_hub_links_every_page_with_counts_and_is_in_sitemap(self):
