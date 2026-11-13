@@ -12,7 +12,7 @@ Un percorso pratico da «Voglio contribuire» a «La mia pull request è stata u
 | 4 | [Trovare una issue che puoi completare](04-find-an-issue.md) |
 | 5 | [La tua prima pull request, passo dopo passo](05-first-pull-request.md) |
 | 6 | [Regole da verificare prima di iniziare](06-rules-before-you-start.md) |
-| 7 | [Comunicare con i maintainer](../07-communication.md) (Inglese) |
+| 7 | [Comunicare con i manutentori](07-communication.md) |
 | 8 | [Revisioni, feedback e rifiuti](../08-reviews.md) (Inglese) |
 | 9 | [Continuare il percorso](../09-keep-going.md) (Inglese) |
 | 10 | [Leggere una codebase](../10-reading-a-codebase.md) (Inglese) |

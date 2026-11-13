@@ -89,4 +89,4 @@ Alcuni progetti chiedono di includere una dichiarazione nella pull request, per 
 - [ ] Ho controllato `.github/workflows/` per individuare automazioni che potrebbero chiudere la mia PR.
 - [ ] Se l'IA mi ha aiutato, so se e come devo dichiararlo.
 
-Successivo: [Comunicare con i maintainer](../07-communication.md)
+Successivo: [Comunicare con i manutentori](07-communication.md)

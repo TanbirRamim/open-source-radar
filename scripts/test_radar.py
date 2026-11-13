@@ -2055,8 +2055,6 @@ if __name__ == "__main__":
 
 class SitemapTests(unittest.TestCase):
     def test_lists_home_feeds_and_language_searches(self):
-        import tempfile
-
         with tempfile.TemporaryDirectory() as tmp, patch.object(radar, "ROOT", Path(tmp)):
             radar.render_sitemap(["C++", "Python"], "2026-11-06T10:00:00Z")
             root = ET.parse(Path(tmp) / "site" / "sitemap.xml").getroot()
@@ -2163,8 +2161,6 @@ class StatsPageTests(unittest.TestCase):
         self.assertEqual([p["repo"] for p in snapshot["welcoming_projects"]], ["a/b", "e/f", "g/h"])
 
     def test_no_page_without_beginner_issues(self):
-        import tempfile
-
         with tempfile.TemporaryDirectory() as tmp, patch.object(radar, "ROOT", Path(tmp)):
             self.assertFalse(radar.render_stats_page({}, [], "2026-11-08T10:00:00Z"))
             self.assertFalse((Path(tmp) / "site" / "stats").exists())
@@ -2197,6 +2193,31 @@ class StatsArchiveTests(unittest.TestCase):
         self.assertIn('<li><a href="2026-11/">November 2026</a></li>', latest)
         self.assertLess(latest.index("2026-11/"), latest.index("2026-10/"))
         self.assertIn("<loc>https://tanbirramim.github.io/open-source-radar/stats/2026-10/</loc>", sitemap)
+
+    def test_stats_archive_months_returns_empty_when_directory_is_missing(self):
+        with tempfile.TemporaryDirectory() as tmp, patch.object(radar, "ROOT", Path(tmp)):
+            self.assertEqual(radar.stats_archive_months(), [])
+
+    def test_stats_archive_months_returns_sorted_json_month_files_only(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            archive = Path(tmp) / radar.STATS_ARCHIVE_DIR
+            archive.mkdir(parents=True)
+
+            for filename in [
+                "2026-11.json",
+                "2026-09.json",
+                "README.md",
+                "notes.json",
+                "2026-1.json",
+                "abcd-ef.json",
+            ]:
+                (archive / filename).touch()
+
+            with patch.object(radar, "ROOT", Path(tmp)):
+                self.assertEqual(
+                    radar.stats_archive_months(),
+                    ["2026-09", "2026-11"],
+                )
 
 
 class BeginnerHubTests(unittest.TestCase):
@@ -2260,8 +2281,6 @@ class BeginnerHubTests(unittest.TestCase):
         self.assertNotIn("Hard one", hub)
 
     def test_no_hub_without_pages(self):
-        import tempfile
-
         with tempfile.TemporaryDirectory() as tmp, patch.object(radar, "ROOT", Path(tmp)):
             radar.render_beginner_hub({}, {}, {}, [], "2026-11-08T10:00:00Z")
             self.assertFalse((Path(tmp) / "site" / "beginner" / "index.html").exists())
@@ -2340,8 +2359,6 @@ class GsocPageTests(unittest.TestCase):
         self.assertIn("<loc>https://tanbirramim.github.io/open-source-radar/beginner/gsoc/</loc>", sitemap)
 
     def test_no_gsoc_page_without_matches(self):
-        import tempfile
-
         with tempfile.TemporaryDirectory() as tmp, patch.object(radar, "ROOT", Path(tmp)):
             self.assertEqual(radar.render_gsoc_page(["nobody"], [], "2026-11-08T10:00:00Z"), 0)
             self.assertFalse((Path(tmp) / "site" / "beginner" / "gsoc").exists())
