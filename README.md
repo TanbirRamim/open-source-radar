@@ -230,9 +230,9 @@ Thank you to everyone who has made the radar better:
 - [@jdabid](https://github.com/jdabid): Spanish guide link fix ([#327](https://github.com/TanbirRamim/open-source-radar/pull/327))
 - [@OR3-D3V](https://github.com/OR3-D3V): Simplified Chinese website ([#328](https://github.com/TanbirRamim/open-source-radar/pull/328))
 - [@OKAN-SOFTWARE](https://github.com/OKAN-SOFTWARE): Turkish website ([#333](https://github.com/TanbirRamim/open-source-radar/pull/333)), no legend on empty language pages ([#393](https://github.com/TanbirRamim/open-source-radar/pull/393)), Perl and Solidity quickstarts ([#398](https://github.com/TanbirRamim/open-source-radar/pull/398))
-- [@HerbertNtim](https://github.com/HerbertNtim): copy confirmation announced once for screen readers ([#404](https://github.com/TanbirRamim/open-source-radar/pull/404)), Italian website ([#406](https://github.com/TanbirRamim/open-source-radar/pull/406)), Italian guide ([#417](https://github.com/TanbirRamim/open-source-radar/pull/417), [#426](https://github.com/TanbirRamim/open-source-radar/pull/426), [#429](https://github.com/TanbirRamim/open-source-radar/pull/429), [#458](https://github.com/TanbirRamim/open-source-radar/pull/458))
+- [@HerbertNtim](https://github.com/HerbertNtim): copy confirmation announced once for screen readers ([#404](https://github.com/TanbirRamim/open-source-radar/pull/404)), Italian website ([#406](https://github.com/TanbirRamim/open-source-radar/pull/406)), Italian guide ([#417](https://github.com/TanbirRamim/open-source-radar/pull/417), [#426](https://github.com/TanbirRamim/open-source-radar/pull/426), [#429](https://github.com/TanbirRamim/open-source-radar/pull/429), [#458](https://github.com/TanbirRamim/open-source-radar/pull/458), [#476](https://github.com/TanbirRamim/open-source-radar/pull/476))
 - [@shizwan](https://github.com/shizwan): stale policy timestamps and batch fallback tests ([#402](https://github.com/TanbirRamim/open-source-radar/pull/402), [#403](https://github.com/TanbirRamim/open-source-radar/pull/403))
-- [@ducanhnguyen223](https://github.com/ducanhnguyen223): Vietnamese guide, chapters 1 and 2 ([#407](https://github.com/TanbirRamim/open-source-radar/pull/407), [#422](https://github.com/TanbirRamim/open-source-radar/pull/422))
+- [@ducanhnguyen223](https://github.com/ducanhnguyen223): Vietnamese guide, chapters 1 to 3 ([#407](https://github.com/TanbirRamim/open-source-radar/pull/407), [#422](https://github.com/TanbirRamim/open-source-radar/pull/422), [#475](https://github.com/TanbirRamim/open-source-radar/pull/475))
 - [@dawidthecactus](https://github.com/dawidthecactus): quickstart links next to the language feeds ([#400](https://github.com/TanbirRamim/open-source-radar/pull/400))
 - [@potplant15](https://github.com/potplant15): lang attributes on the language menu ([#337](https://github.com/TanbirRamim/open-source-radar/pull/337)), external PR activity data ([#346](https://github.com/TanbirRamim/open-source-radar/pull/346))
 - [@anweshabehera-arch](https://github.com/anweshabehera-arch): Hindi glossary ([#344](https://github.com/TanbirRamim/open-source-radar/pull/344))
@@ -246,6 +246,7 @@ Thank you to everyone who has made the radar better:
 - [@BeyondITL-Mossaddique](https://github.com/BeyondITL-Mossaddique): Bengali guide chapter 4 ([#371](https://github.com/TanbirRamim/open-source-radar/pull/371))
 - [@Avenash005](https://github.com/Avenash005): Vietnamese website ([#373](https://github.com/TanbirRamim/open-source-radar/pull/373))
 - [@aditya-shekhar-git](https://github.com/aditya-shekhar-git): Bengali guide chapter 6 ([#461](https://github.com/TanbirRamim/open-source-radar/pull/461))
+- [@subodhin](https://github.com/subodhin): stats archive month tests ([#477](https://github.com/TanbirRamim/open-source-radar/pull/477))
 
 Your name goes here with your first merged pull request. And if the radar helped you, please give it a star: it's the simplest way to help other newcomers find it.
 
