@@ -198,6 +198,12 @@ class AvailabilityTests(unittest.TestCase):
             "Can I give it a try?",
             "Could I give this a try?",
             "May I give a try?",
+            "Can I be assigned to this?",
+            "Could I be assigned to this issue?",
+            "I'd like to be assigned to this",
+            "I would like to be assigned to this issue",
+            "Can I get assigned to this?",
+            "I want to be assigned to this",
         ]:
             with self.subTest(body=body):
                 claimed = issue(comments={"nodes": [comment(body)]})
@@ -213,6 +219,25 @@ class AvailabilityTests(unittest.TestCase):
             "Please assign membership roles",
             "Can anyone give it a try?",
             "You could give it a try",
+            "Anyone can be assigned to this",
+            "Has someone been assigned to this?",
+            "I will be assigned to this",
+            "I'll be assigned to this",
+            "I can be assigned to this",
+            "Can I be assigned as a reviewer?",
+            "Can I be assigned to another issue?",
+            "Can I be assigned to this other project?",
+            "Can I be assigned to this task?",
+            "Can I be assigned to this team?",
+            "Can I be assigned to it instead?",
+            "Can I be assigned to work on this other project?",
+            "Could I be assigned to fix this different issue?",
+            "Can I be assigned to this initiative?",
+            "Can I be assigned to this feature?",
+            "Can I be assigned to this bug?",
+            "Can I be assigned to this PR?",
+            "Can I be assigned to this repository?",
+            "Can I be assigned to work on this initiative?",
         ]:
             with self.subTest(body=body):
                 available = issue(comments={"nodes": [comment(body)]})
@@ -278,6 +303,205 @@ class RecentlyClaimedTests(unittest.TestCase):
         claim = comment("Can I pick this up?", author={"login": "someone", "__typename": "User"})
         reply = comment("No need to ask, just open a PR.", createdAt="2026-09-12T00:00:00Z", author={"login": "maint"})
         self.assertFalse(radar.recently_claimed(issue(comments={"nodes": [claim, reply]}), CLAIM_SINCE))
+
+    def test_passive_assignment_is_a_claim(self):
+        for body in (
+            "Can I be assigned to this?",
+            "Could I be assigned to this?",
+            "May I be assigned to this?",
+            "Can I be assigned to this issue?",
+            "Could I be assigned to this issue?",
+            "May I be assigned to the issue?",
+            "Can I be assigned this issue?",
+            "Could I be assigned this issue?",
+            "Can I be assigned the issue?",
+            "Can I get assigned to this?",
+            "Could I get assigned to this?",
+            "Can I get assigned to this issue?",
+            "Can I be assigned this?",
+            "Can I get assigned this?",
+            "Can I be assigned to it?",
+            "Could I be assigned to it?",
+            "Can I be assigned to work on it?",
+            "Can I be assigned to fix it?",
+            "Can I be assigned to work on this?",
+            "Can I be assigned to work on this issue?",
+            "Could I be assigned to fix this issue?",
+            "May I please be assigned to solve this?",
+            "Could I be assigned to tackle this issue?",
+            "I'd like to be assigned to handle this issue",
+            "Can I be assigned to fix this?",
+            "Can I be assigned to solve this?",
+            "Can I be assigned to tackle this?",
+            "Can I be assigned to handle this?",
+            "Can I be assigned to work on the issue?",
+            "Can I be assigned to fix the issue?",
+            "Can I be assigned to tackle the issue?",
+            "Can I be assigned to handle the issue?",
+            "Can I be assigned to solve the issue?",
+            "I'd like to be assigned to this",
+            "I’d like to be assigned to this",
+            "I would like to be assigned to this",
+            "I would like to be assigned to this issue",
+            "I'd love to be assigned to this",
+            "I would love to be assigned to this issue",
+            "I want to be assigned to this",
+            "I wanna be assigned to this",
+            "I'd like to get assigned to this",
+            "I want to get assigned to this",
+            "Can I please be assigned to this?",
+            "Could I please be assigned to this issue?",
+            "I'd be happy to be assigned to this",
+            "I would be happy to be assigned to this issue",
+            "Can I be assigned?",
+            "Can I please be assigned?",
+            "Can I be assigned please?",
+            "Could I be assigned?",
+            "I would like to be assigned.",
+            "I want to be assigned!",
+            "I'd love to be assigned",
+            "I wanna be assigned",
+            "I'd be happy to be assigned",
+            "Can I be assigned to this! Thanks",
+            "Can I be assigned to this. Thanks",
+            "Can I be assigned to this, please? Thanks",
+            "Can I be assigned to this, please",
+            "Can I be assigned to this: I have a PR ready",
+            "Can I be assigned to this; I have a PR ready",
+            "Can I be assigned to this\nI want to work on it",
+            "Can I be assigned to this issue\nI have a fix",
+            "Can I be assigned to this and start working on it?",
+            "Can I be assigned to this issue and start working?",
+            "Can I be assigned to this if it is still available?",
+            "Can I be assigned to this so I can open a PR?",
+            "Can I be assigned and start working?",
+            "Can I be assigned if nobody is working on it?",
+            "Can I be assigned so I can start?",
+        ):
+            with self.subTest(body=body):
+                self.assertTrue(radar.recently_claimed(issue(comments={"nodes": [comment(body)]}), CLAIM_SINCE), body)
+
+        for non_claim in (
+            # User adversarial targets (external nouns following "this")
+            "Can I be assigned to this initiative?",
+            "Can I be assigned to this feature?",
+            "Can I be assigned to this bug?",
+            "Can I be assigned to this PR?",
+            "Can I be assigned to this repository?",
+            "Can I be assigned to work on this initiative?",
+            "Can I be assigned to this other project?",
+            "Can I be assigned to this task?",
+            "Can I be assigned to this team?",
+            "Can I be assigned to it instead?",
+            "Can I be assigned to work on this other project?",
+            "Could I be assigned to fix this different issue?",
+            "Can I be assigned to this other issue?",
+            "Can I be assigned to this different issue?",
+            "Can I be assigned to this repo?",
+            "Can I be assigned to this ticket?",
+            "Can I be assigned to this milestone?",
+            "Can I be assigned to this epic?",
+            "Can I be assigned to this board?",
+            "Can I be assigned this task?",
+            "Can I be assigned this initiative?",
+            "Can I be assigned this feature?",
+            "Can I be assigned this bug?",
+            "Can I be assigned this PR?",
+            "Can I be assigned this project?",
+            # External targets without "this"
+            "Can I be assigned to another issue?",
+            "Can I be assigned to a different issue?",
+            "Can I be assigned to someone else?",
+            "Can I be assigned to another project?",
+            "Could I be assigned to team B?",
+            "I want to be assigned to a different task",
+            "I would like to be assigned to work on something else",
+            "Can I be assigned to work on another issue?",
+            # Compound issue nouns (issue tracker, issue queue, etc.)
+            "Can I be assigned to this issue tracker?",
+            "Can I be assigned to this issue queue?",
+            "Can I be assigned to this issue board?",
+            "Can I be assigned to this issue template?",
+            "Can I be assigned to the issue tracker?",
+            # Role / permission requests
+            "Can I be assigned as a reviewer?",
+            "Could I be assigned reviewer permissions?",
+            "I want to be assigned roles",
+            "Can I be assigned as a maintainer?",
+            "Can I be assigned admin rights?",
+            # Declarative/predictive statements (not requests or claims)
+            "I'll be assigned to this",
+            "I will be assigned to this",
+            "I can be assigned to this",
+            "I'll be assigned to another ticket next week",
+            "Once I finish onboarding, I will be assigned to a mentor.",
+            "I can be assigned as a reviewer if needed",
+            "I can be assigned to something else",
+            "I'll be assigned",
+            "I will be assigned",
+            "I can be assigned",
+            "I will be assigned to this issue",
+            "I can be assigned to work on this",
+            # Third-person or generic statements
+            "Anyone can be assigned to this, PRs welcome.",
+            "Can someone be assigned to this?",
+            "This issue should be assigned to someone.",
+            "The maintainer assigned this issue.",
+            "Has anyone been assigned to this?",
+            "Someone should be assigned to this.",
+            "Can the maintainer assign someone to this?",
+            "I think this issue needs an assignee.",
+            "This issue is already assigned.",
+            "You have been assigned to this.",
+            "Why was I assigned to this?",
+            "Nobody should be assigned to this.",
+            "Can someone be assigned to this issue?",
+            "Has someone been assigned to this?",
+            "Has anyone been assigned to this issue?",
+        ):
+            with self.subTest(body=non_claim):
+                self.assertFalse(
+                    radar.recently_claimed(issue(comments={"nodes": [comment(non_claim)]}), CLAIM_SINCE), non_claim
+                )
+
+    def test_passive_claim_lifecycle_with_bot_and_maintainer_replies(self):
+        claim = comment("Could I please be assigned to this issue?", author={"login": "newcomer", "__typename": "User"})
+        # A passive claim marks the issue as claimed and unavailable
+        claimed_issue = issue(comments={"nodes": [claim]})
+        self.assertTrue(radar.recently_claimed(claimed_issue, CLAIM_SINCE))
+        self.assertFalse(radar.issue_is_available(claimed_issue, SINCE, CLAIM_SINCE))
+
+        # A bot ping after the passive claim does not clear the claim
+        bot_ping = comment("Please sign the CLA.", author={"login": "stalebot", "__typename": "Bot"})
+        with_bot = issue(comments={"nodes": [claim, bot_ping]})
+        self.assertTrue(radar.recently_claimed(with_bot, CLAIM_SINCE))
+        self.assertFalse(radar.issue_is_available(with_bot, SINCE, CLAIM_SINCE))
+
+        # A human maintainer reply after the passive claim clears the claim
+        maintainer_reply = comment(
+            "We don't assign issues in advance, anyone is welcome to send a PR.",
+            createdAt="2026-09-12T00:00:00Z",
+            author={"login": "owner", "authorAssociation": "OWNER"},
+        )
+        with_reply = issue(comments={"nodes": [claim, maintainer_reply]})
+        self.assertFalse(radar.recently_claimed(with_reply, CLAIM_SINCE))
+        self.assertTrue(radar.issue_is_available(with_reply, SINCE, CLAIM_SINCE))
+
+        # A passive claim older than the claim cutoff window is expired
+        old_claim = comment(
+            "Can I be assigned to this?",
+            createdAt="2026-08-01T00:00:00Z",
+            author={"login": "newcomer", "__typename": "User"},
+        )
+        old_issue = issue(comments={"nodes": [old_claim]})
+        self.assertFalse(radar.recently_claimed(old_issue, CLAIM_SINCE))
+        self.assertTrue(radar.issue_is_available(old_issue, SINCE, CLAIM_SINCE))
+
+        # A passive claim inside a blockquoted reply is ignored
+        quoted_claim = comment("Noted.\n\n> Can I be assigned to this?")
+        quoted_issue = issue(comments={"nodes": [quoted_claim]})
+        self.assertFalse(radar.recently_claimed(quoted_issue, CLAIM_SINCE))
+        self.assertTrue(radar.issue_is_available(quoted_issue, SINCE, CLAIM_SINCE))
 
 
 class PolicyRefreshTests(unittest.TestCase):
