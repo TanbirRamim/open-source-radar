@@ -1,4 +1,3 @@
-
 # 3. Wybór projektu
 
 Projekt jest ważniejszy niż samo zadanie. Przyjazny, aktywny projekt zrecenzuje Twój pull request w ciągu kilku dni. Nieaktywny projekt lub przeciążony zespół może nigdy na niego nie spojrzeć, niezależnie od tego, jak dobry jest.
