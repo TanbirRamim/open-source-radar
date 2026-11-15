@@ -1,4 +1,3 @@
-
 # 2. Konfiguracja narzędzi
 
 Potrzebujesz Gita, konta GitHub, sposobu uwierzytelniania, edytora oraz zestawu narzędzi dla języka używanego w wybranym projekcie. Jednorazowa konfiguracja zajmuje około godziny.
