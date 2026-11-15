@@ -1,3 +1,4 @@
+
 # 2. Konfiguracja narzędzi
 
 Potrzebujesz Gita, konta GitHub, sposobu uwierzytelniania, edytora oraz zestawu narzędzi dla języka używanego w wybranym projekcie. Jednorazowa konfiguracja zajmuje około godziny.
@@ -84,4 +85,4 @@ Menedżery wersji ułatwiają tę konfigurację:
 - [ ] `gh auth status` (lub `ssh -T git@github.com`) pokazuje, że mogę się uwierzytelnić.
 - [ ] Mój edytor formatuje kod przy zapisie.
 
-Dalej: [Wybór projektu](../03-choose-a-project.md)
+Dalej: [Wybór projektu](03-choose-a-project.md)
