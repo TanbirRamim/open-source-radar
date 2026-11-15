@@ -6,7 +6,7 @@ Projekt jest ważniejszy niż samo zadanie. Przyjazny, aktywny projekt zrecenzuj
 
 Najlepszy pierwszy projekt to taki, którego już używasz: biblioteka wykorzystywana w Twoim kodzie, narzędzie, z którego korzystasz na co dzień, albo aplikacja, którą lubisz. Wiesz, jak powinien działać, możesz naprawdę przetestować swoją zmianę i zależy Ci na jej rezultacie.
 
-Jeśli nic nie przychodzi Ci do głowy, przejrzyj [indeks zgłoszeń](../issues/README.md) według języka programowania, który znasz najlepiej, i sprawdź, które projekty regularnie się w nim pojawiają.
+Jeśli nic nie przychodzi Ci do głowy, przejrzyj [indeks zgłoszeń](../../issues/README.md) według języka programowania, który znasz najlepiej, i sprawdź, które projekty regularnie się w nim pojawiają.
 
 ## Oznaki zdrowego i przyjaznego projektu
 
@@ -58,4 +58,4 @@ Dobra strategia: pierwsze jedno lub dwa wkłady wnieś w mniejszym, aktywnym pro
 - [ ] Projekt ma instrukcję współtworzenia i przeczytałem/przeczytałam ją.
 - [ ] Potrafię zbudować i uruchomić projekt na swoim komputerze (omawia to rozdział 5).
 
-Dalej: [Znajdowanie zadania, które możesz ukończyć](04-find-an-issue.md)
+Dalej: [Znajdowanie zadania, które możesz ukończyć](../04-find-an-issue.md)
