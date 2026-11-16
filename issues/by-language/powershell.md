@@ -4,7 +4,7 @@
 
 [PowerShell quickstart](../../languages/powershell.md) · [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/powershell.xml)
 
-> Updated automatically on **2026-11-13 13:56 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-11-15 22:33 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -12,7 +12,7 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [ida-free@8.4.240527: download failed](https://github.com/ScoopInstaller/Extras/issues/19346) 💬 1 | [ScoopInstaller/Extras](https://github.com/ScoopInstaller/Extras) | 2.2k | 🟡 help wanted | 2026-11-12 |  |
+| [ida-free@8.4.240527: download failed](https://github.com/ScoopInstaller/Extras/issues/19346) 💬 1 | [ScoopInstaller/Extras](https://github.com/ScoopInstaller/Extras) | 2.2k | 🟡 help wanted | 2026-11-15 |  |
 | [vncviewer@7.15.1: download failed](https://github.com/ScoopInstaller/Extras/issues/19345) 💬 1 | [ScoopInstaller/Extras](https://github.com/ScoopInstaller/Extras) | 2.2k | 🟡 help wanted | 2026-11-12 |  |
 | [xcas@7_2025.07: download failed. download url is not up to date](https://github.com/ScoopInstaller/Extras/issues/19299) 💬 2 | [ScoopInstaller/Extras](https://github.com/ScoopInstaller/Extras) | 2.2k | 🟡 help wanted | 2026-11-08 |  |
 | [Scuba Apps: Support Dynamic Parameters - Part 11](https://github.com/cisagov/ScubaGear/issues/2539) | [cisagov/ScubaGear](https://github.com/cisagov/ScubaGear) | 2.8k | 🟢 beginner | 2026-11-03 | 🤖 disclose AI use · [📘 guide](https://github.com/cisagov/ScubaGear/blob/HEAD/CONTRIBUTING.md) |

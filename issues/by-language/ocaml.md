@@ -1,10 +1,10 @@
 # OCaml issues
 
-**25** open issues (16 labeled for beginners) across **7** active OCaml projects.
+**25** open issues (15 labeled for beginners) across **6** active OCaml projects.
 
 [OCaml quickstart](../../languages/ocaml.md) · [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/ocaml.xml)
 
-> Updated automatically on **2026-11-13 13:56 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-11-15 22:33 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -12,6 +12,7 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [SSReflect rewrite cannot rewrite with unfolded definition of setoid](https://github.com/rocq-prover/rocq/issues/7693) 💬 5 | [rocq-prover/rocq](https://github.com/rocq-prover/rocq) | 5.7k | 🟡 help wanted | 2026-11-15 | [📘 guide](https://github.com/rocq-prover/rocq/blob/HEAD/CONTRIBUTING.md) |
 | [CoqIDE input mode broken sometimes?](https://github.com/rocq-prover/rocq/issues/14501) 💬 49 | [rocq-prover/rocq](https://github.com/rocq-prover/rocq) | 5.7k | 🟡 help wanted | 2026-11-02 | [📘 guide](https://github.com/rocq-prover/rocq/blob/HEAD/CONTRIBUTING.md) |
 | [\[wish\] coq_makefile flag -findlib-package dep](https://github.com/rocq-prover/rocq/issues/15660) 💬 2 | [rocq-prover/rocq](https://github.com/rocq-prover/rocq) | 5.7k | 🟢 beginner | 2026-11-01 | [📘 guide](https://github.com/rocq-prover/rocq/blob/HEAD/CONTRIBUTING.md) |
 | [Named targets](https://github.com/ocaml/dune/issues/3309) 💬 6 | [ocaml/dune](https://github.com/ocaml/dune) | 1.9k | 🟢 beginner | 2026-10-02 | 🔏 DCO · [📘 guide](https://github.com/ocaml/dune/blob/HEAD/CONTRIBUTING.md) |
@@ -36,4 +37,3 @@
 | [disable auto formatting for specific dune files](https://github.com/ocaml/dune/issues/10862) 💬 1 | [ocaml/dune](https://github.com/ocaml/dune) | 1.9k | 🟡 help wanted | 2026-06-05 | 🔏 DCO · [📘 guide](https://github.com/ocaml/dune/blob/HEAD/CONTRIBUTING.md) |
 | [\[dune-configurator\] PKG_CONFIG_PATH is ignored on macos](https://github.com/ocaml/dune/issues/10805) 💬 3 | [ocaml/dune](https://github.com/ocaml/dune) | 1.9k | 🟡 help wanted | 2026-06-05 | 🔏 DCO · [📘 guide](https://github.com/ocaml/dune/blob/HEAD/CONTRIBUTING.md) |
 | [Detect common typos in metadata and attempt to guess user's intention (or at least print a hint)](https://github.com/ocaml/dune/issues/11561) 💬 12 | [ocaml/dune](https://github.com/ocaml/dune) | 1.9k | 🟢 beginner | 2026-06-05 | 🔏 DCO · [📘 guide](https://github.com/ocaml/dune/blob/HEAD/CONTRIBUTING.md) |
-| [Merlin-lib: return the description of a warning based on its identifier](https://github.com/ocaml/merlin/issues/1775) 💬 4 | [ocaml/merlin](https://github.com/ocaml/merlin) | 1.7k | 🟢 beginner | 2026-05-19 | [📘 guide](https://github.com/ocaml/merlin/blob/HEAD/CONTRIBUTING.md) |
