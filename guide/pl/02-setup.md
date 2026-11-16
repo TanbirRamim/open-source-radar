@@ -84,4 +84,4 @@ Menedżery wersji ułatwiają tę konfigurację:
 - [ ] `gh auth status` (lub `ssh -T git@github.com`) pokazuje, że mogę się uwierzytelnić.
 - [ ] Mój edytor formatuje kod przy zapisie.
 
-Dalej: [Wybór projektu](../03-choose-a-project.md)
+Dalej: [Wybór projektu](03-choose-a-project.md)
