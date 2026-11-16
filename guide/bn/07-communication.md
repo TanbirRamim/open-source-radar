@@ -74,4 +74,4 @@ Reviewers-এর জানা দরকার এমন কিছু থাক�
 - [ ] Template-এর placeholder text সরিয়ে দিয়েছি।
 - [ ] আমার follow-up message-গুলো যথেষ্ট বিরতি দিয়ে এবং ভদ্রভাবে পাঠানো হয়েছে।
 
-পরবর্তী অধ্যায়: [Review, Feedback এবং প্রত্যাখ্যান](../08-reviews.md)
+পরবর্তী: [Reviews, feedback and rejection](../08-reviews.md)
