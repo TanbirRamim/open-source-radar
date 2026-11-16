@@ -69,4 +69,4 @@ Se il progetto dispone di un canale chat per i collaboratori, puoi anche chieder
 - [ ] Ho rimosso il testo segnaposto del modello.
 - [ ] I miei messaggi di follow-up sono educati e sufficientemente distanziati nel tempo.
 
-Successivo: [Revisioni, feedback e rifiuti](../08-reviews.md) (in inglese)
+Successivo: [Revisioni, feedback e rifiuti](08-reviews.md)
