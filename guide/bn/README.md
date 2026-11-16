@@ -12,7 +12,7 @@
 | 4 | [শেষ করতে পারবেন এমন একটি issue খুঁজুন](04-find-an-issue.md) |
 | 5 | [Your first pull request](../05-first-pull-request.md) (English) |
 | 6 | [শুরু করার আগে যে নিয়মগুলো যাচাই করবেন](06-rules-before-you-start.md) |
-| 7 | [Talking to maintainers](../07-communication.md) (English) |
+| 7 | [মেইনটেইনারদের সঙ্গে যোগাযোগ](07-communication.md) |
 | 8 | [Reviews, feedback and rejection](../08-reviews.md) (English) |
 | 9 | [Keep going](../09-keep-going.md) (English) |
 | 10 | [Reading a codebase](../10-reading-a-codebase.md) (English) |
