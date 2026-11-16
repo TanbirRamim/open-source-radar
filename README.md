@@ -247,6 +247,10 @@ Thank you to everyone who has made the radar better:
 - [@Avenash005](https://github.com/Avenash005): Vietnamese website ([#373](https://github.com/TanbirRamim/open-source-radar/pull/373))
 - [@aditya-shekhar-git](https://github.com/aditya-shekhar-git): Bengali guide chapter 6 ([#461](https://github.com/TanbirRamim/open-source-radar/pull/461))
 - [@subodhin](https://github.com/subodhin): stats archive month tests ([#477](https://github.com/TanbirRamim/open-source-radar/pull/477))
+- [@lucka605](https://github.com/lucka605): Arabic guide, chapter 1 ([#479](https://github.com/TanbirRamim/open-source-radar/pull/479))
+- [@v3ravani](https://github.com/v3ravani): passive assignment requests detected as claims ([#480](https://github.com/TanbirRamim/open-source-radar/pull/480))
+- [@TrivCodez](https://github.com/TrivCodez): Polish guide, chapter 3 ([#481](https://github.com/TanbirRamim/open-source-radar/pull/481))
+- [@ruthraguru248](https://github.com/ruthraguru248): Bengali guide, chapter 7 ([#482](https://github.com/TanbirRamim/open-source-radar/pull/482))
 
 Your name goes here with your first merged pull request. And if the radar helped you, please give it a star: it's the simplest way to help other newcomers find it.
 
