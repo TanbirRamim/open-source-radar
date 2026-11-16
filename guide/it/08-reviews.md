@@ -64,4 +64,4 @@ Una pull request chiusa con una risposta educata e costruttiva lascia comunque u
 - [ ] Ho mantenuto ridotto l'ambito della pull request.
 - [ ] Ho fatto follow-up educatamente, al massimo una volta a settimana.
 
-Avanti: [Keep going](../09-keep-going.md) (in inglese)
+Successivo: [Continuare il percorso](../09-keep-going.md) (in inglese)
