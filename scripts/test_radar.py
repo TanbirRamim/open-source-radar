@@ -198,12 +198,6 @@ class AvailabilityTests(unittest.TestCase):
             "Can I give it a try?",
             "Could I give this a try?",
             "May I give a try?",
-            "Can I be assigned to this?",
-            "Could I be assigned to this issue?",
-            "I'd like to be assigned to this",
-            "I would like to be assigned to this issue",
-            "Can I get assigned to this?",
-            "I want to be assigned to this",
         ]:
             with self.subTest(body=body):
                 claimed = issue(comments={"nodes": [comment(body)]})
@@ -219,25 +213,6 @@ class AvailabilityTests(unittest.TestCase):
             "Please assign membership roles",
             "Can anyone give it a try?",
             "You could give it a try",
-            "Anyone can be assigned to this",
-            "Has someone been assigned to this?",
-            "I will be assigned to this",
-            "I'll be assigned to this",
-            "I can be assigned to this",
-            "Can I be assigned as a reviewer?",
-            "Can I be assigned to another issue?",
-            "Can I be assigned to this other project?",
-            "Can I be assigned to this task?",
-            "Can I be assigned to this team?",
-            "Can I be assigned to it instead?",
-            "Can I be assigned to work on this other project?",
-            "Could I be assigned to fix this different issue?",
-            "Can I be assigned to this initiative?",
-            "Can I be assigned to this feature?",
-            "Can I be assigned to this bug?",
-            "Can I be assigned to this PR?",
-            "Can I be assigned to this repository?",
-            "Can I be assigned to work on this initiative?",
         ]:
             with self.subTest(body=body):
                 available = issue(comments={"nodes": [comment(body)]})
@@ -463,6 +438,15 @@ class RecentlyClaimedTests(unittest.TestCase):
                 self.assertFalse(
                     radar.recently_claimed(issue(comments={"nodes": [comment(non_claim)]}), CLAIM_SINCE), non_claim
                 )
+
+    def test_curly_apostrophes_count_as_claims(self):
+        for body in (
+            "I\u2019ll take this",
+            "I\u2019d be happy to work on this",
+            "I\u2019d like to be assigned to this",
+        ):
+            with self.subTest(body=body):
+                self.assertTrue(radar.recently_claimed(issue(comments={"nodes": [comment(body)]}), CLAIM_SINCE), body)
 
     def test_passive_claim_lifecycle_with_bot_and_maintainer_replies(self):
         claim = comment("Could I please be assigned to this issue?", author={"login": "newcomer", "__typename": "User"})

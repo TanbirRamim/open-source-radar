@@ -342,7 +342,7 @@ CLAIM_PATTERN = re.compile(
     r"\b(?:please )?assign me\b|"
     r"\b(?:please )?assign (?:this |it )?(?:issue )?to me\b|"
     r"\b(?:(?:can|could|may) i (?:please )?|"
-    r"i(?:['’]d| would) (?:like|love|be happy) to (?:please )?|"
+    r"i(?:'d| would) (?:like|love|be happy) to (?:please )?|"
     r"i (?:want to|wanna) (?:please )?)(?:be|get) assigned"
     r"(?: (?:to (?:(?:work on|fix|tackle|handle|solve) )?|)"
     r"(?:(?:this |the )?issue|this|it)\b)?"
@@ -388,6 +388,8 @@ def recently_claimed(issue: dict[str, Any], claimed_since: dt.datetime) -> bool:
     if iso_to_datetime(latest["createdAt"]) < claimed_since:
         return False
     body = QUOTED_REPLY.sub("", latest.get("body") or "")
+    # Phone keyboards type curly apostrophes like U+2019; match them like straight ones.
+    body = body.replace("\u2019", "'")
     return bool(CLAIM_PATTERN.search(body))
 
 
