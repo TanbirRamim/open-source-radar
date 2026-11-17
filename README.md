@@ -252,6 +252,7 @@ Thank you to everyone who has made the radar better:
 - [@TrivCodez](https://github.com/TrivCodez): Polish guide, chapter 3 ([#481](https://github.com/TanbirRamim/open-source-radar/pull/481))
 - [@ruthraguru248](https://github.com/ruthraguru248): Bengali guide, chapter 7 ([#482](https://github.com/TanbirRamim/open-source-radar/pull/482))
 - [@mxrfp](https://github.com/mxrfp): Italian guide, chapter 8 ([#487](https://github.com/TanbirRamim/open-source-radar/pull/487))
+- [@NeilPant](https://github.com/NeilPant): claims after Markdown quotes ([#492](https://github.com/TanbirRamim/open-source-radar/pull/492))
 
 Your name goes here with your first merged pull request. And if the radar helped you, please give it a star: it's the simplest way to help other newcomers find it.
 
