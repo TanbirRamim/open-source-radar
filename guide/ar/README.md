@@ -4,18 +4,18 @@
 
 [النسخة الإنكليزية](../README.md) · الترجمة العربية قيد العمل. الفصول التي لم تُترجم بعد تشير إلى النسخة الإنكليزية.
 
-| # | الفصل |
-| --- | --- |
-| 1 | [لماذا تساهم، وما الذي يُعدّ مساهمة؟](01-why-contribute.md) |
-| 2 | [إعداد أدواتك](../02-setup.md) (English) |
-| 3 | [اختيار مشروع](../03-choose-a-project.md) (English) |
-| 4 | [العثور على مشكلة يمكنك إنهاؤها](../04-find-an-issue.md) (English) |
-| 5 | [أول Pull Request خطوة بخطوة](../05-first-pull-request.md) (English) |
-| 6 | [قواعد تتحقق منها قبل البدء](../06-rules-before-you-start.md) (English) |
-| 7 | [التواصل مع المشرفين](../07-communication.md) (English) |
-| 8 | [المراجعات والملاحظات والرفض](../08-reviews.md) (English) |
-| 9 | [الاستمرار بعد أول مساهمة](../09-keep-going.md) (English) |
-| 10 | [قراءة قاعدة شيفرة جديدة](../10-reading-a-codebase.md) (English) |
+| #   | الفصل                                                                   |
+| --- | ----------------------------------------------------------------------- |
+| 1   | [لماذا تساهم، وما الذي يُعدّ مساهمة؟](01-why-contribute.md)             |
+| 2   | [إعداد أدواتك](02-setup.md)                                |
+| 3   | [اختيار مشروع](../03-choose-a-project.md) (English)                     |
+| 4   | [العثور على مشكلة يمكنك إنهاؤها](../04-find-an-issue.md) (English)      |
+| 5   | [أول Pull Request خطوة بخطوة](../05-first-pull-request.md) (English)    |
+| 6   | [قواعد تتحقق منها قبل البدء](../06-rules-before-you-start.md) (English) |
+| 7   | [التواصل مع المشرفين](../07-communication.md) (English)                 |
+| 8   | [المراجعات والملاحظات والرفض](../08-reviews.md) (English)               |
+| 9   | [الاستمرار بعد أول مساهمة](../09-keep-going.md) (English)               |
+| 10  | [قراءة قاعدة شيفرة جديدة](../10-reading-a-codebase.md) (English)        |
 
 مواد مفيدة:
 
