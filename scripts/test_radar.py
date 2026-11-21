@@ -670,6 +670,18 @@ class TopicAndLabelTests(unittest.TestCase):
         self.assertGreater(min_ratio, 0)
         self.assertLessEqual(min_ratio, 1)
 
+    def test_new_robotics_and_ai_keywords_match_exactly(self):
+        config = radar.load_config()
+        for topic in ("robot", "uav", "gazebo", "px4"):
+            with self.subTest(topic=topic):
+                self.assertIn("robotics", radar.topic_buckets([topic], config))
+        for topic in ("mcp", "embeddings", "fine-tuning", "mlops"):
+            with self.subTest(topic=topic):
+                self.assertIn("ai-ml", radar.topic_buckets([topic], config))
+        for topic in ("probot", "robotframework"):
+            with self.subTest(topic=topic):
+                self.assertNotIn("robotics", radar.topic_buckets([topic], config))
+
     def test_cryptography_is_security_not_finance(self):
         config = radar.load_config()
         self.assertEqual(radar.topic_buckets(["cryptography"], config), ["security"])
