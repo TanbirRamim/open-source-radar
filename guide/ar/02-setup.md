@@ -67,7 +67,7 @@ gh auth setup-git      # lets git push over HTTPS using that login
 
 ## أدوات تطوير اللغات البرمجية
 
-ثبّت أدوات التطوير الخاصة بالمشروع الذي تختاره، مع استخدام الإصدار الذي يطلبه المشروع. ابحث عن ملفات مثل `.nvmrc` و`.python-version` و`rust-toolchain.toml` و`go.mod` و`.tool-versions`. تعرض [الأدلة السريعة للغات البرمجية](../languages/README.md) الأوامر المعتادة لكل لغة.
+ثبّت أدوات التطوير الخاصة بالمشروع الذي تختاره، مع استخدام الإصدار الذي يطلبه المشروع. ابحث عن ملفات مثل `.nvmrc` و`.python-version` و`rust-toolchain.toml` و`go.mod` و`.tool-versions`. تعرض [الأدلة السريعة للغات البرمجية](../../languages/README.md) الأوامر المعتادة لكل لغة.
 
 تجعل أدوات إدارة الإصدارات هذه العملية أسهل:
 
