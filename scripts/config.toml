@@ -19,10 +19,10 @@ claim_within_days = 21
 labels = [
   "good first issue", "good-first-issue", "Good First Issue", "Good first issue",
   "good first bug", "first-timers-only", "first timers only",
-  "help wanted", "help-wanted", "Help Wanted", "status: help wanted", "E-help-wanted",
+  "help wanted", "help-wanted", "Help Wanted", "Help wanted", "status: help wanted", "E-help-wanted",
   "beginner", "beginner friendly", "beginner-friendly", "Beginner",
   "easy", "Easy", "E-easy", "difficulty: easy", "difficulty/easy", "level: easy",
-  "up-for-grabs", "up for grabs", "contributions welcome", "PR welcome", "PRs welcome", "hacktoberfest",
+  "up-for-grabs", "up for grabs", "contributions welcome", "contributions-welcome", "PR welcome", "PRs welcome", "hacktoberfest",
 ]
 # Issues fetched per repository per run (most recently updated first).
 per_repo = 30
@@ -94,7 +94,7 @@ keywords = ["developer-tools", "devtools", "cli", "terminal", "editor", "ide", "
 
 [topics.ai-ml]
 title = "AI and machine learning"
-keywords = ["machine-learning", "deep-learning", "ai", "llm", "artificial-intelligence", "nlp", "computer-vision", "pytorch", "tensorflow", "neural-network", "data-science", "rag", "agents", "openai", "transformers"]
+keywords = ["machine-learning", "deep-learning", "ai", "llm", "artificial-intelligence", "nlp", "computer-vision", "pytorch", "tensorflow", "neural-network", "data-science", "rag", "agents", "openai", "transformers", "mcp", "embeddings", "fine-tuning", "mlops"]
 
 [topics.data]
 title = "Data and databases"
@@ -130,7 +130,7 @@ keywords = ["science", "scientific-computing", "bioinformatics", "physics", "ast
 
 [topics.robotics]
 title = "Robotics"
-keywords = ["robotics", "ros", "ros2", "drones", "autonomous-vehicles", "slam", "motion-planning"]
+keywords = ["robotics", "ros", "ros2", "drones", "autonomous-vehicles", "slam", "motion-planning", "robot", "uav", "gazebo", "px4"]
 
 [topics.finance-web3]
 title = "Finance and Web3"

@@ -639,6 +639,37 @@ class TopicAndLabelTests(unittest.TestCase):
                     with self.subTest(topic=slug, keyword=keyword, shadows=other):
                         self.fail(f"{keyword!r} in {slug!r} also matches {other!r} from {other_slug!r}")
 
+    def test_issue_labels_in_real_config_are_unique_and_non_empty(self):
+        config = radar.load_config()
+        labels = config["issues"]["labels"]
+        self.assertTrue(labels)
+        seen = set()
+        for label in labels:
+            with self.subTest(label=label):
+                self.assertTrue(label.strip())
+                self.assertNotIn(label, seen, f"Duplicate issue label {label!r}")
+                seen.add(label)
+
+    def test_language_slugs_in_real_config_are_unique_and_valid(self):
+        config = radar.load_config()
+        languages = config["languages"]
+        self.assertTrue(languages)
+        seen_slugs = {}
+        for language, slug in languages.items():
+            with self.subTest(language=language):
+                self.assertTrue(language.strip())
+                self.assertRegex(slug, r"^[a-z0-9-]+\Z")
+                self.assertNotIn(slug, seen_slugs, f"Slug {slug!r} already used by {seen_slugs.get(slug)!r}")
+                seen_slugs[slug] = language
+
+    def test_safety_min_ratio_in_real_config_is_in_valid_range(self):
+        config = radar.load_config()
+        min_ratio = config["safety"]["min_ratio"]
+        self.assertNotIsInstance(min_ratio, bool)
+        self.assertIsInstance(min_ratio, (int, float))
+        self.assertGreater(min_ratio, 0)
+        self.assertLessEqual(min_ratio, 1)
+
     def test_cryptography_is_security_not_finance(self):
         config = radar.load_config()
         self.assertEqual(radar.topic_buckets(["cryptography"], config), ["security"])
