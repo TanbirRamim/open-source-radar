@@ -15,6 +15,7 @@
 | **Draft pull request** | A pull request marked as not ready for review yet. |
 | **Fork** | Your own copy of someone else's repository on GitHub. |
 | **Force push** | Replacing a remote branch's history. Use `git push --force-with-lease` on your own branches only. |
+| **Help wanted** | A label maintainers put on issues they would like outside help with. Not always small; a beginner label is the easier start. |
 | **Issue** | A bug report, feature request or task in a project's tracker. |
 | **Linked pull request** | A pull request connected to an issue, often with `Fixes #123`. |
 | **Linter** | A tool that checks code for style problems and likely bugs. |

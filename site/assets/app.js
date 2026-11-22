@@ -3,6 +3,10 @@
   "use strict";
 
   const { locale, t } = window.RadarI18n;
+  // Glossary in the visitor's language when the guide has one, else English.
+  const GLOSSARY_FOLDERS = { bn: "bn", es: "es", hi: "hi", pt: "pt-BR" };
+  const GLOSSARY_URL = "https://github.com/TanbirRamim/open-source-radar/blob/main/guide/" +
+    (GLOSSARY_FOLDERS[locale] ? `${GLOSSARY_FOLDERS[locale]}/` : "") + "glossary.md";
   const { signals: pickSignals, bestBets } = window.RadarPick;
   const PAGE_SIZE = 50;
   const CONTRIBUTING_PATHS = new Set([
@@ -112,6 +116,30 @@
     const qs = params.toString();
     history.replaceState(null, "", qs ? `?${qs}` : location.pathname);
   }
+
+  // On phones the less common filters fold behind a toggle (CSS hides .field-advanced). The label
+  // counts the folded filters that are set, so a shared link never hides an active filter silently.
+  const moreFiltersButton = document.getElementById("more-filters");
+
+  function advancedFilterCount(values) {
+    return ["topic", "rules", "activity", "signal"].filter((key) => values[key]).length +
+      (values.sort && values.sort !== "updated" ? 1 : 0);
+  }
+
+  function updateMoreFilters(values = readFilters()) {
+    if (!moreFiltersButton) return;
+    const open = form.classList.contains("show-advanced");
+    const count = advancedFilterCount(values);
+    moreFiltersButton.setAttribute("aria-expanded", String(open));
+    moreFiltersButton.textContent = open
+      ? t("filters.fewer")
+      : count ? t("filters.moreCount", { count: numberFormat.format(count), n: count }) : t("filters.more");
+  }
+
+  moreFiltersButton?.addEventListener("click", () => {
+    form.classList.toggle("show-advanced");
+    updateMoreFilters();
+  });
 
   function restoreFromUrl() {
     const params = new URLSearchParams(location.search);
@@ -247,6 +275,7 @@
     if (resetButton) {
       resetButton.disabled = !hasFilter;
     }
+    updateMoreFilters(values);
     if (!hasFilter) {
       document.title = originalTitle;
     } else {
@@ -357,11 +386,12 @@
 
   // ---- Rendering -----------------------------------------------------------------------------
 
-  function badge(listElement, text, href, className) {
+  function badge(listElement, text, href, className, title) {
     const item = document.createElement("li");
     if (className) item.className = className;
     const inner = document.createElement(href ? "a" : "span");
     inner.textContent = text;
+    if (title) inner.title = title;
     if (href) {
       inner.href = href;
       inner.target = "_blank";
@@ -460,7 +490,18 @@
     }
     if (!labels.children.length) labels.remove();
 
-    const level = node.querySelector(".level");
+    let level = node.querySelector(".level");
+    if (issue.level === "help-wanted") {
+      // "Help wanted" is jargon for newcomers, so the chip explains itself via the glossary.
+      const link = document.createElement("a");
+      link.className = level.className;
+      link.href = GLOSSARY_URL;
+      link.target = "_blank";
+      link.rel = "noopener";
+      link.title = t("glossary.helpWanted");
+      level.replaceWith(link);
+      level = link;
+    }
     level.classList.add(issue.level);
     level.textContent = t(issue.level === "beginner" ? "issue.beginner" : "issue.helpWanted");
 
@@ -483,8 +524,8 @@
     if (policy.ai === "restricted") badge(badges, t("badge.aiRestricted"), fileUrl(policy.ai_file), "ai-restricted");
     if (policy.ai === "disclose") badge(badges, t("badge.aiDisclose"), fileUrl(policy.ai_file));
     if (policy.ai === "policy") badge(badges, t("badge.aiPolicy"), fileUrl(policy.ai_file));
-    if (policy.cla) badge(badges, "CLA");
-    if (policy.dco) badge(badges, t("badge.dco"));
+    if (policy.cla) badge(badges, "CLA", GLOSSARY_URL, null, t("glossary.cla"));
+    if (policy.dco) badge(badges, t("badge.dco"), GLOSSARY_URL, null, t("glossary.dco"));
     const guide = contributingPath(repo);
     if (guide) badge(badges, t("badge.guide"), fileUrl(guide));
     if (issue.closed_pr) badge(badges, t("badge.closedPr"), issue.url);

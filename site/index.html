@@ -168,7 +168,7 @@
             <option value="" data-i18n="filters.allLanguages">All languages</option>
           </select>
         </label>
-        <label class="field">
+        <label class="field field-advanced">
           <span data-i18n="filters.topic">Topic</span>
           <select name="topic">
             <option value="" data-i18n="filters.allTopics">All topics</option>
@@ -182,7 +182,7 @@
             <option value="help-wanted" data-i18n="filters.helpWanted">Help wanted</option>
           </select>
         </label>
-        <label class="field">
+        <label class="field field-advanced">
           <span data-i18n="filters.rules">Project rules</span>
           <select name="rules">
             <option value="" data-i18n="filters.any">Any</option>
@@ -192,7 +192,7 @@
             <option value="contributing" data-i18n="filters.hasGuide">Has a contributing guide</option>
           </select>
         </label>
-        <label class="field">
+        <label class="field field-advanced">
           <span data-i18n="filters.sort">Sort</span>
           <select name="sort">
             <option value="updated" data-i18n="filters.recent">Recently updated</option>
@@ -202,7 +202,7 @@
             <option value="open" data-i18n="filters.open">Most open issues</option>
           </select>
         </label>
-        <label class="field">
+        <label class="field field-advanced">
           <span data-i18n="filters.activity">Last activity</span>
           <select name="activity">
             <option value="" data-i18n="filters.anyTime">Any time</option>
@@ -211,7 +211,7 @@
             <option value="90" data-i18n="filters.days90">Past 90 days</option>
           </select>
         </label>
-        <label class="field">
+        <label class="field field-advanced">
           <span data-i18n="filters.signals">Signals</span>
           <select name="signal">
             <option value="" data-i18n="filters.any">Any</option>
@@ -220,6 +220,8 @@
             <option value="no-closed-pr" data-i18n="filters.noClosedPr">No earlier closed PR</option>
           </select>
         </label>
+        <button class="more-filters" type="button" id="more-filters" aria-expanded="false" aria-controls="filters"
+          data-i18n="filters.more">More filters</button>
         <input type="hidden" name="repo" value="">
         <button class="reset" type="reset" data-i18n="filters.clear">Clear filters</button>
       </form>
