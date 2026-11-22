@@ -3,6 +3,7 @@
   "use strict";
 
   const { locale, t } = window.RadarI18n;
+  const { signals: pickSignals, bestBets } = window.RadarPick;
   const PAGE_SIZE = 50;
   const CONTRIBUTING_PATHS = new Set([
     "CONTRIBUTING.md",
@@ -35,6 +36,9 @@
   const topicFeed = document.getElementById("topic-feed");
   const topicFeedLink = document.getElementById("topic-feed-link");
   const repoCard = document.getElementById("repo-card");
+  const startForm = document.getElementById("start-form");
+  const startList = document.getElementById("start-list");
+  const startEmpty = document.getElementById("start-empty");
 
   let data = null;
   let filtered = [];
@@ -367,6 +371,42 @@
     listElement.append(item);
   }
 
+  function renderSignals(listElement, issue, repo) {
+    for (const signal of pickSignals(issue, repo)) {
+      const item = document.createElement("li");
+      item.className = signal.tone;
+      item.textContent = t(signal.key, signal.values);
+      listElement.append(item);
+    }
+    if (!listElement.children.length) listElement.remove();
+  }
+
+  // ---- Start here: five best bets for a language and comfort level ---------------------------
+
+  function renderStart() {
+    const values = Object.fromEntries(new FormData(startForm).entries());
+    const picks = bestBets(data.issues, data.repositories, { language: values.language, comfort: values.comfort });
+    startList.replaceChildren();
+    for (const issue of picks) {
+      const repo = data.repositories[issue.repo];
+      const item = document.createElement("li");
+      const link = document.createElement("a");
+      link.href = issue.url;
+      link.target = "_blank";
+      link.rel = "noopener";
+      link.textContent = issue.title;
+      const where = document.createElement("span");
+      where.className = "start-repo";
+      where.textContent = issue.repo;
+      const chips = document.createElement("ul");
+      chips.className = "signals";
+      item.append(link, where, chips);
+      renderSignals(chips, issue, repo);
+      startList.append(item);
+    }
+    startEmpty.hidden = picks.length > 0;
+  }
+
   function renderIssue(issue) {
     const repo = data.repositories[issue.repo];
     const node = template.content.firstElementChild.cloneNode(true);
@@ -394,6 +434,7 @@
     node.querySelector(".opened").textContent =
       daysAgo(issue.created).replace(t("time.updatedPrefix"), t("time.openedPrefix"));
     node.querySelector(".repo-desc").textContent = repo.description || "";
+    renderSignals(node.querySelector(".signals"), issue, repo);
 
     const labels = node.querySelector(".labels");
     labels.setAttribute("aria-label", t("issue.labels"));
@@ -502,6 +543,19 @@
       form.elements.topic,
       [...topicCounts].sort((a, b) => b[1] - a[1]).map(([slug, count]) => [slug, `${topicTitle(slug)} (${count})`]),
     );
+
+    const startCounts = new Map();
+    for (const issue of data.issues) {
+      const language = repos[issue.repo].language;
+      if (issue.level === "beginner" && language) startCounts.set(language, (startCounts.get(language) || 0) + 1);
+    }
+    populateSelect(
+      startForm.elements.language,
+      [...startCounts].sort((a, b) => b[1] - a[1]).map(([name]) => [name, name]),
+    );
+    startForm.addEventListener("change", renderStart);
+    startForm.addEventListener("submit", (event) => event.preventDefault());
+    renderStart();
 
     const when = new Date(data.generated_at);
     updated.textContent = t("footer.updated", { date: when.toLocaleString(locale, {

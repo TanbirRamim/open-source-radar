@@ -2329,6 +2329,7 @@ class SitemapTests(unittest.TestCase):
             locs,
             [
                 radar.SITE_URL,
+                radar.SITE_URL + "first-pr/",
                 radar.SITE_URL + "feeds/",
                 radar.SITE_URL + "?language=C%2B%2B&level=beginner",
                 radar.SITE_URL + "?language=Python&level=beginner",

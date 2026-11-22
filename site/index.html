@@ -56,6 +56,7 @@
     <nav class="site-nav" aria-label="Main" data-i18n-aria-label="mainNav">
       <a id="guide-link" href="https://github.com/TanbirRamim/open-source-radar/blob/main/guide/README.md"
         data-i18n="nav.guide">Contribution guide</a>
+      <a href="first-pr/" data-i18n="nav.firstPr">Your first PR</a>
       <a href="https://github.com/TanbirRamim/open-source-radar/blob/main/projects/README.md"
         data-i18n="nav.projects">Projects directory</a>
       <a href="https://github.com/TanbirRamim/open-source-radar/tree/main/languages"
@@ -106,6 +107,33 @@
       <p class="lede" data-i18n="hero.lede">Every issue below is open, has no assignee and no linked pull request, and
         comes from a project that was active in the last two months. Pick one, read the project's contributing guide,
         and make your first pull request.</p>
+
+      <section class="start" id="start" aria-labelledby="start-title">
+        <h2 id="start-title" data-i18n="start.title">New here? Start with these</h2>
+        <p class="start-lede" data-i18n="start.lede">Pick a language you know a little. These five look friendly right
+          now: beginner labels, quiet threads, and projects that actually merge pull requests from outside.</p>
+        <form class="start-form" id="start-form">
+          <label class="field">
+            <span data-i18n="start.language">Language I know</span>
+            <select name="language">
+              <option value="" data-i18n="start.anyLanguage">Any language</option>
+            </select>
+          </label>
+          <fieldset class="start-comfort">
+            <legend data-i18n="start.comfort">How much have you done?</legend>
+            <label><input type="radio" name="comfort" value="new" checked> <span data-i18n="start.new">This is my
+                first PR</span></label>
+            <label><input type="radio" name="comfort" value="some"> <span data-i18n="start.some">I've done one or
+                two</span></label>
+          </fieldset>
+        </form>
+        <div class="start-picks">
+          <ol class="start-list" id="start-list" aria-live="polite"></ol>
+        <p class="start-empty" id="start-empty" data-i18n="start.empty" hidden>Nothing great here right now. Try another
+          language, or switch to "I've done one or two".</p>
+        </div>
+        <p><a class="strong-link" href="first-pr/" data-i18n="start.after">Picked one? Here's what to do next</a></p>
+      </section>
 
       <div class="query" role="group" aria-label="Equivalent GitHub search" data-i18n-aria-label="query.label">
         <code id="query-text">is:issue is:open no:assignee -linked:pr</code>
@@ -259,6 +287,7 @@
           <span class="opened"></span>
         </p>
         <p class="repo-desc"></p>
+        <ul class="signals"></ul>
         <ul class="labels" aria-label="Issue labels" data-i18n-aria-label="issue.labels"></ul>
       </div>
       <div class="issue-side">
@@ -270,6 +299,7 @@
   </template>
 
   <script src="assets/i18n.js" defer></script>
+  <script src="assets/pick.js" defer></script>
   <script src="assets/app.js" defer></script>
 </body>
 

@@ -642,3 +642,73 @@ a:hover { text-decoration-thickness: 2px; }
 
 h2 > a.anchor { margin-left: .3em; color: inherit; opacity: 0; text-decoration: none; font-weight: 400; }
 h2:hover > a.anchor, h2 > a.anchor:focus { opacity: .5; }
+
+/* Start here: five best bets. Rows have a fixed height and the list reserves room for five, so
+   filling it after data loads doesn't move anything below (CLS stays 0). */
+
+.start {
+  margin-block: 1.5rem;
+  padding: 1.1rem 1.25rem;
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  background: var(--surface);
+  max-width: 60rem;
+}
+.start h2 { margin: 0 0 0.35rem; font-family: var(--font-display); font-size: var(--step-1); }
+.start-lede { margin: 0 0 0.9rem; color: var(--ink-soft); max-width: 62ch; }
+.start-form { display: flex; flex-wrap: wrap; align-items: end; gap: 0.75rem 1.5rem; }
+.start-form .field { min-width: 12rem; }
+.start-comfort { border: 0; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.35rem 1rem; }
+.start-comfort legend { padding: 0; margin-bottom: 0.3rem; font-weight: 700; font-size: var(--step--1); }
+.start-comfort label { display: inline-flex; align-items: center; gap: 0.35rem; min-height: 1.5rem; cursor: pointer; }
+
+.start-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.start-picks { height: 19.5rem; margin: 0.9rem 0 0.5rem; overflow: hidden; }
+.start-list > li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-rows: auto auto;
+  column-gap: 1rem;
+  height: 3.9rem;
+  padding-block: 0.45rem;
+  border-top: 1px solid var(--rule);
+  overflow: hidden;
+}
+.start-list a {
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.start-repo { color: var(--ink-soft); font-size: var(--step--1); white-space: nowrap; }
+.start-list .signals { grid-column: 1 / -1; flex-wrap: nowrap; overflow: hidden; }
+.start-empty { margin: 0.5rem 0 0; color: var(--ink-soft); }
+
+.signals {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 0.75rem;
+  list-style: none;
+  margin: 0.3rem 0 0;
+  padding: 0;
+  font-size: 0.82rem;
+}
+.signals li { white-space: nowrap; line-height: 1.4; }
+.signals li.good { color: var(--teal-strong); }
+.signals li.good::before { content: "+ "; }
+.signals li.warn { color: var(--warn); }
+.signals li.warn::before { content: "! "; }
+
+@media (max-width: 40rem) {
+  .start { padding: 0.9rem; }
+  .start-picks { height: 25rem; }
+  .start-list > li { grid-template-columns: minmax(0, 1fr); height: 5rem; }
+}
+
+.first-pr { padding-block: 1rem 4rem; max-width: 46rem; }
+.first-pr-steps li { margin-bottom: 1rem; }
+.first-pr-stuck h2 { font-family: var(--font-display); font-size: var(--step-1); }
