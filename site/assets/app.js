@@ -7,7 +7,7 @@
   const GLOSSARY_FOLDERS = { bn: "bn", es: "es", hi: "hi", pt: "pt-BR" };
   const GLOSSARY_URL = "https://github.com/TanbirRamim/open-source-radar/blob/main/guide/" +
     (GLOSSARY_FOLDERS[locale] ? `${GLOSSARY_FOLDERS[locale]}/` : "") + "glossary.md";
-  const { signals: pickSignals, bestBets } = window.RadarPick;
+  const { signals: pickSignals, bestBets, demoteStalled } = window.RadarPick;
   const PAGE_SIZE = 50;
   const CONTRIBUTING_PATHS = new Set([
     "CONTRIBUTING.md",
@@ -258,6 +258,7 @@
       open: (a, b) => (repos[b.repo].open_count ?? 0) - (repos[a.repo].open_count ?? 0) || b.updated.localeCompare(a.updated),
     };
     filtered.sort(sorters[values.sort] || sorters.updated);
+    filtered = demoteStalled(filtered, repos);
 
     writeUrl(values);
     renderQuery(values);

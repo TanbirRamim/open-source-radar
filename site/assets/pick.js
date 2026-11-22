@@ -79,7 +79,19 @@
     return picks;
   }
 
-  const api = { signals, score, bestBets, mergeHealth };
+  // Keep the current order but move issues from projects where outside PRs sit unmerged to the end,
+  // so a newcomer scrolling the main list meets projects that actually review first-timers.
+  function demoteStalled(issues, repositories) {
+    const keep = [];
+    const stalled = [];
+    for (const issue of issues) {
+      const repo = repositories[issue.repo];
+      (repo && mergeHealth(repo)?.kind === "stalls" ? stalled : keep).push(issue);
+    }
+    return keep.concat(stalled);
+  }
+
+  const api = { signals, score, bestBets, mergeHealth, demoteStalled };
   if (typeof window !== "undefined") window.RadarPick = api;
   if (typeof globalThis !== "undefined") globalThis.RadarPick = api;
 })();

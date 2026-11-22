@@ -6,7 +6,7 @@ import vm from "node:vm";
 const source = readFileSync(new URL("../site/assets/pick.js", import.meta.url), "utf8");
 const context = { window: {} };
 vm.runInNewContext(source, context);
-const { signals, score, bestBets, mergeHealth } = context.window.RadarPick;
+const { signals, score, bestBets, mergeHealth, demoteStalled } = context.window.RadarPick;
 
 const NOW = Date.parse("2026-11-22T12:00:00Z");
 const fast = { merged_in_window: 5, created_in_window: 6, median_time_to_merge_hours: 10, capped: false };
@@ -66,4 +66,10 @@ test("issues that score zero or less are never suggested", () => {
   const bad = issue({ comments: 20, created: "2026-01-01", closed_pr: true });
   const picks = bestBets([bad], { "a/one": repo({ external_prs: stalled, contributing: null }) }, { now: NOW });
   assert.equal(picks.length, 0);
+});
+
+test("stalled projects sink to the end of the list, everything else keeps its order", () => {
+  const repos = { "a/one": repo(), "b/stuck": repo({ external_prs: stalled }), "c/new": repo({ external_prs: undefined }) };
+  const list = [issue({ repo: "b/stuck", number: 1 }), issue({ repo: "a/one", number: 2 }), issue({ repo: "c/new", number: 3 }), issue({ repo: "b/stuck", number: 4 })];
+  assert.deepEqual(demoteStalled(list, repos).map((item) => item.number), [2, 3, 1, 4]);
 });
