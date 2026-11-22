@@ -9,7 +9,7 @@ Lộ trình thực tế từ “tôi muốn đóng góp” đến “pull reques
 | 1 | [Vì sao nên đóng góp, và thế nào mới được tính là đóng góp](01-why-contribute.md) |
 | 2 | [Thiết lập công cụ](02-setup.md) |
 | 3 | [Chọn dự án](03-choose-a-project.md) |
-| 4 | [Tìm issue bạn có thể hoàn thành](../04-find-an-issue.md) (English) |
+| 4 | [Tìm issue bạn có thể hoàn thành](04-find-an-issue.md) |
 | 5 | [Pull request đầu tiên, từng bước một](../05-first-pull-request.md) (English) |
 | 6 | [Những quy định cần kiểm tra trước khi bắt đầu](../06-rules-before-you-start.md) (English) |
 | 7 | [Trao đổi với maintainer](../07-communication.md) (English) |
