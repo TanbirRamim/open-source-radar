@@ -15,6 +15,7 @@
 | **Draft pull request** | ऐसा pull request जिसे अभी review के लिए तैयार नहीं माना गया है। |
 | **Fork** | GitHub पर किसी दूसरे व्यक्ति की repository की आपकी अपनी copy। |
 | **Force push** | Remote branch के history को बदलना। `git push --force-with-lease` का उपयोग केवल अपनी branches पर करें। |
+| **Help wanted** | Maintainers यह label उन issues पर लगाते हैं जिनमें उन्हें बाहर से मदद चाहिए। ये हमेशा छोटे नहीं होते; शुरुआत के लिए beginner label आसान है। |
 | **Issue** | Project tracker में bug report, feature request या किसी काम का विवरण। |
 | **Linked pull request** | किसी issue से जुड़ा pull request, अक्सर `Fixes #123` जैसे reference के साथ। |
 | **Linter** | ऐसा tool जो code में style की समस्याएँ और संभावित bugs जाँचता है। |

@@ -15,6 +15,7 @@
 | **Draft pull request** | এমন একটি pull request, যা এখনও review-এর জন্য প্রস্তুত নয় বলে চিহ্নিত করা হয়েছে। |
 | **Fork** | GitHub-এ অন্য কারও repository-র আপনার নিজস্ব কপি। |
 | **Force push** | Remote branch-এর history বদলে দেওয়া। `git push --force-with-lease` শুধু নিজের branch-এ ব্যবহার করুন। |
+| **Help wanted** | Maintainer-রা যে issue-তে বাইরের সাহায্য চান সেখানে এই label দেন। সবসময় ছোট কাজ নয়; শুরু করার জন্য beginner label সহজ। |
 | **Issue** | একটি প্রজেক্টের tracker-এ থাকা bug report, feature request বা কোনো কাজের বিবরণ। |
 | **Linked pull request** | কোনো issue-এর সঙ্গে যুক্ত একটি pull request, প্রায়ই `Fixes #123`-এর মতো reference দিয়ে। |
 | **Linter** | এমন একটি টুল, যা কোডে style-এর সমস্যা এবং সম্ভাব্য bug খুঁজে বের করে। |
