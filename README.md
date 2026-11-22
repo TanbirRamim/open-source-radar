@@ -254,6 +254,7 @@ Thank you to everyone who has made the radar better:
 - [@mxrfp](https://github.com/mxrfp): Italian guide, chapter 8 ([#487](https://github.com/TanbirRamim/open-source-radar/pull/487))
 - [@NeilPant](https://github.com/NeilPant): claims after Markdown quotes ([#492](https://github.com/TanbirRamim/open-source-radar/pull/492))
 - [@isyanpcr](https://github.com/isyanpcr): more robotics and AI keywords, label variants and config tests ([#494](https://github.com/TanbirRamim/open-source-radar/pull/494))
+- [@saamcyrilpmi-cloud](https://github.com/saamcyrilpmi-cloud): the Vietnamese chapter 4 ([#498](https://github.com/TanbirRamim/open-source-radar/pull/498))
 
 Your name goes here with your first merged pull request. And if the radar helped you, please give it a star: it's the simplest way to help other newcomers find it.
 
