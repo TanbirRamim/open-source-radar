@@ -68,4 +68,4 @@ Nếu bạn hoàn thành cả ba bước, issue đó có thể có phạm vi ph�
 - [ ] Tôi đã tái hiện được vấn đề hoặc biết chính xác vị trí cần thay đổi.
 - [ ] Người quản lý dự án không còn đang tranh luận về phương pháp thực hiện.
 
-Tiếp theo: [Pull request đầu tiên của bạn, từng bước một](../05-first-pull-request.md)
+Tiếp theo: [Pull request đầu tiên của bạn, từng bước một](../05-first-pull-request.md) (English)
