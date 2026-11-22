@@ -71,5 +71,5 @@ test("issues that score zero or less are never suggested", () => {
 test("stalled projects sink to the end of the list, everything else keeps its order", () => {
   const repos = { "a/one": repo(), "b/stuck": repo({ external_prs: stalled }), "c/new": repo({ external_prs: undefined }) };
   const list = [issue({ repo: "b/stuck", number: 1 }), issue({ repo: "a/one", number: 2 }), issue({ repo: "c/new", number: 3 }), issue({ repo: "b/stuck", number: 4 })];
-  assert.deepEqual(demoteStalled(list, repos).map((item) => item.number), [2, 3, 1, 4]);
+  assert.deepEqual([...demoteStalled(list, repos)].map((item) => item.number), [2, 3, 1, 4]);
 });
