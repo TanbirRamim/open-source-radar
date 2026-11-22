@@ -132,6 +132,22 @@
         <p class="start-empty" id="start-empty" data-i18n="start.empty" hidden>Nothing great here right now. Try another
           language, or switch to "I've done one or two".</p>
         </div>
+        <details class="start-before">
+          <summary><span id="before-title" data-i18n="before.title">Before you pick an issue</span></summary>
+          <ol class="steps" aria-labelledby="before-title">
+            <li data-i18n-html="before.free"><strong>Check it is still free.</strong> Open the issue and look for new
+              comments, assignees or linked pull requests. This page refreshes every 12 hours.</li>
+            <li data-i18n-html="before.rules"><strong>Read the project's rules.</strong> Look at its contributing guide,
+              pull request template and any AI policy. Badges here are detected automatically and can be wrong.</li>
+            <li data-i18n-html="before.reproduce"><strong>Reproduce before you fix.</strong> Confirm the problem on your
+              machine, then write a test that fails before your change.</li>
+            <li data-i18n-html="before.small"><strong>Keep it small.</strong> Change only what the issue needs, run the
+              project's checks, and explain what you changed in plain words.</li>
+          </ol>
+          <p><a class="strong-link guide-link"
+              href="https://github.com/TanbirRamim/open-source-radar/blob/main/guide/README.md"
+              data-i18n="before.readGuide">Read the full contribution guide</a></p>
+        </details>
         <p><a class="strong-link" href="first-pr/" data-i18n="start.after">Picked one? Here's what to do next</a></p>
       </section>
 
@@ -238,22 +254,6 @@
       </div>
     </section>
 
-    <section class="before wrap" aria-labelledby="before-title">
-      <h2 id="before-title" data-i18n="before.title">Before you pick an issue</h2>
-      <ol class="steps">
-        <li data-i18n-html="before.free"><strong>Check it is still free.</strong> Open the issue and look for new
-          comments, assignees or linked pull requests. This page refreshes every 12 hours.</li>
-        <li data-i18n-html="before.rules"><strong>Read the project's rules.</strong> Look at its contributing guide,
-          pull request template and any AI policy. Badges here are detected automatically and can be wrong.</li>
-        <li data-i18n-html="before.reproduce"><strong>Reproduce before you fix.</strong> Confirm the problem on your
-          machine, then write a test that fails before your change.</li>
-        <li data-i18n-html="before.small"><strong>Keep it small.</strong> Change only what the issue needs, run the
-          project's checks, and explain what you changed in plain words.</li>
-      </ol>
-      <p><a class="strong-link guide-link"
-          href="https://github.com/TanbirRamim/open-source-radar/blob/main/guide/README.md"
-          data-i18n="before.readGuide">Read the full contribution guide</a></p>
-    </section>
   </main>
 
   <footer class="site-footer wrap">
