@@ -60,4 +60,4 @@ Một chiến lược phù hợp là bắt đầu với một hoặc hai đóng 
 - [ ] Tôi đã đọc hướng dẫn đóng góp của dự án.
 - [ ] Tôi có thể build và chạy dự án trên máy mình (chương 5 sẽ hướng dẫn).
 
-Tiếp theo: [Tìm issue bạn có thể hoàn thành](../04-find-an-issue.md) (English)
+Tiếp theo: [Tìm issue bạn có thể hoàn thành](04-find-an-issue.md)
