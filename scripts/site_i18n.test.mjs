@@ -202,7 +202,7 @@ test("first-pr locales are all or nothing", () => {
     const missing = firstPrKeys.filter((key) => !Object.hasOwn(table, key));
     assert.ok(missing.length === 0 || missing.length === firstPrKeys.length, `${locale} has a partial first-pr page: ${missing}`);
   }
-  for (const locale of ["es", "pt"]) {
+  for (const locale of ["es", "pt", "hi", "bn"]) {
     for (const key of firstPrKeys) assert.ok(Object.hasOwn(messages[locale], key), `${locale} is missing ${key}`);
   }
 });
