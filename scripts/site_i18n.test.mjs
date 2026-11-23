@@ -83,9 +83,10 @@ test("messages interpolate values", () => {
 test("every locale has the same keys as English", () => {
   // Loops over every locale in messages, so a new locale is checked without touching this test.
   const { messages } = loadI18n("en");
-  const en = Object.keys(messages.en).sort();
+  // The first-pr/ page is translated locale by locale (see the first-pr tests below), so leave its keys out here.
+  const en = Object.keys(messages.en).filter((key) => !key.startsWith("firstPr.")).sort();
   for (const [locale, table] of Object.entries(messages)) {
-    const keys = Object.keys(table);
+    const keys = Object.keys(table).filter((key) => !key.startsWith("firstPr."));
     assert.deepEqual(
       keys.filter((key) => !en.includes(key)),
       [],
@@ -187,5 +188,43 @@ test("the 24 Pull Requests banner keeps both links in every locale", () => {
     const html = loadI18n(locale).t("season.24pr");
     assert.match(html, /href="https:\/\/24pullrequests\.com"/, `${locale} links 24 Pull Requests`);
     assert.match(html, /href="\?level=beginner"/, `${locale} links the beginner filter`);
+  }
+});
+
+const firstPrSource = readFileSync(new URL("../site/first-pr/index.html", import.meta.url), "utf8");
+const firstPrKeys = [...firstPrSource.matchAll(/data-i18n(?:-html|-content)?="([^"]+)"/g)].map((match) => match[1]);
+
+test("first-pr locales are all or nothing", () => {
+  const { messages } = loadI18n("en");
+  assert.ok(firstPrKeys.length > 10, "first-pr page is wired to i18n");
+  assert.deepEqual(Object.keys(messages.en).filter((key) => key.startsWith("firstPr.")).sort(), [...firstPrKeys].sort());
+  for (const [locale, table] of Object.entries(messages)) {
+    const missing = firstPrKeys.filter((key) => !Object.hasOwn(table, key));
+    assert.ok(missing.length === 0 || missing.length === firstPrKeys.length, `${locale} has a partial first-pr page: ${missing}`);
+  }
+  for (const locale of ["es", "pt"]) {
+    for (const key of firstPrKeys) assert.ok(Object.hasOwn(messages[locale], key), `${locale} is missing ${key}`);
+  }
+});
+
+test("the first-pr HTML matches the English messages", () => {
+  // Crawlers and no-JS readers get the HTML, so it should be the same English the script would render.
+  const squash = (text) => text.replace(/\s+/g, " ").trim();
+  const { messages } = loadI18n("en");
+  for (const match of firstPrSource.matchAll(/<(\w+)[^>]*data-i18n(-html)?="([^"]+)"[^>]*>([\s\S]*?)<\/\1>/g)) {
+    assert.equal(squash(match[4]), squash(messages.en[match[3]]), match[3]);
+  }
+});
+
+test("translated first-pr pages link their own guide chapters", () => {
+  const { messages, guideFolders } = loadI18n("en");
+  for (const [locale, table] of Object.entries(messages)) {
+    if (!Object.hasOwn(table, "firstPr.claim") || locale === "en") continue;
+    for (const key of firstPrKeys) {
+      for (const [, path] of String(table[key]).matchAll(/open-source-radar\/blob\/main\/guide\/([^"#]+)/g)) {
+        assert.ok(path.startsWith(`${guideFolders[locale]}/`), `${locale} ${key} links ${path}`);
+        assert.ok(existsSync(new URL(`../guide/${path}`, import.meta.url)), `guide/${path} exists`);
+      }
+    }
   }
 });

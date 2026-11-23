@@ -80,6 +80,22 @@
       "before.small": "<strong>Keep it small.</strong> Change only what the issue needs, run the project's checks, and explain what you changed in plain words.",
       "before.readGuide": "Read the full contribution guide",
       "nav.firstPr": "Your first PR",
+      "firstPr.metaTitle": "You picked an issue. Now what? | Open Source Radar",
+      "firstPr.metaDescription": "A short checklist for your first open source pull request: claim the issue, fork, branch, run the tests, open the PR and handle review.",
+      "firstPr.ogTitle": "You picked an issue. Now what?",
+      "firstPr.ogDescription": "Claim it, fork, branch, run the tests, make a small change, open the PR, handle review.",
+      "firstPr.title": "You picked an issue. Now what?",
+      "firstPr.lede": "Here's the whole thing in seven steps. Nobody gets it perfect the first time, and maintainers know that. Each step links to the longer guide chapter if you want more detail.",
+      "firstPr.claim": "<strong>Say you're on it.</strong> Leave a short comment on the issue, something like \"Hi, I'd like to work on this. My plan is to ...\". Some projects assign you, some just want a PR. If the contributing guide says to wait for a reply, wait. Never open a PR on an issue someone else already claimed. <a href=\"https://github.com/TanbirRamim/open-source-radar/blob/main/guide/07-communication.md#claiming-an-issue\">Claiming an issue</a>",
+      "firstPr.rules": "<strong>Read the rules first.</strong> Five minutes in CONTRIBUTING.md saves you a closed PR. Look for a CLA to sign, a DCO sign-off, an AI policy and the PR template. <a href=\"https://github.com/TanbirRamim/open-source-radar/blob/main/guide/06-rules-before-you-start.md\">Rules before you start</a>",
+      "firstPr.fork": "<strong>Fork, clone, branch.</strong> Fork on GitHub, clone your fork, then make a branch for this one issue (<code>git switch -c fix-typo-in-readme</code>). Don't work on main. <a href=\"https://github.com/TanbirRamim/open-source-radar/blob/main/guide/05-first-pull-request.md#1-fork-and-clone\">Fork and clone</a>, <a href=\"https://github.com/TanbirRamim/open-source-radar/blob/main/guide/02-setup.md\">Setup</a>",
+      "firstPr.run": "<strong>Get it running before you change anything.</strong> Build it and run the tests as they are. If that fails, that's a good question to ask on the issue, not a dead end. <a href=\"https://github.com/TanbirRamim/open-source-radar/blob/main/guide/05-first-pull-request.md#3-build-it-and-run-the-tests-before-changing-anything\">Build and test first</a>, <a href=\"https://github.com/TanbirRamim/open-source-radar/blob/main/guide/10-reading-a-codebase.md\">Reading a codebase</a>",
+      "firstPr.change": "<strong>Make the smallest change that fixes it.</strong> Reproduce the problem, add a test if the project has tests, fix only what the issue asks for, then run the checks again. <a href=\"https://github.com/TanbirRamim/open-source-radar/blob/main/guide/05-first-pull-request.md#6-make-the-smallest-change-that-fixes-it\">Smallest change</a>",
+      "firstPr.pr": "<strong>Open the pull request.</strong> Push your branch, open the PR against the project, fill in the template, write \"Fixes #123\" so the issue links up, and say in plain words what you changed and how you tested it. <a href=\"https://github.com/TanbirRamim/open-source-radar/blob/main/guide/07-communication.md#writing-a-pull-request-description\">Writing a PR description</a>",
+      "firstPr.review": "<strong>Handle review, and be patient.</strong> Change requests are normal, they mean someone cares. Push fixes to the same branch. If CI fails, read the log before asking. If nobody answers in a week, one polite ping is fine. <a href=\"https://github.com/TanbirRamim/open-source-radar/blob/main/guide/08-reviews.md\">Reviews</a>",
+      "firstPr.stuckTitle": "Stuck?",
+      "firstPr.stuckHelp": "Words like CLA, DCO or \"upstream\" are in the <a href=\"https://github.com/TanbirRamim/open-source-radar/blob/main/guide/glossary.md\">glossary</a>, and the <a href=\"https://github.com/TanbirRamim/open-source-radar/blob/main/guide/faq.md\">newcomer FAQ</a> covers the usual worries. You can also ask in <a href=\"https://github.com/TanbirRamim/open-source-radar/discussions\">Discussions</a>, someone will help.",
+      "firstPr.practice": "Never made a PR at all and want to practice first? <a href=\"https://github.com/firstcontributions/first-contributions\">first-contributions</a> walks you through a safe practice PR. Then come back and <a href=\"../#start\">pick a real one</a>.",
       "start.title": "New here? Start with these",
       "start.lede": "Pick a language you know a little. These five look friendly right now: beginner labels, quiet threads, and projects that actually merge pull requests from outside.",
       "start.language": "Language I know",
@@ -840,6 +856,22 @@
       "before.small": "<strong>Mantén el cambio pequeño.</strong> Modifica únicamente lo necesario, ejecuta las verificaciones del proyecto y explica el cambio con palabras sencillas.",
       "before.readGuide": "Leer la guía completa para contribuir",
       "nav.firstPr": "Tu primer PR",
+      "firstPr.metaTitle": "Elegiste un issue. ¿Y ahora qué? | Open Source Radar",
+      "firstPr.metaDescription": "Una lista corta para tu primer pull request en open source: reclama el issue, haz fork, crea una rama, ejecuta los tests, abre el PR y responde a la revisión.",
+      "firstPr.ogTitle": "Elegiste un issue. ¿Y ahora qué?",
+      "firstPr.ogDescription": "Reclámalo, haz fork, crea una rama, ejecuta los tests, haz un cambio pequeño, abre el PR y responde a la revisión.",
+      "firstPr.title": "Elegiste un issue. ¿Y ahora qué?",
+      "firstPr.lede": "Aquí está todo en siete pasos. Nadie lo hace perfecto la primera vez, y los mantenedores lo saben. Cada paso enlaza al capítulo de la guía por si quieres más detalle.",
+      "firstPr.claim": "<strong>Avisa que lo vas a hacer.</strong> Deja un comentario corto en el issue, algo como \"Hola, me gustaría trabajar en esto. Mi plan es ...\". Algunos proyectos te lo asignan, otros solo quieren un PR. Si la guía de contribución dice que esperes respuesta, espera. Nunca abras un PR en un issue que otra persona ya reclamó. <a href=\"https://github.com/TanbirRamim/open-source-radar/blob/main/guide/es/07-communication.md\">Reclamar un issue</a>",
+      "firstPr.rules": "<strong>Lee las reglas primero.</strong> Cinco minutos en CONTRIBUTING.md te ahorran un PR cerrado. Busca un CLA que firmar, la firma DCO, una política sobre IA y la plantilla de PR. <a href=\"https://github.com/TanbirRamim/open-source-radar/blob/main/guide/es/06-rules-before-you-start.md\">Reglas antes de empezar</a>",
+      "firstPr.fork": "<strong>Fork, clone, rama.</strong> Haz fork en GitHub, clona tu fork y crea una rama solo para este issue (<code>git switch -c fix-typo-in-readme</code>). No trabajes en main. <a href=\"https://github.com/TanbirRamim/open-source-radar/blob/main/guide/es/05-first-pull-request.md\">Fork y clone</a>, <a href=\"https://github.com/TanbirRamim/open-source-radar/blob/main/guide/es/02-setup.md\">Preparación</a>",
+      "firstPr.run": "<strong>Haz que funcione antes de cambiar nada.</strong> Compílalo y ejecuta los tests tal como están. Si falla, es una buena pregunta para hacer en el issue, no un callejón sin salida. <a href=\"https://github.com/TanbirRamim/open-source-radar/blob/main/guide/es/05-first-pull-request.md\">Compila y prueba primero</a>, <a href=\"https://github.com/TanbirRamim/open-source-radar/blob/main/guide/es/10-reading-a-codebase.md\">Leer un código ajeno</a>",
+      "firstPr.change": "<strong>Haz el cambio más pequeño que lo arregle.</strong> Reproduce el problema, añade un test si el proyecto tiene tests, arregla solo lo que pide el issue y vuelve a pasar las comprobaciones. <a href=\"https://github.com/TanbirRamim/open-source-radar/blob/main/guide/es/05-first-pull-request.md\">El cambio más pequeño</a>",
+      "firstPr.pr": "<strong>Abre el pull request.</strong> Sube tu rama, abre el PR contra el proyecto, rellena la plantilla, escribe \"Fixes #123\" para que se enlace el issue y explica con palabras sencillas qué cambiaste y cómo lo probaste. <a href=\"https://github.com/TanbirRamim/open-source-radar/blob/main/guide/es/07-communication.md\">Escribir la descripción de un PR</a>",
+      "firstPr.review": "<strong>Responde a la revisión, con paciencia.</strong> Que te pidan cambios es normal, significa que a alguien le importa. Sube los arreglos a la misma rama. Si falla el CI, lee el log antes de preguntar. Si nadie responde en una semana, un recordatorio amable está bien. <a href=\"https://github.com/TanbirRamim/open-source-radar/blob/main/guide/es/08-reviews.md\">Revisiones</a>",
+      "firstPr.stuckTitle": "¿Atascado?",
+      "firstPr.stuckHelp": "Palabras como CLA, DCO o \"upstream\" están en el <a href=\"https://github.com/TanbirRamim/open-source-radar/blob/main/guide/es/glossary.md\">glosario</a>, y las <a href=\"https://github.com/TanbirRamim/open-source-radar/blob/main/guide/es/faq.md\">preguntas frecuentes</a> cubren las dudas habituales. También puedes preguntar en <a href=\"https://github.com/TanbirRamim/open-source-radar/discussions\">Discussions</a>, alguien te ayudará.",
+      "firstPr.practice": "¿Nunca hiciste un PR y quieres practicar antes? <a href=\"https://github.com/firstcontributions/first-contributions\">first-contributions</a> te guía por un PR de práctica sin riesgo. Luego vuelve y <a href=\"../#start\">elige uno de verdad</a>.",
       "start.title": "¿Eres nuevo? Empieza por aquí",
       "start.lede": "Elige un lenguaje que conozcas un poco. Estos cinco parecen accesibles ahora: etiquetas para principiantes, hilos tranquilos y proyectos que de verdad aceptan pull requests externas.",
       "start.language": "Lenguaje que conozco",
@@ -1144,6 +1176,22 @@
       "before.small": "<strong>Mantenha a mudança pequena.</strong> Altere somente o necessário, execute as verificações do projeto e explique o que mudou com palavras simples.",
       "before.readGuide": "Ler o guia completo de contribuição",
       "nav.firstPr": "Seu primeiro PR",
+      "firstPr.metaTitle": "Você escolheu uma issue. E agora? | Open Source Radar",
+      "firstPr.metaDescription": "Um checklist curto para o seu primeiro pull request em open source: reivindique a issue, faça fork, crie uma branch, rode os testes, abra o PR e responda à revisão.",
+      "firstPr.ogTitle": "Você escolheu uma issue. E agora?",
+      "firstPr.ogDescription": "Reivindique, faça fork, crie uma branch, rode os testes, faça uma mudança pequena, abra o PR e responda à revisão.",
+      "firstPr.title": "Você escolheu uma issue. E agora?",
+      "firstPr.lede": "Aqui está tudo em sete passos. Ninguém acerta tudo na primeira vez, e os mantenedores sabem disso. Cada passo leva ao capítulo do guia se você quiser mais detalhes.",
+      "firstPr.claim": "<strong>Avise que vai pegar.</strong> Deixe um comentário curto na issue, algo como \"Oi, eu gostaria de trabalhar nisso. Meu plano é ...\". Alguns projetos atribuem a issue a você, outros só querem um PR. Se o guia de contribuição pedir para esperar resposta, espere. Nunca abra um PR numa issue que outra pessoa já pegou. <a href=\"https://github.com/TanbirRamim/open-source-radar/blob/main/guide/pt-BR/07-communication.md\">Reivindicar uma issue</a>",
+      "firstPr.rules": "<strong>Leia as regras antes.</strong> Cinco minutos no CONTRIBUTING.md evitam um PR fechado. Procure um CLA para assinar, a assinatura DCO, uma política sobre IA e o template de PR. <a href=\"https://github.com/TanbirRamim/open-source-radar/blob/main/guide/pt-BR/06-rules-before-you-start.md\">Regras antes de começar</a>",
+      "firstPr.fork": "<strong>Fork, clone, branch.</strong> Faça fork no GitHub, clone o seu fork e crie uma branch só para essa issue (<code>git switch -c fix-typo-in-readme</code>). Não trabalhe na main. <a href=\"https://github.com/TanbirRamim/open-source-radar/blob/main/guide/pt-BR/05-first-pull-request.md\">Fork e clone</a>, <a href=\"https://github.com/TanbirRamim/open-source-radar/blob/main/guide/pt-BR/02-setup.md\">Configuração</a>",
+      "firstPr.run": "<strong>Faça rodar antes de mudar qualquer coisa.</strong> Compile e rode os testes do jeito que estão. Se falhar, é uma boa pergunta para fazer na issue, não um beco sem saída. <a href=\"https://github.com/TanbirRamim/open-source-radar/blob/main/guide/pt-BR/05-first-pull-request.md\">Compile e teste primeiro</a>, <a href=\"https://github.com/TanbirRamim/open-source-radar/blob/main/guide/pt-BR/10-reading-a-codebase.md\">Lendo um código desconhecido</a>",
+      "firstPr.change": "<strong>Faça a menor mudança que resolve.</strong> Reproduza o problema, adicione um teste se o projeto tiver testes, corrija só o que a issue pede e rode as verificações de novo. <a href=\"https://github.com/TanbirRamim/open-source-radar/blob/main/guide/pt-BR/05-first-pull-request.md\">A menor mudança</a>",
+      "firstPr.pr": "<strong>Abra o pull request.</strong> Envie a sua branch, abra o PR para o projeto, preencha o template, escreva \"Fixes #123\" para ligar a issue e diga com palavras simples o que mudou e como testou. <a href=\"https://github.com/TanbirRamim/open-source-radar/blob/main/guide/pt-BR/07-communication.md\">Escrevendo a descrição de um PR</a>",
+      "firstPr.review": "<strong>Responda à revisão, com paciência.</strong> Pedidos de mudança são normais, significam que alguém se importa. Envie as correções na mesma branch. Se o CI falhar, leia o log antes de perguntar. Se ninguém responder em uma semana, um lembrete educado tudo bem. <a href=\"https://github.com/TanbirRamim/open-source-radar/blob/main/guide/pt-BR/08-reviews.md\">Revisões</a>",
+      "firstPr.stuckTitle": "Travou?",
+      "firstPr.stuckHelp": "Palavras como CLA, DCO ou \"upstream\" estão no <a href=\"https://github.com/TanbirRamim/open-source-radar/blob/main/guide/pt-BR/glossary.md\">glossário</a>, e o <a href=\"https://github.com/TanbirRamim/open-source-radar/blob/main/guide/pt-BR/faq.md\">FAQ para iniciantes</a> cobre as dúvidas comuns. Você também pode perguntar nas <a href=\"https://github.com/TanbirRamim/open-source-radar/discussions\">Discussions</a>, alguém vai ajudar.",
+      "firstPr.practice": "Nunca fez um PR e quer praticar antes? O <a href=\"https://github.com/firstcontributions/first-contributions\">first-contributions</a> guia você num PR de prática sem risco. Depois volte e <a href=\"../#start\">escolha um de verdade</a>.",
       "start.title": "É novo por aqui? Comece por estes",
       "start.lede": "Escolha uma linguagem que você conhece um pouco. Estes cinco parecem acessíveis agora: rótulos para iniciantes, conversas tranquilas e projetos que realmente aceitam pull requests de fora.",
       "start.language": "Linguagem que eu conheço",
@@ -2612,7 +2660,11 @@
     return template.replace(/\{(\w+)\}/g, (_, name) => values[name] ?? `{${name}}`);
   }
 
-  document.documentElement.lang = locale;
+  // Pages other than the home page (first-pr/) are only translated into some locales; when this one
+  // is missing any of the page's keys, the page renders in English, so say so in <html lang>.
+  const pageKeys = [...document.querySelectorAll("[data-i18n], [data-i18n-html]")]
+    .map((element) => element.dataset.i18n ?? element.dataset.i18nHtml);
+  document.documentElement.lang = pageKeys.every((key) => Object.hasOwn(messages[locale], key)) ? locale : "en";
   document.querySelectorAll("[data-i18n]").forEach((element) => {
     element.textContent = t(element.dataset.i18n);
   });
@@ -2633,12 +2685,15 @@
     if (folder) link.href = `https://github.com/TanbirRamim/open-source-radar/blob/main/guide/${folder}/README.md`;
   });
 
+  // Only the home page has the language picker; other pages follow the stored choice.
   const select = document.getElementById("locale-select");
-  select.value = locale;
-  select.addEventListener("change", () => {
-    try { localStorage.setItem("radar-locale", select.value); } catch (error) { /* storage unavailable */ }
-    location.reload();
-  });
+  if (select) {
+    select.value = locale;
+    select.addEventListener("change", () => {
+      try { localStorage.setItem("radar-locale", select.value); } catch (error) { /* storage unavailable */ }
+      location.reload();
+    });
+  }
 
   window.RadarI18n = { locale, t, messages, guideFolders };
 })();

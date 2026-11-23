@@ -4,12 +4,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>You picked an issue. Now what? | Open Source Radar</title>
-  <meta name="description"
+  <title data-i18n="firstPr.metaTitle">You picked an issue. Now what? | Open Source Radar</title>
+  <meta name="description" data-i18n-content="firstPr.metaDescription"
     content="A short checklist for your first open source pull request: claim the issue, fork, branch, run the tests, open the PR and handle review.">
   <link rel="canonical" href="https://tanbirramim.github.io/open-source-radar/first-pr/">
-  <meta property="og:title" content="You picked an issue. Now what?">
-  <meta property="og:description"
+  <meta property="og:title" data-i18n-content="firstPr.ogTitle" content="You picked an issue. Now what?">
+  <meta property="og:description" data-i18n-content="firstPr.ogDescription"
     content="Claim it, fork, branch, run the tests, make a small change, open the PR, handle review.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://tanbirramim.github.io/open-source-radar/first-pr/">
@@ -25,52 +25,53 @@
   <main class="wrap first-pr">
     <section class="hero">
       <p><a href="../">Open Source Radar</a></p>
-      <h1>You picked an issue. Now what?</h1>
-      <p class="lede">Here's the whole thing in seven steps. Nobody gets it perfect the first time, and maintainers
+      <h1 data-i18n="firstPr.title">You picked an issue. Now what?</h1>
+      <p class="lede" data-i18n="firstPr.lede">Here's the whole thing in seven steps. Nobody gets it perfect the first time, and maintainers
         know that. Each step links to the longer guide chapter if you want more detail.</p>
     </section>
 
     <ol class="steps first-pr-steps">
-      <li id="claim"><strong>Say you're on it.</strong> Leave a short comment on the issue, something like
+      <li id="claim" data-i18n-html="firstPr.claim"><strong>Say you're on it.</strong> Leave a short comment on the issue, something like
         "Hi, I'd like to work on this. My plan is to ...". Some projects assign you, some just want a PR. If the
         contributing guide says to wait for a reply, wait. Never open a PR on an issue someone else already
         claimed. <a href="https://github.com/TanbirRamim/open-source-radar/blob/main/guide/07-communication.md#claiming-an-issue">Claiming an issue</a></li>
-      <li id="rules"><strong>Read the rules first.</strong> Five minutes in CONTRIBUTING.md saves you a closed PR.
+      <li id="rules" data-i18n-html="firstPr.rules"><strong>Read the rules first.</strong> Five minutes in CONTRIBUTING.md saves you a closed PR.
         Look for a CLA to sign, a DCO sign-off, an AI policy and the PR template.
         <a href="https://github.com/TanbirRamim/open-source-radar/blob/main/guide/06-rules-before-you-start.md">Rules before you start</a></li>
-      <li id="fork"><strong>Fork, clone, branch.</strong> Fork on GitHub, clone your fork, then make a branch for
+      <li id="fork" data-i18n-html="firstPr.fork"><strong>Fork, clone, branch.</strong> Fork on GitHub, clone your fork, then make a branch for
         this one issue (<code>git switch -c fix-typo-in-readme</code>). Don't work on main.
         <a href="https://github.com/TanbirRamim/open-source-radar/blob/main/guide/05-first-pull-request.md#1-fork-and-clone">Fork and clone</a>,
         <a href="https://github.com/TanbirRamim/open-source-radar/blob/main/guide/02-setup.md">Setup</a></li>
-      <li id="run"><strong>Get it running before you change anything.</strong> Build it and run the tests as they
+      <li id="run" data-i18n-html="firstPr.run"><strong>Get it running before you change anything.</strong> Build it and run the tests as they
         are. If that fails, that's a good question to ask on the issue, not a dead end.
         <a href="https://github.com/TanbirRamim/open-source-radar/blob/main/guide/05-first-pull-request.md#3-build-it-and-run-the-tests-before-changing-anything">Build and test first</a>,
         <a href="https://github.com/TanbirRamim/open-source-radar/blob/main/guide/10-reading-a-codebase.md">Reading a codebase</a></li>
-      <li id="change"><strong>Make the smallest change that fixes it.</strong> Reproduce the problem, add a test if
+      <li id="change" data-i18n-html="firstPr.change"><strong>Make the smallest change that fixes it.</strong> Reproduce the problem, add a test if
         the project has tests, fix only what the issue asks for, then run the checks again.
         <a href="https://github.com/TanbirRamim/open-source-radar/blob/main/guide/05-first-pull-request.md#6-make-the-smallest-change-that-fixes-it">Smallest change</a></li>
-      <li id="pr"><strong>Open the pull request.</strong> Push your branch, open the PR against the project, fill in
+      <li id="pr" data-i18n-html="firstPr.pr"><strong>Open the pull request.</strong> Push your branch, open the PR against the project, fill in
         the template, write "Fixes #123" so the issue links up, and say in plain words what you changed and how you
         tested it.
         <a href="https://github.com/TanbirRamim/open-source-radar/blob/main/guide/07-communication.md#writing-a-pull-request-description">Writing a PR description</a></li>
-      <li id="review"><strong>Handle review, and be patient.</strong> Change requests are normal, they mean someone
+      <li id="review" data-i18n-html="firstPr.review"><strong>Handle review, and be patient.</strong> Change requests are normal, they mean someone
         cares. Push fixes to the same branch. If CI fails, read the log before asking. If nobody answers in a week,
         one polite ping is fine.
         <a href="https://github.com/TanbirRamim/open-source-radar/blob/main/guide/08-reviews.md">Reviews</a></li>
     </ol>
 
     <section class="first-pr-stuck">
-      <h2>Stuck?</h2>
-      <p>Words like CLA, DCO or "upstream" are in the <a
+      <h2 data-i18n="firstPr.stuckTitle">Stuck?</h2>
+      <p data-i18n-html="firstPr.stuckHelp">Words like CLA, DCO or "upstream" are in the <a
           href="https://github.com/TanbirRamim/open-source-radar/blob/main/guide/glossary.md">glossary</a>, and the
         <a href="https://github.com/TanbirRamim/open-source-radar/blob/main/guide/faq.md">newcomer FAQ</a> covers the
         usual worries. You can also ask in <a
           href="https://github.com/TanbirRamim/open-source-radar/discussions">Discussions</a>, someone will help.</p>
-      <p>Never made a PR at all and want to practice first? <a
+      <p data-i18n-html="firstPr.practice">Never made a PR at all and want to practice first? <a
           href="https://github.com/firstcontributions/first-contributions">first-contributions</a> walks you
         through a safe practice PR. Then come back and <a href="../#start">pick a real one</a>.</p>
     </section>
   </main>
+  <script src="../assets/i18n.js" defer></script>
 </body>
 
 </html>
