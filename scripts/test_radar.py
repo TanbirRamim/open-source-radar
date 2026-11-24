@@ -2628,3 +2628,27 @@ class GsocPageTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp, patch.object(radar, "ROOT", Path(tmp)):
             self.assertEqual(radar.render_gsoc_page(["nobody"], [], "2026-11-08T10:00:00Z"), 0)
             self.assertFalse((Path(tmp) / "site" / "beginner" / "gsoc").exists())
+
+
+class StatsSnapshotTests(unittest.TestCase):
+    def test_language_recent_issue_counts_include_day_thirty(self):
+        beginner = [{"repo": "example/project"} for _ in range(3)]
+        by_language = {"Python": [29, 30, 31]}
+        snapshot = radar.build_stats_snapshot(
+            generated_at="2026-11-24T10:00:00Z",
+            url="https://example.com/stats/",
+            beginner=beginner,
+            beginner_counts={"example/project": 3},
+            by_language=by_language,
+            median_age=30,
+            fresh=2,
+            replied=1,
+            languages=list(by_language.items()),
+            welcoming=[],
+        )
+
+        self.assertEqual(
+            snapshot["by_language"],
+            [{"language": "Python", "issues": 3, "median_age_days": 30, "opened_last_30_days": 2}],
+        )
+        self.assertEqual(snapshot["maintainer_replied_share"], 0.333)
