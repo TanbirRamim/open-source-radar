@@ -2433,6 +2433,11 @@ class StatsPageTests(unittest.TestCase):
 
 
 class StatsArchiveTests(unittest.TestCase):
+    def test_month_label_formats_year_boundaries(self):
+        for month, expected in (("2026-01", "January 2026"), ("2026-12", "December 2026")):
+            with self.subTest(month=month):
+                self.assertEqual(radar.month_label(month), expected)
+
     def test_month_is_written_once_and_compared_with_the_month_before(self):
         import tempfile
 
