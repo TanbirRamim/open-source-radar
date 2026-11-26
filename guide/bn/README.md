@@ -15,7 +15,7 @@
 | 7 | [মেইনটেইনারদের সঙ্গে যোগাযোগ](07-communication.md) |
 | 8 | [Reviews, feedback and rejection](../08-reviews.md) (English) |
 | 9 | [Keep going](../09-keep-going.md) (English) |
-| 10 | [Reading a codebase](../10-reading-a-codebase.md) (English) |
+| 10 | [একটি codebase পড়া](10-reading-a-codebase.md) |
 
 এটিও কাজে লাগবে:
 
