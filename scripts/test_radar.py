@@ -2623,6 +2623,7 @@ class GsocPageTests(unittest.TestCase):
         self.assertIn('<a href="../../">Open Source Radar</a>', page)
         self.assertIn('<a href="gsoc/">Projects from recent GSoC orgs <span class="muted">1 issues</span></a>', hub)
         self.assertIn("<loc>https://tanbirramim.github.io/open-source-radar/beginner/gsoc/</loc>", sitemap)
+        self.assertIn(f"<loc>{radar.SITE_URL}beginner/</loc>", sitemap)
 
     def test_no_gsoc_page_without_matches(self):
         with tempfile.TemporaryDirectory() as tmp, patch.object(radar, "ROOT", Path(tmp)):
