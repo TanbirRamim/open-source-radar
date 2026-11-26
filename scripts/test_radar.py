@@ -1817,10 +1817,10 @@ class HelperTests(unittest.TestCase):
         selected, _ = radar.select_languages(languages, "rust,python")
         self.assertEqual(list(selected), ["Python", "Rust"])
 
-
     def test_month_label_rejects_invalid_month(self):
         with self.assertRaises(ValueError):
             radar.month_label("2026-13")
+
 
 class LanguageCliValidationTests(unittest.TestCase):
     def test_unknown_languages_fail_before_pipeline_stages(self):
