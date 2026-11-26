@@ -84,4 +84,4 @@ gh auth setup-git      # lets git push over HTTPS using that login
 - [ ] يُظهر الأمر `gh auth status` (أو `ssh -T git@github.com`) أنني أستطيع المصادقة.
 - [ ] يقوم محرر النصوص بتنسيق الملفات عند الحفظ.
 
-التالي: [اختيار مشروع](../03-choose-a-project.md)
+التالي: [اختيار مشروع](03-choose-a-project.md)
