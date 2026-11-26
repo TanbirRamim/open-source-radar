@@ -1853,7 +1853,7 @@ def render_sitemap(
     """
     lastmod = generated_at[:10]
     urls = [SITE_URL, f"{SITE_URL}first-pr/", f"{SITE_URL}feeds/"]
-    if page_slugs or topic_slugs:
+    if page_slugs or topic_slugs or gsoc:
         urls.append(f"{SITE_URL}beginner/")
     urls += [f"{SITE_URL}beginner/{slug}/" for slug in page_slugs]
     urls += [f"{SITE_URL}beginner/topic/{slug}/" for slug in topic_slugs]
