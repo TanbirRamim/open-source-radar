@@ -255,6 +255,10 @@ Thank you to everyone who has made the radar better:
 - [@NeilPant](https://github.com/NeilPant): claims after Markdown quotes ([#492](https://github.com/TanbirRamim/open-source-radar/pull/492))
 - [@isyanpcr](https://github.com/isyanpcr): more robotics and AI keywords, label variants and config tests ([#494](https://github.com/TanbirRamim/open-source-radar/pull/494))
 - [@saamcyrilpmi-cloud](https://github.com/saamcyrilpmi-cloud): the Vietnamese chapter 4 ([#498](https://github.com/TanbirRamim/open-source-radar/pull/498))
+- [@Niyam-Paneru](https://github.com/Niyam-Paneru): tests for GitHub API retries and rate limits ([#511](https://github.com/TanbirRamim/open-source-radar/pull/511))
+- [@nl-code-max](https://github.com/nl-code-max): month label tests at the year boundary ([#513](https://github.com/TanbirRamim/open-source-radar/pull/513))
+- [@aahanaahir22](https://github.com/aahanaahir22): the beginner hub in GSoC-only sitemaps ([#514](https://github.com/TanbirRamim/open-source-radar/pull/514))
+- [@Matuto-7](https://github.com/Matuto-7): rejecting invalid month values ([#517](https://github.com/TanbirRamim/open-source-radar/pull/517))
 
 Your name goes here with your first merged pull request. And if the radar helped you, please give it a star: it's the simplest way to help other newcomers find it.
 
