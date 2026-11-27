@@ -1818,8 +1818,17 @@ class HelperTests(unittest.TestCase):
         self.assertEqual(list(selected), ["Python", "Rust"])
 
     def test_month_label_rejects_invalid_month(self):
-        with self.assertRaises(ValueError):
-            radar.month_label("2026-13")
+        for month in ("2026-13", "2026-00"):
+            with self.subTest(month=month), self.assertRaises(ValueError):
+                radar.month_label(month)
+
+    def test_archive_skips_files_named_after_impossible_months(self):
+        with tempfile.TemporaryDirectory() as tmp, patch.object(radar, "ROOT", Path(tmp)):
+            archive = Path(tmp) / radar.STATS_ARCHIVE_DIR
+            archive.mkdir(parents=True)
+            for name in ("2026-11.json", "2026-13.json", "2026-00.json"):
+                (archive / name).write_text("{}", encoding="utf-8")
+            self.assertEqual(radar.stats_archive_months(), ["2026-11"])
 
 
 class LanguageCliValidationTests(unittest.TestCase):
