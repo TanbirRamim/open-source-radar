@@ -2505,7 +2505,7 @@ class BeginnerHubTests(unittest.TestCase):
             radar.render_sitemap([], "2026-11-08T10:00:00Z", ["go"], ["web"])
             sitemap = (Path(tmp) / "site" / "sitemap.xml").read_text(encoding="utf-8")
         self.assertIn('<a href="go/">Go <span class="muted">2 issues</span></a>', hub)
-        self.assertIn('<a href="cpp/">C++ <span class="muted">1 issues</span></a>', hub)
+        self.assertIn('<a href="cpp/">C++ <span class="muted">1 issue</span></a>', hub)
         self.assertIn('<a href="topic/web/">Web development <span class="muted">2 issues</span></a>', hub)
         self.assertLess(hub.index('href="cpp/"'), hub.index('href="go/"'))
         self.assertIn('<link rel="icon" href="../assets/icon.svg" type="image/svg+xml">', hub)
@@ -2621,7 +2621,7 @@ class GsocPageTests(unittest.TestCase):
         self.assertNotIn("Hard", page)
         self.assertNotIn("RSS feed", page)
         self.assertIn('<a href="../../">Open Source Radar</a>', page)
-        self.assertIn('<a href="gsoc/">Projects from recent GSoC orgs <span class="muted">1 issues</span></a>', hub)
+        self.assertIn('<a href="gsoc/">Projects from recent GSoC orgs <span class="muted">1 issue</span></a>', hub)
         self.assertIn("<loc>https://tanbirramim.github.io/open-source-radar/beginner/gsoc/</loc>", sitemap)
         self.assertIn(f"<loc>{radar.SITE_URL}beginner/</loc>", sitemap)
 

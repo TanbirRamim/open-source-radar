@@ -1405,7 +1405,8 @@ def render_beginner_hub(
 
     def links(entries: list[tuple[str, str, int]]) -> list[str]:
         return [
-            f'      <li><a href="{href}">{html.escape(label)} <span class="muted">{count} issues</span></a></li>'
+            f'      <li><a href="{href}">{html.escape(label)} '
+            f'<span class="muted">{count} {"issue" if count == 1 else "issues"}</span></a></li>'
             for href, label, count in entries
         ]
 
