@@ -58,4 +58,4 @@ Dobra strategia: pierwsze jedno lub dwa wkłady wnieś w mniejszym, aktywnym pro
 - [ ] Projekt ma instrukcję współtworzenia i przeczytałem/przeczytałam ją.
 - [ ] Potrafię zbudować i uruchomić projekt na swoim komputerze (omawia to rozdział 5).
 
-Dalej: [Znajdowanie zadania, które możesz ukończyć](../04-find-an-issue.md)
+Dalej: [Znajdowanie zadania, które możesz ukończyć](04-find-an-issue.md)

@@ -9,9 +9,98 @@ import unittest
 import xml.etree.ElementTree as ET
 from pathlib import Path
 from typing import ClassVar
-from unittest.mock import patch
+from unittest.mock import call, patch
+from urllib.error import HTTPError, URLError
 
 import radar
+
+
+class GitHubRequestTests(unittest.TestCase):
+    url = "https://api.github.com/graphql"
+
+    def http_error(self, status, headers=None):
+        return HTTPError(self.url, status, "error", headers or {}, io.BytesIO(b"request failed"))
+
+    def test_retry_after_header_is_honored(self):
+        error = self.http_error(429, {"Retry-After": "7"})
+        response = io.BytesIO(b'{"ok": true}')
+        with (
+            patch("radar.urllib.request.urlopen", side_effect=[error, response]) as urlopen,
+            patch("radar.time.sleep") as sleep,
+        ):
+            self.assertEqual(radar.GitHub("test-token").graphql("query {}"), {"ok": True})
+
+        sleep.assert_called_once_with(8.0)
+        self.assertEqual(urlopen.call_count, 2)
+        for args in urlopen.call_args_list:
+            request = args.args[0]
+            self.assertEqual(request.full_url, self.url)
+            self.assertEqual(request.get_method(), "POST")
+            self.assertEqual(request.data, b'{"query": "query {}"}')
+            self.assertEqual(request.get_header("Authorization"), "Bearer test-token")
+            self.assertEqual(args.kwargs, {"timeout": 60})
+
+    def test_primary_rate_limit_waits_until_reset(self):
+        error = self.http_error(403, {"X-RateLimit-Remaining": "0", "X-RateLimit-Reset": "130"})
+        with patch("radar.time.time", return_value=100):
+            self.assertEqual(radar.GitHub._rate_limit_wait(error), 32.0)
+        with patch("radar.time.time", return_value=140):
+            self.assertEqual(radar.GitHub._rate_limit_wait(error), 1.0)
+
+    def test_secondary_rate_limit_without_headers_uses_fallback(self):
+        error = self.http_error(429)
+        self.assertEqual(radar.GitHub._rate_limit_wait(error), 60.0)
+
+    def test_secondary_rate_limit_403_is_detected_from_the_message(self):
+        error = self.http_error(403)
+        self.assertEqual(radar.GitHub._rate_limit_wait(error, "You have exceeded a secondary rate limit."), 60.0)
+        self.assertIsNone(radar.GitHub._rate_limit_wait(error, "Resource not accessible by integration"))
+
+    def test_forbidden_without_rate_limit_is_not_retried(self):
+        error = HTTPError(self.url, 403, "error", {}, io.BytesIO(b"Bad credentials"))
+        with (
+            patch("radar.urllib.request.urlopen", side_effect=error) as urlopen,
+            patch("radar.time.sleep") as sleep,
+            self.assertRaisesRegex(RuntimeError, "403 Bad credentials"),
+        ):
+            radar.GitHub("test-token").graphql("query {}")
+
+        urlopen.assert_called_once()
+        sleep.assert_not_called()
+
+    def test_transient_http_and_network_failures_back_off_then_recover(self):
+        failures = [self.http_error(503), URLError("offline"), io.BytesIO(b'{"ok": true}')]
+        with (
+            patch("radar.urllib.request.urlopen", side_effect=failures) as urlopen,
+            patch("radar.time.sleep") as sleep,
+        ):
+            self.assertEqual(radar.GitHub("test-token").graphql("query {}"), {"ok": True})
+
+        self.assertEqual(urlopen.call_count, 3)
+        self.assertEqual(sleep.call_args_list, [call(1), call(2)])
+
+    def test_permanent_http_error_is_not_retried(self):
+        with (
+            patch("radar.urllib.request.urlopen", side_effect=self.http_error(404)) as urlopen,
+            patch("radar.time.sleep") as sleep,
+            self.assertRaisesRegex(RuntimeError, "404 request failed"),
+        ):
+            radar.GitHub("test-token").graphql("query {}")
+
+        urlopen.assert_called_once()
+        sleep.assert_not_called()
+
+    def test_retry_budget_is_bounded(self):
+        failures = [self.http_error(503) for _ in range(6)]
+        with (
+            patch("radar.urllib.request.urlopen", side_effect=failures) as urlopen,
+            patch("radar.time.sleep") as sleep,
+            self.assertRaisesRegex(RuntimeError, "503 request failed"),
+        ):
+            radar.GitHub("test-token").graphql("query {}")
+
+        self.assertEqual(urlopen.call_count, 6)
+        self.assertEqual(sleep.call_args_list, [call(1), call(2), call(4), call(8), call(16)])
 
 
 class JsonHelpersTests(unittest.TestCase):
@@ -2433,6 +2522,26 @@ class StatsPageTests(unittest.TestCase):
 
 
 class StatsArchiveTests(unittest.TestCase):
+    def test_month_label_formats_year_boundaries(self):
+        for month, expected in (("2026-01", "January 2026"), ("2026-12", "December 2026")):
+            with self.subTest(month=month):
+                self.assertEqual(radar.month_label(month), expected)
+
+    def test_archive_compares_january_with_december_of_the_year_before(self):
+        repositories = {"a/b": {"language": "Go"}}
+        december = [{"repo": "a/b", "level": "beginner", "created": "2026-12-01"}]
+        january = [*december, {"repo": "a/b", "level": "beginner", "created": "2027-01-02"}]
+        with tempfile.TemporaryDirectory() as tmp, patch.object(radar, "ROOT", Path(tmp)):
+            radar.render_stats_page(repositories, december, "2026-12-03T10:00:00Z")
+            radar.render_stats_page(repositories, january, "2027-01-03T10:00:00Z")
+            months = radar.render_stats_archive()
+            page = (Path(tmp) / "site" / "stats" / "2027-01" / "index.html").read_text(encoding="utf-8")
+            latest = (Path(tmp) / "site" / "stats" / "index.html").read_text(encoding="utf-8")
+        self.assertEqual(months, ["2026-12", "2027-01"])
+        self.assertIn("State of beginner issues, January 2027", page)
+        self.assertIn("2 free beginner issues (+1 since December 2026)", page)
+        self.assertLess(latest.index("2027-01/"), latest.index("2026-12/"))
+
     def test_month_is_written_once_and_compared_with_the_month_before(self):
         import tempfile
 
@@ -2505,7 +2614,7 @@ class BeginnerHubTests(unittest.TestCase):
             radar.render_sitemap([], "2026-11-08T10:00:00Z", ["go"], ["web"])
             sitemap = (Path(tmp) / "site" / "sitemap.xml").read_text(encoding="utf-8")
         self.assertIn('<a href="go/">Go <span class="muted">2 issues</span></a>', hub)
-        self.assertIn('<a href="cpp/">C++ <span class="muted">1 issues</span></a>', hub)
+        self.assertIn('<a href="cpp/">C++ <span class="muted">1 issue</span></a>', hub)
         self.assertIn('<a href="topic/web/">Web development <span class="muted">2 issues</span></a>', hub)
         self.assertLess(hub.index('href="cpp/"'), hub.index('href="go/"'))
         self.assertIn('<link rel="icon" href="../assets/icon.svg" type="image/svg+xml">', hub)
@@ -2621,8 +2730,9 @@ class GsocPageTests(unittest.TestCase):
         self.assertNotIn("Hard", page)
         self.assertNotIn("RSS feed", page)
         self.assertIn('<a href="../../">Open Source Radar</a>', page)
-        self.assertIn('<a href="gsoc/">Projects from recent GSoC orgs <span class="muted">1 issues</span></a>', hub)
+        self.assertIn('<a href="gsoc/">Projects from recent GSoC orgs <span class="muted">1 issue</span></a>', hub)
         self.assertIn("<loc>https://tanbirramim.github.io/open-source-radar/beginner/gsoc/</loc>", sitemap)
+        self.assertIn(f"<loc>{radar.SITE_URL}beginner/</loc>", sitemap)
 
     def test_no_gsoc_page_without_matches(self):
         with tempfile.TemporaryDirectory() as tmp, patch.object(radar, "ROOT", Path(tmp)):
