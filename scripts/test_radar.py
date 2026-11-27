@@ -2438,6 +2438,21 @@ class StatsArchiveTests(unittest.TestCase):
             with self.subTest(month=month):
                 self.assertEqual(radar.month_label(month), expected)
 
+    def test_archive_compares_january_with_december_of_the_year_before(self):
+        repositories = {"a/b": {"language": "Go"}}
+        december = [{"repo": "a/b", "level": "beginner", "created": "2026-12-01"}]
+        january = [*december, {"repo": "a/b", "level": "beginner", "created": "2027-01-02"}]
+        with tempfile.TemporaryDirectory() as tmp, patch.object(radar, "ROOT", Path(tmp)):
+            radar.render_stats_page(repositories, december, "2026-12-03T10:00:00Z")
+            radar.render_stats_page(repositories, january, "2027-01-03T10:00:00Z")
+            months = radar.render_stats_archive()
+            page = (Path(tmp) / "site" / "stats" / "2027-01" / "index.html").read_text(encoding="utf-8")
+            latest = (Path(tmp) / "site" / "stats" / "index.html").read_text(encoding="utf-8")
+        self.assertEqual(months, ["2026-12", "2027-01"])
+        self.assertIn("State of beginner issues, January 2027", page)
+        self.assertIn("2 free beginner issues (+1 since December 2026)", page)
+        self.assertLess(latest.index("2027-01/"), latest.index("2026-12/"))
+
     def test_month_is_written_once_and_compared_with_the_month_before(self):
         import tempfile
 
