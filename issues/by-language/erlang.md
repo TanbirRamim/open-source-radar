@@ -4,7 +4,7 @@
 
 [Erlang quickstart](../../languages/erlang.md) · [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/erlang.xml)
 
-> Updated automatically on **2026-11-25 16:28 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-11-27 01:48 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -38,4 +38,4 @@
 | [asn1: a REAL component equal to its DEFAULT is always encoded](https://github.com/erlang/otp/issues/11887) | [erlang/otp](https://github.com/erlang/otp) | 12.4k | 🟡 help wanted | 2026-10-19 | 🔏 DCO · [📘 guide](https://github.com/erlang/otp/blob/HEAD/CONTRIBUTING.md) |
 | [asn1: PER encodes a DEFAULT extension addition whose value equals the default](https://github.com/erlang/otp/issues/11886) | [erlang/otp](https://github.com/erlang/otp) | 12.4k | 🟡 help wanted | 2026-10-19 | 🔏 DCO · [📘 guide](https://github.com/erlang/otp/blob/HEAD/CONTRIBUTING.md) |
 | [asn1: BER code for a component relation constraint inside a CHOICE uses an unbound ObjFun](https://github.com/erlang/otp/issues/11885) | [erlang/otp](https://github.com/erlang/otp) | 12.4k | 🟡 help wanted | 2026-10-19 | 🔏 DCO · [📘 guide](https://github.com/erlang/otp/blob/HEAD/CONTRIBUTING.md) |
-| [Can emqx cluster provide a docker swarm mode demo? Currently only the single-machine cluster deployed in dock…](https://github.com/emqx/emqx/issues/6002) 💬 2 | [emqx/emqx](https://github.com/emqx/emqx) | 16.9k | 🟡 help wanted | 2026-06-04 | ⚠️ AI restricted · [📘 guide](https://github.com/emqx/emqx/blob/HEAD/CONTRIBUTING.md) |
+| [Can emqx cluster provide a docker swarm mode demo? Currently only the single-machine cluster deployed in dock…](https://github.com/emqx/emqx/issues/6002) 💬 2 | [emqx/emqx](https://github.com/emqx/emqx) | 17k | 🟡 help wanted | 2026-06-04 | ⚠️ AI restricted · [📘 guide](https://github.com/emqx/emqx/blob/HEAD/CONTRIBUTING.md) |

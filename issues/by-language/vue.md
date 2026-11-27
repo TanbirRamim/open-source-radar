@@ -4,7 +4,7 @@
 
 [Vue quickstart](../../languages/vue.md) · [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/vue.xml)
 
-> Updated automatically on **2026-11-25 16:28 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-11-27 01:48 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -19,7 +19,7 @@
 | [Instance-level custom CSS (or permalink-disable flag) for published documents](https://github.com/Smaug6739/Alexandrie/issues/795) 💬 1 | [Smaug6739/Alexandrie](https://github.com/Smaug6739/Alexandrie) | 4k | 🟢 beginner | 2026-10-31 | [📘 guide](https://github.com/Smaug6739/Alexandrie/blob/HEAD/CONTRIBUTING.md) |
 | [Knowledge base: SEO settings for articles](https://github.com/frappe/helpdesk/issues/3915) 💬 4 | [frappe/helpdesk](https://github.com/frappe/helpdesk) | 3.5k | 🟢 beginner | 2026-10-30 |  |
 | [\[功能建议\]NixOS适配](https://github.com/stark81/VutronMusic/issues/421) 💬 5 | [stark81/VutronMusic](https://github.com/stark81/VutronMusic) | 1.7k | 🟡 help wanted | 2026-10-25 |  |
-| [\[Enhancement\] Android TV Support](https://github.com/advplyr/audiobookshelf-app/issues/606) 💬 31 | [advplyr/audiobookshelf-app](https://github.com/advplyr/audiobookshelf-app) | 2.8k | 🟡 help wanted | 2026-10-23 |  |
+| [\[Enhancement\] Android TV Support](https://github.com/advplyr/audiobookshelf-app/issues/606) 💬 31 | [advplyr/audiobookshelf-app](https://github.com/advplyr/audiobookshelf-app) | 2.9k | 🟡 help wanted | 2026-10-23 |  |
 | [Teams overview: toggle option between wide and narrow mode with tags and content information](https://github.com/Smaug6739/Alexandrie/issues/771) 💬 1 | [Smaug6739/Alexandrie](https://github.com/Smaug6739/Alexandrie) | 4k | 🟢 beginner | 2026-10-20 | [📘 guide](https://github.com/Smaug6739/Alexandrie/blob/HEAD/CONTRIBUTING.md) |
 | [Forward Ticket to External Third Party / Supplier in Frappe Helpdesk](https://github.com/frappe/helpdesk/issues/3774) 💬 4 | [frappe/helpdesk](https://github.com/frappe/helpdesk) | 3.5k | 🟢 beginner | 2026-09-24 |  |
 | [Command Line controls](https://github.com/tranxuanthang/lrcget/issues/61) 💬 6 | [tranxuanthang/lrcget](https://github.com/tranxuanthang/lrcget) | 3.4k | 🟡 help wanted | 2026-09-06 |  |

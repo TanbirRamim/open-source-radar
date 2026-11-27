@@ -1,10 +1,10 @@
 # Lua issues
 
-**28** open issues (19 labeled for beginners) across **12** active Lua projects.
+**29** open issues (20 labeled for beginners) across **12** active Lua projects.
 
 [Lua quickstart](../../languages/lua.md) · [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/lua.xml)
 
-> Updated automatically on **2026-11-25 16:28 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-11-27 01:48 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -12,11 +12,12 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [The key is missing from functional-index and foreign-key error payloads](https://github.com/tarantool/tarantool/issues/13818) | [tarantool/tarantool](https://github.com/tarantool/tarantool) | 3.7k | 🟢 beginner | 2026-11-26 | [📘 guide](https://github.com/tarantool/tarantool/blob/HEAD/CONTRIBUTING.md) |
 | [Good First Issue: Observe Random Announcements behaviour in regular gameplay](https://github.com/CorsixTH/CorsixTH/issues/3606) | [CorsixTH/CorsixTH](https://github.com/CorsixTH/CorsixTH) | 4.8k | 🟢 beginner | 2026-11-24 | [📘 guide](https://github.com/CorsixTH/CorsixTH/blob/HEAD/CONTRIBUTING.md) |
 | [\[Forever\] Questie should insert Blizzard quest links anywhere.](https://github.com/Questie/Questie/issues/8218) 💬 3 | [Questie/Questie](https://github.com/Questie/Questie) | 1.2k | 🟢 beginner | 2026-11-21 |  |
 | [Drag line attack causes subs to target the water surface instead of floor allowing for overshoot](https://github.com/beyond-all-reason/Beyond-All-Reason/issues/10141) 💬 2 | [beyond-all-reason/Beyond-All-Reason](https://github.com/beyond-all-reason/Beyond-All-Reason) | 4.4k | 🟢 beginner | 2026-11-17 | 🤖 disclose AI use · ✍️ CLA · [📘 guide](https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/CONTRIBUTING.md) |
-| [Add more data for India](https://github.com/public-transport/transitous/issues/2144) 💬 3 | [public-transport/transitous](https://github.com/public-transport/transitous) | 767 | 🟢 beginner | 2026-11-16 | 📄 AI policy |
-| [New Feed for NCRTC (Regional train)](https://github.com/public-transport/transitous/issues/1622) 💬 4 | [public-transport/transitous](https://github.com/public-transport/transitous) | 767 | 🟢 beginner | 2026-11-09 | 📄 AI policy |
+| [Add more data for India](https://github.com/public-transport/transitous/issues/2144) 💬 3 | [public-transport/transitous](https://github.com/public-transport/transitous) | 769 | 🟢 beginner | 2026-11-16 | 📄 AI policy |
+| [New Feed for NCRTC (Regional train)](https://github.com/public-transport/transitous/issues/1622) 💬 4 | [public-transport/transitous](https://github.com/public-transport/transitous) | 769 | 🟢 beginner | 2026-11-09 | 📄 AI policy |
 | [Corroy depth charge issues](https://github.com/beyond-all-reason/Beyond-All-Reason/issues/3845) 💬 3 | [beyond-all-reason/Beyond-All-Reason](https://github.com/beyond-all-reason/Beyond-All-Reason) | 4.4k | 🟢 beginner | 2026-11-02 | 🤖 disclose AI use · ✍️ CLA · [📘 guide](https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/CONTRIBUTING.md) |
 | [docs: improve docs for APISIX's gRPC support](https://github.com/apache/apisix/issues/8984) 💬 6 | [apache/apisix](https://github.com/apache/apisix) | 17.4k | 🟢 beginner | 2026-11-01 | ✍️ CLA · [📘 guide](https://github.com/apache/apisix/blob/HEAD/CONTRIBUTING.md) |
 | [Nano turrets stay permanently idle if tasked to assist something that's out of range](https://github.com/beyond-all-reason/Beyond-All-Reason/issues/2445) 💬 7 | [beyond-all-reason/Beyond-All-Reason](https://github.com/beyond-all-reason/Beyond-All-Reason) | 4.4k | 🟢 beginner | 2026-10-27 | 🤖 disclose AI use · ✍️ CLA · [📘 guide](https://github.com/beyond-all-reason/Beyond-All-Reason/blob/HEAD/CONTRIBUTING.md) |
@@ -33,10 +34,10 @@
 | [docs: make route matching/filtering information more visible](https://github.com/apache/apisix/issues/10735) 💬 5 | [apache/apisix](https://github.com/apache/apisix) | 17.4k | 🟢 beginner | 2026-09-20 | ✍️ CLA · [📘 guide](https://github.com/apache/apisix/blob/HEAD/CONTRIBUTING.md) |
 | [docs: Rework the service discovery documentation in general and Eureka in particular](https://github.com/apache/apisix/issues/7342) 💬 3 | [apache/apisix](https://github.com/apache/apisix) | 17.4k | 🟢 beginner | 2026-09-19 | ✍️ CLA · [📘 guide](https://github.com/apache/apisix/blob/HEAD/CONTRIBUTING.md) |
 | [Chewbacca patients should be able to transform into females when they die](https://github.com/CorsixTH/CorsixTH/issues/177) 💬 12 | [CorsixTH/CorsixTH](https://github.com/CorsixTH/CorsixTH) | 4.8k | 🟡 help wanted | 2026-09-16 | [📘 guide](https://github.com/CorsixTH/CorsixTH/blob/HEAD/CONTRIBUTING.md) |
-| [Locations with known existing but non-public feeds](https://github.com/public-transport/transitous/issues/585) 💬 10 | [public-transport/transitous](https://github.com/public-transport/transitous) | 767 | 🟢 beginner | 2026-09-11 | 📄 AI policy |
-| [Integrate Swedish realtime feeds](https://github.com/public-transport/transitous/issues/125) 💬 7 | [public-transport/transitous](https://github.com/public-transport/transitous) | 767 | 🟢 beginner | 2026-08-06 | 📄 AI policy |
+| [Locations with known existing but non-public feeds](https://github.com/public-transport/transitous/issues/585) 💬 10 | [public-transport/transitous](https://github.com/public-transport/transitous) | 769 | 🟢 beginner | 2026-09-11 | 📄 AI policy |
+| [Integrate Swedish realtime feeds](https://github.com/public-transport/transitous/issues/125) 💬 7 | [public-transport/transitous](https://github.com/public-transport/transitous) | 769 | 🟢 beginner | 2026-08-06 | 📄 AI policy |
 | [Give reason for damage done by tnt](https://github.com/luanti-org/minetest_game/issues/3263) | [luanti-org/minetest_game](https://github.com/luanti-org/minetest_game) | 1.6k | 🟢 beginner | 2026-08-02 |  |
 | [Standalone build for macos](https://github.com/teal-language/tl/issues/530) 💬 4 | [teal-language/tl](https://github.com/teal-language/tl) | 3k | 🟡 help wanted | 2026-07-08 |  |
 | [Home Manager (nix) config is not supported with the lua version](https://github.com/zjeffer/split-monitor-workspaces/issues/293) 💬 6 | [zjeffer/split-monitor-workspaces](https://github.com/zjeffer/split-monitor-workspaces) | 813 | 🟡 help wanted | 2026-07-06 | 📄 AI policy · [📘 guide](https://github.com/zjeffer/split-monitor-workspaces/blob/HEAD/CONTRIBUTING.md) |
-| [Add feeds from TUMI Datahub](https://github.com/public-transport/transitous/issues/584) 💬 2 | [public-transport/transitous](https://github.com/public-transport/transitous) | 767 | 🟢 beginner | 2026-07-02 | 📄 AI policy |
+| [Add feeds from TUMI Datahub](https://github.com/public-transport/transitous/issues/584) 💬 2 | [public-transport/transitous](https://github.com/public-transport/transitous) | 769 | 🟢 beginner | 2026-07-02 | 📄 AI policy |
 | [Support hyprland from nixpkgs](https://github.com/zjeffer/split-monitor-workspaces/issues/275) 💬 9 | [zjeffer/split-monitor-workspaces](https://github.com/zjeffer/split-monitor-workspaces) | 813 | 🟡 help wanted | 2026-06-10 | 📄 AI policy · [📘 guide](https://github.com/zjeffer/split-monitor-workspaces/blob/HEAD/CONTRIBUTING.md) |
