@@ -39,4 +39,4 @@ Oni se zaista cene, a često ih je manje nego koda:
 - [ ] Imam na umu jedan ili dva projekta koje stvarno koristim ili do kojih mi je stalo.
 - [ ] Planiram mali prvi doprinos, a ne veliku funkcionalnost.
 
-Dalje: [Set up your tools](../02-setup.md) (na engleskom)
+Dalje: [Podešavanje alata](../02-setup.md) (na engleskom)
