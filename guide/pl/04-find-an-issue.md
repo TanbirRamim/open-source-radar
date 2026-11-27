@@ -43,9 +43,9 @@ Oceń uczciwie swoje możliwości. Dobre pierwsze zadanie dla Ciebie:
 
 - **Ma jasno określone oczekiwane działanie.** Potrafisz w jednym zdaniu powiedzieć, co powinno się dziać zamiast obecnego zachowania.
 - **Jest odtwarzalne.** Zgłoszenie zawiera kroki, fragment kodu lub polecenie kończące się błędem. Jeśli nie, odtworzenie problemu jest Twoim pierwszym zadaniem, a opublikowanie instrukcji odtworzenia to już wartościowy wkład.
-- **Jest zlokalizowane.** Możesz domyślić się, którego pliku lub funkcji dotyczy. Przeszukaj bazę kodu pod kątem komunikatu błędu lub nazwy funkcji wspomnianej w zgłoszeniu.
+- **Dotyczy konkretnego miejsca w kodzie.** Możesz domyślić się, którego pliku lub funkcji dotyczy. Przeszukaj bazę kodu pod kątem komunikatu błędu lub nazwy funkcji wspomnianej w zgłoszeniu.
 - **Nie wymaga decyzji projektowej.** Jeśli opiekunowie projektu nadal dyskutują, *jak* to powinno działać, poczekaj.
-- **Działa na Twoim komputerze.** Unikaj błędów występujących wyłącznie na Windowsie, jeśli korzystasz z macOS, błędów GPU bez karty graficznej itd.
+- **Da się je uruchomić na Twoim komputerze.** Unikaj błędów występujących wyłącznie na Windowsie, jeśli korzystasz z macOS, błędów GPU bez karty graficznej itd.
 
 ## Szybki sposób na oszacowanie rozmiaru zadania
 
