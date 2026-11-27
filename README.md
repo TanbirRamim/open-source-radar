@@ -93,7 +93,7 @@ Open Source Radar fixes the first part with data and the second part with a guid
 
 Plus a [glossary](guide/glossary.md) and [quickstarts for 32 languages](languages/README.md).
 
-The guide is also translated: [Español](guide/es/README.md) and [Português](guide/pt-BR/README.md) (all chapters), [हिंदी](guide/hi/README.md) (most chapters), [বাংলা](guide/bn/README.md) (in progress).
+The guide is also translated: [Español](guide/es/README.md) and [Português](guide/pt-BR/README.md) (all chapters), [हिंदी](guide/hi/README.md) (most chapters), [বাংলা](guide/bn/README.md), [Italiano](guide/it/README.md), [Tiếng Việt](guide/vi/README.md), [Polski](guide/pl/README.md), [العربية](guide/ar/README.md) and [Srpski](guide/sr/README.md) (in progress).
 
 ## How issues are selected
 
@@ -259,6 +259,10 @@ Thank you to everyone who has made the radar better:
 - [@nl-code-max](https://github.com/nl-code-max): month label tests at the year boundary ([#513](https://github.com/TanbirRamim/open-source-radar/pull/513))
 - [@aahanaahir22](https://github.com/aahanaahir22): the beginner hub in GSoC-only sitemaps ([#514](https://github.com/TanbirRamim/open-source-radar/pull/514))
 - [@Matuto-7](https://github.com/Matuto-7): rejecting invalid month values ([#517](https://github.com/TanbirRamim/open-source-radar/pull/517))
+- [@nikolailic-dev](https://github.com/nikolailic-dev): started the Serbian translation of the guide with chapter 1 ([#509](https://github.com/TanbirRamim/open-source-radar/pull/509))
+- [@himanshu180105](https://github.com/himanshu180105): Polish translation of chapter 4 ([#515](https://github.com/TanbirRamim/open-source-radar/pull/515))
+- [@ChandreshwarNathTripathi](https://github.com/ChandreshwarNathTripathi): Bengali translation of chapter 10 ([#516](https://github.com/TanbirRamim/open-source-radar/pull/516))
+- [@NawJar](https://github.com/NawJar): Arabic translation of chapter 3 ([#518](https://github.com/TanbirRamim/open-source-radar/pull/518))
 
 Your name goes here with your first merged pull request. And if the radar helped you, please give it a star: it's the simplest way to help other newcomers find it.
 
