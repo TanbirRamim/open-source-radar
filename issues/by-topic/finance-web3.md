@@ -1,8 +1,8 @@
 # Finance and Web3 issues
 
-**42** open issues (21 labeled for beginners) across **11** projects tagged with topics like `finance`, `fintech`, `blockchain`, `ethereum`, `crypto`, `cryptocurrenc`.
+**43** open issues (22 labeled for beginners) across **12** projects tagged with topics like `finance`, `fintech`, `blockchain`, `ethereum`, `crypto`, `cryptocurrenc`.
 
-> Updated automatically on **2026-11-26 01:49 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-11-27 01:48 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -12,8 +12,9 @@
 | --- | --- | ---: | --- | --- | --- |
 | [Syncing archive node from era files](https://github.com/ethereum/go-ethereum/issues/35354) 💬 6 | [ethereum/go-ethereum](https://github.com/ethereum/go-ethereum) | 51.5k | 🟡 help wanted | 2026-11-24 | [📘 guide](https://github.com/ethereum/go-ethereum/blob/HEAD/.github/CONTRIBUTING.md) |
 | [\[Bug\]: Filtered balance on Split's notes not calculating properly](https://github.com/actualbudget/actual/issues/4381) 💬 4 | [actualbudget/actual](https://github.com/actualbudget/actual) | 30.5k | 🟡 help wanted | 2026-11-23 | 🤖 disclose AI use · [📘 guide](https://github.com/actualbudget/actual/blob/HEAD/CONTRIBUTING.md) |
-| [\[FEAT\] - Online synchronization](https://github.com/flow-mn/flow/issues/93) 💬 5 | [flow-mn/flow](https://github.com/flow-mn/flow) | 524 | 🟡 help wanted | 2026-11-21 | 📄 AI policy · [📘 guide](https://github.com/flow-mn/flow/blob/HEAD/CONTRIBUTING.md) |
-| [\[FEAT\] Add transactions from incoming SMS](https://github.com/flow-mn/flow/issues/673) 💬 7 | [flow-mn/flow](https://github.com/flow-mn/flow) | 524 | 🟡 help wanted | 2026-11-14 | 📄 AI policy · [📘 guide](https://github.com/flow-mn/flow/blob/HEAD/CONTRIBUTING.md) |
+| [\[FEAT\] - Online synchronization](https://github.com/flow-mn/flow/issues/93) 💬 5 | [flow-mn/flow](https://github.com/flow-mn/flow) | 525 | 🟡 help wanted | 2026-11-21 | 📄 AI policy · [📘 guide](https://github.com/flow-mn/flow/blob/HEAD/CONTRIBUTING.md) |
+| [\[FEAT\] Add transactions from incoming SMS](https://github.com/flow-mn/flow/issues/673) 💬 7 | [flow-mn/flow](https://github.com/flow-mn/flow) | 525 | 🟡 help wanted | 2026-11-14 | 📄 AI policy · [📘 guide](https://github.com/flow-mn/flow/blob/HEAD/CONTRIBUTING.md) |
+| [Identify all the places we are using 'anyhow' on trait interfaces](https://github.com/FuelLabs/fuel-core/issues/2592) 💬 2 | [FuelLabs/fuel-core](https://github.com/FuelLabs/fuel-core) | 56.7k | 🟢 beginner | 2026-11-05 | [📘 guide](https://github.com/FuelLabs/fuel-core/blob/HEAD/CONTRIBUTING.md) |
 | [\[Bug\]: Scrolling jitter on mobile](https://github.com/actualbudget/actual/issues/9294) 💬 6 | [actualbudget/actual](https://github.com/actualbudget/actual) | 30.5k | 🟡 help wanted | 2026-11-03 | 🤖 disclose AI use · [📘 guide](https://github.com/actualbudget/actual/blob/HEAD/CONTRIBUTING.md) |
 | [\[Bug\]: Enable Banking with "imagin / CaixaBank" bank linking fails on desktop but works on mobile browser](https://github.com/actualbudget/actual/issues/8326) 💬 8 | [actualbudget/actual](https://github.com/actualbudget/actual) | 30.5k | 🟡 help wanted | 2026-11-03 | 🤖 disclose AI use · [📘 guide](https://github.com/actualbudget/actual/blob/HEAD/CONTRIBUTING.md) |
 | [Support ledger parameters in tx command and deprecate/remove transaction_entry](https://github.com/XRPLF/rippled/issues/2598) 💬 5 | [XRPLF/rippled](https://github.com/XRPLF/rippled) | 5.2k | 🟢 beginner | 2026-11-02 | [📘 guide](https://github.com/XRPLF/rippled/blob/HEAD/CONTRIBUTING.md) |
