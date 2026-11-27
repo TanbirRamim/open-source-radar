@@ -81,9 +81,26 @@ class WeeklyDigestTests(unittest.TestCase):
         self.assertIn(line, body)
 
     def test_accepts_issue_with_max_comments(self):
-        payload = self.payload([issue("a/project", 1, comments=2)], {"a/project": repo(100)})
-
+        payload = self.payload(
+            [issue("a/at_limit", 1, comments=wd.MAX_COMMENTS), issue("b/over", 2, comments=wd.MAX_COMMENTS + 1)],
+            {"a/at_limit": repo(100), "b/over": repo(100)},
+        )
         self.assertEqual([item["number"] for item in wd.pick(payload, TODAY)], [1])
+
+    def test_window_includes_the_cutoff_day(self):
+        cutoff = TODAY - dt.timedelta(days=7)
+        payload = self.payload(
+            [
+                issue("a/edge", 1, created=cutoff.isoformat()),
+                issue("b/stale", 2, created=(cutoff - dt.timedelta(days=1)).isoformat()),
+            ],
+            {"a/edge": repo(100), "b/stale": repo(100)},
+        )
+        self.assertEqual([item["number"] for item in wd.pick(payload, TODAY)], [1])
+
+    def test_accepts_project_at_min_merge_rate(self):
+        self.assertTrue(wd.merges_outside_prs(repo(10, merge_rate=wd.MIN_MERGE_RATE)))
+        self.assertFalse(wd.merges_outside_prs(repo(10, merge_rate=wd.MIN_MERGE_RATE - 0.01)))
 
 
 if __name__ == "__main__":
