@@ -81,14 +81,10 @@ class WeeklyDigestTests(unittest.TestCase):
         self.assertIn(line, body)
 
     def test_accepts_issue_with_max_comments(self):
-        payload = self.payload(
-            [issue("a/project", 1, comments=2)],
-            {"a/project": repo(100)}
-        )
+        payload = self.payload([issue("a/project", 1, comments=2)], {"a/project": repo(100)})
 
-        self.assertEqual(
-            [item["number"] for item in wd.pick(payload, TODAY)],
-            [1]
-        )
+        self.assertEqual([item["number"] for item in wd.pick(payload, TODAY)], [1])
+
+
 if __name__ == "__main__":
     unittest.main()
