@@ -1,8 +1,8 @@
 # Data and databases issues
 
-**300** open issues (163 labeled for beginners) across **93** projects tagged with topics like `database`, `sql`, `postgresql`, `mysql`, `sqlite`, `nosql`.
+**298** open issues (161 labeled for beginners) across **93** projects tagged with topics like `database`, `sql`, `postgresql`, `mysql`, `sqlite`, `nosql`.
 
-> Updated automatically on **2026-11-26 16:09 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-11-27 01:48 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -10,11 +10,11 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [Migrate away from 'fastapi-mcp'](https://github.com/neuml/txtai/issues/1694) 💬 2 | [neuml/txtai](https://github.com/neuml/txtai) | 13.7k | 🟡 help wanted | 2026-11-26 |  |
 | [列实现纵向分组后的同组其他列数据进行求和并且合并单元格显示](https://github.com/jeecgboot/jimureport/issues/4849) 💬 1 | [jeecgboot/jimureport](https://github.com/jeecgboot/jimureport) | 8.6k | 🟡 help wanted | 2026-11-26 |  |
 | [The key is missing from functional-index and foreign-key error payloads](https://github.com/tarantool/tarantool/issues/13818) | [tarantool/tarantool](https://github.com/tarantool/tarantool) | 3.7k | 🟢 beginner | 2026-11-26 | [📘 guide](https://github.com/tarantool/tarantool/blob/HEAD/CONTRIBUTING.md) |
 | [Python SDK generates requests to BigQuery API's method Tabledata:list with invalid argument alt](https://github.com/apache/beam/issues/19246) 💬 5 | [apache/beam](https://github.com/apache/beam) | 8.7k | 🟢 beginner | 2026-11-25 | ✍️ CLA · [📘 guide](https://github.com/apache/beam/blob/HEAD/CONTRIBUTING.md) |
 | [How to make repeated attempts with progressive delay?](https://github.com/yiisoft/yii2-queue/issues/143) 💬 25 | [yiisoft/yii2-queue](https://github.com/yiisoft/yii2-queue) | 1.1k | 🟡 help wanted | 2026-11-25 | [📘 guide](https://github.com/yiisoft/yii2-queue/blob/HEAD/.github/CONTRIBUTING.md) |
-| [Add typing to grimoirelab-toolkit](https://github.com/chaoss/grimoirelab/issues/892) 💬 1 | [chaoss/grimoirelab](https://github.com/chaoss/grimoirelab) | 642 | 🟢 beginner | 2026-11-25 | [📘 guide](https://github.com/chaoss/grimoirelab/blob/HEAD/CONTRIBUTING.md) |
 | [Prometheus: PromLink component tests are flaky](https://github.com/grafana/grafana/issues/74382) 💬 12 | [grafana/grafana](https://github.com/grafana/grafana) | 78.2k | 🟢 beginner | 2026-11-24 | 📄 AI policy · ✍️ CLA · [📘 guide](https://github.com/grafana/grafana/blob/HEAD/CONTRIBUTING.md) |
 | [FR: Allow background uploads and downloads](https://github.com/firebase/firebase-ios-sdk/issues/147) 💬 54 | [firebase/firebase-ios-sdk](https://github.com/firebase/firebase-ios-sdk) | 7k | 🟡 help wanted | 2026-11-24 | ✍️ CLA · [📘 guide](https://github.com/firebase/firebase-ios-sdk/blob/HEAD/CONTRIBUTING.md) |
 | [One invalid system-time in a bulk insert means you can't override system-time again](https://github.com/xtdb/xtdb/issues/4603) | [xtdb/xtdb](https://github.com/xtdb/xtdb) | 3.1k | 🟢 beginner | 2026-11-24 | ✍️ CLA · 🔏 DCO · [📘 guide](https://github.com/xtdb/xtdb/blob/HEAD/CONTRIBUTING.md) |
@@ -42,7 +42,7 @@
 | [Decrease the logging level for health checks](https://github.com/ClickHouse/ClickHouse/issues/23858) 💬 12 | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 51.2k | 🟡 help wanted | 2026-11-19 | 🤖 disclose AI use · ✍️ CLA · [📘 guide](https://github.com/ClickHouse/ClickHouse/blob/HEAD/CONTRIBUTING.md) |
 | [Add ClickHouse test to PerfKitBenchmarker](https://github.com/ClickHouse/ClickHouse/issues/10296) 💬 3 | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 51.2k | 🟡 help wanted | 2026-11-19 | 🤖 disclose AI use · ✍️ CLA · [📘 guide](https://github.com/ClickHouse/ClickHouse/blob/HEAD/CONTRIBUTING.md) |
 | [Can't select the desired dag version for a backfill dag run](https://github.com/apache/airflow/issues/50102) 💬 14 | [apache/airflow](https://github.com/apache/airflow) | 47.7k | 🟢 beginner | 2026-11-19 | 🤖 disclose AI use · ✍️ CLA · [📘 guide](https://github.com/apache/airflow/blob/HEAD/CONTRIBUTING.rst) |
-| [Update Docs: fix Grammar errors, Typos and unclear wording in “Dashboard errors when managing users” KB artic…](https://github.com/supabase/supabase/issues/53401) 💬 7 | [supabase/supabase](https://github.com/supabase/supabase) | 115.5k | 🟢 beginner | 2026-11-18 | [📘 guide](https://github.com/supabase/supabase/blob/HEAD/CONTRIBUTING.md) |
+| [Update Docs: fix Grammar errors, Typos and unclear wording in “Dashboard errors when managing users” KB artic…](https://github.com/supabase/supabase/issues/53401) 💬 7 | [supabase/supabase](https://github.com/supabase/supabase) | 115.6k | 🟢 beginner | 2026-11-18 | [📘 guide](https://github.com/supabase/supabase/blob/HEAD/CONTRIBUTING.md) |
 | [Gauge: Investigate performance of SegmentedGauge](https://github.com/grafana/grafana/issues/117548) 💬 1 | [grafana/grafana](https://github.com/grafana/grafana) | 78.2k | 🟡 help wanted | 2026-11-18 | 📄 AI policy · ✍️ CLA · [📘 guide](https://github.com/grafana/grafana/blob/HEAD/CONTRIBUTING.md) |
 | [Allow passing config_path as a parameter to KubernetesExecutor](https://github.com/apache/airflow/issues/46293) 💬 7 | [apache/airflow](https://github.com/apache/airflow) | 47.7k | 🟢 beginner | 2026-11-18 | 🤖 disclose AI use · ✍️ CLA · [📘 guide](https://github.com/apache/airflow/blob/HEAD/CONTRIBUTING.rst) |
 | [Nullable DateTimeOffset .Value is executed locally in F#](https://github.com/dotnet/efcore/issues/14013) 💬 12 | [dotnet/efcore](https://github.com/dotnet/efcore) | 14.8k | 🟡 help wanted | 2026-11-18 | ✍️ CLA · [📘 guide](https://github.com/dotnet/efcore/blob/HEAD/.github/CONTRIBUTING.md) |
@@ -117,7 +117,6 @@
 | [How to get collections and buckets names?](https://github.com/valeriansaliou/sonic/issues/271) 💬 4 | [valeriansaliou/sonic](https://github.com/valeriansaliou/sonic) | 21.4k | 🟡 help wanted | 2026-10-10 | [📘 guide](https://github.com/valeriansaliou/sonic/blob/HEAD/CONTRIBUTING.md) |
 | [Option to disable command mode or change key binding](https://github.com/marimo-team/marimo/issues/7426) 💬 5 | [marimo-team/marimo](https://github.com/marimo-team/marimo) | 23.8k | 🟢 beginner | 2026-10-09 | 🤖 disclose AI use · ✍️ CLA · [📘 guide](https://github.com/marimo-team/marimo/blob/HEAD/CONTRIBUTING.md) |
 | [Allow using system properties to fill up the template value in configs.](https://github.com/apache/pinot/issues/9125) 💬 2 | [apache/pinot](https://github.com/apache/pinot) | 6.2k | 🟢 beginner | 2026-10-09 | ✍️ CLA · [📘 guide](https://github.com/apache/pinot/blob/HEAD/CONTRIBUTING.md) |
-| [\[PERF\] Eliminate redundant HEAD requests when reading parquet](https://github.com/Eventual-Inc/Daft/issues/1881) 💬 1 | [Eventual-Inc/Daft](https://github.com/Eventual-Inc/Daft) | 5.9k | 🟡 help wanted | 2026-10-09 | 🤖 disclose AI use · [📘 guide](https://github.com/Eventual-Inc/Daft/blob/HEAD/CONTRIBUTING.md) |
 | [Cannot filter by an outer column inside EXCEPT](https://github.com/diesel-rs/diesel/issues/5253) 💬 2 | [diesel-rs/diesel](https://github.com/diesel-rs/diesel) | 14.3k | 🟡 help wanted | 2026-10-07 | ⚠️ AI restricted · [📘 guide](https://github.com/diesel-rs/diesel/blob/HEAD/CONTRIBUTING.md) |
 | [\[YSQL\] Side-by-side diff doesn't pick best expectfile](https://github.com/yugabyte/yugabyte-db/issues/28716) 💬 2 | [yugabyte/yugabyte-db](https://github.com/yugabyte/yugabyte-db) | 10.7k | 🟡 help wanted | 2026-10-06 | 🤖 disclose AI use |
 | [\[Feat\]: Export data only when export all table](https://github.com/phpmyadmin/phpmyadmin/issues/20018) 💬 2 | [phpmyadmin/phpmyadmin](https://github.com/phpmyadmin/phpmyadmin) | 8k | 🟢 beginner | 2026-10-06 | 🔏 DCO · [📘 guide](https://github.com/phpmyadmin/phpmyadmin/blob/HEAD/CONTRIBUTING.md) |
@@ -181,6 +180,7 @@
 | [Memory utilization tracking](https://github.com/tursodatabase/turso/issues/2577) | [tursodatabase/turso](https://github.com/tursodatabase/turso) | 25.4k | 🟡 help wanted | 2026-09-24 | [📘 guide](https://github.com/tursodatabase/turso/blob/HEAD/CONTRIBUTING.md) |
 | [Out of disk space simulation](https://github.com/tursodatabase/turso/issues/2662) 💬 1 | [tursodatabase/turso](https://github.com/tursodatabase/turso) | 25.4k | 🟡 help wanted | 2026-09-24 | [📘 guide](https://github.com/tursodatabase/turso/blob/HEAD/CONTRIBUTING.md) |
 | [Concurrent B-tree search with asynchronous I/O](https://github.com/tursodatabase/turso/issues/2664) | [tursodatabase/turso](https://github.com/tursodatabase/turso) | 25.4k | 🟡 help wanted | 2026-09-24 | [📘 guide](https://github.com/tursodatabase/turso/blob/HEAD/CONTRIBUTING.md) |
+| [SQLite session extension support](https://github.com/tursodatabase/turso/issues/2694) | [tursodatabase/turso](https://github.com/tursodatabase/turso) | 25.4k | 🟡 help wanted | 2026-09-24 | [📘 guide](https://github.com/tursodatabase/turso/blob/HEAD/CONTRIBUTING.md) |
 | [Refine the fuzzer corpus](https://github.com/diesel-rs/diesel/issues/5236) 💬 1 | [diesel-rs/diesel](https://github.com/diesel-rs/diesel) | 14.3k | 🟡 help wanted | 2026-09-24 | ⚠️ AI restricted · [📘 guide](https://github.com/diesel-rs/diesel/blob/HEAD/CONTRIBUTING.md) |
 | ['COPY TO'/'COPY FROM': Support Google Cloud Platform](https://github.com/crate/crate/issues/13877) 💬 4 | [crate/crate](https://github.com/crate/crate) | 4.5k | 🟢 beginner | 2026-09-24 | ⚠️ AI restricted · ✍️ CLA · [📘 guide](https://github.com/crate/crate/blob/HEAD/CONTRIBUTING.rst) |
 | [\[BUG\] Unable to restore the database](https://github.com/mydumper/mydumper/issues/2355) 💬 3 | [mydumper/mydumper](https://github.com/mydumper/mydumper) | 3.3k | 🟡 help wanted | 2026-09-24 |  |
@@ -211,4 +211,4 @@
 | [LDAP password auth - only first 1000 users are searched against](https://github.com/trinodb/trino/issues/2359) 💬 3 | [trinodb/trino](https://github.com/trinodb/trino) | 13.5k | 🟢 beginner | 2026-09-09 | ✍️ CLA · [📘 guide](https://github.com/trinodb/trino/blob/HEAD/.github/CONTRIBUTING.md) |
 | [Timeout mechanism for file listing](https://github.com/trinodb/trino/issues/1723) 💬 5 | [trinodb/trino](https://github.com/trinodb/trino) | 13.5k | 🟢 beginner | 2026-09-09 | ✍️ CLA · [📘 guide](https://github.com/trinodb/trino/blob/HEAD/.github/CONTRIBUTING.md) |
 
-Showing the 200 most recently updated. See all 300 on the website.
+Showing the 200 most recently updated. See all 298 on the website.

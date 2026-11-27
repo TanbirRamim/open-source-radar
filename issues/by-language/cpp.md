@@ -1,10 +1,10 @@
 # C++ issues
 
-**310** open issues (114 labeled for beginners) across **100** active C++ projects.
+**312** open issues (116 labeled for beginners) across **100** active C++ projects.
 
 [C++ quickstart](../../languages/cpp.md) · [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/cpp.xml)
 
-> Updated automatically on **2026-11-26 16:09 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-11-27 01:48 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -12,10 +12,14 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
+| [Envoy exits on an IPv6 address with a zone id when it writes a PROXY protocol v2 header upstream](https://github.com/envoyproxy/envoy/issues/49645) | [envoyproxy/envoy](https://github.com/envoyproxy/envoy) | 29.3k | 🟡 help wanted | 2026-11-27 | 🤖 disclose AI use · 🔏 DCO · [📘 guide](https://github.com/envoyproxy/envoy/blob/HEAD/CONTRIBUTING.md) |
+| [Duplicate separator in context menu in Private Window](https://github.com/zen-browser/desktop/issues/16837) 💬 2 | [zen-browser/desktop](https://github.com/zen-browser/desktop) | 46k | 🟢 beginner | 2026-11-26 |  |
 | [Add error handling support to decompressors](https://github.com/envoyproxy/envoy/issues/32621) 💬 1 | [envoyproxy/envoy](https://github.com/envoyproxy/envoy) | 29.3k | 🟡 help wanted | 2026-11-26 | 🤖 disclose AI use · 🔏 DCO · [📘 guide](https://github.com/envoyproxy/envoy/blob/HEAD/CONTRIBUTING.md) |
 | [use 'CMakePresets.json' for all CI jobs](https://github.com/rizinorg/cutter/issues/3689) 💬 3 | [rizinorg/cutter](https://github.com/rizinorg/cutter) | 20.3k | 🟢 beginner | 2026-11-26 | 🤖 disclose AI use · [📘 guide](https://github.com/rizinorg/cutter/blob/HEAD/CONTRIBUTING.md) |
 | [Add 'serialize' and 'deserialize' features to 'Module' \[Rust SDK\]](https://github.com/WasmEdge/WasmEdge/issues/1679) 💬 7 | [WasmEdge/WasmEdge](https://github.com/WasmEdge/WasmEdge) | 10.9k | 🟡 help wanted | 2026-11-26 | 🔏 DCO · [📘 guide](https://github.com/WasmEdge/WasmEdge/blob/HEAD/docs/CONTRIBUTING.md) |
+| [\[Barrens\] Razormane Hunter loses rogue's Sap after his pet being attacked](https://github.com/azerothcore/azerothcore-wotlk/issues/6294) 💬 4 | [azerothcore/azerothcore-wotlk](https://github.com/azerothcore/azerothcore-wotlk) | 9.2k | 🟡 help wanted | 2026-11-26 | [📘 guide](https://github.com/azerothcore/azerothcore-wotlk/blob/HEAD/.github/CONTRIBUTING.md) |
 | [Toolbar button to toggle auto-ducking](https://github.com/mumble-voip/mumble/issues/3555) 💬 5 | [mumble-voip/mumble](https://github.com/mumble-voip/mumble) | 8.4k | 🟢 beginner | 2026-11-26 |  |
+| [Report your benchmark results here!](https://github.com/ProjectPhysX/FluidX3D/issues/8) 💬 279 | [ProjectPhysX/FluidX3D](https://github.com/ProjectPhysX/FluidX3D) | 5.4k | 🟡 help wanted | 2026-11-26 |  |
 | [URL bar "switch to tab" suggestions don't indicate a tab's workspace/container, making same-site tabs across…](https://github.com/zen-browser/desktop/issues/14371) 💬 7 | [zen-browser/desktop](https://github.com/zen-browser/desktop) | 46k | 🟢 beginner | 2026-11-25 |  |
 | [PartDesign/UX:The input fields in the PAD tool lose focus upon activation. Instead of entering values, the ca…](https://github.com/FreeCAD/FreeCAD/issues/34610) | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 35.8k | 🟢 beginner | 2026-11-25 | ⚠️ AI restricted · [📘 guide](https://github.com/FreeCAD/FreeCAD/blob/HEAD/CONTRIBUTING.md) |
 | [fd_fdstat_set_rights difference?](https://github.com/WasmEdge/WasmEdge/issues/3477) 💬 12 | [WasmEdge/WasmEdge](https://github.com/WasmEdge/WasmEdge) | 10.9k | 🟡 help wanted | 2026-11-25 | 🔏 DCO · [📘 guide](https://github.com/WasmEdge/WasmEdge/blob/HEAD/docs/CONTRIBUTING.md) |
@@ -33,6 +37,7 @@
 | [Add depth of field support](https://github.com/f3d-app/f3d/issues/3731) 💬 4 | [f3d-app/f3d](https://github.com/f3d-app/f3d) | 5.1k | 🟡 help wanted | 2026-11-22 | 🤖 disclose AI use · [📘 guide](https://github.com/f3d-app/f3d/blob/HEAD/CONTRIBUTING.md) |
 | [STEP: Combining STEP files messes tree structure in resulting file](https://github.com/FreeCAD/FreeCAD/issues/11441) 💬 7 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | 35.8k | 🟡 help wanted | 2026-11-21 | ⚠️ AI restricted · [📘 guide](https://github.com/FreeCAD/FreeCAD/blob/HEAD/CONTRIBUTING.md) |
 | [Border issues reported since Plus 1.0.8 and Classic 5.55.8 on maximized windows](https://github.com/sandboxie-plus/Sandboxie/issues/1561) 💬 6 | [sandboxie-plus/Sandboxie](https://github.com/sandboxie-plus/Sandboxie) | 20.1k | 🟡 help wanted | 2026-11-21 | [📘 guide](https://github.com/sandboxie-plus/Sandboxie/blob/HEAD/CONTRIBUTING.md) |
+| [Move pasted objects for clarity](https://github.com/xournalpp/xournalpp/issues/1165) 💬 14 | [xournalpp/xournalpp](https://github.com/xournalpp/xournalpp) | 15.7k | 🟢 beginner | 2026-11-21 | [📘 guide](https://github.com/xournalpp/xournalpp/blob/HEAD/CONTRIBUTING.md) |
 | [CopyQ does not paste content automatically](https://github.com/hluk/CopyQ/issues/3000) 💬 27 | [hluk/CopyQ](https://github.com/hluk/CopyQ) | 12.7k | 🟡 help wanted | 2026-11-21 |  |
 | [Add support for final shader file and presets](https://github.com/f3d-app/f3d/issues/3733) 💬 1 | [f3d-app/f3d](https://github.com/f3d-app/f3d) | 5.1k | 🟡 help wanted | 2026-11-21 | 🤖 disclose AI use · [📘 guide](https://github.com/f3d-app/f3d/blob/HEAD/CONTRIBUTING.md) |
 | [Isherwood's pigs spawning outside of their building](https://github.com/CleverRaven/Cataclysm-DDA/issues/87730) | [CleverRaven/Cataclysm-DDA](https://github.com/CleverRaven/Cataclysm-DDA) | 13.6k | 🟢 beginner | 2026-11-20 | [📘 guide](https://github.com/CleverRaven/Cataclysm-DDA/blob/HEAD/CONTRIBUTING.md) |
@@ -109,7 +114,7 @@
 | [webdav 删除文件报错，实际已经删除。文件夹和文件按名称排序异常](https://github.com/filecxx/FileCentipede/issues/656) 💬 1 | [filecxx/FileCentipede](https://github.com/filecxx/FileCentipede) | 11k | 🟢 beginner | 2026-10-24 |  |
 | [这个网址的视频能下载但是不能播放](https://github.com/filecxx/FileCentipede/issues/702) 💬 3 | [filecxx/FileCentipede](https://github.com/filecxx/FileCentipede) | 11k | 🟢 beginner | 2026-10-24 |  |
 | [proto defined enums conflicts with globally defined variables using protoc cpp](https://github.com/protocolbuffers/protobuf/issues/8953) 💬 3 | [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | 72.2k | 🟡 help wanted | 2026-10-22 | ✍️ CLA · [📘 guide](https://github.com/protocolbuffers/protobuf/blob/HEAD/CONTRIBUTING.md) |
-| [Remove dr_wav.h](https://github.com/ggml-org/whisper.cpp/issues/165) 💬 3 | [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) | 55.5k | 🟢 beginner | 2026-10-22 | ⚠️ AI restricted · [📘 guide](https://github.com/ggml-org/whisper.cpp/blob/HEAD/CONTRIBUTING.md) |
+| [Remove dr_wav.h](https://github.com/ggml-org/whisper.cpp/issues/165) 💬 3 | [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) | 55.6k | 🟢 beginner | 2026-10-22 | ⚠️ AI restricted · [📘 guide](https://github.com/ggml-org/whisper.cpp/blob/HEAD/CONTRIBUTING.md) |
 | [Some icons are blurry or inconsistent in size on Android 16 / Fairphone](https://github.com/organicmaps/organicmaps/issues/13596) 💬 1 | [organicmaps/organicmaps](https://github.com/organicmaps/organicmaps) | 16.1k | 🟢 beginner | 2026-10-22 | 🔏 DCO · [📘 guide](https://github.com/organicmaps/organicmaps/blob/HEAD/CONTRIBUTING.md) |
 | [Allow NPCs to milk cows](https://github.com/CleverRaven/Cataclysm-DDA/issues/86410) 💬 2 | [CleverRaven/Cataclysm-DDA](https://github.com/CleverRaven/Cataclysm-DDA) | 13.6k | 🟢 beginner | 2026-10-22 | [📘 guide](https://github.com/CleverRaven/Cataclysm-DDA/blob/HEAD/CONTRIBUTING.md) |
 | [Permission denied while reading dnsmasq.hosts](https://github.com/canonical/multipass/issues/4108) 💬 10 | [canonical/multipass](https://github.com/canonical/multipass) | 9.4k | 🟡 help wanted | 2026-10-22 | ✍️ CLA · 🔏 DCO · [📘 guide](https://github.com/canonical/multipass/blob/HEAD/CONTRIBUTING.md) |
@@ -167,11 +172,9 @@
 | [gzip filter: support chunked transfer encoding](https://github.com/envoyproxy/envoy/issues/6632) 💬 14 | [envoyproxy/envoy](https://github.com/envoyproxy/envoy) | 29.3k | 🟡 help wanted | 2026-10-02 | 🤖 disclose AI use · 🔏 DCO · [📘 guide](https://github.com/envoyproxy/envoy/blob/HEAD/CONTRIBUTING.md) |
 | [Preference file damaged after content disk got full. After restart are no content files shown, but seeding wo…](https://github.com/transmission/transmission/issues/9119) | [transmission/transmission](https://github.com/transmission/transmission) | 15.5k | 🟡 help wanted | 2026-10-02 | [📘 guide](https://github.com/transmission/transmission/blob/HEAD/CONTRIBUTING.md) |
 | [Add keyboard maximize shortcut](https://github.com/mumble-voip/mumble/issues/6871) 💬 16 | [mumble-voip/mumble](https://github.com/mumble-voip/mumble) | 8.4k | 🟢 beginner | 2026-10-02 |  |
-| [Tile mode for background image stretch](https://github.com/microsoft/terminal/issues/3193) 💬 4 | [microsoft/terminal](https://github.com/microsoft/terminal) | 105.5k | 🟡 help wanted | 2026-10-01 | 🤖 disclose AI use · [📘 guide](https://github.com/microsoft/terminal/blob/HEAD/CONTRIBUTING.md) |
 | [Segfault and application crash when clicking outside the tray menu](https://github.com/hluk/CopyQ/issues/3187) 💬 6 | [hluk/CopyQ](https://github.com/hluk/CopyQ) | 12.7k | 🟡 help wanted | 2026-09-30 |  |
 | [end-to-end tests for ioredis and dragonfly](https://github.com/dragonflydb/dragonfly/issues/383) 💬 7 | [dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly) | 31.9k | 🟢 beginner | 2026-09-29 | ✍️ CLA · 🔏 DCO · [📘 guide](https://github.com/dragonflydb/dragonfly/blob/HEAD/CONTRIBUTING.md) |
 | [\[Feature Request\] Option to return only collection name on the '/collections' endpoint](https://github.com/typesense/typesense/issues/1212) 💬 5 | [typesense/typesense](https://github.com/typesense/typesense) | 27.2k | 🟢 beginner | 2026-09-29 | [📘 guide](https://github.com/typesense/typesense/blob/HEAD/CONTRIBUTING.md) |
-| [Report your benchmark results here!](https://github.com/ProjectPhysX/FluidX3D/issues/8) 💬 278 | [ProjectPhysX/FluidX3D](https://github.com/ProjectPhysX/FluidX3D) | 5.4k | 🟡 help wanted | 2026-09-29 |  |
 | [\[L10n\]\[TR\] Accesskey collisions in bookmark and tab context menus](https://github.com/zen-browser/desktop/issues/15488) 💬 1 | [zen-browser/desktop](https://github.com/zen-browser/desktop) | 46k | 🟢 beginner | 2026-09-28 |  |
 | [Replace UTF code](https://github.com/zeek/zeek/issues/1756) 💬 9 | [zeek/zeek](https://github.com/zeek/zeek) | 8.3k | 🟢 beginner | 2026-09-28 | 🤖 disclose AI use · [📘 guide](https://github.com/zeek/zeek/blob/HEAD/CONTRIBUTING.md) |
 | [xtensa-lx106-elf-g++: bad CPU type in executable on a M2 Mac without rosetta emulation installed](https://github.com/esp8266/Arduino/issues/8725) 💬 10 | [esp8266/Arduino](https://github.com/esp8266/Arduino) | 16.7k | 🟡 help wanted | 2026-09-27 |  |
@@ -209,8 +212,5 @@
 | [MaterializedPostgreSQL pg_publication_tables have equal name in column pubname for two db in one cluster.](https://github.com/ClickHouse/ClickHouse/issues/69388) | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 51.2k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use · ✍️ CLA · [📘 guide](https://github.com/ClickHouse/ClickHouse/blob/HEAD/CONTRIBUTING.md) |
 | [Aggregator will have statistics about aggregated keys(min/max/any 100 values)](https://github.com/ClickHouse/ClickHouse/issues/77740) 💬 3 | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 51.2k | 🟡 help wanted | 2026-09-11 | 🤖 disclose AI use · ✍️ CLA · [📘 guide](https://github.com/ClickHouse/ClickHouse/blob/HEAD/CONTRIBUTING.md) |
 | [tray menu does not work with ubuntu 26](https://github.com/hluk/CopyQ/issues/3645) 💬 3 | [hluk/CopyQ](https://github.com/hluk/CopyQ) | 12.7k | 🟡 help wanted | 2026-09-11 |  |
-| [\[RFC\]: Hot Standby Mode for Master Service Metadata High Availability](https://github.com/kvcache-ai/Mooncake/issues/1200) 💬 4 | [kvcache-ai/Mooncake](https://github.com/kvcache-ai/Mooncake) | 7.1k | 🟢 beginner | 2026-09-11 | 🤖 disclose AI use · 🔏 DCO · [📘 guide](https://github.com/kvcache-ai/Mooncake/blob/HEAD/CONTRIBUTING.md) |
-| [\[Feature\] TemplateMatch 增加可选灰度匹配参数（纯性能优化，默认关闭）](https://github.com/MaaXYZ/MaaFramework/issues/1483) 💬 2 | [MaaXYZ/MaaFramework](https://github.com/MaaXYZ/MaaFramework) | 5.3k | 🟡 help wanted | 2026-09-11 |  |
-| [Consider feature adoption: Vector PP and Stanley within RPP package](https://github.com/ros-navigation/navigation2/issues/5952) 💬 10 | [ros-navigation/navigation2](https://github.com/ros-navigation/navigation2) | 5.1k | 🟡 help wanted | 2026-09-10 | 🔏 DCO · [📘 guide](https://github.com/ros-navigation/navigation2/blob/HEAD/CONTRIBUTING.md) |
 
-Showing the 200 most recently updated. See all 310 on the website.
+Showing the 200 most recently updated. See all 312 on the website.

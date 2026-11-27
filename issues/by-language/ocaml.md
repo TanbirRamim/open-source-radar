@@ -1,10 +1,10 @@
 # OCaml issues
 
-**24** open issues (15 labeled for beginners) across **6** active OCaml projects.
+**23** open issues (14 labeled for beginners) across **6** active OCaml projects.
 
 [OCaml quickstart](../../languages/ocaml.md) · [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/ocaml.xml)
 
-> Updated automatically on **2026-11-26 16:09 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-11-27 01:48 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -27,7 +27,6 @@
 | [Support for compiling and linking non-C objects (such as Fortran)](https://github.com/ocaml/dune/issues/803) 💬 5 | [ocaml/dune](https://github.com/ocaml/dune) | 1.9k | 🟡 help wanted | 2026-06-05 | 🔏 DCO · [📘 guide](https://github.com/ocaml/dune/blob/HEAD/CONTRIBUTING.md) |
 | [How are compiled C++ stubs?](https://github.com/ocaml/dune/issues/949) 💬 6 | [ocaml/dune](https://github.com/ocaml/dune) | 1.9k | 🟡 help wanted | 2026-06-05 | 🔏 DCO · [📘 guide](https://github.com/ocaml/dune/blob/HEAD/CONTRIBUTING.md) |
 | [Implement OSL in the per_module field for preprocessor specifications](https://github.com/ocaml/dune/issues/963) 💬 2 | [ocaml/dune](https://github.com/ocaml/dune) | 1.9k | 🟢 beginner | 2026-06-05 | 🔏 DCO · [📘 guide](https://github.com/ocaml/dune/blob/HEAD/CONTRIBUTING.md) |
-| [Add support for version comparison](https://github.com/ocaml/dune/issues/1071) 💬 3 | [ocaml/dune](https://github.com/ocaml/dune) | 1.9k | 🟢 beginner | 2026-06-05 | 🔏 DCO · [📘 guide](https://github.com/ocaml/dune/blob/HEAD/CONTRIBUTING.md) |
 | [allow excluding certain files being copied to the build folder](https://github.com/ocaml/dune/issues/4865) 💬 8 | [ocaml/dune](https://github.com/ocaml/dune) | 1.9k | 🟡 help wanted | 2026-06-05 | 🔏 DCO · [📘 guide](https://github.com/ocaml/dune/blob/HEAD/CONTRIBUTING.md) |
 | [Expand responsefile content in trace output](https://github.com/ocaml/dune/issues/5334) 💬 1 | [ocaml/dune](https://github.com/ocaml/dune) | 1.9k | 🟡 help wanted | 2026-06-05 | 🔏 DCO · [📘 guide](https://github.com/ocaml/dune/blob/HEAD/CONTRIBUTING.md) |
 | [dune init should support Coq projects](https://github.com/ocaml/dune/issues/7087) 💬 7 | [ocaml/dune](https://github.com/ocaml/dune) | 1.9k | 🟢 beginner | 2026-06-05 | 🔏 DCO · [📘 guide](https://github.com/ocaml/dune/blob/HEAD/CONTRIBUTING.md) |

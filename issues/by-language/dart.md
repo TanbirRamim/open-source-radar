@@ -4,7 +4,7 @@
 
 [Dart quickstart](../../languages/dart.md) · [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/dart.xml)
 
-> Updated automatically on **2026-11-26 16:09 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-11-27 01:48 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -12,20 +12,20 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [اتصال](https://github.com/bia-pain-bache/BPB-VPN/issues/3) 💬 5 | [bia-pain-bache/BPB-VPN](https://github.com/bia-pain-bache/BPB-VPN) | 502 | 🟡 help wanted | 2026-11-25 |  |
+| [اتصال](https://github.com/bia-pain-bache/BPB-VPN/issues/3) 💬 5 | [bia-pain-bache/BPB-VPN](https://github.com/bia-pain-bache/BPB-VPN) | 508 | 🟡 help wanted | 2026-11-25 |  |
 | [Add a method to check whether the platform supports dynamic theming](https://github.com/material-foundation/flutter-packages/issues/390) 💬 8 | [material-foundation/flutter-packages](https://github.com/material-foundation/flutter-packages) | 867 | 🟡 help wanted | 2026-11-21 | [📘 guide](https://github.com/material-foundation/flutter-packages/blob/HEAD/CONTRIBUTING.md) |
 | [\[FEAT\] - Online synchronization](https://github.com/flow-mn/flow/issues/93) 💬 5 | [flow-mn/flow](https://github.com/flow-mn/flow) | 525 | 🟡 help wanted | 2026-11-21 | 📄 AI policy · [📘 guide](https://github.com/flow-mn/flow/blob/HEAD/CONTRIBUTING.md) |
 | [Modified Bloomee build published on Google Play as BitChord with ads (no source code offered)](https://github.com/HemantKArya/BloomeeTunes/issues/499) 💬 3 | [HemantKArya/BloomeeTunes](https://github.com/HemantKArya/BloomeeTunes) | 2.3k | 🟡 help wanted | 2026-11-19 | [📘 guide](https://github.com/HemantKArya/BloomeeTunes/blob/HEAD/CONTRIBUTING.md) |
 | [Chinese translation](https://github.com/bepass-org/oblivion/issues/162) 💬 3 | [bepass-org/oblivion](https://github.com/bepass-org/oblivion) | 4.9k | 🟡 help wanted | 2026-11-17 |  |
 | [Change message and flag icons on game page for clarity](https://github.com/lichess-org/mobile/issues/3484) 💬 6 | [lichess-org/mobile](https://github.com/lichess-org/mobile) | 2.7k | 🟢 beginner | 2026-11-17 | 🤖 disclose AI use · [📘 guide](https://github.com/lichess-org/mobile/blob/HEAD/CONTRIBUTING.md) |
 | ["Paused in debugger" message not appearing after hot-restart](https://github.com/flutter/devtools/issues/7619) 💬 1 | [flutter/devtools](https://github.com/flutter/devtools) | 1.7k | 🟡 help wanted | 2026-11-16 | 📄 AI policy · ✍️ CLA · [📘 guide](https://github.com/flutter/devtools/blob/HEAD/CONTRIBUTING.md) |
-| [مشکل نصب](https://github.com/bia-pain-bache/BPB-VPN/issues/2) 💬 8 | [bia-pain-bache/BPB-VPN](https://github.com/bia-pain-bache/BPB-VPN) | 502 | 🟡 help wanted | 2026-11-16 |  |
+| [مشکل نصب](https://github.com/bia-pain-bache/BPB-VPN/issues/2) 💬 8 | [bia-pain-bache/BPB-VPN](https://github.com/bia-pain-bache/BPB-VPN) | 508 | 🟡 help wanted | 2026-11-16 |  |
 | [Quick search: semantic search](https://github.com/linagora/tmail-flutter/issues/2364) 💬 5 | [linagora/tmail-flutter](https://github.com/linagora/tmail-flutter) | 670 | 🟢 beginner | 2026-11-14 |  |
 | [\[FEAT\] Add transactions from incoming SMS](https://github.com/flow-mn/flow/issues/673) 💬 7 | [flow-mn/flow](https://github.com/flow-mn/flow) | 525 | 🟡 help wanted | 2026-11-14 | 📄 AI policy · [📘 guide](https://github.com/flow-mn/flow/blob/HEAD/CONTRIBUTING.md) |
 | [\[Flatpak\] Auth: Failed to launch: libsecret_error: Failed to unlock the keyring](https://github.com/ente/ente/issues/6564) 💬 7 | [ente/ente](https://github.com/ente/ente) | 30.5k | 🟡 help wanted | 2026-11-12 | [📘 guide](https://github.com/ente/ente/blob/HEAD/CONTRIBUTING.md) |
 | [allow customizing the quick-access symbol bar.](https://github.com/freeCodeCamp/mobile/issues/1661) 💬 2 | [freeCodeCamp/mobile](https://github.com/freeCodeCamp/mobile) | 589 | 🟡 help wanted | 2026-11-12 |  |
 | [Add quick stats on the % of NOVA 4 products in a list](https://github.com/openfoodfacts/smooth-app/issues/6274) 💬 14 | [openfoodfacts/smooth-app](https://github.com/openfoodfacts/smooth-app) | 1.5k | 🟢 beginner | 2026-11-11 | [📘 guide](https://github.com/openfoodfacts/smooth-app/blob/HEAD/CONTRIBUTING.md) |
-| [Add WiFi password share with QR-Code](https://github.com/cogwheel0/luci-mobile/issues/37) 💬 2 | [cogwheel0/luci-mobile](https://github.com/cogwheel0/luci-mobile) | 747 | 🟢 beginner | 2026-11-11 | [📘 guide](https://github.com/cogwheel0/luci-mobile/blob/HEAD/CONTRIBUTING.md) |
+| [Add WiFi password share with QR-Code](https://github.com/cogwheel0/luci-mobile/issues/37) 💬 2 | [cogwheel0/luci-mobile](https://github.com/cogwheel0/luci-mobile) | 748 | 🟢 beginner | 2026-11-11 | [📘 guide](https://github.com/cogwheel0/luci-mobile/blob/HEAD/CONTRIBUTING.md) |
 | [Product addition (tracker)](https://github.com/openfoodfacts/smooth-app/issues/1379) 💬 18 | [openfoodfacts/smooth-app](https://github.com/openfoodfacts/smooth-app) | 1.5k | 🟢 beginner | 2026-11-07 | [📘 guide](https://github.com/openfoodfacts/smooth-app/blob/HEAD/CONTRIBUTING.md) |
 | [Need process for nightly builds meet requirement of CI support](https://github.com/FriesI23/mhabit/issues/55) | [FriesI23/mhabit](https://github.com/FriesI23/mhabit) | 1.7k | 🟡 help wanted | 2026-11-05 |  |
 | [App Crashes while Scrolling Broadcast Carousel](https://github.com/lichess-org/mobile/issues/1769) 💬 2 | [lichess-org/mobile](https://github.com/lichess-org/mobile) | 2.7k | 🟡 help wanted | 2026-11-02 | 🤖 disclose AI use · [📘 guide](https://github.com/lichess-org/mobile/blob/HEAD/CONTRIBUTING.md) |
@@ -48,7 +48,7 @@
 | ['&gt;' is shown next to non-expandable fields](https://github.com/flutter/devtools/issues/5377) | [flutter/devtools](https://github.com/flutter/devtools) | 1.7k | 🟡 help wanted | 2026-10-15 | 📄 AI policy · ✍️ CLA · [📘 guide](https://github.com/flutter/devtools/blob/HEAD/CONTRIBUTING.md) |
 | [File selection text field does not feel like a fully featured text input](https://github.com/flutter/devtools/issues/5337) | [flutter/devtools](https://github.com/flutter/devtools) | 1.7k | 🟡 help wanted | 2026-10-15 | 📄 AI policy · ✍️ CLA · [📘 guide](https://github.com/flutter/devtools/blob/HEAD/CONTRIBUTING.md) |
 | [Clean up feature controllers in Performance page](https://github.com/flutter/devtools/issues/5100) | [flutter/devtools](https://github.com/flutter/devtools) | 1.7k | 🟡 help wanted | 2026-10-15 | 📄 AI policy · ✍️ CLA · [📘 guide](https://github.com/flutter/devtools/blob/HEAD/CONTRIBUTING.md) |
-| [Port to KaiOS](https://github.com/localsend/localsend/issues/1511) 💬 4 | [localsend/localsend](https://github.com/localsend/localsend) | 101k | 🟡 help wanted | 2026-10-10 | [📘 guide](https://github.com/localsend/localsend/blob/HEAD/CONTRIBUTING.md) |
+| [Port to KaiOS](https://github.com/localsend/localsend/issues/1511) 💬 4 | [localsend/localsend](https://github.com/localsend/localsend) | 101.1k | 🟡 help wanted | 2026-10-10 | [📘 guide](https://github.com/localsend/localsend/blob/HEAD/CONTRIBUTING.md) |
 | [English translation](https://github.com/bepass-org/oblivion/issues/171) 💬 2 | [bepass-org/oblivion](https://github.com/bepass-org/oblivion) | 4.9k | 🟡 help wanted | 2026-10-09 |  |
 | [\[Feature Request\] implement a flickering method to introduce grayscale](https://github.com/fossasia/badgemagic-app/issues/1671) 💬 5 | [fossasia/badgemagic-app](https://github.com/fossasia/badgemagic-app) | 2k | 🟡 help wanted | 2026-10-08 |  |
 | [\[FR\] press Enter anywhere in the grid view to add a new row / shift + enter a new line](https://github.com/AppFlowy-IO/AppFlowy/issues/3074) 💬 3 | [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) | 79.6k | 🟡 help wanted | 2026-09-29 |  |
@@ -67,8 +67,8 @@
 | [Adding a pointer beside the bar rod.](https://github.com/imaNNeo/fl_chart/issues/1480) 💬 6 | [imaNNeo/fl_chart](https://github.com/imaNNeo/fl_chart) | 7.6k | 🟢 beginner | 2026-08-15 | [📘 guide](https://github.com/imaNNeo/fl_chart/blob/HEAD/CONTRIBUTING.md) |
 | [Ente Auth iOS: slow unlock](https://github.com/ente/ente/issues/4749) 💬 10 | [ente/ente](https://github.com/ente/ente) | 30.5k | 🟢 beginner | 2026-08-11 | [📘 guide](https://github.com/ente/ente/blob/HEAD/CONTRIBUTING.md) |
 | [Improve development experience](https://github.com/material-foundation/flutter-packages/issues/299) | [material-foundation/flutter-packages](https://github.com/material-foundation/flutter-packages) | 867 | 🟡 help wanted | 2026-08-07 | [📘 guide](https://github.com/material-foundation/flutter-packages/blob/HEAD/CONTRIBUTING.md) |
-| [iOS版本播放界面侧滑返回](https://github.com/Predidit/Kazumi/issues/2427) | [Predidit/Kazumi](https://github.com/Predidit/Kazumi) | 44.1k | 🟡 help wanted | 2026-08-04 |  |
-| [Storage access to screen source folder only](https://github.com/AnsahMohammad/shots-studio/issues/203) 💬 1 | [AnsahMohammad/shots-studio](https://github.com/AnsahMohammad/shots-studio) | 686 | 🟢 beginner | 2026-08-03 | [📘 guide](https://github.com/AnsahMohammad/shots-studio/blob/HEAD/CONTRIBUTING.md) |
+| [iOS版本播放界面侧滑返回](https://github.com/Predidit/Kazumi/issues/2427) | [Predidit/Kazumi](https://github.com/Predidit/Kazumi) | 44.2k | 🟡 help wanted | 2026-08-04 |  |
+| [Storage access to screen source folder only](https://github.com/AnsahMohammad/shots-studio/issues/203) 💬 1 | [AnsahMohammad/shots-studio](https://github.com/AnsahMohammad/shots-studio) | 687 | 🟢 beginner | 2026-08-03 | [📘 guide](https://github.com/AnsahMohammad/shots-studio/blob/HEAD/CONTRIBUTING.md) |
 | [gif 动态图打开后不会动态显示](https://github.com/fregie/pho/issues/28) 💬 1 | [fregie/pho](https://github.com/fregie/pho) | 1.2k | 🟢 beginner | 2026-07-29 | [📘 guide](https://github.com/fregie/pho/blob/HEAD/CONTRIBUTING.md) |
 | [希望可以加入收藏功能](https://github.com/fregie/pho/issues/5) 💬 1 | [fregie/pho](https://github.com/fregie/pho) | 1.2k | 🟢 beginner | 2026-07-29 | [📘 guide](https://github.com/fregie/pho/blob/HEAD/CONTRIBUTING.md) |
 | [Creation of duplicate nodes](https://github.com/Zverik/every_door/issues/605) 💬 24 | [Zverik/every_door](https://github.com/Zverik/every_door) | 569 | 🟡 help wanted | 2026-07-20 |  |

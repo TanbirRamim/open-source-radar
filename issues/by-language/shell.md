@@ -1,10 +1,10 @@
 # Shell issues
 
-**111** open issues (54 labeled for beginners) across **50** active Shell projects.
+**111** open issues (53 labeled for beginners) across **51** active Shell projects.
 
 [Shell quickstart](../../languages/shell.md) · [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/shell.xml)
 
-> Updated automatically on **2026-11-26 16:09 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-11-27 01:48 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -14,10 +14,8 @@
 | --- | --- | ---: | --- | --- | --- |
 | [Add "ignore failed upgrades" option for at least Modrinth](https://github.com/itzg/docker-minecraft-server/issues/3922) 💬 7 | [itzg/docker-minecraft-server](https://github.com/itzg/docker-minecraft-server) | 14.6k | 🟡 help wanted | 2026-11-25 |  |
 | [\[Bug\]: sun50iw9 TF-A CPUIDLE patch panics in BL31 on Orange Pi Zero 3 (4 GiB)](https://github.com/armbian/build/issues/11549) 💬 3 | [armbian/build](https://github.com/armbian/build) | 5.6k | 🟢 beginner | 2026-11-25 | [📘 guide](https://github.com/armbian/build/blob/HEAD/CONTRIBUTING.md) |
-| [App Request: DeckCraft](https://github.com/wimpysworld/deb-get/issues/2158) | [wimpysworld/deb-get](https://github.com/wimpysworld/deb-get) | 1.8k | 🟢 beginner | 2026-11-25 | [📘 guide](https://github.com/wimpysworld/deb-get/blob/HEAD/CONTRIBUTING.md) |
 | [App Request:PrivacyNotes](https://github.com/wimpysworld/deb-get/issues/2127) 💬 1 | [wimpysworld/deb-get](https://github.com/wimpysworld/deb-get) | 1.8k | 🟢 beginner | 2026-11-25 | [📘 guide](https://github.com/wimpysworld/deb-get/blob/HEAD/CONTRIBUTING.md) |
 | [App Request: XDM](https://github.com/wimpysworld/deb-get/issues/2131) 💬 1 | [wimpysworld/deb-get](https://github.com/wimpysworld/deb-get) | 1.8k | 🟢 beginner | 2026-11-25 | [📘 guide](https://github.com/wimpysworld/deb-get/blob/HEAD/CONTRIBUTING.md) |
-| [Add typing to grimoirelab-toolkit](https://github.com/chaoss/grimoirelab/issues/892) 💬 1 | [chaoss/grimoirelab](https://github.com/chaoss/grimoirelab) | 642 | 🟢 beginner | 2026-11-25 | [📘 guide](https://github.com/chaoss/grimoirelab/blob/HEAD/CONTRIBUTING.md) |
 | [App Request: Popamp](https://github.com/wimpysworld/deb-get/issues/2124) 💬 1 | [wimpysworld/deb-get](https://github.com/wimpysworld/deb-get) | 1.8k | 🟢 beginner | 2026-11-22 | [📘 guide](https://github.com/wimpysworld/deb-get/blob/HEAD/CONTRIBUTING.md) |
 | [App Request: netwatch](https://github.com/wimpysworld/deb-get/issues/2133) | [wimpysworld/deb-get](https://github.com/wimpysworld/deb-get) | 1.8k | 🟢 beginner | 2026-11-22 | [📘 guide](https://github.com/wimpysworld/deb-get/blob/HEAD/CONTRIBUTING.md) |
 | [signature help triggers unexpectedly](https://github.com/clangd/clangd/issues/2426) 💬 2 | [clangd/clangd](https://github.com/clangd/clangd) | 2.3k | 🟢 beginner | 2026-11-20 |  |
@@ -48,6 +46,7 @@
 | [Can you please do for GetX](https://github.com/evanca/flutter-ai-rules/issues/2) 💬 1 | [evanca/flutter-ai-rules](https://github.com/evanca/flutter-ai-rules) | 675 | 🟢 beginner | 2026-11-05 |  |
 | [App Request: PattN](https://github.com/wimpysworld/deb-get/issues/2090) | [wimpysworld/deb-get](https://github.com/wimpysworld/deb-get) | 1.8k | 🟢 beginner | 2026-11-04 | [📘 guide](https://github.com/wimpysworld/deb-get/blob/HEAD/CONTRIBUTING.md) |
 | [Windows MSI: VSCodium not starting after update (manual re-install or repair necessary)](https://github.com/VSCodium/vscodium/issues/2274) 💬 42 | [VSCodium/vscodium](https://github.com/VSCodium/vscodium) | 34.3k | 🟡 help wanted | 2026-11-03 | 🤖 disclose AI use · [📘 guide](https://github.com/VSCodium/vscodium/blob/HEAD/CONTRIBUTING.md) |
+| [Add Basalt](https://github.com/awesome-lists/awesome-bash/issues/119) 💬 1 | [awesome-lists/awesome-bash](https://github.com/awesome-lists/awesome-bash) | 10.2k | 🟡 help wanted | 2026-11-03 |  |
 | [\[Cinnamon 6.6.7\] Missing icons](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/issues/4239) 💬 2 | [PapirusDevelopmentTeam/papirus-icon-theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) | 8.2k | 🟡 help wanted | 2026-11-02 |  |
 | [Auto-continue block comments (draw aligned stars)](https://github.com/clangd/clangd/issues/174) 💬 20 | [clangd/clangd](https://github.com/clangd/clangd) | 2.3k | 🟡 help wanted | 2026-11-02 |  |
 | [Missing icon: PhotoCraft](https://github.com/SylEleuth/gruvbox-plus-icon-pack/issues/564) 💬 1 | [SylEleuth/gruvbox-plus-icon-pack](https://github.com/SylEleuth/gruvbox-plus-icon-pack) | 837 | 🟡 help wanted | 2026-11-02 |  |
@@ -118,6 +117,7 @@
 | ["🙋 问题交流。。。 \| 设备别名可否保存到/etc/config/wechatpush里](https://github.com/tty228/luci-app-wechatpush/issues/404) | [tty228/luci-app-wechatpush](https://github.com/tty228/luci-app-wechatpush) | 1.4k | 🟡 help wanted | 2026-06-30 |  |
 | [bug? Cancel/Exclude object in Fluidd not working correctly](https://github.com/OpenNeptune3D/OpenNept4une/issues/287) 💬 5 | [OpenNeptune3D/OpenNept4une](https://github.com/OpenNeptune3D/OpenNept4une) | 691 | 🟡 help wanted | 2026-06-28 |  |
 | [App Request: NymVPN](https://github.com/wimpysworld/deb-get/issues/1916) | [wimpysworld/deb-get](https://github.com/wimpysworld/deb-get) | 1.8k | 🟢 beginner | 2026-06-27 | [📘 guide](https://github.com/wimpysworld/deb-get/blob/HEAD/CONTRIBUTING.md) |
+| [App Request: TBlock & TBlock GUI](https://github.com/wimpysworld/deb-get/issues/1915) | [wimpysworld/deb-get](https://github.com/wimpysworld/deb-get) | 1.8k | 🟢 beginner | 2026-06-24 | [📘 guide](https://github.com/wimpysworld/deb-get/blob/HEAD/CONTRIBUTING.md) |
 | ["🙋 问题交流。。。 openwrt 25.12无法推送ipv4变动后的ip](https://github.com/tty228/luci-app-wechatpush/issues/402) 💬 1 | [tty228/luci-app-wechatpush](https://github.com/tty228/luci-app-wechatpush) | 1.4k | 🟡 help wanted | 2026-06-21 |  |
 | [Support non-DKMS modules built with a vendors external tools](https://github.com/dkms-project/dkms/issues/433) 💬 2 | [dkms-project/dkms](https://github.com/dkms-project/dkms) | 878 | 🟡 help wanted | 2026-06-17 |  |
 | ["🙋 问题交流。。。 \| \[Question\] Some question..."昨天刷新固件，把wrtbwmon删除了，推送的数据，还提有【 总流量 】](https://github.com/tty228/luci-app-wechatpush/issues/401) | [tty228/luci-app-wechatpush](https://github.com/tty228/luci-app-wechatpush) | 1.4k | 🟡 help wanted | 2026-06-12 |  |

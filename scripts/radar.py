@@ -136,7 +136,8 @@ class GitHub:
                 with urllib.request.urlopen(request, timeout=60) as response:
                     return json.load(response)
             except urllib.error.HTTPError as error:
-                wait = self._rate_limit_wait(error)
+                detail = error.read().decode(errors="replace")[:300]
+                wait = self._rate_limit_wait(error, detail)
                 if wait is not None and attempt < 5:
                     log(f"rate limited, waiting {wait:.0f}s")
                     time.sleep(wait)
@@ -144,7 +145,6 @@ class GitHub:
                 if error.code >= 500 and attempt < 5:
                     time.sleep(2**attempt)
                     continue
-                detail = error.read().decode(errors="replace")[:300]
                 raise RuntimeError(f"{method} {url} failed: {error.code} {detail}") from error
             except (urllib.error.URLError, TimeoutError) as error:
                 if attempt < 5:
@@ -154,7 +154,7 @@ class GitHub:
         raise RuntimeError(f"{method} {url} failed after retries")
 
     @staticmethod
-    def _rate_limit_wait(error: urllib.error.HTTPError) -> float | None:
+    def _rate_limit_wait(error: urllib.error.HTTPError, detail: str = "") -> float | None:
         if error.code not in (403, 429):
             return None
         headers = error.headers
@@ -162,7 +162,10 @@ class GitHub:
             return float(headers["Retry-After"]) + 1
         if headers.get("X-RateLimit-Remaining") == "0" and headers.get("X-RateLimit-Reset"):
             return max(1.0, float(headers["X-RateLimit-Reset"]) - time.time() + 2)
-        # Secondary rate limits come without reset headers.
+        # Secondary rate limits come without reset headers. A plain 403 (bad token, no access)
+        # is not a rate limit, so retrying it would only burn five minutes before failing.
+        if error.code == 403 and "rate limit" not in detail.lower():
+            return None
         return 60.0
 
     def search_repositories(self, query: str, page: int) -> dict[str, Any]:
@@ -1405,7 +1408,8 @@ def render_beginner_hub(
 
     def links(entries: list[tuple[str, str, int]]) -> list[str]:
         return [
-            f'      <li><a href="{href}">{html.escape(label)} <span class="muted">{count} issues</span></a></li>'
+            f'      <li><a href="{href}">{html.escape(label)} '
+            f'<span class="muted">{count} {"issue" if count == 1 else "issues"}</span></a></li>'
             for href, label, count in entries
         ]
 
@@ -1715,7 +1719,8 @@ def stats_archive_months() -> list[str]:
     folder = ROOT / STATS_ARCHIVE_DIR
     if not folder.is_dir():
         return []
-    return sorted(p.stem for p in folder.glob("[0-9][0-9][0-9][0-9]-[0-9][0-9].json"))
+    # The glob also matches names like 2026-13.json, which month_label would crash on.
+    return sorted(p.stem for p in folder.glob("[0-9][0-9][0-9][0-9]-[0-9][0-9].json") if 1 <= int(p.stem[5:]) <= 12)
 
 
 def save_stats_snapshot(snapshot: dict[str, Any]) -> list[str]:
@@ -1853,7 +1858,7 @@ def render_sitemap(
     """
     lastmod = generated_at[:10]
     urls = [SITE_URL, f"{SITE_URL}first-pr/", f"{SITE_URL}feeds/"]
-    if page_slugs or topic_slugs:
+    if page_slugs or topic_slugs or gsoc:
         urls.append(f"{SITE_URL}beginner/")
     urls += [f"{SITE_URL}beginner/{slug}/" for slug in page_slugs]
     urls += [f"{SITE_URL}beginner/topic/{slug}/" for slug in topic_slugs]

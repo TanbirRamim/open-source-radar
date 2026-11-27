@@ -1,10 +1,10 @@
 # Java issues
 
-**258** open issues (101 labeled for beginners) across **77** active Java projects.
+**255** open issues (99 labeled for beginners) across **77** active Java projects.
 
 [Java quickstart](../../languages/java.md) · [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/java.xml)
 
-> Updated automatically on **2026-11-26 16:09 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-11-27 01:48 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -13,17 +13,15 @@
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
 | [\[Feature\] Compatibility issue with Spring Boot 3.5.x + Spring Cloud 2025.0.0 + Spring Cloud Alibaba 2025.0.0.…](https://github.com/apache/dubbo/issues/15996) 💬 5 | [apache/dubbo](https://github.com/apache/dubbo) | 41.6k | 🟡 help wanted | 2026-11-26 | ✍️ CLA · [📘 guide](https://github.com/apache/dubbo/blob/HEAD/CONTRIBUTING.md) |
-| [\[Feature\]\[Connector-V2\] Support conditional updates in JDBC Sink with update_condition_sql](https://github.com/apache/seatunnel/issues/13407) 💬 6 | [apache/seatunnel](https://github.com/apache/seatunnel) | 9.8k | 🟡 help wanted | 2026-11-26 | ✍️ CLA |
-| [\[Bug\]\[Zeta\] updateStatus swallows terminal IMap write failures while isNoErrorCompleted trusts the IMap state](https://github.com/apache/seatunnel/issues/13324) 💬 7 | [apache/seatunnel](https://github.com/apache/seatunnel) | 9.8k | 🟡 help wanted | 2026-11-26 | ✍️ CLA |
+| [\[Bug\]\[Zeta\] updateStatus swallows terminal IMap write failures while isNoErrorCompleted trusts the IMap state](https://github.com/apache/seatunnel/issues/13324) 💬 8 | [apache/seatunnel](https://github.com/apache/seatunnel) | 9.8k | 🟡 help wanted | 2026-11-26 | ✍️ CLA |
 | [列实现纵向分组后的同组其他列数据进行求和并且合并单元格显示](https://github.com/jeecgboot/jimureport/issues/4849) 💬 1 | [jeecgboot/jimureport](https://github.com/jeecgboot/jimureport) | 8.6k | 🟡 help wanted | 2026-11-26 |  |
 | [A failed transition to INACTIVE is retried forever](https://github.com/camunda/camunda/issues/52251) 💬 3 | [camunda/camunda](https://github.com/camunda/camunda) | 4.4k | 🟢 beginner | 2026-11-26 | ✍️ CLA · [📘 guide](https://github.com/camunda/camunda/blob/HEAD/CONTRIBUTING.md) |
-| [Implement jstat -gc](https://github.com/eclipse-openj9/openj9/issues/10558) 💬 10 | [eclipse-openj9/openj9](https://github.com/eclipse-openj9/openj9) | 3.5k | 🟢 beginner | 2026-11-26 | 🤖 disclose AI use · ✍️ CLA · 🔏 DCO · [📘 guide](https://github.com/eclipse-openj9/openj9/blob/HEAD/CONTRIBUTING.md) |
+| [Implement jstat -gc](https://github.com/eclipse-openj9/openj9/issues/10558) 💬 12 | [eclipse-openj9/openj9](https://github.com/eclipse-openj9/openj9) | 3.5k | 🟢 beginner | 2026-11-26 | 🤖 disclose AI use · ✍️ CLA · 🔏 DCO · [📘 guide](https://github.com/eclipse-openj9/openj9/blob/HEAD/CONTRIBUTING.md) |
 | [TLC will leave last step off invariant error trace if it also triggers an exception](https://github.com/tlaplus/tlaplus/issues/810) 💬 1 | [tlaplus/tlaplus](https://github.com/tlaplus/tlaplus) | 3.3k | 🟡 help wanted | 2026-11-26 | 🔏 DCO · [📘 guide](https://github.com/tlaplus/tlaplus/blob/HEAD/CONTRIBUTING.md) |
 | [Cache '--credential_helpers' by hostname instead of full URI](https://github.com/bazelbuild/bazel/issues/32918) 💬 1 | [bazelbuild/bazel](https://github.com/bazelbuild/bazel) | 26.1k | 🟡 help wanted | 2026-11-25 | ✍️ CLA · [📘 guide](https://github.com/bazelbuild/bazel/blob/HEAD/CONTRIBUTING.md) |
 | [Python SDK generates requests to BigQuery API's method Tabledata:list with invalid argument alt](https://github.com/apache/beam/issues/19246) 💬 5 | [apache/beam](https://github.com/apache/beam) | 8.7k | 🟢 beginner | 2026-11-25 | ✍️ CLA · [📘 guide](https://github.com/apache/beam/blob/HEAD/CONTRIBUTING.md) |
 | [Vulnerability webhook notification has incorrect notification level](https://github.com/DependencyTrack/dependency-track/issues/1698) 💬 3 | [DependencyTrack/dependency-track](https://github.com/DependencyTrack/dependency-track) | 4.5k | 🟡 help wanted | 2026-11-25 | 🔏 DCO · [📘 guide](https://github.com/DependencyTrack/dependency-track/blob/HEAD/CONTRIBUTING.md) |
 | [\[BUG\] DescribeStandards ignores MaxResults and omits NextToken](https://github.com/floci-io/floci/issues/7607) 💬 1 | [floci-io/floci](https://github.com/floci-io/floci) | 32.1k | 🟢 beginner | 2026-11-24 | [📘 guide](https://github.com/floci-io/floci/blob/HEAD/CONTRIBUTING.md) |
-| [\[BUG\] API Gateway GetResources ignores limit and omits position](https://github.com/floci-io/floci/issues/8097) 💬 1 | [floci-io/floci](https://github.com/floci-io/floci) | 32.1k | 🟢 beginner | 2026-11-24 | [📘 guide](https://github.com/floci-io/floci/blob/HEAD/CONTRIBUTING.md) |
 | [\[BUG\] GetRestApis ignores limit and omits position](https://github.com/floci-io/floci/issues/7604) 💬 1 | [floci-io/floci](https://github.com/floci-io/floci) | 32.1k | 🟢 beginner | 2026-11-24 | [📘 guide](https://github.com/floci-io/floci/blob/HEAD/CONTRIBUTING.md) |
 | [NPE when closing StreamProcessor](https://github.com/camunda/camunda/issues/12200) 💬 4 | [camunda/camunda](https://github.com/camunda/camunda) | 4.4k | 🟢 beginner | 2026-11-24 | ✍️ CLA · [📘 guide](https://github.com/camunda/camunda/blob/HEAD/CONTRIBUTING.md) |
 | [LDAP group synchronization hangs indefinitely when Batch Size for Sync is set to 0](https://github.com/keycloak/keycloak/issues/55311) 💬 2 | [keycloak/keycloak](https://github.com/keycloak/keycloak) | 38.1k | 🟡 help wanted | 2026-11-23 | 🤖 disclose AI use · 🔏 DCO · [📘 guide](https://github.com/keycloak/keycloak/blob/HEAD/CONTRIBUTING.md) |
@@ -211,6 +209,8 @@
 | [\[Feature\]: Support proactive per-model rate limiting (e.g. max requests per minute with blocking wait)](https://github.com/agentscope-ai/agentscope-java/issues/974) 💬 4 | [agentscope-ai/agentscope-java](https://github.com/agentscope-ai/agentscope-java) | 6.5k | 🟡 help wanted | 2026-08-17 | [📘 guide](https://github.com/agentscope-ai/agentscope-java/blob/HEAD/CONTRIBUTING.md) |
 | [Spring gateway MVC - X-Foward-* header add if not present](https://github.com/spring-cloud/spring-cloud-gateway/issues/3240) 💬 2 | [spring-cloud/spring-cloud-gateway](https://github.com/spring-cloud/spring-cloud-gateway) | 4.9k | 🟡 help wanted | 2026-08-17 | ✍️ CLA · 🔏 DCO · [📘 guide](https://github.com/spring-cloud/spring-cloud-gateway/blob/HEAD/.github/CONTRIBUTING.md) |
 | [Support cast from varchar to day-time interval type](https://github.com/trinodb/trino/issues/4697) 💬 5 | [trinodb/trino](https://github.com/trinodb/trino) | 13.5k | 🟢 beginner | 2026-08-16 | ✍️ CLA · [📘 guide](https://github.com/trinodb/trino/blob/HEAD/.github/CONTRIBUTING.md) |
-| [Elasticsearch connector does not support a path prefix](https://github.com/trinodb/trino/issues/26930) 💬 6 | [trinodb/trino](https://github.com/trinodb/trino) | 13.5k | 🟢 beginner | 2026-08-15 | ✍️ CLA · [📘 guide](https://github.com/trinodb/trino/blob/HEAD/.github/CONTRIBUTING.md) |
+| [Ignore SET pkfield=excluded.pkfield in INSERT ON CONFLICT](https://github.com/crate/crate/issues/17834) 💬 3 | [crate/crate](https://github.com/crate/crate) | 4.5k | 🟡 help wanted | 2026-08-13 | ⚠️ AI restricted · ✍️ CLA · [📘 guide](https://github.com/crate/crate/blob/HEAD/CONTRIBUTING.rst) |
+| [Improve coverage reporting for partially covered expressions](https://github.com/tlaplus/tlaplus/issues/845) 💬 5 | [tlaplus/tlaplus](https://github.com/tlaplus/tlaplus) | 3.3k | 🟡 help wanted | 2026-08-13 | 🔏 DCO · [📘 guide](https://github.com/tlaplus/tlaplus/blob/HEAD/CONTRIBUTING.md) |
+| [Optimize jdk.internal.misc.Unsafe.storeStoreFence() into no-op on x86 platforms](https://github.com/eclipse-openj9/openj9/issues/19042) 💬 3 | [eclipse-openj9/openj9](https://github.com/eclipse-openj9/openj9) | 3.5k | 🟢 beginner | 2026-08-12 | 🤖 disclose AI use · ✍️ CLA · 🔏 DCO · [📘 guide](https://github.com/eclipse-openj9/openj9/blob/HEAD/CONTRIBUTING.md) |
 
-Showing the 200 most recently updated. See all 258 on the website.
+Showing the 200 most recently updated. See all 255 on the website.

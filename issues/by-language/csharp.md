@@ -1,10 +1,10 @@
 # C# issues
 
-**289** open issues (71 labeled for beginners) across **82** active C# projects.
+**287** open issues (71 labeled for beginners) across **82** active C# projects.
 
 [C# quickstart](../../languages/csharp.md) · [RSS feed](https://tanbirramim.github.io/open-source-radar/feeds/csharp.xml)
 
-> Updated automatically on **2026-11-26 16:09 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
+> Updated automatically on **2026-11-27 01:48 UTC**. Every issue listed here was open, unassigned and without an open or merged pull request when it was collected. Always read the issue and the project's contributing guide before you start.
 >
 > Prefer filters and search? Use the [website](https://tanbirramim.github.io/open-source-radar/). New here? Start with the [guide](../../guide/README.md).
 
@@ -12,8 +12,9 @@
 
 | Issue | Repository | Stars | Level | Updated | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| [Address race in PerformanceCounterLib](https://github.com/dotnet/runtime/issues/90803) 💬 11 | [dotnet/runtime](https://github.com/dotnet/runtime) | 18.5k | 🟡 help wanted | 2026-11-26 | ✍️ CLA · [📘 guide](https://github.com/dotnet/runtime/blob/HEAD/CONTRIBUTING.md) |
-| [\[API Proposal\]: Introduce an intrinsic for more efficient lambda generation](https://github.com/dotnet/runtime/issues/85014) 💬 55 | [dotnet/runtime](https://github.com/dotnet/runtime) | 18.5k | 🟡 help wanted | 2026-11-26 | ✍️ CLA · [📘 guide](https://github.com/dotnet/runtime/blob/HEAD/CONTRIBUTING.md) |
+| [Address race in PerformanceCounterLib](https://github.com/dotnet/runtime/issues/90803) 💬 11 | [dotnet/runtime](https://github.com/dotnet/runtime) | 18.5k | 🟡 help wanted | 2026-11-27 | ✍️ CLA · [📘 guide](https://github.com/dotnet/runtime/blob/HEAD/CONTRIBUTING.md) |
+| [\[API Proposal\]: Introduce an intrinsic for more efficient lambda generation](https://github.com/dotnet/runtime/issues/85014) 💬 56 | [dotnet/runtime](https://github.com/dotnet/runtime) | 18.5k | 🟡 help wanted | 2026-11-26 | ✍️ CLA · [📘 guide](https://github.com/dotnet/runtime/blob/HEAD/CONTRIBUTING.md) |
+| [Reflection on enums creates instances of open generic types](https://github.com/dotnet/runtime/issues/7976) 💬 19 | [dotnet/runtime](https://github.com/dotnet/runtime) | 18.5k | 🟡 help wanted | 2026-11-26 | ✍️ CLA · [📘 guide](https://github.com/dotnet/runtime/blob/HEAD/CONTRIBUTING.md) |
 | [Introduce suppressor for CA1001 (Types that own disposable fields should be disposable)](https://github.com/dotnet/BenchmarkDotNet/issues/3357) 💬 1 | [dotnet/BenchmarkDotNet](https://github.com/dotnet/BenchmarkDotNet) | 11.5k | 🟡 help wanted | 2026-11-26 | [📘 guide](https://github.com/dotnet/BenchmarkDotNet/blob/HEAD/.github/CONTRIBUTING.md) |
 | [Represent command-line arguments primarily as 'IReadOnlyList&lt;string&gt;' instead of 'string'](https://github.com/Tyrrrz/CliWrap/issues/358) | [Tyrrrz/CliWrap](https://github.com/Tyrrrz/CliWrap) | 5k | 🟢 beginner | 2026-11-26 |  |
 | [Option to constrain process lifetime to that of the parent](https://github.com/Tyrrrz/CliWrap/issues/356) | [Tyrrrz/CliWrap](https://github.com/Tyrrrz/CliWrap) | 5k | 🟢 beginner | 2026-11-26 |  |
@@ -42,7 +43,7 @@
 | [Feature Request: Semantic / Contextual text search using local embeddings (BERT or lightweight alternatives)](https://github.com/dnGrep/dnGrep/issues/1561) 💬 2 | [dnGrep/dnGrep](https://github.com/dnGrep/dnGrep) | 2.3k | 🟡 help wanted | 2026-11-24 |  |
 | [MudTextField cannot reliably submit on Enter key in Blazor MAUI Hybrid apps](https://github.com/MudBlazor/MudBlazor/issues/9136) 💬 8 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.7k | 🟡 help wanted | 2026-11-23 | [📘 guide](https://github.com/MudBlazor/MudBlazor/blob/HEAD/CONTRIBUTING.md) |
 | [Is it intended that the top video quality level ("1080p") sends the original file untouched instead of transc…](https://github.com/TelegramMessenger/Unigram/issues/3526) 💬 5 | [TelegramMessenger/Unigram](https://github.com/TelegramMessenger/Unigram) | 5.6k | 🟡 help wanted | 2026-11-23 | [📘 guide](https://github.com/TelegramMessenger/Unigram/blob/HEAD/CONTRIBUTING.md) |
-| [Variables set as a result of a custom handled command in ink can be skipped over](https://github.com/inkle/ink/issues/858) 💬 1 | [inkle/ink](https://github.com/inkle/ink) | 5k | 🟡 help wanted | 2026-11-23 |  |
+| [Variables set as a result of a custom handled command in ink can be skipped over](https://github.com/inkle/ink/issues/858) 💬 1 | [inkle/ink](https://github.com/inkle/ink) | 5.1k | 🟡 help wanted | 2026-11-23 |  |
 | [MudDataGrid: QuickFilter executes on every re-render causing performance issues](https://github.com/MudBlazor/MudBlazor/issues/9494) 💬 4 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.7k | 🟡 help wanted | 2026-11-22 | [📘 guide](https://github.com/MudBlazor/MudBlazor/blob/HEAD/CONTRIBUTING.md) |
 | [Design proposal: #47685 Add blob() method to JS side of Blazor DotNetStreamReference](https://github.com/dotnet/aspnetcore/issues/61826) 💬 15 | [dotnet/aspnetcore](https://github.com/dotnet/aspnetcore) | 38.5k | 🟢 beginner | 2026-11-20 | ✍️ CLA · [📘 guide](https://github.com/dotnet/aspnetcore/blob/HEAD/CONTRIBUTING.md) |
 | [IDE0044 incorrectly identifies generic types as immutable](https://github.com/dotnet/roslyn/issues/37981) 💬 14 | [dotnet/roslyn](https://github.com/dotnet/roslyn) | 20.8k | 🟡 help wanted | 2026-11-20 | ✍️ CLA · [📘 guide](https://github.com/dotnet/roslyn/blob/HEAD/CONTRIBUTING.md) |
@@ -131,7 +132,6 @@
 | [Reordering a 'ListView' whose item content has 'AllowDrop' reports 'DragItemsCompleted.DropResult = None'](https://github.com/unoplatform/uno/issues/25282) | [unoplatform/uno](https://github.com/unoplatform/uno) | 10.1k | 🟢 beginner | 2026-11-03 | [📘 guide](https://github.com/unoplatform/uno/blob/HEAD/CONTRIBUTING.md) |
 | [GraphicsView line stroke rendering inconsistent on Android compared to other platforms](https://github.com/dotnet/maui/issues/32465) 💬 1 | [dotnet/maui](https://github.com/dotnet/maui) | 23.3k | 🟢 beginner | 2026-11-02 | ✍️ CLA · [📘 guide](https://github.com/dotnet/maui/blob/HEAD/.github/CONTRIBUTING.md) |
 | [Duplicate object keys shouldn't result in an ArgumentException](https://github.com/dotnet/runtime/issues/71784) 💬 10 | [dotnet/runtime](https://github.com/dotnet/runtime) | 18.5k | 🟡 help wanted | 2026-11-01 | ✍️ CLA · [📘 guide](https://github.com/dotnet/runtime/blob/HEAD/CONTRIBUTING.md) |
-| [Annotate remaining libraries for Nullable Reference Types](https://github.com/dotnet/runtime/issues/90400) 💬 6 | [dotnet/runtime](https://github.com/dotnet/runtime) | 18.5k | 🟡 help wanted | 2026-11-01 | ✍️ CLA · [📘 guide](https://github.com/dotnet/runtime/blob/HEAD/CONTRIBUTING.md) |
 | [There are some unnecessary defensive copies for deconstructors and foreach with explicit implementation](https://github.com/dotnet/roslyn/issues/72008) 💬 4 | [dotnet/roslyn](https://github.com/dotnet/roslyn) | 20.8k | 🟡 help wanted | 2026-10-31 | ✍️ CLA · [📘 guide](https://github.com/dotnet/roslyn/blob/HEAD/CONTRIBUTING.md) |
 | [\[FEATURE REQUEST\]Add Customizable Key Remapping to the Editor via a Config File](https://github.com/stride3d/stride/issues/2478) | [stride3d/stride](https://github.com/stride3d/stride) | 8k | 🟢 beginner | 2026-10-31 | [📘 guide](https://github.com/stride3d/stride/blob/HEAD/.github/CONTRIBUTING.md) |
 | [Wiki - Add the below so we know how to update contributors in Readme](https://github.com/stride3d/stride/issues/1726) | [stride3d/stride](https://github.com/stride3d/stride) | 8k | 🟢 beginner | 2026-10-31 | [📘 guide](https://github.com/stride3d/stride/blob/HEAD/.github/CONTRIBUTING.md) |
@@ -154,7 +154,6 @@
 | [\[Feature\] Auto-restart Performers](https://github.com/BrighterCommand/Brighter/issues/954) 💬 5 | [BrighterCommand/Brighter](https://github.com/BrighterCommand/Brighter) | 2.5k | 🟡 help wanted | 2026-10-23 | ✍️ CLA · [📘 guide](https://github.com/BrighterCommand/Brighter/blob/HEAD/CONTRIBUTING.md) |
 | [\[Feature\] Enhance ASB Subscription Maintenance](https://github.com/BrighterCommand/Brighter/issues/2074) | [BrighterCommand/Brighter](https://github.com/BrighterCommand/Brighter) | 2.5k | 🟡 help wanted | 2026-10-23 | ✍️ CLA · [📘 guide](https://github.com/BrighterCommand/Brighter/blob/HEAD/CONTRIBUTING.md) |
 | [\[Feature\] Add support to Bulk post for SQS/SNS](https://github.com/BrighterCommand/Brighter/issues/3522) 💬 1 | [BrighterCommand/Brighter](https://github.com/BrighterCommand/Brighter) | 2.5k | 🟡 help wanted | 2026-10-23 | ✍️ CLA · [📘 guide](https://github.com/BrighterCommand/Brighter/blob/HEAD/CONTRIBUTING.md) |
-| [\[Docs\] WebAPI Samples Not Consistent On Sweeper and Archiver](https://github.com/BrighterCommand/Brighter/issues/4203) | [BrighterCommand/Brighter](https://github.com/BrighterCommand/Brighter) | 2.5k | 🟡 help wanted | 2026-10-23 | ✍️ CLA · [📘 guide](https://github.com/BrighterCommand/Brighter/blob/HEAD/CONTRIBUTING.md) |
 | [Support SNS fifo and SQS standard in pubsub configuration](https://github.com/BrighterCommand/Brighter/issues/4637) 💬 1 | [BrighterCommand/Brighter](https://github.com/BrighterCommand/Brighter) | 2.5k | 🟡 help wanted | 2026-10-23 | ✍️ CLA · [📘 guide](https://github.com/BrighterCommand/Brighter/blob/HEAD/CONTRIBUTING.md) |
 | [Add IconProperties to unify icon, size, color, and viewport settings](https://github.com/MudBlazor/MudBlazor/issues/7561) 💬 10 | [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | 10.7k | 🟡 help wanted | 2026-10-22 | [📘 guide](https://github.com/MudBlazor/MudBlazor/blob/HEAD/CONTRIBUTING.md) |
 | [Option to Normalize Results by an Additive Baseline](https://github.com/dotnet/BenchmarkDotNet/issues/431) 💬 5 | [dotnet/BenchmarkDotNet](https://github.com/dotnet/BenchmarkDotNet) | 11.5k | 🟢 beginner | 2026-10-21 | [📘 guide](https://github.com/dotnet/BenchmarkDotNet/blob/HEAD/.github/CONTRIBUTING.md) |
@@ -212,5 +211,6 @@
 | [Add unit tests to System.ComponentModel.Design.* components](https://github.com/dotnet/winforms/issues/715) 💬 5 | [dotnet/winforms](https://github.com/dotnet/winforms) | 4.9k | 🟢 beginner | 2026-09-24 | [📘 guide](https://github.com/dotnet/winforms/blob/HEAD/CONTRIBUTING.md) |
 | [Add unrestricted panning](https://github.com/Ruben2776/PicView/issues/381) | [Ruben2776/PicView](https://github.com/Ruben2776/PicView) | 3.8k | 🟡 help wanted | 2026-09-24 | [📘 guide](https://github.com/Ruben2776/PicView/blob/HEAD/CONTRIBUTING.md) |
 | [\[Feature Request\]: Reduce the wrapping around SDK Resolver messages when only one resolver is actually invoked](https://github.com/dotnet/msbuild/issues/10191) 💬 5 | [dotnet/msbuild](https://github.com/dotnet/msbuild) | 5.6k | 🟢 beginner | 2026-09-23 |  |
+| [Cursor flickering on Wayland: Repeated proximity-out/in events while hovering stationary.](https://github.com/OpenTabletDriver/OpenTabletDriver/issues/4936) 💬 17 | [OpenTabletDriver/OpenTabletDriver](https://github.com/OpenTabletDriver/OpenTabletDriver) | 4.3k | 🟡 help wanted | 2026-09-22 | ⚠️ AI restricted · [📘 guide](https://github.com/OpenTabletDriver/OpenTabletDriver/blob/HEAD/CONTRIBUTING.md) |
 
-Showing the 200 most recently updated. See all 289 on the website.
+Showing the 200 most recently updated. See all 287 on the website.
