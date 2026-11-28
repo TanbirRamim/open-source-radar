@@ -35,7 +35,11 @@ is:issue is:open no:assignee -linked:pr label:"good first issue" language:python
 3. **التعليقات.** ابحث عن عبارات مثل "I'd like to work on this" أو "working on it". إن كان الحجز حديثًا (أسبوعين تقريبًا) ولم يختفِ صاحبه، فاختر مشكلة أخرى.
 4. **ابحث في طلبات Pull Request المفتوحة** عن رقم المشكلة أو كلمات من عنوانها. فليس كل PR يربط المشكلة ربطًا صحيحًا.
 
-إن كان الحجز قديمًا واختفى صاحبه، فلا بأس عادةً أن تسأل بلطف: "Hi @name, are you still working on this? If not, I'd be happy to pick it up." ثم انتظر بضعة أيام.
+إن كان الحجز قديمًا واختفى صاحبه، فلا بأس عادةً أن تسأل بلطف بتعليق كهذا، ثم تنتظر بضعة أيام:
+
+```text
+Hi @name, are you still working on this? If not, I'd be happy to pick it up.
+```
 
 ## هل تستطيع إنهاءها؟
 
