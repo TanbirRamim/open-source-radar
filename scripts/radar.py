@@ -1892,6 +1892,13 @@ def render_projects(
         by_language.setdefault(repo.get("language") or "Other", []).append((full_name, repo))
     ordered = sorted(by_language.items(), key=lambda entry: len(entry[1]), reverse=True)
     slugs: dict[str, str] = config["languages"]
+    # GitHub removes punctuation from headings, so C, C++ and C# collide.
+    anchors = {
+        language: f"language-{slugs[language]}"
+        if language in slugs
+        else re.sub(r"[^a-z0-9 -]", "", language.lower()).replace(" ", "-")
+        for language in by_language
+    }
 
     lines = [
         "# Projects welcoming contributors",
@@ -1908,15 +1915,14 @@ def render_projects(
         "",
         "## Languages",
         "",
-        " · ".join(
-            f"[{language} ({len(entries)})](#{re.sub(r'[^a-z0-9 -]', '', language.lower()).replace(' ', '-')})"
-            for language, entries in ordered
-        ),
+        " · ".join(f"[{language} ({len(entries)})](#{anchors[language]})" for language, entries in ordered),
         "",
     ]
     for language, entries in ordered:
         entries.sort(key=lambda entry: entry[1]["stars"], reverse=True)
         issues_link = f" · [open issues](../issues/by-language/{slugs[language]}.md)" if language in slugs else ""
+        if language in slugs:
+            lines += [f'<a name="{anchors[language]}"></a>', ""]
         lines += [
             f"## {language}",
             "",
