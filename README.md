@@ -144,7 +144,6 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md) first, and see the [Code of Conduct](COD
 ### Contributors
 
 Thank you to everyone who has made the radar better:
-- [@snehify](https://github.com/snehify): a sun icon for light mode on the theme toggle ([#448](https://github.com/TanbirRamim/open-source-radar/pull/448))
 
 - [@Nomee-123](https://github.com/Nomee-123): the `/` shortcut that focuses the website search ([#10](https://github.com/TanbirRamim/open-source-radar/pull/10))
 - [@yyashikasharmaa](https://github.com/yyashikasharmaa): the Robotics topic ([#11](https://github.com/TanbirRamim/open-source-radar/pull/11))
@@ -257,12 +256,14 @@ Thank you to everyone who has made the radar better:
 - [@saamcyrilpmi-cloud](https://github.com/saamcyrilpmi-cloud): the Vietnamese chapter 4 ([#498](https://github.com/TanbirRamim/open-source-radar/pull/498))
 - [@Niyam-Paneru](https://github.com/Niyam-Paneru): tests for GitHub API retries and rate limits ([#511](https://github.com/TanbirRamim/open-source-radar/pull/511))
 - [@nl-code-max](https://github.com/nl-code-max): month label tests at the year boundary ([#513](https://github.com/TanbirRamim/open-source-radar/pull/513))
-- [@aahanaahir22](https://github.com/aahanaahir22): the beginner hub in GSoC-only sitemaps ([#514](https://github.com/TanbirRamim/open-source-radar/pull/514))
+- [@aahanaahir22](https://github.com/aahanaahir22): the beginner hub in GSoC-only sitemaps ([#514](https://github.com/TanbirRamim/open-source-radar/pull/514)) and a test for the 30-day stats cutoff ([#512](https://github.com/TanbirRamim/open-source-radar/pull/512))
 - [@Matuto-7](https://github.com/Matuto-7): rejecting invalid month values ([#517](https://github.com/TanbirRamim/open-source-radar/pull/517))
 - [@nikolailic-dev](https://github.com/nikolailic-dev): started the Serbian translation of the guide with chapter 1 ([#509](https://github.com/TanbirRamim/open-source-radar/pull/509))
 - [@himanshu180105](https://github.com/himanshu180105): Polish translation of chapter 4 ([#515](https://github.com/TanbirRamim/open-source-radar/pull/515))
 - [@ChandreshwarNathTripathi](https://github.com/ChandreshwarNathTripathi): Bengali translation of chapter 10 ([#516](https://github.com/TanbirRamim/open-source-radar/pull/516))
 - [@NawJar](https://github.com/NawJar): Arabic translation of chapter 3 ([#518](https://github.com/TanbirRamim/open-source-radar/pull/518))
+- [@snehify](https://github.com/snehify): a sun icon for light mode on the theme toggle ([#448](https://github.com/TanbirRamim/open-source-radar/pull/448))
+- [@sulimanxo0](https://github.com/sulimanxo0): the Arabic translation of chapter 4 ([#526](https://github.com/TanbirRamim/open-source-radar/pull/526))
 
 Your name goes here with your first merged pull request. And if the radar helped you, please give it a star: it's the simplest way to help other newcomers find it.
 
