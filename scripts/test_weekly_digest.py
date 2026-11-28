@@ -93,6 +93,15 @@ class WeeklyDigestTests(unittest.TestCase):
     def test_brackets_in_titles_are_escaped(self):
         self.assertEqual(wd.escape("[bug] x"), "\\[bug\\] x")
 
+    def test_trailing_backslash_in_title_is_escaped_in_the_link(self):
+        raw_title = "Crash in [path] C:" + chr(92)
+        item = issue("b/big", 2)
+        item["title"] = raw_title
+        payload = self.payload([item], {"b/big": repo(1234)})
+        _, body = wd.render(wd.pick(payload, TODAY), payload, TODAY)
+        expected_label = r"Crash in \[path\] C:" + chr(92) * 2
+        self.assertIn(f"[{expected_label}](https://github.com/b/big/issues/2)", body)
+
     def test_render(self):
         payload = self.payload([issue("b/big", 2)], {"b/big": repo(1234)})
         title, body = wd.render(wd.pick(payload, TODAY), payload, TODAY)
