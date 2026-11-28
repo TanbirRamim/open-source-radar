@@ -2176,12 +2176,13 @@ class HelperTests(unittest.TestCase):
             with self.subTest(month=month), self.assertRaises(ValueError):
                 radar.month_label(month)
 
-    def test_archive_skips_files_named_after_impossible_months(self):
+    def test_archive_skips_invalid_snapshot_entries(self):
         with tempfile.TemporaryDirectory() as tmp, patch.object(radar, "ROOT", Path(tmp)):
             archive = Path(tmp) / radar.STATS_ARCHIVE_DIR
             archive.mkdir(parents=True)
-            for name in ("2026-11.json", "2026-13.json", "2026-00.json"):
+            for name in ("2026-11.json", "2026-13.json", "2026-00.json", "0000-01.json"):
                 (archive / name).write_text("{}", encoding="utf-8")
+            (archive / "2026-12.json").mkdir()
             self.assertEqual(radar.stats_archive_months(), ["2026-11"])
 
 

@@ -1719,8 +1719,12 @@ def stats_archive_months() -> list[str]:
     folder = ROOT / STATS_ARCHIVE_DIR
     if not folder.is_dir():
         return []
-    # The glob also matches names like 2026-13.json, which month_label would crash on.
-    return sorted(p.stem for p in folder.glob("[0-9][0-9][0-9][0-9]-[0-9][0-9].json") if 1 <= int(p.stem[5:]) <= 12)
+    # Only files with calendar-valid months can be rendered as snapshots.
+    return sorted(
+        path.stem
+        for path in folder.glob("[0-9][0-9][0-9][0-9]-[0-9][0-9].json")
+        if path.is_file() and path.stem[:4] != "0000" and 1 <= int(path.stem[5:]) <= 12
+    )
 
 
 def save_stats_snapshot(snapshot: dict[str, Any]) -> list[str]:
