@@ -1719,12 +1719,20 @@ def stats_archive_months() -> list[str]:
     folder = ROOT / STATS_ARCHIVE_DIR
     if not folder.is_dir():
         return []
-    # Only files with calendar-valid months can be rendered as snapshots.
     return sorted(
         path.stem
         for path in folder.glob("[0-9][0-9][0-9][0-9]-[0-9][0-9].json")
-        if path.is_file() and path.stem[:4] != "0000" and 1 <= int(path.stem[5:]) <= 12
+        if path.is_file() and _renderable_month(path.stem)
     )
+
+
+def _renderable_month(month: str) -> bool:
+    # Ask month_label itself, so the archive can never list a month the renderer rejects.
+    try:
+        month_label(month)
+    except ValueError:
+        return False
+    return True
 
 
 def save_stats_snapshot(snapshot: dict[str, Any]) -> list[str]:
