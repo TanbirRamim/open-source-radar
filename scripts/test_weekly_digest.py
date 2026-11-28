@@ -85,6 +85,13 @@ class WeeklyDigestTests(unittest.TestCase):
         payload = self.payload([issue(f"o/r{n}", n) for n in range(20)], repos)
         self.assertEqual(len(wd.pick(payload, TODAY)), wd.PICKS)
 
+    def test_readable_title_checks_length_after_removing_tags(self):
+        self.assertFalse(wd.readable_title("[good first issue] [help]"))
+        self.assertFalse(wd.readable_title("Fix typo"))
+        self.assertTrue(wd.readable_title("Add a dark mode toggle"))
+        self.assertTrue(wd.readable_title("[docs] Read the FAQ"))
+        self.assertFalse(wd.readable_title("[docs] See the FAQ"))
+
     def test_skips_template_and_bot_titles(self):
         self.assertFalse(wd.readable_title("[ACTION]"))
         self.assertFalse(wd.readable_title("Link Checker Report"))
