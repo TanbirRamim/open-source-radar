@@ -60,6 +60,19 @@ class WeeklyDigestTests(unittest.TestCase):
         )
         self.assertEqual([i["number"] for i in wd.pick(payload, TODAY)], [2])
 
+    def test_picks_the_newest_eligible_issue_for_each_project(self):
+        payload = self.payload(
+            [
+                issue("a/large", 1, created="2026-10-27"),
+                issue("a/large", 2, created="2026-10-31"),
+                issue("a/large", 3, created="2026-11-01", closed_pr=True),
+                issue("b/small", 4, created="2026-11-01"),
+            ],
+            {"a/large": repo(1000), "b/small": repo(10)},
+        )
+
+        self.assertEqual([item["number"] for item in wd.pick(payload, TODAY)], [2, 4])
+
     def test_caps_the_number_of_picks(self):
         repos = {f"o/r{n}": repo(n) for n in range(20)}
         payload = self.payload([issue(f"o/r{n}", n) for n in range(20)], repos)

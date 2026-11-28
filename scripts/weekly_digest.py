@@ -56,7 +56,14 @@ def pick(payload: dict, today: dt.date) -> list[dict]:
         and readable_title(issue["title"])
         and merges_outside_prs(repositories[issue["repo"]])
     ]
-    candidates.sort(key=lambda issue: (-repositories[issue["repo"]]["stars"], issue["repo"], issue["number"]))
+    candidates.sort(
+        key=lambda issue: (
+            -repositories[issue["repo"]]["stars"],
+            issue["repo"],
+            -dt.date.fromisoformat(issue["created"]).toordinal(),
+            issue["number"],
+        )
+    )
     picks, seen = [], set()
     for issue in candidates:
         if issue["repo"] in seen:
