@@ -2775,3 +2775,18 @@ class StatsSnapshotTests(unittest.TestCase):
             [{"language": "Python", "issues": 3, "median_age_days": 30, "opened_last_30_days": 2}],
         )
         self.assertEqual(snapshot["maintainer_replied_share"], 0.333)
+
+    def test_render_counts_day_thirty_as_recent(self):
+        # Ages 29, 30 and 31 days on 2026-11-24, so the top-level count goes through render_stats_page too.
+        repositories = {"example/project": {"language": "Python"}}
+        issues = [
+            {"repo": "example/project", "level": "beginner", "created": created, "maintainer_replied": i == 0}
+            for i, created in enumerate(["2026-10-26", "2026-10-25", "2026-10-24"])
+        ]
+        with tempfile.TemporaryDirectory() as tmp, patch.object(radar, "ROOT", Path(tmp)):
+            self.assertTrue(radar.render_stats_page(repositories, issues, "2026-11-24T10:00:00Z"))
+            snapshot = json.loads((Path(tmp) / "site" / "stats" / "stats.json").read_text(encoding="utf-8"))
+        self.assertEqual(snapshot["opened_last_30_days"], 2)
+        self.assertEqual(snapshot["median_age_days"], 30)
+        self.assertEqual(snapshot["by_language"][0]["opened_last_30_days"], 2)
+        self.assertEqual(snapshot["maintainer_replied_share"], 0.333)
