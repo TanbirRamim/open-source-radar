@@ -1892,13 +1892,17 @@ def render_projects(
         by_language.setdefault(repo.get("language") or "Other", []).append((full_name, repo))
     ordered = sorted(by_language.items(), key=lambda entry: len(entry[1]), reverse=True)
     slugs: dict[str, str] = config["languages"]
-    # GitHub removes punctuation from headings, so C, C++ and C# collide.
-    anchors = {
-        language: f"language-{slugs[language]}"
-        if language in slugs
-        else re.sub(r"[^a-z0-9 -]", "", language.lower()).replace(" ", "-")
-        for language in by_language
-    }
+    # GitHub removes punctuation from headings, so C, C++ and C# collide. Every section gets its
+    # own anchor; languages missing from the config get a slug that keeps + and # apart.
+    anchors: dict[str, str] = {}
+    for language in by_language:
+        slug = slugs.get(language) or re.sub(
+            r"[^a-z0-9]+", "-", language.lower().replace("+", "plus").replace("#", "sharp")
+        ).strip("-")
+        anchor, n = f"language-{slug or 'other'}", 2
+        while anchor in anchors.values():
+            anchor, n = f"language-{slug or 'other'}-{n}", n + 1
+        anchors[language] = anchor
 
     lines = [
         "# Projects welcoming contributors",
@@ -1921,8 +1925,7 @@ def render_projects(
     for language, entries in ordered:
         entries.sort(key=lambda entry: entry[1]["stars"], reverse=True)
         issues_link = f" · [open issues](../issues/by-language/{slugs[language]}.md)" if language in slugs else ""
-        if language in slugs:
-            lines += [f'<a name="{anchors[language]}"></a>', ""]
+        lines += [f'<a name="{anchors[language]}"></a>', ""]
         lines += [
             f"## {language}",
             "",
