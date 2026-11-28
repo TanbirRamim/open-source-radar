@@ -33,7 +33,8 @@ def readable_title(title: str) -> bool:
 
 
 def escape(title: str) -> str:
-    return re.sub(r"([\[\]])", r"\\\1", title)
+    escaped = title.replace("\\", "\\\\")
+    return re.sub(r"([\[\]])", r"\\\1", escaped)
 
 
 def merges_outside_prs(repo: dict) -> bool:
