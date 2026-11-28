@@ -61,7 +61,8 @@ def pick(payload: dict, today: dt.date) -> list[dict]:
             -repositories[issue["repo"]]["stars"],
             issue["repo"],
             -dt.date.fromisoformat(issue["created"]).toordinal(),
-            issue["number"],
+            # Same day: the higher number was opened later.
+            -issue["number"],
         )
     )
     picks, seen = [], set()
