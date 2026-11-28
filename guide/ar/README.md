@@ -9,7 +9,7 @@
 | 1   | [لماذا تساهم، وما الذي يُعدّ مساهمة؟](01-why-contribute.md)             |
 | 2   | [إعداد أدواتك](02-setup.md)                                             |
 | 3   | [اختيار مشروع](03-choose-a-project.md)                                  |
-| 4   | [العثور على مشكلة يمكنك إنهاؤها](../04-find-an-issue.md) (English)      |
+| 4   | [العثور على مشكلة يمكنك إنهاؤها](04-find-an-issue.md)                   |
 | 5   | [أول Pull Request خطوة بخطوة](../05-first-pull-request.md) (English)    |
 | 6   | [قواعد تتحقق منها قبل البدء](../06-rules-before-you-start.md) (English) |
 | 7   | [التواصل مع المشرفين](../07-communication.md) (English)                 |

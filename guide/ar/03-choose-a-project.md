@@ -58,4 +58,4 @@ https://github.com/OWNER/REPO/pulls?q=is:pr+is:merged+-author:app/dependabot+sor
 - [ ] لديه دليل مساهمة، وقد قرأته.
 - [ ] أستطيع بناءه وتشغيله على جهازي (يشرح الفصل 5 ذلك).
 
-التالي: [العثور على مشكلة يمكنك إنهاؤها](../04-find-an-issue.md) (English)
+التالي: [العثور على مشكلة يمكنك إنهاؤها](04-find-an-issue.md)
